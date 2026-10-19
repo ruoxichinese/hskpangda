@@ -1,0 +1,41 @@
+{
+  "id": 17,
+  "level": "hsk3",
+  "status": "draft",
+  "title": {
+    "zh": "我要多向认真的人学习",
+    "pinyin": "Wǒ yào duō xiàng rènzhēn de rén xuéxí",
+    "vi": "Tôi phải học hỏi nhiều hơn từ người chăm chỉ"
+  },
+  "grammarTopics_vi": [
+    "Giới từ 向",
+    "Câu hỏi tu từ 不是……吗？",
+    "Câu tăng tiến ……，更……",
+    "Câu điều kiện 只有……，才……"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Giới từ 向",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu hỏi tu từ 不是……吗？",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu tăng tiến ……，更……",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Câu điều kiện 只有……，才……",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

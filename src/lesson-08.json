@@ -1,31 +1,37 @@
 {
   "id": 8,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "我爸爸也在医院工作",
-    "pinyin": "Wǒ bàba yě zài yīyuàn gōngzuò",
-    "vi": "Bố tôi cũng làm việc ở bệnh viện"
+    "zh": "今天我出院了",
+    "pinyin": "Jīntiān wǒ chū yuàn le",
+    "vi": "Hôm nay tôi được ra viện"
   },
   "grammarTopics_vi": [
-    "Từ phương vị",
-    "Giới từ 在",
-    "Động từ năng nguyện 能"
+    "Nghĩa mở rộng của bổ ngữ xu hướng (1)",
+    "Từ ly hợp (2)",
+    "Bổ ngữ thời lượng (2)",
+    "Cấu trúc ……以前/以后/前/后"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Từ phương vị",
+      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (1)",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Giới từ 在",
+      "vi": "Từ ly hợp (2)",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Động từ năng nguyện 能",
+      "vi": "Bổ ngữ thời lượng (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Cấu trúc ……以前/以后/前/后",
       "doneWhen": []
     }
   ],

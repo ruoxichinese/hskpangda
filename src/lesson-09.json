@@ -1,31 +1,31 @@
 {
   "id": 9,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "我明天上午在学校学习",
-    "pinyin": "Wǒ míngtiān shàngwǔ zài xuéxiào xuéxí",
-    "vi": "Sáng mai tôi học ở trường"
+    "zh": "打不好没关系",
+    "pinyin": "Dǎ bu hǎo méi guānxi",
+    "vi": "Chơi chưa giỏi cũng không sao"
   },
   "grammarTopics_vi": [
-    "Câu tồn hiện (1)",
-    "Thứ tự thời gian + nơi chốn làm trạng ngữ",
-    "Tiền tố số thứ tự 第"
+    "Câu mục đích 为了……，……",
+    "Bổ ngữ khả năng",
+    "Cấu trúc 越A越B"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu tồn hiện (1)",
+      "vi": "Câu mục đích 为了……，……",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Thứ tự thời gian + nơi chốn làm trạng ngữ",
+      "vi": "Bổ ngữ khả năng",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Tiền tố số thứ tự 第",
+      "vi": "Cấu trúc 越A越B",
       "doneWhen": []
     }
   ],

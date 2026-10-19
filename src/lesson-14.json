@@ -1,31 +1,31 @@
 {
   "id": 14,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "我看了一个电影",
-    "pinyin": "Wǒ kànle yí ge diànyǐng",
-    "vi": "Tôi đã xem một bộ phim"
+    "zh": "这本书被别人借走了",
+    "pinyin": "Zhè běn shū bèi biérén jièzǒu le",
+    "vi": "Quyển sách này bị người khác mượn mất rồi"
   },
   "grammarTopics_vi": [
-    "Trợ từ 了 (2)",
-    "Từ ly hợp (1)",
-    "Phó từ phạm vi 都"
+    "Câu bị động (1)",
+    "Câu nối tiếp 先……，再/然后……",
+    "Cấu trúc ×什么（啊）"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Trợ từ 了 (2)",
+      "vi": "Câu bị động (1)",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Từ ly hợp (1)",
+      "vi": "Câu nối tiếp 先……，再/然后……",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Phó từ phạm vi 都",
+      "vi": "Cấu trúc ×什么（啊）",
       "doneWhen": []
     }
   ],

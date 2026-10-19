@@ -1,167 +1,41 @@
 {
   "id": 7,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "我晚上六点半下班",
-    "pinyin": "Wǒ wǎnshang liù diǎn bàn xiàbān",
-    "vi": "Tôi tan làm lúc 6 rưỡi tối"
+    "zh": "那条裙子比短裤更好看",
+    "pinyin": "Nà tiáo qúnzi bǐ duǎnkù gèng hǎokàn",
+    "vi": "Chiếc váy đó đẹp hơn quần soóc"
   },
   "grammarTopics_vi": [
-    "Cách nói thời gian (2)",
-    "Trợ từ 吧 (1)",
-    "Vị trí phó từ và từ chỉ thời gian làm trạng ngữ",
-    "Trợ từ 呢 (2)",
-    "Hệ thống chữ Hán"
+    "Câu liên động (2)",
+    "Câu so sánh (10)",
+    "Bổ ngữ mức độ (3)",
+    "Câu tăng tiến 不但……，而且……"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Cách nói thời gian (2)",
+      "vi": "Câu liên động (2)",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Trợ từ 吧 (1)",
+      "vi": "Câu so sánh (10)",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Vị trí phó từ và từ chỉ thời gian làm trạng ngữ",
+      "vi": "Bổ ngữ mức độ (3)",
       "doneWhen": []
     },
     {
       "id": "o4",
-      "vi": "Trợ từ 呢 (2)",
+      "vi": "Câu tăng tiến 不但……，而且……",
       "doneWhen": []
-    },
-    {
-      "id": "o5",
-      "vi": "Hệ thống chữ Hán",
-      "doneWhen": []
-    },
-    {
-      "id": "oh",
-      "vi": "Hiểu nét cơ bản và quy tắc viết chữ Hán",
-      "doneWhen": [
-        "hanzi"
-      ]
     }
   ],
   "warmup": [],
   "texts": [],
-  "exercises": [],
-  "hanziIntro": {
-    "strokes": [
-      {
-        "name_vi": "Ngang",
-        "zh": "横 héng",
-        "sample": "一"
-      },
-      {
-        "name_vi": "Sổ (dọc)",
-        "zh": "竖 shù",
-        "sample": "十"
-      },
-      {
-        "name_vi": "Phẩy",
-        "zh": "撇 piě",
-        "sample": "人"
-      },
-      {
-        "name_vi": "Mác",
-        "zh": "捺 nà",
-        "sample": "八"
-      },
-      {
-        "name_vi": "Chấm",
-        "zh": "点 diǎn",
-        "sample": "六"
-      },
-      {
-        "name_vi": "Hất",
-        "zh": "提 tí",
-        "sample": "我"
-      },
-      {
-        "name_vi": "Ngang gập",
-        "zh": "横折 héngzhé",
-        "sample": "口"
-      },
-      {
-        "name_vi": "Sổ móc",
-        "zh": "竖钩 shùgōu",
-        "sample": "小"
-      }
-    ],
-    "rules": [
-      {
-        "title_vi": "Ngang trước, sổ sau",
-        "body_vi": "Nét ngang viết trước nét sổ khi chúng cắt nhau.",
-        "example": "十"
-      },
-      {
-        "title_vi": "Phẩy trước, mác sau",
-        "body_vi": "Nét phẩy (xiên trái) viết trước nét mác (xiên phải).",
-        "example": "人"
-      },
-      {
-        "title_vi": "Trên trước, dưới sau",
-        "body_vi": "Viết từ trên xuống dưới.",
-        "example": "三"
-      },
-      {
-        "title_vi": "Trái trước, phải sau",
-        "body_vi": "Viết bộ bên trái rồi đến bên phải.",
-        "example": "你"
-      },
-      {
-        "title_vi": "Ngoài trước, trong sau",
-        "body_vi": "Viết khung ngoài trước rồi phần bên trong.",
-        "example": "月"
-      },
-      {
-        "title_vi": "Vào nhà rồi đóng cửa",
-        "body_vi": "Với chữ có khung kín, viết khung, viết phần trong, rồi mới đóng nét đáy.",
-        "example": "国"
-      },
-      {
-        "title_vi": "Giữa trước, hai bên sau",
-        "body_vi": "Phần giữa viết trước, hai bên đối xứng viết sau.",
-        "example": "小"
-      }
-    ],
-    "radicals": [
-      {
-        "r": "亻",
-        "meaning_vi": "người (nhân đứng)",
-        "examples": "你 · 们 · 他"
-      },
-      {
-        "r": "女",
-        "meaning_vi": "phụ nữ",
-        "examples": "她 · 妈 · 姐"
-      },
-      {
-        "r": "口",
-        "meaning_vi": "miệng",
-        "examples": "吗 · 叫 · 哪"
-      },
-      {
-        "r": "讠",
-        "meaning_vi": "lời nói",
-        "examples": "谁 · 请 · 认识"
-      },
-      {
-        "r": "氵",
-        "meaning_vi": "nước (ba chấm thủy)",
-        "examples": "没 · 法 · 汉"
-      },
-      {
-        "r": "心 / 忄",
-        "meaning_vi": "tim, tình cảm",
-        "examples": "您 · 想 · 忙"
-      }
-    ]
-  }
+  "exercises": []
 }

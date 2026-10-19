@@ -1,56 +1,351 @@
 {
-  "lessonId": 1,
-  "level": "hsk1",
-  "status": "ready",
-  "sections": [
+ "lessonId": 1,
+ "level": "hsk3",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Ngày đầu ở Bắc Kinh",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Ngày đầu ở Bắc Kinh",
+    "zh": "上个星期五我和李文到了北京。下飞机以后，我发现我的护照不见了。我很着急，因为护照很重要。李文说：“别着急，我们去服务台问问。”服务台的人帮助我们找了半个小时，他们在飞机上找到了我的护照。走出机场，我看见一个短头发的年轻女人在等我们，她就是王老师的姐姐王一雪。她看上去和照片上一样年轻。",
+    "vi": "Thứ sáu tuần trước mình và Lý Văn đến Bắc Kinh. Xuống máy bay, mình phát hiện hộ chiếu không thấy đâu. Mình rất sốt ruột vì hộ chiếu rất quan trọng. Lý Văn nói: “Đừng sốt ruột, mình ra quầy dịch vụ hỏi xem.” Nhân viên quầy giúp bọn mình tìm nửa tiếng, họ tìm thấy hộ chiếu của mình trên máy bay. Ra khỏi sân bay, mình thấy một người phụ nữ trẻ tóc ngắn đang đợi bọn mình – đó là chị Vương Nhất Tuyết, chị gái cô Vương. Trông chị trẻ y như trong ảnh."
+   },
+   "questions": [
     {
-      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Buổi học đầu tiên",
-      "instructions_vi": "Đọc đoạn hội thoại rồi trả lời câu hỏi.",
-      "passage": {
-        "title_vi": "Buổi học đầu tiên",
-        "zh": "王老师：大家好！\n学生们：王老师，您好！\n王老师：小语，你好！\n小语：王老师好！同学们好！\n学生们：小语，你好！\n……\n学生们：谢谢王老师！\n王老师：不客气！同学们，再见！\n学生们：老师，再见！",
-        "vi": "Cô Vương: Chào cả lớp!\nCả lớp: Chúng em chào cô Vương ạ!\nCô Vương: Chào Tiểu Ngữ!\nTiểu Ngữ: Em chào cô Vương! Chào các bạn!\nCả lớp: Chào Tiểu Ngữ!\n…\nCả lớp: Chúng em cảm ơn cô Vương!\nCô Vương: Không có gì! Tạm biệt các em!\nCả lớp: Chúng em chào cô ạ!"
-      },
-      "questions": [
-        { "id": "a1", "kind": "mcq", "prompt_vi": "Cô Vương chào ai đầu tiên?", "options": ["大家", "小语", "王老师"], "answer": 0, "explain_vi": "Câu đầu tiên cô nói là 大家好！ – chào cả lớp." },
-        { "id": "a2", "kind": "mcq", "prompt_vi": "Tiểu Ngữ chào các bạn học sinh bằng câu nào?", "options": ["您好！", "同学们好！", "再见！"], "answer": 1, "explain_vi": "小语 nói: 同学们好！" },
-        { "id": "a3", "kind": "mcq", "prompt_vi": "Ai nói 不客气？", "options": ["小语", "学生们", "王老师"], "answer": 2, "explain_vi": "Học sinh cảm ơn, cô Vương đáp 不客气." },
-        { "id": "a4", "kind": "truefalse", "statement_zh": "学生们：谢谢王老师！", "statement_vi": "Học sinh cảm ơn cô Vương.", "answer": true, "explain_vi": "Đúng, cuối buổi cả lớp nói 谢谢王老师！" },
-        { "id": "a5", "kind": "truefalse", "statement_zh": "同学们，再见！", "statement_vi": "Câu này do học sinh nói với cô giáo.", "answer": false, "explain_vi": "Chính cô Vương nói câu này với học sinh. Học sinh đáp 老师，再见！" },
-        { "id": "a6", "kind": "truefalse", "statement_zh": "学生们：王老师，您好！", "statement_vi": "Học sinh dùng cách chào lịch sự với cô giáo.", "answer": true, "explain_vi": "您 là đại từ kính trọng – rất lịch sự." }
-      ]
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "白家月发现什么不见了？",
+     "options": [
+      "行李箱",
+      "护照",
+      "手机"
+     ],
+     "answer": 1,
+     "explain_vi": "我发现我的护照不见了。"
     },
     {
-      "type": "reading", "part": "A3", "title_vi": "Nối câu", "instructions_vi": "Nối mỗi câu bên trái với câu đáp phù hợp bên phải.",
-      "questions": [
-        { "id": "a7", "kind": "match", "pairs": [{ "q": "谢谢！", "a": "不客气！" }, { "q": "老师好！", "a": "同学们好！" }, { "q": "王老师，再见！", "a": "同学们，再见！" }], "explain_vi": "Cảm ơn ↔ Không có gì; học sinh chào ↔ giáo viên chào lại; tạm biệt ↔ tạm biệt." }
-      ]
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "护照是在哪儿找到的？",
+     "options": [
+      "服务台",
+      "飞机上",
+      "行李箱里"
+     ],
+     "answer": 1,
+     "explain_vi": "他们在飞机上找到了我的护照。"
     },
     {
-      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Chọn từ trong ngân hàng từ để điền vào chỗ trống. Có một từ thừa.",
-      "questions": [
-        { "id": "a8", "kind": "cloze", "text": "A：同学{{1}}好！\nB：王老师，{{2}}好！\nA：谢谢！\nB：不{{3}}！\nA：老师，{{4}}！", "bank": ["们", "您", "客气", "再见", "大家"], "answers": ["们", "您", "客气", "再见"], "explain_vi": "同学们 (số nhiều) · 您好 (kính trọng) · 不客气 · 再见." }
-      ]
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "来机场接他们的人是谁？",
+     "options": [
+      "王老师",
+      "王一雪",
+      "李文的朋友"
+     ],
+     "answer": 1,
+     "explain_vi": "她就是王老师的姐姐王一雪。"
     },
     {
-      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-      "questions": [
-        { "id": "b1", "kind": "reorder", "tiles": ["好", "大家"], "answers": ["大家好"], "vi": "Chào mọi người!", "explain_vi": "Người được chào + 好.", "grammarRef": "g1-1" },
-        { "id": "b2", "kind": "reorder", "tiles": ["们", "好", "同学"], "answers": ["同学们好"], "vi": "Chào các bạn!", "explain_vi": "们 đứng ngay sau 同学, rồi đến 好.", "grammarRef": "g1-2" },
-        { "id": "b3", "kind": "reorder", "tiles": ["您", "老师", "好"], "answers": ["老师您好", "您好老师"], "vi": "Em chào cô ạ!", "explain_vi": "Gọi 老师 trước rồi 您好, hoặc ngược lại.", "grammarRef": "g1-1" },
-        { "id": "b4", "kind": "reorder", "tiles": ["再见", "老师"], "answers": ["老师再见", "再见老师"], "vi": "Em chào cô! (khi ra về)", "explain_vi": "Gọi người nghe + 再见.", "grammarRef": "g1-3" },
-        { "id": "b5", "kind": "reorder", "tiles": ["谢谢", "老师", "王"], "answers": ["谢谢王老师"], "vi": "Cảm ơn cô Vương!", "explain_vi": "谢谢 + người được cảm ơn. Họ 王 đứng trước 老师.", "grammarRef": "g1-3" }
-      ]
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "白家月觉得护照很重要。",
+     "answer": true,
+     "explain_vi": "因为护照很重要。"
     },
     {
-      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
-      "questions": [
-        { "id": "b6", "kind": "translate", "prompt_vi": "Xin chào!", "acceptedAnswers": ["你好"], "requiredKeywords": ["好"], "wordBank": ["你好", "您", "再见", "谢谢"], "explain_vi": "Câu chào cơ bản: 你好.", "grammarRef": "g1-1" },
-        { "id": "b7", "kind": "translate", "prompt_vi": "Chào cả lớp! (cô giáo nói với học sinh)", "acceptedAnswers": ["大家好", "同学们好", "你们好"], "requiredKeywords": ["好"], "wordBank": ["大家", "好", "您", "们"], "explain_vi": "Chào nhiều người: 大家好 / 同学们好 / 你们好.", "grammarRef": "g1-1" },
-        { "id": "b8", "kind": "translate", "prompt_vi": "Em cảm ơn cô ạ!", "acceptedAnswers": ["谢谢老师", "谢谢您", "谢谢王老师", "老师谢谢您", "谢谢您老师", "老师谢谢", "谢谢老师们"], "requiredKeywords": ["谢谢"], "wordBank": ["谢谢", "老师", "不客气", "您"], "explain_vi": "谢谢 + người được cảm ơn: 谢谢老师！", "grammarRef": "g1-3" },
-        { "id": "b9", "kind": "translate", "prompt_vi": "Không có gì!", "acceptedAnswers": ["不客气", "不客气不客气"], "requiredKeywords": ["客气"], "wordBank": ["不客气", "谢谢", "再见"], "explain_vi": "Đáp lời cảm ơn: 不客气.", "grammarRef": "g1-3" },
-        { "id": "b10", "kind": "translate", "prompt_vi": "Tạm biệt các bạn!", "acceptedAnswers": ["同学们再见", "再见同学们", "大家再见", "你们再见", "再见"], "requiredKeywords": ["再见"], "wordBank": ["同学", "们", "再见", "好"], "explain_vi": "Gọi người nghe + 再见: 同学们，再见！", "grammarRef": "g1-3" }
-      ]
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "王一雪看起来比照片上老。",
+     "answer": false,
+     "explain_vi": "她看上去和照片上一样年轻。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "服务台的人帮他们找了两个小时。",
+     "answer": false,
+     "explain_vi": "Chỉ tìm nửa tiếng: 半个小时."
     }
-  ]
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "这是谁的箱子？",
+       "a": "好像是那个年轻人的。"
+      },
+      {
+       "q": "你的箱子是什么样的？",
+       "a": "黑色的，上面写着我的名字。"
+      },
+      {
+       "q": "他们怎么还没出来？",
+       "a": "应该快出来了。"
+      },
+      {
+       "q": "我的护照不见了！",
+       "a": "别着急，我们去服务台问问。"
+      }
+     ],
+     "explain_vi": "Hỏi chủ → đoán bằng 好像; hỏi hình dáng → miêu tả; hỏi vì sao chưa ra → 应该; báo mất đồ → trấn an."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "A：那个穿着黑衣服的{{1}}是谁？\nB：他是李文，{{2}}一米八多。\nA：我{{3}}他是杨同乐呢，他们看上去有点儿{{4}}。",
+     "bank": [
+      "年轻人",
+      "身高",
+      "以为",
+      "像",
+      "着急"
+     ],
+     "answers": [
+      "年轻人",
+      "身高",
+      "以为",
+      "像"
+     ],
+     "explain_vi": "年轻人 · 身高 + số đo · 以为 = tưởng (sai) · 像 = giống."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "看起来",
+      "你",
+      "有点儿",
+      "今天",
+      "累"
+     ],
+     "answers": [
+      "你今天看起来有点儿累",
+      "今天你看起来有点儿累"
+     ],
+     "vi": "Hôm nay trông bạn hơi mệt.",
+     "explain_vi": "看起来 + tính từ.",
+     "grammarRef": "h3-g1-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "在哪儿",
+      "我",
+      "好像",
+      "见过他"
+     ],
+     "answers": [
+      "我好像在哪儿见过他"
+     ],
+     "vi": "Hình như tôi đã gặp anh ấy ở đâu đó.",
+     "explain_vi": "哪儿 = ở đâu đó.",
+     "grammarRef": "h3-g1-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "那个",
+      "年轻人",
+      "短头发",
+      "是李文"
+     ],
+     "answers": [
+      "那个短头发的年轻人是李文"
+     ],
+     "vi": "Người thanh niên tóc ngắn kia là Lý Văn.",
+     "explain_vi": "Định ngữ đứng trước danh từ chính.",
+     "grammarRef": "h3-g1-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "重要的东西",
+      "里",
+      "有",
+      "箱子",
+      "不少"
+     ],
+     "answers": [
+      "箱子里有不少重要的东西"
+     ],
+     "vi": "Trong vali có khá nhiều đồ quan trọng.",
+     "explain_vi": "Nơi chốn + 有 + vật.",
+     "grammarRef": "h3-g1-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "去",
+      "我们",
+      "接他们",
+      "机场",
+      "一起"
+     ],
+     "answers": [
+      "我们一起去机场接他们"
+     ],
+     "vi": "Chúng ta cùng ra sân bay đón họ.",
+     "explain_vi": "一起 + 去 + nơi + làm gì.",
+     "grammarRef": "h3-g1-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Hình như tôi đã gặp anh ấy ở đâu đó.",
+     "acceptedAnswers": [
+      "我好像在哪儿见过他",
+      "我好像在哪儿看到过他",
+      "我好像在哪儿看见过他"
+     ],
+     "requiredKeywords": [
+      "好像",
+      "哪儿"
+     ],
+     "wordBank": [
+      "我",
+      "好像",
+      "在",
+      "哪儿",
+      "见过",
+      "他"
+     ],
+     "explain_vi": "好像 + 在哪儿 + động từ + 过.",
+     "grammarRef": "h3-g1-2"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Đừng sốt ruột, chúng ta ra quầy dịch vụ hỏi xem.",
+     "acceptedAnswers": [
+      "别着急，我们去服务台问问",
+      "别着急，我们去服务台问一下"
+     ],
+     "requiredKeywords": [
+      "着急",
+      "服务台"
+     ],
+     "wordBank": [
+      "别",
+      "着急",
+      "我们",
+      "去",
+      "服务台",
+      "问问"
+     ],
+     "explain_vi": "别着急 + đề nghị.",
+     "grammarRef": "h3-g1-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tôi cứ tưởng bạn là người Trung Quốc.",
+     "acceptedAnswers": [
+      "我以为你是中国人",
+      "我还以为你是中国人"
+     ],
+     "requiredKeywords": [
+      "以为"
+     ],
+     "wordBank": [
+      "我",
+      "以为",
+      "你",
+      "是",
+      "中国人"
+     ],
+     "explain_vi": "以为 = tưởng (sai).",
+     "grammarRef": "h3-g1-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Trông cô ấy rất trẻ.",
+     "acceptedAnswers": [
+      "她看起来很年轻",
+      "她看上去很年轻"
+     ],
+     "requiredKeywords": [
+      "年轻"
+     ],
+     "wordBank": [
+      "她",
+      "看起来",
+      "很",
+      "年轻"
+     ],
+     "explain_vi": "看起来 / 看上去 + tính từ.",
+     "grammarRef": "h3-g1-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Hộ chiếu của tôi không thấy đâu, bạn có thể giúp tôi không?",
+     "acceptedAnswers": [
+      "我的护照不见了，你可以帮助我吗",
+      "我的护照不见了，你能帮助我吗",
+      "我的护照不见了，你能帮我吗",
+      "我的护照不见了，你可以帮我吗"
+     ],
+     "requiredKeywords": [
+      "护照",
+      "不见"
+     ],
+     "wordBank": [
+      "我的",
+      "护照",
+      "不见了",
+      "你",
+      "可以",
+      "帮助",
+      "我",
+      "吗"
+     ],
+     "explain_vi": "不见了 = không thấy đâu.",
+     "grammarRef": "h3-g1-2"
+    }
+   ]
+  }
+ ]
 }

@@ -1,57 +1,344 @@
 {
-  "lessonId": 3,
-  "level": "hsk1",
-  "status": "ready",
-  "sections": [
+ "lessonId": 3,
+ "level": "hsk3",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Nhà mới của Tiểu Tuyết",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Nhà mới của Tiểu Tuyết",
+    "zh": "我们家上个月搬家了。新家在一个很大的小区里，环境挺好的，离我的初中也很近，走路十分钟就到。以前我每天六点就要起床，现在七点才起床。新家在一层，有一个小花园，弟弟高兴坏了，每天都在花园里玩儿。搬家那天，爸爸妈妈找了一家搬家公司，一天就搬完了。",
+    "vi": "Tháng trước nhà mình chuyển nhà. Nhà mới ở trong một khu chung cư rất lớn, môi trường khá tốt, cũng gần trường cấp hai của mình, đi bộ mười phút là tới. Trước đây ngày nào mình cũng phải dậy từ sáu giờ, giờ bảy giờ mới dậy. Nhà mới ở tầng một, có một vườn hoa nhỏ, em trai mình vui sướng vô cùng, ngày nào cũng chơi trong vườn. Hôm chuyển nhà, bố mẹ thuê một công ty chuyển nhà, một ngày là chuyển xong."
+   },
+   "questions": [
     {
-      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Gia Nguyệt kể về mình",
-      "instructions_vi": "Đọc đoạn văn rồi trả lời câu hỏi. Từ gạch chân là từ chưa học – chạm vào để xem nghĩa.",
-      "passage": {
-        "title_vi": "Gia Nguyệt kể về mình",
-        "zh": "我叫白家月，我是法国人。我的中文老师是王一飞，她是中国人。王老师的工作很忙。陈天中是我同学，他是泰国人。他的女朋友也是泰国人。我很想我妈妈。",
-        "vi": "Mình tên là Bạch Gia Nguyệt, mình là người Pháp. Cô giáo tiếng Trung của mình là cô Vương Nhất Phi, cô ấy là người Trung Quốc. Công việc của cô Vương rất bận. Trần Thiên Trung là bạn học của mình, cậu ấy là người Thái Lan. Bạn gái của cậu ấy cũng là người Thái Lan. Mình rất nhớ mẹ."
-      },
-      "questions": [
-        { "id": "a1", "kind": "mcq", "prompt_zh": "白家月是哪国人？", "options": ["中国人", "法国人", "泰国人"], "answer": 1, "explain_vi": "我叫白家月，我是法国人。" },
-        { "id": "a2", "kind": "mcq", "prompt_zh": "白家月的中文老师是谁？", "options": ["王一飞", "陈天中", "李文"], "answer": 0, "explain_vi": "我的中文老师是王一飞。" },
-        { "id": "a3", "kind": "mcq", "prompt_zh": "谁是泰国人？", "options": ["王一飞", "陈天中", "白家月"], "answer": 1, "explain_vi": "陈天中……他是泰国人。" },
-        { "id": "a4", "kind": "mcq", "prompt_zh": "王老师的工作忙吗？", "options": ["很忙", "不太忙", "不忙"], "answer": 0, "explain_vi": "王老师的工作很忙。" },
-        { "id": "a5", "kind": "truefalse", "statement_zh": "王一飞是法国人。", "answer": false, "explain_vi": "王一飞 là người Trung Quốc: 她是中国人。" },
-        { "id": "a6", "kind": "truefalse", "statement_zh": "陈天中的女朋友是泰国人。", "answer": true, "explain_vi": "他的女朋友也是泰国人。" },
-        { "id": "a7", "kind": "truefalse", "statement_zh": "白家月不想她妈妈。", "answer": false, "explain_vi": "Đoạn văn viết 我很想我妈妈 – rất nhớ mẹ." }
-      ]
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "新家离小雪的学校远吗？",
+     "options": [
+      "很远",
+      "不远，走路十分钟",
+      "要坐地铁"
+     ],
+     "answer": 1,
+     "explain_vi": "走路十分钟就到。"
     },
     {
-      "type": "reading", "part": "A3", "title_vi": "Nối câu hỏi với câu trả lời", "instructions_vi": "Nối mỗi câu hỏi với câu trả lời phù hợp.",
-      "questions": [
-        { "id": "a8", "kind": "match", "pairs": [{ "q": "这是谁？", "a": "这是我姐姐。" }, { "q": "你是哪国人？", "a": "我是中国人。" }, { "q": "你工作忙吗？", "a": "对，很忙。" }, { "q": "你是王老师吗？", "a": "不是，我是她的学生。" }], "explain_vi": "谁 → người; 哪国 → quốc tịch; 吗 → trả lời có/không." }
-      ]
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "现在小雪几点起床？",
+     "options": [
+      "六点",
+      "七点",
+      "八点"
+     ],
+     "answer": 1,
+     "explain_vi": "现在七点才起床。"
     },
     {
-      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Có một từ thừa.",
-      "questions": [
-        { "id": "a9", "kind": "cloze", "text": "A：{{1}}，姐姐！\nB：一飞！你的工作还忙{{2}}？\nA：{{3}}，还很忙。\nB：我们很{{4}}你！", "bank": ["喂", "吗", "对", "想", "谁"], "answers": ["喂", "吗", "对", "想"], "explain_vi": "喂 (alô) · 吗 (câu hỏi) · 对 (đúng vậy) · 想 (nhớ)." }
-      ]
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "谁最喜欢新家的花园？",
+     "options": [
+      "小雪",
+      "弟弟",
+      "妈妈"
+     ],
+     "answer": 1,
+     "explain_vi": "弟弟高兴坏了，每天都在花园里玩儿。"
     },
     {
-      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-      "questions": [
-        { "id": "b1", "kind": "reorder", "tiles": ["中国人", "是", "我"], "answers": ["我是中国人"], "vi": "Tôi là người Trung Quốc.", "explain_vi": "Chủ ngữ + 是 + Tân ngữ.", "grammarRef": "g3-1" },
-        { "id": "b2", "kind": "reorder", "tiles": ["的", "中文老师", "我", "是", "王老师"], "answers": ["王老师是我的中文老师", "我的中文老师是王老师"], "vi": "Cô Vương là cô giáo tiếng Trung của tôi.", "explain_vi": "我的 + 中文老师: người sở hữu đứng trước 的.", "grammarRef": "g3-2" },
-        { "id": "b3", "kind": "reorder", "tiles": ["人", "她", "国", "是", "哪"], "answers": ["她是哪国人"], "vi": "Cô ấy là người nước nào?", "explain_vi": "哪国人 đứng ở vị trí tân ngữ.", "grammarRef": "g3-1" },
-        { "id": "b4", "kind": "reorder", "tiles": ["吗", "忙", "很", "也", "你"], "answers": ["你也很忙吗"], "vi": "Bạn cũng rất bận à?", "explain_vi": "Câu trần thuật 你也很忙 + 吗 ở cuối.", "grammarRef": "g3-3" },
-        { "id": "b5", "kind": "reorder", "tiles": ["太", "不", "我", "忙"], "answers": ["我不太忙"], "vi": "Tôi không bận lắm.", "explain_vi": "不太 + Tính từ = không … lắm.", "grammarRef": "g3-3" }
-      ]
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "新家的小区环境不太好。",
+     "answer": false,
+     "explain_vi": "环境挺好的。"
     },
     {
-      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
-      "questions": [
-        { "id": "b6", "kind": "translate", "prompt_vi": "Tôi là người Việt Nam.", "acceptedAnswers": ["我是越南人"], "requiredKeywords": ["是", "越南"], "wordBank": ["我", "是", "越南", "人", "吗", "的"], "explain_vi": "Tên nước + 人 = quốc tịch: 越南人.", "grammarRef": "g3-1" },
-        { "id": "b7", "kind": "translate", "prompt_vi": "Đây là ai?", "acceptedAnswers": ["这是谁"], "requiredKeywords": ["这", "谁"], "wordBank": ["这", "是", "谁", "哪", "吗"], "explain_vi": "这是谁？ – không thêm 吗 vì đã có 谁.", "grammarRef": "g3-3" },
-        { "id": "b8", "kind": "translate", "prompt_vi": "Bạn là sinh viên à?", "acceptedAnswers": ["你是学生吗"], "requiredKeywords": ["学生", "吗"], "wordBank": ["你", "是", "学生", "吗", "哪"], "explain_vi": "Câu hỏi có/không: thêm 吗 cuối câu.", "grammarRef": "g3-3" },
-        { "id": "b9", "kind": "translate", "prompt_vi": "Cô giáo tiếng Trung của tôi là người Trung Quốc.", "acceptedAnswers": ["我的中文老师是中国人", "我中文老师是中国人"], "requiredKeywords": ["中文老师", "中国人"], "wordBank": ["我", "的", "中文", "老师", "是", "中国人"], "explain_vi": "我的中文老师 + 是 + 中国人.", "grammarRef": "g3-2" },
-        { "id": "b10", "kind": "translate", "prompt_vi": "Chúng tôi rất nhớ bạn.", "acceptedAnswers": ["我们很想你", "我们很想您"], "requiredKeywords": ["想"], "wordBank": ["我们", "很", "想", "你", "忙"], "explain_vi": "想 ở đây nghĩa là “nhớ”.", "grammarRef": "g3-3" }
-      ]
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "他们是自己搬的家。",
+     "answer": false,
+     "explain_vi": "爸爸妈妈找了一家搬家公司。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "搬家用了一天。",
+     "answer": true,
+     "explain_vi": "一天就搬完了。"
     }
-  ]
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你觉得这个小区怎么样？",
+       "a": "环境挺好的。"
+      },
+      {
+       "q": "你今天怎么这么晚才来？",
+       "a": "路上车太多了。"
+      },
+      {
+       "q": "洗衣机坏了吗？",
+       "a": "没坏，可以用。"
+      },
+      {
+       "q": "你们什么时候搬家？",
+       "a": "下个月才能搬。"
+      }
+     ],
+     "explain_vi": "Hỏi nhận xét → 挺……的; hỏi vì sao muộn (才) → lý do; hỏi hỏng chưa → 没坏; hỏi thời gian → 才."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我们想{{1}}一个大一点儿的房子。上个周末去看了一个，房子在三{{2}}，里面的{{3}}和冰箱都是新的。我很喜欢，但是太贵了，我们{{4}}再看看别的吧。",
+     "bank": [
+      "换",
+      "层",
+      "空调",
+      "还是",
+      "才"
+     ],
+     "answers": [
+      "换",
+      "层",
+      "空调",
+      "还是"
+     ],
+     "explain_vi": "换房子 · 三层 · 空调 · 还是……吧."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "挺",
+      "的",
+      "环境",
+      "好",
+      "这个小区"
+     ],
+     "answers": [
+      "这个小区环境挺好的"
+     ],
+     "vi": "Khu này môi trường khá tốt.",
+     "explain_vi": "挺 + TT + 的.",
+     "grammarRef": "h3-g3-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "坏",
+      "了",
+      "渴",
+      "我"
+     ],
+     "answers": [
+      "我渴坏了"
+     ],
+     "vi": "Tôi khát khô cổ.",
+     "explain_vi": "TT + 坏了.",
+     "grammarRef": "h3-g3-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "就",
+      "走路",
+      "到",
+      "五分钟",
+      "了"
+     ],
+     "answers": [
+      "走路五分钟就到了"
+     ],
+     "vi": "Đi bộ năm phút là tới.",
+     "explain_vi": "就……了 = nhanh, sớm.",
+     "grammarRef": "h3-g3-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "才",
+      "他",
+      "回来",
+      "晚上十点"
+     ],
+     "answers": [
+      "他晚上十点才回来"
+     ],
+     "vi": "Mười giờ tối anh ấy mới về.",
+     "explain_vi": "才 = muộn, không 了.",
+     "grammarRef": "h3-g3-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "信用卡",
+      "我",
+      "一张",
+      "去银行",
+      "想",
+      "办"
+     ],
+     "answers": [
+      "我想去银行办一张信用卡"
+     ],
+     "vi": "Tôi muốn đến ngân hàng làm một cái thẻ tín dụng.",
+     "explain_vi": "办 + 一张 + 信用卡.",
+     "grammarRef": "h3-g3-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Khu này môi trường khá tốt.",
+     "acceptedAnswers": [
+      "这个小区环境挺好的",
+      "这个小区的环境挺好的"
+     ],
+     "requiredKeywords": [
+      "挺",
+      "环境"
+     ],
+     "wordBank": [
+      "这个",
+      "小区",
+      "环境",
+      "挺",
+      "好",
+      "的"
+     ],
+     "explain_vi": "挺……的.",
+     "grammarRef": "h3-g3-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay tôi bận chết đi được.",
+     "acceptedAnswers": [
+      "我今天忙坏了",
+      "今天我忙坏了"
+     ],
+     "requiredKeywords": [
+      "忙坏了"
+     ],
+     "wordBank": [
+      "我",
+      "今天",
+      "忙",
+      "坏了"
+     ],
+     "explain_vi": "TT + 坏了 (không thêm 很).",
+     "grammarRef": "h3-g3-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Lúc đi nhớ tắt đèn nhé.",
+     "acceptedAnswers": [
+      "走的时候别忘了关灯",
+      "走的时候要关灯",
+      "走的时候记得关灯"
+     ],
+     "requiredKeywords": [
+      "关灯"
+     ],
+     "wordBank": [
+      "走的时候",
+      "别",
+      "忘了",
+      "关",
+      "灯"
+     ],
+     "explain_vi": "关灯 = tắt đèn.",
+     "grammarRef": "h3-g3-2"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Ngân hàng rất gần, đi bộ mười phút là tới.",
+     "acceptedAnswers": [
+      "银行很近，走路十分钟就到",
+      "银行很近，走路十分钟就到了"
+     ],
+     "requiredKeywords": [
+      "就"
+     ],
+     "wordBank": [
+      "银行",
+      "很近",
+      "走路",
+      "十分钟",
+      "就",
+      "到"
+     ],
+     "explain_vi": "Nhanh, gần → 就.",
+     "grammarRef": "h3-g3-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Nghe nói tháng sau họ mới chuyển nhà.",
+     "acceptedAnswers": [
+      "听说他们下个月才搬家",
+      "听说他们下个月才能搬家"
+     ],
+     "requiredKeywords": [
+      "听说",
+      "才"
+     ],
+     "wordBank": [
+      "听说",
+      "他们",
+      "下个月",
+      "才",
+      "搬家"
+     ],
+     "explain_vi": "Muộn → 才 (không 了).",
+     "grammarRef": "h3-g3-3"
+    }
+   ]
+  }
+ ]
 }

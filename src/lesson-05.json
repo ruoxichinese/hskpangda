@@ -1,31 +1,37 @@
 {
   "id": 5,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "今天我休息",
-    "pinyin": "Jīntiān wǒ xiūxi",
-    "vi": "Hôm nay tôi nghỉ"
+    "zh": "这样的照片才好看",
+    "pinyin": "Zhèyàng de zhàopiàn cái hǎokàn",
+    "vi": "Ảnh như thế này mới đẹp"
   },
   "grammarTopics_vi": [
-    "Cách nói thời gian (1)",
-    "Câu vị ngữ danh từ",
-    "Động từ năng nguyện 会"
+    "Bổ ngữ mức độ (2)",
+    "Lặp lượng từ",
+    "Câu tồn hiện (3)",
+    "Câu ghép rút gọn “……了……就……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Cách nói thời gian (1)",
+      "vi": "Bổ ngữ mức độ (2)",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Câu vị ngữ danh từ",
+      "vi": "Lặp lượng từ",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Động từ năng nguyện 会",
+      "vi": "Câu tồn hiện (3)",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Câu ghép rút gọn “……了……就……”",
       "doneWhen": []
     }
   ],

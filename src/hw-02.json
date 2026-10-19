@@ -1,56 +1,344 @@
 {
-  "lessonId": 2,
-  "level": "hsk1",
-  "status": "ready",
-  "sections": [
+ "lessonId": 2,
+ "level": "hsk3",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Quán ăn mới cạnh nhà",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Quán ăn mới cạnh nhà",
+    "zh": "我家旁边新开了一家饭馆，菜又便宜又好吃，服务员也很热情。上个周末我和家月去了一次，家月说她什么都想尝尝。我们点了饺子、鸡肉饭和一个蛋糕，还要了两杯绿茶。饭馆的菜单在手机上就能看到，想吃什么就点什么。他们还能送外卖，所以考试的时候，我不用再吃方便面了。",
+    "vi": "Cạnh nhà mình mới mở một quán ăn, món vừa rẻ vừa ngon, phục vụ cũng rất nhiệt tình. Cuối tuần trước mình đi với Gia Nguyệt một lần, Gia Nguyệt bảo món gì cũng muốn nếm thử. Bọn mình gọi sủi cảo, cơm gà và một cái bánh ngọt, thêm hai cốc trà xanh. Thực đơn của quán xem được ngay trên điện thoại, muốn ăn gì thì gọi nấy. Quán còn giao đồ ăn, nên mùa thi mình không phải ăn mì gói nữa."
+   },
+   "questions": [
     {
-      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Gặp nhau ở thư viện",
-      "instructions_vi": "Đọc đoạn hội thoại rồi trả lời câu hỏi.",
-      "passage": {
-        "title_vi": "Gặp nhau ở thư viện",
-        "zh": "李文：你好！请问，你叫什么名字？\n安妮：你好！我叫安妮。\n李文：我叫李文。安妮，很高兴认识你！\n安妮：我也很高兴认识你！\n陈天中：白家月，你好！\n安妮：我不是白家月，我是安妮。\n陈天中：对不起！\n安妮：没关系！",
-        "vi": "Lý Văn: Chào bạn! Xin hỏi, bạn tên là gì?\nAnnie: Chào bạn! Mình tên là Annie.\nLý Văn: Mình tên là Lý Văn. Annie, rất vui được làm quen với bạn!\nAnnie: Mình cũng rất vui được làm quen với bạn!\nThiên Trung: Chào Gia Nguyệt!\nAnnie: Mình không phải Gia Nguyệt, mình là Annie.\nThiên Trung: Xin lỗi!\nAnnie: Không sao!"
-      },
-      "questions": [
-        { "id": "a1", "kind": "mcq", "prompt_vi": "Cô gái trong đoạn hội thoại tên là gì?", "options": ["白家月", "安妮", "李文"], "answer": 1, "explain_vi": "Cô ấy nói: 我叫安妮。" },
-        { "id": "a2", "kind": "mcq", "prompt_vi": "陈天中 đã nhận nhầm 安妮 là ai?", "options": ["王老师", "李文", "白家月"], "answer": 2, "explain_vi": "陈天中 chào 白家月，你好！ nhưng đó là 安妮." },
-        { "id": "a3", "kind": "mcq", "prompt_vi": "安妮 đáp lại lời xin lỗi bằng câu nào?", "options": ["不客气！", "没关系！", "再见！"], "answer": 1, "explain_vi": "对不起 → 没关系." },
-        { "id": "a4", "kind": "truefalse", "statement_zh": "安妮不是白家月。", "answer": true, "explain_vi": "安妮 nói: 我不是白家月，我是安妮。" },
-        { "id": "a5", "kind": "truefalse", "statement_zh": "陈天中叫李文。", "answer": false, "explain_vi": "陈天中 và 李文 là hai người khác nhau." },
-        { "id": "a6", "kind": "truefalse", "statement_zh": "安妮也很高兴认识李文。", "answer": true, "explain_vi": "安妮 nói: 我也很高兴认识你！" }
-      ]
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "这家饭馆的菜怎么样？",
+     "options": [
+      "又贵又好吃",
+      "又便宜又好吃",
+      "不太好吃"
+     ],
+     "answer": 1,
+     "explain_vi": "菜又便宜又好吃。"
     },
     {
-      "type": "reading", "part": "A3", "title_vi": "Nối câu hỏi với câu trả lời", "instructions_vi": "Nối mỗi câu bên trái với câu đáp phù hợp.",
-      "questions": [
-        { "id": "a7", "kind": "match", "pairs": [{ "q": "请问，你叫什么名字？", "a": "我叫白家月。" }, { "q": "对不起！", "a": "没关系！" }, { "q": "很高兴认识你！", "a": "我也很高兴认识你！" }, { "q": "谢谢！", "a": "不客气！" }], "explain_vi": "Hỏi tên ↔ nói tên; xin lỗi ↔ không sao; vui được quen ↔ cũng vui; cảm ơn ↔ không có gì." }
-      ]
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "他们没点什么？",
+     "options": [
+      "饺子",
+      "方便面",
+      "蛋糕"
+     ],
+     "answer": 1,
+     "explain_vi": "Họ gọi 饺子、鸡肉饭、蛋糕 và 绿茶."
     },
     {
-      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Có một từ thừa.",
-      "questions": [
-        { "id": "a8", "kind": "cloze", "text": "A：你好！请问，你{{1}}什么名字？\nB：我叫陈天中。我{{2}}是安妮。\nA：对不起！\nB：没{{3}}！\nA：很{{4}}认识你！", "bank": ["叫", "不", "关系", "高兴", "也"], "answers": ["叫", "不", "关系", "高兴"], "explain_vi": "叫 + tên · 不是 · 没关系 · 很高兴." }
-      ]
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "为什么考试的时候李文不用吃方便面了？",
+     "options": [
+      "饭馆可以送外卖",
+      "妈妈给他做饭",
+      "家月给他做饭"
+     ],
+     "answer": 0,
+     "explain_vi": "他们还能送外卖。"
     },
     {
-      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-      "questions": [
-        { "id": "b1", "kind": "reorder", "tiles": ["名字", "你", "什么", "叫"], "answers": ["你叫什么名字"], "vi": "Bạn tên là gì?", "explain_vi": "Trật tự: Chủ ngữ + Động từ + Tân ngữ. Từ để hỏi không lên đầu câu.", "grammarRef": "g2-1" },
-        { "id": "b2", "kind": "reorder", "tiles": ["是", "我", "学生"], "answers": ["我是学生"], "vi": "Tôi là sinh viên.", "explain_vi": "Chủ ngữ + 是 + Tân ngữ.", "grammarRef": "g2-1" },
-        { "id": "b3", "kind": "reorder", "tiles": ["不", "我", "是", "安妮"], "answers": ["我不是安妮"], "vi": "Tôi không phải Annie.", "explain_vi": "不 đứng trước động từ 是.", "grammarRef": "g2-2" },
-        { "id": "b4", "kind": "reorder", "tiles": ["认识", "很", "高兴", "你"], "answers": ["很高兴认识你", "认识你很高兴"], "vi": "Rất vui được làm quen với bạn.", "explain_vi": "Cả hai thứ tự đều đúng.", "grammarRef": "g2-3" },
-        { "id": "b5", "kind": "reorder", "tiles": ["也", "很", "我", "高兴"], "answers": ["我也很高兴"], "vi": "Tôi cũng rất vui.", "explain_vi": "Chủ ngữ + 也 + 很 + Tính từ.", "grammarRef": "g2-3" }
-      ]
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "这家饭馆的服务员不太热情。",
+     "answer": false,
+     "explain_vi": "服务员也很热情。"
     },
     {
-      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
-      "questions": [
-        { "id": "b6", "kind": "translate", "prompt_vi": "Tôi tên là Trần Thiên Trung.", "acceptedAnswers": ["我叫陈天中"], "requiredKeywords": ["我", "叫"], "wordBank": ["我", "叫", "陈天中", "你"], "explain_vi": "Giới thiệu tên: 我叫 + tên.", "grammarRef": "g2-1" },
-        { "id": "b7", "kind": "translate", "prompt_vi": "Xin hỏi, bạn tên là gì?", "acceptedAnswers": ["请问，你叫什么名字？", "请问您叫什么名字"], "requiredKeywords": ["叫", "什么"], "wordBank": ["请问", "你", "叫", "什么", "名字", "是"], "explain_vi": "请问 + 你叫什么名字？", "grammarRef": "g2-1" },
-        { "id": "b8", "kind": "translate", "prompt_vi": "Tôi không phải là giáo viên.", "acceptedAnswers": ["我不是老师"], "requiredKeywords": ["不是"], "wordBank": ["我", "不", "是", "老师", "很"], "explain_vi": "Phủ định: 不 + 是.", "grammarRef": "g2-2" },
-        { "id": "b9", "kind": "translate", "prompt_vi": "Rất vui được làm quen với bạn!", "acceptedAnswers": ["很高兴认识你", "认识你很高兴", "很高兴认识您", "认识您很高兴"], "requiredKeywords": ["高兴", "认识"], "wordBank": ["很", "高兴", "认识", "你", "也"], "explain_vi": "很高兴认识你 hoặc 认识你很高兴.", "grammarRef": "g2-3" },
-        { "id": "b10", "kind": "translate", "prompt_vi": "Xin lỗi! – Không sao!", "acceptedAnswers": ["对不起！没关系！", "对不起！没事！", "对不起！没事没事！"], "requiredKeywords": ["对不起"], "wordBank": ["对不起", "没关系", "不客气", "谢谢"], "explain_vi": "对不起 → 没关系 / 没事.", "grammarRef": "g2-2" }
-      ]
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "在手机上可以看到菜单。",
+     "answer": true,
+     "explain_vi": "饭馆的菜单在手机上就能看到。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "家月只想吃饺子。",
+     "answer": false,
+     "explain_vi": "家月说她什么都想尝尝。"
     }
-  ]
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你们想喝什么饮料？",
+       "a": "两杯绿茶。"
+      },
+      {
+       "q": "我们去哪儿吃饭？",
+       "a": "去哪儿都可以。"
+      },
+      {
+       "q": "服务员，请再拿一双筷子。",
+       "a": "好的，我马上去拿。"
+      },
+      {
+       "q": "这个菜好吃吗？",
+       "a": "你尝尝就知道了。"
+      }
+     ],
+     "explain_vi": "Đồ uống → gọi trà; hỏi đi đâu → 哪儿都可以; nhờ lấy đũa → 马上; hỏi món ngon không → mời nếm."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我昨天又饿又{{1}}，到了饭馆{{2}}喝了三杯水。服务员很{{3}}，还送了我们一些水果。这家饭馆的菜很{{4}}，但是很好吃。",
+     "bank": [
+      "渴",
+      "马上",
+      "热情",
+      "简单",
+      "方便"
+     ],
+     "answers": [
+      "渴",
+      "马上",
+      "热情",
+      "简单"
+     ],
+     "explain_vi": "又饿又渴 · 马上 = ngay · 热情 = nhiệt tình · 简单 = đơn giản."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "都",
+      "哪个菜",
+      "好吃"
+     ],
+     "answers": [
+      "哪个菜都好吃"
+     ],
+     "vi": "Món nào cũng ngon.",
+     "explain_vi": "Đại từ nghi vấn + 都.",
+     "grammarRef": "h3-g2-2"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "又",
+      "又",
+      "我",
+      "饿",
+      "渴"
+     ],
+     "answers": [
+      "我又饿又渴"
+     ],
+     "vi": "Tôi vừa đói vừa khát.",
+     "explain_vi": "又 + TT + 又 + TT.",
+     "grammarRef": "h3-g2-1"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "什么",
+      "你",
+      "什么",
+      "想吃",
+      "就点"
+     ],
+     "answers": [
+      "你想吃什么就点什么"
+     ],
+     "vi": "Bạn muốn ăn gì thì gọi nấy.",
+     "explain_vi": "Hai 什么 hô ứng.",
+     "grammarRef": "h3-g2-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "一双",
+      "请",
+      "给我",
+      "筷子"
+     ],
+     "answers": [
+      "请给我一双筷子"
+     ],
+     "vi": "Làm ơn cho tôi một đôi đũa.",
+     "explain_vi": "一双 + 筷子.",
+     "grammarRef": "h3-g2-2"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "好久",
+      "饺子",
+      "没吃",
+      "我",
+      "了"
+     ],
+     "answers": [
+      "我好久没吃饺子了"
+     ],
+     "vi": "Lâu lắm rồi tôi chưa ăn sủi cảo.",
+     "explain_vi": "好久没……了.",
+     "grammarRef": "h3-g2-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Món ở quán này vừa rẻ vừa ngon.",
+     "acceptedAnswers": [
+      "这家饭馆的菜又便宜又好吃",
+      "这个饭馆的菜又便宜又好吃"
+     ],
+     "requiredKeywords": [
+      "又便宜",
+      "又好吃"
+     ],
+     "wordBank": [
+      "这家",
+      "饭馆",
+      "的",
+      "菜",
+      "又",
+      "便宜",
+      "好吃"
+     ],
+     "explain_vi": "又……又…….",
+     "grammarRef": "h3-g2-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Tôi ăn gì cũng được.",
+     "acceptedAnswers": [
+      "我吃什么都可以",
+      "我吃什么都行"
+     ],
+     "requiredKeywords": [
+      "什么都"
+     ],
+     "wordBank": [
+      "我",
+      "吃",
+      "什么",
+      "都",
+      "可以"
+     ],
+     "explain_vi": "什么 + 都 = cái gì cũng.",
+     "grammarRef": "h3-g2-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Bạn muốn đi đâu thì chúng ta đi đó.",
+     "acceptedAnswers": [
+      "你想去哪儿，我们就去哪儿"
+     ],
+     "requiredKeywords": [
+      "哪儿",
+      "就"
+     ],
+     "wordBank": [
+      "你",
+      "想",
+      "去",
+      "哪儿",
+      "我们",
+      "就"
+     ],
+     "explain_vi": "Khác chủ ngữ: 我们 + 就.",
+     "grammarRef": "h3-g2-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Bữa sáng tôi chỉ uống một cốc cà phê.",
+     "acceptedAnswers": [
+      "早饭我只喝了一杯咖啡",
+      "我早饭只喝了一杯咖啡",
+      "早饭我只喝一杯咖啡"
+     ],
+     "requiredKeywords": [
+      "只",
+      "咖啡"
+     ],
+     "wordBank": [
+      "早饭",
+      "我",
+      "只",
+      "喝了",
+      "一杯",
+      "咖啡"
+     ],
+     "explain_vi": "只 đứng trước động từ.",
+     "grammarRef": "h3-g2-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Gọi đồ ăn ngoài rất tiện.",
+     "acceptedAnswers": [
+      "点外卖很方便"
+     ],
+     "requiredKeywords": [
+      "外卖",
+      "方便"
+     ],
+     "wordBank": [
+      "点",
+      "外卖",
+      "很",
+      "方便"
+     ],
+     "explain_vi": "点外卖 = gọi đồ ăn giao tận nơi.",
+     "grammarRef": "h3-g2-3"
+    }
+   ]
+  }
+ ]
 }

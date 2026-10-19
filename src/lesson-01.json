@@ -1,223 +1,244 @@
 {
   "id": 1,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "ready",
-  "title": { "zh": "AI小语，你好！", "pinyin": "AI Xiǎoyǔ, nǐ hǎo!", "vi": "Chào AI Tiểu Ngữ!" },
-  "grammarTopics_vi": ["Phát âm: thanh mẫu, vận mẫu, thanh điệu", "Câu chào hỏi với 好", "Hậu tố số nhiều 们"],
+  "title": { "zh": "我们去机场接你们", "pinyin": "Wǒmen qù jīchǎng jiē nǐmen", "vi": "Chúng tôi ra sân bay đón các bạn" },
+  "grammarTopics_vi": ["Cụm cố định 看上去 / 看起来", "Đại từ nghi vấn không dùng để hỏi (1): chỉ điều không xác định", "Nhiều định ngữ cùng bổ nghĩa cho một danh từ"],
   "objectives": [
-    { "id": "o1", "vi": "Đọc được pinyin: thanh mẫu, vận mẫu và 4 thanh điệu", "doneWhen": ["pinyin"] },
-    { "id": "o2", "vi": "Nghe hiểu và dùng câu chào hỏi, cảm ơn, tạm biệt", "doneWhen": ["text-1", "text-3"] },
-    { "id": "o3", "vi": "Biết phép lịch sự khi giao tiếp, dùng đại từ kính trọng 您", "doneWhen": ["text-2"] },
-    { "id": "o4", "vi": "Vận dụng trong bài luyện tập tổng hợp", "doneWhen": ["exercises"] }
+    { "id": "o1", "vi": "Dùng nhiều định ngữ để miêu tả đặc điểm của người hoặc đồ vật", "doneWhen": ["text-3"] },
+    { "id": "o2", "vi": "Xử lý tình huống thất lạc đồ ở sân bay", "doneWhen": ["text-2", "text-4"] },
+    { "id": "o3", "vi": "Dùng đại từ nghi vấn để nói về người, vật, nơi chốn không xác định", "doneWhen": ["text-2"] },
+    { "id": "o4", "vi": "Nói về vẻ bề ngoài bằng 看上去 / 看起来", "doneWhen": ["text-1"] }
   ],
-  "pinyinIntro": {
-    "initials": [
-      ["b|八|bā", "p|爬|pá", "m|妈|mā", "f|发|fā"],
-      ["d|大|dà", "t|他|tā", "n|拿|ná", "l|拉|lā"],
-      ["g|哥|gē", "k|可|kě", "h|喝|hē"],
-      ["j|鸡|jī", "q|七|qī", "x|西|xī"],
-      ["zh|知|zhī", "ch|吃|chī", "sh|十|shí", "r|日|rì"],
-      ["z|字|zì", "c|次|cì", "s|四|sì"],
-      ["y|一|yī", "w|五|wǔ"]
-    ],
-    "finals": [
-      ["a|啊|ā", "o|哦|ó", "e|饿|è", "i|衣|yī", "u|乌|wū", "ü|鱼|yú"],
-      ["ai|爱|ài", "ei|黑|hēi", "ao|好|hǎo", "ou|欧|ōu"],
-      ["an|安|ān", "en|恩|ēn", "ang|忙|máng", "eng|冷|lěng", "ong|中|zhōng"],
-      ["ia|家|jiā", "ie|谢|xiè", "iao|小|xiǎo", "iu|六|liù", "ian|见|jiàn", "in|您|nín", "iang|想|xiǎng", "ing|名|míng", "iong|用|yòng"],
-      ["ua|花|huā", "uo|国|guó", "uai|快|kuài", "ui|对|duì", "uan|关|guān", "un|问|wèn", "uang|王|wáng", "ueng|翁|wēng"],
-      ["üe|月|yuè", "üan|远|yuǎn", "ün|云|yún"],
-      ["er|二|èr"]
-    ],
-    "tones": [
-      { "mark": "ā", "name_vi": "Thanh 1", "desc_vi": "Cao và đều, giữ giọng ở nốt cao như đang ngân. Gần thanh ngang tiếng Việt nhưng cao hơn hẳn.", "example": "妈", "pinyin": "mā", "contour": "55" },
-      { "mark": "á", "name_vi": "Thanh 2", "desc_vi": "Đi lên từ giữa lên cao, giống giọng khi hỏi lại “Hả?”. Gần thanh sắc nhưng kéo dài hơn.", "example": "麻", "pinyin": "má", "contour": "35" },
-      { "mark": "ǎ", "name_vi": "Thanh 3", "desc_vi": "Hạ xuống thấp rồi hơi nhấc lên. Khi nói nhanh thường chỉ hạ thấp giọng, nghe gần thanh hỏi.", "example": "马", "pinyin": "mǎ", "contour": "214" },
-      { "mark": "à", "name_vi": "Thanh 4", "desc_vi": "Rơi mạnh từ cao xuống thấp, dứt khoát như ra lệnh. Bắt đầu cao hơn thanh huyền và gắt hơn.", "example": "骂", "pinyin": "mà", "contour": "51" },
-      { "mark": "a", "name_vi": "Thanh nhẹ", "desc_vi": "Ngắn, nhẹ, không có dấu. Ví dụ chữ thứ hai trong 谢谢 xièxie.", "example": "吗", "pinyin": "ma", "contour": "0" }
-    ],
-    "rules": [
-      { "title_vi": "Hai thanh 3 đi liền nhau", "body_vi": "Thanh 3 đứng trước một thanh 3 khác sẽ đọc thành thanh 2. Pinyin vẫn viết dấu thanh 3, bạn tự đổi khi đọc.", "examples": [{ "zh": "你好", "pinyin": "nǐ hǎo", "note_vi": "đọc như “ní hǎo”" }] },
-      { "title_vi": "Biến điệu của 不", "body_vi": "不 vốn đọc bù (thanh 4). Khi đứng trước một thanh 4 thì đọc thành bú (thanh 2).", "examples": [{ "zh": "不客气", "pinyin": "bú kèqi" }, { "zh": "不是", "pinyin": "bú shì" }] },
-      { "title_vi": "Dấu thanh đặt ở đâu?", "body_vi": "Đặt trên nguyên âm theo thứ tự ưu tiên a → o → e → i, u, ü. Riêng cặp iu và ui thì đặt trên chữ đứng sau.", "examples": [{ "zh": "好", "pinyin": "hǎo" }, { "zh": "谢", "pinyin": "xiè" }, { "zh": "对", "pinyin": "duì" }] },
-      { "title_vi": "ü sau j, q, x, y", "body_vi": "Sau j, q, x, y thì ü bỏ hai chấm (ju, qu, xu, yu) nhưng vẫn đọc là ü – tròn môi như khi nói “uy” mà giữ lưỡi ở vị trí “i”.", "examples": [{ "zh": "鱼", "pinyin": "yú" }, { "zh": "月", "pinyin": "yuè" }] },
-      { "title_vi": "Cặp âm người Việt hay nhầm", "body_vi": "zh, ch, sh, r: uốn đầu lưỡi lên. z, c, s: đầu lưỡi thẳng chạm sau răng. j, q, x: mặt lưỡi áp vòm. c và q đều bật hơi mạnh – thử đặt tờ giấy trước miệng, giấy phải rung.", "examples": [{ "zh": "知", "pinyin": "zhī" }, { "zh": "字", "pinyin": "zì" }, { "zh": "鸡", "pinyin": "jī" }] }
-    ]
-  },
+  "warmup": [
+    { "emoji": "🖼️", "word": "照片", "pinyin": "zhàopiàn", "vi": "ảnh" },
+    { "emoji": "🧳", "word": "行李", "pinyin": "xíngli", "vi": "hành lý" },
+    { "emoji": "💇", "word": "头发", "pinyin": "tóufa", "vi": "tóc" },
+    { "emoji": "📏", "word": "身高", "pinyin": "shēngāo", "vi": "chiều cao" },
+    { "emoji": "🛂", "word": "护照", "pinyin": "hùzhào", "vi": "hộ chiếu" }
+  ],
   "texts": [
     {
       "id": "text-1",
-      "context_vi": "Ngày đầu tiên của năm học. Trong văn phòng, cô Vương Nhất Phi chào trợ lý AI Tiểu Ngữ.",
-      "scene": "🏢",
-      "audio": "audio/hsk1/1-1.mp3",
-      "vocabAudio": "audio/hsk1/1-2.mp3",
+      "context_vi": "Ở nhà, anh Lưu Minh và chị Nhất Tuyết ngồi trên sofa xem ảnh trên điện thoại.",
+      "scene": "🛋️",
+      "audio": "audio/hsk3/1-1.mp3",
+      "vocabAudio": "audio/hsk3/1-2.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Hai người đang làm gì?", "options": ["看电视", "看手机", "去机场"], "answer": 1 },
+        { "prompt_vi": "Hai người cùng ra sân bay để làm gì?", "options": ["坐飞机", "找朋友", "接家月"], "answer": 2 }
+      ],
       "lines": [
-        { "speaker": "wangyifei", "zh": "你好，小语！", "vi": "Chào Tiểu Ngữ!" },
-        { "speaker": "xiaoyu", "zh": "王老师，你好！", "vi": "Em chào cô Vương ạ!" }
+        { "speaker": "liuming", "zh": "这个人是杨同乐吗？他怎么和家月在一起？", "vi": "Người này là Dương Đồng Lạc à? Sao cậu ấy lại đi cùng Gia Nguyệt?" },
+        { "speaker": "wangyixue", "zh": "不是，他叫李文，是家月的好朋友。", "vi": "Không phải, cậu ấy tên Lý Văn, là bạn thân của Gia Nguyệt." },
+        { "speaker": "liuming", "zh": "我还以为是同乐呢，他们看上去有点儿像。", "vi": "Anh cứ tưởng là Đồng Lạc, trông hai người hơi giống nhau.", "highlight": ["以为", "看上去"] },
+        { "speaker": "wangyixue", "zh": "长得是有点儿像，但是李文比同乐高，身高有一米八多。", "vi": "Trông thì hơi giống thật, nhưng Lý Văn cao hơn Đồng Lạc, cao hơn một mét tám." },
+        { "speaker": "liuming", "zh": "看起来也比同乐瘦一点儿。", "vi": "Trông cũng gầy hơn Đồng Lạc một chút.", "highlight": ["看起来"] },
+        { "speaker": "wangyixue", "zh": "下个星期家月和李文要来北京，咱们去机场接他们吧。", "vi": "Tuần sau Gia Nguyệt với Lý Văn sẽ đến Bắc Kinh, mình ra sân bay đón họ nhé." },
+        { "speaker": "liuming", "zh": "好啊，他们哪天到？我跟你一起去。", "vi": "Được, hôm nào họ đến? Anh đi cùng em." }
       ],
       "vocab": [
-        { "zh": "你好", "pinyin": "nǐ hǎo", "pos": "phrase", "vi": "xin chào", "example": { "zh": "你好，王老师！", "vi": "Em chào cô Vương!" } },
-        { "zh": "王老师", "pinyin": "Wáng lǎoshī", "pos": "proper", "vi": "cô/thầy Vương", "proper": true, "example": { "zh": "王老师，你好！", "vi": "Chào cô Vương!" } }
+        { "zh": "以为", "pinyin": "yǐwéi", "pos": "v.", "vi": "tưởng (là) – thường là tưởng sai", "example": { "zh": "我以为你是老师。", "vi": "Tôi cứ tưởng bạn là giáo viên." } },
+        { "zh": "像", "pinyin": "xiàng", "pos": "v.", "vi": "giống", "example": { "zh": "你长得很像你妈妈。", "vi": "Bạn trông rất giống mẹ." } },
+        { "zh": "长", "pinyin": "zhǎng", "pos": "v.", "vi": "mọc, lớn; trông (ngoại hình)", "example": { "zh": "她长得很漂亮。", "vi": "Cô ấy rất xinh." }, "note_vi": "Đọc cháng khi nghĩa là “dài”." },
+        { "zh": "身高", "pinyin": "shēngāo", "pos": "n.", "vi": "chiều cao", "example": { "zh": "他身高一米八。", "vi": "Anh ấy cao một mét tám." } },
+        { "zh": "米", "pinyin": "mǐ", "pos": "m.", "vi": "mét", "example": { "zh": "一米八", "vi": "1 m 80" } },
+        { "zh": "瘦", "pinyin": "shòu", "pos": "adj.", "vi": "gầy", "example": { "zh": "他比我瘦。", "vi": "Anh ấy gầy hơn tôi." } },
+        { "zh": "接", "pinyin": "jiē", "pos": "v.", "vi": "đón", "example": { "zh": "我们去机场接你们。", "vi": "Chúng tôi ra sân bay đón các bạn." } }
       ],
-      "pangdaTip": "Ở Trung Quốc, học sinh gọi giáo viên bằng Họ + 老师: 王老师, 李老师… Gọi bằng tên riêng như “cô Phi” sẽ nghe rất lạ đấy!"
+      "grammar": [
+        {
+          "id": "h3-g1-1",
+          "title_zh": "固定短语“看上去/看起来”",
+          "title_vi": "看上去 / 看起来: trông, có vẻ",
+          "formula": [
+            [{ "zh": "他们", "label": "Người / vật", "role": "S" }, { "zh": "看上去 / 看起来", "label": "trông có vẻ", "role": "ADV" }, { "zh": "有点儿像", "label": "Nhận xét", "role": "V" }]
+          ],
+          "explain_vi": "Dùng để nhận xét theo vẻ bề ngoài, cảm nhận ban đầu – giống “trông”, “có vẻ” trong tiếng Việt. 看起来 còn dùng được cho mùi vị, cảm giác nói chung (这些菜看起来很好吃); 看上去 thiên về hình dáng nhìn thấy.",
+          "examples": [
+            { "zh": "他们看上去有点儿像。", "vi": "Trông họ hơi giống nhau." },
+            { "zh": "这些菜看起来都很好吃。", "vi": "Mấy món này trông đều rất ngon." },
+            { "zh": "那个新来的老师看上去很年轻。", "vi": "Thầy giáo mới đến trông rất trẻ." }
+          ],
+          "mistakes": [
+            { "wrong": "他看上去是很累。", "right": "他看上去很累。", "why_vi": "Sau 看上去 là tính từ, không cần 是 – giống lỗi “我是很忙” đã học ở HSK 1." }
+          ],
+          "quiz": [
+            { "prompt_vi": "“Trông bạn hôm nay hơi mệt.”", "options": ["你今天看起来有点儿累。", "你今天看起来是累。", "你看起来今天累有点儿。"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "以为 thường dùng khi bạn đã nghĩ SAI: 我以为是同乐 = tưởng là Đồng Lạc (nhưng không phải). Nghĩ bình thường thì dùng 觉得 hoặc 想."
     },
     {
       "id": "text-2",
-      "context_vi": "Vẫn là ngày đầu năm học. Trên lớp, cô Vương và cả lớp tập chào hỏi nhau.",
-      "scene": "🏫",
-      "audio": "audio/hsk1/1-3.mp3",
-      "vocabAudio": "audio/hsk1/1-4.mp3",
-      "lines": [
-        { "speaker": "wangyifei", "zh": "大家好！", "vi": "Chào cả lớp!" },
-        { "speaker": "students", "zh": "您好，王老师！", "vi": "Chúng em chào cô Vương ạ!", "highlight": ["您"], "tipRef": 0 },
-        { "speaker": "xiaoyu", "zh": "你们好！", "vi": "Chào các bạn!" },
-        { "speaker": "students", "zh": "小语，你好！", "vi": "Chào Tiểu Ngữ!" }
+      "context_vi": "Ở sân bay, Lý Văn và Gia Nguyệt chờ lấy hành lý.",
+      "scene": "🧳",
+      "audio": "audio/hsk3/1-3.mp3",
+      "vocabAudio": "audio/hsk3/1-4.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Lý Văn và Gia Nguyệt đang làm gì ở sân bay?", "options": ["等箱子", "等同学", "等王一雪"], "answer": 0 },
+        { "prompt_vi": "Vì sao Gia Nguyệt sốt ruột?", "options": ["护照丢了", "行李箱丢了", "拿错行李箱了"], "answer": 1 }
       ],
-      "tips": [{ "vi": "您 là cách nói kính trọng của 你. Dùng với người lớn tuổi, thầy cô, khách hàng – giống “ngài”, “cô ạ” trong tiếng Việt." }],
+      "lines": [
+        { "speaker": "baijiayue", "zh": "我的行李怎么还没出来？是不是丢了？", "vi": "Sao hành lý của mình vẫn chưa ra? Có phải mất rồi không?" },
+        { "speaker": "liwen", "zh": "你的箱子是什么样的？", "vi": "Vali của cậu trông thế nào?" },
+        { "speaker": "baijiayue", "zh": "一个黑色的大箱子，上面写着我的名字和电话号码。", "vi": "Một cái vali đen to, bên trên có ghi tên và số điện thoại của mình." },
+        { "speaker": "liwen", "zh": "我好像在哪儿看到过这个箱子……是不是谁拿错了？", "vi": "Hình như mình đã thấy cái vali này ở đâu đó… Có phải ai đó cầm nhầm rồi không?", "highlight": ["哪儿", "谁"] },
+        { "speaker": "baijiayue", "zh": "箱子里有不少重要的东西，我们快去问问吧。", "vi": "Trong vali có khá nhiều đồ quan trọng, mình mau đi hỏi đi." },
+        { "speaker": "liwen", "zh": "别着急，拿上护照和机票，我们去服务台问一下。", "vi": "Đừng sốt ruột, cầm hộ chiếu với vé máy bay, mình ra quầy dịch vụ hỏi xem." }
+      ],
       "vocab": [
-        { "zh": "大家", "pinyin": "dàjiā", "pos": "pron.", "vi": "mọi người, cả nhà", "example": { "zh": "大家好！", "vi": "Chào mọi người!" } },
-        { "zh": "好", "pinyin": "hǎo", "pos": "adj.", "vi": "tốt, khỏe, hay", "example": { "zh": "老师好！", "vi": "Em chào thầy/cô ạ!" } },
-        { "zh": "学生", "pinyin": "xuésheng", "pos": "n.", "vi": "học sinh, sinh viên", "example": { "zh": "学生们好！", "vi": "Chào các em học sinh!" } },
-        { "zh": "们", "pinyin": "men", "pos": "suf.", "vi": "hậu tố số nhiều (sau đại từ, danh từ chỉ người)", "example": { "zh": "同学们", "vi": "các bạn học" } },
-        { "zh": "老师", "pinyin": "lǎoshī", "pos": "n.", "vi": "giáo viên, thầy/cô", "example": { "zh": "老师，您好！", "vi": "Em chào thầy/cô ạ!" } },
-        { "zh": "您", "pinyin": "nín", "pos": "pron.", "vi": "ngài, ông, bà, thầy, cô (kính trọng)", "example": { "zh": "您好！", "vi": "Kính chào!" } },
-        { "zh": "你们", "pinyin": "nǐmen", "pos": "pron.", "vi": "các bạn, các anh chị", "example": { "zh": "你们好！", "vi": "Chào các bạn!" } }
+        { "zh": "行李", "pinyin": "xíngli", "pos": "n.", "vi": "hành lý", "example": { "zh": "我的行李丢了。", "vi": "Hành lý của tôi bị mất rồi." } },
+        { "zh": "丢", "pinyin": "diū", "pos": "v.", "vi": "mất, đánh rơi", "example": { "zh": "我的手机丢了。", "vi": "Điện thoại tôi bị mất rồi." } },
+        { "zh": "箱子", "pinyin": "xiāngzi", "pos": "n.", "vi": "va li, cái hòm", "example": { "zh": "这个箱子很大。", "vi": "Cái vali này rất to." } },
+        { "zh": "号码", "pinyin": "hàomǎ", "pos": "n.", "vi": "số (điện thoại, phòng…)", "example": { "zh": "你的电话号码是多少？", "vi": "Số điện thoại của bạn là bao nhiêu?" } },
+        { "zh": "好像", "pinyin": "hǎoxiàng", "pos": "adv.", "vi": "hình như", "example": { "zh": "他好像不在家。", "vi": "Hình như anh ấy không ở nhà." } },
+        { "zh": "重要", "pinyin": "zhòngyào", "pos": "adj.", "vi": "quan trọng", "example": { "zh": "这件事很重要。", "vi": "Việc này rất quan trọng." } },
+        { "zh": "着急", "pinyin": "zháojí", "pos": "adj.", "vi": "sốt ruột, lo lắng", "example": { "zh": "别着急，慢慢说。", "vi": "Đừng vội, nói từ từ thôi." } },
+        { "zh": "护照", "pinyin": "hùzhào", "pos": "n.", "vi": "hộ chiếu", "example": { "zh": "我的护照不见了。", "vi": "Hộ chiếu của tôi không thấy đâu." } },
+        { "zh": "服务台", "pinyin": "fúwùtái", "pos": "n.", "vi": "quầy dịch vụ, quầy lễ tân", "example": { "zh": "服务台在前面。", "vi": "Quầy dịch vụ ở phía trước." } }
       ],
       "grammar": [
         {
-          "id": "g1-1",
-          "title_zh": "打招呼：……好！",
-          "title_vi": "Chào hỏi với 好",
+          "id": "h3-g1-2",
+          "title_zh": "疑问代词的非疑问用法（1）",
+          "title_vi": "Đại từ nghi vấn không dùng để hỏi (1): “đâu đó, gì đó, ai đó”",
           "formula": [
-            [{ "zh": "老师 / 大家 / 你们", "label": "Người được chào", "role": "N" }, { "zh": "好", "label": "chào", "role": "V" }, { "zh": "！", "label": "", "role": "X" }],
-            [{ "zh": "王老师", "label": "Gọi tên", "role": "N" }, { "zh": "，", "label": "", "role": "X" }, { "zh": "您好", "label": "Lời chào", "role": "V" }, { "zh": "！", "label": "", "role": "X" }]
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "好像在", "label": "", "role": "ADV" }, { "zh": "哪儿", "label": "= ở đâu đó", "role": "Q" }, { "zh": "看到过这个箱子", "label": "", "role": "V" }]
           ],
-          "explain_vi": "Muốn chào ai, chỉ cần đặt danh xưng trước 好: 老师好！大家好！ Câu 你好 dùng được với hầu hết mọi người. Với người lớn tuổi hoặc thầy cô, dùng 您好 để lịch sự hơn. Có thể gọi tên trước rồi chào, hoặc chào trước rồi gọi tên: 王老师，你好！ cũng như 你好，王老师！",
+          "explain_vi": "哪儿, 什么, 谁, 哪 có thể đứng trong câu trần thuật (không có dấu hỏi) để chỉ nơi chốn, sự vật, người mà ta không biết rõ hoặc không cần nói rõ: 哪儿 = đâu đó, 什么 = cái gì đó, 谁 = ai đó, 哪天 = hôm nào đó. Tiếng Việt cũng làm y hệt: “ăn gì đó”, “hôm nào đó”.",
           "examples": [
-            { "zh": "老师好！", "vi": "Em chào thầy/cô ạ!" },
-            { "zh": "大家好！", "vi": "Chào mọi người!" },
-            { "zh": "您好，王老师！", "vi": "Em chào cô Vương ạ!" }
+            { "zh": "我好像在哪儿看到过这个箱子。", "vi": "Hình như tôi đã thấy cái vali này ở đâu đó." },
+            { "zh": "你吃点儿什么再走吧。", "vi": "Bạn ăn chút gì rồi hẵng đi." },
+            { "zh": "我们哪天一起去踢足球吧。", "vi": "Hôm nào mình cùng đi đá bóng nhé." }
           ],
           "mistakes": [
-            { "wrong": "好老师！", "right": "老师好！", "why_vi": "Trong câu chào, 好 đứng SAU người được chào. 好老师 nghĩa là “giáo viên giỏi”, không phải lời chào." }
+            { "wrong": "你吃点儿什么再走吧？", "right": "你吃点儿什么再走吧。", "why_vi": "Ở đây 什么 không dùng để hỏi, nên câu kết thúc bằng dấu chấm, không phải dấu hỏi." }
           ],
           "quiz": [
-            { "prompt_vi": "Bạn gặp cô giáo buổi sáng. Câu nào lịch sự nhất?", "options": ["你好！", "老师，您好！", "你们好！"], "answer": 1, "explain_vi": "Với thầy cô, dùng danh xưng 老师 + 您好." },
-            { "prompt_vi": "Chào cả lớp (nhiều người) thì nói thế nào?", "options": ["大家好！", "您好！", "好大家！"], "answer": 0, "explain_vi": "大家 = mọi người. 好 đứng sau." }
-          ]
-        },
-        {
-          "id": "g1-2",
-          "title_zh": "后缀“们”",
-          "title_vi": "Hậu tố số nhiều 们",
-          "formula": [
-            [{ "zh": "你 / 学生 / 同学 / 老师", "label": "Đại từ, danh từ chỉ người", "role": "N" }, { "zh": "们", "label": "số nhiều", "role": "PART" }]
-          ],
-          "explain_vi": "们 đứng sau đại từ nhân xưng hoặc danh từ chỉ người để chỉ số nhiều: 你 → 你们, 学生 → 学生们. Không dùng 们 cho đồ vật. 们 luôn đọc thanh nhẹ (men).",
-          "examples": [
-            { "zh": "你们好！", "vi": "Chào các bạn!" },
-            { "zh": "同学们，再见！", "vi": "Tạm biệt các bạn!" },
-            { "zh": "老师们好！", "vi": "Chúng em chào các thầy cô ạ!" }
-          ],
-          "mistakes": [
-            { "wrong": "您们好！", "right": "大家好！", "why_vi": "您 thường không thêm 们. Muốn chào lịch sự nhiều người, hãy dùng 大家好 hoặc 老师们好." }
-          ],
-          "quiz": [
-            { "prompt_vi": "你 + 们 = ?", "options": ["你们", "您们", "们你"], "answer": 0, "explain_vi": "们 đứng sau: 你们 = các bạn." }
+            { "prompt_vi": "Câu nào có 谁 nghĩa là “ai đó” (không phải hỏi)?", "options": ["是不是谁拿错了？", "这是谁的箱子？", "谁是李文？"], "answer": 0, "explain_vi": "Câu hỏi ở đây dùng 是不是; 谁 chỉ “ai đó” không xác định." }
           ]
         }
       ],
-      "pangdaTip": "Nói 您 với người lớn thì cực kỳ được lòng. Nhưng đừng nói 您 với bạn bè cùng tuổi nhé – nghe xa cách lắm!"
+      "pangdaTip": "写着 = có viết. 着 diễn tả trạng thái còn đang tồn tại. Bạn đã gặp ở HSK 2 bài 11, giờ dùng tự nhiên hơn rồi!"
     },
     {
       "id": "text-3",
-      "context_vi": "Cuối buổi học đầu tiên, cả lớp tập nói cảm ơn và chào tạm biệt.",
-      "scene": "👋",
-      "audio": "audio/hsk1/1-5.mp3",
-      "vocabAudio": "audio/hsk1/1-6.mp3",
+      "context_vi": "Ở sảnh đến của sân bay, anh Lưu Minh và chị Nhất Tuyết chờ đón khách.",
+      "scene": "🛬",
+      "audio": "audio/hsk3/1-5.mp3",
+      "vocabAudio": "audio/hsk3/1-6.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Hai người đang làm gì ở sân bay?", "options": ["接人", "坐飞机", "找行李箱"], "answer": 0 },
+        { "prompt_vi": "Vì sao anh Lưu Minh muốn đứng ra giữa?", "options": ["旁边人太多了", "他看见白家月了", "白家月好找他们"], "answer": 2 }
+      ],
       "lines": [
-        { "speaker": "students", "zh": "谢谢小语！", "vi": "Cảm ơn Tiểu Ngữ!" },
-        { "speaker": "xiaoyu", "zh": "不客气！", "vi": "Không có gì đâu!" },
-        { "speaker": "wangyifei", "zh": "同学们，再见！", "vi": "Tạm biệt các em!" },
-        { "speaker": "students", "zh": "王老师，再见！", "vi": "Chúng em chào cô ạ!" }
+        { "speaker": "liuming", "zh": "飞机早就到了，你看到家月他们了吗？", "vi": "Máy bay đến từ lâu rồi, em thấy Gia Nguyệt với mọi người chưa?" },
+        { "speaker": "wangyixue", "zh": "还没有，他们应该快出来了。", "vi": "Chưa, chắc họ sắp ra rồi.", "highlight": ["应该"] },
+        { "speaker": "liuming", "zh": "我们站到中间去吧，这样他们容易找到我们。", "vi": "Mình đứng ra giữa đi, như vậy họ dễ tìm thấy mình." },
+        { "speaker": "wangyixue", "zh": "你看，那个高个子的年轻人是不是李文？", "vi": "Anh nhìn kìa, người thanh niên cao cao kia có phải Lý Văn không?" },
+        { "speaker": "liuming", "zh": "哪个？是那个穿着黑衣服的短头发的年轻人吗？", "vi": "Người nào? Có phải cậu thanh niên tóc ngắn mặc áo đen kia không?", "highlight": ["那个穿着黑衣服的短头发的年轻人"] },
+        { "speaker": "wangyixue", "zh": "对，就是他！家月就在他后面呢。", "vi": "Đúng, chính là cậu ấy! Gia Nguyệt ở ngay phía sau kìa." }
       ],
       "vocab": [
-        { "zh": "谢谢", "pinyin": "xièxie", "pos": "v.", "vi": "cảm ơn", "example": { "zh": "谢谢老师！", "vi": "Em cảm ơn thầy/cô!" } },
-        { "zh": "不客气", "pinyin": "bú kèqi", "pos": "phrase", "vi": "không có gì, đừng khách sáo", "example": { "zh": "不客气！", "vi": "Không có gì!" } },
-        { "zh": "同学", "pinyin": "tóngxué", "pos": "n.", "vi": "bạn học", "example": { "zh": "同学们好！", "vi": "Chào các bạn!" } },
-        { "zh": "再见", "pinyin": "zàijiàn", "pos": "v.", "vi": "tạm biệt, hẹn gặp lại", "example": { "zh": "老师，再见！", "vi": "Em chào cô ạ! (khi ra về)" } }
+        { "zh": "应该", "pinyin": "yīnggāi", "pos": "mod.", "vi": "nên; chắc là", "example": { "zh": "他们应该快到了。", "vi": "Chắc họ sắp đến rồi." } },
+        { "zh": "站", "pinyin": "zhàn", "pos": "v.", "vi": "đứng", "example": { "zh": "我们站在这儿等吧。", "vi": "Mình đứng đây đợi nhé." } },
+        { "zh": "中间", "pinyin": "zhōngjiān", "pos": "n.", "vi": "ở giữa", "example": { "zh": "我坐在他们中间。", "vi": "Tôi ngồi giữa họ." } },
+        { "zh": "短", "pinyin": "duǎn", "pos": "adj.", "vi": "ngắn", "example": { "zh": "她的头发很短。", "vi": "Tóc cô ấy rất ngắn." } },
+        { "zh": "头发", "pinyin": "tóufa", "pos": "n.", "vi": "tóc", "example": { "zh": "他是短头发。", "vi": "Anh ấy tóc ngắn." } },
+        { "zh": "年轻", "pinyin": "niánqīng", "pos": "adj.", "vi": "trẻ", "example": { "zh": "那个年轻人是谁？", "vi": "Người thanh niên kia là ai?" } }
       ],
       "grammar": [
         {
-          "id": "g1-3",
-          "title_zh": "致谢与告别",
-          "title_vi": "Cảm ơn và tạm biệt",
+          "id": "h3-g1-3",
+          "title_zh": "多项定语",
+          "title_vi": "Nhiều định ngữ cho một danh từ",
           "formula": [
-            [{ "zh": "谢谢", "label": "cảm ơn", "role": "V" }, { "zh": "老师 / 你 / 小语", "label": "người được cảm ơn", "role": "O" }],
-            [{ "zh": "老师 / 同学们", "label": "gọi người nghe", "role": "N" }, { "zh": "，", "label": "", "role": "X" }, { "zh": "再见", "label": "tạm biệt", "role": "V" }]
+            [{ "zh": "那个", "label": "Chỉ định + lượng từ", "role": "X" }, { "zh": "穿着黑衣服的", "label": "Hành động / trạng thái", "role": "ATTR" }, { "zh": "短头发的", "label": "Đặc điểm", "role": "ATTR" }, { "zh": "年轻人", "label": "Danh từ chính", "role": "N" }]
           ],
-          "explain_vi": "谢谢 có thể đứng một mình hoặc kèm người được cảm ơn ở phía sau. Đáp lại lời cảm ơn bằng 不客气. Khi chào tạm biệt, gọi tên người nghe trước rồi nói 再见.",
+          "explain_vi": "Khi nhiều định ngữ cùng đứng trước một danh từ, thứ tự thường là: thời gian/nơi chốn → hành động/trạng thái → đặc điểm. Cụm chỉ định hoặc số lượng (那个, 两个) khá linh hoạt, có thể đứng đầu hoặc đứng sau định ngữ hành động. Ngược với tiếng Việt: tiếng Việt đặt hết sau danh từ (“người thanh niên tóc ngắn mặc áo đen kia”), tiếng Trung đặt hết TRƯỚC.",
           "examples": [
-            { "zh": "谢谢你！", "vi": "Cảm ơn bạn!" },
-            { "zh": "不客气！", "vi": "Không có gì!" },
-            { "zh": "王老师，再见！", "vi": "Em chào cô Vương ạ!" }
+            { "zh": "李文是那个穿着黑衣服的短头发的年轻人。", "vi": "Lý Văn là cậu thanh niên tóc ngắn mặc áo đen kia." },
+            { "zh": "昨天和家月一起看电影的两个人是我的朋友。", "vi": "Hai người hôm qua đi xem phim với Gia Nguyệt là bạn tôi." },
+            { "zh": "我那件新买的白色的衣服在哪儿？", "vi": "Cái áo trắng mới mua của tôi đâu rồi?" }
           ],
           "mistakes": [
-            { "wrong": "再见你！", "right": "再见！", "why_vi": "Người Việt hay dịch “tạm biệt bạn” thành 再见你. Tiếng Trung chỉ cần 再见！, muốn gọi tên thì đặt tên ở trước: 同学们，再见！" }
+            { "wrong": "年轻人那个穿黑衣服的", "right": "那个穿黑衣服的年轻人", "why_vi": "Mọi định ngữ đều đứng trước danh từ chính 年轻人." }
           ],
           "quiz": [
-            { "prompt_vi": "Có người nói 谢谢！ Bạn đáp:", "options": ["不客气！", "再见！", "你好！"], "answer": 0 }
+            { "prompt_vi": "“cái áo đỏ mới mua của tôi”", "options": ["我新买的红色的衣服", "衣服我新买的红色的", "红色的衣服我新买的"], "answer": 0 }
           ]
         }
       ],
-      "pangdaTip": "谢谢 đọc là xièxie: chữ thứ hai là thanh nhẹ, nói ngắn và nhẹ. Đừng nhấn cả hai chữ như nhau nhé!"
+      "pangdaTip": "应该 có hai nghĩa: “nên” (你应该休息) và “chắc là” (他们应该快出来了). Nhìn ngữ cảnh để phân biệt nhé!"
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng khách sạn, Lý Văn viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk3/1-7.mp3",
+      "vocabAudio": "audio/hsk3/1-8.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Lý Văn thấy thời gian trên máy bay thế nào?", "options": ["很长", "过得很快", "很累"], "answer": 1 },
+        { "prompt_vi": "Ai đã giúp họ tìm thấy vali?", "options": ["服务员", "王老师", "刘明"], "answer": 0 }
+      ],
+      "lines": [
+        { "speaker": "liwen", "zh": "昨天下午我们到北京了。", "vi": "Chiều qua bọn mình đã đến Bắc Kinh." },
+        { "speaker": "liwen", "zh": "飞机上，我和家月一直聊天，十几个小时很快就过去了。", "vi": "Trên máy bay, mình với Gia Nguyệt nói chuyện suốt, mười mấy tiếng trôi qua rất nhanh." },
+        { "speaker": "liwen", "zh": "下飞机以后，家月发现她的箱子不见了。", "vi": "Xuống máy bay, Gia Nguyệt phát hiện vali của cô ấy không thấy đâu." },
+        { "speaker": "liwen", "zh": "我带她去服务台问了问，服务员很快就帮助我们找到了。", "vi": "Mình đưa cô ấy ra quầy dịch vụ hỏi, nhân viên giúp bọn mình tìm thấy rất nhanh." },
+        { "speaker": "liwen", "zh": "出来的时候，王老师的姐姐已经在等我们了，她看起来比照片上还年轻。", "vi": "Lúc ra ngoài, chị gái cô Vương đã đứng đợi bọn mình, trông chị còn trẻ hơn trong ảnh." },
+        { "speaker": "liwen", "zh": "晚上，一雪姐还带我们去吃了北京菜。", "vi": "Buổi tối, chị Nhất Tuyết còn dẫn bọn mình đi ăn món Bắc Kinh." }
+      ],
+      "vocab": [
+        { "zh": "发现", "pinyin": "fāxiàn", "pos": "v.", "vi": "phát hiện", "example": { "zh": "我发现手机不见了。", "vi": "Tôi phát hiện điện thoại không thấy đâu." } },
+        { "zh": "不见", "pinyin": "bújiàn", "pos": "v.", "vi": "không thấy đâu, mất", "example": { "zh": "我的护照不见了。", "vi": "Hộ chiếu của tôi không thấy đâu." } },
+        { "zh": "带", "pinyin": "dài", "pos": "v.", "vi": "dẫn, đưa; mang theo", "example": { "zh": "我带你去服务台。", "vi": "Tôi dẫn bạn ra quầy dịch vụ." } },
+        { "zh": "帮助", "pinyin": "bāngzhù", "pos": "v.", "vi": "giúp đỡ", "example": { "zh": "谢谢你的帮助！", "vi": "Cảm ơn sự giúp đỡ của bạn!" } },
+        { "zh": "照片", "pinyin": "zhàopiàn", "pos": "n.", "vi": "ảnh", "example": { "zh": "这是我家人的照片。", "vi": "Đây là ảnh gia đình tôi." } }
+      ],
+      "pangdaTip": "帮助 và 帮忙 đều là “giúp”, nhưng 帮助 + người (帮助我们) còn 帮忙 không mang tân ngữ trực tiếp (帮我一个忙). Nhớ kỹ nhé!"
     }
   ],
   "exercises": [
-    { "id": "e1", "kind": "listenPick", "audioText": "再见！", "options": [{ "emoji": "🙏", "label": "Cảm ơn" }, { "emoji": "🚪", "label": "Tạm biệt" }, { "emoji": "🙋", "label": "Xin chào" }], "answer": 1, "explain_vi": "再见 = tạm biệt." },
-    { "id": "e2", "kind": "listenPick", "audioText": "谢谢！", "options": [{ "emoji": "🙏", "label": "Cảm ơn" }, { "emoji": "🚪", "label": "Tạm biệt" }, { "emoji": "🙋", "label": "Xin chào" }], "answer": 0, "explain_vi": "谢谢 = cảm ơn." },
-    { "id": "e3", "kind": "listenTF", "audioText": "老师好！", "emoji": "👩‍🏫", "statement_vi": "Câu vừa nghe là lời chào giáo viên.", "answer": true, "explain_vi": "老师好 = Em chào thầy/cô." },
-    { "id": "e4", "kind": "listenTF", "audioText": "不客气！", "emoji": "🙏", "statement_vi": "Câu vừa nghe dùng để cảm ơn.", "answer": false, "explain_vi": "不客气 là câu ĐÁP lại lời cảm ơn: “Không có gì”." },
-    { "id": "e5", "kind": "fill", "sentence": "王老师，___好！", "bank": ["您", "们", "大家"], "answer": "您", "explain_vi": "Chào giáo viên lịch sự: 您好." },
-    { "id": "e6", "kind": "fill", "sentence": "同学___，再见！", "bank": ["们", "好", "您"], "answer": "们", "explain_vi": "同学们 = các bạn học (số nhiều)." },
-    { "id": "e7", "kind": "reorder", "tiles": ["好", "大家"], "answers": ["大家好"], "vi": "Chào mọi người!", "explain_vi": "Người được chào + 好." },
-    { "id": "e8", "kind": "pictureComplete", "emoji": "🔔🎒🚪", "sentence": "老师，___！", "options": ["再见", "谢谢", "不客气"], "answer": 0, "explain_vi": "Chuông tan học, ra về thì chào tạm biệt: 再见." },
-    { "id": "e9", "kind": "matchQA", "pairs": [{ "q": "谢谢！", "a": "不客气！" }, { "q": "大家好！", "a": "老师好！" }, { "q": "同学们，再见！", "a": "老师，再见！" }], "explain_vi": "Cảm ơn ↔ Không có gì; Chào ↔ Chào lại; Tạm biệt ↔ Tạm biệt." }
+    { "id": "e1", "kind": "fill", "sentence": "服务台___在前面，我们过去问问吧。", "bank": ["应该", "带", "丢"], "answer": "应该" },
+    { "id": "e2", "kind": "fill", "sentence": "我的护照不见了，是不是在机场___了？", "bank": ["丢", "接", "带"], "answer": "丢" },
+    { "id": "e3", "kind": "fill", "sentence": "我___这个人是你哥哥，你们长得太像了。", "bank": ["以为", "发现", "帮助"], "answer": "以为" },
+    { "id": "e4", "kind": "fill", "sentence": "他已经到了，我们快出去___他吧。", "bank": ["接", "丢", "站"], "answer": "接" },
+    { "id": "e5", "kind": "fill", "sentence": "别___，箱子一会儿就出来了。", "bank": ["着急", "重要", "年轻"], "answer": "着急" },
+    { "id": "e6", "kind": "reorder", "tiles": ["看上去", "很", "那个老师", "年轻"], "answers": ["那个老师看上去很年轻"], "vi": "Thầy giáo kia trông rất trẻ.", "explain_vi": "Chủ ngữ + 看上去 + tính từ." },
+    { "id": "e7", "kind": "reorder", "tiles": ["的", "穿着黑衣服", "是", "李文", "那个人"], "answers": ["李文是那个穿着黑衣服的人", "那个穿着黑衣服的人是李文"], "vi": "Lý Văn là người mặc áo đen kia.", "explain_vi": "Định ngữ đứng trước danh từ chính." },
+    { "id": "e8", "kind": "listenPick", "audioText": "我的护照不见了。", "options": [{ "emoji": "🛂", "label": "Mất hộ chiếu" }, { "emoji": "🧳", "label": "Mất vali" }, { "emoji": "📱", "label": "Mất điện thoại" }], "answer": 0 },
+    { "id": "e9", "kind": "listenTF", "audioText": "他身高有一米八多，看起来很瘦。", "emoji": "🧍", "statement_vi": "Người được nói đến cao trên 1 m 80 và gầy.", "answer": true },
+    { "id": "e10", "kind": "pictureComplete", "emoji": "🧑‍🦱💇‍♂️✂️", "sentence": "他是___头发。", "options": ["短", "瘦", "重要"], "answer": 0 },
+    { "id": "e11", "kind": "matchQA", "pairs": [{ "q": "你的箱子是什么样的？", "a": "一个黑色的大箱子。" }, { "q": "照片上这个人是你男朋友吗？", "a": "不是，他是我同学。" }, { "q": "他们怎么还没出来？", "a": "别着急，应该快出来了。" }] }
   ],
   "activity": {
-    "title_vi": "Đóng vai: Ngày đầu tiên đến lớp",
+    "title_vi": "Hai tình huống ở sân bay",
     "steps_vi": [
-      "Chia nhóm 3 người: một người làm giáo viên, hai người làm học sinh.",
-      "Giáo viên bước vào lớp và chào cả lớp. Học sinh chào lại thật lễ phép.",
-      "Một học sinh cảm ơn, người kia đáp lời.",
-      "Cuối giờ, cả nhóm chào tạm biệt. Sau đó đổi vai và làm lại."
+      "Tình huống 1: A ra sân bay đón B nhưng không biết B trông thế nào. B gọi điện miêu tả mình và chỗ mình đang đứng.",
+      "Tình huống 2: A vừa xuống máy bay thì phát hiện mất hộ chiếu, rất sốt ruột. B là bạn của A, giúp A đi tìm.",
+      "Dùng nhiều định ngữ khi miêu tả người và đồ vật, dùng 看起来 và 好像."
     ],
     "patterns": [
-      { "zh": "大家好！", "vi": "Chào cả lớp!" },
-      { "zh": "老师，您好！", "vi": "Em chào thầy/cô ạ!" },
-      { "zh": "谢谢！", "vi": "Cảm ơn!" },
-      { "zh": "不客气！", "vi": "Không có gì!" },
-      { "zh": "同学们，再见！", "vi": "Tạm biệt các em!" }
+      { "zh": "我是那个穿着白衣服的{长|cháng}头发的女孩儿。", "vi": "Tôi là cô gái tóc dài mặc áo trắng." },
+      { "zh": "你的箱子是什么样的？", "vi": "Vali của bạn trông thế nào?" },
+      { "zh": "别着急，我们去服务台问一下。", "vi": "Đừng sốt ruột, mình ra quầy dịch vụ hỏi xem." },
+      { "zh": "我好像在哪儿看到过。", "vi": "Hình như tôi đã thấy ở đâu đó." }
     ]
   },
-  "tongueTwister": { "zh": "妈妈骑马，马慢，妈妈骂马。", "vi": "Mẹ cưỡi ngựa, ngựa đi chậm, mẹ mắng ngựa. (Luyện đủ 4 thanh với âm “ma”)" },
   "culture": {
-    "title_vi": "Chào hỏi kiểu Trung Quốc",
+    "title_vi": "Hai sân bay lớn của Bắc Kinh",
     "body_vi": [
-      "你好 là câu chào “vạn năng”, dùng được ở mọi thời điểm trong ngày. Với người lớn tuổi, thầy cô hay khách hàng, người Trung Quốc dùng 您好 để thể hiện sự tôn trọng.",
-      "Học sinh gọi giáo viên bằng Họ + 老师 (王老师, 李老师). Người Việt quen gọi “cô Phi, thầy Văn” theo tên, nhưng trong tiếng Trung gọi theo họ mới tự nhiên.",
-      "Người Trung Quốc ít ôm hay hôn má khi chào. Gật đầu, mỉm cười hoặc bắt tay là đủ lịch sự.",
-      "Giữa bạn bè thân, người ta hay chào bằng một câu hỏi thăm theo tình huống thay vì 你好. Bạn sẽ gặp kiểu chào này ở các bài sau."
+      "Bắc Kinh có hai sân bay quốc tế: Thủ đô (首都国际机场) ở phía đông bắc và Đại Hưng (大兴国际机场) ở phía nam, khai trương năm 2019. Đại Hưng nổi tiếng với nhà ga hình “sao biển” do kiến trúc sư Zaha Hadid thiết kế.",
+      "Khi hành lý thất lạc, hãy giữ thẻ hành lý (行李牌) dán sau vé máy bay và đến quầy hành lý thất lạc (行李查询) ngay ở khu nhận hành lý, trước khi ra khỏi khu vực cách ly.",
+      "Câu cần nhớ khi đi máy bay: 我的行李丢了 (hành lý của tôi bị mất), 请问服务台在哪儿？ (xin hỏi quầy dịch vụ ở đâu?)."
     ],
     "table": {
-      "head": ["Tiếng Việt", "Tiếng Trung", "Dùng khi"],
-      "rows": [
-        ["Xin chào", "你好 nǐ hǎo", "Hầu hết tình huống"],
-        ["Kính chào", "您好 nín hǎo", "Người lớn tuổi, thầy cô, khách"],
-        ["Chào mọi người", "大家好 dàjiā hǎo", "Nói với nhóm đông"],
-        ["Cảm ơn", "谢谢 xièxie", "Mọi tình huống"],
-        ["Tạm biệt", "再见 zàijiàn", "Khi chia tay"]
-      ]
+      "head": ["Tiếng Việt", "Chữ Hán", "Pinyin"],
+      "rows": [["Sân bay Thủ đô Bắc Kinh", "首都国际机场", "Shǒudū Guójì Jīchǎng"], ["Sân bay Đại Hưng", "大兴国际机场", "Dàxīng Guójì Jīchǎng"], ["Thẻ lên máy bay", "登机牌", "dēngjīpái"], ["Khu nhận hành lý", "行李提取处", "xíngli tíqǔchù"], ["Hộ chiếu", "护照", "hùzhào"]]
     }
   }
 }

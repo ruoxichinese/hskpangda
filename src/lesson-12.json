@@ -1,31 +1,37 @@
 {
   "id": 12,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "昨天下雪了",
-    "pinyin": "Zuótiān xià xuě le",
-    "vi": "Hôm qua tuyết rơi"
+    "zh": "这个季节天气变化很快",
+    "pinyin": "Zhège jìjié tiānqì biànhuà hěn kuài",
+    "vi": "Mùa này thời tiết thay đổi rất nhanh"
   },
   "grammarTopics_vi": [
-    "Câu không chủ-vị",
-    "Trợ từ 了 (1)",
-    "Cấu trúc 太……了"
+    "Câu lựa chọn 或者……，或者……",
+    "Nghĩa mở rộng của bổ ngữ xu hướng (2)",
+    "Phó từ phạm vi 就",
+    "Nghĩa mở rộng của bổ ngữ xu hướng (3)"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu không chủ-vị",
+      "vi": "Câu lựa chọn 或者……，或者……",
       "doneWhen": []
     },
     {
       "id": "o2",
-      "vi": "Trợ từ 了 (1)",
+      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (2)",
       "doneWhen": []
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 太……了",
+      "vi": "Phó từ phạm vi 就",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (3)",
       "doneWhen": []
     }
   ],

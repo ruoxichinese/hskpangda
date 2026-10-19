@@ -1,19 +1,37 @@
 {
   "id": 15,
-  "level": "hsk1",
+  "level": "hsk3",
   "status": "draft",
   "title": {
-    "zh": "大兴机场见！",
-    "pinyin": "Dàxīng Jīchǎng jiàn!",
-    "vi": "Hẹn gặp ở sân bay Đại Hưng!"
+    "zh": "我是半个南京人",
+    "pinyin": "Wǒ shì bàn ge Nánjīng rén",
+    "vi": "Tôi coi như nửa người Nam Kinh"
   },
   "grammarTopics_vi": [
-    "Câu ghép ……，还/也……"
+    "Giới từ 根据",
+    "Lặp cụm số lượng",
+    "Cấu trúc 在……看来",
+    "Cụm 不一会儿"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu ghép ……，还/也……",
+      "vi": "Giới từ 根据",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Lặp cụm số lượng",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cấu trúc 在……看来",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Cụm 不一会儿",
       "doneWhen": []
     }
   ],
