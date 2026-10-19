@@ -1,0 +1,251 @@
+{
+  "id": 3,
+  "level": "hsk3",
+  "status": "ready",
+  "title": { "zh": "这个小区挺好的", "pinyin": "Zhège xiǎoqū tǐng hǎo de", "vi": "Khu chung cư này khá đẹp" },
+  "grammarTopics_vi": ["Phó từ chỉ mức độ 挺", "Bổ ngữ mức độ (1): ……坏了", "So sánh 就 và 才"],
+  "objectives": [
+    { "id": "o1", "vi": "Nói về môi trường sống và chuyện nhà cửa", "doneWhen": ["text-1", "text-2"] },
+    { "id": "o2", "vi": "Dùng 挺 và 坏了 để diễn tả mức độ", "doneWhen": ["text-1", "text-2"] },
+    { "id": "o3", "vi": "Dùng 就 và 才 để nói việc xảy ra sớm/muộn, nhanh/chậm", "doneWhen": ["text-3", "text-4"] }
+  ],
+  "warmup": [
+    { "emoji": "🚻", "word": "卫生间", "pinyin": "wèishēngjiān", "vi": "nhà vệ sinh" },
+    { "emoji": "❄️", "word": "空调", "pinyin": "kōngtiáo", "vi": "điều hoà" },
+    { "emoji": "🧊", "word": "冰箱", "pinyin": "bīngxiāng", "vi": "tủ lạnh" },
+    { "emoji": "🫧", "word": "洗衣机", "pinyin": "xǐyījī", "vi": "máy giặt" },
+    { "emoji": "💡", "word": "灯", "pinyin": "dēng", "vi": "đèn" },
+    { "emoji": "🌷", "word": "花园", "pinyin": "huāyuán", "vi": "vườn hoa" }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà, anh Lưu Minh và chị Nhất Tuyết bàn chuyện đổi nhà.",
+      "scene": "🏘️",
+      "audio": "audio/hsk3/3-1.mp3",
+      "vocabAudio": "audio/hsk3/3-2.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Hai người muốn làm gì?", "options": ["换房子", "买空调", "去女儿的初中"], "answer": 0 },
+        { "prompt_vi": "Vì sao chị Nhất Tuyết chưa ưng căn nhà này lắm?", "options": ["房子太远", "她不太喜欢住一层", "她不喜欢这个小区"], "answer": 1 }
+      ],
+      "lines": [
+        { "speaker": "wangyixue", "zh": "小雪上初中了，学校离咱们家太远，咱们换个近一点儿的房子吧。", "vi": "Tiểu Tuyết lên cấp hai rồi, trường xa nhà mình quá, mình đổi căn nhà nào gần hơn đi anh." },
+        { "speaker": "liuming", "zh": "好啊。你看网上这个小区怎么样？", "vi": "Được đấy. Em xem khu chung cư này trên mạng thế nào?" },
+        { "speaker": "wangyixue", "zh": "环境挺好的，离地铁站也很近。", "vi": "Môi trường khá tốt, cách ga tàu điện ngầm cũng gần.", "highlight": ["挺好的"] },
+        { "speaker": "liuming", "zh": "房子里的空调和洗衣机都是新的。", "vi": "Điều hoà và máy giặt trong nhà đều mới." },
+        { "speaker": "wangyixue", "zh": "挺不错的，就是在一层，我不太喜欢。", "vi": "Khá được đấy, chỉ là ở tầng một, em không thích lắm." },
+        { "speaker": "liuming", "zh": "一层有个小花园，小明一定喜欢。周末咱们去看看吧！", "vi": "Tầng một có vườn hoa nhỏ, Tiểu Minh chắc chắn thích. Cuối tuần mình đi xem nhé!" }
+      ],
+      "vocab": [
+        { "zh": "初中", "pinyin": "chūzhōng", "pos": "n.", "vi": "trung học cơ sở, cấp hai", "example": { "zh": "我妹妹上初中了。", "vi": "Em gái tôi lên cấp hai rồi." } },
+        { "zh": "咱们", "pinyin": "zánmen", "pos": "pron.", "vi": "chúng ta, mình (gồm cả người nghe)", "example": { "zh": "咱们一起去吧。", "vi": "Chúng mình cùng đi nhé." } },
+        { "zh": "换", "pinyin": "huàn", "pos": "v.", "vi": "đổi, thay", "example": { "zh": "我想换一个手机。", "vi": "Tôi muốn đổi điện thoại." } },
+        { "zh": "房子", "pinyin": "fángzi", "pos": "n.", "vi": "nhà, căn hộ", "example": { "zh": "这个房子很大。", "vi": "Căn nhà này rất rộng." } },
+        { "zh": "小区", "pinyin": "xiǎoqū", "pos": "n.", "vi": "khu dân cư, khu chung cư", "example": { "zh": "我们小区很安静。", "vi": "Khu tôi ở rất yên tĩnh." } },
+        { "zh": "环境", "pinyin": "huánjìng", "pos": "n.", "vi": "môi trường, khung cảnh", "example": { "zh": "这儿的环境很好。", "vi": "Môi trường ở đây rất tốt." } },
+        { "zh": "挺", "pinyin": "tǐng", "pos": "adv.", "vi": "khá, rất (khẩu ngữ)", "example": { "zh": "这个菜挺好吃的。", "vi": "Món này khá ngon." } },
+        { "zh": "空调", "pinyin": "kōngtiáo", "pos": "n.", "vi": "điều hoà", "example": { "zh": "房间里有空调吗？", "vi": "Trong phòng có điều hoà không?" } },
+        { "zh": "洗衣机", "pinyin": "xǐyījī", "pos": "n.", "vi": "máy giặt", "example": { "zh": "洗衣机是新的。", "vi": "Máy giặt là máy mới." } },
+        { "zh": "层", "pinyin": "céng", "pos": "m.", "vi": "tầng", "example": { "zh": "我家住三层。", "vi": "Nhà tôi ở tầng ba." } },
+        { "zh": "花园", "pinyin": "huāyuán", "pos": "n.", "vi": "vườn hoa", "example": { "zh": "小区里有一个大花园。", "vi": "Trong khu có một vườn hoa lớn." } }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g3-1",
+          "title_zh": "程度副词“挺”",
+          "title_vi": "Phó từ 挺: khá, rất",
+          "formula": [
+            [{ "zh": "环境", "label": "Chủ ngữ", "role": "S" }, { "zh": "挺", "label": "khá", "role": "ADV" }, { "zh": "好", "label": "Tính từ / ĐT tâm lý", "role": "V" }, { "zh": "的", "label": "", "role": "PART" }]
+          ],
+          "explain_vi": "挺 đứng trước tính từ hoặc động từ tâm lý (喜欢, 想…) để chỉ mức độ khá cao, thường đi kèm 的 ở cuối – rất hay dùng trong khẩu ngữ. Nghĩa nhẹ hơn 很 một chút, gần với “khá”, “cũng… lắm” trong tiếng Việt.",
+          "examples": [
+            { "zh": "这个小区环境挺好的。", "vi": "Khu này môi trường khá tốt." },
+            { "zh": "这家饭馆的菜挺好吃的。", "vi": "Món ở quán này khá ngon." },
+            { "zh": "买这个吧，我挺喜欢这个颜色的。", "vi": "Mua cái này đi, mình khá thích màu này." }
+          ],
+          "mistakes": [
+            { "wrong": "环境是挺好的的。", "right": "环境挺好的。", "why_vi": "Chỉ cần một 的 ở cuối, không thêm 是 trước 挺 (trừ khi muốn nhấn mạnh xác nhận)." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Chọn câu tự nhiên nhất trong khẩu ngữ:", "options": ["这个房子挺大的。", "这个房子大挺的。", "这个房子挺的大。"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "咱们 = “chúng ta” (có cả người nghe), còn 我们 có thể không gồm người nghe. Người Bắc Kinh rất hay nói 咱们 – nghe thân mật lắm!"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở nhà mới, chị Nhất Tuyết đang dọn phòng thì anh Lưu Minh bước vào.",
+      "scene": "📦",
+      "audio": "audio/hsk3/3-3.mp3",
+      "vocabAudio": "audio/hsk3/3-4.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Vì sao đèn vẫn bật?", "options": ["灯坏了", "是王一雪开的", "刘明走的时候忘关了"], "answer": 2 },
+        { "prompt_vi": "Nhà mới hiện thế nào?", "options": ["冰箱是旧的", "洗衣机是坏的", "卫生间没打扫好"], "answer": 2 }
+      ],
+      "lines": [
+        { "speaker": "wangyixue", "zh": "我今天早上过来的时候，灯还开着呢。", "vi": "Sáng nay em qua đây thì đèn vẫn còn bật." },
+        { "speaker": "liuming", "zh": "这几天我忙坏了，可能走的时候忘了关。", "vi": "Mấy hôm nay anh bận kinh khủng, chắc lúc đi quên tắt.", "highlight": ["忙坏了"] },
+        { "speaker": "wangyixue", "zh": "冰箱不能用了，这些吃的东西放哪儿？", "vi": "Tủ lạnh không dùng được, đồ ăn này để đâu bây giờ?" },
+        { "speaker": "liuming", "zh": "不会吧？冰箱是新买的，我来看看。", "vi": "Không thể nào? Tủ lạnh mới mua mà, để anh xem." },
+        { "speaker": "wangyixue", "zh": "洗衣机也坏了吗？", "vi": "Máy giặt cũng hỏng à?" },
+        { "speaker": "liuming", "zh": "洗衣机没坏，但是卫生间还没打扫好，现在还不能洗衣服。", "vi": "Máy giặt không hỏng, nhưng nhà vệ sinh chưa dọn xong, giờ chưa giặt đồ được." },
+        { "speaker": "wangyixue", "zh": "星期天我们真的能搬家吗？", "vi": "Chủ nhật mình có chuyển nhà được thật không đây?" }
+      ],
+      "vocab": [
+        { "zh": "灯", "pinyin": "dēng", "pos": "n.", "vi": "đèn", "example": { "zh": "请把灯关了。", "vi": "Làm ơn tắt đèn." } },
+        { "zh": "关", "pinyin": "guān", "pos": "v.", "vi": "tắt, đóng", "example": { "zh": "走的时候别忘了关灯。", "vi": "Lúc đi đừng quên tắt đèn." } },
+        { "zh": "冰箱", "pinyin": "bīngxiāng", "pos": "n.", "vi": "tủ lạnh", "example": { "zh": "冰箱里有水果。", "vi": "Trong tủ lạnh có hoa quả." } },
+        { "zh": "卫生间", "pinyin": "wèishēngjiān", "pos": "n.", "vi": "nhà vệ sinh, phòng tắm", "example": { "zh": "请问卫生间在哪儿？", "vi": "Xin hỏi nhà vệ sinh ở đâu?" } },
+        { "zh": "打扫", "pinyin": "dǎsǎo", "pos": "v.", "vi": "quét dọn", "example": { "zh": "周末我打扫房间。", "vi": "Cuối tuần tôi dọn phòng." } },
+        { "zh": "搬家", "pinyin": "bānjiā", "pos": "v.", "vi": "chuyển nhà", "example": { "zh": "我们下个月搬家。", "vi": "Tháng sau chúng tôi chuyển nhà." } }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g3-2",
+          "title_zh": "程度补语（1）",
+          "title_vi": "Bổ ngữ mức độ (1): ……坏了",
+          "formula": [
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "忙 / 渴 / 累", "label": "Tính từ", "role": "V" }, { "zh": "坏了", "label": "… kinh khủng", "role": "ADV" }]
+          ],
+          "explain_vi": "坏了 đặt sau tính từ (thường là trạng thái khó chịu) để nói mức độ rất cao, có ý cường điệu – giống “… chết đi được”, “… muốn xỉu” trong tiếng Việt: 忙坏了 = bận chết đi được, 渴坏了 = khát khô cổ.",
+          "examples": [
+            { "zh": "我这几天忙坏了。", "vi": "Mấy hôm nay tôi bận kinh khủng." },
+            { "zh": "我渴坏了，哪里能买水？", "vi": "Tôi khát quá, mua nước ở đâu được nhỉ?" },
+            { "zh": "这几天非常忙，大家都累坏了。", "vi": "Mấy ngày nay cực kỳ bận, ai cũng mệt rã rời." }
+          ],
+          "mistakes": [
+            { "wrong": "我很忙坏了。", "right": "我忙坏了。", "why_vi": "坏了 đã mang nghĩa mức độ cao, không thêm 很 trước tính từ." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Cả ngày chưa ăn gì, bạn nói:", "options": ["我饿坏了。", "我很饿坏了。", "我坏饿了。"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "Phân biệt: 洗衣机坏了 = máy giặt HỎNG rồi (坏 là động từ chính), còn 我忙坏了 = tôi bận KINH KHỦNG (坏了 là bổ ngữ mức độ)."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà, anh Lưu Minh và chị Nhất Tuyết nói chuyện trong phòng khách.",
+      "scene": "💳",
+      "audio": "audio/hsk3/3-5.mp3",
+      "vocabAudio": "audio/hsk3/3-6.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Vì sao tháng này hai người tiêu nhiều tiền?", "options": ["买衣服了", "去饭店吃饭了", "买了很多搬家要用的东西"], "answer": 2 },
+        { "prompt_vi": "Chị Nhất Tuyết muốn đến Ngân hàng Trung Quốc làm gì?", "options": ["买东西", "还信用卡", "办信用卡"], "answer": 2 }
+      ],
+      "lines": [
+        { "speaker": "wangyixue", "zh": "这个月搬家，咱们花了不少钱。", "vi": "Tháng này chuyển nhà, mình tiêu nhiều tiền quá." },
+        { "speaker": "liuming", "zh": "是啊，搬家要用的东西太多了。", "vi": "Ừ, đồ cần cho chuyển nhà nhiều quá." },
+        { "speaker": "wangyixue", "zh": "我想去办一张信用卡，钱可以慢慢{还|huán}。听说中国银行的服务挺好的。", "vi": "Em muốn đi làm một cái thẻ tín dụng, tiền có thể trả dần. Nghe nói dịch vụ của Ngân hàng Trung Quốc khá tốt.", "highlight": ["还"] },
+        { "speaker": "liuming", "zh": "中国银行就在小区旁边，走过去五分钟就到。你什么时候去？", "vi": "Ngân hàng Trung Quốc ở ngay cạnh khu mình, đi bộ năm phút là tới. Khi nào em đi?", "highlight": ["就到"] },
+        { "speaker": "wangyixue", "zh": "今天下午吧，你跟我一起去吗？", "vi": "Chiều nay đi, anh đi cùng em không?" },
+        { "speaker": "liuming", "zh": "我下午要去医院，晚上八点才能回来。", "vi": "Chiều anh phải đến bệnh viện, tám giờ tối mới về được.", "highlight": ["才"] },
+        { "speaker": "wangyixue", "zh": "没关系，那我自己去吧。", "vi": "Không sao, vậy em tự đi." }
+      ],
+      "vocab": [
+        { "zh": "办", "pinyin": "bàn", "pos": "v.", "vi": "làm (thủ tục), giải quyết", "example": { "zh": "我去银行办信用卡。", "vi": "Tôi đến ngân hàng làm thẻ tín dụng." } },
+        { "zh": "信用卡", "pinyin": "xìnyòngkǎ", "pos": "n.", "vi": "thẻ tín dụng", "example": { "zh": "可以用信用卡吗？", "vi": "Dùng thẻ tín dụng được không?" } },
+        { "zh": "还", "pinyin": "huán", "pos": "v.", "vi": "trả (lại)", "noDict": true, "example": { "zh": "这本书明天{还|huán}给你。", "vi": "Mai tôi trả bạn quyển sách này." }, "note_vi": "Chữ đa âm: hái = vẫn, còn; huán = trả lại." },
+        { "zh": "听说", "pinyin": "tīngshuō", "pos": "v.", "vi": "nghe nói", "example": { "zh": "听说他要搬家了。", "vi": "Nghe nói anh ấy sắp chuyển nhà." } },
+        { "zh": "银行", "pinyin": "yínháng", "pos": "n.", "vi": "ngân hàng", "example": { "zh": "银行几点开门？", "vi": "Ngân hàng mấy giờ mở cửa?" } },
+        { "zh": "才", "pinyin": "cái", "pos": "adv.", "vi": "mới (muộn, chậm)", "example": { "zh": "他十点才起床。", "vi": "Mười giờ anh ấy mới dậy." } }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g3-3",
+          "title_zh": "“就”和“才”",
+          "title_vi": "So sánh 就 và 才",
+          "formula": [
+            [{ "zh": "走路五分钟", "label": "Thời gian / điều kiện", "role": "ADV" }, { "zh": "就", "label": "đã (sớm, nhanh)", "role": "ADV" }, { "zh": "到了", "label": "Động từ (+了)", "role": "V" }],
+            [{ "zh": "晚上八点", "label": "Thời gian / điều kiện", "role": "ADV" }, { "zh": "才", "label": "mới (muộn, chậm)", "role": "ADV" }, { "zh": "能回来", "label": "Động từ (không 了)", "role": "V" }]
+          ],
+          "formulaNote": ["Sớm, nhanh, thuận lợi", "Muộn, chậm, khó khăn"],
+          "explain_vi": "Cả hai đứng trước động từ, nhưng mang cảm nhận của người nói: 就 = sớm hơn, nhanh hơn, dễ hơn mình nghĩ (thường có 了 ở cuối); 才 = muộn hơn, chậm hơn, khó hơn mình nghĩ (thường KHÔNG có 了). Tiếng Việt: “5 giờ đã dậy rồi” vs “10 giờ mới dậy”.",
+          "examples": [
+            { "zh": "中国银行很近，走路几分钟就能到。", "vi": "Ngân hàng Trung Quốc rất gần, đi bộ vài phút là tới." },
+            { "zh": "我下午要去医院，很晚才能回来。", "vi": "Chiều tôi phải đi bệnh viện, rất muộn mới về được." },
+            { "zh": "我早上五点就起床了。", "vi": "Tôi năm giờ sáng đã dậy rồi." },
+            { "zh": "坐火车去北京，五个小时才能到。", "vi": "Đi tàu đến Bắc Kinh, năm tiếng mới tới." }
+          ],
+          "mistakes": [
+            { "wrong": "他十点才起床了。", "right": "他十点才起床。", "why_vi": "Câu có 才 thường không dùng 了 ở cuối." },
+            { "wrong": "他五点才起床了，真早！", "right": "他五点就起床了，真早！", "why_vi": "Người nói thấy SỚM thì dùng 就." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Bài tập rất dễ, bạn làm 10 phút là xong:", "options": ["我十分钟就做完了。", "我十分钟才做完了。", "我才十分钟做完。"], "answer": 0 },
+            { "prompt_vi": "Xe buýt đến muộn, bạn đợi một tiếng:", "options": ["我等了一个小时公交车就来。", "我等了一个小时公交车才来。", "公交车就来了一个小时。"], "answer": 1 }
+          ]
+        }
+      ],
+      "pangdaTip": "Câu 钱可以慢慢还 có chữ 还 đọc huán (trả). Website đã ghi đúng cách đọc – bạn chạm vào câu để xem pinyin nhé!"
+    },
+    {
+      "id": "text-4",
+      "context_vi": "Ở nhà, anh Lưu Minh và chị Nhất Tuyết bàn kế hoạch chuyển nhà.",
+      "scene": "🗓️",
+      "audio": "audio/hsk3/3-7.mp3",
+      "vocabAudio": "audio/hsk3/3-8.mp3",
+      "listenQuiz": [
+        { "prompt_vi": "Anh Lưu Minh muốn chuyển nhà khi nào?", "options": ["明天", "这个星期", "下个星期"], "answer": 1 },
+        { "prompt_vi": "Chị Nhất Tuyết muốn chuyển nhà khi nào?", "options": ["这周", "下周", "下个月"], "answer": 2 }
+      ],
+      "lines": [
+        { "speaker": "liuming", "zh": "东西不多，我觉得这个星期六就能搬家。明天我去买些纸箱子，晚上就能准备好。", "vi": "Đồ không nhiều, anh nghĩ thứ bảy tuần này là chuyển được. Mai anh đi mua mấy thùng giấy, tối là chuẩn bị xong." },
+        { "speaker": "wangyixue", "zh": "这么快？我觉得下个月才能搬。", "vi": "Nhanh thế? Em nghĩ tháng sau mới chuyển được." },
+        { "speaker": "liuming", "zh": "为什么要那么{长|cháng}时间？", "vi": "Sao phải lâu thế?" },
+        { "speaker": "wangyixue", "zh": "衣服、书、碗……要准备的东西太多了，新家也需要再打扫一下。", "vi": "Quần áo, sách, bát đĩa… đồ cần chuẩn bị nhiều lắm, nhà mới cũng cần dọn thêm một lượt." },
+        { "speaker": "liuming", "zh": "好吧。这么多东西，咱们两个人搬太累了，请几个朋友来帮忙吧？", "vi": "Thôi được. Nhiều đồ thế, hai đứa mình chuyển thì mệt lắm, nhờ mấy người bạn đến giúp nhé?" },
+        { "speaker": "wangyixue", "zh": "还是找一家搬家公司吧，又快又方便。", "vi": "Thôi tìm công ty chuyển nhà đi anh, vừa nhanh vừa tiện." }
+      ],
+      "vocab": [
+        { "zh": "纸", "pinyin": "zhǐ", "pos": "n.", "vi": "giấy", "example": { "zh": "请给我一张纸。", "vi": "Cho tôi một tờ giấy." } },
+        { "zh": "搬", "pinyin": "bān", "pos": "v.", "vi": "khiêng, chuyển", "example": { "zh": "这个箱子太重了，我搬不动。", "vi": "Cái thùng này nặng quá, tôi không khiêng nổi." } },
+        { "zh": "需要", "pinyin": "xūyào", "pos": "v./n.", "vi": "cần; nhu cầu", "example": { "zh": "你需要帮助吗？", "vi": "Bạn có cần giúp không?" } }
+      ],
+      "pangdaTip": "Đoạn này dùng cả 就 lẫn 才: anh Lưu Minh lạc quan (这个星期六就能搬家), chị Nhất Tuyết thận trọng (下个月才能搬). Cùng một việc, cảm nhận khác nhau!"
+    }
+  ],
+  "exercises": [
+    { "id": "e1", "kind": "fill", "sentence": "你走的时候要___灯。", "bank": ["关", "办", "换"], "answer": "关" },
+    { "id": "e2", "kind": "fill", "sentence": "我要去银行___一张信用卡。", "bank": ["办", "关", "搬"], "answer": "办" },
+    { "id": "e3", "kind": "fill", "sentence": "搬家要准备的东西___多的。", "bank": ["挺", "才", "就"], "answer": "挺", "explain_vi": "挺……的 = khá…" },
+    { "id": "e4", "kind": "fill", "sentence": "我太忙了，没时间打扫新家，可能下个月___搬家。", "bank": ["才", "就", "挺"], "answer": "才", "explain_vi": "Muộn hơn mong muốn → 才." },
+    { "id": "e5", "kind": "fill", "sentence": "银行很近，走路五分钟___到了。", "bank": ["就", "才", "挺"], "answer": "就", "explain_vi": "Nhanh, dễ → 就……了." },
+    { "id": "e6", "kind": "fill", "sentence": "虽然有点儿远，但是我们很喜欢这个小区的___。", "bank": ["环境", "需要", "冰箱"], "answer": "环境" },
+    { "id": "e7", "kind": "reorder", "tiles": ["坏", "我", "这几天", "了", "忙"], "answers": ["我这几天忙坏了", "这几天我忙坏了"], "vi": "Mấy hôm nay tôi bận kinh khủng.", "explain_vi": "Tính từ + 坏了." },
+    { "id": "e8", "kind": "reorder", "tiles": ["才", "他", "十点", "起床"], "answers": ["他十点才起床"], "vi": "Mười giờ anh ấy mới dậy.", "explain_vi": "Thời gian + 才 + động từ (không 了)." },
+    { "id": "e9", "kind": "listenPick", "audioText": "冰箱不能用了。", "options": [{ "emoji": "🧊", "label": "Tủ lạnh" }, { "emoji": "🫧", "label": "Máy giặt" }, { "emoji": "❄️", "label": "Điều hoà" }], "answer": 0 },
+    { "id": "e10", "kind": "listenTF", "audioText": "我早上五点就起床了。", "emoji": "⏰", "statement_vi": "Người nói thấy mình dậy rất muộn.", "answer": false, "explain_vi": "就 → người nói thấy mình dậy SỚM." },
+    { "id": "e11", "kind": "pictureComplete", "emoji": "📦📦🚚", "sentence": "我们下个星期___家。", "options": ["搬", "关", "换"], "answer": 0 },
+    { "id": "e12", "kind": "matchQA", "pairs": [{ "q": "你觉得这个小区怎么样？", "a": "环境挺好的。" }, { "q": "洗衣机坏了吗？", "a": "没坏，但是卫生间还没打扫好。" }, { "q": "银行远吗？", "a": "不远，走路五分钟就到。" }] }
+  ],
+  "activity": {
+    "title_vi": "Ngôi nhà mơ ước",
+    "steps_vi": [
+      "Làm việc theo cặp: một người là môi giới nhà đất, một người đang tìm nhà.",
+      "Người tìm nhà nói mình cần gì: gần trường/ga tàu, có điều hoà, máy giặt, vườn hoa…",
+      "Môi giới giới thiệu một căn nhà, dùng 挺……的 để khen.",
+      "Hai người bàn khi nào chuyển đến, dùng 就 và 才."
+    ],
+    "patterns": [
+      { "zh": "这个小区环境挺好的。", "vi": "Khu này môi trường khá tốt." },
+      { "zh": "离地铁站很近，走路五分钟就到。", "vi": "Gần ga tàu điện, đi bộ năm phút là tới." },
+      { "zh": "房子里的空调和冰箱都是新的。", "vi": "Điều hoà và tủ lạnh trong nhà đều mới." },
+      { "zh": "我下个月才能搬家。", "vi": "Tháng sau tôi mới chuyển nhà được." }
+    ]
+  },
+  "culture": {
+    "title_vi": "Sống trong “tiểu khu” ở Trung Quốc",
+    "body_vi": [
+      "Ở các thành phố Trung Quốc, phần lớn người dân sống trong 小区 – khu dân cư khép kín gồm nhiều toà chung cư, có cổng bảo vệ, vườn, sân chơi và ban quản lý (物业).",
+      "Khi tìm nhà, người Trung Quốc rất quan tâm đến 环境 (môi trường), khoảng cách tới ga tàu điện ngầm (地铁站) và trường học. Nhà gần trường tốt gọi là 学区房, giá thường cao hơn hẳn.",
+      "Giống người Việt, người Trung Quốc cũng chọn ngày đẹp để chuyển nhà (搬家). Bạn bè đến chơi nhà mới gọi là 暖房 – “làm ấm nhà”.",
+      "Cách đếm tầng của Trung Quốc: 一层 là tầng trệt (tầng mặt đất), khác với nhiều nơi ở Việt Nam gọi tầng này là “tầng 1” hoặc “tầng trệt” tuỳ vùng."
+    ],
+    "table": {
+      "head": ["Tiếng Việt", "Chữ Hán", "Pinyin"],
+      "rows": [["Khu chung cư", "小区", "xiǎoqū"], ["Ban quản lý toà nhà", "物业", "wùyè"], ["Nhà gần trường tốt", "学区房", "xuéqūfáng"], ["Mừng nhà mới", "暖房", "nuǎnfáng"], ["Công ty chuyển nhà", "搬家公司", "bānjiā gōngsī"]]
+    }
+  }
+}

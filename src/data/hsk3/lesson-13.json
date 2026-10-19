@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "level": "hsk3",
+  "status": "draft",
+  "title": {
+    "zh": "我的新邻居来自英国",
+    "pinyin": "Wǒ de xīn línjū láizì Yīngguó",
+    "vi": "Hàng xóm mới của tôi đến từ Anh"
+  },
+  "grammarTopics_vi": [
+    "Câu giả thiết ……的话，就……",
+    "Câu chữ 把 (4)",
+    "Câu song song 一边……，一边……"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu giả thiết ……的话，就……",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu chữ 把 (4)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu song song 一边……，一边……",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4,
+  "level": "hsk3",
+  "status": "draft",
+  "title": {
+    "zh": "这家宾馆跟别的都不一样",
+    "pinyin": "Zhè jiā bīnguǎn gēn bié de dōu bù yíyàng",
+    "vi": "Khách sạn này không giống bất kỳ nơi nào khác"
+  },
+  "grammarTopics_vi": [
+    "Cấu trúc 一……也/都 + 不/没……",
+    "Câu so sánh (9)",
+    "Cấu trúc 除了……（以外），……都/还/也……"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Cấu trúc 一……也/都 + 不/没……",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu so sánh (9)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cấu trúc 除了……（以外），……都/还/也……",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

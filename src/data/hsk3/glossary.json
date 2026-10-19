@@ -1,0 +1,52 @@
+{
+ "_note": "Tên riêng của HSK 3.",
+ "words": [
+  {
+   "zh": "王姐",
+   "pinyin": "Wáng jiě",
+   "vi": "chị Vương",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "一雪姐",
+   "pinyin": "Yīxuě jiě",
+   "vi": "chị Nhất Tuyết",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "同乐",
+   "pinyin": "Tónglè",
+   "vi": "Đồng Lạc",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "杨同乐",
+   "pinyin": "Yáng Tónglè",
+   "vi": "Dương Đồng Lạc",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "小明",
+   "pinyin": "Xiǎomíng",
+   "vi": "Tiểu Minh",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "看上去",
+   "pinyin": "kàn shangqu",
+   "vi": "trông có vẻ",
+   "known": true
+  },
+  {
+   "zh": "看起来",
+   "pinyin": "kàn qilai",
+   "vi": "trông có vẻ",
+   "known": true
+  }
+ ]
+}

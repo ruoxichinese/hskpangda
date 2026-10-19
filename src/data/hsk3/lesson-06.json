@@ -1,0 +1,35 @@
+{
+  "id": 6,
+  "level": "hsk3",
+  "status": "draft",
+  "title": {
+    "zh": "高铁上还可以点外卖",
+    "pinyin": "Gāotiě shang hái kěyǐ diǎn wàimài",
+    "vi": "Trên tàu cao tốc còn gọi được đồ ăn"
+  },
+  "grammarTopics_vi": [
+    "Cấu trúc 该……了",
+    "Câu giả thiết 如果……，就……",
+    "Cụm 越来越"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Cấu trúc 该……了",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu giả thiết 如果……，就……",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cụm 越来越",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}
