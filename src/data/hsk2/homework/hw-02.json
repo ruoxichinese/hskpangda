@@ -1,0 +1,353 @@
+{
+ "lessonId": 2,
+ "level": "hsk2",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Một ngày ở Bắc Đại",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Một ngày ở Bắc Đại",
+    "zh": "今天我和安妮去北京大学了。饭店前边有到北京大学的公交车，但车站有点儿远，我们还是打车去的。北京大学的学生很多，有四万多名，外国学生也有三千多名。学校里有很多间教室，还有一家电影院。电影票很便宜，有的票还不到二十块钱。我们想下次再过来看个电影。",
+    "vi": "Hôm nay mình và Annie đi Đại học Bắc Kinh. Trước khách sạn có xe buýt đến Bắc Đại, nhưng bến hơi xa nên bọn mình vẫn đi taxi. Bắc Đại có rất đông sinh viên, hơn bốn vạn người, sinh viên nước ngoài cũng hơn ba nghìn. Trong trường có nhiều phòng học, còn có một rạp chiếu phim. Vé xem phim rất rẻ, có vé chưa đến hai mươi đồng. Lần sau bọn mình muốn quay lại xem phim."
+   },
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "她们是怎么去北京大学的？",
+     "options": [
+      "坐公交车",
+      "打车",
+      "走路"
+     ],
+     "answer": 1,
+     "explain_vi": "我们还是打车去的。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "北京大学有多少名外国学生？",
+     "options": [
+      "三千多名",
+      "四万多名",
+      "二十多名"
+     ],
+     "answer": 0,
+     "explain_vi": "外国学生也有三千多名。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "她们下次还想来做什么？",
+     "options": [
+      "看电影",
+      "上课",
+      "买票"
+     ],
+     "answer": 0,
+     "explain_vi": "我们想下次再过来看个电影。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "车站有点儿远。",
+     "answer": true,
+     "explain_vi": "但车站有点儿远。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "北京大学里没有电影院。",
+     "answer": false,
+     "explain_vi": "学校里……还有一家电影院。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "有的电影票不到二十块钱。",
+     "answer": true,
+     "explain_vi": "有的票还不到二十块钱。"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "这儿好打车吗？",
+       "a": "很好打，门口就有出租车。"
+      },
+      {
+       "q": "北京大学有多少学生？",
+       "a": "有四万多名。"
+      },
+      {
+       "q": "我们去看个电影吧？",
+       "a": "今天别看了，下次再来吧。"
+      },
+      {
+       "q": "你是怎么知道的？",
+       "a": "是网上说的。"
+      }
+     ],
+     "explain_vi": "好打车 → dễ/khó; 多少 → con số; đề nghị → đồng ý/từ chối; 怎么知道 → nguồn tin."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我们学校有一万{{1}}名学生，有很多{{2}}教室。我想去看电影，{{3}}学校里没有电影院，电影院有点儿{{4}}。",
+     "bank": [
+      "多",
+      "间",
+      "但",
+      "远",
+      "别"
+     ],
+     "answers": [
+      "多",
+      "间",
+      "但",
+      "远"
+     ],
+     "explain_vi": "一万多 · 间 (lượng từ cho phòng) · 但 = nhưng · 远 = xa."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "还是",
+      "打车",
+      "吧",
+      "我们",
+      "去"
+     ],
+     "answers": [
+      "我们还是打车去吧"
+     ],
+     "vi": "Hay là mình đi taxi đi.",
+     "explain_vi": "Chủ ngữ + 还是 + phương án + 吧.",
+     "grammarRef": "h2-g2-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "有",
+      "学生",
+      "教室里",
+      "二十多个"
+     ],
+     "answers": [
+      "教室里有二十多个学生"
+     ],
+     "vi": "Trong lớp có hơn hai mươi học sinh.",
+     "explain_vi": "Số tròn chục + 多 + lượng từ.",
+     "grammarRef": "h2-g2-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "电影票",
+      "的",
+      "他们",
+      "卖",
+      "很便宜"
+     ],
+     "answers": [
+      "他们卖的电影票很便宜"
+     ],
+     "vi": "Vé xem phim họ bán rất rẻ.",
+     "explain_vi": "Cụm chủ-vị + 的 + danh từ.",
+     "grammarRef": "h2-g2-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "别",
+      "了",
+      "电影",
+      "看"
+     ],
+     "answers": [
+      "别看电影了"
+     ],
+     "vi": "Đừng xem phim nữa.",
+     "explain_vi": "别 + động từ + 了.",
+     "grammarRef": "h2-g2-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "多",
+      "这个",
+      "五块",
+      "苹果",
+      "钱"
+     ],
+     "answers": [
+      "这个苹果五块多钱"
+     ],
+     "vi": "Quả táo này hơn năm đồng.",
+     "explain_vi": "Số lẻ: 多 đứng sau lượng từ 块.",
+     "grammarRef": "h2-g2-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Có thể dùng ngân hàng từ gợi ý.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Chúng ta vẫn nên đi xe buýt thì hơn.",
+     "acceptedAnswers": [
+      "我们还是坐公交车去吧",
+      "我们还是坐公交车吧",
+      "还是坐公交车去吧"
+     ],
+     "requiredKeywords": [
+      "还是",
+      "公交车"
+     ],
+     "wordBank": [
+      "我们",
+      "还是",
+      "坐",
+      "公交车",
+      "去",
+      "吧"
+     ],
+     "explain_vi": "还是 + phương án + 吧.",
+     "grammarRef": "h2-g2-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Trường chúng tôi có hơn ba nghìn sinh viên nước ngoài.",
+     "acceptedAnswers": [
+      "我们学校有三千多名外国学生",
+      "我们学校有三千多个外国学生"
+     ],
+     "requiredKeywords": [
+      "三千多",
+      "外国学生"
+     ],
+     "wordBank": [
+      "我们",
+      "学校",
+      "有",
+      "三千",
+      "多",
+      "名",
+      "外国学生"
+     ],
+     "explain_vi": "Số tròn + 多 + 名.",
+     "grammarRef": "h2-g2-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Đừng đi taxi nữa, đắt quá.",
+     "acceptedAnswers": [
+      "别打车了，太贵了",
+      "别打车了，打车太贵了",
+      "别打车，太贵了"
+     ],
+     "requiredKeywords": [
+      "别",
+      "打车",
+      "贵"
+     ],
+     "wordBank": [
+      "别",
+      "打车",
+      "了",
+      "太",
+      "贵"
+     ],
+     "explain_vi": "别……了 = đừng … nữa.",
+     "grammarRef": "h2-g2-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Đây là quyển sách mẹ tôi mua.",
+     "acceptedAnswers": [
+      "这是我妈妈买的书",
+      "这是妈妈买的书"
+     ],
+     "requiredKeywords": [
+      "买的书"
+     ],
+     "wordBank": [
+      "这",
+      "是",
+      "我",
+      "妈妈",
+      "买",
+      "的",
+      "书"
+     ],
+     "explain_vi": "Cụm chủ-vị 妈妈买 + 的 + 书.",
+     "grammarRef": "h2-g2-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Bến xe hơi xa, nhưng tôi muốn đi bộ.",
+     "acceptedAnswers": [
+      "车站有点儿远，但我想走路去",
+      "车站有点儿远，但我想走路"
+     ],
+     "requiredKeywords": [
+      "远",
+      "但"
+     ],
+     "wordBank": [
+      "车站",
+      "有点儿",
+      "远",
+      "但",
+      "我",
+      "想",
+      "走路"
+     ],
+     "explain_vi": "有点儿 + tính từ; 但 = nhưng.",
+     "grammarRef": "h2-g2-1"
+    }
+   ]
+  }
+ ]
+}

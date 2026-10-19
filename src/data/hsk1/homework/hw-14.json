@@ -1,0 +1,41 @@
+{
+  "lessonId": 14,
+  "level": "hsk1",
+  "status": "draft",
+  "sections": [
+    {
+      "type": "reading",
+      "part": "A1–A2",
+      "title_vi": "Đọc hiểu",
+      "passage": {
+        "zh": "",
+        "vi": ""
+      },
+      "questions": []
+    },
+    {
+      "type": "reading",
+      "part": "A3",
+      "title_vi": "Nối câu",
+      "questions": []
+    },
+    {
+      "type": "reading",
+      "part": "A4",
+      "title_vi": "Chọn từ điền vào chỗ trống",
+      "questions": []
+    },
+    {
+      "type": "writing",
+      "part": "B1",
+      "title_vi": "Sắp xếp từ thành câu",
+      "questions": []
+    },
+    {
+      "type": "writing",
+      "part": "B2",
+      "title_vi": "Dịch sang tiếng Trung",
+      "questions": []
+    }
+  ]
+}

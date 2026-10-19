@@ -1,0 +1,35 @@
+{
+  "id": 14,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "我看了一个电影",
+    "pinyin": "Wǒ kànle yí ge diànyǐng",
+    "vi": "Tôi đã xem một bộ phim"
+  },
+  "grammarTopics_vi": [
+    "Trợ từ 了 (2)",
+    "Từ ly hợp (1)",
+    "Phó từ phạm vi 都"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Trợ từ 了 (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Từ ly hợp (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Phó từ phạm vi 都",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

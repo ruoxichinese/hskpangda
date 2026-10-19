@@ -1,0 +1,211 @@
+{
+  "id": 3,
+  "level": "hsk1",
+  "status": "ready",
+  "title": { "zh": "我是中国人", "pinyin": "Wǒ shì Zhōngguó rén", "vi": "Tôi là người Trung Quốc" },
+  "grammarTopics_vi": ["Câu chữ 是", "Trợ từ kết cấu 的", "Câu hỏi có/không với 吗"],
+  "objectives": [
+    { "id": "o1", "vi": "Dùng câu chữ 是 để nói ai là ai, là người nước nào", "doneWhen": ["text-1", "text-2"] },
+    { "id": "o2", "vi": "Dùng 的 để nói quan hệ sở hữu (của ai)", "doneWhen": ["text-1"] },
+    { "id": "o3", "vi": "Đặt câu hỏi có/không với 吗", "doneWhen": ["text-3"] },
+    { "id": "o4", "vi": "Vận dụng trong bài luyện tập tổng hợp", "doneWhen": ["exercises"] }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong sân trường, Lý Văn và Gia Nguyệt vừa quen nhau và tiếp tục trò chuyện.",
+      "scene": "☕",
+      "audio": "audio/hsk1/3-1.mp3",
+      "vocabAudio": "audio/hsk1/3-2.mp3",
+      "lines": [
+        { "speaker": "liwen", "zh": "白家月，我是中国人。", "vi": "Gia Nguyệt này, mình là người Trung Quốc." },
+        { "speaker": "baijiayue", "zh": "我是法国人。我的中文老师是王老师，王老师也是中国人。", "vi": "Mình là người Pháp. Cô giáo tiếng Trung của mình là cô Vương, cô Vương cũng là người Trung Quốc.", "highlight": ["的"] }
+      ],
+      "vocab": [
+        { "zh": "人", "pinyin": "rén", "pos": "n.", "vi": "người", "example": { "zh": "我是中国人。", "vi": "Tôi là người Trung Quốc." } },
+        { "zh": "的", "pinyin": "de", "pos": "part.", "vi": "của (trợ từ đứng sau định ngữ)", "example": { "zh": "我的名字", "vi": "tên của tôi" } },
+        { "zh": "中国", "pinyin": "Zhōngguó", "pos": "proper", "vi": "Trung Quốc", "proper": true, "example": { "zh": "中国人", "vi": "người Trung Quốc" } },
+        { "zh": "法国", "pinyin": "Fǎguó", "pos": "proper", "vi": "nước Pháp", "proper": true, "example": { "zh": "法国人", "vi": "người Pháp" } },
+        { "zh": "中文", "pinyin": "Zhōngwén", "pos": "proper", "vi": "tiếng Trung", "proper": true, "example": { "zh": "中文老师", "vi": "giáo viên tiếng Trung" } }
+      ],
+      "grammar": [
+        {
+          "id": "g3-1",
+          "title_zh": "“是”字句",
+          "title_vi": "Câu chữ 是",
+          "formula": [
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "是", "label": "là", "role": "V" }, { "zh": "中国人", "label": "Tân ngữ", "role": "O" }],
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "不", "label": "không", "role": "ADV" }, { "zh": "是", "label": "là", "role": "V" }, { "zh": "法国人", "label": "Tân ngữ", "role": "O" }]
+          ],
+          "formulaNote": ["Khẳng định", "Phủ định"],
+          "explain_vi": "Câu chữ 是 dùng để nói ai/cái gì LÀ gì: bằng nhau, hoặc thuộc một nhóm nào đó. Phủ định là 不是. Điểm cực kỳ quan trọng với người Việt: KHÔNG dùng 是 trước tính từ. “Tôi bận” là 我很忙, không phải 我是忙.",
+          "examples": [
+            { "zh": "我是法国人。", "vi": "Tôi là người Pháp." },
+            { "zh": "王老师是中文老师。", "vi": "Cô Vương là giáo viên tiếng Trung." },
+            { "zh": "我不是泰国人。", "vi": "Tôi không phải người Thái Lan." }
+          ],
+          "mistakes": [
+            { "wrong": "我是很忙。", "right": "我很忙。", "why_vi": "忙 là tính từ, đứng thẳng sau chủ ngữ (thường kèm 很). Không chen 是 vào giữa." },
+            { "wrong": "我是不中国人。", "right": "我不是中国人。", "why_vi": "不 phải đứng trước 是." }
+          ],
+          "quiz": [
+            { "prompt_vi": "“Tôi không phải người Pháp.”", "options": ["我不是法国人。", "我是不法国人。", "我不法国人。"], "answer": 0 },
+            { "prompt_vi": "Câu nào ĐÚNG?", "options": ["我是很高兴。", "我很高兴。", "我高兴是。"], "answer": 1, "explain_vi": "高兴 là tính từ, không cần 是." }
+          ]
+        },
+        {
+          "id": "g3-2",
+          "title_zh": "结构助词“的”",
+          "title_vi": "Trợ từ kết cấu 的",
+          "formula": [
+            [{ "zh": "白家月", "label": "Định ngữ (người sở hữu)", "role": "ATTR" }, { "zh": "的", "label": "của", "role": "PART" }, { "zh": "中文老师", "label": "Trung tâm ngữ", "role": "N" }],
+            [{ "zh": "你", "label": "Định ngữ", "role": "ATTR" }, { "zh": "的", "label": "của", "role": "PART" }, { "zh": "名字", "label": "Trung tâm ngữ", "role": "N" }]
+          ],
+          "explain_vi": "的 nối người sở hữu với thứ được sở hữu, giống “của”. Nhưng thứ tự NGƯỢC tiếng Việt: “tên của bạn” → 你的名字 (người sở hữu đứng trước). Nếu phía trước là đại từ nhân xưng và phía sau là người thân hoặc người có quan hệ gần (thầy cô, bạn học, bạn gái…) thì có thể bỏ 的: 我老师, 我姐姐, 我女朋友.",
+          "examples": [
+            { "zh": "白家月的中文老师", "vi": "cô giáo tiếng Trung của Gia Nguyệt" },
+            { "zh": "你的名字", "vi": "tên của bạn" },
+            { "zh": "我姐姐", "vi": "chị gái tôi (bỏ 的)" }
+          ],
+          "mistakes": [
+            { "wrong": "名字的你", "right": "你的名字", "why_vi": "Người Việt hay giữ thứ tự “tên của bạn”. Trong tiếng Trung, người sở hữu + 的 đứng TRƯỚC." },
+            { "wrong": "老师中文", "right": "中文老师", "why_vi": "Định ngữ đứng trước danh từ chính: “giáo viên tiếng Trung” = 中文老师." }
+          ],
+          "quiz": [
+            { "prompt_vi": "“tên của tôi”", "options": ["我的名字", "名字的我", "名字我的"], "answer": 0 },
+            { "prompt_vi": "“cô giáo tiếng Trung của tôi”", "options": ["我的中文老师", "我的老师中文", "中文的我老师"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "Muốn nói quốc tịch: Tên nước + 人. Vậy “người Việt Nam” là 越南人 Yuènán rén – nhớ kỹ nhé, bài tập về nhà sẽ hỏi đấy!"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Sau giờ học, Annie xem ảnh trong điện thoại của Thiên Trung.",
+      "scene": "📱",
+      "audio": "audio/hsk1/3-3.mp3",
+      "vocabAudio": "audio/hsk1/3-4.mp3",
+      "lines": [
+        { "speaker": "anni", "zh": "陈天中，这是谁？", "vi": "Thiên Trung, đây là ai thế?", "highlight": ["谁"], "tipRef": 0 },
+        { "speaker": "chentianzhong", "zh": "这是我女朋友。", "vi": "Đây là bạn gái mình." },
+        { "speaker": "anni", "zh": "她是哪国人？", "vi": "Cô ấy là người nước nào?" },
+        { "speaker": "chentianzhong", "zh": "她是泰国人，我也是泰国人。", "vi": "Cô ấy là người Thái Lan, mình cũng là người Thái Lan." }
+      ],
+      "tips": [{ "vi": "谁 có hai cách đọc: shéi (thường dùng trong khẩu ngữ) và shuí." }],
+      "vocab": [
+        { "zh": "这", "pinyin": "zhè", "pos": "pron.", "vi": "đây, này", "example": { "zh": "这是我老师。", "vi": "Đây là thầy giáo tôi." } },
+        { "zh": "谁", "pinyin": "shéi", "pos": "pron.", "vi": "ai", "example": { "zh": "这是谁？", "vi": "Đây là ai?" }, "note_vi": "Cũng đọc là shuí." },
+        { "zh": "女朋友", "pinyin": "nǚpéngyou", "pos": "n.", "vi": "bạn gái (người yêu)", "example": { "zh": "这是我女朋友。", "vi": "Đây là bạn gái tôi." } },
+        { "zh": "哪", "pinyin": "nǎ", "pos": "pron.", "vi": "nào", "example": { "zh": "你是哪国人？", "vi": "Bạn là người nước nào?" } },
+        { "zh": "国", "pinyin": "guó", "pos": "n.", "vi": "nước, quốc gia", "example": { "zh": "哪国人", "vi": "người nước nào" } },
+        { "zh": "她", "pinyin": "tā", "pos": "pron.", "vi": "cô ấy, chị ấy", "example": { "zh": "她是中国人。", "vi": "Cô ấy là người Trung Quốc." } },
+        { "zh": "泰国", "pinyin": "Tàiguó", "pos": "proper", "vi": "Thái Lan", "proper": true, "example": { "zh": "泰国人", "vi": "người Thái Lan" } }
+      ],
+      "pangdaTip": "Hỏi quốc tịch: 你是哪国人？ Trả lời thì thay 哪国 bằng tên nước. Từ để hỏi “nằm im” đúng chỗ của câu trả lời – y như bài 2!"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà, chị Nhất Tuyết gọi video cho em họ Nhất Phi đang dạy học ở nước ngoài.",
+      "scene": "📹",
+      "audio": "audio/hsk1/3-5.mp3",
+      "vocabAudio": "audio/hsk1/3-6.mp3",
+      "lines": [
+        { "speaker": "wangyixue", "zh": "喂，一飞！", "vi": "Alô, Nhất Phi à!" },
+        { "speaker": "wangyifei", "zh": "姐姐！", "vi": "Chị ơi!" },
+        { "speaker": "wangyixue", "zh": "你的工作还很忙吗？", "vi": "Công việc của em vẫn bận lắm à?", "highlight": ["吗"] },
+        { "speaker": "wangyifei", "zh": "对，还很忙。姐姐，你忙吗？", "vi": "Vâng, vẫn bận lắm ạ. Chị có bận không?" },
+        { "speaker": "wangyixue", "zh": "我不太忙。我们很想你！", "vi": "Chị không bận lắm. Cả nhà rất nhớ em!" },
+        { "speaker": "wangyifei", "zh": "我也很想你们！", "vi": "Em cũng rất nhớ mọi người!" }
+      ],
+      "vocab": [
+        { "zh": "喂", "pinyin": "wèi", "pos": "int.", "vi": "alô, này", "example": { "zh": "喂，你好！", "vi": "Alô, xin chào!" } },
+        { "zh": "姐姐", "pinyin": "jiějie", "pos": "n.", "vi": "chị gái", "example": { "zh": "这是我姐姐。", "vi": "Đây là chị gái tôi." } },
+        { "zh": "工作", "pinyin": "gōngzuò", "pos": "n.", "vi": "công việc", "example": { "zh": "你的工作忙吗？", "vi": "Công việc của bạn có bận không?" } },
+        { "zh": "还", "pinyin": "hái", "pos": "adv.", "vi": "vẫn, còn", "example": { "zh": "我还很忙。", "vi": "Tôi vẫn rất bận." } },
+        { "zh": "忙", "pinyin": "máng", "pos": "adj.", "vi": "bận", "example": { "zh": "你忙吗？", "vi": "Bạn có bận không?" } },
+        { "zh": "吗", "pinyin": "ma", "pos": "part.", "vi": "…không? (trợ từ nghi vấn cuối câu)", "example": { "zh": "你是学生吗？", "vi": "Bạn là sinh viên à?" } },
+        { "zh": "对", "pinyin": "duì", "pos": "adj.", "vi": "đúng, phải", "example": { "zh": "对，我是学生。", "vi": "Đúng, tôi là sinh viên." } },
+        { "zh": "太", "pinyin": "tài", "pos": "adv.", "vi": "quá, lắm", "example": { "zh": "我不太忙。", "vi": "Tôi không bận lắm." } },
+        { "zh": "我们", "pinyin": "wǒmen", "pos": "pron.", "vi": "chúng tôi, chúng ta", "example": { "zh": "我们是同学。", "vi": "Chúng tôi là bạn học." } },
+        { "zh": "想", "pinyin": "xiǎng", "pos": "v.", "vi": "nhớ", "example": { "zh": "我很想你。", "vi": "Tôi rất nhớ bạn." } }
+      ],
+      "grammar": [
+        {
+          "id": "g3-3",
+          "title_zh": "用“吗”的是非问句",
+          "title_vi": "Câu hỏi có/không với 吗",
+          "formula": [
+            [{ "zh": "你", "label": "Chủ ngữ", "role": "S" }, { "zh": "也", "label": "cũng", "role": "ADV" }, { "zh": "很忙", "label": "Vị ngữ", "role": "V" }, { "zh": "吗", "label": "…không?", "role": "Q" }, { "zh": "？", "label": "", "role": "X" }],
+            [{ "zh": "你", "label": "Chủ ngữ", "role": "S" }, { "zh": "是", "label": "là", "role": "V" }, { "zh": "中国人", "label": "Tân ngữ", "role": "O" }, { "zh": "吗", "label": "…à?", "role": "Q" }, { "zh": "？", "label": "", "role": "X" }]
+          ],
+          "explain_vi": "Thêm 吗 vào cuối một câu trần thuật là thành câu hỏi có/không, giống “… không?”, “… à?” trong tiếng Việt. Trả lời bằng cách lặp lại động từ/tính từ (是 / 不是, 忙 / 不忙) hoặc dùng 对. Không dùng 吗 cùng các từ để hỏi như 什么, 谁, 哪.",
+          "examples": [
+            { "zh": "你也很忙吗？", "vi": "Bạn cũng bận lắm à?" },
+            { "zh": "你是王老师吗？", "vi": "Cô là cô Vương phải không ạ?" },
+            { "zh": "她是你女朋友吗？", "vi": "Cô ấy là bạn gái cậu à?" }
+          ],
+          "mistakes": [
+            { "wrong": "你是哪国人吗？", "right": "你是哪国人？", "why_vi": "Câu đã có từ để hỏi 哪 thì không thêm 吗 nữa." },
+            { "wrong": "吗你是中国人？", "right": "你是中国人吗？", "why_vi": "吗 luôn đứng cuối câu." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Biến 你是学生 thành câu hỏi:", "options": ["你是学生吗？", "吗你是学生？", "你是吗学生？"], "answer": 0 },
+            { "prompt_vi": "Câu nào SAI?", "options": ["她是谁？", "她是谁吗？", "她是老师吗？"], "answer": 1, "explain_vi": "Đã có 谁 thì không thêm 吗." }
+          ]
+        }
+      ],
+      "pangdaTip": "Nhất Tuyết là chị họ nhưng Nhất Phi vẫn gọi 姐姐. Người Trung Quốc hay gọi anh chị họ như anh chị ruột – giống người Việt mình!"
+    }
+  ],
+  "exercises": [
+    { "id": "e1", "kind": "fill", "sentence": "王老师是___国人？", "bank": ["哪", "吗", "谁"], "answer": "哪", "explain_vi": "哪国人 = người nước nào." },
+    { "id": "e2", "kind": "fill", "sentence": "这是___？", "bank": ["谁", "吗", "哪"], "answer": "谁", "explain_vi": "这是谁 = Đây là ai?" },
+    { "id": "e3", "kind": "fill", "sentence": "你是学生___？", "bank": ["吗", "谁", "的"], "answer": "吗", "explain_vi": "Câu hỏi có/không: thêm 吗 cuối câu." },
+    { "id": "e4", "kind": "fill", "sentence": "我很___你们。", "bank": ["想", "忙", "对"], "answer": "想", "explain_vi": "想 = nhớ." },
+    { "id": "e5", "kind": "reorder", "tiles": ["的", "我", "老师", "中文"], "answers": ["我的中文老师"], "vi": "cô giáo tiếng Trung của tôi", "explain_vi": "Người sở hữu + 的 + định ngữ + danh từ." },
+    { "id": "e6", "kind": "reorder", "tiles": ["是", "她", "泰国人", "也"], "answers": ["她也是泰国人"], "vi": "Cô ấy cũng là người Thái Lan.", "explain_vi": "Chủ ngữ + 也 + 是 + Tân ngữ." },
+    { "id": "e7", "kind": "listenPick", "audioText": "法国", "options": [{ "emoji": "🇫🇷", "label": "Pháp" }, { "emoji": "🇨🇳", "label": "Trung Quốc" }, { "emoji": "🇹🇭", "label": "Thái Lan" }], "answer": 0 },
+    { "id": "e8", "kind": "listenPick", "audioText": "中国人", "options": [{ "emoji": "🇹🇭", "label": "người Thái Lan" }, { "emoji": "🇨🇳", "label": "người Trung Quốc" }, { "emoji": "🇫🇷", "label": "người Pháp" }], "answer": 1 },
+    { "id": "e9", "kind": "listenTF", "audioText": "我不太忙。", "emoji": "😌", "statement_vi": "Người nói đang rất bận.", "answer": false, "explain_vi": "不太忙 = không bận lắm." },
+    { "id": "e10", "kind": "listenTF", "audioText": "这是我姐姐。", "emoji": "👩", "statement_vi": "Người trong ảnh là chị gái của người nói.", "answer": true },
+    { "id": "e11", "kind": "pictureComplete", "emoji": "👩‍🏫💻📚", "sentence": "王老师的工作很___。", "options": ["忙", "想", "对"], "answer": 0, "explain_vi": "Nhiều việc, máy tính, sách → bận: 忙." },
+    { "id": "e12", "kind": "matchQA", "pairs": [{ "q": "这是谁？", "a": "这是我女朋友。" }, { "q": "你是哪国人？", "a": "我是法国人。" }, { "q": "你忙吗？", "a": "我不太忙。" }] }
+  ],
+  "activity": {
+    "title_vi": "Giới thiệu nhóm của bạn",
+    "steps_vi": [
+      "Chia nhóm 3–4 người. Mỗi người tự giới thiệu tên và quốc tịch.",
+      "Mỗi người giới thiệu thêm một bạn trong nhóm.",
+      "Cả nhóm cùng lên giới thiệu trước lớp, giống mẫu của Pàngdá bên dưới."
+    ],
+    "patterns": [
+      { "zh": "我叫……，我是……人。", "vi": "Tôi tên là…, tôi là người…" },
+      { "zh": "这是我同学，她叫……", "vi": "Đây là bạn học của tôi, cô ấy tên là…" },
+      { "zh": "她是……人，她也是学生。", "vi": "Cô ấy là người…, cô ấy cũng là sinh viên." },
+      { "zh": "你是哪国人？", "vi": "Bạn là người nước nào?" }
+    ]
+  },
+  "tongueTwister": { "zh": "四是四，十是十，十四是十四，四十是四十。", "vi": "Bốn là bốn, mười là mười, mười bốn là mười bốn, bốn mươi là bốn mươi. (Luyện phân biệt s / sh)" },
+  "culture": {
+    "title_vi": "Tên các nước – mẹo Hán Việt",
+    "body_vi": [
+      "Rất nhiều tên nước trong tiếng Trung có âm Hán Việt quen thuộc: 中国 là Trung Quốc, 法国 là Pháp quốc, 泰国 là Thái quốc (Thái Lan).",
+      "Muốn nói quốc tịch, chỉ cần Tên nước + 人: 中国人, 法国人, 越南人.",
+      "Có những nước được phiên âm theo cách đọc gốc như 加拿大 (Canada), nhưng âm Hán Việt “Gia Nã Đại” vẫn giúp bạn nhớ dễ hơn."
+    ],
+    "table": {
+      "head": ["Tiếng Việt", "Chữ Hán", "Pinyin", "Âm Hán Việt"],
+      "rows": [
+        ["Việt Nam", "越南", "Yuènán", "Việt Nam"],
+        ["Trung Quốc", "中国", "Zhōngguó", "Trung Quốc"],
+        ["Pháp", "法国", "Fǎguó", "Pháp quốc"],
+        ["Thái Lan", "泰国", "Tàiguó", "Thái quốc"],
+        ["Mỹ", "美国", "Měiguó", "Mỹ quốc"],
+        ["Anh", "英国", "Yīngguó", "Anh quốc"],
+        ["Hàn Quốc", "韩国", "Hánguó", "Hàn Quốc"],
+        ["Nhật Bản", "日本", "Rìběn", "Nhật Bản"],
+        ["Canada", "加拿大", "Jiānádà", "Gia Nã Đại"]
+      ]
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+ "lessonId": 3,
+ "level": "hsk2",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Nhà của Tiểu Tuyết",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Nhà của Tiểu Tuyết",
+    "zh": "我爸爸是医生，他每天都很忙。今天他回来的时候已经九点了，他说病人太多，工作还没做完。妈妈做好了饭，但爸爸很累，想先休息一下。吃完饭，爸爸妈妈说想一起去西安旅游。妈妈在网上看了看，说现在去西安很不错。我也想去！",
+    "vi": "Bố mình là bác sĩ, ngày nào bố cũng rất bận. Hôm nay lúc bố về đã chín giờ, bố bảo bệnh nhân đông quá, việc vẫn chưa làm xong. Mẹ đã nấu xong cơm, nhưng bố rất mệt, muốn nghỉ một chút đã. Ăn cơm xong, bố mẹ nói muốn cùng nhau đi du lịch Tây An. Mẹ xem qua trên mạng, bảo bây giờ đi Tây An rất được. Mình cũng muốn đi!"
+   },
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "爸爸今天几点回来的？",
+     "options": [
+      "八点",
+      "九点",
+      "十点"
+     ],
+     "answer": 1,
+     "explain_vi": "他回来的时候已经九点了。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "爸爸的工作做完了吗？",
+     "options": [
+      "做完了",
+      "没做完",
+      "不知道"
+     ],
+     "answer": 1,
+     "explain_vi": "工作还没做完。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "爸爸妈妈想去哪儿旅游？",
+     "options": [
+      "北京",
+      "西安",
+      "上海"
+     ],
+     "answer": 1,
+     "explain_vi": "想一起去西安旅游。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "妈妈没做饭。",
+     "answer": false,
+     "explain_vi": "妈妈做好了饭。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "爸爸今天很累。",
+     "answer": true,
+     "explain_vi": "但爸爸很累。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "我不想去西安。",
+     "answer": false,
+     "explain_vi": "我也想去！"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "饭做好了吗？",
+       "a": "做好了，快来吃吧。"
+      },
+      {
+       "q": "你为什么想去西安？",
+       "a": "网上说现在去西安很不错。"
+      },
+      {
+       "q": "你想去哪儿？",
+       "a": "我还没想好呢。"
+      },
+      {
+       "q": "苹果洗了吗？",
+       "a": "洗好了，在桌子上。"
+      }
+     ],
+     "explain_vi": "Câu hỏi với bổ ngữ kết quả → trả lời bằng bổ ngữ kết quả; 为什么 → lý do."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "这个月我{{1}}天都很忙，很{{2}}。周末我想和家人{{3}}出去玩儿。我们{{4}}去西安吧！",
+     "bank": [
+      "每",
+      "累",
+      "一起",
+      "还是",
+      "自己"
+     ],
+     "answers": [
+      "每",
+      "累",
+      "一起",
+      "还是"
+     ],
+     "explain_vi": "每天都 · 累 = mệt · 一起 = cùng nhau · 还是……吧."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "做",
+      "了",
+      "饭",
+      "好"
+     ],
+     "answers": [
+      "饭做好了"
+     ],
+     "vi": "Cơm nấu xong rồi.",
+     "explain_vi": "Động từ + kết quả + 了.",
+     "grammarRef": "h2-g3-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "休息",
+      "一下",
+      "想",
+      "我",
+      "先"
+     ],
+     "answers": [
+      "我想先休息一下"
+     ],
+     "vi": "Tôi muốn nghỉ một chút đã.",
+     "explain_vi": "先 đứng trước động từ.",
+     "grammarRef": "h2-g3-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "看",
+      "了",
+      "看",
+      "网上的介绍",
+      "我"
+     ],
+     "answers": [
+      "我看了看网上的介绍"
+     ],
+     "vi": "Tôi đã xem qua phần giới thiệu trên mạng.",
+     "explain_vi": "A了A cho việc đã làm.",
+     "grammarRef": "h2-g3-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "一起",
+      "出去",
+      "我们",
+      "吧",
+      "玩儿"
+     ],
+     "answers": [
+      "我们一起出去玩儿吧"
+     ],
+     "vi": "Chúng mình cùng ra ngoài chơi đi.",
+     "explain_vi": "一起 đứng trước động từ.",
+     "grammarRef": "h2-g3-2"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "自己",
+      "你",
+      "拿",
+      "吧"
+     ],
+     "answers": [
+      "你自己拿吧"
+     ],
+     "vi": "Bạn tự lấy nhé.",
+     "explain_vi": "自己 đứng sau chủ ngữ.",
+     "grammarRef": "h2-g3-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Có thể dùng ngân hàng từ gợi ý.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi đã làm xong bài tập rồi.",
+     "acceptedAnswers": [
+      "我已经做完作业了",
+      "我做完作业了",
+      "作业我已经做完了"
+     ],
+     "requiredKeywords": [
+      "做完"
+     ],
+     "wordBank": [
+      "我",
+      "已经",
+      "做",
+      "完",
+      "作业",
+      "了"
+     ],
+     "explain_vi": "Kết quả 完 dính liền động từ: 做完作业.",
+     "grammarRef": "h2-g3-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Bạn nghĩ thử xem, nghĩ xong thì nói cho tôi.",
+     "acceptedAnswers": [
+      "你想一想，想好了告诉我",
+      "你想想，想好了告诉我",
+      "你想一想，想好了就告诉我"
+     ],
+     "requiredKeywords": [
+      "想",
+      "告诉"
+     ],
+     "wordBank": [
+      "你",
+      "想一想",
+      "想好",
+      "了",
+      "告诉",
+      "我"
+     ],
+     "explain_vi": "Lặp động từ 想一想 + bổ ngữ kết quả 想好.",
+     "grammarRef": "h2-g3-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tại sao bạn không ăn cơm?",
+     "acceptedAnswers": [
+      "你为什么不吃饭",
+      "你为什么不吃饭呢"
+     ],
+     "requiredKeywords": [
+      "为什么"
+     ],
+     "wordBank": [
+      "你",
+      "为什么",
+      "不",
+      "吃饭"
+     ],
+     "explain_vi": "为什么 đứng sau chủ ngữ.",
+     "grammarRef": "h2-g3-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Hôm qua tôi nghỉ ngơi một lát.",
+     "acceptedAnswers": [
+      "昨天我休息了一下",
+      "我昨天休息了一下"
+     ],
+     "requiredKeywords": [
+      "休息"
+     ],
+     "wordBank": [
+      "昨天",
+      "我",
+      "休息",
+      "了",
+      "一下"
+     ],
+     "explain_vi": "Động từ hai âm tiết, việc đã xảy ra: AB了一下.",
+     "grammarRef": "h2-g3-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Ngày nào anh ấy cũng đưa con đi học.",
+     "acceptedAnswers": [
+      "他每天都送孩子去学校",
+      "他每天送孩子去学校",
+      "他每天都送孩子上学"
+     ],
+     "requiredKeywords": [
+      "每天",
+      "送"
+     ],
+     "wordBank": [
+      "他",
+      "每天",
+      "都",
+      "送",
+      "孩子",
+      "去",
+      "学校"
+     ],
+     "explain_vi": "每天都 + động từ.",
+     "grammarRef": "h2-g3-1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 4,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "你穿红色的很好看",
+    "pinyin": "Nǐ chuān hóngsè de hěn hǎokàn",
+    "vi": "Bạn mặc màu đỏ rất đẹp"
+  },
+  "grammarTopics_vi": [
+    "Trợ từ động thái 过",
+    "Câu ghép nhân quả 因为……所以……",
+    "Cụm chữ 的"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Trợ từ động thái 过",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu ghép nhân quả 因为……所以……",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cụm chữ 的",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

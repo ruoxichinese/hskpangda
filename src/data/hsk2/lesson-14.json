@@ -1,0 +1,35 @@
+{
+  "id": 14,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "一个人过年多没意思啊",
+    "pinyin": "Yí ge rén guò nián duō méi yìsi a",
+    "vi": "Đón Tết một mình buồn biết bao"
+  },
+  "grammarTopics_vi": [
+    "Câu tồn hiện (2)",
+    "Phó từ chỉ mức độ 多",
+    "Bổ ngữ xu hướng kép"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu tồn hiện (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Phó từ chỉ mức độ 多",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Bổ ngữ xu hướng kép",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

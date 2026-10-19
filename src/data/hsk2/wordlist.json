@@ -1,0 +1,610 @@
+{
+ "_note": "Từ nền HSK 2 chưa được dạy trong các bài HSK 2 đã soạn (dùng để tự sinh pinyin cho HSK 3). Khi soạn bài HSK 2 mới, từ đưa vào 生词 sẽ tự được ưu tiên.",
+ "words": [
+  {
+   "zh": "比",
+   "pinyin": "bǐ",
+   "vi": "so với, hơn"
+  },
+  {
+   "zh": "着",
+   "pinyin": "zhe",
+   "vi": "đang, (trạng thái tiếp diễn)"
+  },
+  {
+   "zh": "过",
+   "pinyin": "guo",
+   "vi": "đã từng"
+  },
+  {
+   "zh": "得",
+   "pinyin": "de",
+   "vi": "(trợ từ bổ ngữ trạng thái)"
+  },
+  {
+   "zh": "一直",
+   "pinyin": "yìzhí",
+   "vi": "luôn, suốt"
+  },
+  {
+   "zh": "聊天",
+   "pinyin": "liáotiān",
+   "vi": "nói chuyện phiếm"
+  },
+  {
+   "zh": "过去",
+   "pinyin": "guòqù",
+   "vi": "qua đó; trôi qua"
+  },
+  {
+   "zh": "以后",
+   "pinyin": "yǐhòu",
+   "vi": "sau khi, sau này"
+  },
+  {
+   "zh": "以前",
+   "pinyin": "yǐqián",
+   "vi": "trước đây"
+  },
+  {
+   "zh": "等",
+   "pinyin": "děng",
+   "vi": "đợi"
+  },
+  {
+   "zh": "黑色",
+   "pinyin": "hēisè",
+   "vi": "màu đen"
+  },
+  {
+   "zh": "白色",
+   "pinyin": "báisè",
+   "vi": "màu trắng"
+  },
+  {
+   "zh": "红色",
+   "pinyin": "hóngsè",
+   "vi": "màu đỏ"
+  },
+  {
+   "zh": "颜色",
+   "pinyin": "yánsè",
+   "vi": "màu sắc"
+  },
+  {
+   "zh": "机票",
+   "pinyin": "jīpiào",
+   "vi": "vé máy bay"
+  },
+  {
+   "zh": "个子",
+   "pinyin": "gèzi",
+   "vi": "vóc người"
+  },
+  {
+   "zh": "高个子",
+   "pinyin": "gāo gèzi",
+   "vi": "người cao"
+  },
+  {
+   "zh": "后面",
+   "pinyin": "hòumian",
+   "vi": "phía sau"
+  },
+  {
+   "zh": "前面",
+   "pinyin": "qiánmian",
+   "vi": "phía trước"
+  },
+  {
+   "zh": "上面",
+   "pinyin": "shàngmian",
+   "vi": "bên trên"
+  },
+  {
+   "zh": "里面",
+   "pinyin": "lǐmiàn",
+   "vi": "bên trong"
+  },
+  {
+   "zh": "外面",
+   "pinyin": "wàimian",
+   "vi": "bên ngoài"
+  },
+  {
+   "zh": "旁边",
+   "pinyin": "pángbiān",
+   "vi": "bên cạnh"
+  },
+  {
+   "zh": "女孩儿",
+   "pinyin": "nǚháir",
+   "vi": "cô gái"
+  },
+  {
+   "zh": "男孩儿",
+   "pinyin": "nánháir",
+   "vi": "cậu bé"
+  },
+  {
+   "zh": "男朋友",
+   "pinyin": "nánpéngyou",
+   "vi": "bạn trai"
+  },
+  {
+   "zh": "女人",
+   "pinyin": "nǚrén",
+   "vi": "phụ nữ"
+  },
+  {
+   "zh": "一样",
+   "pinyin": "yíyàng",
+   "vi": "giống nhau"
+  },
+  {
+   "zh": "当然",
+   "pinyin": "dāngrán",
+   "vi": "tất nhiên"
+  },
+  {
+   "zh": "经常",
+   "pinyin": "jīngcháng",
+   "vi": "thường xuyên"
+  },
+  {
+   "zh": "常",
+   "pinyin": "cháng",
+   "vi": "thường"
+  },
+  {
+   "zh": "饺子",
+   "pinyin": "jiǎozi",
+   "vi": "sủi cảo"
+  },
+  {
+   "zh": "包子",
+   "pinyin": "bāozi",
+   "vi": "bánh bao"
+  },
+  {
+   "zh": "面条儿",
+   "pinyin": "miàntiáor",
+   "vi": "mì sợi"
+  },
+  {
+   "zh": "绿茶",
+   "pinyin": "lǜchá",
+   "vi": "trà xanh"
+  },
+  {
+   "zh": "咖啡",
+   "pinyin": "kāfēi",
+   "vi": "cà phê"
+  },
+  {
+   "zh": "面包",
+   "pinyin": "miànbāo",
+   "vi": "bánh mì"
+  },
+  {
+   "zh": "早饭",
+   "pinyin": "zǎofàn",
+   "vi": "bữa sáng"
+  },
+  {
+   "zh": "午饭",
+   "pinyin": "wǔfàn",
+   "vi": "bữa trưa"
+  },
+  {
+   "zh": "晚饭",
+   "pinyin": "wǎnfàn",
+   "vi": "bữa tối"
+  },
+  {
+   "zh": "国外",
+   "pinyin": "guówài",
+   "vi": "nước ngoài"
+  },
+  {
+   "zh": "考试",
+   "pinyin": "kǎoshì",
+   "vi": "thi"
+  },
+  {
+   "zh": "肉",
+   "pinyin": "ròu",
+   "vi": "thịt"
+  },
+  {
+   "zh": "鸡肉",
+   "pinyin": "jīròu",
+   "vi": "thịt gà"
+  },
+  {
+   "zh": "水果",
+   "pinyin": "shuǐguǒ",
+   "vi": "hoa quả"
+  },
+  {
+   "zh": "离",
+   "pinyin": "lí",
+   "vi": "cách"
+  },
+  {
+   "zh": "地铁",
+   "pinyin": "dìtiě",
+   "vi": "tàu điện ngầm"
+  },
+  {
+   "zh": "近",
+   "pinyin": "jìn",
+   "vi": "gần"
+  },
+  {
+   "zh": "一定",
+   "pinyin": "yídìng",
+   "vi": "nhất định"
+  },
+  {
+   "zh": "就是",
+   "pinyin": "jiùshì",
+   "vi": "chỉ là; chính là"
+  },
+  {
+   "zh": "忘",
+   "pinyin": "wàng",
+   "vi": "quên"
+  },
+  {
+   "zh": "放",
+   "pinyin": "fàng",
+   "vi": "đặt, để"
+  },
+  {
+   "zh": "坏",
+   "pinyin": "huài",
+   "vi": "hỏng, xấu"
+  },
+  {
+   "zh": "新",
+   "pinyin": "xīn",
+   "vi": "mới"
+  },
+  {
+   "zh": "花",
+   "pinyin": "huā",
+   "vi": "tiêu (tiền); hoa"
+  },
+  {
+   "zh": "起床",
+   "pinyin": "qǐchuáng",
+   "vi": "ngủ dậy"
+  },
+  {
+   "zh": "火车",
+   "pinyin": "huǒchē",
+   "vi": "tàu hoả"
+  },
+  {
+   "zh": "公司",
+   "pinyin": "gōngsī",
+   "vi": "công ty"
+  },
+  {
+   "zh": "准备",
+   "pinyin": "zhǔnbèi",
+   "vi": "chuẩn bị"
+  },
+  {
+   "zh": "那么",
+   "pinyin": "nàme",
+   "vi": "như thế"
+  },
+  {
+   "zh": "这样",
+   "pinyin": "zhèyàng",
+   "vi": "như vậy"
+  },
+  {
+   "zh": "事情",
+   "pinyin": "shìqing",
+   "vi": "sự việc"
+  },
+  {
+   "zh": "重",
+   "pinyin": "zhòng",
+   "vi": "nặng"
+  },
+  {
+   "zh": "动",
+   "pinyin": "dòng",
+   "vi": "động, di chuyển"
+  },
+  {
+   "zh": "干净",
+   "pinyin": "gānjìng",
+   "vi": "sạch sẽ"
+  },
+  {
+   "zh": "因为",
+   "pinyin": "yīnwèi",
+   "vi": "bởi vì"
+  },
+  {
+   "zh": "所以",
+   "pinyin": "suǒyǐ",
+   "vi": "cho nên"
+  },
+  {
+   "zh": "半",
+   "pinyin": "bàn",
+   "vi": "nửa"
+  },
+  {
+   "zh": "老",
+   "pinyin": "lǎo",
+   "vi": "già"
+  },
+  {
+   "zh": "弟弟",
+   "pinyin": "dìdi",
+   "vi": "em trai"
+  },
+  {
+   "zh": "妹妹",
+   "pinyin": "mèimei",
+   "vi": "em gái"
+  },
+  {
+   "zh": "哥哥",
+   "pinyin": "gēge",
+   "vi": "anh trai"
+  },
+  {
+   "zh": "足球",
+   "pinyin": "zúqiú",
+   "vi": "bóng đá"
+  },
+  {
+   "zh": "踢",
+   "pinyin": "tī",
+   "vi": "đá"
+  },
+  {
+   "zh": "安静",
+   "pinyin": "ānjìng",
+   "vi": "yên tĩnh"
+  },
+  {
+   "zh": "非常",
+   "pinyin": "fēicháng",
+   "vi": "vô cùng"
+  },
+  {
+   "zh": "房间",
+   "pinyin": "fángjiān",
+   "vi": "căn phòng"
+  },
+  {
+   "zh": "手机",
+   "pinyin": "shǒujī",
+   "vi": "điện thoại di động"
+  },
+  {
+   "zh": "电视",
+   "pinyin": "diànshì",
+   "vi": "ti vi"
+  },
+  {
+   "zh": "生日",
+   "pinyin": "shēngrì",
+   "vi": "sinh nhật"
+  },
+  {
+   "zh": "快乐",
+   "pinyin": "kuàilè",
+   "vi": "vui vẻ"
+  },
+  {
+   "zh": "跟",
+   "pinyin": "gēn",
+   "vi": "với, cùng"
+  },
+  {
+   "zh": "最",
+   "pinyin": "zuì",
+   "vi": "nhất"
+  },
+  {
+   "zh": "看见",
+   "pinyin": "kànjiàn",
+   "vi": "nhìn thấy"
+  },
+  {
+   "zh": "看到",
+   "pinyin": "kàndào",
+   "vi": "nhìn thấy"
+  },
+  {
+   "zh": "见",
+   "pinyin": "jiàn",
+   "vi": "gặp, thấy"
+  },
+  {
+   "zh": "一些",
+   "pinyin": "yìxiē",
+   "vi": "một số"
+  },
+  {
+   "zh": "些",
+   "pinyin": "xiē",
+   "vi": "một vài"
+  },
+  {
+   "zh": "不少",
+   "pinyin": "bùshǎo",
+   "vi": "không ít"
+  },
+  {
+   "zh": "出来",
+   "pinyin": "chūlái",
+   "vi": "ra (đây)"
+  },
+  {
+   "zh": "容易",
+   "pinyin": "róngyì",
+   "vi": "dễ"
+  },
+  {
+   "zh": "爱",
+   "pinyin": "ài",
+   "vi": "yêu, thích"
+  },
+  {
+   "zh": "住",
+   "pinyin": "zhù",
+   "vi": "ở; (bổ ngữ: chắc)"
+  },
+  {
+   "zh": "行",
+   "pinyin": "xíng",
+   "vi": "được"
+  },
+  {
+   "zh": "有时候",
+   "pinyin": "yǒushíhou",
+   "vi": "có lúc"
+  },
+  {
+   "zh": "谢",
+   "pinyin": "xiè",
+   "vi": "cảm ơn"
+  },
+  {
+   "zh": "一点儿",
+   "pinyin": "yìdiǎnr",
+   "vi": "một chút"
+  },
+  {
+   "zh": "错",
+   "pinyin": "cuò",
+   "vi": "sai"
+  },
+  {
+   "zh": "门",
+   "pinyin": "mén",
+   "vi": "cửa"
+  },
+  {
+   "zh": "把",
+   "pinyin": "bǎ",
+   "vi": "(giới từ 把)"
+  },
+  {
+   "zh": "号",
+   "pinyin": "hào",
+   "vi": "số; ngày"
+  },
+  {
+   "zh": "最后",
+   "pinyin": "zuìhòu",
+   "vi": "cuối cùng"
+  },
+  {
+   "zh": "高",
+   "pinyin": "gāo",
+   "vi": "cao"
+  },
+  {
+   "zh": "行李箱",
+   "pinyin": "xínglixiāng",
+   "vi": "vali"
+  },
+  {
+   "zh": "什么样",
+   "pinyin": "shénmeyàng",
+   "vi": "như thế nào"
+  },
+  {
+   "zh": "样子",
+   "pinyin": "yàngzi",
+   "vi": "dáng vẻ"
+  },
+  {
+   "zh": "问",
+   "pinyin": "wèn",
+   "vi": "hỏi"
+  },
+  {
+   "zh": "点儿",
+   "pinyin": "diǎnr",
+   "vi": "một chút"
+  },
+  {
+   "zh": "儿",
+   "pinyin": "ér",
+   "vi": "con, nhi"
+  },
+  {
+   "zh": "黑",
+   "pinyin": "hēi",
+   "vi": "đen"
+  },
+  {
+   "zh": "白",
+   "pinyin": "bái",
+   "vi": "trắng"
+  },
+  {
+   "zh": "出",
+   "pinyin": "chū",
+   "vi": "ra"
+  },
+  {
+   "zh": "总",
+   "pinyin": "zǒng",
+   "vi": "luôn luôn"
+  },
+  {
+   "zh": "女",
+   "pinyin": "nǚ",
+   "vi": "nữ"
+  },
+  {
+   "zh": "旧",
+   "pinyin": "jiù",
+   "vi": "cũ"
+  },
+  {
+   "zh": "可是",
+   "pinyin": "kěshì",
+   "vi": "nhưng mà"
+  },
+  {
+   "zh": "周",
+   "pinyin": "zhōu",
+   "vi": "tuần"
+  },
+  {
+   "zh": "虽然",
+   "pinyin": "suīrán",
+   "vi": "tuy"
+  },
+  {
+   "zh": "路",
+   "pinyin": "lù",
+   "vi": "đường"
+  },
+  {
+   "zh": "路上",
+   "pinyin": "lùshang",
+   "vi": "trên đường"
+  },
+  {
+   "zh": "可能",
+   "pinyin": "kěnéng",
+   "vi": "có thể, có lẽ"
+  }
+ ]
+}

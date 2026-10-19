@@ -1,0 +1,35 @@
+{
+  "id": 8,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "虽然你忘了，但是我记得",
+    "pinyin": "Suīrán nǐ wàng le, dànshì wǒ jìde",
+    "vi": "Tuy bạn quên rồi, nhưng tôi vẫn nhớ"
+  },
+  "grammarTopics_vi": [
+    "Câu so sánh (1)",
+    "Câu so sánh (2)",
+    "Câu ghép chuyển ngoặt 虽然……，但是……"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu so sánh (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu so sánh (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu ghép chuyển ngoặt 虽然……，但是……",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

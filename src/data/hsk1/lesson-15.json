@@ -1,0 +1,23 @@
+{
+  "id": 15,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "大兴机场见！",
+    "pinyin": "Dàxīng Jīchǎng jiàn!",
+    "vi": "Hẹn gặp ở sân bay Đại Hưng!"
+  },
+  "grammarTopics_vi": [
+    "Câu ghép ……，还/也……"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu ghép ……，还/也……",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

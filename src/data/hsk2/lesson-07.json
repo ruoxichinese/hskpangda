@@ -1,0 +1,35 @@
+{
+  "id": 7,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "他篮球打得很好",
+    "pinyin": "Tā lánqiú dǎ de hěn hǎo",
+    "vi": "Anh ấy chơi bóng rổ rất giỏi"
+  },
+  "grammarTopics_vi": [
+    "Câu ghép rút gọn 一……就……",
+    "Bổ ngữ trạng thái (1)",
+    "Bổ ngữ trạng thái (2)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu ghép rút gọn 一……就……",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Bổ ngữ trạng thái (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Bổ ngữ trạng thái (2)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

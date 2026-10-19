@@ -1,0 +1,35 @@
+{
+  "id": 12,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "这里比北京冷多了",
+    "pinyin": "Zhèlǐ bǐ Běijīng lěng duō le",
+    "vi": "Ở đây lạnh hơn Bắc Kinh nhiều"
+  },
+  "grammarTopics_vi": [
+    "Câu so sánh (4)",
+    "Câu so sánh (5)",
+    "Câu so sánh (6)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu so sánh (4)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu so sánh (5)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu so sánh (6)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

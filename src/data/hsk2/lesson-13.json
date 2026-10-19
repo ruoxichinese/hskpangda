@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "我们爱上中文课",
+    "pinyin": "Wǒmen ài shàng Zhōngwén kè",
+    "vi": "Chúng tôi thích giờ học tiếng Trung"
+  },
+  "grammarTopics_vi": [
+    "Câu hai tân ngữ (2)",
+    "Câu so sánh (7)",
+    "Câu so sánh (8)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu hai tân ngữ (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu so sánh (7)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu so sánh (8)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

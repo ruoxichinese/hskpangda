@@ -1,0 +1,56 @@
+{
+  "lessonId": 1,
+  "level": "hsk1",
+  "status": "ready",
+  "sections": [
+    {
+      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Buổi học đầu tiên",
+      "instructions_vi": "Đọc đoạn hội thoại rồi trả lời câu hỏi.",
+      "passage": {
+        "title_vi": "Buổi học đầu tiên",
+        "zh": "王老师：大家好！\n学生们：王老师，您好！\n王老师：小语，你好！\n小语：王老师好！同学们好！\n学生们：小语，你好！\n……\n学生们：谢谢王老师！\n王老师：不客气！同学们，再见！\n学生们：老师，再见！",
+        "vi": "Cô Vương: Chào cả lớp!\nCả lớp: Chúng em chào cô Vương ạ!\nCô Vương: Chào Tiểu Ngữ!\nTiểu Ngữ: Em chào cô Vương! Chào các bạn!\nCả lớp: Chào Tiểu Ngữ!\n…\nCả lớp: Chúng em cảm ơn cô Vương!\nCô Vương: Không có gì! Tạm biệt các em!\nCả lớp: Chúng em chào cô ạ!"
+      },
+      "questions": [
+        { "id": "a1", "kind": "mcq", "prompt_vi": "Cô Vương chào ai đầu tiên?", "options": ["大家", "小语", "王老师"], "answer": 0, "explain_vi": "Câu đầu tiên cô nói là 大家好！ – chào cả lớp." },
+        { "id": "a2", "kind": "mcq", "prompt_vi": "Tiểu Ngữ chào các bạn học sinh bằng câu nào?", "options": ["您好！", "同学们好！", "再见！"], "answer": 1, "explain_vi": "小语 nói: 同学们好！" },
+        { "id": "a3", "kind": "mcq", "prompt_vi": "Ai nói 不客气？", "options": ["小语", "学生们", "王老师"], "answer": 2, "explain_vi": "Học sinh cảm ơn, cô Vương đáp 不客气." },
+        { "id": "a4", "kind": "truefalse", "statement_zh": "学生们：谢谢王老师！", "statement_vi": "Học sinh cảm ơn cô Vương.", "answer": true, "explain_vi": "Đúng, cuối buổi cả lớp nói 谢谢王老师！" },
+        { "id": "a5", "kind": "truefalse", "statement_zh": "同学们，再见！", "statement_vi": "Câu này do học sinh nói với cô giáo.", "answer": false, "explain_vi": "Chính cô Vương nói câu này với học sinh. Học sinh đáp 老师，再见！" },
+        { "id": "a6", "kind": "truefalse", "statement_zh": "学生们：王老师，您好！", "statement_vi": "Học sinh dùng cách chào lịch sự với cô giáo.", "answer": true, "explain_vi": "您 là đại từ kính trọng – rất lịch sự." }
+      ]
+    },
+    {
+      "type": "reading", "part": "A3", "title_vi": "Nối câu", "instructions_vi": "Nối mỗi câu bên trái với câu đáp phù hợp bên phải.",
+      "questions": [
+        { "id": "a7", "kind": "match", "pairs": [{ "q": "谢谢！", "a": "不客气！" }, { "q": "老师好！", "a": "同学们好！" }, { "q": "王老师，再见！", "a": "同学们，再见！" }], "explain_vi": "Cảm ơn ↔ Không có gì; học sinh chào ↔ giáo viên chào lại; tạm biệt ↔ tạm biệt." }
+      ]
+    },
+    {
+      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Chọn từ trong ngân hàng từ để điền vào chỗ trống. Có một từ thừa.",
+      "questions": [
+        { "id": "a8", "kind": "cloze", "text": "A：同学{{1}}好！\nB：王老师，{{2}}好！\nA：谢谢！\nB：不{{3}}！\nA：老师，{{4}}！", "bank": ["们", "您", "客气", "再见", "大家"], "answers": ["们", "您", "客气", "再见"], "explain_vi": "同学们 (số nhiều) · 您好 (kính trọng) · 不客气 · 再见." }
+      ]
+    },
+    {
+      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+      "questions": [
+        { "id": "b1", "kind": "reorder", "tiles": ["好", "大家"], "answers": ["大家好"], "vi": "Chào mọi người!", "explain_vi": "Người được chào + 好.", "grammarRef": "g1-1" },
+        { "id": "b2", "kind": "reorder", "tiles": ["们", "好", "同学"], "answers": ["同学们好"], "vi": "Chào các bạn!", "explain_vi": "们 đứng ngay sau 同学, rồi đến 好.", "grammarRef": "g1-2" },
+        { "id": "b3", "kind": "reorder", "tiles": ["您", "老师", "好"], "answers": ["老师您好", "您好老师"], "vi": "Em chào cô ạ!", "explain_vi": "Gọi 老师 trước rồi 您好, hoặc ngược lại.", "grammarRef": "g1-1" },
+        { "id": "b4", "kind": "reorder", "tiles": ["再见", "老师"], "answers": ["老师再见", "再见老师"], "vi": "Em chào cô! (khi ra về)", "explain_vi": "Gọi người nghe + 再见.", "grammarRef": "g1-3" },
+        { "id": "b5", "kind": "reorder", "tiles": ["谢谢", "老师", "王"], "answers": ["谢谢王老师"], "vi": "Cảm ơn cô Vương!", "explain_vi": "谢谢 + người được cảm ơn. Họ 王 đứng trước 老师.", "grammarRef": "g1-3" }
+      ]
+    },
+    {
+      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+      "questions": [
+        { "id": "b6", "kind": "translate", "prompt_vi": "Xin chào!", "acceptedAnswers": ["你好"], "requiredKeywords": ["好"], "wordBank": ["你好", "您", "再见", "谢谢"], "explain_vi": "Câu chào cơ bản: 你好.", "grammarRef": "g1-1" },
+        { "id": "b7", "kind": "translate", "prompt_vi": "Chào cả lớp! (cô giáo nói với học sinh)", "acceptedAnswers": ["大家好", "同学们好", "你们好"], "requiredKeywords": ["好"], "wordBank": ["大家", "好", "您", "们"], "explain_vi": "Chào nhiều người: 大家好 / 同学们好 / 你们好.", "grammarRef": "g1-1" },
+        { "id": "b8", "kind": "translate", "prompt_vi": "Em cảm ơn cô ạ!", "acceptedAnswers": ["谢谢老师", "谢谢您", "谢谢王老师", "老师谢谢您", "谢谢您老师", "老师谢谢", "谢谢老师们"], "requiredKeywords": ["谢谢"], "wordBank": ["谢谢", "老师", "不客气", "您"], "explain_vi": "谢谢 + người được cảm ơn: 谢谢老师！", "grammarRef": "g1-3" },
+        { "id": "b9", "kind": "translate", "prompt_vi": "Không có gì!", "acceptedAnswers": ["不客气", "不客气不客气"], "requiredKeywords": ["客气"], "wordBank": ["不客气", "谢谢", "再见"], "explain_vi": "Đáp lời cảm ơn: 不客气.", "grammarRef": "g1-3" },
+        { "id": "b10", "kind": "translate", "prompt_vi": "Tạm biệt các bạn!", "acceptedAnswers": ["同学们再见", "再见同学们", "大家再见", "你们再见", "再见"], "requiredKeywords": ["再见"], "wordBank": ["同学", "们", "再见", "好"], "explain_vi": "Gọi người nghe + 再见: 同学们，再见！", "grammarRef": "g1-3" }
+      ]
+    }
+  ]
+}

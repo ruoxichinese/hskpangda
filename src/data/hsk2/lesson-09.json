@@ -1,0 +1,35 @@
+{
+  "id": 9,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "我去买杯奶茶",
+    "pinyin": "Wǒ qù mǎi bēi nǎichá",
+    "vi": "Tôi đi mua cốc trà sữa"
+  },
+  "grammarTopics_vi": [
+    "Câu so sánh (3)",
+    "Động từ 离",
+    "Bổ ngữ thời lượng (1)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu so sánh (3)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Động từ 离",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Bổ ngữ thời lượng (1)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": 4,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "我有两个孩子",
+    "pinyin": "Wǒ yǒu liǎng ge háizi",
+    "vi": "Tôi có hai đứa con"
+  },
+  "grammarTopics_vi": [
+    "Câu chữ 有 (1)",
+    "Cách nói số",
+    "Trợ từ 呢 (1)",
+    "Lượng từ: Số + Lượng từ + (Danh từ)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu chữ 有 (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Cách nói số",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Trợ từ 呢 (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o4",
+      "vi": "Lượng từ: Số + Lượng từ + (Danh từ)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

@@ -1,0 +1,348 @@
+{
+ "lessonId": 1,
+ "level": "hsk2",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "part": "A1–A2",
+   "title_vi": "Cuộc gọi của Annie",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
+   "passage": {
+    "title_vi": "Cuộc gọi của Annie",
+    "zh": "安妮：喂，李文，你在哪儿？\n李文：我在学校呢。你们是什么时候到北京的？\n安妮：我们是昨天下午到的，是王老师的姐姐来机场接的我们。\n李文：你们是来学习的吗？\n安妮：不是，我们是来旅游的。昨天晚上，王老师的姐姐请我们吃了北京烤鸭。\n李文：北京烤鸭好吃吧？\n安妮：太好吃了！",
+    "vi": "Annie: Alô, Lý Văn, cậu đang ở đâu?\nLý Văn: Mình ở trường. Các cậu đến Bắc Kinh lúc nào?\nAnnie: Chiều qua bọn mình đến, chị gái cô Vương ra sân bay đón.\nLý Văn: Các cậu đến để học à?\nAnnie: Không, bọn mình đến du lịch. Tối qua chị gái cô Vương mời bọn mình ăn vịt quay Bắc Kinh.\nLý Văn: Vịt quay ngon chứ?\nAnnie: Ngon tuyệt!"
+   },
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "安妮她们是什么时候到北京的？",
+     "options": [
+      "昨天上午",
+      "昨天下午",
+      "今天下午"
+     ],
+     "answer": 1,
+     "explain_vi": "我们是昨天下午到的。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "谁去机场接的安妮她们？",
+     "options": [
+      "李文",
+      "王老师",
+      "王老师的姐姐"
+     ],
+     "answer": 2,
+     "explain_vi": "是王老师的姐姐来机场接的我们。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "安妮她们来北京做什么？",
+     "options": [
+      "学习",
+      "旅游",
+      "工作"
+     ],
+     "answer": 1,
+     "explain_vi": "我们是来旅游的。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "王老师的姐姐请安妮她们吃了北京烤鸭。",
+     "answer": true,
+     "explain_vi": "Đúng như Annie kể."
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "安妮她们是来学中文的。",
+     "answer": false,
+     "explain_vi": "Họ đến để du lịch: 不是，我们是来旅游的。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "安妮觉得北京烤鸭不好吃。",
+     "answer": false,
+     "explain_vi": "Annie nói 太好吃了！"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A3",
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你是什么时候到的？",
+       "a": "我是今天早上到的。"
+      },
+      {
+       "q": "你是怎么来的？",
+       "a": "我是坐出租车来的。"
+      },
+      {
+       "q": "你能帮我个忙吗？",
+       "a": "不好意思，我现在很忙。"
+      },
+      {
+       "q": "这是什么意思？",
+       "a": "我也不懂。"
+      }
+     ],
+     "explain_vi": "什么时候 → thời gian; 怎么 → cách thức; nhờ giúp → từ chối nhẹ nhàng; 什么意思 → không hiểu."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "A4",
+   "title_vi": "Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我是第一{{1}}来北京。王老师{{2}}她姐姐来接我们，她姐姐还{{3}}我们介绍了很多地方。我们的中文不太好，{{4}}不懂她的意思。",
+     "bank": [
+      "次",
+      "让",
+      "给",
+      "有时",
+      "已经"
+     ],
+     "answers": [
+      "次",
+      "让",
+      "给",
+      "有时"
+     ],
+     "explain_vi": "第一次 · 让 + người + việc · 给 + người + 介绍 · 有时 = đôi khi."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "请",
+      "我们",
+      "姐姐",
+      "北京烤鸭",
+      "吃了"
+     ],
+     "answers": [
+      "姐姐请我们吃了北京烤鸭"
+     ],
+     "vi": "Chị gái mời chúng tôi ăn vịt quay Bắc Kinh.",
+     "explain_vi": "请 + người + việc.",
+     "grammarRef": "h2-g1-3"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "是",
+      "的",
+      "我",
+      "昨天",
+      "到"
+     ],
+     "answers": [
+      "我是昨天到的"
+     ],
+     "vi": "Tôi đến hôm qua.",
+     "explain_vi": "是 + thời gian + động từ + 的.",
+     "grammarRef": "h2-g1-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "让",
+      "老师",
+      "我们",
+      "中文",
+      "说"
+     ],
+     "answers": [
+      "老师让我们说中文"
+     ],
+     "vi": "Cô giáo bảo chúng tôi nói tiếng Trung.",
+     "explain_vi": "让 + người + việc.",
+     "grammarRef": "h2-g1-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "你们",
+      "学生",
+      "就是",
+      "她的",
+      "吧"
+     ],
+     "answers": [
+      "你们就是她的学生吧"
+     ],
+     "vi": "Các bạn chính là học trò của cô ấy phải không?",
+     "explain_vi": "Câu đoán + 吧.",
+     "grammarRef": "h2-g1-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "已经",
+      "了",
+      "我",
+      "北京",
+      "到"
+     ],
+     "answers": [
+      "我已经到北京了"
+     ],
+     "vi": "Tôi đã đến Bắc Kinh rồi.",
+     "explain_vi": "已经 + động từ + 了.",
+     "grammarRef": "h2-g1-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Có thể dùng ngân hàng từ gợi ý.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Chị ấy mời chúng tôi ăn vịt quay Bắc Kinh.",
+     "acceptedAnswers": [
+      "她请我们吃北京烤鸭",
+      "她请我们吃了北京烤鸭"
+     ],
+     "requiredKeywords": [
+      "请",
+      "北京烤鸭"
+     ],
+     "wordBank": [
+      "她",
+      "请",
+      "我们",
+      "吃",
+      "北京烤鸭",
+      "了"
+     ],
+     "explain_vi": "Câu kiêm ngữ: 她 + 请 + 我们 + 吃……",
+     "grammarRef": "h2-g1-3"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Tôi đến bằng taxi. (nhấn mạnh cách thức)",
+     "acceptedAnswers": [
+      "我是坐出租车来的"
+     ],
+     "requiredKeywords": [
+      "是",
+      "的"
+     ],
+     "wordBank": [
+      "我",
+      "是",
+      "坐",
+      "出租车",
+      "来",
+      "的"
+     ],
+     "explain_vi": "是 + cách thức + 来 + 的.",
+     "grammarRef": "h2-g1-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Mẹ bảo bọn trẻ về nhà.",
+     "acceptedAnswers": [
+      "妈妈叫孩子们回家",
+      "妈妈让孩子们回家"
+     ],
+     "requiredKeywords": [
+      "孩子",
+      "回家"
+     ],
+     "wordBank": [
+      "妈妈",
+      "叫",
+      "让",
+      "孩子们",
+      "回家"
+     ],
+     "explain_vi": "叫/让 + người + việc.",
+     "grammarRef": "h2-g1-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Ngại quá, tôi đã đến Bắc Kinh rồi.",
+     "acceptedAnswers": [
+      "不好意思，我已经到北京了",
+      "不好意思，我已经在北京了"
+     ],
+     "requiredKeywords": [
+      "已经",
+      "了"
+     ],
+     "wordBank": [
+      "不好意思",
+      "我",
+      "已经",
+      "到",
+      "北京",
+      "了"
+     ],
+     "explain_vi": "已经……了 = đã … rồi.",
+     "grammarRef": "h2-g1-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Tôi không hiểu ý của cô ấy.",
+     "acceptedAnswers": [
+      "我不懂她的意思",
+      "我不太懂她的意思"
+     ],
+     "requiredKeywords": [
+      "懂",
+      "意思"
+     ],
+     "wordBank": [
+      "我",
+      "不",
+      "懂",
+      "她的",
+      "意思"
+     ],
+     "explain_vi": "懂 + 意思.",
+     "grammarRef": "h2-g1-3"
+    }
+   ]
+  }
+ ]
+}

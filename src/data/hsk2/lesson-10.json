@@ -1,0 +1,35 @@
+{
+  "id": 10,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "就要考试了",
+    "pinyin": "Jiù yào kǎoshì le",
+    "vi": "Sắp thi rồi"
+  },
+  "grammarTopics_vi": [
+    "Câu vị ngữ chủ-vị",
+    "Câu hỏi lựa chọn",
+    "Cấu trúc 要/快/快要/就要……了"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu vị ngữ chủ-vị",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu hỏi lựa chọn",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cấu trúc 要/快/快要/就要……了",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

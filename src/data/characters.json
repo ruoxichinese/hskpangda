@@ -1,0 +1,131 @@
+[
+  {
+    "id": "xiaoyu",
+    "zh": "小语",
+    "pinyin": "Xiǎoyǔ",
+    "vi_name": "AI Tiểu Ngữ",
+    "setting": "ai",
+    "color": "#9F7AEA",
+    "desc_vi": "Trợ lý học tập AI của giáo trình. Hay xuất hiện trong lớp, nói chuyện lễ phép và luôn sẵn sàng giúp đỡ."
+  },
+  {
+    "id": "wangyifei",
+    "zh": "王一飞",
+    "pinyin": "Wáng Yīfēi",
+    "vi_name": "Vương Nhất Phi",
+    "setting": "overseas",
+    "color": "#ED8936",
+    "desc_vi": "Nữ, người Bắc Kinh, khoảng 30 tuổi. Giáo viên tiếng Trung được cử sang dạy ở một trường đại học nước ngoài."
+  },
+  {
+    "id": "baijiayue",
+    "zh": "白家月",
+    "pinyin": "Bái Jiāyuè",
+    "vi_name": "Bạch Gia Nguyệt",
+    "setting": "overseas",
+    "color": "#ED64A6",
+    "desc_vi": "Nữ, người Pháp, hơn 20 tuổi. Sinh viên lớp tiếng Trung của cô Vương Nhất Phi."
+  },
+  {
+    "id": "anni",
+    "zh": "安妮",
+    "pinyin": "Ānnī",
+    "vi_name": "Annie",
+    "setting": "overseas",
+    "color": "#D53F8C",
+    "desc_vi": "Nữ, người Canada, hơn 20 tuổi. Học chung lớp tiếng Trung với Gia Nguyệt và Thiên Trung."
+  },
+  {
+    "id": "chentianzhong",
+    "zh": "陈天中",
+    "pinyin": "Chén Tiānzhōng",
+    "vi_name": "Trần Thiên Trung",
+    "setting": "overseas",
+    "color": "#4299E1",
+    "desc_vi": "Nam, người Thái Lan, hơn 20 tuổi. Sinh viên lớp tiếng Trung của cô Vương."
+  },
+  {
+    "id": "liwen",
+    "zh": "李文",
+    "pinyin": "Lǐ Wén",
+    "vi_name": "Lý Văn",
+    "setting": "overseas",
+    "color": "#3182CE",
+    "desc_vi": "Nam, người Bắc Kinh, hơn 20 tuổi. Du học sinh Trung Quốc ngành y, là bạn thân của Gia Nguyệt, Annie và Thiên Trung.",
+    "levelNotes": {
+      "hsk2": "Gặp Gia Nguyệt hằng ngày ở trường và dần nảy sinh tình cảm với cô."
+    }
+  },
+  {
+    "id": "wangyixue",
+    "zh": "王一雪",
+    "pinyin": "Wáng Yīxuě",
+    "vi_name": "Vương Nhất Tuyết",
+    "setting": "china",
+    "color": "#48BB78",
+    "desc_vi": "Nữ, người Bắc Kinh, hơn 30 tuổi. Làm văn phòng ở chi nhánh Bắc Kinh của một công ty đa quốc gia, là chị họ của Nhất Phi."
+  },
+  {
+    "id": "liuming",
+    "zh": "刘明",
+    "pinyin": "Liú Míng",
+    "vi_name": "Lưu Minh",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Nam, người Bắc Kinh, khoảng 40 tuổi. Bác sĩ, chồng của Vương Nhất Tuyết."
+  },
+  {
+    "id": "liuxiaoxue",
+    "zh": "刘小雪",
+    "pinyin": "Liú Xiǎoxuě",
+    "vi_name": "Lưu Tiểu Tuyết",
+    "setting": "china",
+    "color": "#D69E2E",
+    "desc_vi": "Nữ, 12 tuổi, học sinh tiểu học. Con gái của Lưu Minh và Nhất Tuyết.",
+    "levelNotes": {
+      "hsk2": "Đã 13 tuổi, lên trung học cơ sở."
+    }
+  },
+  {
+    "id": "liuxiaoming",
+    "zh": "刘小明",
+    "pinyin": "Liú Xiǎomíng",
+    "vi_name": "Lưu Tiểu Minh",
+    "setting": "china",
+    "color": "#DD6B20",
+    "desc_vi": "Nam, 5 tuổi, đang học mẫu giáo. Con trai của Lưu Minh và Nhất Tuyết.",
+    "levelNotes": {
+      "hsk2": "Đã 6 tuổi, vào tiểu học."
+    }
+  },
+  {
+    "id": "yangtongle",
+    "zh": "杨同乐",
+    "pinyin": "Yáng Tónglè",
+    "vi_name": "Dương Đồng Lạc",
+    "setting": "china",
+    "color": "#319795",
+    "desc_vi": "Nam, người Thượng Hải, hơn 30 tuổi. Đồng nghiệp của Vương Nhất Tuyết.",
+    "levelNotes": {
+      "hsk2": "Được Nhất Tuyết giới thiệu với Nhất Phi, trở thành bạn trai của cô và tranh thủ kỳ nghỉ bay ra nước ngoài thăm cô."
+    }
+  },
+  {
+    "id": "fuwuyuan",
+    "zh": "服务员",
+    "pinyin": "fúwùyuán",
+    "vi_name": "Nhân viên lễ tân",
+    "setting": "group",
+    "color": "#805AD5",
+    "desc_vi": "Nhân viên quầy lễ tân khách sạn nơi Gia Nguyệt và Annie ở (HSK 2, bài 2)."
+  },
+  {
+    "id": "students",
+    "zh": "学生们",
+    "pinyin": "xuéshengmen",
+    "vi_name": "Cả lớp",
+    "setting": "group",
+    "color": "#718096",
+    "desc_vi": "Các bạn sinh viên trong lớp cô Vương."
+  }
+]

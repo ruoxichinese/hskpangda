@@ -1,0 +1,35 @@
+{
+  "id": 10,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "这儿的苹果真便宜！",
+    "pinyin": "Zhèr de píngguǒ zhēn piányi!",
+    "vi": "Táo ở đây rẻ thật!"
+  },
+  "grammarTopics_vi": [
+    "Cách nói tiền",
+    "Câu vị ngữ tính từ",
+    "Đại từ nghi vấn 怎么样"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Cách nói tiền",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu vị ngữ tính từ",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Đại từ nghi vấn 怎么样",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

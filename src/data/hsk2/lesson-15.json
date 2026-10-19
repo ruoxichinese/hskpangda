@@ -1,0 +1,35 @@
+{
+  "id": 15,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "我想再去一次中国",
+    "pinyin": "Wǒ xiǎng zài qù yí cì Zhōngguó",
+    "vi": "Tôi muốn đến Trung Quốc thêm lần nữa"
+  },
+  "grammarTopics_vi": [
+    "Bổ ngữ động lượng (1)",
+    "Bổ ngữ động lượng (2)",
+    "Câu chữ 有 (2)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Bổ ngữ động lượng (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Bổ ngữ động lượng (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu chữ 有 (2)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

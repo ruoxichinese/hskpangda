@@ -1,0 +1,71 @@
+{
+ "_note": "Tên riêng và cụm từ ngoài 生词 của HSK 2.",
+ "words": [
+  {
+   "zh": "刘明",
+   "pinyin": "Liú Míng",
+   "vi": "Lưu Minh",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "家月",
+   "pinyin": "Jiāyuè",
+   "vi": "Gia Nguyệt (gọi thân mật)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "天中",
+   "pinyin": "Tiānzhōng",
+   "vi": "Thiên Trung (gọi thân mật)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "西安",
+   "pinyin": "Xī'ān",
+   "vi": "Tây An",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "天啊",
+   "pinyin": "tiān a",
+   "vi": "trời ơi",
+   "known": true
+  },
+  {
+   "zh": "对了",
+   "pinyin": "duì le",
+   "vi": "à phải rồi (chợt nhớ ra)",
+   "known": true
+  },
+  {
+   "zh": "小雪",
+   "pinyin": "Xiǎoxuě",
+   "vi": "Tiểu Tuyết (gọi tên)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "刘小雪",
+   "pinyin": "Liú Xiǎoxuě",
+   "vi": "Lưu Tiểu Tuyết",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "休",
+   "pinyin": "xiū",
+   "vi": "(chữ đầu của 休息)",
+   "known": true
+  },
+  {
+   "zh": "介",
+   "pinyin": "jiè",
+   "vi": "(chữ đầu của 介绍)",
+   "known": true
+  }
+ ]
+}

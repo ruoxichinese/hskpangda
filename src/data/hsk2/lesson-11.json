@@ -1,0 +1,35 @@
+{
+  "id": 11,
+  "level": "hsk2",
+  "status": "draft",
+  "title": {
+    "zh": "我最喜欢吃中国菜",
+    "pinyin": "Wǒ zuì xǐhuan chī Zhōngguó cài",
+    "vi": "Tôi thích ăn món Trung Quốc nhất"
+  },
+  "grammarTopics_vi": [
+    "Trợ từ động thái 着 (1)",
+    "Trợ từ động thái 着 (2)",
+    "Phó từ chỉ mức độ 最"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Trợ từ động thái 着 (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Trợ từ động thái 着 (2)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Phó từ chỉ mức độ 最",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}
