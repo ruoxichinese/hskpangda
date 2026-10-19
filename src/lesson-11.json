@@ -1,0 +1,35 @@
+{
+  "id": 11,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "我读大学呢",
+    "pinyin": "Wǒ dú dàxué ne",
+    "vi": "Tôi đang học đại học"
+  },
+  "grammarTopics_vi": [
+    "Câu hỏi chính phản",
+    "Phó từ 在 / 正在",
+    "Động từ năng nguyện 要"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu hỏi chính phản",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Phó từ 在 / 正在",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Động từ năng nguyện 要",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

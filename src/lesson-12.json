@@ -1,0 +1,35 @@
+{
+  "id": 12,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "昨天下雪了",
+    "pinyin": "Zuótiān xià xuě le",
+    "vi": "Hôm qua tuyết rơi"
+  },
+  "grammarTopics_vi": [
+    "Câu không chủ-vị",
+    "Trợ từ 了 (1)",
+    "Cấu trúc 太……了"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Câu không chủ-vị",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Trợ từ 了 (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Cấu trúc 太……了",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

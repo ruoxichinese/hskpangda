@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "请给我一杯茶",
+    "pinyin": "Qǐng gěi wǒ yì bēi chá",
+    "vi": "Cho tôi một tách trà"
+  },
+  "grammarTopics_vi": [
+    "Động từ năng nguyện 可以",
+    "Động từ + 一下",
+    "Câu hai tân ngữ (1)"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Động từ năng nguyện 可以",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Động từ + 一下",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Câu hai tân ngữ (1)",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

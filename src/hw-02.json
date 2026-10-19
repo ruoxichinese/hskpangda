@@ -1,0 +1,56 @@
+{
+  "lessonId": 2,
+  "level": "hsk1",
+  "status": "ready",
+  "sections": [
+    {
+      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Gặp nhau ở thư viện",
+      "instructions_vi": "Đọc đoạn hội thoại rồi trả lời câu hỏi.",
+      "passage": {
+        "title_vi": "Gặp nhau ở thư viện",
+        "zh": "李文：你好！请问，你叫什么名字？\n安妮：你好！我叫安妮。\n李文：我叫李文。安妮，很高兴认识你！\n安妮：我也很高兴认识你！\n陈天中：白家月，你好！\n安妮：我不是白家月，我是安妮。\n陈天中：对不起！\n安妮：没关系！",
+        "vi": "Lý Văn: Chào bạn! Xin hỏi, bạn tên là gì?\nAnnie: Chào bạn! Mình tên là Annie.\nLý Văn: Mình tên là Lý Văn. Annie, rất vui được làm quen với bạn!\nAnnie: Mình cũng rất vui được làm quen với bạn!\nThiên Trung: Chào Gia Nguyệt!\nAnnie: Mình không phải Gia Nguyệt, mình là Annie.\nThiên Trung: Xin lỗi!\nAnnie: Không sao!"
+      },
+      "questions": [
+        { "id": "a1", "kind": "mcq", "prompt_vi": "Cô gái trong đoạn hội thoại tên là gì?", "options": ["白家月", "安妮", "李文"], "answer": 1, "explain_vi": "Cô ấy nói: 我叫安妮。" },
+        { "id": "a2", "kind": "mcq", "prompt_vi": "陈天中 đã nhận nhầm 安妮 là ai?", "options": ["王老师", "李文", "白家月"], "answer": 2, "explain_vi": "陈天中 chào 白家月，你好！ nhưng đó là 安妮." },
+        { "id": "a3", "kind": "mcq", "prompt_vi": "安妮 đáp lại lời xin lỗi bằng câu nào?", "options": ["不客气！", "没关系！", "再见！"], "answer": 1, "explain_vi": "对不起 → 没关系." },
+        { "id": "a4", "kind": "truefalse", "statement_zh": "安妮不是白家月。", "answer": true, "explain_vi": "安妮 nói: 我不是白家月，我是安妮。" },
+        { "id": "a5", "kind": "truefalse", "statement_zh": "陈天中叫李文。", "answer": false, "explain_vi": "陈天中 và 李文 là hai người khác nhau." },
+        { "id": "a6", "kind": "truefalse", "statement_zh": "安妮也很高兴认识李文。", "answer": true, "explain_vi": "安妮 nói: 我也很高兴认识你！" }
+      ]
+    },
+    {
+      "type": "reading", "part": "A3", "title_vi": "Nối câu hỏi với câu trả lời", "instructions_vi": "Nối mỗi câu bên trái với câu đáp phù hợp.",
+      "questions": [
+        { "id": "a7", "kind": "match", "pairs": [{ "q": "请问，你叫什么名字？", "a": "我叫白家月。" }, { "q": "对不起！", "a": "没关系！" }, { "q": "很高兴认识你！", "a": "我也很高兴认识你！" }, { "q": "谢谢！", "a": "不客气！" }], "explain_vi": "Hỏi tên ↔ nói tên; xin lỗi ↔ không sao; vui được quen ↔ cũng vui; cảm ơn ↔ không có gì." }
+      ]
+    },
+    {
+      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Có một từ thừa.",
+      "questions": [
+        { "id": "a8", "kind": "cloze", "text": "A：你好！请问，你{{1}}什么名字？\nB：我叫陈天中。我{{2}}是安妮。\nA：对不起！\nB：没{{3}}！\nA：很{{4}}认识你！", "bank": ["叫", "不", "关系", "高兴", "也"], "answers": ["叫", "不", "关系", "高兴"], "explain_vi": "叫 + tên · 不是 · 没关系 · 很高兴." }
+      ]
+    },
+    {
+      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+      "questions": [
+        { "id": "b1", "kind": "reorder", "tiles": ["名字", "你", "什么", "叫"], "answers": ["你叫什么名字"], "vi": "Bạn tên là gì?", "explain_vi": "Trật tự: Chủ ngữ + Động từ + Tân ngữ. Từ để hỏi không lên đầu câu.", "grammarRef": "g2-1" },
+        { "id": "b2", "kind": "reorder", "tiles": ["是", "我", "学生"], "answers": ["我是学生"], "vi": "Tôi là sinh viên.", "explain_vi": "Chủ ngữ + 是 + Tân ngữ.", "grammarRef": "g2-1" },
+        { "id": "b3", "kind": "reorder", "tiles": ["不", "我", "是", "安妮"], "answers": ["我不是安妮"], "vi": "Tôi không phải Annie.", "explain_vi": "不 đứng trước động từ 是.", "grammarRef": "g2-2" },
+        { "id": "b4", "kind": "reorder", "tiles": ["认识", "很", "高兴", "你"], "answers": ["很高兴认识你", "认识你很高兴"], "vi": "Rất vui được làm quen với bạn.", "explain_vi": "Cả hai thứ tự đều đúng.", "grammarRef": "g2-3" },
+        { "id": "b5", "kind": "reorder", "tiles": ["也", "很", "我", "高兴"], "answers": ["我也很高兴"], "vi": "Tôi cũng rất vui.", "explain_vi": "Chủ ngữ + 也 + 很 + Tính từ.", "grammarRef": "g2-3" }
+      ]
+    },
+    {
+      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+      "questions": [
+        { "id": "b6", "kind": "translate", "prompt_vi": "Tôi tên là Trần Thiên Trung.", "acceptedAnswers": ["我叫陈天中"], "requiredKeywords": ["我", "叫"], "wordBank": ["我", "叫", "陈天中", "你"], "explain_vi": "Giới thiệu tên: 我叫 + tên.", "grammarRef": "g2-1" },
+        { "id": "b7", "kind": "translate", "prompt_vi": "Xin hỏi, bạn tên là gì?", "acceptedAnswers": ["请问，你叫什么名字？", "请问您叫什么名字"], "requiredKeywords": ["叫", "什么"], "wordBank": ["请问", "你", "叫", "什么", "名字", "是"], "explain_vi": "请问 + 你叫什么名字？", "grammarRef": "g2-1" },
+        { "id": "b8", "kind": "translate", "prompt_vi": "Tôi không phải là giáo viên.", "acceptedAnswers": ["我不是老师"], "requiredKeywords": ["不是"], "wordBank": ["我", "不", "是", "老师", "很"], "explain_vi": "Phủ định: 不 + 是.", "grammarRef": "g2-2" },
+        { "id": "b9", "kind": "translate", "prompt_vi": "Rất vui được làm quen với bạn!", "acceptedAnswers": ["很高兴认识你", "认识你很高兴", "很高兴认识您", "认识您很高兴"], "requiredKeywords": ["高兴", "认识"], "wordBank": ["很", "高兴", "认识", "你", "也"], "explain_vi": "很高兴认识你 hoặc 认识你很高兴.", "grammarRef": "g2-3" },
+        { "id": "b10", "kind": "translate", "prompt_vi": "Xin lỗi! – Không sao!", "acceptedAnswers": ["对不起！没关系！", "对不起！没事！", "对不起！没事没事！"], "requiredKeywords": ["对不起"], "wordBank": ["对不起", "没关系", "不客气", "谢谢"], "explain_vi": "对不起 → 没关系 / 没事.", "grammarRef": "g2-2" }
+      ]
+    }
+  ]
+}

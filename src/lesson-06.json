@@ -1,0 +1,35 @@
+{
+  "id": 6,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "你的手机号是多少？",
+    "pinyin": "Nǐ de shǒujī hào shì duōshao?",
+    "vi": "Số điện thoại của bạn là bao nhiêu?"
+  },
+  "grammarTopics_vi": [
+    "Động từ năng nguyện 想",
+    "Câu liên động (1)",
+    "Đại từ nghi vấn 怎么"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Động từ năng nguyện 想",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu liên động (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Đại từ nghi vấn 怎么",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}

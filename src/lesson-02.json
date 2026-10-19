@@ -1,0 +1,194 @@
+{
+  "id": 2,
+  "level": "hsk1",
+  "status": "ready",
+  "title": { "zh": "我叫李文", "pinyin": "Wǒ jiào Lǐ Wén", "vi": "Tôi tên là Lý Văn" },
+  "grammarTopics_vi": ["Trật tự từ cơ bản: Chủ ngữ + Vị ngữ + Tân ngữ", "Phủ định với 不", "Vị trí của 也 và 很"],
+  "objectives": [
+    { "id": "o1", "vi": "Nghe hiểu lời tự giới thiệu và giới thiệu tên mình bằng tiếng Trung", "doneWhen": ["text-1", "text-3"] },
+    { "id": "o2", "vi": "Xin lỗi bằng 对不起 và đáp lại bằng 没关系", "doneWhen": ["text-2"] },
+    { "id": "o3", "vi": "Nắm trật tự từ cơ bản của câu tiếng Trung", "doneWhen": ["text-2", "exercises"] },
+    { "id": "o4", "vi": "Hiểu cấu trúc tên người Trung Quốc: Họ + Tên", "doneWhen": ["culture"] }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, cô Vương làm quen với từng sinh viên mới.",
+      "scene": "🏫",
+      "audio": "audio/hsk1/2-1.mp3",
+      "vocabAudio": "audio/hsk1/2-2.mp3",
+      "lines": [
+        { "speaker": "wangyifei", "zh": "你好！请问，你叫什么名字？", "vi": "Chào em! Cho cô hỏi, em tên là gì?", "highlight": ["请问"], "tipRef": 0 },
+        { "speaker": "anni", "zh": "王老师好！我叫安妮。", "vi": "Em chào cô Vương! Em tên là Annie." },
+        { "speaker": "wangyifei", "zh": "你好，安妮！", "vi": "Chào Annie!" }
+      ],
+      "tips": [{ "vi": "请问 là cách hỏi lịch sự, giống “Xin hỏi…”, “Cho tôi hỏi…”. Đặt ở đầu câu hỏi." }],
+      "vocab": [
+        { "zh": "请问", "pinyin": "qǐngwèn", "pos": "v.", "vi": "xin hỏi, cho hỏi", "example": { "zh": "请问，你叫什么名字？", "vi": "Xin hỏi, bạn tên là gì?" } },
+        { "zh": "你", "pinyin": "nǐ", "pos": "pron.", "vi": "bạn, anh, chị, em (ngôi thứ hai số ít)", "example": { "zh": "你好！", "vi": "Chào bạn!" } },
+        { "zh": "叫", "pinyin": "jiào", "pos": "v.", "vi": "gọi là, tên là", "example": { "zh": "我叫安妮。", "vi": "Tôi tên là Annie." } },
+        { "zh": "什么", "pinyin": "shénme", "pos": "pron.", "vi": "gì, cái gì", "example": { "zh": "你叫什么名字？", "vi": "Bạn tên là gì?" } },
+        { "zh": "名字", "pinyin": "míngzi", "pos": "n.", "vi": "tên", "example": { "zh": "你叫什么名字？", "vi": "Bạn tên là gì?" } },
+        { "zh": "我", "pinyin": "wǒ", "pos": "pron.", "vi": "tôi, mình, em…", "example": { "zh": "我叫李文。", "vi": "Tôi tên là Lý Văn." } }
+      ],
+      "pangdaTip": "Câu hỏi tên lịch sự nhất là 请问，你叫什么名字？ Với người lớn tuổi, đổi 你 thành 您 là chuẩn bài!"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong sân trường, Thiên Trung chào Gia Nguyệt nhưng lại nhận nhầm người.",
+      "scene": "🌳",
+      "audio": "audio/hsk1/2-3.mp3",
+      "vocabAudio": "audio/hsk1/2-4.mp3",
+      "lines": [
+        { "speaker": "chentianzhong", "zh": "安妮，你好！", "vi": "Chào Annie!" },
+        { "speaker": "baijiayue", "zh": "你好，陈天中！我不是安妮，我是白家月。", "vi": "Chào Thiên Trung! Mình không phải Annie, mình là Gia Nguyệt." },
+        { "speaker": "chentianzhong", "zh": "对不起，对不起！", "vi": "Xin lỗi, xin lỗi nhé!" },
+        { "speaker": "baijiayue", "zh": "没关系！", "vi": "Không sao đâu!", "highlight": ["没关系"], "tipRef": 0 }
+      ],
+      "tips": [{ "vi": "Trong khẩu ngữ, người ta còn nói 没事 hoặc 没事没事 thay cho 没关系." }],
+      "vocab": [
+        { "zh": "不", "pinyin": "bù", "pos": "adv.", "vi": "không (phủ định)", "example": { "zh": "我不是安妮。", "vi": "Tôi không phải Annie." } },
+        { "zh": "是", "pinyin": "shì", "pos": "v.", "vi": "là", "example": { "zh": "我是白家月。", "vi": "Tôi là Gia Nguyệt." } },
+        { "zh": "对不起", "pinyin": "duìbuqǐ", "pos": "v.", "vi": "xin lỗi", "example": { "zh": "对不起！", "vi": "Xin lỗi!" } },
+        { "zh": "没关系", "pinyin": "méi guānxi", "pos": "phrase", "vi": "không sao, không có gì", "example": { "zh": "没关系！", "vi": "Không sao!" } },
+        { "zh": "没事", "pinyin": "méishì", "pos": "v.", "vi": "không sao đâu (khẩu ngữ)", "example": { "zh": "没事没事！", "vi": "Không sao, không sao!" } }
+      ],
+      "grammar": [
+        {
+          "id": "g2-1",
+          "title_zh": "汉语的基本语序",
+          "title_vi": "Trật tự từ cơ bản",
+          "formula": [
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "叫", "label": "Vị ngữ", "role": "V" }, { "zh": "陈天中", "label": "Tân ngữ", "role": "O" }],
+            [{ "zh": "你", "label": "Chủ ngữ", "role": "S" }, { "zh": "叫", "label": "Vị ngữ", "role": "V" }, { "zh": "什么名字", "label": "Tân ngữ (hỏi)", "role": "O" }, { "zh": "？", "label": "", "role": "X" }]
+          ],
+          "explain_vi": "Câu tiếng Trung cơ bản theo thứ tự Chủ ngữ + Vị ngữ + Tân ngữ, giống tiếng Việt: 我叫李文 = Tôi tên (là) Lý Văn. Khi hỏi, chỉ cần thay phần muốn hỏi bằng từ để hỏi như 什么 và giữ nguyên vị trí – không đảo lên đầu câu như tiếng Anh.",
+          "examples": [
+            { "zh": "你叫什么名字？", "vi": "Bạn tên là gì?" },
+            { "zh": "我叫白家月。", "vi": "Tôi tên là Bạch Gia Nguyệt." },
+            { "zh": "我是学生。", "vi": "Tôi là sinh viên." }
+          ],
+          "mistakes": [
+            { "wrong": "什么名字你叫？", "right": "你叫什么名字？", "why_vi": "Không đưa từ để hỏi lên đầu câu. 什么名字 vẫn đứng ở vị trí tân ngữ." },
+            { "wrong": "我叫是李文。", "right": "我叫李文。", "why_vi": "Người Việt hay dịch “tên là” thành 叫是. Bản thân 叫 đã có nghĩa “tên là”, không thêm 是." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Chọn câu đúng: “Bạn tên là gì?”", "options": ["你叫什么名字？", "什么名字你叫？", "你什么名字叫？"], "answer": 0 },
+            { "prompt_vi": "Chọn câu đúng: “Tôi là sinh viên.”", "options": ["我学生是。", "我是学生。", "是我学生。"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "g2-2",
+          "title_zh": "否定副词“不”",
+          "title_vi": "Phủ định với 不",
+          "formula": [
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "不", "label": "không", "role": "ADV" }, { "zh": "是", "label": "Động từ", "role": "V" }, { "zh": "安妮", "label": "Tân ngữ", "role": "O" }]
+          ],
+          "explain_vi": "Muốn phủ định, đặt 不 ngay trước động từ hoặc tính từ – giống “không” trong tiếng Việt. 不 đọc thanh 4 (bù), nhưng đứng trước một thanh 4 thì đọc thành thanh 2: 不是 bú shì.",
+          "examples": [
+            { "zh": "我不是安妮。", "vi": "Tôi không phải Annie." },
+            { "zh": "我不叫李文。", "vi": "Tôi không tên là Lý Văn." },
+            { "zh": "我不是老师。", "vi": "Tôi không phải giáo viên." }
+          ],
+          "mistakes": [
+            { "wrong": "我是不安妮。", "right": "我不是安妮。", "why_vi": "不 đứng TRƯỚC động từ 是: tôi KHÔNG PHẢI Annie." }
+          ],
+          "quiz": [
+            { "prompt_vi": "“Tôi không phải học sinh.”", "options": ["我不是学生。", "我是不学生。", "不我是学生。"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "Nhận nhầm người thì cứ 对不起 thật tươi. Người kia sẽ đáp 没关系 hoặc 没事 – xong chuyện!"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Lý Văn và Gia Nguyệt gặp nhau lần đầu trong sân trường.",
+      "scene": "🤝",
+      "audio": "audio/hsk1/2-5.mp3",
+      "vocabAudio": "audio/hsk1/2-6.mp3",
+      "lines": [
+        { "speaker": "liwen", "zh": "你好！我叫李文。你叫什么名字？", "vi": "Chào bạn! Mình tên là Lý Văn. Bạn tên là gì?", "highlight": ["李文"], "tipRef": 0 },
+        { "speaker": "baijiayue", "zh": "你好！我叫白家月。", "vi": "Chào bạn! Mình tên là Bạch Gia Nguyệt." },
+        { "speaker": "liwen", "zh": "白家月，很高兴认识你！", "vi": "Gia Nguyệt, rất vui được làm quen với bạn!" },
+        { "speaker": "baijiayue", "zh": "我也很高兴认识你！", "vi": "Mình cũng rất vui được làm quen với bạn!" }
+      ],
+      "tips": [{ "vi": "Tên người Trung Quốc: Họ + Tên. 李文 có họ là 李 (Lý), tên là 文 (Văn)." }],
+      "vocab": [
+        { "zh": "很", "pinyin": "hěn", "pos": "adv.", "vi": "rất", "example": { "zh": "我很高兴。", "vi": "Tôi rất vui." } },
+        { "zh": "高兴", "pinyin": "gāoxìng", "pos": "adj.", "vi": "vui, vui mừng", "example": { "zh": "很高兴认识你！", "vi": "Rất vui được làm quen!" } },
+        { "zh": "认识", "pinyin": "rènshi", "pos": "v.", "vi": "quen, quen biết", "example": { "zh": "我认识李文。", "vi": "Tôi quen Lý Văn." } },
+        { "zh": "也", "pinyin": "yě", "pos": "adv.", "vi": "cũng", "example": { "zh": "我也是学生。", "vi": "Tôi cũng là sinh viên." } }
+      ],
+      "grammar": [
+        {
+          "id": "g2-3",
+          "title_zh": "副词“也”“很”的位置",
+          "title_vi": "Vị trí của 也 và 很",
+          "formula": [
+            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "也", "label": "cũng", "role": "ADV" }, { "zh": "很", "label": "rất", "role": "ADV" }, { "zh": "高兴", "label": "Tính từ", "role": "V" }]
+          ],
+          "explain_vi": "也 (cũng) và 很 (rất) là phó từ, luôn đứng sau chủ ngữ và trước động từ hoặc tính từ. Khi đi cùng nhau thì 也 trước, 很 sau – giống hệt “cũng rất” trong tiếng Việt.",
+          "examples": [
+            { "zh": "我也很高兴。", "vi": "Tôi cũng rất vui." },
+            { "zh": "很高兴认识你。", "vi": "Rất vui được quen bạn." },
+            { "zh": "我也是学生。", "vi": "Tôi cũng là sinh viên." }
+          ],
+          "mistakes": [
+            { "wrong": "也我很高兴。", "right": "我也很高兴。", "why_vi": "也 không đứng đầu câu như “also” trong tiếng Anh. Nó phải đứng sau chủ ngữ." },
+            { "wrong": "我很也高兴。", "right": "我也很高兴。", "why_vi": "Thứ tự là 也 + 很: “cũng rất”, không phải “rất cũng”." }
+          ],
+          "quiz": [
+            { "prompt_vi": "Câu nào đúng?", "options": ["我也是学生。", "也我是学生。", "我是也学生。"], "answer": 0 }
+          ]
+        }
+      ],
+      "pangdaTip": "很高兴认识你 và 认识你很高兴 đều đúng, đều có nghĩa “Rất vui được làm quen với bạn”. Chọn câu nào cũng được!"
+    }
+  ],
+  "exercises": [
+    { "id": "e1", "kind": "listenPick", "audioText": "对不起！", "options": [{ "emoji": "🙇", "label": "Xin lỗi" }, { "emoji": "🙏", "label": "Cảm ơn" }, { "emoji": "🚪", "label": "Tạm biệt" }], "answer": 0 },
+    { "id": "e2", "kind": "listenPick", "audioText": "很高兴认识你！", "options": [{ "emoji": "🪪", "label": "Hỏi tên" }, { "emoji": "🙇", "label": "Xin lỗi" }, { "emoji": "🤝", "label": "Vui được làm quen" }], "answer": 2 },
+    { "id": "e3", "kind": "listenTF", "audioText": "我不是安妮。", "emoji": "🙅‍♀️", "statement_vi": "Người nói tên là Annie.", "answer": false, "explain_vi": "我不是安妮 = Tôi KHÔNG PHẢI Annie." },
+    { "id": "e4", "kind": "listenTF", "audioText": "我叫李文。", "emoji": "🧑", "statement_vi": "Người nói đang giới thiệu tên mình.", "answer": true },
+    { "id": "e5", "kind": "fill", "sentence": "请问，你叫___名字？", "bank": ["什么", "是", "也"], "answer": "什么", "explain_vi": "什么名字 = tên gì." },
+    { "id": "e6", "kind": "fill", "sentence": "我___是学生。", "bank": ["也", "很", "叫"], "answer": "也", "explain_vi": "我也是学生 = Tôi cũng là sinh viên." },
+    { "id": "e7", "kind": "reorder", "tiles": ["李文", "我", "叫"], "answers": ["我叫李文"], "vi": "Tôi tên là Lý Văn.", "explain_vi": "Chủ ngữ + Động từ + Tân ngữ." },
+    { "id": "e8", "kind": "reorder", "tiles": ["高兴", "很", "我", "也"], "answers": ["我也很高兴"], "vi": "Tôi cũng rất vui.", "explain_vi": "Chủ ngữ + 也 + 很 + Tính từ." },
+    { "id": "e9", "kind": "pictureComplete", "emoji": "🚶💥🚶‍♀️", "sentence": "A：对不起！ B：___！", "options": ["没关系", "谢谢", "再见"], "answer": 0, "explain_vi": "Đáp lời xin lỗi: 没关系." },
+    { "id": "e10", "kind": "matchQA", "pairs": [{ "q": "你叫什么名字？", "a": "我叫白家月。" }, { "q": "对不起！", "a": "没事没事！" }, { "q": "很高兴认识你！", "a": "我也很高兴认识你！" }] }
+  ],
+  "activity": {
+    "title_vi": "Làm quen với bạn mới",
+    "steps_vi": [
+      "Đi quanh lớp, gặp ít nhất 3 bạn.",
+      "Hỏi tên từng bạn thật lịch sự với 请问.",
+      "Giới thiệu tên mình và nói rất vui được làm quen.",
+      "Thử cố ý gọi nhầm tên một bạn để luyện 对不起 – 没关系!"
+    ],
+    "patterns": [
+      { "zh": "请问，你叫什么名字？", "vi": "Xin hỏi, bạn tên là gì?" },
+      { "zh": "我叫……", "vi": "Tôi tên là…" },
+      { "zh": "很高兴认识你！", "vi": "Rất vui được làm quen với bạn!" },
+      { "zh": "我也很高兴认识你！", "vi": "Mình cũng rất vui được làm quen!" },
+      { "zh": "对不起！—— 没关系！", "vi": "Xin lỗi! — Không sao!" }
+    ]
+  },
+  "tongueTwister": { "zh": "牛郎恋刘娘，刘娘念牛郎。", "vi": "Ngưu Lang yêu cô Lưu, cô Lưu nhớ Ngưu Lang. (Luyện phân biệt n / l – âm người miền Bắc hay lẫn)" },
+  "culture": {
+    "title_vi": "Tên tiếng Trung của bạn",
+    "body_vi": [
+      "Tên người Trung Quốc viết Họ trước, Tên sau: 王一飞 có họ 王, tên 一飞. Các họ phổ biến nhất là 王, 李, 张, 刘, 陈.",
+      "Người Việt có lợi thế lớn: tên tiếng Việt phần lớn có gốc Hán Việt, nên mỗi âm tiết thường ứng với một chữ Hán. Ví dụ Trần Thiên Trung → 陈天中 Chén Tiānzhōng – chính là tên một nhân vật trong sách!",
+      "Một âm Hán Việt có thể ứng với nhiều chữ Hán. Muốn chọn đúng chữ, hãy hỏi ý nghĩa tên mình với bố mẹ hoặc giáo viên.",
+      "Thử nhập tên của bạn vào ô bên dưới để Pàngdá gợi ý tên tiếng Trung nhé!"
+    ],
+    "table": {
+      "head": ["Họ Việt", "Chữ Hán", "Pinyin"],
+      "rows": [["Nguyễn", "阮", "Ruǎn"], ["Trần", "陈", "Chén"], ["Lê", "黎", "Lí"], ["Phạm", "范", "Fàn"], ["Hoàng / Huỳnh", "黄", "Huáng"], ["Phan", "潘", "Pān"], ["Vũ / Võ", "武", "Wǔ"], ["Đặng", "邓", "Dèng"], ["Bùi", "裴", "Péi"], ["Đỗ", "杜", "Dù"], ["Ngô", "吴", "Wú"], ["Lý", "李", "Lǐ"]]
+    },
+    "nameMap": {
+      "nguyen": ["阮", "Ruǎn"], "tran": ["陈", "Chén"], "le": ["黎", "Lí"], "pham": ["范", "Fàn"], "hoang": ["黄", "Huáng"], "huynh": ["黄", "Huáng"], "phan": ["潘", "Pān"], "vu": ["武", "Wǔ"], "vo": ["武", "Wǔ"], "dang": ["邓", "Dèng"], "bui": ["裴", "Péi"], "do": ["杜", "Dù"], "ngo": ["吴", "Wú"], "ly": ["李", "Lǐ"], "duong": ["杨", "Yáng"], "truong": ["张", "Zhāng"], "dinh": ["丁", "Dīng"], "mai": ["梅", "Méi"], "ha": ["何", "Hé"], "luu": ["刘", "Liú"], "vuong": ["王", "Wáng"],
+      "anh": ["英", "Yīng"], "minh": ["明", "Míng"], "huong": ["香", "Xiāng"], "lan": ["兰", "Lán"], "hung": ["雄", "Xióng"], "dung": ["勇", "Yǒng"], "linh": ["玲", "Líng"], "hoa": ["花", "Huā"], "nam": ["南", "Nán"], "thao": ["草", "Cǎo"], "van": ["文", "Wén"], "thi": ["氏", "Shì"], "thu": ["秋", "Qiū"], "trang": ["妆", "Zhuāng"], "ngoc": ["玉", "Yù"], "khanh": ["庆", "Qìng"], "quang": ["光", "Guāng"], "duc": ["德", "Dé"], "tuan": ["俊", "Jùn"], "hai": ["海", "Hǎi"], "long": ["龙", "Lóng"], "phuong": ["芳", "Fāng"], "thanh": ["清", "Qīng"], "thien": ["天", "Tiān"], "trung": ["中", "Zhōng"], "nguyet": ["月", "Yuè"], "tuyet": ["雪", "Xuě"], "an": ["安", "Ān"], "binh": ["平", "Píng"], "chi": ["芝", "Zhī"], "giang": ["江", "Jiāng"], "hieu": ["孝", "Xiào"], "khoa": ["科", "Kē"], "kim": ["金", "Jīn"], "my": ["美", "Měi"], "nhung": ["绒", "Róng"], "phuc": ["福", "Fú"], "son": ["山", "Shān"], "tam": ["心", "Xīn"], "tien": ["仙", "Xiān"], "uyen": ["鸳", "Yuān"], "vy": ["薇", "Wēi"], "xuan": ["春", "Chūn"], "yen": ["燕", "Yàn"], "quynh": ["琼", "Qióng"], "nhi": ["儿", "Ér"], "hanh": ["幸", "Xìng"], "loan": ["鸾", "Luán"], "tu": ["秀", "Xiù"], "nghia": ["义", "Yì"], "phong": ["风", "Fēng"], "viet": ["越", "Yuè"], "dat": ["达", "Dá"], "huy": ["辉", "Huī"], "khang": ["康", "Kāng"], "bao": ["宝", "Bǎo"], "gia": ["家", "Jiā"], "cuong": ["强", "Qiáng"], "hau": ["厚", "Hòu"], "thang": ["胜", "Shèng"], "thuy": ["翠", "Cuì"]
+    }
+  }
+}

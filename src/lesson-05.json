@@ -1,0 +1,35 @@
+{
+  "id": 5,
+  "level": "hsk1",
+  "status": "draft",
+  "title": {
+    "zh": "今天我休息",
+    "pinyin": "Jīntiān wǒ xiūxi",
+    "vi": "Hôm nay tôi nghỉ"
+  },
+  "grammarTopics_vi": [
+    "Cách nói thời gian (1)",
+    "Câu vị ngữ danh từ",
+    "Động từ năng nguyện 会"
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "vi": "Cách nói thời gian (1)",
+      "doneWhen": []
+    },
+    {
+      "id": "o2",
+      "vi": "Câu vị ngữ danh từ",
+      "doneWhen": []
+    },
+    {
+      "id": "o3",
+      "vi": "Động từ năng nguyện 会",
+      "doneWhen": []
+    }
+  ],
+  "warmup": [],
+  "texts": [],
+  "exercises": []
+}
