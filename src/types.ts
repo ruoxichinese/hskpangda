@@ -193,6 +193,8 @@ export interface ExamQuestion {
   pinyin?: string;
   slot?: number;
   visible?: string;
+  say?: { who?: string; text: string }[]; // bản ghi lời nghe (chế độ đọc bằng giọng trình duyệt)
+  ask?: string;
   answer: string;
 }
 export interface ExamPart {
@@ -200,6 +202,9 @@ export interface ExamPart {
   title_vi: string;
   start?: number;
   instructions_vi: string;
+  intro_zh?: string;
+  startCue?: string;
+  pauseSeconds?: number;
   bank?: { key: string; emoji?: string; text?: string; img?: string }[];
   example?: Omit<ExamQuestion, 'id'>;
   questions: ExamQuestion[];
@@ -209,7 +214,11 @@ export interface Exam {
   id: string;
   level: string;
   title: string;
-  audio: string;
+  short?: string;
+  listeningMode?: 'audio' | 'tts';
+  listeningIntro?: string[];
+  listeningOutro?: string;
+  audio?: string;
   audioNote?: string;
   listeningReviewSeconds: number;
   passPercent: number;

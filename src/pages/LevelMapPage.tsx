@@ -54,7 +54,7 @@ export default function LevelMapPage() {
               const ep = prog.exams?.[e.id];
               return (
                 <Link key={e.id} to={`/hsk/${levelId}/thi-thu/${e.id}`} className="btn-primary">
-                  {ep?.session ? 'Làm tiếp' : 'Vào phòng thi'} · Đề {e.id.replace(/\D/g, '') || e.id}
+                  {ep?.session ? 'Làm tiếp' : 'Vào phòng thi'} · {e.short ?? e.title}
                   {ep && ep.attempts > 0 && <span className="rounded-full bg-card px-2 text-sm text-ink">{ep.best}/300</span>}
                 </Link>
               );

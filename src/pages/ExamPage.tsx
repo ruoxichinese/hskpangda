@@ -8,6 +8,7 @@ import { useProgress, type ExamResult, type ExamSession, type ExamStage } from '
 import type { ExamOption, ExamPart, ExamQuestion, ExamSection } from '../types';
 import { NotFound } from './NotFound';
 import { grade } from '../lib/examGrade';
+import { buildTtsSteps, hasChineseVoice, speakLine } from '../lib/examTts';
 import { friendlyError, supabase } from '../lib/cloud';
 import { useCloud } from '../store/CloudSync';
 
@@ -194,7 +195,13 @@ function BankStrip({ part, level }: { part: ExamPart; level: string }) {
   );
 }
 
+/** Mỗi đề một phiên riêng: đổi đề (đổi đường dẫn) thì phòng thi làm mới hoàn toàn */
 export default function ExamPage() {
+  const { level = 'hsk2', examId = '' } = useParams();
+  return <ExamRoom key={`${level}/${examId}`} />;
+}
+
+function ExamRoom() {
   const { level: levelId = 'hsk2', examId = '' } = useParams();
   const exam = getExam(levelId, examId);
   const lv = getLevel(levelId);
@@ -218,8 +225,15 @@ export default function ExamPage() {
   const [busy, setBusy] = useState(false);
   const [submitState, setSubmitState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [showAns, setShowAns] = useState(true);
+  const [peek, setPeek] = useState<number | null>(null); // phần Nghe: đang xem lại câu đã phát
+  const lastLive = useRef(-1);
   const startNow = useRef(false);
 
+  const tts = exam?.listeningMode === 'tts';
+  const ttsSteps = useMemo(() => (exam && tts ? buildTtsSteps(exam) : []), [exam, tts]);
+  const [ttsCur, setTtsCur] = useState(-1);
+  const ttsRunning = useRef(false);
+  const [voiceWarn, setVoiceWarn] = useState(false);
   const items = useMemo<Item[]>(() => (exam ? exam.sections.flatMap((section) => section.parts.flatMap((part) => part.questions.map((q) => ({ q, part, section })))) : []), [exam]);
 
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 500); return () => clearInterval(t); }, []);
@@ -279,7 +293,7 @@ export default function ExamPage() {
   const stage = session?.stage;
   useEffect(() => {
     const a = audioRef.current;
-    if (!a || stage !== 'listening' || !session) return;
+    if (!a || stage !== 'listening' || !session || tts) return;
     const sync = () => {
       const elapsed = (Date.now() - session.stageStartedAt) / 1000;
       if (a.duration && elapsed >= a.duration) { setStage('review'); return; }
@@ -291,9 +305,38 @@ export default function ExamPage() {
     const onPause = () => { if (!a.ended) setNeedsResume(true); };
     a.addEventListener('pause', onPause);
     return () => a.removeEventListener('pause', onPause);
-  }, [stage, session, setStage]);
+  }, [stage, session, setStage, tts]);
+
+  // ===== Nghe bằng giọng trình duyệt =====
+  const runTts = useCallback(async (from: number) => {
+    if (ttsRunning.current) return;
+    ttsRunning.current = true;
+    setNeedsResume(false);
+    let cancelled = false;
+    const stop = () => { cancelled = true; try { speechSynthesis.cancel(); } catch { /* */ } };
+    window.addEventListener('pagehide', stop, { once: true });
+    for (let i = from; i < ttsSteps.length && !cancelled; i++) {
+      setTtsCur(i);
+      save((s) => ({ ...s, ttsStep: i }));
+      for (const line of ttsSteps[i].lines) { if (cancelled) break; await speakLine(line, () => cancelled); }
+      if (ttsSteps[i].pause && !cancelled) await new Promise((r) => setTimeout(r, ttsSteps[i].pause! * 1000));
+    }
+    ttsRunning.current = false;
+    if (!cancelled) setStage('review');
+  }, [ttsSteps, save, setStage]);
+  useEffect(() => {
+    if (!tts || stage !== 'listening' || !session || ttsRunning.current) return;
+    if (startNow.current) { startNow.current = false; void runTts(0); return; }
+    // tải lại trang: đọc tiếp từ câu SAU câu đang đọc dở (không nghe lại)
+    const saved = session.ttsStep ?? 0;
+    const from = ttsSteps[saved]?.q !== null && ttsSteps[saved]?.q !== undefined ? saved + 1 : saved;
+    setTtsCur(from);
+    setNeedsResume(true);
+  }, [tts, stage, session, ttsSteps, runTts]);
+  useEffect(() => () => { try { speechSynthesis.cancel(); } catch { /* */ } }, []);
 
   const resumeAudio = () => {
+    if (tts) { void runTts(Math.max(0, ttsCur)); return; }
     const a = audioRef.current;
     if (!a || !session) return;
     const elapsed = (Date.now() - session.stageStartedAt) / 1000;
@@ -430,6 +473,12 @@ export default function ExamPage() {
     const needLogin = exam.requireCode && cloud.configured && !cloud.session;
     const noServer = exam.requireCode && !cloud.configured && !DEMO_CODE;
     const testSound = () => {
+      if (tts) {
+        void speakLine({ text: '你好，欢迎参加考试。' }, () => false);
+        setBeep(true);
+        setTimeout(() => setVoiceWarn(!hasChineseVoice()), 400);
+        return;
+      }
       try {
         const ctx = new AudioContext();
         const o = ctx.createOscillator();
@@ -454,14 +503,14 @@ export default function ExamPage() {
           <table className="w-full text-left">
             <thead><tr className="text-sm text-muted"><th className="py-1">Phần</th><th>Số câu</th><th>Thời gian</th></tr></thead>
             <tbody>
-              <tr className="border-t border-line"><td className="py-2 font-bold">听力 Nghe</td><td>{listeningCount}</td><td>khoảng {Math.round((duration || 1069) / 60)} phút + {Math.round(exam.listeningReviewSeconds / 60)} phút kiểm tra lại</td></tr>
+              <tr className="border-t border-line"><td className="py-2 font-bold">听力 Nghe</td><td>{listeningCount}</td><td>khoảng {tts ? 15 : Math.round((duration || 1069) / 60)} phút + {Math.round(exam.listeningReviewSeconds / 60)} phút kiểm tra lại</td></tr>
               {exam.sections.slice(1).map((s) => (
                 <tr key={s.id} className="border-t border-line"><td className="py-2 font-bold">{s.title_zh} {s.title_vi}</td><td>{s.parts.reduce((n, p) => n + p.questions.length, 0)}</td><td>{Math.round((s.seconds ?? 0) / 60)} phút</td></tr>
               ))}
             </tbody>
           </table>
           <ul className="list-disc space-y-1 pl-5 text-sm">
-            <li><b>Phần Nghe chỉ phát một lần</b>, không dừng, không tua, không nghe lại. Câu hỏi tự chuyển theo tiếng đọc.</li>
+            <li><b>Phần Nghe chỉ phát một lần</b>, không dừng, không tua, không nghe lại. Câu hỏi tự chuyển theo tiếng đọc.{tts && ' Đề này dùng giọng đọc của trình duyệt, nên dùng Chrome hoặc Edge.'}</li>
             <li>Lỡ tải lại trang thì âm thanh <b>phát tiếp từ thời điểm hiện tại</b>, đoạn đã qua không phát lại.</li>
             <li>Đọc và Viết có đồng hồ đếm ngược. Hết giờ, bài tự chuyển phần. Đã sang phần sau thì không quay lại được.</li>
             <li>Bài thi không có pinyin, không có bản dịch. Nộp bài xong mới có điểm.</li>
@@ -472,6 +521,7 @@ export default function ExamPage() {
             <span className="flex-1 text-sm">Đeo tai nghe hoặc bật loa, rồi bấm thử âm thanh.</span>
             <button className="btn-ghost" onClick={testSound}>{beep ? '✓ Đã nghe thấy' : 'Thử âm thanh'}</button>
           </div>
+          {tts && voiceWarn && <p className="rounded-xl bg-bad/15 p-2 text-sm font-semibold text-bad">Máy này chưa có giọng đọc tiếng Trung nên phần Nghe sẽ im lặng. Hãy dùng Chrome hoặc Edge, hoặc cài giọng đọc tiếng Trung trong cài đặt của máy.</p>}
           {exam.audioNote && <p className="text-xs text-muted">{exam.audioNote}</p>}
           {exam.requireCode && (
             <div className="space-y-2 rounded-2xl border-2 border-outline p-3">
@@ -506,13 +556,25 @@ export default function ExamPage() {
   // phần Nghe: câu hiện tại theo thời điểm trong file nghe
   let liveIdx = -1;
   let livePart: ExamPart | undefined;
-  if (listeningLive) {
+  if (listeningLive && tts) {
+    const st = ttsSteps[Math.max(0, ttsCur)];
+    livePart = section.parts[st?.part ?? 0];
+    liveIdx = st && st.q !== null ? st.q : -1;
+  } else if (listeningLive) {
     section.parts.forEach((p) => { if ((p.start ?? 0) <= audioT) livePart = p; });
     secItems.forEach((it, i) => { if ((it.q.start ?? 0) <= audioT) liveIdx = i; });
     if (livePart && liveIdx >= 0 && secItems[liveIdx].part !== livePart) liveIdx = -1; // đang đọc hướng dẫn/ví dụ của phần mới
   }
+  // (setPeek(null) khi câu đang phát đổi – xem effect bên dưới)
   const curLocal = listeningLive ? liveIdx : Math.max(0, secItems.findIndex((it) => it === items[idx]));
-  const cur = curLocal >= 0 ? secItems[curLocal] : undefined;
+  const peeking = listeningLive && peek !== null && peek < liveIdx;
+  const viewLocal = peeking ? peek! : curLocal;
+  const cur = viewLocal >= 0 ? secItems[viewLocal] : undefined;
+  const played = listeningLive && liveIdx > 0 ? secItems.slice(0, liveIdx) : [];
+  if (listeningLive && liveIdx !== lastLive.current) {
+    lastLive.current = liveIdx;
+    if (peek !== null) queueMicrotask(() => setPeek(null)); // sang câu mới → tự về câu đang phát
+  }
   const answers = session.answers;
   const answered = secItems.filter((it) => answers[it.q.id]).length;
   const setAnswer = (id: string, v: string) => save((s) => ({ ...s, answers: { ...s.answers, [id]: v } }));
@@ -528,7 +590,7 @@ export default function ExamPage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-bg">
-      <audio
+      {!tts && exam.audio && <audio
         ref={audioRef}
         src={audioSrc(exam.audio)}
         preload="auto"
@@ -537,14 +599,14 @@ export default function ExamPage() {
         onEnded={() => setStage('review')}
         onError={() => setAudioError(true)}
         aria-hidden="true"
-      />
+      />}
       <header className="sticky top-0 z-30 flex flex-wrap items-center gap-3 border-b-[2.5px] border-outline bg-ink px-4 py-3 text-bg" style={{ paddingTop: 'calc(0.75rem + env(safe-area-inset-top, 0px))' }}>
         <span className="font-hanfun text-xl" lang="zh-CN">{section.title_zh}</span>
         <span className="font-bold">{section.title_vi}{stage === 'review' ? ' · Kiểm tra lại đáp án' : ''}</span>
         <span className="ml-auto text-sm">Đã làm {answered}/{secItems.length}</span>
         {listeningLive ? (
           <span className="flex items-center gap-2 rounded-full bg-bg/15 px-3 py-1 font-bold" aria-live="off">
-            <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-bad" aria-hidden /> Đang phát {fmt(audioT)} / {fmt(duration)}
+            <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-bad" aria-hidden /> {tts ? `Đang đọc · ${Math.max(0, ttsCur) + 1}/${ttsSteps.length}` : `Đang phát ${fmt(audioT)} / ${fmt(duration)}`}
           </span>
         ) : (
           <span className={cls('rounded-full px-3 py-1 font-display text-lg font-bold', remaining !== null && remaining < 60 ? 'bg-bad text-white' : 'bg-bg/15')} role="timer" aria-label="Thời gian còn lại">⏱ {fmt(remaining ?? 0)}</span>
@@ -553,14 +615,17 @@ export default function ExamPage() {
       {session.closesAt && new Date(session.closesAt).getTime() - now < 15 * 60000 && (
         <p role="alert" className="bg-bad px-4 py-1 text-center text-sm font-bold text-white">Đợt thi đóng lúc {new Date(session.closesAt).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })}. Nộp bài trước giờ đóng + 15 phút.</p>
       )}
-      {listeningLive && duration > 0 && (
+      {listeningLive && tts && ttsSteps.length > 0 && (
+        <div className="h-1.5 w-full bg-line" aria-hidden><div className="h-full bg-primary" style={{ width: `${((ttsCur + 1) / ttsSteps.length) * 100}%` }} /></div>
+      )}
+      {listeningLive && !tts && duration > 0 && (
         <div className="h-1.5 w-full bg-line" aria-hidden><div className="h-full bg-primary" style={{ width: `${(audioT / duration) * 100}%` }} /></div>
       )}
 
       <main className="mx-auto w-full max-w-4xl flex-1 space-y-4 p-4">
         {listeningLive && needsResume && !audioError && (
           <div className="card flex flex-col items-center gap-3 text-center">
-            <p className="font-bold">Âm thanh đang tạm dừng. Bấm để phát tiếp từ thời điểm hiện tại (đoạn đã qua không phát lại).</p>
+            <p className="font-bold">{tts ? 'Phần Nghe đang tạm dừng. Bấm để đọc tiếp từ câu tiếp theo (câu đang đọc dở sẽ không đọc lại).' : 'Âm thanh đang tạm dừng. Bấm để phát tiếp từ thời điểm hiện tại (đoạn đã qua không phát lại).'}</p>
             <button className="btn-primary" onClick={resumeAudio}>▶ Phát tiếp</button>
           </div>
         )}
@@ -580,8 +645,15 @@ export default function ExamPage() {
           </section>
         )}
 
+        {peeking && (
+          <div className="sticky top-16 z-20 flex flex-wrap items-center gap-2 rounded-2xl border-[2.5px] border-outline bg-ink px-4 py-2 text-bg shadow-lg" role="status">
+            <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-bad" aria-hidden />
+            <span className="flex-1 font-bold">Đang xem lại câu {cur?.q.id} · Tiếng đang phát câu {secItems[liveIdx]?.q.id}</span>
+            <button className="btn-primary !min-h-0 !py-1 !text-base" onClick={() => setPeek(null)}>↩ Về câu đang phát</button>
+          </div>
+        )}
         {cur ? (
-          <section className="card" aria-live="polite">
+          <section className={cls('card', peeking && 'ring-4 ring-accent/40')} aria-live="polite">
             <QuestionView item={cur} value={answers[cur.q.id]} onAnswer={(v) => setAnswer(cur.q.id, v)} level={levelId} />
             {!listeningLive && (
               <button className={cls('chip mt-4', session.flags.includes(cur.q.id) && 'chip-on')} onClick={() => toggleFlag(cur.q.id)} aria-pressed={session.flags.includes(cur.q.id)}>
@@ -598,6 +670,26 @@ export default function ExamPage() {
           <section className="card text-center text-muted">Đang nghe hướng dẫn… Câu hỏi sẽ tự hiện.</section>
         )}
 
+        {played.length > 0 && !peeking && (
+          <section className="card" aria-label="Phiếu trả lời các câu đã phát">
+            <p className="mb-2 text-sm font-bold text-muted">Phiếu trả lời · sửa nhanh các câu đã phát</p>
+            <div className="flex flex-wrap gap-x-4 gap-y-2">
+              {played.map((it) => {
+                const keys = it.q.kind === 'bank' ? (it.part.bank ?? []).map((b) => b.key) : ['A', 'B', 'C'];
+                return (
+                  <div key={it.q.id} className="flex items-center gap-1" role="radiogroup" aria-label={`Câu ${it.q.id}`}>
+                    <span className="w-7 text-right text-sm font-bold">{it.q.id}</span>
+                    {keys.map((k) => (
+                      <button key={k} role="radio" aria-checked={answers[it.q.id] === k} onClick={() => setAnswer(it.q.id, k)}
+                        className={cls('h-8 w-8 rounded-full border-2 border-outline text-xs font-bold', answers[it.q.id] === k ? 'bg-primary text-onprimary' : 'bg-card')}>{k}</button>
+                    ))}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
         {!listeningLive && (
           <div className="flex justify-between gap-2">
             <button className="btn-ghost" disabled={curLocal <= 0} onClick={() => go(curLocal - 1)}>← Câu trước</button>
@@ -610,12 +702,13 @@ export default function ExamPage() {
             {secItems.map((it, i) => (
               <button
                 key={it.q.id}
-                disabled={listeningLive}
-                onClick={() => go(i)}
+                disabled={listeningLive && i > liveIdx}
+                onClick={() => (listeningLive ? setPeek(i < liveIdx ? i : null) : go(i))}
                 aria-label={`Câu ${it.q.id}${answers[it.q.id] ? ', đã trả lời' : ''}${session.flags.includes(it.q.id) ? ', đã đánh dấu' : ''}`}
                 aria-current={i === curLocal ? 'true' : undefined}
-                className={cls('relative h-10 w-10 rounded-lg border-2 text-sm font-bold disabled:cursor-default',
-                  i === curLocal ? 'border-outline bg-primary text-onprimary' : answers[it.q.id] ? 'border-outline bg-primary/25' : 'border-line bg-card')}
+                className={cls('relative h-10 w-10 rounded-lg border-2 text-sm font-bold disabled:cursor-default disabled:opacity-50',
+                  i === curLocal ? 'border-outline bg-primary text-onprimary' : answers[it.q.id] ? 'border-outline bg-primary/25' : 'border-line bg-card',
+                  peeking && i === viewLocal && 'ring-4 ring-accent/50')}
               >
                 {it.q.id}
                 {session.flags.includes(it.q.id) && <span className="absolute -right-1 -top-1 text-xs" aria-hidden>🚩</span>}

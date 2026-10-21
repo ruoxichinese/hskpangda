@@ -11,7 +11,7 @@ export interface HwDraft { answers: Record<string, unknown>; index: number; orde
 export interface HwProg { best: number; passed: boolean; attempts: number; draft?: HwDraft; last?: { score: number; results: Record<string, QResult>; answers: Record<string, unknown>; order: Record<string, number[]>; at: number }; history: number[] }
 export interface ReviewProg { checks: Record<string, [boolean, boolean]>; note: string; quizBest?: number }
 export type ExamStage = 'listening' | 'review' | 'reading' | 'writing';
-export interface ExamSession { startedAt: number; stage: ExamStage; stageStartedAt: number; answers: Record<string, string>; flags: string[]; attemptId?: string; closesAt?: string; showAnswers?: boolean }
+export interface ExamSession { startedAt: number; stage: ExamStage; stageStartedAt: number; answers: Record<string, string>; flags: string[]; ttsStep?: number; attemptId?: string; closesAt?: string; showAnswers?: boolean }
 export interface ExamResult { at: number; total: number; max: number; sections: Record<string, { correct: number; count: number; score: number }>; answers: Record<string, string>; passed: boolean }
 export interface ExamProg { best: number; attempts: number; history: ExamResult[]; session?: ExamSession; pending?: { attemptId: string; answers: Record<string, string>; total: number; showAnswers: boolean } }
 export interface LevelProg {

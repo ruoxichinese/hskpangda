@@ -16,8 +16,14 @@ describe('Đề thi thử', () => {
         if (q.kind === 'fillChar') { expect(q.text).toMatch(/（[^）]+）/); expect([...q.answer].length).toBe(1); }
         if (q.kind === 'component') expect(q.slot).toBeLessThan([...(q.word ?? '')].length);
       }
-      const starts = qs.filter((x) => x.s.id === 'listening').map((x) => x.q.start ?? -1);
-      expect(starts.every((t, i) => t >= 0 && (i === 0 || t > starts[i - 1]))).toBe(true);
+      if (e.listeningMode === 'tts') {
+        // đọc bằng giọng trình duyệt: mọi câu nghe phải có bản ghi lời nghe
+        expect(qs.filter((x) => x.s.id === 'listening' && !(x.q.say ?? []).length).map((x) => x.q.id)).toEqual([]);
+      } else {
+        expect(e.audio).toBeTruthy();
+        const starts = qs.filter((x) => x.s.id === 'listening').map((x) => x.q.start ?? -1);
+        expect(starts.every((t, i) => t >= 0 && (i === 0 || t > starts[i - 1]))).toBe(true);
+      }
       for (const s of e.sections.slice(1)) expect(s.seconds).toBeGreaterThan(0);
       const imgs = e.sections.flatMap((s) => s.parts.flatMap((p) => [
         ...(p.bank ?? []).map((b) => b.img),
