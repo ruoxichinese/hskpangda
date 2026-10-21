@@ -29,7 +29,7 @@ const write = (k: string, v: string) => {
 const systemDark = () => typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-color-scheme: dark)').matches;
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<ThemeId>(() => read('pangda.theme', 'energy') as ThemeId);
+  const [theme, setThemeState] = useState<ThemeId>(() => read('pangda.theme', 'nature') as ThemeId);
   const [modePref, setModeState] = useState<ModePref>(() => read('pangda.mode', 'system') as ModePref);
   const [sysDark, setSysDark] = useState(systemDark);
 

@@ -19,11 +19,11 @@ export interface LevelProg {
   review: Record<number, ReviewProg>;
 }
 export interface GlobalProg { xp: number; badges: string[]; streak: { count: number; last: string | null }; lastLevel: string; lastVisit: string | null }
-export interface Settings { pinyin: 'level' | PinyinMode; translation: 'level' | TranslationMode; speed: number | null }
+export interface Settings { pinyin: 'level' | PinyinMode; translation: 'level' | TranslationMode; speed: number | null; scene: 'auto' | string }
 
 const emptyLevel = (): LevelProg => ({ lessons: {}, homework: {}, known: [], wrong: {}, games: {}, review: {} });
 const emptyGlobal = (): GlobalProg => ({ xp: 0, badges: [], streak: { count: 0, last: null }, lastLevel: 'hsk1', lastVisit: null });
-const defaultSettings: Settings = { pinyin: 'level', translation: 'level', speed: null };
+const defaultSettings: Settings = { pinyin: 'level', translation: 'level', speed: null, scene: 'auto' };
 
 export const BADGES: Record<string, { emoji: string; name: string; desc: string }> = {
   'first-lesson': { emoji: '🌱', name: 'Bước chân đầu tiên', desc: 'Hoàn thành bài học đầu tiên' },

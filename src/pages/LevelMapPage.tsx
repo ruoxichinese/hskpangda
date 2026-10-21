@@ -5,6 +5,7 @@ import { getLessons, getLevel, isReady, isReviewPoint } from '../lib/data';
 import { cls } from '../lib/util';
 import { hwStatus, lessonStars, useProgress } from '../store/ProgressStore';
 import { NotFound } from './NotFound';
+import { useScenes } from '../components/Backdrop';
 
 const HW_BADGE = {
   locked: { icon: '🔒', text: 'Bài tập: chưa mở' },
@@ -18,7 +19,9 @@ export default function LevelMapPage() {
   const { level: levelId = '' } = useParams();
   const lv = getLevel(levelId);
   const { level } = useProgress();
+  const scenes = useScenes();
   if (!lv) return <NotFound />;
+  const myScene = scenes.list.find((s) => s.level.id === lv.id);
   if (!lv.available) {
     return (
       <div className="card text-center">
@@ -37,7 +40,8 @@ export default function LevelMapPage() {
   return (
     <div>
       <h1 className="text-3xl font-extrabold">{lv.name}</h1>
-      <p className="mb-5 mt-1 text-muted">{lv.subtitle}. Học xong mỗi bài sẽ mở bài tập về nhà; sau mỗi {lv.reviewEvery} bài có mốc ôn tập <span className="han">学习小结</span>.</p>
+      {myScene && <p className="mt-1 inline-flex rounded-full bg-card px-3 py-1 text-sm font-bold sticker">Vùng đất: {myScene.name}{myScene.unlocked ? '' : ' – mở khoá khi học xong bài đầu tiên'}</p>}
+      <p className="mb-5 mt-2 text-muted">{lv.subtitle}. Học xong mỗi bài sẽ mở bài tập về nhà; sau mỗi {lv.reviewEvery} bài có mốc ôn tập <span className="han">学习小结</span>.</p>
       <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {lessons.map((l) => {
           const lp = prog.lessons[l.id];
@@ -52,7 +56,7 @@ export default function LevelMapPage() {
                 </span>
                 <div className="min-w-0">
                   <p className="text-xs font-medium text-muted">{l.title.pinyin}</p>
-                  <p className="han text-xl font-bold leading-tight" lang="zh-CN">{l.title.zh}</p>
+                  <p className="font-hanfun text-2xl leading-tight" lang="zh-CN">{l.title.zh}</p>
                   <p className="text-sm font-semibold">{l.title.vi}</p>
                 </div>
               </div>

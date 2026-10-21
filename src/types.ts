@@ -22,7 +22,8 @@ export interface LevelConfig {
   available: boolean;
   lessonCount: number;
   reviewEvery: number; // mốc 学习小结 sau mỗi n bài
-  pandaStage: number; // 0 = gấu con, 1 = băng đô, 2 = kính, 3 = mũ tốt nghiệp
+  pandaStage: number; // 0 = gấu con, 1 = mầm lá, 2 = kính, 3 = mũ tốt nghiệp
+  scene: { id: string; name: string; desc: string }; // phông nền mở khoá khi học bài đầu tiên của cấp
   difficulty: Difficulty;
 }
 

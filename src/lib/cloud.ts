@@ -5,10 +5,29 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js';
  *   VITE_SUPABASE_URL=https://xxxx.supabase.co
  *   VITE_SUPABASE_ANON_KEY=eyJ...   (khoá "anon public" – an toàn để đưa lên web, dữ liệu được bảo vệ bằng RLS)
  */
-const url = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+const rawUrl = (import.meta.env.VITE_SUPABASE_URL as string | undefined)?.trim();
+// Chỉ lấy phần gốc https://xxxx.supabase.co – phòng khi dán nhầm cả /rest/v1/ hoặc dấu / ở cuối
+const url = (() => {
+  if (!rawUrl) return undefined;
+  try { return new URL(rawUrl).origin; } catch { return rawUrl.replace(/\/+$/, ''); }
+})();
 const key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
 
 export const cloudConfigured = !!(url && key);
+
+/** Hỏi Supabase những cách đăng nhập nào đang bật (để ẩn nút Google khi chưa cấu hình) */
+export async function fetchAuthProviders(): Promise<{ google: boolean; email: boolean }> {
+  if (!url || !key) return { google: false, email: false };
+  try {
+    const r = await fetch(`${url}/auth/v1/settings`, { headers: { apikey: key } });
+    if (!r.ok) throw new Error(String(r.status));
+    const s = await r.json();
+    return { google: !!s?.external?.google, email: s?.external?.email !== false };
+  } catch {
+    // không hỏi được → vẫn hiện nút Google (chỉ ẩn khi Supabase trả lời rõ là chưa bật)
+    return { google: true, email: true };
+  }
+}
 
 export const supabase: SupabaseClient | null = cloudConfigured
   ? createClient(url!, key!, {

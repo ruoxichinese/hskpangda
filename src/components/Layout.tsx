@@ -4,6 +4,7 @@ import { useTheme } from '../theme/ThemeProvider';
 import { useProgress } from '../store/ProgressStore';
 import { cls } from '../lib/util';
 import { BadgeToast } from './ui';
+import { Backdrop } from './Backdrop';
 import { stopAll } from '../lib/audio';
 import { useCloud } from '../store/CloudSync';
 import { SyncBadge } from '../pages/AccountPage';
@@ -41,12 +42,13 @@ export function Layout() {
 
   return (
     <div className="min-h-screen pb-24 lg:pb-8">
+      <Backdrop />
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[60] focus:rounded-full focus:bg-bg focus:px-4 focus:py-2">Bỏ qua, tới nội dung chính</a>
-      <header className="no-print sticky top-0 z-40 border-b border-line bg-bg/90 backdrop-blur" style={{ top: 'env(safe-area-inset-top, 0px)' }}>
+      <header className="no-print sticky top-0 z-40 border-b-[2.5px] border-outline bg-card/90 backdrop-blur" style={{ top: 'env(safe-area-inset-top, 0px)' }}>
         <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2.5">
           <NavLink to="/" className="flex items-center gap-2 font-extrabold" aria-label="Pàngdá HSK – Trang chủ">
             <span className="text-2xl" aria-hidden>🐼</span>
-            <span className="whitespace-nowrap text-lg leading-none">Pàngdá<span className="han ml-1 text-sm text-accent">胖达</span></span>
+            <span className="whitespace-nowrap font-display text-xl font-bold leading-none">Pàngdá<span className="ml-1 font-hanfun text-lg text-accent">胖达</span></span>
           </NavLink>
           <nav aria-label="Điều hướng chính" className="ml-4 hidden gap-1 lg:flex">
             {nav.map((n) => (
@@ -73,7 +75,7 @@ export function Layout() {
         <Outlet />
       </main>
 
-      <nav aria-label="Điều hướng nhanh" className="no-print fixed inset-x-0 bottom-0 z-40 border-t border-line bg-bg/95 backdrop-blur lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      <nav aria-label="Điều hướng nhanh" className="no-print fixed inset-x-0 bottom-0 z-40 border-t-[2.5px] border-outline bg-card/95 backdrop-blur lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         <ul className="grid grid-cols-5">
           {nav.filter((n) => n.label !== 'Nhân vật' && n.label !== 'Giáo viên').map((n) => (
             <li key={n.label}>

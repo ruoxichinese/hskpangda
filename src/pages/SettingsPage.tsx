@@ -5,6 +5,7 @@ import { useProgress } from '../store/ProgressStore';
 import { useCloud } from '../store/CloudSync';
 import { Link } from 'react-router-dom';
 import { THEMES, useTheme, type ModePref } from '../theme/ThemeProvider';
+import { SceneArt, useScenes } from '../components/Backdrop';
 
 function Radio<T extends string | number | null>({ label, value, options, onChange }: { label: string; value: T; options: [T, string][]; onChange: (v: T) => void }) {
   return (
@@ -20,7 +21,8 @@ function Radio<T extends string | number | null>({ label, value, options, onChan
 }
 
 export default function SettingsPage() {
-  const { theme, setTheme, modePref, setModePref } = useTheme();
+  const { theme, setTheme, modePref, setModePref, mode } = useTheme();
+  const scenes = useScenes();
   const { settings, setSettings, exportAll, importAll, resetAll } = useProgress();
   const fileRef = useRef<HTMLInputElement>(null);
   const [msg, setMsg] = useState<string | null>(null);
@@ -58,6 +60,29 @@ export default function SettingsPage() {
           </div>
         </fieldset>
         <Radio<ModePref> label="Sáng / Tối" value={modePref} onChange={setModePref} options={[['system', '🖥️ Theo hệ thống'], ['light', '☀️ Sáng'], ['dark', '🌙 Tối']]} />
+      </section>
+
+      <section className="card space-y-3">
+        <h2 className="font-bold">Phông nền</h2>
+        <p className="text-sm text-muted">Mỗi cấp HSK có một vùng đất riêng. Hoàn thành bài đầu tiên của một cấp để mở khoá vùng đất đó.</p>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <button role="radio" aria-checked={settings.scene === 'auto'} onClick={() => setSettings({ scene: 'auto' })} className={cls('opt flex flex-col items-center justify-center gap-1 text-center', settings.scene === 'auto' && 'opt-on')}>
+            <span className="font-display text-lg font-bold">Tự động</span>
+            <span className="text-xs text-muted">Vùng đất mới nhất: {scenes.highest.name}</span>
+          </button>
+          {scenes.list.map((s) => (
+            <button key={s.id} role="radio" aria-checked={settings.scene === s.id} disabled={!s.unlocked}
+              onClick={() => setSettings({ scene: s.id })}
+              className={cls('opt flex flex-col gap-1 !p-2 text-left', settings.scene === s.id && 'opt-on', !s.unlocked && 'opacity-60')}>
+              <span className="relative block h-20 overflow-hidden rounded-xl">
+                <SceneArt id={s.id} dark={mode === 'dark'} className="absolute inset-0 h-full w-full" style={s.unlocked ? undefined : { filter: 'grayscale(1)' }} />
+                {!s.unlocked && <span className="absolute inset-0 flex items-center justify-center text-2xl" aria-hidden>🔒</span>}
+              </span>
+              <span className="px-1 text-sm font-bold">{s.name}</span>
+              <span className="px-1 text-xs text-muted">{s.unlocked ? s.desc : `Học bài đầu tiên ${s.level.name.split(' – ')[0]}`}</span>
+            </button>
+          ))}
+        </div>
       </section>
 
       <section className="card space-y-5">

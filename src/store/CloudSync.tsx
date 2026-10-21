@@ -1,6 +1,6 @@
 import type { Session } from '@supabase/supabase-js';
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { cloudConfigured, friendlyError, redirectUrl, supabase } from '../lib/cloud';
+import { cloudConfigured, fetchAuthProviders, friendlyError, redirectUrl, supabase } from '../lib/cloud';
 import { buildSummary, mergeSnapshots, type Snapshot } from '../lib/sync';
 import { lessonStars, useProgress } from './ProgressStore';
 
@@ -10,6 +10,7 @@ interface Profile { id: string; display_name: string | null; email: string | nul
 
 interface CloudCtx {
   configured: boolean;
+  googleEnabled: boolean;
   session: Session | null;
   profile: Profile | null;
   isTeacher: boolean;
@@ -37,6 +38,8 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const [status, setStatus] = useState<SyncStatus>(cloudConfigured ? 'signed-out' : 'off');
   const [lastSynced, setLastSynced] = useState<Date | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [googleEnabled, setGoogleEnabled] = useState(true);
+  useEffect(() => { if (cloudConfigured) fetchAuthProviders().then((p) => setGoogleEnabled(p.google)); }, []);
   const ready = useRef(false); // đã gộp lần đầu chưa (tránh đẩy dữ liệu cũ đè lên mạng)
   const lastPull = useRef(0);
   const pushTimer = useRef<number | null>(null);
@@ -116,6 +119,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<CloudCtx>(() => ({
     configured: cloudConfigured,
+    googleEnabled,
     session, profile, isTeacher, status, lastSynced, error,
     async signInGoogle() {
       if (!supabase) return;
@@ -149,7 +153,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
       ready.current = false;
       await supabase.from('progress').update({ data: {}, summary: {}, updated_at: new Date().toISOString() }).eq('user_id', uid);
     },
-  }), [session, profile, isTeacher, status, lastSynced, error, pullAndMerge, push, getSnapshot, uid]);
+  }), [session, profile, isTeacher, status, lastSynced, error, googleEnabled, pullAndMerge, push, getSnapshot, uid]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

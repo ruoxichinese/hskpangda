@@ -4,6 +4,9 @@ import { ProgressBar } from '../components/ui';
 import { getLessons, getLevel, isReady } from '../lib/data';
 import { daysBetween, todayStr } from '../lib/util';
 import { BADGES, hwStatus, useProgress } from '../store/ProgressStore';
+import { useScenes } from '../components/Backdrop';
+import { readJSON, writeJSON } from '../lib/util';
+import { useState } from 'react';
 
 export default function HomePage() {
   const { global, level } = useProgress();
@@ -17,6 +20,9 @@ export default function HomePage() {
   const sleepy = lapsed >= 2;
   const started = Object.keys(prog.lessons).length > 0;
   const xpLevel = Math.floor(global.xp / 200) + 1;
+  const scenes = useScenes();
+  const [seen, setSeen] = useState(() => readJSON<string>('pangda.sceneSeen', 'bamboo'));
+  const newScene = scenes.highest.id !== 'bamboo' && scenes.highest.id !== seen ? scenes.highest : null;
 
   const greeting = sleepy
     ? <>Oáp… {lapsed} ngày rồi bạn chưa học. Học 5 phút thôi để giữ chuỗi 🔥 nhé!</>
@@ -34,12 +40,27 @@ export default function HomePage() {
           <div className="mt-2"><ProgressBar value={completed} max={lv.lessonCount} label="Tiến độ cấp hiện tại" /></div>
           <p className="mt-1 text-sm text-muted">{completed}/{lv.lessonCount} bài đã hoàn thành</p>
           {next && (
-            <Link to={`/hsk/${lv.id}/bai/${next.id}`} className="btn-primary mt-4 w-full sm:w-auto">
-              {started ? '▶ Học tiếp' : '▶ Bắt đầu học'}: Bài {next.id} <span className="han">{next.title.zh}</span>
+            <Link to={`/hsk/${lv.id}/bai/${next.id}`} className="btn-primary mt-4 w-full !justify-between !rounded-3xl !px-5 !py-3 sm:w-auto sm:min-w-[22rem]">
+              <span className="flex flex-col items-start leading-tight">
+                <span className="text-base">{started ? 'Học tiếp' : 'Bắt đầu học'} · Bài {next.id}</span>
+                <span className="font-hanfun text-2xl font-normal" lang="zh-CN">{next.title.zh}</span>
+              </span>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
             </Link>
           )}
         </div>
       </section>
+
+      {newScene && (
+        <section className="card pop flex flex-col items-center gap-3 text-center sm:flex-row sm:text-left">
+          <PandaMascot mood="celebrate" size={80} stage={lv.pandaStage} />
+          <div className="min-w-0 sm:flex-1">
+            <p className="font-display text-lg font-bold">Mở khoá vùng đất mới: {newScene.name}!</p>
+            <p className="text-sm text-muted">{newScene.desc}. Pàngdá đã chuyển đến đây cùng bạn.</p>
+          </div>
+          <button className="btn-ghost" onClick={() => { writeJSON('pangda.sceneSeen', newScene.id); setSeen(newScene.id); }}>Tuyệt vời!</button>
+        </section>
+      )}
 
       <section className="grid gap-4 sm:grid-cols-3">
         <div className="card text-center">
@@ -61,7 +82,7 @@ export default function HomePage() {
       </section>
 
       {pendingHw.length > 0 && (
-        <section className="card border-primary/60">
+        <section className="card">
           <h2 className="mb-2 text-lg font-extrabold">📝 Bài tập về nhà chưa xong</h2>
           <ul className="flex flex-wrap gap-2">
             {pendingHw.map((l) => (

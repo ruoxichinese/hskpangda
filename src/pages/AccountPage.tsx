@@ -19,7 +19,7 @@ export function SyncBadge({ withText = true }: { withText?: boolean }) {
 }
 
 function SignInPanel() {
-  const { signInGoogle, sendEmailCode, verifyEmailCode } = useCloud();
+  const { signInGoogle, sendEmailCode, verifyEmailCode, googleEnabled } = useCloud();
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
   const [sent, setSent] = useState(false);
@@ -35,11 +35,13 @@ function SignInPanel() {
         <PandaMascot mood="wave" size={80} />
         <p className="max-w-prose flex-1">Đăng nhập để tiến độ tự đồng bộ giữa điện thoại, máy tính bảng và máy tính, và để giáo viên theo dõi được kết quả của bạn. Tiến độ đang có trên máy này sẽ được giữ nguyên và gộp lên tài khoản.</p>
       </div>
-      <button className="btn-primary w-full sm:w-auto" disabled={busy} onClick={() => run(signInGoogle)}>
-        <span aria-hidden>🇬</span> Đăng nhập bằng Google
-      </button>
-      <div className="border-t border-line pt-4">
-        <p className="mb-2 font-bold">Hoặc đăng nhập bằng email</p>
+      {googleEnabled && (
+        <button className="btn-primary w-full sm:w-auto" disabled={busy} onClick={() => run(signInGoogle)}>
+          <span aria-hidden>🇬</span> Đăng nhập bằng Google
+        </button>
+      )}
+      <div className={googleEnabled ? 'border-t border-line pt-4' : ''}>
+        <p className="mb-2 font-bold">{googleEnabled ? 'Hoặc đăng nhập bằng email' : 'Đăng nhập bằng email'}</p>
         {!sent ? (
           <form className="flex flex-wrap gap-2" onSubmit={(e) => { e.preventDefault(); run(async () => { await sendEmailCode(email); setSent(true); }); }}>
             <label className="sr-only" htmlFor="login-email">Email</label>

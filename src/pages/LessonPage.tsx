@@ -44,6 +44,7 @@ export default function LessonPage() {
   const { level, markSection, updateLevel, addXP, award, touch } = useProgress();
   const prefs = useLevelPrefs(levelId);
   const [fire, setFire] = useState(0);
+  const [newScene, setNewScene] = useState<string | null>(null);
   const stepperRef = useRef<HTMLDivElement>(null);
 
   const steps = useMemo(() => (lesson ? buildSteps(lesson) : []), [lesson]);
@@ -88,6 +89,8 @@ export default function LessonPage() {
 
   const completeLesson = () => {
     if (lp.completed) return;
+    const firstInLevel = !getLessons(levelId).some((l) => level(levelId).lessons[l.id]?.completed);
+    if (firstInLevel && lv.id !== 'hsk1') setNewScene(lv.scene.name);
     updateLevel(levelId, (p) => { (p.lessons[lessonId] ??= { sections: [] }).completed = true; });
     addXP(50);
     award('first-lesson');
@@ -206,6 +209,7 @@ export default function LessonPage() {
           <div className="card flex flex-col items-center gap-4 text-center">
             <PandaMascot mood="bag" size={130} stage={lv.pandaStage} />
             <h2 className="text-2xl font-extrabold">Học xong bài {lesson.id}! Bài tập về nhà đã mở 🎒</h2>
+            {newScene && <p className="pop sticker rounded-full bg-primary/20 px-4 py-1.5 font-bold">🗺️ Mở khoá vùng đất mới: {newScene}</p>}
             <p className="text-muted">15–20 câu đọc hiểu và viết. Đạt từ {lv.difficulty.homeworkPassScore}% để nhận ✅ và huy hiệu.</p>
             <Link to={`/hsk/${levelId}/bai/${lessonId}/bai-tap-ve-nha`} className="btn-primary !px-8 !py-4 !text-xl">
               📝 {hs === 'passed' ? 'Xem lại bài tập về nhà' : hs === 'draft' ? 'Làm tiếp bài tập về nhà' : 'Làm bài tập về nhà'}
@@ -250,7 +254,7 @@ export default function LessonPage() {
         <span className="tianzi han inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-xl text-3xl font-black">{lesson.id}</span>
         <div className="min-w-0">
           <p className="text-sm font-medium text-muted">{lesson.title.pinyin}</p>
-          <h1 className="han text-3xl font-black leading-tight sm:text-4xl" lang="zh-CN">{lesson.title.zh}</h1>
+          <h1 className="font-hanfun text-4xl leading-tight sm:text-5xl" lang="zh-CN">{lesson.title.zh}</h1>
           <p className="font-semibold">{lesson.title.vi}</p>
         </div>
       </header>
