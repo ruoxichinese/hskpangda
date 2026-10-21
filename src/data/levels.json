@@ -18,6 +18,11 @@
         "hintsPerQuestion": 2,
         "timerSeconds": null,
         "homeworkPassScore": 70
+      },
+      "scene": {
+        "id": "bamboo",
+        "name": "Rừng trúc",
+        "desc": "Quê nhà của Pàngdá"
       }
     },
     {
@@ -38,6 +43,11 @@
         "hintsPerQuestion": 2,
         "timerSeconds": null,
         "homeworkPassScore": 72
+      },
+      "scene": {
+        "id": "watertown",
+        "name": "Thị trấn sông nước",
+        "desc": "Cầu đá, mái ngói, đèn lồng đỏ"
       }
     },
     {
@@ -58,6 +68,11 @@
         "hintsPerQuestion": 1,
         "timerSeconds": 1800,
         "homeworkPassScore": 75
+      },
+      "scene": {
+        "id": "hutong",
+        "name": "Phố cổ Bắc Kinh",
+        "desc": "Ngõ nhỏ, cổng đỏ và tháp chuông"
       }
     },
     {
@@ -78,6 +93,11 @@
         "hintsPerQuestion": 1,
         "timerSeconds": 1500,
         "homeworkPassScore": 78
+      },
+      "scene": {
+        "id": "greatwall",
+        "name": "Vạn Lý Trường Thành",
+        "desc": "Tường thành uốn lượn trên núi"
       }
     },
     {
@@ -98,6 +118,11 @@
         "hintsPerQuestion": 0,
         "timerSeconds": 1500,
         "homeworkPassScore": 80
+      },
+      "scene": {
+        "id": "palace",
+        "name": "Cố Cung",
+        "desc": "Cung điện mái vàng tường đỏ"
       }
     },
     {
@@ -118,6 +143,11 @@
         "hintsPerQuestion": 0,
         "timerSeconds": 1200,
         "homeworkPassScore": 82
+      },
+      "scene": {
+        "id": "huangshan",
+        "name": "Núi Hoàng Sơn",
+        "desc": "Đỉnh núi đá giữa biển mây"
       }
     },
     {
@@ -138,6 +168,11 @@
         "hintsPerQuestion": 0,
         "timerSeconds": 1200,
         "homeworkPassScore": 85
+      },
+      "scene": {
+        "id": "moon",
+        "name": "Cung trăng",
+        "desc": "Đích đến cuối cùng của Pàngdá"
       }
     }
   ]
