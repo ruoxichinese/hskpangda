@@ -1,5 +1,5 @@
 import { daysBetween } from './util';
-import type { GlobalProg, HwProg, LessonProg, LevelProg, ReviewProg } from '../store/ProgressStore';
+import type { ExamProg, GlobalProg, HwProg, LessonProg, LevelProg, ReviewProg } from '../store/ProgressStore';
 
 /** Ảnh chụp tiến độ để đồng bộ (không gồm cài đặt giao diện – mỗi máy giữ riêng) */
 export interface Snapshot {
@@ -57,6 +57,17 @@ function mergeRecord<T>(a: Record<string | number, T> = {}, b: Record<string | n
   return out;
 }
 
+function mergeExam(a?: ExamProg, b?: ExamProg): ExamProg {
+  if (!a) return b!;
+  if (!b) return a;
+  const seen = new Set<number>();
+  const history = [...a.history, ...b.history].filter((h) => (seen.has(h.at) ? false : (seen.add(h.at), true))).sort((x, y) => x.at - y.at).slice(-20);
+  const lastDone = history.length ? history[history.length - 1].at : 0;
+  let session = !a.session ? b.session : !b.session ? a.session : a.session.startedAt >= b.session.startedAt ? a.session : b.session;
+  if (session && session.startedAt < lastDone) session = undefined; // đã nộp ở máy khác
+  return { best: Math.max(a.best, b.best), attempts: Math.max(a.attempts, b.attempts, history.length), history, ...(session ? { session } : {}) };
+}
+
 export function mergeLevel(a?: LevelProg, b?: LevelProg): LevelProg {
   const empty: LevelProg = { lessons: {}, homework: {}, known: [], wrong: {}, games: {}, review: {} };
   const x = { ...empty, ...(a ?? {}) };
@@ -68,6 +79,7 @@ export function mergeLevel(a?: LevelProg, b?: LevelProg): LevelProg {
     wrong: mergeRecord(x.wrong, y.wrong, (p, q) => Math.max(p ?? 0, q ?? 0)),
     games: mergeRecord(x.games, y.games, (p, q) => Math.max(p ?? 0, q ?? 0)),
     review: mergeRecord(x.review, y.review, mergeReview),
+    exams: mergeRecord(x.exams ?? {}, y.exams ?? {}, mergeExam),
   };
 }
 
@@ -107,6 +119,7 @@ export interface LevelSummary {
   homework: Record<number, { best: number; passed: boolean; attempts: number }>;
   known: number;
   wrongTop: [string, number][];
+  exams?: Record<string, { best: number; attempts: number; passed: boolean }>;
 }
 export interface Summary {
   xp: number;
@@ -121,13 +134,15 @@ export function buildSummary(s: Snapshot, starsOf: (lp?: LessonProg) => number):
   const levels: Record<string, LevelSummary> = {};
   for (const [id, lv] of Object.entries(s.levels)) {
     const completed = Object.entries(lv.lessons).filter(([, l]) => l.completed).map(([k]) => Number(k)).sort((a, b) => a - b);
-    if (!completed.length && !Object.keys(lv.homework).length && !lv.known.length) continue;
+    const exams = Object.fromEntries(Object.entries(lv.exams ?? {}).filter(([, e]) => e.attempts > 0).map(([k, e]) => [k, { best: e.best, attempts: e.attempts, passed: e.history.some((h) => h.passed) }]));
+    if (!completed.length && !Object.keys(lv.homework).length && !lv.known.length && !Object.keys(exams).length) continue;
     levels[id] = {
       completed,
       stars: Object.fromEntries(completed.map((k) => [k, starsOf(lv.lessons[k])])),
       homework: Object.fromEntries(Object.entries(lv.homework).filter(([, h]) => h.attempts > 0).map(([k, h]) => [Number(k), { best: h.best, passed: h.passed, attempts: h.attempts }])),
       known: lv.known.length,
       wrongTop: Object.entries(lv.wrong).sort((a, b) => b[1] - a[1]).slice(0, 10),
+      ...(Object.keys(exams).length ? { exams } : {}),
     };
   }
   return { xp: s.global.xp, streak: s.global.streak.count, lastActive: s.global.lastVisit, badges: s.global.badges.length, levels };

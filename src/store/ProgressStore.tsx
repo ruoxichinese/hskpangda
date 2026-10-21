@@ -10,6 +10,10 @@ export interface QResult { points: number; status: 'correct' | 'close' | 'wrong'
 export interface HwDraft { answers: Record<string, unknown>; index: number; order: Record<string, number[]>; noHints: Record<string, boolean>; startedAt: number; retryOnly?: string[] }
 export interface HwProg { best: number; passed: boolean; attempts: number; draft?: HwDraft; last?: { score: number; results: Record<string, QResult>; answers: Record<string, unknown>; order: Record<string, number[]>; at: number }; history: number[] }
 export interface ReviewProg { checks: Record<string, [boolean, boolean]>; note: string; quizBest?: number }
+export type ExamStage = 'listening' | 'review' | 'reading' | 'writing';
+export interface ExamSession { startedAt: number; stage: ExamStage; stageStartedAt: number; answers: Record<string, string>; flags: string[]; attemptId?: string; closesAt?: string; showAnswers?: boolean }
+export interface ExamResult { at: number; total: number; max: number; sections: Record<string, { correct: number; count: number; score: number }>; answers: Record<string, string>; passed: boolean }
+export interface ExamProg { best: number; attempts: number; history: ExamResult[]; session?: ExamSession; pending?: { attemptId: string; answers: Record<string, string>; total: number; showAnswers: boolean } }
 export interface LevelProg {
   lessons: Record<number, LessonProg>;
   homework: Record<number, HwProg>;
@@ -17,11 +21,12 @@ export interface LevelProg {
   wrong: Record<string, number>;
   games: Record<string, number>; // "<lessonId>:<game>" → best
   review: Record<number, ReviewProg>;
+  exams?: Record<string, ExamProg>;
 }
 export interface GlobalProg { xp: number; badges: string[]; streak: { count: number; last: string | null }; lastLevel: string; lastVisit: string | null }
 export interface Settings { pinyin: 'level' | PinyinMode; translation: 'level' | TranslationMode; speed: number | null; scene: 'auto' | string }
 
-const emptyLevel = (): LevelProg => ({ lessons: {}, homework: {}, known: [], wrong: {}, games: {}, review: {} });
+const emptyLevel = (): LevelProg => ({ lessons: {}, homework: {}, known: [], wrong: {}, games: {}, review: {}, exams: {} });
 const emptyGlobal = (): GlobalProg => ({ xp: 0, badges: [], streak: { count: 0, last: null }, lastLevel: 'hsk1', lastVisit: null });
 const defaultSettings: Settings = { pinyin: 'level', translation: 'level', speed: null, scene: 'auto' };
 

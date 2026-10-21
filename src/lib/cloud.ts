@@ -54,6 +54,12 @@ export function randomClassCode() {
 
 export function friendlyError(e: unknown): string {
   const msg = (e as { message?: string })?.message ?? String(e);
+  if (msg.includes('exam_code_not_found')) return 'Mã thi không đúng. Kiểm tra lại mã giáo viên gửi.';
+  if (msg.includes('not_in_class')) return 'Bạn chưa ở trong lớp có đợt thi này. Vào Tài khoản → nhập mã lớp trước.';
+  if (msg.includes('exam_not_open')) return 'Đợt thi chưa tới giờ mở.';
+  if (msg.includes('exam_closed')) return 'Đợt thi đã đóng.';
+  if (msg.includes('no_attempts_left')) return 'Bạn đã dùng hết lượt thi với mã này. Liên hệ giáo viên nếu cần thi lại.';
+  if (msg.includes('attempt_not_found')) return 'Không tìm thấy lượt thi. Hãy nhập lại mã thi.';
   if (msg.includes('class_not_found')) return 'Không tìm thấy lớp với mã này. Kiểm tra lại mã giáo viên đưa.';
   if (msg.includes('row-level security')) return 'Bạn không có quyền làm việc này.';
   if (msg.includes('Failed to fetch') || msg.includes('NetworkError')) return 'Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.';

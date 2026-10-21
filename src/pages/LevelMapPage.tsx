@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Stars } from '../components/ui';
-import { getLessons, getLevel, isReady, isReviewPoint } from '../lib/data';
+import { getExams, getLessons, getLevel, isReady, isReviewPoint } from '../lib/data';
 import { cls } from '../lib/util';
 import { hwStatus, lessonStars, useProgress } from '../store/ProgressStore';
 import { NotFound } from './NotFound';
@@ -42,6 +42,26 @@ export default function LevelMapPage() {
       <h1 className="text-3xl font-extrabold">{lv.name}</h1>
       {myScene && <p className="mt-1 inline-flex rounded-full bg-card px-3 py-1 text-sm font-bold sticker">Vùng đất: {myScene.name}{myScene.unlocked ? '' : ' – mở khoá khi học xong bài đầu tiên'}</p>}
       <p className="mb-5 mt-2 text-muted">{lv.subtitle}. Học xong mỗi bài sẽ mở bài tập về nhà; sau mỗi {lv.reviewEvery} bài có mốc ôn tập <span className="han">学习小结</span>.</p>
+      {getExams(levelId).length > 0 && (
+        <section className="card mb-5 flex flex-wrap items-center gap-4">
+          <span className="text-4xl" aria-hidden>📝</span>
+          <div className="min-w-0 flex-1">
+            <h2 className="font-display text-xl font-bold">Thi thử cuối khoá</h2>
+            <p className="text-sm text-muted">Mô phỏng thi trên máy: file nghe phát một lần, có đồng hồ, không pinyin.</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {getExams(levelId).map((e) => {
+              const ep = prog.exams?.[e.id];
+              return (
+                <Link key={e.id} to={`/hsk/${levelId}/thi-thu/${e.id}`} className="btn-primary">
+                  {ep?.session ? 'Làm tiếp' : 'Vào phòng thi'} · Đề {e.id.replace(/\D/g, '') || e.id}
+                  {ep && ep.attempts > 0 && <span className="rounded-full bg-card px-2 text-sm text-ink">{ep.best}/300</span>}
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
       <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {lessons.map((l) => {
           const lp = prog.lessons[l.id];

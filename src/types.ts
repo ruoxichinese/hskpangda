@@ -178,3 +178,41 @@ export interface Character {
   color: string;
   levelNotes?: Record<string, string>; // diễn biến nhân vật ở từng cấp
 }
+
+// ===== Đề thi thử (mô phỏng thi trên máy) =====
+export interface ExamOption { emoji?: string; clock?: string; img?: string }
+export type ExamKind = 'pic3' | 'bank' | 'text3' | 'component' | 'fillChar';
+export interface ExamQuestion {
+  id: string;
+  kind: ExamKind;
+  start?: number; // giây bắt đầu trong file nghe (phần Nghe)
+  options?: (ExamOption | string)[];
+  text?: string;
+  question?: string;
+  word?: string;
+  pinyin?: string;
+  slot?: number;
+  visible?: string;
+  answer: string;
+}
+export interface ExamPart {
+  title_zh: string;
+  title_vi: string;
+  start?: number;
+  instructions_vi: string;
+  bank?: { key: string; emoji?: string; text?: string; img?: string }[];
+  example?: Omit<ExamQuestion, 'id'>;
+  questions: ExamQuestion[];
+}
+export interface ExamSection { id: 'listening' | 'reading' | 'writing'; title_zh: string; title_vi: string; seconds?: number; parts: ExamPart[] }
+export interface Exam {
+  id: string;
+  level: string;
+  title: string;
+  audio: string;
+  audioNote?: string;
+  listeningReviewSeconds: number;
+  passPercent: number;
+  requireCode?: boolean; // true = học sinh phải nhập mã giáo viên phát mới vào thi được
+  sections: ExamSection[];
+}

@@ -1,6 +1,6 @@
 import levelsJson from '../data/levels.json';
 import charactersJson from '../data/characters.json';
-import type { Character, Homework, Lesson, LevelConfig, VocabItem } from '../types';
+import type { Character, Exam, Homework, Lesson, LevelConfig, VocabItem } from '../types';
 
 /**
  * Nạp toàn bộ dữ liệu theo quy ước thư mục:
@@ -11,6 +11,7 @@ import type { Character, Homework, Lesson, LevelConfig, VocabItem } from '../typ
  */
 const lessonFiles = import.meta.glob('../data/*/lesson-*.json', { eager: true, import: 'default' }) as Record<string, Lesson>;
 const hwFiles = import.meta.glob('../data/*/homework/hw-*.json', { eager: true, import: 'default' }) as Record<string, Homework>;
+const examFiles = import.meta.glob('../data/*/exams/*.json', { eager: true, import: 'default' }) as Record<string, Exam>;
 const wordlistFiles = import.meta.glob('../data/*/wordlist.json', { eager: true, import: 'default' }) as Record<
   string,
   { words: VocabItem[] }
@@ -58,6 +59,19 @@ export function getGlossary(levelId: string) {
 /** Từ nền của một cấp (chưa dạy trong bài nào nhưng có trong chuẩn HSK của cấp đó) */
 export function getWordlist(levelId: string) {
   return Object.entries(wordlistFiles).find(([p]) => levelOf(p) === levelId)?.[1].words ?? [];
+}
+// Ảnh của đề thi: src/data/<cấp>/exams/img/<đề>/*.jpg – Vite đóng gói (bản demo 1 file thì nhúng thẳng vào trang)
+const examImages = import.meta.glob('../data/*/exams/img/**/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' }) as Record<string, string>;
+export function examImage(levelId: string, path: string): string | undefined {
+  return examImages[`../data/${levelId}/exams/img/${path}`];
+}
+
+/** Đề thi thử của một cấp: src/data/<cấp>/exams/*.json */
+export function getExams(levelId: string): Exam[] {
+  return Object.entries(examFiles).filter(([p]) => levelOf(p) === levelId).map(([, e]) => e).sort((a, b) => a.id.localeCompare(b.id));
+}
+export function getExam(levelId: string, id: string): Exam | undefined {
+  return getExams(levelId).find((e) => e.id === id);
 }
 export function getCharacter(id: string): Character | undefined {
   return characters.find((c) => c.id === id);

@@ -7,6 +7,7 @@ import { getHomework, getLessons, isReady, levels } from '../lib/data';
 import type { Summary } from '../lib/sync';
 import { cls } from '../lib/util';
 import { useCloud } from '../store/CloudSync';
+import { ExamWindows } from '../components/ExamWindows';
 
 interface ClassRow { id: string; name: string; code: string; created_at: string }
 interface StudentRow { id: string; name: string; email: string; joined: string; summary: Summary | null; updated: string | null }
@@ -168,6 +169,7 @@ export default function TeacherPage() {
                     <tr className="text-muted">
                       <th className="py-2">Học sinh</th><th>Gần nhất</th><th>XP</th><th>🔥</th><th>Bài học</th>
                       {hwLessons.map((l) => <th key={l.id} className="text-center" title={l.title.zh}>BT{l.id}</th>)}
+                      <th className="text-center" title="Điểm thi thử cao nhất (thang 300)">Thi thử</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -184,6 +186,7 @@ export default function TeacherPage() {
                             const h = L?.homework?.[l.id];
                             return <td key={l.id} className="px-1 text-center"><span className={cls('inline-block min-w-[2.6rem] rounded-lg px-1 py-0.5', scoreClass(h?.best, lv.difficulty.homeworkPassScore))}>{h ? h.best : '–'}</span></td>;
                           })}
+                          {(() => { const ex = Object.values(L?.exams ?? {}); const best = ex.length ? Math.max(...ex.map((e) => e.best)) : undefined; return <td className="px-1 text-center"><span className={cls('inline-block min-w-[3.2rem] rounded-lg px-1 py-0.5', scoreClass(best === undefined ? undefined : Math.round(best / 3), 60))}>{best ?? '–'}</span></td>; })()}
                         </tr>
                       );
                     })}
@@ -192,6 +195,8 @@ export default function TeacherPage() {
               </div>
             )}
           </section>
+
+          <ExamWindows classId={activeClass.id} students={students.map((s) => ({ id: s.id, name: s.name, email: s.email }))} />
 
           {open && (
             <section className="card space-y-3" aria-label={`Chi tiết ${open.name}`}>
