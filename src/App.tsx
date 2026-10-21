@@ -19,6 +19,7 @@ const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const AccountPage = lazy(() => import('./pages/AccountPage'));
 const TeacherPage = lazy(() => import('./pages/TeacherPage'));
+const ExamPage = lazy(() => import('./pages/ExamPage'));
 
 function Loading() {
   return (
@@ -40,6 +41,8 @@ export default function App() {
         <Router basename={import.meta.env.VITE_HASH_ROUTER === '1' ? undefined : import.meta.env.BASE_URL}>
           <Suspense fallback={<Loading />}>
             <Routes>
+              {/* phòng thi: toàn màn hình, không có menu – giống thi trên máy */}
+              <Route path="hsk/:level/thi-thu/:examId" element={<ExamPage />} />
               <Route element={<Layout />}>
                 <Route index element={<HomePage />} />
                 <Route path="cap-do" element={<LevelsPage />} />
