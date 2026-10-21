@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { playSrc, recognitionSupported, recognize, speak, speakSequence, stopAll } from '../lib/audio';
+import { playSrc, recognitionSupported, recognize, speak, speakSequence, stopAll, say } from '../lib/audio';
 import { getCharacter } from '../lib/data';
 import { compareKey, similarity } from '../lib/grading';
 import { cls } from '../lib/util';
@@ -32,6 +32,10 @@ export function DialoguePlayer({ text, levelId, lessonId }: { text: TextSection;
   useEffect(() => {
     if (active >= 0) lineRefs.current[active]?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   }, [active]);
+
+  // mốc thời gian từng câu trong file nghe → nghe riêng từng câu bằng giọng thật
+  const timed = !!text.audio && text.lines.every((l) => typeof l.t === 'number');
+  const segOf = (i: number) => (timed ? { start: text.lines[i].t as number, end: text.lines[i + 1]?.t as number | undefined } : undefined);
 
   const playAll = async () => {
     setRole(null);
@@ -67,10 +71,10 @@ export function DialoguePlayer({ text, levelId, lessonId }: { text: TextSection;
     const line = text.lines[rpIndex];
     if (line.speaker !== role) {
       let cancelled = false;
-      speak(line.zh, prefs.speed).then(() => { if (!cancelled) setRpIndex((i) => i + 1); });
+      (timed ? say(line.zh, prefs.speed, text.audio, segOf(rpIndex)) : speak(line.zh, prefs.speed)).then(() => { if (!cancelled) setRpIndex((i) => i + 1); });
       return () => { cancelled = true; };
     }
-  }, [role, rpIndex, text.lines, prefs.speed]);
+  }, [role, rpIndex, text.lines, prefs.speed]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const myTurn = role && rpIndex >= 0 && rpIndex < text.lines.length && text.lines[rpIndex].speaker === role;
   const rpDone = role && rpIndex >= text.lines.length;
@@ -174,7 +178,7 @@ export function DialoguePlayer({ text, levelId, lessonId }: { text: TextSection;
                 >
                   <div className="flex items-start gap-2">
                     <ZhText text={line.zh} levelId={levelId} pinyin={prefs.pinyin} upTo={lessonId} size="lg" />
-                    <SpeakButton text={line.zh} rate={prefs.speed} size="sm" label={`Nghe câu ${i + 1}`} />
+                    <SpeakButton text={line.zh} rate={prefs.speed} size="sm" label={`Nghe câu ${i + 1}`} src={timed ? text.audio : undefined} seg={segOf(i)} />
                   </div>
                   {trans !== 'hidden' && (showT ? (
                     <p className="mt-1 text-sm text-muted">{line.vi}</p>

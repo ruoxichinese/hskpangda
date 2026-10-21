@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { say, stopAll } from '../lib/audio';
+import { say, stopAll, type Seg } from '../lib/audio';
 import { getCharacter } from '../lib/data';
 import { cls } from '../lib/util';
 import { BADGES, useProgress } from '../store/ProgressStore';
 
-export function SpeakButton({ text, rate = 0.75, src, label, className, size = 'md' }: {
-  text: string; rate?: number; src?: string; label?: string; className?: string; size?: 'sm' | 'md' | 'lg';
+export function SpeakButton({ text, rate = 0.75, src, seg, label, className, size = 'md' }: {
+  text: string; rate?: number; src?: string; seg?: Seg; label?: string; className?: string; size?: 'sm' | 'md' | 'lg';
 }) {
   const [busy, setBusy] = useState(false);
   const dim = { sm: 'h-9 w-9 text-base', md: 'h-11 w-11 text-lg', lg: 'h-16 w-16 text-3xl' }[size];
@@ -17,7 +17,7 @@ export function SpeakButton({ text, rate = 0.75, src, label, className, size = '
       onClick={async (e) => {
         e.stopPropagation();
         setBusy(true);
-        await say(text, rate, src);
+        await say(text, rate, src, seg);
         setBusy(false);
       }}
     >

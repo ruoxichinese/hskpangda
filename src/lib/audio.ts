@@ -41,23 +41,44 @@ export function speak(text: string, rate = 0.75): Promise<void> {
 }
 
 /** Phát file mp3. Trả về false nếu file không tồn tại. */
-export function playSrc(src: string, rate = 1, onTime?: (t: number) => void): Promise<boolean> {
+/** Một đoạn trong file nghe (giây): dùng để nghe riêng từng câu của bài khoá */
+export interface Seg { start: number; end?: number }
+
+export function playSrc(src: string, rate = 1, onTime?: (t: number) => void, seg?: Seg): Promise<boolean> {
   if (missing.has(src)) return Promise.resolve(false);
   return new Promise((resolve) => {
     const a = new Audio(import.meta.env.BASE_URL + src.replace(/^\//, ''));
+    a.preload = 'auto';
     a.playbackRate = rate;
     current = a;
-    a.onended = () => resolve(true);
-    a.onerror = () => { missing.add(src); resolve(false); };
+    let done = false;
+    let timer: ReturnType<typeof setInterval> | undefined;
+    const finish = (ok: boolean) => { if (done) return; done = true; if (timer) clearInterval(timer); resolve(ok); };
+    a.onended = () => finish(true);
+    a.onpause = () => { if (current !== a) finish(true); }; // bị stopAll() dừng
+    a.onerror = () => { missing.add(src); finish(false); };
     if (onTime) a.ontimeupdate = () => onTime(a.currentTime);
-    a.play().catch(() => { missing.add(src); resolve(false); });
+    const start = () => {
+      if (seg) {
+        a.currentTime = seg.start;
+        if (seg.end !== undefined) {
+          const end = seg.end;
+          timer = setInterval(() => { if (a.currentTime >= end - 0.05) { a.pause(); finish(true); } }, 40);
+        }
+      }
+      a.play().catch(() => { missing.add(src); finish(false); });
+    };
+    if (seg) { if (a.readyState >= 1) start(); else a.addEventListener('loadedmetadata', start, { once: true }); }
+    else start();
   });
 }
 
 /** Đọc một câu: thử mp3 trước, không có thì TTS */
-export async function say(text: string, rate = 0.75, src?: string) {
+export async function say(text: string, rate = 0.75, src?: string, seg?: Seg) {
   stopAll();
-  if (src && (await playSrc(src, rate / 0.75 > 1 ? 1 : rate / 0.75))) return;
+  const my = token;
+  if (src && (await playSrc(src, rate / 0.75 > 1 ? 1 : rate / 0.75, undefined, seg))) return;
+  if (my !== token) return; // đã bị dừng trong lúc phát
   await speak(text, rate);
 }
 
