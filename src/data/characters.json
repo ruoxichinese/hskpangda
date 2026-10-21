@@ -127,5 +127,14 @@
     "setting": "group",
     "color": "#718096",
     "desc_vi": "Các bạn sinh viên trong lớp cô Vương."
+  },
+  {
+    "id": "liuyeye",
+    "zh": "刘爷爷",
+    "pinyin": "Liú yéye",
+    "vi_name": "Ông Lưu",
+    "setting": "china",
+    "color": "#8B5E34",
+    "desc_vi": "Bố của Lưu Minh, ông nội của Tiểu Tuyết và Tiểu Minh. Hiền hậu, mến khách."
   }
 ]

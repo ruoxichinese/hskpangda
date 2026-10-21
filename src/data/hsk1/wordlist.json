@@ -945,6 +945,131 @@
    "zh": "这里",
    "pinyin": "zhèlǐ",
    "vi": "ở đây"
+  },
+  {
+   "zh": "干净",
+   "pinyin": "gānjìng",
+   "vi": "sạch sẽ"
+  },
+  {
+   "zh": "那边",
+   "pinyin": "nàbiān",
+   "vi": "bên kia"
+  },
+  {
+   "zh": "这边",
+   "pinyin": "zhèbiān",
+   "vi": "bên này"
+  },
+  {
+   "zh": "超市",
+   "pinyin": "chāoshì",
+   "vi": "siêu thị"
+  },
+  {
+   "zh": "生病",
+   "pinyin": "shēngbìng",
+   "vi": "bị ốm"
+  },
+  {
+   "zh": "它",
+   "pinyin": "tā",
+   "vi": "nó (vật)"
+  },
+  {
+   "zh": "今年",
+   "pinyin": "jīnnián",
+   "vi": "năm nay"
+  },
+  {
+   "zh": "前",
+   "pinyin": "qián",
+   "vi": "trước"
+  },
+  {
+   "zh": "爸",
+   "pinyin": "bà",
+   "vi": "bố"
+  },
+  {
+   "zh": "妈",
+   "pinyin": "mā",
+   "vi": "mẹ"
+  },
+  {
+   "zh": "岁",
+   "pinyin": "suì",
+   "vi": "tuổi"
+  },
+  {
+   "zh": "进",
+   "pinyin": "jìn",
+   "vi": "vào"
+  },
+  {
+   "zh": "牛奶",
+   "pinyin": "niúnǎi",
+   "vi": "sữa bò"
+  },
+  {
+   "zh": "只",
+   "pinyin": "zhī",
+   "vi": "con (lượng từ)"
+  },
+  {
+   "zh": "猫",
+   "pinyin": "māo",
+   "vi": "con mèo"
+  },
+  {
+   "zh": "狗",
+   "pinyin": "gǒu",
+   "vi": "con chó"
+  },
+  {
+   "zh": "电脑",
+   "pinyin": "diànnǎo",
+   "vi": "máy tính"
+  },
+  {
+   "zh": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "vi": "chuối"
+  },
+  {
+   "zh": "西瓜",
+   "pinyin": "xīguā",
+   "vi": "dưa hấu"
+  },
+  {
+   "zh": "祝",
+   "pinyin": "zhù",
+   "vi": "chúc"
+  },
+  {
+   "zh": "高兴",
+   "pinyin": "gāoxìng",
+   "vi": "vui"
+  },
+  {
+   "zh": "下边",
+   "pinyin": "xiàbian",
+   "vi": "phía dưới"
+  },
+  {
+   "zh": "上边",
+   "pinyin": "shàngbian",
+   "vi": "phía trên"
+  },
+  {
+   "zh": "睡",
+   "pinyin": "shuì",
+   "vi": "ngủ"
+  },
+  {
+   "zh": "觉",
+   "pinyin": "jiào",
+   "vi": "giấc ngủ"
   }
  ]
 }
