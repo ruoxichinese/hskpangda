@@ -165,6 +165,35 @@ Khoá *anon public* được phép đưa lên web. Dữ liệu được bảo v�
 
 File `.github/workflows/deploy.yml` tự chạy test, build và đăng mỗi khi đẩy code lên nhánh `main`. Bật trong **Settings → Pages → Source: GitHub Actions**.
 
+## Đề thi thử (mô phỏng thi trên máy)
+
+Mỗi cấp có thể có đề thi thử trong `src/data/<cấp>/exams/*.json`. Trang lộ trình tự hiện thẻ “Thi thử cuối khoá”. Phòng thi mở toàn màn hình (không có menu):
+- Nghe: file nghe tự phát **một lần**, không dừng, không tua, không nghe lại. Câu hỏi tự chuyển theo mốc `start` (giây) của từng câu. Tải lại trang thì phát tiếp từ thời điểm hiện tại.
+- Sau phần Nghe có `listeningReviewSeconds` giây kiểm tra lại. Đọc và Viết đếm ngược theo `seconds`. Hết giờ tự chuyển phần, không quay lại được.
+- Không pinyin, không bản dịch. Chấm điểm thang 100 mỗi phần, đạt khi ≥ `passPercent`% tổng điểm. Điểm cao nhất được đồng bộ lên trang giáo viên.
+
+Dạng câu (`kind`): `pic3` (3 tranh A–C), `bank` (chọn A–F trong `bank` của phần: tranh, từ hoặc câu), `text3` (3 lựa chọn chữ, có thể kèm `text` và `question`), `component` (chọn bộ phận còn thiếu của chữ), `fillChar` (điền một chữ Hán vào chỗ có `（pinyin）`).
+
+Đặt file nghe vào `public/audio/<cấp>/exam/` (nên nén mono 64 kbps cho nhẹ). Tìm mốc thời gian từng câu bằng ffmpeg:
+
+```
+ffmpeg -i de-thi.mp3 -af silencedetect=noise=-35dB:d=2.5 -f null - 2>&1 | grep silence_end
+```
+
+Mỗi `silence_end` là lúc tiếng đọc bắt đầu lại sau một khoảng lặng; khoảng lặng dài (8–15 giây) là thời gian làm câu trước. `npm test` kiểm tra số câu (25/25/10), đáp án hợp lệ và mốc thời gian tăng dần.
+
+### Đề thi có mã (thi trực tuyến)
+
+Đặt `"requireCode": true` trong file đề (đề thi thử HSK 2 đã bật sẵn). Khi đó:
+1. Giáo viên vào **Giáo viên → chọn lớp → Đợt thi có mã**, chọn đề, giờ mở, giờ đóng, số lượt, có cho xem đáp án không, rồi bấm **Tạo mã thi**.
+2. Học sinh phải đăng nhập, ở trong lớp đó, nhập đúng mã trong khung giờ mới vào được phòng thi. Mã được kiểm tra trên máy chủ (`start_exam`), không nằm trong code website.
+3. Nộp bài gửi câu trả lời về máy chủ (`submit_exam`, nhận muộn tối đa 15 phút sau giờ đóng). Trang giáo viên **tự chấm lại** từ câu trả lời, nên học sinh không sửa được điểm. Mất mạng lúc nộp thì bài được giữ lại để gửi lại.
+4. Giáo viên xem ai chưa vào thi, đang làm, đã nộp; đóng sớm; ẩn hoặc mở đáp án; cho thi lại (xoá lượt cũ); xuất CSV.
+
+Cần chạy lại `supabase/schema.sql` trong SQL Editor để tạo bảng `exam_windows`, `exam_attempts`.
+
+Giới hạn: nội dung đề và đáp án vẫn nằm trong code website, nên một học sinh rành kỹ thuật có thể mở công cụ lập trình của trình duyệt để xem. Với thi trực tuyến có giám sát qua camera thì đủ dùng. Muốn chặt hơn, đặt kho GitHub ở chế độ riêng tư.
+
 ## Ghi chú kỹ thuật
 
 - **Tiến độ** lưu trong localStorage với các khoá `progress.<cấp>`, `pangda.global`, `pangda.settings`, `pangda.theme`, `pangda.mode`. Trang Cài đặt có xuất/nhập file JSON. Phiên đăng nhập Supabase lưu ở khoá `sb-pangda-auth` (không nằm trong file sao lưu).
