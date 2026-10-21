@@ -2,19 +2,73 @@
   "id": 1,
   "level": "hsk2",
   "status": "ready",
-  "title": { "zh": "她请我们吃了北京烤鸭", "pinyin": "Tā qǐng wǒmen chīle Běijīng Kǎoyā", "vi": "Chị ấy mời chúng tôi ăn vịt quay Bắc Kinh" },
-  "grammarTopics_vi": ["Trợ từ ngữ khí 吧 (2): đoán, ước chừng", "Câu “是……的”: nhấn mạnh thời gian, nơi chốn, cách thức", "Câu kiêm ngữ với 请 / 让 / 叫"],
+  "title": {
+    "zh": "她请我们吃了北京烤鸭",
+    "pinyin": "Tā qǐng wǒmen chīle Běijīng Kǎoyā",
+    "vi": "Chị ấy mời chúng tôi ăn vịt quay Bắc Kinh"
+  },
+  "grammarTopics_vi": [
+    "Trợ từ ngữ khí 吧 (2): đoán, ước chừng",
+    "Câu “是……的”: nhấn mạnh thời gian, nơi chốn, cách thức",
+    "Câu kiêm ngữ với 请 / 让 / 叫"
+  ],
   "objectives": [
-    { "id": "o1", "vi": "Nghe hiểu và dùng 请, 让, 叫 để nhờ, bảo người khác làm việc", "doneWhen": ["text-1", "text-3"] },
-    { "id": "o2", "vi": "Dùng 吧 cuối câu hỏi để phỏng đoán", "doneWhen": ["text-1"] },
-    { "id": "o3", "vi": "Dùng “是……的” để nhấn mạnh thời gian, nơi chốn, cách thức của việc đã xảy ra", "doneWhen": ["text-2", "text-3"] },
-    { "id": "o4", "vi": "Biết món vịt quay Bắc Kinh và cách ăn đúng điệu", "doneWhen": ["culture"] }
+    {
+      "id": "o1",
+      "vi": "Nghe hiểu và dùng 请, 让, 叫 để nhờ, bảo người khác làm việc",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
+    },
+    {
+      "id": "o2",
+      "vi": "Dùng 吧 cuối câu hỏi để phỏng đoán",
+      "doneWhen": [
+        "text-1"
+      ]
+    },
+    {
+      "id": "o3",
+      "vi": "Dùng “是……的” để nhấn mạnh thời gian, nơi chốn, cách thức của việc đã xảy ra",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Biết món vịt quay Bắc Kinh và cách ăn đúng điệu",
+      "doneWhen": [
+        "culture"
+      ]
+    }
   ],
   "warmup": [
-    { "emoji": "😅", "word": "不好意思", "pinyin": "bù hǎoyìsi", "vi": "ngại quá" },
-    { "emoji": "🧳", "word": "旅游", "pinyin": "lǚyóu", "vi": "du lịch" },
-    { "emoji": "🤝", "word": "介绍", "pinyin": "jièshào", "vi": "giới thiệu" },
-    { "emoji": "🙌", "word": "帮忙", "pinyin": "bāngmáng", "vi": "giúp đỡ" }
+    {
+      "emoji": "😅",
+      "word": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "vi": "ngại quá"
+    },
+    {
+      "emoji": "🧳",
+      "word": "旅游",
+      "pinyin": "lǚyóu",
+      "vi": "du lịch"
+    },
+    {
+      "emoji": "🤝",
+      "word": "介绍",
+      "pinyin": "jièshào",
+      "vi": "giới thiệu"
+    },
+    {
+      "emoji": "🙌",
+      "word": "帮忙",
+      "pinyin": "bāngmáng",
+      "vi": "giúp đỡ"
+    }
   ],
   "texts": [
     {
@@ -24,23 +78,104 @@
       "audio": "audio/hsk2/1-1.mp3",
       "vocabAudio": "audio/hsk2/1-2.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Ai ra sân bay đón Gia Nguyệt?", "options": ["王一飞", "王一雪", "安妮"], "answer": 1 },
-        { "prompt_vi": "Ai đã gọi điện cho Nhất Tuyết?", "options": ["一飞", "安妮", "白家月"], "answer": 0 }
+        {
+          "prompt_vi": "Ai đến đón Bạch Gia Nguyệt?",
+          "options": [
+            "王一飞",
+            "王一雪",
+            "安妮"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Vương Nhất Phi đã gọi điện cho ai?",
+          "options": [
+            "安妮",
+            "白家月",
+            "王一雪"
+          ],
+          "answer": 2
+        }
       ],
       "lines": [
-        { "speaker": "baijiayue", "zh": "您好！请问，您是王老师的姐姐吗？", "vi": "Chào chị! Cho em hỏi, chị là chị gái của cô Vương phải không ạ?" },
-        { "speaker": "wangyixue", "zh": "对，我是王一雪。你们就是一飞的学生吧？", "vi": "Đúng rồi, chị là Vương Nhất Tuyết. Hai em chính là học trò của Nhất Phi phải không?", "highlight": ["吧"] },
-        { "speaker": "baijiayue", "zh": "是的，我叫白家月，她叫安妮。", "vi": "Vâng ạ, em là Bạch Gia Nguyệt, bạn này là Annie." },
-        { "speaker": "wangyixue", "zh": "一飞给我打电话了，让我来接你们。", "vi": "Nhất Phi đã gọi điện cho chị, bảo chị ra đón hai em.", "highlight": ["让"], "tipRef": 0 },
-        { "speaker": "anni", "zh": "太谢谢您了！", "vi": "Cảm ơn chị nhiều lắm ạ!" },
-        { "speaker": "wangyixue", "zh": "不客气，车就在外边。", "vi": "Không có gì, xe ở ngay bên ngoài." }
+        {
+          "speaker": "baijiayue",
+          "zh": "请问，您是王一飞老师的姐姐吗？",
+          "vi": "Xin hỏi, chị có phải là chị gái của cô Vương Nhất Phi không ạ?",
+          "t": 0.58
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "是的，你们就是她的学生吧？",
+          "vi": "Đúng rồi, các em là học trò của em ấy phải không?",
+          "t": 5.59
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "对。我是白家月，她是安妮。",
+          "vi": "Vâng. Em là Bạch Gia Nguyệt, bạn này là Annie.",
+          "t": 9.87
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你们好，我叫王一雪。一飞给我打电话了，让我来接你们。",
+          "vi": "Chào các em, chị tên là Vương Nhất Tuyết. Nhất Phi gọi điện cho chị, bảo chị đến đón các em.",
+          "t": 15.63
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢您。",
+          "vi": "(Gia Nguyệt và Annie) Cảm ơn chị ạ.",
+          "t": 23.74
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "不客气。",
+          "vi": "Không có gì.",
+          "t": 25.83
+        }
       ],
-      "tips": [{ "vi": "给 + người + 打电话 = gọi điện cho ai. Chú ý: người nhận cuộc gọi đứng TRƯỚC động từ, khác tiếng Việt “gọi điện cho ai”." }],
       "vocab": [
-        { "zh": "就", "pinyin": "jiù", "pos": "adv.", "vi": "chính là, ngay (nhấn mạnh)", "example": { "zh": "车就在外边。", "vi": "Xe ở ngay bên ngoài." } },
-        { "zh": "给", "pinyin": "gěi", "pos": "prep.", "vi": "cho, với (giới thiệu người nhận)", "example": { "zh": "我给妈妈打电话。", "vi": "Tôi gọi điện cho mẹ." } },
-        { "zh": "让", "pinyin": "ràng", "pos": "v.", "vi": "để, bảo, cho phép", "example": { "zh": "老师让我们说中文。", "vi": "Cô giáo bảo chúng tôi nói tiếng Trung." } },
-        { "zh": "接", "pinyin": "jiē", "pos": "v.", "vi": "đón", "example": { "zh": "我去机场接朋友。", "vi": "Tôi ra sân bay đón bạn." } }
+        {
+          "zh": "就",
+          "pinyin": "jiù",
+          "pos": "adv.",
+          "vi": "chính là, ngay (nhấn mạnh)",
+          "example": {
+            "zh": "车就在外边。",
+            "vi": "Xe ở ngay bên ngoài."
+          }
+        },
+        {
+          "zh": "给",
+          "pinyin": "gěi",
+          "pos": "prep.",
+          "vi": "cho, với (giới thiệu người nhận)",
+          "example": {
+            "zh": "我给妈妈打电话。",
+            "vi": "Tôi gọi điện cho mẹ."
+          }
+        },
+        {
+          "zh": "让",
+          "pinyin": "ràng",
+          "pos": "v.",
+          "vi": "để, bảo, cho phép",
+          "example": {
+            "zh": "老师让我们说中文。",
+            "vi": "Cô giáo bảo chúng tôi nói tiếng Trung."
+          }
+        },
+        {
+          "zh": "接",
+          "pinyin": "jiē",
+          "pos": "v.",
+          "vi": "đón",
+          "example": {
+            "zh": "我去机场接朋友。",
+            "vi": "Tôi ra sân bay đón bạn."
+          }
+        }
       ],
       "grammar": [
         {
@@ -48,19 +183,57 @@
           "title_zh": "语气助词“吧”（2）",
           "title_vi": "Trợ từ 吧 (2): hỏi để xác nhận điều mình đoán",
           "formula": [
-            [{ "zh": "你们就是她的学生", "label": "Điều mình đoán", "role": "S" }, { "zh": "吧", "label": "…phải không?", "role": "Q" }, { "zh": "？", "label": "", "role": "X" }]
+            [
+              {
+                "zh": "你们就是她的学生",
+                "label": "Điều mình đoán",
+                "role": "S"
+              },
+              {
+                "zh": "吧",
+                "label": "…phải không?",
+                "role": "Q"
+              },
+              {
+                "zh": "？",
+                "label": "",
+                "role": "X"
+              }
+            ]
           ],
           "explain_vi": "Đặt 吧 cuối câu hỏi khi bạn đã đoán được câu trả lời, chỉ muốn người kia xác nhận – giống “… phải không?”, “… chứ nhỉ?”. Khác với 吗 (hỏi thật sự, chưa biết đáp án). Ở HSK 1 bạn đã gặp 吧 (1) dùng để đề nghị: 我们走吧！",
           "examples": [
-            { "zh": "你们就是她的学生吧？", "vi": "Các em chính là học trò của cô ấy phải không?" },
-            { "zh": "她唱歌很好听吧？", "vi": "Cô ấy hát hay lắm nhỉ?" },
-            { "zh": "陈天中是泰国人吧？", "vi": "Thiên Trung là người Thái phải không?" }
+            {
+              "zh": "你们就是她的学生吧？",
+              "vi": "Các em chính là học trò của cô ấy phải không?"
+            },
+            {
+              "zh": "她唱歌很好听吧？",
+              "vi": "Cô ấy hát hay lắm nhỉ?"
+            },
+            {
+              "zh": "陈天中是泰国人吧？",
+              "vi": "Thiên Trung là người Thái phải không?"
+            }
           ],
           "mistakes": [
-            { "wrong": "你是哪国人吧？", "right": "你是哪国人？", "why_vi": "Đã có từ để hỏi (哪) thì không thêm 吧 hay 吗." }
+            {
+              "wrong": "你是哪国人吧？",
+              "right": "你是哪国人？",
+              "why_vi": "Đã có từ để hỏi (哪) thì không thêm 吧 hay 吗."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "Bạn đoán người kia là người Pháp và muốn xác nhận. Câu nào tự nhiên nhất?", "options": ["你是法国人吧？", "你是法国人吗？", "你是哪国人吧？"], "answer": 0, "explain_vi": "Đã đoán trước → dùng 吧." }
+            {
+              "prompt_vi": "Bạn đoán người kia là người Pháp và muốn xác nhận. Câu nào tự nhiên nhất?",
+              "options": [
+                "你是法国人吧？",
+                "你是法国人吗？",
+                "你是哪国人吧？"
+              ],
+              "answer": 0,
+              "explain_vi": "Đã đoán trước → dùng 吧."
+            }
           ]
         }
       ],
@@ -73,20 +246,84 @@
       "audio": "audio/hsk2/1-3.mp3",
       "vocabAudio": "audio/hsk2/1-4.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Gia Nguyệt đến Bắc Kinh lần thứ mấy?", "options": ["第一次", "第二次", "第三次"], "answer": 0 },
-        { "prompt_vi": "Hai bạn đến Bắc Kinh để làm gì?", "options": ["学中文", "旅游", "工作"], "answer": 1 }
+        {
+          "prompt_vi": "Đây là lần thứ mấy Bạch Gia Nguyệt đến Bắc Kinh?",
+          "options": [
+            "第一次",
+            "第四次",
+            "第七次"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Gia Nguyệt và Annie đến Bắc Kinh để làm gì?",
+          "options": [
+            "旅游",
+            "学中文",
+            "找王一雪"
+          ],
+          "answer": 0
+        }
       ],
       "lines": [
-        { "speaker": "wangyixue", "zh": "你们是第一次来北京吗？", "vi": "Đây là lần đầu các em đến Bắc Kinh à?" },
-        { "speaker": "anni", "zh": "是的，我们都是第一次来。", "vi": "Vâng, cả hai bọn em đều đến lần đầu ạ." },
-        { "speaker": "wangyixue", "zh": "你们是来学中文的吧？", "vi": "Các em đến để học tiếng Trung phải không?" },
-        { "speaker": "baijiayue", "zh": "不是，我们是来旅游的。", "vi": "Không ạ, bọn em đến để du lịch.", "highlight": ["是", "的"] },
-        { "speaker": "wangyixue", "zh": "我这几天不太忙，你们有事就给我打电话。", "vi": "Mấy hôm nay chị không bận lắm, có việc gì thì các em cứ gọi cho chị." },
-        { "speaker": "anni", "zh": "好的，谢谢您！", "vi": "Vâng, cảm ơn chị ạ!" }
+        {
+          "speaker": "wangyixue",
+          "zh": "你们是第一次来北京吗？",
+          "vi": "Đây là lần đầu các em đến Bắc Kinh à?",
+          "t": 0.38
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "是的，我们都是第一次来。",
+          "vi": "Vâng, cả hai bọn em đều đến lần đầu.",
+          "t": 3.47
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你们是来学中文的吗？",
+          "vi": "Các em đến để học tiếng Trung à?",
+          "t": 7.67
+        },
+        {
+          "speaker": "anni",
+          "zh": "不是，我们是来旅游的。",
+          "vi": "Không ạ, bọn em đến để du lịch.",
+          "t": 10.82
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我这几天都不忙，你们有事就找我。",
+          "vi": "Mấy hôm nay chị đều không bận, các em có việc gì thì cứ tìm chị.",
+          "t": 14.84
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好的，谢谢您。",
+          "vi": "Vâng, cảm ơn chị.",
+          "t": 20.21
+        }
       ],
       "vocab": [
-        { "zh": "次", "pinyin": "cì", "pos": "m.", "vi": "lần (lượng từ chỉ số lần)", "example": { "zh": "我是第一次来北京。", "vi": "Đây là lần đầu tôi đến Bắc Kinh." } },
-        { "zh": "旅游", "pinyin": "lǚyóu", "pos": "v.", "vi": "du lịch", "example": { "zh": "我们是来旅游的。", "vi": "Chúng tôi đến để du lịch." } }
+        {
+          "zh": "次",
+          "pinyin": "cì",
+          "pos": "m.",
+          "vi": "lần (lượng từ chỉ số lần)",
+          "example": {
+            "zh": "我是第一次来北京。",
+            "vi": "Đây là lần đầu tôi đến Bắc Kinh."
+          }
+        },
+        {
+          "zh": "旅游",
+          "pinyin": "lǚyóu",
+          "pos": "v.",
+          "vi": "du lịch",
+          "example": {
+            "zh": "我们是来旅游的。",
+            "vi": "Chúng tôi đến để du lịch."
+          }
+        }
       ],
       "grammar": [
         {
@@ -94,22 +331,102 @@
           "title_zh": "“是……的”句",
           "title_vi": "Câu “是……的”",
           "formula": [
-            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "是", "label": "", "role": "PART" }, { "zh": "昨天 / 坐飞机 / 来旅游", "label": "Điều muốn nhấn mạnh", "role": "ADV" }, { "zh": "来", "label": "Động từ", "role": "V" }, { "zh": "的", "label": "", "role": "PART" }],
-            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "不是", "label": "phủ định", "role": "ADV" }, { "zh": "坐出租车", "label": "Điều muốn nhấn mạnh", "role": "ADV" }, { "zh": "来", "label": "Động từ", "role": "V" }, { "zh": "的", "label": "", "role": "PART" }]
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "是",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "昨天 / 坐飞机 / 来旅游",
+                "label": "Điều muốn nhấn mạnh",
+                "role": "ADV"
+              },
+              {
+                "zh": "来",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "的",
+                "label": "",
+                "role": "PART"
+              }
+            ],
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "不是",
+                "label": "phủ định",
+                "role": "ADV"
+              },
+              {
+                "zh": "坐出租车",
+                "label": "Điều muốn nhấn mạnh",
+                "role": "ADV"
+              },
+              {
+                "zh": "来",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "的",
+                "label": "",
+                "role": "PART"
+              }
+            ]
           ],
-          "formulaNote": ["Khẳng định", "Phủ định"],
+          "formulaNote": [
+            "Khẳng định",
+            "Phủ định"
+          ],
           "explain_vi": "Khi một việc ĐÃ xảy ra và cả hai người đều biết, ta dùng “是……的” để nhấn mạnh thông tin phụ: khi nào, ở đâu, bằng cách gì, ai làm, để làm gì. Thông tin cần nhấn mạnh đặt ngay sau 是. Câu khẳng định và câu hỏi có thể bỏ 是, nhưng câu phủ định thì phải giữ 不是.",
           "examples": [
-            { "zh": "我们是来旅游的。", "vi": "Chúng tôi đến (là) để du lịch." },
-            { "zh": "你是什么时候到的？", "vi": "Bạn đến lúc nào thế?" },
-            { "zh": "我不是坐出租车来的。", "vi": "Tôi không đi taxi đến." }
+            {
+              "zh": "我们是来旅游的。",
+              "vi": "Chúng tôi đến (là) để du lịch."
+            },
+            {
+              "zh": "你是什么时候到的？",
+              "vi": "Bạn đến lúc nào thế?"
+            },
+            {
+              "zh": "我不是坐出租车来的。",
+              "vi": "Tôi không đi taxi đến."
+            }
           ],
           "mistakes": [
-            { "wrong": "我是昨天到了。", "right": "我是昨天到的。", "why_vi": "Câu “是……的” kết thúc bằng 的, không dùng 了." },
-            { "wrong": "我不坐出租车来的。", "right": "我不是坐出租车来的。", "why_vi": "Câu phủ định không được bỏ 是: phải là 不是……的." }
+            {
+              "wrong": "我是昨天到了。",
+              "right": "我是昨天到的。",
+              "why_vi": "Câu “是……的” kết thúc bằng 的, không dùng 了."
+            },
+            {
+              "wrong": "我不坐出租车来的。",
+              "right": "我不是坐出租车来的。",
+              "why_vi": "Câu phủ định không được bỏ 是: phải là 不是……的."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "Hỏi “Bạn đến bằng gì?” (việc đã xảy ra)", "options": ["你是怎么来的？", "你怎么来了？", "你是怎么来了？"], "answer": 0 }
+            {
+              "prompt_vi": "Hỏi “Bạn đến bằng gì?” (việc đã xảy ra)",
+              "options": [
+                "你是怎么来的？",
+                "你怎么来了？",
+                "你是怎么来了？"
+              ],
+              "answer": 0
+            }
           ]
         }
       ],
@@ -122,21 +439,105 @@
       "audio": "audio/hsk2/1-5.mp3",
       "vocabAudio": "audio/hsk2/1-6.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Thiên Trung gọi cho Gia Nguyệt để làm gì?", "options": ["请她帮忙", "请她吃饭", "让她接朋友"], "answer": 0 },
-        { "prompt_vi": "Gia Nguyệt đến Bắc Kinh lúc nào?", "options": ["昨天晚上", "今天上午", "今天下午"], "answer": 0 }
+        {
+          "prompt_vi": "Vì sao Trần Thiên Trung gọi điện cho Gia Nguyệt?",
+          "options": [
+            "找她帮忙",
+            "请她吃饭",
+            "让她接个朋友"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Gia Nguyệt đến Bắc Kinh lúc nào?",
+          "options": [
+            "昨天中午",
+            "昨天晚上",
+            "今天早上"
+          ],
+          "answer": 2
+        }
       ],
       "lines": [
-        { "speaker": "chentianzhong", "zh": "喂，家月！明天你有时间吗？我想请你帮我一个忙。", "vi": "Alô, Gia Nguyệt! Mai cậu có rảnh không? Mình muốn nhờ cậu giúp một việc.", "highlight": ["请"] },
-        { "speaker": "baijiayue", "zh": "天中，不好意思，我已经在北京了。", "vi": "Thiên Trung, ngại quá, mình đã ở Bắc Kinh rồi." },
-        { "speaker": "chentianzhong", "zh": "你是什么时候去的？", "vi": "Cậu đi lúc nào thế?" },
-        { "speaker": "baijiayue", "zh": "我是昨天晚上到的。你有事可以叫李文帮忙，他还在学校。", "vi": "Tối qua mình đến nơi. Có việc thì cậu nhờ Lý Văn giúp nhé, cậu ấy vẫn ở trường.", "highlight": ["叫"] },
-        { "speaker": "chentianzhong", "zh": "好，那我给他打电话。再见！", "vi": "Được, vậy mình gọi cho cậu ấy. Tạm biệt!" }
+        {
+          "speaker": "chentianzhong",
+          "zh": "喂，家月，你明天有时间吗？我想请你帮个忙。",
+          "vi": "Alô, Gia Nguyệt, mai cậu có rảnh không? Mình muốn nhờ cậu một việc.",
+          "t": 0.29
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "不好意思，天中，我已经到北京了。",
+          "vi": "Ngại quá, Thiên Trung, mình đến Bắc Kinh rồi.",
+          "t": 7.47
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "你是什么时候到的？",
+          "vi": "Cậu đến lúc nào thế?",
+          "t": 12.83
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我是今天早上到的。你有事可以叫李文帮忙，他还在学校呢。",
+          "vi": "Mình đến sáng nay. Cậu có việc thì nhờ Lý Văn nhé, cậu ấy vẫn ở trường đấy.",
+          "t": 15.98
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "好的，那我给他打个电话。",
+          "vi": "Được, vậy mình gọi điện cho cậu ấy.",
+          "t": 24.14
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好，再见！",
+          "vi": "Ừ, tạm biệt!",
+          "t": 28.25
+        }
       ],
       "vocab": [
-        { "zh": "帮忙", "pinyin": "bāngmáng", "pos": "v.", "vi": "giúp đỡ", "example": { "zh": "我想请你帮个忙。", "vi": "Tôi muốn nhờ bạn giúp một chút." }, "note_vi": "Từ ly hợp: có thể tách ra 帮个忙, 帮我一个忙." },
-        { "zh": "不好意思", "pinyin": "bù hǎoyìsi", "pos": "phrase", "vi": "ngại quá, xin lỗi (nhẹ nhàng)", "example": { "zh": "不好意思，我明天没有时间。", "vi": "Ngại quá, mai tôi không rảnh." } },
-        { "zh": "已经", "pinyin": "yǐjīng", "pos": "adv.", "vi": "đã", "example": { "zh": "我已经到北京了。", "vi": "Tôi đã đến Bắc Kinh rồi." } },
-        { "zh": "那", "pinyin": "nà", "pos": "conj.", "vi": "vậy thì, thế thì", "example": { "zh": "那我给他打电话。", "vi": "Vậy tôi gọi cho anh ấy." } }
+        {
+          "zh": "帮忙",
+          "pinyin": "bāngmáng",
+          "pos": "v.",
+          "vi": "giúp đỡ",
+          "example": {
+            "zh": "我想请你帮个忙。",
+            "vi": "Tôi muốn nhờ bạn giúp một chút."
+          },
+          "note_vi": "Từ ly hợp: có thể tách ra 帮个忙, 帮我一个忙."
+        },
+        {
+          "zh": "不好意思",
+          "pinyin": "bù hǎoyìsi",
+          "pos": "phrase",
+          "vi": "ngại quá, xin lỗi (nhẹ nhàng)",
+          "example": {
+            "zh": "不好意思，我明天没有时间。",
+            "vi": "Ngại quá, mai tôi không rảnh."
+          }
+        },
+        {
+          "zh": "已经",
+          "pinyin": "yǐjīng",
+          "pos": "adv.",
+          "vi": "đã",
+          "example": {
+            "zh": "我已经到北京了。",
+            "vi": "Tôi đã đến Bắc Kinh rồi."
+          }
+        },
+        {
+          "zh": "那",
+          "pinyin": "nà",
+          "pos": "conj.",
+          "vi": "vậy thì, thế thì",
+          "example": {
+            "zh": "那我给他打电话。",
+            "vi": "Vậy tôi gọi cho anh ấy."
+          }
+        }
       ],
       "grammar": [
         {
@@ -144,21 +545,75 @@
           "title_zh": "兼语句",
           "title_vi": "Câu kiêm ngữ với 请 / 让 / 叫",
           "formula": [
-            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "请 / 让 / 叫", "label": "Động từ 1", "role": "V" }, { "zh": "你", "label": "Tân ngữ = chủ ngữ của Đ2", "role": "O" }, { "zh": "帮个忙", "label": "Động từ 2", "role": "V" }]
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "请 / 让 / 叫",
+                "label": "Động từ 1",
+                "role": "V"
+              },
+              {
+                "zh": "你",
+                "label": "Tân ngữ = chủ ngữ của Đ2",
+                "role": "O"
+              },
+              {
+                "zh": "帮个忙",
+                "label": "Động từ 2",
+                "role": "V"
+              }
+            ]
           ],
           "explain_vi": "Tân ngữ của động từ thứ nhất đồng thời là người làm hành động thứ hai, nên gọi là “kiêm ngữ”. 请 = mời, nhờ (lịch sự); 让 = để, bảo (trung tính); 叫 = bảo, gọi (khẩu ngữ, hơi ra lệnh). Cấu trúc giống tiếng Việt: “Tôi nhờ bạn giúp”, “Mẹ bảo con về nhà”.",
           "examples": [
-            { "zh": "我想请你帮个忙。", "vi": "Tôi muốn nhờ bạn giúp một chút." },
-            { "zh": "王老师让我们说中文。", "vi": "Cô Vương bảo chúng tôi nói tiếng Trung." },
-            { "zh": "妈妈叫孩子们回家。", "vi": "Mẹ gọi bọn trẻ về nhà." }
+            {
+              "zh": "我想请你帮个忙。",
+              "vi": "Tôi muốn nhờ bạn giúp một chút."
+            },
+            {
+              "zh": "王老师让我们说中文。",
+              "vi": "Cô Vương bảo chúng tôi nói tiếng Trung."
+            },
+            {
+              "zh": "妈妈叫孩子们回家。",
+              "vi": "Mẹ gọi bọn trẻ về nhà."
+            }
           ],
           "mistakes": [
-            { "wrong": "老师让说我们中文。", "right": "老师让我们说中文。", "why_vi": "Người được bảo (我们) phải đứng ngay sau 让, rồi mới đến hành động." },
-            { "wrong": "她请吃饭我们。", "right": "她请我们吃饭。", "why_vi": "Đúng thứ tự: 请 + người + việc." }
+            {
+              "wrong": "老师让说我们中文。",
+              "right": "老师让我们说中文。",
+              "why_vi": "Người được bảo (我们) phải đứng ngay sau 让, rồi mới đến hành động."
+            },
+            {
+              "wrong": "她请吃饭我们。",
+              "right": "她请我们吃饭。",
+              "why_vi": "Đúng thứ tự: 请 + người + việc."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "“Chị ấy mời chúng tôi ăn vịt quay.”", "options": ["她请我们吃北京烤鸭。", "她请吃我们北京烤鸭。", "我们请她吃北京烤鸭。"], "answer": 0 },
-            { "prompt_vi": "Từ nào hợp với việc ra lệnh thân mật trong gia đình?", "options": ["请", "叫", "接"], "answer": 1 }
+            {
+              "prompt_vi": "“Chị ấy mời chúng tôi ăn vịt quay.”",
+              "options": [
+                "她请我们吃北京烤鸭。",
+                "她请吃我们北京烤鸭。",
+                "我们请她吃北京烤鸭。"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt_vi": "Từ nào hợp với việc ra lệnh thân mật trong gia đình?",
+              "options": [
+                "请",
+                "叫",
+                "接"
+              ],
+              "answer": 1
+            }
           ]
         }
       ],
@@ -172,36 +627,239 @@
       "audio": "audio/hsk2/1-7.mp3",
       "vocabAudio": "audio/hsk2/1-8.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Nhất Tuyết mời hai bạn ăn gì?", "options": ["米饭", "北京烤鸭", "苹果"], "answer": 1 },
-        { "prompt_vi": "Vì sao đôi khi hai bạn không hiểu ý chị Nhất Tuyết?", "options": ["中文不太好", "她说英文", "她不太忙"], "answer": 0 }
+        {
+          "prompt_vi": "Chị gái cô Vương mời Gia Nguyệt ăn gì?",
+          "options": [
+            "面包",
+            "饺子",
+            "北京烤鸭"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt có lúc không hiểu ý chị gái cô Vương?",
+          "options": [
+            "她不会中文",
+            "她的中文不太好",
+            "没有王老师帮忙"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "baijiayue", "zh": "王老师，您好！", "vi": "Cô Vương ơi, em chào cô!" },
-        { "speaker": "baijiayue", "zh": "我们今天上午到北京了，是您姐姐来接的我们。", "vi": "Sáng nay bọn em đã đến Bắc Kinh, chị gái cô ra đón bọn em." },
-        { "speaker": "baijiayue", "zh": "晚上她请我们吃了北京烤鸭，还给我们介绍了很多好玩的地方。", "vi": "Buổi tối chị ấy mời bọn em ăn vịt quay Bắc Kinh, còn giới thiệu cho bọn em nhiều chỗ thú vị." },
-        { "speaker": "baijiayue", "zh": "我们的中文不太好，有时不太懂她的意思。", "vi": "Tiếng Trung của bọn em chưa tốt lắm, đôi khi không hiểu lắm ý chị ấy." }
+        {
+          "speaker": "baijiayue",
+          "zh": "王老师，我们已经到北京了，是您姐姐来接的我们。",
+          "vi": "Cô Vương ơi, bọn em đã đến Bắc Kinh rồi, chị gái cô ra đón bọn em.",
+          "t": 0.38
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "她请我们吃了北京烤鸭，还给我们介绍了很多东西。",
+          "vi": "Chị ấy mời bọn em ăn vịt quay Bắc Kinh, còn giới thiệu cho bọn em rất nhiều thứ.",
+          "t": 6.6
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我们的中文不太好，有时不太懂她的意思。",
+          "vi": "Tiếng Trung của bọn em chưa tốt lắm, có lúc không hiểu lắm ý chị ấy.",
+          "t": 12.41
+        }
       ],
       "vocab": [
-        { "zh": "介绍", "pinyin": "jièshào", "pos": "v.", "vi": "giới thiệu", "example": { "zh": "我给你介绍一下，这是李文。", "vi": "Để tôi giới thiệu, đây là Lý Văn." } },
-        { "zh": "有时", "pinyin": "yǒushí", "pos": "adv.", "vi": "đôi khi, có lúc", "example": { "zh": "我有时在家吃饭。", "vi": "Thỉnh thoảng tôi ăn cơm ở nhà." } },
-        { "zh": "懂", "pinyin": "dǒng", "pos": "v.", "vi": "hiểu", "example": { "zh": "你懂我的意思吗？", "vi": "Bạn hiểu ý tôi không?" } },
-        { "zh": "意思", "pinyin": "yìsi", "pos": "n.", "vi": "ý nghĩa, ý", "example": { "zh": "这是什么意思？", "vi": "Cái này nghĩa là gì?" } },
-        { "zh": "北京烤鸭", "pinyin": "Běijīng Kǎoyā", "pos": "proper", "vi": "vịt quay Bắc Kinh", "proper": true, "example": { "zh": "她请我们吃了北京烤鸭。", "vi": "Chị ấy mời chúng tôi ăn vịt quay Bắc Kinh." } }
+        {
+          "zh": "介绍",
+          "pinyin": "jièshào",
+          "pos": "v.",
+          "vi": "giới thiệu",
+          "example": {
+            "zh": "我给你介绍一下，这是李文。",
+            "vi": "Để tôi giới thiệu, đây là Lý Văn."
+          }
+        },
+        {
+          "zh": "有时",
+          "pinyin": "yǒushí",
+          "pos": "adv.",
+          "vi": "đôi khi, có lúc",
+          "example": {
+            "zh": "我有时在家吃饭。",
+            "vi": "Thỉnh thoảng tôi ăn cơm ở nhà."
+          }
+        },
+        {
+          "zh": "懂",
+          "pinyin": "dǒng",
+          "pos": "v.",
+          "vi": "hiểu",
+          "example": {
+            "zh": "你懂我的意思吗？",
+            "vi": "Bạn hiểu ý tôi không?"
+          }
+        },
+        {
+          "zh": "意思",
+          "pinyin": "yìsi",
+          "pos": "n.",
+          "vi": "ý nghĩa, ý",
+          "example": {
+            "zh": "这是什么意思？",
+            "vi": "Cái này nghĩa là gì?"
+          }
+        },
+        {
+          "zh": "北京烤鸭",
+          "pinyin": "Běijīng Kǎoyā",
+          "pos": "proper",
+          "vi": "vịt quay Bắc Kinh",
+          "proper": true,
+          "example": {
+            "zh": "她请我们吃了北京烤鸭。",
+            "vi": "Chị ấy mời chúng tôi ăn vịt quay Bắc Kinh."
+          }
+        }
       ],
       "pangdaTip": "Câu 是您姐姐来接的我们 dùng “是……的” để nhấn mạnh AI ra đón. Tân ngữ 我们 có thể đứng sau 的 trong khẩu ngữ."
     }
   ],
   "exercises": [
-    { "id": "e1", "kind": "fill", "sentence": "我___到学校了，你在哪儿？", "bank": ["已经", "有时", "介绍"], "answer": "已经", "explain_vi": "已经……了 = đã … rồi." },
-    { "id": "e2", "kind": "fill", "sentence": "这个字是什么___？", "bank": ["意思", "帮忙", "旅游"], "answer": "意思" },
-    { "id": "e3", "kind": "fill", "sentence": "我来___一下，这是我朋友李文。", "bank": ["介绍", "接", "懂"], "answer": "介绍" },
-    { "id": "e4", "kind": "fill", "sentence": "我___在家吃饭，有时去饭店吃。", "bank": ["有时", "已经", "就"], "answer": "有时", "explain_vi": "有时……有时…… = lúc thì…, lúc thì…." },
-    { "id": "e5", "kind": "reorder", "tiles": ["请", "我们", "她", "吃饭", "了"], "answers": ["她请我们吃饭了"], "vi": "Chị ấy đã mời chúng tôi ăn cơm.", "explain_vi": "Câu kiêm ngữ: Chủ ngữ + 请 + người + việc." },
-    { "id": "e6", "kind": "reorder", "tiles": ["是", "我", "坐飞机", "来", "的"], "answers": ["我是坐飞机来的"], "vi": "Tôi đến bằng máy bay.", "explain_vi": "是 + cách thức + động từ + 的." },
-    { "id": "e7", "kind": "listenPick", "audioText": "我们是来旅游的。", "options": [{ "emoji": "🧳", "label": "Đi du lịch" }, { "emoji": "📚", "label": "Đi học" }, { "emoji": "💼", "label": "Đi làm" }], "answer": 0 },
-    { "id": "e8", "kind": "listenTF", "audioText": "我是昨天晚上到北京的。", "emoji": "✈️", "statement_vi": "Người nói đến Bắc Kinh vào sáng nay.", "answer": false, "explain_vi": "昨天晚上 = tối hôm qua." },
-    { "id": "e9", "kind": "pictureComplete", "emoji": "🦆🍽️", "sentence": "她请我们吃了___。", "options": ["北京烤鸭", "苹果", "米饭"], "answer": 0 },
-    { "id": "e10", "kind": "matchQA", "pairs": [{ "q": "你们是第一次来北京吗？", "a": "不是，我们是第二次来。" }, { "q": "你是怎么来的？", "a": "我是坐出租车来的。" }, { "q": "你能帮我个忙吗？", "a": "好啊，什么事？" }] }
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我___到学校了，你在哪儿？",
+      "bank": [
+        "已经",
+        "有时",
+        "介绍"
+      ],
+      "answer": "已经",
+      "explain_vi": "已经……了 = đã … rồi."
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "这个字是什么___？",
+      "bank": [
+        "意思",
+        "帮忙",
+        "旅游"
+      ],
+      "answer": "意思"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我来___一下，这是我朋友李文。",
+      "bank": [
+        "介绍",
+        "接",
+        "懂"
+      ],
+      "answer": "介绍"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我___在家吃饭，有时去饭店吃。",
+      "bank": [
+        "有时",
+        "已经",
+        "就"
+      ],
+      "answer": "有时",
+      "explain_vi": "有时……有时…… = lúc thì…, lúc thì…."
+    },
+    {
+      "id": "e5",
+      "kind": "reorder",
+      "tiles": [
+        "请",
+        "我们",
+        "她",
+        "吃饭",
+        "了"
+      ],
+      "answers": [
+        "她请我们吃饭了"
+      ],
+      "vi": "Chị ấy đã mời chúng tôi ăn cơm.",
+      "explain_vi": "Câu kiêm ngữ: Chủ ngữ + 请 + người + việc."
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "是",
+        "我",
+        "坐飞机",
+        "来",
+        "的"
+      ],
+      "answers": [
+        "我是坐飞机来的"
+      ],
+      "vi": "Tôi đến bằng máy bay.",
+      "explain_vi": "是 + cách thức + động từ + 的."
+    },
+    {
+      "id": "e7",
+      "kind": "listenPick",
+      "audioText": "我们是来旅游的。",
+      "options": [
+        {
+          "emoji": "🧳",
+          "label": "Đi du lịch"
+        },
+        {
+          "emoji": "📚",
+          "label": "Đi học"
+        },
+        {
+          "emoji": "💼",
+          "label": "Đi làm"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e8",
+      "kind": "listenTF",
+      "audioText": "我是昨天晚上到北京的。",
+      "emoji": "✈️",
+      "statement_vi": "Người nói đến Bắc Kinh vào sáng nay.",
+      "answer": false,
+      "explain_vi": "昨天晚上 = tối hôm qua."
+    },
+    {
+      "id": "e9",
+      "kind": "pictureComplete",
+      "emoji": "🦆🍽️",
+      "sentence": "她请我们吃了___。",
+      "options": [
+        "北京烤鸭",
+        "苹果",
+        "米饭"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你们是第一次来北京吗？",
+          "a": "不是，我们是第二次来。"
+        },
+        {
+          "q": "你是怎么来的？",
+          "a": "我是坐出租车来的。"
+        },
+        {
+          "q": "你能帮我个忙吗？",
+          "a": "好啊，什么事？"
+        }
+      ]
+    }
   ],
   "activity": {
     "title_vi": "Đóng vai: Đón bạn ở ga tàu",
@@ -212,10 +870,22 @@
       "Cố gắng dùng 请 / 让 / 叫 và 吧 ít nhất một lần."
     ],
     "patterns": [
-      { "zh": "你是第一次来北京吗？", "vi": "Bạn đến Bắc Kinh lần đầu à?" },
-      { "zh": "你是什么时候到的？", "vi": "Bạn đến lúc nào?" },
-      { "zh": "我是来旅游的。", "vi": "Tôi đến để du lịch." },
-      { "zh": "你有事就给我打电话吧。", "vi": "Có việc thì gọi cho tôi nhé." }
+      {
+        "zh": "你是第一次来北京吗？",
+        "vi": "Bạn đến Bắc Kinh lần đầu à?"
+      },
+      {
+        "zh": "你是什么时候到的？",
+        "vi": "Bạn đến lúc nào?"
+      },
+      {
+        "zh": "我是来旅游的。",
+        "vi": "Tôi đến để du lịch."
+      },
+      {
+        "zh": "你有事就给我打电话吧。",
+        "vi": "Có việc thì gọi cho tôi nhé."
+      }
     ]
   },
   "culture": {
@@ -227,8 +897,38 @@
       "Phần xương vịt còn lại có thể được nấu thành canh để kết thúc bữa ăn."
     ],
     "table": {
-      "head": ["Món / Đồ chấm", "Chữ Hán", "Pinyin"],
-      "rows": [["Vịt quay Bắc Kinh", "北京烤鸭", "Běijīng Kǎoyā"], ["Bánh tráng mỏng", "荷叶饼", "héyèbǐng"], ["Tương ngọt", "甜面酱", "tiánmiànjiàng"], ["Hành lá", "葱", "cōng"], ["Dưa chuột", "黄瓜", "huánggua"]]
+      "head": [
+        "Món / Đồ chấm",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Vịt quay Bắc Kinh",
+          "北京烤鸭",
+          "Běijīng Kǎoyā"
+        ],
+        [
+          "Bánh tráng mỏng",
+          "荷叶饼",
+          "héyèbǐng"
+        ],
+        [
+          "Tương ngọt",
+          "甜面酱",
+          "tiánmiànjiàng"
+        ],
+        [
+          "Hành lá",
+          "葱",
+          "cōng"
+        ],
+        [
+          "Dưa chuột",
+          "黄瓜",
+          "huánggua"
+        ]
+      ]
     }
   }
 }

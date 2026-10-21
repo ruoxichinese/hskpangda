@@ -1,35 +1,985 @@
 {
   "id": 5,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "第一次去中国朋友家",
     "pinyin": "Dì-yī cì qù Zhōngguó péngyou jiā",
     "vi": "Lần đầu đến nhà bạn Trung Quốc"
   },
   "grammarTopics_vi": [
-    "Bổ ngữ xu hướng đơn (1)",
-    "Bổ ngữ xu hướng đơn (2)",
-    "Cấu trúc 都……了"
+    "Bổ ngữ xu hướng đơn (1): 来 / 去",
+    "Bổ ngữ xu hướng đơn (2): vị trí của tân ngữ",
+    "Cấu trúc “都……了”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Bổ ngữ xu hướng đơn (1)",
-      "doneWhen": []
+      "vi": "Dùng bổ ngữ xu hướng để nói hướng của hành động: 上来, 下去, 进来…",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Bổ ngữ xu hướng đơn (2)",
-      "doneWhen": []
+      "vi": "Dùng “都……了” để nói “đã… rồi”",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 都……了",
-      "doneWhen": []
+      "vi": "Biết cách xưng hô khi gặp người Trung Quốc",
+      "doneWhen": [
+        "culture"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👴",
+      "word": "爷爷",
+      "pinyin": "yéye",
+      "vi": "ông nội"
+    },
+    {
+      "emoji": "👵",
+      "word": "奶奶",
+      "pinyin": "nǎinai",
+      "vi": "bà nội"
+    },
+    {
+      "emoji": "🎁",
+      "word": "礼物",
+      "pinyin": "lǐwù",
+      "vi": "quà"
+    },
+    {
+      "emoji": "🏨",
+      "word": "酒店",
+      "pinyin": "jiǔdiàn",
+      "vi": "khách sạn"
+    },
+    {
+      "emoji": "⬇️",
+      "word": "下来",
+      "pinyin": "xiàlái",
+      "vi": "đi xuống (đây)"
+    },
+    {
+      "emoji": "🚪",
+      "word": "进来",
+      "pinyin": "jìnlái",
+      "vi": "đi vào (đây)"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Dưới sảnh khách sạn, Annie gọi điện cho Gia Nguyệt.",
+      "scene": "🏨",
+      "audio": "audio/hsk2/5-1.mp3",
+      "vocabAudio": "audio/hsk2/5-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Gia Nguyệt sắp đi đâu?",
+          "options": [
+            "安妮家",
+            "男朋友家",
+            "中国朋友家"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết bảo các bạn đến trước mấy giờ?",
+          "options": [
+            "1点前",
+            "10点前",
+            "11点前"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "家月，快下来吧，第一次去中国朋友家，别晚了。",
+          "vi": "Gia Nguyệt, xuống nhanh đi, lần đầu đến nhà bạn Trung Quốc, đừng đến muộn.",
+          "t": 0.83
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "还有时间，你上来吧。",
+          "vi": "Vẫn còn thời gian mà, cậu lên đây đi.",
+          "t": 7.45
+        },
+        {
+          "speaker": "anni",
+          "zh": "我不上去了，就在下面等你。",
+          "vi": "Mình không lên đâu, mình đợi cậu ở dưới này.",
+          "t": 10.76
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "那我一会儿就下去。",
+          "vi": "Vậy lát nữa mình xuống ngay.",
+          "t": 14.5
+        },
+        {
+          "speaker": "anni",
+          "zh": "你快点儿吧。",
+          "vi": "Cậu nhanh lên nhé.",
+          "t": 17.39
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "没事，一雪姐说11点前到就可以。",
+          "vi": "Không sao, chị Nhất Tuyết bảo trước 11 giờ đến là được.",
+          "t": 19.91
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "快",
+          "pinyin": "kuài",
+          "pos": "adv./adj.",
+          "vi": "nhanh lên; nhanh",
+          "example": {
+            "zh": "快来吧！",
+            "vi": "Mau đến đi!"
+          }
+        },
+        {
+          "zh": "下来",
+          "pinyin": "xiàlái",
+          "pos": "v.",
+          "vi": "đi xuống (về phía người nói)",
+          "example": {
+            "zh": "你快下来吧。",
+            "vi": "Bạn xuống nhanh đi."
+          }
+        },
+        {
+          "zh": "上来",
+          "pinyin": "shànglái",
+          "pos": "v.",
+          "vi": "đi lên (về phía người nói)",
+          "example": {
+            "zh": "你上来吧。",
+            "vi": "Bạn lên đây đi."
+          }
+        },
+        {
+          "zh": "上去",
+          "pinyin": "shàngqù",
+          "pos": "v.",
+          "vi": "đi lên (ra xa người nói)",
+          "example": {
+            "zh": "我不上去了。",
+            "vi": "Tôi không lên đâu."
+          }
+        },
+        {
+          "zh": "下面",
+          "pinyin": "xiàmiàn",
+          "pos": "n.",
+          "vi": "bên dưới, phía dưới",
+          "example": {
+            "zh": "我在下面等你。",
+            "vi": "Tôi đợi bạn ở dưới."
+          }
+        },
+        {
+          "zh": "面",
+          "pinyin": "miàn",
+          "pos": "suf.",
+          "vi": "phía, bên (hậu tố chỉ phương vị)",
+          "example": {
+            "zh": "上面、下面、外面",
+            "vi": "phía trên, phía dưới, bên ngoài"
+          }
+        },
+        {
+          "zh": "等",
+          "pinyin": "děng",
+          "pos": "v.",
+          "vi": "đợi",
+          "example": {
+            "zh": "请等一下。",
+            "vi": "Xin đợi một chút."
+          }
+        },
+        {
+          "zh": "一会儿",
+          "pinyin": "yíhuìr",
+          "pos": "num.-m.",
+          "vi": "một lát, chốc lát",
+          "example": {
+            "zh": "我一会儿就来。",
+            "vi": "Lát nữa tôi đến ngay."
+          }
+        },
+        {
+          "zh": "下去",
+          "pinyin": "xiàqù",
+          "pos": "v.",
+          "vi": "đi xuống (ra xa người nói)",
+          "example": {
+            "zh": "我一会儿就下去。",
+            "vi": "Lát nữa tôi xuống ngay."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g5-1",
+          "title_zh": "简单趋向补语（1）",
+          "title_vi": "Bổ ngữ xu hướng đơn (1): động từ + 来 / 去",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "上 / 下 / 进 / 出 / 回 / 过",
+                "label": "Động từ chỉ hướng",
+                "role": "V"
+              },
+              {
+                "zh": "来",
+                "label": "lại gần người nói",
+                "role": "ADV"
+              }
+            ],
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "上 / 下 / 进 / 出 / 回 / 过",
+                "label": "Động từ chỉ hướng",
+                "role": "V"
+              },
+              {
+                "zh": "去",
+                "label": "ra xa người nói",
+                "role": "ADV"
+              }
+            ]
+          ],
+          "explain_vi": "来 nghĩa là hành động hướng về phía người nói, 去 là hướng ra xa người nói. Annie đứng dưới sảnh nên bảo Gia Nguyệt 下来 (xuống đây), còn mình thì 不上去 (không lên đó). Các động từ 叫, 开, 买, 拿, 请, 送, 要, 找, 走 cũng ghép được với 来/去. Riêng 起来 nghĩa là đứng dậy, ngủ dậy.",
+          "examples": [
+            {
+              "zh": "我不上去了，就在下面等你。",
+              "vi": "Tôi không lên đâu, đợi bạn ở dưới."
+            },
+            {
+              "zh": "家月到下边了，你下去接她吧。",
+              "vi": "Gia Nguyệt đến dưới rồi, bạn xuống đón cô ấy đi."
+            },
+            {
+              "zh": "我在外边呢，你出来吧。",
+              "vi": "Tôi ở ngoài này, bạn ra đây đi."
+            },
+            {
+              "zh": "今天早上5点她就起来了。",
+              "vi": "Sáng nay 5 giờ cô ấy đã dậy rồi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你下去吧。",
+              "right": "你下来吧。",
+              "why_vi": "Bạn đứng ở dưới gọi người ở trên đi xuống chỗ mình: hướng về người nói → 下来, không phải 下去."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Bạn đang ở trong phòng, bảo bạn mình đứng ngoài cửa đi vào:",
+              "options": [
+                "你进来吧。",
+                "你进去吧。",
+                "你出来吧。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Mẹo nhớ: 来 = về phía tôi, 去 = rời khỏi tôi. Cứ hỏi “người nói đang đứng ở đâu?” là chọn đúng."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở nhà chị Vương Nhất Tuyết, Gia Nguyệt và Annie đến chơi.",
+      "scene": "🏠",
+      "audio": "audio/hsk2/5-3.mp3",
+      "vocabAudio": "audio/hsk2/5-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết giới thiệu ai với Gia Nguyệt và Annie?",
+          "options": [
+            "她的孩子们",
+            "孩子们的爸爸",
+            "孩子们的爷爷和奶奶"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết thấy Gia Nguyệt và Annie thế nào?",
+          "options": [
+            "很漂亮",
+            "很客气",
+            "很不好意思"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "家月、安妮，快进来！我给你们介绍一下，这是孩子们的爷爷、奶奶。",
+          "vi": "Gia Nguyệt, Annie, vào đi các em! Chị giới thiệu một chút, đây là ông bà nội của bọn trẻ.",
+          "t": 0.53
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你们好！",
+          "vi": "(Gia Nguyệt và Annie) Chào ông bà ạ!",
+          "t": 8.88
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "爸，妈，这是白家月，这是安妮。她们都是一飞的学生。",
+          "vi": "Bố, mẹ, đây là Bạch Gia Nguyệt, đây là Annie. Hai em đều là học trò của Nhất Phi.",
+          "t": 10.71
+        },
+        {
+          "speaker": "liuyeye",
+          "zh": "家月、安妮，你们好！",
+          "vi": "Gia Nguyệt, Annie, chào các cháu!",
+          "t": 18.81
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这是送你们的礼物。",
+          "vi": "Đây là quà tặng ông bà ạ.",
+          "t": 22.9
+        },
+        {
+          "speaker": "liuyeye",
+          "zh": "你们太客气了，还拿这么多礼物来！",
+          "vi": "Các cháu khách sáo quá, còn mang bao nhiêu quà đến!",
+          "t": 25.45
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "一雪姐，这是给孩子们准备的礼物。",
+          "vi": "Chị Nhất Tuyết, đây là quà bọn em chuẩn bị cho các cháu.",
+          "t": 30.0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "谢谢！你们别客气，快坐吧！",
+          "vi": "Cảm ơn các em! Đừng khách sáo, ngồi đi!",
+          "t": 34.69
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "进来",
+          "pinyin": "jìnlái",
+          "pos": "v.",
+          "vi": "đi vào (đây)",
+          "example": {
+            "zh": "请进来吧。",
+            "vi": "Mời vào."
+          }
+        },
+        {
+          "zh": "爷爷",
+          "pinyin": "yéye",
+          "pos": "n.",
+          "vi": "ông nội",
+          "example": {
+            "zh": "我爷爷七十岁了。",
+            "vi": "Ông nội tôi 70 tuổi rồi."
+          }
+        },
+        {
+          "zh": "奶奶",
+          "pinyin": "nǎinai",
+          "pos": "n.",
+          "vi": "bà nội",
+          "example": {
+            "zh": "奶奶做的菜很好吃。",
+            "vi": "Bà nấu ăn rất ngon."
+          }
+        },
+        {
+          "zh": "礼物",
+          "pinyin": "lǐwù",
+          "pos": "n.",
+          "vi": "quà, món quà",
+          "example": {
+            "zh": "这是送你的礼物。",
+            "vi": "Đây là quà tặng bạn."
+          }
+        },
+        {
+          "zh": "准备",
+          "pinyin": "zhǔnbèi",
+          "pos": "v.",
+          "vi": "chuẩn bị",
+          "example": {
+            "zh": "我准备好了。",
+            "vi": "Tôi chuẩn bị xong rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g5-2",
+          "title_zh": "简单趋向补语（2）",
+          "title_vi": "Bổ ngữ xu hướng đơn (2): đặt tân ngữ ở đâu?",
+          "formula": [
+            [
+              {
+                "zh": "进",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "教室",
+                "label": "Tân ngữ chỉ nơi chốn",
+                "role": "O"
+              },
+              {
+                "zh": "来",
+                "label": "来/去 đứng sau",
+                "role": "ADV"
+              }
+            ],
+            [
+              {
+                "zh": "拿",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "礼物",
+                "label": "Tân ngữ chỉ vật",
+                "role": "O"
+              },
+              {
+                "zh": "来",
+                "label": "trước hoặc sau đều được",
+                "role": "ADV"
+              }
+            ]
+          ],
+          "explain_vi": "Tân ngữ chỉ nơi chốn bắt buộc đứng TRƯỚC 来/去: 进教室来, 回家去. Tân ngữ chỉ đồ vật đứng trước hoặc sau 来/去 đều được: 拿礼物来 = 拿来礼物. Với 上, 下, 进, 出, 回, 过 (không có 来/去), tân ngữ đứng sau: 买回了很多水果, 拿出了二十块钱.",
+          "examples": [
+            {
+              "zh": "你们太客气了，还拿这么多礼物来！",
+              "vi": "Các cháu khách sáo quá, còn mang nhiều quà thế đến!"
+            },
+            {
+              "zh": "家月给我送来了一本书。",
+              "vi": "Gia Nguyệt mang đến cho tôi một quyển sách."
+            },
+            {
+              "zh": "上课了，你们快进教室来吧。",
+              "vi": "Vào học rồi, các em mau vào lớp đi."
+            },
+            {
+              "zh": "妈妈拿出了二十块钱，让小雪自己去买点儿吃的。",
+              "vi": "Mẹ lấy ra hai mươi tệ, bảo Tiểu Tuyết tự đi mua chút đồ ăn."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你们快进来教室吧。",
+              "right": "你们快进教室来吧。",
+              "why_vi": "Tân ngữ chỉ nơi chốn (教室) phải đứng trước 来."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Bố về nhà rồi.” (dùng 回 + 家 + 来)",
+              "options": [
+                "爸爸回家来了。",
+                "爸爸回来家了。",
+                "爸爸家回来了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Khi đến nhà người Trung Quốc, câu 你们太客气了 (khách sáo quá) là lời cảm ơn lịch sự khi nhận quà, không phải trách móc đâu nhé!"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà chị Vương Nhất Tuyết, Gia Nguyệt và Annie ở lại ăn cơm.",
+      "scene": "🍲",
+      "audio": "audio/hsk2/5-5.mp3",
+      "vocabAudio": "audio/hsk2/5-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hôm nay ai nấu ăn?",
+          "options": [
+            "爷爷",
+            "奶奶",
+            "王一雪"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Ông nội mua gì?",
+          "options": [
+            "奶茶",
+            "绿茶",
+            "牛奶"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "都12点了，我们吃饭吧。",
+          "vi": "12 giờ rồi, mình ăn cơm thôi.",
+          "t": 0.58
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这么多好吃的，您太客气了！",
+          "vi": "Nhiều món ngon thế này, chị khách sáo quá!",
+          "t": 4.35
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "都是我自己做的，你们多吃点儿。",
+          "vi": "Toàn chị tự nấu đấy, các em ăn nhiều vào.",
+          "t": 8.24
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "奶茶也很好喝，是您自己做的吗？",
+          "vi": "Trà sữa cũng ngon lắm, chị tự làm ạ?",
+          "t": 12.82
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "不是，奶茶是爷爷买的。",
+          "vi": "Không, trà sữa là ông mua.",
+          "t": 17.91
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "在哪儿买的？我还没喝过这么好喝的奶茶。",
+          "vi": "Mua ở đâu thế ạ? Em chưa từng uống trà sữa ngon thế này.",
+          "t": 22.56
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "就在前边的商场，吃完饭你们可以跟我去看看。",
+          "vi": "Ngay ở trung tâm thương mại phía trước, ăn xong các em đi xem cùng chị.",
+          "t": 28.37
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "奶茶",
+          "pinyin": "nǎichá",
+          "pos": "n.",
+          "vi": "trà sữa",
+          "example": {
+            "zh": "我想喝一杯奶茶。",
+            "vi": "Tôi muốn uống một cốc trà sữa."
+          }
+        },
+        {
+          "zh": "跟",
+          "pinyin": "gēn",
+          "pos": "prep./conj.",
+          "vi": "với, cùng; và",
+          "example": {
+            "zh": "你跟我一起去吧。",
+            "vi": "Bạn đi cùng tôi nhé."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g5-3",
+          "title_zh": "固定格式“都……了”",
+          "title_vi": "Cấu trúc “都……了”: đã… rồi (nhấn mạnh)",
+          "formula": [
+            [
+              {
+                "zh": "都",
+                "label": "đã",
+                "role": "ADV"
+              },
+              {
+                "zh": "12点",
+                "label": "Thời gian / mức độ",
+                "role": "N"
+              },
+              {
+                "zh": "了",
+                "label": "rồi",
+                "role": "PART"
+              },
+              {
+                "zh": "，我们吃饭吧",
+                "label": "Đề nghị / phàn nàn",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "都……了 nhấn mạnh rằng một thời điểm hay mức độ đã đến, thường kèm ý thúc giục hoặc không hài lòng – giống “đã… rồi đấy!” trong tiếng Việt. 都 ở đây không có nghĩa là “đều”.",
+          "examples": [
+            {
+              "zh": "都12点了，我们吃饭吧。",
+              "vi": "12 giờ rồi đấy, mình ăn cơm thôi."
+            },
+            {
+              "zh": "都8点半了，你还不起床吗？",
+              "vi": "8 rưỡi rồi đấy, con còn chưa dậy à?"
+            },
+            {
+              "zh": "我都去过北京了，不想再去了。",
+              "vi": "Tôi đi Bắc Kinh rồi, không muốn đi nữa."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "都12点，我们吃饭吧。",
+              "right": "都12点了，我们吃饭吧。",
+              "why_vi": "Cấu trúc phải có 了 ở sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Bạn thúc giục: “11 giờ rồi đấy, đi ngủ đi!”",
+              "options": [
+                "都11点了，快睡觉吧！",
+                "11点都，快睡觉吧！",
+                "都11点，了快睡觉吧！"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "跟 vừa là “với, cùng” (跟我去) vừa là “và” giữa hai danh từ (我跟他). Rất hay dùng trong khẩu ngữ."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở khách sạn, Gia Nguyệt nhắn tin cho Lý Văn.",
+      "scene": "📱",
+      "audio": "audio/hsk2/5-7.mp3",
+      "vocabAudio": "audio/hsk2/5-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Gia Nguyệt và Annie đến nhà chị Nhất Tuyết khi nào?",
+          "options": [
+            "回国前一天",
+            "买好礼物那天",
+            "到北京第一天"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao họ đi bộ về khách sạn?",
+          "options": [
+            "没有公交车",
+            "要去买杯奶茶",
+            "吃了太多东西"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "回国前一天，我们去一雪姐家了。",
+          "vi": "Một ngày trước khi về nước, bọn mình đến nhà chị Nhất Tuyết.",
+          "t": 0.6
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "到她家的时候，饭菜都做好了。",
+          "vi": "Lúc đến nhà chị ấy, cơm nước đã nấu xong hết rồi.",
+          "t": 4.7
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "刘爷爷还准备了奶茶。",
+          "vi": "Ông Lưu còn chuẩn bị cả trà sữa.",
+          "t": 8.39
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "因为吃了太多东西，我们吃完饭是走回酒店的。",
+          "vi": "Vì ăn nhiều quá, ăn xong bọn mình đi bộ về khách sạn.",
+          "t": 11.48
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "走",
+          "pinyin": "zǒu",
+          "pos": "v.",
+          "vi": "đi (bộ)",
+          "example": {
+            "zh": "我们走回去吧。",
+            "vi": "Mình đi bộ về đi."
+          }
+        },
+        {
+          "zh": "酒店",
+          "pinyin": "jiǔdiàn",
+          "pos": "n.",
+          "vi": "khách sạn",
+          "example": {
+            "zh": "这家酒店很大。",
+            "vi": "Khách sạn này rất lớn."
+          }
+        }
+      ],
+      "pangdaTip": "走回酒店 = 走 + 回 + 酒店: đi bộ về khách sạn. Đây chính là bổ ngữ xu hướng 回 ghép với nơi chốn."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你喝过___吗？好不好喝？",
+      "bank": [
+        "奶茶",
+        "下面",
+        "等"
+      ],
+      "answer": "奶茶"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "桌子___有一个绿色的书包。",
+      "bank": [
+        "下面",
+        "奶茶",
+        "跟"
+      ],
+      "answer": "下面"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "同学们，___我来。看，这是我们的新教室。",
+      "bank": [
+        "跟",
+        "等",
+        "走"
+      ],
+      "answer": "跟"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "家月，我不想打车，想___回学校。",
+      "bank": [
+        "走",
+        "等",
+        "跟"
+      ],
+      "answer": "走"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "公交车还没来，我们还是打车去吧。——再___一下吧。",
+      "bank": [
+        "等",
+        "走",
+        "下面"
+      ],
+      "answer": "等"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "吧",
+        "你",
+        "快",
+        "下来"
+      ],
+      "answers": [
+        "你快下来吧"
+      ],
+      "vi": "Bạn xuống nhanh đi.",
+      "explain_vi": "Người nói ở dưới → 下来."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "了",
+        "都",
+        "8点半",
+        "，你还不起床吗"
+      ],
+      "answers": [
+        "都8点半了，你还不起床吗"
+      ],
+      "vi": "8 rưỡi rồi đấy, con còn chưa dậy à?",
+      "explain_vi": "都 + thời gian + 了."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "礼物",
+      "options": [
+        {
+          "emoji": "🎁",
+          "label": "Quà"
+        },
+        {
+          "emoji": "🧋",
+          "label": "Trà sữa"
+        },
+        {
+          "emoji": "🏨",
+          "label": "Khách sạn"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我不上去了，就在下面等你。",
+      "emoji": "⬇️",
+      "statement_vi": "Người nói sẽ đi lên trên.",
+      "answer": false,
+      "explain_vi": "不上去 = không lên; 在下面等 = đợi ở dưới."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🚪🙋",
+      "sentence": "家月、安妮，快___来！",
+      "options": [
+        "进",
+        "出",
+        "下"
+      ],
+      "answer": 0,
+      "explain_vi": "Người nói ở trong nhà, khách ở ngoài: 进来."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "这是送你们的礼物。",
+          "a": "你们太客气了！"
+        },
+        {
+          "q": "奶茶是在哪儿买的？",
+          "a": "就在前边的商场。"
+        },
+        {
+          "q": "你快点儿吧！",
+          "a": "没事，还有时间。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đến nhà bạn chơi",
+    "steps_vi": [
+      "Nhóm 4 người: một người là chủ nhà, hai người là người nhà, một người là khách.",
+      "Khách đến, chủ nhà mời vào (进来), giới thiệu người trong nhà.",
+      "Khách chào hỏi và tặng quà; người nhà đáp “你太客气了”.",
+      "Chủ nhà mời ngồi, mời ăn uống; dùng “都……了” để rủ mọi người ăn cơm."
+    ],
+    "patterns": [
+      {
+        "zh": "天中，快进来！",
+        "vi": "Thiên Trung, vào đi!"
+      },
+      {
+        "zh": "我给你介绍一下，这是我爷爷。",
+        "vi": "Để tôi giới thiệu, đây là ông tôi."
+      },
+      {
+        "zh": "这是送你们的礼物。",
+        "vi": "Đây là quà tặng mọi người."
+      },
+      {
+        "zh": "都12点了，我们吃饭吧。",
+        "vi": "12 giờ rồi, mình ăn cơm thôi."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Xưng hô khi gặp người Trung Quốc",
+    "body_vi": [
+      "Người Trung Quốc thường gọi nhau theo quan hệ họ hàng, kể cả với người không phải ruột thịt: bạn của bố mẹ gọi là 叔叔 (chú) hay 阿姨 (cô, dì); người già gọi là 爷爷 (ông), 奶奶 (bà). Người Việt cũng gọi “chú”, “cô”, “ông”, “bà” với người lạ, nên rất dễ làm quen.",
+      "Với người lớn hơn mình một chút, có thể gọi tên kèm 姐 (chị) hoặc 哥 (anh): 一雪姐, 王姐. Gia Nguyệt gọi chị Nhất Tuyết là 一雪姐 chính là cách gọi thân mật mà vẫn lễ phép.",
+      "Ở nơi làm việc, người ta hay gọi họ kèm chức danh: 王老师 (thầy/cô Vương), 李经理 (giám đốc Lý). Gọi thẳng tên riêng một người lớn tuổi là thiếu lịch sự.",
+      "Khi đến nhà chơi, khách thường mang quà như hoa quả, bánh trái. Chủ nhà hay đáp “你太客气了” – một câu cảm ơn khéo léo."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin",
+        "Dùng cho"
+      ],
+      "rows": [
+        [
+          "Ông",
+          "爷爷",
+          "yéye",
+          "người già (nam)"
+        ],
+        [
+          "Bà",
+          "奶奶",
+          "nǎinai",
+          "người già (nữ)"
+        ],
+        [
+          "Chú",
+          "叔叔",
+          "shūshu",
+          "nam trạc tuổi bố mẹ"
+        ],
+        [
+          "Cô, dì",
+          "阿姨",
+          "āyí",
+          "nữ trạc tuổi bố mẹ"
+        ],
+        [
+          "Anh / chị",
+          "哥 / 姐",
+          "gē / jiě",
+          "người hơn tuổi một chút"
+        ]
+      ]
+    }
+  }
 }

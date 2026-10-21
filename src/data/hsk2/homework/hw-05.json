@@ -1,41 +1,335 @@
 {
  "lessonId": 5,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Lý Văn đến nhà bạn",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Lý Văn đến nhà bạn",
+    "zh": "星期天，李文第一次去中国朋友家。他到朋友家下面的时候，朋友说：“快上来吧！”李文给朋友的爷爷、奶奶准备了礼物，爷爷说：“你太客气了！”都十二点了，奶奶做好了很多好吃的菜。吃完饭，他们还一起喝了奶茶。因为奶茶太好喝了，李文喝了两杯。最后，李文是走回酒店的。",
+    "vi": "Chủ nhật, Lý Văn lần đầu đến nhà một người bạn Trung Quốc. Khi đến dưới nhà bạn, bạn bảo: “Lên đây nhanh đi!” Lý Văn chuẩn bị quà cho ông bà của bạn, ông nói: “Cháu khách sáo quá!” 12 giờ rồi, bà đã nấu xong nhiều món ngon. Ăn xong, mọi người còn cùng uống trà sữa. Vì trà sữa ngon quá nên Lý Văn uống hai cốc. Cuối cùng, Lý Văn đi bộ về khách sạn."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "李文去了谁的家？",
+     "options": [
+      "中国朋友的家",
+      "老师的家",
+      "安妮的家"
+     ],
+     "answer": 0,
+     "explain_vi": "第一次去中国朋友家。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "李文给谁准备了礼物？",
+     "options": [
+      "朋友",
+      "爷爷和奶奶",
+      "孩子们"
+     ],
+     "answer": 1,
+     "explain_vi": "给朋友的爷爷、奶奶准备了礼物。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "李文喝了几杯奶茶？",
+     "options": [
+      "一杯",
+      "三杯",
+      "两杯"
+     ],
+     "answer": 2,
+     "explain_vi": "李文喝了两杯。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "李文是第一次去这个朋友家。",
+     "answer": true,
+     "explain_vi": "第一次去中国朋友家。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "饭菜是爷爷做的。",
+     "answer": false,
+     "explain_vi": "奶奶做好了很多好吃的菜。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "李文是打车回酒店的。",
+     "answer": false,
+     "explain_vi": "李文是走回酒店的。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "快进来！",
+       "a": "好的，谢谢！"
+      },
+      {
+       "q": "这是送您的礼物。",
+       "a": "你太客气了！"
+      },
+      {
+       "q": "都十二点了，我们吃饭吧。",
+       "a": "好啊，我也想吃饭了。"
+      },
+      {
+       "q": "你在哪儿？",
+       "a": "我在下面等你。"
+      }
+     ],
+     "explain_vi": "Mời vào → cảm ơn; tặng quà → 你太客气了; 都……了 rủ ăn → đồng ý; hỏi ở đâu → 在下面."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "安妮在下面等家月，她说：“家月，快{{1}}吧！”家月说：“还有时间，你{{2}}吧。”安妮说：“我不上去了。”家月说：“那我{{3}}就下去。”她们是十一点前{{4}}一雪姐家的。",
+     "bank": [
+      "下来",
+      "上来",
+      "一会儿",
+      "到",
+      "走"
+     ],
+     "answers": [
+      "下来",
+      "上来",
+      "一会儿",
+      "到"
+     ],
+     "explain_vi": "Annie ở dưới: 下来 · Gia Nguyệt ở trên: 上来 · 一会儿 = lát nữa · 到 = đến."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "吧",
+      "你",
+      "进来",
+      "快"
+     ],
+     "answers": [
+      "你快进来吧"
+     ],
+     "vi": "Bạn vào nhanh đi.",
+     "explain_vi": "Người nói ở trong → 进来.",
+     "grammarRef": "h2-g5-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "都",
+      "十二点",
+      "，我们吃饭吧"
+     ],
+     "answers": [
+      "都十二点了，我们吃饭吧"
+     ],
+     "vi": "12 giờ rồi, mình ăn cơm thôi.",
+     "explain_vi": "都 + thời gian + 了.",
+     "grammarRef": "h2-g5-3"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "礼物",
+      "这是",
+      "送你们的"
+     ],
+     "answers": [
+      "这是送你们的礼物"
+     ],
+     "vi": "Đây là quà tặng mọi người.",
+     "explain_vi": "Cụm 的 làm định ngữ.",
+     "grammarRef": "h2-g5-2"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "等你",
+      "我",
+      "在下面"
+     ],
+     "answers": [
+      "我在下面等你"
+     ],
+     "vi": "Tôi đợi bạn ở dưới.",
+     "explain_vi": "在 + nơi chốn + động từ.",
+     "grammarRef": "h2-g5-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "跟我",
+      "你们",
+      "去看看",
+      "可以"
+     ],
+     "answers": [
+      "你们可以跟我去看看"
+     ],
+     "vi": "Các bạn có thể đi xem cùng tôi.",
+     "explain_vi": "跟 + người + động từ.",
+     "grammarRef": "h2-g5-3"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Lát nữa tôi xuống ngay.",
+     "acceptedAnswers": [
+      "我一会儿就下去"
+     ],
+     "requiredKeywords": [
+      "一会儿",
+      "下去"
+     ],
+     "wordBank": [
+      "我",
+      "一会儿",
+      "就",
+      "下去"
+     ],
+     "explain_vi": "Người nói ở trên → 下去.",
+     "grammarRef": "h2-g5-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Bạn lên đây đi.",
+     "acceptedAnswers": [
+      "你上来吧"
+     ],
+     "requiredKeywords": [
+      "上来"
+     ],
+     "wordBank": [
+      "你",
+      "上来",
+      "吧"
+     ],
+     "explain_vi": "Người nói ở trên → 上来.",
+     "grammarRef": "h2-g5-1"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "12 giờ rồi, chúng ta ăn cơm thôi.",
+     "acceptedAnswers": [
+      "都12点了，我们吃饭吧",
+      "都十二点了，我们吃饭吧"
+     ],
+     "requiredKeywords": [
+      "都",
+      "了"
+     ],
+     "wordBank": [
+      "都",
+      "十二点",
+      "了",
+      "我们",
+      "吃饭",
+      "吧"
+     ],
+     "explain_vi": "都……了.",
+     "grammarRef": "h2-g5-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Đây là quà chúng tôi chuẩn bị cho các cháu.",
+     "acceptedAnswers": [
+      "这是给孩子们准备的礼物",
+      "这是我们给孩子们准备的礼物"
+     ],
+     "requiredKeywords": [
+      "准备",
+      "礼物"
+     ],
+     "wordBank": [
+      "这是",
+      "给",
+      "孩子们",
+      "准备的",
+      "礼物"
+     ],
+     "explain_vi": "给 + người + 准备的 + 礼物.",
+     "grammarRef": "h2-g5-2"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Tôi chưa từng uống trà sữa ngon như thế này.",
+     "acceptedAnswers": [
+      "我没喝过这么好喝的奶茶",
+      "我还没喝过这么好喝的奶茶"
+     ],
+     "requiredKeywords": [
+      "没喝过",
+      "奶茶"
+     ],
+     "wordBank": [
+      "我",
+      "没",
+      "喝过",
+      "这么",
+      "好喝的",
+      "奶茶"
+     ],
+     "explain_vi": "没 + 喝过.",
+     "grammarRef": "h2-g5-2"
+    }
+   ]
   }
  ]
 }

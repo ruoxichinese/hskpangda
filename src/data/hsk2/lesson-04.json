@@ -1,7 +1,7 @@
 {
   "id": 4,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "你穿红色的很好看",
     "pinyin": "Nǐ chuān hóngsè de hěn hǎokàn",
@@ -9,27 +9,922 @@
   },
   "grammarTopics_vi": [
     "Trợ từ động thái 过",
-    "Câu ghép nhân quả 因为……所以……",
-    "Cụm chữ 的"
+    "Câu ghép nhân quả “因为……，所以……”",
+    "Cụm từ chữ “的”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Trợ từ động thái 过",
-      "doneWhen": []
+      "vi": "Hỏi và kể về những việc mình đã từng làm",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu ghép nhân quả 因为……所以……",
-      "doneWhen": []
+      "vi": "Gọi tên sự vật bằng cách miêu tả: 红色的, 白色的, 便宜的…",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cụm chữ 的",
-      "doneWhen": []
+      "vi": "Dùng “因为……，所以……” để nói nguyên nhân và kết quả",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👖",
+      "word": "裤子",
+      "pinyin": "kùzi",
+      "vi": "quần"
+    },
+    {
+      "emoji": "🎒",
+      "word": "书包",
+      "pinyin": "shūbāo",
+      "vi": "cặp sách"
+    },
+    {
+      "emoji": "🚶",
+      "word": "过去",
+      "pinyin": "guòqù",
+      "vi": "đi qua đó"
+    },
+    {
+      "emoji": "🎨",
+      "word": "颜色",
+      "pinyin": "yánsè",
+      "vi": "màu sắc"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trước cửa trung tâm thương mại, chị Vương Nhất Tuyết và Tiểu Tuyết đang trò chuyện.",
+      "scene": "🏬",
+      "audio": "audio/hsk2/4-1.mp3",
+      "vocabAudio": "audio/hsk2/4-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai mẹ con muốn vào đâu xem?",
+          "options": [
+            "商场",
+            "超市",
+            "学校"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao Tiểu Tuyết muốn vào xem?",
+          "options": [
+            "想买条裤子",
+            "妈妈让她进去",
+            "想给妈妈买衣服"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，我们来过这家商场吗？",
+          "vi": "Mẹ ơi, mình đã đến trung tâm thương mại này chưa ạ?",
+          "t": 0.6
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "没来过，这是新开的。",
+          "vi": "Chưa đến bao giờ, chỗ này mới mở.",
+          "t": 4.74
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我们进去看看吧。",
+          "vi": "Mình vào xem thử đi mẹ.",
+          "t": 7.97
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好啊！你想买点儿什么？",
+          "vi": "Được! Con muốn mua gì nào?",
+          "t": 10.27
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我想买条裤子。",
+          "vi": "Con muốn mua một cái quần.",
+          "t": 13.64
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "没问题。",
+          "vi": "Không vấn đề gì.",
+          "t": 16.15
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "过",
+          "pinyin": "guo",
+          "pos": "part.",
+          "vi": "(đã) từng – đặt sau động từ",
+          "example": {
+            "zh": "我来过这儿。",
+            "vi": "Tôi từng đến đây."
+          }
+        },
+        {
+          "zh": "商场",
+          "pinyin": "shāngchǎng",
+          "pos": "n.",
+          "vi": "trung tâm thương mại",
+          "example": {
+            "zh": "这家商场很大。",
+            "vi": "Trung tâm thương mại này rất lớn."
+          }
+        },
+        {
+          "zh": "进去",
+          "pinyin": "jìnqù",
+          "pos": "v.",
+          "vi": "đi vào (trong đó)",
+          "example": {
+            "zh": "我们进去吧。",
+            "vi": "Mình vào trong đi."
+          }
+        },
+        {
+          "zh": "条",
+          "pinyin": "tiáo",
+          "pos": "m.",
+          "vi": "cái, con, chiếc (vật dài)",
+          "example": {
+            "zh": "一条裤子",
+            "vi": "một cái quần"
+          }
+        },
+        {
+          "zh": "裤子",
+          "pinyin": "kùzi",
+          "pos": "n.",
+          "vi": "quần",
+          "example": {
+            "zh": "这条裤子很好看。",
+            "vi": "Cái quần này rất đẹp."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g4-1",
+          "title_zh": "动态助词“过”",
+          "title_vi": "Trợ từ 过: đã từng",
+          "formula": [
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "去",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "过",
+                "label": "đã từng",
+                "role": "PART"
+              },
+              {
+                "zh": "中国",
+                "label": "Tân ngữ",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "没（有）",
+                "label": "chưa",
+                "role": "ADV"
+              },
+              {
+                "zh": "去过",
+                "label": "Động từ + 过",
+                "role": "V"
+              },
+              {
+                "zh": "中国",
+                "label": "Tân ngữ",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "过 đặt sau động từ cho biết việc đó đã từng xảy ra trong quá khứ (một trải nghiệm), bây giờ không còn tiếp diễn – giống “đã từng” trong tiếng Việt. Phủ định: 没（有）+ động từ + 过, vẫn giữ 过. Câu hỏi có ba cách: thêm 吗; thêm 没有 ở cuối; hoặc động từ + 没 + động từ + 过.",
+          "examples": [
+            {
+              "zh": "她去过中国。",
+              "vi": "Cô ấy từng đến Trung Quốc."
+            },
+            {
+              "zh": "我吃过饺子，很好吃。",
+              "vi": "Tôi từng ăn sủi cảo, ngon lắm."
+            },
+            {
+              "zh": "我们来过这家商场吗？",
+              "vi": "Mình đã từng đến trung tâm thương mại này chưa?"
+            },
+            {
+              "zh": "你看没看过那个电影？",
+              "vi": "Bạn đã xem bộ phim đó chưa?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我没去中国过。",
+              "right": "我没去过中国。",
+              "why_vi": "过 đứng ngay sau động từ, trước tân ngữ."
+            },
+            {
+              "wrong": "她不去过中国。",
+              "right": "她没去过中国。",
+              "why_vi": "Phủ định trải nghiệm dùng 没, không dùng 不."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi chưa từng mặc màu đỏ.”",
+              "options": [
+                "我没穿过红色的。",
+                "我不穿过红色的。",
+                "我没穿红色的过。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "条 là lượng từ cho đồ vật dài, mảnh: 一条裤子 (cái quần), 一条鱼 (con cá), 一条路 (con đường)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong trung tâm thương mại, hai mẹ con đang xem quần áo.",
+      "scene": "👚",
+      "audio": "audio/hsk2/4-3.mp3",
+      "vocabAudio": "audio/hsk2/4-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết muốn mua gì?",
+          "options": [
+            "白色的衣服",
+            "红色的衣服",
+            "白色的裤子"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Mẹ bảo Tiểu Tuyết thử cái gì?",
+          "options": [
+            "白色的衣服",
+            "红色的衣服",
+            "红色的裤子"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，我想买这条白色的裤子。",
+          "vi": "Mẹ ơi, con muốn mua cái quần màu trắng này.",
+          "t": 0.4
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你有很多白色的衣服，为什么还买白色的？",
+          "vi": "Con có nhiều đồ màu trắng rồi, sao lại mua màu trắng nữa?",
+          "t": 4.97
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "因为我喜欢白色啊！",
+          "vi": "Vì con thích màu trắng mà!",
+          "t": 10.29
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我觉得这条白色的不太好看，你试试那条红色的吧。",
+          "vi": "Mẹ thấy cái màu trắng này không đẹp lắm, con thử cái màu đỏ kia xem.",
+          "t": 13.36
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我没穿过红色的，红色的好看吗？",
+          "vi": "Con chưa mặc màu đỏ bao giờ, màu đỏ có đẹp không ạ?",
+          "t": 20.36
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "就是因为没穿过，所以要试试啊！",
+          "vi": "Chính vì chưa mặc bao giờ nên mới phải thử chứ!",
+          "t": 25.26
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "白色",
+          "pinyin": "báisè",
+          "pos": "n.",
+          "vi": "màu trắng",
+          "example": {
+            "zh": "我喜欢白色。",
+            "vi": "Tôi thích màu trắng."
+          }
+        },
+        {
+          "zh": "因为",
+          "pinyin": "yīnwèi",
+          "pos": "conj.",
+          "vi": "bởi vì",
+          "example": {
+            "zh": "因为下雨，我没去。",
+            "vi": "Vì trời mưa nên tôi không đi."
+          }
+        },
+        {
+          "zh": "试",
+          "pinyin": "shì",
+          "pos": "v.",
+          "vi": "thử",
+          "example": {
+            "zh": "你试试这件衣服。",
+            "vi": "Bạn thử cái áo này xem."
+          }
+        },
+        {
+          "zh": "红色",
+          "pinyin": "hóngsè",
+          "pos": "n.",
+          "vi": "màu đỏ",
+          "example": {
+            "zh": "你穿红色的很好看。",
+            "vi": "Bạn mặc màu đỏ rất đẹp."
+          }
+        },
+        {
+          "zh": "所以",
+          "pinyin": "suǒyǐ",
+          "pos": "conj.",
+          "vi": "cho nên, vì vậy",
+          "example": {
+            "zh": "我累了，所以想休息。",
+            "vi": "Tôi mệt rồi nên muốn nghỉ."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g4-2",
+          "title_zh": "因果复句“因为……，所以……”",
+          "title_vi": "Câu ghép “因为……，所以……”: vì… nên…",
+          "formula": [
+            [
+              {
+                "zh": "因为",
+                "label": "vì",
+                "role": "ADV"
+              },
+              {
+                "zh": "我生病了",
+                "label": "Nguyên nhân",
+                "role": "V"
+              },
+              {
+                "zh": "，所以",
+                "label": "nên",
+                "role": "ADV"
+              },
+              {
+                "zh": "今天没去上班",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "因为 dẫn ra nguyên nhân, 所以 dẫn ra kết quả – giống hệt “vì… nên…” trong tiếng Việt. Có thể dùng cả cặp hoặc chỉ dùng một từ. 就是因为……所以…… nhấn mạnh “chính vì…”.",
+          "examples": [
+            {
+              "zh": "就是因为没穿过，所以要试试啊！",
+              "vi": "Chính vì chưa mặc bao giờ nên mới phải thử chứ!"
+            },
+            {
+              "zh": "因为我生病了，今天没去上班。",
+              "vi": "Vì tôi bị ốm nên hôm nay không đi làm."
+            },
+            {
+              "zh": "我没去过他家，所以让他来车站接我。",
+              "vi": "Tôi chưa đến nhà anh ấy bao giờ, nên nhờ anh ấy ra bến xe đón."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "所以下雨，因为我没去。",
+              "right": "因为下雨，所以我没去。",
+              "why_vi": "因为 đi với nguyên nhân, 所以 đi với kết quả."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Vì hôm nay mệt nên tôi muốn ngủ sớm.”",
+              "options": [
+                "因为今天很累，所以我想早点儿睡觉。",
+                "所以今天很累，因为我想早点儿睡觉。",
+                "因为我想早点儿睡觉，所以今天很累。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Câu hỏi 为什么……？ (tại sao) thường được trả lời bằng 因为……. Ví dụ: 为什么还买白色的？— 因为我喜欢白色啊！"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong trung tâm thương mại, hai mẹ con đang xem cặp sách.",
+      "scene": "🎒",
+      "audio": "audio/hsk2/4-5.mp3",
+      "vocabAudio": "audio/hsk2/4-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết muốn mua gì?",
+          "options": [
+            "新书",
+            "书包",
+            "衣服"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Hai mẹ con thấy cái nào đẹp?",
+          "options": [
+            "红色的",
+            "绿色的",
+            "黑色的"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，我想买个新书包。",
+          "vi": "Mẹ ơi, con muốn mua một cái cặp mới.",
+          "t": 0.19
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好，那边卖书包，我们过去看看吧。",
+          "vi": "Được, đằng kia bán cặp sách, mình qua đó xem đi.",
+          "t": 3.23
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "这么多漂亮的书包！",
+          "vi": "Nhiều cặp đẹp quá!",
+          "t": 8.18
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "红色的、绿色的、黑色的，你想买哪个？",
+          "vi": "Màu đỏ, màu xanh lá, màu đen, con muốn mua cái nào?",
+          "t": 10.7
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "绿色的吧。",
+          "vi": "Cái màu xanh lá ạ.",
+          "t": 16.3
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "不错，我也觉得绿色的更好看。",
+          "vi": "Hay đấy, mẹ cũng thấy màu xanh lá đẹp hơn.",
+          "t": 17.93
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "书包",
+          "pinyin": "shūbāo",
+          "pos": "n.",
+          "vi": "cặp sách",
+          "example": {
+            "zh": "我的书包是黑色的。",
+            "vi": "Cặp sách của tôi màu đen."
+          }
+        },
+        {
+          "zh": "过去",
+          "pinyin": "guòqù",
+          "pos": "v.",
+          "vi": "đi qua (đó)",
+          "example": {
+            "zh": "我们过去看看吧。",
+            "vi": "Mình qua đó xem thử đi."
+          }
+        },
+        {
+          "zh": "绿色",
+          "pinyin": "lǜsè",
+          "pos": "n.",
+          "vi": "màu xanh lá",
+          "example": {
+            "zh": "这个书包是绿色的。",
+            "vi": "Cái cặp này màu xanh lá."
+          }
+        },
+        {
+          "zh": "黑色",
+          "pinyin": "hēisè",
+          "pos": "n.",
+          "vi": "màu đen",
+          "example": {
+            "zh": "他喜欢黑色的衣服。",
+            "vi": "Anh ấy thích quần áo màu đen."
+          }
+        },
+        {
+          "zh": "更",
+          "pinyin": "gèng",
+          "pos": "adv.",
+          "vi": "càng, hơn",
+          "example": {
+            "zh": "我觉得这个更好看。",
+            "vi": "Tôi thấy cái này đẹp hơn."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g4-3",
+          "title_zh": "“的”字短语",
+          "title_vi": "Cụm từ chữ 的: “cái màu đỏ”, “cái mẹ mua”",
+          "formula": [
+            [
+              {
+                "zh": "红色",
+                "label": "Danh từ / tính từ / động từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "的",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "（书包）",
+                "label": "danh từ được lược bỏ",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Khi người nghe đã biết đang nói về vật gì, ta bỏ danh từ đi và chỉ giữ “… + 的”, cả cụm dùng như một danh từ: 红色的 = cái màu đỏ, 妈妈买的 = cái mẹ mua, 便宜的 = cái rẻ. Tiếng Việt cũng nói “cái màu đỏ”, chỉ khác là tiếng Trung đặt 的 ở sau.",
+          "examples": [
+            {
+              "zh": "红色的、绿色的、黑色的，你想买哪个？",
+              "vi": "Màu đỏ, màu xanh, màu đen, bạn muốn mua cái nào?"
+            },
+            {
+              "zh": "这个面包是爸爸买的，妈妈买的在那儿。",
+              "vi": "Cái bánh mì này bố mua, cái mẹ mua ở đằng kia."
+            },
+            {
+              "zh": "这件衣服太贵了，还是买那件便宜的吧。",
+              "vi": "Cái áo này đắt quá, mua cái rẻ kia thì hơn."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我想买红色。",
+              "right": "我想买红色的。",
+              "why_vi": "Muốn nói “cái màu đỏ” phải có 的; 红色 một mình chỉ là “màu đỏ”."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cái tôi mua ở đây.”",
+              "options": [
+                "我买的在这儿。",
+                "我买在这儿。",
+                "的我买在这儿。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "更 đứng trước tính từ: 更好看 (đẹp hơn), 更便宜 (rẻ hơn). Không nói 好看更."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Tiểu Tuyết viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/4-7.mp3",
+      "vocabAudio": "audio/hsk2/4-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết và mẹ đã đi đâu?",
+          "options": [
+            "商场",
+            "超市",
+            "饭店"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Quần áo trong trung tâm thương mại có màu sắc thế nào?",
+          "options": [
+            "很少",
+            "很多",
+            "不漂亮"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我和妈妈去了一家商场。",
+          "vi": "Mình và mẹ đã đi một trung tâm thương mại.",
+          "t": 0.6
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "因为是新开的，所以这几天东西很便宜。",
+          "vi": "Vì mới mở nên mấy hôm nay đồ rất rẻ.",
+          "t": 3.4
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "商场里的衣服颜色很多。",
+          "vi": "Quần áo trong trung tâm có rất nhiều màu.",
+          "t": 7.92
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我没穿过红色的裤子，妈妈让我试了试，我觉得我穿红色的也很好看。",
+          "vi": "Mình chưa từng mặc quần màu đỏ, mẹ bảo mình thử, mình thấy mình mặc màu đỏ cũng rất đẹp.",
+          "t": 11.25
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "颜色",
+          "pinyin": "yánsè",
+          "pos": "n.",
+          "vi": "màu sắc",
+          "example": {
+            "zh": "你喜欢什么颜色？",
+            "vi": "Bạn thích màu gì?"
+          }
+        }
+      ],
+      "pangdaTip": "试了试 là cách lặp động từ cho việc đã làm (A了A): thử qua một chút. Bạn đã học ở bài 3 rồi đấy!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我看见老师在教室里，你___找她吧。",
+      "bank": [
+        "进去",
+        "条",
+        "颜色"
+      ],
+      "answer": "进去"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "你已经有一___黑色的裤子了，别买了。",
+      "bank": [
+        "条",
+        "个",
+        "件"
+      ],
+      "answer": "条",
+      "explain_vi": "Lượng từ của 裤子 là 条."
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我来过这家___，它是今年一月新开的。",
+      "bank": [
+        "商场",
+        "书包",
+        "颜色"
+      ],
+      "answer": "商场"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "你想买什么___的衣服？——我喜欢绿色。",
+      "bank": [
+        "颜色",
+        "商场",
+        "裤子"
+      ],
+      "answer": "颜色"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我觉得绿色的___好看。",
+      "bank": [
+        "更",
+        "过",
+        "条"
+      ],
+      "answer": "更"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "过",
+        "她",
+        "中国",
+        "去"
+      ],
+      "answers": [
+        "她去过中国"
+      ],
+      "vi": "Cô ấy từng đến Trung Quốc.",
+      "explain_vi": "Động từ + 过 + tân ngữ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "所以",
+        "因为",
+        "下雨了",
+        "我没去",
+        "，"
+      ],
+      "answers": [
+        "因为下雨了，所以我没去"
+      ],
+      "vi": "Vì trời mưa nên tôi không đi.",
+      "explain_vi": "因为 + nguyên nhân, 所以 + kết quả."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "书包",
+      "options": [
+        {
+          "emoji": "🎒",
+          "label": "Cặp sách"
+        },
+        {
+          "emoji": "👖",
+          "label": "Quần"
+        },
+        {
+          "emoji": "👗",
+          "label": "Váy áo"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我没穿过红色的裤子。",
+      "emoji": "👖",
+      "statement_vi": "Người nói đã từng mặc quần màu đỏ.",
+      "answer": false,
+      "explain_vi": "没穿过 = chưa từng mặc."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🟥🟩⬛",
+      "sentence": "红色的、绿色的、黑色___，你想买哪个？",
+      "options": [
+        "的",
+        "过",
+        "了"
+      ],
+      "answer": 0,
+      "explain_vi": "Cụm chữ 的: 黑色的 = cái màu đen."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你吃过饺子吗？",
+          "a": "吃过，很好吃。"
+        },
+        {
+          "q": "你为什么还买白色的？",
+          "a": "因为我喜欢白色。"
+        },
+        {
+          "q": "你想买哪个书包？",
+          "a": "绿色的吧。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Mua quần áo",
+    "steps_vi": [
+      "Làm việc theo cặp: một người là nhân viên bán hàng, một người là khách.",
+      "Khách muốn mua một cái quần: hỏi màu sắc, cỡ và giá.",
+      "Nhân viên giới thiệu, gợi ý khách thử màu khác, dùng “的” để nói: 红色的, 白色的…",
+      "Khách nói lý do chọn hoặc không chọn bằng “因为……，所以……”."
+    ],
+    "patterns": [
+      {
+        "zh": "请问，你们有白色的裤子吗？",
+        "vi": "Xin hỏi, ở đây có quần màu trắng không?"
+      },
+      {
+        "zh": "有，您看看。您试试这条红色的吧。",
+        "vi": "Có, anh/chị xem đi. Anh/chị thử cái màu đỏ này xem."
+      },
+      {
+        "zh": "我没穿过红色的。",
+        "vi": "Tôi chưa mặc màu đỏ bao giờ."
+      },
+      {
+        "zh": "因为这条很便宜，所以我买这条。",
+        "vi": "Vì cái này rẻ nên tôi mua cái này."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Màu sắc trong văn hoá Trung Quốc",
+    "body_vi": [
+      "Màu đỏ (红色) là màu của may mắn và niềm vui: câu đối Tết, bao lì xì (红包), váy cưới truyền thống đều màu đỏ. Người Việt cũng chuộng màu đỏ dịp Tết, nên điểm này rất gần gũi.",
+      "Màu trắng (白色) xưa thường gắn với tang lễ, vì vậy người lớn tuổi ít tặng đồ màu trắng trong dịp vui. Ngày nay giới trẻ vẫn mặc đồ trắng hằng ngày bình thường.",
+      "Màu vàng (黄色) từng là màu dành riêng cho hoàng đế – mái ngói Cố Cung đều màu vàng. Màu xanh lá (绿色) gợi cây cối, sức sống."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Màu đỏ",
+          "红色",
+          "hóngsè"
+        ],
+        [
+          "Màu trắng",
+          "白色",
+          "báisè"
+        ],
+        [
+          "Màu đen",
+          "黑色",
+          "hēisè"
+        ],
+        [
+          "Màu xanh lá",
+          "绿色",
+          "lǜsè"
+        ],
+        [
+          "Màu vàng",
+          "黄色",
+          "huángsè"
+        ],
+        [
+          "Bao lì xì",
+          "红包",
+          "hóngbāo"
+        ]
+      ]
+    }
+  }
 }

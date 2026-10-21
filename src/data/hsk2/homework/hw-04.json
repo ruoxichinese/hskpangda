@@ -1,41 +1,335 @@
 {
  "lessonId": 4,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Đi trung tâm thương mại",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Đi trung tâm thương mại",
+    "zh": "上个星期六，我和妈妈去了一家新开的商场。商场里的东西很便宜，衣服的颜色也很多。我想买一条白色的裤子，可是妈妈说我已经有很多白色的衣服了，让我试试红色的。我没穿过红色的裤子，试了试以后，我觉得红色的更好看，所以就买了红色的。妈妈还给弟弟买了一个绿色的书包。",
+    "vi": "Thứ bảy tuần trước, mình và mẹ đi một trung tâm thương mại mới mở. Đồ ở đó rất rẻ, quần áo cũng có nhiều màu. Mình muốn mua một cái quần trắng, nhưng mẹ nói mình đã có nhiều đồ trắng rồi, bảo mình thử màu đỏ. Mình chưa từng mặc quần đỏ, thử xong mình thấy màu đỏ đẹp hơn, nên mua cái màu đỏ. Mẹ còn mua cho em trai một cái cặp màu xanh lá."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "她们去了哪儿？",
+     "options": [
+      "商场",
+      "超市",
+      "学校"
+     ],
+     "answer": 0,
+     "explain_vi": "我和妈妈去了一家新开的商场。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "她最后买了什么颜色的裤子？",
+     "options": [
+      "白色的",
+      "红色的",
+      "绿色的"
+     ],
+     "answer": 1,
+     "explain_vi": "所以就买了红色的。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "妈妈给弟弟买了什么？",
+     "options": [
+      "裤子",
+      "书包",
+      "衣服"
+     ],
+     "answer": 1,
+     "explain_vi": "给弟弟买了一个绿色的书包。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "这家商场是新开的。",
+     "answer": true,
+     "explain_vi": "一家新开的商场。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "她以前穿过红色的裤子。",
+     "answer": false,
+     "explain_vi": "我没穿过红色的裤子。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "商场里的东西很贵。",
+     "answer": false,
+     "explain_vi": "商场里的东西很便宜。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你来过这家商场吗？",
+       "a": "没来过，这是新开的。"
+      },
+      {
+       "q": "你为什么买红色的？",
+       "a": "因为我觉得红色的更好看。"
+      },
+      {
+       "q": "你想买哪个书包？",
+       "a": "绿色的吧。"
+      },
+      {
+       "q": "我们进去看看吧？",
+       "a": "好啊，进去吧。"
+      }
+     ],
+     "explain_vi": "Hỏi đã từng chưa → 没来过; hỏi vì sao → 因为; hỏi cái nào → cụm 的; rủ vào → đồng ý."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "A：妈妈，我想买{{1}}白色的裤子。\nB：你已经有很多白色的了，试试那条{{2}}的吧。\nA：我没穿{{3}}红色的。\nB：就是{{4}}没穿过，所以要试试啊！",
+     "bank": [
+      "条",
+      "红色",
+      "过",
+      "因为",
+      "更"
+     ],
+     "answers": [
+      "条",
+      "红色",
+      "过",
+      "因为"
+     ],
+     "explain_vi": "一条裤子 · 红色的 · 没穿过 · 因为……所以……."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "过",
+      "我",
+      "北京",
+      "去",
+      "没"
+     ],
+     "answers": [
+      "我没去过北京"
+     ],
+     "vi": "Tôi chưa từng đến Bắc Kinh.",
+     "explain_vi": "没 + động từ + 过.",
+     "grammarRef": "h2-g4-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "因为他生病了",
+      "，",
+      "所以",
+      "没来上课"
+     ],
+     "answers": [
+      "因为他生病了，所以没来上课"
+     ],
+     "vi": "Vì cậu ấy ốm nên không đến lớp.",
+     "explain_vi": "因为……，所以…….",
+     "grammarRef": "h2-g4-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "这个面包",
+      "是",
+      "妈妈买"
+     ],
+     "answers": [
+      "这个面包是妈妈买的"
+     ],
+     "vi": "Cái bánh mì này là mẹ mua.",
+     "explain_vi": "Cụm chữ 的.",
+     "grammarRef": "h2-g4-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "更",
+      "绿色的",
+      "好看",
+      "我觉得"
+     ],
+     "answers": [
+      "我觉得绿色的更好看"
+     ],
+     "vi": "Tôi thấy cái màu xanh lá đẹp hơn.",
+     "explain_vi": "更 + tính từ.",
+     "grammarRef": "h2-g4-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "条",
+      "一",
+      "我想",
+      "裤子",
+      "买"
+     ],
+     "answers": [
+      "我想买一条裤子"
+     ],
+     "vi": "Tôi muốn mua một cái quần.",
+     "explain_vi": "一条 + 裤子.",
+     "grammarRef": "h2-g4-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi chưa từng ăn vịt quay Bắc Kinh.",
+     "acceptedAnswers": [
+      "我没吃过北京烤鸭",
+      "我还没吃过北京烤鸭"
+     ],
+     "requiredKeywords": [
+      "没吃过"
+     ],
+     "wordBank": [
+      "我",
+      "没",
+      "吃过",
+      "北京烤鸭"
+     ],
+     "explain_vi": "没 + động từ + 过.",
+     "grammarRef": "h2-g4-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Vì trời mưa nên chúng tôi không đi.",
+     "acceptedAnswers": [
+      "因为下雨，所以我们没去",
+      "因为下雨了，所以我们没去",
+      "因为下雨，我们没去"
+     ],
+     "requiredKeywords": [
+      "因为"
+     ],
+     "wordBank": [
+      "因为",
+      "下雨",
+      "所以",
+      "我们",
+      "没去"
+     ],
+     "explain_vi": "因为……，所以…….",
+     "grammarRef": "h2-g4-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Cái màu đỏ đẹp hơn.",
+     "acceptedAnswers": [
+      "红色的更好看"
+     ],
+     "requiredKeywords": [
+      "红色的",
+      "更"
+     ],
+     "wordBank": [
+      "红色的",
+      "更",
+      "好看"
+     ],
+     "explain_vi": "Cụm 的 + 更 + tính từ.",
+     "grammarRef": "h2-g4-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Bạn đã đến Trung Quốc bao giờ chưa?",
+     "acceptedAnswers": [
+      "你去过中国吗",
+      "你去过中国没有",
+      "你去没去过中国"
+     ],
+     "requiredKeywords": [
+      "去过"
+     ],
+     "wordBank": [
+      "你",
+      "去过",
+      "中国",
+      "吗"
+     ],
+     "explain_vi": "Câu hỏi với 过.",
+     "grammarRef": "h2-g4-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Mình vào trong xem thử đi.",
+     "acceptedAnswers": [
+      "我们进去看看吧",
+      "我们进去看一看吧"
+     ],
+     "requiredKeywords": [
+      "进去"
+     ],
+     "wordBank": [
+      "我们",
+      "进去",
+      "看看",
+      "吧"
+     ],
+     "explain_vi": "进去 + 看看.",
+     "grammarRef": "h2-g4-1"
+    }
+   ]
   }
  ]
 }

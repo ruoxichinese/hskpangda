@@ -2,19 +2,72 @@
   "id": 3,
   "level": "hsk2",
   "status": "ready",
-  "title": { "zh": "我想去西安旅游", "pinyin": "Wǒ xiǎng qù Xī'ān lǚyóu", "vi": "Tôi muốn đi du lịch Tây An" },
-  "grammarTopics_vi": ["Bổ ngữ kết quả", "Lặp động từ (1): làm thử, làm một chút", "Lặp động từ (2): việc đã làm – A了A, AB了一下"],
+  "title": {
+    "zh": "我想去西安旅游",
+    "pinyin": "Wǒ xiǎng qù Xī'ān lǚyóu",
+    "vi": "Tôi muốn đi du lịch Tây An"
+  },
+  "grammarTopics_vi": [
+    "Bổ ngữ kết quả",
+    "Lặp động từ (1): làm thử, làm một chút",
+    "Lặp động từ (2): việc đã làm – A了A, AB了一下"
+  ],
   "objectives": [
-    { "id": "o1", "vi": "Nghe hiểu và hỏi về lý do của một việc", "doneWhen": ["text-3"] },
-    { "id": "o2", "vi": "Dùng bổ ngữ kết quả để nói kết quả của hành động", "doneWhen": ["text-1"] },
-    { "id": "o3", "vi": "Dùng lặp động từ để nói hành động ngắn, nhẹ nhàng, làm thử", "doneWhen": ["text-2", "text-3"] },
-    { "id": "o4", "vi": "Biết các điểm du lịch nổi tiếng ở Tây An", "doneWhen": ["culture"] }
+    {
+      "id": "o1",
+      "vi": "Nghe hiểu và hỏi về lý do của một việc",
+      "doneWhen": [
+        "text-3"
+      ]
+    },
+    {
+      "id": "o2",
+      "vi": "Dùng bổ ngữ kết quả để nói kết quả của hành động",
+      "doneWhen": [
+        "text-1"
+      ]
+    },
+    {
+      "id": "o3",
+      "vi": "Dùng lặp động từ để nói hành động ngắn, nhẹ nhàng, làm thử",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Biết các điểm du lịch nổi tiếng ở Tây An",
+      "doneWhen": [
+        "culture"
+      ]
+    }
   ],
   "warmup": [
-    { "emoji": "🧼", "word": "洗", "pinyin": "xǐ", "vi": "rửa, giặt" },
-    { "emoji": "😩", "word": "累", "pinyin": "lèi", "vi": "mệt" },
-    { "emoji": "✋", "word": "拿", "pinyin": "ná", "vi": "cầm, lấy" },
-    { "emoji": "👍", "word": "不错", "pinyin": "búcuò", "vi": "khá tốt" }
+    {
+      "emoji": "🧼",
+      "word": "洗",
+      "pinyin": "xǐ",
+      "vi": "rửa, giặt"
+    },
+    {
+      "emoji": "😩",
+      "word": "累",
+      "pinyin": "lèi",
+      "vi": "mệt"
+    },
+    {
+      "emoji": "✋",
+      "word": "拿",
+      "pinyin": "ná",
+      "vi": "cầm, lấy"
+    },
+    {
+      "emoji": "👍",
+      "word": "不错",
+      "pinyin": "búcuò",
+      "vi": "khá tốt"
+    }
   ],
   "texts": [
     {
@@ -24,20 +77,88 @@
       "audio": "audio/hsk2/3-1.mp3",
       "vocabAudio": "audio/hsk2/3-2.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Vì sao anh Lưu Minh về muộn?", "options": ["病人太多了", "下雨了", "车太多了"], "answer": 0 },
-        { "prompt_vi": "Anh Lưu Minh muốn làm gì trước?", "options": ["吃饭", "休息一下", "去医院"], "answer": 1 }
+        {
+          "prompt_vi": "Vì sao Lưu Minh về muộn?",
+          "options": [
+            "没做完工作",
+            "去外边吃饭",
+            "在公司休息"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Bây giờ Lưu Minh muốn làm gì?",
+          "options": [
+            "吃饭",
+            "喝水",
+            "工作"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "wangyixue", "zh": "你回来了！今天这么晚啊。", "vi": "Anh về rồi à! Hôm nay muộn thế." },
-        { "speaker": "liuming", "zh": "今天病人太多了，下班的时候工作还没做完。", "vi": "Hôm nay bệnh nhân đông quá, đến giờ tan làm mà việc vẫn chưa làm xong.", "highlight": ["做完"] },
-        { "speaker": "wangyixue", "zh": "饭已经做好了，快来吃吧。", "vi": "Cơm nấu xong rồi, mau lại ăn đi.", "highlight": ["做好"] },
-        { "speaker": "liuming", "zh": "我想先休息一下，喝杯水。", "vi": "Anh muốn nghỉ một chút, uống cốc nước đã." },
-        { "speaker": "wangyixue", "zh": "好，水在桌子上。", "vi": "Ừ, nước ở trên bàn." }
+        {
+          "speaker": "wangyixue",
+          "zh": "今天回来这么晚啊！",
+          "vi": "Hôm nay về muộn thế!",
+          "t": 0.87
+        },
+        {
+          "speaker": "liuming",
+          "zh": "工作太多了，下班的时候没做完。",
+          "vi": "Nhiều việc quá, đến giờ tan làm vẫn chưa làm xong.",
+          "t": 3.33
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "菜都做好了，过来吃饭吧。",
+          "vi": "Thức ăn nấu xong cả rồi, lại ăn cơm đi.",
+          "t": 8.14
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我想休息一下，喝杯水。",
+          "vi": "Anh muốn nghỉ một chút, uống cốc nước đã.",
+          "t": 11.97
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好的。",
+          "vi": "Được ạ.",
+          "t": 15.19
+        }
       ],
       "vocab": [
-        { "zh": "回来", "pinyin": "huílái", "pos": "v.", "vi": "về, trở về (về phía người nói)", "example": { "zh": "你什么时候回来？", "vi": "Khi nào bạn về?" } },
-        { "zh": "这么", "pinyin": "zhème", "pos": "pron.", "vi": "như thế này, thế", "example": { "zh": "今天这么晚啊！", "vi": "Hôm nay muộn thế!" } },
-        { "zh": "完", "pinyin": "wán", "pos": "v.", "vi": "xong, hết", "example": { "zh": "我吃完饭了。", "vi": "Tôi ăn cơm xong rồi." } }
+        {
+          "zh": "回来",
+          "pinyin": "huílái",
+          "pos": "v.",
+          "vi": "về, trở về (về phía người nói)",
+          "example": {
+            "zh": "你什么时候回来？",
+            "vi": "Khi nào bạn về?"
+          }
+        },
+        {
+          "zh": "这么",
+          "pinyin": "zhème",
+          "pos": "pron.",
+          "vi": "như thế này, thế",
+          "example": {
+            "zh": "今天这么晚啊！",
+            "vi": "Hôm nay muộn thế!"
+          }
+        },
+        {
+          "zh": "完",
+          "pinyin": "wán",
+          "pos": "v.",
+          "vi": "xong, hết",
+          "example": {
+            "zh": "我吃完饭了。",
+            "vi": "Tôi ăn cơm xong rồi."
+          }
+        }
       ],
       "grammar": [
         {
@@ -45,23 +166,106 @@
           "title_zh": "结果补语",
           "title_vi": "Bổ ngữ kết quả",
           "formula": [
-            [{ "zh": "饭", "label": "Chủ ngữ", "role": "S" }, { "zh": "做", "label": "Động từ", "role": "V" }, { "zh": "好 / 完", "label": "Kết quả", "role": "ADV" }, { "zh": "了", "label": "", "role": "PART" }],
-            [{ "zh": "我", "label": "Chủ ngữ", "role": "S" }, { "zh": "没", "label": "phủ định", "role": "ADV" }, { "zh": "吃", "label": "Động từ", "role": "V" }, { "zh": "完", "label": "Kết quả", "role": "ADV" }, { "zh": "饭", "label": "Tân ngữ", "role": "O" }]
+            [
+              {
+                "zh": "饭",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "做",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "好 / 完",
+                "label": "Kết quả",
+                "role": "ADV"
+              },
+              {
+                "zh": "了",
+                "label": "",
+                "role": "PART"
+              }
+            ],
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "没",
+                "label": "phủ định",
+                "role": "ADV"
+              },
+              {
+                "zh": "吃",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "完",
+                "label": "Kết quả",
+                "role": "ADV"
+              },
+              {
+                "zh": "饭",
+                "label": "Tân ngữ",
+                "role": "O"
+              }
+            ]
           ],
-          "formulaNote": ["Khẳng định", "Phủ định"],
+          "formulaNote": [
+            "Khẳng định",
+            "Phủ định"
+          ],
           "explain_vi": "Một động từ hoặc tính từ đặt ngay sau động từ chính để cho biết kết quả của hành động: 做好 (làm xong, làm tốt), 吃完 (ăn hết), 来晚 (đến muộn), 看懂 (xem hiểu). Phủ định dùng 没(有), và BỎ 了. Câu hỏi có 3 cách: thêm 了吗 cuối câu; thêm (了)没有 cuối câu; hoặc Động từ + 没 + Động từ + kết quả.",
           "examples": [
-            { "zh": "菜都做好了。", "vi": "Đồ ăn nấu xong hết rồi." },
-            { "zh": "我没吃完饭。", "vi": "Tôi chưa ăn xong cơm." },
-            { "zh": "小雪来晚了没有？", "vi": "Tiểu Tuyết có đến muộn không?" }
+            {
+              "zh": "菜都做好了。",
+              "vi": "Đồ ăn nấu xong hết rồi."
+            },
+            {
+              "zh": "我没吃完饭。",
+              "vi": "Tôi chưa ăn xong cơm."
+            },
+            {
+              "zh": "小雪来晚了没有？",
+              "vi": "Tiểu Tuyết có đến muộn không?"
+            }
           ],
           "mistakes": [
-            { "wrong": "我没吃完饭了。", "right": "我没吃完饭。", "why_vi": "Câu phủ định với 没 không dùng 了." },
-            { "wrong": "我吃饭完了。", "right": "我吃完饭了。", "why_vi": "Bổ ngữ kết quả đứng NGAY SAU động từ, trước tân ngữ – khác tiếng Việt “ăn cơm xong”." }
+            {
+              "wrong": "我没吃完饭了。",
+              "right": "我没吃完饭。",
+              "why_vi": "Câu phủ định với 没 không dùng 了."
+            },
+            {
+              "wrong": "我吃饭完了。",
+              "right": "我吃完饭了。",
+              "why_vi": "Bổ ngữ kết quả đứng NGAY SAU động từ, trước tân ngữ – khác tiếng Việt “ăn cơm xong”."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "“Tôi làm xong bài tập rồi.”", "options": ["我做完作业了。", "我做作业完了。", "我完做作业了。"], "answer": 0 },
-            { "prompt_vi": "Phủ định của 我看懂了 là:", "options": ["我不看懂了。", "我没看懂。", "我没看懂了。"], "answer": 1 }
+            {
+              "prompt_vi": "“Tôi làm xong bài tập rồi.”",
+              "options": [
+                "我做完作业了。",
+                "我做作业完了。",
+                "我完做作业了。"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt_vi": "Phủ định của 我看懂了 là:",
+              "options": [
+                "我不看懂了。",
+                "我没看懂。",
+                "我没看懂了。"
+              ],
+              "answer": 1
+            }
           ]
         }
       ],
@@ -74,19 +278,78 @@
       "audio": "audio/hsk2/3-3.mp3",
       "vocabAudio": "audio/hsk2/3-4.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Anh Lưu Minh muốn tìm thời gian làm gì?", "options": ["去吃饭", "去旅游", "买东西"], "answer": 1 },
-        { "prompt_vi": "Anh Lưu Minh bảo chị Nhất Tuyết làm gì?", "options": ["去买票", "看一下时间", "想想去哪儿玩"], "answer": 2 }
+        {
+          "prompt_vi": "Lưu Minh muốn tìm thời gian để làm gì?",
+          "options": [
+            "去吃饭",
+            "去旅游",
+            "买东西"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Lưu Minh bảo Vương Nhất Tuyết làm gì?",
+          "options": [
+            "去买票",
+            "看一下时间",
+            "想想去哪儿玩"
+          ],
+          "answer": 2
+        }
       ],
       "lines": [
-        { "speaker": "liuming", "zh": "我们找个时间一起出去玩儿吧？", "vi": "Mình tìm thời gian cùng nhau đi chơi đi?" },
-        { "speaker": "wangyixue", "zh": "好啊！我早就想出去旅游了。", "vi": "Hay quá! Em muốn đi du lịch từ lâu rồi." },
-        { "speaker": "liuming", "zh": "你想去哪儿？", "vi": "Em muốn đi đâu?" },
-        { "speaker": "wangyixue", "zh": "我还没想好呢。", "vi": "Em vẫn chưa nghĩ xong." },
-        { "speaker": "liuming", "zh": "那你想一想，想好了告诉我，我去买票。", "vi": "Vậy em nghĩ thử xem, nghĩ xong thì bảo anh, anh đi mua vé.", "highlight": ["想一想"] }
+        {
+          "speaker": "liuming",
+          "zh": "我们找个时间去旅游，怎么样？",
+          "vi": "Mình tìm thời gian đi du lịch nhé, được không?",
+          "t": 0.8
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好啊，我也很想一起出去玩。",
+          "vi": "Hay quá, em cũng rất muốn cùng đi chơi.",
+          "t": 5.01
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你想去哪儿？",
+          "vi": "Em muốn đi đâu?",
+          "t": 9.71
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我还没想好呢。",
+          "vi": "Em vẫn chưa nghĩ ra.",
+          "t": 12.28
+        },
+        {
+          "speaker": "liuming",
+          "zh": "那你再想一想，你想好了，我来买票。",
+          "vi": "Vậy em nghĩ thêm đi, nghĩ xong thì anh mua vé.",
+          "t": 15.11
+        }
       ],
       "vocab": [
-        { "zh": "一起", "pinyin": "yìqǐ", "pos": "adv.", "vi": "cùng nhau", "example": { "zh": "我们一起去吧。", "vi": "Chúng mình cùng đi nhé." } },
-        { "zh": "出去", "pinyin": "chūqù", "pos": "v.", "vi": "ra ngoài, đi ra", "example": { "zh": "我想出去玩儿。", "vi": "Tôi muốn ra ngoài chơi." } }
+        {
+          "zh": "一起",
+          "pinyin": "yìqǐ",
+          "pos": "adv.",
+          "vi": "cùng nhau",
+          "example": {
+            "zh": "我们一起去吧。",
+            "vi": "Chúng mình cùng đi nhé."
+          }
+        },
+        {
+          "zh": "出去",
+          "pinyin": "chūqù",
+          "pos": "v.",
+          "vi": "ra ngoài, đi ra",
+          "example": {
+            "zh": "我想出去玩儿。",
+            "vi": "Tôi muốn ra ngoài chơi."
+          }
+        }
       ],
       "grammar": [
         {
@@ -94,23 +357,90 @@
           "title_zh": "动词重叠（1）",
           "title_vi": "Lặp động từ (1)",
           "formula": [
-            [{ "zh": "想", "label": "A", "role": "V" }, { "zh": "（一）", "label": "", "role": "X" }, { "zh": "想", "label": "A", "role": "V" }],
-            [{ "zh": "休息", "label": "AB", "role": "V" }, { "zh": "休息", "label": "AB", "role": "V" }],
-            [{ "zh": "帮", "label": "A", "role": "V" }, { "zh": "帮忙", "label": "AB", "role": "V" }]
+            [
+              {
+                "zh": "想",
+                "label": "A",
+                "role": "V"
+              },
+              {
+                "zh": "（一）",
+                "label": "",
+                "role": "X"
+              },
+              {
+                "zh": "想",
+                "label": "A",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "休息",
+                "label": "AB",
+                "role": "V"
+              },
+              {
+                "zh": "休息",
+                "label": "AB",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "帮",
+                "label": "A",
+                "role": "V"
+              },
+              {
+                "zh": "帮忙",
+                "label": "AB",
+                "role": "V"
+              }
+            ]
           ],
-          "formulaNote": ["1 âm tiết: A(一)A", "2 âm tiết: ABAB", "Từ ly hợp: AAB"],
+          "formulaNote": [
+            "1 âm tiết: A(一)A",
+            "2 âm tiết: ABAB",
+            "Từ ly hợp: AAB"
+          ],
           "explain_vi": "Lặp lại động từ hành động để diễn tả việc làm trong thời gian ngắn, làm thử, làm nhẹ nhàng – giống “… thử”, “… một chút”, “… xem” trong tiếng Việt. Giọng điệu thoải mái, hay dùng trong khẩu ngữ. Chữ lặp lại thứ hai đọc nhẹ.",
           "examples": [
-            { "zh": "那你再想一想，想好了我来买票。", "vi": "Vậy em nghĩ thêm chút nữa, nghĩ xong anh mua vé." },
-            { "zh": "我有点儿累，现在想休息休息。", "vi": "Tôi hơi mệt, giờ muốn nghỉ ngơi một chút." },
-            { "zh": "你能过来帮帮忙吗？", "vi": "Bạn qua đây giúp một tay được không?" }
+            {
+              "zh": "那你再想一想，想好了我来买票。",
+              "vi": "Vậy em nghĩ thêm chút nữa, nghĩ xong anh mua vé."
+            },
+            {
+              "zh": "我有点儿累，现在想休息休息。",
+              "vi": "Tôi hơi mệt, giờ muốn nghỉ ngơi một chút."
+            },
+            {
+              "zh": "你能过来帮帮忙吗？",
+              "vi": "Bạn qua đây giúp một tay được không?"
+            }
           ],
           "mistakes": [
-            { "wrong": "休一休息", "right": "休息休息", "why_vi": "Động từ hai âm tiết lặp theo kiểu ABAB, không chen 一." },
-            { "wrong": "帮忙帮忙", "right": "帮帮忙", "why_vi": "Từ ly hợp (帮忙, 睡觉, 洗澡…) lặp theo kiểu AAB." }
+            {
+              "wrong": "休一休息",
+              "right": "休息休息",
+              "why_vi": "Động từ hai âm tiết lặp theo kiểu ABAB, không chen 一."
+            },
+            {
+              "wrong": "帮忙帮忙",
+              "right": "帮帮忙",
+              "why_vi": "Từ ly hợp (帮忙, 睡觉, 洗澡…) lặp theo kiểu AAB."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "Lặp động từ 介绍 cho đúng:", "options": ["介介绍", "介绍介绍", "介一介绍"], "answer": 1 }
+            {
+              "prompt_vi": "Lặp động từ 介绍 cho đúng:",
+              "options": [
+                "介介绍",
+                "介绍介绍",
+                "介一介绍"
+              ],
+              "answer": 1
+            }
           ]
         }
       ],
@@ -123,25 +453,124 @@
       "audio": "audio/hsk2/3-5.mp3",
       "vocabAudio": "audio/hsk2/3-6.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Anh Lưu Minh bảo chị Nhất Tuyết làm gì?", "options": ["洗手", "洗苹果", "吃苹果"], "answer": 2 },
-        { "prompt_vi": "Chị Nhất Tuyết muốn đi du lịch ở đâu?", "options": ["西安", "北京", "上海"], "answer": 0 }
+        {
+          "prompt_vi": "Lưu Minh bảo Vương Nhất Tuyết làm gì?",
+          "options": [
+            "洗手",
+            "洗苹果",
+            "吃苹果"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vương Nhất Tuyết muốn đi du lịch ở đâu?",
+          "options": [
+            "西安",
+            "北京",
+            "上海"
+          ],
+          "answer": 0
+        }
       ],
       "lines": [
-        { "speaker": "liuming", "zh": "来，吃个苹果吧，我都洗好了。", "vi": "Này, ăn quả táo đi, anh rửa xong cả rồi." },
-        { "speaker": "wangyixue", "zh": "好。苹果在哪儿？", "vi": "Vâng. Táo ở đâu ạ?" },
-        { "speaker": "liuming", "zh": "在桌子上，你自己拿吧。", "vi": "Trên bàn ấy, em tự lấy nhé." },
-        { "speaker": "wangyixue", "zh": "我先去洗洗手。对了，我们去西安旅游，怎么样？", "vi": "Em đi rửa tay đã. À phải rồi, mình đi du lịch Tây An, anh thấy sao?", "tipRef": 0 },
-        { "speaker": "liuming", "zh": "为什么想去西安？", "vi": "Sao em lại muốn đi Tây An?" },
-        { "speaker": "wangyixue", "zh": "我在网上看了看，现在去西安很不错！", "vi": "Em xem qua trên mạng rồi, giờ này đi Tây An rất được!", "highlight": ["看了看"] }
+        {
+          "speaker": "liuming",
+          "zh": "吃个苹果吧，我都洗好了。",
+          "vi": "Ăn táo đi em, anh rửa xong hết rồi.",
+          "t": 1.19
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好的。",
+          "vi": "Vâng.",
+          "t": 5.22
+        },
+        {
+          "speaker": "liuming",
+          "zh": "就在桌子上，你自己拿。",
+          "vi": "Ở ngay trên bàn ấy, em tự lấy nhé.",
+          "t": 7.17
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我去洗洗手。对了，我们去西安旅游，怎么样？",
+          "vi": "Em đi rửa tay đã. À phải rồi, mình đi Tây An du lịch, anh thấy sao?",
+          "t": 11.17
+        },
+        {
+          "speaker": "liuming",
+          "zh": "为什么想去西安？",
+          "vi": "Sao em muốn đi Tây An?",
+          "t": 18.64
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我看了看网上的介绍，这个时候去西安很不错！",
+          "vi": "Em xem qua giới thiệu trên mạng, đi Tây An vào thời gian này rất hay!",
+          "t": 22.05
+        }
       ],
-      "tips": [{ "vi": "对了 dùng khi chợt nhớ ra điều gì hoặc muốn chuyển sang chuyện khác – giống “À phải rồi”, “À này”." }],
       "vocab": [
-        { "zh": "洗", "pinyin": "xǐ", "pos": "v.", "vi": "rửa, giặt", "example": { "zh": "我去洗手。", "vi": "Tôi đi rửa tay." } },
-        { "zh": "自己", "pinyin": "zìjǐ", "pos": "pron.", "vi": "tự mình, bản thân", "example": { "zh": "你自己拿吧。", "vi": "Bạn tự lấy nhé." } },
-        { "zh": "拿", "pinyin": "ná", "pos": "v.", "vi": "cầm, lấy", "example": { "zh": "你拿一个苹果吧。", "vi": "Bạn lấy một quả táo đi." } },
-        { "zh": "手", "pinyin": "shǒu", "pos": "n.", "vi": "tay", "example": { "zh": "我去洗洗手。", "vi": "Tôi đi rửa tay." } },
-        { "zh": "为什么", "pinyin": "wèi shénme", "pos": "pron.", "vi": "tại sao", "example": { "zh": "你为什么不去？", "vi": "Sao bạn không đi?" } },
-        { "zh": "不错", "pinyin": "búcuò", "pos": "adj.", "vi": "khá tốt, không tồi", "example": { "zh": "这个饭店很不错。", "vi": "Nhà hàng này khá được." } }
+        {
+          "zh": "洗",
+          "pinyin": "xǐ",
+          "pos": "v.",
+          "vi": "rửa, giặt",
+          "example": {
+            "zh": "我去洗手。",
+            "vi": "Tôi đi rửa tay."
+          }
+        },
+        {
+          "zh": "自己",
+          "pinyin": "zìjǐ",
+          "pos": "pron.",
+          "vi": "tự mình, bản thân",
+          "example": {
+            "zh": "你自己拿吧。",
+            "vi": "Bạn tự lấy nhé."
+          }
+        },
+        {
+          "zh": "拿",
+          "pinyin": "ná",
+          "pos": "v.",
+          "vi": "cầm, lấy",
+          "example": {
+            "zh": "你拿一个苹果吧。",
+            "vi": "Bạn lấy một quả táo đi."
+          }
+        },
+        {
+          "zh": "手",
+          "pinyin": "shǒu",
+          "pos": "n.",
+          "vi": "tay",
+          "example": {
+            "zh": "我去洗洗手。",
+            "vi": "Tôi đi rửa tay."
+          }
+        },
+        {
+          "zh": "为什么",
+          "pinyin": "wèi shénme",
+          "pos": "pron.",
+          "vi": "tại sao",
+          "example": {
+            "zh": "你为什么不去？",
+            "vi": "Sao bạn không đi?"
+          }
+        },
+        {
+          "zh": "不错",
+          "pinyin": "búcuò",
+          "pos": "adj.",
+          "vi": "khá tốt, không tồi",
+          "example": {
+            "zh": "这个饭店很不错。",
+            "vi": "Nhà hàng này khá được."
+          }
+        }
       ],
       "grammar": [
         {
@@ -149,23 +578,95 @@
           "title_zh": "动词重叠（2）",
           "title_vi": "Lặp động từ (2): việc đã xảy ra",
           "formula": [
-            [{ "zh": "看", "label": "A", "role": "V" }, { "zh": "了", "label": "", "role": "PART" }, { "zh": "看", "label": "A", "role": "V" }],
-            [{ "zh": "休息", "label": "AB", "role": "V" }, { "zh": "了一下", "label": "", "role": "PART" }],
-            [{ "zh": "帮", "label": "A", "role": "V" }, { "zh": "了", "label": "", "role": "PART" }, { "zh": "帮忙", "label": "AB", "role": "V" }]
+            [
+              {
+                "zh": "看",
+                "label": "A",
+                "role": "V"
+              },
+              {
+                "zh": "了",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "看",
+                "label": "A",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "休息",
+                "label": "AB",
+                "role": "V"
+              },
+              {
+                "zh": "了一下",
+                "label": "",
+                "role": "PART"
+              }
+            ],
+            [
+              {
+                "zh": "帮",
+                "label": "A",
+                "role": "V"
+              },
+              {
+                "zh": "了",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "帮忙",
+                "label": "AB",
+                "role": "V"
+              }
+            ]
           ],
-          "formulaNote": ["1 âm tiết: A了A", "2 âm tiết: AB了一下", "Từ ly hợp: A了AB"],
+          "formulaNote": [
+            "1 âm tiết: A了A",
+            "2 âm tiết: AB了一下",
+            "Từ ly hợp: A了AB"
+          ],
           "explain_vi": "Khi kể một việc ngắn đã làm xong, 了 chen vào giữa: 看了看 (đã xem qua). Động từ hai âm tiết thường KHÔNG lặp ở dạng này, mà dùng AB了一下: 休息了一下. Từ ly hợp: 帮了帮忙.",
           "examples": [
-            { "zh": "我看了看网上的介绍。", "vi": "Tôi đã xem qua phần giới thiệu trên mạng." },
-            { "zh": "我休息了一下，现在觉得不累了。", "vi": "Tôi nghỉ một lát rồi, giờ thấy không mệt nữa." },
-            { "zh": "他昨天来帮了帮忙。", "vi": "Hôm qua anh ấy có đến giúp một tay." }
+            {
+              "zh": "我看了看网上的介绍。",
+              "vi": "Tôi đã xem qua phần giới thiệu trên mạng."
+            },
+            {
+              "zh": "我休息了一下，现在觉得不累了。",
+              "vi": "Tôi nghỉ một lát rồi, giờ thấy không mệt nữa."
+            },
+            {
+              "zh": "他昨天来帮了帮忙。",
+              "vi": "Hôm qua anh ấy có đến giúp một tay."
+            }
           ],
           "mistakes": [
-            { "wrong": "我看看了网上的介绍。", "right": "我看了看网上的介绍。", "why_vi": "了 đứng giữa hai động từ lặp lại: A了A." },
-            { "wrong": "我休息了休息。", "right": "我休息了一下。", "why_vi": "Động từ hai âm tiết nói việc đã xảy ra thường dùng AB了一下." }
+            {
+              "wrong": "我看看了网上的介绍。",
+              "right": "我看了看网上的介绍。",
+              "why_vi": "了 đứng giữa hai động từ lặp lại: A了A."
+            },
+            {
+              "wrong": "我休息了休息。",
+              "right": "我休息了一下。",
+              "why_vi": "Động từ hai âm tiết nói việc đã xảy ra thường dùng AB了一下."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "“Hôm qua tôi đã đọc qua cuốn sách này.”", "options": ["我昨天看了看这本书。", "我昨天看看了这本书。", "我昨天看了一看了这本书。"], "answer": 0 }
+            {
+              "prompt_vi": "“Hôm qua tôi đã đọc qua cuốn sách này.”",
+              "options": [
+                "我昨天看了看这本书。",
+                "我昨天看看了这本书。",
+                "我昨天看了一看了这本书。"
+              ],
+              "answer": 0
+            }
           ]
         }
       ],
@@ -179,37 +680,248 @@
       "audio": "audio/hsk2/3-7.mp3",
       "vocabAudio": "audio/hsk2/3-8.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Đúng hay sai: Hôm nay anh Lưu Minh không đi làm.", "options": ["Đúng", "Sai"], "answer": 1, "explain_vi": "Bệnh viện gọi anh ấy quay lại đi làm." },
-        { "prompt_vi": "Sáng nay ai đưa con đi học?", "options": ["王一雪", "刘明", "刘小雪"], "answer": 1 }
+        {
+          "prompt_vi": "Lưu Minh đưa con đi học bằng cách nào?",
+          "options": [
+            "打车",
+            "开车",
+            "坐公交车"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Bệnh viện gọi điện để làm gì?",
+          "options": [
+            "让刘明休息",
+            "让刘明去上班",
+            "让刘明去开车"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "wangyixue", "zh": "今天早上，刘明开车送孩子们去学校。", "vi": "Sáng nay, anh Lưu Minh lái xe đưa bọn trẻ đến trường." },
-        { "speaker": "wangyixue", "zh": "送完孩子回到家，医院就来电话了，让他回去上班。", "vi": "Đưa con xong về đến nhà thì bệnh viện gọi điện, bảo anh quay lại làm việc." },
-        { "speaker": "wangyixue", "zh": "这个月他每天都很忙，很累。", "vi": "Tháng này ngày nào anh ấy cũng rất bận, rất mệt." },
-        { "speaker": "wangyixue", "zh": "我真想让他休息休息。", "vi": "Mình thật sự muốn để anh ấy được nghỉ ngơi một chút." }
+        {
+          "speaker": "wangyixue",
+          "zh": "早上，刘明开车送孩子去学校，",
+          "vi": "Buổi sáng, Lưu Minh lái xe đưa con đến trường,",
+          "t": 0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "送完孩子回家后，医院就来电话了，让他回去上班。",
+          "vi": "đưa con xong vừa về đến nhà thì bệnh viện gọi điện, bảo anh ấy quay lại làm việc.",
+          "t": 4.53
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我觉得他这个月每天都很累，真想让他休息休息。",
+          "vi": "Mình thấy tháng này ngày nào anh ấy cũng rất mệt, thật muốn để anh ấy nghỉ ngơi một chút.",
+          "t": 10.76
+        }
       ],
       "vocab": [
-        { "zh": "送", "pinyin": "sòng", "pos": "v.", "vi": "đưa (ai đi đâu); tặng", "example": { "zh": "我送孩子去学校。", "vi": "Tôi đưa con đến trường." } },
-        { "zh": "回去", "pinyin": "huíqù", "pos": "v.", "vi": "về, quay về (rời xa người nói)", "example": { "zh": "我明天回去。", "vi": "Ngày mai tôi về." } },
-        { "zh": "每", "pinyin": "měi", "pos": "pron.", "vi": "mỗi", "example": { "zh": "他每天都很忙。", "vi": "Ngày nào anh ấy cũng rất bận." } },
-        { "zh": "累", "pinyin": "lèi", "pos": "adj.", "vi": "mệt", "example": { "zh": "我今天很累。", "vi": "Hôm nay tôi rất mệt." } }
+        {
+          "zh": "送",
+          "pinyin": "sòng",
+          "pos": "v.",
+          "vi": "đưa (ai đi đâu); tặng",
+          "example": {
+            "zh": "我送孩子去学校。",
+            "vi": "Tôi đưa con đến trường."
+          }
+        },
+        {
+          "zh": "回去",
+          "pinyin": "huíqù",
+          "pos": "v.",
+          "vi": "về, quay về (rời xa người nói)",
+          "example": {
+            "zh": "我明天回去。",
+            "vi": "Ngày mai tôi về."
+          }
+        },
+        {
+          "zh": "每",
+          "pinyin": "měi",
+          "pos": "pron.",
+          "vi": "mỗi",
+          "example": {
+            "zh": "他每天都很忙。",
+            "vi": "Ngày nào anh ấy cũng rất bận."
+          }
+        },
+        {
+          "zh": "累",
+          "pinyin": "lèi",
+          "pos": "adj.",
+          "vi": "mệt",
+          "example": {
+            "zh": "我今天很累。",
+            "vi": "Hôm nay tôi rất mệt."
+          }
+        }
       ],
       "pangdaTip": "每 + lượng từ/danh từ thường đi với 都: 每天都…, 每个人都… = ngày nào cũng, ai cũng."
     }
   ],
   "exercises": [
-    { "id": "e1", "kind": "fill", "sentence": "这本书我已经看___了。", "bank": ["完", "远", "累"], "answer": "完", "explain_vi": "看完 = đọc xong (bổ ngữ kết quả)." },
-    { "id": "e2", "kind": "fill", "sentence": "我很忙，你___拿吧。", "bank": ["自己", "一起", "每"], "answer": "自己" },
-    { "id": "e3", "kind": "fill", "sentence": "我们___去看电影吧！", "bank": ["一起", "自己", "为什么"], "answer": "一起" },
-    { "id": "e4", "kind": "fill", "sentence": "你___不吃饭？", "bank": ["为什么", "这么", "不错"], "answer": "为什么" },
-    { "id": "e5", "kind": "fill", "sentence": "他___天早上都送孩子去学校。", "bank": ["每", "送", "累"], "answer": "每" },
-    { "id": "e6", "kind": "reorder", "tiles": ["做", "了", "饭", "好"], "answers": ["饭做好了"], "vi": "Cơm nấu xong rồi.", "explain_vi": "Động từ + kết quả + 了." },
-    { "id": "e7", "kind": "reorder", "tiles": ["一下", "休息", "我", "想", "先"], "answers": ["我想先休息一下"], "vi": "Tôi muốn nghỉ một chút đã." },
-    { "id": "e8", "kind": "listenPick", "audioText": "我去洗洗手。", "options": [{ "emoji": "🧼", "label": "Rửa tay" }, { "emoji": "🍎", "label": "Ăn táo" }, { "emoji": "🚗", "label": "Lái xe" }], "answer": 0 },
-    { "id": "e9", "kind": "listenTF", "audioText": "我还没想好呢。", "emoji": "🤔", "statement_vi": "Người nói đã quyết định xong.", "answer": false, "explain_vi": "还没想好 = vẫn chưa nghĩ xong." },
-    { "id": "e10", "kind": "pictureComplete", "emoji": "🍎💧✅", "sentence": "苹果我都洗___了。", "options": ["好", "远", "累"], "answer": 0 },
-    { "id": "e11", "kind": "pictureComplete", "emoji": "😩🛋️", "sentence": "他工作太多了，觉得很___。", "options": ["累", "远", "不错"], "answer": 0 },
-    { "id": "e12", "kind": "matchQA", "pairs": [{ "q": "你为什么想去西安？", "a": "网上说现在去西安很不错。" }, { "q": "饭做好了吗？", "a": "做好了，快来吃吧。" }, { "q": "你想去哪儿玩儿？", "a": "我还没想好呢。" }] }
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "这本书我已经看___了。",
+      "bank": [
+        "完",
+        "远",
+        "累"
+      ],
+      "answer": "完",
+      "explain_vi": "看完 = đọc xong (bổ ngữ kết quả)."
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我很忙，你___拿吧。",
+      "bank": [
+        "自己",
+        "一起",
+        "每"
+      ],
+      "answer": "自己"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我们___去看电影吧！",
+      "bank": [
+        "一起",
+        "自己",
+        "为什么"
+      ],
+      "answer": "一起"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "你___不吃饭？",
+      "bank": [
+        "为什么",
+        "这么",
+        "不错"
+      ],
+      "answer": "为什么"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "他___天早上都送孩子去学校。",
+      "bank": [
+        "每",
+        "送",
+        "累"
+      ],
+      "answer": "每"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "做",
+        "了",
+        "饭",
+        "好"
+      ],
+      "answers": [
+        "饭做好了"
+      ],
+      "vi": "Cơm nấu xong rồi.",
+      "explain_vi": "Động từ + kết quả + 了."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "一下",
+        "休息",
+        "我",
+        "想",
+        "先"
+      ],
+      "answers": [
+        "我想先休息一下"
+      ],
+      "vi": "Tôi muốn nghỉ một chút đã."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "我去洗洗手。",
+      "options": [
+        {
+          "emoji": "🧼",
+          "label": "Rửa tay"
+        },
+        {
+          "emoji": "🍎",
+          "label": "Ăn táo"
+        },
+        {
+          "emoji": "🚗",
+          "label": "Lái xe"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我还没想好呢。",
+      "emoji": "🤔",
+      "statement_vi": "Người nói đã quyết định xong.",
+      "answer": false,
+      "explain_vi": "还没想好 = vẫn chưa nghĩ xong."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🍎💧✅",
+      "sentence": "苹果我都洗___了。",
+      "options": [
+        "好",
+        "远",
+        "累"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "kind": "pictureComplete",
+      "emoji": "😩🛋️",
+      "sentence": "他工作太多了，觉得很___。",
+      "options": [
+        "累",
+        "远",
+        "不错"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你为什么想去西安？",
+          "a": "网上说现在去西安很不错。"
+        },
+        {
+          "q": "饭做好了吗？",
+          "a": "做好了，快来吃吧。"
+        },
+        {
+          "q": "你想去哪儿玩儿？",
+          "a": "我还没想好呢。"
+        }
+      ]
+    }
   ],
   "activity": {
     "title_vi": "Hỏi chuyện du lịch",
@@ -220,10 +932,22 @@
       "Báo cáo trước lớp: bạn mình muốn đi đâu, vì sao."
     ],
     "patterns": [
-      { "zh": "你想去旅游吗？", "vi": "Bạn có muốn đi du lịch không?" },
-      { "zh": "你想好去哪儿了吗？", "vi": "Bạn nghĩ xong đi đâu chưa?" },
-      { "zh": "你为什么想去那儿？", "vi": "Sao bạn muốn đến đó?" },
-      { "zh": "我在网上看了看，那儿很不错。", "vi": "Mình xem qua trên mạng rồi, chỗ đó khá hay." }
+      {
+        "zh": "你想去旅游吗？",
+        "vi": "Bạn có muốn đi du lịch không?"
+      },
+      {
+        "zh": "你想好去哪儿了吗？",
+        "vi": "Bạn nghĩ xong đi đâu chưa?"
+      },
+      {
+        "zh": "你为什么想去那儿？",
+        "vi": "Sao bạn muốn đến đó?"
+      },
+      {
+        "zh": "我在网上看了看，那儿很不错。",
+        "vi": "Mình xem qua trên mạng rồi, chỗ đó khá hay."
+      }
     ]
   },
   "culture": {
@@ -235,8 +959,50 @@
       "Đừng bỏ qua tháp Đại Nhạn (大雁塔) gắn với Đường Tăng (玄奘), và phố Hồi Dân (回民街) với món bánh mì kẹp thịt (肉夹馍) và mì Biang Biang."
     ],
     "table": {
-      "head": ["Tiếng Việt", "Chữ Hán", "Pinyin", "Âm Hán Việt"],
-      "rows": [["Tây An", "西安", "Xī'ān", "Tây An"], ["Binh mã dũng", "兵马俑", "Bīngmǎyǒng", "Binh mã dũng"], ["Tường thành Tây An", "西安城墙", "Xī'ān Chéngqiáng", "Tây An thành tường"], ["Tháp Đại Nhạn", "大雁塔", "Dàyàn Tǎ", "Đại Nhạn tháp"], ["Phố Hồi Dân", "回民街", "Huímín Jiē", "Hồi Dân nhai"], ["Bánh mì kẹp thịt", "肉夹馍", "ròujiāmó", "nhục giáp mô"]]
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin",
+        "Âm Hán Việt"
+      ],
+      "rows": [
+        [
+          "Tây An",
+          "西安",
+          "Xī'ān",
+          "Tây An"
+        ],
+        [
+          "Binh mã dũng",
+          "兵马俑",
+          "Bīngmǎyǒng",
+          "Binh mã dũng"
+        ],
+        [
+          "Tường thành Tây An",
+          "西安城墙",
+          "Xī'ān Chéngqiáng",
+          "Tây An thành tường"
+        ],
+        [
+          "Tháp Đại Nhạn",
+          "大雁塔",
+          "Dàyàn Tǎ",
+          "Đại Nhạn tháp"
+        ],
+        [
+          "Phố Hồi Dân",
+          "回民街",
+          "Huímín Jiē",
+          "Hồi Dân nhai"
+        ],
+        [
+          "Bánh mì kẹp thịt",
+          "肉夹馍",
+          "ròujiāmó",
+          "nhục giáp mô"
+        ]
+      ]
     }
   }
 }

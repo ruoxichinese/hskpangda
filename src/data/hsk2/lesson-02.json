@@ -2,19 +2,72 @@
   "id": 2,
   "level": "hsk2",
   "status": "ready",
-  "title": { "zh": "还是打车去北大吧", "pinyin": "Háishi dǎchē qù Běidà ba", "vi": "Hay là mình đi taxi đến Đại học Bắc Kinh đi" },
-  "grammarTopics_vi": ["Cấu trúc “还是……吧”: chọn phương án tốt hơn", "Dùng 多 để nói số ước lượng (hơn…)", "Động từ, cụm động từ, cụm chủ-vị làm định ngữ"],
+  "title": {
+    "zh": "还是打车去北大吧",
+    "pinyin": "Háishi dǎchē qù Běidà ba",
+    "vi": "Hay là mình đi taxi đến Đại học Bắc Kinh đi"
+  },
+  "grammarTopics_vi": [
+    "Cấu trúc “还是……吧”: chọn phương án tốt hơn",
+    "Dùng 多 để nói số ước lượng (hơn…)",
+    "Động từ, cụm động từ, cụm chủ-vị làm định ngữ"
+  ],
   "objectives": [
-    { "id": "o1", "vi": "Nghe hiểu và giới thiệu thông tin cơ bản về một trường học", "doneWhen": ["text-2", "text-4"] },
-    { "id": "o2", "vi": "Dùng 多 để nói con số ước lượng", "doneWhen": ["text-2"] },
-    { "id": "o3", "vi": "Dùng “还是……吧” để đưa ra lựa chọn", "doneWhen": ["text-1"] },
-    { "id": "o4", "vi": "Biết về Đại học Bắc Kinh – ngôi trường danh tiếng của Trung Quốc", "doneWhen": ["culture"] }
+    {
+      "id": "o1",
+      "vi": "Nghe hiểu và giới thiệu thông tin cơ bản về một trường học",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
+    },
+    {
+      "id": "o2",
+      "vi": "Dùng 多 để nói con số ước lượng",
+      "doneWhen": [
+        "text-2"
+      ]
+    },
+    {
+      "id": "o3",
+      "vi": "Dùng “还是……吧” để đưa ra lựa chọn",
+      "doneWhen": [
+        "text-1"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Biết về Đại học Bắc Kinh – ngôi trường danh tiếng của Trung Quốc",
+      "doneWhen": [
+        "culture"
+      ]
+    }
   ],
   "warmup": [
-    { "emoji": "🎫", "word": "票", "pinyin": "piào", "vi": "vé" },
-    { "emoji": "🏫", "word": "教室", "pinyin": "jiàoshì", "vi": "phòng học" },
-    { "emoji": "🚕", "word": "打车", "pinyin": "dǎchē", "vi": "bắt taxi" },
-    { "emoji": "🚌", "word": "公交车", "pinyin": "gōngjiāochē", "vi": "xe buýt" }
+    {
+      "emoji": "🎫",
+      "word": "票",
+      "pinyin": "piào",
+      "vi": "vé"
+    },
+    {
+      "emoji": "🏫",
+      "word": "教室",
+      "pinyin": "jiàoshì",
+      "vi": "phòng học"
+    },
+    {
+      "emoji": "🚕",
+      "word": "打车",
+      "pinyin": "dǎchē",
+      "vi": "bắt taxi"
+    },
+    {
+      "emoji": "🚌",
+      "word": "公交车",
+      "pinyin": "gōngjiāochē",
+      "vi": "xe buýt"
+    }
   ],
   "texts": [
     {
@@ -24,26 +77,135 @@
       "audio": "audio/hsk2/2-1.mp3",
       "vocabAudio": "audio/hsk2/2-2.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Hai bạn muốn đi đâu?", "options": ["饭店", "北京大学", "车站"], "answer": 1 },
-        { "prompt_vi": "Cuối cùng hai bạn đi bằng gì?", "options": ["坐公交车", "打车", "走路"], "answer": 1 }
+        {
+          "prompt_vi": "Gia Nguyệt và Annie muốn đi đâu?",
+          "options": [
+            "饭店",
+            "车站",
+            "北京大学"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Họ đi đến đó bằng cách nào?",
+          "options": [
+            "开车",
+            "坐出租车",
+            "坐公交车"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "baijiayue", "zh": "您好，我们想去北京大学，这儿有公交车吗？", "vi": "Chào anh, bọn em muốn đến Đại học Bắc Kinh, ở đây có xe buýt không ạ?" },
-        { "speaker": "fuwuyuan", "zh": "有，但车站有点儿远，要走二十分钟。", "vi": "Có, nhưng bến xe hơi xa, phải đi bộ hai mươi phút." },
-        { "speaker": "baijiayue", "zh": "这儿好打车吗？", "vi": "Ở đây có dễ bắt taxi không ạ?", "highlight": ["好"], "tipRef": 0 },
-        { "speaker": "fuwuyuan", "zh": "很好打，门口就有出租车。", "vi": "Dễ lắm, ngay cửa có taxi." },
-        { "speaker": "baijiayue", "zh": "谢谢您！安妮，车站太远了，我们还是打车去吧。", "vi": "Cảm ơn anh! Annie, bến xe xa quá, hay là mình đi taxi đi.", "highlight": ["还是", "吧"] },
-        { "speaker": "anni", "zh": "好，没问题！", "vi": "Được, không vấn đề gì!" }
+        {
+          "speaker": "baijiayue",
+          "zh": "请问，这儿有到北京大学的公交车吗？",
+          "vi": "Xin hỏi, ở đây có xe buýt đi Đại học Bắc Kinh không ạ?",
+          "t": 0.41
+        },
+        {
+          "speaker": "fuwuyuan",
+          "zh": "有，但车站有点儿远。",
+          "vi": "Có, nhưng bến xe hơi xa.",
+          "t": 4.97
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这儿好打车吗？",
+          "vi": "Ở đây có dễ bắt taxi không ạ?",
+          "t": 8.68
+        },
+        {
+          "speaker": "fuwuyuan",
+          "zh": "好打车。",
+          "vi": "Dễ bắt lắm.",
+          "t": 11.01
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢。安妮，我们还是打车去吧。",
+          "vi": "Cảm ơn ạ. Annie, mình đi taxi thì hơn.",
+          "t": 12.66
+        },
+        {
+          "speaker": "anni",
+          "zh": "好，没问题。",
+          "vi": "Ừ, được thôi.",
+          "t": 17.45
+        }
       ],
-      "tips": [{ "vi": "Ở đây 好 nghĩa là “dễ”: 好打车 = dễ bắt taxi, 好吃 = dễ ăn → ngon." }],
       "vocab": [
-        { "zh": "公交车", "pinyin": "gōngjiāochē", "pos": "n.", "vi": "xe buýt", "example": { "zh": "我每天坐公交车上班。", "vi": "Ngày nào tôi cũng đi xe buýt đi làm." } },
-        { "zh": "但", "pinyin": "dàn", "pos": "conj.", "vi": "nhưng", "example": { "zh": "我想去，但没有时间。", "vi": "Tôi muốn đi nhưng không có thời gian." } },
-        { "zh": "车站", "pinyin": "chēzhàn", "pos": "n.", "vi": "bến xe, nhà ga", "example": { "zh": "车站在前边。", "vi": "Bến xe ở phía trước." } },
-        { "zh": "远", "pinyin": "yuǎn", "pos": "adj.", "vi": "xa", "example": { "zh": "我家有点儿远。", "vi": "Nhà tôi hơi xa." } },
-        { "zh": "打车", "pinyin": "dǎchē", "pos": "v.", "vi": "bắt taxi, đi taxi", "example": { "zh": "我们打车去吧。", "vi": "Mình đi taxi nhé." } },
-        { "zh": "还是", "pinyin": "háishi", "pos": "adv.", "vi": "tốt hơn là, hay là", "example": { "zh": "我们还是走路去吧。", "vi": "Hay là mình đi bộ thì hơn." } },
-        { "zh": "北京大学", "pinyin": "Běijīng Dàxué", "pos": "proper", "vi": "Đại học Bắc Kinh (gọi tắt 北大)", "proper": true, "example": { "zh": "北京大学很漂亮。", "vi": "Đại học Bắc Kinh rất đẹp." } }
+        {
+          "zh": "公交车",
+          "pinyin": "gōngjiāochē",
+          "pos": "n.",
+          "vi": "xe buýt",
+          "example": {
+            "zh": "我每天坐公交车上班。",
+            "vi": "Ngày nào tôi cũng đi xe buýt đi làm."
+          }
+        },
+        {
+          "zh": "但",
+          "pinyin": "dàn",
+          "pos": "conj.",
+          "vi": "nhưng",
+          "example": {
+            "zh": "我想去，但没有时间。",
+            "vi": "Tôi muốn đi nhưng không có thời gian."
+          }
+        },
+        {
+          "zh": "车站",
+          "pinyin": "chēzhàn",
+          "pos": "n.",
+          "vi": "bến xe, nhà ga",
+          "example": {
+            "zh": "车站在前边。",
+            "vi": "Bến xe ở phía trước."
+          }
+        },
+        {
+          "zh": "远",
+          "pinyin": "yuǎn",
+          "pos": "adj.",
+          "vi": "xa",
+          "example": {
+            "zh": "我家有点儿远。",
+            "vi": "Nhà tôi hơi xa."
+          }
+        },
+        {
+          "zh": "打车",
+          "pinyin": "dǎchē",
+          "pos": "v.",
+          "vi": "bắt taxi, đi taxi",
+          "example": {
+            "zh": "我们打车去吧。",
+            "vi": "Mình đi taxi nhé."
+          }
+        },
+        {
+          "zh": "还是",
+          "pinyin": "háishi",
+          "pos": "adv.",
+          "vi": "tốt hơn là, hay là",
+          "example": {
+            "zh": "我们还是走路去吧。",
+            "vi": "Hay là mình đi bộ thì hơn."
+          }
+        },
+        {
+          "zh": "北京大学",
+          "pinyin": "Běijīng Dàxué",
+          "pos": "proper",
+          "vi": "Đại học Bắc Kinh (gọi tắt 北大)",
+          "proper": true,
+          "example": {
+            "zh": "北京大学很漂亮。",
+            "vi": "Đại học Bắc Kinh rất đẹp."
+          }
+        }
       ],
       "grammar": [
         {
@@ -51,19 +213,61 @@
           "title_zh": "固定格式“还是……吧”",
           "title_vi": "Cấu trúc “还是……吧”",
           "formula": [
-            [{ "zh": "我们", "label": "Chủ ngữ", "role": "S" }, { "zh": "还是", "label": "tốt hơn là", "role": "ADV" }, { "zh": "打车去", "label": "Phương án chọn", "role": "V" }, { "zh": "吧", "label": "đề nghị", "role": "Q" }]
+            [
+              {
+                "zh": "我们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "还是",
+                "label": "tốt hơn là",
+                "role": "ADV"
+              },
+              {
+                "zh": "打车去",
+                "label": "Phương án chọn",
+                "role": "V"
+              },
+              {
+                "zh": "吧",
+                "label": "đề nghị",
+                "role": "Q"
+              }
+            ]
           ],
           "explain_vi": "Sau khi cân nhắc, người nói thấy một cách làm là tốt hơn và đề nghị chọn cách đó – giống “hay là… đi”, “thôi thì… vậy”. Thường đi sau một lý do: 车站太远了，我们还是打车去吧。",
           "examples": [
-            { "zh": "我们还是打车去吧。", "vi": "Hay là mình đi taxi đi." },
-            { "zh": "那件衣服很好看，还是买那件吧。", "vi": "Cái áo kia đẹp lắm, thôi mua cái kia đi." },
-            { "zh": "你第一次去北京，还是找个人接你吧。", "vi": "Bạn đến Bắc Kinh lần đầu, tốt nhất nên nhờ người đón." }
+            {
+              "zh": "我们还是打车去吧。",
+              "vi": "Hay là mình đi taxi đi."
+            },
+            {
+              "zh": "那件衣服很好看，还是买那件吧。",
+              "vi": "Cái áo kia đẹp lắm, thôi mua cái kia đi."
+            },
+            {
+              "zh": "你第一次去北京，还是找个人接你吧。",
+              "vi": "Bạn đến Bắc Kinh lần đầu, tốt nhất nên nhờ người đón."
+            }
           ],
           "mistakes": [
-            { "wrong": "还是我们打车去吗？", "right": "我们还是打车去吧。", "why_vi": "Đây là câu đề nghị, kết thúc bằng 吧. 还是 + 吗 lại là câu hỏi lựa chọn (sẽ học ở bài 10)." }
+            {
+              "wrong": "还是我们打车去吗？",
+              "right": "我们还是打车去吧。",
+              "why_vi": "Đây là câu đề nghị, kết thúc bằng 吧. 还是 + 吗 lại là câu hỏi lựa chọn (sẽ học ở bài 10)."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "Trời mưa to. Bạn đề nghị ở nhà xem phim. Câu nào đúng?", "options": ["我们还是在家看电影吧。", "我们还是在家看电影吗？", "还是我们在家看电影了。"], "answer": 0 }
+            {
+              "prompt_vi": "Trời mưa to. Bạn đề nghị ở nhà xem phim. Câu nào đúng?",
+              "options": [
+                "我们还是在家看电影吧。",
+                "我们还是在家看电影吗？",
+                "还是我们在家看电影了。"
+              ],
+              "answer": 0
+            }
           ]
         }
       ],
@@ -76,25 +280,134 @@
       "audio": "audio/hsk2/2-3.mp3",
       "vocabAudio": "audio/hsk2/2-4.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Đại học Bắc Kinh có khoảng bao nhiêu sinh viên?", "options": ["三千多", "四万多", "十万多"], "answer": 1 },
-        { "prompt_vi": "Gia Nguyệt muốn làm gì ở Đại học Bắc Kinh?", "options": ["玩", "学习", "找教室"], "answer": 1 }
+        {
+          "prompt_vi": "Đại học Bắc Kinh có bao nhiêu sinh viên?",
+          "options": [
+            "三千多",
+            "四万多",
+            "十万多"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Gia Nguyệt muốn làm gì ở Đại học Bắc Kinh?",
+          "options": [
+            "玩",
+            "学习",
+            "找教室"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "baijiayue", "zh": "北京大学的学生真多啊！", "vi": "Sinh viên Đại học Bắc Kinh đông thật đấy!", "highlight": ["啊"] },
-        { "speaker": "anni", "zh": "是啊，网上说这儿有四万多名学生呢。", "vi": "Đúng thế, trên mạng nói ở đây có hơn bốn vạn sinh viên cơ.", "highlight": ["多"] },
-        { "speaker": "baijiayue", "zh": "外国学生多吗？", "vi": "Sinh viên nước ngoài có đông không?" },
-        { "speaker": "anni", "zh": "也很多，有三千多名。", "vi": "Cũng đông lắm, hơn ba nghìn người." },
-        { "speaker": "baijiayue", "zh": "我也很想来这儿学习。", "vi": "Mình cũng rất muốn đến đây học." },
-        { "speaker": "anni", "zh": "前边就有一间教室，我们去看一下吧。", "vi": "Phía trước có một phòng học đấy, mình qua xem một chút đi." }
+        {
+          "speaker": "baijiayue",
+          "zh": "学校里人真多啊！",
+          "vi": "Trong trường đông người thật đấy!",
+          "t": 0.78
+        },
+        {
+          "speaker": "anni",
+          "zh": "是啊，北京大学有四万多名学生呢！",
+          "vi": "Ừ, Đại học Bắc Kinh có hơn bốn vạn sinh viên cơ mà!",
+          "t": 3.7
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你是怎么知道的？",
+          "vi": "Sao cậu biết?",
+          "t": 9.05
+        },
+        {
+          "speaker": "anni",
+          "zh": "是网上说的，网上还说北京大学有三千多名外国学生。",
+          "vi": "Trên mạng nói đấy, trên mạng còn nói Đại học Bắc Kinh có hơn ba nghìn sinh viên nước ngoài.",
+          "t": 11.3
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我也想来这儿学习。",
+          "vi": "Mình cũng muốn đến đây học.",
+          "t": 19.39
+        },
+        {
+          "speaker": "anni",
+          "zh": "那边就有一间教室，我们去看一下吧。",
+          "vi": "Đằng kia có một phòng học, mình qua xem thử đi.",
+          "t": 22.69
+        }
       ],
       "vocab": [
-        { "zh": "啊", "pinyin": "a", "pos": "part.", "vi": "à, nhỉ, thật (trợ từ cảm thán cuối câu)", "example": { "zh": "这儿真漂亮啊！", "vi": "Ở đây đẹp thật đấy!" } },
-        { "zh": "万", "pinyin": "wàn", "pos": "num.", "vi": "vạn, mười nghìn", "example": { "zh": "四万", "vi": "bốn vạn = 40.000" } },
-        { "zh": "名", "pinyin": "míng", "pos": "m.", "vi": "người (lượng từ, trang trọng); hạng", "example": { "zh": "三千多名学生", "vi": "hơn ba nghìn sinh viên" } },
-        { "zh": "网上", "pinyin": "wǎngshang", "pos": "n.", "vi": "trên mạng", "example": { "zh": "网上说明天下雨。", "vi": "Trên mạng nói mai trời mưa." } },
-        { "zh": "外国", "pinyin": "wàiguó", "pos": "n.", "vi": "nước ngoài", "example": { "zh": "他是外国学生。", "vi": "Anh ấy là sinh viên nước ngoài." } },
-        { "zh": "间", "pinyin": "jiān", "pos": "m.", "vi": "gian, căn (lượng từ cho phòng)", "example": { "zh": "一间教室", "vi": "một phòng học" } },
-        { "zh": "教室", "pinyin": "jiàoshì", "pos": "n.", "vi": "phòng học", "example": { "zh": "教室里有二十多个学生。", "vi": "Trong lớp có hơn hai mươi học sinh." } }
+        {
+          "zh": "啊",
+          "pinyin": "a",
+          "pos": "part.",
+          "vi": "à, nhỉ, thật (trợ từ cảm thán cuối câu)",
+          "example": {
+            "zh": "这儿真漂亮啊！",
+            "vi": "Ở đây đẹp thật đấy!"
+          }
+        },
+        {
+          "zh": "万",
+          "pinyin": "wàn",
+          "pos": "num.",
+          "vi": "vạn, mười nghìn",
+          "example": {
+            "zh": "四万",
+            "vi": "bốn vạn = 40.000"
+          }
+        },
+        {
+          "zh": "名",
+          "pinyin": "míng",
+          "pos": "m.",
+          "vi": "người (lượng từ, trang trọng); hạng",
+          "example": {
+            "zh": "三千多名学生",
+            "vi": "hơn ba nghìn sinh viên"
+          }
+        },
+        {
+          "zh": "网上",
+          "pinyin": "wǎngshang",
+          "pos": "n.",
+          "vi": "trên mạng",
+          "example": {
+            "zh": "网上说明天下雨。",
+            "vi": "Trên mạng nói mai trời mưa."
+          }
+        },
+        {
+          "zh": "外国",
+          "pinyin": "wàiguó",
+          "pos": "n.",
+          "vi": "nước ngoài",
+          "example": {
+            "zh": "他是外国学生。",
+            "vi": "Anh ấy là sinh viên nước ngoài."
+          }
+        },
+        {
+          "zh": "间",
+          "pinyin": "jiān",
+          "pos": "m.",
+          "vi": "gian, căn (lượng từ cho phòng)",
+          "example": {
+            "zh": "一间教室",
+            "vi": "một phòng học"
+          }
+        },
+        {
+          "zh": "教室",
+          "pinyin": "jiàoshì",
+          "pos": "n.",
+          "vi": "phòng học",
+          "example": {
+            "zh": "教室里有二十多个学生。",
+            "vi": "Trong lớp có hơn hai mươi học sinh."
+          }
+        }
       ],
       "grammar": [
         {
@@ -102,23 +415,101 @@
           "title_zh": "用“多”表达概数",
           "title_vi": "Dùng 多 để nói số ước lượng",
           "formula": [
-            [{ "zh": "四万 / 二十", "label": "Số tròn chục", "role": "N" }, { "zh": "多", "label": "hơn", "role": "PART" }, { "zh": "名 / 个", "label": "Lượng từ", "role": "X" }, { "zh": "学生", "label": "Danh từ", "role": "O" }],
-            [{ "zh": "五", "label": "Số lẻ (1–9)", "role": "N" }, { "zh": "块", "label": "Lượng từ", "role": "X" }, { "zh": "多", "label": "hơn", "role": "PART" }, { "zh": "钱", "label": "Danh từ", "role": "O" }]
+            [
+              {
+                "zh": "四万 / 二十",
+                "label": "Số tròn chục",
+                "role": "N"
+              },
+              {
+                "zh": "多",
+                "label": "hơn",
+                "role": "PART"
+              },
+              {
+                "zh": "名 / 个",
+                "label": "Lượng từ",
+                "role": "X"
+              },
+              {
+                "zh": "学生",
+                "label": "Danh từ",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "五",
+                "label": "Số lẻ (1–9)",
+                "role": "N"
+              },
+              {
+                "zh": "块",
+                "label": "Lượng từ",
+                "role": "X"
+              },
+              {
+                "zh": "多",
+                "label": "hơn",
+                "role": "PART"
+              },
+              {
+                "zh": "钱",
+                "label": "Danh từ",
+                "role": "O"
+              }
+            ]
           ],
-          "formulaNote": ["Số tròn chục", "Số lẻ"],
+          "formulaNote": [
+            "Số tròn chục",
+            "Số lẻ"
+          ],
           "explain_vi": "多 đặt sau số để chỉ “hơn một chút”. Mẹo nhớ: số tròn chục (10, 20, 100, 4万…) thì 多 đứng NGAY SAU SỐ, trước lượng từ: 二十多个. Số lẻ từ 1 đến 9 thì 多 đứng SAU LƯỢNG TỪ: 五块多 (hơn 5 đồng, phần lẻ nhỏ hơn 1).",
           "examples": [
-            { "zh": "北京大学有四万多名学生呢！", "vi": "Đại học Bắc Kinh có hơn bốn vạn sinh viên đấy!" },
-            { "zh": "教室里有二十多个学生。", "vi": "Trong lớp có hơn hai mươi học sinh." },
-            { "zh": "这两个苹果五块多钱。", "vi": "Hai quả táo này hơn năm đồng." }
+            {
+              "zh": "北京大学有四万多名学生呢！",
+              "vi": "Đại học Bắc Kinh có hơn bốn vạn sinh viên đấy!"
+            },
+            {
+              "zh": "教室里有二十多个学生。",
+              "vi": "Trong lớp có hơn hai mươi học sinh."
+            },
+            {
+              "zh": "这两个苹果五块多钱。",
+              "vi": "Hai quả táo này hơn năm đồng."
+            }
           ],
           "mistakes": [
-            { "wrong": "二十个多学生", "right": "二十多个学生", "why_vi": "Số tròn chục: 多 đứng trước lượng từ." },
-            { "wrong": "五多块钱", "right": "五块多钱", "why_vi": "Số lẻ 1–9: 多 đứng sau lượng từ." }
+            {
+              "wrong": "二十个多学生",
+              "right": "二十多个学生",
+              "why_vi": "Số tròn chục: 多 đứng trước lượng từ."
+            },
+            {
+              "wrong": "五多块钱",
+              "right": "五块多钱",
+              "why_vi": "Số lẻ 1–9: 多 đứng sau lượng từ."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "“hơn ba mươi người”", "options": ["三十多个人", "三十个多人", "三多十个人"], "answer": 0 },
-            { "prompt_vi": "“hơn 8 đồng”", "options": ["八多块钱", "八块多钱", "多八块钱"], "answer": 1 }
+            {
+              "prompt_vi": "“hơn ba mươi người”",
+              "options": [
+                "三十多个人",
+                "三十个多人",
+                "三多十个人"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt_vi": "“hơn 8 đồng”",
+              "options": [
+                "八多块钱",
+                "八块多钱",
+                "多八块钱"
+              ],
+              "answer": 1
+            }
           ]
         }
       ],
@@ -131,21 +522,84 @@
       "audio": "audio/hsk2/2-5.mp3",
       "vocabAudio": "audio/hsk2/2-6.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Trong trường có gì?", "options": ["银行", "电影院", "公交车站"], "answer": 1 },
-        { "prompt_vi": "Có loại vé xem phim chưa đến bao nhiêu tiền?", "options": ["十块钱", "二十块钱", "三十块钱"], "answer": 1 }
+        {
+          "prompt_vi": "Annie nói trong Đại học Bắc Kinh có gì?",
+          "options": [
+            "银行",
+            "电影院",
+            "公交车站"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Có vé xem phim còn chưa đến bao nhiêu tiền?",
+          "options": [
+            "十块钱",
+            "二十块钱",
+            "三十块钱"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "anni", "zh": "家月，你看，学校里还有一家电影院！", "vi": "Gia Nguyệt, cậu nhìn kìa, trong trường còn có cả rạp chiếu phim!" },
-        { "speaker": "baijiayue", "zh": "是啊，电影院还不小呢。", "vi": "Ừ, rạp cũng không nhỏ đâu." },
-        { "speaker": "anni", "zh": "学生看的电影票也很便宜。", "vi": "Vé xem phim cho sinh viên cũng rẻ lắm.", "highlight": ["学生看的"] },
-        { "speaker": "baijiayue", "zh": "天啊！有的票还不到二十块钱。", "vi": "Trời ơi! Có vé còn chưa đến hai mươi đồng.", "tipRef": 0 },
-        { "speaker": "anni", "zh": "那我们去看个电影吧？", "vi": "Vậy mình đi xem phim nhé?" },
-        { "speaker": "baijiayue", "zh": "今天别看了，下次再来看吧。", "vi": "Hôm nay thôi đừng xem, lần sau mình lại đến xem nhé." }
+        {
+          "speaker": "anni",
+          "zh": "家月，你看，学校里有家电影院！",
+          "vi": "Gia Nguyệt, cậu nhìn kìa, trong trường có một rạp chiếu phim!",
+          "t": 0.4
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "是啊，电影院还不小。",
+          "vi": "Ừ, rạp cũng không nhỏ đâu.",
+          "t": 5.46
+        },
+        {
+          "speaker": "anni",
+          "zh": "他们卖的电影票也很便宜。",
+          "vi": "Vé xem phim họ bán cũng rẻ lắm.",
+          "t": 9.31
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "天啊！有的还不到二十块钱。",
+          "vi": "Trời ơi! Có vé còn chưa đến hai mươi tệ.",
+          "t": 13.26
+        },
+        {
+          "speaker": "anni",
+          "zh": "那你想不想去看个电影？",
+          "vi": "Vậy cậu có muốn đi xem phim không?",
+          "t": 17.47
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "还是别看电影了，北京大学就很好看！",
+          "vi": "Thôi đừng xem phim nữa, Đại học Bắc Kinh đã đủ đẹp rồi!",
+          "t": 21.82
+        }
       ],
-      "tips": [{ "vi": "天啊 thể hiện sự ngạc nhiên. 不到 = chưa đến, chưa tới (con số nào đó)." }],
       "vocab": [
-        { "zh": "票", "pinyin": "piào", "pos": "n.", "vi": "vé", "example": { "zh": "我买了两张电影票。", "vi": "Tôi mua hai vé xem phim." } },
-        { "zh": "别", "pinyin": "bié", "pos": "adv.", "vi": "đừng", "example": { "zh": "别看电影了。", "vi": "Đừng xem phim nữa." } }
+        {
+          "zh": "票",
+          "pinyin": "piào",
+          "pos": "n.",
+          "vi": "vé",
+          "example": {
+            "zh": "我买了两张电影票。",
+            "vi": "Tôi mua hai vé xem phim."
+          }
+        },
+        {
+          "zh": "别",
+          "pinyin": "bié",
+          "pos": "adv.",
+          "vi": "đừng",
+          "example": {
+            "zh": "别看电影了。",
+            "vi": "Đừng xem phim nữa."
+          }
+        }
       ],
       "grammar": [
         {
@@ -153,20 +607,73 @@
           "title_zh": "动词或动词性短语、主谓短语作定语",
           "title_vi": "Động từ, cụm động từ, cụm chủ-vị làm định ngữ",
           "formula": [
-            [{ "zh": "学生看", "label": "Cụm chủ-vị", "role": "ATTR" }, { "zh": "的", "label": "", "role": "PART" }, { "zh": "电影票", "label": "Danh từ", "role": "N" }],
-            [{ "zh": "学中文", "label": "Cụm động từ", "role": "ATTR" }, { "zh": "的", "label": "", "role": "PART" }, { "zh": "学生", "label": "Danh từ", "role": "N" }]
+            [
+              {
+                "zh": "学生看",
+                "label": "Cụm chủ-vị",
+                "role": "ATTR"
+              },
+              {
+                "zh": "的",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "电影票",
+                "label": "Danh từ",
+                "role": "N"
+              }
+            ],
+            [
+              {
+                "zh": "学中文",
+                "label": "Cụm động từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "的",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "学生",
+                "label": "Danh từ",
+                "role": "N"
+              }
+            ]
           ],
           "explain_vi": "Muốn miêu tả một danh từ bằng cả một hành động (“vé MÀ sinh viên xem”, “sinh viên HỌC TIẾNG TRUNG”), đặt hành động + 的 TRƯỚC danh từ. Thứ tự ngược với tiếng Việt: tiếng Việt nói “cái cốc bạn tặng tôi”, tiếng Trung nói 朋友给我的杯子.",
           "examples": [
-            { "zh": "他们卖的电影票也很便宜。", "vi": "Vé xem phim họ bán cũng rất rẻ." },
-            { "zh": "现在学中文的学生很多。", "vi": "Bây giờ sinh viên học tiếng Trung rất đông." },
-            { "zh": "这是朋友给我的杯子。", "vi": "Đây là cái cốc bạn tặng tôi." }
+            {
+              "zh": "他们卖的电影票也很便宜。",
+              "vi": "Vé xem phim họ bán cũng rất rẻ."
+            },
+            {
+              "zh": "现在学中文的学生很多。",
+              "vi": "Bây giờ sinh viên học tiếng Trung rất đông."
+            },
+            {
+              "zh": "这是朋友给我的杯子。",
+              "vi": "Đây là cái cốc bạn tặng tôi."
+            }
           ],
           "mistakes": [
-            { "wrong": "电影票学生看的", "right": "学生看的电影票", "why_vi": "Người Việt hay giữ thứ tự “vé mà sinh viên xem”. Trong tiếng Trung, phần miêu tả + 的 đứng trước." }
+            {
+              "wrong": "电影票学生看的",
+              "right": "学生看的电影票",
+              "why_vi": "Người Việt hay giữ thứ tự “vé mà sinh viên xem”. Trong tiếng Trung, phần miêu tả + 的 đứng trước."
+            }
           ],
           "quiz": [
-            { "prompt_vi": "“món ăn mẹ nấu”", "options": ["妈妈做的菜", "菜妈妈做的", "做的妈妈菜"], "answer": 0 }
+            {
+              "prompt_vi": "“món ăn mẹ nấu”",
+              "options": [
+                "妈妈做的菜",
+                "菜妈妈做的",
+                "做的妈妈菜"
+              ],
+              "answer": 0
+            }
           ]
         }
       ],
@@ -180,34 +687,219 @@
       "audio": "audio/hsk2/2-7.mp3",
       "vocabAudio": "audio/hsk2/2-8.mp3",
       "listenQuiz": [
-        { "prompt_vi": "Đúng hay sai: Đại học Bắc Kinh có hơn 40.000 sinh viên nước ngoài.", "options": ["Đúng", "Sai"], "answer": 1, "explain_vi": "Có hơn 40.000 sinh viên, trong đó hơn 3.000 là người nước ngoài." },
-        { "prompt_vi": "Lần sau có thời gian, hai bạn muốn quay lại làm gì?", "options": ["看学生", "学中文", "看电影"], "answer": 2 }
+        {
+          "prompt_vi": "Đại học Bắc Kinh có bao nhiêu sinh viên?",
+          "options": [
+            "三千多",
+            "四万多",
+            "十万多"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Gia Nguyệt thấy vé xem phim ở đó thế nào?",
+          "options": [
+            "很贵",
+            "不贵",
+            "卖完了"
+          ],
+          "answer": 1
+        }
       ],
       "lines": [
-        { "speaker": "baijiayue", "zh": "天中，今天我和安妮去北京大学了。", "vi": "Thiên Trung, hôm nay mình với Annie đi Đại học Bắc Kinh." },
-        { "speaker": "baijiayue", "zh": "北京大学很大，有四万多名学生，还有三千多名外国学生。", "vi": "Đại học Bắc Kinh rất rộng, có hơn bốn vạn sinh viên, trong đó hơn ba nghìn là sinh viên nước ngoài." },
-        { "speaker": "baijiayue", "zh": "学校很漂亮，里边还有一家电影院，学生看的电影票很便宜。", "vi": "Trường rất đẹp, bên trong còn có một rạp chiếu phim, vé cho sinh viên rất rẻ." },
-        { "speaker": "baijiayue", "zh": "我们下次有时间，还想再过来看个电影。", "vi": "Lần sau có thời gian, bọn mình còn muốn quay lại xem phim." }
+        {
+          "speaker": "baijiayue",
+          "zh": "北京大学很大，有四万多名学生。",
+          "vi": "Đại học Bắc Kinh rất rộng, có hơn bốn vạn sinh viên.",
+          "t": 0.74
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "学校很漂亮，里边还有家电影院，电影票也不贵，",
+          "vi": "Trường rất đẹp, bên trong còn có một rạp chiếu phim, vé xem phim cũng không đắt,",
+          "t": 4.81
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我们有时间还想再过来看个电影。",
+          "vi": "khi nào có thời gian bọn mình còn muốn quay lại xem một bộ phim.",
+          "t": 11.37
+        }
       ],
       "vocab": [
-        { "zh": "过来", "pinyin": "guòlái", "pos": "v.", "vi": "đến đây, qua đây", "example": { "zh": "你过来看一下。", "vi": "Bạn qua đây xem một chút." } }
+        {
+          "zh": "过来",
+          "pinyin": "guòlái",
+          "pos": "v.",
+          "vi": "đến đây, qua đây",
+          "example": {
+            "zh": "你过来看一下。",
+            "vi": "Bạn qua đây xem một chút."
+          }
+        }
       ],
       "pangdaTip": "过来 là đi về phía người nói, ngược lại là 过去 (đi về phía kia). Bạn sẽ học kỹ ở bài 5."
     }
   ],
   "exercises": [
-    { "id": "e1", "kind": "fill", "sentence": "我家很___，要坐一个小时的车。", "bank": ["远", "间", "别"], "answer": "远" },
-    { "id": "e2", "kind": "fill", "sentence": "公交车太慢了，我们___打车去吧。", "bank": ["还是", "但", "就"], "answer": "还是", "explain_vi": "还是……吧 = hay là … đi." },
-    { "id": "e3", "kind": "fill", "sentence": "我很想去，___今天没有时间。", "bank": ["但", "还是", "别"], "answer": "但" },
-    { "id": "e4", "kind": "fill", "sentence": "那___教室很大。", "bank": ["间", "名", "万"], "answer": "间", "explain_vi": "Lượng từ cho phòng: 间." },
-    { "id": "e5", "kind": "fill", "sentence": "___去了，外边在下雨。", "bank": ["别", "但", "多"], "answer": "别" },
-    { "id": "e6", "kind": "reorder", "tiles": ["吧", "我们", "打车", "还是", "去"], "answers": ["我们还是打车去吧"], "vi": "Hay là mình đi taxi đi.", "explain_vi": "Chủ ngữ + 还是 + phương án + 吧." },
-    { "id": "e7", "kind": "reorder", "tiles": ["的", "这", "是", "买", "我", "票"], "answers": ["这是我买的票"], "vi": "Đây là vé tôi mua.", "explain_vi": "Cụm chủ-vị 我买 + 的 + danh từ." },
-    { "id": "e8", "kind": "listenPick", "audioText": "公交车", "options": [{ "emoji": "🚌", "label": "Xe buýt" }, { "emoji": "🚕", "label": "Taxi" }, { "emoji": "✈️", "label": "Máy bay" }], "answer": 0 },
-    { "id": "e9", "kind": "listenTF", "audioText": "车站有点儿远。", "emoji": "🚏", "statement_vi": "Bến xe ở rất gần.", "answer": false, "explain_vi": "有点儿远 = hơi xa." },
-    { "id": "e10", "kind": "listenTF", "audioText": "北京大学有四万多名学生。", "emoji": "🏛️", "statement_vi": "Đại học Bắc Kinh có hơn 40.000 sinh viên.", "answer": true },
-    { "id": "e11", "kind": "pictureComplete", "emoji": "🧑‍🎓🧑‍🎓🧑‍🎓 ×20+", "sentence": "教室里有二十___个学生。", "options": ["多", "万", "名"], "answer": 0, "explain_vi": "Số tròn chục + 多 + lượng từ." },
-    { "id": "e12", "kind": "matchQA", "pairs": [{ "q": "这儿好打车吗？", "a": "很好打，门口就有。" }, { "q": "北京大学有多少学生？", "a": "有四万多名。" }, { "q": "我们去看电影吧？", "a": "今天别看了，下次吧。" }] }
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我家很___，要坐一个小时的车。",
+      "bank": [
+        "远",
+        "间",
+        "别"
+      ],
+      "answer": "远"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "公交车太慢了，我们___打车去吧。",
+      "bank": [
+        "还是",
+        "但",
+        "就"
+      ],
+      "answer": "还是",
+      "explain_vi": "还是……吧 = hay là … đi."
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我很想去，___今天没有时间。",
+      "bank": [
+        "但",
+        "还是",
+        "别"
+      ],
+      "answer": "但"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "那___教室很大。",
+      "bank": [
+        "间",
+        "名",
+        "万"
+      ],
+      "answer": "间",
+      "explain_vi": "Lượng từ cho phòng: 间."
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "___去了，外边在下雨。",
+      "bank": [
+        "别",
+        "但",
+        "多"
+      ],
+      "answer": "别"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "吧",
+        "我们",
+        "打车",
+        "还是",
+        "去"
+      ],
+      "answers": [
+        "我们还是打车去吧"
+      ],
+      "vi": "Hay là mình đi taxi đi.",
+      "explain_vi": "Chủ ngữ + 还是 + phương án + 吧."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "的",
+        "这",
+        "是",
+        "买",
+        "我",
+        "票"
+      ],
+      "answers": [
+        "这是我买的票"
+      ],
+      "vi": "Đây là vé tôi mua.",
+      "explain_vi": "Cụm chủ-vị 我买 + 的 + danh từ."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "公交车",
+      "options": [
+        {
+          "emoji": "🚌",
+          "label": "Xe buýt"
+        },
+        {
+          "emoji": "🚕",
+          "label": "Taxi"
+        },
+        {
+          "emoji": "✈️",
+          "label": "Máy bay"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "车站有点儿远。",
+      "emoji": "🚏",
+      "statement_vi": "Bến xe ở rất gần.",
+      "answer": false,
+      "explain_vi": "有点儿远 = hơi xa."
+    },
+    {
+      "id": "e10",
+      "kind": "listenTF",
+      "audioText": "北京大学有四万多名学生。",
+      "emoji": "🏛️",
+      "statement_vi": "Đại học Bắc Kinh có hơn 40.000 sinh viên.",
+      "answer": true
+    },
+    {
+      "id": "e11",
+      "kind": "pictureComplete",
+      "emoji": "🧑‍🎓🧑‍🎓🧑‍🎓 ×20+",
+      "sentence": "教室里有二十___个学生。",
+      "options": [
+        "多",
+        "万",
+        "名"
+      ],
+      "answer": 0,
+      "explain_vi": "Số tròn chục + 多 + lượng từ."
+    },
+    {
+      "id": "e12",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "这儿好打车吗？",
+          "a": "很好打，门口就有。"
+        },
+        {
+          "q": "北京大学有多少学生？",
+          "a": "有四万多名。"
+        },
+        {
+          "q": "我们去看电影吧？",
+          "a": "今天别看了，下次吧。"
+        }
+      ]
+    }
   ],
   "activity": {
     "title_vi": "Đóng vai: Hỏi đường",
@@ -218,10 +910,22 @@
       "Người hỏi kết thúc bằng một lựa chọn với “还是……吧”."
     ],
     "patterns": [
-      { "zh": "请问，这儿有到电影院的公交车吗？", "vi": "Xin hỏi, ở đây có xe buýt đến rạp chiếu phim không?" },
-      { "zh": "有，但车站有点儿远。", "vi": "Có, nhưng bến hơi xa." },
-      { "zh": "要走二十多分钟。", "vi": "Phải đi bộ hơn hai mươi phút." },
-      { "zh": "那我们还是打车去吧。", "vi": "Vậy mình đi taxi thì hơn." }
+      {
+        "zh": "请问，这儿有到电影院的公交车吗？",
+        "vi": "Xin hỏi, ở đây có xe buýt đến rạp chiếu phim không?"
+      },
+      {
+        "zh": "有，但车站有点儿远。",
+        "vi": "Có, nhưng bến hơi xa."
+      },
+      {
+        "zh": "要走二十多分钟。",
+        "vi": "Phải đi bộ hơn hai mươi phút."
+      },
+      {
+        "zh": "那我们还是打车去吧。",
+        "vi": "Vậy mình đi taxi thì hơn."
+      }
     ]
   },
   "culture": {
@@ -233,8 +937,38 @@
       "Khách tham quan muốn vào trường thường phải đặt lịch trước trên mạng."
     ],
     "table": {
-      "head": ["Tiếng Việt", "Chữ Hán", "Pinyin", "Âm Hán Việt"],
-      "rows": [["Đại học Bắc Kinh", "北京大学", "Běijīng Dàxué", "Bắc Kinh Đại học"], ["Hồ Vị Danh", "未名湖", "Wèimíng Hú", "Vị Danh hồ"], ["Tháp Bác Nhã", "博雅塔", "Bóyǎ Tǎ", "Bác Nhã tháp"], ["Đại học Thanh Hoa", "清华大学", "Qīnghuá Dàxué", "Thanh Hoa Đại học"]]
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin",
+        "Âm Hán Việt"
+      ],
+      "rows": [
+        [
+          "Đại học Bắc Kinh",
+          "北京大学",
+          "Běijīng Dàxué",
+          "Bắc Kinh Đại học"
+        ],
+        [
+          "Hồ Vị Danh",
+          "未名湖",
+          "Wèimíng Hú",
+          "Vị Danh hồ"
+        ],
+        [
+          "Tháp Bác Nhã",
+          "博雅塔",
+          "Bóyǎ Tǎ",
+          "Bác Nhã tháp"
+        ],
+        [
+          "Đại học Thanh Hoa",
+          "清华大学",
+          "Qīnghuá Dàxué",
+          "Thanh Hoa Đại học"
+        ]
+      ]
     }
   }
 }

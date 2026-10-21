@@ -1,35 +1,928 @@
 {
   "id": 6,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "小雪，生日快乐！",
     "pinyin": "Xiǎoxuě, shēngrì kuàilè!",
     "vi": "Tiểu Tuyết, chúc mừng sinh nhật!"
   },
   "grammarTopics_vi": [
-    "Lặp tính từ",
-    "Cụm cố định 什么的",
-    "Trợ từ kết cấu 地"
+    "Lặp tính từ: 大大的, 漂漂亮亮的",
+    "Cụm cố định “什么的”",
+    "Trợ từ kết cấu “地”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Lặp tính từ",
-      "doneWhen": []
+      "vi": "Dùng tính từ lặp để miêu tả tính chất, trạng thái",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Cụm cố định 什么的",
-      "doneWhen": []
+      "vi": "Dùng “什么的” để liệt kê chưa hết",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Trợ từ kết cấu 地",
-      "doneWhen": []
+      "vi": "Dùng “地” để nói cách thức của hành động",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Biết phong tục mừng sinh nhật của người Trung Quốc",
+      "doneWhen": [
+        "culture"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🐟",
+      "word": "鱼",
+      "pinyin": "yú",
+      "vi": "cá"
+    },
+    {
+      "emoji": "🖍️",
+      "word": "画笔",
+      "pinyin": "huàbǐ",
+      "vi": "bút vẽ"
+    },
+    {
+      "emoji": "🛏️",
+      "word": "床",
+      "pinyin": "chuáng",
+      "vi": "giường"
+    },
+    {
+      "emoji": "😊",
+      "word": "快乐",
+      "pinyin": "kuàilè",
+      "vi": "vui vẻ"
+    },
+    {
+      "emoji": "🎨",
+      "word": "画画",
+      "pinyin": "huà huà",
+      "vi": "vẽ tranh"
+    },
+    {
+      "emoji": "🎂",
+      "word": "过生日",
+      "pinyin": "guò shēngrì",
+      "vi": "tổ chức sinh nhật"
+    },
+    {
+      "emoji": "🎁",
+      "word": "打开礼物",
+      "pinyin": "dǎkāi lǐwù",
+      "vi": "mở quà"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà, anh Lưu Minh và chị Vương Nhất Tuyết đang trò chuyện.",
+      "scene": "🛋️",
+      "audio": "audio/hsk2/6-1.mp3",
+      "vocabAudio": "audio/hsk2/6-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai vợ chồng định chuẩn bị quà gì?",
+          "options": [
+            "画",
+            "衣服",
+            "画笔"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Khi nào chị Nhất Tuyết đi mua quà?",
+          "options": [
+            "明天早上",
+            "明天上午",
+            "明天晚上"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "明天就是女儿的生日了。",
+          "vi": "Mai là sinh nhật con gái rồi đấy.",
+          "t": 0.3
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你不说，我还真忘了。我们给她准备个什么礼物呢？",
+          "vi": "Em không nói thì anh quên mất. Mình chuẩn bị quà gì cho con nhỉ?",
+          "t": 4.46
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "她喜欢画画，你觉得画笔怎么样？",
+          "vi": "Con thích vẽ, anh thấy bút vẽ thế nào?",
+          "t": 10.78
+        },
+        {
+          "speaker": "liuming",
+          "zh": "就送画笔吧！",
+          "vi": "Tặng bút vẽ đi!",
+          "t": 15.92
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那我明天上午就去买。",
+          "vi": "Vậy sáng mai em đi mua luôn.",
+          "t": 18.3
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好的！我再给她买个大大的生日蛋糕。",
+          "vi": "Được! Anh mua thêm cho con một cái bánh sinh nhật thật to.",
+          "t": 21.38
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "生日",
+          "pinyin": "shēngrì",
+          "pos": "n.",
+          "vi": "sinh nhật",
+          "example": {
+            "zh": "今天是我的生日。",
+            "vi": "Hôm nay là sinh nhật tôi."
+          }
+        },
+        {
+          "zh": "忘",
+          "pinyin": "wàng",
+          "pos": "v.",
+          "vi": "quên",
+          "example": {
+            "zh": "我忘了他的名字。",
+            "vi": "Tôi quên tên anh ấy rồi."
+          }
+        },
+        {
+          "zh": "画",
+          "pinyin": "huà",
+          "pos": "v./n.",
+          "vi": "vẽ; bức tranh",
+          "example": {
+            "zh": "她喜欢画画。",
+            "vi": "Cô bé thích vẽ tranh."
+          }
+        },
+        {
+          "zh": "画笔",
+          "pinyin": "huàbǐ",
+          "pos": "n.",
+          "vi": "bút vẽ",
+          "example": {
+            "zh": "这是新画笔。",
+            "vi": "Đây là bút vẽ mới."
+          }
+        },
+        {
+          "zh": "蛋糕",
+          "pinyin": "dàngāo",
+          "pos": "n.",
+          "vi": "bánh ngọt, bánh gato",
+          "example": {
+            "zh": "我们买个生日蛋糕吧。",
+            "vi": "Mình mua một cái bánh sinh nhật đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g6-1",
+          "title_zh": "形容词重叠",
+          "title_vi": "Lặp tính từ: AA, AABB",
+          "formula": [
+            [
+              {
+                "zh": "大",
+                "label": "Tính từ 1 âm tiết A",
+                "role": "V"
+              },
+              {
+                "zh": "→ 大大的",
+                "label": "AA (+ 的)",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "漂亮",
+                "label": "Tính từ 2 âm tiết AB",
+                "role": "V"
+              },
+              {
+                "zh": "→ 漂漂亮亮的",
+                "label": "AABB (+ 的)",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Lặp tính từ làm mức độ sâu hơn hoặc thể hiện sự yêu thích, thân mật: 大大的蛋糕 = cái bánh to ơi là to, 小小的猫 = con mèo nhỏ xíu. Tính từ một âm tiết lặp thành AA, hai âm tiết thành AABB. Tính từ đã lặp không đi với 很 nữa.",
+          "examples": [
+            {
+              "zh": "我再给她买个大大的生日蛋糕。",
+              "vi": "Tôi mua thêm cho con một cái bánh sinh nhật thật to."
+            },
+            {
+              "zh": "这只猫小小的，真让人喜欢。",
+              "vi": "Con mèo này nhỏ xinh, thật đáng yêu."
+            },
+            {
+              "zh": "一雪的女儿每天都漂漂亮亮的。",
+              "vi": "Con gái chị Nhất Tuyết ngày nào cũng xinh xắn."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "很大大的蛋糕",
+              "right": "大大的蛋糕",
+              "why_vi": "Tính từ lặp đã mang nghĩa mức độ, không thêm 很."
+            },
+            {
+              "wrong": "漂亮漂亮的",
+              "right": "漂漂亮亮的",
+              "why_vi": "Tính từ hai âm tiết lặp theo kiểu AABB."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Căn phòng sạch sẽ tinh tươm.” (干净 = sạch)",
+              "options": [
+                "房间干干净净的。",
+                "房间很干干净净的。",
+                "房间干净干净的。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "你不说，我还真忘了 = “em không nói thì anh quên mất” – câu nói tự nhiên khi được nhắc chuyện quan trọng."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong phòng khách, cả nhà anh Lưu Minh đang trò chuyện.",
+      "scene": "🎁",
+      "audio": "audio/hsk2/6-3.mp3",
+      "vocabAudio": "audio/hsk2/6-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết muốn vẽ gì?",
+          "options": [
+            "黑色的狗",
+            "黑色的猫",
+            "白色的衣服"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Tiểu Minh muốn vẽ ai?",
+          "options": [
+            "爸爸",
+            "妈妈",
+            "姐姐"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "小雪，生日快乐！",
+          "vi": "Tiểu Tuyết, chúc mừng sinh nhật con!",
+          "t": 0.54
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "姐姐，生日快乐！",
+          "vi": "Chị ơi, chúc mừng sinh nhật!",
+          "t": 3.65
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "小雪，这是爸爸、妈妈送你的礼物。",
+          "vi": "Tiểu Tuyết, đây là quà bố mẹ tặng con.",
+          "t": 6.2
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你打开看看喜欢不喜欢。",
+          "vi": "Con mở ra xem có thích không.",
+          "t": 11.24
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "画笔！我很喜欢！",
+          "vi": "Bút vẽ! Con thích lắm!",
+          "t": 14.78
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那你想画点儿什么？",
+          "vi": "Vậy con muốn vẽ gì nào?",
+          "t": 18.07
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "画我们的家！有爸爸、妈妈、弟弟，还有黑色的狗、白色的猫什么的。",
+          "vi": "Vẽ nhà mình ạ! Có bố, mẹ, em trai, còn có chó đen, mèo trắng nữa.",
+          "t": 20.43
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "那我要画一个穿白色衣服的姐姐。",
+          "vi": "Vậy em sẽ vẽ chị mặc áo trắng.",
+          "t": 29.16
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "快乐",
+          "pinyin": "kuàilè",
+          "pos": "adj.",
+          "vi": "vui vẻ",
+          "example": {
+            "zh": "生日快乐！",
+            "vi": "Chúc mừng sinh nhật!"
+          }
+        },
+        {
+          "zh": "打开",
+          "pinyin": "dǎkāi",
+          "pos": "v.",
+          "vi": "mở ra",
+          "example": {
+            "zh": "请打开书。",
+            "vi": "Mời mở sách ra."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g6-2",
+          "title_zh": "固定短语“什么的”",
+          "title_vi": "“什么的”: … vân vân",
+          "formula": [
+            [
+              {
+                "zh": "爸爸、妈妈、弟弟",
+                "label": "Liệt kê vài thứ",
+                "role": "N"
+              },
+              {
+                "zh": "什么的",
+                "label": "vân vân",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "Đặt 什么的 sau một danh sách để cho biết còn những thứ tương tự chưa kể hết – giống “… vân vân”, “… các thứ” trong tiếng Việt. Dùng nhiều trong khẩu ngữ.",
+          "examples": [
+            {
+              "zh": "画我们的家！有爸爸、妈妈、弟弟，还有黑色的狗、白色的猫什么的。",
+              "vi": "Vẽ nhà mình! Có bố, mẹ, em trai, chó đen, mèo trắng các thứ."
+            },
+            {
+              "zh": "桌子上有电脑、杯子、书和画笔什么的。",
+              "vi": "Trên bàn có máy tính, cốc, sách, bút vẽ vân vân."
+            },
+            {
+              "zh": "她拿来了一些水、面包和苹果什么的。",
+              "vi": "Cô ấy mang đến ít nước, bánh mì, táo các thứ."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "什么的苹果、香蕉",
+              "right": "苹果、香蕉什么的",
+              "why_vi": "什么的 đứng SAU danh sách."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi thích ăn táo, dưa hấu các thứ.”",
+              "options": [
+                "我喜欢吃苹果、西瓜什么的。",
+                "我喜欢吃什么的苹果、西瓜。",
+                "什么的我喜欢吃苹果、西瓜。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "打开看看 = mở ra xem thử. Động từ + 看看 là cách nói nhẹ nhàng “thử… xem”."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong phòng khách, cả nhà anh Lưu Minh tổ chức sinh nhật cho Tiểu Tuyết.",
+      "scene": "🎂",
+      "audio": "audio/hsk2/6-5.mp3",
+      "vocabAudio": "audio/hsk2/6-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Đồ ăn hôm nay đều là món ai thích?",
+          "options": [
+            "爸爸",
+            "妈妈",
+            "小雪"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Ăn xong cả nhà sẽ làm gì?",
+          "options": [
+            "休息",
+            "买蛋糕",
+            "出去玩"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "小雪，看看今天有什么好吃的。",
+          "vi": "Tiểu Tuyết, xem hôm nay có món gì ngon nào.",
+          "t": 0.35
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "长长的面条儿，大大的蛋糕。",
+          "vi": "Mì dài ơi là dài, bánh to ơi là to.",
+          "t": 5.07
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你看，还有鱼啊肉啊什么的，都是你喜欢吃的。",
+          "vi": "Con xem, còn có cá, thịt các thứ, toàn món con thích.",
+          "t": 9.5
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "谢谢爸爸、妈妈！",
+          "vi": "Con cảm ơn bố mẹ!",
+          "t": 14.28
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "快去叫弟弟过来吃饭吧，吃完饭我们还要出去玩呢。",
+          "vi": "Mau đi gọi em sang ăn cơm đi, ăn xong cả nhà còn đi chơi nữa.",
+          "t": 17.1
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "过生日真好啊！",
+          "vi": "Có sinh nhật thích thật đấy!",
+          "t": 23.21
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "是的，过生日就要吃好吃的，还要高高兴兴地玩。",
+          "vi": "Đúng thế, sinh nhật thì phải ăn món ngon, còn phải vui vẻ đi chơi nữa.",
+          "t": 25.62
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "长",
+          "pinyin": "cháng",
+          "pos": "adj.",
+          "vi": "dài",
+          "example": {
+            "zh": "这条裤子太长了。",
+            "vi": "Cái quần này dài quá."
+          }
+        },
+        {
+          "zh": "鱼",
+          "pinyin": "yú",
+          "pos": "n.",
+          "vi": "cá",
+          "example": {
+            "zh": "我喜欢吃鱼。",
+            "vi": "Tôi thích ăn cá."
+          }
+        },
+        {
+          "zh": "肉",
+          "pinyin": "ròu",
+          "pos": "n.",
+          "vi": "thịt",
+          "example": {
+            "zh": "他不吃肉。",
+            "vi": "Anh ấy không ăn thịt."
+          }
+        },
+        {
+          "zh": "过",
+          "pinyin": "guò",
+          "pos": "v.",
+          "vi": "trải qua; tổ chức (ngày lễ, sinh nhật)",
+          "example": {
+            "zh": "我们一起过生日吧。",
+            "vi": "Mình cùng tổ chức sinh nhật nhé."
+          }
+        },
+        {
+          "zh": "地",
+          "pinyin": "de",
+          "pos": "part.",
+          "vi": "(trợ từ, nối trạng ngữ với động từ)",
+          "example": {
+            "zh": "他高高兴兴地走了。",
+            "vi": "Anh ấy vui vẻ ra về."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g6-3",
+          "title_zh": "结构助词“地”",
+          "title_vi": "Trợ từ 地: (một cách)…",
+          "formula": [
+            [
+              {
+                "zh": "高高兴兴",
+                "label": "Tính từ / cụm trạng ngữ",
+                "role": "ADV"
+              },
+              {
+                "zh": "地",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "玩",
+                "label": "Động từ",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "地 nối tính từ (hoặc cụm trạng ngữ) với động từ phía sau, cho biết hành động được làm theo cách nào – giống “một cách…” trong tiếng Việt, nhưng tiếng Trung đặt cách thức TRƯỚC động từ: 高高兴兴地玩 = chơi vui vẻ. Ba chữ de đọc giống nhau nhưng viết khác: 的 (danh từ), 地 (động từ), 得 (bổ ngữ).",
+          "examples": [
+            {
+              "zh": "过生日就要吃好吃的，还要高高兴兴地玩。",
+              "vi": "Sinh nhật thì phải ăn món ngon, còn phải vui vẻ đi chơi."
+            },
+            {
+              "zh": "老师早早地到了教室。",
+              "vi": "Thầy giáo đến lớp từ sớm."
+            },
+            {
+              "zh": "爸爸很快地吃完早饭，就去上班了。",
+              "vi": "Bố ăn sáng thật nhanh rồi đi làm."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "高高兴兴的玩",
+              "right": "高高兴兴地玩",
+              "why_vi": "Trước động từ dùng 地, không dùng 的."
+            },
+            {
+              "wrong": "他走了高高兴兴地。",
+              "right": "他高高兴兴地走了。",
+              "why_vi": "Cụm “… 地” đứng trước động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Bọn trẻ ngủ thật ngon.” (舒服 = dễ chịu)",
+              "options": [
+                "孩子们舒舒服服地睡觉。",
+                "孩子们舒舒服服的睡觉。",
+                "孩子们睡觉舒舒服服地。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Người Trung Quốc ăn mì (面条儿) trong ngày sinh nhật vì sợi mì dài tượng trưng cho sống lâu (长寿)."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/6-7.mp3",
+      "vocabAudio": "audio/hsk2/6-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Ăn tối xong, cả nhà đi làm gì?",
+          "options": [
+            "看电影",
+            "吃蛋糕",
+            "睡觉"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao bọn trẻ muốn mai dậy muộn?",
+          "options": [
+            "太累了",
+            "明天不上学",
+            "要看电影"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "今天是女儿的生日。",
+          "vi": "Hôm nay là sinh nhật con gái.",
+          "t": 0.35
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我们买了蛋糕，做了面条儿，还做了鱼啊肉啊什么的。",
+          "vi": "Bọn mình mua bánh, nấu mì, còn làm cả cá, thịt các thứ.",
+          "t": 2.88
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "吃完晚饭，一家人去看了个电影。",
+          "vi": "Ăn tối xong, cả nhà đi xem một bộ phim.",
+          "t": 9.13
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "回家后，孩子们早早地就上床了。",
+          "vi": "Về đến nhà, bọn trẻ lên giường từ sớm.",
+          "t": 13.51
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "明天不上学，他们说要舒舒服服地睡一觉，让我们晚点儿叫他们起床。",
+          "vi": "Mai không phải đi học, chúng bảo muốn ngủ một giấc thật đã, dặn bố mẹ gọi dậy muộn một chút.",
+          "t": 18.03
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "这是很忙、很累，但很快乐的一天。",
+          "vi": "Đây là một ngày rất bận, rất mệt, nhưng rất vui.",
+          "t": 26.51
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "床",
+          "pinyin": "chuáng",
+          "pos": "n.",
+          "vi": "giường",
+          "example": {
+            "zh": "孩子们上床了。",
+            "vi": "Bọn trẻ lên giường rồi."
+          }
+        },
+        {
+          "zh": "舒服",
+          "pinyin": "shūfu",
+          "pos": "adj.",
+          "vi": "dễ chịu, thoải mái",
+          "example": {
+            "zh": "这张床很舒服。",
+            "vi": "Cái giường này rất êm."
+          }
+        }
+      ],
+      "pangdaTip": "舒舒服服地睡一觉 = ngủ một giấc thật đã. Đoạn này có cả tính từ lặp lẫn 地 – đọc to vài lần để nhớ nhé!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "明天是我的___，我想请朋友们吃饭。",
+      "bank": [
+        "生日",
+        "画笔",
+        "床"
+      ],
+      "answer": "生日"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "对不起，我___了你的名字。",
+      "bank": [
+        "忘",
+        "画",
+        "打开"
+      ],
+      "answer": "忘"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "你___看看，喜欢不喜欢这个礼物？",
+      "bank": [
+        "打开",
+        "忘",
+        "过"
+      ],
+      "answer": "打开"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "这张___很舒服，我想睡一会儿。",
+      "bank": [
+        "床",
+        "鱼",
+        "蛋糕"
+      ],
+      "answer": "床"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "孩子们高高兴兴___玩了一个下午。",
+      "bank": [
+        "地",
+        "的",
+        "过"
+      ],
+      "answer": "地",
+      "explain_vi": "Trước động từ 玩 dùng 地."
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "的",
+        "大大",
+        "一个",
+        "蛋糕",
+        "我买了"
+      ],
+      "answers": [
+        "我买了一个大大的蛋糕"
+      ],
+      "vi": "Tôi mua một cái bánh to ơi là to.",
+      "explain_vi": "Tính từ lặp + 的 + danh từ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "什么的",
+        "苹果",
+        "西瓜",
+        "桌子上有",
+        "、"
+      ],
+      "answers": [
+        "桌子上有苹果、西瓜什么的"
+      ],
+      "vi": "Trên bàn có táo, dưa hấu các thứ.",
+      "explain_vi": "Danh sách + 什么的."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "画笔",
+      "options": [
+        {
+          "emoji": "🖍️",
+          "label": "Bút vẽ"
+        },
+        {
+          "emoji": "🎂",
+          "label": "Bánh sinh nhật"
+        },
+        {
+          "emoji": "🐟",
+          "label": "Cá"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "吃完晚饭，一家人去看了个电影。",
+      "emoji": "🎬",
+      "statement_vi": "Ăn tối xong cả nhà ở nhà ngủ.",
+      "answer": false,
+      "explain_vi": "看了个电影 = đi xem phim."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🍜",
+      "sentence": "过生日的时候，要吃___长的面条儿。",
+      "options": [
+        "长",
+        "大",
+        "快"
+      ],
+      "answer": 0,
+      "explain_vi": "长长的面条儿 = sợi mì dài."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "小雪，生日快乐！",
+          "a": "谢谢爸爸！"
+        },
+        {
+          "q": "你想画点儿什么？",
+          "a": "画我们的家。"
+        },
+        {
+          "q": "我们给她准备个什么礼物？",
+          "a": "她喜欢画画，就送画笔吧。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Tổ chức sinh nhật cho bạn",
+    "steps_vi": [
+      "Nhóm 3–4 người: chọn một bạn làm “nhân vật sinh nhật”.",
+      "Cả nhóm bàn xem tặng quà gì, chuẩn bị đồ ăn gì; dùng “什么的” khi liệt kê.",
+      "Đến lúc tặng quà: chúc 生日快乐, mời bạn 打开看看.",
+      "Bạn sinh nhật cảm ơn và nói mình thích quà thế nào, dùng tính từ lặp."
+    ],
+    "patterns": [
+      {
+        "zh": "生日快乐！这是送你的礼物。",
+        "vi": "Chúc mừng sinh nhật! Đây là quà tặng bạn."
+      },
+      {
+        "zh": "你打开看看喜欢不喜欢。",
+        "vi": "Bạn mở ra xem có thích không."
+      },
+      {
+        "zh": "我们准备了蛋糕、面条儿、水果什么的。",
+        "vi": "Bọn mình chuẩn bị bánh, mì, hoa quả các thứ."
+      },
+      {
+        "zh": "大家高高兴兴地吃吧！",
+        "vi": "Mọi người ăn vui vẻ nhé!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Mừng sinh nhật kiểu Trung Quốc",
+    "body_vi": [
+      "Ngày sinh nhật, người Trung Quốc thường ăn 长寿面 (mì trường thọ): sợi mì dài tượng trưng cho tuổi thọ dài lâu, nên khi ăn cố gắng không cắn đứt sợi mì.",
+      "Với người lớn tuổi, con cháu hay tặng 寿桃 – bánh bao hình quả đào, tượng trưng cho sống lâu. Sinh nhật tròn 60, 70, 80 tuổi thường được tổ chức lớn.",
+      "Giới trẻ ngày nay cũng thổi nến, ăn bánh gato (生日蛋糕) và hát bài “Chúc mừng sinh nhật” bằng tiếng Trung: 祝你生日快乐 (Zhù nǐ shēngrì kuàilè).",
+      "Khi tặng quà, nên tránh đồng hồ (送钟 đồng âm với 送终 – tiễn người sắp mất) và dao kéo (ý cắt đứt quan hệ)."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Mì trường thọ",
+          "长寿面",
+          "chángshòu miàn"
+        ],
+        [
+          "Bánh sinh nhật",
+          "生日蛋糕",
+          "shēngrì dàngāo"
+        ],
+        [
+          "Chúc bạn sinh nhật vui vẻ",
+          "祝你生日快乐",
+          "zhù nǐ shēngrì kuàilè"
+        ],
+        [
+          "Bánh đào chúc thọ",
+          "寿桃",
+          "shòutáo"
+        ]
+      ]
+    }
+  }
 }

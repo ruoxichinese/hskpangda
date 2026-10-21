@@ -1,41 +1,334 @@
 {
  "lessonId": 6,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Sinh nhật em trai",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Sinh nhật em trai",
+    "zh": "今天是弟弟的生日。妈妈给他买了个大大的蛋糕，还做了长长的面条儿和鱼啊肉啊什么的。我也想送弟弟一个礼物，因为他喜欢画画，所以我给他买了新画笔。晚上，弟弟打开礼物，高高兴兴地说：“谢谢姐姐！”吃完饭，我们一家人还去看了个电影。",
+    "vi": "Hôm nay là sinh nhật em trai. Mẹ mua cho em một cái bánh thật to, còn nấu mì dài và cá, thịt các thứ. Mình cũng muốn tặng em một món quà, vì em thích vẽ nên mình mua bút vẽ mới cho em. Buổi tối, em mở quà, vui vẻ nói: “Cảm ơn chị!” Ăn xong, cả nhà còn đi xem một bộ phim."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "今天是谁的生日？",
+     "options": [
+      "弟弟",
+      "姐姐",
+      "妈妈"
+     ],
+     "answer": 0,
+     "explain_vi": "今天是弟弟的生日。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "姐姐送了弟弟什么？",
+     "options": [
+      "蛋糕",
+      "画笔",
+      "面条儿"
+     ],
+     "answer": 1,
+     "explain_vi": "我给他买了新画笔。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "吃完饭，他们做什么了？",
+     "options": [
+      "画画",
+      "睡觉",
+      "看电影"
+     ],
+     "answer": 2,
+     "explain_vi": "我们一家人还去看了个电影。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "弟弟喜欢画画。",
+     "answer": true,
+     "explain_vi": "因为他喜欢画画。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "蛋糕是姐姐买的。",
+     "answer": false,
+     "explain_vi": "妈妈给他买了个大大的蛋糕。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "弟弟不喜欢姐姐的礼物。",
+     "answer": false,
+     "explain_vi": "弟弟高高兴兴地说：“谢谢姐姐！”"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "生日快乐！",
+       "a": "谢谢你！"
+      },
+      {
+       "q": "你想画点儿什么？",
+       "a": "画我们的家。"
+      },
+      {
+       "q": "桌子上有什么？",
+       "a": "有电脑、书什么的。"
+      },
+      {
+       "q": "明天不上学，你几点起床？",
+       "a": "我想晚点儿起。"
+      }
+     ],
+     "explain_vi": "Chúc mừng → cảm ơn; vẽ gì → 画我们的家; có gì → liệt kê + 什么的; mấy giờ dậy → muộn một chút."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "今天是我的生日，妈妈给我做了长{{1}}的面条儿。爸爸送我的礼物是{{2}}，因为我喜欢画画。我{{3}}开礼物，高高兴兴{{4}}说：“谢谢爸爸！”",
+     "bank": [
+      "长",
+      "画笔",
+      "打",
+      "地",
+      "床"
+     ],
+     "answers": [
+      "长",
+      "画笔",
+      "打",
+      "地"
+     ],
+     "explain_vi": "长长的 · 画笔 · 打开 · Trước động từ 说 dùng 地."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "地",
+      "他们",
+      "高高兴兴",
+      "玩",
+      "了一天"
+     ],
+     "answers": [
+      "他们高高兴兴地玩了一天"
+     ],
+     "vi": "Họ chơi vui vẻ suốt một ngày.",
+     "explain_vi": "Tính từ lặp + 地 + động từ.",
+     "grammarRef": "h2-g6-3"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "什么的",
+      "我喜欢吃",
+      "鱼",
+      "肉",
+      "、"
+     ],
+     "answers": [
+      "我喜欢吃鱼、肉什么的"
+     ],
+     "vi": "Tôi thích ăn cá, thịt các thứ.",
+     "explain_vi": "Danh sách + 什么的.",
+     "grammarRef": "h2-g6-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "大大的",
+      "一个",
+      "蛋糕",
+      "爸爸买了"
+     ],
+     "answers": [
+      "爸爸买了一个大大的蛋糕"
+     ],
+     "vi": "Bố mua một cái bánh thật to.",
+     "explain_vi": "AA + 的 + danh từ.",
+     "grammarRef": "h2-g6-1"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "看看",
+      "你",
+      "打开",
+      "吧"
+     ],
+     "answers": [
+      "你打开看看吧"
+     ],
+     "vi": "Bạn mở ra xem thử đi.",
+     "explain_vi": "打开 + 看看.",
+     "grammarRef": "h2-g6-2"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "忘了",
+      "我",
+      "他的生日",
+      "真"
+     ],
+     "answers": [
+      "我真忘了他的生日"
+     ],
+     "vi": "Tôi quên mất sinh nhật anh ấy thật.",
+     "explain_vi": "忘了 + tân ngữ.",
+     "grammarRef": "h2-g6-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Chúc mừng sinh nhật!",
+     "acceptedAnswers": [
+      "生日快乐",
+      "祝你生日快乐"
+     ],
+     "requiredKeywords": [
+      "生日快乐"
+     ],
+     "wordBank": [
+      "生日",
+      "快乐"
+     ],
+     "explain_vi": "生日快乐.",
+     "grammarRef": "h2-g6-2"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Tôi quên mất rồi.",
+     "acceptedAnswers": [
+      "我忘了",
+      "我真忘了"
+     ],
+     "requiredKeywords": [
+      "忘"
+     ],
+     "wordBank": [
+      "我",
+      "忘",
+      "了"
+     ],
+     "explain_vi": "忘了.",
+     "grammarRef": "h2-g6-1"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Cô ấy vui vẻ nói: “Cảm ơn!”",
+     "acceptedAnswers": [
+      "她高高兴兴地说：“谢谢！”",
+      "她高兴地说：“谢谢！”"
+     ],
+     "requiredKeywords": [
+      "地",
+      "说"
+     ],
+     "wordBank": [
+      "她",
+      "高高兴兴",
+      "地",
+      "说",
+      "谢谢"
+     ],
+     "explain_vi": "… 地 + 说.",
+     "grammarRef": "h2-g6-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Cái giường này rất êm.",
+     "acceptedAnswers": [
+      "这张床很舒服",
+      "这个床很舒服"
+     ],
+     "requiredKeywords": [
+      "床",
+      "舒服"
+     ],
+     "wordBank": [
+      "这张",
+      "床",
+      "很",
+      "舒服"
+     ],
+     "explain_vi": "床 + 舒服.",
+     "grammarRef": "h2-g6-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Trên bàn có sách, bút vẽ các thứ.",
+     "acceptedAnswers": [
+      "桌子上有书、画笔什么的",
+      "桌子上有书和画笔什么的"
+     ],
+     "requiredKeywords": [
+      "什么的"
+     ],
+     "wordBank": [
+      "桌子上",
+      "有",
+      "书",
+      "画笔",
+      "什么的"
+     ],
+     "explain_vi": "Danh sách + 什么的.",
+     "grammarRef": "h2-g6-2"
+    }
+   ]
   }
  ]
 }
