@@ -1,0 +1,869 @@
+{
+  "id": "on-tap-01",
+  "short": "Ôn tập 1",
+  "level": "hsk2",
+  "title": "Đề ôn tập HSK 2 – số 1 (chuyển từ đề H20901)",
+  "listeningMode": "audio",
+  "audioNote": "Chuyển từ đề HSK 2 bản 2.0 (H20901, 国家汉办) sang cấu trúc 3.0: dùng file nghe và ảnh gốc. Phần Viết và các câu hỏi 3 lựa chọn ở Đọc phần 4 do Pàngdá soạn thêm cho đúng dạng 3.0.",
+  "listeningReviewSeconds": 180,
+  "passPercent": 60,
+  "requireCode": false,
+  "sections": [
+    {
+      "id": "listening",
+      "title_zh": "听力",
+      "title_vi": "Nghe",
+      "parts": [
+        {
+          "title_zh": "第一部分",
+          "title_vi": "Phần 1 · Câu 1–5",
+          "instructions_vi": "Mỗi câu nghe đọc hai lần. Chọn bức tranh đúng với nội dung nghe được.",
+          "example": {
+            "kind": "pic3",
+            "options": [
+              {
+                "img": "on-tap-01/family.jpg"
+              },
+              {
+                "img": "on-tap-01/bike.jpg"
+              },
+              {
+                "img": "on-tap-01/laptop.jpg"
+              }
+            ],
+            "answer": "A"
+          },
+          "questions": [
+            {
+              "id": "1",
+              "kind": "pic3",
+              "options": [
+                {
+                  "img": "on-tap-01/flowers.jpg"
+                },
+                {
+                  "img": "on-tap-01/tie.jpg"
+                },
+                {
+                  "img": "on-tap-01/dog.jpg"
+                }
+              ],
+              "answer": "A",
+              "start": 6.0
+            },
+            {
+              "id": "2",
+              "kind": "pic3",
+              "options": [
+                {
+                  "img": "on-tap-01/tea.jpg"
+                },
+                {
+                  "img": "on-tap-01/eggs.jpg"
+                },
+                {
+                  "img": "on-tap-01/laptop.jpg"
+                }
+              ],
+              "answer": "B",
+              "start": 20.33
+            },
+            {
+              "id": "3",
+              "kind": "pic3",
+              "options": [
+                {
+                  "img": "on-tap-01/coffee.jpg"
+                },
+                {
+                  "img": "on-tap-01/dog.jpg"
+                },
+                {
+                  "img": "on-tap-01/washing.jpg"
+                }
+              ],
+              "answer": "C",
+              "start": 38.74
+            },
+            {
+              "id": "4",
+              "kind": "pic3",
+              "options": [
+                {
+                  "img": "on-tap-01/child.jpg"
+                },
+                {
+                  "img": "on-tap-01/tie.jpg"
+                },
+                {
+                  "img": "on-tap-01/tea.jpg"
+                }
+              ],
+              "answer": "A",
+              "start": 58.02
+            },
+            {
+              "id": "5",
+              "kind": "pic3",
+              "options": [
+                {
+                  "img": "on-tap-01/laptop.jpg"
+                },
+                {
+                  "img": "on-tap-01/papers.jpg"
+                },
+                {
+                  "img": "on-tap-01/coffee.jpg"
+                }
+              ],
+              "answer": "B",
+              "start": 71.93
+            }
+          ],
+          "start": 0.0
+        },
+        {
+          "title_zh": "第二部分",
+          "title_vi": "Phần 2 · Câu 6–10",
+          "instructions_vi": "Mỗi đoạn hội thoại nghe đọc hai lần. Chọn bức tranh phù hợp.",
+          "bank": [
+            {
+              "key": "A",
+              "img": "on-tap-01/l2a-a.jpg"
+            },
+            {
+              "key": "B",
+              "img": "on-tap-01/l2a-b.jpg"
+            },
+            {
+              "key": "C",
+              "img": "on-tap-01/l2a-c.jpg"
+            },
+            {
+              "key": "D",
+              "img": "on-tap-01/l2a-d.jpg"
+            },
+            {
+              "key": "E",
+              "img": "on-tap-01/l2a-e.jpg"
+            },
+            {
+              "key": "F",
+              "img": "on-tap-01/l2a-f.jpg"
+            }
+          ],
+          "example": {
+            "kind": "bank",
+            "answer": "D"
+          },
+          "questions": [
+            {
+              "id": "6",
+              "kind": "bank",
+              "answer": "F",
+              "start": 94.43
+            },
+            {
+              "id": "7",
+              "kind": "bank",
+              "answer": "A",
+              "start": 135.01
+            },
+            {
+              "id": "8",
+              "kind": "bank",
+              "answer": "C",
+              "start": 161.75
+            },
+            {
+              "id": "9",
+              "kind": "bank",
+              "answer": "E",
+              "start": 186.08
+            },
+            {
+              "id": "10",
+              "kind": "bank",
+              "answer": "B",
+              "start": 216.95
+            }
+          ],
+          "start": 88.43
+        },
+        {
+          "title_zh": "第二部分",
+          "title_vi": "Phần 2 · Câu 11–15",
+          "instructions_vi": "Mỗi đoạn hội thoại nghe đọc hai lần. Chọn bức tranh phù hợp.",
+          "bank": [
+            {
+              "key": "A",
+              "img": "on-tap-01/l2b-a.jpg"
+            },
+            {
+              "key": "B",
+              "img": "on-tap-01/l2b-b.jpg"
+            },
+            {
+              "key": "C",
+              "img": "on-tap-01/l2b-c.jpg"
+            },
+            {
+              "key": "D",
+              "img": "on-tap-01/l2b-d.jpg"
+            },
+            {
+              "key": "E",
+              "img": "on-tap-01/l2b-e.jpg"
+            }
+          ],
+          "questions": [
+            {
+              "id": "11",
+              "kind": "bank",
+              "answer": "B",
+              "start": 250.9
+            },
+            {
+              "id": "12",
+              "kind": "bank",
+              "answer": "E",
+              "start": 288.13
+            },
+            {
+              "id": "13",
+              "kind": "bank",
+              "answer": "C",
+              "start": 316.11
+            },
+            {
+              "id": "14",
+              "kind": "bank",
+              "answer": "A",
+              "start": 341.11
+            },
+            {
+              "id": "15",
+              "kind": "bank",
+              "answer": "D",
+              "start": 373.41
+            }
+          ],
+          "start": 247.9
+        },
+        {
+          "title_zh": "第三部分",
+          "title_vi": "Phần 3 · Câu 16–25",
+          "instructions_vi": "Mỗi đoạn hội thoại nghe đọc hai lần, sau đó có một câu hỏi. Chọn câu trả lời đúng.",
+          "example": {
+            "kind": "text3",
+            "options": [
+              "红色",
+              "黑色",
+              "白色"
+            ],
+            "answer": "A"
+          },
+          "questions": [
+            {
+              "id": "16",
+              "kind": "text3",
+              "options": [
+                "牛奶",
+                "苹果",
+                "西瓜"
+              ],
+              "answer": "C",
+              "start": 409.41
+            },
+            {
+              "id": "17",
+              "kind": "text3",
+              "options": [
+                "一次",
+                "两次",
+                "9次"
+              ],
+              "answer": "B",
+              "start": 453.17
+            },
+            {
+              "id": "18",
+              "kind": "text3",
+              "options": [
+                "学校",
+                "公司",
+                "哥哥家"
+              ],
+              "answer": "A",
+              "start": 496.27
+            },
+            {
+              "id": "19",
+              "kind": "text3",
+              "options": [
+                "想喝水",
+                "生病了",
+                "不睡了"
+              ],
+              "answer": "C",
+              "start": 540.98
+            },
+            {
+              "id": "20",
+              "kind": "text3",
+              "options": [
+                "儿子",
+                "妈妈",
+                "丈夫"
+              ],
+              "answer": "A",
+              "start": 582.02
+            },
+            {
+              "id": "21",
+              "kind": "text3",
+              "options": [
+                "太晚了",
+                "小张不在",
+                "不认识路"
+              ],
+              "answer": "A",
+              "start": 630.46
+            },
+            {
+              "id": "22",
+              "kind": "text3",
+              "options": [
+                "两块钱",
+                "三块钱",
+                "4块钱"
+              ],
+              "answer": "B",
+              "start": 675.79
+            },
+            {
+              "id": "23",
+              "kind": "text3",
+              "options": [
+                "晴天",
+                "阴天",
+                "下雨了"
+              ],
+              "answer": "B",
+              "start": 715.42
+            },
+            {
+              "id": "24",
+              "kind": "text3",
+              "options": [
+                "茶",
+                "菜",
+                "水果"
+              ],
+              "answer": "C",
+              "start": 761.81
+            },
+            {
+              "id": "25",
+              "kind": "text3",
+              "options": [
+                "唱歌",
+                "跳舞",
+                "上课"
+              ],
+              "answer": "C",
+              "start": 801.84
+            }
+          ],
+          "start": 403.41
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title_zh": "阅读",
+      "title_vi": "Đọc",
+      "seconds": 1500,
+      "parts": [
+        {
+          "title_zh": "第一部分",
+          "title_vi": "Phần 1 · Câu 26–30",
+          "instructions_vi": "Chọn bức tranh phù hợp với mỗi câu.",
+          "bank": [
+            {
+              "key": "A",
+              "img": "on-tap-01/r1-a.jpg"
+            },
+            {
+              "key": "B",
+              "img": "on-tap-01/r1-b.jpg"
+            },
+            {
+              "key": "C",
+              "img": "on-tap-01/r1-c.jpg"
+            },
+            {
+              "key": "D",
+              "img": "on-tap-01/r1-d.jpg"
+            },
+            {
+              "key": "E",
+              "img": "on-tap-01/r1-e.jpg"
+            },
+            {
+              "key": "F",
+              "img": "on-tap-01/r1-f.jpg"
+            }
+          ],
+          "example": {
+            "kind": "bank",
+            "text": "每个星期六，我都去打篮球。",
+            "answer": "D"
+          },
+          "questions": [
+            {
+              "id": "26",
+              "kind": "bank",
+              "text": "给您介绍一下，这是我们公司的李先生。",
+              "answer": "F"
+            },
+            {
+              "id": "27",
+              "kind": "bank",
+              "text": "看书时间长了，眼睛得休息休息。",
+              "answer": "E"
+            },
+            {
+              "id": "28",
+              "kind": "bank",
+              "text": "那是我孩子，她爱跳舞。",
+              "answer": "C"
+            },
+            {
+              "id": "29",
+              "kind": "bank",
+              "text": "今天下雪了，天气很冷。",
+              "answer": "B"
+            },
+            {
+              "id": "30",
+              "kind": "bank",
+              "text": "因为我不会游泳，所以，小鱼，你好！",
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "title_zh": "第二部分",
+          "title_vi": "Phần 2 · Câu 31–35",
+          "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+          "bank": [
+            {
+              "key": "A",
+              "text": "完"
+            },
+            {
+              "key": "B",
+              "text": "进"
+            },
+            {
+              "key": "C",
+              "text": "过"
+            },
+            {
+              "key": "D",
+              "text": "千"
+            },
+            {
+              "key": "E",
+              "text": "贵"
+            },
+            {
+              "key": "F",
+              "text": "自行车"
+            }
+          ],
+          "example": {
+            "kind": "bank",
+            "text": "这儿的羊肉很好吃，但是也很（　）。",
+            "answer": "E"
+          },
+          "questions": [
+            {
+              "id": "31",
+              "kind": "bank",
+              "text": "这个船非常大，可以坐几（　）人。",
+              "answer": "D"
+            },
+            {
+              "id": "32",
+              "kind": "bank",
+              "text": "请（　），这就是我的房间。",
+              "answer": "B"
+            },
+            {
+              "id": "33",
+              "kind": "bank",
+              "text": "昨天的考试题太多，我没有做（　）。",
+              "answer": "A"
+            },
+            {
+              "id": "34",
+              "kind": "bank",
+              "text": "我没去（　）中国，我希望今年能去中国旅游。",
+              "answer": "C"
+            },
+            {
+              "id": "35",
+              "kind": "bank",
+              "text": "女：对不起，我不能和你一起去买（　）了。\n男：没关系，我知道你很忙。",
+              "answer": "F"
+            }
+          ]
+        },
+        {
+          "title_zh": "第三部分",
+          "title_vi": "Phần 3 · Câu 36–40",
+          "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+          "bank": [
+            {
+              "key": "A",
+              "text": "它不认识你。"
+            },
+            {
+              "key": "B",
+              "text": "很近，从这儿坐出租车，六七分钟就到了。"
+            },
+            {
+              "key": "C",
+              "text": "她三年的时间里，写了4本书。"
+            },
+            {
+              "key": "D",
+              "text": "你比他大一岁。"
+            },
+            {
+              "key": "E",
+              "text": "他在哪儿呢？你看见他了吗？"
+            },
+            {
+              "key": "F",
+              "text": "小刘叫我一起去跑步。"
+            }
+          ],
+          "example": {
+            "kind": "bank",
+            "text": "他还在教室里学习。",
+            "answer": "E"
+          },
+          "questions": [
+            {
+              "id": "36",
+              "kind": "bank",
+              "text": "我们要向您学习！",
+              "answer": "C"
+            },
+            {
+              "id": "37",
+              "kind": "bank",
+              "text": "火车站离这儿远吗？",
+              "answer": "B"
+            },
+            {
+              "id": "38",
+              "kind": "bank",
+              "text": "已经快8点了，你还出去做什么？",
+              "answer": "F"
+            },
+            {
+              "id": "39",
+              "kind": "bank",
+              "text": "小狗怎么了？为什么不吃东西？",
+              "answer": "A"
+            },
+            {
+              "id": "40",
+              "kind": "bank",
+              "text": "但是，你知道，你没有他高。",
+              "answer": "D"
+            }
+          ]
+        },
+        {
+          "title_zh": "第三部分",
+          "title_vi": "Phần 3 · Câu 41–45",
+          "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+          "bank": [
+            {
+              "key": "A",
+              "text": "他是我弟弟的中学同学。"
+            },
+            {
+              "key": "B",
+              "text": "谢谢您给我们的帮助！"
+            },
+            {
+              "key": "C",
+              "text": "他现在每天工作10个小时，星期六也不休息。"
+            },
+            {
+              "key": "D",
+              "text": "你们听懂我说的话了吗？"
+            },
+            {
+              "key": "E",
+              "text": "等一下。你怎么回来这么晚？"
+            }
+          ],
+          "questions": [
+            {
+              "id": "41",
+              "kind": "bank",
+              "text": "大家好！我姓王，是新来的汉语老师。",
+              "answer": "D"
+            },
+            {
+              "id": "42",
+              "kind": "bank",
+              "text": "这个月真的非常忙。",
+              "answer": "C"
+            },
+            {
+              "id": "43",
+              "kind": "bank",
+              "text": "开门，快开门。",
+              "answer": "E"
+            },
+            {
+              "id": "44",
+              "kind": "bank",
+              "text": "她笑着对我说：“不客气。”",
+              "answer": "B"
+            },
+            {
+              "id": "45",
+              "kind": "bank",
+              "text": "我的天！你们认识？这怎么可能？",
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "title_zh": "第四部分",
+          "title_vi": "Phần 4 · Câu 46–50",
+          "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+          "example": {
+            "kind": "text3",
+            "text": "我会跳舞，但跳得不怎么样。",
+            "question": "★ 我：",
+            "options": [
+              "跳得非常好",
+              "会跳舞",
+              "不喜欢跳舞"
+            ],
+            "answer": "B"
+          },
+          "questions": [
+            {
+              "id": "46",
+              "kind": "text3",
+              "text": "我上午去外面买了个新手机，九百多块钱，很便宜。",
+              "question": "★ 那个手机：",
+              "options": [
+                "不到一千元",
+                "是别人送的",
+                "很贵"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "47",
+              "kind": "text3",
+              "text": "时间过得真快，我来北京10年了。我女儿已经5岁多了，都开始学习写汉字了。",
+              "question": "★ 他的女儿：",
+              "options": [
+                "10岁了",
+                "在学写汉字",
+                "不在北京"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "48",
+              "kind": "text3",
+              "text": "今天是7月12日，再有三天就是我爸爸的生日了，我想送他一个电脑。",
+              "question": "★ 爸爸的生日是：",
+              "options": [
+                "7月12日",
+                "7月13日",
+                "7月15日"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "49",
+              "kind": "text3",
+              "text": "喂，姐，我的飞机是十点零七的，再有20分钟我就到机场了。我们下午见。",
+              "question": "★ 说话人现在：",
+              "options": [
+                "在飞机上",
+                "在去机场的路上",
+                "在姐姐家"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "50",
+              "kind": "text3",
+              "text": "昨天和朋友们在外面玩儿了一个晚上，很累，但是很高兴。",
+              "question": "★ 昨天晚上他：",
+              "options": [
+                "在家休息",
+                "不累",
+                "玩儿得很高兴"
+              ],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title_zh": "书写",
+      "title_vi": "Viết",
+      "seconds": 600,
+      "parts": [
+        {
+          "title_zh": "第一部分",
+          "title_vi": "Phần 1 · Câu 51–55",
+          "instructions_vi": "Mỗi từ có một chữ bị thiếu một bộ phận (ô có dấu ?). Chọn bộ phận còn thiếu. Pinyin ở đây là đề bài, cho biết đó là từ nào.",
+          "bank": [
+            {
+              "key": "A",
+              "text": "讠"
+            },
+            {
+              "key": "B",
+              "text": "目"
+            },
+            {
+              "key": "C",
+              "text": "女"
+            },
+            {
+              "key": "D",
+              "text": "扌"
+            },
+            {
+              "key": "E",
+              "text": "亻"
+            },
+            {
+              "key": "F",
+              "text": "饣"
+            }
+          ],
+          "example": {
+            "kind": "component",
+            "word": "你好",
+            "pinyin": "nǐ hǎo",
+            "slot": 0,
+            "visible": "尔",
+            "answer": "E"
+          },
+          "questions": [
+            {
+              "id": "51",
+              "kind": "component",
+              "word": "眼睛",
+              "pinyin": "yǎnjing",
+              "slot": 1,
+              "visible": "青",
+              "answer": "B"
+            },
+            {
+              "id": "52",
+              "kind": "component",
+              "word": "说话",
+              "pinyin": "shuōhuà",
+              "slot": 1,
+              "visible": "舌",
+              "answer": "A"
+            },
+            {
+              "id": "53",
+              "kind": "component",
+              "word": "打球",
+              "pinyin": "dǎ qiú",
+              "slot": 0,
+              "visible": "丁",
+              "answer": "D"
+            },
+            {
+              "id": "54",
+              "kind": "component",
+              "word": "米饭",
+              "pinyin": "mǐfàn",
+              "slot": 1,
+              "visible": "反",
+              "answer": "F"
+            },
+            {
+              "id": "55",
+              "kind": "component",
+              "word": "妹妹",
+              "pinyin": "mèimei",
+              "slot": 0,
+              "visible": "未",
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "title_zh": "第二部分",
+          "title_vi": "Phần 2 · Câu 56–60",
+          "instructions_vi": "Viết chữ Hán vào chỗ trống. Pinyin trong ngoặc là đề bài, cho biết cần viết chữ nào.",
+          "example": {
+            "kind": "fillChar",
+            "text": "我（mǎi）了一个新电视。",
+            "answer": "买"
+          },
+          "questions": [
+            {
+              "id": "56",
+              "kind": "fillChar",
+              "text": "他回来的时候，我正在洗（yī）服呢。",
+              "answer": "衣"
+            },
+            {
+              "id": "57",
+              "kind": "fillChar",
+              "text": "服务员，请给我来一杯咖（fēi）。",
+              "answer": "啡"
+            },
+            {
+              "id": "58",
+              "kind": "fillChar",
+              "text": "你那儿有今天的报（zhǐ）吗？",
+              "answer": "纸"
+            },
+            {
+              "id": "59",
+              "kind": "fillChar",
+              "text": "告诉我，哪个最漂（liang）？",
+              "answer": "亮"
+            },
+            {
+              "id": "60",
+              "kind": "fillChar",
+              "text": "医生说下个星期可以出（yuàn）。",
+              "answer": "院"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audio": "audio/hsk2/exam/on-tap-01.mp3"
+}
