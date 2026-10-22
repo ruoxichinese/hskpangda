@@ -14,6 +14,11 @@ interface CloudCtx {
   session: Session | null;
   profile: Profile | null;
   isTeacher: boolean;
+  /** đã đọc xong phiên đăng nhập lưu trên máy chưa */
+  authReady: boolean;
+  /** quyền vào học: giáo viên, hoặc đang ở trong ít nhất một lớp */
+  access: 'checking' | 'granted' | 'denied';
+  refreshAccess(): Promise<void>;
   status: SyncStatus;
   lastSynced: Date | null;
   error: string | null;
@@ -35,6 +40,8 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [isTeacher, setIsTeacher] = useState(false);
+  const [authReady, setAuthReady] = useState(!cloudConfigured);
+  const [access, setAccess] = useState<'checking' | 'granted' | 'denied'>('checking');
   const [status, setStatus] = useState<SyncStatus>(cloudConfigured ? 'signed-out' : 'off');
   const [lastSynced, setLastSynced] = useState<Date | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -74,7 +81,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   // phiên đăng nhập
   useEffect(() => {
     if (!supabase) return;
-    supabase.auth.getSession().then(({ data }) => setSession(data.session));
+    supabase.auth.getSession().then(({ data }) => { setSession(data.session); setAuthReady(true); }).catch(() => setAuthReady(true));
     const { data: sub } = supabase.auth.onAuthStateChange((_ev, s) => setSession(s));
     // dọn ?code=… trên thanh địa chỉ sau khi đăng nhập
     if (new URLSearchParams(window.location.search).has('code')) {
@@ -82,6 +89,26 @@ export function CloudProvider({ children }: { children: ReactNode }) {
     }
     return () => sub.subscription.unsubscribe();
   }, []);
+
+  // quyền vào học (nhớ trên máy 30 ngày để học được khi mạng chập chờn)
+  const refreshAccess = useCallback(async () => {
+    if (!supabase || !uid) { setAccess('denied'); return; }
+    const key = `pangda.access.${uid}`;
+    const [t, m] = await Promise.all([
+      supabase.from('teachers').select('user_id').eq('user_id', uid).maybeSingle(),
+      supabase.from('class_members').select('class_id', { count: 'exact', head: true }).eq('student_id', uid),
+    ]);
+    if (t.error || m.error) {
+      let cached = 0;
+      try { cached = Number(localStorage.getItem(key) || 0); } catch { /* */ }
+      setAccess(Date.now() - cached < 30 * 86400_000 ? 'granted' : 'denied');
+      return;
+    }
+    const ok = !!t.data || (m.count ?? 0) > 0;
+    try { if (ok) localStorage.setItem(key, String(Date.now())); else localStorage.removeItem(key); } catch { /* */ }
+    setAccess(ok ? 'granted' : 'denied');
+  }, [uid]);
+  useEffect(() => { setAccess('checking'); if (uid) void refreshAccess(); else setAccess('denied'); }, [uid, refreshAccess]);
 
   // vừa đăng nhập: tải hồ sơ, vai trò, gộp tiến độ
   useEffect(() => {
@@ -120,7 +147,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const value = useMemo<CloudCtx>(() => ({
     configured: cloudConfigured,
     googleEnabled,
-    session, profile, isTeacher, status, lastSynced, error,
+    session, profile, isTeacher, authReady, access, refreshAccess, status, lastSynced, error,
     async signInGoogle() {
       if (!supabase) return;
       const { error: e } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirectUrl() } });
@@ -153,7 +180,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
       ready.current = false;
       await supabase.from('progress').update({ data: {}, summary: {}, updated_at: new Date().toISOString() }).eq('user_id', uid);
     },
-  }), [session, profile, isTeacher, status, lastSynced, error, googleEnabled, pullAndMerge, push, getSnapshot, uid]);
+  }), [session, profile, isTeacher, authReady, access, refreshAccess, status, lastSynced, error, googleEnabled, pullAndMerge, push, getSnapshot, uid]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

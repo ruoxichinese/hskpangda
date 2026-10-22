@@ -1,4 +1,5 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { ClassGate } from './ClassGate';
 import { useEffect } from 'react';
 import { useTheme } from '../theme/ThemeProvider';
 import { useProgress } from '../store/ProgressStore';
@@ -72,7 +73,7 @@ export function Layout() {
       </header>
 
       <main id="main" className="mx-auto max-w-6xl px-4 py-5">
-        <Outlet />
+        <ClassGate><Outlet /></ClassGate>
       </main>
 
       <nav aria-label="Điều hướng nhanh" className="no-print fixed inset-x-0 bottom-0 z-40 border-t-[2.5px] border-outline bg-card/95 backdrop-blur lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>

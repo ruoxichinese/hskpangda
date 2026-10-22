@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { ClassGate } from './components/ClassGate';
 import { PandaMascot } from './components/panda/PandaMascot';
 import { ProgressProvider } from './store/ProgressStore';
 import { CloudProvider } from './store/CloudSync';
@@ -42,7 +43,7 @@ export default function App() {
           <Suspense fallback={<Loading />}>
             <Routes>
               {/* phòng thi: toàn màn hình, không có menu – giống thi trên máy */}
-              <Route path="hsk/:level/thi-thu/:examId" element={<ExamPage />} />
+              <Route path="hsk/:level/thi-thu/:examId" element={<ClassGate><ExamPage /></ClassGate>} />
               <Route element={<Layout />}>
                 <Route index element={<HomePage />} />
                 <Route path="cap-do" element={<LevelsPage />} />

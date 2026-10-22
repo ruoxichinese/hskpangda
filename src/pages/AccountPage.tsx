@@ -70,7 +70,8 @@ function SignInPanel() {
 interface MyClass { class_id: string; classes: { name: string; code: string } | null }
 
 function MyClasses() {
-  const { session } = useCloud();
+  const cloud = useCloud();
+  const { session } = cloud;
   const [list, setList] = useState<MyClass[]>([]);
   const [code, setCode] = useState('');
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
@@ -84,12 +85,13 @@ function MyClasses() {
     if (!supabase) return;
     const { data, error } = await supabase.rpc('join_class', { p_code: code });
     if (error) setMsg({ ok: false, text: friendlyError(error) });
-    else { setMsg({ ok: true, text: `Đã vào lớp “${data}”. Giáo viên giờ xem được tiến độ của bạn.` }); setCode(''); load(); }
+    else { setMsg({ ok: true, text: `Đã vào lớp “${data}”. Giáo viên giờ xem được tiến độ của bạn.` }); setCode(''); load(); void cloud.refreshAccess(); }
   };
   const leave = async (id: string) => {
     if (!supabase || !session) return;
     await supabase.from('class_members').delete().eq('class_id', id).eq('student_id', session.user.id);
     load();
+    void cloud.refreshAccess();
   };
   return (
     <section className="card space-y-3">

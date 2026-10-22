@@ -29,8 +29,9 @@ export function getDict(levelId: string): Map<string, DictEntry> {
   if (cache[levelId]) return cache[levelId];
   const m = new Map<string, DictEntry>();
   const idx = levels.findIndex((l) => l.id === levelId);
+  const priorKeys = new Set<string>();
   for (const prior of levels.slice(0, Math.max(0, idx))) {
-    for (const e of getDict(prior.id).values()) m.set(e.zh, { ...e, lesson: 0, known: true });
+    for (const e of getDict(prior.id).values()) { m.set(e.zh, { ...e, lesson: 0, known: true }); priorKeys.add(e.zh); }
   }
   for (const w of getWordlist(levelId)) m.set(w.zh, { zh: w.zh, pinyin: w.pinyin, vi: w.vi, lesson: 0 });
   for (const g of getGlossary(levelId)) m.set(g.zh, { zh: g.zh, pinyin: g.pinyin, vi: g.vi, lesson: 0, known: g.known });
@@ -40,7 +41,8 @@ export function getDict(levelId: string): Map<string, DictEntry> {
     const prev = own.get(v.zh);
     if (!prev || prev.lesson > v.lesson) own.set(v.zh, { zh: v.zh, pinyin: v.pinyin.split('/')[0], vi: v.vi, lesson: v.lesson });
   }
-  for (const [k, v] of own) m.set(k, v);
+  // từ đã học ở cấp trước: vẫn là từ đã biết (lesson 0), nhưng đọc theo pinyin của bài mới
+  for (const [k, v] of own) m.set(k, priorKeys.has(k) ? { ...v, lesson: 0, known: true } : v);
   cache[levelId] = m;
   return m;
 }
