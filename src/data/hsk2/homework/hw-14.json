@@ -1,41 +1,325 @@
 {
  "lessonId": 14,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Đồng Lạc đến ăn Tết",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Đồng Lạc đến ăn Tết",
+    "zh": "就要过年了，杨同乐来看王一飞。王一飞家楼下站着一个人，他穿着黑色的裤子，手里拿着一个包，那就是杨同乐。王一飞的房子很大，离学校也不远。她家楼下住着一家中国人，他们的小女孩儿经常跑上来找王一飞玩。杨同乐说：“这样多好啊！”",
+    "vi": "Sắp Tết rồi, Dương Đồng Lạc đến thăm Vương Nhất Phi. Dưới nhà Nhất Phi có một người đang đứng, mặc quần đen, tay cầm một cái túi, đó chính là Dương Đồng Lạc. Nhà Nhất Phi rất rộng, cách trường cũng không xa. Dưới nhà cô có một gia đình người Trung Quốc, bé gái nhà họ hay chạy lên tìm Nhất Phi chơi. Dương Đồng Lạc nói: “Như vậy tốt biết bao!”"
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "杨同乐为什么来？",
+     "options": [
+      "来看王一飞",
+      "来学中文",
+      "来买房子"
+     ],
+     "answer": 0,
+     "explain_vi": "杨同乐来看王一飞。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "楼下站着的人手里拿着什么？",
+     "options": [
+      "一本书",
+      "一杯咖啡",
+      "一个包"
+     ],
+     "answer": 2,
+     "explain_vi": "手里拿着一个包。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "谁经常跑上来找王一飞玩？",
+     "options": [
+      "李文",
+      "小女孩儿",
+      "杨同乐"
+     ],
+     "answer": 1,
+     "explain_vi": "他们的小女孩儿经常跑上来找王一飞玩。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "王一飞的房子离学校很远。",
+     "answer": false,
+     "explain_vi": "离学校也不远。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "楼下住着一家中国人。",
+     "answer": true,
+     "explain_vi": "她家楼下住着一家中国人。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "杨同乐穿着白色的裤子。",
+     "answer": false,
+     "explain_vi": "他穿着黑色的裤子。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你旁边这位是？",
+       "a": "这是我朋友李文。"
+      },
+      {
+       "q": "你住的房子怎么样？",
+       "a": "很大，也不贵。"
+      },
+      {
+       "q": "你一个人过年吗？",
+       "a": "是啊，一个人过年多没意思啊！"
+      },
+      {
+       "q": "门口站着谁？",
+       "a": "我男朋友。"
+      }
+     ],
+     "explain_vi": "Hỏi 这位是 → giới thiệu; hỏi nhà → miêu tả; hỏi ăn Tết một mình → 多没意思啊; hỏi ai đứng → người."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我家楼下站{{1}}一个人，他手里拿着一个黑色的{{2}}。他看见我，就跑{{3}}来了。他说：“一个人过年{{4}}没意思啊！”",
+     "bank": [
+      "着",
+      "包",
+      "上",
+      "多",
+      "位"
+     ],
+     "answers": [
+      "着",
+      "包",
+      "上",
+      "多"
+     ],
+     "explain_vi": "站着 · 包 = túi · 跑上来 · 多没意思啊."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "着",
+      "楼下",
+      "站",
+      "一个人"
+     ],
+     "answers": [
+      "楼下站着一个人"
+     ],
+     "vi": "Dưới nhà có một người đang đứng.",
+     "explain_vi": "Nơi chốn + động từ + 着 + người.",
+     "grammarRef": "h2-g14-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "啊",
+      "多",
+      "好",
+      "我们一起去"
+     ],
+     "answers": [
+      "我们一起去多好啊"
+     ],
+     "vi": "Chúng mình cùng đi thì hay biết mấy!",
+     "explain_vi": "多 + tính từ + 啊.",
+     "grammarRef": "h2-g14-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "上来",
+      "他",
+      "跑",
+      "了"
+     ],
+     "answers": [
+      "他跑上来了"
+     ],
+     "vi": "Anh ấy chạy lên rồi.",
+     "explain_vi": "Động từ + 上来.",
+     "grammarRef": "h2-g14-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "起来",
+      "站",
+      "请",
+      "大家"
+     ],
+     "answers": [
+      "请大家站起来"
+     ],
+     "vi": "Mời mọi người đứng dậy.",
+     "explain_vi": "站起来.",
+     "grammarRef": "h2-g14-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "着",
+      "教室里",
+      "不少学生",
+      "坐"
+     ],
+     "answers": [
+      "教室里坐着不少学生"
+     ],
+     "vi": "Trong lớp có khá nhiều học sinh đang ngồi.",
+     "explain_vi": "Câu tồn hiện.",
+     "grammarRef": "h2-g14-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Dưới nhà có một người đang đứng.",
+     "acceptedAnswers": [
+      "楼下站着一个人"
+     ],
+     "requiredKeywords": [
+      "站着"
+     ],
+     "wordBank": [
+      "楼下",
+      "站着",
+      "一个人"
+     ],
+     "explain_vi": "Nơi chốn + 站着 + người.",
+     "grammarRef": "h2-g14-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay trời đẹp biết bao!",
+     "acceptedAnswers": [
+      "今天天气多好啊"
+     ],
+     "requiredKeywords": [
+      "多",
+      "啊"
+     ],
+     "wordBank": [
+      "今天",
+      "天气",
+      "多好",
+      "啊"
+     ],
+     "explain_vi": "多 + tính từ + 啊.",
+     "grammarRef": "h2-g14-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Mời mọi người đứng dậy.",
+     "acceptedAnswers": [
+      "请大家站起来"
+     ],
+     "requiredKeywords": [
+      "站起来"
+     ],
+     "wordBank": [
+      "请",
+      "大家",
+      "站",
+      "起来"
+     ],
+     "explain_vi": "站起来 = đứng dậy.",
+     "grammarRef": "h2-g14-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Bạn ăn Tết ở đâu?",
+     "acceptedAnswers": [
+      "你在哪儿过年",
+      "你在哪里过年"
+     ],
+     "requiredKeywords": [
+      "过年"
+     ],
+     "wordBank": [
+      "你",
+      "在哪儿",
+      "过年"
+     ],
+     "explain_vi": "过年 = ăn Tết.",
+     "grammarRef": "h2-g14-2"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Vị này là cô Vương.",
+     "acceptedAnswers": [
+      "这位是王老师"
+     ],
+     "requiredKeywords": [
+      "位"
+     ],
+     "wordBank": [
+      "这位",
+      "是",
+      "王老师"
+     ],
+     "explain_vi": "位 = vị.",
+     "grammarRef": "h2-g14-2"
+    }
+   ]
   }
  ]
 }

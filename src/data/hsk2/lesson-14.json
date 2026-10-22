@@ -1,35 +1,899 @@
 {
   "id": 14,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "一个人过年多没意思啊",
-    "pinyin": "Yí ge rén guò nián duō méi yìsi a",
-    "vi": "Đón Tết một mình buồn biết bao"
+    "pinyin": "Yí gè rén guònián duō méi yìsi a",
+    "vi": "Một mình đón Tết buồn biết bao"
   },
   "grammarTopics_vi": [
-    "Câu tồn hiện (2)",
-    "Phó từ chỉ mức độ 多",
-    "Bổ ngữ xu hướng kép"
+    "Câu tồn hiện (2): nơi chốn + động từ + 着 + người/vật",
+    "Phó từ chỉ mức độ 多 trong câu cảm thán",
+    "Bổ ngữ xu hướng kép: 跑上来, 走出去, 站起来"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu tồn hiện (2)",
-      "doneWhen": []
+      "vi": "Miêu tả ở đâu có ai, có gì: 楼下站着一个人",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Phó từ chỉ mức độ 多",
-      "doneWhen": []
+      "vi": "Dùng bổ ngữ xu hướng kép để nói hướng của hành động",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Bổ ngữ xu hướng kép",
-      "doneWhen": []
+      "vi": "Dùng “多……啊” để cảm thán: biết bao, thật là",
+      "doneWhen": [
+        "text-2"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👜",
+      "word": "包",
+      "pinyin": "bāo",
+      "vi": "túi xách"
+    },
+    {
+      "emoji": "👧",
+      "word": "女孩儿",
+      "pinyin": "nǚháir",
+      "vi": "bé gái"
+    },
+    {
+      "emoji": "💃",
+      "word": "跳舞",
+      "pinyin": "tiàowǔ",
+      "vi": "nhảy múa"
+    },
+    {
+      "emoji": "👁️",
+      "word": "眼睛",
+      "pinyin": "yǎnjing",
+      "vi": "mắt"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trên đường về nhà, Lý Văn và cô Vương Nhất Phi vừa đi vừa trò chuyện.",
+      "scene": "🧥",
+      "audio": "audio/hsk2/14-1.mp3",
+      "vocabAudio": "audio/hsk2/14-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn thấy có một người ở đâu?",
+          "options": [
+            "教室外面",
+            "王一飞家里",
+            "王一飞家楼下"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Người đó cầm gì trong tay?",
+          "options": [
+            "黑色的包",
+            "黑色的裤子",
+            "黑色的本子"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "王老师，你家楼下站着一个人。",
+          "vi": "Cô Vương ơi, dưới nhà cô có một người đang đứng.",
+          "t": 1.07
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我家楼下？我看看。",
+          "vi": "Dưới nhà cô à? Để cô xem.",
+          "t": 5.45
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那个人穿着黑色的裤子，手里还拿着一个黑色的包。",
+          "vi": "Người đó mặc quần đen, tay còn cầm một cái túi đen.",
+          "t": 9.3
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我看见那个人了，他是我男朋友。",
+          "vi": "Cô thấy rồi, đó là bạn trai cô.",
+          "t": 15.27
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那我们快过去吧。",
+          "vi": "Vậy mình mau qua đó đi ạ.",
+          "t": 20.16
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "站",
+          "pinyin": "zhàn",
+          "pos": "v.",
+          "vi": "đứng",
+          "example": {
+            "zh": "他在门口站着。",
+            "vi": "Anh ấy đang đứng ở cửa."
+          }
+        },
+        {
+          "zh": "包",
+          "pinyin": "bāo",
+          "pos": "n./v./m.",
+          "vi": "túi; gói; bao",
+          "example": {
+            "zh": "这个包很好看。",
+            "vi": "Cái túi này rất đẹp."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g14-1",
+          "title_zh": "存现句（2）",
+          "title_vi": "Câu tồn hiện (2): ở đâu có ai / có gì",
+          "formula": [
+            [
+              {
+                "zh": "你家楼下",
+                "label": "Nơi chốn",
+                "role": "N"
+              },
+              {
+                "zh": "站",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "着",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "一个人",
+                "label": "Người / vật (không xác định)",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Câu tồn hiện cho biết ở một nơi nào đó đang có ai, có gì, và ở trạng thái nào. Nơi chốn đứng ĐẦU câu, sau đó là động từ + 着, cuối cùng là người hoặc vật, thường kèm số lượng (一个人, 不少学生). Tiếng Việt cũng nói “Dưới nhà có một người đang đứng”, nhưng tiếng Trung gọn hơn: 楼下站着一个人.",
+          "examples": [
+            {
+              "zh": "你家楼下站着一个人。",
+              "vi": "Dưới nhà bạn có một người đang đứng."
+            },
+            {
+              "zh": "爸爸手里拿着一杯咖啡。",
+              "vi": "Bố đang cầm trên tay một cốc cà phê."
+            },
+            {
+              "zh": "那间教室里坐着不少学生。",
+              "vi": "Trong phòng học kia có khá nhiều học sinh đang ngồi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "一个人站着你家楼下。",
+              "right": "你家楼下站着一个人。",
+              "why_vi": "Câu tồn hiện: nơi chốn đứng đầu, người/vật đứng cuối."
+            },
+            {
+              "wrong": "在你家楼下站着一个人。",
+              "right": "你家楼下站着一个人。",
+              "why_vi": "Nơi chốn đầu câu tồn hiện thường không cần 在."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Trên bàn có đặt một quyển sách.” (放 = đặt)",
+              "options": [
+                "桌子上放着一本书。",
+                "一本书放着桌子上。",
+                "桌子上一本书放着。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "站 ở bài 12 là danh từ “bến, trạm”, ở đây là động từ “đứng”. Cùng âm zhàn."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Dưới nhà, cô Vương Nhất Phi gặp Dương Đồng Lạc.",
+      "scene": "🧧",
+      "audio": "audio/hsk2/14-3.mp3",
+      "vocabAudio": "audio/hsk2/14-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao Dương Đồng Lạc đến tìm cô Nhất Phi?",
+          "options": [
+            "跟她一起过年",
+            "来见她的朋友",
+            "送给她新年礼物"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Lý Văn sống ở đâu?",
+          "options": [
+            "这个楼",
+            "前面那个楼",
+            "旁边那个楼"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "同乐，真是你啊！上次打电话，你说有时间过来看我，没想到这么快就来了！",
+          "vi": "Đồng Lạc, đúng là anh rồi! Lần trước gọi điện, anh nói có thời gian sẽ qua thăm em, không ngờ đến nhanh thế!",
+          "t": 0.46
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "就要过年了，你一个人在这儿多没意思啊，所以我就早早过来了。",
+          "vi": "Sắp Tết rồi, em ở đây một mình buồn biết bao, nên anh đến sớm.",
+          "t": 10.41
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "你能来，我太高兴了！",
+          "vi": "Anh đến được, em vui quá!",
+          "t": 18.36
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "一飞，你旁边这位是？",
+          "vi": "Nhất Phi, vị bên cạnh em là…?",
+          "t": 22.32
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "同乐，这是李文，他在我们学校学医。李文，这是我男朋友杨同乐。",
+          "vi": "Đồng Lạc, đây là Lý Văn, cậu ấy học y ở trường em. Lý Văn, đây là bạn trai cô, Dương Đồng Lạc.",
+          "t": 26.48
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "李文，很高兴认识你！",
+          "vi": "Lý Văn, rất vui được làm quen với cậu!",
+          "t": 36.44
+        },
+        {
+          "speaker": "liwen",
+          "zh": "认识你我也很高兴！我家就在前面那个楼，有时间来玩。",
+          "vi": "Em cũng rất vui được làm quen với anh! Nhà em ở ngay toà nhà phía trước, có thời gian anh qua chơi nhé.",
+          "t": 40.09
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "过年",
+          "pinyin": "guònián",
+          "pos": "v.",
+          "vi": "ăn Tết, đón Tết",
+          "example": {
+            "zh": "你在哪儿过年？",
+            "vi": "Bạn ăn Tết ở đâu?"
+          }
+        },
+        {
+          "zh": "没意思",
+          "pinyin": "méi yìsi",
+          "pos": "adj.",
+          "vi": "buồn chán, không thú vị",
+          "example": {
+            "zh": "这个电影很没意思。",
+            "vi": "Bộ phim này rất chán."
+          }
+        },
+        {
+          "zh": "位",
+          "pinyin": "wèi",
+          "pos": "m.",
+          "vi": "vị (lượng từ lịch sự cho người)",
+          "example": {
+            "zh": "这位是王老师。",
+            "vi": "Vị này là cô Vương."
+          }
+        },
+        {
+          "zh": "前面",
+          "pinyin": "qiánmiàn",
+          "pos": "n.",
+          "vi": "phía trước",
+          "example": {
+            "zh": "商店就在前面。",
+            "vi": "Cửa hàng ở ngay phía trước."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g14-2",
+          "title_zh": "程度副词“多”",
+          "title_vi": "多 trong câu cảm thán: biết bao, thật là",
+          "formula": [
+            [
+              {
+                "zh": "（主语）",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "多",
+                "label": "biết bao",
+                "role": "ADV"
+              },
+              {
+                "zh": "没意思 / 好",
+                "label": "Tính từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "啊！",
+                "label": "",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "多 đứng trước tính từ trong câu cảm thán, thường có 啊 ở cuối, thể hiện mức độ rất cao – giống “… biết bao!”, “… thật là!” trong tiếng Việt. Khác với 多 trong câu hỏi 多大 / 多高 (bao nhiêu), ở đây không phải câu hỏi.",
+          "examples": [
+            {
+              "zh": "你一个人在这儿多没意思啊！",
+              "vi": "Em ở đây một mình buồn biết bao!"
+            },
+            {
+              "zh": "我们一起去多好啊！",
+              "vi": "Chúng mình cùng đi thì hay biết mấy!"
+            },
+            {
+              "zh": "多好看啊！买这件吧。",
+              "vi": "Đẹp biết bao! Mua cái này đi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这件衣服好看多啊！",
+              "right": "这件衣服多好看啊！",
+              "why_vi": "多 đứng TRƯỚC tính từ trong câu cảm thán."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay trời đẹp biết bao!”",
+              "options": [
+                "今天天气多好啊！",
+                "今天天气好多啊！",
+                "今天多天气好啊！"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "位 là lượng từ lịch sự cho người: 这位老师, 几位? (mấy vị?). Dùng khi giới thiệu hay hỏi khách."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà cô Vương Nhất Phi, cô và Dương Đồng Lạc trò chuyện trong phòng khách.",
+      "scene": "🏠",
+      "audio": "audio/hsk2/14-5.mp3",
+      "vocabAudio": "audio/hsk2/14-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Căn nhà cô Nhất Phi ở thế nào?",
+          "options": [
+            "很不错",
+            "不太大",
+            "离学校不近"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Cô Nhất Phi dạy em bé dưới nhà làm gì?",
+          "options": [
+            "打篮球",
+            "学中文",
+            "做中国菜"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "yangtongle",
+          "zh": "一飞，你住的房子真不错，很大，离学校也不远。",
+          "vi": "Nhất Phi, căn nhà em ở đẹp thật, rộng, cách trường cũng không xa.",
+          "t": 0.55
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "是啊！我楼下还住着一家中国人，他们人很好。",
+          "vi": "Vâng! Dưới nhà em còn có một gia đình người Trung Quốc, họ tốt lắm.",
+          "t": 6.67
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "这样你有事情就可以找他们帮忙。",
+          "vi": "Như vậy em có việc gì thì có thể nhờ họ giúp.",
+          "t": 12.67
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "对，我也帮他们家的小孩儿学中文。",
+          "vi": "Đúng thế, em cũng giúp con nhà họ học tiếng Trung.",
+          "t": 16.98
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "我记得你跟我说过，是个女孩儿，学得也很好。",
+          "vi": "Anh nhớ em từng kể, là một bé gái, học cũng giỏi lắm.",
+          "t": 21.58
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "没错，她经常跑上来找我玩。",
+          "vi": "Đúng rồi, bé hay chạy lên tìm em chơi.",
+          "t": 27.5
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "你问问他们什么时候有时间，我请他们吃个饭。",
+          "vi": "Em hỏi xem khi nào họ rảnh, anh mời họ một bữa cơm.",
+          "t": 31.72
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "房子",
+          "pinyin": "fángzi",
+          "pos": "n.",
+          "vi": "nhà, căn nhà",
+          "example": {
+            "zh": "他们的房子很大。",
+            "vi": "Nhà của họ rất rộng."
+          }
+        },
+        {
+          "zh": "小孩儿",
+          "pinyin": "xiǎoháir",
+          "pos": "n.",
+          "vi": "trẻ con, em bé",
+          "example": {
+            "zh": "那个小孩儿很可爱。",
+            "vi": "Em bé kia rất đáng yêu."
+          }
+        },
+        {
+          "zh": "女孩儿",
+          "pinyin": "nǚháir",
+          "pos": "n.",
+          "vi": "bé gái, con gái",
+          "example": {
+            "zh": "那个女孩儿是我妹妹。",
+            "vi": "Cô bé kia là em gái tôi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g14-3",
+          "title_zh": "复合趋向补语",
+          "title_vi": "Bổ ngữ xu hướng kép: động từ + 上/下/进/出/回/过/起 + 来/去",
+          "formula": [
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "跑",
+                "label": "Động từ chính",
+                "role": "V"
+              },
+              {
+                "zh": "上",
+                "label": "hướng (lên)",
+                "role": "ADV"
+              },
+              {
+                "zh": "来",
+                "label": "về phía người nói",
+                "role": "ADV"
+              }
+            ],
+            [
+              {
+                "zh": "同学们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "走出",
+                "label": "Động từ + 出",
+                "role": "V"
+              },
+              {
+                "zh": "教室",
+                "label": "Nơi chốn",
+                "role": "O"
+              },
+              {
+                "zh": "去了",
+                "label": "去 đứng sau nơi chốn",
+                "role": "ADV"
+              }
+            ]
+          ],
+          "explain_vi": "Ở bài 5 ta đã học bổ ngữ xu hướng đơn (上来, 下去…). Bổ ngữ xu hướng kép thêm một động từ chỉ cách di chuyển ở trước: 跑上来 = chạy lên (đây), 走上去 = đi bộ lên (đó), 站起来 = đứng dậy. Tân ngữ chỉ nơi chốn đứng trước 来/去 (走出教室去); tân ngữ chỉ vật đứng trước hoặc sau 来/去 đều được (买回一些菜来 = 买回来一些菜).",
+          "examples": [
+            {
+              "zh": "她经常跑上来找我玩。",
+              "vi": "Cô bé hay chạy lên tìm tôi chơi."
+            },
+            {
+              "zh": "楼不高，我们走上去吧。",
+              "vi": "Toà nhà không cao, mình đi bộ lên đi."
+            },
+            {
+              "zh": "一听到老师叫他的名字，他就站起来了。",
+              "vi": "Vừa nghe thầy gọi tên, cậu ấy liền đứng dậy."
+            },
+            {
+              "zh": "白家月从书包里找出来一个漂亮的本子。",
+              "vi": "Gia Nguyệt lục trong cặp ra một quyển vở đẹp."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "同学们都走出去教室了。",
+              "right": "同学们都走出教室去了。",
+              "why_vi": "Tân ngữ chỉ nơi chốn đứng trước 来/去."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Bạn đang ở trên lầu, bảo bạn mình chạy lên:",
+              "options": [
+                "你跑上来吧！",
+                "你跑上去吧！",
+                "你跑下来吧！"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Mẹo: động từ chính (跑, 走, 拿…) cho biết CÁCH đi, 上/下/进/出… cho biết HƯỚNG, 来/去 cho biết GẦN hay XA người nói."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, cô Vương Nhất Phi viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/14-7.mp3",
+      "vocabAudio": "audio/hsk2/14-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Dương Đồng Lạc làm việc cùng ai?",
+          "options": [
+            "王一飞",
+            "王一飞的姐姐",
+            "王一飞的朋友"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Ai giới thiệu Nhất Phi và Đồng Lạc quen nhau?",
+          "options": [
+            "王一飞的姐姐",
+            "他们的朋友",
+            "杨同乐的姐姐"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "我男朋友姓杨，叫杨同乐。",
+          "vi": "Bạn trai mình họ Dương, tên là Dương Đồng Lạc.",
+          "t": 1.31
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "他高个子、大眼睛，唱歌唱得很好，跳舞跳得也不错。",
+          "vi": "Anh ấy cao, mắt to, hát rất hay, nhảy cũng khá.",
+          "t": 5.35
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "他和我姐姐一起工作，是姐姐介绍我们认识的。",
+          "vi": "Anh ấy làm cùng chị gái mình, chính chị giới thiệu bọn mình quen nhau.",
+          "t": 12.99
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "他告诉我，从见到我的第一天开始，他就喜欢上我了。",
+          "vi": "Anh ấy bảo, ngay từ ngày đầu gặp mình, anh ấy đã thích mình rồi.",
+          "t": 18.95
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "姓",
+          "pinyin": "xìng",
+          "pos": "v.",
+          "vi": "họ (là)",
+          "example": {
+            "zh": "您贵姓？——我姓王。",
+            "vi": "Anh họ gì? — Tôi họ Vương."
+          }
+        },
+        {
+          "zh": "眼睛",
+          "pinyin": "yǎnjing",
+          "pos": "n.",
+          "vi": "mắt",
+          "example": {
+            "zh": "她的眼睛很大。",
+            "vi": "Mắt cô ấy rất to."
+          }
+        },
+        {
+          "zh": "跳舞",
+          "pinyin": "tiàowǔ",
+          "pos": "v.",
+          "vi": "nhảy múa",
+          "example": {
+            "zh": "她跳舞跳得很好。",
+            "vi": "Cô ấy nhảy rất đẹp."
+          }
+        }
+      ],
+      "pangdaTip": "喜欢上 = bắt đầu thích (và vẫn tiếp tục thích). 上 ở đây chỉ một trạng thái bắt đầu và kéo dài: 爱上 = đem lòng yêu."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "他儿子的___大大的，很漂亮。",
+      "bank": [
+        "眼睛",
+        "位",
+        "过年"
+      ],
+      "answer": "眼睛"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "他已经几年没回国了，今年想回国___。",
+      "bank": [
+        "过年",
+        "跳舞",
+        "姓"
+      ],
+      "answer": "过年"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我从小就跟老师学___，学了十多年了。",
+      "bank": [
+        "跳舞",
+        "眼睛",
+        "位"
+      ],
+      "answer": "跳舞"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "请你介绍一下自己。——我___李，叫李明，是从上海来的。",
+      "bank": [
+        "姓",
+        "位",
+        "跳舞"
+      ],
+      "answer": "姓"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "您好！请问，就您一___吗？——还有个朋友，他一来我们就点菜。",
+      "bank": [
+        "位",
+        "姓",
+        "眼睛"
+      ],
+      "answer": "位"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "着",
+        "门口",
+        "一个人",
+        "站"
+      ],
+      "answers": [
+        "门口站着一个人"
+      ],
+      "vi": "Ở cửa có một người đang đứng.",
+      "explain_vi": "Nơi chốn + động từ + 着 + người."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "啊",
+        "多",
+        "这件衣服",
+        "好看"
+      ],
+      "answers": [
+        "这件衣服多好看啊"
+      ],
+      "vi": "Cái áo này đẹp biết bao!",
+      "explain_vi": "多 + tính từ + 啊."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "跳舞",
+      "options": [
+        {
+          "emoji": "💃",
+          "label": "Nhảy múa"
+        },
+        {
+          "emoji": "👜",
+          "label": "Túi xách"
+        },
+        {
+          "emoji": "🏠",
+          "label": "Căn nhà"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "她经常跑上来找我玩。",
+      "emoji": "👧",
+      "statement_vi": "Cô bé hay chạy xuống tìm người nói.",
+      "answer": false,
+      "explain_vi": "跑上来 = chạy lên (về phía người nói ở trên)."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🙋",
+      "sentence": "老师叫他的名字，他就站___来了。",
+      "options": [
+        "起",
+        "上",
+        "进"
+      ],
+      "answer": 0,
+      "explain_vi": "站起来 = đứng dậy."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你旁边这位是？",
+          "a": "这是我的同学李文。"
+        },
+        {
+          "q": "楼下站着谁？",
+          "a": "我男朋友。"
+        },
+        {
+          "q": "你住的房子怎么样？",
+          "a": "很大，离学校也不远。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đi xem nhà cùng bạn",
+    "steps_vi": [
+      "Làm theo cặp: một người muốn thuê nhà, người kia đi xem cùng để góp ý.",
+      "Miêu tả căn nhà bằng câu tồn hiện: 楼下住着……, 门口放着……",
+      "Nói ưu điểm và nhược điểm: xa gần, to nhỏ, đắt rẻ; dùng 多……啊 để cảm thán.",
+      "Quyết định có thuê không và giải thích lý do."
+    ],
+    "patterns": [
+      {
+        "zh": "你帮我看看，这个房子怎么样？",
+        "vi": "Cậu xem giúp mình, căn nhà này thế nào?"
+      },
+      {
+        "zh": "不错，房子很大，还有两个洗手间。",
+        "vi": "Được đấy, nhà rộng, còn có hai nhà vệ sinh."
+      },
+      {
+        "zh": "楼下住着一家人，他们人很好。",
+        "vi": "Dưới nhà có một gia đình, họ rất tốt."
+      },
+      {
+        "zh": "离学校这么近，多好啊！",
+        "vi": "Gần trường thế này, tốt biết bao!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Tết Nguyên đán ở Trung Quốc",
+    "body_vi": [
+      "Tết Nguyên đán (春节) là lễ lớn nhất của người Trung Quốc, giống Tết của người Việt. Mọi người cố gắng về quê sum họp, nên dịp này có làn sóng đi lại khổng lồ gọi là 春运.",
+      "Đêm giao thừa (除夕), cả nhà quây quần ăn bữa cơm đoàn viên (年夜饭). Người miền Bắc Trung Quốc thường gói sủi cảo (饺子), giống người Việt gói bánh chưng.",
+      "Người lớn mừng tuổi trẻ em bằng bao lì xì đỏ (红包); nhà nhà dán câu đối đỏ (春联) và chữ 福 – có khi dán ngược để chơi chữ 福到了 (phúc đến rồi).",
+      "Vì vậy câu 一个人过年多没意思啊 rất dễ hiểu: Tết là dịp đoàn viên, ở một mình thì buồn biết bao!"
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Tết Nguyên đán",
+          "春节",
+          "Chūnjié"
+        ],
+        [
+          "Đêm giao thừa",
+          "除夕",
+          "chúxī"
+        ],
+        [
+          "Bữa cơm tất niên",
+          "年夜饭",
+          "niányèfàn"
+        ],
+        [
+          "Câu đối Tết",
+          "春联",
+          "chūnlián"
+        ],
+        [
+          "Lì xì",
+          "红包",
+          "hóngbāo"
+        ],
+        [
+          "Chúc mừng năm mới",
+          "新年好",
+          "xīnnián hǎo"
+        ]
+      ]
+    }
+  }
 }

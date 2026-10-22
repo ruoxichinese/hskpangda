@@ -21,7 +21,7 @@
      "options": [
       "坐公交车",
       "打车",
-      "走路"
+      "开车"
      ],
      "answer": 1,
      "explain_vi": "我们还是打车去的。"
@@ -85,7 +85,7 @@
      "pairs": [
       {
        "q": "这儿好打车吗？",
-       "a": "很好打，门口就有出租车。"
+       "a": "很好打，这儿有很多出租车。"
       },
       {
        "q": "北京大学有多少学生？",
@@ -326,10 +326,10 @@
     {
      "id": "b10",
      "kind": "translate",
-     "prompt_vi": "Bến xe hơi xa, nhưng tôi muốn đi bộ.",
+     "prompt_vi": "Bến xe hơi xa, nhưng tôi muốn đi xe buýt.",
      "acceptedAnswers": [
-      "车站有点儿远，但我想走路去",
-      "车站有点儿远，但我想走路"
+      "车站有点儿远，但我想坐公交车去",
+      "车站有点儿远，但我想坐公交车"
      ],
      "requiredKeywords": [
       "远",
@@ -342,7 +342,7 @@
       "但",
       "我",
       "想",
-      "走路"
+      "坐公交车"
      ],
      "explain_vi": "有点儿 + tính từ; 但 = nhưng.",
      "grammarRef": "h2-g2-1"

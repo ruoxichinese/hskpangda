@@ -1,35 +1,969 @@
 {
   "id": 7,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "他篮球打得很好",
     "pinyin": "Tā lánqiú dǎ de hěn hǎo",
     "vi": "Anh ấy chơi bóng rổ rất giỏi"
   },
   "grammarTopics_vi": [
-    "Câu ghép rút gọn 一……就……",
-    "Bổ ngữ trạng thái (1)",
-    "Bổ ngữ trạng thái (2)"
+    "Câu ghép rút gọn “一……就……”",
+    "Bổ ngữ trạng thái (1): động từ + 得 + tính từ",
+    "Bổ ngữ trạng thái (2): khi có tân ngữ"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu ghép rút gọn 一……就……",
-      "doneWhen": []
+      "vi": "Miêu tả hành động được làm như thế nào: 跑得快, 踢得不错…",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Bổ ngữ trạng thái (1)",
-      "doneWhen": []
+      "vi": "Dùng “一……就……” để nói hai việc xảy ra liền nhau",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Bổ ngữ trạng thái (2)",
-      "doneWhen": []
+      "vi": "Nói về môn thể thao mình thường chơi",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🏃",
+      "word": "跑步",
+      "pinyin": "pǎobù",
+      "vi": "chạy bộ"
+    },
+    {
+      "emoji": "🏀",
+      "word": "篮球",
+      "pinyin": "lánqiú",
+      "vi": "bóng rổ"
+    },
+    {
+      "emoji": "🏊",
+      "word": "游泳",
+      "pinyin": "yóuyǒng",
+      "vi": "bơi"
+    },
+    {
+      "emoji": "⚽",
+      "word": "足球",
+      "pinyin": "zúqiú",
+      "vi": "bóng đá"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, Annie và Trần Thiên Trung đang trò chuyện.",
+      "scene": "🏫",
+      "audio": "audio/hsk2/7-1.mp3",
+      "vocabAudio": "audio/hsk2/7-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Annie về lúc nào?",
+          "options": [
+            "昨天早上",
+            "昨天上午",
+            "昨天下午"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Annie muốn cùng Thiên Trung đi làm gì?",
+          "options": [
+            "去教室",
+            "打篮球",
+            "去北京"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "安妮，你是什么时候从北京回来的？",
+          "vi": "Annie, cậu từ Bắc Kinh về lúc nào thế?",
+          "t": 0.46
+        },
+        {
+          "speaker": "anni",
+          "zh": "昨天下午。天中，你怎么一下课就往外跑？",
+          "vi": "Chiều hôm qua. Thiên Trung, sao cậu vừa tan học là chạy ra ngoài thế?",
+          "t": 5.81
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我跟同学说好了，一起去打篮球。",
+          "vi": "Mình hẹn với bạn rồi, cùng đi chơi bóng rổ.",
+          "t": 12.62
+        },
+        {
+          "speaker": "anni",
+          "zh": "我也想跟你们一起玩。",
+          "vi": "Mình cũng muốn chơi cùng các cậu.",
+          "t": 17.93
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "没问题，走吧。",
+          "vi": "Được thôi, đi nào.",
+          "t": 20.98
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "从",
+          "pinyin": "cóng",
+          "pos": "prep.",
+          "vi": "từ",
+          "example": {
+            "zh": "我从学校回来了。",
+            "vi": "Tôi từ trường về rồi."
+          }
+        },
+        {
+          "zh": "往",
+          "pinyin": "wǎng",
+          "pos": "prep./v.",
+          "vi": "về phía, hướng về",
+          "example": {
+            "zh": "往前走。",
+            "vi": "Đi về phía trước."
+          }
+        },
+        {
+          "zh": "跑",
+          "pinyin": "pǎo",
+          "pos": "v.",
+          "vi": "chạy",
+          "example": {
+            "zh": "他跑得很快。",
+            "vi": "Anh ấy chạy rất nhanh."
+          }
+        },
+        {
+          "zh": "打",
+          "pinyin": "dǎ",
+          "pos": "v.",
+          "vi": "chơi (bóng), đánh",
+          "example": {
+            "zh": "我们去打篮球吧。",
+            "vi": "Mình đi chơi bóng rổ đi."
+          }
+        },
+        {
+          "zh": "篮球",
+          "pinyin": "lánqiú",
+          "pos": "n.",
+          "vi": "bóng rổ",
+          "example": {
+            "zh": "他喜欢打篮球。",
+            "vi": "Anh ấy thích chơi bóng rổ."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g7-1",
+          "title_zh": "紧缩复句“一……就……”",
+          "title_vi": "“一……就……”: vừa… là…",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "一",
+                "label": "vừa",
+                "role": "ADV"
+              },
+              {
+                "zh": "下课",
+                "label": "Việc 1",
+                "role": "V"
+              },
+              {
+                "zh": "就",
+                "label": "là",
+                "role": "ADV"
+              },
+              {
+                "zh": "往外跑",
+                "label": "Việc 2",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ 1",
+                "role": "S"
+              },
+              {
+                "zh": "一到家，",
+                "label": "一 + việc 1",
+                "role": "V"
+              },
+              {
+                "zh": "妈妈",
+                "label": "Chủ ngữ 2",
+                "role": "S"
+              },
+              {
+                "zh": "就打来电话了",
+                "label": "就 + việc 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Việc thứ hai xảy ra ngay sau việc thứ nhất, hoặc việc thứ nhất là điều kiện của việc thứ hai – giống “vừa… là…”, “hễ… là…” trong tiếng Việt. Cùng một chủ ngữ thì chủ ngữ đứng trước 一; hai chủ ngữ khác nhau thì mỗi chủ ngữ đứng trước 一 và 就.",
+          "examples": [
+            {
+              "zh": "你怎么一下课就往外跑？",
+              "vi": "Sao cậu vừa tan học là chạy ra ngoài?"
+            },
+            {
+              "zh": "我一到家，妈妈就打来电话了。",
+              "vi": "Tôi vừa về đến nhà thì mẹ gọi điện tới."
+            },
+            {
+              "zh": "一到星期六，陈天中就跟同学去打篮球。",
+              "vi": "Cứ đến thứ bảy là Thiên Trung đi chơi bóng rổ với bạn."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一到家就妈妈打来电话了。",
+              "right": "我一到家，妈妈就打来电话了。",
+              "why_vi": "Chủ ngữ thứ hai (妈妈) phải đứng trước 就."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cứ có thời gian là tôi đi bơi.”",
+              "options": [
+                "我一有时间就去游泳。",
+                "我就有时间一去游泳。",
+                "一我有时间就去游泳。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "往外跑 = chạy ra ngoài. 往 + phương hướng: 往前 (về phía trước), 往左 (sang trái)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong sân trường, Annie và Thiên Trung vừa đi vừa trò chuyện.",
+      "scene": "⚽",
+      "audio": "audio/hsk2/7-3.mp3",
+      "vocabAudio": "audio/hsk2/7-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chủ nhật Thiên Trung làm gì?",
+          "options": [
+            "学中文",
+            "踢足球",
+            "打篮球"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Chủ nhật Thiên Trung đi chơi với ai?",
+          "options": [
+            "李文",
+            "同学们",
+            "朋友们"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "天中，你是不是很喜欢打篮球？",
+          "vi": "Thiên Trung, có phải cậu rất thích chơi bóng rổ không?",
+          "t": 0.36
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "没错。",
+          "vi": "Đúng vậy.",
+          "t": 4.61
+        },
+        {
+          "speaker": "anni",
+          "zh": "你还喜欢什么运动？",
+          "vi": "Cậu còn thích môn thể thao nào nữa?",
+          "t": 6.27
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我还喜欢踢足球，一到星期天就跟朋友们去踢球。",
+          "vi": "Mình còn thích đá bóng, cứ đến chủ nhật là đi đá bóng với các bạn.",
+          "t": 9.11
+        },
+        {
+          "speaker": "anni",
+          "zh": "你踢得怎么样？",
+          "vi": "Cậu đá có giỏi không?",
+          "t": 15.89
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我踢得还可以。",
+          "vi": "Mình đá cũng tạm được.",
+          "t": 17.94
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "运动",
+          "pinyin": "yùndòng",
+          "pos": "n./v.",
+          "vi": "thể thao; vận động",
+          "example": {
+            "zh": "你喜欢什么运动？",
+            "vi": "Bạn thích môn thể thao nào?"
+          }
+        },
+        {
+          "zh": "踢",
+          "pinyin": "tī",
+          "pos": "v.",
+          "vi": "đá",
+          "example": {
+            "zh": "我们去踢球吧。",
+            "vi": "Mình đi đá bóng đi."
+          }
+        },
+        {
+          "zh": "足球",
+          "pinyin": "zúqiú",
+          "pos": "n.",
+          "vi": "bóng đá",
+          "example": {
+            "zh": "他每天都踢足球。",
+            "vi": "Ngày nào anh ấy cũng đá bóng."
+          }
+        },
+        {
+          "zh": "球",
+          "pinyin": "qiú",
+          "pos": "n.",
+          "vi": "quả bóng",
+          "example": {
+            "zh": "这个球是新的。",
+            "vi": "Quả bóng này mới."
+          }
+        },
+        {
+          "zh": "得",
+          "pinyin": "de",
+          "pos": "part.",
+          "vi": "(trợ từ, nối động từ với bổ ngữ)",
+          "example": {
+            "zh": "她唱得很好。",
+            "vi": "Cô ấy hát rất hay."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g7-2",
+          "title_zh": "状态补语（1）",
+          "title_vi": "Bổ ngữ trạng thái (1): động từ + 得 + tính từ",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "踢",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "得",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "还可以",
+                "label": "Cụm tính từ",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "白家月",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "跑得",
+                "label": "Động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "不",
+                "label": "phủ định",
+                "role": "ADV"
+              },
+              {
+                "zh": "快",
+                "label": "Tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "得 đứng sau động từ, phía sau là lời nhận xét hành động đó được làm như thế nào: 跑得快 = chạy nhanh, 玩得很高兴 = chơi rất vui. Phủ định: đặt 不 trước tính từ (跑得不快), KHÔNG đặt trước động từ. Câu hỏi: thêm 吗, hoặc 动词 + 得 + A不A, hoặc 动词 + 得 + 怎么样.",
+          "examples": [
+            {
+              "zh": "我踢得还可以。",
+              "vi": "Tôi đá cũng tạm được."
+            },
+            {
+              "zh": "他们玩得很高兴。",
+              "vi": "Họ chơi rất vui."
+            },
+            {
+              "zh": "白家月跑得不快。",
+              "vi": "Gia Nguyệt chạy không nhanh."
+            },
+            {
+              "zh": "你跑得快不快？",
+              "vi": "Bạn chạy có nhanh không?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "她不跑得快。",
+              "right": "她跑得不快。",
+              "why_vi": "不 đứng trước tính từ, sau 得."
+            },
+            {
+              "wrong": "他跑很快。",
+              "right": "他跑得很快。",
+              "why_vi": "Muốn nhận xét cách làm phải có 得 nối động từ với tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cô ấy hát không hay lắm.”",
+              "options": [
+                "她唱得不太好。",
+                "她不唱得太好。",
+                "她唱不太好得。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Ba chữ de: 的 trước danh từ (我的球), 地 trước động từ (高兴地玩), 得 sau động từ (玩得高兴). Đọc giống nhau nhưng viết khác!"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong sân trường, Annie và Thiên Trung tiếp tục vừa đi vừa trò chuyện.",
+      "scene": "🏊",
+      "audio": "audio/hsk2/7-5.mp3",
+      "vocabAudio": "audio/hsk2/7-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Annie chơi bóng rổ thế nào?",
+          "options": [
+            "很好",
+            "不好",
+            "还可以"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Annie thích làm gì?",
+          "options": [
+            "游泳",
+            "跑步",
+            "踢球"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "你篮球打得怎么样？",
+          "vi": "Cậu chơi bóng rổ thế nào?",
+          "t": 0.65
+        },
+        {
+          "speaker": "anni",
+          "zh": "打得还可以。",
+          "vi": "Cũng tạm được.",
+          "t": 3.16
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "跑步呢？你跑得快不快？",
+          "vi": "Còn chạy bộ? Cậu chạy có nhanh không?",
+          "t": 5.26
+        },
+        {
+          "speaker": "anni",
+          "zh": "我跑得不快，也不太喜欢跑步。",
+          "vi": "Mình chạy không nhanh, cũng không thích chạy bộ lắm.",
+          "t": 8.57
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "那你喜欢游泳吗？",
+          "vi": "Thế cậu có thích bơi không?",
+          "t": 12.8
+        },
+        {
+          "speaker": "anni",
+          "zh": "喜欢，但我游泳游得不快。",
+          "vi": "Thích, nhưng mình bơi không nhanh.",
+          "t": 15.38
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "跑步",
+          "pinyin": "pǎobù",
+          "pos": "v.",
+          "vi": "chạy bộ",
+          "example": {
+            "zh": "我每天早上都跑步。",
+            "vi": "Sáng nào tôi cũng chạy bộ."
+          }
+        },
+        {
+          "zh": "游泳",
+          "pinyin": "yóuyǒng",
+          "pos": "v.",
+          "vi": "bơi",
+          "example": {
+            "zh": "你会游泳吗？",
+            "vi": "Bạn biết bơi không?"
+          }
+        },
+        {
+          "zh": "游",
+          "pinyin": "yóu",
+          "pos": "v.",
+          "vi": "bơi",
+          "example": {
+            "zh": "她游得很快。",
+            "vi": "Cô ấy bơi rất nhanh."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g7-3",
+          "title_zh": "状态补语（2）",
+          "title_vi": "Bổ ngữ trạng thái (2): khi có tân ngữ",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "游泳",
+                "label": "Động từ + tân ngữ",
+                "role": "V"
+              },
+              {
+                "zh": "游得",
+                "label": "lặp động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "不快",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "篮球",
+                "label": "Tân ngữ đưa lên trước",
+                "role": "O"
+              },
+              {
+                "zh": "打得",
+                "label": "Động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "怎么样",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Sau 得 không được đặt tân ngữ. Nếu động từ có tân ngữ (打篮球, 写汉字) hoặc là từ ly hợp (游泳, 跑步), ta có hai cách: lặp lại động từ (游泳游得不快, 写汉字写得很好看), hoặc đưa tân ngữ lên trước động từ (篮球打得怎么样).",
+          "examples": [
+            {
+              "zh": "我游泳游得不快。",
+              "vi": "Tôi bơi không nhanh."
+            },
+            {
+              "zh": "你篮球打得怎么样？",
+              "vi": "Bạn chơi bóng rổ thế nào?"
+            },
+            {
+              "zh": "白家月写汉字写得很好看。",
+              "vi": "Gia Nguyệt viết chữ Hán rất đẹp."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "他打得篮球很好。",
+              "right": "他打篮球打得很好。 / 他篮球打得很好。",
+              "why_vi": "Tân ngữ không đứng sau 得: lặp động từ hoặc đưa tân ngữ lên trước."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Anh ấy đá bóng rất giỏi.”",
+              "options": [
+                "他踢足球踢得很好。",
+                "他踢得足球很好。",
+                "他踢足球得很好。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "游泳 là từ ly hợp (游 + 泳), nên nói 游泳游得快 hoặc gọn hơn 游得快."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Trần Thiên Trung viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/7-7.mp3",
+      "vocabAudio": "audio/hsk2/7-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Thiên Trung chơi bóng rổ thế nào?",
+          "options": [
+            "很好",
+            "不好",
+            "还可以"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Cứ có thời gian là Thiên Trung làm gì?",
+          "options": [
+            "运动",
+            "休息",
+            "跟爸爸出去"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "我的爱好是运动。",
+          "vi": "Sở thích của mình là thể thao.",
+          "t": 0.48
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "从上小学开始，我每天都跟爸爸去运动。",
+          "vi": "Từ hồi học tiểu học, ngày nào mình cũng đi tập thể thao với bố.",
+          "t": 3.04
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "现在我篮球打得很好，足球踢得不错，游泳游得也很快。",
+          "vi": "Bây giờ mình chơi bóng rổ rất giỏi, đá bóng khá tốt, bơi cũng rất nhanh.",
+          "t": 8.37
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我一有时间就去运动。",
+          "vi": "Cứ có thời gian là mình đi tập thể thao.",
+          "t": 16.34
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "爱好",
+          "pinyin": "àihào",
+          "pos": "n./v.",
+          "vi": "sở thích; yêu thích",
+          "example": {
+            "zh": "你有什么爱好？",
+            "vi": "Bạn có sở thích gì?"
+          }
+        },
+        {
+          "zh": "开始",
+          "pinyin": "kāishǐ",
+          "pos": "v./n.",
+          "vi": "bắt đầu",
+          "example": {
+            "zh": "我们开始上课吧。",
+            "vi": "Chúng ta bắt đầu vào học nhé."
+          }
+        }
+      ],
+      "pangdaTip": "从……开始 = bắt đầu từ…: 从上小学开始 (từ khi học tiểu học), 从明天开始 (từ mai)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你看过她___吗？游得怎么样？",
+      "bank": [
+        "游泳",
+        "跑步",
+        "运动"
+      ],
+      "answer": "游泳"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我们9点___上课，你别来晚了。",
+      "bank": [
+        "开始",
+        "从",
+        "运动"
+      ],
+      "answer": "开始"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "你___跑得快不快？我想跟你一起去运动。",
+      "bank": [
+        "跑步",
+        "游泳",
+        "开始"
+      ],
+      "answer": "跑步"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "你喜欢什么___？——足球、篮球什么的都喜欢。",
+      "bank": [
+        "运动",
+        "开始",
+        "从"
+      ],
+      "answer": "运动"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我___8岁就开始学中文了。",
+      "bank": [
+        "从",
+        "往",
+        "得"
+      ],
+      "answer": "从"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "得",
+        "他",
+        "很快",
+        "跑"
+      ],
+      "answers": [
+        "他跑得很快"
+      ],
+      "vi": "Anh ấy chạy rất nhanh.",
+      "explain_vi": "Động từ + 得 + bổ ngữ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "就",
+        "一",
+        "他",
+        "下课",
+        "往外跑"
+      ],
+      "answers": [
+        "他一下课就往外跑"
+      ],
+      "vi": "Cậu ấy vừa tan học là chạy ra ngoài.",
+      "explain_vi": "一 + việc 1 + 就 + việc 2."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "游泳",
+      "options": [
+        {
+          "emoji": "🏊",
+          "label": "Bơi"
+        },
+        {
+          "emoji": "🏀",
+          "label": "Bóng rổ"
+        },
+        {
+          "emoji": "🏃",
+          "label": "Chạy bộ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我跑得不快，也不太喜欢跑步。",
+      "emoji": "🏃",
+      "statement_vi": "Người nói rất thích chạy bộ.",
+      "answer": false,
+      "explain_vi": "不太喜欢跑步 = không thích chạy bộ lắm."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "⚽👍",
+      "sentence": "他踢足球踢___很好。",
+      "options": [
+        "得",
+        "的",
+        "地"
+      ],
+      "answer": 0,
+      "explain_vi": "Sau động từ, trước bổ ngữ dùng 得."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你还喜欢什么运动？",
+          "a": "我还喜欢踢足球。"
+        },
+        {
+          "q": "你踢得怎么样？",
+          "a": "踢得还可以。"
+        },
+        {
+          "q": "你什么时候从北京回来的？",
+          "a": "昨天下午。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Khảo sát nhóm: Bạn thích môn thể thao nào?",
+    "steps_vi": [
+      "Nhóm 3 người, mỗi người lần lượt hỏi hai bạn còn lại.",
+      "Hỏi: thích môn thể thao nào, chủ nhật thường làm gì, chơi có giỏi không.",
+      "Ghi vào bảng: 姓名 – 喜欢的运动 – 星期天做什么 – 做得怎么样.",
+      "Mỗi nhóm cử một người báo cáo trước lớp, dùng “……得……” và “一……就……”."
+    ],
+    "patterns": [
+      {
+        "zh": "天中，你有什么爱好？",
+        "vi": "Thiên Trung, bạn có sở thích gì?"
+      },
+      {
+        "zh": "我喜欢打篮球。",
+        "vi": "Tôi thích chơi bóng rổ."
+      },
+      {
+        "zh": "你打得怎么样？——打得还可以。",
+        "vi": "Bạn chơi thế nào? — Cũng tạm được."
+      },
+      {
+        "zh": "他一到星期天就去游泳。",
+        "vi": "Cứ đến chủ nhật là bạn ấy đi bơi."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Thể thao trong đời sống người Trung Quốc",
+    "body_vi": [
+      "Bóng bàn (乒乓球) được gọi là “quốc cầu” (国球) của Trung Quốc: trường học, công viên, khu chung cư đều có bàn bóng bàn ngoài trời.",
+      "Buổi sáng sớm ở công viên, rất nhiều người lớn tuổi tập thái cực quyền (太极拳); buổi tối, các cô các bác nhảy “quảng trường vũ” (广场舞) theo nhạc.",
+      "Giới trẻ thích bóng rổ, cầu lông (羽毛球) và chạy bộ. Nhiều trường đại học tổ chức các giải thể thao giữa các khoa.",
+      "Ở Việt Nam bóng đá là môn được yêu thích nhất; ở Trung Quốc bóng đá cũng rất được xem, nhưng bóng rổ và bóng bàn còn phổ biến hơn trong đời sống hằng ngày."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Bóng bàn",
+          "乒乓球",
+          "pīngpāngqiú"
+        ],
+        [
+          "Cầu lông",
+          "羽毛球",
+          "yǔmáoqiú"
+        ],
+        [
+          "Thái cực quyền",
+          "太极拳",
+          "tàijíquán"
+        ],
+        [
+          "Nhảy quảng trường",
+          "广场舞",
+          "guǎngchǎngwǔ"
+        ],
+        [
+          "Chơi bóng rổ",
+          "打篮球",
+          "dǎ lánqiú"
+        ],
+        [
+          "Đá bóng",
+          "踢足球",
+          "tī zúqiú"
+        ]
+      ]
+    }
+  }
 }

@@ -1,41 +1,332 @@
 {
  "lessonId": 13,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Quà năm mới",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Quà năm mới",
+    "zh": "新年就要到了。我们班的同学给王老师准备了新年礼物。我们送给她很多漂亮的花，她非常高兴。安妮还送给我一个本子，比我的本子贵一点儿。我送给安妮一个咖啡杯，因为她最喜欢喝咖啡了。今天的词比昨天多了五个，可是我都学会了。",
+    "vi": "Sắp đến năm mới. Các bạn lớp mình chuẩn bị quà năm mới cho cô Vương. Bọn mình tặng cô rất nhiều hoa đẹp, cô vui lắm. Annie còn tặng mình một quyển vở, đắt hơn vở của mình một chút. Mình tặng Annie một cái cốc cà phê, vì cậu ấy thích uống cà phê nhất. Từ mới hôm nay nhiều hơn hôm qua năm từ, nhưng mình học thuộc hết rồi."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "同学们送给王老师什么？",
+     "options": [
+      "本子",
+      "花",
+      "咖啡杯"
+     ],
+     "answer": 1,
+     "explain_vi": "我们送给她很多漂亮的花。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "安妮的本子比我的本子怎么样？",
+     "options": [
+      "贵一点儿",
+      "贵多了",
+      "便宜一点儿"
+     ],
+     "answer": 0,
+     "explain_vi": "比我的本子贵一点儿。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "今天的词比昨天多几个？",
+     "options": [
+      "三个",
+      "十个",
+      "五个"
+     ],
+     "answer": 2,
+     "explain_vi": "今天的词比昨天多了五个。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "王老师很高兴。",
+     "answer": true,
+     "explain_vi": "她非常高兴。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "我送给安妮一个本子。",
+     "answer": false,
+     "explain_vi": "我送给安妮一个咖啡杯。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "今天的词我都学会了。",
+     "answer": true,
+     "explain_vi": "可是我都学会了。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你觉得送给她什么好？",
+       "a": "她喜欢花，送她花吧。"
+      },
+      {
+       "q": "你比你妹妹大几岁？",
+       "a": "我比她大两岁。"
+      },
+      {
+       "q": "这个本子贵吗？",
+       "a": "比那个贵一点儿。"
+      },
+      {
+       "q": "洗手间在哪儿？",
+       "a": "就在教室旁边。"
+      }
+     ],
+     "explain_vi": "Hỏi tặng gì → 送她花; hỏi hơn mấy tuổi → 大两岁; hỏi đắt không → 贵一点儿; hỏi ở đâu → vị trí."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "王老师{{1}}我们中文。新年就要到了，我们{{2}}她能高高兴兴地过新年。安妮{{3}}我，这个本子比那个贵{{4}}。",
+     "bank": [
+      "教",
+      "希望",
+      "告诉",
+      "一点儿",
+      "上网"
+     ],
+     "answers": [
+      "教",
+      "希望",
+      "告诉",
+      "一点儿"
+     ],
+     "explain_vi": "教 = dạy · 希望 = mong · 告诉 = nói cho biết · 贵一点儿."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "送给",
+      "我",
+      "他",
+      "一个礼物"
+     ],
+     "answers": [
+      "我送给他一个礼物"
+     ],
+     "vi": "Tôi tặng anh ấy một món quà.",
+     "explain_vi": "送给 + người + vật.",
+     "grammarRef": "h2-g13-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "比我",
+      "哥哥",
+      "高",
+      "一点儿"
+     ],
+     "answers": [
+      "哥哥比我高一点儿"
+     ],
+     "vi": "Anh trai cao hơn tôi một chút.",
+     "explain_vi": "比 + B + tính từ + 一点儿.",
+     "grammarRef": "h2-g13-3"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "多了",
+      "今天的词",
+      "比昨天",
+      "五个"
+     ],
+     "answers": [
+      "今天的词比昨天多了五个"
+     ],
+     "vi": "Từ mới hôm nay nhiều hơn hôm qua năm từ.",
+     "explain_vi": "比 + B + tính từ + số lượng.",
+     "grammarRef": "h2-g13-2"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "告诉",
+      "请",
+      "我",
+      "你的名字"
+     ],
+     "answers": [
+      "请告诉我你的名字"
+     ],
+     "vi": "Hãy cho tôi biết tên của bạn.",
+     "explain_vi": "告诉 + người + việc.",
+     "grammarRef": "h2-g13-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "希望",
+      "我",
+      "明天",
+      "是晴天"
+     ],
+     "answers": [
+      "我希望明天是晴天"
+     ],
+     "vi": "Tôi mong mai trời nắng.",
+     "explain_vi": "希望 + mệnh đề.",
+     "grammarRef": "h2-g13-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Chị lớn hơn tôi ba tuổi.",
+     "acceptedAnswers": [
+      "姐姐比我大三岁"
+     ],
+     "requiredKeywords": [
+      "比",
+      "三岁"
+     ],
+     "wordBank": [
+      "姐姐",
+      "比",
+      "我",
+      "大",
+      "三岁"
+     ],
+     "explain_vi": "比 + B + tính từ + số lượng.",
+     "grammarRef": "h2-g13-2"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Cái này đắt hơn cái kia một chút.",
+     "acceptedAnswers": [
+      "这个比那个贵一点儿",
+      "这个比那个贵一些"
+     ],
+     "requiredKeywords": [
+      "比",
+      "贵"
+     ],
+     "wordBank": [
+      "这个",
+      "比",
+      "那个",
+      "贵",
+      "一点儿"
+     ],
+     "explain_vi": "比 + B + 贵一点儿.",
+     "grammarRef": "h2-g13-3"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tôi tặng cô ấy một quyển sách.",
+     "acceptedAnswers": [
+      "我送给她一本书",
+      "我送她一本书"
+     ],
+     "requiredKeywords": [
+      "送",
+      "书"
+     ],
+     "wordBank": [
+      "我",
+      "送给",
+      "她",
+      "一本书"
+     ],
+     "explain_vi": "送给 + người + vật.",
+     "grammarRef": "h2-g13-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Cô Vương dạy chúng tôi tiếng Trung.",
+     "acceptedAnswers": [
+      "王老师教我们中文",
+      "王老师教我们汉语"
+     ],
+     "requiredKeywords": [
+      "教"
+     ],
+     "wordBank": [
+      "王老师",
+      "教",
+      "我们",
+      "中文"
+     ],
+     "explain_vi": "教 + người + môn học.",
+     "grammarRef": "h2-g13-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Chúc mừng năm mới!",
+     "acceptedAnswers": [
+      "新年快乐"
+     ],
+     "requiredKeywords": [
+      "新年快乐"
+     ],
+     "wordBank": [
+      "新年",
+      "快乐"
+     ],
+     "explain_vi": "新年快乐.",
+     "grammarRef": "h2-g13-1"
+    }
+   ]
   }
  ]
 }

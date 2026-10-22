@@ -1,41 +1,336 @@
 {
  "lessonId": 10,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Sắp thi rồi",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Sắp thi rồi",
+    "zh": "下个星期就要考试了。这几天，我每天晚上都看书、做题。妈妈让我看看本子上做错的题。昨天我的笔没了，弟弟帮我找，笔就在门后面。我问妈妈：“考试那天，我穿红色的衣服还是白色的衣服？”妈妈笑了：“穿什么都可以，好好考试吧！”",
+    "vi": "Tuần sau là thi rồi. Mấy hôm nay, tối nào mình cũng đọc sách, làm bài. Mẹ bảo mình xem lại các bài làm sai trong vở. Hôm qua mình mất bút, em trai giúp mình tìm, bút ở ngay sau cửa. Mình hỏi mẹ: “Hôm thi con mặc áo đỏ hay áo trắng ạ?” Mẹ bật cười: “Mặc gì cũng được, thi cho tốt nhé!”"
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "什么时候考试？",
+     "options": [
+      "明天",
+      "下个星期",
+      "这个星期"
+     ],
+     "answer": 1,
+     "explain_vi": "下个星期就要考试了。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "笔在哪儿？",
+     "options": [
+      "门后面",
+      "床上",
+      "桌子上"
+     ],
+     "answer": 0,
+     "explain_vi": "笔就在门后面。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "我问妈妈什么？",
+     "options": [
+      "考什么题",
+      "穿什么衣服",
+      "什么时候考试"
+     ],
+     "answer": 1,
+     "explain_vi": "我穿红色的衣服还是白色的衣服？"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "我每天晚上都看书、做题。",
+     "answer": true,
+     "explain_vi": "我每天晚上都看书、做题。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "笔是妈妈帮我找的。",
+     "answer": false,
+     "explain_vi": "弟弟帮我找。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "妈妈听了我的问题，笑了。",
+     "answer": true,
+     "explain_vi": "妈妈笑了。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你们什么时候开学？",
+       "a": "九月一号开学。"
+      },
+      {
+       "q": "你的笔呢？",
+       "a": "在桌子上。"
+      },
+      {
+       "q": "你喝茶还是喝咖啡？",
+       "a": "我喝茶。"
+      },
+      {
+       "q": "饭菜快要做好了吗？",
+       "a": "快好了，你去洗手吧。"
+      }
+     ],
+     "explain_vi": "Hỏi khi nào → ngày tháng; 呢 hỏi vị trí → 在…; 还是 → chọn một; 快要……了 → sắp xong."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "明天就要{{1}}了，小雪在看书。妈妈说：“本子上做{{2}}的题也要看一看。”小雪问：“是您准备考试{{3}}我准备考试？”妈妈听了，{{4}}了。",
+     "bank": [
+      "考试",
+      "错",
+      "还是",
+      "笑",
+      "开学"
+     ],
+     "answers": [
+      "考试",
+      "错",
+      "还是",
+      "笑"
+     ],
+     "explain_vi": "就要考试了 · 做错的题 · A还是B · 笑了."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "还是",
+      "你",
+      "去",
+      "我去"
+     ],
+     "answers": [
+      "你去还是我去"
+     ],
+     "vi": "Bạn đi hay tôi đi?",
+     "explain_vi": "A + 还是 + B.",
+     "grammarRef": "h2-g10-2"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "就要",
+      "我们",
+      "下星期",
+      "考试"
+     ],
+     "answers": [
+      "我们下星期就要考试了"
+     ],
+     "vi": "Tuần sau chúng tôi thi rồi.",
+     "explain_vi": "Mốc thời gian + 就要……了.",
+     "grammarRef": "h2-g10-3"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "快要",
+      "饭菜",
+      "做好"
+     ],
+     "answers": [
+      "饭菜快要做好了"
+     ],
+     "vi": "Cơm sắp nấu xong rồi.",
+     "explain_vi": "快要 + động từ + 了.",
+     "grammarRef": "h2-g10-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "你",
+      "我的书包",
+      "看见了吗"
+     ],
+     "answers": [
+      "我的书包你看见了吗"
+     ],
+     "vi": "Cặp sách của tôi, bạn có thấy không?",
+     "explain_vi": "Câu vị ngữ chủ vị.",
+     "grammarRef": "h2-g10-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "帮",
+      "爸爸",
+      "我",
+      "准备书包"
+     ],
+     "answers": [
+      "爸爸帮我准备书包"
+     ],
+     "vi": "Bố giúp tôi chuẩn bị cặp sách.",
+     "explain_vi": "帮 + người + việc.",
+     "grammarRef": "h2-g10-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Bạn uống trà hay uống cà phê?",
+     "acceptedAnswers": [
+      "你喝茶还是喝咖啡",
+      "你喝茶还是咖啡"
+     ],
+     "requiredKeywords": [
+      "还是"
+     ],
+     "wordBank": [
+      "你",
+      "喝茶",
+      "还是",
+      "喝咖啡"
+     ],
+     "explain_vi": "A + 还是 + B.",
+     "grammarRef": "h2-g10-2"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Sắp mưa rồi.",
+     "acceptedAnswers": [
+      "快要下雨了",
+      "要下雨了",
+      "快下雨了"
+     ],
+     "requiredKeywords": [
+      "下雨",
+      "了"
+     ],
+     "wordBank": [
+      "快要",
+      "下雨",
+      "了"
+     ],
+     "explain_vi": "快要……了.",
+     "grammarRef": "h2-g10-3"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Ngày mai khai giảng rồi.",
+     "acceptedAnswers": [
+      "明天就要开学了",
+      "明天开学了"
+     ],
+     "requiredKeywords": [
+      "开学"
+     ],
+     "wordBank": [
+      "明天",
+      "就要",
+      "开学",
+      "了"
+     ],
+     "explain_vi": "Có mốc thời gian → 就要……了.",
+     "grammarRef": "h2-g10-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Câu này bạn làm sai rồi.",
+     "acceptedAnswers": [
+      "这个题你做错了",
+      "你这个题做错了",
+      "你做错了这个题"
+     ],
+     "requiredKeywords": [
+      "错"
+     ],
+     "wordBank": [
+      "这个题",
+      "你",
+      "做错",
+      "了"
+     ],
+     "explain_vi": "做错 = làm sai.",
+     "grammarRef": "h2-g10-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Bố ơi, bố giúp con một chút được không?",
+     "acceptedAnswers": [
+      "爸爸，你能帮我一下吗",
+      "爸爸，您能帮我一下吗",
+      "爸爸，你帮我一下好吗"
+     ],
+     "requiredKeywords": [
+      "帮"
+     ],
+     "wordBank": [
+      "爸爸",
+      "你",
+      "能",
+      "帮我",
+      "一下",
+      "吗"
+     ],
+     "explain_vi": "帮 + 我 + 一下.",
+     "grammarRef": "h2-g10-1"
+    }
+   ]
   }
  ]
 }

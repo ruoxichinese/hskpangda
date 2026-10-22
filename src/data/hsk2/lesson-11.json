@@ -1,35 +1,906 @@
 {
   "id": 11,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我最喜欢吃中国菜",
     "pinyin": "Wǒ zuì xǐhuan chī Zhōngguó cài",
     "vi": "Tôi thích ăn món Trung Quốc nhất"
   },
   "grammarTopics_vi": [
-    "Trợ từ động thái 着 (1)",
-    "Trợ từ động thái 着 (2)",
+    "Trợ từ động thái 着 (1): trạng thái kéo dài",
+    "Trợ từ động thái 着 (2): khi có tân ngữ",
     "Phó từ chỉ mức độ 最"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Trợ từ động thái 着 (1)",
-      "doneWhen": []
+      "vi": "Nói về tình trạng sức khoẻ, triệu chứng bệnh",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Trợ từ động thái 着 (2)",
-      "doneWhen": []
+      "vi": "Dùng 着 để nói hành động hoặc trạng thái đang kéo dài",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Phó từ chỉ mức độ 最",
-      "doneWhen": []
+      "vi": "Dùng 最 để nói “nhất”",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🤕",
+      "word": "疼",
+      "pinyin": "téng",
+      "vi": "đau"
+    },
+    {
+      "emoji": "💊",
+      "word": "药",
+      "pinyin": "yào",
+      "vi": "thuốc"
+    },
+    {
+      "emoji": "🏥",
+      "word": "药店",
+      "pinyin": "yàodiàn",
+      "vi": "hiệu thuốc"
+    },
+    {
+      "emoji": "🛣️",
+      "word": "路上",
+      "pinyin": "lùshang",
+      "vi": "trên đường"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, cô Vương Nhất Phi và Gia Nguyệt đang trò chuyện.",
+      "scene": "🤕",
+      "audio": "audio/hsk2/11-1.mp3",
+      "vocabAudio": "audio/hsk2/11-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Bây giờ Gia Nguyệt đang ở đâu?",
+          "options": [
+            "医院",
+            "家里",
+            "教室"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Cô Nhất Phi đi làm gì?",
+          "options": [
+            "开车",
+            "回家",
+            "找医生"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "家月，都下课了，你怎么还不回家？",
+          "vi": "Gia Nguyệt, tan học rồi, sao em còn chưa về?",
+          "t": 1.14
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我头疼，不太舒服。",
+          "vi": "Em đau đầu, không được khoẻ lắm.",
+          "t": 6.22
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "你这几天经常头疼，去医院看看吧。",
+          "vi": "Mấy hôm nay em hay đau đầu, đi bệnh viện khám đi.",
+          "t": 10.04
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我想休息一下，现在不能动，一动就疼。",
+          "vi": "Em muốn nghỉ một chút, giờ không cử động được, cứ động là đau.",
+          "t": 15.24
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "那你在这儿坐着，我去开车，一会儿送你去医院。",
+          "vi": "Vậy em ngồi đây nhé, cô đi lấy xe, lát nữa đưa em đi bệnh viện.",
+          "t": 21.31
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢王老师。",
+          "vi": "Em cảm ơn cô Vương.",
+          "t": 27.64
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "头",
+          "pinyin": "tóu",
+          "pos": "n.",
+          "vi": "đầu",
+          "example": {
+            "zh": "我头疼。",
+            "vi": "Tôi đau đầu."
+          }
+        },
+        {
+          "zh": "疼",
+          "pinyin": "téng",
+          "pos": "adj.",
+          "vi": "đau",
+          "example": {
+            "zh": "你哪儿疼？",
+            "vi": "Bạn đau ở đâu?"
+          }
+        },
+        {
+          "zh": "经常",
+          "pinyin": "jīngcháng",
+          "pos": "adv.",
+          "vi": "thường xuyên, hay",
+          "example": {
+            "zh": "他经常去跑步。",
+            "vi": "Anh ấy thường đi chạy bộ."
+          }
+        },
+        {
+          "zh": "动",
+          "pinyin": "dòng",
+          "pos": "v.",
+          "vi": "cử động, động đậy",
+          "example": {
+            "zh": "别动！",
+            "vi": "Đừng động đậy!"
+          }
+        },
+        {
+          "zh": "着",
+          "pinyin": "zhe",
+          "pos": "part.",
+          "vi": "(trợ từ, chỉ trạng thái đang kéo dài)",
+          "example": {
+            "zh": "门开着。",
+            "vi": "Cửa đang mở."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g11-1",
+          "title_zh": "动态助词“着”（1）",
+          "title_vi": "Trợ từ 着 (1): trạng thái đang kéo dài",
+          "formula": [
+            [
+              {
+                "zh": "教室的门",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "开",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "着",
+                "label": "đang (giữ trạng thái)",
+                "role": "PART"
+              }
+            ],
+            [
+              {
+                "zh": "教室的门",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "没（有）",
+                "label": "không",
+                "role": "ADV"
+              },
+              {
+                "zh": "开着",
+                "label": "Động từ + 着",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "着 đặt sau động từ cho biết một hành động hoặc trạng thái đang được duy trì: 坐着 = đang ngồi (ngồi yên đó), 门开着 = cửa đang mở. Khác với 在 (đang làm việc gì), 着 nhấn mạnh trạng thái kéo dài. Phủ định: 没（有）+ động từ + 着.",
+          "examples": [
+            {
+              "zh": "那你在这儿坐着。",
+              "vi": "Vậy em cứ ngồi đây nhé."
+            },
+            {
+              "zh": "教室的门开着。",
+              "vi": "Cửa lớp đang mở."
+            },
+            {
+              "zh": "教室的门没开着。",
+              "vi": "Cửa lớp không mở."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "门不开着。",
+              "right": "门没开着。",
+              "why_vi": "Phủ định của 着 dùng 没（有）, không dùng 不."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cửa sổ đang mở.” (窗户 = cửa sổ)",
+              "options": [
+                "窗户开着。",
+                "窗户着开。",
+                "窗户在开着了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "一动就疼 = cứ cử động là đau – lại là cấu trúc 一……就…… của bài 7 đấy!"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trên xe cô Vương Nhất Phi, Lý Văn gọi điện tới.",
+      "scene": "🚗",
+      "audio": "audio/hsk2/11-3.mp3",
+      "vocabAudio": "audio/hsk2/11-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Cô Nhất Phi đang làm gì?",
+          "options": [
+            "开车",
+            "看病",
+            "接电话"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Thời tiết hôm nay thế nào?",
+          "options": [
+            "很好",
+            "下雨",
+            "下雪"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "现在路上车多，还下着雪，我开慢一点儿。",
+          "vi": "Giờ trên đường nhiều xe, tuyết lại đang rơi, cô lái chậm một chút.",
+          "t": 1.12
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "没问题，现在头没那么疼了。",
+          "vi": "Không sao ạ, giờ em đỡ đau đầu rồi.",
+          "t": 6.95
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "好。李文来电话了，你帮我接一下。",
+          "vi": "Được. Lý Văn gọi kìa, em nghe giúp cô nhé.",
+          "t": 12.36
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "喂，李文，王老师开着车呢，你找她有事吗？",
+          "vi": "Alô, Lý Văn, cô Vương đang lái xe, cậu tìm cô có việc gì không?",
+          "t": 17.54
+        },
+        {
+          "speaker": "liwen",
+          "zh": "没什么事。今天雪这么大，你们开车去哪儿啊？",
+          "vi": "Không có gì đâu. Hôm nay tuyết rơi dày thế, các cậu lái xe đi đâu vậy?",
+          "t": 24.84
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "去医院，我头有点儿疼。",
+          "vi": "Đi bệnh viện, mình hơi đau đầu.",
+          "t": 30.54
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那我一会儿去看看你。",
+          "vi": "Vậy lát nữa mình đến thăm cậu.",
+          "t": 35.71
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "路上",
+          "pinyin": "lùshang",
+          "pos": "n.",
+          "vi": "trên đường, dọc đường",
+          "example": {
+            "zh": "路上车很多。",
+            "vi": "Trên đường rất đông xe."
+          }
+        },
+        {
+          "zh": "慢",
+          "pinyin": "màn",
+          "pos": "adj.",
+          "vi": "chậm",
+          "example": {
+            "zh": "请说慢一点儿。",
+            "vi": "Làm ơn nói chậm một chút."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g11-2",
+          "title_zh": "动态助词“着”（2）",
+          "title_vi": "Trợ từ 着 (2): tân ngữ đứng sau 着",
+          "formula": [
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "穿",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "着",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "白色的裤子",
+                "label": "Tân ngữ",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Khi có tân ngữ, tân ngữ đứng SAU 着: 下着雪 (tuyết đang rơi), 开着车 (đang lái xe), 穿着白色的裤子 (đang mặc quần trắng). Câu hỏi có ba cách: thêm 吗; thêm 没有 ở cuối; hoặc động từ + 没 + động từ + 着.",
+          "examples": [
+            {
+              "zh": "现在路上车多，还下着雪，我开慢一点儿。",
+              "vi": "Giờ đường đông xe, tuyết còn đang rơi, tôi lái chậm một chút."
+            },
+            {
+              "zh": "她穿着白色的裤子。",
+              "vi": "Cô ấy đang mặc quần trắng."
+            },
+            {
+              "zh": "白家月坐着没有？",
+              "vi": "Gia Nguyệt có đang ngồi không?"
+            },
+            {
+              "zh": "她拿没拿着手机？",
+              "vi": "Cô ấy có đang cầm điện thoại không?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "她穿白色的裤子着。",
+              "right": "她穿着白色的裤子。",
+              "why_vi": "着 đứng ngay sau động từ, tân ngữ ở sau 着."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Anh ấy đang cầm một cốc cà phê.”",
+              "options": [
+                "他拿着一杯咖啡。",
+                "他拿一杯咖啡着。",
+                "他着拿一杯咖啡。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "没什么事 = không có việc gì quan trọng. Câu trả lời rất hay dùng khi gọi điện chỉ để hỏi thăm."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong phòng, Lý Văn đến thăm Gia Nguyệt.",
+      "scene": "🍲",
+      "audio": "audio/hsk2/11-5.mp3",
+      "vocabAudio": "audio/hsk2/11-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Bây giờ Gia Nguyệt thế nào rồi?",
+          "options": [
+            "不想吃饭",
+            "身体不舒服",
+            "头不那么疼了"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Cô Nhất Phi định làm gì?",
+          "options": [
+            "去买药",
+            "找医生",
+            "去做菜"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "李文，快请进！",
+          "vi": "Lý Văn, mời vào đi!",
+          "t": 0.67
+        },
+        {
+          "speaker": "liwen",
+          "zh": "家月，你怎么样了？头还疼吗？",
+          "vi": "Gia Nguyệt, cậu thế nào rồi? Còn đau đầu không?",
+          "t": 3.66
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "不那么疼了。医生开了一些药，吃完就好多了。",
+          "vi": "Đỡ đau rồi. Bác sĩ kê ít thuốc, uống xong là đỡ nhiều.",
+          "t": 7.48
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那就好！",
+          "vi": "Vậy thì tốt!",
+          "t": 14.07
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "家月，你想不想吃点儿东西？",
+          "vi": "Gia Nguyệt, em có muốn ăn chút gì không?",
+          "t": 16.24
+        },
+        {
+          "speaker": "liwen",
+          "zh": "吃点儿吧，身体不舒服时更要好好吃饭。",
+          "vi": "Ăn chút đi, lúc người không khoẻ càng phải ăn uống đầy đủ.",
+          "t": 20.49
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "吃点儿什么呢？",
+          "vi": "Ăn gì bây giờ nhỉ?",
+          "t": 26.02
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "你最喜欢吃中国菜，我做几个中国菜吧。",
+          "vi": "Em thích món Trung Quốc nhất, cô nấu vài món Trung Quốc nhé.",
+          "t": 28.58
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好的，谢谢王老师。",
+          "vi": "Vâng, em cảm ơn cô Vương.",
+          "t": 33.85
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "进",
+          "pinyin": "jìn",
+          "pos": "v.",
+          "vi": "vào",
+          "example": {
+            "zh": "请进！",
+            "vi": "Mời vào!"
+          }
+        },
+        {
+          "zh": "药",
+          "pinyin": "yào",
+          "pos": "n.",
+          "vi": "thuốc",
+          "example": {
+            "zh": "你吃药了吗？",
+            "vi": "Bạn uống thuốc chưa?"
+          }
+        },
+        {
+          "zh": "身体",
+          "pinyin": "shēntǐ",
+          "pos": "n.",
+          "vi": "cơ thể, sức khoẻ",
+          "example": {
+            "zh": "你身体怎么样？",
+            "vi": "Sức khoẻ bạn thế nào?"
+          }
+        },
+        {
+          "zh": "时",
+          "pinyin": "shí",
+          "pos": "n.",
+          "vi": "lúc, khi",
+          "example": {
+            "zh": "吃饭时别看手机。",
+            "vi": "Lúc ăn cơm đừng xem điện thoại."
+          }
+        },
+        {
+          "zh": "最",
+          "pinyin": "zuì",
+          "pos": "adv.",
+          "vi": "nhất",
+          "example": {
+            "zh": "我最喜欢红色。",
+            "vi": "Tôi thích màu đỏ nhất."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g11-3",
+          "title_zh": "程度副词“最”",
+          "title_vi": "Phó từ 最: nhất",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "最",
+                "label": "nhất",
+                "role": "ADV"
+              },
+              {
+                "zh": "喜欢",
+                "label": "Tính từ / động từ tâm lý",
+                "role": "V"
+              },
+              {
+                "zh": "吃中国菜",
+                "label": "",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "最 đứng TRƯỚC tính từ hoặc động từ tâm lý (喜欢, 爱, 想…) để nói mức độ cao nhất trong một nhóm – giống “nhất” trong tiếng Việt, nhưng vị trí ngược lại: tiếng Việt nói “thích nhất”, tiếng Trung nói 最喜欢.",
+          "examples": [
+            {
+              "zh": "你最喜欢吃中国菜。",
+              "vi": "Em thích ăn món Trung Quốc nhất."
+            },
+            {
+              "zh": "在我们家，爸爸最高。",
+              "vi": "Trong nhà tôi, bố cao nhất."
+            },
+            {
+              "zh": "你们班谁说中文说得最好？",
+              "vi": "Lớp các bạn ai nói tiếng Trung giỏi nhất?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我喜欢最红色。",
+              "right": "我最喜欢红色。",
+              "why_vi": "最 đứng trước động từ/tính từ, không đứng sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Món này ngon nhất.”",
+              "options": [
+                "这个菜最好吃。",
+                "这个菜好吃最。",
+                "最这个菜好吃。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "医生开了一些药: ở đây 开 nghĩa là “kê (đơn thuốc)”, không phải “mở” hay “lái”."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Gia Nguyệt viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/11-7.mp3",
+      "vocabAudio": "audio/hsk2/11-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Mấy hôm nay Gia Nguyệt bị làm sao?",
+          "options": [
+            "经常头疼",
+            "不想吃饭",
+            "经常下雪"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Ai đưa Gia Nguyệt đi bệnh viện?",
+          "options": [
+            "李文",
+            "王老师",
+            "医生"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "我这几天经常头疼，从药店买了点儿药，没去医院。",
+          "vi": "Mấy hôm nay mình hay đau đầu, mua ít thuốc ở hiệu thuốc, không đi bệnh viện.",
+          "t": 1.43
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "今天下课后，王老师看我不舒服，就送我去医院了。",
+          "vi": "Hôm nay tan học, cô Vương thấy mình không khoẻ nên đưa mình đi bệnh viện.",
+          "t": 7.96
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "从医院回来，李文也来看我了。",
+          "vi": "Từ bệnh viện về, Lý Văn cũng đến thăm mình.",
+          "t": 14.39
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "现在他们都回去了，我也要睡觉了。",
+          "vi": "Giờ mọi người về cả rồi, mình cũng sắp đi ngủ.",
+          "t": 18.81
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "药店",
+          "pinyin": "yàodiàn",
+          "pos": "n.",
+          "vi": "hiệu thuốc",
+          "example": {
+            "zh": "学校旁边有一家药店。",
+            "vi": "Cạnh trường có một hiệu thuốc."
+          }
+        }
+      ],
+      "pangdaTip": "看我不舒服 = thấy mình không khoẻ. 看 ở đây nghĩa là “thấy, nhận ra”."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我___疼，不想去上课了。",
+      "bank": [
+        "头",
+        "药",
+        "慢"
+      ],
+      "answer": "头"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "医生让我每天吃三次___。",
+      "bank": [
+        "药",
+        "头",
+        "时"
+      ],
+      "answer": "药"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "他___去那家饭馆吃饭，因为那儿的菜很好吃。",
+      "bank": [
+        "经常",
+        "最",
+        "慢"
+      ],
+      "answer": "经常"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "下雪了，路上车多，你开___一点儿。",
+      "bank": [
+        "慢",
+        "疼",
+        "动"
+      ],
+      "answer": "慢"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我们班谁的个子___高？",
+      "bank": [
+        "最",
+        "经常",
+        "着"
+      ],
+      "answer": "最"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "着",
+        "门",
+        "开"
+      ],
+      "answers": [
+        "门开着"
+      ],
+      "vi": "Cửa đang mở.",
+      "explain_vi": "Động từ + 着."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "着",
+        "她",
+        "穿",
+        "一件红衣服"
+      ],
+      "answers": [
+        "她穿着一件红衣服"
+      ],
+      "vi": "Cô ấy đang mặc một cái áo đỏ.",
+      "explain_vi": "Động từ + 着 + tân ngữ."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "药",
+      "options": [
+        {
+          "emoji": "💊",
+          "label": "Thuốc"
+        },
+        {
+          "emoji": "🏥",
+          "label": "Bệnh viện"
+        },
+        {
+          "emoji": "🚗",
+          "label": "Ô tô"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "现在头没那么疼了。",
+      "emoji": "🤕",
+      "statement_vi": "Bây giờ người nói đau đầu hơn trước.",
+      "answer": false,
+      "explain_vi": "没那么疼了 = không còn đau như vậy nữa, tức là đỡ hơn."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "❄️🚗",
+      "sentence": "外边下___雪，你多穿点儿衣服。",
+      "options": [
+        "着",
+        "过",
+        "得"
+      ],
+      "answer": 0,
+      "explain_vi": "下着雪 = tuyết đang rơi."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你怎么还不回家？",
+          "a": "我头疼，不太舒服。"
+        },
+        {
+          "q": "你最喜欢吃什么？",
+          "a": "我最喜欢吃中国菜。"
+        },
+        {
+          "q": "头还疼吗？",
+          "a": "不那么疼了。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đi khám bệnh",
+    "steps_vi": [
+      "Làm theo cặp: một người là bác sĩ, một người là bệnh nhân.",
+      "Bệnh nhân kể triệu chứng: đau ở đâu, đau từ bao giờ, có hay bị không (经常).",
+      "Bác sĩ hỏi thêm, kê thuốc và dặn dò: nghỉ ngơi, ăn uống đầy đủ, uống nhiều nước.",
+      "Đổi vai, thử dùng 着 để miêu tả: 你在床上躺着 (bạn cứ nằm trên giường nhé)."
+    ],
+    "patterns": [
+      {
+        "zh": "你哪儿不舒服？",
+        "vi": "Bạn thấy không khoẻ ở đâu?"
+      },
+      {
+        "zh": "我头疼，一动就疼。",
+        "vi": "Tôi đau đầu, cứ cử động là đau."
+      },
+      {
+        "zh": "这个药一天吃三次。",
+        "vi": "Thuốc này một ngày uống ba lần."
+      },
+      {
+        "zh": "身体不舒服时要多休息。",
+        "vi": "Khi người không khoẻ phải nghỉ ngơi nhiều."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Khi bị ốm ở Trung Quốc",
+    "body_vi": [
+      "Câu người Trung Quốc hay dặn nhất khi ai đó bị ốm là 多喝热水 – “uống nhiều nước nóng vào”. Nhiều người tin uống nước nóng tốt cho sức khoẻ, nên ở trường học, nhà ga, văn phòng thường có sẵn máy nước nóng.",
+      "Bên cạnh Tây y, Đông y (中医) rất phổ biến: bác sĩ bắt mạch, kê thuốc thảo dược. Người Việt cũng quen với thuốc Bắc và các bài thuốc dân gian, nên điều này khá gần gũi.",
+      "Ăn uống cũng được coi là một cách chữa bệnh: khi ốm, người ta hay ăn cháo (粥) thanh đạm, giống món cháo hành của người Việt."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Uống nhiều nước nóng",
+          "多喝热水",
+          "duō hē rè shuǐ"
+        ],
+        [
+          "Đông y",
+          "中医",
+          "zhōngyī"
+        ],
+        [
+          "Cháo",
+          "粥",
+          "zhōu"
+        ],
+        [
+          "Đi khám bệnh",
+          "看病",
+          "kàn bìng"
+        ],
+        [
+          "Bị cảm",
+          "感冒",
+          "gǎnmào"
+        ]
+      ]
+    }
+  }
 }

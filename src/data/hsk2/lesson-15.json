@@ -1,35 +1,923 @@
 {
   "id": 15,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我想再去一次中国",
     "pinyin": "Wǒ xiǎng zài qù yí cì Zhōngguó",
-    "vi": "Tôi muốn đến Trung Quốc thêm lần nữa"
+    "vi": "Tôi muốn đi Trung Quốc thêm một lần nữa"
   },
   "grammarTopics_vi": [
-    "Bổ ngữ động lượng (1)",
-    "Bổ ngữ động lượng (2)",
-    "Câu chữ 有 (2)"
+    "Bổ ngữ động lượng (1): động từ + số + 次",
+    "Bổ ngữ động lượng (2): vị trí của tân ngữ",
+    "Câu chữ 有 (2): đạt đến một số lượng"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Bổ ngữ động lượng (1)",
-      "doneWhen": []
+      "vi": "Nói về kế hoạch du lịch",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Bổ ngữ động lượng (2)",
-      "doneWhen": []
+      "vi": "Nói một việc xảy ra mấy lần: 去过一次, 见了两次",
+      "doneWhen": [
+        "text-1",
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu chữ 有 (2)",
-      "doneWhen": []
+      "vi": "Dùng “有 + số lượng” để nói đã đến mức nào: 有一年没回国了",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🛣️",
+      "word": "路",
+      "pinyin": "lù",
+      "vi": "con đường"
+    },
+    {
+      "emoji": "🐦",
+      "word": "鸟",
+      "pinyin": "niǎo",
+      "vi": "con chim"
+    },
+    {
+      "emoji": "✈️",
+      "word": "机场",
+      "pinyin": "jīchǎng",
+      "vi": "sân bay"
+    },
+    {
+      "emoji": "🚪",
+      "word": "出门",
+      "pinyin": "chūmén",
+      "vi": "ra ngoài, đi xa"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, các bạn đang làm bài thi.",
+      "scene": "📝",
+      "audio": "audio/hsk2/15-1.mp3",
+      "vocabAudio": "audio/hsk2/15-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Các bạn sắp bắt đầu làm gì?",
+          "options": [
+            "学习",
+            "考试",
+            "跑步"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Gia Nguyệt đã đến Trung Quốc mấy lần?",
+          "options": [
+            "一次",
+            "两次",
+            "七次"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "考试就要开始了，请大家写上姓名，写好后就可以做题了。",
+          "vi": "Sắp bắt đầu thi rồi, mời cả lớp viết họ tên, viết xong là có thể làm bài.",
+          "t": 0.26
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "老师，我做完了。",
+          "vi": "Thưa cô, em làm xong rồi ạ.",
+          "t": 7.58
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "老师，我也做完了。",
+          "vi": "Thưa cô, em cũng làm xong rồi.",
+          "t": 10.49
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "……对了，你们考完试想做什么？",
+          "vi": "… À phải rồi, thi xong các em định làm gì?",
+          "t": 13.88
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我很想去中国，虽然去过一次，但是很想再去一次。",
+          "vi": "Em rất muốn đi Trung Quốc, tuy đã đi một lần rồi nhưng rất muốn đi thêm lần nữa.",
+          "t": 17.68
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "不错，到中国后你就可以经常说中文了。",
+          "vi": "Hay đấy, đến Trung Quốc rồi em có thể thường xuyên nói tiếng Trung.",
+          "t": 25.2
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "姓名",
+          "pinyin": "xìngmíng",
+          "pos": "n.",
+          "vi": "họ tên",
+          "example": {
+            "zh": "请写上你的姓名。",
+            "vi": "Hãy viết họ tên của bạn."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g15-1",
+          "title_zh": "动量补语（1）",
+          "title_vi": "Bổ ngữ động lượng (1): làm mấy lần",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "去过",
+                "label": "Động từ (+过/了)",
+                "role": "V"
+              },
+              {
+                "zh": "一次",
+                "label": "Số + 次",
+                "role": "N"
+              },
+              {
+                "zh": "北京",
+                "label": "Tên người / địa danh",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "李文",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "见了",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "杨同乐",
+                "label": "Tên người",
+                "role": "O"
+              },
+              {
+                "zh": "两次",
+                "label": "Số + 次",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "“Số + 次” đặt SAU động từ cho biết hành động xảy ra mấy lần: 去过一次 = đã đi một lần. Nếu tân ngữ là tên người hoặc địa danh, đặt trước hay sau 次 đều được: 去过一次北京 = 去过北京一次. Tiếng Việt nói “đi Bắc Kinh một lần”, tiếng Trung thường nói 去过一次北京.",
+          "examples": [
+            {
+              "zh": "我很想去中国，虽然去过一次，但是很想再去一次。",
+              "vi": "Tôi rất muốn đi Trung Quốc, tuy đã đi một lần nhưng rất muốn đi thêm lần nữa."
+            },
+            {
+              "zh": "安妮去过一次北京。",
+              "vi": "Annie đã đến Bắc Kinh một lần."
+            },
+            {
+              "zh": "李文见了杨同乐两次。",
+              "vi": "Lý Văn đã gặp Dương Đồng Lạc hai lần."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一次去过北京。",
+              "right": "我去过一次北京。",
+              "why_vi": "Số lần (一次) đứng SAU động từ, không đứng trước."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi đã ăn vịt quay Bắc Kinh hai lần.”",
+              "options": [
+                "我吃过两次北京烤鸭。",
+                "我两次吃过北京烤鸭。",
+                "我吃两次过北京烤鸭。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "写上姓名 = viết họ tên vào. 上 sau động từ ở đây nghĩa là “gắn vào, ghi vào”."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong quán cà phê, Lý Văn và Gia Nguyệt đang trò chuyện.",
+      "scene": "🏯",
+      "audio": "audio/hsk2/15-3.mp3",
+      "vocabAudio": "audio/hsk2/15-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Gia Nguyệt định đi đâu?",
+          "options": [
+            "北京",
+            "学校",
+            "同学家"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Bạn cấp ba của Lý Văn làm việc ở đâu?",
+          "options": [
+            "饭店",
+            "电影院",
+            "颐和园"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "考完试了，我现在可以出国旅游了。",
+          "vi": "Thi xong rồi, giờ mình có thể đi du lịch nước ngoài.",
+          "t": 1.12
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你要去哪儿？",
+          "vi": "Cậu định đi đâu?",
+          "t": 6.21
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我要再去一次北京。",
+          "vi": "Mình sẽ đi Bắc Kinh thêm một lần nữa.",
+          "t": 8.45
+        },
+        {
+          "speaker": "liwen",
+          "zh": "为什么还去北京？",
+          "vi": "Sao lại đi Bắc Kinh nữa?",
+          "t": 11.72
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "因为我想再吃一次烤鸭，再喝一次奶茶，再去北京大学看一次电影……",
+          "vi": "Vì mình muốn ăn vịt quay thêm lần nữa, uống trà sữa thêm lần nữa, đến Đại học Bắc Kinh xem phim thêm lần nữa…",
+          "t": 14.29
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你想做的事情很多啊！",
+          "vi": "Cậu muốn làm nhiều việc thật đấy!",
+          "t": 22.94
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "是啊，你看，我还在网上买好颐和园的门票了呢。",
+          "vi": "Đúng thế, cậu xem, mình còn mua sẵn vé vào Di Hoà Viên trên mạng rồi đây.",
+          "t": 27.2
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我的高中同学就在颐和园上班，可以让他给你好好介绍介绍。",
+          "vi": "Bạn cấp ba của mình làm việc ngay ở Di Hoà Viên, có thể nhờ cậu ấy giới thiệu kỹ cho cậu.",
+          "t": 34.04
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "太好了！出门旅游，多个朋友多条路。",
+          "vi": "Tuyệt quá! Đi du lịch xa, thêm một người bạn là thêm một con đường.",
+          "t": 41.86
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "出国",
+          "pinyin": "chūguó",
+          "pos": "v.",
+          "vi": "ra nước ngoài",
+          "example": {
+            "zh": "她明年想出国。",
+            "vi": "Sang năm cô ấy muốn ra nước ngoài."
+          }
+        },
+        {
+          "zh": "门票",
+          "pinyin": "ménpiào",
+          "pos": "n.",
+          "vi": "vé vào cửa",
+          "example": {
+            "zh": "门票多少钱？",
+            "vi": "Vé vào cửa bao nhiêu tiền?"
+          }
+        },
+        {
+          "zh": "高中",
+          "pinyin": "gāozhōng",
+          "pos": "n.",
+          "vi": "trung học phổ thông, cấp ba",
+          "example": {
+            "zh": "他是我的高中同学。",
+            "vi": "Anh ấy là bạn cấp ba của tôi."
+          }
+        },
+        {
+          "zh": "出门",
+          "pinyin": "chūmén",
+          "pos": "v.",
+          "vi": "ra khỏi nhà, đi xa",
+          "example": {
+            "zh": "出门的时候多穿点儿衣服。",
+            "vi": "Lúc ra ngoài mặc thêm áo nhé."
+          }
+        },
+        {
+          "zh": "路",
+          "pinyin": "lù",
+          "pos": "n.",
+          "vi": "con đường",
+          "example": {
+            "zh": "这条路很长。",
+            "vi": "Con đường này rất dài."
+          }
+        },
+        {
+          "zh": "颐和园",
+          "pinyin": "Yíhé Yuán",
+          "pos": "n.",
+          "vi": "Di Hoà Viên (Bắc Kinh)",
+          "example": {
+            "zh": "我们去颐和园吧。",
+            "vi": "Mình đi Di Hoà Viên đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g15-2",
+          "title_zh": "动量补语（2）",
+          "title_vi": "Bổ ngữ động lượng (2): tân ngữ là vật hay đại từ",
+          "formula": [
+            [
+              {
+                "zh": "再吃",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "一次",
+                "label": "Số + 次",
+                "role": "N"
+              },
+              {
+                "zh": "烤鸭",
+                "label": "Tân ngữ chỉ vật (sau 次)",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "我想找",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "他",
+                "label": "Đại từ (trước 次)",
+                "role": "O"
+              },
+              {
+                "zh": "一次",
+                "label": "Số + 次",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Tân ngữ chỉ vật thường đứng SAU số lần: 吃一次烤鸭, 喝一次奶茶. Tân ngữ là đại từ (他, 你, 这儿) đứng TRƯỚC số lần: 找他一次, 来过这儿两次. Riêng tên người và địa danh thì đứng trước hay sau đều được (như bài trước).",
+          "examples": [
+            {
+              "zh": "因为我想再吃一次烤鸭，再喝一次奶茶。",
+              "vi": "Vì tôi muốn ăn vịt quay thêm lần nữa, uống trà sữa thêm lần nữa."
+            },
+            {
+              "zh": "我想找他一次。",
+              "vi": "Tôi muốn tìm anh ấy một lần."
+            },
+            {
+              "zh": "安妮来过这儿两次。",
+              "vi": "Annie đã đến đây hai lần."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我想找一次他。",
+              "right": "我想找他一次。",
+              "why_vi": "Đại từ đứng trước số lần."
+            },
+            {
+              "wrong": "我想再吃烤鸭一次。",
+              "right": "我想再吃一次烤鸭。",
+              "why_vi": "Tân ngữ chỉ vật thường đứng sau số lần."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi đã gặp cô ấy ba lần.”",
+              "options": [
+                "我见过她三次。",
+                "我见过三次她。",
+                "我三次见过她。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "多个朋友多条路 = thêm một người bạn là thêm một con đường. Câu tục ngữ này giống “Ra đường nhờ bạn” của người Việt."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong quán cà phê, Lý Văn và Gia Nguyệt tiếp tục trò chuyện.",
+      "scene": "✈️",
+      "audio": "audio/hsk2/15-5.mp3",
+      "vocabAudio": "audio/hsk2/15-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn bao lâu rồi chưa về nước?",
+          "options": [
+            "一年",
+            "六个月",
+            "不到一年"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vé máy bay lần này Gia Nguyệt mua thế nào?",
+          "options": [
+            "很贵",
+            "很便宜",
+            "有点儿贵"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "李文，你有一年没回国了吧？",
+          "vi": "Lý Văn, cậu chưa về nước cũng được một năm rồi nhỉ?",
+          "t": 0.58
+        },
+        {
+          "speaker": "liwen",
+          "zh": "不到一年。我六月的时候回去了一次。",
+          "vi": "Chưa đến một năm. Tháng sáu mình về một lần.",
+          "t": 4.95
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我怎么忘了？还是我送你去的机场呢。",
+          "vi": "Sao mình lại quên nhỉ? Hôm đó chính mình đưa cậu ra sân bay mà.",
+          "t": 9.82
+        },
+        {
+          "speaker": "liwen",
+          "zh": "是啊。",
+          "vi": "Đúng thế.",
+          "t": 15.01
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我记得你那次的机票很便宜。",
+          "vi": "Mình nhớ lần đó vé máy bay của cậu rẻ lắm.",
+          "t": 17.0
+        },
+        {
+          "speaker": "liwen",
+          "zh": "没错，可能因为那个时候去北京的人不多吧。",
+          "vi": "Đúng vậy, có lẽ vì lúc đó ít người đi Bắc Kinh.",
+          "t": 21.35
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这次的机票虽然有点儿贵，但想到就要飞北京了，我还是很高兴的。",
+          "vi": "Vé lần này tuy hơi đắt, nhưng nghĩ đến chuyện sắp bay đi Bắc Kinh, mình vẫn rất vui.",
+          "t": 26.44
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "机场",
+          "pinyin": "jīchǎng",
+          "pos": "n.",
+          "vi": "sân bay",
+          "example": {
+            "zh": "我送你去机场吧。",
+            "vi": "Để tôi đưa bạn ra sân bay."
+          }
+        },
+        {
+          "zh": "机票",
+          "pinyin": "jīpiào",
+          "pos": "n.",
+          "vi": "vé máy bay",
+          "example": {
+            "zh": "我在网上买了机票。",
+            "vi": "Tôi mua vé máy bay trên mạng."
+          }
+        },
+        {
+          "zh": "飞",
+          "pinyin": "fēi",
+          "pos": "v.",
+          "vi": "bay",
+          "example": {
+            "zh": "明天我飞北京。",
+            "vi": "Mai tôi bay đi Bắc Kinh."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g15-3",
+          "title_zh": "“有”字句（2）",
+          "title_vi": "Câu chữ 有 (2): đã được / đến chừng…",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "有",
+                "label": "đã được",
+                "role": "V"
+              },
+              {
+                "zh": "一年",
+                "label": "Số lượng",
+                "role": "N"
+              },
+              {
+                "zh": "没回国了吧？",
+                "label": "Phần còn lại",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "有 + cụm số lượng cho biết một con số đã đạt tới mức nào – giống “đã được / chừng…” trong tiếng Việt: 有一年没回国了 = đã một năm chưa về nước, 你女儿有10岁了吗？ = con gái bạn được 10 tuổi chưa?",
+          "examples": [
+            {
+              "zh": "你有一年没回国了吧？",
+              "vi": "Bạn đã một năm chưa về nước rồi nhỉ?"
+            },
+            {
+              "zh": "你女儿今年有10岁了吗？",
+              "vi": "Con gái bạn năm nay được 10 tuổi chưa?"
+            },
+            {
+              "zh": "我有一个月没给家里打电话了。",
+              "vi": "Tôi đã một tháng chưa gọi điện về nhà."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一个月有没给家里打电话了。",
+              "right": "我有一个月没给家里打电话了。",
+              "why_vi": "有 đứng ngay trước cụm số lượng."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chúng ta đã nửa năm không gặp nhau rồi.”",
+              "options": [
+                "我们有半年没见了。",
+                "我们半年有没见了。",
+                "我们没见有半年了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "飞北京 = bay đi Bắc Kinh. Trong khẩu ngữ, 飞 có thể đi thẳng với địa danh, không cần 去."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Lý Văn viết nhật ký.",
+      "scene": "🐦",
+      "audio": "audio/hsk2/15-7.mp3",
+      "vocabAudio": "audio/hsk2/15-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn bay chuyến ngày nào?",
+          "options": [
+            "星期五",
+            "星期六",
+            "星期天"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Gia Nguyệt định làm gì?",
+          "options": [
+            "回国",
+            "去北京",
+            "去朋友家"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "我六月的时候回过一次北京，现在有半年多没回去了，我有点儿想家。",
+          "vi": "Tháng sáu mình về Bắc Kinh một lần, giờ đã hơn nửa năm chưa về, mình hơi nhớ nhà.",
+          "t": 0.92
+        },
+        {
+          "speaker": "liwen",
+          "zh": "就要过年了，我要回家过年。",
+          "vi": "Sắp Tết rồi, mình sẽ về nhà ăn Tết.",
+          "t": 9.06
+        },
+        {
+          "speaker": "liwen",
+          "zh": "家月这次也要去北京，我们都是星期五的飞机。",
+          "vi": "Lần này Gia Nguyệt cũng đi Bắc Kinh, cả hai đều bay chuyến thứ sáu.",
+          "t": 13.2
+        },
+        {
+          "speaker": "liwen",
+          "zh": "家月说我们好像小鸟，一起飞到北京，再一起飞回这里。",
+          "vi": "Gia Nguyệt bảo bọn mình giống hai chú chim nhỏ, cùng bay đến Bắc Kinh, rồi lại cùng bay về đây.",
+          "t": 19.24
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "好像",
+          "pinyin": "hǎoxiàng",
+          "pos": "v.",
+          "vi": "giống như, hình như",
+          "example": {
+            "zh": "你好像不太高兴。",
+            "vi": "Hình như bạn không vui lắm."
+          }
+        },
+        {
+          "zh": "鸟",
+          "pinyin": "niǎo",
+          "pos": "n.",
+          "vi": "con chim",
+          "example": {
+            "zh": "那只鸟很漂亮。",
+            "vi": "Con chim kia rất đẹp."
+          }
+        }
+      ],
+      "pangdaTip": "Đến đây là bạn đã học xong HSK 2! Đọc to bài này vài lần, bạn sẽ thấy gần như mọi điểm ngữ pháp đều quen: 过, 有……了, 就要……了, bổ ngữ xu hướng…"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你看，那只小___多漂亮啊！",
+      "bank": [
+        "鸟",
+        "机票",
+        "姓名"
+      ],
+      "answer": "鸟"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我记得这里的___不到10块钱，现在怎么这么贵了？",
+      "bank": [
+        "门票",
+        "机场",
+        "鸟"
+      ],
+      "answer": "门票"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "儿子就要___上大学了，你给他准备了什么东西啊？",
+      "bank": [
+        "出国",
+        "出门",
+        "飞"
+      ],
+      "answer": "出国"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "你买的是什么时候的___？——明天早上的，下午就到北京了。",
+      "bank": [
+        "机票",
+        "门票",
+        "姓名"
+      ],
+      "answer": "机票"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "请您说一下他的___，我看看有没有这个人。——王大明。",
+      "bank": [
+        "姓名",
+        "鸟",
+        "机场"
+      ],
+      "answer": "姓名"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "一次",
+        "我",
+        "去过",
+        "北京"
+      ],
+      "answers": [
+        "我去过一次北京",
+        "我去过北京一次"
+      ],
+      "vi": "Tôi đã đến Bắc Kinh một lần.",
+      "explain_vi": "Động từ + 过 + số lần + địa danh (hoặc địa danh + số lần)."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "有",
+        "我",
+        "没回家了",
+        "一个月"
+      ],
+      "answers": [
+        "我有一个月没回家了"
+      ],
+      "vi": "Tôi đã một tháng chưa về nhà.",
+      "explain_vi": "有 + số lượng + 没……了."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "机场",
+      "options": [
+        {
+          "emoji": "✈️",
+          "label": "Sân bay"
+        },
+        {
+          "emoji": "🐦",
+          "label": "Con chim"
+        },
+        {
+          "emoji": "🎫",
+          "label": "Vé vào cửa"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "这次的机票虽然有点儿贵，但我还是很高兴的。",
+      "emoji": "🎫",
+      "statement_vi": "Vé máy bay lần này rất rẻ.",
+      "answer": false,
+      "explain_vi": "有点儿贵 = hơi đắt."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🦆🦆",
+      "sentence": "我想再吃一___烤鸭。",
+      "options": [
+        "次",
+        "个",
+        "条"
+      ],
+      "answer": 0,
+      "explain_vi": "Số lần: 一次."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你去过中国吗？",
+          "a": "去过一次。"
+        },
+        {
+          "q": "你有多长时间没回国了？",
+          "a": "有半年多了。"
+        },
+        {
+          "q": "为什么还去北京？",
+          "a": "我想再吃一次烤鸭。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Lập kế hoạch du lịch Trung Quốc",
+    "steps_vi": [
+      "Nhóm 3–4 người, cùng lên kế hoạch cho một chuyến đi Trung Quốc sau kỳ thi.",
+      "Mỗi người kể mình đã đi những đâu, đi mấy lần, và muốn đi lại nơi nào.",
+      "Cả nhóm chọn điểm đến, cách đi (máy bay, tàu), thời gian và những việc muốn làm ở đó.",
+      "Trình bày kế hoạch trước lớp, dùng “我想再……一次” và “就要……了”."
+    ],
+    "patterns": [
+      {
+        "zh": "你去过几次中国？",
+        "vi": "Bạn đã đến Trung Quốc mấy lần?"
+      },
+      {
+        "zh": "我去过一次上海，还想再去一次。",
+        "vi": "Mình đã đến Thượng Hải một lần, còn muốn đi thêm lần nữa."
+      },
+      {
+        "zh": "我们坐飞机去吧，比坐火车快多了。",
+        "vi": "Mình đi máy bay đi, nhanh hơn đi tàu nhiều."
+      },
+      {
+        "zh": "考完试就要去旅游了，多好啊！",
+        "vi": "Thi xong là được đi du lịch rồi, tuyệt biết bao!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Di Hoà Viên và những điểm đến ở Bắc Kinh",
+    "body_vi": [
+      "Di Hoà Viên (颐和园) là khu vườn hoàng gia lớn nhất còn lại ở Trung Quốc, nằm ở phía tây bắc Bắc Kinh. Nơi đây có hồ Côn Minh rộng lớn và hành lang dài (长廊) với hàng nghìn bức tranh vẽ.",
+      "Đến Bắc Kinh, du khách thường ghé Cố Cung (故宫), Vạn Lý Trường Thành (长城) và Thiên Đàn (天坛), rồi thưởng thức vịt quay Bắc Kinh (北京烤鸭) – đúng như Gia Nguyệt muốn ăn “thêm một lần nữa”!",
+      "Nhiều điểm tham quan ở Trung Quốc yêu cầu mua vé (门票) trước trên mạng, nhất là dịp lễ Tết. Hãy nhớ mang hộ chiếu khi đi tham quan."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Di Hoà Viên",
+          "颐和园",
+          "Yíhé Yuán"
+        ],
+        [
+          "Cố Cung",
+          "故宫",
+          "Gùgōng"
+        ],
+        [
+          "Vạn Lý Trường Thành",
+          "长城",
+          "Chángchéng"
+        ],
+        [
+          "Thiên Đàn",
+          "天坛",
+          "Tiāntán"
+        ],
+        [
+          "Vé vào cửa",
+          "门票",
+          "ménpiào"
+        ]
+      ]
+    }
+  }
 }

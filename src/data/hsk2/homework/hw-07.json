@@ -1,41 +1,335 @@
 {
  "lessonId": 7,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Lý Văn và thể thao",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Lý Văn và thể thao",
+    "zh": "李文的爱好是运动。他一下课就去打篮球，篮球打得很好。每个星期天，他都跟朋友们去踢足球，可是他足球踢得不太好。李文的女朋友不喜欢跑步，也不太喜欢踢球，可是她游泳游得很快。昨天下午，他们一起去游泳了。李文说：“你游得真快！”",
+    "vi": "Sở thích của Lý Văn là thể thao. Vừa tan học là cậu ấy đi chơi bóng rổ, chơi bóng rổ rất giỏi. Chủ nhật nào cậu ấy cũng đi đá bóng với bạn bè, nhưng đá bóng không giỏi lắm. Bạn gái Lý Văn không thích chạy bộ, cũng không thích đá bóng lắm, nhưng bơi rất nhanh. Chiều qua, hai người cùng đi bơi. Lý Văn nói: “Em bơi nhanh thật đấy!”"
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "李文的爱好是什么？",
+     "options": [
+      "运动",
+      "画画",
+      "唱歌"
+     ],
+     "answer": 0,
+     "explain_vi": "李文的爱好是运动。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "李文足球踢得怎么样？",
+     "options": [
+      "很好",
+      "不错",
+      "不太好"
+     ],
+     "answer": 2,
+     "explain_vi": "他足球踢得不太好。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "女朋友喜欢做什么？",
+     "options": [
+      "跑步",
+      "游泳",
+      "踢球"
+     ],
+     "answer": 1,
+     "explain_vi": "她游泳游得很快。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "李文一下课就去打篮球。",
+     "answer": true,
+     "explain_vi": "他一下课就去打篮球。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "李文篮球打得不好。",
+     "answer": false,
+     "explain_vi": "篮球打得很好。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "女朋友游泳游得不快。",
+     "answer": false,
+     "explain_vi": "她游泳游得很快。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你喜欢什么运动？",
+       "a": "我喜欢打篮球。"
+      },
+      {
+       "q": "你跑得快吗？",
+       "a": "我跑得不快。"
+      },
+      {
+       "q": "你是什么时候回来的？",
+       "a": "昨天下午。"
+      },
+      {
+       "q": "你怎么一下课就往外跑？",
+       "a": "我要去踢足球。"
+      }
+     ],
+     "explain_vi": "Hỏi môn thể thao → 喜欢打篮球; hỏi chạy nhanh không → 跑得不快; hỏi khi nào về → thời gian; hỏi vì sao chạy ra → lý do."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "陈天中的{{1}}是运动。从上小学{{2}}，他每天都去运动。现在他篮球打{{3}}很好，他一有时间{{4}}去运动。",
+     "bank": [
+      "爱好",
+      "开始",
+      "得",
+      "就",
+      "往"
+     ],
+     "answers": [
+      "爱好",
+      "开始",
+      "得",
+      "就"
+     ],
+     "explain_vi": "爱好 = sở thích · 从……开始 · 打得很好 · 一……就……."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "得",
+      "她",
+      "很好",
+      "唱"
+     ],
+     "answers": [
+      "她唱得很好"
+     ],
+     "vi": "Cô ấy hát rất hay.",
+     "explain_vi": "Động từ + 得 + bổ ngữ.",
+     "grammarRef": "h2-g7-2"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "就",
+      "一",
+      "我",
+      "回家",
+      "睡觉"
+     ],
+     "answers": [
+      "我一回家就睡觉"
+     ],
+     "vi": "Tôi vừa về nhà là đi ngủ.",
+     "explain_vi": "一 + việc 1 + 就 + việc 2.",
+     "grammarRef": "h2-g7-1"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "游泳",
+      "他",
+      "游得",
+      "很快"
+     ],
+     "answers": [
+      "他游泳游得很快"
+     ],
+     "vi": "Anh ấy bơi rất nhanh.",
+     "explain_vi": "Lặp động từ với từ ly hợp.",
+     "grammarRef": "h2-g7-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "篮球",
+      "你",
+      "打得",
+      "怎么样"
+     ],
+     "answers": [
+      "你篮球打得怎么样"
+     ],
+     "vi": "Bạn chơi bóng rổ thế nào?",
+     "explain_vi": "Đưa tân ngữ lên trước.",
+     "grammarRef": "h2-g7-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "从",
+      "我",
+      "北京",
+      "回来了"
+     ],
+     "answers": [
+      "我从北京回来了"
+     ],
+     "vi": "Tôi từ Bắc Kinh về rồi.",
+     "explain_vi": "从 + nơi chốn + động từ.",
+     "grammarRef": "h2-g7-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Anh ấy chạy rất nhanh.",
+     "acceptedAnswers": [
+      "他跑得很快"
+     ],
+     "requiredKeywords": [
+      "跑得"
+     ],
+     "wordBank": [
+      "他",
+      "跑",
+      "得",
+      "很快"
+     ],
+     "explain_vi": "Động từ + 得 + tính từ.",
+     "grammarRef": "h2-g7-2"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Cứ có thời gian là tôi đi bơi.",
+     "acceptedAnswers": [
+      "我一有时间就去游泳"
+     ],
+     "requiredKeywords": [
+      "一",
+      "就"
+     ],
+     "wordBank": [
+      "我",
+      "一",
+      "有时间",
+      "就",
+      "去游泳"
+     ],
+     "explain_vi": "一……就…….",
+     "grammarRef": "h2-g7-1"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Bạn đá bóng thế nào?",
+     "acceptedAnswers": [
+      "你踢足球踢得怎么样",
+      "你足球踢得怎么样",
+      "你踢得怎么样"
+     ],
+     "requiredKeywords": [
+      "得",
+      "怎么样"
+     ],
+     "wordBank": [
+      "你",
+      "足球",
+      "踢得",
+      "怎么样"
+     ],
+     "explain_vi": "Tân ngữ lên trước hoặc lặp động từ.",
+     "grammarRef": "h2-g7-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Sở thích của tôi là thể thao.",
+     "acceptedAnswers": [
+      "我的爱好是运动"
+     ],
+     "requiredKeywords": [
+      "爱好",
+      "运动"
+     ],
+     "wordBank": [
+      "我的",
+      "爱好",
+      "是",
+      "运动"
+     ],
+     "explain_vi": "爱好 + 是.",
+     "grammarRef": "h2-g7-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Tôi chơi bóng rổ cũng tạm được.",
+     "acceptedAnswers": [
+      "我篮球打得还可以",
+      "我打篮球打得还可以"
+     ],
+     "requiredKeywords": [
+      "打得",
+      "还可以"
+     ],
+     "wordBank": [
+      "我",
+      "篮球",
+      "打得",
+      "还可以"
+     ],
+     "explain_vi": "得 + 还可以.",
+     "grammarRef": "h2-g7-3"
+    }
+   ]
   }
  ]
 }

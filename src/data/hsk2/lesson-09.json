@@ -1,35 +1,941 @@
 {
   "id": 9,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我去买杯奶茶",
     "pinyin": "Wǒ qù mǎi bēi nǎichá",
-    "vi": "Tôi đi mua cốc trà sữa"
+    "vi": "Em đi mua cốc trà sữa"
   },
   "grammarTopics_vi": [
-    "Câu so sánh (3)",
-    "Động từ 离",
+    "Câu so sánh (3): A 没有 B (那么) + tính từ",
+    "Động từ 离: cách (xa/gần)",
     "Bổ ngữ thời lượng (1)"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu so sánh (3)",
-      "doneWhen": []
+      "vi": "Dùng “没有” để nói A không bằng B",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Động từ 离",
-      "doneWhen": []
+      "vi": "Dùng “离” để nói khoảng cách về nơi chốn hoặc thời gian",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Bổ ngữ thời lượng (1)",
-      "doneWhen": []
+      "vi": "Nói một việc kéo dài bao lâu: 走半个多小时, 学了两年…",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "📏",
+      "word": "个子",
+      "pinyin": "gèzi",
+      "vi": "vóc dáng, chiều cao"
+    },
+    {
+      "emoji": "🚶",
+      "word": "走路",
+      "pinyin": "zǒulù",
+      "vi": "đi bộ"
+    },
+    {
+      "emoji": "☕",
+      "word": "咖啡",
+      "pinyin": "kāfēi",
+      "vi": "cà phê"
+    },
+    {
+      "emoji": "🚪",
+      "word": "门口",
+      "pinyin": "ménkǒu",
+      "vi": "cửa, lối vào"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong cửa hàng, chị Vương Nhất Tuyết và anh Lưu Minh đang xem quần.",
+      "scene": "👖",
+      "audio": "audio/hsk2/9-1.mp3",
+      "vocabAudio": "audio/hsk2/9-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao chị Nhất Tuyết muốn mua quần cho con trai?",
+          "options": [
+            "儿子的裤子坏了",
+            "儿子喜欢新裤子",
+            "儿子明天过生日"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Anh Lưu Minh thấy cái quần nào đẹp?",
+          "options": [
+            "黑色的裤子",
+            "白色的裤子",
+            "上次买的裤子"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "儿子的裤子坏了，我们给他买条新的吧。",
+          "vi": "Quần của con trai rách rồi, mình mua cho con cái mới đi.",
+          "t": 0.87
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好啊。",
+          "vi": "Được thôi.",
+          "t": 6.1
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你看这条黑色的怎么样？",
+          "vi": "Anh xem cái màu đen này thế nào?",
+          "t": 8.15
+        },
+        {
+          "speaker": "liuming",
+          "zh": "没有你上次买的那条好看。",
+          "vi": "Không đẹp bằng cái em mua lần trước.",
+          "t": 11.7
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "旁边那个男孩儿就穿了这样的裤子，我觉得很好看啊！",
+          "vi": "Cậu bé bên cạnh kia mặc đúng kiểu quần này, em thấy đẹp mà!",
+          "t": 15.58
+        },
+        {
+          "speaker": "liuming",
+          "zh": "儿子的个子没有他那么高，穿上就不会太好看。",
+          "vi": "Con mình không cao bằng cậu bé đó, mặc vào chắc không đẹp lắm đâu.",
+          "t": 22.44
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好吧，我们再去那边看看。",
+          "vi": "Thôi được, mình sang bên kia xem tiếp.",
+          "t": 29.7
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "坏",
+          "pinyin": "huài",
+          "pos": "adj.",
+          "vi": "hỏng, hư, rách",
+          "example": {
+            "zh": "我的手机坏了。",
+            "vi": "Điện thoại của tôi hỏng rồi."
+          }
+        },
+        {
+          "zh": "旁边",
+          "pinyin": "pángbiān",
+          "pos": "n.",
+          "vi": "bên cạnh",
+          "example": {
+            "zh": "学校旁边有个商店。",
+            "vi": "Cạnh trường có một cửa hàng."
+          }
+        },
+        {
+          "zh": "男孩儿",
+          "pinyin": "nánháir",
+          "pos": "n.",
+          "vi": "cậu bé, con trai",
+          "example": {
+            "zh": "那个男孩儿是我弟弟。",
+            "vi": "Cậu bé kia là em trai tôi."
+          }
+        },
+        {
+          "zh": "这样",
+          "pinyin": "zhèyàng",
+          "pos": "pron.",
+          "vi": "như thế này",
+          "example": {
+            "zh": "我也想买这样的书包。",
+            "vi": "Tôi cũng muốn mua cặp như thế này."
+          }
+        },
+        {
+          "zh": "个子",
+          "pinyin": "gèzi",
+          "pos": "n.",
+          "vi": "vóc dáng, chiều cao",
+          "example": {
+            "zh": "他的个子很高。",
+            "vi": "Anh ấy cao."
+          }
+        },
+        {
+          "zh": "那么",
+          "pinyin": "nàme",
+          "pos": "pron.",
+          "vi": "như vậy, đến thế",
+          "example": {
+            "zh": "我没有他那么高。",
+            "vi": "Tôi không cao bằng anh ấy."
+          }
+        },
+        {
+          "zh": "高",
+          "pinyin": "gāo",
+          "pos": "adj.",
+          "vi": "cao",
+          "example": {
+            "zh": "哥哥比我高。",
+            "vi": "Anh trai cao hơn tôi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g9-1",
+          "title_zh": "比较句（3）",
+          "title_vi": "Câu so sánh (3): A 没有 B (那么/这么) + tính từ",
+          "formula": [
+            [
+              {
+                "zh": "儿子的个子",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "没有",
+                "label": "không bằng",
+                "role": "ADV"
+              },
+              {
+                "zh": "他",
+                "label": "B",
+                "role": "O"
+              },
+              {
+                "zh": "那么",
+                "label": "(như thế)",
+                "role": "ADV"
+              },
+              {
+                "zh": "高",
+                "label": "Tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "A 没有 B + tính từ nghĩa là A không bằng B – giống “A không … bằng B” trong tiếng Việt. Thêm 那么 / 这么 trước tính từ để nhấn mạnh B đạt mức đó. Câu hỏi dùng 有: 妹妹有姐姐高吗？ (Em gái có cao bằng chị không?)",
+          "examples": [
+            {
+              "zh": "儿子的个子没有他那么高。",
+              "vi": "Con trai không cao bằng cậu bé đó."
+            },
+            {
+              "zh": "昨天没有今天这么冷。",
+              "vi": "Hôm qua không lạnh bằng hôm nay."
+            },
+            {
+              "zh": "这块手表没有那块好看。",
+              "vi": "Chiếc đồng hồ này không đẹp bằng chiếc kia."
+            },
+            {
+              "zh": "那件衣服有这件好看吗？",
+              "vi": "Cái áo kia có đẹp bằng cái này không?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我没有他很高。",
+              "right": "我没有他高。 / 我没有他那么高。",
+              "why_vi": "Câu so sánh với 没有 không dùng 很 trước tính từ."
+            },
+            {
+              "wrong": "我不比他高。（muốn nói “không cao bằng”）",
+              "right": "我没有他高。",
+              "why_vi": "“A không … bằng B” dùng 没有; 不比 mang nghĩa khác."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay không nóng bằng hôm qua.”",
+              "options": [
+                "今天没有昨天热。",
+                "今天不有昨天热。",
+                "今天没有昨天很热。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "会 ở đây nghĩa là “có khả năng, chắc sẽ”: 穿上就不会太好看 = mặc vào chắc không đẹp lắm."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở cửa hàng đi ra, hai vợ chồng đang bước ra ngoài.",
+      "scene": "☕",
+      "audio": "audio/hsk2/9-3.mp3",
+      "vocabAudio": "audio/hsk2/9-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết muốn uống gì?",
+          "options": [
+            "牛奶",
+            "奶茶",
+            "咖啡"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Anh Lưu Minh muốn đi đâu?",
+          "options": [
+            "家里",
+            "奶茶店",
+            "咖啡店"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "门口有家奶茶店。你想喝杯奶茶吗？",
+          "vi": "Ở cửa có một quán trà sữa. Anh muốn uống cốc trà sữa không?",
+          "t": 0.76
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我想喝咖啡，还是去咖啡店吧。",
+          "vi": "Anh muốn uống cà phê, mình đến quán cà phê thì hơn.",
+          "t": 6.04
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "咖啡店离这儿有点儿远。",
+          "vi": "Quán cà phê cách đây hơi xa.",
+          "t": 10.4
+        },
+        {
+          "speaker": "liuming",
+          "zh": "没关系，那家店的咖啡很好喝。",
+          "vi": "Không sao, cà phê quán đó ngon lắm.",
+          "t": 13.49
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那你等一下，我去买杯奶茶。",
+          "vi": "Vậy anh đợi một chút, em đi mua cốc trà sữa.",
+          "t": 17.89
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你不想喝咖啡吗？",
+          "vi": "Em không muốn uống cà phê à?",
+          "t": 22.54
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "喝了咖啡，晚上就别想睡觉了。",
+          "vi": "Uống cà phê vào thì tối đừng mong ngủ được.",
+          "t": 25.31
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "门口",
+          "pinyin": "ménkǒu",
+          "pos": "n.",
+          "vi": "cửa, lối vào",
+          "example": {
+            "zh": "我在门口等你。",
+            "vi": "Tôi đợi bạn ở cửa."
+          }
+        },
+        {
+          "zh": "咖啡",
+          "pinyin": "kāfēi",
+          "pos": "n.",
+          "vi": "cà phê",
+          "example": {
+            "zh": "我每天早上喝一杯咖啡。",
+            "vi": "Sáng nào tôi cũng uống một cốc cà phê."
+          }
+        },
+        {
+          "zh": "离",
+          "pinyin": "lí",
+          "pos": "v.",
+          "vi": "cách (xa/gần)",
+          "example": {
+            "zh": "学校离我家很近。",
+            "vi": "Trường cách nhà tôi rất gần."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g9-2",
+          "title_zh": "动词“离”",
+          "title_vi": "Động từ 离: A cách B…",
+          "formula": [
+            [
+              {
+                "zh": "咖啡店",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "离",
+                "label": "cách",
+                "role": "V"
+              },
+              {
+                "zh": "这儿",
+                "label": "B",
+                "role": "O"
+              },
+              {
+                "zh": "有点儿远",
+                "label": "xa / gần / còn bao lâu",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "离 dùng để nói khoảng cách giữa hai nơi (远, 近) hoặc khoảng thời gian từ bây giờ đến một mốc (还有三天). Trật tự: A + 离 + B + xa/gần – khác tiếng Việt “A cách B xa”, tiếng Trung đặt 远/近 ở cuối.",
+          "examples": [
+            {
+              "zh": "咖啡店离这儿有点儿远。",
+              "vi": "Quán cà phê cách đây hơi xa."
+            },
+            {
+              "zh": "学校离医院不远。",
+              "vi": "Trường cách bệnh viện không xa."
+            },
+            {
+              "zh": "现在离我的生日还有三天。",
+              "vi": "Bây giờ còn ba ngày nữa là sinh nhật tôi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我家离学校是很近。",
+              "right": "我家离学校很近。",
+              "why_vi": "Sau 离 + B dùng thẳng tính từ, không thêm 是."
+            },
+            {
+              "wrong": "我家从学校很近。",
+              "right": "我家离学校很近。",
+              "why_vi": "Nói khoảng cách dùng 离, không dùng 从."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Nhà tôi cách công ty rất xa.”",
+              "options": [
+                "我家离公司很远。",
+                "我家从公司很远。",
+                "我家很远离公司。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "喝了咖啡，晚上就别想睡觉了 = uống cà phê vào thì đừng mong ngủ – kiểu nói vui rất hay gặp trong khẩu ngữ."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trước cửa quán cà phê, hai vợ chồng đang trò chuyện.",
+      "scene": "🚶",
+      "audio": "audio/hsk2/9-5.mp3",
+      "vocabAudio": "audio/hsk2/9-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Anh Lưu Minh muốn về nhà bằng cách nào?",
+          "options": [
+            "打车",
+            "走路",
+            "跑步"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Đi bộ về nhà mất bao lâu?",
+          "options": [
+            "半个多小时",
+            "一个多小时",
+            "一个半小时"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "我们打车回去吧。",
+          "vi": "Mình bắt taxi về đi.",
+          "t": 0.24
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "这里离家很近，还是走路吧。",
+          "vi": "Ở đây cách nhà gần lắm, đi bộ thì hơn.",
+          "t": 2.69
+        },
+        {
+          "speaker": "liuming",
+          "zh": "要走多长时间？",
+          "vi": "Phải đi bao lâu?",
+          "t": 6.53
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "走半个多小时就到了。",
+          "vi": "Đi hơn nửa tiếng là tới.",
+          "t": 9.35
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好的。每天上下班都坐车，今天运动运动吧。",
+          "vi": "Được. Ngày nào đi làm cũng đi xe, hôm nay vận động một chút vậy.",
+          "t": 13.63
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "近",
+          "pinyin": "jìn",
+          "pos": "adj.",
+          "vi": "gần",
+          "example": {
+            "zh": "我家离学校很近。",
+            "vi": "Nhà tôi gần trường."
+          }
+        },
+        {
+          "zh": "走路",
+          "pinyin": "zǒulù",
+          "pos": "v.",
+          "vi": "đi bộ",
+          "example": {
+            "zh": "我们走路去吧。",
+            "vi": "Mình đi bộ đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g9-3",
+          "title_zh": "时量补语（1）",
+          "title_vi": "Bổ ngữ thời lượng (1): làm bao lâu",
+          "formula": [
+            [
+              {
+                "zh": "他们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "学了",
+                "label": "Động từ (+了)",
+                "role": "V"
+              },
+              {
+                "zh": "两年",
+                "label": "Khoảng thời gian",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "看了",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "一个晚上",
+                "label": "Thời lượng",
+                "role": "ATTR"
+              },
+              {
+                "zh": "电视",
+                "label": "Tân ngữ chỉ vật",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "李文",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "等了",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "她",
+                "label": "Tân ngữ chỉ người",
+                "role": "O"
+              },
+              {
+                "zh": "一个小时",
+                "label": "Thời lượng",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Khoảng thời gian đặt SAU động từ để nói việc kéo dài bao lâu: 走半个多小时, 休息十分钟. Tân ngữ chỉ vật đứng sau thời lượng (看了一个晚上电视); tân ngữ là người hoặc đại từ đứng trước thời lượng (等了她一个小时). Cũng có thể lặp động từ: 学中文学了两年. Từ ly hợp phải lặp: 游泳游了一个下午. Có 了 ở cuối câu nữa nghĩa là việc vẫn đang tiếp tục: 他写了半个小时汉字了 (vẫn đang viết).",
+          "examples": [
+            {
+              "zh": "走半个多小时就到了。",
+              "vi": "Đi hơn nửa tiếng là tới."
+            },
+            {
+              "zh": "他们学中文学了两年。",
+              "vi": "Họ học tiếng Trung hai năm."
+            },
+            {
+              "zh": "李文等了她一个小时。",
+              "vi": "Lý Văn đợi cô ấy một tiếng."
+            },
+            {
+              "zh": "陈天中跑步跑了两个小时了。",
+              "vi": "Thiên Trung chạy bộ được hai tiếng rồi (vẫn đang chạy)."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一个小时等了他。",
+              "right": "我等了他一个小时。",
+              "why_vi": "Thời lượng đứng sau động từ, không đứng trước như trạng ngữ thời gian."
+            },
+            {
+              "wrong": "她游泳了一个下午。",
+              "right": "她游泳游了一个下午。",
+              "why_vi": "游泳 là từ ly hợp: phải lặp động từ 游."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chúng ta nghỉ mười phút nhé.”",
+              "options": [
+                "我们休息十分钟吧。",
+                "我们十分钟休息吧。",
+                "我们休息吧十分钟。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "半个多小时 = hơn nửa tiếng; 一个半小时 = một tiếng rưỡi; 一个多小时 = hơn một tiếng. Vị trí của 多 và 半 thay đổi nghĩa đấy!"
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/9-7.mp3",
+      "vocabAudio": "audio/hsk2/9-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai vợ chồng không mua được gì?",
+          "options": [
+            "衣服",
+            "水果",
+            "咖啡"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Hai vợ chồng đã ngồi nghỉ ở đâu?",
+          "options": [
+            "商店",
+            "商场",
+            "咖啡店"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "这周刘明休息，我下班后跟他去了一家商店。",
+          "vi": "Tuần này anh Lưu Minh nghỉ, tan làm mình cùng anh ấy đi một cửa hàng.",
+          "t": 0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "商店里边的衣服没有大商场里的好看。",
+          "vi": "Quần áo trong cửa hàng không đẹp bằng ở trung tâm thương mại lớn.",
+          "t": 6.01
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我们没有买到喜欢的衣服，从商店出来就到咖啡店坐了坐。",
+          "vi": "Bọn mình không mua được quần áo ưng ý, ra khỏi cửa hàng liền ghé quán cà phê ngồi một lúc.",
+          "t": 10.68
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "因为想运动运动，所以喝完东西，我们就走回家了。",
+          "vi": "Vì muốn vận động một chút nên uống xong, bọn mình đi bộ về nhà.",
+          "t": 17.34
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "周",
+          "pinyin": "zhōu",
+          "pos": "n.",
+          "vi": "tuần",
+          "example": {
+            "zh": "这周我很忙。",
+            "vi": "Tuần này tôi rất bận."
+          }
+        }
+      ],
+      "pangdaTip": "买到 = mua được: động từ + 到 cho biết hành động đạt được mục đích. 没有买到 = không mua được."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你女儿十多岁，___这么高啊！",
+      "bank": [
+        "个子",
+        "旁边",
+        "那么"
+      ],
+      "answer": "个子"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "咖啡店不远，我们是___过去的。",
+      "bank": [
+        "走路",
+        "个子",
+        "这样"
+      ],
+      "answer": "走路"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我们住的酒店___有个公交站，那儿有到火车站的公交车。",
+      "bank": [
+        "旁边",
+        "那么",
+        "走路"
+      ],
+      "answer": "旁边"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我也喜欢___的茶杯，你是在哪儿买的？",
+      "bank": [
+        "这样",
+        "那么",
+        "旁边"
+      ],
+      "answer": "这样"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "虽然今天的工作也不少，但是我觉得没有昨天___累。",
+      "bank": [
+        "那么",
+        "这样",
+        "个子"
+      ],
+      "answer": "那么"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "没有",
+        "我",
+        "高",
+        "他"
+      ],
+      "answers": [
+        "我没有他高"
+      ],
+      "vi": "Tôi không cao bằng anh ấy.",
+      "explain_vi": "A + 没有 + B + tính từ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "离",
+        "学校",
+        "很近",
+        "我家"
+      ],
+      "answers": [
+        "我家离学校很近",
+        "学校离我家很近"
+      ],
+      "vi": "Nhà tôi cách trường rất gần.",
+      "explain_vi": "A + 离 + B + 近/远."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "咖啡",
+      "options": [
+        {
+          "emoji": "☕",
+          "label": "Cà phê"
+        },
+        {
+          "emoji": "🧋",
+          "label": "Trà sữa"
+        },
+        {
+          "emoji": "🥛",
+          "label": "Sữa"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "走半个多小时就到了。",
+      "emoji": "🚶",
+      "statement_vi": "Đi bộ mất hơn một tiếng.",
+      "answer": false,
+      "explain_vi": "半个多小时 = hơn nửa tiếng."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🏠↔️🏫",
+      "sentence": "我家___学校很远。",
+      "options": [
+        "离",
+        "从",
+        "比"
+      ],
+      "answer": 0,
+      "explain_vi": "Nói khoảng cách dùng 离."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "咖啡店离这儿远吗？",
+          "a": "有点儿远。"
+        },
+        {
+          "q": "要走多长时间？",
+          "a": "走半个多小时就到了。"
+        },
+        {
+          "q": "这条黑色的怎么样？",
+          "a": "没有上次买的那条好看。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "So sánh và hỏi đường",
+    "steps_vi": [
+      "Làm theo cặp. Mỗi người vẽ nhanh một sơ đồ: nhà mình, trường học, quán trà sữa, siêu thị gần đó.",
+      "Hỏi bạn: các nơi cách nhà bạn xa hay gần, đi bộ mất bao lâu (dùng 离 và bổ ngữ thời lượng).",
+      "So sánh hai nơi bằng 比 hoặc 没有: 超市没有学校那么远.",
+      "Rủ bạn đi uống gì đó, chọn quán gần hơn hoặc ngon hơn."
+    ],
+    "patterns": [
+      {
+        "zh": "你家离学校远吗？",
+        "vi": "Nhà bạn cách trường có xa không?"
+      },
+      {
+        "zh": "不远，走路十分钟就到了。",
+        "vi": "Không xa, đi bộ mười phút là tới."
+      },
+      {
+        "zh": "超市没有学校那么远。",
+        "vi": "Siêu thị không xa bằng trường."
+      },
+      {
+        "zh": "门口有家奶茶店，我们去喝杯奶茶吧！",
+        "vi": "Ở cửa có quán trà sữa, mình đi uống cốc trà sữa đi!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Trà sữa và văn hoá đồ uống của giới trẻ Trung Quốc",
+    "body_vi": [
+      "Trà sữa (奶茶) là đồ uống “quốc dân” của giới trẻ Trung Quốc: phố nào cũng có vài quán, người ta hay rủ nhau 喝杯奶茶 sau giờ học, giờ làm. Ở Việt Nam trà sữa cũng cực kỳ phổ biến, nên đây là chủ đề trò chuyện rất dễ bắt đầu.",
+      "Khi gọi trà sữa, người ta thường chọn độ ngọt (甜度) và lượng đá (冰): 少糖 (ít đường), 去冰 (không đá), 加珍珠 (thêm trân châu).",
+      "Cà phê (咖啡) ngày càng phổ biến ở các thành phố lớn như Thượng Hải, Bắc Kinh, nhưng trà vẫn là thức uống truyền thống quen thuộc nhất của người Trung Quốc."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Trà sữa",
+          "奶茶",
+          "nǎichá"
+        ],
+        [
+          "Trân châu",
+          "珍珠",
+          "zhēnzhū"
+        ],
+        [
+          "Ít đường",
+          "少糖",
+          "shǎo táng"
+        ],
+        [
+          "Không đá",
+          "去冰",
+          "qù bīng"
+        ],
+        [
+          "Một cốc cà phê",
+          "一杯咖啡",
+          "yì bēi kāfēi"
+        ]
+      ]
+    }
+  }
 }

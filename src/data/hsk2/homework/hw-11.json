@@ -1,41 +1,326 @@
 {
  "lessonId": 11,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Em trai bị đau đầu",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Em trai bị đau đầu",
+    "zh": "这几天天气很冷，外边下着雪。弟弟经常头疼，昨天他一动就疼。妈妈送他去了医院。医生说没什么事，开了一些药，让他多喝水、多休息。今天弟弟的头没那么疼了。他最喜欢吃妈妈做的面条儿，妈妈就给他做了面条儿。",
+    "vi": "Mấy hôm nay trời rất lạnh, bên ngoài tuyết đang rơi. Em trai hay bị đau đầu, hôm qua em cứ cử động là đau. Mẹ đưa em đi bệnh viện. Bác sĩ nói không sao, kê ít thuốc, dặn em uống nhiều nước, nghỉ ngơi nhiều. Hôm nay em đỡ đau đầu rồi. Em thích nhất món mì mẹ nấu, mẹ liền nấu mì cho em."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "弟弟怎么了？",
+     "options": [
+      "经常头疼",
+      "不想吃饭",
+      "不能走路"
+     ],
+     "answer": 0,
+     "explain_vi": "弟弟经常头疼。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "谁送弟弟去医院？",
+     "options": [
+      "爸爸",
+      "妈妈",
+      "医生"
+     ],
+     "answer": 1,
+     "explain_vi": "妈妈送他去了医院。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "弟弟最喜欢吃什么？",
+     "options": [
+      "鱼",
+      "蛋糕",
+      "面条儿"
+     ],
+     "answer": 2,
+     "explain_vi": "他最喜欢吃妈妈做的面条儿。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "外边下着雪。",
+     "answer": true,
+     "explain_vi": "外边下着雪。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "医生没给弟弟开药。",
+     "answer": false,
+     "explain_vi": "开了一些药。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "今天弟弟的头还很疼。",
+     "answer": false,
+     "explain_vi": "今天弟弟的头没那么疼了。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你哪儿不舒服？",
+       "a": "我头疼。"
+      },
+      {
+       "q": "你吃药了吗？",
+       "a": "吃了，现在好多了。"
+      },
+      {
+       "q": "你最喜欢什么颜色？",
+       "a": "我最喜欢绿色。"
+      },
+      {
+       "q": "门开着吗？",
+       "a": "没开着。"
+      }
+     ],
+     "explain_vi": "Hỏi không khoẻ ở đâu → 头疼; hỏi uống thuốc chưa → 吃了; hỏi thích nhất → 最; hỏi 开着吗 → 没开着."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我{{1}}疼，不太舒服。王老师说：“你在这儿坐{{2}}，我去开车。”路上车多，还下着雪，王老师开得很{{3}}。医生开了一些{{4}}，吃完就好多了。",
+     "bank": [
+      "头",
+      "着",
+      "慢",
+      "药",
+      "最"
+     ],
+     "answers": [
+      "头",
+      "着",
+      "慢",
+      "药"
+     ],
+     "explain_vi": "头疼 · 坐着 · 开得很慢 · 开药."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "着",
+      "他",
+      "坐",
+      "在那儿"
+     ],
+     "answers": [
+      "他在那儿坐着"
+     ],
+     "vi": "Anh ấy đang ngồi ở đó.",
+     "explain_vi": "在 + nơi chốn + động từ + 着.",
+     "grammarRef": "h2-g11-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "着",
+      "外边",
+      "雪",
+      "下"
+     ],
+     "answers": [
+      "外边下着雪"
+     ],
+     "vi": "Bên ngoài tuyết đang rơi.",
+     "explain_vi": "Động từ + 着 + tân ngữ.",
+     "grammarRef": "h2-g11-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "最",
+      "我",
+      "喜欢",
+      "中国菜"
+     ],
+     "answers": [
+      "我最喜欢中国菜"
+     ],
+     "vi": "Tôi thích món Trung Quốc nhất.",
+     "explain_vi": "最 + động từ tâm lý.",
+     "grammarRef": "h2-g11-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "经常",
+      "他",
+      "头疼"
+     ],
+     "answers": [
+      "他经常头疼"
+     ],
+     "vi": "Anh ấy hay bị đau đầu.",
+     "explain_vi": "经常 đứng trước vị ngữ.",
+     "grammarRef": "h2-g11-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "一点儿",
+      "你",
+      "开",
+      "慢"
+     ],
+     "answers": [
+      "你开慢一点儿"
+     ],
+     "vi": "Bạn lái chậm một chút.",
+     "explain_vi": "Động từ + tính từ + 一点儿.",
+     "grammarRef": "h2-g11-2"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi đau đầu.",
+     "acceptedAnswers": [
+      "我头疼"
+     ],
+     "requiredKeywords": [
+      "头疼"
+     ],
+     "wordBank": [
+      "我",
+      "头",
+      "疼"
+     ],
+     "explain_vi": "头疼.",
+     "grammarRef": "h2-g11-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Cửa đang mở.",
+     "acceptedAnswers": [
+      "门开着"
+     ],
+     "requiredKeywords": [
+      "着"
+     ],
+     "wordBank": [
+      "门",
+      "开",
+      "着"
+     ],
+     "explain_vi": "Động từ + 着.",
+     "grammarRef": "h2-g11-1"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tôi thích màu đỏ nhất.",
+     "acceptedAnswers": [
+      "我最喜欢红色"
+     ],
+     "requiredKeywords": [
+      "最"
+     ],
+     "wordBank": [
+      "我",
+      "最",
+      "喜欢",
+      "红色"
+     ],
+     "explain_vi": "最 + 喜欢.",
+     "grammarRef": "h2-g11-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Cô ấy thường xuyên đi chạy bộ.",
+     "acceptedAnswers": [
+      "她经常去跑步",
+      "她经常跑步"
+     ],
+     "requiredKeywords": [
+      "经常"
+     ],
+     "wordBank": [
+      "她",
+      "经常",
+      "去",
+      "跑步"
+     ],
+     "explain_vi": "经常 + động từ.",
+     "grammarRef": "h2-g11-1"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Bạn uống thuốc chưa?",
+     "acceptedAnswers": [
+      "你吃药了吗",
+      "你吃药了没有",
+      "你吃了药吗"
+     ],
+     "requiredKeywords": [
+      "药"
+     ],
+     "wordBank": [
+      "你",
+      "吃药",
+      "了",
+      "吗"
+     ],
+     "explain_vi": "吃药 = uống thuốc.",
+     "grammarRef": "h2-g11-3"
+    }
+   ]
   }
  ]
 }

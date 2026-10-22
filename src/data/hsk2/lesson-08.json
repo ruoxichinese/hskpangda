@@ -1,35 +1,907 @@
 {
   "id": 8,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "虽然你忘了，但是我记得",
     "pinyin": "Suīrán nǐ wàng le, dànshì wǒ jìde",
-    "vi": "Tuy bạn quên rồi, nhưng tôi vẫn nhớ"
+    "vi": "Tuy em quên, nhưng anh nhớ"
   },
   "grammarTopics_vi": [
-    "Câu so sánh (1)",
-    "Câu so sánh (2)",
-    "Câu ghép chuyển ngoặt 虽然……，但是……"
+    "Câu so sánh (1): A 比 B + tính từ",
+    "Câu so sánh (2): 比 với 还 / 更",
+    "Câu ghép chuyển ý “虽然……，但是……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu so sánh (1)",
-      "doneWhen": []
+      "vi": "Kể về một ngày sinh nhật đáng nhớ",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu so sánh (2)",
-      "doneWhen": []
+      "vi": "Dùng 比 để so sánh hai sự vật",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu ghép chuyển ngoặt 虽然……，但是……",
-      "doneWhen": []
+      "vi": "Dùng “虽然……，但是……” để nói ý ngược lại",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Biết người Trung Quốc thích và kiêng những con số nào",
+      "doneWhen": [
+        "culture"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "⬅️",
+      "word": "左边",
+      "pinyin": "zuǒbian",
+      "vi": "bên trái"
+    },
+    {
+      "emoji": "➡️",
+      "word": "右边",
+      "pinyin": "yòubian",
+      "vi": "bên phải"
+    },
+    {
+      "emoji": "👩",
+      "word": "妻子",
+      "pinyin": "qīzi",
+      "vi": "vợ"
+    },
+    {
+      "emoji": "👨",
+      "word": "丈夫",
+      "pinyin": "zhàngfu",
+      "vi": "chồng"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong trung tâm thương mại, chị Vương Nhất Tuyết và anh Lưu Minh đang mua sắm.",
+      "scene": "⌚",
+      "audio": "audio/hsk2/8-1.mp3",
+      "vocabAudio": "audio/hsk2/8-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai vợ chồng đang xem gì?",
+          "options": [
+            "钱",
+            "手表",
+            "裤子"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Món đồ họ xem giá bao nhiêu?",
+          "options": [
+            "5800元",
+            "6800元",
+            "8800元"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "你看，这两块手表怎么样？",
+          "vi": "Anh xem, hai chiếc đồng hồ này thế nào?",
+          "t": 0.48
+        },
+        {
+          "speaker": "liuming",
+          "zh": "都不错！",
+          "vi": "Đều đẹp cả!",
+          "t": 4.01
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我喜欢左边这个。",
+          "vi": "Em thích chiếc bên trái này.",
+          "t": 5.6
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我也觉得左边的比右边的好看。",
+          "vi": "Anh cũng thấy chiếc bên trái đẹp hơn chiếc bên phải.",
+          "t": 8.38
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你看看要多少钱！",
+          "vi": "Anh xem giá bao nhiêu kìa!",
+          "t": 12.61
+        },
+        {
+          "speaker": "liuming",
+          "zh": "真不便宜！八千八！",
+          "vi": "Không rẻ thật! Tám nghìn tám!",
+          "t": 15.58
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "手表",
+          "pinyin": "shǒubiǎo",
+          "pos": "n.",
+          "vi": "đồng hồ đeo tay",
+          "example": {
+            "zh": "这块手表很好看。",
+            "vi": "Chiếc đồng hồ này rất đẹp."
+          }
+        },
+        {
+          "zh": "左边",
+          "pinyin": "zuǒbian",
+          "pos": "n.",
+          "vi": "bên trái",
+          "example": {
+            "zh": "我家在左边。",
+            "vi": "Nhà tôi ở bên trái."
+          }
+        },
+        {
+          "zh": "左",
+          "pinyin": "zuǒ",
+          "pos": "n.",
+          "vi": "trái",
+          "example": {
+            "zh": "往左走。",
+            "vi": "Đi về bên trái."
+          }
+        },
+        {
+          "zh": "比",
+          "pinyin": "bǐ",
+          "pos": "prep./v.",
+          "vi": "so với, hơn",
+          "example": {
+            "zh": "今天比昨天冷。",
+            "vi": "Hôm nay lạnh hơn hôm qua."
+          }
+        },
+        {
+          "zh": "右边",
+          "pinyin": "yòubian",
+          "pos": "n.",
+          "vi": "bên phải",
+          "example": {
+            "zh": "书在右边。",
+            "vi": "Sách ở bên phải."
+          }
+        },
+        {
+          "zh": "右",
+          "pinyin": "yòu",
+          "pos": "n.",
+          "vi": "phải",
+          "example": {
+            "zh": "往右走。",
+            "vi": "Đi về bên phải."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g8-1",
+          "title_zh": "比较句（1）",
+          "title_vi": "Câu so sánh (1): A 比 B + tính từ",
+          "formula": [
+            [
+              {
+                "zh": "左边的",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比",
+                "label": "so với",
+                "role": "ADV"
+              },
+              {
+                "zh": "右边的",
+                "label": "B",
+                "role": "O"
+              },
+              {
+                "zh": "好看",
+                "label": "Tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Muốn nói A hơn B về mặt nào đó, dùng A + 比 + B + tính từ: 今天比昨天冷 = hôm nay lạnh hơn hôm qua. Khác tiếng Việt: tiếng Việt đặt tính từ trước (“lạnh hơn hôm qua”), tiếng Trung đặt 比 + B trước rồi mới đến tính từ.",
+          "examples": [
+            {
+              "zh": "我也觉得左边的比右边的好看。",
+              "vi": "Tôi cũng thấy cái bên trái đẹp hơn cái bên phải."
+            },
+            {
+              "zh": "今天比昨天冷。",
+              "vi": "Hôm nay lạnh hơn hôm qua."
+            },
+            {
+              "zh": "他觉得踢足球比打篮球有意思。",
+              "vi": "Anh ấy thấy đá bóng thú vị hơn chơi bóng rổ."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "今天冷比昨天。",
+              "right": "今天比昨天冷。",
+              "why_vi": "比 + B đứng trước tính từ, không theo trật tự tiếng Việt."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cái quần này đắt hơn cái kia.”",
+              "options": [
+                "这条裤子比那条贵。",
+                "这条裤子贵比那条。",
+                "比这条裤子那条贵。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Lượng từ của 手表 là 块: 一块手表. 八千八 là cách nói tắt của 八千八百 (8800)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ngoài rạp chiếu phim, chị Nhất Tuyết và anh Lưu Minh đang trò chuyện.",
+      "scene": "🎬",
+      "audio": "audio/hsk2/8-3.mp3",
+      "vocabAudio": "audio/hsk2/8-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai vợ chồng định làm gì?",
+          "options": [
+            "去吃饭",
+            "看电影",
+            "买东西"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết muốn mua vé ở đâu?",
+          "options": [
+            "网上",
+            "电影院",
+            "商场里"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "今天有不少电影，我们看个电影吧。",
+          "vi": "Hôm nay có khá nhiều phim, mình xem phim đi.",
+          "t": 0.42
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好啊！我们看哪个？",
+          "vi": "Hay đấy! Mình xem phim nào?",
+          "t": 5.68
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我记得你喜欢看爱情片，我们看那个爱情片，怎么样？",
+          "vi": "Anh nhớ em thích xem phim tình cảm, mình xem phim tình cảm kia nhé?",
+          "t": 9.0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "还是看这个吧，我看网上说这个电影比那个爱情片更有意思。",
+          "vi": "Xem phim này thì hơn, em đọc trên mạng nói phim này hay hơn phim tình cảm kia.",
+          "t": 15.65
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好。我去买票。",
+          "vi": "Được. Anh đi mua vé.",
+          "t": 23.68
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "到网上买吧，网上买比在这里买便宜。",
+          "vi": "Mua trên mạng đi, mua trên mạng rẻ hơn mua ở đây.",
+          "t": 27.4
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "记得",
+          "pinyin": "jìde",
+          "pos": "v.",
+          "vi": "nhớ",
+          "example": {
+            "zh": "我记得他的名字。",
+            "vi": "Tôi nhớ tên anh ấy."
+          }
+        },
+        {
+          "zh": "爱情片",
+          "pinyin": "àiqíngpiàn",
+          "pos": "n.",
+          "vi": "phim tình cảm",
+          "example": {
+            "zh": "她喜欢看爱情片。",
+            "vi": "Cô ấy thích xem phim tình cảm."
+          }
+        },
+        {
+          "zh": "有意思",
+          "pinyin": "yǒu yìsi",
+          "pos": "adj.",
+          "vi": "thú vị, hay",
+          "example": {
+            "zh": "这个电影很有意思。",
+            "vi": "Bộ phim này rất hay."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g8-2",
+          "title_zh": "比较句（2）",
+          "title_vi": "Câu so sánh (2): 比 đi với 还 / 更",
+          "formula": [
+            [
+              {
+                "zh": "这个电影",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比那个",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "更 / 还",
+                "label": "càng, còn",
+                "role": "ADV"
+              },
+              {
+                "zh": "有意思",
+                "label": "Tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Trong câu có 比, trước tính từ KHÔNG được dùng 很, 非常, 太. Muốn nhấn mạnh mức độ hơn nữa, dùng 更 hoặc 还: 这个电影比那个更有意思 – ngụ ý phim kia đã hay rồi, phim này còn hay hơn.",
+          "examples": [
+            {
+              "zh": "我看网上说这个电影比那个爱情片更有意思。",
+              "vi": "Tôi đọc trên mạng nói phim này còn hay hơn phim tình cảm kia."
+            },
+            {
+              "zh": "今天比昨天还热。",
+              "vi": "Hôm nay còn nóng hơn hôm qua."
+            },
+            {
+              "zh": "我觉得奶茶比牛奶还好喝。",
+              "vi": "Tôi thấy trà sữa còn ngon hơn sữa bò."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "今天比昨天很热。",
+              "right": "今天比昨天更热。 / 今天比昨天热。",
+              "why_vi": "Câu có 比 không dùng 很, 非常 trước tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Mua trên mạng còn rẻ hơn.”",
+              "options": [
+                "网上买比这里还便宜。",
+                "网上买比这里很便宜。",
+                "网上买比这里非常便宜。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "到网上买 = lên mạng mua. 到 + nơi chốn + động từ: 到商场买, 到饭馆吃."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà hàng, chị Nhất Tuyết và anh Lưu Minh đang gọi món.",
+      "scene": "🍽️",
+      "audio": "audio/hsk2/8-5.mp3",
+      "vocabAudio": "audio/hsk2/8-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hôm nay là ngày mấy tháng mấy?",
+          "options": [
+            "1月21号",
+            "1月27号",
+            "8月27号"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Anh Lưu Minh mua quà gì cho chị Nhất Tuyết?",
+          "options": [
+            "手表",
+            "电影票",
+            "好吃的"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "您好！就要这几个菜吧，谢谢！",
+          "vi": "Chào anh! Lấy mấy món này nhé, cảm ơn!",
+          "t": 0.55
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "怎么点这么多菜？",
+          "vi": "Sao gọi nhiều món thế?",
+          "t": 5.4
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你想想，今天是几月几号？",
+          "vi": "Em nghĩ xem, hôm nay là ngày mấy tháng mấy?",
+          "t": 7.9
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "8月27号。啊！我的生日！",
+          "vi": "Ngày 27 tháng 8. A! Sinh nhật em!",
+          "t": 11.8
+        },
+        {
+          "speaker": "liuming",
+          "zh": "生日快乐！虽然你忘了，但是我记得。看看这是什么？",
+          "vi": "Chúc mừng sinh nhật! Tuy em quên, nhưng anh nhớ. Xem đây là gì nào?",
+          "t": 16.01
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "手表！吃饭、看电影、买手表，今天花了不少钱吧？",
+          "vi": "Đồng hồ! Ăn cơm, xem phim, mua đồng hồ, hôm nay tốn không ít tiền nhỉ?",
+          "t": 25.8
+        },
+        {
+          "speaker": "liuming",
+          "zh": "虽然花了一些钱，但是我们过了一个快乐的生日。",
+          "vi": "Tuy tốn chút tiền, nhưng mình có một ngày sinh nhật vui vẻ.",
+          "t": 32.15
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "点",
+          "pinyin": "diǎn",
+          "pos": "v.",
+          "vi": "gọi (món)",
+          "example": {
+            "zh": "我们点菜吧。",
+            "vi": "Mình gọi món đi."
+          }
+        },
+        {
+          "zh": "虽然",
+          "pinyin": "suīrán",
+          "pos": "conj.",
+          "vi": "tuy, mặc dù",
+          "example": {
+            "zh": "虽然很累，但是很高兴。",
+            "vi": "Tuy mệt nhưng rất vui."
+          }
+        },
+        {
+          "zh": "但是",
+          "pinyin": "dànshì",
+          "pos": "conj.",
+          "vi": "nhưng",
+          "example": {
+            "zh": "我想去，但是没有时间。",
+            "vi": "Tôi muốn đi nhưng không có thời gian."
+          }
+        },
+        {
+          "zh": "花",
+          "pinyin": "huā",
+          "pos": "v.",
+          "vi": "tiêu, tốn (tiền, thời gian)",
+          "example": {
+            "zh": "今天花了很多钱。",
+            "vi": "Hôm nay tiêu nhiều tiền."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g8-3",
+          "title_zh": "转折复句“虽然……，但是……”",
+          "title_vi": "Câu ghép “虽然……，但是……”: tuy… nhưng…",
+          "formula": [
+            [
+              {
+                "zh": "虽然",
+                "label": "tuy",
+                "role": "ADV"
+              },
+              {
+                "zh": "你忘了",
+                "label": "Sự thật thứ nhất",
+                "role": "V"
+              },
+              {
+                "zh": "，但是",
+                "label": "nhưng",
+                "role": "ADV"
+              },
+              {
+                "zh": "我记得",
+                "label": "Ý ngược lại",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "虽然 nêu một sự thật, 但是 dẫn ra ý trái ngược hoặc không như mong đợi – giống hệt “tuy… nhưng…” trong tiếng Việt. Có thể dùng cả cặp hoặc chỉ một từ (thường bỏ 虽然, giữ 但是).",
+          "examples": [
+            {
+              "zh": "虽然你忘了，但是我记得。",
+              "vi": "Tuy em quên, nhưng anh nhớ."
+            },
+            {
+              "zh": "外边下雪了，但是不太冷。",
+              "vi": "Bên ngoài tuyết rơi, nhưng không lạnh lắm."
+            },
+            {
+              "zh": "虽然觉得有点儿累，我还是走回家了。",
+              "vi": "Tuy thấy hơi mệt, tôi vẫn đi bộ về nhà."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "但是很贵，虽然我很喜欢。",
+              "right": "虽然很贵，但是我很喜欢。",
+              "why_vi": "虽然 đứng ở vế đầu, 但是 ở vế sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tuy trời mưa, nhưng chúng tôi vẫn đi.”",
+              "options": [
+                "虽然下雨了，但是我们还是去了。",
+                "但是下雨了，虽然我们还是去了。",
+                "虽然我们还是去了，但是下雨了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "点菜 = gọi món. Đến nhà hàng có thể nói: 服务员，我们点菜！"
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Tiểu Ngữ kể lại một ngày của chị Nhất Tuyết và anh Lưu Minh.",
+      "scene": "💐",
+      "audio": "audio/hsk2/8-7.mp3",
+      "vocabAudio": "audio/hsk2/8-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Người vợ đã quên gì?",
+          "options": [
+            "自己的生日",
+            "丈夫的生日",
+            "孩子的生日"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Người chồng KHÔNG mời vợ đi đâu?",
+          "options": [
+            "去吃饭",
+            "看电影",
+            "去唱歌"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "xiaoyu",
+          "zh": "虽然妻子忘了今天是自己的生日，但是丈夫记得。",
+          "vi": "Tuy người vợ quên hôm nay là sinh nhật mình, nhưng người chồng nhớ.",
+          "t": 0.61
+        },
+        {
+          "speaker": "xiaoyu",
+          "zh": "丈夫请妻子去饭馆吃饭、去电影院看电影，还给妻子买了一块非常漂亮的手表。",
+          "vi": "Anh mời vợ đi ăn nhà hàng, đi rạp xem phim, còn mua cho vợ một chiếc đồng hồ rất đẹp.",
+          "t": 5.82
+        },
+        {
+          "speaker": "xiaoyu",
+          "zh": "妻子觉得今天很快乐。",
+          "vi": "Chị thấy hôm nay thật vui.",
+          "t": 15.91
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "妻子",
+          "pinyin": "qīzi",
+          "pos": "n.",
+          "vi": "vợ",
+          "example": {
+            "zh": "这是我妻子。",
+            "vi": "Đây là vợ tôi."
+          }
+        },
+        {
+          "zh": "丈夫",
+          "pinyin": "zhàngfu",
+          "pos": "n.",
+          "vi": "chồng",
+          "example": {
+            "zh": "她丈夫是医生。",
+            "vi": "Chồng cô ấy là bác sĩ."
+          }
+        },
+        {
+          "zh": "饭馆",
+          "pinyin": "fànguǎn",
+          "pos": "n.",
+          "vi": "quán ăn, nhà hàng",
+          "example": {
+            "zh": "这家饭馆的菜很好吃。",
+            "vi": "Món ở quán này rất ngon."
+          }
+        }
+      ],
+      "pangdaTip": "Ở đây 请 nghĩa là “mời, đãi” (请客): 丈夫请妻子吃饭 = chồng mời vợ đi ăn."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我的___在哪儿？你看见了吗？",
+      "bank": [
+        "手表",
+        "左边",
+        "花"
+      ],
+      "answer": "手表"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我___那个超市卖画笔，我们过去看看。",
+      "bank": [
+        "记得",
+        "花",
+        "有意思"
+      ],
+      "answer": "记得"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我们在商场买了很多东西，___了很多钱。",
+      "bank": [
+        "花",
+        "点",
+        "记得"
+      ],
+      "answer": "花"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我昨天看的那个电影很___。——有时间我也去看看。",
+      "bank": [
+        "有意思",
+        "手表",
+        "左边"
+      ],
+      "answer": "有意思"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "___这个人是你妹妹吗？——是我姐姐，她比我大。",
+      "bank": [
+        "左边",
+        "花",
+        "点"
+      ],
+      "answer": "左边"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "比",
+        "今天",
+        "冷",
+        "昨天"
+      ],
+      "answers": [
+        "今天比昨天冷"
+      ],
+      "vi": "Hôm nay lạnh hơn hôm qua.",
+      "explain_vi": "A + 比 + B + tính từ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "但是",
+        "虽然",
+        "很贵",
+        "我很喜欢",
+        "，"
+      ],
+      "answers": [
+        "虽然很贵，但是我很喜欢"
+      ],
+      "vi": "Tuy đắt nhưng tôi rất thích.",
+      "explain_vi": "虽然……，但是……."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "手表",
+      "options": [
+        {
+          "emoji": "⌚",
+          "label": "Đồng hồ"
+        },
+        {
+          "emoji": "🎬",
+          "label": "Phim"
+        },
+        {
+          "emoji": "🍽️",
+          "label": "Nhà hàng"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "网上买比在这里买便宜。",
+      "emoji": "💻",
+      "statement_vi": "Mua ở đây rẻ hơn mua trên mạng.",
+      "answer": false,
+      "explain_vi": "网上买比在这里买便宜 = mua trên mạng rẻ hơn."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🌡️🔥",
+      "sentence": "今天比昨天___热。",
+      "options": [
+        "还",
+        "很",
+        "非常"
+      ],
+      "answer": 0,
+      "explain_vi": "Câu có 比 dùng 还/更, không dùng 很/非常."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "这两块手表怎么样？",
+          "a": "都不错！"
+        },
+        {
+          "q": "怎么点这么多菜？",
+          "a": "今天是你的生日啊！"
+        },
+        {
+          "q": "我们看哪个电影？",
+          "a": "还是看这个吧。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đi ăn nhà hàng",
+    "steps_vi": [
+      "Nhóm 3 người: một người là phục vụ, hai người là khách.",
+      "Khách gọi món, hỏi giá và hương vị từng món.",
+      "Khách so sánh món của nhà hàng với món ở nhà bằng 比 và 还/更.",
+      "Cuối bữa, dùng “虽然……，但是……” để nhận xét: 虽然有点儿贵，但是很好吃."
+    ],
+    "patterns": [
+      {
+        "zh": "你好！我们点菜。",
+        "vi": "Chào bạn! Chúng tôi gọi món."
+      },
+      {
+        "zh": "好的。你们想吃点儿什么？",
+        "vi": "Vâng. Anh chị muốn ăn gì ạ?"
+      },
+      {
+        "zh": "这个菜比我家做的还好吃！",
+        "vi": "Món này còn ngon hơn ở nhà tôi nấu!"
+      },
+      {
+        "zh": "虽然有点儿贵，但是很好吃。",
+        "vi": "Tuy hơi đắt nhưng rất ngon."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Những con số người Trung Quốc yêu thích",
+    "body_vi": [
+      "Số 8 (八 bā) đọc gần giống 发 (fā – phát tài), nên là con số được yêu thích nhất: số điện thoại, biển số xe có nhiều số 8 thường rất đắt. Lễ khai mạc Olympic Bắc Kinh 2008 bắt đầu lúc 8 giờ 8 phút tối ngày 8/8.",
+      "Số 6 (六 liù) gợi “六六大顺” – mọi việc thuận lợi; số 9 (九 jiǔ) đồng âm với 久 – lâu dài, nên hay dùng trong dịp cưới hỏi.",
+      "Số 4 (四 sì) đọc gần giống 死 (sǐ – chết) nên nhiều người kiêng: một số toà nhà không có tầng 4. Người Việt cũng có quan niệm tương tự với số 4.",
+      "Giá 8800 tệ của chiếc đồng hồ trong bài cũng là một con số “đẹp” đấy!"
+    ],
+    "table": {
+      "head": [
+        "Số",
+        "Chữ Hán",
+        "Gợi đến",
+        "Ý nghĩa"
+      ],
+      "rows": [
+        [
+          "6",
+          "六 liù",
+          "六六大顺",
+          "thuận lợi"
+        ],
+        [
+          "8",
+          "八 bā",
+          "发 fā",
+          "phát tài"
+        ],
+        [
+          "9",
+          "九 jiǔ",
+          "久 jiǔ",
+          "lâu dài"
+        ],
+        [
+          "4",
+          "四 sì",
+          "死 sǐ",
+          "nên kiêng"
+        ]
+      ]
+    }
+  }
 }

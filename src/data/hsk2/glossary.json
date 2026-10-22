@@ -132,6 +132,60 @@
    "pinyin": "zǎozǎo",
    "vi": "sớm sớm",
    "known": true
+  },
+  {
+   "zh": "小明",
+   "pinyin": "Xiǎomíng",
+   "vi": "Tiểu Minh (tên)",
+   "known": true
+  },
+  {
+   "zh": "小李",
+   "pinyin": "Xiǎo Lǐ",
+   "vi": "Tiểu Lý (tên)",
+   "known": true
+  },
+  {
+   "zh": "河内",
+   "pinyin": "Hénèi",
+   "vi": "Hà Nội",
+   "known": true
+  },
+  {
+   "zh": "杨同乐",
+   "pinyin": "Yáng Tónglè",
+   "vi": "Dương Đồng Lạc",
+   "known": true
+  },
+  {
+   "zh": "同乐",
+   "pinyin": "Tónglè",
+   "vi": "Đồng Lạc (tên)",
+   "known": true
+  },
+  {
+   "zh": "李明",
+   "pinyin": "Lǐ Míng",
+   "vi": "Lý Minh (tên)",
+   "known": true
+  },
+  {
+   "zh": "王大明",
+   "pinyin": "Wáng Dàmíng",
+   "vi": "Vương Đại Minh (tên)",
+   "known": true
+  },
+  {
+   "zh": "杨",
+   "pinyin": "Yáng",
+   "vi": "họ Dương",
+   "known": true
+  },
+  {
+   "zh": "李",
+   "pinyin": "Lǐ",
+   "vi": "họ Lý",
+   "known": true
   }
  ]
 }

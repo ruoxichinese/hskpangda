@@ -1,35 +1,962 @@
 {
   "id": 10,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "就要考试了",
     "pinyin": "Jiù yào kǎoshì le",
     "vi": "Sắp thi rồi"
   },
   "grammarTopics_vi": [
-    "Câu vị ngữ chủ-vị",
-    "Câu hỏi lựa chọn",
-    "Cấu trúc 要/快/快要/就要……了"
+    "Câu vị ngữ chủ vị",
+    "Câu hỏi lựa chọn với 还是",
+    "Cấu trúc “要 / 快 / 快要 / 就要……了”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu vị ngữ chủ-vị",
-      "doneWhen": []
+      "vi": "Dùng câu vị ngữ chủ vị để nói về người, vật, sự việc",
+      "doneWhen": [
+        "text-1"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu hỏi lựa chọn",
-      "doneWhen": []
+      "vi": "Hỏi lựa chọn bằng “A 还是 B”",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 要/快/快要/就要……了",
-      "doneWhen": []
+      "vi": "Dùng “快要……了, 就要……了” để nói việc sắp xảy ra",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🚪",
+      "word": "门",
+      "pinyin": "mén",
+      "vi": "cửa"
+    },
+    {
+      "emoji": "❓",
+      "word": "题",
+      "pinyin": "tí",
+      "vi": "câu hỏi, bài tập"
+    },
+    {
+      "emoji": "😄",
+      "word": "笑",
+      "pinyin": "xiào",
+      "vi": "cười"
+    },
+    {
+      "emoji": "❌",
+      "word": "错",
+      "pinyin": "cuò",
+      "vi": "sai"
+    },
+    {
+      "emoji": "📝",
+      "word": "考试",
+      "pinyin": "kǎoshì",
+      "vi": "thi, kỳ thi"
+    },
+    {
+      "emoji": "📒",
+      "word": "本子",
+      "pinyin": "běnzi",
+      "vi": "quyển vở"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong phòng, anh Lưu Minh đang giúp Tiểu Minh chuẩn bị đồ đi học.",
+      "scene": "🎒",
+      "audio": "audio/hsk2/10-1.mp3",
+      "vocabAudio": "audio/hsk2/10-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Cặp sách ở đâu?",
+          "options": [
+            "床上",
+            "桌子上",
+            "门后面"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Bút ở đâu?",
+          "options": [
+            "床上",
+            "桌子上",
+            "门后面"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "小明，你们明天开学，你准备好了吗？",
+          "vi": "Tiểu Minh, mai các con khai giảng, con chuẩn bị xong chưa?",
+          "t": 0.2
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "明天就开学啊？爸爸，我的书包你看见了吗？",
+          "vi": "Mai đã khai giảng rồi ạ? Bố ơi, bố có thấy cặp sách của con không?",
+          "t": 5.07
+        },
+        {
+          "speaker": "liuming",
+          "zh": "书包在门后面。",
+          "vi": "Cặp ở sau cửa ấy.",
+          "t": 10.89
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "书在哪儿呢？笔呢？",
+          "vi": "Thế sách đâu ạ? Còn bút?",
+          "t": 13.48
+        },
+        {
+          "speaker": "liuming",
+          "zh": "书在床上，笔在桌子上。",
+          "vi": "Sách ở trên giường, bút ở trên bàn.",
+          "t": 16.88
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "太好了！现在都准备好了。",
+          "vi": "Tốt quá! Giờ chuẩn bị xong hết rồi.",
+          "t": 20.14
+        },
+        {
+          "speaker": "liuming",
+          "zh": "这次爸爸帮你，下次你自己准备，好不好？",
+          "vi": "Lần này bố giúp con, lần sau con tự chuẩn bị nhé?",
+          "t": 24.16
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "好！",
+          "vi": "Vâng ạ!",
+          "t": 29.43
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "开学",
+          "pinyin": "kāixué",
+          "pos": "v.",
+          "vi": "khai giảng, bắt đầu năm học",
+          "example": {
+            "zh": "我们九月开学。",
+            "vi": "Chúng tôi khai giảng vào tháng chín."
+          }
+        },
+        {
+          "zh": "门",
+          "pinyin": "mén",
+          "pos": "n.",
+          "vi": "cửa",
+          "example": {
+            "zh": "请开一下门。",
+            "vi": "Làm ơn mở cửa giúp."
+          }
+        },
+        {
+          "zh": "后面",
+          "pinyin": "hòumiàn",
+          "pos": "n.",
+          "vi": "phía sau",
+          "example": {
+            "zh": "书包在门后面。",
+            "vi": "Cặp ở sau cửa."
+          }
+        },
+        {
+          "zh": "笔",
+          "pinyin": "bǐ",
+          "pos": "n.",
+          "vi": "bút",
+          "example": {
+            "zh": "你有笔吗？",
+            "vi": "Bạn có bút không?"
+          }
+        },
+        {
+          "zh": "帮",
+          "pinyin": "bāng",
+          "pos": "v.",
+          "vi": "giúp",
+          "example": {
+            "zh": "你能帮我吗？",
+            "vi": "Bạn giúp tôi được không?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g10-1",
+          "title_zh": "主谓谓语句",
+          "title_vi": "Câu vị ngữ chủ vị",
+          "formula": [
+            [
+              {
+                "zh": "弟弟",
+                "label": "Chủ ngữ lớn",
+                "role": "S"
+              },
+              {
+                "zh": "手",
+                "label": "Chủ ngữ nhỏ",
+                "role": "S"
+              },
+              {
+                "zh": "很小",
+                "label": "Vị ngữ nhỏ",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "我的书包",
+                "label": "Chủ đề (tân ngữ đưa lên)",
+                "role": "O"
+              },
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "看见了吗？",
+                "label": "Vị ngữ",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Vị ngữ của câu lại là một cụm “chủ ngữ + vị ngữ” nhỏ, dùng để giải thích, miêu tả chủ ngữ lớn: 弟弟手很小 = em trai thì tay nhỏ. Chủ ngữ nhỏ thường là một bộ phận của chủ ngữ lớn hoặc liên quan đến nó. Tiếng Việt cũng có kiểu câu này: “Em trai tôi tay rất nhỏ”, “Cái cặp của con, bố có thấy không?”.",
+          "examples": [
+            {
+              "zh": "我的书包你看见了吗？",
+              "vi": "Cặp sách của con, bố có thấy không?"
+            },
+            {
+              "zh": "弟弟手很小。",
+              "vi": "Em trai tay rất nhỏ."
+            },
+            {
+              "zh": "这件事他知道。",
+              "vi": "Việc này anh ấy biết."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "弟弟的手很小是。",
+              "right": "弟弟手很小。 / 弟弟的手很小。",
+              "why_vi": "Vị ngữ là tính từ thì không cần 是."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Bộ phim này tôi xem rồi.”",
+              "options": [
+                "这个电影我看过了。",
+                "这个电影看过我了。",
+                "我这个电影了看过。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Ở đây 呢 dùng để nhắc hoặc hỏi tiếp: 笔呢？ = Còn bút thì sao?"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong phòng, chị Vương Nhất Tuyết và Tiểu Tuyết đang nói chuyện học hành.",
+      "scene": "📚",
+      "audio": "audio/hsk2/10-3.mp3",
+      "vocabAudio": "audio/hsk2/10-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết đang làm gì?",
+          "options": [
+            "看书",
+            "考试",
+            "找本子"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Những câu làm sai nằm ở đâu?",
+          "options": [
+            "书上",
+            "本子上",
+            "书包里"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "小雪，你在做什么呢？",
+          "vi": "Tiểu Tuyết, con đang làm gì đấy?",
+          "t": 0.89
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "明天考试，我在看书呢。",
+          "vi": "Mai thi, con đang đọc sách ạ.",
+          "t": 4.61
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "这些词要好好看看。",
+          "vi": "Mấy từ này phải xem kỹ đấy.",
+          "t": 8.41
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我看过了，意思也都懂了。",
+          "vi": "Con xem rồi, nghĩa cũng hiểu hết rồi.",
+          "t": 11.63
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你的本子呢？本子上做错的题也要看一看。",
+          "vi": "Vở của con đâu? Những bài làm sai trong vở cũng phải xem lại.",
+          "t": 16.07
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，是您准备考试还是我准备考试？",
+          "vi": "Mẹ ơi, mẹ ôn thi hay con ôn thi đây ạ?",
+          "t": 22.76
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "考试",
+          "pinyin": "kǎoshì",
+          "pos": "v./n.",
+          "vi": "thi; kỳ thi",
+          "example": {
+            "zh": "明天我们考试。",
+            "vi": "Mai chúng tôi thi."
+          }
+        },
+        {
+          "zh": "词",
+          "pinyin": "cí",
+          "pos": "n.",
+          "vi": "từ",
+          "example": {
+            "zh": "这个词是什么意思？",
+            "vi": "Từ này nghĩa là gì?"
+          }
+        },
+        {
+          "zh": "本子",
+          "pinyin": "běnzi",
+          "pos": "n.",
+          "vi": "quyển vở",
+          "example": {
+            "zh": "我的本子在书包里。",
+            "vi": "Vở của tôi ở trong cặp."
+          }
+        },
+        {
+          "zh": "错",
+          "pinyin": "cuò",
+          "pos": "adj.",
+          "vi": "sai",
+          "example": {
+            "zh": "这个字你写错了。",
+            "vi": "Chữ này bạn viết sai rồi."
+          }
+        },
+        {
+          "zh": "题",
+          "pinyin": "tí",
+          "pos": "n.",
+          "vi": "câu hỏi, đề bài",
+          "example": {
+            "zh": "这个题很难。",
+            "vi": "Câu này khó."
+          }
+        },
+        {
+          "zh": "还是",
+          "pinyin": "háishi",
+          "pos": "conj.",
+          "vi": "hay, hay là (câu hỏi lựa chọn)",
+          "example": {
+            "zh": "你喝茶还是喝咖啡？",
+            "vi": "Bạn uống trà hay cà phê?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g10-2",
+          "title_zh": "选择问句",
+          "title_vi": "Câu hỏi lựa chọn: (是) A 还是 B?",
+          "formula": [
+            [
+              {
+                "zh": "（是）",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "您准备考试",
+                "label": "Lựa chọn A",
+                "role": "V"
+              },
+              {
+                "zh": "还是",
+                "label": "hay là",
+                "role": "ADV"
+              },
+              {
+                "zh": "我准备考试",
+                "label": "Lựa chọn B",
+                "role": "V"
+              },
+              {
+                "zh": "？",
+                "label": "",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "还是 đặt giữa hai (hoặc nhiều) lựa chọn để hỏi người nghe chọn cái nào – giống “hay là” trong tiếng Việt. Câu hỏi với 还是 KHÔNG thêm 吗 ở cuối. Lưu ý: ở bài 2 ta đã học 还是 nghĩa “… thì hơn” (还是打车去吧); ở đây 还是 dùng trong câu hỏi.",
+          "examples": [
+            {
+              "zh": "妈妈，是您准备考试还是我准备考试？",
+              "vi": "Mẹ ơi, mẹ ôn thi hay con ôn thi đây?"
+            },
+            {
+              "zh": "你更喜欢打篮球、踢足球还是游泳？",
+              "vi": "Bạn thích chơi bóng rổ, đá bóng hay bơi hơn?"
+            },
+            {
+              "zh": "我们什么时候去看电影？今天还是明天？",
+              "vi": "Bao giờ mình đi xem phim? Hôm nay hay ngày mai?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你喝茶还是喝咖啡吗？",
+              "right": "你喝茶还是喝咖啡？",
+              "why_vi": "Câu hỏi lựa chọn với 还是 không thêm 吗."
+            },
+            {
+              "wrong": "你喝茶或者咖啡？",
+              "right": "你喝茶还是咖啡？",
+              "why_vi": "Trong câu hỏi dùng 还是; 或者 dùng trong câu trần thuật."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Bạn đi taxi hay đi xe buýt?”",
+              "options": [
+                "你打车还是坐公交车？",
+                "你打车还是坐公交车吗？",
+                "你还是打车坐公交车？"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "好好看看 = xem cho thật kỹ. 好好 + động từ: làm việc gì đó cẩn thận, chăm chỉ."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong phòng khách, chị Vương Nhất Tuyết trò chuyện với các con.",
+      "scene": "🧋",
+      "audio": "audio/hsk2/10-5.mp3",
+      "vocabAudio": "audio/hsk2/10-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết thi thế nào?",
+          "options": [
+            "很不好",
+            "没上次好",
+            "比上次好"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết đang làm gì?",
+          "options": [
+            "考试",
+            "做菜",
+            "洗手"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，我回来了！",
+          "vi": "Mẹ ơi, con về rồi!",
+          "t": 0.35
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我买了奶茶，就在桌子上，自己去拿吧。",
+          "vi": "Mẹ mua trà sữa rồi, ở ngay trên bàn, con tự lấy nhé.",
+          "t": 3.12
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "谢谢妈妈！",
+          "vi": "Con cảm ơn mẹ!",
+          "t": 8.48
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "今天考试考得怎么样？",
+          "vi": "Hôm nay con thi thế nào?",
+          "t": 10.52
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我觉得比上次好。",
+          "vi": "Con thấy tốt hơn lần trước.",
+          "t": 13.41
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "真不错！饭菜快要做好了，你叫弟弟一起去洗手吧。",
+          "vi": "Giỏi lắm! Cơm sắp nấu xong rồi, con gọi em cùng đi rửa tay đi.",
+          "t": 16.6
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "妈妈，我是第一名，姐姐还没洗完呢。",
+          "vi": "Mẹ ơi, con về nhất, chị còn chưa rửa xong đâu.",
+          "t": 23.49
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你洗得真快啊！",
+          "vi": "Con rửa nhanh thật đấy!",
+          "t": 27.92
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "考",
+          "pinyin": "kǎo",
+          "pos": "v.",
+          "vi": "thi",
+          "example": {
+            "zh": "你考得怎么样？",
+            "vi": "Bạn thi thế nào?"
+          }
+        },
+        {
+          "zh": "快要",
+          "pinyin": "kuàiyào",
+          "pos": "adv.",
+          "vi": "sắp, sắp sửa",
+          "example": {
+            "zh": "快要下雨了。",
+            "vi": "Sắp mưa rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g10-3",
+          "title_zh": "固定格式“要/快/快要/就要……了”",
+          "title_vi": "“要 / 快 / 快要 / 就要……了”: sắp… rồi",
+          "formula": [
+            [
+              {
+                "zh": "饭菜",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "快要",
+                "label": "sắp",
+                "role": "ADV"
+              },
+              {
+                "zh": "做好",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "了",
+                "label": "rồi",
+                "role": "PART"
+              }
+            ],
+            [
+              {
+                "zh": "我们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "下星期",
+                "label": "Mốc thời gian",
+                "role": "N"
+              },
+              {
+                "zh": "就要",
+                "label": "là sẽ",
+                "role": "ADV"
+              },
+              {
+                "zh": "考试了",
+                "label": "Động từ + 了",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "要……了, 快……了, 快要……了, 就要……了 đều nói một việc sắp xảy ra – giống “sắp… rồi” trong tiếng Việt. Nếu trong câu có mốc thời gian cụ thể (下星期, 明天), chỉ dùng 就要……了; không nói 下星期快要考试了.",
+          "examples": [
+            {
+              "zh": "饭菜快要做好了。",
+              "vi": "Cơm sắp nấu xong rồi."
+            },
+            {
+              "zh": "火车快开了。",
+              "vi": "Tàu sắp chạy rồi."
+            },
+            {
+              "zh": "我们下星期就要考试了。",
+              "vi": "Tuần sau chúng tôi thi rồi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "明天快要考试了。",
+              "right": "明天就要考试了。",
+              "why_vi": "Có mốc thời gian cụ thể (明天) thì dùng 就要……了."
+            },
+            {
+              "wrong": "快要下雨。",
+              "right": "快要下雨了。",
+              "why_vi": "Cấu trúc phải có 了 ở cuối."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Mai khai giảng rồi.”",
+              "options": [
+                "明天就要开学了。",
+                "明天快要开学了。",
+                "明天就要开学。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "考试考得怎么样 = thi thế nào. Đây là bổ ngữ trạng thái bài 7 với từ ly hợp 考试: lặp lại 考."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Tiểu Tuyết viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/10-7.mp3",
+      "vocabAudio": "audio/hsk2/10-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao bố giúp em trai chuẩn bị cặp, vở và bút?",
+          "options": [
+            "快要上课了",
+            "快要开学了",
+            "快要考试了"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Vì sao bố mẹ bật cười?",
+          "options": [
+            "孩子们去上学了",
+            "孩子们考试考得很好",
+            "孩子上学，他们比孩子还忙"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "快要开学了，爸爸帮弟弟准备书包、本子和笔。",
+          "vi": "Sắp khai giảng rồi, bố giúp em trai chuẩn bị cặp, vở và bút.",
+          "t": 0.46
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我就要考试了，妈妈让我看书、看做错的题。",
+          "vi": "Mình sắp thi rồi, mẹ bảo mình đọc sách, xem lại các bài làm sai.",
+          "t": 7.56
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我们上学，爸爸、妈妈比我们还忙。",
+          "vi": "Bọn mình đi học mà bố mẹ còn bận hơn cả bọn mình.",
+          "t": 13.19
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我问他们：“是我和弟弟上学还是你们上学？”",
+          "vi": "Mình hỏi bố mẹ: “Con với em đi học hay bố mẹ đi học ạ?”",
+          "t": 17.35
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我问完，他们都笑了。",
+          "vi": "Mình hỏi xong, bố mẹ đều bật cười.",
+          "t": 22.98
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "笑",
+          "pinyin": "xiào",
+          "pos": "v.",
+          "vi": "cười",
+          "example": {
+            "zh": "她笑得很开心。",
+            "vi": "Cô ấy cười rất vui."
+          }
+        }
+      ],
+      "pangdaTip": "比我们还忙 = còn bận hơn cả bọn mình – câu so sánh với 还 bạn đã học ở bài 8."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "看到生日礼物，儿子高兴地___了。",
+      "bank": [
+        "笑",
+        "错",
+        "帮"
+      ],
+      "answer": "笑"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "小雪，你们什么时候___？你准备好了吗？",
+      "bank": [
+        "开学",
+        "后面",
+        "考"
+      ],
+      "answer": "开学"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我们公司___有一个商店，下班后我就去那儿买东西。",
+      "bank": [
+        "后面",
+        "本子",
+        "题"
+      ],
+      "answer": "后面"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "不好意思，你能___我叫一下白家月吗？",
+      "bank": [
+        "帮",
+        "笑",
+        "考"
+      ],
+      "answer": "帮"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "这个字写___了，左边是“口”，不是“日”。",
+      "bank": [
+        "错",
+        "笑",
+        "帮"
+      ],
+      "answer": "错"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "还是",
+        "你",
+        "喝茶",
+        "喝咖啡"
+      ],
+      "answers": [
+        "你喝茶还是喝咖啡"
+      ],
+      "vi": "Bạn uống trà hay uống cà phê?",
+      "explain_vi": "A + 还是 + B."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "了",
+        "快要",
+        "下雨",
+        "外边"
+      ],
+      "answers": [
+        "外边快要下雨了"
+      ],
+      "vi": "Bên ngoài sắp mưa rồi.",
+      "explain_vi": "快要 + động từ + 了."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "本子",
+      "options": [
+        {
+          "emoji": "📒",
+          "label": "Quyển vở"
+        },
+        {
+          "emoji": "🖊️",
+          "label": "Bút"
+        },
+        {
+          "emoji": "🎒",
+          "label": "Cặp sách"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我们下星期就要考试了。",
+      "emoji": "📝",
+      "statement_vi": "Tuần này họ thi.",
+      "answer": false,
+      "explain_vi": "下星期 = tuần sau."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🚆⏰",
+      "sentence": "火车快___了，我们快点儿走吧。",
+      "options": [
+        "开",
+        "开了",
+        "开过"
+      ],
+      "answer": 0,
+      "explain_vi": "快 + động từ + 了: 火车快开了."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "我的书包你看见了吗？",
+          "a": "书包在门后面。"
+        },
+        {
+          "q": "今天考试考得怎么样？",
+          "a": "我觉得比上次好。"
+        },
+        {
+          "q": "你喝奶茶还是喝咖啡？",
+          "a": "我喝奶茶吧。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Hỏi nhau chuyện học hành",
+    "steps_vi": [
+      "Làm theo cặp, nói về việc học tiếng Trung từ đầu khoá đến giờ.",
+      "Hỏi bạn đã học được bao nhiêu từ, viết được bao nhiêu chữ, học thế nào.",
+      "Hỏi xem bạn có hay làm sai câu nào không, dùng câu hỏi 还是: 你写错了还是听错了？",
+      "Nói về kỳ thi sắp tới bằng “就要……了 / 快要……了”."
+    ],
+    "patterns": [
+      {
+        "zh": "开学快一个月了，你学会什么了？",
+        "vi": "Khai giảng sắp được một tháng rồi, bạn học được gì rồi?"
+      },
+      {
+        "zh": "学会了六十多个词，还写了二十多个汉字。",
+        "vi": "Học được hơn sáu mươi từ, còn viết được hơn hai mươi chữ Hán."
+      },
+      {
+        "zh": "你喜欢听课还是喜欢做题？",
+        "vi": "Bạn thích nghe giảng hay thích làm bài tập?"
+      },
+      {
+        "zh": "我们下星期就要考试了！",
+        "vi": "Tuần sau chúng mình thi rồi!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Năm học và kỳ thi ở Trung Quốc",
+    "body_vi": [
+      "Năm học ở Trung Quốc chia hai học kỳ: học kỳ một bắt đầu khoảng đầu tháng 9, học kỳ hai bắt đầu sau Tết Nguyên đán, thường vào tháng 2 hoặc tháng 3. Ngày khai giảng gọi là 开学.",
+      "Kỳ thi quan trọng nhất là 高考 (thi đại học), diễn ra vào ngày 7 và 8 tháng 6 hằng năm. Cả nước dồn sự chú ý vào kỳ thi này: xe cộ đi chậm lại, công trường dừng thi công gần điểm thi để thí sinh làm bài yên tĩnh.",
+      "Giống học sinh Việt Nam, học sinh Trung Quốc hay ôn bài bằng cách làm lại những câu đã sai. Nhiều em có riêng một quyển “vở ghi lỗi sai” (错题本)."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Khai giảng",
+          "开学",
+          "kāixué"
+        ],
+        [
+          "Kỳ thi đại học",
+          "高考",
+          "gāokǎo"
+        ],
+        [
+          "Vở ghi lỗi sai",
+          "错题本",
+          "cuòtíběn"
+        ],
+        [
+          "Về nhất",
+          "第一名",
+          "dì-yī míng"
+        ]
+      ]
+    }
+  }
 }

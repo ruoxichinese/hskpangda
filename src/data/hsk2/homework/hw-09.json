@@ -1,41 +1,333 @@
 {
  "lessonId": 9,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Quán trà sữa trước cổng trường",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Quán trà sữa trước cổng trường",
+    "zh": "我家离学校不远，走路二十分钟就到了。学校门口有家奶茶店，那儿的奶茶很好喝，也不贵。昨天下课后，我跟同学在那儿等了李文半个小时，他还没来。我们给他打电话，他说他在家睡觉呢！最后，我们喝完奶茶就走路回家了。",
+    "vi": "Nhà mình cách trường không xa, đi bộ hai mươi phút là tới. Trước cổng trường có một quán trà sữa, trà sữa ở đó rất ngon, cũng không đắt. Hôm qua tan học, mình và bạn đợi Lý Văn ở đó nửa tiếng mà cậu ấy vẫn chưa đến. Bọn mình gọi điện, cậu ấy bảo đang ngủ ở nhà! Cuối cùng, uống xong trà sữa bọn mình đi bộ về nhà."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "从我家到学校走路要多长时间？",
+     "options": [
+      "十分钟",
+      "二十分钟",
+      "半个小时"
+     ],
+     "answer": 1,
+     "explain_vi": "走路二十分钟就到了。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "我们在奶茶店等了李文多长时间？",
+     "options": [
+      "半个小时",
+      "二十分钟",
+      "一个小时"
+     ],
+     "answer": 0,
+     "explain_vi": "等了李文半个小时。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "李文为什么没来？",
+     "options": [
+      "在上课",
+      "在睡觉",
+      "去喝咖啡了"
+     ],
+     "answer": 1,
+     "explain_vi": "他说他在家睡觉呢！"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "学校门口有家奶茶店。",
+     "answer": true,
+     "explain_vi": "学校门口有家奶茶店。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "那儿的奶茶很贵。",
+     "answer": false,
+     "explain_vi": "也不贵。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "我们是打车回家的。",
+     "answer": false,
+     "explain_vi": "我们喝完奶茶就走路回家了。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "学校离你家远吗？",
+       "a": "不远，很近。"
+      },
+      {
+       "q": "你等了他多长时间？",
+       "a": "我等了他半个小时。"
+      },
+      {
+       "q": "这条裤子怎么样？",
+       "a": "没有上次那条好看。"
+      },
+      {
+       "q": "你想喝咖啡吗？",
+       "a": "不，我想喝杯奶茶。"
+      }
+     ],
+     "explain_vi": "Hỏi xa gần → 离; hỏi bao lâu → thời lượng; hỏi thế nào → 没有……好看; hỏi uống gì → 奶茶."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "咖啡店{{1}}这儿有点儿远，我们走{{2}}半个多小时。那儿的咖啡没有这家店{{3}}好喝。下次我们还是在学校{{4}}的奶茶店喝吧。",
+     "bank": [
+      "离",
+      "了",
+      "那么",
+      "旁边",
+      "个子"
+     ],
+     "answers": [
+      "离",
+      "了",
+      "那么",
+      "旁边"
+     ],
+     "explain_vi": "离 = cách · 走了 + thời lượng · 没有……那么 · 旁边 = bên cạnh."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "没有",
+      "她",
+      "高",
+      "姐姐"
+     ],
+     "answers": [
+      "她没有姐姐高"
+     ],
+     "vi": "Cô ấy không cao bằng chị.",
+     "explain_vi": "A + 没有 + B + tính từ.",
+     "grammarRef": "h2-g9-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "离",
+      "医院",
+      "很远",
+      "这儿"
+     ],
+     "answers": [
+      "医院离这儿很远",
+      "这儿离医院很远"
+     ],
+     "vi": "Bệnh viện cách đây rất xa.",
+     "explain_vi": "A + 离 + B + 远.",
+     "grammarRef": "h2-g9-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "我",
+      "两个小时",
+      "等"
+     ],
+     "answers": [
+      "我等了两个小时"
+     ],
+     "vi": "Tôi đã đợi hai tiếng.",
+     "explain_vi": "Động từ + 了 + thời lượng.",
+     "grammarRef": "h2-g9-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "一个下午",
+      "游泳",
+      "她",
+      "游了"
+     ],
+     "answers": [
+      "她游泳游了一个下午"
+     ],
+     "vi": "Cô ấy bơi cả buổi chiều.",
+     "explain_vi": "Lặp động từ của từ ly hợp.",
+     "grammarRef": "h2-g9-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "那么",
+      "昨天",
+      "冷",
+      "没有今天"
+     ],
+     "answers": [
+      "昨天没有今天那么冷"
+     ],
+     "vi": "Hôm qua không lạnh bằng hôm nay.",
+     "explain_vi": "没有 + B + 那么 + tính từ.",
+     "grammarRef": "h2-g9-1"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay không nóng bằng hôm qua.",
+     "acceptedAnswers": [
+      "今天没有昨天热",
+      "今天没有昨天那么热"
+     ],
+     "requiredKeywords": [
+      "没有"
+     ],
+     "wordBank": [
+      "今天",
+      "没有",
+      "昨天",
+      "热"
+     ],
+     "explain_vi": "A + 没有 + B + tính từ.",
+     "grammarRef": "h2-g9-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Trường cách nhà tôi rất gần.",
+     "acceptedAnswers": [
+      "学校离我家很近"
+     ],
+     "requiredKeywords": [
+      "离",
+      "近"
+     ],
+     "wordBank": [
+      "学校",
+      "离",
+      "我家",
+      "很近"
+     ],
+     "explain_vi": "A + 离 + B + 近.",
+     "grammarRef": "h2-g9-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Chúng ta nghỉ mười phút nhé.",
+     "acceptedAnswers": [
+      "我们休息十分钟吧"
+     ],
+     "requiredKeywords": [
+      "十分钟"
+     ],
+     "wordBank": [
+      "我们",
+      "休息",
+      "十分钟",
+      "吧"
+     ],
+     "explain_vi": "Động từ + thời lượng.",
+     "grammarRef": "h2-g9-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Tôi đợi anh ấy một tiếng.",
+     "acceptedAnswers": [
+      "我等了他一个小时",
+      "我等他等了一个小时"
+     ],
+     "requiredKeywords": [
+      "等",
+      "一个小时"
+     ],
+     "wordBank": [
+      "我",
+      "等了",
+      "他",
+      "一个小时"
+     ],
+     "explain_vi": "Tân ngữ chỉ người đứng trước thời lượng.",
+     "grammarRef": "h2-g9-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Ở cửa có một quán trà sữa.",
+     "acceptedAnswers": [
+      "门口有家奶茶店",
+      "门口有一家奶茶店"
+     ],
+     "requiredKeywords": [
+      "门口",
+      "奶茶"
+     ],
+     "wordBank": [
+      "门口",
+      "有",
+      "一家",
+      "奶茶店"
+     ],
+     "explain_vi": "门口 + 有.",
+     "grammarRef": "h2-g9-2"
+    }
+   ]
   }
  ]
 }

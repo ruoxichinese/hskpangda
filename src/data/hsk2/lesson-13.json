@@ -1,35 +1,892 @@
 {
   "id": 13,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我们爱上中文课",
     "pinyin": "Wǒmen ài shàng Zhōngwén kè",
-    "vi": "Chúng tôi thích giờ học tiếng Trung"
+    "vi": "Chúng tôi yêu giờ học tiếng Trung"
   },
   "grammarTopics_vi": [
-    "Câu hai tân ngữ (2)",
-    "Câu so sánh (7)",
-    "Câu so sánh (8)"
+    "Câu song tân ngữ (2): 送给 / 拿给 / 卖给",
+    "Câu so sánh (7): hơn bao nhiêu – 比 + tính từ + số lượng",
+    "Câu so sánh (8): hơn một chút – 一点儿 / 一些"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu hai tân ngữ (2)",
-      "doneWhen": []
+      "vi": "Nói chính xác A hơn B bao nhiêu: 多了十个, 大三岁",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu so sánh (7)",
-      "doneWhen": []
+      "vi": "Nói A chỉ hơn B một chút: 贵一点儿, 大一些",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu so sánh (8)",
-      "doneWhen": []
+      "vi": "Dùng câu song tân ngữ để nói tặng, đưa, bán cho ai cái gì",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👩‍🏫",
+      "word": "教",
+      "pinyin": "jiāo",
+      "vi": "dạy"
+    },
+    {
+      "emoji": "💐",
+      "word": "花",
+      "pinyin": "huā",
+      "vi": "hoa"
+    },
+    {
+      "emoji": "🎆",
+      "word": "新年",
+      "pinyin": "xīnnián",
+      "vi": "năm mới"
+    },
+    {
+      "emoji": "🙏",
+      "word": "希望",
+      "pinyin": "xīwàng",
+      "vi": "hy vọng"
+    },
+    {
+      "emoji": "🗣️",
+      "word": "告诉",
+      "pinyin": "gàosu",
+      "vi": "nói cho biết"
+    },
+    {
+      "emoji": "🚻",
+      "word": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "vi": "nhà vệ sinh"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, Gia Nguyệt và Trần Thiên Trung đang trò chuyện.",
+      "scene": "💐",
+      "audio": "audio/hsk2/13-1.mp3",
+      "vocabAudio": "audio/hsk2/13-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Các bạn muốn tặng cô Vương gì?",
+          "options": [
+            "花",
+            "衣服",
+            "中文书"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Hôm nay các bạn định đi đâu xem?",
+          "options": [
+            "教室",
+            "花店",
+            "商店"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "时间过得真快啊！新年就要到了。",
+          "vi": "Thời gian trôi nhanh thật! Sắp đến năm mới rồi.",
+          "t": 0.5
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "这一年王老师教我们中文，每天工作都很累。",
+          "vi": "Năm nay cô Vương dạy chúng mình tiếng Trung, ngày nào làm việc cũng rất vất vả.",
+          "t": 6.13
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "是啊，她教得很好。因为她，我们都非常爱上中文课。",
+          "vi": "Đúng thế, cô dạy rất hay. Nhờ cô mà chúng mình đều rất thích giờ tiếng Trung.",
+          "t": 11.91
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我们给她准备个新年礼物吧。你觉得送给她什么好呢？",
+          "vi": "Mình chuẩn bị quà năm mới cho cô đi. Cậu thấy tặng cô gì thì hay?",
+          "t": 20.3
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "王老师喜欢花，就送给她花吧。",
+          "vi": "Cô Vương thích hoa, tặng cô hoa đi.",
+          "t": 26.96
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "那我们去花店看看，现在买花的人多，希望花店还有漂亮的花。",
+          "vi": "Vậy mình ra hàng hoa xem, giờ nhiều người mua hoa lắm, mong là hàng hoa vẫn còn hoa đẹp.",
+          "t": 32.09
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "新年",
+          "pinyin": "xīnnián",
+          "pos": "n.",
+          "vi": "năm mới",
+          "example": {
+            "zh": "新年快乐！",
+            "vi": "Chúc mừng năm mới!"
+          }
+        },
+        {
+          "zh": "教",
+          "pinyin": "jiāo",
+          "pos": "v.",
+          "vi": "dạy",
+          "example": {
+            "zh": "王老师教我们中文。",
+            "vi": "Cô Vương dạy chúng tôi tiếng Trung."
+          }
+        },
+        {
+          "zh": "花",
+          "pinyin": "huā",
+          "pos": "n.",
+          "vi": "hoa",
+          "example": {
+            "zh": "这些花真漂亮。",
+            "vi": "Những bông hoa này đẹp thật."
+          }
+        },
+        {
+          "zh": "希望",
+          "pinyin": "xīwàng",
+          "pos": "v.",
+          "vi": "hy vọng, mong",
+          "example": {
+            "zh": "我希望明天是晴天。",
+            "vi": "Tôi mong mai trời nắng."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g13-1",
+          "title_zh": "双宾语句（2）",
+          "title_vi": "Câu song tân ngữ (2): 送给 / 拿给 / 卖给 + người + vật",
+          "formula": [
+            [
+              {
+                "zh": "我们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "送给",
+                "label": "Động từ + 给",
+                "role": "V"
+              },
+              {
+                "zh": "她",
+                "label": "Tân ngữ chỉ người",
+                "role": "O"
+              },
+              {
+                "zh": "花",
+                "label": "Tân ngữ chỉ vật",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Một động từ mang hai tân ngữ: tân ngữ đầu chỉ người nhận, tân ngữ sau chỉ vật. Các động từ 送, 拿, 卖 ghép với 给: 送给她花 = tặng cô ấy hoa, 拿给我一杯水 = đưa tôi một cốc nước. Tiếng Việt nói “tặng hoa cho cô ấy”, tiếng Trung nói “tặng cho cô ấy hoa”: người nhận đứng trước.",
+          "examples": [
+            {
+              "zh": "王老师喜欢花，就送给她花吧。",
+              "vi": "Cô Vương thích hoa, tặng cô hoa đi."
+            },
+            {
+              "zh": "她拿给我一杯水。",
+              "vi": "Cô ấy đưa cho tôi một cốc nước."
+            },
+            {
+              "zh": "他卖给我一本中文书。",
+              "vi": "Anh ấy bán cho tôi một quyển sách tiếng Trung."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我送花她。",
+              "right": "我送给她花。",
+              "why_vi": "Theo mẫu: động từ + 给 + người + vật; người nhận đứng trước vật."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Mẹ đưa cho tôi một quả táo.”",
+              "options": [
+                "妈妈拿给我一个苹果。",
+                "妈妈拿一个苹果我给。",
+                "妈妈给我拿一个苹果给。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "花 ở bài 8 là động từ “tiêu (tiền)”, ở đây là danh từ “hoa” – cùng chữ, cùng âm huā, khác nghĩa."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong lớp học, cô Vương Nhất Phi đang giảng bài.",
+      "scene": "✍️",
+      "audio": "audio/hsk2/13-3.mp3",
+      "vocabAudio": "audio/hsk2/13-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Từ mới hôm nay nhiều hơn hôm qua bao nhiêu?",
+          "options": [
+            "四个",
+            "七个",
+            "十个"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Các bạn viết sai chữ nào?",
+          "options": [
+            "口",
+            "日",
+            "间"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "王老师，今天的词比昨天多了十个。",
+          "vi": "Cô Vương ơi, từ mới hôm nay nhiều hơn hôm qua mười từ.",
+          "t": 0.81
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "是啊！你们都学会了吗？",
+          "vi": "Đúng vậy! Các em học thuộc hết chưa?",
+          "t": 6.12
+        },
+        {
+          "speaker": "anni",
+          "zh": "学会了，没有问题。",
+          "vi": "Thuộc rồi ạ, không có vấn đề gì.",
+          "t": 10.13
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "好。现在我来说，你们在本子上面写。",
+          "vi": "Tốt. Giờ cô đọc, các em viết vào vở.",
+          "t": 13.85
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "同学们，“洗手间”的“间”字写错了，它的里面是“日”，不是“口”。",
+          "vi": "Các em ơi, chữ “间” trong “洗手间” viết sai rồi, bên trong là “日”, không phải “口”.",
+          "t": 19.78
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "“日”比“口”多一笔，写“口”就是“问题”的“问”了。",
+          "vi": "“日” nhiều hơn “口” một nét, viết “口” thì thành chữ “问” trong “问题” mất.",
+          "t": 28.42
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "没错，你说得很对。",
+          "vi": "Đúng rồi, em nói rất đúng.",
+          "t": 35.5
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "上面",
+          "pinyin": "shàngmiàn",
+          "pos": "n.",
+          "vi": "phía trên, trên mặt",
+          "example": {
+            "zh": "书在桌子上面。",
+            "vi": "Sách ở trên bàn."
+          }
+        },
+        {
+          "zh": "洗手间",
+          "pinyin": "xǐshǒujiān",
+          "pos": "n.",
+          "vi": "nhà vệ sinh",
+          "example": {
+            "zh": "请问，洗手间在哪儿？",
+            "vi": "Xin hỏi, nhà vệ sinh ở đâu?"
+          }
+        },
+        {
+          "zh": "里面",
+          "pinyin": "lǐmiàn",
+          "pos": "n.",
+          "vi": "bên trong",
+          "example": {
+            "zh": "书包里面有一本书。",
+            "vi": "Trong cặp có một quyển sách."
+          }
+        },
+        {
+          "zh": "笔",
+          "pinyin": "bǐ",
+          "pos": "m.",
+          "vi": "nét (chữ)",
+          "example": {
+            "zh": "“日”比“口”多一笔。",
+            "vi": "Chữ 日 nhiều hơn chữ 口 một nét."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g13-2",
+          "title_zh": "比较句（7）",
+          "title_vi": "Câu so sánh (7): hơn bao nhiêu – 比 + tính từ + số lượng",
+          "formula": [
+            [
+              {
+                "zh": "姐姐",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比我",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "大",
+                "label": "Tính từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "三岁",
+                "label": "Số lượng chênh lệch",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Muốn nói A hơn B chính xác bao nhiêu, đặt cụm số lượng SAU tính từ: 大三岁 = lớn hơn ba tuổi, 多了十个 = nhiều hơn mười cái. Tiếng Việt cũng đặt con số ở cuối (“lớn hơn ba tuổi”), nên rất dễ nhớ.",
+          "examples": [
+            {
+              "zh": "今天的词比昨天多了十个。",
+              "vi": "Từ mới hôm nay nhiều hơn hôm qua mười từ."
+            },
+            {
+              "zh": "姐姐比我大三岁。",
+              "vi": "Chị lớn hơn tôi ba tuổi."
+            },
+            {
+              "zh": "坐飞机比坐火车快五个多小时。",
+              "vi": "Đi máy bay nhanh hơn đi tàu hơn năm tiếng."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "姐姐比我三岁大。",
+              "right": "姐姐比我大三岁。",
+              "why_vi": "Số lượng chênh lệch đứng SAU tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Em gái nhỏ hơn tôi hai tuổi.”",
+              "options": [
+                "妹妹比我小两岁。",
+                "妹妹比我两岁小。",
+                "妹妹小比我两岁。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "笔 vừa là danh từ “cái bút”, vừa là lượng từ “nét” khi nói về chữ Hán: 这个字有五笔 = chữ này có năm nét."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong lớp học, Annie và Gia Nguyệt đang trò chuyện.",
+      "scene": "📒",
+      "audio": "audio/hsk2/13-5.mp3",
+      "vocabAudio": "audio/hsk2/13-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Quyển vở này mua ở đâu?",
+          "options": [
+            "商店",
+            "超市",
+            "网上"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Annie muốn Gia Nguyệt tặng mình quà gì?",
+          "options": [
+            "本子",
+            "咖啡",
+            "咖啡杯"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "家月，你觉得这个本子怎么样？",
+          "vi": "Gia Nguyệt, cậu thấy quyển vở này thế nào?",
+          "t": 0.45
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "很漂亮，多少钱一个？",
+          "vi": "Đẹp lắm, bao nhiêu tiền một quyển?",
+          "t": 4.83
+        },
+        {
+          "speaker": "anni",
+          "zh": "比我们一起买的那个本子贵一点儿。",
+          "vi": "Đắt hơn quyển bọn mình mua cùng nhau một chút.",
+          "t": 8.9
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这么漂亮的本子，不可能贵一点儿吧？",
+          "vi": "Vở đẹp thế này, không thể chỉ đắt hơn một chút đâu nhỉ?",
+          "t": 13.45
+        },
+        {
+          "speaker": "anni",
+          "zh": "我是上网买的，真没那么贵。我买了两个，送你一个。",
+          "vi": "Mình mua trên mạng, thật sự không đắt thế đâu. Mình mua hai quyển, tặng cậu một quyển.",
+          "t": 18.6
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢！那我送给你什么呢？",
+          "vi": "Cảm ơn cậu! Vậy mình tặng cậu gì nhỉ?",
+          "t": 25.84
+        },
+        {
+          "speaker": "anni",
+          "zh": "咖啡杯吧，我最喜欢喝咖啡了。",
+          "vi": "Cốc cà phê nhé, mình thích uống cà phê nhất.",
+          "t": 29.66
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好，那样我们就都有新年礼物了！",
+          "vi": "Được, như vậy cả hai đứa đều có quà năm mới rồi!",
+          "t": 34.04
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "可能",
+          "pinyin": "kěnéng",
+          "pos": "v.",
+          "vi": "có thể, có lẽ",
+          "example": {
+            "zh": "明天可能下雨。",
+            "vi": "Mai có thể mưa."
+          }
+        },
+        {
+          "zh": "上网",
+          "pinyin": "shàngwǎng",
+          "pos": "v.",
+          "vi": "lên mạng",
+          "example": {
+            "zh": "我每天晚上上网。",
+            "vi": "Tối nào tôi cũng lên mạng."
+          }
+        },
+        {
+          "zh": "那样",
+          "pinyin": "nàyàng",
+          "pos": "pron.",
+          "vi": "như thế, như vậy",
+          "example": {
+            "zh": "那样我们就都高兴了。",
+            "vi": "Như vậy chúng ta đều vui."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g13-3",
+          "title_zh": "比较句（8）",
+          "title_vi": "Câu so sánh (8): hơn một chút – 一点儿 / 一些",
+          "formula": [
+            [
+              {
+                "zh": "这个本子",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比那个",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "贵",
+                "label": "Tính từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "一点儿 / 一些",
+                "label": "một chút",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Muốn nói A chỉ hơn B một chút, đặt 一点儿 hoặc 一些 SAU tính từ: 贵一点儿 = đắt hơn một chút, 大一些 = to hơn chút. So sánh: 多了 / 得多 (bài 12) là hơn nhiều; 一点儿 / 一些 là hơn ít.",
+          "examples": [
+            {
+              "zh": "比我们一起买的那个本子贵一点儿。",
+              "vi": "Đắt hơn quyển bọn mình mua cùng nhau một chút."
+            },
+            {
+              "zh": "姐姐比我高一点儿。",
+              "vi": "Chị cao hơn tôi một chút."
+            },
+            {
+              "zh": "那间教室比这间大一些。",
+              "vi": "Phòng học kia to hơn phòng này một chút."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这个比那个一点儿贵。",
+              "right": "这个比那个贵一点儿。",
+              "why_vi": "一点儿 đứng sau tính từ trong câu so sánh."
+            },
+            {
+              "wrong": "这个比那个有点儿贵。",
+              "right": "这个比那个贵一点儿。",
+              "why_vi": "有点儿 (hơi) không dùng trong câu so sánh với 比."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay lạnh hơn hôm qua một chút.”",
+              "options": [
+                "今天比昨天冷一点儿。",
+                "今天比昨天一点儿冷。",
+                "今天比昨天有点儿冷。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "咖啡 + 杯 = 咖啡杯 (cốc cà phê). Ghép hai từ đã biết là đoán được từ mới: 茶杯, 水杯…"
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Gia Nguyệt viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/13-7.mp3",
+      "vocabAudio": "audio/hsk2/13-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Quyển vở mới có đắt không?",
+          "options": [
+            "没有白家月的本子贵",
+            "比白家月的本子贵多了",
+            "比白家月的本子贵一点儿"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao các bạn tặng hoa cô Vương?",
+          "options": [
+            "她很漂亮",
+            "她要回国了",
+            "新年就要到了"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "新年就要到了，安妮送给我一个新本子。",
+          "vi": "Sắp đến năm mới, Annie tặng mình một quyển vở mới.",
+          "t": 0.32
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "她告诉我是在网上买的，比我的本子贵一点儿。",
+          "vi": "Cậu ấy bảo mua trên mạng, đắt hơn vở của mình một chút.",
+          "t": 5.63
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我们班同学也送了王老师漂亮的花，希望她高高兴兴地过个新年。",
+          "vi": "Các bạn lớp mình cũng tặng cô Vương hoa đẹp, mong cô có một năm mới thật vui.",
+          "t": 11.68
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "告诉",
+          "pinyin": "gàosu",
+          "pos": "v.",
+          "vi": "nói cho biết, bảo",
+          "example": {
+            "zh": "请告诉我你的名字。",
+            "vi": "Hãy cho tôi biết tên bạn."
+          }
+        },
+        {
+          "zh": "班",
+          "pinyin": "bān",
+          "pos": "n.",
+          "vi": "lớp",
+          "example": {
+            "zh": "我们班有二十个学生。",
+            "vi": "Lớp chúng tôi có hai mươi học sinh."
+          }
+        }
+      ],
+      "pangdaTip": "送了王老师漂亮的花 cũng là câu song tân ngữ: 送 + người (王老师) + vật (花)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你们___有多少学生？",
+      "bank": [
+        "班",
+        "可能",
+        "里面"
+      ],
+      "answer": "班"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我经常___听歌、看电影。",
+      "bank": [
+        "上网",
+        "告诉",
+        "班"
+      ],
+      "answer": "上网"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "教室的门开着，但是___没有人。",
+      "bank": [
+        "里面",
+        "上网",
+        "可能"
+      ],
+      "answer": "里面"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "小李呢？我找她有点儿事。——___去洗手间了。",
+      "bank": [
+        "可能",
+        "告诉",
+        "里面"
+      ],
+      "answer": "可能"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "姐姐，家月___我你已经接到她们了。谢谢你！",
+      "bank": [
+        "告诉",
+        "上网",
+        "班"
+      ],
+      "answer": "告诉"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "送给",
+        "我",
+        "她",
+        "一本书"
+      ],
+      "answers": [
+        "我送给她一本书"
+      ],
+      "vi": "Tôi tặng cô ấy một quyển sách.",
+      "explain_vi": "送给 + người + vật."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "比我",
+        "姐姐",
+        "大",
+        "三岁"
+      ],
+      "answers": [
+        "姐姐比我大三岁"
+      ],
+      "vi": "Chị lớn hơn tôi ba tuổi.",
+      "explain_vi": "比 + B + tính từ + số lượng."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "花",
+      "options": [
+        {
+          "emoji": "💐",
+          "label": "Hoa"
+        },
+        {
+          "emoji": "📒",
+          "label": "Quyển vở"
+        },
+        {
+          "emoji": "☕",
+          "label": "Cốc cà phê"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "这个本子比那个贵一点儿。",
+      "emoji": "📒",
+      "statement_vi": "Quyển vở này đắt hơn quyển kia nhiều.",
+      "answer": false,
+      "explain_vi": "贵一点儿 = đắt hơn một chút thôi."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🧑‍🤝‍🧑",
+      "sentence": "哥哥比我高___。",
+      "options": [
+        "一点儿",
+        "有点儿",
+        "很"
+      ],
+      "answer": 0,
+      "explain_vi": "Câu so sánh dùng 一点儿 sau tính từ."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你觉得送给她什么好呢？",
+          "a": "她喜欢花，就送她花吧。"
+        },
+        {
+          "q": "这个本子多少钱？",
+          "a": "比那个贵一点儿。"
+        },
+        {
+          "q": "今天的词多吗？",
+          "a": "比昨天多了十个。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Trao quà năm mới",
+    "steps_vi": [
+      "Làm theo cặp. Năm mới sắp đến, mỗi người chọn một món quà để tặng bạn mình.",
+      "Khi tặng, dùng câu song tân ngữ: 我送给你一个……",
+      "Người nhận hỏi giá, nơi mua; người tặng so sánh với món khác bằng 比……一点儿 hoặc 比……多了…",
+      "Cuối cùng mời bạn đến nhà chơi dịp năm mới."
+    ],
+    "patterns": [
+      {
+        "zh": "就要过新年了，我送你一个小礼物。",
+        "vi": "Sắp năm mới rồi, mình tặng cậu một món quà nhỏ."
+      },
+      {
+        "zh": "这么好啊，你还给我准备了礼物。",
+        "vi": "Tốt quá, cậu còn chuẩn bị quà cho mình."
+      },
+      {
+        "zh": "这个杯子比那个贵一点儿。",
+        "vi": "Cái cốc này đắt hơn cái kia một chút."
+      },
+      {
+        "zh": "新年的时候来我家玩儿吧！",
+        "vi": "Dịp năm mới đến nhà mình chơi nhé!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Tặng quà thầy cô",
+    "body_vi": [
+      "Ở Trung Quốc, học sinh tặng thầy cô quà vào Ngày Nhà giáo (教师节), là ngày 10 tháng 9, và dịp năm mới. Quà thường đơn giản như hoa, thiệp tự làm, hoặc một lời chúc chân thành.",
+      "Ở Việt Nam, Ngày Nhà giáo là 20 tháng 11, học sinh cũng hay tặng hoa và thiệp cho thầy cô – rất giống Trung Quốc.",
+      "Câu chúc hay dùng: 老师辛苦了 (thầy cô vất vả rồi), 祝老师新年快乐 (chúc thầy cô năm mới vui vẻ).",
+      "Khi tặng hay nhận quà, người Trung Quốc thường dùng cả hai tay để tỏ ý lịch sự, và người nhận thường không mở quà ngay trước mặt người tặng."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Ngày Nhà giáo",
+          "教师节",
+          "Jiàoshī Jié"
+        ],
+        [
+          "Thầy cô vất vả rồi",
+          "老师辛苦了",
+          "lǎoshī xīnkǔ le"
+        ],
+        [
+          "Chúc mừng năm mới",
+          "新年快乐",
+          "xīnnián kuàilè"
+        ],
+        [
+          "Thiệp chúc mừng",
+          "贺卡",
+          "hèkǎ"
+        ]
+      ]
+    }
+  }
 }

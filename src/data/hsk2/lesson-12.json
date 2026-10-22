@@ -1,35 +1,913 @@
 {
   "id": 12,
   "level": "hsk2",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "这里比北京冷多了",
-    "pinyin": "Zhèlǐ bǐ Běijīng lěng duō le",
+    "pinyin": "Zhèlǐ bǐ Běijīng lěngduō le",
     "vi": "Ở đây lạnh hơn Bắc Kinh nhiều"
   },
   "grammarTopics_vi": [
-    "Câu so sánh (4)",
-    "Câu so sánh (5)",
-    "Câu so sánh (6)"
+    "Câu so sánh (4): A 比 B + tính từ + 多了 / 得多",
+    "Câu so sánh (5): 比 với bổ ngữ trạng thái",
+    "Câu so sánh (6): khi có cả tân ngữ và bổ ngữ trạng thái"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu so sánh (4)",
-      "doneWhen": []
+      "vi": "Nói về thời tiết",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu so sánh (5)",
-      "doneWhen": []
+      "vi": "So sánh hai người làm cùng một việc: 他跑得比我快",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu so sánh (6)",
-      "doneWhen": []
+      "vi": "Nói sự khác biệt lớn bằng “多了 / 得多”",
+      "doneWhen": [
+        "text-1"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "☀️",
+      "word": "晴",
+      "pinyin": "qíng",
+      "vi": "nắng, quang đãng"
+    },
+    {
+      "emoji": "🏢",
+      "word": "楼",
+      "pinyin": "lóu",
+      "vi": "toà nhà, tầng"
+    },
+    {
+      "emoji": "🚇",
+      "word": "地铁",
+      "pinyin": "dìtiě",
+      "vi": "tàu điện ngầm"
+    },
+    {
+      "emoji": "☁️",
+      "word": "阴",
+      "pinyin": "yīn",
+      "vi": "âm u, nhiều mây"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong phòng, chị Vương Nhất Tuyết nhận điện thoại của Gia Nguyệt.",
+      "scene": "📞",
+      "audio": "audio/hsk2/12-1.mp3",
+      "vocabAudio": "audio/hsk2/12-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hôm nay Gia Nguyệt có giờ học lúc nào?",
+          "options": [
+            "上午",
+            "下午",
+            "晚上"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Thời tiết ở Bắc Kinh thế nào?",
+          "options": [
+            "不是晴天",
+            "正下着雪",
+            "有点儿冷"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "喂，家月，是你啊！有什么事情吗？",
+          "vi": "Alô, Gia Nguyệt, là em à! Có chuyện gì không em?",
+          "t": 0.54
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "没什么事，就想跟您说说话。",
+          "vi": "Không có gì đâu ạ, em chỉ muốn nói chuyện với chị.",
+          "t": 6.69
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好啊。你今天没课吗？",
+          "vi": "Được thôi. Hôm nay em không có giờ học à?",
+          "t": 11.52
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "下午有课。您那里天气怎么样？",
+          "vi": "Chiều em có giờ học. Chỗ chị thời tiết thế nào ạ?",
+          "t": 15.29
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "北京这几天虽然是晴天，但是有点儿冷。",
+          "vi": "Mấy hôm nay Bắc Kinh tuy trời nắng nhưng hơi lạnh.",
+          "t": 20.46
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我这里比北京冷多了，外边还正下着雪呢！",
+          "vi": "Chỗ em lạnh hơn Bắc Kinh nhiều, bên ngoài tuyết còn đang rơi đây!",
+          "t": 26.42
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "事情",
+          "pinyin": "shìqing",
+          "pos": "n.",
+          "vi": "việc, chuyện",
+          "example": {
+            "zh": "我今天事情很多。",
+            "vi": "Hôm nay tôi nhiều việc."
+          }
+        },
+        {
+          "zh": "晴",
+          "pinyin": "qíng",
+          "pos": "adj.",
+          "vi": "nắng, quang đãng",
+          "example": {
+            "zh": "今天是晴天。",
+            "vi": "Hôm nay trời nắng."
+          }
+        },
+        {
+          "zh": "正",
+          "pinyin": "zhèng",
+          "pos": "adv.",
+          "vi": "đang (đúng lúc)",
+          "example": {
+            "zh": "外边正下着雨。",
+            "vi": "Bên ngoài đang mưa."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g12-1",
+          "title_zh": "比较句（4）",
+          "title_vi": "Câu so sánh (4): hơn nhiều – 多了 / 得多",
+          "formula": [
+            [
+              {
+                "zh": "我这里",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比北京",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "冷",
+                "label": "Tính từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "多了 / 得多",
+                "label": "hơn nhiều",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "Muốn nói A hơn B rất nhiều, đặt 多了 hoặc 得多 SAU tính từ: 冷多了 = lạnh hơn nhiều, 快得多 = nhanh hơn nhiều. Tiếng Việt nói “lạnh hơn nhiều”, tiếng Trung cũng đặt “nhiều” ở cuối, nhưng nhớ là vẫn không thêm 很 trước tính từ.",
+          "examples": [
+            {
+              "zh": "我这里比北京冷多了。",
+              "vi": "Chỗ tôi lạnh hơn Bắc Kinh nhiều."
+            },
+            {
+              "zh": "坐飞机比坐火车快得多。",
+              "vi": "Đi máy bay nhanh hơn đi tàu nhiều."
+            },
+            {
+              "zh": "他觉得红茶比绿茶好喝得多。",
+              "vi": "Anh ấy thấy hồng trà ngon hơn lục trà nhiều."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这里比北京很冷多了。",
+              "right": "这里比北京冷多了。",
+              "why_vi": "Câu có 比 không dùng 很; mức độ đã thể hiện bằng 多了."
+            },
+            {
+              "wrong": "这里比北京多冷。",
+              "right": "这里比北京冷多了。",
+              "why_vi": "多了 / 得多 đứng sau tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tàu điện ngầm nhanh hơn xe buýt nhiều.”",
+              "options": [
+                "地铁比公交车快多了。",
+                "地铁比公交车很快多了。",
+                "地铁比公交车多快。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "正下着雪 = tuyết đang rơi (đúng lúc này). 正 + động từ + 着 (+ 呢) nhấn mạnh việc đang diễn ra."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong phòng khách, chị Vương Nhất Tuyết gọi điện cho cô Vương Nhất Phi.",
+      "scene": "❄️",
+      "audio": "audio/hsk2/12-3.mp3",
+      "vocabAudio": "audio/hsk2/12-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Thời tiết ở chỗ cô Nhất Phi thế nào?",
+          "options": [
+            "晴",
+            "阴",
+            "下雪"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Cô Nhất Phi định đi làm gì?",
+          "options": [
+            "上课",
+            "穿衣服",
+            "买吃的"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "喂，一飞，听家月说你那边下雪了，下得大不大？",
+          "vi": "Alô, Nhất Phi, nghe Gia Nguyệt nói chỗ em tuyết rơi, có dày không?",
+          "t": 0.58
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "今天不大，昨天比今天下得大。",
+          "vi": "Hôm nay không dày, hôm qua tuyết rơi dày hơn hôm nay.",
+          "t": 7.4
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "天气不好，你去外面的时候多穿点儿衣服。",
+          "vi": "Thời tiết xấu, lúc ra ngoài em mặc thêm áo vào nhé.",
+          "t": 11.9
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "这几天我在网上上课，没出去过。",
+          "vi": "Mấy hôm nay em dạy trên mạng, chưa ra ngoài lần nào.",
+          "t": 16.3
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那就好，有事记得给我打电话。",
+          "vi": "Vậy thì tốt, có việc gì nhớ gọi cho chị.",
+          "t": 20.55
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "好的。现在不下雪了，我出去买点儿吃的。",
+          "vi": "Vâng. Giờ tuyết tạnh rồi, em ra ngoài mua ít đồ ăn.",
+          "t": 24.39
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "一次多买点儿，阴天下雪什么的就少出去吧。",
+          "vi": "Mua một lần nhiều vào, trời âm u, tuyết rơi thì bớt ra ngoài nhé.",
+          "t": 29.85
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "外面",
+          "pinyin": "wàimiàn",
+          "pos": "n.",
+          "vi": "bên ngoài",
+          "example": {
+            "zh": "外面很冷。",
+            "vi": "Bên ngoài rất lạnh."
+          }
+        },
+        {
+          "zh": "阴",
+          "pinyin": "yīn",
+          "pos": "adj.",
+          "vi": "âm u, nhiều mây",
+          "example": {
+            "zh": "今天是阴天。",
+            "vi": "Hôm nay trời âm u."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g12-2",
+          "title_zh": "比较句（5）",
+          "title_vi": "Câu so sánh (5): 比 đi với bổ ngữ trạng thái",
+          "formula": [
+            [
+              {
+                "zh": "昨天",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比今天",
+                "label": "比 + B (trước động từ)",
+                "role": "ADV"
+              },
+              {
+                "zh": "下得",
+                "label": "Động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "大",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "李文",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "跑得",
+                "label": "Động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "比白家月",
+                "label": "比 + B (sau 得)",
+                "role": "ADV"
+              },
+              {
+                "zh": "快",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Khi so sánh cách hai người (hai thời điểm) làm cùng một việc, câu có bổ ngữ trạng thái 得. 比 + B đứng trước động từ hoặc ngay sau 得 đều được: 昨天比今天下得大 = 昨天下得比今天大.",
+          "examples": [
+            {
+              "zh": "昨天比今天下得大。",
+              "vi": "Hôm qua tuyết rơi dày hơn hôm nay."
+            },
+            {
+              "zh": "妈妈比我睡得晚。",
+              "vi": "Mẹ ngủ muộn hơn tôi."
+            },
+            {
+              "zh": "李文跑得比白家月快。",
+              "vi": "Lý Văn chạy nhanh hơn Gia Nguyệt."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "李文跑得快比白家月。",
+              "right": "李文跑得比白家月快。",
+              "why_vi": "比 + B đứng trước tính từ bổ ngữ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Em gái hát hay hơn tôi.”",
+              "options": [
+                "妹妹唱得比我好。",
+                "妹妹唱得好比我。",
+                "妹妹比我唱好得。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "记得给我打电话 = nhớ gọi điện cho tôi. 记得 + việc cần làm = nhớ làm việc đó."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong phòng, Lý Văn gọi điện cho Gia Nguyệt.",
+      "scene": "🏃",
+      "audio": "audio/hsk2/12-5.mp3",
+      "vocabAudio": "audio/hsk2/12-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn tìm Gia Nguyệt để làm gì?",
+          "options": [
+            "一起去跑步",
+            "一起坐地铁",
+            "一起见朋友"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Lý Văn đến tìm Gia Nguyệt bằng cách nào?",
+          "options": [
+            "跑步",
+            "打车",
+            "坐地铁"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "喂，家月，今天天气不错，我们去跑步吧！",
+          "vi": "Alô, Gia Nguyệt, hôm nay trời đẹp, mình đi chạy bộ đi!",
+          "t": 0.9
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你跑步跑得比我快，我们能一起跑吗？",
+          "vi": "Cậu chạy nhanh hơn mình, mình chạy cùng nhau được không?",
+          "t": 7.84
+        },
+        {
+          "speaker": "liwen",
+          "zh": "可以的，我慢慢跑，等着你。",
+          "vi": "Được mà, mình chạy chầm chậm, đợi cậu.",
+          "t": 13.43
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好吧。你真爱跑步啊！",
+          "vi": "Thôi được. Cậu mê chạy bộ thật đấy!",
+          "t": 17.87
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我从小就经常跟爸爸跑步，跑步能让人快乐！",
+          "vi": "Từ nhỏ mình đã hay chạy bộ với bố, chạy bộ làm người ta vui vẻ!",
+          "t": 21.57
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好，那我准备一下。",
+          "vi": "Được, vậy để mình chuẩn bị một chút.",
+          "t": 28.67
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我现在坐地铁去找你，一会儿楼下见。",
+          "vi": "Giờ mình đi tàu điện ngầm đến tìm cậu, lát gặp nhau dưới nhà nhé.",
+          "t": 32.51
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "从小",
+          "pinyin": "cóngxiǎo",
+          "pos": "adv.",
+          "vi": "từ nhỏ",
+          "example": {
+            "zh": "她从小就喜欢画画。",
+            "vi": "Cô ấy thích vẽ từ nhỏ."
+          }
+        },
+        {
+          "zh": "地铁",
+          "pinyin": "dìtiě",
+          "pos": "n.",
+          "vi": "tàu điện ngầm",
+          "example": {
+            "zh": "我每天坐地铁上班。",
+            "vi": "Ngày nào tôi cũng đi làm bằng tàu điện ngầm."
+          }
+        },
+        {
+          "zh": "楼",
+          "pinyin": "lóu",
+          "pos": "n.",
+          "vi": "toà nhà, tầng",
+          "example": {
+            "zh": "我在楼下等你。",
+            "vi": "Tôi đợi bạn ở dưới nhà."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h2-g12-3",
+          "title_zh": "比较句（6）",
+          "title_vi": "Câu so sánh (6): có cả tân ngữ và bổ ngữ trạng thái",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "跑步",
+                "label": "Động từ + tân ngữ",
+                "role": "V"
+              },
+              {
+                "zh": "跑得",
+                "label": "lặp động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "比我",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "快",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "白家月",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "汉字",
+                "label": "Tân ngữ đưa lên trước",
+                "role": "O"
+              },
+              {
+                "zh": "写得",
+                "label": "Động từ + 得",
+                "role": "V"
+              },
+              {
+                "zh": "比陈天中好",
+                "label": "比 + B + bổ ngữ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Nhắc lại bài 7: sau 得 không có tân ngữ. Vì vậy khi so sánh mà động từ có tân ngữ (写汉字, 踢足球) hoặc là từ ly hợp (跑步), ta lặp động từ (跑步跑得比我快) hoặc đưa tân ngữ lên trước (汉字写得比陈天中好).",
+          "examples": [
+            {
+              "zh": "你跑步跑得比我快。",
+              "vi": "Cậu chạy nhanh hơn tôi."
+            },
+            {
+              "zh": "白家月汉字写得比陈天中好。",
+              "vi": "Gia Nguyệt viết chữ Hán đẹp hơn Trần Thiên Trung."
+            },
+            {
+              "zh": "他踢足球比我踢得好。",
+              "vi": "Anh ấy đá bóng giỏi hơn tôi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "他踢得足球比我好。",
+              "right": "他踢足球踢得比我好。",
+              "why_vi": "Tân ngữ không đứng sau 得: lặp động từ hoặc đưa tân ngữ lên trước."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chị ấy bơi nhanh hơn tôi.”",
+              "options": [
+                "她游泳游得比我快。",
+                "她游得泳比我快。",
+                "她游泳比我快得游。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "楼下见 = gặp nhau dưới nhà. 楼上 = trên lầu, 楼下 = dưới lầu."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng, Gia Nguyệt viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk2/12-7.mp3",
+      "vocabAudio": "audio/hsk2/12-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Mấy hôm nay Gia Nguyệt đi học bằng cách nào?",
+          "options": [
+            "跑步",
+            "走路",
+            "坐地铁"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Lý Văn rủ Gia Nguyệt đi làm gì?",
+          "options": [
+            "跑步",
+            "坐地铁",
+            "等朋友"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "前几天天气不好，我没走路，每天坐两站地铁去学校。",
+          "vi": "Mấy hôm trước thời tiết xấu, mình không đi bộ, ngày nào cũng đi hai bến tàu điện ngầm đến trường.",
+          "t": 0.89
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "今天是个大晴天，李文让我跟他去外面跑步。",
+          "vi": "Hôm nay trời nắng đẹp, Lý Văn rủ mình ra ngoài chạy bộ với cậu ấy.",
+          "t": 8.09
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "他小时候经常跑步，跑得比我快，但是他会等我。",
+          "vi": "Hồi nhỏ cậu ấy hay chạy bộ, chạy nhanh hơn mình, nhưng cậu ấy sẽ đợi mình.",
+          "t": 13.79
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "跟李文一起跑步，我好高兴啊！",
+          "vi": "Chạy bộ cùng Lý Văn, mình vui quá!",
+          "t": 20.23
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "站",
+          "pinyin": "zhàn",
+          "pos": "n.",
+          "vi": "bến, trạm, ga",
+          "example": {
+            "zh": "坐两站就到了。",
+            "vi": "Đi hai bến là tới."
+          }
+        },
+        {
+          "zh": "小时候",
+          "pinyin": "xiǎoshíhou",
+          "pos": "n.",
+          "vi": "hồi nhỏ",
+          "example": {
+            "zh": "我小时候住在北京。",
+            "vi": "Hồi nhỏ tôi sống ở Bắc Kinh."
+          }
+        },
+        {
+          "zh": "好",
+          "pinyin": "hǎo",
+          "pos": "adv.",
+          "vi": "thật là, rất (cảm thán)",
+          "example": {
+            "zh": "我好高兴啊！",
+            "vi": "Tôi vui quá!"
+          }
+        }
+      ],
+      "pangdaTip": "大晴天 = ngày nắng đẹp, trời trong xanh. 好 + tính từ + 啊 là câu cảm thán: 好冷啊! (lạnh quá!)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你看，前边的那个人___高啊！",
+      "bank": [
+        "好",
+        "正",
+        "从小"
+      ],
+      "answer": "好"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "今天的天气没有昨天好，___下着雨呢。",
+      "bank": [
+        "正",
+        "好",
+        "外面"
+      ],
+      "answer": "正"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "对不起，公司这几天___很多，太忙了，所以忘了你的生日。",
+      "bank": [
+        "事情",
+        "外面",
+        "从小"
+      ],
+      "answer": "事情"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我___就爱运动，经常跟朋友一起踢球、跑步。",
+      "bank": [
+        "从小",
+        "正",
+        "事情"
+      ],
+      "answer": "从小"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "快要考试了，她在___看书呢。",
+      "bank": [
+        "外面",
+        "事情",
+        "好"
+      ],
+      "answer": "外面"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "比",
+        "这里",
+        "冷多了",
+        "北京"
+      ],
+      "answers": [
+        "这里比北京冷多了"
+      ],
+      "vi": "Ở đây lạnh hơn Bắc Kinh nhiều.",
+      "explain_vi": "A + 比 + B + tính từ + 多了."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "跑得",
+        "他",
+        "快",
+        "比我"
+      ],
+      "answers": [
+        "他跑得比我快"
+      ],
+      "vi": "Anh ấy chạy nhanh hơn tôi.",
+      "explain_vi": "Động từ + 得 + 比 + B + bổ ngữ."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "地铁",
+      "options": [
+        {
+          "emoji": "🚇",
+          "label": "Tàu điện ngầm"
+        },
+        {
+          "emoji": "🚌",
+          "label": "Xe buýt"
+        },
+        {
+          "emoji": "🏢",
+          "label": "Toà nhà"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "昨天比今天下得大。",
+      "emoji": "❄️",
+      "statement_vi": "Hôm nay tuyết rơi dày hơn hôm qua.",
+      "answer": false,
+      "explain_vi": "昨天比今天下得大 = hôm qua rơi dày hơn."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "✈️🚆",
+      "sentence": "坐飞机比坐火车快___多。",
+      "options": [
+        "得",
+        "的",
+        "地"
+      ],
+      "answer": 0,
+      "explain_vi": "快得多 = nhanh hơn nhiều."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "您那里天气怎么样？",
+          "a": "虽然是晴天，但是有点儿冷。"
+        },
+        {
+          "q": "雪下得大不大？",
+          "a": "今天不大，昨天比今天下得大。"
+        },
+        {
+          "q": "你怎么去找她？",
+          "a": "我坐地铁去。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Bản tin thời tiết của lớp",
+    "steps_vi": [
+      "Chia nhóm 3–4 người, mỗi nhóm chọn hai thành phố, ví dụ Hà Nội và Bắc Kinh, hoặc TP. Hồ Chí Minh và Thượng Hải.",
+      "Tra thời tiết hôm nay của hai nơi trên điện thoại.",
+      "Soạn một bản tin ngắn: trời nắng hay âm u, có mưa, tuyết không, so sánh nhiệt độ bằng 比……多了 / 得多.",
+      "Mỗi nhóm đọc bản tin trước lớp, các nhóm khác nghe rồi hỏi lại."
+    ],
+    "patterns": [
+      {
+        "zh": "今天北京是晴天，但是有点儿冷。",
+        "vi": "Hôm nay Bắc Kinh trời nắng nhưng hơi lạnh."
+      },
+      {
+        "zh": "河内比北京热多了。",
+        "vi": "Hà Nội nóng hơn Bắc Kinh nhiều."
+      },
+      {
+        "zh": "上海正下着雨呢。",
+        "vi": "Thượng Hải đang mưa."
+      },
+      {
+        "zh": "出去的时候多穿点儿衣服。",
+        "vi": "Lúc ra ngoài nhớ mặc thêm áo."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Khí hậu Trung Quốc: Bắc lạnh, Nam nóng",
+    "body_vi": [
+      "Trung Quốc rất rộng nên thời tiết hai miền khác nhau nhiều. Mùa đông ở miền Bắc như Bắc Kinh, Cáp Nhĩ Tân rất lạnh, có tuyết; Cáp Nhĩ Tân còn có lễ hội băng đăng nổi tiếng. Miền Nam như Quảng Châu ấm áp quanh năm, khá giống miền Bắc Việt Nam.",
+      "Nhà ở miền Bắc Trung Quốc thường có hệ thống sưởi chung (暖气) vào mùa đông, nên trong nhà ấm hơn bên ngoài rất nhiều. Miền Nam thường không có sưởi, nên dù nhiệt độ không thấp lắm, người ta vẫn thấy lạnh trong nhà.",
+      "Người Trung Quốc hay hỏi thăm nhau về thời tiết khi gọi điện, như chị Nhất Tuyết và Gia Nguyệt trong bài. Đây là cách bắt chuyện rất tự nhiên."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Trời nắng",
+          "晴天",
+          "qíngtiān"
+        ],
+        [
+          "Trời âm u",
+          "阴天",
+          "yīntiān"
+        ],
+        [
+          "Tuyết rơi",
+          "下雪",
+          "xià xuě"
+        ],
+        [
+          "Hệ thống sưởi",
+          "暖气",
+          "nuǎnqì"
+        ],
+        [
+          "Dự báo thời tiết",
+          "天气预报",
+          "tiānqì yùbào"
+        ]
+      ]
+    }
+  }
 }

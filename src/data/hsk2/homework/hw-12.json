@@ -1,41 +1,333 @@
 {
  "lessonId": 12,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Đi bộ đến trường",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Đi bộ đến trường",
+    "zh": "我家离学校很远，我每天都坐地铁去上学，要坐五站。这几天天气很好，都是大晴天。我的好朋友小李从小就爱运动，他跑步跑得比我快多了，所以他经常走路去学校。今天他让我跟他一起走路去学校，他走得比我快，但是他会在前边等我。我觉得走路比坐地铁有意思多了！",
+    "vi": "Nhà mình cách trường rất xa, ngày nào mình cũng đi tàu điện ngầm đến trường, phải đi năm bến. Mấy hôm nay thời tiết rất đẹp, toàn ngày nắng. Bạn thân của mình là Tiểu Lý mê thể thao từ nhỏ, cậu ấy chạy nhanh hơn mình nhiều, nên hay đi bộ đến trường. Hôm nay cậu ấy rủ mình cùng đi bộ đến trường, cậu ấy đi nhanh hơn mình nhưng sẽ đợi mình ở phía trước. Mình thấy đi bộ thú vị hơn đi tàu điện ngầm nhiều!"
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "我每天怎么去上学？",
+     "options": [
+      "走路",
+      "坐地铁",
+      "打车"
+     ],
+     "answer": 1,
+     "explain_vi": "我每天都坐地铁去上学。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "谁跑步跑得快？",
+     "options": [
+      "小李",
+      "我",
+      "妈妈"
+     ],
+     "answer": 0,
+     "explain_vi": "他跑步跑得比我快多了。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "今天我们是怎么去学校的？",
+     "options": [
+      "坐地铁",
+      "跑步",
+      "走路"
+     ],
+     "answer": 2,
+     "explain_vi": "今天他让我跟他一起走路去学校。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "这几天天气不好。",
+     "answer": false,
+     "explain_vi": "这几天天气很好，都是大晴天。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "小李从小就爱运动。",
+     "answer": true,
+     "explain_vi": "小李从小就爱运动。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "我觉得坐地铁比走路有意思。",
+     "answer": false,
+     "explain_vi": "我觉得走路比坐地铁有意思多了！"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "今天天气怎么样？",
+       "a": "是个大晴天。"
+      },
+      {
+       "q": "你跑得快吗？",
+       "a": "我跑得没有他快。"
+      },
+      {
+       "q": "你怎么去学校？",
+       "a": "我坐地铁去。"
+      },
+      {
+       "q": "你小时候喜欢做什么？",
+       "a": "我小时候喜欢画画。"
+      }
+     ],
+     "explain_vi": "Hỏi thời tiết → 晴天; hỏi chạy nhanh không → 没有他快; hỏi đi bằng gì → 坐地铁; hỏi hồi nhỏ → 小时候."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "北京这几天是{{1}}天，但是有点儿冷。我这里比北京冷{{2}}了，外边还{{3}}下着雪呢！李文跑得{{4}}我快。",
+     "bank": [
+      "晴",
+      "多",
+      "正",
+      "比",
+      "阴"
+     ],
+     "answers": [
+      "晴",
+      "多",
+      "正",
+      "比"
+     ],
+     "explain_vi": "晴天 · 冷多了 · 正下着雪 · 跑得比我快."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "多了",
+      "今天",
+      "比昨天",
+      "冷"
+     ],
+     "answers": [
+      "今天比昨天冷多了"
+     ],
+     "vi": "Hôm nay lạnh hơn hôm qua nhiều.",
+     "explain_vi": "比 + B + tính từ + 多了.",
+     "grammarRef": "h2-g12-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "比我",
+      "他",
+      "唱得",
+      "好"
+     ],
+     "answers": [
+      "他唱得比我好"
+     ],
+     "vi": "Anh ấy hát hay hơn tôi.",
+     "explain_vi": "Động từ + 得 + 比 + B + bổ ngữ.",
+     "grammarRef": "h2-g12-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "跑得",
+      "你",
+      "跑步",
+      "比我快"
+     ],
+     "answers": [
+      "你跑步跑得比我快"
+     ],
+     "vi": "Bạn chạy nhanh hơn tôi.",
+     "explain_vi": "Lặp động từ của từ ly hợp.",
+     "grammarRef": "h2-g12-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "正",
+      "外边",
+      "下着雨",
+      "呢"
+     ],
+     "answers": [
+      "外边正下着雨呢"
+     ],
+     "vi": "Bên ngoài đang mưa.",
+     "explain_vi": "正 + động từ + 着 + 呢.",
+     "grammarRef": "h2-g12-1"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "楼下",
+      "一会儿",
+      "见"
+     ],
+     "answers": [
+      "一会儿楼下见"
+     ],
+     "vi": "Lát nữa gặp dưới nhà.",
+     "explain_vi": "Thời gian + nơi chốn + 见.",
+     "grammarRef": "h2-g12-3"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Ở đây lạnh hơn Bắc Kinh nhiều.",
+     "acceptedAnswers": [
+      "这里比北京冷多了",
+      "这里比北京冷得多",
+      "这儿比北京冷多了"
+     ],
+     "requiredKeywords": [
+      "比",
+      "多"
+     ],
+     "wordBank": [
+      "这里",
+      "比",
+      "北京",
+      "冷",
+      "多了"
+     ],
+     "explain_vi": "比 + 多了.",
+     "grammarRef": "h2-g12-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Anh ấy chạy nhanh hơn tôi.",
+     "acceptedAnswers": [
+      "他跑得比我快",
+      "他比我跑得快"
+     ],
+     "requiredKeywords": [
+      "比",
+      "跑得"
+     ],
+     "wordBank": [
+      "他",
+      "跑得",
+      "比我",
+      "快"
+     ],
+     "explain_vi": "跑得比我快.",
+     "grammarRef": "h2-g12-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay trời nắng.",
+     "acceptedAnswers": [
+      "今天是晴天",
+      "今天晴天"
+     ],
+     "requiredKeywords": [
+      "晴"
+     ],
+     "wordBank": [
+      "今天",
+      "是",
+      "晴天"
+     ],
+     "explain_vi": "晴天 = ngày nắng.",
+     "grammarRef": "h2-g12-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Tôi đi làm bằng tàu điện ngầm.",
+     "acceptedAnswers": [
+      "我坐地铁上班",
+      "我坐地铁去上班"
+     ],
+     "requiredKeywords": [
+      "地铁"
+     ],
+     "wordBank": [
+      "我",
+      "坐",
+      "地铁",
+      "上班"
+     ],
+     "explain_vi": "坐 + phương tiện + động từ.",
+     "grammarRef": "h2-g12-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Hồi nhỏ tôi sống ở Bắc Kinh.",
+     "acceptedAnswers": [
+      "我小时候住在北京",
+      "小时候我住在北京"
+     ],
+     "requiredKeywords": [
+      "小时候"
+     ],
+     "wordBank": [
+      "我",
+      "小时候",
+      "住在",
+      "北京"
+     ],
+     "explain_vi": "小时候 = hồi nhỏ.",
+     "grammarRef": "h2-g12-3"
+    }
+   ]
   }
  ]
 }

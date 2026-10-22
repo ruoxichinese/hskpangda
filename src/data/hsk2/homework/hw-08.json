@@ -1,41 +1,332 @@
 {
  "lessonId": 8,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Sinh nhật của vợ",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Sinh nhật của vợ",
+    "zh": "上个星期六是妻子的生日。虽然她自己忘了，但是我记得。我请她去饭馆吃饭，我们点了很多菜。吃完饭，我们去看了个爱情片，她觉得这个电影比上次看的更有意思。我还给她买了一块手表，虽然花了不少钱，但是她很喜欢。",
+    "vi": "Thứ bảy tuần trước là sinh nhật vợ tôi. Tuy cô ấy quên, nhưng tôi nhớ. Tôi mời cô ấy đi ăn nhà hàng, chúng tôi gọi rất nhiều món. Ăn xong, chúng tôi đi xem một bộ phim tình cảm, cô ấy thấy phim này hay hơn phim lần trước. Tôi còn mua cho cô ấy một chiếc đồng hồ, tuy tốn không ít tiền nhưng cô ấy rất thích."
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "上个星期六是谁的生日？",
+     "options": [
+      "丈夫",
+      "妻子",
+      "孩子"
+     ],
+     "answer": 1,
+     "explain_vi": "上个星期六是妻子的生日。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "他们看了什么电影？",
+     "options": [
+      "爱情片",
+      "中国电影",
+      "很长的电影"
+     ],
+     "answer": 0,
+     "explain_vi": "我们去看了个爱情片。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "丈夫给妻子买了什么？",
+     "options": [
+      "衣服",
+      "书包",
+      "手表"
+     ],
+     "answer": 2,
+     "explain_vi": "我还给她买了一块手表。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "妻子记得自己的生日。",
+     "answer": false,
+     "explain_vi": "虽然她自己忘了。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "妻子觉得这个电影比上次的更有意思。",
+     "answer": true,
+     "explain_vi": "这个电影比上次看的更有意思。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "手表很便宜。",
+     "answer": false,
+     "explain_vi": "花了不少钱。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "这两块手表怎么样？",
+       "a": "左边的比右边的好看。"
+      },
+      {
+       "q": "怎么点这么多菜？",
+       "a": "今天是你的生日啊！"
+      },
+      {
+       "q": "你记得他的名字吗？",
+       "a": "记得，他叫李文。"
+      },
+      {
+       "q": "我们在哪儿买票？",
+       "a": "到网上买吧，网上更便宜。"
+      }
+     ],
+     "explain_vi": "So sánh → 比; hỏi vì sao gọi nhiều → sinh nhật; hỏi có nhớ không → 记得; hỏi mua vé ở đâu → 网上."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我觉得左边的手表{{1}}右边的好看。这个电影比那个{{2}}有意思。{{3}}今天很冷，{{4}}我还是去跑步了。",
+     "bank": [
+      "比",
+      "更",
+      "虽然",
+      "但是",
+      "花"
+     ],
+     "answers": [
+      "比",
+      "更",
+      "虽然",
+      "但是"
+     ],
+     "explain_vi": "A 比 B · 更 + tính từ · 虽然……，但是……."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "比",
+      "他",
+      "我",
+      "大"
+     ],
+     "answers": [
+      "他比我大",
+      "我比他大"
+     ],
+     "vi": "Anh ấy lớn tuổi hơn tôi.",
+     "explain_vi": "A + 比 + B + tính từ.",
+     "grammarRef": "h2-g8-1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "更",
+      "这个",
+      "好吃",
+      "比那个"
+     ],
+     "answers": [
+      "这个比那个更好吃"
+     ],
+     "vi": "Cái này còn ngon hơn cái kia.",
+     "explain_vi": "比 + B + 更 + tính từ.",
+     "grammarRef": "h2-g8-2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "但是",
+      "虽然",
+      "很累",
+      "很高兴",
+      "，"
+     ],
+     "answers": [
+      "虽然很累，但是很高兴"
+     ],
+     "vi": "Tuy mệt nhưng rất vui.",
+     "explain_vi": "虽然……，但是…….",
+     "grammarRef": "h2-g8-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "花了",
+      "今天",
+      "很多钱",
+      "我"
+     ],
+     "answers": [
+      "我今天花了很多钱",
+      "今天我花了很多钱"
+     ],
+     "vi": "Hôm nay tôi tiêu rất nhiều tiền.",
+     "explain_vi": "花 + tiền.",
+     "grammarRef": "h2-g8-3"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "记得",
+      "我",
+      "你的生日"
+     ],
+     "answers": [
+      "我记得你的生日"
+     ],
+     "vi": "Tôi nhớ sinh nhật bạn.",
+     "explain_vi": "记得 + tân ngữ.",
+     "grammarRef": "h2-g8-2"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay lạnh hơn hôm qua.",
+     "acceptedAnswers": [
+      "今天比昨天冷"
+     ],
+     "requiredKeywords": [
+      "比"
+     ],
+     "wordBank": [
+      "今天",
+      "比",
+      "昨天",
+      "冷"
+     ],
+     "explain_vi": "A + 比 + B + tính từ.",
+     "grammarRef": "h2-g8-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Tuy em quên, nhưng anh nhớ.",
+     "acceptedAnswers": [
+      "虽然你忘了，但是我记得"
+     ],
+     "requiredKeywords": [
+      "虽然",
+      "但是"
+     ],
+     "wordBank": [
+      "虽然",
+      "你忘了",
+      "但是",
+      "我",
+      "记得"
+     ],
+     "explain_vi": "虽然……，但是…….",
+     "grammarRef": "h2-g8-3"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Phim này hay hơn phim kia.",
+     "acceptedAnswers": [
+      "这个电影比那个有意思",
+      "这个电影比那个更有意思",
+      "这个电影比那个电影有意思"
+     ],
+     "requiredKeywords": [
+      "比",
+      "有意思"
+     ],
+     "wordBank": [
+      "这个电影",
+      "比",
+      "那个",
+      "有意思"
+     ],
+     "explain_vi": "比 + 有意思.",
+     "grammarRef": "h2-g8-1"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Chúng ta gọi món đi.",
+     "acceptedAnswers": [
+      "我们点菜吧"
+     ],
+     "requiredKeywords": [
+      "点菜"
+     ],
+     "wordBank": [
+      "我们",
+      "点菜",
+      "吧"
+     ],
+     "explain_vi": "点菜 = gọi món.",
+     "grammarRef": "h2-g8-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Đây là vợ tôi.",
+     "acceptedAnswers": [
+      "这是我妻子",
+      "这是我的妻子"
+     ],
+     "requiredKeywords": [
+      "妻子"
+     ],
+     "wordBank": [
+      "这是",
+      "我",
+      "妻子"
+     ],
+     "explain_vi": "妻子 = vợ.",
+     "grammarRef": "h2-g8-3"
+    }
+   ]
   }
  ]
 }

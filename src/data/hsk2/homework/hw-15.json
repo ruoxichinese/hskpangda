@@ -1,41 +1,338 @@
 {
  "lessonId": 15,
  "level": "hsk2",
- "status": "draft",
+ "status": "ready",
  "sections": [
   {
    "type": "reading",
    "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
+   "title_vi": "Kế hoạch đi Bắc Kinh",
+   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
    "passage": {
-    "zh": "",
-    "vi": ""
+    "title_vi": "Kế hoạch đi Bắc Kinh",
+    "zh": "我去过两次上海，但是没去过北京。明年六月我想去一次北京。我已经在网上买好了机票，还买了颐和园的门票。我有一年没见我的高中同学了，他现在在北京工作，我想去找他一次。出门旅游，多个朋友多条路！",
+    "vi": "Mình đã đến Thượng Hải hai lần nhưng chưa đến Bắc Kinh bao giờ. Tháng sáu năm sau mình muốn đi Bắc Kinh một lần. Mình đã mua sẵn vé máy bay trên mạng, còn mua cả vé vào Di Hoà Viên. Mình đã một năm chưa gặp bạn cấp ba, giờ cậu ấy làm việc ở Bắc Kinh, mình muốn đến tìm cậu ấy một lần. Đi xa, thêm một người bạn là thêm một con đường!"
    },
-   "questions": []
+   "questions": [
+    {
+     "id": "a1",
+     "kind": "mcq",
+     "prompt_zh": "我去过几次上海？",
+     "options": [
+      "一次",
+      "两次",
+      "三次"
+     ],
+     "answer": 1,
+     "explain_vi": "我去过两次上海。"
+    },
+    {
+     "id": "a2",
+     "kind": "mcq",
+     "prompt_zh": "我想什么时候去北京？",
+     "options": [
+      "明年六月",
+      "今年六月",
+      "下个月"
+     ],
+     "answer": 0,
+     "explain_vi": "明年六月我想去一次北京。"
+    },
+    {
+     "id": "a3",
+     "kind": "mcq",
+     "prompt_zh": "我的高中同学在哪儿工作？",
+     "options": [
+      "上海",
+      "颐和园",
+      "北京"
+     ],
+     "answer": 2,
+     "explain_vi": "他现在在北京工作。"
+    },
+    {
+     "id": "a4",
+     "kind": "truefalse",
+     "statement_zh": "我去过北京。",
+     "answer": false,
+     "explain_vi": "但是没去过北京。"
+    },
+    {
+     "id": "a5",
+     "kind": "truefalse",
+     "statement_zh": "我已经买好了机票。",
+     "answer": true,
+     "explain_vi": "我已经在网上买好了机票。"
+    },
+    {
+     "id": "a6",
+     "kind": "truefalse",
+     "statement_zh": "我有一年没见我的高中同学了。",
+     "answer": true,
+     "explain_vi": "我有一年没见我的高中同学了。"
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "title_vi": "Nối câu hỏi với câu trả lời",
+   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "questions": [
+    {
+     "id": "a7",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你去过几次中国？",
+       "a": "去过一次。"
+      },
+      {
+       "q": "你多长时间没回国了？",
+       "a": "有半年多了。"
+      },
+      {
+       "q": "门票是在哪儿买的？",
+       "a": "在网上买的。"
+      },
+      {
+       "q": "你是什么时候的飞机？",
+       "a": "星期五的。"
+      }
+     ],
+     "explain_vi": "Hỏi mấy lần → 一次; hỏi bao lâu → 有半年多了; hỏi mua ở đâu → 网上; hỏi chuyến bay → ngày."
+    }
+   ]
   },
   {
    "type": "reading",
    "part": "A4",
    "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "instructions_vi": "Có một từ thừa.",
+   "questions": [
+    {
+     "id": "a8",
+     "kind": "cloze",
+     "text": "我{{1}}一年没回国了，很想家。就要过年了，我买好了{{2}}，星期五就要{{3}}北京了。我想再去一{{4}}颐和园。",
+     "bank": [
+      "有",
+      "机票",
+      "飞",
+      "次",
+      "鸟"
+     ],
+     "answers": [
+      "有",
+      "机票",
+      "飞",
+      "次"
+     ],
+     "explain_vi": "有一年没回国 · 机票 · 飞北京 · 再去一次."
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B1",
    "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "两次",
+      "他",
+      "来过",
+      "这儿"
+     ],
+     "answers": [
+      "他来过这儿两次"
+     ],
+     "vi": "Anh ấy đã đến đây hai lần.",
+     "explain_vi": "Đại từ 这儿 đứng trước số lần.",
+     "grammarRef": "h2-g15-2"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "一次",
+      "我想",
+      "再",
+      "去"
+     ],
+     "answers": [
+      "我想再去一次"
+     ],
+     "vi": "Tôi muốn đi thêm một lần nữa.",
+     "explain_vi": "再 + động từ + 一次.",
+     "grammarRef": "h2-g15-1"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "半年",
+      "我们",
+      "有",
+      "没见了"
+     ],
+     "answers": [
+      "我们有半年没见了"
+     ],
+     "vi": "Chúng ta đã nửa năm không gặp rồi.",
+     "explain_vi": "有 + số lượng + 没……了.",
+     "grammarRef": "h2-g15-3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "一次",
+      "我",
+      "找过",
+      "他"
+     ],
+     "answers": [
+      "我找过他一次"
+     ],
+     "vi": "Tôi đã tìm anh ấy một lần.",
+     "explain_vi": "Đại từ đứng trước số lần.",
+     "grammarRef": "h2-g15-2"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "机场",
+      "我",
+      "你",
+      "送",
+      "去"
+     ],
+     "answers": [
+      "我送你去机场"
+     ],
+     "vi": "Tôi đưa bạn ra sân bay.",
+     "explain_vi": "送 + người + 去 + nơi chốn.",
+     "grammarRef": "h2-g15-3"
+    }
+   ]
   },
   {
    "type": "writing",
    "part": "B2",
    "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn đi Trung Quốc thêm một lần nữa.",
+     "acceptedAnswers": [
+      "我想再去一次中国",
+      "我想再去中国一次"
+     ],
+     "requiredKeywords": [
+      "再",
+      "一次"
+     ],
+     "wordBank": [
+      "我",
+      "想",
+      "再去",
+      "一次",
+      "中国"
+     ],
+     "explain_vi": "再 + động từ + 一次.",
+     "grammarRef": "h2-g15-1"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Tôi đã gặp anh ấy hai lần.",
+     "acceptedAnswers": [
+      "我见过他两次",
+      "我见了他两次"
+     ],
+     "requiredKeywords": [
+      "两次"
+     ],
+     "wordBank": [
+      "我",
+      "见过",
+      "他",
+      "两次"
+     ],
+     "explain_vi": "Đại từ + số lần.",
+     "grammarRef": "h2-g15-2"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tôi đã một tháng chưa gọi điện về nhà.",
+     "acceptedAnswers": [
+      "我有一个月没给家里打电话了"
+     ],
+     "requiredKeywords": [
+      "有",
+      "一个月"
+     ],
+     "wordBank": [
+      "我",
+      "有",
+      "一个月",
+      "没",
+      "给家里",
+      "打电话",
+      "了"
+     ],
+     "explain_vi": "有 + số lượng + 没……了.",
+     "grammarRef": "h2-g15-3"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Mai tôi bay đi Bắc Kinh.",
+     "acceptedAnswers": [
+      "明天我飞北京",
+      "我明天飞北京",
+      "明天我坐飞机去北京"
+     ],
+     "requiredKeywords": [
+      "飞",
+      "北京"
+     ],
+     "wordBank": [
+      "明天",
+      "我",
+      "飞",
+      "北京"
+     ],
+     "explain_vi": "飞 + địa danh.",
+     "grammarRef": "h2-g15-3"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Vé vào cửa bao nhiêu tiền?",
+     "acceptedAnswers": [
+      "门票多少钱",
+      "门票多少钱一张"
+     ],
+     "requiredKeywords": [
+      "门票"
+     ],
+     "wordBank": [
+      "门票",
+      "多少",
+      "钱"
+     ],
+     "explain_vi": "门票 = vé vào cửa.",
+     "grammarRef": "h2-g15-2"
+    }
+   ]
   }
  ]
 }
