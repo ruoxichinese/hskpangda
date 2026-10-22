@@ -31,6 +31,7 @@ jobs:
           VITE_HASH_ROUTER: '1'
           VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
+          VITE_REQUIRE_CLASS: ${{ vars.VITE_REQUIRE_CLASS }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
