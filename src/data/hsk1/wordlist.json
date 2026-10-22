@@ -1070,6 +1070,211 @@
    "zh": "觉",
    "pinyin": "jiào",
    "vi": "giấc ngủ"
+  },
+  {
+   "zh": "一点儿",
+   "pinyin": "yìdiǎnr",
+   "vi": "một chút"
+  },
+  {
+   "zh": "外",
+   "pinyin": "wài",
+   "vi": "ngoài"
+  },
+  {
+   "zh": "唱",
+   "pinyin": "chàng",
+   "vi": "hát"
+  },
+  {
+   "zh": "汉字",
+   "pinyin": "Hànzì",
+   "vi": "chữ Hán"
+  },
+  {
+   "zh": "姓名",
+   "pinyin": "xìngmíng",
+   "vi": "họ tên"
+  },
+  {
+   "zh": "元",
+   "pinyin": "yuán",
+   "vi": "đồng, tệ"
+  },
+  {
+   "zh": "冷",
+   "pinyin": "lěng",
+   "vi": "lạnh"
+  },
+  {
+   "zh": "热",
+   "pinyin": "rè",
+   "vi": "nóng"
+  },
+  {
+   "zh": "雪",
+   "pinyin": "xuě",
+   "vi": "tuyết"
+  },
+  {
+   "zh": "下雪",
+   "pinyin": "xià xuě",
+   "vi": "tuyết rơi"
+  },
+  {
+   "zh": "儿子",
+   "pinyin": "érzi",
+   "vi": "con trai"
+  },
+  {
+   "zh": "商店",
+   "pinyin": "shāngdiàn",
+   "vi": "cửa hàng"
+  },
+  {
+   "zh": "店",
+   "pinyin": "diàn",
+   "vi": "cửa hàng, quán"
+  },
+  {
+   "zh": "公交站",
+   "pinyin": "gōngjiāozhàn",
+   "vi": "bến xe buýt"
+  },
+  {
+   "zh": "难",
+   "pinyin": "nán",
+   "vi": "khó"
+  },
+  {
+   "zh": "或者",
+   "pinyin": "huòzhě",
+   "vi": "hoặc"
+  },
+  {
+   "zh": "开心",
+   "pinyin": "kāixīn",
+   "vi": "vui"
+  },
+  {
+   "zh": "口",
+   "pinyin": "kǒu",
+   "vi": "miệng, bộ khẩu"
+  },
+  {
+   "zh": "日",
+   "pinyin": "rì",
+   "vi": "ngày; mặt trời"
+  },
+  {
+   "zh": "窗户",
+   "pinyin": "chuānghu",
+   "vi": "cửa sổ"
+  },
+  {
+   "zh": "病",
+   "pinyin": "bìng",
+   "vi": "bệnh"
+  },
+  {
+   "zh": "看病",
+   "pinyin": "kàn bìng",
+   "vi": "khám bệnh"
+  },
+  {
+   "zh": "班",
+   "pinyin": "bān",
+   "vi": "lớp"
+  },
+  {
+   "zh": "红",
+   "pinyin": "hóng",
+   "vi": "đỏ"
+  },
+  {
+   "zh": "躺",
+   "pinyin": "tǎng",
+   "vi": "nằm"
+  },
+  {
+   "zh": "话",
+   "pinyin": "huà",
+   "vi": "lời nói"
+  },
+  {
+   "zh": "说话",
+   "pinyin": "shuōhuà",
+   "vi": "nói chuyện"
+  },
+  {
+   "zh": "天气",
+   "pinyin": "tiānqì",
+   "vi": "thời tiết"
+  },
+  {
+   "zh": "雨",
+   "pinyin": "yǔ",
+   "vi": "mưa"
+  },
+  {
+   "zh": "泳",
+   "pinyin": "yǒng",
+   "vi": "bơi"
+  },
+  {
+   "zh": "红茶",
+   "pinyin": "hóngchá",
+   "vi": "hồng trà"
+  },
+  {
+   "zh": "绿茶",
+   "pinyin": "lǜchá",
+   "vi": "lục trà"
+  },
+  {
+   "zh": "歌",
+   "pinyin": "gē",
+   "vi": "bài hát"
+  },
+  {
+   "zh": "汉语",
+   "pinyin": "Hànyǔ",
+   "vi": "tiếng Hán"
+  },
+  {
+   "zh": "可爱",
+   "pinyin": "kě'ài",
+   "vi": "đáng yêu"
+  },
+  {
+   "zh": "跳",
+   "pinyin": "tiào",
+   "vi": "nhảy"
+  },
+  {
+   "zh": "烤鸭",
+   "pinyin": "kǎoyā",
+   "vi": "vịt quay"
+  },
+  {
+   "zh": "明年",
+   "pinyin": "míngnián",
+   "vi": "năm sau"
+  },
+  {
+   "zh": "像",
+   "pinyin": "xiàng",
+   "vi": "giống"
+  },
+  {
+   "zh": "医",
+   "pinyin": "yī",
+   "vi": "y, thuốc"
+  },
+  {
+   "zh": "学医",
+   "pinyin": "xué yī",
+   "vi": "học y"
   }
  ]
 }
