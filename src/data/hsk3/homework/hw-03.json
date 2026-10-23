@@ -2,341 +2,574 @@
  "lessonId": 3,
  "level": "hsk3",
  "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/03.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Nhà mới của Tiểu Tuyết",
-   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
-   "passage": {
-    "title_vi": "Nhà mới của Tiểu Tuyết",
-    "zh": "我们家上个月搬家了。新家在一个很大的小区里，环境挺好的，离我的初中也很近，走路十分钟就到。以前我每天六点就要起床，现在七点才起床。新家在一层，有一个小花园，弟弟高兴坏了，每天都在花园里玩儿。搬家那天，爸爸妈妈找了一家搬家公司，一天就搬完了。",
-    "vi": "Tháng trước nhà mình chuyển nhà. Nhà mới ở trong một khu chung cư rất lớn, môi trường khá tốt, cũng gần trường cấp hai của mình, đi bộ mười phút là tới. Trước đây ngày nào mình cũng phải dậy từ sáu giờ, giờ bảy giờ mới dậy. Nhà mới ở tầng một, có một vườn hoa nhỏ, em trai mình vui sướng vô cùng, ngày nào cũng chơi trong vườn. Hôm chuyển nhà, bố mẹ thuê một công ty chuyển nhà, một ngày là chuyển xong."
-   },
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
    "questions": [
     {
-     "id": "a1",
+     "id": "h1",
      "kind": "mcq",
-     "prompt_zh": "新家离小雪的学校远吗？",
      "options": [
-      "很远",
-      "不远，走路十分钟",
-      "要坐地铁"
-     ],
-     "answer": 1,
-     "explain_vi": "走路十分钟就到。"
-    },
-    {
-     "id": "a2",
-     "kind": "mcq",
-     "prompt_zh": "现在小雪几点起床？",
-     "options": [
-      "六点",
-      "七点",
-      "八点"
-     ],
-     "answer": 1,
-     "explain_vi": "现在七点才起床。"
-    },
-    {
-     "id": "a3",
-     "kind": "mcq",
-     "prompt_zh": "谁最喜欢新家的花园？",
-     "options": [
-      "小雪",
-      "弟弟",
-      "妈妈"
-     ],
-     "answer": 1,
-     "explain_vi": "弟弟高兴坏了，每天都在花园里玩儿。"
-    },
-    {
-     "id": "a4",
-     "kind": "truefalse",
-     "statement_zh": "新家的小区环境不太好。",
-     "answer": false,
-     "explain_vi": "环境挺好的。"
-    },
-    {
-     "id": "a5",
-     "kind": "truefalse",
-     "statement_zh": "他们是自己搬的家。",
-     "answer": false,
-     "explain_vi": "爸爸妈妈找了一家搬家公司。"
-    },
-    {
-     "id": "a6",
-     "kind": "truefalse",
-     "statement_zh": "搬家用了一天。",
-     "answer": true,
-     "explain_vi": "一天就搬完了。"
-    }
-   ]
-  },
-  {
-   "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu hỏi với câu trả lời",
-   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
-   "questions": [
-    {
-     "id": "a7",
-     "kind": "match",
-     "pairs": [
-      {
-       "q": "你觉得这个小区怎么样？",
-       "a": "环境挺好的。"
-      },
-      {
-       "q": "你今天怎么这么晚才来？",
-       "a": "路上车太多了。"
-      },
-      {
-       "q": "洗衣机坏了吗？",
-       "a": "没坏，可以用。"
-      },
-      {
-       "q": "你们什么时候搬家？",
-       "a": "下个月才能搬。"
-      }
-     ],
-     "explain_vi": "Hỏi nhận xét → 挺……的; hỏi vì sao muộn (才) → lý do; hỏi hỏng chưa → 没坏; hỏi thời gian → 才."
-    }
-   ]
-  },
-  {
-   "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "instructions_vi": "Có một từ thừa.",
-   "questions": [
-    {
-     "id": "a8",
-     "kind": "cloze",
-     "text": "我们想{{1}}一个大一点儿的房子。上个周末去看了一个，房子在三{{2}}，里面的{{3}}和冰箱都是新的。我很喜欢，但是太贵了，我们{{4}}再看看别的吧。",
-     "bank": [
-      "换",
-      "层",
-      "空调",
-      "还是",
-      "才"
-     ],
-     "answers": [
-      "换",
-      "层",
-      "空调",
-      "还是"
-     ],
-     "explain_vi": "换房子 · 三层 · 空调 · 还是……吧."
-    }
-   ]
-  },
-  {
-   "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-   "questions": [
-    {
-     "id": "b1",
-     "kind": "reorder",
-     "tiles": [
-      "挺",
-      "的",
-      "环境",
-      "好",
-      "这个小区"
-     ],
-     "answers": [
-      "这个小区环境挺好的"
-     ],
-     "vi": "Khu này môi trường khá tốt.",
-     "explain_vi": "挺 + TT + 的.",
-     "grammarRef": "h3-g3-1"
-    },
-    {
-     "id": "b2",
-     "kind": "reorder",
-     "tiles": [
       "坏",
-      "了",
-      "渴",
-      "我"
+      "环"
      ],
-     "answers": [
-      "我渴坏了"
-     ],
-     "vi": "Tôi khát khô cổ.",
-     "explain_vi": "TT + 坏了.",
-     "grammarRef": "h3-g3-2"
+     "answer": 0,
+     "explain_vi": "坏 (hỏng) có bộ 土; 环 (vòng, môi trường) có bộ 王.",
+     "fixed": true,
+     "prompt_zh": "家里的洗衣机（　）了。",
+     "num": "Chữ Hán 1"
     },
     {
-     "id": "b3",
-     "kind": "reorder",
-     "tiles": [
-      "就",
-      "走路",
-      "到",
-      "五分钟",
-      "了"
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "坏",
+      "环"
      ],
-     "answers": [
-      "走路五分钟就到了"
-     ],
-     "vi": "Đi bộ năm phút là tới.",
-     "explain_vi": "就……了 = nhanh, sớm.",
-     "grammarRef": "h3-g3-3"
+     "answer": 1,
+     "explain_vi": "环境 = môi trường: chữ 环 có bộ 王.",
+     "fixed": true,
+     "prompt_zh": "这个小区的（　）境很好。",
+     "num": "Chữ Hán 2"
     },
     {
-     "id": "b4",
-     "kind": "reorder",
-     "tiles": [
-      "才",
-      "他",
-      "回来",
-      "晚上十点"
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "xíng",
+      "háng"
      ],
-     "answers": [
-      "他晚上十点才回来"
-     ],
-     "vi": "Mười giờ tối anh ấy mới về.",
-     "explain_vi": "才 = muộn, không 了.",
-     "grammarRef": "h3-g3-3"
+     "answer": 0,
+     "explain_vi": "行李 xíngli = hành lý.",
+     "fixed": true,
+     "prompt_zh": "“行李”中的“行”读：",
+     "num": "Chữ Hán 3"
     },
     {
-     "id": "b5",
-     "kind": "reorder",
-     "tiles": [
-      "信用卡",
-      "我",
-      "一张",
-      "去银行",
-      "想",
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "xíng",
+      "háng"
+     ],
+     "answer": 1,
+     "explain_vi": "银行 yínháng = ngân hàng.",
+     "fixed": true,
+     "prompt_zh": "“银行”中的“行”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这张{{1}}里没钱了，您换一张吧。\n（2）明天就要{{2}}了，东西都准备好了吗？\n（3）我到楼下了，您住几{{3}}？我现在上去。\n（4）服务员，桌子下面还有东西，您再{{4}}一下吧。\n（5）我在那个{{5}}住了五年，我非常喜欢那里的环境。",
+     "bank": [
+      "银行卡",
+      "搬家",
+      "层",
+      "扫",
+      "小区",
+      "空调",
       "办"
      ],
      "answers": [
-      "我想去银行办一张信用卡"
+      "银行卡",
+      "搬家",
+      "层",
+      "扫",
+      "小区"
      ],
-     "vi": "Tôi muốn đến ngân hàng làm một cái thẻ tín dụng.",
-     "explain_vi": "办 + 一张 + 信用卡.",
-     "grammarRef": "h3-g3-3"
+     "explain_vi": "银行卡 = thẻ ngân hàng · 搬家 = chuyển nhà · 几层 = tầng mấy · 扫一下 = quét · 小区 = khu chung cư.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Nhà ở, sinh hoạt",
+     "words": [
+      "小区",
+      "楼",
+      "房子",
+      "层",
+      "环境",
+      "花园",
+      "房间",
+      "卫生间",
+      "洗手间",
+      "门",
+      "门口",
+      "灯",
+      "空调",
+      "洗衣机",
+      "冰箱",
+      "电视",
+      "电脑",
+      "搬家",
+      "搬",
+      "打扫",
+      "扫"
+     ]
+    },
+    {
+     "head": "Ngân hàng",
+     "words": [
+      "银行卡",
+      "信用卡",
+      "办",
+      "还"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "小区环境",
+      "6号楼",
+      "二层203房间",
+      "小花园",
+      "开灯",
+      "关灯",
+      "打开空调",
+      "关上空调",
+      "搬东西",
+      "扫一下",
+      "办银行卡",
+      "还信用卡"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 冰箱门怎么打开了？——不好意思，我拿完饮料就忘关了。 → tủ lạnh.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 102.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 房间里挺热的，咱们打开空调吧。 → điều hoà.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 104.0,
+      "end": 127.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这些书太多了，你能帮我一下吗？——没问题，我帮你搬一些。 → người bê sách.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 131.0,
+      "end": 153.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-03/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-03/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-03/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-03/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "关门",
+      "买手机",
+      "办信用卡"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你知道银行几点关门吗？我要去办张信用卡。——不用去银行，用手机就能办。 问：男的要做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 214.0,
+      "end": 251.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "坏了",
+      "还能用",
+      "是新买的"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 家里的洗衣机坏了吗？……对，上个星期就不能用了，咱们明天去买一个新的吧。",
+     "fixed": true,
+     "audio": {
+      "start": 257.0,
+      "end": 301.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "带个花园",
+      "现在没人住",
+      "能马上搬进去"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我喜欢那个带花园的。——我也很喜欢，但是房子里面还有人住着，要下个月才能搬家。",
+     "fixed": true,
+     "audio": {
+      "start": 305.2,
+      "end": 365.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "家离学校远",
+      "孩子上高中了",
+      "家离商场太近"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 孩子马上就要上初中了，咱们家离学校挺远的，咱们搬到离学校近一点的小区吧。",
+     "fixed": true,
+     "audio": {
+      "start": 425.3,
+      "end": 465.0
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "搬家",
+      "休息",
+      "准备搬家的东西"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这几天在准备搬家的东西，累坏了，明天我要休息一下，什么都不做了。",
+     "fixed": true,
+     "audio": {
+      "start": 466.0,
+      "end": 508.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "要还信用卡",
+      "买东西能便宜点儿",
+      "想在手机上买东西"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我没有银行卡，不能在手机上买东西，挺不方便的……我想去办张银行卡。",
+     "fixed": true,
+     "audio": {
+      "start": 511.5,
+      "end": 650.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "花了很多钱",
+      "每个月都要还钱",
+      "银行离家挺远的"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 花钱的时候是挺方便的，但是花的钱太多了，所以我想下个月还是不用信用卡了。",
+     "fixed": true,
+     "audio": {
+      "start": 511.5,
+      "end": 650.0
+     },
+     "num": "10"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "公司里没有白纸了。",
+       "a": "好，我马上让小王去买。"
+      },
+      {
+       "q": "这几天大家都忙坏了。",
+       "a": "周五到下周一不上班，可以休息休息。"
+      },
+      {
+       "q": "我要睡觉了，你关一下灯吧。",
+       "a": "那我去外面再看一会儿书。"
+      },
+      {
+       "q": "你觉得咱们搬到这个小区怎么样？",
+       "a": "我很喜欢这里的环境。"
+      },
+      {
+       "q": "你看起来有点儿累，是不是昨天睡得很晚？",
+       "a": "对，我看电视看到两点多才休息。"
+      }
+     ],
+     "explain_vi": "Hết giấy → 马上让小王去买; mệt quá → 可以休息休息; tắt đèn → 去外面看书; hỏi về khu chung cư → 喜欢这里的环境; ngủ muộn → 两点多才休息.",
+     "num": "11–15"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. {{1}}你护照丢了，找到了吗？\n17. 那边有一个{{2}}，咱们去走走吧。\n18. 我家离公司太远了，我{{3}}换个近点儿的小区。\n19. A：{{4}}在哪儿？你知道吗？ B：知道，在二层，你从这儿上去就能看到。\n20. A：妈妈，我回来了，现在又热又渴。 B：我买了冰激凌，在{{5}}里，你自己去拿。",
+     "bank": [
+      "需要",
+      "冰箱",
+      "听说",
+      "花园",
+      "鞋",
+      "卫生间"
+     ],
+     "answers": [
+      "听说",
+      "花园",
+      "需要",
+      "卫生间",
+      "冰箱"
+     ],
+     "explain_vi": "听说 = nghe nói · 花园 = vườn hoa · 需要 = cần · 卫生间 = nhà vệ sinh · 冰箱 = tủ lạnh.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "不能休息",
+      "环境不错",
+      "旁边有个花园"
+     ],
+     "answer": 1,
+     "explain_vi": "环境挺好的 = môi trường khá tốt; vườn hoa ở bên trong khu, không phải bên cạnh.",
+     "fixed": true,
+     "prompt_zh": "★ 那个小区：",
+     "context_zh": "我们小区的环境挺好的，里面还有一个花园，很多人吃完晚饭后都会去那里走一走，休息休息。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "搬家",
+      "拿箱子",
+      "打扫新家"
+     ],
+     "answer": 2,
+     "explain_vi": "咱们明天去打扫一下吧.",
+     "fixed": true,
+     "prompt_zh": "★ 他们明天要做什么？",
+     "context_zh": "下周就要搬新家了，咱们明天去打扫一下吧。还要再买几个纸箱，你看，这些东西都需要放在箱子里。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "一层",
+      "四层",
+      "十层"
+     ],
+     "answer": 2,
+     "explain_vi": "新家在十层.",
+     "fixed": true,
+     "prompt_zh": "★ 他的新家在几层？",
+     "context_zh": "下个星期我就要搬家了，我今天给搬家公司打了一个电话，没想到搬家那么贵。我现在住在四层，新家在十层，搬一个箱子要50块钱。看着我那30多个箱子，我想今天晚上我就在家给朋友们打电话吧。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "自己搬家",
+      "请朋友帮忙",
+      "找搬家公司"
+     ],
+     "answer": 1,
+     "explain_vi": "搬家公司太贵 → 给朋友们打电话 nhờ bạn giúp.",
+     "fixed": true,
+     "prompt_zh": "★ 他可能会怎么搬家？",
+     "context_zh": "下个星期我就要搬家了，我今天给搬家公司打了一个电话，没想到搬家那么贵。我现在住在四层，新家在十层，搬一个箱子要50块钱。看着我那30多个箱子，我想今天晚上我就在家给朋友们打电话吧。",
+     "num": "24"
     }
    ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
    "questions": [
     {
-     "id": "b6",
-     "kind": "translate",
-     "prompt_vi": "Khu này môi trường khá tốt.",
-     "acceptedAnswers": [
-      "这个小区环境挺好的",
-      "这个小区的环境挺好的"
-     ],
-     "requiredKeywords": [
-      "挺",
-      "环境"
-     ],
-     "wordBank": [
-      "这个",
-      "小区",
-      "环境",
-      "挺",
-      "好",
-      "的"
-     ],
-     "explain_vi": "挺……的.",
-     "grammarRef": "h3-g3-1"
+     "id": "25",
+     "kind": "charFill",
+     "text": "银行___明天就能办好。",
+     "pinyin": "kǎ",
+     "answer": "卡",
+     "explain_vi": "银行卡 = thẻ ngân hàng.",
+     "num": "25"
     },
     {
-     "id": "b7",
-     "kind": "translate",
-     "prompt_vi": "Hôm nay tôi bận chết đi được.",
-     "acceptedAnswers": [
-      "我今天忙坏了",
-      "今天我忙坏了"
-     ],
-     "requiredKeywords": [
-      "忙坏了"
-     ],
-     "wordBank": [
-      "我",
-      "今天",
-      "忙",
-      "坏了"
-     ],
-     "explain_vi": "TT + 坏了 (không thêm 很).",
-     "grammarRef": "h3-g3-2"
+     "id": "26",
+     "kind": "charFill",
+     "text": "家里的___坏了，你去买个新的吧。",
+     "pinyin": "dēng",
+     "answer": "灯",
+     "explain_vi": "灯 = đèn.",
+     "num": "26"
     },
     {
-     "id": "b8",
-     "kind": "translate",
-     "prompt_vi": "Lúc đi nhớ tắt đèn nhé.",
-     "acceptedAnswers": [
-      "走的时候别忘了关灯",
-      "走的时候要关灯",
-      "走的时候记得关灯"
-     ],
-     "requiredKeywords": [
-      "关灯"
-     ],
-     "wordBank": [
-      "走的时候",
-      "别",
-      "忘了",
-      "关",
-      "灯"
-     ],
-     "explain_vi": "关灯 = tắt đèn.",
-     "grammarRef": "h3-g3-2"
+     "id": "27",
+     "kind": "charFill",
+     "text": "我家住在三___，302号。",
+     "pinyin": "céng",
+     "answer": "层",
+     "explain_vi": "三层 = tầng ba.",
+     "num": "27"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-03/w28.jpg",
+     "word": "关",
+     "sample": "睡觉前别忘了关电脑。",
+     "explain_vi": "关 = tắt, đóng.",
+     "num": "28"
     },
     {
-     "id": "b9",
-     "kind": "translate",
-     "prompt_vi": "Ngân hàng rất gần, đi bộ mười phút là tới.",
-     "acceptedAnswers": [
-      "银行很近，走路十分钟就到",
-      "银行很近，走路十分钟就到了"
-     ],
-     "requiredKeywords": [
-      "就"
-     ],
-     "wordBank": [
-      "银行",
-      "很近",
-      "走路",
-      "十分钟",
-      "就",
-      "到"
-     ],
-     "explain_vi": "Nhanh, gần → 就.",
-     "grammarRef": "h3-g3-3"
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-03/w29.jpg",
+     "word": "搬",
+     "sample": "他们一起把箱子搬到楼上。",
+     "explain_vi": "搬 = khiêng, chuyển.",
+     "num": "29"
     },
     {
-     "id": "b10",
-     "kind": "translate",
-     "prompt_vi": "Nghe nói tháng sau họ mới chuyển nhà.",
-     "acceptedAnswers": [
-      "听说他们下个月才搬家",
-      "听说他们下个月才能搬家"
-     ],
-     "requiredKeywords": [
-      "听说",
-      "才"
-     ],
-     "wordBank": [
-      "听说",
-      "他们",
-      "下个月",
-      "才",
-      "搬家"
-     ],
-     "explain_vi": "Muộn → 才 (không 了).",
-     "grammarRef": "h3-g3-3"
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-03/w30.jpg",
+     "word": "打扫",
+     "sample": "一家人在一起打扫房间。",
+     "explain_vi": "打扫 = dọn dẹp.",
+     "num": "30"
     }
    ]
   }

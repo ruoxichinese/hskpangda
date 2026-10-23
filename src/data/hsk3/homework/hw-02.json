@@ -2,341 +2,582 @@
  "lessonId": 2,
  "level": "hsk3",
  "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/02.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Quán ăn mới cạnh nhà",
-   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
-   "passage": {
-    "title_vi": "Quán ăn mới cạnh nhà",
-    "zh": "我家旁边新开了一家饭馆，菜又便宜又好吃，服务员也很热情。上个周末我和家月去了一次，家月说她什么都想尝尝。我们点了饺子、鸡肉饭和一个蛋糕，还要了两杯绿茶。饭馆的菜单在手机上就能看到，想吃什么就点什么。他们还能送外卖，所以考试的时候，我不用再吃方便面了。",
-    "vi": "Cạnh nhà mình mới mở một quán ăn, món vừa rẻ vừa ngon, phục vụ cũng rất nhiệt tình. Cuối tuần trước mình đi với Gia Nguyệt một lần, Gia Nguyệt bảo món gì cũng muốn nếm thử. Bọn mình gọi sủi cảo, cơm gà và một cái bánh ngọt, thêm hai cốc trà xanh. Thực đơn của quán xem được ngay trên điện thoại, muốn ăn gì thì gọi nấy. Quán còn giao đồ ăn, nên mùa thi mình không phải ăn mì gói nữa."
-   },
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
    "questions": [
     {
-     "id": "a1",
+     "id": "h1",
      "kind": "mcq",
-     "prompt_zh": "这家饭馆的菜怎么样？",
      "options": [
-      "又贵又好吃",
-      "又便宜又好吃",
-      "不太好吃"
-     ],
-     "answer": 1,
-     "explain_vi": "菜又便宜又好吃。"
-    },
-    {
-     "id": "a2",
-     "kind": "mcq",
-     "prompt_zh": "他们没点什么？",
-     "options": [
-      "饺子",
-      "方便面",
-      "蛋糕"
-     ],
-     "answer": 1,
-     "explain_vi": "Họ gọi 饺子、鸡肉饭、蛋糕 và 绿茶."
-    },
-    {
-     "id": "a3",
-     "kind": "mcq",
-     "prompt_zh": "为什么考试的时候李文不用吃方便面了？",
-     "options": [
-      "饭馆可以送外卖",
-      "妈妈给他做饭",
-      "家月给他做饭"
+      "喝",
+      "渴"
      ],
      "answer": 0,
-     "explain_vi": "他们还能送外卖。"
+     "explain_vi": "喝 (uống) có bộ 口; 渴 (khát) có bộ 氵.",
+     "fixed": true,
+     "prompt_zh": "你（　）茶还是（　）咖啡？",
+     "num": "Chữ Hán 1"
     },
     {
-     "id": "a4",
-     "kind": "truefalse",
-     "statement_zh": "这家饭馆的服务员不太热情。",
-     "answer": false,
-     "explain_vi": "服务员也很热情。"
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "喝",
+      "渴"
+     ],
+     "answer": 1,
+     "explain_vi": "很渴 = rất khát: bộ 氵 (nước).",
+     "fixed": true,
+     "prompt_zh": "我很（　），想喝水。",
+     "num": "Chữ Hán 2"
     },
     {
-     "id": "a5",
-     "kind": "truefalse",
-     "statement_zh": "在手机上可以看到菜单。",
-     "answer": true,
-     "explain_vi": "饭馆的菜单在手机上就能看到。"
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "pián",
+      "biàn"
+     ],
+     "answer": 0,
+     "explain_vi": "便宜 piányi = rẻ.",
+     "fixed": true,
+     "prompt_zh": "“便宜”中的“便”读：",
+     "num": "Chữ Hán 3"
     },
     {
-     "id": "a6",
-     "kind": "truefalse",
-     "statement_zh": "家月只想吃饺子。",
-     "answer": false,
-     "explain_vi": "家月说她什么都想尝尝。"
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "pián",
+      "biàn"
+     ],
+     "answer": 1,
+     "explain_vi": "方便 fāngbiàn = tiện lợi.",
+     "fixed": true,
+     "prompt_zh": "“方便”中的“便”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）中午我吃了一{{1}}面条儿。\n（2）这个蛋糕太好吃了，你要不要{{2}}一下？\n（3）她不太会用{{3}}，吃饭时喜欢用勺子。\n（4）我点了两杯茶，你看看孩子们喝什么{{4}}。\n（5）服务员说在手机上可以看{{5}}，也可以点菜。",
+     "bank": [
+      "碗",
+      "尝",
+      "筷子",
+      "饮料",
+      "菜单",
+      "瓶子",
+      "外卖"
+     ],
+     "answers": [
+      "碗",
+      "尝",
+      "筷子",
+      "饮料",
+      "菜单"
+     ],
+     "explain_vi": "一碗面条儿 · 尝一下 · 用筷子 · 喝什么饮料 · 看菜单.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Đồ ăn",
+     "words": [
+      "鸡肉",
+      "包子",
+      "饺子",
+      "面条儿",
+      "糖",
+      "方便面",
+      "冰激凌",
+      "蛋糕"
+     ]
+    },
+    {
+     "head": "Đồ uống",
+     "words": [
+      "饮料",
+      "咖啡",
+      "奶茶",
+      "绿茶",
+      "红茶",
+      "酒",
+      "红酒"
+     ]
+    },
+    {
+     "head": "Nhà hàng, ăn uống",
+     "words": [
+      "菜单",
+      "点",
+      "服务员",
+      "尝",
+      "渴",
+      "饿",
+      "外卖",
+      "碗",
+      "瓶",
+      "筷子",
+      "勺子",
+      "杯子",
+      "瓶子"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "包饺子",
+      "喝饮料",
+      "又渴又饿",
+      "点外卖",
+      "看菜单",
+      "点菜",
+      "一碗方便面",
+      "一块蛋糕",
+      "一个碗",
+      "一双筷子",
+      "两个勺子",
+      "一瓶酒"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你经常自己做饭吗？——不是，我什么都不会做，只会做方便面。 → tranh nấu ăn.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 102.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 服务员，请帮我拿一双筷子和一个碗。 → bát và đũa.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 105.0,
+      "end": 128.0
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 已经半个多小时了，外卖怎么还没送到？ → giao đồ ăn.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 132.8,
+      "end": 159.0
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-02/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-02/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-02/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-02/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "女的不会做饭",
+      "男的喜欢吃鸡肉",
+      "男的请女的去他家"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 您做的菜很好吃，我最喜欢吃这个鸡肉。——这也是我儿子最爱吃的菜，你什么时候想吃就来我家。 问：下面哪个是对的？ → người nói thích món gà; người mời đến nhà là người phụ nữ.",
+     "fixed": true,
+     "audio": {
+      "start": 223.5,
+      "end": 259.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "离家近",
+      "人不多",
+      "菜好吃还便宜"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这个饭馆的菜又好吃又便宜，所以我们每个月都来。",
+     "fixed": true,
+     "audio": {
+      "start": 270.8,
+      "end": 312.0
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "她不太饿",
+      "她不会点外卖",
+      "她不喜欢吃外卖"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你想吃什么就点什么吧，我今天不太饿。",
+     "fixed": true,
+     "audio": {
+      "start": 323.5,
+      "end": 372.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "上午",
+      "中午",
+      "晚上"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 那个饭馆晚上五点到九点不能送外卖。",
+     "fixed": true,
+     "audio": {
+      "start": 439.8,
+      "end": 469.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "很忙",
+      "很热情",
+      "很着急"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 饭馆的服务员很热情，我们吃完饭他还送给我们一些水果。",
+     "fixed": true,
+     "audio": {
+      "start": 480.0,
+      "end": 507.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "菜很好吃",
+      "朋友来了",
+      "什么都想尝尝"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 第一次去那个饭馆吃饭，我什么都想尝一尝，所以点了……",
+     "fixed": true,
+     "audio": {
+      "start": 518.5,
+      "end": 655.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "两双筷子",
+      "两个包子",
+      "两碗面条儿"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我点完菜，（服务员）马上给我拿来了两个碗和两双筷子。",
+     "fixed": true,
+     "audio": {
+      "start": 518.5,
+      "end": 655.0
+     },
+     "num": "10"
     }
    ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu hỏi với câu trả lời",
-   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
    "questions": [
     {
-     "id": "a7",
+     "id": "11-15",
      "kind": "match",
      "pairs": [
       {
-       "q": "你们想喝什么饮料？",
-       "a": "两杯绿茶。"
+       "q": "我们用什么吃蛋糕？",
+       "a": "我家只有筷子，用筷子吃吧。"
       },
       {
-       "q": "我们去哪儿吃饭？",
-       "a": "去哪儿都可以。"
+       "q": "你吃过的最好吃的菜是什么？",
+       "a": "我妈妈做的鸡肉面，谁吃了都说好吃。"
       },
       {
-       "q": "服务员，请再拿一双筷子。",
-       "a": "好的，我马上去拿。"
+       "q": "外卖怎么还没送到？",
+       "a": "别着急，现在是午饭时间，所以有点儿慢。"
       },
       {
-       "q": "这个菜好吃吗？",
-       "a": "你尝尝就知道了。"
+       "q": "你可以教我做中国菜吗？",
+       "a": "没问题，我什么都会做。"
+      },
+      {
+       "q": "服务员，请问有英文菜单吗？",
+       "a": "没有，但是每个菜都有一张照片，您可以看照片点菜。"
       }
      ],
-     "explain_vi": "Đồ uống → gọi trà; hỏi đi đâu → 哪儿都可以; nhờ lấy đũa → 马上; hỏi món ngon không → mời nếm."
+     "explain_vi": "Hỏi ăn bằng gì → 用筷子; món ngon nhất → 鸡肉面; giao hàng chậm → 午饭时间; nhờ dạy nấu → 什么都会做; thực đơn tiếng Anh → 看照片点菜.",
+     "num": "11–15"
     }
    ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "instructions_vi": "Có một từ thừa.",
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
    "questions": [
     {
-     "id": "a8",
+     "id": "16-20",
      "kind": "cloze",
-     "text": "我昨天又饿又{{1}}，到了饭馆{{2}}喝了三杯水。服务员很{{3}}，还送了我们一些水果。这家饭馆的菜很{{4}}，但是很好吃。",
+     "text": "16. 蛋糕已经卖完了，您可以{{1}}一下我们的面包。\n17. 今天的服务员很热情，但是我没{{2}}住她的名字。\n18. 用筷子吃面条儿很{{3}}，我来教你吧。\n19. A：我们{{4}}没一起吃饭了，明天你有时间吗？ B：好啊，明天中午怎么样？\n20. A：你饿不饿？我{{5}}去给你做晚饭。 B：不用做，我吃完晚饭了。",
      "bank": [
-      "渴",
+      "好久",
+      "尝",
+      "记",
       "马上",
-      "热情",
-      "简单",
-      "方便"
-     ],
-     "answers": [
-      "渴",
-      "马上",
-      "热情",
+      "鞋",
       "简单"
      ],
-     "explain_vi": "又饿又渴 · 马上 = ngay · 热情 = nhiệt tình · 简单 = đơn giản."
-    }
-   ]
-  },
-  {
-   "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-   "questions": [
-    {
-     "id": "b1",
-     "kind": "reorder",
-     "tiles": [
-      "都",
-      "哪个菜",
-      "好吃"
-     ],
      "answers": [
-      "哪个菜都好吃"
-     ],
-     "vi": "Món nào cũng ngon.",
-     "explain_vi": "Đại từ nghi vấn + 都.",
-     "grammarRef": "h3-g2-2"
-    },
-    {
-     "id": "b2",
-     "kind": "reorder",
-     "tiles": [
-      "又",
-      "又",
-      "我",
-      "饿",
-      "渴"
-     ],
-     "answers": [
-      "我又饿又渴"
-     ],
-     "vi": "Tôi vừa đói vừa khát.",
-     "explain_vi": "又 + TT + 又 + TT.",
-     "grammarRef": "h3-g2-1"
-    },
-    {
-     "id": "b3",
-     "kind": "reorder",
-     "tiles": [
-      "什么",
-      "你",
-      "什么",
-      "想吃",
-      "就点"
-     ],
-     "answers": [
-      "你想吃什么就点什么"
-     ],
-     "vi": "Bạn muốn ăn gì thì gọi nấy.",
-     "explain_vi": "Hai 什么 hô ứng.",
-     "grammarRef": "h3-g2-3"
-    },
-    {
-     "id": "b4",
-     "kind": "reorder",
-     "tiles": [
-      "一双",
-      "请",
-      "给我",
-      "筷子"
-     ],
-     "answers": [
-      "请给我一双筷子"
-     ],
-     "vi": "Làm ơn cho tôi một đôi đũa.",
-     "explain_vi": "一双 + 筷子.",
-     "grammarRef": "h3-g2-2"
-    },
-    {
-     "id": "b5",
-     "kind": "reorder",
-     "tiles": [
+      "尝",
+      "记",
+      "简单",
       "好久",
-      "饺子",
-      "没吃",
-      "我",
-      "了"
+      "马上"
      ],
-     "answers": [
-      "我好久没吃饺子了"
+     "explain_vi": "尝一下 · 记住 · 很简单 · 好久没 · 马上去.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "马上",
+      "今天",
+      "明天中午"
      ],
-     "vi": "Lâu lắm rồi tôi chưa ăn sủi cảo.",
-     "explain_vi": "好久没……了.",
-     "grammarRef": "h3-g2-1"
+     "answer": 2,
+     "explain_vi": "我明天中午想去尝一尝.",
+     "fixed": true,
+     "prompt_zh": "★ 他想什么时候去那家饭馆？",
+     "context_zh": "学校门口新开了一家饭馆，同学们说那里的菜又好吃又便宜，我明天中午想去尝一尝。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "学做中国菜",
+      "去饭馆吃饭",
+      "老师教他用筷子"
+     ],
+     "answer": 2,
+     "explain_vi": "他要教我用筷子，我太高兴了.",
+     "fixed": true,
+     "prompt_zh": "★ 他高兴是因为：",
+     "context_zh": "我爱吃中国菜，但是我不会用筷子。李老师让我下课后去他家吃饭，他要教我用筷子，我太高兴了。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "想吃水果",
+      "不知道选什么",
+      "想吃绿茶冰激凌"
+     ],
+     "answer": 1,
+     "explain_vi": "小王不知道选什么.",
+     "fixed": true,
+     "prompt_zh": "★ 小王：",
+     "context_zh": "今天天气非常热，我和小王又渴又累，看到一家冰激凌店就走进去了。服务员介绍了几个卖得很好的冰激凌，我买了水果冰激凌，但是小王不知道选什么。服务员对他说：“您尝一尝绿茶冰激凌，谁吃了都说好吃。”",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "只有这个",
+      "很多人都说好吃",
+      "小王不爱吃水果"
+     ],
+     "answer": 1,
+     "explain_vi": "谁吃了都说好吃 = ai ăn cũng khen ngon.",
+     "fixed": true,
+     "prompt_zh": "★ 服务员为什么让小王尝尝绿茶冰激凌？",
+     "context_zh": "今天天气非常热，我和小王又渴又累，看到一家冰激凌店就走进去了。服务员介绍了几个卖得很好的冰激凌，我买了水果冰激凌，但是小王不知道选什么。服务员对他说：“您尝一尝绿茶冰激凌，谁吃了都说好吃。”",
+     "num": "24"
     }
    ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
    "questions": [
     {
-     "id": "b6",
-     "kind": "translate",
-     "prompt_vi": "Món ở quán này vừa rẻ vừa ngon.",
-     "acceptedAnswers": [
-      "这家饭馆的菜又便宜又好吃",
-      "这个饭馆的菜又便宜又好吃"
-     ],
-     "requiredKeywords": [
-      "又便宜",
-      "又好吃"
-     ],
-     "wordBank": [
-      "这家",
-      "饭馆",
-      "的",
-      "菜",
-      "又",
-      "便宜",
-      "好吃"
-     ],
-     "explain_vi": "又……又…….",
-     "grammarRef": "h3-g2-1"
+     "id": "25",
+     "kind": "charFill",
+     "text": "我太___了，请给我一杯水。",
+     "pinyin": "kě",
+     "answer": "渴",
+     "explain_vi": "渴 = khát (bộ 氵).",
+     "num": "25"
     },
     {
-     "id": "b7",
-     "kind": "translate",
-     "prompt_vi": "Tôi ăn gì cũng được.",
-     "acceptedAnswers": [
-      "我吃什么都可以",
-      "我吃什么都行"
-     ],
-     "requiredKeywords": [
-      "什么都"
-     ],
-     "wordBank": [
-      "我",
-      "吃",
-      "什么",
-      "都",
-      "可以"
-     ],
-     "explain_vi": "什么 + 都 = cái gì cũng.",
-     "grammarRef": "h3-g2-2"
+     "id": "26",
+     "kind": "charFill",
+     "text": "你想喝什么___料？",
+     "pinyin": "yǐn",
+     "answer": "饮",
+     "explain_vi": "饮料 = đồ uống.",
+     "num": "26"
     },
     {
-     "id": "b8",
-     "kind": "translate",
-     "prompt_vi": "Bạn muốn đi đâu thì chúng ta đi đó.",
-     "acceptedAnswers": [
-      "你想去哪儿，我们就去哪儿"
-     ],
-     "requiredKeywords": [
-      "哪儿",
-      "就"
-     ],
-     "wordBank": [
-      "你",
-      "想",
-      "去",
-      "哪儿",
-      "我们",
-      "就"
-     ],
-     "explain_vi": "Khác chủ ngữ: 我们 + 就.",
-     "grammarRef": "h3-g2-3"
+     "id": "27",
+     "kind": "charFill",
+     "text": "这是我们的菜___，请您看看。",
+     "pinyin": "dān",
+     "answer": "单",
+     "explain_vi": "菜单 = thực đơn.",
+     "num": "27"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-02/w28.jpg",
+     "word": "马上",
+     "sample": "你的外卖马上就送到了。",
+     "explain_vi": "马上 = ngay, lập tức.",
+     "num": "28"
     },
     {
-     "id": "b9",
-     "kind": "translate",
-     "prompt_vi": "Bữa sáng tôi chỉ uống một cốc cà phê.",
-     "acceptedAnswers": [
-      "早饭我只喝了一杯咖啡",
-      "我早饭只喝了一杯咖啡",
-      "早饭我只喝一杯咖啡"
-     ],
-     "requiredKeywords": [
-      "只",
-      "咖啡"
-     ],
-     "wordBank": [
-      "早饭",
-      "我",
-      "只",
-      "喝了",
-      "一杯",
-      "咖啡"
-     ],
-     "explain_vi": "只 đứng trước động từ.",
-     "grammarRef": "h3-g2-1"
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-02/w29.jpg",
+     "word": "热情",
+     "sample": "这家饭馆的服务员都很热情。",
+     "explain_vi": "热情 = nhiệt tình.",
+     "num": "29"
     },
     {
-     "id": "b10",
-     "kind": "translate",
-     "prompt_vi": "Gọi đồ ăn ngoài rất tiện.",
-     "acceptedAnswers": [
-      "点外卖很方便"
-     ],
-     "requiredKeywords": [
-      "外卖",
-      "方便"
-     ],
-     "wordBank": [
-      "点",
-      "外卖",
-      "很",
-      "方便"
-     ],
-     "explain_vi": "点外卖 = gọi đồ ăn giao tận nơi.",
-     "grammarRef": "h3-g2-3"
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-02/w30.jpg",
+     "word": "选",
+     "sample": "我在手机上选了几个菜。",
+     "explain_vi": "选 = chọn.",
+     "num": "30"
     }
    ]
   }

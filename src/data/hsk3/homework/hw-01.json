@@ -2,348 +2,573 @@
  "lessonId": 1,
  "level": "hsk3",
  "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/01.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Ngày đầu ở Bắc Kinh",
-   "instructions_vi": "Đọc rồi trả lời câu hỏi. Chạm vào câu để hiện pinyin.",
-   "passage": {
-    "title_vi": "Ngày đầu ở Bắc Kinh",
-    "zh": "上个星期五我和李文到了北京。下飞机以后，我发现我的护照不见了。我很着急，因为护照很重要。李文说：“别着急，我们去服务台问问。”服务台的人帮助我们找了半个小时，他们在飞机上找到了我的护照。走出机场，我看见一个短头发的年轻女人在等我们，她就是王老师的姐姐王一雪。她看上去和照片上一样年轻。",
-    "vi": "Thứ sáu tuần trước mình và Lý Văn đến Bắc Kinh. Xuống máy bay, mình phát hiện hộ chiếu không thấy đâu. Mình rất sốt ruột vì hộ chiếu rất quan trọng. Lý Văn nói: “Đừng sốt ruột, mình ra quầy dịch vụ hỏi xem.” Nhân viên quầy giúp bọn mình tìm nửa tiếng, họ tìm thấy hộ chiếu của mình trên máy bay. Ra khỏi sân bay, mình thấy một người phụ nữ trẻ tóc ngắn đang đợi bọn mình – đó là chị Vương Nhất Tuyết, chị gái cô Vương. Trông chị trẻ y như trong ảnh."
-   },
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
    "questions": [
     {
-     "id": "a1",
+     "id": "h1",
      "kind": "mcq",
-     "prompt_zh": "白家月发现什么不见了？",
      "options": [
-      "行李箱",
+      "问",
+      "间"
+     ],
+     "answer": 0,
+     "explain_vi": "问 (hỏi) có bộ 口 bên trong; 间 (gian, khoảng giữa) có bộ 日.",
+     "fixed": true,
+     "prompt_zh": "我去服务台（　）问。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "问",
+      "间"
+     ],
+     "answer": 1,
+     "explain_vi": "中间 = ở giữa: chữ 间 có 日 bên trong.",
+     "fixed": true,
+     "prompt_zh": "站在中（　）的人是我弟弟。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "fà",
+      "fā"
+     ],
+     "answer": 0,
+     "explain_vi": "头发、长发: đọc fà (tóc).",
+     "fixed": true,
+     "prompt_zh": "“长发”中的“发”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "fà",
+      "fā"
+     ],
+     "answer": 1,
+     "explain_vi": "发现 fāxiàn = phát hiện: đọc fā.",
+     "fixed": true,
+     "prompt_zh": "“发现”中的“发”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）站在服务台前面的短头发的{{1}}就是小李。\n（2）她们是{{2}}，所以长得很像。\n（3）他虽然70多岁了，但看起来还是很{{3}}。\n（4）穿红色上衣的这个{{4}}是我朋友的妻子。\n（5）我的箱子里有很多{{5}}的东西。",
+     "bank": [
+      "男人",
+      "女人",
+      "姐妹",
+      "年轻",
+      "重要",
+      "爱人",
+      "小孩儿"
+     ],
+     "answers": [
+      "男人",
+      "姐妹",
+      "年轻",
+      "女人",
+      "重要"
+     ],
+     "explain_vi": "男人 / 女人 · 姐妹 = chị em gái · 年轻 = trẻ · 重要 = quan trọng.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Thông tin về người",
+     "words": [
+      "男人",
+      "女人",
+      "姐妹",
+      "小孩儿",
+      "爱人",
+      "妻子",
+      "丈夫",
+      "身高",
+      "头发",
+      "瘦",
+      "年轻",
+      "高",
+      "个子"
+     ]
+    },
+    {
+     "head": "Thông tin về đồ vật",
+     "words": [
+      "行李",
+      "箱子",
       "护照",
-      "手机"
-     ],
-     "answer": 1,
-     "explain_vi": "我发现我的护照不见了。"
-    },
-    {
-     "id": "a2",
-     "kind": "mcq",
-     "prompt_zh": "护照是在哪儿找到的？",
-     "options": [
       "服务台",
-      "飞机上",
-      "行李箱里"
-     ],
-     "answer": 1,
-     "explain_vi": "他们在飞机上找到了我的护照。"
+      "照片",
+      "上衣",
+      "米",
+      "重要",
+      "中间",
+      "长",
+      "短"
+     ]
     },
     {
-     "id": "a3",
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "高个子",
+      "瘦瘦高高的女人",
+      "身高一米八",
+      "小男孩儿",
+      "头发很长",
+      "短头发",
+      "年轻男人",
+      "好姐妹",
+      "黑箱子",
+      "一本护照",
+      "朋友的照片",
+      "站在中间"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
      "kind": "mcq",
-     "prompt_zh": "来机场接他们的人是谁？",
      "options": [
-      "王老师",
-      "王一雪",
-      "李文的朋友"
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我不知道护照在哪儿，你帮我找找。——你别着急，我看看是不是在书包里。 → người đang tìm đồ trong túi.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 87.5,
+      "end": 111.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这是你的行李箱吗？——是的，我出去旅游的时候都带着它。 → cái vali.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 115.5,
+      "end": 133.0
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
      ],
      "answer": 1,
-     "explain_vi": "她就是王老师的姐姐王一雪。"
+     "explain_vi": "Nghe: 那是我们新来的老师吗？看上去很年轻。——是，……但是看起来像大学生。 → cô giáo trẻ trong lớp.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 137.8,
+      "end": 165.6
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-01/l1-a.jpg"
     },
     {
-     "id": "a4",
-     "kind": "truefalse",
-     "statement_zh": "白家月觉得护照很重要。",
-     "answer": true,
-     "explain_vi": "因为护照很重要。"
+     "key": "B",
+     "img": "hw-01/l1-b.jpg"
     },
     {
-     "id": "a5",
-     "kind": "truefalse",
-     "statement_zh": "王一雪看起来比照片上老。",
-     "answer": false,
-     "explain_vi": "她看上去和照片上一样年轻。"
+     "key": "C",
+     "img": "hw-01/l1-c.jpg"
     },
     {
-     "id": "a6",
-     "kind": "truefalse",
-     "statement_zh": "服务台的人帮他们找了两个小时。",
-     "answer": false,
-     "explain_vi": "Chỉ tìm nửa tiếng: 半个小时."
+     "key": "D",
+     "img": "hw-01/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "买箱子",
+      "找箱子",
+      "拿箱子"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 哪个是你的箱子？我帮你拿。——那个画着花的红箱子就是。 问：男的要帮女的做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 229.5,
+      "end": 263.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "男孩儿",
+      "女孩儿",
+      "最高的人"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你站在中间吧，你最高。——还是女孩儿站在中间吧，男孩儿站旁边。 问：男的觉得应该让谁站在中间？",
+     "fixed": true,
+     "audio": {
+      "start": 274.5,
+      "end": 306.0
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "接人",
+      "画画",
+      "等行李"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 飞机早就到了，他为什么还没出来？……那个拿着大包的男人是不是他？ 问：说话人在做什么？ → đang đón người.",
+     "fixed": true,
+     "audio": {
+      "start": 316.8,
+      "end": 355.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "去考试",
+      "去国外",
+      "接朋友"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我的好朋友下个星期从国外回来，我想去机场接他。 问：说话人下周为什么要去机场？",
+     "fixed": true,
+     "audio": {
+      "start": 422.8,
+      "end": 450.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "一个",
+      "两个",
+      "三个"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 妻子自己就带了两个箱子的东西，丈夫还要再找一个行李箱。 → 2 + 1 = 3.",
+     "fixed": true,
+     "audio": {
+      "start": 461.0,
+      "end": 498.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "看照片",
+      "坐公交车",
+      "接新老师"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 今天下午我在学校门口接新来的王老师…… 问：说话人在学校门口做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 509.5,
+      "end": 648.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "比照片上瘦",
+      "比照片上年轻",
+      "头发比照片上短"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 她看起来比照片上年轻很多，头发也比照片上长。 → trẻ hơn trong ảnh (tóc dài hơn, không phải ngắn hơn).",
+     "fixed": true,
+     "audio": {
+      "start": 509.5,
+      "end": 648.0
+     },
+     "num": "10"
     }
    ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu hỏi với câu trả lời",
-   "instructions_vi": "Nối mỗi câu bên trái với câu trả lời phù hợp.",
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
    "questions": [
     {
-     "id": "a7",
+     "id": "11-15",
      "kind": "match",
      "pairs": [
       {
-       "q": "这是谁的箱子？",
-       "a": "好像是那个年轻人的。"
+       "q": "那是谁？我怎么没有见过她？",
+       "a": "那是我妹妹，我带她来的。"
       },
       {
-       "q": "你的箱子是什么样的？",
-       "a": "黑色的，上面写着我的名字。"
+       "q": "照片上哪个是你哥哥？我没找到。",
+       "a": "左边第二个。他跟我长得不像。"
       },
       {
-       "q": "他们怎么还没出来？",
-       "a": "应该快出来了。"
+       "q": "谢谢您，这就是我的箱子。",
+       "a": "不客气，我可以看一下您的护照吗？"
       },
       {
-       "q": "我的护照不见了！",
-       "a": "别着急，我们去服务台问问。"
+       "q": "她看起来好像比你高一些。",
+       "a": "我们身高都是一米七，但是她比我瘦。"
+      },
+      {
+       "q": "我的箱子不见了，里面有很多重要的东西。",
+       "a": "别着急，我去服务台问问，会找到的。"
       }
      ],
-     "explain_vi": "Hỏi chủ → đoán bằng 好像; hỏi hình dáng → miêu tả; hỏi vì sao chưa ra → 应该; báo mất đồ → trấn an."
+     "explain_vi": "Hỏi “là ai” → 是我妹妹; hỏi “anh trai là người nào” → 左边第二个; cảm ơn → 不客气; “trông cao hơn” → 身高都是一米七; mất vali → 别着急.",
+     "num": "11–15"
     }
    ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "instructions_vi": "Có một từ thừa.",
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
    "questions": [
     {
-     "id": "a8",
+     "id": "16-20",
      "kind": "cloze",
-     "text": "A：那个穿着黑衣服的{{1}}是谁？\nB：他是李文，{{2}}一米八多。\nA：我{{3}}他是杨同乐呢，他们看上去有点儿{{4}}。",
+     "text": "16. 我的手机在国外不能用，你有{{1}}的事情可以给我妈妈打电话。\n17. 箱子就放在这里吧，谢谢你们的{{2}}。\n18. 别着急，你的箱子{{3}}可以找到。\n19. A：这是我爱人的弟弟，叫刘东，在电脑公司工作。 B：他们长得很{{4}}。\n20. A：你怎么这么高兴？ B：我{{5}}钱包丢了，但是在书包里找到了。",
      "bank": [
-      "年轻人",
-      "身高",
-      "以为",
       "像",
-      "着急"
-     ],
-     "answers": [
-      "年轻人",
-      "身高",
       "以为",
-      "像"
-     ],
-     "explain_vi": "年轻人 · 身高 + số đo · 以为 = tưởng (sai) · 像 = giống."
-    }
-   ]
-  },
-  {
-   "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-   "questions": [
-    {
-     "id": "b1",
-     "kind": "reorder",
-     "tiles": [
-      "看起来",
-      "你",
-      "有点儿",
-      "今天",
-      "累"
+      "重要",
+      "帮助",
+      "鞋",
+      "应该"
      ],
      "answers": [
-      "你今天看起来有点儿累",
-      "今天你看起来有点儿累"
-     ],
-     "vi": "Hôm nay trông bạn hơi mệt.",
-     "explain_vi": "看起来 + tính từ.",
-     "grammarRef": "h3-g1-1"
-    },
-    {
-     "id": "b2",
-     "kind": "reorder",
-     "tiles": [
-      "在哪儿",
-      "我",
-      "好像",
-      "见过他"
-     ],
-     "answers": [
-      "我好像在哪儿见过他"
-     ],
-     "vi": "Hình như tôi đã gặp anh ấy ở đâu đó.",
-     "explain_vi": "哪儿 = ở đâu đó.",
-     "grammarRef": "h3-g1-2"
-    },
-    {
-     "id": "b3",
-     "kind": "reorder",
-     "tiles": [
-      "的",
-      "那个",
-      "年轻人",
-      "短头发",
-      "是李文"
-     ],
-     "answers": [
-      "那个短头发的年轻人是李文"
-     ],
-     "vi": "Người thanh niên tóc ngắn kia là Lý Văn.",
-     "explain_vi": "Định ngữ đứng trước danh từ chính.",
-     "grammarRef": "h3-g1-3"
-    },
-    {
-     "id": "b4",
-     "kind": "reorder",
-     "tiles": [
-      "重要的东西",
-      "里",
-      "有",
-      "箱子",
-      "不少"
-     ],
-     "answers": [
-      "箱子里有不少重要的东西"
-     ],
-     "vi": "Trong vali có khá nhiều đồ quan trọng.",
-     "explain_vi": "Nơi chốn + 有 + vật.",
-     "grammarRef": "h3-g1-3"
-    },
-    {
-     "id": "b5",
-     "kind": "reorder",
-     "tiles": [
-      "去",
-      "我们",
-      "接他们",
-      "机场",
-      "一起"
-     ],
-     "answers": [
-      "我们一起去机场接他们"
-     ],
-     "vi": "Chúng ta cùng ra sân bay đón họ.",
-     "explain_vi": "一起 + 去 + nơi + làm gì.",
-     "grammarRef": "h3-g1-1"
-    }
-   ]
-  },
-  {
-   "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy. Bài có giới hạn thời gian.",
-   "questions": [
-    {
-     "id": "b6",
-     "kind": "translate",
-     "prompt_vi": "Hình như tôi đã gặp anh ấy ở đâu đó.",
-     "acceptedAnswers": [
-      "我好像在哪儿见过他",
-      "我好像在哪儿看到过他",
-      "我好像在哪儿看见过他"
-     ],
-     "requiredKeywords": [
-      "好像",
-      "哪儿"
-     ],
-     "wordBank": [
-      "我",
-      "好像",
-      "在",
-      "哪儿",
-      "见过",
-      "他"
-     ],
-     "explain_vi": "好像 + 在哪儿 + động từ + 过.",
-     "grammarRef": "h3-g1-2"
-    },
-    {
-     "id": "b7",
-     "kind": "translate",
-     "prompt_vi": "Đừng sốt ruột, chúng ta ra quầy dịch vụ hỏi xem.",
-     "acceptedAnswers": [
-      "别着急，我们去服务台问问",
-      "别着急，我们去服务台问一下"
-     ],
-     "requiredKeywords": [
-      "着急",
-      "服务台"
-     ],
-     "wordBank": [
-      "别",
-      "着急",
-      "我们",
-      "去",
-      "服务台",
-      "问问"
-     ],
-     "explain_vi": "别着急 + đề nghị.",
-     "grammarRef": "h3-g1-2"
-    },
-    {
-     "id": "b8",
-     "kind": "translate",
-     "prompt_vi": "Tôi cứ tưởng bạn là người Trung Quốc.",
-     "acceptedAnswers": [
-      "我以为你是中国人",
-      "我还以为你是中国人"
-     ],
-     "requiredKeywords": [
+      "重要",
+      "帮助",
+      "应该",
+      "像",
       "以为"
      ],
-     "wordBank": [
-      "我",
-      "以为",
-      "你",
-      "是",
-      "中国人"
+     "explain_vi": "重要的事情 · 谢谢你们的帮助 · 应该可以找到 · 长得很像 · 我以为钱包丢了.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "个子很高",
+      "长得很黑",
+      "他好像见过"
      ],
-     "explain_vi": "以为 = tưởng (sai).",
-     "grammarRef": "h3-g1-1"
+     "answer": 2,
+     "explain_vi": "我好像在哪儿见过她 → người viết hình như đã gặp.",
+     "fixed": true,
+     "prompt_zh": "★ 照片上的人：",
+     "context_zh": "照片上的人个子不高，穿着一件红色的上衣，头发很长也很黑。我好像在哪儿见过她。",
+     "num": "21"
     },
     {
-     "id": "b9",
-     "kind": "translate",
-     "prompt_vi": "Trông cô ấy rất trẻ.",
-     "acceptedAnswers": [
-      "她看起来很年轻",
-      "她看上去很年轻"
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "护照在妻子那儿",
+      "他的东西找到了",
+      "他的行李箱丢了"
      ],
-     "requiredKeywords": [
-      "年轻"
-     ],
-     "wordBank": [
-      "她",
-      "看起来",
-      "很",
-      "年轻"
-     ],
-     "explain_vi": "看起来 / 看上去 + tính từ.",
-     "grammarRef": "h3-g1-1"
+     "answer": 1,
+     "explain_vi": "妻子一回家就帮他找到了 → hộ chiếu đã được tìm thấy.",
+     "fixed": true,
+     "prompt_zh": "★ 关于李先生，可以知道什么？",
+     "context_zh": "李先生以为护照不见了，着急地找了很长时间。没想到妻子一回家就帮他找到了，他忘了护照在箱子里了。",
+     "num": "22"
     },
     {
-     "id": "b10",
-     "kind": "translate",
-     "prompt_vi": "Hộ chiếu của tôi không thấy đâu, bạn có thể giúp tôi không?",
-     "acceptedAnswers": [
-      "我的护照不见了，你可以帮助我吗",
-      "我的护照不见了，你能帮助我吗",
-      "我的护照不见了，你能帮我吗",
-      "我的护照不见了，你可以帮我吗"
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "照片里有四个人",
+      "女孩儿穿着红裤子",
+      "男孩儿的个子不高"
      ],
-     "requiredKeywords": [
-      "护照",
-      "不见"
+     "answer": 1,
+     "explain_vi": "她穿着黑色的上衣、红色的裤子. Ảnh chỉ có 3 người; cậu bé bên phải rất cao.",
+     "fixed": true,
+     "prompt_zh": "★ 关于照片，可以知道什么？",
+     "context_zh": "你们看，照片里那个短头发的男孩儿就是我，我站在中间。我左边是一个头发很长的年轻女孩儿，她穿着黑色的上衣、红色的裤子，正在看书；我右边是一个个子很高的男孩儿，他穿着白色的上衣，手里拿着一个大包，看起来有点儿不高兴。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "头发很短",
+      "站在中间",
+      "拿着一个大包"
      ],
-     "wordBank": [
-      "我的",
-      "护照",
-      "不见了",
-      "你",
-      "可以",
-      "帮助",
-      "我",
-      "吗"
-     ],
-     "explain_vi": "不见了 = không thấy đâu.",
-     "grammarRef": "h3-g1-2"
+     "answer": 2,
+     "explain_vi": "手里拿着一个大包.",
+     "fixed": true,
+     "prompt_zh": "★ 关于他右边的男孩儿，可以知道什么？",
+     "context_zh": "你们看，照片里那个短头发的男孩儿就是我，我站在中间。我左边是一个头发很长的年轻女孩儿，她穿着黑色的上衣、红色的裤子，正在看书；我右边是一个个子很高的男孩儿，他穿着白色的上衣，手里拿着一个大包，看起来有点儿不高兴。",
+     "num": "24"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "他看上去很着___。",
+     "pinyin": "jí",
+     "answer": "急",
+     "explain_vi": "着急 zháojí = sốt ruột.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "这是我的___照号码。",
+     "pinyin": "hù",
+     "answer": "护",
+     "explain_vi": "护照 = hộ chiếu.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "这件事很___要，你不要忘了。",
+     "pinyin": "zhòng",
+     "answer": "重",
+     "explain_vi": "重要 = quan trọng.",
+     "num": "27"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-01/w28.jpg",
+     "word": "以为",
+     "sample": "我以为她们是姐妹，原来是好朋友。",
+     "explain_vi": "以为 = tưởng là (nhưng thực ra không phải).",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-01/w29.jpg",
+     "word": "应该",
+     "sample": "他的行李应该快出来了。",
+     "explain_vi": "应该 = chắc là, lẽ ra.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-01/w30.jpg",
+     "word": "好像",
+     "sample": "她好像很累，坐在箱子旁边休息。",
+     "explain_vi": "好像 = hình như, có vẻ như.",
+     "num": "30"
     }
    ]
   }

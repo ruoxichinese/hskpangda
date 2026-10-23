@@ -47,6 +47,18 @@
    "pinyin": "kàn qilai",
    "vi": "trông có vẻ",
    "known": true
+  },
+  {
+   "zh": "纸箱",
+   "pinyin": "zhǐxiāng",
+   "vi": "thùng giấy",
+   "known": true
+  },
+  {
+   "zh": "箱",
+   "pinyin": "xiāng",
+   "vi": "hòm, thùng",
+   "known": true
   }
  ]
 }
