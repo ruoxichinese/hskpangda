@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getHomework, getLessons, isReady, levels } from './data';
+import { getHomework, getLessons, isReady, levels, hwImage } from './data';
 import { getDict, segment } from './dict';
 
 
@@ -27,6 +27,20 @@ for (const level of levels.filter((l) => l.available)) {
       if (!hw || !isReady(hw)) continue;
       it(`bài tập về nhà ${lesson.id}: 15–20 câu, chỉ dùng từ đã học, đáp án hợp lệ`, () => {
         const qs = hw.sections.flatMap((s) => s.questions.map((q) => ({ q, type: s.type })));
+        // bài tập lấy nguyên từ sách bài tập: kiểm tra đáp án, ảnh, đoạn nghe; không giới hạn số câu và từ
+        const fromWorkbook = !!hw.source_vi;
+        if (fromWorkbook) {
+          expect(qs.length).toBeGreaterThanOrEqual(25);
+          expect(qs.length).toBeLessThanOrEqual(45);
+          expect(hw.pinyin).toBe(false);
+          for (const sec of hw.sections) for (const im of sec.images ?? []) expect(hwImage(hw.level, im.img), im.img).toBeTruthy();
+          for (const { q } of qs) {
+            if ((q.kind === 'mcq' || q.kind === 'truefalse') && q.audio) expect(q.audio.end).toBeGreaterThan(q.audio.start);
+            if (q.kind === 'charFill') { expect(q.text).toContain('___'); expect(q.answer.length).toBeGreaterThan(0); }
+            if (q.kind === 'sentence') { expect(q.sample).toContain(q.word); if (q.img) expect(hwImage(hw.level, q.img), q.img).toBeTruthy(); }
+          }
+        }
+        if (!fromWorkbook) {
         expect(qs.length).toBeGreaterThanOrEqual(15);
         expect(qs.length).toBeLessThanOrEqual(20);
         const reading = qs.filter((x) => x.type === 'reading').length;
@@ -50,6 +64,7 @@ for (const level of levels.filter((l) => l.available)) {
         }
         expect([...unknown]).toEqual([]);
         expect([...tooAdvanced]).toEqual([]);
+        }
 
         for (const { q } of qs) {
           if (q.kind === 'mcq') expect(q.answer).toBeLessThan(q.options.length);

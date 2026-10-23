@@ -62,6 +62,12 @@ export function getWordlist(levelId: string) {
 }
 // Ảnh của đề thi: src/data/<cấp>/exams/img/<đề>/*.jpg – Vite đóng gói (bản demo 1 file thì nhúng thẳng vào trang)
 const examImages = import.meta.glob('../data/*/exams/img/**/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' }) as Record<string, string>;
+// Ảnh của bài tập về nhà: src/data/<cấp>/homework/img/<bài>/*.jpg
+const hwImages = import.meta.glob('../data/*/homework/img/**/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' }) as Record<string, string>;
+export function hwImage(levelId: string, path: string): string | undefined {
+  return hwImages[`../data/${levelId}/homework/img/${path}`];
+}
+
 export function examImage(levelId: string, path: string): string | undefined {
   return examImages[`../data/${levelId}/exams/img/${path}`];
 }

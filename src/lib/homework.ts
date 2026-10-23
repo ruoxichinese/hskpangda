@@ -3,17 +3,17 @@ import { gradeReorder, gradeTranslation, translationPoints, type TranslateResult
 import { permutation } from './util';
 import type { QResult } from '../store/ProgressStore';
 
-export interface FlatQ { q: HwQuestion; section: HwSection; secIdx: number; n: number }
+export interface FlatQ { q: HwQuestion; section: HwSection; secIdx: number; n: number; label: string }
 
 export function flatten(hw: Homework): FlatQ[] {
   let n = 0;
-  return hw.sections.flatMap((section, secIdx) => section.questions.map((q) => ({ q, section, secIdx, n: ++n })));
+  return hw.sections.flatMap((section, secIdx) => section.questions.map((q) => { n++; return { q, section, secIdx, n, label: q.num ?? String(n) }; }));
 }
 
 /** Hoán vị hiển thị cho mỗi lần làm (xáo đáp án trắc nghiệm, cột nối, ngân hàng từ, thẻ sắp xếp) */
 export function makeOrder(q: HwQuestion): number[] | undefined {
   switch (q.kind) {
-    case 'mcq': return permutation(q.options.length);
+    case 'mcq': return q.fixed ? undefined : permutation(q.options.length);
     case 'match': return permutation(q.pairs.length);
     case 'cloze': return permutation(q.bank.length);
     case 'reorder': {
@@ -37,6 +37,7 @@ export function isAnswered(q: HwQuestion, a: unknown): boolean {
     case 'cloze': return (a as string[]).filter(Boolean).length === q.answers.length;
     case 'reorder': return (a as number[]).length === q.tiles.length;
     case 'translate': return !!(a as TranslateAnswer).text?.trim();
+    case 'charFill': case 'sentence': return !!String(a).trim();
     default: return true;
   }
 }
@@ -70,6 +71,21 @@ export function gradeQuestion(q: HwQuestion, a: unknown, order: number[] | undef
       const text = v.map((i) => tiles[i]).join('');
       const ok = gradeReorder(v.map((i) => tiles[i]), q.answers);
       return { points: ok ? 1 : 0, status: ok ? 'correct' : 'wrong', userText: text };
+    }
+    case 'charFill': {
+      const t = String(a ?? '').replace(/\s/g, '');
+      if (!t) return { points: 0, status: 'empty' };
+      const ok = t === q.answer;
+      return { points: ok ? 1 : 0, status: ok ? 'correct' : 'wrong', userText: t };
+    }
+    case 'sentence': {
+      const t = String(a ?? '').trim();
+      if (!t) return { points: 0, status: 'empty' };
+      const han = t.replace(/[^\u4e00-\u9fff]/g, '');
+      const hasWord = t.includes(q.word);
+      const longEnough = han.length >= q.word.length + 4;
+      const ok = hasWord && longEnough;
+      return { points: ok ? 1 : hasWord ? 0.5 : 0, status: ok ? 'correct' : hasWord ? 'partial' : 'wrong', userText: t };
     }
     case 'translate': {
       const text = (a as TranslateAnswer | undefined)?.text ?? '';

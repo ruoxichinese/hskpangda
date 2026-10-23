@@ -133,9 +133,14 @@ export interface Lesson {
 }
 
 // ===== Bài tập về nhà =====
-export type HwQuestion =
-  | { id: string; kind: 'mcq'; prompt_zh?: string; prompt_vi?: string; options: string[]; answer: number; explain_vi: string }
-  | { id: string; kind: 'truefalse'; statement_zh: string; statement_vi?: string; answer: boolean; explain_vi: string }
+/** Một đoạn trong file nghe (giây) – bài tập nghe */
+export interface HwAudio { src?: string; start: number; end: number }
+
+export type HwQuestion = { num?: string } & (
+  | { id: string; kind: 'mcq'; prompt_zh?: string; prompt_vi?: string; context_zh?: string; options: string[]; answer: number; explain_vi: string; audio?: HwAudio; fixed?: boolean }
+  | { id: string; kind: 'truefalse'; statement_zh: string; statement_vi?: string; answer: boolean; explain_vi: string; audio?: HwAudio }
+  | { id: string; kind: 'charFill'; text: string; pinyin: string; answer: string; explain_vi: string }
+  | { id: string; kind: 'sentence'; img?: string; word: string; sample: string; explain_vi: string }
   | { id: string; kind: 'match'; prompt_vi?: string; pairs: { q: string; a: string }[]; explain_vi: string }
   | { id: string; kind: 'cloze'; prompt_vi?: string; text: string; bank: string[]; answers: string[]; explain_vi: string }
   | { id: string; kind: 'reorder'; tiles: string[]; answers: string[]; vi?: string; explain_vi: string; grammarRef?: string }
@@ -148,12 +153,16 @@ export type HwQuestion =
       wordBank?: string[];
       explain_vi: string;
       grammarRef?: string;
-    };
+    });
 
 export interface HwPassage { zh: string; vi?: string; title_vi?: string }
 
 export interface HwSection {
-  type: 'reading' | 'writing';
+  type: 'reading' | 'writing' | 'listening' | 'vocab';
+  /** bảng tranh A, B, C… dùng chung cho các câu trong phần (vd. nghe chọn tranh) */
+  images?: { key: string; img: string }[];
+  /** bảng từ để tham khảo (vd. 词语汇聚) */
+  wordTable?: { head: string; words: string[] }[];
   title_vi: string;
   part?: string; // "A1"
   instructions_vi?: string;
@@ -164,6 +173,11 @@ export interface HwSection {
 export interface Homework {
   lessonId: number;
   level: string;
+  /** false = bài tập không hiện pinyin */
+  pinyin?: boolean;
+  /** file nghe mặc định cho các câu nghe (đường dẫn trong public/) */
+  audio?: string;
+  source_vi?: string;
   status?: 'ready' | 'draft';
   sections: HwSection[];
 }

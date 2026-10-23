@@ -6,6 +6,7 @@ import { ReorderQuestion } from '../components/questions/ReorderQuestion';
 import { TranslateQuestion, type TranslateValue } from '../components/questions/TranslateQuestion';
 import { Confetti, ProgressBar, Stars } from '../components/ui';
 import { ZhText } from '../components/ZhText';
+import { ClipButton, ImageBank, WordTable, WriteQuestion } from '../components/questions/HwExtras';
 import { allGrammar, getHomework, getLesson, getLevel, isReady } from '../lib/data';
 import { getDict, segment } from '../lib/dict';
 import { charDiff, compareKey } from '../lib/grading';
@@ -23,6 +24,8 @@ function correctText(q: HwQuestion): string {
     case 'cloze': return q.answers.map((a, i) => `(${i + 1}) ${a}`).join('  ');
     case 'reorder': return q.answers.join(' / ');
     case 'translate': return q.acceptedAnswers[0];
+    case 'charFill': return q.answer;
+    case 'sentence': return q.sample;
   }
 }
 
@@ -50,7 +53,8 @@ export default function HomeworkPage() {
 
   const [mode, setMode] = useState<'doing' | 'result'>(() => (hp?.last && !hp.draft ? 'result' : 'doing'));
   const [draft, setDraft] = useState<HwDraft>(() => hp?.draft ?? newDraft(items));
-  const [passagePinyin, setPassagePinyin] = useState<PinyinMode>(prefs.pinyin);
+  const noPinyin = hw?.pinyin === false;
+  const [passagePinyin, setPassagePinyin] = useState<PinyinMode>(noPinyin ? 'hidden' : prefs.pinyin);
   const [toast, setToast] = useState<string | null>(null);
   const [fire, setFire] = useState(0);
   const [now, setNow] = useState(Date.now());
@@ -216,7 +220,7 @@ export default function HomeworkPage() {
 
         <h2 className="h-section mb-3">Chi tiết từng câu</h2>
         <ol className="space-y-3">
-          {items.map(({ q, n }) => {
+          {items.map(({ q, label }) => {
             const r = last.results[q.id] ?? { points: 0, status: 'empty' };
             const g: Graded = gradeQuestion(q, last.answers[q.id], last.order[q.id], r.confirmed);
             const ok = r.points === 1;
@@ -229,7 +233,7 @@ export default function HomeworkPage() {
                   </span>
                   <div className="min-w-0 flex-1">
                     <p className="font-semibold">
-                      Câu {n}. {q.kind === 'translate' ? q.prompt_vi : q.kind === 'mcq' ? (q.prompt_zh ?? q.prompt_vi) : q.kind === 'truefalse' ? q.statement_zh : q.kind === 'reorder' ? q.vi : q.kind === 'match' ? 'Nối câu' : 'Điền từ'}
+                      Câu {label}. {q.kind === 'translate' ? q.prompt_vi : q.kind === 'mcq' ? (q.prompt_zh ?? q.prompt_vi) : q.kind === 'truefalse' ? q.statement_zh : q.kind === 'reorder' ? q.vi : q.kind === 'match' ? 'Nối câu' : q.kind === 'charFill' ? `${q.text.replace('___', `（${q.pinyin}）`)}` : q.kind === 'sentence' ? `Đặt câu với “${q.word}”` : 'Điền từ'}
                       <span className="sr-only">{ok ? ' – đúng' : ' – chưa đúng'}</span>
                     </p>
                     {!ok && (
@@ -266,7 +270,7 @@ export default function HomeworkPage() {
             );
           })}
         </ol>
-        <PrintSheet items={items} levelId={levelId} title={lesson.title.zh} />
+        <PrintSheet noPinyin={noPinyin} items={items} levelId={levelId} title={lesson.title.zh} />
       </div>
     );
   }
@@ -274,7 +278,7 @@ export default function HomeworkPage() {
   // ===== ĐANG LÀM =====
   const answered = visible.filter((x) => isAnswered(x.q, draft.answers[x.q.id])).length;
   const { q, section } = cur;
-  const pinyinFor = prefs.pinyin;
+  const pinyinFor: PinyinMode = noPinyin ? 'hidden' : prefs.pinyin;
   const showPassage = section.passage && section.passage.zh;
 
   let qBody: React.ReactNode;
@@ -298,8 +302,18 @@ export default function HomeworkPage() {
         allowBank={lv.difficulty.hintsPerQuestion > 0}
       />
     );
+  } else if (q.kind === 'charFill' || q.kind === 'sentence') {
+    qBody = <WriteQuestion key={q.id} q={q} value={draft.answers[q.id]} onChange={(v) => setAnswer(q.id, v)} levelId={levelId} />;
   } else {
-    qBody = <ReadingQuestion key={q.id} q={q} value={draft.answers[q.id]} onChange={(v) => setAnswer(q.id, v)} order={draft.order[q.id]} levelId={levelId} upTo={lessonId} pinyin={pinyinFor} />;
+    qBody = (
+      <div>
+        {(q.kind === 'mcq' || q.kind === 'truefalse') && q.audio && <ClipButton key={`clip-${q.id}`} clip={q.audio} fallbackSrc={hw?.audio} />}
+        {q.kind === 'mcq' && q.context_zh && (
+          <div className="mb-3 rounded-2xl bg-bg p-3"><ZhText text={q.context_zh} levelId={levelId} pinyin={pinyinFor} upTo={lessonId} size="lg" className="block !leading-[2.2]" /></div>
+        )}
+        <ReadingQuestion key={q.id} q={q} value={draft.answers[q.id]} onChange={(v) => setAnswer(q.id, v)} order={draft.order[q.id]} levelId={levelId} upTo={lessonId} pinyin={pinyinFor} />
+      </div>
+    );
   }
 
   return (
@@ -317,24 +331,28 @@ export default function HomeworkPage() {
 
         <section className="card mb-4">
           <p className="text-sm font-bold text-accent">
-            Phần {section.type === 'reading' ? 'A – Đọc hiểu' : 'B – Viết'} · {section.part} {section.title_vi}
+            {({ vocab: 'Từ vựng', listening: 'Nghe', reading: 'Đọc hiểu', writing: 'Viết' } as Record<string, string>)[section.type]} · {section.part} {section.title_vi}
           </p>
           {section.instructions_vi && <p className="text-sm text-muted">{section.instructions_vi}</p>}
+          {section.images && <ImageBank images={section.images} levelId={levelId} />}
+          {section.wordTable && <WordTable rows={section.wordTable} />}
           {showPassage && (
             <div className="mt-3 rounded-2xl bg-bg p-3">
               <div className="mb-2 flex items-center justify-between gap-2">
                 <span className="label">📄 {section.passage!.title_vi ?? 'Bài đọc'}</span>
-                <button className="chip" onClick={() => setPassagePinyin((p) => (p === 'always' ? (prefs.pinyin === 'always' ? 'hidden' : prefs.pinyin) : 'always'))} aria-pressed={passagePinyin === 'always'}>
-                  {passagePinyin === 'always' ? 'Tắt pinyin' : 'Hiện toàn bộ pinyin'}
-                </button>
+                {!noPinyin && (
+                  <button className="chip" onClick={() => setPassagePinyin((p) => (p === 'always' ? (prefs.pinyin === 'always' ? 'hidden' : prefs.pinyin) : 'always'))} aria-pressed={passagePinyin === 'always'}>
+                    {passagePinyin === 'always' ? 'Tắt pinyin' : 'Hiện toàn bộ pinyin'}
+                  </button>
+                )}
               </div>
               <ZhText text={section.passage!.zh} levelId={levelId} pinyin={passagePinyin} upTo={lessonId} size="lg" className="block !leading-[2.4]" />
             </div>
           )}
         </section>
 
-        <section className="card mb-4" aria-live="polite" aria-label={`Câu ${cur.n}`}>
-          <p className="label mb-2">Câu {cur.n}</p>
+        <section className="card mb-4" aria-live="polite" aria-label={`Câu ${cur.label}`}>
+          <p className="label mb-2">Câu {cur.label}</p>
           {qBody}
         </section>
 
@@ -355,9 +373,9 @@ export default function HomeworkPage() {
             const i = items.indexOf(x);
             const a = isAnswered(x.q, draft.answers[x.q.id]);
             return (
-              <button key={x.q.id} onClick={() => goIdx(i)} aria-current={i === draft.index ? 'true' : undefined} aria-label={`Câu ${x.n}${a ? ', đã trả lời' : ''}`}
+              <button key={x.q.id} onClick={() => goIdx(i)} aria-current={i === draft.index ? 'true' : undefined} aria-label={`Câu ${x.label}${a ? ', đã trả lời' : ''}`}
                 className={cls('h-10 w-10 rounded-full border-2 text-sm font-bold', i === draft.index ? 'border-primary bg-primary text-onprimary' : a ? 'border-primary/60 bg-primary/10' : 'border-line')}>
-                {x.n}
+                {x.label}
               </button>
             );
           })}
@@ -368,13 +386,13 @@ export default function HomeworkPage() {
         )}
       </div>
       {toast && <div role="status" className="pop fixed bottom-24 left-1/2 z-50 -translate-x-1/2 rounded-full bg-ink px-5 py-3 font-semibold text-bg md:bottom-8">{toast}</div>}
-      <PrintSheet items={items} levelId={levelId} title={lesson.title.zh} />
+      <PrintSheet noPinyin={noPinyin} items={items} levelId={levelId} title={lesson.title.zh} />
     </div>
   );
 }
 
 /** Trang in: có chỗ trống để viết tay; đáp án in ở trang riêng */
-function PrintSheet({ items, levelId, title }: { items: FlatQ[]; levelId: string; title: string }) {
+function PrintSheet({ items, levelId, title, noPinyin = false }: { items: FlatQ[]; levelId: string; title: string; noPinyin?: boolean }) {
   const sections = Array.from(new Set(items.map((x) => x.secIdx)));
   return (
     <div className="print-only text-black">
@@ -387,23 +405,26 @@ function PrintSheet({ items, levelId, title }: { items: FlatQ[]; levelId: string
           <section key={si} className="mb-5" style={{ breakInside: 'avoid-page' }}>
             <h2 className="text-lg font-bold">{sec.part} · {sec.title_vi}</h2>
             {sec.instructions_vi && <p className="text-sm">{sec.instructions_vi}</p>}
-            {sec.passage?.zh && <div className="my-2 border p-2"><ZhText text={sec.passage.zh} levelId={levelId} pinyin="always" /></div>}
-            {group.map(({ q, n }) => (
+            {sec.passage?.zh && <div className="my-2 border p-2"><ZhText text={sec.passage.zh} levelId={levelId} pinyin={noPinyin ? 'hidden' : 'always'} /></div>}
+            {sec.type === 'listening' && <p className="text-sm italic">(Phần nghe: mở bài trên website để nghe file ghi âm.)</p>}
+            {group.map(({ q, label }) => (
               <div key={q.id} className="my-3" style={{ breakInside: 'avoid' }}>
-                {q.kind === 'mcq' && (<><p>{n}. {q.prompt_zh ?? q.prompt_vi}</p><p className="han">{q.options.map((o, i) => `☐ ${String.fromCharCode(65 + i)}. ${o}`).join('　　')}</p></>)}
-                {q.kind === 'truefalse' && <p>{n}. <span className="han">{q.statement_zh}</span> {q.statement_vi && `(${q.statement_vi})`}　☐ Đúng　☐ Sai</p>}
+                {q.kind === 'mcq' && (<><p>{label}. {q.prompt_zh ?? q.prompt_vi}</p><p className="han">{q.options.map((o, i) => `☐ ${String.fromCharCode(65 + i)}. ${o}`).join('　　')}</p></>)}
+                {q.kind === 'truefalse' && <p>{label}. <span className="han">{q.statement_zh}</span> {q.statement_vi && `(${q.statement_vi})`}　☐ Đúng　☐ Sai</p>}
                 {q.kind === 'match' && (
                   <div>
-                    <p>{n}. Nối mỗi câu bên trái với một câu bên phải:</p>
+                    <p>{label}. Nối mỗi câu bên trái với một câu bên phải:</p>
                     <div className="han grid grid-cols-2 gap-x-8">
                       <div>{q.pairs.map((p, i) => <p key={i}>{i + 1}. {p.q} ____</p>)}</div>
                       <div>{q.pairs.map((_, i) => <p key={i}>{String.fromCharCode(65 + i)}. {q.pairs[(i + 1) % q.pairs.length].a}</p>)}</div>
                     </div>
                   </div>
                 )}
-                {q.kind === 'cloze' && (<><p>{n}. Từ: <span className="han">{q.bank.join('　')}</span></p><p className="han whitespace-pre-line">{q.text.replace(/\{\{(\d+)\}\}/g, '($1)______')}</p></>)}
-                {q.kind === 'reorder' && (<><p>{n}. {q.vi} — <span className="han">{q.tiles.join(' / ')}</span></p><div className="write-line" /></>)}
-                {q.kind === 'translate' && (<><p>{n}. {q.prompt_vi}</p><div className="write-line" /><div className="write-line" /></>)}
+                {q.kind === 'cloze' && (<><p>{label}. Từ: <span className="han">{q.bank.join('　')}</span></p><p className="han whitespace-pre-line">{q.text.replace(/\{\{(\d+)\}\}/g, '($1)______')}</p></>)}
+                {q.kind === 'reorder' && (<><p>{label}. {q.vi} — <span className="han">{q.tiles.join(' / ')}</span></p><div className="write-line" /></>)}
+                {q.kind === 'translate' && (<><p>{label}. {q.prompt_vi}</p><div className="write-line" /><div className="write-line" /></>)}
+                {q.kind === 'charFill' && <p className="han">{label}. {q.text.replace('___', `（${q.pinyin}）______`)}</p>}
+                {q.kind === 'sentence' && (<><p>{label}. Nhìn tranh, đặt câu với từ <span className="han">{q.word}</span></p><div className="write-line" /></>)}
               </div>
             ))}
           </section>
