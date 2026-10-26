@@ -1280,6 +1280,261 @@
    "zh": "喜",
    "pinyin": "xǐ",
    "vi": "vui, thích"
+  },
+  {
+   "zh": "英语",
+   "pinyin": "Yīngyǔ",
+   "vi": "tiếng Anh"
+  },
+  {
+   "zh": "海边",
+   "pinyin": "hǎibiān",
+   "vi": "bờ biển, ven biển"
+  },
+  {
+   "zh": "座",
+   "pinyin": "zuò",
+   "vi": "ngọn, toà (lượng từ)"
+  },
+  {
+   "zh": "认真",
+   "pinyin": "rènzhēn",
+   "vi": "chăm chỉ, nghiêm túc"
+  },
+  {
+   "zh": "边",
+   "pinyin": "biān",
+   "vi": "bên, phía"
+  },
+  {
+   "zh": "辆",
+   "pinyin": "liàng",
+   "vi": "chiếc (xe)"
+  },
+  {
+   "zh": "成",
+   "pinyin": "chéng",
+   "vi": "thành, trở thành"
+  },
+  {
+   "zh": "卡",
+   "pinyin": "kǎ",
+   "vi": "thẻ"
+  },
+  {
+   "zh": "生活",
+   "pinyin": "shēnghuó",
+   "vi": "cuộc sống"
+  },
+  {
+   "zh": "图书馆",
+   "pinyin": "túshūguǎn",
+   "vi": "thư viện"
+  },
+  {
+   "zh": "刚",
+   "pinyin": "gāng",
+   "vi": "vừa mới"
+  },
+  {
+   "zh": "对方",
+   "pinyin": "duìfāng",
+   "vi": "đối phương, người kia"
+  },
+  {
+   "zh": "汽车",
+   "pinyin": "qìchē",
+   "vi": "ô tô"
+  },
+  {
+   "zh": "夏天",
+   "pinyin": "xiàtiān",
+   "vi": "mùa hè"
+  },
+  {
+   "zh": "机",
+   "pinyin": "jī",
+   "vi": "máy"
+  },
+  {
+   "zh": "步",
+   "pinyin": "bù",
+   "vi": "bước"
+  },
+  {
+   "zh": "读",
+   "pinyin": "dú",
+   "vi": "đọc"
+  },
+  {
+   "zh": "发",
+   "pinyin": "fā",
+   "vi": "phát"
+  },
+  {
+   "zh": "烧",
+   "pinyin": "shāo",
+   "vi": "sốt; đốt"
+  },
+  {
+   "zh": "气温",
+   "pinyin": "qìwēn",
+   "vi": "nhiệt độ"
+  },
+  {
+   "zh": "努力",
+   "pinyin": "nǔlì",
+   "vi": "cố gắng"
+  },
+  {
+   "zh": "清楚",
+   "pinyin": "qīngchu",
+   "vi": "rõ ràng"
+  },
+  {
+   "zh": "首",
+   "pinyin": "shǒu",
+   "vi": "bài (lượng từ)"
+  },
+  {
+   "zh": "各",
+   "pinyin": "gè",
+   "vi": "các, mỗi"
+  },
+  {
+   "zh": "零",
+   "pinyin": "líng",
+   "vi": "số không"
+  },
+  {
+   "zh": "场",
+   "pinyin": "chǎng",
+   "vi": "trận (lượng từ)"
+  },
+  {
+   "zh": "球员",
+   "pinyin": "qiúyuán",
+   "vi": "cầu thủ"
+  },
+  {
+   "zh": "交",
+   "pinyin": "jiāo",
+   "vi": "nộp, giao"
+  },
+  {
+   "zh": "中",
+   "pinyin": "zhōng",
+   "vi": "trong, giữa"
+  },
+  {
+   "zh": "毕业",
+   "pinyin": "bìyè",
+   "vi": "tốt nghiệp"
+  },
+  {
+   "zh": "生",
+   "pinyin": "shēng",
+   "vi": "sinh, mới"
+  },
+  {
+   "zh": "生词",
+   "pinyin": "shēngcí",
+   "vi": "từ mới"
+  },
+  {
+   "zh": "台",
+   "pinyin": "tái",
+   "vi": "chiếc (máy)"
+  },
+  {
+   "zh": "查",
+   "pinyin": "chá",
+   "vi": "tra, kiểm tra"
+  },
+  {
+   "zh": "假",
+   "pinyin": "jià",
+   "vi": "kỳ nghỉ, phép"
+  },
+  {
+   "zh": "来不及",
+   "pinyin": "lái bu jí",
+   "vi": "không kịp"
+  },
+  {
+   "zh": "想法",
+   "pinyin": "xiǎngfǎ",
+   "vi": "suy nghĩ, ý kiến"
+  },
+  {
+   "zh": "热闹",
+   "pinyin": "rènao",
+   "vi": "náo nhiệt"
+  },
+  {
+   "zh": "美",
+   "pinyin": "měi",
+   "vi": "đẹp"
+  },
+  {
+   "zh": "黄",
+   "pinyin": "huáng",
+   "vi": "vàng"
+  },
+  {
+   "zh": "春",
+   "pinyin": "chūn",
+   "vi": "xuân"
+  },
+  {
+   "zh": "夏",
+   "pinyin": "xià",
+   "vi": "hạ"
+  },
+  {
+   "zh": "秋",
+   "pinyin": "qiū",
+   "vi": "thu"
+  },
+  {
+   "zh": "冬",
+   "pinyin": "dōng",
+   "vi": "đông"
+  },
+  {
+   "zh": "进步",
+   "pinyin": "jìnbù",
+   "vi": "tiến bộ"
+  },
+  {
+   "zh": "馆",
+   "pinyin": "guǎn",
+   "vi": "quán, nhà"
+  },
+  {
+   "zh": "面馆",
+   "pinyin": "miànguǎn",
+   "vi": "quán mì"
+  },
+  {
+   "zh": "今晚",
+   "pinyin": "jīnwǎn",
+   "vi": "tối nay"
+  },
+  {
+   "zh": "画板",
+   "pinyin": "huàbǎn",
+   "vi": "bảng vẽ"
+  },
+  {
+   "zh": "聊",
+   "pinyin": "liáo",
+   "vi": "tán gẫu"
+  },
+  {
+   "zh": "天儿",
+   "pinyin": "tiānr",
+   "vi": "chuyện (tán gẫu)"
   }
  ]
 }

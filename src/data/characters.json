@@ -136,5 +136,50 @@
     "setting": "china",
     "color": "#8B5E34",
     "desc_vi": "Bố của Lưu Minh, ông nội của Tiểu Tuyết và Tiểu Minh. Hiền hậu, mến khách."
+  },
+  {
+    "id": "xiaoli",
+    "zh": "小李",
+    "pinyin": "Xiǎo Lǐ",
+    "vi_name": "Tài xế Tiểu Lý",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Tài xế kiêm hướng dẫn viên, đón Dương Đồng Lạc và Vương Nhất Phi trong chuyến du lịch thảo nguyên. Rất nhiệt tình."
+  },
+  {
+    "id": "dianyuan",
+    "zh": "店员",
+    "pinyin": "diànyuán",
+    "vi_name": "Người bán hàng",
+    "setting": "china",
+    "color": "#B7791F",
+    "desc_vi": "Người bán hàng ở cửa hàng hoa quả, rất khéo mời chào."
+  },
+  {
+    "id": "tongxue",
+    "zh": "同学",
+    "pinyin": "tóngxué",
+    "vi_name": "Bạn cùng lớp",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Bạn cùng lớp cấp hai của Lưu Tiểu Tuyết, đang cố gắng cải thiện điểm số."
+  },
+  {
+    "id": "lilaoshi",
+    "zh": "李老师",
+    "pinyin": "Lǐ lǎoshī",
+    "vi_name": "Cô giáo Lý",
+    "setting": "china",
+    "color": "#9B2C2C",
+    "desc_vi": "Cô giáo của Tiểu Tuyết ở trường cấp hai, giảng bài rất rõ ràng, tận tình."
+  },
+  {
+    "id": "tongshi",
+    "zh": "同事",
+    "pinyin": "tóngshì",
+    "vi_name": "Đồng nghiệp",
+    "setting": "china",
+    "color": "#4A5568",
+    "desc_vi": "Đồng nghiệp ở công ty của chị Vương Nhất Tuyết và Dương Đồng Lạc."
   }
 ]
