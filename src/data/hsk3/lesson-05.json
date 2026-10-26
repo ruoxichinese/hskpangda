@@ -1,41 +1,1095 @@
 {
   "id": 5,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "这样的照片才好看",
     "pinyin": "Zhèyàng de zhàopiàn cái hǎokàn",
     "vi": "Ảnh như thế này mới đẹp"
   },
   "grammarTopics_vi": [
-    "Bổ ngữ mức độ (2)",
-    "Lặp lượng từ",
-    "Câu tồn hiện (3)",
+    "Bổ ngữ mức độ (2): 好得很",
+    "Lặp lượng từ: 张张, 个个, 天天",
+    "Câu tồn hiện (3): người/vật xuất hiện hoặc biến mất",
     "Câu ghép rút gọn “……了……就……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Bổ ngữ mức độ (2)",
-      "doneWhen": []
+      "vi": "Giới thiệu hoạt động giải trí yêu thích của mình",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Lặp lượng từ",
-      "doneWhen": []
+      "vi": "Nói hai hành động nối tiếp nhau bằng “……了……就……”",
+      "doneWhen": [
+        "text-4"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu tồn hiện (3)",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Câu ghép rút gọn “……了……就……”",
-      "doneWhen": []
+      "vi": "Dùng câu tồn hiện để nói người, vật xuất hiện hay rời đi",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "☀️",
+      "word": "太阳",
+      "pinyin": "tàiyáng",
+      "vi": "mặt trời"
+    },
+    {
+      "emoji": "⛰️",
+      "word": "爬山",
+      "pinyin": "pá shān",
+      "vi": "leo núi"
+    },
+    {
+      "emoji": "👟",
+      "word": "鞋",
+      "pinyin": "xié",
+      "vi": "giày"
+    },
+    {
+      "emoji": "📸",
+      "word": "拍照",
+      "pinyin": "pāizhào",
+      "vi": "chụp ảnh"
+    },
+    {
+      "emoji": "🎵",
+      "word": "音乐",
+      "pinyin": "yīnyuè",
+      "vi": "âm nhạc"
+    },
+    {
+      "emoji": "🌳",
+      "word": "树",
+      "pinyin": "shù",
+      "vi": "cây"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trên phố, Bạch Gia Nguyệt và Lý Văn vừa đi dạo vừa trò chuyện.",
+      "scene": "⛰️",
+      "audio": "audio/hsk3/5-1.mp3",
+      "vocabAudio": "audio/hsk3/5-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hôm nay thời tiết thế nào?",
+          "options": [
+            "阴天",
+            "很热",
+            "晴天"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt muốn gọi điện cho chị Nhất Tuyết?",
+          "options": [
+            "找她吃饭",
+            "问她天气",
+            "找她爬山"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "这个星期总是阴天，今天终于晴了。",
+          "vi": "Tuần này trời cứ âm u mãi, hôm nay cuối cùng cũng nắng.",
+          "t": 0
+        },
+        {
+          "speaker": "liwen",
+          "zh": "现在天气好得很！我们去爬山怎么样？",
+          "vi": "Giờ trời đẹp lắm! Mình đi leo núi nhé?",
+          "t": 4.2
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好啊！又能锻炼身体，又能照好看的照片。",
+          "vi": "Được đấy! Vừa rèn luyện sức khoẻ, vừa chụp được ảnh đẹp.",
+          "t": 8.87
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那我带点儿水和吃的，咱们现在就去？",
+          "vi": "Vậy mình mang ít nước với đồ ăn, mình đi luôn nhé?",
+          "t": 13.84
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我回去穿上运动鞋，拿上大衣。要不要叫一雪姐一起去？",
+          "vi": "Mình về đi giày thể thao, lấy áo khoác. Có rủ chị Nhất Tuyết đi cùng không?",
+          "t": 18.5
+        },
+        {
+          "speaker": "liwen",
+          "zh": "好主意。给她打个电话吧。",
+          "vi": "Ý hay. Gọi điện cho chị ấy đi.",
+          "t": 25.34
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "总是",
+          "pinyin": "zǒngshì",
+          "pos": "adv.",
+          "vi": "luôn luôn, lúc nào cũng",
+          "example": {
+            "zh": "他总是很晚才睡觉。",
+            "vi": "Anh ấy lúc nào cũng ngủ rất muộn."
+          }
+        },
+        {
+          "zh": "终于",
+          "pinyin": "zhōngyú",
+          "pos": "adv.",
+          "vi": "cuối cùng (thì)",
+          "example": {
+            "zh": "考试终于结束了。",
+            "vi": "Kỳ thi cuối cùng cũng kết thúc."
+          }
+        },
+        {
+          "zh": "爬",
+          "pinyin": "pá",
+          "pos": "v.",
+          "vi": "leo, bò",
+          "example": {
+            "zh": "我们去爬山吧。",
+            "vi": "Mình đi leo núi đi."
+          }
+        },
+        {
+          "zh": "山",
+          "pinyin": "shān",
+          "pos": "n.",
+          "vi": "núi",
+          "example": {
+            "zh": "这座山很高。",
+            "vi": "Ngọn núi này rất cao."
+          }
+        },
+        {
+          "zh": "锻炼",
+          "pinyin": "duànliàn",
+          "pos": "v.",
+          "vi": "rèn luyện, tập thể dục",
+          "example": {
+            "zh": "他每天早上锻炼身体。",
+            "vi": "Sáng nào anh ấy cũng tập thể dục."
+          }
+        },
+        {
+          "zh": "照",
+          "pinyin": "zhào",
+          "pos": "v.",
+          "vi": "chụp (ảnh)",
+          "example": {
+            "zh": "我给你照张照片吧。",
+            "vi": "Để tôi chụp cho bạn một tấm."
+          }
+        },
+        {
+          "zh": "鞋",
+          "pinyin": "xié",
+          "pos": "n.",
+          "vi": "giày",
+          "example": {
+            "zh": "这双鞋很舒服。",
+            "vi": "Đôi giày này rất êm."
+          }
+        },
+        {
+          "zh": "大衣",
+          "pinyin": "dàyī",
+          "pos": "n.",
+          "vi": "áo khoác dài",
+          "example": {
+            "zh": "天冷了，穿上大衣吧。",
+            "vi": "Trời lạnh rồi, mặc áo khoác vào đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g5-1",
+          "title_zh": "程度补语（2）",
+          "title_vi": "Bổ ngữ mức độ (2): tính từ + 得很",
+          "formula": [
+            [
+              {
+                "zh": "天气",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "好",
+                "label": "Tính từ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "得很",
+                "label": "rất, lắm",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "得很 đặt SAU tính từ, nghĩa là “rất, lắm, cực kỳ”, mạnh hơn 很 đặt trước tính từ. Thường dùng trong khẩu ngữ. Tiếng Việt cũng có kiểu nói này: “đẹp lắm”, “nóng lắm”.",
+          "examples": [
+            {
+              "zh": "现在天气好得很。",
+              "vi": "Bây giờ trời đẹp lắm."
+            },
+            {
+              "zh": "房间里面热得很。",
+              "vi": "Trong phòng nóng lắm."
+            },
+            {
+              "zh": "我觉得爬山累得很。",
+              "vi": "Tôi thấy leo núi mệt lắm."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "天气很好得很。",
+              "right": "天气好得很。",
+              "why_vi": "Đã có 得很 sau tính từ thì không thêm 很 phía trước."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Món này ngon lắm.”",
+              "options": [
+                "这个菜好吃得很。",
+                "这个菜得很好吃。",
+                "这个菜很好吃得很。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "又……又…… = vừa… vừa…: 又能锻炼身体，又能照好看的照片. Bạn đã học ở bài 2."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trên taxi, chị Vương Nhất Tuyết và Gia Nguyệt đang trò chuyện.",
+      "scene": "🖼️",
+      "audio": "audio/hsk3/5-3.mp3",
+      "vocabAudio": "audio/hsk3/5-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết và Gia Nguyệt đang làm gì?",
+          "options": [
+            "拍照",
+            "买相机",
+            "看照片"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Gia Nguyệt và Nhất Phi đều thích làm gì?",
+          "options": [
+            "拍照",
+            "爬山",
+            "比较拍照水平"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "这些照片是谁给您照的？张张都非常好看。",
+          "vi": "Những tấm ảnh này ai chụp cho chị vậy? Tấm nào cũng rất đẹp.",
+          "t": 0.69
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "一飞。她对拍照一直很感兴趣，经常给我照相。",
+          "vi": "Nhất Phi đấy. Em ấy vốn rất thích chụp ảnh, hay chụp cho chị.",
+          "t": 6.78
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我喜欢您大笑的这张，看起来很漂亮。",
+          "vi": "Em thích tấm chị cười to này, trông rất đẹp.",
+          "t": 13.83
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我觉得这张有点儿难看，那时候我不知道她在给我照相。",
+          "vi": "Chị thấy tấm này hơi xấu, lúc đó chị không biết em ấy đang chụp.",
+          "t": 18.99
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这样的照片才好看。我也喜欢拍照，爬山的时候我给您照几张照片吧。",
+          "vi": "Ảnh như thế mới đẹp. Em cũng thích chụp ảnh, lúc leo núi em chụp cho chị mấy tấm nhé.",
+          "t": 25.65
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好，我可以比较一下你们两个谁的水平高。",
+          "vi": "Được, chị có thể so xem hai đứa ai chụp giỏi hơn.",
+          "t": 34.33
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "拍照",
+          "pinyin": "pāizhào",
+          "pos": "v.",
+          "vi": "chụp ảnh",
+          "example": {
+            "zh": "这里不能拍照。",
+            "vi": "Ở đây không được chụp ảnh."
+          }
+        },
+        {
+          "zh": "感兴趣",
+          "pinyin": "gǎn xìngqù",
+          "pos": "",
+          "vi": "có hứng thú, quan tâm",
+          "example": {
+            "zh": "我对音乐很感兴趣。",
+            "vi": "Tôi rất thích âm nhạc."
+          }
+        },
+        {
+          "zh": "照相",
+          "pinyin": "zhàoxiàng",
+          "pos": "v.",
+          "vi": "chụp ảnh",
+          "example": {
+            "zh": "他经常给我照相。",
+            "vi": "Anh ấy hay chụp ảnh cho tôi."
+          }
+        },
+        {
+          "zh": "难看",
+          "pinyin": "nánkàn",
+          "pos": "adj.",
+          "vi": "xấu, khó coi",
+          "example": {
+            "zh": "这件衣服有点儿难看。",
+            "vi": "Cái áo này hơi xấu."
+          }
+        },
+        {
+          "zh": "比较",
+          "pinyin": "bǐjiào",
+          "pos": "v./adv.",
+          "vi": "so sánh; tương đối",
+          "example": {
+            "zh": "我们比较一下吧。",
+            "vi": "Mình so sánh thử xem."
+          }
+        },
+        {
+          "zh": "水平",
+          "pinyin": "shuǐpíng",
+          "pos": "n.",
+          "vi": "trình độ",
+          "example": {
+            "zh": "他的汉语水平很高。",
+            "vi": "Trình độ tiếng Trung của anh ấy rất cao."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g5-2",
+          "title_zh": "量词重叠",
+          "title_vi": "Lặp lượng từ: 张张, 个个, 天天 = mỗi… đều",
+          "formula": [
+            [
+              {
+                "zh": "这些照片",
+                "label": "Chủ ngữ (nhiều)",
+                "role": "S"
+              },
+              {
+                "zh": "张张",
+                "label": "lượng từ lặp",
+                "role": "N"
+              },
+              {
+                "zh": "都",
+                "label": "đều",
+                "role": "ADV"
+              },
+              {
+                "zh": "非常好看",
+                "label": "Vị ngữ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Lặp lượng từ để nhấn mạnh MỖI thành viên trong nhóm đều như vậy: 张张 = tấm nào cũng, 个个 = cái nào cũng, 天天 = ngày nào cũng. Phía sau thường có 都.",
+          "examples": [
+            {
+              "zh": "这些照片张张都非常好看。",
+              "vi": "Những tấm ảnh này tấm nào cũng rất đẹp."
+            },
+            {
+              "zh": "这些苹果个个都很大。",
+              "vi": "Mấy quả táo này quả nào cũng to."
+            },
+            {
+              "zh": "我想出去拍照，但是天天下雨。",
+              "vi": "Tôi muốn ra ngoài chụp ảnh, nhưng ngày nào cũng mưa."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这些苹果都个个很大。",
+              "right": "这些苹果个个都很大。",
+              "why_vi": "Lượng từ lặp đứng trước 都."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Học sinh trong lớp ai cũng rất chăm.” (认真 = chăm chỉ)",
+              "options": [
+                "班里的学生个个都很认真。",
+                "班里的学生都个个很认真。",
+                "班里个个的学生很认真都。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "对……感兴趣 = có hứng thú với…: 她对拍照很感兴趣. Không nói 感兴趣拍照."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trên núi, chị Nhất Tuyết và Gia Nguyệt vừa đi vừa trò chuyện.",
+      "scene": "🌲",
+      "audio": "audio/hsk3/5-5.mp3",
+      "vocabAudio": "audio/hsk3/5-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hai người đang làm gì?",
+          "options": [
+            "拍照",
+            "看鸟",
+            "找手机"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Lúc chụp, Gia Nguyệt bảo chị Nhất Tuyết làm gì?",
+          "options": [
+            "看着她",
+            "看着鸟",
+            "想干什么就干什么"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "家月，这里挺漂亮的，咱们在这里拍照吧。",
+          "vi": "Gia Nguyệt, chỗ này khá đẹp, mình chụp ảnh ở đây đi.",
+          "t": 1.54
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这边没有太阳，咱们去那边吧。",
+          "vi": "Bên này không có nắng, mình sang bên kia đi chị.",
+          "t": 6.82
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好。你觉得我站在这些树中间怎么样？",
+          "vi": "Được. Em thấy chị đứng giữa mấy cái cây này thế nào?",
+          "t": 12.72
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "挺好的。等一下，后边走过去两个人。",
+          "vi": "Đẹp đấy. Đợi chút, phía sau có hai người đi qua.",
+          "t": 16.66
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我准备好了，你照的时候告诉我。",
+          "vi": "Chị chuẩn bị xong rồi, lúc chụp thì báo chị nhé.",
+          "t": 22.74
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你不用看着我，想干什么都可以。",
+          "vi": "Chị không cần nhìn em, muốn làm gì cũng được.",
+          "t": 27.18
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "树上飞来了几只鸟，我就看它们吧。",
+          "vi": "Trên cây có mấy con chim bay đến, chị nhìn chúng vậy.",
+          "t": 31.91
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "啊，手机没电了。",
+          "vi": "Á, điện thoại hết pin rồi.",
+          "t": 37.56
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "太阳",
+          "pinyin": "tàiyáng",
+          "pos": "n.",
+          "vi": "mặt trời, nắng",
+          "example": {
+            "zh": "今天的太阳很大。",
+            "vi": "Hôm nay nắng to."
+          }
+        },
+        {
+          "zh": "树",
+          "pinyin": "shù",
+          "pos": "n.",
+          "vi": "cây",
+          "example": {
+            "zh": "树上有一只鸟。",
+            "vi": "Trên cây có một con chim."
+          }
+        },
+        {
+          "zh": "干",
+          "pinyin": "gàn",
+          "pos": "v.",
+          "vi": "làm",
+          "example": {
+            "zh": "你在干什么？",
+            "vi": "Bạn đang làm gì?"
+          }
+        },
+        {
+          "zh": "电",
+          "pinyin": "diàn",
+          "pos": "n.",
+          "vi": "điện, pin",
+          "example": {
+            "zh": "我的手机没电了。",
+            "vi": "Điện thoại của tôi hết pin rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g5-3",
+          "title_zh": "存现句（3）",
+          "title_vi": "Câu tồn hiện (3): ở đâu xuất hiện / rời đi ai, cái gì",
+          "formula": [
+            [
+              {
+                "zh": "后边",
+                "label": "Nơi chốn",
+                "role": "N"
+              },
+              {
+                "zh": "走过去",
+                "label": "Động từ + bổ ngữ xu hướng",
+                "role": "V"
+              },
+              {
+                "zh": "两个人",
+                "label": "Số lượng + người/vật",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Ở HSK 2 bạn đã học câu tồn hiện với 着 (楼下站着一个人). Câu tồn hiện (3) nói một người hay vật XUẤT HIỆN hoặc RỜI ĐI: nơi chốn + động từ + bổ ngữ xu hướng/kết quả (+了) + số lượng + người/vật. Người/vật luôn đứng cuối câu.",
+          "examples": [
+            {
+              "zh": "后边走过去两个人。",
+              "vi": "Phía sau có hai người đi qua."
+            },
+            {
+              "zh": "前面开过来很多车。",
+              "vi": "Phía trước có nhiều xe chạy tới."
+            },
+            {
+              "zh": "楼上下来了几个人。",
+              "vi": "Trên lầu có mấy người đi xuống."
+            },
+            {
+              "zh": "树上飞来了几只鸟。",
+              "vi": "Trên cây có mấy con chim bay đến."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "两个人后边走过去。（muốn nói: phía sau có hai người đi qua）",
+              "right": "后边走过去两个人。",
+              "why_vi": "Câu tồn hiện đặt nơi chốn đầu câu, người/vật xuất hiện ở cuối."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Phía trước có một chiếc xe buýt chạy tới.”",
+              "options": [
+                "前面开过来一辆公交车。",
+                "一辆公交车前面开过来。",
+                "前面一辆公交车开过来了着。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "想干什么都可以 = muốn làm gì cũng được. 干 là cách nói khẩu ngữ của 做."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong quán cà phê, chị Vương Nhất Tuyết nhắn tin cho Gia Nguyệt.",
+      "scene": "💬",
+      "audio": "audio/hsk3/5-7.mp3",
+      "vocabAudio": "audio/hsk3/5-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết thấy những tấm ảnh thế nào?",
+          "options": [
+            "她还没看到",
+            "每张都很漂亮",
+            "没有一飞照得好"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết tặng Gia Nguyệt gì?",
+          "options": [
+            "一些照片",
+            "一张门票",
+            "她做的中国菜"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "家月，我收到了你的那封邮件，也看到了你给我照的照片，张张都很漂亮。",
+          "vi": "Gia Nguyệt, chị nhận được email của em rồi, cũng xem ảnh em chụp cho chị, tấm nào cũng đẹp.",
+          "t": 1.58
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我已经告诉了一飞，你的拍照水平比她高，她难过得很，哈哈。",
+          "vi": "Chị đã bảo Nhất Phi là em chụp ảnh giỏi hơn em ấy, em ấy buồn lắm, haha.",
+          "t": 8.72
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "不知道你对中国的音乐有没有兴趣？我送你一张明天下午音乐会的门票。",
+          "vi": "Không biết em có thích âm nhạc Trung Quốc không? Chị tặng em một vé buổi hoà nhạc chiều mai.",
+          "t": 14.91
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "音乐会七点多结束，你听完了音乐会就来我家吃饭，尝尝我做的中国菜。",
+          "vi": "Buổi hoà nhạc kết thúc lúc hơn bảy giờ, nghe xong em đến nhà chị ăn cơm, nếm thử món Trung Quốc chị nấu.",
+          "t": 21.97
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你觉得怎么样？",
+          "vi": "Em thấy sao?",
+          "t": 29.16
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "收到",
+          "pinyin": "shōudào",
+          "pos": "v.",
+          "vi": "nhận được",
+          "example": {
+            "zh": "我收到了你的邮件。",
+            "vi": "Tôi đã nhận được email của bạn."
+          }
+        },
+        {
+          "zh": "封",
+          "pinyin": "fēng",
+          "pos": "m.",
+          "vi": "bức, lá (thư)",
+          "example": {
+            "zh": "一封邮件",
+            "vi": "một bức email"
+          }
+        },
+        {
+          "zh": "邮件",
+          "pinyin": "yóujiàn",
+          "pos": "n.",
+          "vi": "thư, email",
+          "example": {
+            "zh": "请给我写封邮件。",
+            "vi": "Hãy viết cho tôi một email."
+          }
+        },
+        {
+          "zh": "难过",
+          "pinyin": "nánguò",
+          "pos": "adj.",
+          "vi": "buồn",
+          "example": {
+            "zh": "别难过了。",
+            "vi": "Đừng buồn nữa."
+          }
+        },
+        {
+          "zh": "哈哈",
+          "pinyin": "hāhā",
+          "pos": "",
+          "vi": "haha (tiếng cười)",
+          "example": {
+            "zh": "哈哈，太有意思了！",
+            "vi": "Haha, thú vị quá!"
+          }
+        },
+        {
+          "zh": "音乐",
+          "pinyin": "yīnyuè",
+          "pos": "n.",
+          "vi": "âm nhạc",
+          "example": {
+            "zh": "我喜欢听音乐。",
+            "vi": "Tôi thích nghe nhạc."
+          }
+        },
+        {
+          "zh": "兴趣",
+          "pinyin": "xìngqù",
+          "pos": "n.",
+          "vi": "hứng thú, sở thích",
+          "example": {
+            "zh": "你对什么有兴趣？",
+            "vi": "Bạn có hứng thú với cái gì?"
+          }
+        },
+        {
+          "zh": "会",
+          "pinyin": "huì",
+          "pos": "n.",
+          "vi": "buổi (họp, hội)",
+          "example": {
+            "zh": "音乐会几点开始？",
+            "vi": "Buổi hoà nhạc mấy giờ bắt đầu?"
+          }
+        },
+        {
+          "zh": "结束",
+          "pinyin": "jiéshù",
+          "pos": "v.",
+          "vi": "kết thúc",
+          "example": {
+            "zh": "电影结束了。",
+            "vi": "Phim kết thúc rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g5-4",
+          "title_zh": "紧缩复句“……了……就……”",
+          "title_vi": "“……了……就……”: (làm) xong… là…",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "听完了音乐会",
+                "label": "Việc 1 + 了",
+                "role": "V"
+              },
+              {
+                "zh": "就",
+                "label": "là, liền",
+                "role": "ADV"
+              },
+              {
+                "zh": "来我家吃饭",
+                "label": "Việc 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Diễn tả hai việc nối tiếp ngay nhau: xong việc 1 là làm việc 2. Nếu việc 2 cũng đã xảy ra rồi, thêm 了 ở cuối câu: 昨天我们下了课就回家了.",
+          "examples": [
+            {
+              "zh": "你听完了音乐会就来我家吃饭。",
+              "vi": "Em nghe xong hoà nhạc thì đến nhà chị ăn cơm."
+            },
+            {
+              "zh": "我吃了早饭就去学校了。",
+              "vi": "Tôi ăn sáng xong là đi học."
+            },
+            {
+              "zh": "昨天我们下了课就回家了。",
+              "vi": "Hôm qua tan học là chúng tôi về nhà."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我吃了早饭去学校就了。",
+              "right": "我吃了早饭就去学校了。",
+              "why_vi": "就 đứng ngay trước động từ thứ hai."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tan làm xong là tôi về nhà.”",
+              "options": [
+                "我下了班就回家。",
+                "我就下了班回家。",
+                "我下班了回家就。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "音乐会 = 音乐 + 会 (buổi, cuộc gặp): buổi hoà nhạc. Tương tự: 生日会, 欢迎会."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "他的拍照___比我高多了。",
+      "bank": [
+        "水平",
+        "照",
+        "收到"
+      ],
+      "answer": "水平"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我___了一封学校的邮件。",
+      "bank": [
+        "收到",
+        "干",
+        "难看"
+      ],
+      "answer": "收到"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "明天又是星期天，我不知道应该___什么。",
+      "bank": [
+        "干",
+        "照",
+        "水平"
+      ],
+      "answer": "干"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我觉得前两张照片好看，第三张有点儿___。",
+      "bank": [
+        "难看",
+        "干",
+        "收到"
+      ],
+      "answer": "难看"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "他们的飞机___到了，晚点了五个多小时。",
+      "bank": [
+        "终于",
+        "总是",
+        "比较"
+      ],
+      "answer": "终于"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "得很",
+        "天气",
+        "好",
+        "今天"
+      ],
+      "answers": [
+        "今天天气好得很"
+      ],
+      "vi": "Hôm nay trời đẹp lắm.",
+      "explain_vi": "Tính từ + 得很."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "就",
+        "我",
+        "吃了早饭",
+        "去学校了"
+      ],
+      "answers": [
+        "我吃了早饭就去学校了"
+      ],
+      "vi": "Tôi ăn sáng xong là đi học.",
+      "explain_vi": "Việc 1 + 了 + 就 + việc 2."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "爬山",
+      "options": [
+        {
+          "emoji": "⛰️",
+          "label": "Leo núi"
+        },
+        {
+          "emoji": "📸",
+          "label": "Chụp ảnh"
+        },
+        {
+          "emoji": "🎵",
+          "label": "Âm nhạc"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "这些照片张张都非常好看。",
+      "emoji": "🖼️",
+      "statement_vi": "Chỉ có một tấm ảnh đẹp.",
+      "answer": false,
+      "explain_vi": "张张都好看 = tấm nào cũng đẹp."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🌳🐦",
+      "sentence": "树上飞___了几只鸟。",
+      "options": [
+        "来",
+        "着",
+        "过"
+      ],
+      "answer": 0,
+      "explain_vi": "Câu tồn hiện: 飞来了几只鸟."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "这些照片是谁给您照的？",
+          "a": "一飞，她经常给我照相。"
+        },
+        {
+          "q": "我们去爬山怎么样？",
+          "a": "好啊，又能锻炼身体。"
+        },
+        {
+          "q": "音乐会几点结束？",
+          "a": "七点多结束。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Ảnh đẹp nhất trong điện thoại của tôi",
+    "steps_vi": [
+      "Mỗi người chọn trong điện thoại tấm ảnh mình thích nhất.",
+      "Giới thiệu cho bạn cùng nhóm: chụp ở đâu, khi nào, ai chụp, vì sao thích.",
+      "Cả nhóm nhận xét bằng “……得很” và “张张都……”.",
+      "Kể một hoạt động giải trí mình hay làm, dùng “……了……就……”: 下了课就去打球."
+    ],
+    "patterns": [
+      {
+        "zh": "这张照片是我在山上照的。",
+        "vi": "Tấm ảnh này tôi chụp trên núi."
+      },
+      {
+        "zh": "这张照片漂亮得很！",
+        "vi": "Tấm ảnh này đẹp lắm!"
+      },
+      {
+        "zh": "你的照片张张都很好看。",
+        "vi": "Ảnh của bạn tấm nào cũng đẹp."
+      },
+      {
+        "zh": "我下了课就去锻炼身体。",
+        "vi": "Tan học là tôi đi tập thể dục."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Leo núi – thú vui cuối tuần của người Trung Quốc",
+    "body_vi": [
+      "Leo núi (爬山) là hoạt động cuối tuần rất phổ biến ở Trung Quốc, vừa rèn luyện sức khoẻ vừa ngắm cảnh, chụp ảnh. Quanh Bắc Kinh có Hương Sơn (香山), mùa thu lá đỏ rất đẹp.",
+      "Trung Quốc có “Ngũ Nhạc” (五岳) – năm ngọn núi nổi tiếng, trong đó Thái Sơn (泰山) được coi là đứng đầu. Nhiều người leo Thái Sơn từ đêm để ngắm mặt trời mọc (看日出).",
+      "Chụp ảnh và chia sẻ trên mạng xã hội WeChat (微信朋友圈) là thói quen của giới trẻ, giống như người Việt đăng ảnh lên Facebook."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Leo núi",
+          "爬山",
+          "pá shān"
+        ],
+        [
+          "Thái Sơn",
+          "泰山",
+          "Tài Shān"
+        ],
+        [
+          "Ngắm mặt trời mọc",
+          "看日出",
+          "kàn rìchū"
+        ],
+        [
+          "Chụp ảnh",
+          "拍照",
+          "pāizhào"
+        ],
+        [
+          "Buổi hoà nhạc",
+          "音乐会",
+          "yīnyuèhuì"
+        ]
+      ]
+    }
+  }
 }

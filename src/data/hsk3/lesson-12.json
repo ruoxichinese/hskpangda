@@ -1,41 +1,1165 @@
 {
   "id": 12,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "这个季节天气变化很快",
     "pinyin": "Zhège jìjié tiānqì biànhuà hěn kuài",
     "vi": "Mùa này thời tiết thay đổi rất nhanh"
   },
   "grammarTopics_vi": [
-    "Câu lựa chọn 或者……，或者……",
-    "Nghĩa mở rộng của bổ ngữ xu hướng (2)",
-    "Phó từ phạm vi 就",
-    "Nghĩa mở rộng của bổ ngữ xu hướng (3)"
+    "Câu lựa chọn “或者……，或者……”",
+    "Nghĩa mở rộng của bổ ngữ xu hướng (2): 起来 = bắt đầu",
+    "Phó từ phạm vi 就: chỉ, mỗi",
+    "Nghĩa mở rộng của bổ ngữ xu hướng (3): 下来 = hoàn thành việc khó"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu lựa chọn 或者……，或者……",
-      "doneWhen": []
+      "vi": "Nói về sự thay đổi của thời tiết",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (2)",
-      "doneWhen": []
+      "vi": "Giới thiệu khí hậu một nơi và mùa mình yêu thích",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Phó từ phạm vi 就",
-      "doneWhen": []
+      "vi": "Dùng 就 để nhấn mạnh số lượng ít hoặc trường hợp ngoại lệ",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o4",
-      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (3)",
-      "doneWhen": []
+      "vi": "Biết đặc điểm bốn mùa ở Bắc Kinh",
+      "doneWhen": [
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "❄️",
+      "word": "冬天",
+      "pinyin": "dōngtiān",
+      "vi": "mùa đông"
+    },
+    {
+      "emoji": "🧥",
+      "word": "雨衣",
+      "pinyin": "yǔyī",
+      "vi": "áo mưa"
+    },
+    {
+      "emoji": "🚣",
+      "word": "船",
+      "pinyin": "chuán",
+      "vi": "thuyền"
+    },
+    {
+      "emoji": "☂️",
+      "word": "雨伞",
+      "pinyin": "yǔsǎn",
+      "vi": "ô, dù"
+    },
+    {
+      "emoji": "🏞️",
+      "word": "公园",
+      "pinyin": "gōngyuán",
+      "vi": "công viên"
+    },
+    {
+      "emoji": "🛣️",
+      "word": "街",
+      "pinyin": "jiē",
+      "vi": "phố, đường phố"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trên phố, cô Vương Nhất Phi và Bạch Gia Nguyệt vừa đi vừa trò chuyện.",
+      "scene": "🌸",
+      "audio": "audio/hsk3/12-1.mp3",
+      "vocabAudio": "audio/hsk3/12-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Con phố này thế nào?",
+          "options": [
+            "人很多",
+            "树很少",
+            "树都开花了"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao hôm nay hai người không đi công viên?",
+          "options": [
+            "今天天气不好",
+            "今天是工作日",
+            "王老师没时间"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "王老师，您看，这条街上的树都开花了。",
+          "vi": "Cô Vương, cô xem, cây trên con phố này đều nở hoa rồi.",
+          "t": 1.27
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "上周我去公园坐船了，公园里的花也开了。",
+          "vi": "Tuần trước cô đi công viên chèo thuyền, hoa trong công viên cũng nở rồi.",
+          "t": 6.45
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "天气这么好，下午我也想去公园坐船。",
+          "vi": "Trời đẹp thế này, chiều em cũng muốn đi công viên chèo thuyền.",
+          "t": 11.83
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "去吧！今天是工作日，人应该不多。",
+          "vi": "Đi đi! Hôm nay là ngày thường, chắc không đông người.",
+          "t": 16.3
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "您有时间吗？我想跟您一起去。",
+          "vi": "Cô có thời gian không ạ? Em muốn đi cùng cô.",
+          "t": 20.54
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我今天下午有课，不能去太远的地方。",
+          "vi": "Chiều nay cô có giờ dạy, không đi xa được.",
+          "t": 25.65
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "那咱们换一天去？",
+          "vi": "Vậy mình đổi sang hôm khác nhé?",
+          "t": 29.64
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "行。或者明天去，或者后天去，我给你打电话。",
+          "vi": "Được. Hoặc mai, hoặc ngày kia, cô sẽ gọi cho em.",
+          "t": 32.45
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "街",
+          "pinyin": "jiē",
+          "pos": "n.",
+          "vi": "phố, đường phố",
+          "example": {
+            "zh": "这条街很热闹。",
+            "vi": "Con phố này rất náo nhiệt."
+          }
+        },
+        {
+          "zh": "开花",
+          "pinyin": "kāihuā",
+          "pos": "v.",
+          "vi": "nở hoa",
+          "example": {
+            "zh": "春天花都开了。",
+            "vi": "Mùa xuân hoa đều nở."
+          }
+        },
+        {
+          "zh": "公园",
+          "pinyin": "gōngyuán",
+          "pos": "n.",
+          "vi": "công viên",
+          "example": {
+            "zh": "我们去公园走走吧。",
+            "vi": "Mình đi dạo công viên đi."
+          }
+        },
+        {
+          "zh": "船",
+          "pinyin": "chuán",
+          "pos": "n.",
+          "vi": "thuyền, tàu thuỷ",
+          "example": {
+            "zh": "我想去坐船。",
+            "vi": "Tôi muốn đi thuyền."
+          }
+        },
+        {
+          "zh": "工作日",
+          "pinyin": "gōngzuòrì",
+          "pos": "n.",
+          "vi": "ngày làm việc",
+          "example": {
+            "zh": "工作日人不多。",
+            "vi": "Ngày thường không đông người."
+          }
+        },
+        {
+          "zh": "地方",
+          "pinyin": "dìfang",
+          "pos": "n.",
+          "vi": "nơi, chỗ",
+          "example": {
+            "zh": "这是一个好地方。",
+            "vi": "Đây là một nơi tốt."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g12-1",
+          "title_zh": "选择复句“或者……，或者……”",
+          "title_vi": "“或者……，或者……”: hoặc… hoặc…",
+          "formula": [
+            [
+              {
+                "zh": "或者",
+                "label": "hoặc",
+                "role": "ADV"
+              },
+              {
+                "zh": "明天去",
+                "label": "Lựa chọn 1",
+                "role": "V"
+              },
+              {
+                "zh": "，或者",
+                "label": "hoặc",
+                "role": "ADV"
+              },
+              {
+                "zh": "后天去",
+                "label": "Lựa chọn 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Nêu hai hay nhiều khả năng, chọn một trong số đó – giống “hoặc… hoặc…” trong tiếng Việt. Đây là câu trần thuật, không phải câu hỏi (nhớ bài 11: câu hỏi dùng 还是).",
+          "examples": [
+            {
+              "zh": "或者明天去，或者后天去，我给你打电话。",
+              "vi": "Hoặc mai, hoặc ngày kia, tôi sẽ gọi cho bạn."
+            },
+            {
+              "zh": "我们或者今天去电影院看电影，或者明天在家看电影。",
+              "vi": "Hoặc hôm nay mình ra rạp xem phim, hoặc mai xem ở nhà."
+            },
+            {
+              "zh": "晚饭你自己选，或者吃中国菜，或者吃日本菜。",
+              "vi": "Bữa tối bạn tự chọn, hoặc ăn món Trung, hoặc ăn món Nhật."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你或者喝茶，或者喝咖啡？",
+              "right": "你喝茶还是喝咖啡？",
+              "why_vi": "Muốn hỏi thì dùng 还是; 或者……或者…… dùng trong câu trần thuật."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cuối tuần tôi hoặc đi bơi, hoặc đi leo núi.”",
+              "options": [
+                "周末我或者去游泳，或者去爬山。",
+                "周末我还是去游泳，还是去爬山。",
+                "周末我或者去游泳还是去爬山？"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "工作日 = ngày làm việc (thứ hai – thứ sáu). Cuối tuần là 周末."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trên phố, cô Nhất Phi và Gia Nguyệt cùng đi dạo.",
+      "scene": "🌧️",
+      "audio": "audio/hsk3/12-3.mp3",
+      "vocabAudio": "audio/hsk3/12-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Theo bản tin, hôm nay thời tiết thế nào?",
+          "options": [
+            "晴天",
+            "下雪",
+            "下雨"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Thời tiết mùa này thế nào?",
+          "options": [
+            "变化很快",
+            "经常下雨",
+            "每天晴天"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "刚才还是大晴天呢，怎么突然就刮起风来了？",
+          "vi": "Vừa nãy còn nắng to, sao tự nhiên lại nổi gió thế này?",
+          "t": 0.78
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "好像新闻里说今天有雨。",
+          "vi": "Hình như bản tin nói hôm nay có mưa.",
+          "t": 5.53
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "啊？我每天书包里都放着雨伞，就今天没带。",
+          "vi": "Hả? Ngày nào em cũng để ô trong cặp, chỉ có hôm nay là không mang.",
+          "t": 9.85
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我可以借给你，我车里有一把伞和一件雨衣。",
+          "vi": "Cô cho em mượn, trong xe cô có một cái ô và một cái áo mưa.",
+          "t": 15.42
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢，希望下午天气能变好。",
+          "vi": "Em cảm ơn, mong chiều trời sẽ đẹp lên.",
+          "t": 21.08
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "这个季节天气变化很快。",
+          "vi": "Mùa này thời tiết thay đổi rất nhanh.",
+          "t": 25.88
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "雨已经下起来了，咱们快点儿走吧。",
+          "vi": "Mưa bắt đầu rơi rồi, mình đi nhanh lên thôi.",
+          "t": 28.98
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "刚才",
+          "pinyin": "gāngcái",
+          "pos": "n.",
+          "vi": "vừa nãy, vừa rồi",
+          "example": {
+            "zh": "刚才谁来了？",
+            "vi": "Vừa nãy ai đến thế?"
+          }
+        },
+        {
+          "zh": "刮",
+          "pinyin": "guā",
+          "pos": "v.",
+          "vi": "thổi (gió)",
+          "example": {
+            "zh": "外面刮大风了。",
+            "vi": "Bên ngoài gió thổi mạnh."
+          }
+        },
+        {
+          "zh": "风",
+          "pinyin": "fēng",
+          "pos": "n.",
+          "vi": "gió",
+          "example": {
+            "zh": "今天风很大。",
+            "vi": "Hôm nay gió to."
+          }
+        },
+        {
+          "zh": "新闻",
+          "pinyin": "xīnwén",
+          "pos": "n.",
+          "vi": "tin tức, bản tin",
+          "example": {
+            "zh": "我每天看新闻。",
+            "vi": "Ngày nào tôi cũng xem tin tức."
+          }
+        },
+        {
+          "zh": "伞",
+          "pinyin": "sǎn",
+          "pos": "n.",
+          "vi": "ô, dù",
+          "example": {
+            "zh": "带把伞吧。",
+            "vi": "Mang theo ô đi."
+          }
+        },
+        {
+          "zh": "借",
+          "pinyin": "jiè",
+          "pos": "v.",
+          "vi": "mượn; cho mượn",
+          "example": {
+            "zh": "我可以借你的笔吗？",
+            "vi": "Tôi mượn bút của bạn được không?"
+          }
+        },
+        {
+          "zh": "把",
+          "pinyin": "bǎ",
+          "pos": "m.",
+          "vi": "cái (đồ có tay cầm)",
+          "example": {
+            "zh": "一把雨伞",
+            "vi": "một cái ô"
+          }
+        },
+        {
+          "zh": "雨衣",
+          "pinyin": "yǔyī",
+          "pos": "n.",
+          "vi": "áo mưa",
+          "example": {
+            "zh": "下雨了，穿上雨衣吧。",
+            "vi": "Mưa rồi, mặc áo mưa vào đi."
+          }
+        },
+        {
+          "zh": "变",
+          "pinyin": "biàn",
+          "pos": "v.",
+          "vi": "biến đổi, trở nên",
+          "example": {
+            "zh": "天变冷了。",
+            "vi": "Trời trở lạnh rồi."
+          }
+        },
+        {
+          "zh": "季节",
+          "pinyin": "jìjié",
+          "pos": "n.",
+          "vi": "mùa",
+          "example": {
+            "zh": "你喜欢哪个季节？",
+            "vi": "Bạn thích mùa nào?"
+          }
+        },
+        {
+          "zh": "变化",
+          "pinyin": "biànhuà",
+          "pos": "v./n.",
+          "vi": "thay đổi; sự thay đổi",
+          "example": {
+            "zh": "北京的变化很大。",
+            "vi": "Bắc Kinh thay đổi rất nhiều."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g12-2",
+          "title_zh": "趋向补语的引申用法（2）",
+          "title_vi": "Nghĩa mở rộng của bổ ngữ xu hướng (2): 起来 = bắt đầu",
+          "formula": [
+            [
+              {
+                "zh": "雨",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "下",
+                "label": "Động từ / tính từ",
+                "role": "V"
+              },
+              {
+                "zh": "起来了",
+                "label": "bắt đầu",
+                "role": "ADV"
+              }
+            ],
+            [
+              {
+                "zh": "刮",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "起",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "风",
+                "label": "Tân ngữ (giữa 起 và 来)",
+                "role": "O"
+              },
+              {
+                "zh": "来了",
+                "label": "",
+                "role": "ADV"
+              }
+            ]
+          ],
+          "explain_vi": "起来 đặt sau động từ hoặc tính từ để nói một hành động BẮT ĐẦU và tiếp diễn, hoặc chuyển sang trạng thái mới: 下起来了 = bắt đầu mưa, 热起来了 = bắt đầu nóng lên. Nếu động từ có tân ngữ, tân ngữ chen GIỮA 起 và 来: 刮起风来, 唱起歌来.",
+          "examples": [
+            {
+              "zh": "雨已经下起来了。",
+              "vi": "Mưa bắt đầu rơi rồi."
+            },
+            {
+              "zh": "最近天气热起来了。",
+              "vi": "Dạo này trời bắt đầu nóng lên."
+            },
+            {
+              "zh": "怎么突然刮起风来了？",
+              "vi": "Sao tự nhiên lại nổi gió thế?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "突然刮风起来了。",
+              "right": "突然刮起风来了。",
+              "why_vi": "Tân ngữ (风) đặt giữa 起 và 来."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Mọi người bắt đầu hát.”",
+              "options": [
+                "大家唱起歌来了。",
+                "大家唱歌起来了。",
+                "大家起来唱歌了来。"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "h3-g12-3",
+          "title_zh": "范围副词“就”",
+          "title_vi": "Phó từ phạm vi 就: chỉ, mỗi",
+          "formula": [
+            [
+              {
+                "zh": "今年",
+                "label": "",
+                "role": "N"
+              },
+              {
+                "zh": "就",
+                "label": "chỉ",
+                "role": "ADV"
+              },
+              {
+                "zh": "下了一次",
+                "label": "Động từ + số lượng (ít)",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "就",
+                "label": "chỉ có",
+                "role": "ADV"
+              },
+              {
+                "zh": "今天",
+                "label": "Ngoại lệ",
+                "role": "N"
+              },
+              {
+                "zh": "没带",
+                "label": "",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "就 đứng trước động từ có số lượng: người nói thấy số lượng ÍT, mức độ nhẹ, thời gian NGẮN – “chỉ, mới có”: 今年就下了一次 = năm nay chỉ rơi có một lần. 就 đứng trước danh từ / chủ ngữ: chỉ trường hợp NGOẠI LỆ – “chỉ có… là…”: 就今天没带 = chỉ có hôm nay là không mang.",
+          "examples": [
+            {
+              "zh": "北京常常下雪，但听说今年就下了一次。",
+              "vi": "Bắc Kinh hay có tuyết, nhưng nghe nói năm nay chỉ rơi có một lần."
+            },
+            {
+              "zh": "他昨天就看了十分钟书。",
+              "vi": "Hôm qua cậu ấy chỉ đọc sách có mười phút."
+            },
+            {
+              "zh": "我每天书包里都放着雨伞，就今天没带。",
+              "vi": "Ngày nào cặp tôi cũng có ô, chỉ có hôm nay không mang."
+            },
+            {
+              "zh": "你们点的菜都挺好吃的，就我点的这个菜不太好吃。",
+              "vi": "Món các bạn gọi đều ngon, chỉ có món tôi gọi là không ngon lắm."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "今年下了就一次雪。",
+              "right": "今年就下了一次雪。",
+              "why_vi": "就 đứng trước động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cả lớp đều đến, chỉ có Tiểu Vương là không đến.”",
+              "options": [
+                "大家都来了，就小王没来。",
+                "大家都来了，小王就来了。",
+                "大家就都来了，小王没来。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "借给你 = cho bạn mượn; 跟你借 = mượn của bạn. 借 có cả hai nghĩa, phải nhìn 给 / 跟 để biết."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong lớp học, cô Nhất Phi và Gia Nguyệt trú mưa.",
+      "scene": "☔",
+      "audio": "audio/hsk3/12-5.mp3",
+      "vocabAudio": "audio/hsk3/12-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Cô Nhất Phi đến đây được bao lâu rồi?",
+          "options": [
+            "一年多了",
+            "两年多了",
+            "好多年了"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Gia Nguyệt biết năm nay nhiều nơi ít tuyết bằng cách nào?",
+          "options": [
+            "看新闻",
+            "问王老师",
+            "听朋友说"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "您来这里已经一年多了，习惯了吧？",
+          "vi": "Cô đến đây đã hơn một năm rồi, quen rồi chứ ạ?",
+          "t": 0.95
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "别的早就习惯了，就是天气我还不太习惯。",
+          "vi": "Cái khác thì quen lâu rồi, chỉ có thời tiết là cô chưa quen lắm.",
+          "t": 5.53
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "为什么？您不喜欢这里的天气吗？",
+          "vi": "Sao vậy ạ? Cô không thích thời tiết ở đây ạ?",
+          "t": 11.49
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我觉得冬天太冷了。",
+          "vi": "Cô thấy mùa đông lạnh quá.",
+          "t": 16.05
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "冬天虽然冷，但是下雪的时候特别漂亮。",
+          "vi": "Mùa đông tuy lạnh nhưng lúc tuyết rơi thì đẹp lắm.",
+          "t": 19.86
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我也喜欢雪。北京常常下雪，但听说今年就下了一次。",
+          "vi": "Cô cũng thích tuyết. Bắc Kinh hay có tuyết, nhưng nghe nói năm nay chỉ rơi có một lần.",
+          "t": 24.66
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我没关注过北京的天气，但是新闻里说过，今年冬天很多地方雪下得都少了。",
+          "vi": "Em chưa để ý thời tiết Bắc Kinh, nhưng bản tin có nói, mùa đông năm nay nhiều nơi tuyết rơi ít đi.",
+          "t": 32.77
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "冬天",
+          "pinyin": "dōngtiān",
+          "pos": "n.",
+          "vi": "mùa đông",
+          "example": {
+            "zh": "北京的冬天很冷。",
+            "vi": "Mùa đông ở Bắc Kinh rất lạnh."
+          }
+        },
+        {
+          "zh": "常常",
+          "pinyin": "chángcháng",
+          "pos": "adv.",
+          "vi": "thường thường, hay",
+          "example": {
+            "zh": "我常常去公园跑步。",
+            "vi": "Tôi hay đi công viên chạy bộ."
+          }
+        },
+        {
+          "zh": "关注",
+          "pinyin": "guānzhù",
+          "pos": "v.",
+          "vi": "quan tâm, chú ý theo dõi",
+          "example": {
+            "zh": "他很关注天气变化。",
+            "vi": "Anh ấy rất để ý sự thay đổi thời tiết."
+          }
+        }
+      ],
+      "pangdaTip": "别的早就习惯了，就是天气…… = cái khác quen lâu rồi, chỉ có thời tiết là…: 就是 nêu trường hợp ngoại lệ."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, cô Vương Nhất Phi viết nhật ký.",
+      "scene": "🍂",
+      "audio": "audio/hsk3/12-7.mp3",
+      "vocabAudio": "audio/hsk3/12-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Cô Nhất Phi thích bốn mùa của thành phố nào?",
+          "options": [
+            "北京",
+            "她工作的地方",
+            "没有冬天的城市"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Cô thấy mùa nào ở Bắc Kinh dễ chịu nhất?",
+          "options": [
+            "春天",
+            "夏天",
+            "秋天"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "我离开北京到这里工作一年多了。",
+          "vi": "Mình rời Bắc Kinh đến đây làm việc đã hơn một năm.",
+          "t": 0.73
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "这一年多住下来，我还是更喜欢北京的四季。",
+          "vi": "Sống ở đây hơn một năm, mình vẫn thích bốn mùa ở Bắc Kinh hơn.",
+          "t": 4.8
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "北京的春天最舒服，天气不冷不热。",
+          "vi": "Mùa xuân Bắc Kinh dễ chịu nhất, trời không lạnh không nóng.",
+          "t": 11.12
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "夏天白天很热，但是晚上比较凉快。",
+          "vi": "Mùa hè ban ngày rất nóng, nhưng buổi tối khá mát mẻ.",
+          "t": 16.39
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "秋天树上的叶子都变成了红色、黄色，非常漂亮。",
+          "vi": "Mùa thu lá cây chuyển sang màu đỏ, màu vàng, rất đẹp.",
+          "t": 21.32
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "冬天不但冷，而且风很大，我最不喜欢冬天。",
+          "vi": "Mùa đông không những lạnh mà gió còn rất to, mình ghét mùa đông nhất.",
+          "t": 28.37
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "每个人都有自己最喜欢的季节，你最喜欢哪个季节呢？",
+          "vi": "Ai cũng có mùa mình thích nhất, còn bạn thích mùa nào?",
+          "t": 36.38
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "四季",
+          "pinyin": "sìjì",
+          "pos": "n.",
+          "vi": "bốn mùa",
+          "example": {
+            "zh": "这里四季都很漂亮。",
+            "vi": "Ở đây bốn mùa đều đẹp."
+          }
+        },
+        {
+          "zh": "春天",
+          "pinyin": "chūntiān",
+          "pos": "n.",
+          "vi": "mùa xuân",
+          "example": {
+            "zh": "春天花都开了。",
+            "vi": "Mùa xuân hoa nở hết."
+          }
+        },
+        {
+          "zh": "夏天",
+          "pinyin": "xiàtiān",
+          "pos": "n.",
+          "vi": "mùa hè",
+          "example": {
+            "zh": "夏天很热。",
+            "vi": "Mùa hè rất nóng."
+          }
+        },
+        {
+          "zh": "凉快",
+          "pinyin": "liángkuai",
+          "pos": "adj.",
+          "vi": "mát mẻ",
+          "example": {
+            "zh": "晚上很凉快。",
+            "vi": "Buổi tối rất mát."
+          }
+        },
+        {
+          "zh": "秋天",
+          "pinyin": "qiūtiān",
+          "pos": "n.",
+          "vi": "mùa thu",
+          "example": {
+            "zh": "北京的秋天很美。",
+            "vi": "Mùa thu Bắc Kinh rất đẹp."
+          }
+        },
+        {
+          "zh": "叶子",
+          "pinyin": "yèzi",
+          "pos": "n.",
+          "vi": "lá cây",
+          "example": {
+            "zh": "树叶子变黄了。",
+            "vi": "Lá cây chuyển vàng rồi."
+          }
+        },
+        {
+          "zh": "变成",
+          "pinyin": "biànchéng",
+          "pos": "v.",
+          "vi": "biến thành, trở thành",
+          "example": {
+            "zh": "叶子变成了红色。",
+            "vi": "Lá chuyển thành màu đỏ."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g12-4",
+          "title_zh": "趋向补语的引申用法（3）",
+          "title_vi": "Nghĩa mở rộng của bổ ngữ xu hướng (3): 下来 = trải qua, hoàn thành việc khó",
+          "formula": [
+            [
+              {
+                "zh": "这一年多",
+                "label": "Khoảng thời gian / công sức",
+                "role": "N"
+              },
+              {
+                "zh": "住",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "下来",
+                "label": "(trải qua) xong",
+                "role": "ADV"
+              },
+              {
+                "zh": "，……",
+                "label": "Kết quả / nhận xét",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "下来 đặt sau động từ, nói một việc tốn thời gian, công sức hoặc cần vượt qua khó khăn đã được làm trọn: 住下来 = sống được một thời gian (rồi mới nhận ra…), 跑下来 = chạy hết được. Ở bài 8 bạn đã học 下去 = tiếp tục; 下来 nhìn lại quá trình đã qua.",
+          "examples": [
+            {
+              "zh": "这一年多住下来，我还是更喜欢北京的四季。",
+              "vi": "Sống hơn một năm ở đây, tôi vẫn thích bốn mùa Bắc Kinh hơn."
+            },
+            {
+              "zh": "三千米他跑下来了。",
+              "vi": "Ba nghìn mét anh ấy chạy hết được."
+            },
+            {
+              "zh": "这本书很难，但是我终于看下来了。",
+              "vi": "Cuốn sách này khó, nhưng cuối cùng tôi cũng đọc xong."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这本书我想看下来。（muốn nói: muốn đọc tiếp）",
+              "right": "这本书我想看下去。",
+              "why_vi": "Muốn nói “tiếp tục” dùng 下去; 下来 là đã trải qua, đã hoàn thành."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Học ba năm rồi, tiếng Trung của tôi tiến bộ nhiều.”",
+              "options": [
+                "三年学下来，我的汉语进步了很多。",
+                "三年学下去，我的汉语进步了很多。",
+                "三年下来学，我的汉语进步了很多。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "不冷不热 = không lạnh không nóng. Mẫu 不A不B nói trạng thái vừa phải: 不大不小, 不多不少, 不胖不瘦."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "这些树都___了，公园更漂亮了。",
+      "bank": [
+        "开花",
+        "变成",
+        "刮"
+      ],
+      "answer": "开花"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "这些树现在是绿色的，秋天就会___红色或者黄色。",
+      "bank": [
+        "变成",
+        "开花",
+        "关注"
+      ],
+      "answer": "变成"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "___还是晴天呢，怎么突然就下起雨来了？",
+      "bank": [
+        "刚才",
+        "常常",
+        "季节"
+      ],
+      "answer": "刚才"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "他每天早上都看新闻，非常___天气的变化。",
+      "bank": [
+        "关注",
+        "变成",
+        "开花"
+      ],
+      "answer": "关注"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我喜欢一年有___、春夏秋冬都不一样的城市。",
+      "bank": [
+        "四季",
+        "地方",
+        "风"
+      ],
+      "answer": "四季"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "起来",
+        "雨",
+        "了",
+        "下"
+      ],
+      "answers": [
+        "雨下起来了"
+      ],
+      "vi": "Mưa bắt đầu rơi rồi.",
+      "explain_vi": "Động từ + 起来 = bắt đầu."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "就",
+        "大家都来了",
+        "没来",
+        "小王",
+        "，"
+      ],
+      "answers": [
+        "大家都来了，就小王没来"
+      ],
+      "vi": "Mọi người đều đến, chỉ có Tiểu Vương không đến.",
+      "explain_vi": "就 + chủ ngữ = chỉ có… (ngoại lệ)."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "雨伞",
+      "options": [
+        {
+          "emoji": "☂️",
+          "label": "Cái ô"
+        },
+        {
+          "emoji": "🧥",
+          "label": "Áo mưa"
+        },
+        {
+          "emoji": "🚣",
+          "label": "Thuyền"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "北京常常下雪，但听说今年就下了一次。",
+      "emoji": "❄️",
+      "statement_vi": "Năm nay Bắc Kinh có tuyết rất nhiều lần.",
+      "answer": false,
+      "explain_vi": "就下了一次 = chỉ rơi có một lần."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🌬️",
+      "sentence": "怎么突然刮起风___了？",
+      "options": [
+        "来",
+        "去",
+        "下"
+      ],
+      "answer": 0,
+      "explain_vi": "刮起风来 = nổi gió (起……来 = bắt đầu)."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你最喜欢哪个季节？",
+          "a": "春天，不冷不热。"
+        },
+        {
+          "q": "你带伞了吗？",
+          "a": "没带，我可以借你的吗？"
+        },
+        {
+          "q": "咱们什么时候去公园？",
+          "a": "或者明天，或者后天。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Bản tin bốn mùa quê tôi",
+    "steps_vi": [
+      "Mỗi người giới thiệu thời tiết bốn mùa (hoặc hai mùa) ở quê mình.",
+      "Dùng “不A不B” để miêu tả: 不冷不热, 不大不小.",
+      "Kể một lần thời tiết thay đổi bất ngờ, dùng “……起来了”, “刚才……”.",
+      "Cả lớp chọn nơi có khí hậu dễ chịu nhất để du lịch."
+    ],
+    "patterns": [
+      {
+        "zh": "我们那儿一年只有两个季节。",
+        "vi": "Chỗ chúng tôi một năm chỉ có hai mùa."
+      },
+      {
+        "zh": "春天最舒服，不冷不热。",
+        "vi": "Mùa xuân dễ chịu nhất, không lạnh không nóng."
+      },
+      {
+        "zh": "刚才还是晴天，突然下起雨来了。",
+        "vi": "Vừa nãy còn nắng, tự nhiên mưa ào xuống."
+      },
+      {
+        "zh": "我最喜欢秋天，因为叶子变成了红色。",
+        "vi": "Tôi thích mùa thu nhất, vì lá cây chuyển đỏ."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Bốn mùa ở Bắc Kinh",
+    "body_vi": [
+      "Bắc Kinh có bốn mùa rõ rệt. Mùa xuân ngắn, hay có gió; mùa hè nóng, có mưa; mùa thu (tháng 9–10) trời trong xanh, được coi là đẹp nhất, lá cây ở Hương Sơn (香山) chuyển đỏ rực; mùa đông lạnh và khô, nhiệt độ có thể xuống dưới −10°C.",
+      "Ở miền Bắc Việt Nam cũng có bốn mùa nhưng mùa đông ấm hơn nhiều và hiếm khi có tuyết. Miền Nam Việt Nam chỉ có hai mùa: mùa mưa và mùa khô.",
+      "Người Trung Quốc chia năm thành 24 tiết khí (二十四节气), như 立春 (lập xuân), 冬至 (đông chí). Ngày đông chí, người miền Bắc Trung Quốc có tục ăn sủi cảo."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Mùa xuân",
+          "春天",
+          "chūntiān"
+        ],
+        [
+          "Mùa hè",
+          "夏天",
+          "xiàtiān"
+        ],
+        [
+          "Mùa thu",
+          "秋天",
+          "qiūtiān"
+        ],
+        [
+          "Mùa đông",
+          "冬天",
+          "dōngtiān"
+        ],
+        [
+          "24 tiết khí",
+          "二十四节气",
+          "èrshísì jiéqì"
+        ]
+      ]
+    }
+  }
 }

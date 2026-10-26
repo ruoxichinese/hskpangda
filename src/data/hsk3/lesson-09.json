@@ -1,35 +1,1070 @@
 {
   "id": 9,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "打不好没关系",
     "pinyin": "Dǎ bu hǎo méi guānxi",
-    "vi": "Chơi chưa giỏi cũng không sao"
+    "vi": "Đánh không giỏi cũng không sao"
   },
   "grammarTopics_vi": [
-    "Câu mục đích 为了……，……",
-    "Bổ ngữ khả năng",
-    "Cấu trúc 越A越B"
+    "Câu mục đích “为了……，……”",
+    "Bổ ngữ khả năng: 打不好, 接不住, 看得懂",
+    "Cấu trúc “越A越B”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu mục đích 为了……，……",
-      "doneWhen": []
+      "vi": "Giới thiệu một cuộc thi thể thao, vận động viên và ảnh hưởng của nó",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Bổ ngữ khả năng",
-      "doneWhen": []
+      "vi": "Dùng bổ ngữ khả năng để nói làm được hay không làm được",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 越A越B",
-      "doneWhen": []
+      "vi": "Dùng “越A越B” để nói sự thay đổi theo nhau",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🏟️",
+      "word": "球场",
+      "pinyin": "qiúchǎng",
+      "vi": "sân bóng"
+    },
+    {
+      "emoji": "🔢",
+      "word": "得分",
+      "pinyin": "défēn",
+      "vi": "ghi điểm, tỉ số"
+    },
+    {
+      "emoji": "🏸",
+      "word": "羽毛球",
+      "pinyin": "yǔmáoqiú",
+      "vi": "cầu lông"
+    },
+    {
+      "emoji": "🎾",
+      "word": "网球",
+      "pinyin": "wǎngqiú",
+      "vi": "quần vợt"
+    },
+    {
+      "emoji": "⚽",
+      "word": "足球",
+      "pinyin": "zúqiú",
+      "vi": "bóng đá"
+    },
+    {
+      "emoji": "🏀",
+      "word": "篮球",
+      "pinyin": "lánqiú",
+      "vi": "bóng rổ"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trước cửa thư viện, Lý Văn chạy về phía Bạch Gia Nguyệt.",
+      "scene": "🎾",
+      "audio": "audio/hsk3/9-1.mp3",
+      "vocabAudio": "audio/hsk3/9-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hôm qua Lý Văn quên làm gì?",
+          "options": [
+            "去学校打球",
+            "还白家月校园卡",
+            "给白家月打电话"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Đến hội thao, Lý Văn sẽ làm gì?",
+          "options": [
+            "游泳",
+            "踢足球",
+            "看白家月的比赛"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "家月，对不起，我昨天忘了{还|huán}你校园卡了。",
+          "vi": "Gia Nguyệt, xin lỗi, hôm qua mình quên trả thẻ sinh viên cho cậu.",
+          "t": 0
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "没关系。你怎么这么快就过来了？",
+          "vi": "Không sao. Sao cậu đến nhanh thế?",
+          "t": 5.37
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我正在球场打球呢，接了你的电话就跑过来了。",
+          "vi": "Mình đang chơi bóng ở sân, nghe điện thoại của cậu là chạy sang luôn.",
+          "t": 8.93
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "听说为了准备运动会，你们几个男生每天都练球。",
+          "vi": "Nghe nói để chuẩn bị cho hội thao, mấy bạn nam các cậu ngày nào cũng tập bóng.",
+          "t": 14.14
+        },
+        {
+          "speaker": "liwen",
+          "zh": "是啊！你打算参加运动会吗？",
+          "vi": "Đúng vậy! Cậu có định tham gia hội thao không?",
+          "t": 20.38
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我想参加网球比赛，最近一直在练习。",
+          "vi": "Mình muốn thi quần vợt, dạo này vẫn đang luyện tập.",
+          "t": 23.21
+        },
+        {
+          "speaker": "liwen",
+          "zh": "好，到时候我去看你的比赛。",
+          "vi": "Hay đấy, đến lúc đó mình đi xem cậu thi đấu.",
+          "t": 27.56
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "校园",
+          "pinyin": "xiàoyuán",
+          "pos": "n.",
+          "vi": "khuôn viên trường",
+          "example": {
+            "zh": "我们的校园很漂亮。",
+            "vi": "Khuôn viên trường chúng tôi rất đẹp."
+          }
+        },
+        {
+          "zh": "卡",
+          "pinyin": "kǎ",
+          "pos": "n.",
+          "vi": "thẻ",
+          "example": {
+            "zh": "我的校园卡不见了。",
+            "vi": "Thẻ sinh viên của tôi mất rồi."
+          }
+        },
+        {
+          "zh": "球场",
+          "pinyin": "qiúchǎng",
+          "pos": "n.",
+          "vi": "sân bóng",
+          "example": {
+            "zh": "他们在球场踢球。",
+            "vi": "Họ đang đá bóng ở sân."
+          }
+        },
+        {
+          "zh": "为了",
+          "pinyin": "wèile",
+          "pos": "prep.",
+          "vi": "để, vì",
+          "example": {
+            "zh": "为了健康，我每天跑步。",
+            "vi": "Để khoẻ mạnh, ngày nào tôi cũng chạy bộ."
+          }
+        },
+        {
+          "zh": "运动会",
+          "pinyin": "yùndònghuì",
+          "pos": "n.",
+          "vi": "hội thao",
+          "example": {
+            "zh": "学校下个月开运动会。",
+            "vi": "Tháng sau trường tổ chức hội thao."
+          }
+        },
+        {
+          "zh": "男生",
+          "pinyin": "nánshēng",
+          "pos": "n.",
+          "vi": "nam sinh",
+          "example": {
+            "zh": "我们班有十个男生。",
+            "vi": "Lớp chúng tôi có mười bạn nam."
+          }
+        },
+        {
+          "zh": "练",
+          "pinyin": "liàn",
+          "pos": "v.",
+          "vi": "luyện, tập",
+          "example": {
+            "zh": "他每天练球。",
+            "vi": "Ngày nào anh ấy cũng tập bóng."
+          }
+        },
+        {
+          "zh": "参加",
+          "pinyin": "cānjiā",
+          "pos": "v.",
+          "vi": "tham gia",
+          "example": {
+            "zh": "你参加比赛吗？",
+            "vi": "Bạn có tham gia thi đấu không?"
+          }
+        },
+        {
+          "zh": "网球",
+          "pinyin": "wǎngqiú",
+          "pos": "n.",
+          "vi": "quần vợt",
+          "example": {
+            "zh": "她网球打得很好。",
+            "vi": "Cô ấy chơi quần vợt rất giỏi."
+          }
+        },
+        {
+          "zh": "比赛",
+          "pinyin": "bǐsài",
+          "pos": "n./v.",
+          "vi": "cuộc thi, trận đấu; thi đấu",
+          "example": {
+            "zh": "比赛几点开始？",
+            "vi": "Trận đấu mấy giờ bắt đầu?"
+          }
+        },
+        {
+          "zh": "练习",
+          "pinyin": "liànxí",
+          "pos": "v./n.",
+          "vi": "luyện tập; bài tập",
+          "example": {
+            "zh": "我每天练习说汉语。",
+            "vi": "Ngày nào tôi cũng luyện nói tiếng Trung."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g9-1",
+          "title_zh": "目的复句“为了……，……”",
+          "title_vi": "“为了……，……”: để…, (thì)…",
+          "formula": [
+            [
+              {
+                "zh": "为了",
+                "label": "để",
+                "role": "ADV"
+              },
+              {
+                "zh": "准备运动会",
+                "label": "Mục đích",
+                "role": "V"
+              },
+              {
+                "zh": "，你们每天都练球",
+                "label": "Hành động để đạt mục đích",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "为了 dẫn ra mục đích, vế còn lại là việc làm để đạt mục đích đó – giống “để…”, “vì…” trong tiếng Việt. Vế 为了 thường đứng đầu câu.",
+          "examples": [
+            {
+              "zh": "听说为了准备运动会，你们几个男生每天都练球。",
+              "vi": "Nghe nói để chuẩn bị cho hội thao, mấy bạn nam ngày nào cũng tập bóng."
+            },
+            {
+              "zh": "为了考上大学，她每天努力学习。",
+              "vi": "Để đỗ đại học, ngày nào cô ấy cũng học chăm chỉ."
+            },
+            {
+              "zh": "为了早点儿到家，我打算坐飞机回去。",
+              "vi": "Để về nhà sớm, tôi định đi máy bay về."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "因为锻炼身体，我每天跑步。（muốn nói mục đích）",
+              "right": "为了锻炼身体，我每天跑步。",
+              "why_vi": "Nói mục đích dùng 为了; 因为 là nguyên nhân."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Để học tốt tiếng Trung, tôi sang Trung Quốc.”",
+              "options": [
+                "为了学好汉语，我来中国了。",
+                "因为学好汉语，我来中国了。",
+                "我来中国了为了，学好汉语。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "还你校园卡: ở đây 还 đọc là huán (trả lại), không phải hái (còn)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong sân trường, Lý Văn và Gia Nguyệt đang trò chuyện.",
+      "scene": "🏸",
+      "audio": "audio/hsk3/9-3.mp3",
+      "vocabAudio": "audio/hsk3/9-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn và Gia Nguyệt đang nói về chuyện gì?",
+          "options": [
+            "运动会",
+            "打网球",
+            "打羽毛球"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao mọi người cùng chơi bóng?",
+          "options": [
+            "为了比赛",
+            "为了锻炼身体",
+            "为了参加运动会"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "家月，你跟我们一起打羽毛球吧？",
+          "vi": "Gia Nguyệt, cậu đánh cầu lông cùng bọn mình nhé?",
+          "t": 0.96
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我好多年没打羽毛球了，几乎忘了怎么打了。",
+          "vi": "Mình bao nhiêu năm không đánh cầu lông rồi, gần như quên cách đánh.",
+          "t": 4.6
+        },
+        {
+          "speaker": "liwen",
+          "zh": "不是比赛，打不好没关系。",
+          "vi": "Có phải thi đấu đâu, đánh không giỏi cũng không sao.",
+          "t": 10.25
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "这么多同学一起打，如果总是接不住球，就太不好意思了。",
+          "vi": "Bao nhiêu bạn cùng đánh, nếu cứ đỡ cầu không được thì ngại lắm.",
+          "t": 13.12
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你想得太多了！大家打球只是为了锻炼身体。",
+          "vi": "Cậu nghĩ nhiều quá! Mọi người chơi chỉ để rèn luyện sức khoẻ thôi.",
+          "t": 20.64
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我先自己练练吧，下周再跟你们一起打。",
+          "vi": "Mình tự tập trước đã, tuần sau rồi đánh cùng các cậu.",
+          "t": 25.3
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我在教天中打羽毛球，你可以过来跟我们一起练。",
+          "vi": "Mình đang dạy Thiên Trung đánh cầu lông, cậu có thể qua tập cùng.",
+          "t": 30.85
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "好多",
+          "pinyin": "hǎoduō",
+          "pos": "num.",
+          "vi": "rất nhiều",
+          "example": {
+            "zh": "我有好多事情要做。",
+            "vi": "Tôi có rất nhiều việc phải làm."
+          }
+        },
+        {
+          "zh": "几乎",
+          "pinyin": "jīhū",
+          "pos": "adv.",
+          "vi": "gần như, hầu như",
+          "example": {
+            "zh": "我几乎每天都跑步。",
+            "vi": "Hầu như ngày nào tôi cũng chạy bộ."
+          }
+        },
+        {
+          "zh": "只是",
+          "pinyin": "zhǐshì",
+          "pos": "adv./conj.",
+          "vi": "chỉ là; có điều",
+          "example": {
+            "zh": "我只是问问。",
+            "vi": "Tôi chỉ hỏi thôi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g9-2",
+          "title_zh": "可能补语",
+          "title_vi": "Bổ ngữ khả năng: động từ + 得/不 + bổ ngữ",
+          "formula": [
+            [
+              {
+                "zh": "打",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "不",
+                "label": "không (thể)",
+                "role": "ADV"
+              },
+              {
+                "zh": "好",
+                "label": "Bổ ngữ kết quả / xu hướng",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "看",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "得",
+                "label": "được",
+                "role": "PART"
+              },
+              {
+                "zh": "懂",
+                "label": "Bổ ngữ",
+                "role": "ATTR"
+              },
+              {
+                "zh": "看不懂？",
+                "label": "dạng hỏi",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Chèn 得 hoặc 不 vào giữa động từ và bổ ngữ kết quả/xu hướng để nói có THỂ đạt kết quả đó hay không: 看得懂 = xem hiểu được, 接不住 = đỡ không được, 踢不进去 = sút không vào. Câu hỏi: 看得懂看不懂？ hoặc 看得懂吗？ Tiếng Việt cũng nói “đọc hiểu được / đọc không hiểu”.",
+          "examples": [
+            {
+              "zh": "不是比赛，打不好没关系。",
+              "vi": "Có phải thi đấu đâu, đánh không giỏi cũng không sao."
+            },
+            {
+              "zh": "这本书你看得懂看不懂？",
+              "vi": "Cuốn sách này bạn đọc có hiểu không?"
+            },
+            {
+              "zh": "你只有一个星期的时间，学得会游泳吗？",
+              "vi": "Bạn chỉ có một tuần, học bơi được không?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我不能听懂。（muốn nói: nghe không hiểu được）",
+              "right": "我听不懂。",
+              "why_vi": "Nói khả năng đạt kết quả dùng bổ ngữ khả năng, tự nhiên hơn 不能."
+            },
+            {
+              "wrong": "我听懂不了。",
+              "right": "我听不懂。",
+              "why_vi": "不 đặt giữa động từ và bổ ngữ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chữ này nhỏ quá, tôi nhìn không rõ.” (清楚 = rõ)",
+              "options": [
+                "这个字太小了，我看不清楚。",
+                "这个字太小了，我不看清楚。",
+                "这个字太小了，我看清楚不。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "接 vốn là “đón, đỡ”; 接球 = đỡ bóng / đỡ cầu, đánh trả lại."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà Lý Văn, Lý Văn, Gia Nguyệt và Trần Thiên Trung cùng xem tivi.",
+      "scene": "⚽",
+      "audio": "audio/hsk3/9-5.mp3",
+      "vocabAudio": "audio/hsk3/9-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Mọi người đang làm gì?",
+          "options": [
+            "看足球比赛",
+            "准备踢足球",
+            "准备参加比赛"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt sốt ruột?",
+          "options": [
+            "老球员生病了",
+            "球一直踢不进去",
+            "看不到比赛的得分"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "足球比赛已经开始了，快过来看吧！",
+          "vi": "Trận bóng đá bắt đầu rồi, mau qua xem đi!",
+          "t": 0.48
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你们先看，冰箱里有啤酒和饮料，我去拿一下。",
+          "vi": "Các cậu xem trước đi, trong tủ lạnh có bia với nước ngọt, mình đi lấy.",
+          "t": 5.54
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "今天怎么回事？总是踢不进去！",
+          "vi": "Hôm nay làm sao thế nhỉ? Cứ sút không vào!",
+          "t": 10.32
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "几个老球员生病了，新球员第一次参加这么重要的比赛，太紧张了。",
+          "vi": "Mấy cầu thủ lâu năm bị ốm, cầu thủ mới lần đầu đá trận quan trọng thế này, căng thẳng quá.",
+          "t": 14.55
+        },
+        {
+          "speaker": "liwen",
+          "zh": "是啊，主要的球员没参加比赛，所以大家也都受到影响了。",
+          "vi": "Đúng vậy, cầu thủ chủ lực không ra sân nên cả đội cũng bị ảnh hưởng.",
+          "t": 21.71
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "越看越着急。我不看了，你们告诉我得分吧。",
+          "vi": "Càng xem càng sốt ruột. Mình không xem nữa, các cậu báo tỉ số cho mình nhé.",
+          "t": 28.67
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "啤酒",
+          "pinyin": "píjiǔ",
+          "pos": "n.",
+          "vi": "bia",
+          "example": {
+            "zh": "你喝啤酒吗？",
+            "vi": "Bạn uống bia không?"
+          }
+        },
+        {
+          "zh": "回",
+          "pinyin": "huí",
+          "pos": "m.",
+          "vi": "lần, chuyện (lượng từ)",
+          "example": {
+            "zh": "这是怎么回事？",
+            "vi": "Chuyện này là thế nào?"
+          }
+        },
+        {
+          "zh": "紧张",
+          "pinyin": "jǐnzhāng",
+          "pos": "adj.",
+          "vi": "căng thẳng, hồi hộp",
+          "example": {
+            "zh": "考试的时候别紧张。",
+            "vi": "Lúc thi đừng căng thẳng."
+          }
+        },
+        {
+          "zh": "主要",
+          "pinyin": "zhǔyào",
+          "pos": "adj.",
+          "vi": "chủ yếu, chính",
+          "example": {
+            "zh": "这是主要的问题。",
+            "vi": "Đây là vấn đề chính."
+          }
+        },
+        {
+          "zh": "受到",
+          "pinyin": "shòudào",
+          "pos": "v.",
+          "vi": "chịu, bị, nhận được",
+          "example": {
+            "zh": "他受到了大家的欢迎。",
+            "vi": "Anh ấy được mọi người hoan nghênh."
+          }
+        },
+        {
+          "zh": "影响",
+          "pinyin": "yǐngxiǎng",
+          "pos": "n./v.",
+          "vi": "ảnh hưởng",
+          "example": {
+            "zh": "天气会影响比赛。",
+            "vi": "Thời tiết sẽ ảnh hưởng đến trận đấu."
+          }
+        },
+        {
+          "zh": "得分",
+          "pinyin": "défēn",
+          "pos": "v./n.",
+          "vi": "ghi điểm; tỉ số",
+          "example": {
+            "zh": "现在得分是多少？",
+            "vi": "Tỉ số bây giờ là bao nhiêu?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g9-3",
+          "title_zh": "固定格式“越A越B”",
+          "title_vi": "“越A越B”: càng A càng B",
+          "formula": [
+            [
+              {
+                "zh": "（我）",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "越",
+                "label": "càng",
+                "role": "ADV"
+              },
+              {
+                "zh": "看",
+                "label": "A (thay đổi)",
+                "role": "V"
+              },
+              {
+                "zh": "越",
+                "label": "càng",
+                "role": "ADV"
+              },
+              {
+                "zh": "着急",
+                "label": "B (thay đổi theo)",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "B thay đổi theo A: A càng tăng thì B càng tăng – giống hệt “càng… càng…” trong tiếng Việt. A, B có thể là động từ hoặc tính từ; hai vế có thể khác chủ ngữ: 妈妈越说，他越不高兴. So sánh với 越来越 (bài 6): 越来越 nói thay đổi theo thời gian.",
+          "examples": [
+            {
+              "zh": "今天的足球比赛我越看越着急。",
+              "vi": "Trận bóng hôm nay tôi càng xem càng sốt ruột."
+            },
+            {
+              "zh": "妈妈越说，他越不高兴。",
+              "vi": "Mẹ càng nói, nó càng không vui."
+            },
+            {
+              "zh": "我想认识中国朋友，越多越好。",
+              "vi": "Tôi muốn quen bạn Trung Quốc, càng nhiều càng tốt."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "越看越很着急。",
+              "right": "越看越着急。",
+              "why_vi": "Sau 越 không thêm 很."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Bài hát này càng nghe càng hay.”",
+              "options": [
+                "这首歌越听越好听。",
+                "这首歌越听越很好听。",
+                "这首歌听越越好听。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "怎么回事？ = Chuyện gì thế? Làm sao thế? – câu rất hay dùng khi thấy điều bất thường."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Lý Văn chuẩn bị bài thuyết trình.",
+      "scene": "🏅",
+      "audio": "audio/hsk3/9-7.mp3",
+      "vocabAudio": "audio/hsk3/9-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn đang nói về cuộc thi thể thao nào?",
+          "options": [
+            "奥运会",
+            "短跑比赛",
+            "中国的体育比赛"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Lưu Trường Xuân tham gia nội dung nào?",
+          "options": [
+            "100米短跑",
+            "200米游泳",
+            "5000米长跑"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "我喜欢看体育比赛，最爱看的就是奥运会。",
+          "vi": "Mình thích xem thi đấu thể thao, thích nhất là Thế vận hội.",
+          "t": 1.08
+        },
+        {
+          "speaker": "liwen",
+          "zh": "奥运会是世界上影响最大的体育比赛。",
+          "vi": "Thế vận hội là cuộc thi thể thao có ảnh hưởng lớn nhất thế giới.",
+          "t": 7.47
+        },
+        {
+          "speaker": "liwen",
+          "zh": "从1896年到2024年，每次奥运会都有非常多的运动员参加。",
+          "vi": "Từ năm 1896 đến năm 2024, kỳ Thế vận hội nào cũng có rất nhiều vận động viên tham gia.",
+          "t": 12.22
+        },
+        {
+          "speaker": "liwen",
+          "zh": "第一位参加奥运会的中国运动员是刘长春，他1932年参加了100米和200米短跑比赛。",
+          "vi": "Vận động viên Trung Quốc đầu tiên dự Thế vận hội là Lưu Trường Xuân, năm 1932 ông thi chạy ngắn 100 mét và 200 mét.",
+          "t": 19.55
+        },
+        {
+          "speaker": "liwen",
+          "zh": "虽然他没有得到好成绩，但是他让世界认识了中国。",
+          "vi": "Tuy ông không đạt thành tích tốt, nhưng ông đã giúp thế giới biết đến Trung Quốc.",
+          "t": 27.95
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "体育",
+          "pinyin": "tǐyù",
+          "pos": "n.",
+          "vi": "thể dục thể thao",
+          "example": {
+            "zh": "我喜欢上体育课。",
+            "vi": "Tôi thích giờ thể dục."
+          }
+        },
+        {
+          "zh": "世界",
+          "pinyin": "shìjiè",
+          "pos": "n.",
+          "vi": "thế giới",
+          "example": {
+            "zh": "我想去世界各地旅游。",
+            "vi": "Tôi muốn đi du lịch khắp thế giới."
+          }
+        },
+        {
+          "zh": "运动员",
+          "pinyin": "yùndòngyuán",
+          "pos": "n.",
+          "vi": "vận động viên",
+          "example": {
+            "zh": "他是一名网球运动员。",
+            "vi": "Anh ấy là một vận động viên quần vợt."
+          }
+        },
+        {
+          "zh": "得到",
+          "pinyin": "dédào",
+          "pos": "v.",
+          "vi": "đạt được, nhận được",
+          "example": {
+            "zh": "她得到了第一名。",
+            "vi": "Cô ấy đạt giải nhất."
+          }
+        },
+        {
+          "zh": "成绩",
+          "pinyin": "chéngjì",
+          "pos": "n.",
+          "vi": "thành tích, điểm số",
+          "example": {
+            "zh": "这次考试成绩怎么样？",
+            "vi": "Kỳ thi này điểm thế nào?"
+          }
+        },
+        {
+          "zh": "奥运会",
+          "pinyin": "Àoyùnhuì",
+          "pos": "",
+          "vi": "Thế vận hội (Olympic)",
+          "example": {
+            "zh": "你看奥运会吗？",
+            "vi": "Bạn có xem Thế vận hội không?"
+          }
+        },
+        {
+          "zh": "刘长春",
+          "pinyin": "Liú Chángchūn",
+          "pos": "",
+          "vi": "Lưu Trường Xuân (tên người)",
+          "example": {
+            "zh": "刘长春是中国运动员。",
+            "vi": "Lưu Trường Xuân là vận động viên Trung Quốc."
+          }
+        }
+      ],
+      "pangdaTip": "让世界认识了中国 = giúp thế giới biết đến Trung Quốc. 让 + ai + làm gì = làm cho / khiến ai…"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我的腿不舒服，所以没___这次网球比赛。",
+      "bank": [
+        "参加",
+        "练",
+        "得到"
+      ],
+      "answer": "参加"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "学校的___上，每天都有很多同学在那儿做运动。",
+      "bank": [
+        "球场",
+        "世界",
+        "成绩"
+      ],
+      "answer": "球场"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "运动员们为了得到好___，每天要练十多个小时。",
+      "bank": [
+        "成绩",
+        "影响",
+        "球场"
+      ],
+      "answer": "成绩"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "受到天气的___，今天的足球比赛要晚两个小时开始。",
+      "bank": [
+        "影响",
+        "成绩",
+        "世界"
+      ],
+      "answer": "影响"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "这位运动员觉得___上最重要的运动会就是奥运会。",
+      "bank": [
+        "世界",
+        "球场",
+        "影响"
+      ],
+      "answer": "世界"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "越",
+        "我",
+        "越看",
+        "着急"
+      ],
+      "answers": [
+        "我越看越着急"
+      ],
+      "vi": "Tôi càng xem càng sốt ruột.",
+      "explain_vi": "越A越B."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "为了",
+        "锻炼身体",
+        "我",
+        "每天跑步",
+        "，"
+      ],
+      "answers": [
+        "为了锻炼身体，我每天跑步"
+      ],
+      "vi": "Để rèn luyện sức khoẻ, ngày nào tôi cũng chạy bộ.",
+      "explain_vi": "为了 + mục đích, hành động."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "网球",
+      "options": [
+        {
+          "emoji": "🎾",
+          "label": "Quần vợt"
+        },
+        {
+          "emoji": "🏸",
+          "label": "Cầu lông"
+        },
+        {
+          "emoji": "⚽",
+          "label": "Bóng đá"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "今天怎么回事？总是踢不进去！",
+      "emoji": "⚽",
+      "statement_vi": "Hôm nay đội sút vào rất nhiều bàn.",
+      "answer": false,
+      "explain_vi": "踢不进去 = sút không vào."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "📖🤔",
+      "sentence": "这本书太难了，我看___懂。",
+      "options": [
+        "不",
+        "没",
+        "得不"
+      ],
+      "answer": 0,
+      "explain_vi": "Bổ ngữ khả năng phủ định: 看不懂."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你打算参加运动会吗？",
+          "a": "我想参加网球比赛。"
+        },
+        {
+          "q": "现在得分是多少？",
+          "a": "还是零比零。"
+        },
+        {
+          "q": "你怎么这么快就过来了？",
+          "a": "我接了你的电话就跑过来了。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Giới thiệu một trận đấu đáng nhớ",
+    "steps_vi": [
+      "Mỗi người chọn một trận đấu hoặc một vận động viên mình yêu thích.",
+      "Giới thiệu: đó là môn gì, ai thi đấu, kết quả thế nào, có ảnh hưởng gì.",
+      "Dùng bổ ngữ khả năng để kể diễn biến: 踢不进去, 接不住, 跑得过.",
+      "Dùng “越……越……” để nói cảm xúc khi xem: 越看越紧张."
+    ],
+    "patterns": [
+      {
+        "zh": "我最喜欢的运动员是……",
+        "vi": "Vận động viên tôi thích nhất là…"
+      },
+      {
+        "zh": "为了得到好成绩，他每天练习十个小时。",
+        "vi": "Để đạt thành tích tốt, mỗi ngày anh ấy tập mười tiếng."
+      },
+      {
+        "zh": "那场比赛我越看越紧张。",
+        "vi": "Trận đấu đó tôi càng xem càng hồi hộp."
+      },
+      {
+        "zh": "最后他们得到了第一名。",
+        "vi": "Cuối cùng họ giành hạng nhất."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Trung Quốc và Thế vận hội",
+    "body_vi": [
+      "Năm 1932, Lưu Trường Xuân là vận động viên duy nhất của Trung Quốc dự Thế vận hội Los Angeles. Ông vượt biển gần một tháng mới đến nơi, nên dù không đạt thành tích, chuyến đi của ông vẫn được nhớ như cột mốc của thể thao Trung Quốc.",
+      "Năm 2008, Bắc Kinh tổ chức Thế vận hội Mùa hè; năm 2022 tổ chức Thế vận hội Mùa đông. Bắc Kinh là thành phố đầu tiên trên thế giới đăng cai cả hai kỳ Olympic.",
+      "Các môn Trung Quốc mạnh nhất là bóng bàn, cầu lông, nhảy cầu và cử tạ. Ở Việt Nam, cầu lông cũng là môn được rất nhiều người chơi hằng ngày."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Thế vận hội",
+          "奥运会",
+          "Àoyùnhuì"
+        ],
+        [
+          "Hội thao",
+          "运动会",
+          "yùndònghuì"
+        ],
+        [
+          "Huy chương vàng",
+          "金牌",
+          "jīnpái"
+        ],
+        [
+          "Bóng bàn",
+          "乒乓球",
+          "pīngpāngqiú"
+        ],
+        [
+          "Chạy ngắn",
+          "短跑",
+          "duǎnpǎo"
+        ]
+      ]
+    }
+  }
 }

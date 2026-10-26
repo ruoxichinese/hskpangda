@@ -1,35 +1,1130 @@
 {
   "id": 4,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "这家宾馆跟别的都不一样",
     "pinyin": "Zhè jiā bīnguǎn gēn bié de dōu bù yíyàng",
-    "vi": "Khách sạn này không giống bất kỳ nơi nào khác"
+    "vi": "Khách sạn này không giống những nơi khác"
   },
   "grammarTopics_vi": [
-    "Cấu trúc 一……也/都 + 不/没……",
-    "Câu so sánh (9)",
-    "Cấu trúc 除了……（以外），……都/还/也……"
+    "Cấu trúc “一……也/都 + 不/没……”: phủ định hoàn toàn",
+    "Câu so sánh (9): A 跟 B 一样",
+    "Cấu trúc “除了……（以外），……都/还/也……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Cấu trúc 一……也/都 + 不/没……",
-      "doneWhen": []
+      "vi": "Nói về kế hoạch kỳ nghỉ và cảm nhận trong chuyến đi",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu so sánh (9)",
-      "doneWhen": []
+      "vi": "Phủ định hoàn toàn: 一点儿也不冷, 一件也不想买",
+      "doneWhen": [
+        "text-1"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 除了……（以外），……都/还/也……",
-      "doneWhen": []
+      "vi": "So sánh giống nhau / khác nhau bằng “跟……一样”",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Dùng “除了……以外” để loại trừ hoặc bổ sung",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "📷",
+      "word": "相机",
+      "pinyin": "xiàngjī",
+      "vi": "máy ảnh"
+    },
+    {
+      "emoji": "🐑",
+      "word": "羊",
+      "pinyin": "yáng",
+      "vi": "con dê, con cừu"
+    },
+    {
+      "emoji": "🌕",
+      "word": "月亮",
+      "pinyin": "yuèliang",
+      "vi": "mặt trăng"
+    },
+    {
+      "emoji": "🏨",
+      "word": "宾馆",
+      "pinyin": "bīnguǎn",
+      "vi": "khách sạn"
+    },
+    {
+      "emoji": "🏇",
+      "word": "骑马",
+      "pinyin": "qí mǎ",
+      "vi": "cưỡi ngựa"
+    },
+    {
+      "emoji": "🌊",
+      "word": "海",
+      "pinyin": "hǎi",
+      "vi": "biển"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong phòng khách nhà Vương Nhất Phi, Dương Đồng Lạc và Nhất Phi đang trò chuyện.",
+      "scene": "🏞️",
+      "audio": "audio/hsk3/4-1.mp3",
+      "vocabAudio": "audio/hsk3/4-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Nhất Phi và Đồng Lạc đang nói chuyện gì?",
+          "options": [
+            "明天的天气",
+            "喜欢吃什么",
+            "假期做什么"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Đồng Lạc thấy thảo nguyên thế nào?",
+          "options": [
+            "草原天气不好",
+            "草原比海边冷",
+            "草原很有意思"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "yangtongle",
+          "zh": "这个假期咱们去哪儿玩玩吧。",
+          "vi": "Kỳ nghỉ này mình đi đâu chơi đi.",
+          "t": 0.28
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "好啊，你想去哪儿，咱们就去哪儿。",
+          "vi": "Được thôi, anh muốn đi đâu thì mình đi đó.",
+          "t": 3.58
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "你喜欢海，找个海边住几天，怎么样？",
+          "vi": "Em thích biển, tìm chỗ nào ven biển ở vài ngày, được không?",
+          "t": 7.99
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "现在去海边有点儿冷。",
+          "vi": "Giờ ra biển hơi lạnh.",
+          "t": 13.23
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "那去草原吧？草原一点儿也不冷。",
+          "vi": "Vậy đi thảo nguyên nhé? Thảo nguyên không lạnh chút nào.",
+          "t": 16.55
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "这个主意好！我好久没骑马了。",
+          "vi": "Ý hay đấy! Lâu lắm rồi em không cưỡi ngựa.",
+          "t": 21.3
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "对，在草原上骑马、吃羊肉、看月亮，一定很有意思。",
+          "vi": "Đúng thế, cưỡi ngựa, ăn thịt dê, ngắm trăng trên thảo nguyên, chắc chắn rất thú vị.",
+          "t": 27.16
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "假期",
+          "pinyin": "jiàqī",
+          "pos": "n.",
+          "vi": "kỳ nghỉ",
+          "example": {
+            "zh": "这个假期你想去哪儿？",
+            "vi": "Kỳ nghỉ này bạn muốn đi đâu?"
+          }
+        },
+        {
+          "zh": "海",
+          "pinyin": "hǎi",
+          "pos": "n.",
+          "vi": "biển",
+          "example": {
+            "zh": "我很喜欢看海。",
+            "vi": "Tôi rất thích ngắm biển."
+          }
+        },
+        {
+          "zh": "草原",
+          "pinyin": "cǎoyuán",
+          "pos": "n.",
+          "vi": "thảo nguyên",
+          "example": {
+            "zh": "草原上有很多马。",
+            "vi": "Trên thảo nguyên có nhiều ngựa."
+          }
+        },
+        {
+          "zh": "主意",
+          "pinyin": "zhǔyi",
+          "pos": "n.",
+          "vi": "ý kiến, chủ ý",
+          "example": {
+            "zh": "这是个好主意。",
+            "vi": "Đây là một ý hay."
+          }
+        },
+        {
+          "zh": "骑",
+          "pinyin": "qí",
+          "pos": "v.",
+          "vi": "cưỡi, đạp (xe)",
+          "example": {
+            "zh": "他每天骑车上班。",
+            "vi": "Ngày nào anh ấy cũng đạp xe đi làm."
+          }
+        },
+        {
+          "zh": "马",
+          "pinyin": "mǎ",
+          "pos": "n.",
+          "vi": "ngựa",
+          "example": {
+            "zh": "你骑过马吗？",
+            "vi": "Bạn cưỡi ngựa bao giờ chưa?"
+          }
+        },
+        {
+          "zh": "羊",
+          "pinyin": "yáng",
+          "pos": "n.",
+          "vi": "dê, cừu",
+          "example": {
+            "zh": "草原上有很多羊。",
+            "vi": "Trên thảo nguyên có nhiều dê cừu."
+          }
+        },
+        {
+          "zh": "月亮",
+          "pinyin": "yuèliang",
+          "pos": "n.",
+          "vi": "mặt trăng",
+          "example": {
+            "zh": "今天的月亮很大。",
+            "vi": "Trăng hôm nay rất to."
+          }
+        },
+        {
+          "zh": "一定",
+          "pinyin": "yídìng",
+          "pos": "adv.",
+          "vi": "nhất định, chắc chắn",
+          "example": {
+            "zh": "我明天一定来。",
+            "vi": "Mai tôi nhất định đến."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g4-1",
+          "title_zh": "固定格式“一……也/都+不/没……”",
+          "title_vi": "“一……也/都 + 不/没……”: không… chút nào",
+          "formula": [
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "一件衣服",
+                "label": "一 + lượng từ + danh từ",
+                "role": "O"
+              },
+              {
+                "zh": "都",
+                "label": "也 / 都",
+                "role": "ADV"
+              },
+              {
+                "zh": "不想买",
+                "label": "不 / 没 + động từ",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "草原",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "一点儿",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "也",
+                "label": "也 / 都",
+                "role": "ADV"
+              },
+              {
+                "zh": "不冷",
+                "label": "不 / 没 + tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Cấu trúc này phủ định hoàn toàn, giống “không… một… nào”, “không… chút nào” trong tiếng Việt. 一 + lượng từ (一件, 一个) đặt trước 也/都, sau đó là 不 hoặc 没. Có thể thay “一 + lượng từ” bằng 一点儿. Khi vị ngữ là tính từ, thường dùng 一点儿也/都 + 不/没 + tính từ.",
+          "examples": [
+            {
+              "zh": "她一件衣服都不想买。",
+              "vi": "Cô ấy không muốn mua cái áo nào cả."
+            },
+            {
+              "zh": "我一个中国电影也没看过。",
+              "vi": "Tôi chưa xem một bộ phim Trung Quốc nào."
+            },
+            {
+              "zh": "我一点儿东西也不想吃。",
+              "vi": "Tôi chẳng muốn ăn chút gì."
+            },
+            {
+              "zh": "草原一点儿也不冷。",
+              "vi": "Thảo nguyên không lạnh chút nào."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "草原一点儿也冷。",
+              "right": "草原一点儿也不冷。",
+              "why_vi": "Cấu trúc này luôn có 不 hoặc 没 ở sau 也/都."
+            },
+            {
+              "wrong": "他们不一点儿着急。",
+              "right": "他们一点儿也不着急。",
+              "why_vi": "一点儿 đứng trước 也/都, 不 đứng ngay trước tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi không có chút thời gian nào.”",
+              "options": [
+                "我一点儿时间也没有。",
+                "我没有一点儿也时间。",
+                "我一点儿也有时间。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "你想去哪儿，咱们就去哪儿 = anh muốn đi đâu thì mình đi đó – cách dùng đại từ nghi vấn bạn đã học ở bài 2."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong phòng khách nhà Vương Nhất Phi, hai người tiếp tục trò chuyện.",
+      "scene": "🧳",
+      "audio": "audio/hsk3/4-3.mp3",
+      "vocabAudio": "audio/hsk3/4-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Nhất Phi thấy chuyến đi này cần mang gì?",
+          "options": [
+            "什么都不用带",
+            "带新买的相机",
+            "要带很多东西"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Đồng Lạc bây giờ đi làm gì?",
+          "options": [
+            "买机票",
+            "选宾馆",
+            "准备行李"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "yangtongle",
+          "zh": "出去玩的机票买好了吗？",
+          "vi": "Vé máy bay đi chơi mua xong chưa em?",
+          "t": 0.91
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "买好了。星期六上午十点一刻起飞。",
+          "vi": "Mua rồi. Mười giờ mười lăm sáng thứ bảy cất cánh.",
+          "t": 4.21
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "宾馆也选好了吗？",
+          "vi": "Khách sạn cũng chọn xong rồi chứ?",
+          "t": 9.26
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "是的，这家宾馆很特别，跟别的都不一样，一出门就能看见牛和羊！",
+          "vi": "Rồi, khách sạn này rất đặc biệt, không giống những nơi khác, vừa ra cửa là thấy bò với dê!",
+          "t": 12.01
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "太好了！你看看要带什么东西？",
+          "vi": "Tuyệt quá! Em xem cần mang những gì?",
+          "t": 20.86
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我们不用带太多东西，别忘了拿上新买的相机。",
+          "vi": "Mình không cần mang nhiều đồ đâu, đừng quên mang theo cái máy ảnh mới mua.",
+          "t": 25.27
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "一定不会忘带的。我现在就去准备行李。",
+          "vi": "Chắc chắn không quên đâu. Anh đi chuẩn bị hành lý ngay đây.",
+          "t": 31.49
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "刻",
+          "pinyin": "kè",
+          "pos": "m.",
+          "vi": "khắc (15 phút)",
+          "example": {
+            "zh": "现在八点一刻。",
+            "vi": "Bây giờ là tám giờ mười lăm."
+          }
+        },
+        {
+          "zh": "起飞",
+          "pinyin": "qǐfēi",
+          "pos": "v.",
+          "vi": "cất cánh",
+          "example": {
+            "zh": "飞机十点起飞。",
+            "vi": "Máy bay cất cánh lúc mười giờ."
+          }
+        },
+        {
+          "zh": "宾馆",
+          "pinyin": "bīnguǎn",
+          "pos": "n.",
+          "vi": "khách sạn, nhà khách",
+          "example": {
+            "zh": "这家宾馆离海很近。",
+            "vi": "Khách sạn này rất gần biển."
+          }
+        },
+        {
+          "zh": "特别",
+          "pinyin": "tèbié",
+          "pos": "adj./adv.",
+          "vi": "đặc biệt; rất",
+          "example": {
+            "zh": "今天天气特别好。",
+            "vi": "Hôm nay thời tiết đặc biệt đẹp."
+          }
+        },
+        {
+          "zh": "别的",
+          "pinyin": "biéde",
+          "pos": "pron.",
+          "vi": "khác (cái khác, người khác)",
+          "example": {
+            "zh": "还有别的吗？",
+            "vi": "Còn cái nào khác không?"
+          }
+        },
+        {
+          "zh": "一样",
+          "pinyin": "yíyàng",
+          "pos": "adj.",
+          "vi": "giống nhau, như nhau",
+          "example": {
+            "zh": "我们的书包一样。",
+            "vi": "Cặp của chúng tôi giống nhau."
+          }
+        },
+        {
+          "zh": "牛",
+          "pinyin": "niú",
+          "pos": "n.",
+          "vi": "con bò, con trâu",
+          "example": {
+            "zh": "草原上有牛和羊。",
+            "vi": "Trên thảo nguyên có bò và dê."
+          }
+        },
+        {
+          "zh": "相机",
+          "pinyin": "xiàngjī",
+          "pos": "n.",
+          "vi": "máy ảnh",
+          "example": {
+            "zh": "这是我新买的相机。",
+            "vi": "Đây là máy ảnh tôi mới mua."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g4-2",
+          "title_zh": "比较句（9）",
+          "title_vi": "Câu so sánh (9): A 跟 B 一样 (+ tính từ)",
+          "formula": [
+            [
+              {
+                "zh": "这个房间",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "跟那个房间",
+                "label": "跟 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "一样",
+                "label": "giống nhau",
+                "role": "V"
+              },
+              {
+                "zh": "大",
+                "label": "(mặt so sánh)",
+                "role": "ATTR"
+              }
+            ],
+            [
+              {
+                "zh": "这家宾馆",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "跟别的",
+                "label": "跟 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "都不一样",
+                "label": "不 + 一样",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "A 跟 B 一样 nghĩa là A và B giống nhau. Muốn nói giống nhau ở mặt nào, thêm tính từ sau 一样: 一样大 = to như nhau. Phủ định: 不一样, đặt 不 trước 一样. Tiếng Việt nói “A giống B”, tiếng Trung đặt 跟 + B trước 一样.",
+          "examples": [
+            {
+              "zh": "这家宾馆跟别的都不一样。",
+              "vi": "Khách sạn này không giống những nơi khác."
+            },
+            {
+              "zh": "他买的新手机跟我的一样。",
+              "vi": "Điện thoại mới anh ấy mua giống của tôi."
+            },
+            {
+              "zh": "这个房间跟那个房间一样大。",
+              "vi": "Phòng này to bằng phòng kia."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这个房间一样大跟那个房间。",
+              "right": "这个房间跟那个房间一样大。",
+              "why_vi": "跟 + B đứng trước 一样."
+            },
+            {
+              "wrong": "他的手机跟我的一样不。",
+              "right": "他的手机跟我的不一样。",
+              "why_vi": "不 đứng trước 一样."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Em gái cao bằng chị.”",
+              "options": [
+                "妹妹跟姐姐一样高。",
+                "妹妹一样高跟姐姐。",
+                "妹妹跟姐姐高一样。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "十点一刻 = 10 giờ 15. Một 刻 là 15 phút: 一刻 (15 phút), 三刻 (45 phút)."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở sân bay, Đồng Lạc và Nhất Phi đi ra, gặp tài xế kiêm hướng dẫn viên đã đặt trước.",
+      "scene": "🚗",
+      "audio": "audio/hsk3/4-5.mp3",
+      "vocabAudio": "audio/hsk3/4-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Lý là ai?",
+          "options": [
+            "同乐的朋友",
+            "同乐的司机",
+            "宾馆的服务员"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Đến khách sạn, họ làm gì trước?",
+          "options": [
+            "休息",
+            "吃晚饭",
+            "等朋友"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "xiaoli",
+          "zh": "欢迎你们！我是你们的司机，我姓李，叫我小李就可以。",
+          "vi": "Chào mừng anh chị! Tôi là tài xế của anh chị, tôi họ Lý, cứ gọi tôi là Tiểu Lý.",
+          "t": 0
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "您好！不好意思，飞机晚点了，让您久等了。",
+          "vi": "Chào anh! Xin lỗi, máy bay bị trễ, để anh phải đợi lâu.",
+          "t": 6.61
+        },
+        {
+          "speaker": "xiaoli",
+          "zh": "没关系。除了这个行李箱以外，还有别的东西吗？",
+          "vi": "Không sao. Ngoài cái vali này ra, còn đồ gì khác không?",
+          "t": 11.69
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "还有一个包，我自己拿就可以。",
+          "vi": "Còn một cái túi, tôi tự cầm được rồi.",
+          "t": 17.73
+        },
+        {
+          "speaker": "xiaoli",
+          "zh": "车在一层，请跟我来。",
+          "vi": "Xe ở tầng một, mời anh chị đi theo tôi.",
+          "t": 20.99
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "我们住的宾馆离机场远吗？",
+          "vi": "Khách sạn chúng tôi ở có xa sân bay không?",
+          "t": 24.98
+        },
+        {
+          "speaker": "xiaoli",
+          "zh": "不远，三十分钟就能到。两位到了可以先休息休息，晚饭的时候我叫你们。",
+          "vi": "Không xa, ba mươi phút là tới. Hai vị đến nơi có thể nghỉ ngơi trước, đến giờ ăn tối tôi gọi.",
+          "t": 28.18
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "欢迎",
+          "pinyin": "huānyíng",
+          "pos": "v.",
+          "vi": "chào mừng, hoan nghênh",
+          "example": {
+            "zh": "欢迎你来我家。",
+            "vi": "Chào mừng bạn đến nhà tôi."
+          }
+        },
+        {
+          "zh": "司机",
+          "pinyin": "sījī",
+          "pos": "n.",
+          "vi": "tài xế",
+          "example": {
+            "zh": "他是出租车司机。",
+            "vi": "Anh ấy là tài xế taxi."
+          }
+        },
+        {
+          "zh": "晚点",
+          "pinyin": "wǎndiǎn",
+          "pos": "v.",
+          "vi": "trễ giờ, muộn (tàu, máy bay)",
+          "example": {
+            "zh": "飞机晚点了一个小时。",
+            "vi": "Máy bay trễ một tiếng."
+          }
+        },
+        {
+          "zh": "久",
+          "pinyin": "jiǔ",
+          "pos": "adj.",
+          "vi": "lâu",
+          "example": {
+            "zh": "让你久等了。",
+            "vi": "Để bạn đợi lâu rồi."
+          }
+        },
+        {
+          "zh": "除了",
+          "pinyin": "chúle",
+          "pos": "prep.",
+          "vi": "ngoài… ra, trừ…",
+          "example": {
+            "zh": "除了他，大家都来了。",
+            "vi": "Trừ anh ấy ra, mọi người đều đến rồi."
+          }
+        },
+        {
+          "zh": "以外",
+          "pinyin": "yǐwài",
+          "pos": "n.",
+          "vi": "ngoài (ra)",
+          "example": {
+            "zh": "除了茶以外，我也喜欢咖啡。",
+            "vi": "Ngoài trà ra, tôi cũng thích cà phê."
+          }
+        },
+        {
+          "zh": "先",
+          "pinyin": "xiān",
+          "pos": "adv.",
+          "vi": "trước",
+          "example": {
+            "zh": "你先走吧。",
+            "vi": "Bạn đi trước đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g4-3",
+          "title_zh": "固定格式“除了……（以外），……都/还/也……”",
+          "title_vi": "“除了……（以外）”: ngoài… ra / trừ… ra",
+          "formula": [
+            [
+              {
+                "zh": "除了我以外，",
+                "label": "除了 + phần loại trừ",
+                "role": "ADV"
+              },
+              {
+                "zh": "大家",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "都",
+                "label": "đều (loại trừ)",
+                "role": "ADV"
+              },
+              {
+                "zh": "在玩手机",
+                "label": "",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "除了唱歌以外，",
+                "label": "除了 + phần đã có",
+                "role": "ADV"
+              },
+              {
+                "zh": "他",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "也 / 还",
+                "label": "còn, cũng (bổ sung)",
+                "role": "ADV"
+              },
+              {
+                "zh": "喜欢跳舞",
+                "label": "",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Có hai nghĩa. Đi với 都: loại trừ – “trừ… ra, tất cả đều…” (除了我以外，大家都在玩手机). Đi với 还/也: bổ sung – “ngoài… ra, còn…” (除了唱歌以外，他也喜欢跳舞). 以外 có thể lược bỏ. Tiếng Việt cũng có cả hai nghĩa “trừ… ra” và “ngoài… ra”, nên chỉ cần nhìn 都 hay 还/也 phía sau để hiểu đúng.",
+          "examples": [
+            {
+              "zh": "除了我以外，大家都在玩手机。",
+              "vi": "Trừ tôi ra, mọi người đều đang chơi điện thoại."
+            },
+            {
+              "zh": "除了这个汉字，别的汉字我都会写。",
+              "vi": "Trừ chữ này ra, các chữ khác tôi đều biết viết."
+            },
+            {
+              "zh": "除了这个行李箱以外，还有别的东西吗？",
+              "vi": "Ngoài cái vali này ra, còn đồ gì khác không?"
+            },
+            {
+              "zh": "除了唱歌以外，他也喜欢跳舞。",
+              "vi": "Ngoài hát ra, anh ấy cũng thích nhảy."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "除了他以外，大家也来了。（muốn nói: trừ anh ấy, ai cũng đến）",
+              "right": "除了他以外，大家都来了。",
+              "why_vi": "Nghĩa loại trừ dùng 都; 也/还 là nghĩa bổ sung."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Ngoài tiếng Anh ra, cô ấy còn biết nói tiếng Trung.”",
+              "options": [
+                "除了英语以外，她还会说汉语。",
+                "除了英语以外，她都会说汉语。",
+                "她除了会说汉语，英语以外。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "让您久等了 = để anh/chị phải đợi lâu – câu xin lỗi lịch sự rất hay dùng khi đến muộn."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Trong phòng khách sạn, Vương Nhất Phi viết nhật ký.",
+      "scene": "📓",
+      "audio": "audio/hsk3/4-7.mp3",
+      "vocabAudio": "audio/hsk3/4-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Máy bay trễ giờ thì tài xế làm gì?",
+          "options": [
+            "去宾馆了",
+            "去买水果了",
+            "一直在机场等"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Họ đến nơi lúc nào?",
+          "options": [
+            "上午",
+            "中午",
+            "晚上"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyifei",
+          "zh": "今天是我们旅游的第一天。",
+          "vi": "Hôm nay là ngày đầu tiên của chuyến du lịch.",
+          "t": 0
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我们很早就起床去机场了，没想到飞机晚点了。",
+          "vi": "Bọn mình dậy từ rất sớm ra sân bay, không ngờ máy bay bị trễ.",
+          "t": 2.93
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "我们到的时候，天已经黑了，但是司机小李一直在机场等我们，一点儿也没着急。",
+          "vi": "Lúc bọn mình đến, trời đã tối, nhưng tài xế Tiểu Lý vẫn đợi ở sân bay suốt, chẳng sốt ruột chút nào.",
+          "t": 8.16
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "他特别热情，路上给我们介绍了很多东西，还准备了水果。",
+          "vi": "Anh ấy rất nhiệt tình, dọc đường giới thiệu cho bọn mình nhiều thứ, còn chuẩn bị cả hoa quả.",
+          "t": 16.96
+        },
+        {
+          "speaker": "wangyifei",
+          "zh": "宾馆的房间跟我想的一样漂亮，又大又干净，我非常满意。",
+          "vi": "Phòng khách sạn đẹp đúng như mình nghĩ, vừa rộng vừa sạch, mình rất hài lòng.",
+          "t": 23.51
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "一直",
+          "pinyin": "yìzhí",
+          "pos": "adv.",
+          "vi": "suốt, luôn luôn",
+          "example": {
+            "zh": "他一直在等你。",
+            "vi": "Anh ấy đợi bạn suốt."
+          }
+        },
+        {
+          "zh": "干净",
+          "pinyin": "gānjìng",
+          "pos": "adj.",
+          "vi": "sạch sẽ",
+          "example": {
+            "zh": "房间很干净。",
+            "vi": "Phòng rất sạch."
+          }
+        },
+        {
+          "zh": "满意",
+          "pinyin": "mǎnyì",
+          "pos": "v.",
+          "vi": "hài lòng",
+          "example": {
+            "zh": "我对这家宾馆很满意。",
+            "vi": "Tôi rất hài lòng với khách sạn này."
+          }
+        }
+      ],
+      "pangdaTip": "跟我想的一样 = giống như mình nghĩ. 跟 + điều mong đợi + 一样 rất hay dùng khi nhận xét."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "已经八点一___了，快起床吧。",
+      "bank": [
+        "刻",
+        "久",
+        "先"
+      ],
+      "answer": "刻"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "飞机晚点了，小李在机场等了很___。",
+      "bank": [
+        "久",
+        "刻",
+        "特别"
+      ],
+      "answer": "久"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我___打车过去，你们可以慢慢走过去。",
+      "bank": [
+        "先",
+        "久",
+        "满意"
+      ],
+      "answer": "先"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我对这里的服务非常___，下次还会再来。",
+      "bank": [
+        "满意",
+        "特别",
+        "一定"
+      ],
+      "answer": "满意"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "草原真是太漂亮了，跟我想的___。",
+      "bank": [
+        "一样",
+        "别的",
+        "一直"
+      ],
+      "answer": "一样"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "也",
+        "一点儿",
+        "草原",
+        "不冷"
+      ],
+      "answers": [
+        "草原一点儿也不冷"
+      ],
+      "vi": "Thảo nguyên không lạnh chút nào.",
+      "explain_vi": "一点儿 + 也 + 不 + tính từ."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "都",
+        "除了他以外",
+        "大家",
+        "来了",
+        "，"
+      ],
+      "answers": [
+        "除了他以外，大家都来了"
+      ],
+      "vi": "Trừ anh ấy ra, mọi người đều đến rồi.",
+      "explain_vi": "除了……以外，……都……"
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "骑马",
+      "options": [
+        {
+          "emoji": "🏇",
+          "label": "Cưỡi ngựa"
+        },
+        {
+          "emoji": "🌊",
+          "label": "Biển"
+        },
+        {
+          "emoji": "📷",
+          "label": "Máy ảnh"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "这家宾馆跟别的都不一样。",
+      "emoji": "🏨",
+      "statement_vi": "Khách sạn này giống hệt những nơi khác.",
+      "answer": false,
+      "explain_vi": "跟别的都不一样 = không giống những nơi khác."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🏠🏠",
+      "sentence": "这个房间跟那个房间___大。",
+      "options": [
+        "一样",
+        "一直",
+        "一定"
+      ],
+      "answer": 0,
+      "explain_vi": "跟……一样大 = to như nhau."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "宾馆离机场远吗？",
+          "a": "不远，三十分钟就能到。"
+        },
+        {
+          "q": "除了行李箱以外，还有别的东西吗？",
+          "a": "还有一个包。"
+        },
+        {
+          "q": "这个假期咱们去哪儿？",
+          "a": "去草原吧，草原一点儿也不冷。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Lên kế hoạch kỳ nghỉ",
+    "steps_vi": [
+      "Làm theo cặp, cùng chọn nơi đi chơi kỳ nghỉ tới: biển, thảo nguyên, thành phố…",
+      "Mỗi người nêu ý kiến, dùng “一点儿也不……” để nói ưu điểm: 草原一点儿也不冷.",
+      "So sánh hai nơi bằng “跟……一样 / 不一样”.",
+      "Liệt kê đồ cần mang bằng “除了……以外，还要带……”."
+    ],
+    "patterns": [
+      {
+        "zh": "这个假期咱们去哪儿玩玩吧。",
+        "vi": "Kỳ nghỉ này mình đi đâu chơi đi."
+      },
+      {
+        "zh": "海边跟草原不一样，我更喜欢海边。",
+        "vi": "Biển khác thảo nguyên, mình thích biển hơn."
+      },
+      {
+        "zh": "除了相机以外，还要带什么？",
+        "vi": "Ngoài máy ảnh ra, còn phải mang gì?"
+      },
+      {
+        "zh": "这个主意好！",
+        "vi": "Ý hay đấy!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Thảo nguyên Nội Mông và các kỳ nghỉ ở Trung Quốc",
+    "body_vi": [
+      "Thảo nguyên lớn nhất Trung Quốc nằm ở Nội Mông Cổ (内蒙古). Mùa hè, du khách đến đây cưỡi ngựa, ở lều truyền thống (蒙古包), ăn thịt dê nướng và ngắm bầu trời đầy sao.",
+      "Người Trung Quốc có hai kỳ nghỉ dài trong năm: Tết Nguyên đán và Quốc khánh (国庆节, 1/10), thường được nghỉ khoảng 7 ngày, gọi là “tuần lễ vàng” (黄金周). Đây là lúc các điểm du lịch đông nhất.",
+      "Giống người Việt, nhiều người Trung Quốc thích đi biển: Tam Á (三亚) ở đảo Hải Nam được ví như “Hawaii của Trung Quốc”."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Thảo nguyên",
+          "草原",
+          "cǎoyuán"
+        ],
+        [
+          "Lều Mông Cổ",
+          "蒙古包",
+          "Měnggǔbāo"
+        ],
+        [
+          "Tuần lễ vàng",
+          "黄金周",
+          "huángjīnzhōu"
+        ],
+        [
+          "Quốc khánh",
+          "国庆节",
+          "Guóqìng Jié"
+        ],
+        [
+          "Kỳ nghỉ",
+          "假期",
+          "jiàqī"
+        ]
+      ]
+    }
+  }
 }

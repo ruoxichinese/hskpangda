@@ -1,35 +1,1067 @@
 {
   "id": 6,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "高铁上还可以点外卖",
     "pinyin": "Gāotiě shang hái kěyǐ diǎn wàimài",
     "vi": "Trên tàu cao tốc còn gọi được đồ ăn"
   },
   "grammarTopics_vi": [
-    "Cấu trúc 该……了",
-    "Câu giả thiết 如果……，就……",
-    "Cụm 越来越"
+    "Cấu trúc “该……了”: đến lúc phải…",
+    "Câu giả thiết “如果……，就……”",
+    "Cụm cố định “越来越”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Cấu trúc 该……了",
-      "doneWhen": []
+      "vi": "Nói về phương tiện đi lại và kinh nghiệm đi tàu cao tốc",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu giả thiết 如果……，就……",
-      "doneWhen": []
+      "vi": "Dùng “如果……，就……” để nêu giả thiết",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cụm 越来越",
-      "doneWhen": []
+      "vi": "Dùng “越来越” để nói sự thay đổi theo thời gian",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🚄",
+      "word": "高铁",
+      "pinyin": "gāotiě",
+      "vi": "tàu cao tốc"
+    },
+    {
+      "emoji": "🚦",
+      "word": "红绿灯",
+      "pinyin": "hónglǜdēng",
+      "vi": "đèn giao thông"
+    },
+    {
+      "emoji": "🎧",
+      "word": "耳机",
+      "pinyin": "ěrjī",
+      "vi": "tai nghe"
+    },
+    {
+      "emoji": "🛗",
+      "word": "电梯",
+      "pinyin": "diàntī",
+      "vi": "thang máy"
+    },
+    {
+      "emoji": "🛋️",
+      "word": "沙发",
+      "pinyin": "shāfā",
+      "vi": "ghế sô pha"
+    },
+    {
+      "emoji": "🔋",
+      "word": "充电宝",
+      "pinyin": "chōngdiànbǎo",
+      "vi": "sạc dự phòng"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong quán cà phê, Lý Văn và Bạch Gia Nguyệt đang trò chuyện.",
+      "scene": "🚄",
+      "audio": "audio/hsk3/6-1.mp3",
+      "vocabAudio": "audio/hsk3/6-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn và Gia Nguyệt định đi Thượng Hải bằng gì?",
+          "options": [
+            "开车",
+            "坐飞机",
+            "坐高铁"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Lý Văn thấy tàu cao tốc thế nào?",
+          "options": [
+            "高铁票很贵",
+            "又快又舒服",
+            "买票不方便"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "家月，咱们该买去上海的票了。你打算怎么去上海？",
+          "vi": "Gia Nguyệt, mình phải mua vé đi Thượng Hải rồi. Cậu định đi Thượng Hải bằng gì?",
+          "t": 0.62
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我还没坐过高铁，咱们坐高铁去，怎么样？",
+          "vi": "Mình chưa đi tàu cao tốc bao giờ, mình đi tàu cao tốc nhé?",
+          "t": 6.54
+        },
+        {
+          "speaker": "liwen",
+          "zh": "没问题，从北京到上海的高铁很多，非常方便。",
+          "vi": "Được thôi, tàu cao tốc từ Bắc Kinh đi Thượng Hải nhiều lắm, rất tiện.",
+          "t": 11.19
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "行！怎么买高铁票？",
+          "vi": "Được! Mua vé tàu cao tốc thế nào?",
+          "t": 16.81
+        },
+        {
+          "speaker": "liwen",
+          "zh": "用手机App就能买。给我你的护照，我帮你买。",
+          "vi": "Dùng ứng dụng trên điện thoại là mua được. Đưa mình hộ chiếu, mình mua giúp cậu.",
+          "t": 19.88
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "早就听说过高铁，终于可以坐上了。",
+          "vi": "Nghe nói về tàu cao tốc từ lâu rồi, cuối cùng cũng được đi.",
+          "t": 24.76
+        },
+        {
+          "speaker": "liwen",
+          "zh": "高铁又快又舒服，你一定会喜欢的。",
+          "vi": "Tàu cao tốc vừa nhanh vừa êm, cậu nhất định sẽ thích.",
+          "t": 28.75
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "该",
+          "pinyin": "gāi",
+          "pos": "mod.",
+          "vi": "nên, phải, đến lúc",
+          "example": {
+            "zh": "我该走了。",
+            "vi": "Tôi phải đi rồi."
+          }
+        },
+        {
+          "zh": "打算",
+          "pinyin": "dǎsuàn",
+          "pos": "v./n.",
+          "vi": "định, dự định",
+          "example": {
+            "zh": "你打算什么时候回国？",
+            "vi": "Bạn định khi nào về nước?"
+          }
+        },
+        {
+          "zh": "高铁",
+          "pinyin": "gāotiě",
+          "pos": "n.",
+          "vi": "tàu cao tốc",
+          "example": {
+            "zh": "坐高铁去上海很快。",
+            "vi": "Đi tàu cao tốc đến Thượng Hải rất nhanh."
+          }
+        },
+        {
+          "zh": "行",
+          "pinyin": "xíng",
+          "pos": "v./adj.",
+          "vi": "được, ổn",
+          "example": {
+            "zh": "明天去，行吗？",
+            "vi": "Mai đi, được không?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g6-1",
+          "title_zh": "固定格式“该……了”",
+          "title_vi": "“该……了”: đến lúc phải… rồi",
+          "formula": [
+            [
+              {
+                "zh": "咱们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "该",
+                "label": "đến lúc",
+                "role": "ADV"
+              },
+              {
+                "zh": "买去上海的票",
+                "label": "Việc cần làm",
+                "role": "V"
+              },
+              {
+                "zh": "了",
+                "label": "rồi",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "该……了 nói rằng đã đến lúc cần làm một việc gì đó – giống “đến lúc… rồi”, “phải… thôi” trong tiếng Việt. Thường dùng trong khẩu ngữ. Có thể có chủ ngữ hoặc không: 八点了，该上课了.",
+          "examples": [
+            {
+              "zh": "咱们该买去上海的票了。",
+              "vi": "Mình phải mua vé đi Thượng Hải rồi."
+            },
+            {
+              "zh": "八点了，该上课了。",
+              "vi": "Tám giờ rồi, đến giờ vào học rồi."
+            },
+            {
+              "zh": "已经很晚了，我该睡觉了。",
+              "vi": "Muộn lắm rồi, tôi phải đi ngủ thôi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我该睡觉。（muốn nói: đến giờ ngủ rồi）",
+              "right": "我该睡觉了。",
+              "why_vi": "Nghĩa “đến lúc rồi” cần có 了 ở cuối."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Trời tối rồi, phải về nhà thôi.”",
+              "options": [
+                "天黑了，该回家了。",
+                "天黑了，回家该了。",
+                "天黑了，了该回家。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "坐上 = được đi, được ngồi lên. 上 ở đây không chỉ hướng mà chỉ việc đạt được mong muốn."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trên xe, anh Lưu Minh lái xe đưa Gia Nguyệt và Lý Văn ra ga tàu cao tốc.",
+      "scene": "🚗",
+      "audio": "audio/hsk3/6-3.mp3",
+      "vocabAudio": "audio/hsk3/6-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn và Gia Nguyệt bây giờ đang ở đâu?",
+          "options": [
+            "在高铁站",
+            "在出租车上",
+            "在刘明的车上"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Nếu không đi nhầm đường, họ đến nơi lúc nào?",
+          "options": [
+            "马上就到了",
+            "二十分钟以前就到了",
+            "一个小时以前就到了"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "过了前面的路口就到高铁站了。",
+          "vi": "Qua ngã tư phía trước là đến ga tàu cao tốc.",
+          "t": 0.74
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我看见了。马上就到了，这条路车很多，您小心点儿。",
+          "vi": "Em thấy rồi. Sắp tới rồi, đường này đông xe, anh cẩn thận nhé.",
+          "t": 5.05
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好，你们还有一个小时，应该不会迟到的。",
+          "vi": "Ừ, các em còn một tiếng nữa, chắc không bị muộn đâu.",
+          "t": 11.0
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我发现这条路车多，红绿灯也多。",
+          "vi": "Em thấy đường này vừa đông xe vừa nhiều đèn đỏ.",
+          "t": 16.89
+        },
+        {
+          "speaker": "liuming",
+          "zh": "是啊，这条路我走过一次，后来再也不走了。",
+          "vi": "Đúng vậy, đường này anh đi một lần rồi, sau đó không đi nữa.",
+          "t": 20.3
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "那您今天为什么走了这条路？",
+          "vi": "Thế sao hôm nay anh lại đi đường này?",
+          "t": 26.01
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我一急就走错了。如果没走错，二十分钟以前就到了。",
+          "vi": "Anh vội quá nên đi nhầm. Nếu không đi nhầm thì đã đến từ hai mươi phút trước rồi.",
+          "t": 28.93
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "路口",
+          "pinyin": "lùkǒu",
+          "pos": "n.",
+          "vi": "ngã tư, giao lộ",
+          "example": {
+            "zh": "到了路口往左走。",
+            "vi": "Đến ngã tư thì rẽ trái."
+          }
+        },
+        {
+          "zh": "小心",
+          "pinyin": "xiǎoxīn",
+          "pos": "v./adj.",
+          "vi": "cẩn thận",
+          "example": {
+            "zh": "路上小心！",
+            "vi": "Đi đường cẩn thận nhé!"
+          }
+        },
+        {
+          "zh": "迟到",
+          "pinyin": "chídào",
+          "pos": "v.",
+          "vi": "đến muộn",
+          "example": {
+            "zh": "上课别迟到。",
+            "vi": "Đi học đừng đến muộn."
+          }
+        },
+        {
+          "zh": "红绿灯",
+          "pinyin": "hónglǜdēng",
+          "pos": "n.",
+          "vi": "đèn giao thông",
+          "example": {
+            "zh": "这个路口有红绿灯。",
+            "vi": "Ngã tư này có đèn giao thông."
+          }
+        },
+        {
+          "zh": "后来",
+          "pinyin": "hòulái",
+          "pos": "n.",
+          "vi": "sau đó, về sau",
+          "example": {
+            "zh": "后来我们成了好朋友。",
+            "vi": "Sau đó chúng tôi trở thành bạn thân."
+          }
+        },
+        {
+          "zh": "急",
+          "pinyin": "jí",
+          "pos": "adj./v.",
+          "vi": "vội, gấp; sốt ruột",
+          "example": {
+            "zh": "别急，慢慢说。",
+            "vi": "Đừng vội, nói từ từ thôi."
+          }
+        },
+        {
+          "zh": "如果",
+          "pinyin": "rúguǒ",
+          "pos": "conj.",
+          "vi": "nếu",
+          "example": {
+            "zh": "如果下雨，我们就不去了。",
+            "vi": "Nếu trời mưa thì chúng ta không đi nữa."
+          }
+        },
+        {
+          "zh": "以前",
+          "pinyin": "yǐqián",
+          "pos": "n.",
+          "vi": "trước, trước đây",
+          "example": {
+            "zh": "我以前住在北京。",
+            "vi": "Trước đây tôi sống ở Bắc Kinh."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g6-2",
+          "title_zh": "假设复句“如果……，就……”",
+          "title_vi": "“如果……，就……”: nếu… thì…",
+          "formula": [
+            [
+              {
+                "zh": "如果",
+                "label": "nếu",
+                "role": "ADV"
+              },
+              {
+                "zh": "你需要帮忙",
+                "label": "Giả thiết",
+                "role": "V"
+              },
+              {
+                "zh": "，（主语）",
+                "label": "Chủ ngữ vế 2",
+                "role": "S"
+              },
+              {
+                "zh": "就",
+                "label": "thì",
+                "role": "ADV"
+              },
+              {
+                "zh": "给我打电话",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "如果 dẫn ra giả thiết, 就 dẫn ra kết quả – giống “nếu… thì…” trong tiếng Việt. Chú ý: chủ ngữ của vế sau đặt TRƯỚC 就 (如果有时间，我就去上海玩几天), khác tiếng Việt “nếu có thời gian thì tôi sẽ…”.",
+          "examples": [
+            {
+              "zh": "如果没走错，二十分钟以前就到了。",
+              "vi": "Nếu không đi nhầm thì đã đến từ hai mươi phút trước rồi."
+            },
+            {
+              "zh": "如果你需要帮忙，就给我打电话。",
+              "vi": "Nếu bạn cần giúp thì gọi điện cho tôi."
+            },
+            {
+              "zh": "如果有时间，我就去上海玩几天。",
+              "vi": "Nếu có thời gian, tôi sẽ đi Thượng Hải chơi vài ngày."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "如果有时间，就我去上海。",
+              "right": "如果有时间，我就去上海。",
+              "why_vi": "Chủ ngữ vế sau đứng trước 就."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Nếu mai trời mưa, chúng ta sẽ ở nhà xem phim.”",
+              "options": [
+                "如果明天下雨，我们就在家看电影。",
+                "如果明天下雨，就我们在家看电影。",
+                "我们就如果明天下雨，在家看电影。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "再也不……了 = không bao giờ… nữa: 这条路我再也不走了 (đường này tôi không bao giờ đi nữa)."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở ga tàu cao tốc, Lý Văn và Gia Nguyệt xếp hàng qua cửa an ninh và soát vé.",
+      "scene": "🎫",
+      "audio": "audio/hsk3/6-5.mp3",
+      "vocabAudio": "audio/hsk3/6-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn để những đồ hay dùng ở đâu?",
+          "options": [
+            "手里",
+            "包里",
+            "行李箱里"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Họ soát vé vào ga ở đâu?",
+          "options": [
+            "车站门口",
+            "一层门口",
+            "二层检票口"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "李文，我的耳机没电了，你有充电宝吗？",
+          "vi": "Lý Văn, tai nghe của mình hết pin rồi, cậu có sạc dự phòng không?",
+          "t": 0
+        },
+        {
+          "speaker": "liwen",
+          "zh": "有，这些常用的东西我都放在包里了，我给你拿。",
+          "vi": "Có, mấy đồ hay dùng mình để hết trong túi, mình lấy cho cậu.",
+          "t": 4.67
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "前面的人越来越多。",
+          "vi": "Người phía trước càng lúc càng đông.",
+          "t": 10.77
+        },
+        {
+          "speaker": "liwen",
+          "zh": "对，马上就进高铁站了。咱们一起走，别分开。",
+          "vi": "Đúng vậy, sắp vào ga rồi. Mình đi cùng nhau, đừng tách ra.",
+          "t": 13.33
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "好，你检查一下，高铁票都拿好了吗？",
+          "vi": "Được, cậu kiểm tra xem, vé tàu cầm đủ chưa?",
+          "t": 18.79
+        },
+        {
+          "speaker": "liwen",
+          "zh": "不用拿票，刷护照就能检票进站。",
+          "vi": "Không cần vé giấy, quẹt hộ chiếu là soát vé vào ga được.",
+          "t": 23.29
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "去哪里检票？",
+          "vi": "Soát vé ở đâu thế?",
+          "t": 27.46
+        },
+        {
+          "speaker": "liwen",
+          "zh": "检票口在二层，我们一会儿坐电梯上去。",
+          "vi": "Cửa soát vé ở tầng hai, lát mình đi thang máy lên.",
+          "t": 29.06
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "耳机",
+          "pinyin": "ěrjī",
+          "pos": "n.",
+          "vi": "tai nghe",
+          "example": {
+            "zh": "我用耳机听音乐。",
+            "vi": "Tôi dùng tai nghe để nghe nhạc."
+          }
+        },
+        {
+          "zh": "充电宝",
+          "pinyin": "chōngdiànbǎo",
+          "pos": "n.",
+          "vi": "sạc dự phòng",
+          "example": {
+            "zh": "我的充电宝没电了。",
+            "vi": "Sạc dự phòng của tôi hết pin rồi."
+          }
+        },
+        {
+          "zh": "常用",
+          "pinyin": "cháng yòng",
+          "pos": "",
+          "vi": "thường dùng",
+          "example": {
+            "zh": "这是常用的词。",
+            "vi": "Đây là từ thường dùng."
+          }
+        },
+        {
+          "zh": "越",
+          "pinyin": "yuè",
+          "pos": "adv.",
+          "vi": "càng",
+          "example": {
+            "zh": "天气越来越冷了。",
+            "vi": "Trời càng ngày càng lạnh."
+          }
+        },
+        {
+          "zh": "分开",
+          "pinyin": "fēnkāi",
+          "pos": "v.",
+          "vi": "tách ra, chia tay",
+          "example": {
+            "zh": "我们别分开走。",
+            "vi": "Chúng ta đừng tách nhau ra."
+          }
+        },
+        {
+          "zh": "检查",
+          "pinyin": "jiǎnchá",
+          "pos": "v.",
+          "vi": "kiểm tra",
+          "example": {
+            "zh": "请检查一下你的行李。",
+            "vi": "Hãy kiểm tra hành lý của bạn."
+          }
+        },
+        {
+          "zh": "刷",
+          "pinyin": "shuā",
+          "pos": "v.",
+          "vi": "quẹt (thẻ), quét",
+          "example": {
+            "zh": "刷卡就能进去。",
+            "vi": "Quẹt thẻ là vào được."
+          }
+        },
+        {
+          "zh": "检票",
+          "pinyin": "jiǎnpiào",
+          "pos": "v.",
+          "vi": "soát vé",
+          "example": {
+            "zh": "检票口在哪儿？",
+            "vi": "Cửa soát vé ở đâu?"
+          }
+        },
+        {
+          "zh": "电梯",
+          "pinyin": "diàntī",
+          "pos": "n.",
+          "vi": "thang máy, thang cuốn",
+          "example": {
+            "zh": "我们坐电梯上去吧。",
+            "vi": "Mình đi thang máy lên đi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g6-3",
+          "title_zh": "固定短语“越来越”",
+          "title_vi": "“越来越 + tính từ”: càng ngày càng…",
+          "formula": [
+            [
+              {
+                "zh": "前面的人",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "越来越",
+                "label": "càng ngày càng",
+                "role": "ADV"
+              },
+              {
+                "zh": "多",
+                "label": "Tính từ / động từ tâm lý",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "越来越 đứng trước tính từ hoặc động từ tâm lý (喜欢, 想…), nói mức độ tăng dần theo thời gian – giống “càng ngày càng”, “càng lúc càng” trong tiếng Việt. Trước tính từ KHÔNG thêm 很, 非常.",
+          "examples": [
+            {
+              "zh": "前面的人越来越多。",
+              "vi": "Người phía trước càng lúc càng đông."
+            },
+            {
+              "zh": "我越来越喜欢这里的生活了。",
+              "vi": "Tôi càng ngày càng thích cuộc sống ở đây."
+            },
+            {
+              "zh": "她越来越高，也越来越漂亮了。",
+              "vi": "Cô bé càng ngày càng cao, cũng càng ngày càng xinh."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "天气越来越很冷了。",
+              "right": "天气越来越冷了。",
+              "why_vi": "Sau 越来越 không thêm 很."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tiếng Trung của anh ấy càng ngày càng tốt.”",
+              "options": [
+                "他的汉语越来越好了。",
+                "他的汉语越来越很好了。",
+                "他的汉语好越来越了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Ở ga tàu cao tốc Trung Quốc, người nước ngoài chỉ cần quẹt hộ chiếu (刷护照) ở cửa soát vé, không cần vé giấy."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Gia Nguyệt gọi điện cho Annie kể về chuyến đi.",
+      "scene": "📞",
+      "audio": "audio/hsk3/6-7.mp3",
+      "vocabAudio": "audio/hsk3/6-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Gia Nguyệt thấy đi tàu cao tốc thế nào?",
+          "options": [
+            "高铁站很远",
+            "高铁上很舒服",
+            "高铁上人很多"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Người thích đi tàu cao tốc có nhiều không?",
+          "options": [
+            "不太多",
+            "有点儿多",
+            "越来越多"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "这次放假，我去了北京，还去了上海。",
+          "vi": "Kỳ nghỉ này mình đi Bắc Kinh, còn đi cả Thượng Hải.",
+          "t": 0.96
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我是从北京南站坐高铁去的上海。",
+          "vi": "Mình đi tàu cao tốc từ ga Nam Bắc Kinh đến Thượng Hải.",
+          "t": 5.88
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我觉得坐在高铁上跟坐在家里的沙发上一样，又安静又舒服。",
+          "vi": "Mình thấy ngồi trên tàu cao tốc giống như ngồi trên sô pha ở nhà, vừa yên tĩnh vừa thoải mái.",
+          "t": 10.6
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "坐累了就站一会儿，饿了就点外卖。",
+          "vi": "Ngồi mỏi thì đứng một lát, đói thì gọi đồ ăn.",
+          "t": 18.54
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "对，你没听错，高铁上可以点外卖。",
+          "vi": "Đúng vậy, cậu không nghe nhầm đâu, trên tàu cao tốc gọi đồ ăn được.",
+          "t": 24.13
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "只需要选择好车站和想吃的东西，到站时不用下车，服务员就会给你拿过来。",
+          "vi": "Chỉ cần chọn ga và món muốn ăn, đến ga không cần xuống tàu, nhân viên sẽ mang đến cho cậu.",
+          "t": 28.8
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "现在喜欢坐高铁的人越来越多。",
+          "vi": "Bây giờ người thích đi tàu cao tốc càng ngày càng nhiều.",
+          "t": 38.11
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我爸妈来中国旅游的时候，必须带他们也坐一次高铁。",
+          "vi": "Khi bố mẹ mình sang Trung Quốc du lịch, nhất định phải đưa họ đi tàu cao tốc một lần.",
+          "t": 41.76
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "放假",
+          "pinyin": "fàngjià",
+          "pos": "v.",
+          "vi": "được nghỉ (lễ, hè)",
+          "example": {
+            "zh": "我们下个月放假。",
+            "vi": "Tháng sau chúng tôi được nghỉ."
+          }
+        },
+        {
+          "zh": "沙发",
+          "pinyin": "shāfā",
+          "pos": "n.",
+          "vi": "ghế sô pha",
+          "example": {
+            "zh": "他坐在沙发上看电视。",
+            "vi": "Anh ấy ngồi trên sô pha xem tivi."
+          }
+        },
+        {
+          "zh": "安静",
+          "pinyin": "ānjìng",
+          "pos": "adj.",
+          "vi": "yên tĩnh",
+          "example": {
+            "zh": "图书馆里很安静。",
+            "vi": "Trong thư viện rất yên tĩnh."
+          }
+        },
+        {
+          "zh": "选择",
+          "pinyin": "xuǎnzé",
+          "pos": "v.",
+          "vi": "lựa chọn",
+          "example": {
+            "zh": "你选择哪一个？",
+            "vi": "Bạn chọn cái nào?"
+          }
+        },
+        {
+          "zh": "必须",
+          "pinyin": "bìxū",
+          "pos": "adv.",
+          "vi": "phải, nhất thiết phải",
+          "example": {
+            "zh": "今天必须做完。",
+            "vi": "Hôm nay phải làm xong."
+          }
+        },
+        {
+          "zh": "北京南站",
+          "pinyin": "Běijīng Nán Zhàn",
+          "pos": "",
+          "vi": "Ga Nam Bắc Kinh",
+          "example": {
+            "zh": "我们在北京南站见。",
+            "vi": "Chúng ta gặp nhau ở ga Nam Bắc Kinh."
+          }
+        }
+      ],
+      "pangdaTip": "坐累了就站一会儿，饿了就点外卖: “… thì…” chỉ cần 就, không cần 如果 khi điều kiện đã rõ ràng."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我没带钱，可以___信用卡吗？",
+      "bank": [
+        "刷",
+        "急",
+        "该"
+      ],
+      "answer": "刷"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "不用太早，星期五___买票就可以。",
+      "bank": [
+        "以前",
+        "后来",
+        "如果"
+      ],
+      "answer": "以前"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "飞机马上就要起飞了，你的手机___关了。",
+      "bank": [
+        "该",
+        "刷",
+        "急"
+      ],
+      "answer": "该"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "前面的路口人很多，你开慢一点儿，别___。",
+      "bank": [
+        "急",
+        "刷",
+        "以前"
+      ],
+      "answer": "急"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我们刚认识的时候不太喜欢对方，___成了好朋友。",
+      "bank": [
+        "后来",
+        "以前",
+        "如果"
+      ],
+      "answer": "后来"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "了",
+        "该",
+        "我",
+        "回家"
+      ],
+      "answers": [
+        "我该回家了"
+      ],
+      "vi": "Tôi phải về nhà rồi.",
+      "explain_vi": "该 + việc + 了."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "越来越",
+        "天气",
+        "冷",
+        "了"
+      ],
+      "answers": [
+        "天气越来越冷了"
+      ],
+      "vi": "Trời càng ngày càng lạnh.",
+      "explain_vi": "越来越 + tính từ."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "电梯",
+      "options": [
+        {
+          "emoji": "🛗",
+          "label": "Thang máy"
+        },
+        {
+          "emoji": "🎧",
+          "label": "Tai nghe"
+        },
+        {
+          "emoji": "🚦",
+          "label": "Đèn giao thông"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "如果没走错，二十分钟以前就到了。",
+      "emoji": "🚗",
+      "statement_vi": "Họ không đi nhầm đường.",
+      "answer": false,
+      "explain_vi": "如果没走错 = nếu không đi nhầm → thực tế đã đi nhầm."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "👥👥👥",
+      "sentence": "前面的人___多。",
+      "options": [
+        "越来越",
+        "很越来",
+        "越越来"
+      ],
+      "answer": 0,
+      "explain_vi": "越来越多 = càng ngày càng đông."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你打算怎么去上海？",
+          "a": "坐高铁去，又快又舒服。"
+        },
+        {
+          "q": "检票口在哪儿？",
+          "a": "在二层，我们坐电梯上去。"
+        },
+        {
+          "q": "你有充电宝吗？",
+          "a": "有，我给你拿。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Lên kế hoạch đi tàu cao tốc",
+    "steps_vi": [
+      "Làm theo cặp. Chọn một chuyến đi: Bắc Kinh → Thượng Hải, Hà Nội → Sa Pa…",
+      "Bàn cách đi: máy bay, tàu cao tốc hay ô tô; dùng “如果……，就……” để so sánh.",
+      "Liệt kê đồ cần mang theo: 充电宝, 耳机, 护照…",
+      "Kể lại cho cả lớp, dùng “越来越” để nói xu hướng: 坐高铁的人越来越多."
+    ],
+    "patterns": [
+      {
+        "zh": "咱们该买票了。",
+        "vi": "Mình phải mua vé rồi."
+      },
+      {
+        "zh": "如果坐高铁，五个小时就能到。",
+        "vi": "Nếu đi tàu cao tốc thì năm tiếng là tới."
+      },
+      {
+        "zh": "别忘了带充电宝。",
+        "vi": "Đừng quên mang sạc dự phòng."
+      },
+      {
+        "zh": "喜欢坐高铁的人越来越多。",
+        "vi": "Người thích đi tàu cao tốc càng ngày càng nhiều."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Tàu cao tốc Trung Quốc",
+    "body_vi": [
+      "Trung Quốc có mạng lưới tàu cao tốc (高铁) dài nhất thế giới, hơn 40.000 km. Tàu chạy khoảng 300–350 km/giờ: từ Bắc Kinh đến Thượng Hải (hơn 1.300 km) chỉ mất khoảng 4,5 giờ.",
+      "Vé mua trên ứng dụng 12306 hoặc ở ga. Người nước ngoài quẹt hộ chiếu ở cửa soát vé là vào được. Trên tàu có thể đặt đồ ăn qua điện thoại, nhân viên mang lên khi tàu dừng ở ga đã chọn – đúng như Gia Nguyệt kể.",
+      "Việt Nam đang chuẩn bị xây dựng đường sắt tốc độ cao Bắc – Nam, nên tàu cao tốc là chủ đề được nhiều người Việt quan tâm."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Tàu cao tốc",
+          "高铁",
+          "gāotiě"
+        ],
+        [
+          "Ga tàu cao tốc",
+          "高铁站",
+          "gāotiězhàn"
+        ],
+        [
+          "Cửa soát vé",
+          "检票口",
+          "jiǎnpiàokǒu"
+        ],
+        [
+          "Gọi đồ ăn",
+          "点外卖",
+          "diǎn wàimài"
+        ],
+        [
+          "Toa tàu",
+          "车厢",
+          "chēxiāng"
+        ]
+      ]
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": 11,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "看来我没办法解决这个问题",
     "pinyin": "Kànlái wǒ méi bànfǎ jiějué zhège wèntí",
@@ -9,33 +9,1131 @@
   },
   "grammarTopics_vi": [
     "Phân biệt 还是 và 或者",
-    "Cụm 看来",
-    "Câu chữ 把 (3)",
-    "Cấu trúc 对……来说"
+    "Cụm cố định “看来”",
+    "Câu chữ 把 (3): 把 + tân ngữ + động từ + bổ ngữ kết quả",
+    "Cấu trúc “对……来说”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Phân biệt 还是 và 或者",
-      "doneWhen": []
+      "vi": "Trao đổi về công việc ở văn phòng",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Cụm 看来",
-      "doneWhen": []
+      "vi": "Nói về lựa chọn nghề nghiệp và cảm nhận về công việc",
+      "doneWhen": [
+        "text-4"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu chữ 把 (3)",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Cấu trúc 对……来说",
-      "doneWhen": []
+      "vi": "Dùng “看来” để suy đoán, nhận định tình huống",
+      "doneWhen": [
+        "text-2"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🏢",
+      "word": "会议室",
+      "pinyin": "huìyìshì",
+      "vi": "phòng họp"
+    },
+    {
+      "emoji": "👥",
+      "word": "开会",
+      "pinyin": "kāihuì",
+      "vi": "họp"
+    },
+    {
+      "emoji": "🏖️",
+      "word": "休假",
+      "pinyin": "xiūjià",
+      "vi": "nghỉ phép"
+    },
+    {
+      "emoji": "💻",
+      "word": "笔记本电脑",
+      "pinyin": "bǐjìběn diànnǎo",
+      "vi": "máy tính xách tay"
+    },
+    {
+      "emoji": "📧",
+      "word": "发邮件",
+      "pinyin": "fā yóujiàn",
+      "vi": "gửi email"
+    },
+    {
+      "emoji": "👔",
+      "word": "经理",
+      "pinyin": "jīnglǐ",
+      "vi": "giám đốc, quản lý"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong văn phòng, chị Vương Nhất Tuyết và Dương Đồng Lạc bàn công việc.",
+      "scene": "🗓️",
+      "audio": "audio/hsk3/11-1.mp3",
+      "vocabAudio": "audio/hsk3/11-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết và Đồng Lạc đang nói chuyện gì?",
+          "options": [
+            "下午的会议",
+            "经理在哪儿",
+            "怎么发邮件"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao Đồng Lạc phải gửi email cho mọi người?",
+          "options": [
+            "找大家来开会",
+            "告诉大家带笔记本电脑",
+            "告诉大家会议时间和地点"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "会议下午几点开始？",
+          "vi": "Cuộc họp chiều mấy giờ bắt đầu?",
+          "t": 0.31
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "今天下午经理不在，不开会了。",
+          "vi": "Chiều nay giám đốc không có ở đây, không họp nữa.",
+          "t": 4.01
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那什么时候开会？",
+          "vi": "Vậy khi nào họp?",
+          "t": 8.31
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "后天上午十点，会议地点换到第一会议室。我正要给大家发邮件。",
+          "vi": "Mười giờ sáng ngày kia, địa điểm đổi sang phòng họp số một. Tôi đang định gửi email cho mọi người.",
+          "t": 11.17
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "开会的时候，我们用会议室的电脑还是自己的笔记本电脑？",
+          "vi": "Lúc họp, mình dùng máy tính của phòng họp hay laptop của mình?",
+          "t": 18.48
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "会议室的电脑或者自己的电脑都可以。",
+          "vi": "Máy của phòng họp hoặc máy của mình đều được.",
+          "t": 25.04
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那到时候咱们早点儿过去，你帮我把电脑接好吧。",
+          "vi": "Vậy đến lúc đó mình qua sớm một chút, anh giúp tôi kết nối máy tính nhé.",
+          "t": 28.68
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "会议",
+          "pinyin": "huìyì",
+          "pos": "n.",
+          "vi": "cuộc họp, hội nghị",
+          "example": {
+            "zh": "会议九点开始。",
+            "vi": "Cuộc họp bắt đầu lúc chín giờ."
+          }
+        },
+        {
+          "zh": "经理",
+          "pinyin": "jīnglǐ",
+          "pos": "n.",
+          "vi": "giám đốc, quản lý",
+          "example": {
+            "zh": "张经理在办公室。",
+            "vi": "Giám đốc Trương ở văn phòng."
+          }
+        },
+        {
+          "zh": "开会",
+          "pinyin": "kāihuì",
+          "pos": "v.",
+          "vi": "họp",
+          "example": {
+            "zh": "我们下午开会。",
+            "vi": "Chiều nay chúng tôi họp."
+          }
+        },
+        {
+          "zh": "后天",
+          "pinyin": "hòutiān",
+          "pos": "n.",
+          "vi": "ngày kia",
+          "example": {
+            "zh": "后天是星期六。",
+            "vi": "Ngày kia là thứ bảy."
+          }
+        },
+        {
+          "zh": "地点",
+          "pinyin": "dìdiǎn",
+          "pos": "n.",
+          "vi": "địa điểm",
+          "example": {
+            "zh": "会议地点在哪儿？",
+            "vi": "Địa điểm họp ở đâu?"
+          }
+        },
+        {
+          "zh": "室",
+          "pinyin": "shì",
+          "pos": "n.",
+          "vi": "phòng",
+          "example": {
+            "zh": "会议室在三层。",
+            "vi": "Phòng họp ở tầng ba."
+          }
+        },
+        {
+          "zh": "发",
+          "pinyin": "fā",
+          "pos": "v.",
+          "vi": "gửi, phát",
+          "example": {
+            "zh": "我给你发邮件。",
+            "vi": "Tôi gửi email cho bạn."
+          }
+        },
+        {
+          "zh": "笔记本（电脑）",
+          "pinyin": "bǐjìběn (diànnǎo)",
+          "pos": "n.",
+          "vi": "máy tính xách tay",
+          "example": {
+            "zh": "我买了一台新笔记本。",
+            "vi": "Tôi mua một chiếc laptop mới."
+          }
+        },
+        {
+          "zh": "或者",
+          "pinyin": "huòzhě",
+          "pos": "conj.",
+          "vi": "hoặc",
+          "example": {
+            "zh": "坐地铁或者打车都可以。",
+            "vi": "Đi tàu điện ngầm hoặc taxi đều được."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g11-1",
+          "title_zh": "“还是”和“或者”",
+          "title_vi": "Phân biệt 还是 và 或者 (hay / hoặc)",
+          "formula": [
+            [
+              {
+                "zh": "A",
+                "label": "",
+                "role": "N"
+              },
+              {
+                "zh": "还是",
+                "label": "câu HỎI lựa chọn",
+                "role": "ADV"
+              },
+              {
+                "zh": "B？",
+                "label": "",
+                "role": "N"
+              }
+            ],
+            [
+              {
+                "zh": "A",
+                "label": "",
+                "role": "N"
+              },
+              {
+                "zh": "或者",
+                "label": "câu TRẦN THUẬT",
+                "role": "ADV"
+              },
+              {
+                "zh": "B（都可以）。",
+                "label": "",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Tiếng Việt chỉ có “hay / hoặc” dùng lẫn lộn, nhưng tiếng Trung tách rõ: 还是 dùng trong câu HỎI, mời người nghe chọn (A 还是 B？). 或者 dùng trong câu TRẦN THUẬT, nói rằng A hay B đều được, không phải câu hỏi.",
+          "examples": [
+            {
+              "zh": "我们用会议室的电脑还是自己的笔记本电脑？",
+              "vi": "Chúng ta dùng máy của phòng họp hay laptop của mình?"
+            },
+            {
+              "zh": "我们今天去、明天去还是后天去？",
+              "vi": "Mình đi hôm nay, ngày mai hay ngày kia?"
+            },
+            {
+              "zh": "会议室的电脑或者自己的电脑都可以。",
+              "vi": "Máy phòng họp hoặc máy của mình đều được."
+            },
+            {
+              "zh": "你可以坐地铁或者打车去学校。",
+              "vi": "Bạn có thể đi tàu điện ngầm hoặc taxi đến trường."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你喝茶或者喝咖啡？",
+              "right": "你喝茶还是喝咖啡？",
+              "why_vi": "Câu hỏi lựa chọn dùng 还是."
+            },
+            {
+              "wrong": "茶还是咖啡都可以。",
+              "right": "茶或者咖啡都可以。",
+              "why_vi": "Câu trần thuật dùng 或者."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Chọn câu ĐÚNG:",
+              "options": [
+                "我们明天去或者后天去都行。",
+                "你是中国人或者越南人？",
+                "星期六还是星期天都可以。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "把电脑接好 = kết nối máy tính xong xuôi. Ở đây 接 nghĩa là “nối, kết nối”, không phải “đón”."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong phòng họp, chị Nhất Tuyết và Đồng Lạc chuẩn bị trước cuộc họp.",
+      "scene": "🖥️",
+      "audio": "audio/hsk3/11-3.mp3",
+      "vocabAudio": "audio/hsk3/11-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Đồng Lạc đang giúp chị Nhất Tuyết làm gì?",
+          "options": [
+            "发邮件",
+            "看邮件",
+            "解决电脑的问题"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Đồng Lạc có giải quyết được vấn đề không?",
+          "options": [
+            "解决了",
+            "没有，要上网查一下",
+            "没有，要找别人来帮忙"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "电脑接好了吗？",
+          "vi": "Máy tính kết nối xong chưa?",
+          "t": 0.51
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "已经接好了，您开机看看有没有问题。",
+          "vi": "Xong rồi, chị bật máy xem có vấn đề gì không.",
+          "t": 2.68
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "现在什么都看不见。",
+          "vi": "Bây giờ chẳng thấy gì cả.",
+          "t": 8.16
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "我检查一下哪里出问题了……您再试一下。",
+          "vi": "Để tôi kiểm tra xem lỗi ở đâu… Chị thử lại xem.",
+          "t": 11.21
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "看见了，但是听不见声音。",
+          "vi": "Thấy rồi, nhưng không nghe thấy tiếng.",
+          "t": 17.32
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "现在呢？",
+          "vi": "Bây giờ thì sao?",
+          "t": 21.0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "听得见声音，但是声音有点儿小，听不清楚。",
+          "vi": "Nghe thấy tiếng rồi, nhưng tiếng hơi nhỏ, nghe không rõ.",
+          "t": 23.21
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "看来我没办法解决这个问题，只能找别人来帮帮忙了。",
+          "vi": "Xem ra tôi không giải quyết được vấn đề này, chỉ còn cách nhờ người khác giúp.",
+          "t": 28.98
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "声音",
+          "pinyin": "shēngyīn",
+          "pos": "n.",
+          "vi": "âm thanh, tiếng",
+          "example": {
+            "zh": "声音太小了。",
+            "vi": "Tiếng nhỏ quá."
+          }
+        },
+        {
+          "zh": "看来",
+          "pinyin": "kànlái",
+          "pos": "v.",
+          "vi": "xem ra, có vẻ như",
+          "example": {
+            "zh": "看来要下雨了。",
+            "vi": "Xem ra sắp mưa rồi."
+          }
+        },
+        {
+          "zh": "办法",
+          "pinyin": "bànfǎ",
+          "pos": "n.",
+          "vi": "cách, biện pháp",
+          "example": {
+            "zh": "你有什么好办法？",
+            "vi": "Bạn có cách gì hay không?"
+          }
+        },
+        {
+          "zh": "解决",
+          "pinyin": "jiějué",
+          "pos": "v.",
+          "vi": "giải quyết",
+          "example": {
+            "zh": "这个问题解决了。",
+            "vi": "Vấn đề này giải quyết xong rồi."
+          }
+        },
+        {
+          "zh": "只能",
+          "pinyin": "zhǐ néng",
+          "pos": "",
+          "vi": "chỉ có thể",
+          "example": {
+            "zh": "没有车了，只能走回去。",
+            "vi": "Hết xe rồi, chỉ còn cách đi bộ về."
+          }
+        },
+        {
+          "zh": "别人",
+          "pinyin": "biérén",
+          "pos": "pron.",
+          "vi": "người khác",
+          "example": {
+            "zh": "别人都走了。",
+            "vi": "Người khác đều đi rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g11-2",
+          "title_zh": "固定短语“看来”",
+          "title_vi": "“看来”: xem ra, có vẻ như",
+          "formula": [
+            [
+              {
+                "zh": "（tình huống quan sát được），",
+                "label": "Căn cứ",
+                "role": "V"
+              },
+              {
+                "zh": "看来",
+                "label": "xem ra",
+                "role": "ADV"
+              },
+              {
+                "zh": "他今天不会来了",
+                "label": "Kết luận / suy đoán",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "看来 đặt trước một kết luận, cho biết người nói rút ra nhận định đó sau khi quan sát, suy nghĩ – giống “xem ra”, “có vẻ như” trong tiếng Việt. Thường có phần căn cứ ở trước.",
+          "examples": [
+            {
+              "zh": "看来我没办法解决这个问题。",
+              "vi": "Xem ra tôi không giải quyết được vấn đề này."
+            },
+            {
+              "zh": "这么晚了，看来他今天不会来了。",
+              "vi": "Muộn thế này rồi, xem ra hôm nay anh ấy không đến."
+            },
+            {
+              "zh": "电梯坏了，看来咱们只能走下去了。",
+              "vi": "Thang máy hỏng rồi, xem ra mình chỉ còn cách đi bộ xuống."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "看起来他今天不会来了。（muốn nói: suy đoán）",
+              "right": "看来他今天不会来了。",
+              "why_vi": "看起来 thiên về vẻ bề ngoài (trông có vẻ); suy đoán từ tình huống dùng 看来."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cậu ấy không nghe máy, xem ra đang ngủ.”",
+              "options": [
+                "他不接电话，看来在睡觉。",
+                "他不接电话，来看在睡觉。",
+                "看来他不接电话，在睡觉了来。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "听得见 / 听不见 = nghe thấy được / không nghe thấy: bổ ngữ khả năng ở bài 9."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong văn phòng, chị Nhất Tuyết và Đồng Lạc đang trò chuyện.",
+      "scene": "📂",
+      "audio": "audio/hsk3/11-5.mp3",
+      "vocabAudio": "audio/hsk3/11-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao mấy hôm nay chị Nhất Tuyết đặc biệt bận?",
+          "options": [
+            "经理不在",
+            "每天开会",
+            "好几个同事没来"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Ăn cơm xong Đồng Lạc định làm gì?",
+          "options": [
+            "帮同事请假",
+            "给公司发邮件",
+            "帮王一雪把工作做完"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "同乐，你看见老张了吗？",
+          "vi": "Đồng Lạc, anh có thấy anh Trương không?",
+          "t": 0.69
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "老张没来。他说家里有点儿事，所以请假了。",
+          "vi": "Anh Trương không đến. Anh ấy bảo nhà có chút việc nên xin nghỉ rồi.",
+          "t": 3.54
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好几个同事都休假了，开会前这么多工作我怕干不完。",
+          "vi": "Mấy đồng nghiệp đều nghỉ phép, trước cuộc họp nhiều việc thế này, tôi sợ làm không xong.",
+          "t": 8.72
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "十二点多了，咱们先去吃饭吧。吃完饭，我跟您一起把这些工作做完。",
+          "vi": "Hơn mười hai giờ rồi, mình đi ăn trước đã. Ăn xong tôi cùng chị làm xong mấy việc này.",
+          "t": 14.69
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你先去吃，我想再干一会儿。明天开会前要发到公司的邮箱里。",
+          "vi": "Anh đi ăn trước đi, tôi muốn làm thêm một lúc. Trước cuộc họp ngày mai phải gửi vào hộp thư của công ty.",
+          "t": 22.67
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "您没看到邮件吗？经理还没回来呢，下周才能开会。",
+          "vi": "Chị chưa đọc email à? Giám đốc chưa về, tuần sau mới họp được.",
+          "t": 29.67
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那不着急了。走，吃饭去。",
+          "vi": "Vậy thì không vội nữa. Đi, đi ăn thôi.",
+          "t": 35.9
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "请假",
+          "pinyin": "qǐngjià",
+          "pos": "v.",
+          "vi": "xin nghỉ",
+          "example": {
+            "zh": "我明天想请一天假。",
+            "vi": "Mai tôi muốn xin nghỉ một ngày."
+          }
+        },
+        {
+          "zh": "同事",
+          "pinyin": "tóngshì",
+          "pos": "n.",
+          "vi": "đồng nghiệp",
+          "example": {
+            "zh": "他是我的同事。",
+            "vi": "Anh ấy là đồng nghiệp của tôi."
+          }
+        },
+        {
+          "zh": "休假",
+          "pinyin": "xiūjià",
+          "pos": "v.",
+          "vi": "nghỉ phép",
+          "example": {
+            "zh": "下个月我要休假。",
+            "vi": "Tháng sau tôi nghỉ phép."
+          }
+        },
+        {
+          "zh": "怕",
+          "pinyin": "pà",
+          "pos": "v.",
+          "vi": "sợ, e rằng",
+          "example": {
+            "zh": "我怕来不及。",
+            "vi": "Tôi sợ không kịp."
+          }
+        },
+        {
+          "zh": "邮箱",
+          "pinyin": "yóuxiāng",
+          "pos": "n.",
+          "vi": "hộp thư (email)",
+          "example": {
+            "zh": "你的邮箱是多少？",
+            "vi": "Email của bạn là gì?"
+          }
+        },
+        {
+          "zh": "老张",
+          "pinyin": "Lǎo Zhāng",
+          "pos": "",
+          "vi": "anh Trương, lão Trương",
+          "example": {
+            "zh": "老张是我的同事。",
+            "vi": "Anh Trương là đồng nghiệp của tôi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g11-3",
+          "title_zh": "“把”字句（3）",
+          "title_vi": "Câu chữ 把 (3): làm cho xong / cho tốt",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "把",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "这些工作",
+                "label": "Tân ngữ (xác định)",
+                "role": "O"
+              },
+              {
+                "zh": "做",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "完",
+                "label": "Bổ ngữ kết quả",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Câu chữ 把 còn nói hành động tác động lên sự vật và tạo ra một KẾT QUẢ: 做完 (làm xong), 洗干净 (giặt sạch), 接好 (kết nối xong). Sau động từ bắt buộc có thành phần khác (bổ ngữ kết quả); không nói 我把工作做 rồi dừng.",
+          "examples": [
+            {
+              "zh": "我跟您一起把这些工作做完。",
+              "vi": "Tôi cùng chị làm xong mấy việc này."
+            },
+            {
+              "zh": "妈妈把衣服洗干净了。",
+              "vi": "Mẹ giặt sạch quần áo rồi."
+            },
+            {
+              "zh": "他还没把笔记本电脑接好呢。",
+              "vi": "Anh ấy vẫn chưa kết nối xong laptop."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我把作业做。",
+              "right": "我把作业做完了。",
+              "why_vi": "Động từ trong câu 把 không đứng một mình, cần bổ ngữ (完, 好…) hoặc 了."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Con đã dọn phòng sạch sẽ rồi.”",
+              "options": [
+                "我把房间打扫干净了。",
+                "我把房间打扫。",
+                "我打扫把房间干净了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "请假 là xin nghỉ (vì có việc, ốm…); 休假 là nghỉ phép theo chế độ. Hai từ khác nhau đấy!"
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "🏙️",
+      "audio": "audio/hsk3/11-7.mp3",
+      "vocabAudio": "audio/hsk3/11-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Dạo này chị Nhất Tuyết đang nghĩ về vấn đề gì?",
+          "options": [
+            "上海的机会多不多",
+            "喜欢不喜欢现在的工作",
+            "愿意不愿意去别的城市工作"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao chị không muốn đến Thượng Hải làm việc?",
+          "options": [
+            "上海没有什么机会",
+            "她不愿意离开家人",
+            "她不认识上海的同事"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "前几天，上海的同事来北京了。",
+          "vi": "Mấy hôm trước, đồng nghiệp ở Thượng Hải đến Bắc Kinh.",
+          "t": 0.88
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "一起吃饭时，他们跟我说最近有不少同事去上海工作了，问我愿意不愿意也去上海。",
+          "vi": "Lúc ăn cơm cùng nhau, họ kể dạo này nhiều đồng nghiệp đã đến Thượng Hải làm việc, hỏi mình có muốn đi Thượng Hải không.",
+          "t": 4.72
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我是这样想的：现在丈夫和孩子都在北京，刘明的工作很忙，小雪和小明也还小，我去别的城市工作就要离开他们。",
+          "vi": "Mình nghĩ thế này: chồng và con đều ở Bắc Kinh, công việc của anh Lưu Minh rất bận, Tiểu Tuyết và Tiểu Minh còn nhỏ, mình đến thành phố khác làm việc thì phải xa họ.",
+          "t": 14.76
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "虽然去上海可能会有更好的机会，但是对我来说，生活也很重要，我不愿意为工作或学习离开家人。",
+          "vi": "Tuy đi Thượng Hải có thể có cơ hội tốt hơn, nhưng với mình, cuộc sống cũng rất quan trọng, mình không muốn vì công việc hay học tập mà xa gia đình.",
+          "t": 29.76
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "愿意",
+          "pinyin": "yuànyì",
+          "pos": "mod.",
+          "vi": "muốn, sẵn lòng",
+          "example": {
+            "zh": "你愿意帮我吗？",
+            "vi": "Bạn có sẵn lòng giúp tôi không?"
+          }
+        },
+        {
+          "zh": "城市",
+          "pinyin": "chéngshì",
+          "pos": "n.",
+          "vi": "thành phố",
+          "example": {
+            "zh": "北京是一个大城市。",
+            "vi": "Bắc Kinh là một thành phố lớn."
+          }
+        },
+        {
+          "zh": "离开",
+          "pinyin": "líkāi",
+          "pos": "v.",
+          "vi": "rời đi, rời xa",
+          "example": {
+            "zh": "他昨天离开了北京。",
+            "vi": "Hôm qua anh ấy rời Bắc Kinh."
+          }
+        },
+        {
+          "zh": "机会",
+          "pinyin": "jīhuì",
+          "pos": "n.",
+          "vi": "cơ hội",
+          "example": {
+            "zh": "这是一个好机会。",
+            "vi": "Đây là một cơ hội tốt."
+          }
+        },
+        {
+          "zh": "生活",
+          "pinyin": "shēnghuó",
+          "pos": "n./v.",
+          "vi": "cuộc sống; sống",
+          "example": {
+            "zh": "我喜欢这里的生活。",
+            "vi": "Tôi thích cuộc sống ở đây."
+          }
+        },
+        {
+          "zh": "为",
+          "pinyin": "wèi",
+          "pos": "prep.",
+          "vi": "vì, cho",
+          "example": {
+            "zh": "我为你高兴。",
+            "vi": "Tôi mừng cho bạn."
+          }
+        },
+        {
+          "zh": "或",
+          "pinyin": "huò",
+          "pos": "conj.",
+          "vi": "hoặc",
+          "example": {
+            "zh": "星期六或星期天都可以。",
+            "vi": "Thứ bảy hoặc chủ nhật đều được."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g11-4",
+          "title_zh": "固定格式“对……来说”",
+          "title_vi": "“对……来说”: đối với…",
+          "formula": [
+            [
+              {
+                "zh": "对",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "我",
+                "label": "Người / nhóm",
+                "role": "N"
+              },
+              {
+                "zh": "来说，",
+                "label": "mà nói",
+                "role": "ADV"
+              },
+              {
+                "zh": "生活也很重要",
+                "label": "Quan điểm, cảm nhận",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "对……来说 nói rằng một quan điểm, cảm nhận hay tình huống là xét theo góc nhìn của ai đó – giống “đối với… thì…”, “với… mà nói” trong tiếng Việt. Thường đứng đầu câu.",
+          "examples": [
+            {
+              "zh": "对我来说，生活也很重要。",
+              "vi": "Đối với tôi, cuộc sống cũng rất quan trọng."
+            },
+            {
+              "zh": "对她来说，学习汉语很有意思。",
+              "vi": "Đối với cô ấy, học tiếng Trung rất thú vị."
+            },
+            {
+              "zh": "对孩子来说，玩也是一种学习。",
+              "vi": "Đối với trẻ con, chơi cũng là một cách học."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "对我说，生活很重要。",
+              "right": "对我来说，生活很重要。",
+              "why_vi": "Cấu trúc cố định là 对……来说; 对我说 nghĩa là “nói với tôi”."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Đối với học sinh, kỳ thi rất quan trọng.”",
+              "options": [
+                "对学生来说，考试很重要。",
+                "对学生说来，考试很重要。",
+                "学生对来说，考试很重要。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "为工作或学习 = vì công việc hay học tập. 或 là dạng viết gọn của 或者, hay dùng trong văn viết."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你说什么？我怎么听不到___了。",
+      "bank": [
+        "声音",
+        "办法",
+        "机会"
+      ],
+      "answer": "声音"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "这个问题太难了，公司里谁都没办法___。",
+      "bank": [
+        "解决",
+        "离开",
+        "请假"
+      ],
+      "answer": "解决"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我下个星期___，打算去北京旅游。",
+      "bank": [
+        "休假",
+        "开会",
+        "解决"
+      ],
+      "answer": "休假"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "我今天得到了一个去上海工作的___，特别开心。",
+      "bank": [
+        "机会",
+        "地点",
+        "声音"
+      ],
+      "answer": "机会"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "我___为家人离开这个城市。",
+      "bank": [
+        "愿意",
+        "看来",
+        "只能"
+      ],
+      "answer": "愿意"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "把",
+        "我",
+        "做完了",
+        "工作"
+      ],
+      "answers": [
+        "我把工作做完了"
+      ],
+      "vi": "Tôi làm xong công việc rồi.",
+      "explain_vi": "把 + tân ngữ + động từ + bổ ngữ kết quả."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "来说",
+        "对我",
+        "家人",
+        "最重要",
+        "，"
+      ],
+      "answers": [
+        "对我来说，家人最重要"
+      ],
+      "vi": "Đối với tôi, gia đình quan trọng nhất.",
+      "explain_vi": "对……来说."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "会议室",
+      "options": [
+        {
+          "emoji": "🏢",
+          "label": "Phòng họp"
+        },
+        {
+          "emoji": "💻",
+          "label": "Laptop"
+        },
+        {
+          "emoji": "📧",
+          "label": "Email"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "会议室的电脑或者自己的电脑都可以。",
+      "emoji": "💻",
+      "statement_vi": "Chỉ được dùng máy tính của phòng họp.",
+      "answer": false,
+      "explain_vi": "或者……都可以 = cái nào cũng được."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "☕🍵",
+      "sentence": "你喝茶___喝咖啡？",
+      "options": [
+        "还是",
+        "或者",
+        "或"
+      ],
+      "answer": 0,
+      "explain_vi": "Câu hỏi lựa chọn dùng 还是."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "会议什么时候开始？",
+          "a": "后天上午十点。"
+        },
+        {
+          "q": "老张为什么没来？",
+          "a": "家里有点儿事，请假了。"
+        },
+        {
+          "q": "你愿意去上海工作吗？",
+          "a": "不愿意，我不想离开家人。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Thảo luận: Công việc hay gia đình?",
+    "steps_vi": [
+      "Nhóm 4 người. Tình huống: bạn nhận được cơ hội làm việc tốt ở một thành phố khác.",
+      "Mỗi người nói mình có đi hay không, dùng “对我来说……”.",
+      "Nêu lý do, dùng “虽然……但是……” và “看来……”.",
+      "Cả nhóm bỏ phiếu: công việc hay gia đình quan trọng hơn, và báo cáo kết quả."
+    ],
+    "patterns": [
+      {
+        "zh": "对我来说，家人最重要。",
+        "vi": "Đối với tôi, gia đình quan trọng nhất."
+      },
+      {
+        "zh": "虽然机会很好，但是我不愿意离开家。",
+        "vi": "Tuy cơ hội rất tốt, nhưng tôi không muốn xa nhà."
+      },
+      {
+        "zh": "看来大家的想法都不一样。",
+        "vi": "Xem ra suy nghĩ của mọi người đều khác nhau."
+      },
+      {
+        "zh": "我愿意去，因为可以学到很多东西。",
+        "vi": "Tôi muốn đi, vì có thể học được nhiều điều."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Môi trường công sở ở Trung Quốc",
+    "body_vi": [
+      "Ở công ty Trung Quốc, đồng nghiệp lớn tuổi thường được gọi là 老 + họ (老张, 老王), người trẻ là 小 + họ (小李, 小王) – một cách gọi thân mật, giống “anh Trương”, “em Lý” ở Việt Nam. Cấp trên thì gọi họ + chức vụ: 张经理, 王老师.",
+      "Nhiều người trẻ từ khắp nơi đổ về các thành phố lớn như Bắc Kinh, Thượng Hải, Thâm Quyến để tìm cơ hội (机会). Nhưng giống chị Nhất Tuyết trong bài, không ít người chọn ở gần gia đình vì coi trọng cuộc sống gia đình.",
+      "Công việc hằng ngày gắn chặt với ứng dụng WeChat (微信): họp, gửi tài liệu, xin nghỉ phép đều có thể làm trên điện thoại."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Giám đốc Trương",
+          "张经理",
+          "Zhāng jīnglǐ"
+        ],
+        [
+          "Anh Trương (đồng nghiệp lớn tuổi)",
+          "老张",
+          "Lǎo Zhāng"
+        ],
+        [
+          "Em Lý (đồng nghiệp trẻ)",
+          "小李",
+          "Xiǎo Lǐ"
+        ],
+        [
+          "Xin nghỉ",
+          "请假",
+          "qǐngjià"
+        ],
+        [
+          "Tăng ca",
+          "加班",
+          "jiābān"
+        ]
+      ]
+    }
+  }
 }

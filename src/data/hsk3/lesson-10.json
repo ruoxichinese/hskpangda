@@ -1,35 +1,1082 @@
 {
   "id": 10,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "你明天再把书还给我",
     "pinyin": "Nǐ míngtiān zài bǎ shū huán gěi wǒ",
-    "vi": "Mai bạn hãy trả sách cho tôi"
+    "vi": "Mai em hãy trả sách cho cô"
   },
   "grammarTopics_vi": [
-    "Câu chữ 把 (1)",
-    "Cấu trúc 在……上/中/下",
-    "Câu chữ 把 (2)"
+    "Câu chữ 把 (1): 把 + tân ngữ + động từ + 在/到 + nơi chốn",
+    "Cấu trúc “在……上/中/下”",
+    "Câu chữ 把 (2): 把 + tân ngữ 1 + động từ + 给 + tân ngữ 2"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu chữ 把 (1)",
-      "doneWhen": []
+      "vi": "Nói về việc học và kết quả thi",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Cấu trúc 在……上/中/下",
-      "doneWhen": []
+      "vi": "Nói về khó khăn khi học và chia sẻ phương pháp học",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu chữ 把 (2)",
-      "doneWhen": []
+      "vi": "Dùng câu chữ 把 để nói vật được đặt ở đâu, đưa cho ai",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
+    },
+    {
+      "id": "o4",
+      "vi": "Hiểu hệ thống giáo dục và thi cử của Trung Quốc",
+      "doneWhen": [
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🏢",
+      "word": "办公室",
+      "pinyin": "bàngōngshì",
+      "vi": "văn phòng"
+    },
+    {
+      "emoji": "🖤",
+      "word": "黑板",
+      "pinyin": "hēibǎn",
+      "vi": "bảng đen"
+    },
+    {
+      "emoji": "➗",
+      "word": "数学",
+      "pinyin": "shùxué",
+      "vi": "toán"
+    },
+    {
+      "emoji": "📝",
+      "word": "考试",
+      "pinyin": "kǎoshì",
+      "vi": "kỳ thi"
+    },
+    {
+      "emoji": "📜",
+      "word": "历史",
+      "pinyin": "lìshǐ",
+      "vi": "lịch sử"
+    },
+    {
+      "emoji": "💯",
+      "word": "成绩",
+      "pinyin": "chéngjì",
+      "vi": "điểm số"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong lớp học, Lưu Tiểu Tuyết trò chuyện với bạn cùng lớp về phương pháp học.",
+      "scene": "📒",
+      "audio": "audio/hsk3/10-1.mp3",
+      "vocabAudio": "audio/hsk3/10-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Bạn cùng lớp nhờ Tiểu Tuyết làm gì?",
+          "options": [
+            "看笔记",
+            "认真记笔记",
+            "介绍学习方法"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Nghe xong cách học của Tiểu Tuyết, bạn ấy định làm gì?",
+          "options": [
+            "认真听课",
+            "认真记笔记",
+            "每天写作业"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "tongxue",
+          "zh": "你的数学越来越好，能不能介绍一下学习方法？",
+          "vi": "Môn toán của cậu càng ngày càng giỏi, giới thiệu cách học được không?",
+          "t": 0.47
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "没有什么特别的方法，认真听课，认真记笔记。",
+          "vi": "Không có cách gì đặc biệt, chăm chú nghe giảng, ghi chép cẩn thận thôi.",
+          "t": 5.39
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "我看过你的笔记，记得非常清楚。",
+          "vi": "Mình xem vở ghi của cậu rồi, ghi rất rõ ràng.",
+          "t": 10.59
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "老师写在黑板上的题都很重要，所以我会把这些题都记在本子上。",
+          "vi": "Những bài cô viết lên bảng đều quan trọng, nên mình ghi hết vào vở.",
+          "t": 15.46
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "你说得对。我没有记笔记的习惯。",
+          "vi": "Cậu nói đúng. Mình không có thói quen ghi chép.",
+          "t": 22.29
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "笔记挺重要的，我每天写作业以前，都要看一遍。",
+          "vi": "Vở ghi khá quan trọng, ngày nào trước khi làm bài tập mình cũng xem lại một lượt.",
+          "t": 26.87
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "这个方法真好！我以后也试试，希望能提高成绩。",
+          "vi": "Cách này hay thật! Sau này mình cũng thử, mong là nâng được điểm.",
+          "t": 32.41
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "数学",
+          "pinyin": "shùxué",
+          "pos": "n.",
+          "vi": "toán học",
+          "example": {
+            "zh": "我最喜欢数学课。",
+            "vi": "Tôi thích nhất giờ toán."
+          }
+        },
+        {
+          "zh": "认真",
+          "pinyin": "rènzhēn",
+          "pos": "adj.",
+          "vi": "chăm chỉ, nghiêm túc",
+          "example": {
+            "zh": "他学习很认真。",
+            "vi": "Cậu ấy học rất chăm."
+          }
+        },
+        {
+          "zh": "笔记",
+          "pinyin": "bǐjì",
+          "pos": "n.",
+          "vi": "ghi chép, vở ghi",
+          "example": {
+            "zh": "上课要记笔记。",
+            "vi": "Trong giờ học phải ghi chép."
+          }
+        },
+        {
+          "zh": "清楚",
+          "pinyin": "qīngchu",
+          "pos": "adj./v.",
+          "vi": "rõ ràng; hiểu rõ",
+          "example": {
+            "zh": "老师讲得很清楚。",
+            "vi": "Cô giảng rất rõ."
+          }
+        },
+        {
+          "zh": "黑板",
+          "pinyin": "hēibǎn",
+          "pos": "n.",
+          "vi": "bảng đen",
+          "example": {
+            "zh": "请看黑板。",
+            "vi": "Mời nhìn lên bảng."
+          }
+        },
+        {
+          "zh": "把",
+          "pinyin": "bǎ",
+          "pos": "prep.",
+          "vi": "(giới từ đưa tân ngữ lên trước động từ)",
+          "example": {
+            "zh": "请把门关上。",
+            "vi": "Làm ơn đóng cửa lại."
+          }
+        },
+        {
+          "zh": "作业",
+          "pinyin": "zuòyè",
+          "pos": "n.",
+          "vi": "bài tập về nhà",
+          "example": {
+            "zh": "你写完作业了吗？",
+            "vi": "Con làm xong bài tập chưa?"
+          }
+        },
+        {
+          "zh": "遍",
+          "pinyin": "biàn",
+          "pos": "m.",
+          "vi": "lượt, lần (từ đầu đến cuối)",
+          "example": {
+            "zh": "请再读一遍。",
+            "vi": "Hãy đọc lại một lượt."
+          }
+        },
+        {
+          "zh": "提高",
+          "pinyin": "tígāo",
+          "pos": "v.",
+          "vi": "nâng cao",
+          "example": {
+            "zh": "我想提高汉语水平。",
+            "vi": "Tôi muốn nâng cao trình độ tiếng Trung."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g10-1",
+          "title_zh": "“把”字句（1）",
+          "title_vi": "Câu chữ 把 (1): đặt vật vào đâu",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "把",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "这些题",
+                "label": "Tân ngữ (xác định)",
+                "role": "O"
+              },
+              {
+                "zh": "记",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "在本子上",
+                "label": "在/到 + nơi chốn",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Câu chữ 把 nói chủ ngữ tác động lên một sự vật CỤ THỂ, làm nó thay đổi vị trí. Tân ngữ được đưa lên trước động từ bằng 把; sau động từ là 在/到 + nơi chốn. Phủ định 不/没 và động từ năng nguyện (能, 要…) đặt TRƯỚC 把: 你不能把名字写在这里. Tiếng Việt nói “ghi những bài này vào vở”, tiếng Trung thường nói 把这些题记在本子上.",
+          "examples": [
+            {
+              "zh": "我会把这些题都记在本子上。",
+              "vi": "Tôi sẽ ghi hết những bài này vào vở."
+            },
+            {
+              "zh": "老师把作业本放到桌子上了。",
+              "vi": "Cô giáo đặt vở bài tập lên bàn rồi."
+            },
+            {
+              "zh": "你不能把名字写在这里。",
+              "vi": "Bạn không được viết tên vào đây."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我把名字没写在这里。",
+              "right": "我没把名字写在这里。",
+              "why_vi": "Phủ định 没/不 đặt trước 把."
+            },
+            {
+              "wrong": "我把一本书放在桌子上。",
+              "right": "我把那本书放在桌子上。",
+              "why_vi": "Tân ngữ của 把 phải là vật xác định (cái đó, quyển kia), không dùng “một quyển” bất kỳ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Mẹ đặt hoa quả vào tủ lạnh rồi.”",
+              "options": [
+                "妈妈把水果放在冰箱里了。",
+                "妈妈放水果把在冰箱里了。",
+                "妈妈把放水果在冰箱里了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "看一遍 = xem một lượt từ đầu đến cuối. 遍 nhấn mạnh trọn vẹn quá trình, khác 次 chỉ số lần."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong lớp học, Tiểu Tuyết và bạn cùng lớp nói về bài thi hôm qua.",
+      "scene": "📝",
+      "audio": "audio/hsk3/10-3.mp3",
+      "vocabAudio": "audio/hsk3/10-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết thấy bài thi hôm qua thế nào?",
+          "options": [
+            "外语没考好",
+            "历史有点儿难",
+            "数学考得还可以"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Về mấy câu ngoại ngữ đó, có thể biết điều gì?",
+          "options": [
+            "小雪会做",
+            "要去问老师",
+            "小雪的同学会做"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "tongxue",
+          "zh": "小雪，昨天的考试，你考得怎么样？",
+          "vi": "Tiểu Tuyết, bài thi hôm qua cậu làm thế nào?",
+          "t": 0.96
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我觉得历史有点儿难，你呢？",
+          "vi": "Mình thấy môn lịch sử hơi khó, còn cậu?",
+          "t": 6.22
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "数学考试我没看清楚要求，做错了好几个题，考得挺差的。",
+          "vi": "Bài thi toán mình đọc không kỹ yêu cầu, làm sai mấy câu, thi khá tệ.",
+          "t": 9.96
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "明天还有考试呢，别想那么多了，先复习外语吧。",
+          "vi": "Mai còn thi nữa, đừng nghĩ nhiều nữa, ôn ngoại ngữ trước đi.",
+          "t": 18.01
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "外语作业里有几个问题，我可以问问你吗？",
+          "vi": "Bài tập ngoại ngữ có mấy câu, mình hỏi cậu được không?",
+          "t": 23.23
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "当然可以。在学习上，遇到什么问题都可以问我。",
+          "vi": "Tất nhiên rồi. Trong học tập gặp vấn đề gì cũng có thể hỏi mình.",
+          "t": 28.63
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "不好意思，这几个题我也不会。咱们还是一起去办公室问问李老师吧。",
+          "vi": "Ngại quá, mấy câu này mình cũng không biết. Mình cùng lên văn phòng hỏi cô Lý thì hơn.",
+          "t": 36.13
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "历史",
+          "pinyin": "lìshǐ",
+          "pos": "n.",
+          "vi": "lịch sử",
+          "example": {
+            "zh": "我对中国历史很感兴趣。",
+            "vi": "Tôi rất quan tâm đến lịch sử Trung Quốc."
+          }
+        },
+        {
+          "zh": "难",
+          "pinyin": "nán",
+          "pos": "adj.",
+          "vi": "khó",
+          "example": {
+            "zh": "这个题很难。",
+            "vi": "Câu này rất khó."
+          }
+        },
+        {
+          "zh": "要求",
+          "pinyin": "yāoqiú",
+          "pos": "n./v.",
+          "vi": "yêu cầu",
+          "example": {
+            "zh": "老师要求我们明天交作业。",
+            "vi": "Cô yêu cầu chúng tôi mai nộp bài."
+          }
+        },
+        {
+          "zh": "差",
+          "pinyin": "chà",
+          "pos": "adj./v.",
+          "vi": "kém, tệ; thiếu",
+          "example": {
+            "zh": "我的数学有点儿差。",
+            "vi": "Môn toán của tôi hơi kém."
+          }
+        },
+        {
+          "zh": "复习",
+          "pinyin": "fùxí",
+          "pos": "v.",
+          "vi": "ôn tập",
+          "example": {
+            "zh": "考试前要好好复习。",
+            "vi": "Trước khi thi phải ôn tập cho tốt."
+          }
+        },
+        {
+          "zh": "外语",
+          "pinyin": "wàiyǔ",
+          "pos": "n.",
+          "vi": "ngoại ngữ",
+          "example": {
+            "zh": "你会说几门外语？",
+            "vi": "Bạn nói được mấy ngoại ngữ?"
+          }
+        },
+        {
+          "zh": "当然",
+          "pinyin": "dāngrán",
+          "pos": "adv.",
+          "vi": "đương nhiên",
+          "example": {
+            "zh": "当然可以！",
+            "vi": "Đương nhiên là được!"
+          }
+        },
+        {
+          "zh": "遇到",
+          "pinyin": "yùdào",
+          "pos": "v.",
+          "vi": "gặp, gặp phải",
+          "example": {
+            "zh": "我在路上遇到了老师。",
+            "vi": "Tôi gặp cô giáo trên đường."
+          }
+        },
+        {
+          "zh": "办公室",
+          "pinyin": "bàngōngshì",
+          "pos": "n.",
+          "vi": "văn phòng",
+          "example": {
+            "zh": "老师在办公室。",
+            "vi": "Cô giáo đang ở văn phòng."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g10-2",
+          "title_zh": "固定格式“在……上/中/下”",
+          "title_vi": "“在……上/中/下”: về mặt… / trong… / dưới (sự)…",
+          "formula": [
+            [
+              {
+                "zh": "在",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "学习 / 比赛 / 老师的帮助",
+                "label": "Danh từ",
+                "role": "N"
+              },
+              {
+                "zh": "上 / 中 / 下",
+                "label": "phương diện / trong lúc / điều kiện",
+                "role": "N"
+              },
+              {
+                "zh": "，……",
+                "label": "Vế chính",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "在……上 chỉ phương diện, lĩnh vực: 在学习上 = về mặt học tập. 在……中 chỉ trong hoàn cảnh, khoảng thời gian: 在比赛中 = trong trận đấu. 在……下 (thường đi với 帮助, 影响) chỉ điều kiện: 在老师的帮助下 = nhờ sự giúp đỡ của cô.",
+          "examples": [
+            {
+              "zh": "在学习上，遇到什么问题都可以问我。",
+              "vi": "Về học tập, gặp vấn đề gì cũng hỏi tôi được."
+            },
+            {
+              "zh": "在比赛中，他得分最高。",
+              "vi": "Trong trận đấu, anh ấy ghi điểm cao nhất."
+            },
+            {
+              "zh": "在老师的帮助下，我的成绩提高很快。",
+              "vi": "Nhờ cô giáo giúp đỡ, điểm của tôi tiến bộ rất nhanh."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "在老师的帮助上，我提高了成绩。",
+              "right": "在老师的帮助下，我提高了成绩。",
+              "why_vi": "帮助, 影响 đi với 在……下."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Dưới ảnh hưởng của bố, tôi thích đá bóng.”",
+              "options": [
+                "在爸爸的影响下，我喜欢上了踢足球。",
+                "在爸爸的影响上，我喜欢上了踢足球。",
+                "在爸爸的影响中下，我喜欢上了踢足球。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "考得挺差的 = thi khá tệ. 差 ở đây đọc là chà, nghĩa là kém."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở văn phòng cô Lý, Tiểu Tuyết và bạn cùng lớp đến hỏi bài.",
+      "scene": "👩‍🏫",
+      "audio": "audio/hsk3/10-5.mp3",
+      "vocabAudio": "audio/hsk3/10-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Câu hỏi của các bạn nằm ở trang mấy?",
+          "options": [
+            "第五页",
+            "第七页",
+            "第十五页"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Cô Lý giảng xong, Tiểu Tuyết và bạn đã hiểu chưa?",
+          "options": [
+            "没听懂",
+            "都明白了",
+            "还有几个不明白"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "tongxue",
+          "zh": "李老师，书上有几个问题，我们想问问您。",
+          "vi": "Cô Lý ơi, trong sách có mấy câu, chúng em muốn hỏi cô.",
+          "t": 0.82
+        },
+        {
+          "speaker": "lilaoshi",
+          "zh": "好，坐下说吧，哪个题不会？",
+          "vi": "Được, ngồi xuống nói đi, câu nào không biết?",
+          "t": 6.88
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "书上第五页的这个对话我看不懂，小雪也不明白。",
+          "vi": "Đoạn hội thoại ở trang năm em đọc không hiểu, Tiểu Tuyết cũng không hiểu.",
+          "t": 12.34
+        },
+        {
+          "speaker": "lilaoshi",
+          "zh": "我课上讲过这几句话，再给你们讲一遍。",
+          "vi": "Mấy câu này cô giảng trên lớp rồi, cô giảng lại cho các em một lượt.",
+          "t": 19.49
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "我终于懂了。这些句子一点儿也不难。",
+          "vi": "Cuối cùng em cũng hiểu. Mấy câu này chẳng khó chút nào.",
+          "t": 24.99
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我也明白了，谢谢您，李老师。",
+          "vi": "Em cũng hiểu rồi, cảm ơn cô Lý.",
+          "t": 30.1
+        },
+        {
+          "speaker": "lilaoshi",
+          "zh": "我这本书上还有几个练习，你们回家也做一做，明天再把书{还|huán}给我。",
+          "vi": "Quyển sách này của cô còn mấy bài luyện tập, các em về nhà làm thử, mai trả sách cho cô.",
+          "t": 34.15
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "页",
+          "pinyin": "yè",
+          "pos": "m.",
+          "vi": "trang",
+          "example": {
+            "zh": "请打开书，看第十页。",
+            "vi": "Mở sách, xem trang mười."
+          }
+        },
+        {
+          "zh": "对话",
+          "pinyin": "duìhuà",
+          "pos": "v./n.",
+          "vi": "đối thoại; đoạn hội thoại",
+          "example": {
+            "zh": "我们练习一下这个对话。",
+            "vi": "Chúng ta luyện đoạn hội thoại này."
+          }
+        },
+        {
+          "zh": "明白",
+          "pinyin": "míngbai",
+          "pos": "v./adj.",
+          "vi": "hiểu; rõ ràng",
+          "example": {
+            "zh": "你明白了吗？",
+            "vi": "Bạn hiểu chưa?"
+          }
+        },
+        {
+          "zh": "讲",
+          "pinyin": "jiǎng",
+          "pos": "v.",
+          "vi": "giảng, nói",
+          "example": {
+            "zh": "老师讲得很清楚。",
+            "vi": "Cô giảng rất rõ."
+          }
+        },
+        {
+          "zh": "句",
+          "pinyin": "jù",
+          "pos": "m.",
+          "vi": "câu (lượng từ)",
+          "example": {
+            "zh": "他只说了一句话。",
+            "vi": "Anh ấy chỉ nói một câu."
+          }
+        },
+        {
+          "zh": "句子",
+          "pinyin": "jùzi",
+          "pos": "n.",
+          "vi": "câu",
+          "example": {
+            "zh": "这个句子很长。",
+            "vi": "Câu này rất dài."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g10-3",
+          "title_zh": "“把”字句（2）",
+          "title_vi": "Câu chữ 把 (2): đưa cái gì cho ai",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "把",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "书",
+                "label": "Tân ngữ 1 (vật)",
+                "role": "O"
+              },
+              {
+                "zh": "还给",
+                "label": "Động từ + 给",
+                "role": "V"
+              },
+              {
+                "zh": "我",
+                "label": "Tân ngữ 2 (người nhận)",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Câu chữ 把 còn dùng khi một vật CỤ THỂ được chuyển từ người này sang người khác: chủ ngữ + 把 + vật + động từ (还, 送, 带, 拿…) + 给 + người nhận. Tiếng Việt nói “trả sách cho tôi”, tiếng Trung nói 把书还给我.",
+          "examples": [
+            {
+              "zh": "你明天再把书还给我。",
+              "vi": "Mai em trả sách cho cô."
+            },
+            {
+              "zh": "我把礼物送给她了。",
+              "vi": "Tôi tặng món quà đó cho cô ấy rồi."
+            },
+            {
+              "zh": "请你把这本书带给老师。",
+              "vi": "Làm ơn mang quyển sách này cho cô giáo."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我把她送给礼物了。",
+              "right": "我把礼物送给她了。",
+              "why_vi": "Sau 把 là VẬT được chuyển đi, sau 给 là người nhận."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Anh ấy đã gửi ảnh cho tôi.” (发 = gửi)",
+              "options": [
+                "他把照片发给我了。",
+                "他把我发给照片了。",
+                "他发把照片给我了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "还给我 = trả lại cho tôi. 还 đọc huán; còn 还有 (còn có) đọc hái."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Lưu Tiểu Tuyết đang viết email cho Gia Nguyệt.",
+      "scene": "✉️",
+      "audio": "audio/hsk3/10-7.mp3",
+      "vocabAudio": "audio/hsk3/10-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tiểu Tuyết bây giờ học lớp mấy?",
+          "options": [
+            "小学六年级",
+            "初中二年级",
+            "高中一年级"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Do ảnh hưởng của Gia Nguyệt, Tiểu Tuyết thích làm gì?",
+          "options": [
+            "拍照",
+            "努力学习",
+            "给朋友看照片"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "家月姐姐：你最近怎么样？忙不忙？",
+          "vi": "Chị Gia Nguyệt: Dạo này chị thế nào? Có bận không?",
+          "t": 0
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "我现在上初中二年级，学习越来越忙，后年就要考高中了。",
+          "vi": "Em đang học lớp tám, việc học càng ngày càng bận, năm sau nữa là thi vào cấp ba rồi.",
+          "t": 4.9
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "中国的学校一般是小学六年，初中三年，高中三年。",
+          "vi": "Trường học ở Trung Quốc thường là tiểu học sáu năm, cấp hai ba năm, cấp ba ba năm.",
+          "t": 12.76
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈说想考上好大学，就得上一个好高中；为了考上好高中，初中就得有一个不错的成绩，所以我现在非常努力。",
+          "vi": "Mẹ nói muốn đỗ đại học tốt thì phải học một trường cấp ba tốt; để đỗ cấp ba tốt thì cấp hai phải có điểm khá, nên giờ em rất cố gắng.",
+          "t": 18.17
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "家月姐姐，你知道吗？在你的影响下，我也开始喜欢拍照了。",
+          "vi": "Chị Gia Nguyệt, chị biết không? Nhờ ảnh hưởng của chị, em cũng bắt đầu thích chụp ảnh rồi.",
+          "t": 31.09
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "下次你再来北京，我给你看看我照的照片。",
+          "vi": "Lần sau chị lại đến Bắc Kinh, em cho chị xem ảnh em chụp.",
+          "t": 37.71
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "年级",
+          "pinyin": "niánjí",
+          "pos": "n.",
+          "vi": "lớp, khối (năm học)",
+          "example": {
+            "zh": "你上几年级？",
+            "vi": "Em học lớp mấy?"
+          }
+        },
+        {
+          "zh": "后年",
+          "pinyin": "hòunián",
+          "pos": "n.",
+          "vi": "năm sau nữa",
+          "example": {
+            "zh": "我后年大学毕业。",
+            "vi": "Năm sau nữa tôi tốt nghiệp đại học."
+          }
+        },
+        {
+          "zh": "一般",
+          "pinyin": "yìbān",
+          "pos": "adj.",
+          "vi": "thông thường; bình thường",
+          "example": {
+            "zh": "我一般七点起床。",
+            "vi": "Tôi thường dậy lúc bảy giờ."
+          }
+        },
+        {
+          "zh": "努力",
+          "pinyin": "nǔlì",
+          "pos": "adj./v.",
+          "vi": "cố gắng, nỗ lực",
+          "example": {
+            "zh": "他学习非常努力。",
+            "vi": "Cậu ấy học rất chăm chỉ."
+          }
+        }
+      ],
+      "pangdaTip": "初中二年级 = lớp hai của cấp hai, tương đương lớp 8 ở Việt Nam."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我再说一___，请大家认真听。",
+      "bank": [
+        "遍",
+        "句",
+        "页"
+      ],
+      "answer": "遍"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "你的汉字写得太___了，要多练习才能写得好。",
+      "bank": [
+        "差",
+        "难",
+        "清楚"
+      ],
+      "answer": "差"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "老师上课说什么我没听___，你再告诉我一下吧。",
+      "bank": [
+        "清楚",
+        "差",
+        "难"
+      ],
+      "answer": "清楚"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "李老师，可以给我___一下我做错的这几个题吗？",
+      "bank": [
+        "讲",
+        "遍",
+        "差"
+      ],
+      "answer": "讲"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "今天这几个题有点儿___，好多同学都没听明白。",
+      "bank": [
+        "难",
+        "清楚",
+        "讲"
+      ],
+      "answer": "难"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "把",
+        "我",
+        "放在桌子上了",
+        "书"
+      ],
+      "answers": [
+        "我把书放在桌子上了"
+      ],
+      "vi": "Tôi đặt sách lên bàn rồi.",
+      "explain_vi": "把 + tân ngữ + động từ + 在 + nơi chốn."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "还给",
+        "把书",
+        "请你",
+        "我"
+      ],
+      "answers": [
+        "请你把书还给我"
+      ],
+      "vi": "Làm ơn trả sách cho tôi.",
+      "explain_vi": "把 + vật + 还给 + người."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "黑板",
+      "options": [
+        {
+          "emoji": "🖤",
+          "label": "Bảng đen"
+        },
+        {
+          "emoji": "📒",
+          "label": "Vở ghi"
+        },
+        {
+          "emoji": "🏢",
+          "label": "Văn phòng"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "数学考试我没看清楚要求，做错了好几个题。",
+      "emoji": "➗",
+      "statement_vi": "Người nói làm bài toán rất tốt.",
+      "answer": false,
+      "explain_vi": "做错了好几个题 = làm sai mấy câu."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "👩‍🏫🤝",
+      "sentence": "在老师的帮助___，我的成绩提高了很多。",
+      "options": [
+        "下",
+        "上",
+        "中"
+      ],
+      "answer": 0,
+      "explain_vi": "在……的帮助下 = nhờ sự giúp đỡ của…."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "昨天的考试你考得怎么样？",
+          "a": "历史有点儿难。"
+        },
+        {
+          "q": "我可以问问你吗？",
+          "a": "当然可以。"
+        },
+        {
+          "q": "你上几年级？",
+          "a": "初中二年级。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Chia sẻ phương pháp học",
+    "steps_vi": [
+      "Nhóm 3–4 người, mỗi người kể môn mình học tốt nhất và môn còn kém.",
+      "Chia sẻ một cách học hiệu quả, dùng câu chữ 把: 我把生词写在本子上.",
+      "Hỏi bạn cách cải thiện môn mình kém, dùng “在……上”: 在数学上，你有什么好方法?",
+      "So sánh hệ thống trường học Việt Nam và Trung Quốc."
+    ],
+    "patterns": [
+      {
+        "zh": "你能介绍一下学习方法吗？",
+        "vi": "Bạn giới thiệu cách học được không?"
+      },
+      {
+        "zh": "我每天把新学的句子读三遍。",
+        "vi": "Ngày nào tôi cũng đọc câu mới học ba lượt."
+      },
+      {
+        "zh": "在学习上，我遇到了一些问题。",
+        "vi": "Về học tập, tôi gặp một số vấn đề."
+      },
+      {
+        "zh": "越南的学校一般是小学五年。",
+        "vi": "Trường học ở Việt Nam thường là tiểu học năm năm."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Hệ thống giáo dục và thi cử ở Trung Quốc",
+    "body_vi": [
+      "Trẻ em Trung Quốc học tiểu học 6 năm, cấp hai (初中) 3 năm, cấp ba (高中) 3 năm. Chín năm đầu là giáo dục bắt buộc (九年义务教育). Ở Việt Nam là 5 năm tiểu học, 4 năm cấp hai, 3 năm cấp ba.",
+      "Cuối cấp hai có kỳ thi vào cấp ba 中考; cuối cấp ba có kỳ thi đại học 高考 vào ngày 7–8 tháng 6. Điểm 高考 gần như quyết định trường đại học, nên học sinh lớp 12 (高三) học rất vất vả, giống chị gái trong bài nghe.",
+      "Học sinh Trung Quốc thường có 错题本 (vở ghi lỗi sai) và thói quen ghi chép cẩn thận – đúng như phương pháp học Tiểu Tuyết chia sẻ."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Cấp hai",
+          "初中",
+          "chūzhōng"
+        ],
+        [
+          "Cấp ba",
+          "高中",
+          "gāozhōng"
+        ],
+        [
+          "Thi vào cấp ba",
+          "中考",
+          "zhōngkǎo"
+        ],
+        [
+          "Thi đại học",
+          "高考",
+          "gāokǎo"
+        ],
+        [
+          "Giáo dục bắt buộc chín năm",
+          "九年义务教育",
+          "jiǔ nián yìwù jiàoyù"
+        ]
+      ]
+    }
+  }
 }

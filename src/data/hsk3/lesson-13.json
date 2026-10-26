@@ -1,35 +1,1091 @@
 {
   "id": 13,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我的新邻居来自英国",
     "pinyin": "Wǒ de xīn línjū láizì Yīngguó",
-    "vi": "Hàng xóm mới của tôi đến từ Anh"
+    "vi": "Hàng xóm mới của tôi đến từ nước Anh"
   },
   "grammarTopics_vi": [
-    "Câu giả thiết ……的话，就……",
-    "Câu chữ 把 (4)",
-    "Câu song song 一边……，一边……"
+    "Câu giả thiết “……的话，就……”",
+    "Câu chữ 把 (4): 把 + tân ngữ + động từ + bổ ngữ xu hướng / trạng thái",
+    "Câu song song “一边……，一边……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu giả thiết ……的话，就……",
-      "doneWhen": []
+      "vi": "Nói về khác biệt thói quen sinh hoạt giữa các vùng",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu chữ 把 (4)",
-      "doneWhen": []
+      "vi": "Dùng các câu lịch sự để cảm ơn, chúc mừng, khen",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu song song 一边……，一边……",
-      "doneWhen": []
+      "vi": "Dùng “一边……一边……” để nói hai việc làm cùng lúc",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👫",
+      "word": "夫妻",
+      "pinyin": "fūqī",
+      "vi": "vợ chồng"
+    },
+    {
+      "emoji": "🫖",
+      "word": "红茶",
+      "pinyin": "hóngchá",
+      "vi": "hồng trà"
+    },
+    {
+      "emoji": "🍽️",
+      "word": "盘子",
+      "pinyin": "pánzi",
+      "vi": "đĩa"
+    },
+    {
+      "emoji": "🎁",
+      "word": "礼物",
+      "pinyin": "lǐwù",
+      "vi": "quà"
+    },
+    {
+      "emoji": "🏘️",
+      "word": "邻居",
+      "pinyin": "línjū",
+      "vi": "hàng xóm"
+    },
+    {
+      "emoji": "🎨",
+      "word": "画家",
+      "pinyin": "huàjiā",
+      "vi": "hoạ sĩ"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà hàng, Dương Đồng Lạc mời đồng nghiệp đi ăn.",
+      "scene": "🐟",
+      "audio": "audio/hsk3/13-1.mp3",
+      "vocabAudio": "audio/hsk3/13-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Về nhà hàng này, có thể biết điều gì?",
+          "options": [
+            "是一家面馆",
+            "鱼做得不好吃",
+            "是南方菜饭馆"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Món miền Nam và miền Bắc khác nhau ở đâu?",
+          "options": [
+            "做法不同",
+            "用的肉不同",
+            "吃的鱼不同"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "yangtongle",
+          "zh": "今天我请客，你们想吃什么就点什么！",
+          "vi": "Hôm nay tôi mời, các bạn muốn ăn gì cứ gọi!",
+          "t": 0.81
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那我就不客气了。听说这家饭馆的鱼做得很特别？",
+          "vi": "Vậy tôi không khách sáo nhé. Nghe nói món cá ở quán này rất đặc biệt?",
+          "t": 5.56
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "对，南方菜跟你们北方菜的做法不同。除了鱼，你们还想吃什么？",
+          "vi": "Đúng, món miền Nam nấu khác món miền Bắc của các bạn. Ngoài cá ra, các bạn còn muốn ăn gì?",
+          "t": 11.79
+        },
+        {
+          "speaker": "tongshi",
+          "zh": "我不常吃南方菜，还是你决定吧。",
+          "vi": "Tôi ít ăn món miền Nam, anh quyết định đi.",
+          "t": 18.65
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "好，那再加一个鸡肉，一个……",
+          "vi": "Được, vậy thêm một món gà, một món…",
+          "t": 23.11
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "咱们就三个人，别点那么多。",
+          "vi": "Mình chỉ có ba người, đừng gọi nhiều thế.",
+          "t": 28.3
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "好，那先来这几个菜。",
+          "vi": "Được, vậy trước mắt lấy mấy món này.",
+          "t": 31.44
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "对了，下周我儿子过生日，你们有时间的话，就来我家做客，我给你们做北京菜。",
+          "vi": "À này, tuần sau con trai tôi sinh nhật, các bạn có thời gian thì đến nhà tôi chơi, tôi nấu món Bắc Kinh cho mọi người.",
+          "t": 34.65
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "请客",
+          "pinyin": "qǐngkè",
+          "pos": "v.",
+          "vi": "mời (ăn uống), đãi",
+          "example": {
+            "zh": "今天我请客。",
+            "vi": "Hôm nay tôi mời."
+          }
+        },
+        {
+          "zh": "南方",
+          "pinyin": "nánfāng",
+          "pos": "n.",
+          "vi": "miền Nam, phương nam",
+          "example": {
+            "zh": "南方冬天不太冷。",
+            "vi": "Miền Nam mùa đông không lạnh lắm."
+          }
+        },
+        {
+          "zh": "北方",
+          "pinyin": "běifāng",
+          "pos": "n.",
+          "vi": "miền Bắc, phương bắc",
+          "example": {
+            "zh": "北方人爱吃面。",
+            "vi": "Người miền Bắc thích ăn mì."
+          }
+        },
+        {
+          "zh": "做法",
+          "pinyin": "zuòfǎ",
+          "pos": "n.",
+          "vi": "cách làm",
+          "example": {
+            "zh": "这个菜的做法很简单。",
+            "vi": "Cách làm món này rất đơn giản."
+          }
+        },
+        {
+          "zh": "不同",
+          "pinyin": "bù tóng",
+          "pos": "",
+          "vi": "khác nhau",
+          "example": {
+            "zh": "我们的想法不同。",
+            "vi": "Suy nghĩ của chúng tôi khác nhau."
+          }
+        },
+        {
+          "zh": "加",
+          "pinyin": "jiā",
+          "pos": "v.",
+          "vi": "thêm, cộng",
+          "example": {
+            "zh": "再加一个菜吧。",
+            "vi": "Gọi thêm một món đi."
+          }
+        },
+        {
+          "zh": "的话",
+          "pinyin": "dehuà",
+          "pos": "part.",
+          "vi": "nếu… thì (cuối vế giả thiết)",
+          "example": {
+            "zh": "有时间的话，来我家玩。",
+            "vi": "Có thời gian thì đến nhà tôi chơi."
+          }
+        },
+        {
+          "zh": "做客",
+          "pinyin": "zuòkè",
+          "pos": "v.",
+          "vi": "làm khách, đến chơi nhà",
+          "example": {
+            "zh": "欢迎来我家做客。",
+            "vi": "Chào mừng đến nhà tôi chơi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g13-1",
+          "title_zh": "假设复句“……的话，就……”",
+          "title_vi": "“……的话，就……”: nếu… thì…",
+          "formula": [
+            [
+              {
+                "zh": "你们有时间",
+                "label": "Giả thiết",
+                "role": "V"
+              },
+              {
+                "zh": "的话，",
+                "label": "nếu",
+                "role": "PART"
+              },
+              {
+                "zh": "就",
+                "label": "thì",
+                "role": "ADV"
+              },
+              {
+                "zh": "来我家做客",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "的话 đặt CUỐI vế giả thiết, vế sau dùng 就 – nghĩa giống 如果……就…… (bài 6) nhưng mang tính khẩu ngữ hơn. Có thể dùng cả hai: 如果……的话，就…….",
+          "examples": [
+            {
+              "zh": "你们有时间的话，就来我家做客。",
+              "vi": "Các bạn có thời gian thì đến nhà tôi chơi."
+            },
+            {
+              "zh": "你觉得满意的话，咱们就买。",
+              "vi": "Bạn thấy ưng thì mình mua."
+            },
+            {
+              "zh": "明天天气好的话，我就去爬山。",
+              "vi": "Mai trời đẹp thì tôi đi leo núi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "的话明天下雨，我就不去了。",
+              "right": "明天下雨的话，我就不去了。",
+              "why_vi": "的话 đứng cuối vế giả thiết, không đứng đầu."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Nếu bạn mệt thì nghỉ một lát đi.”",
+              "options": [
+                "你累的话，就休息一会儿吧。",
+                "的话你累，就休息一会儿吧。",
+                "你累就的话，休息一会儿吧。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "我就不客气了 = vậy tôi không khách sáo nhé – câu đáp lịch sự khi được mời ăn."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở nhà, chị Nhất Tuyết và anh Lưu Minh chuẩn bị cho buổi tiệc sinh nhật.",
+      "scene": "🍷",
+      "audio": "audio/hsk3/13-3.mp3",
+      "vocabAudio": "audio/hsk3/13-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết và anh Lưu Minh đang làm gì?",
+          "options": [
+            "找东西",
+            "打扫房子",
+            "准备请客"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao chị Nhất Tuyết lo lắng?",
+          "options": [
+            "东西都没准备好",
+            "饮料和酒找不到了",
+            "第一次请新邻居来做客"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "第一次请新邻居来做客，总是担心有什么没准备好。",
+          "vi": "Lần đầu mời hàng xóm mới đến chơi, cứ lo có gì chưa chuẩn bị xong.",
+          "t": 0
+        },
+        {
+          "speaker": "liuming",
+          "zh": "放心吧，我帮你看了，都已经准备好了。",
+          "vi": "Yên tâm đi, anh xem giúp em rồi, chuẩn bị xong hết rồi.",
+          "t": 7.71
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我记得刚才已经把饮料拿出来了，怎么不见了？",
+          "vi": "Em nhớ vừa nãy đã lấy đồ uống ra rồi, sao không thấy đâu?",
+          "t": 13.84
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我把饮料和酒都放进冰箱里了，客人来了再拿出来。",
+          "vi": "Anh cho đồ uống và rượu vào tủ lạnh rồi, khách đến thì lấy ra.",
+          "t": 19.7
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "音乐的声音合适吗？",
+          "vi": "Nhạc mở to vừa chưa?",
+          "t": 26.87
+        },
+        {
+          "speaker": "liuming",
+          "zh": "你把声音开得太大了，我去关小一点儿。",
+          "vi": "Em mở to quá rồi, để anh vặn nhỏ đi một chút.",
+          "t": 30.41
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "好，那我们就等客人来吧。",
+          "vi": "Được, vậy mình đợi khách đến thôi.",
+          "t": 34.74
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "邻居",
+          "pinyin": "línjū",
+          "pos": "n.",
+          "vi": "hàng xóm",
+          "example": {
+            "zh": "我的邻居很热情。",
+            "vi": "Hàng xóm của tôi rất nhiệt tình."
+          }
+        },
+        {
+          "zh": "放心",
+          "pinyin": "fàngxīn",
+          "pos": "v.",
+          "vi": "yên tâm",
+          "example": {
+            "zh": "放心吧，没问题。",
+            "vi": "Yên tâm đi, không có vấn đề gì."
+          }
+        },
+        {
+          "zh": "酒",
+          "pinyin": "jiǔ",
+          "pos": "n.",
+          "vi": "rượu",
+          "example": {
+            "zh": "开车不能喝酒。",
+            "vi": "Lái xe không được uống rượu."
+          }
+        },
+        {
+          "zh": "放",
+          "pinyin": "fàng",
+          "pos": "v.",
+          "vi": "đặt, để",
+          "example": {
+            "zh": "把书放在桌子上。",
+            "vi": "Đặt sách lên bàn."
+          }
+        },
+        {
+          "zh": "客人",
+          "pinyin": "kèrén",
+          "pos": "n.",
+          "vi": "khách",
+          "example": {
+            "zh": "客人来了。",
+            "vi": "Khách đến rồi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g13-2",
+          "title_zh": "“把”字句（4）",
+          "title_vi": "Câu chữ 把 (4): với bổ ngữ xu hướng / bổ ngữ trạng thái",
+          "formula": [
+            [
+              {
+                "zh": "我",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "把饮料",
+                "label": "把 + tân ngữ",
+                "role": "O"
+              },
+              {
+                "zh": "放",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "进冰箱里",
+                "label": "Bổ ngữ xu hướng (+ nơi)",
+                "role": "ADV"
+              }
+            ],
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "把声音",
+                "label": "把 + tân ngữ",
+                "role": "O"
+              },
+              {
+                "zh": "开",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "得太大了",
+                "label": "Bổ ngữ trạng thái",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Sau động từ trong câu 把 có thể là bổ ngữ xu hướng (拿出来, 放进去, 踢进去) – nói vật thay đổi vị trí; hoặc bổ ngữ trạng thái với 得 (开得太大, 写得太小) – nói kết quả hành động khiến vật thành ra thế nào.",
+          "examples": [
+            {
+              "zh": "我把饮料和酒都放进冰箱里了。",
+              "vi": "Tôi cho đồ uống và rượu vào tủ lạnh hết rồi."
+            },
+            {
+              "zh": "你把声音开得太大了。",
+              "vi": "Bạn mở tiếng to quá rồi."
+            },
+            {
+              "zh": "他把球踢进去了吗？",
+              "vi": "Anh ấy sút bóng vào chưa?"
+            },
+            {
+              "zh": "你把字写得太小了，我看不清楚。",
+              "vi": "Bạn viết chữ nhỏ quá, tôi nhìn không rõ."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我把饮料拿出来冰箱。",
+              "right": "我把饮料从冰箱里拿出来。",
+              "why_vi": "Nơi xuất phát dùng 从……; bổ ngữ xu hướng 出来 đứng cuối."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Anh ấy cầm sách vào phòng rồi.”",
+              "options": [
+                "他把书拿进房间去了。",
+                "他把书拿房间进去了。",
+                "他拿把书进房间去了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "关小一点儿 = vặn nhỏ đi một chút: 关 + tính từ kết quả (小)."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà, chị Nhất Tuyết và anh Lưu Minh tổ chức tiệc sinh nhật.",
+      "scene": "🎂",
+      "audio": "audio/hsk3/13-5.mp3",
+      "vocabAudio": "audio/hsk3/13-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao mọi người đến nhà chị Nhất Tuyết?",
+          "options": [
+            "她过生日",
+            "她喜欢请客",
+            "她儿子过生日"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Chị Nhất Tuyết và mọi người chuẩn bị làm gì?",
+          "options": [
+            "吃蛋糕",
+            "一起画画",
+            "吃北京菜"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "谢谢你们来参加我儿子的生日晚会，希望大家今晚玩得开心。",
+          "vi": "Cảm ơn mọi người đến dự tiệc sinh nhật con trai tôi, mong tối nay mọi người chơi vui vẻ.",
+          "t": 0.57
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "小明，生日快乐！我准备了一个小礼物，希望你喜欢！",
+          "vi": "Tiểu Minh, chúc mừng sinh nhật! Chú chuẩn bị một món quà nhỏ, mong cháu thích!",
+          "t": 6.69
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "谢谢您，我可以打开吗？",
+          "vi": "Cháu cảm ơn chú, cháu mở ra được không ạ?",
+          "t": 13.25
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "当然可以，你妈妈说你跟姐姐一样，都喜欢画画，对吗？",
+          "vi": "Tất nhiên rồi, mẹ cháu nói cháu cũng thích vẽ giống chị, đúng không?",
+          "t": 16.58
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "对，我想做一名画家。啊！画板和画笔，这正是我需要的。我太喜欢了。",
+          "vi": "Đúng ạ, cháu muốn làm hoạ sĩ. A! Bảng vẽ và bút vẽ, đúng thứ cháu cần. Cháu thích lắm.",
+          "t": 24.75
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我去把盘子拿过来，咱们一边吃蛋糕，一边聊天儿吧。",
+          "vi": "Tôi đi lấy đĩa, mình vừa ăn bánh vừa trò chuyện nhé.",
+          "t": 32.74
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "晚会",
+          "pinyin": "wǎnhuì",
+          "pos": "n.",
+          "vi": "buổi tiệc tối",
+          "example": {
+            "zh": "晚会八点开始。",
+            "vi": "Bữa tiệc tối bắt đầu lúc tám giờ."
+          }
+        },
+        {
+          "zh": "礼物",
+          "pinyin": "lǐwù",
+          "pos": "n.",
+          "vi": "quà",
+          "example": {
+            "zh": "这是送你的礼物。",
+            "vi": "Đây là quà tặng bạn."
+          }
+        },
+        {
+          "zh": "画家",
+          "pinyin": "huàjiā",
+          "pos": "n.",
+          "vi": "hoạ sĩ",
+          "example": {
+            "zh": "他想做一名画家。",
+            "vi": "Cậu ấy muốn làm hoạ sĩ."
+          }
+        },
+        {
+          "zh": "盘子",
+          "pinyin": "pánzi",
+          "pos": "n.",
+          "vi": "cái đĩa",
+          "example": {
+            "zh": "桌子上有几个盘子。",
+            "vi": "Trên bàn có mấy cái đĩa."
+          }
+        },
+        {
+          "zh": "一边",
+          "pinyin": "yìbiān",
+          "pos": "adv.",
+          "vi": "vừa… (vừa…)",
+          "example": {
+            "zh": "他一边吃饭一边看手机。",
+            "vi": "Anh ấy vừa ăn vừa xem điện thoại."
+          }
+        },
+        {
+          "zh": "聊天儿",
+          "pinyin": "liáotiānr",
+          "pos": "v.",
+          "vi": "tán gẫu, trò chuyện",
+          "example": {
+            "zh": "我们聊了一会儿天儿。",
+            "vi": "Chúng tôi trò chuyện một lúc."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g13-3",
+          "title_zh": "并列复句“一边……，一边……”",
+          "title_vi": "“一边……，一边……”: vừa… vừa…",
+          "formula": [
+            [
+              {
+                "zh": "咱们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "一边",
+                "label": "vừa",
+                "role": "ADV"
+              },
+              {
+                "zh": "吃蛋糕",
+                "label": "Hành động 1",
+                "role": "V"
+              },
+              {
+                "zh": "，一边",
+                "label": "vừa",
+                "role": "ADV"
+              },
+              {
+                "zh": "聊天儿",
+                "label": "Hành động 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Hai hành động diễn ra CÙNG LÚC – giống “vừa… vừa…” trong tiếng Việt. Có thể rút gọn thành 边……边……: 边开车边打电话. Chú ý: 又……又…… (bài 2) đi với tính từ (又饿又渴), còn 一边……一边…… đi với động từ chỉ hành động.",
+          "examples": [
+            {
+              "zh": "咱们一边吃蛋糕，一边聊天儿吧。",
+              "vi": "Mình vừa ăn bánh vừa trò chuyện nhé."
+            },
+            {
+              "zh": "我喜欢一边跑步，一边听音乐。",
+              "vi": "Tôi thích vừa chạy bộ vừa nghe nhạc."
+            },
+            {
+              "zh": "你不应该边开车边打电话。",
+              "vi": "Bạn không nên vừa lái xe vừa gọi điện."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "这个菜一边好吃一边便宜。",
+              "right": "这个菜又好吃又便宜。",
+              "why_vi": "Với tính từ dùng 又……又……; 一边……一边…… dùng cho hành động."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cô ấy vừa nghe nhạc vừa làm bài tập.”",
+              "options": [
+                "她一边听音乐，一边写作业。",
+                "她又听音乐，又一边写作业。",
+                "她一边听音乐，写作业一边。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "画家 = hoạ sĩ: hậu tố 家 chỉ người giỏi một lĩnh vực (音乐家). Hậu tố 员 chỉ người làm một nghề (服务员, 运动员)."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "🗺️",
+      "audio": "audio/hsk3/13-7.mp3",
+      "vocabAudio": "audio/hsk3/13-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Hàng xóm mới nhà chị Nhất Tuyết là ai?",
+          "options": [
+            "中国人",
+            "英国夫妻",
+            "不会说中文的人"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Chị mời hàng xóm đến nhà để làm gì?",
+          "options": [
+            "教他们说中文",
+            "请他们吃中国菜",
+            "给他们讲旅游的事"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "我的新邻居是来自英国的夫妻。",
+          "vi": "Hàng xóm mới của mình là một cặp vợ chồng đến từ nước Anh.",
+          "t": 0.78
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "上周我去他们家做客了。他们做了很多好吃的，还准备了英国的红茶。",
+          "vi": "Tuần trước mình đến nhà họ chơi. Họ nấu nhiều món ngon, còn chuẩn bị cả hồng trà Anh.",
+          "t": 4.14
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那天我跟他们一边喝红茶，一边聊天儿，直到十二点多才回家。",
+          "vi": "Hôm đó mình vừa uống trà vừa trò chuyện với họ, đến hơn mười hai giờ mới về.",
+          "t": 12.69
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "他们年轻的时候喜欢旅游，他家有一张世界地图，上面每一个红点都是他们去过的地方。",
+          "vi": "Hồi trẻ họ thích du lịch, nhà họ có một tấm bản đồ thế giới, mỗi chấm đỏ trên đó là một nơi họ đã đi.",
+          "t": 20.64
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "后来，他们感到东方的文化很特别，就开始学习中文。",
+          "vi": "Sau đó, họ thấy văn hoá phương Đông rất đặc biệt nên bắt đầu học tiếng Trung.",
+          "t": 31.29
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "今天是小明的生日，我请他们到我家玩，来看看中国人的家，也尝尝中国菜。",
+          "vi": "Hôm nay là sinh nhật Tiểu Minh, mình mời họ đến nhà chơi, xem nhà của người Trung Quốc, cũng nếm thử món Trung.",
+          "t": 37.59
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "来自",
+          "pinyin": "láizì",
+          "pos": "v.",
+          "vi": "đến từ",
+          "example": {
+            "zh": "我来自越南。",
+            "vi": "Tôi đến từ Việt Nam."
+          }
+        },
+        {
+          "zh": "英国",
+          "pinyin": "Yīngguó",
+          "pos": "",
+          "vi": "nước Anh",
+          "example": {
+            "zh": "他们来自英国。",
+            "vi": "Họ đến từ nước Anh."
+          }
+        },
+        {
+          "zh": "夫妻",
+          "pinyin": "fūqī",
+          "pos": "n.",
+          "vi": "vợ chồng",
+          "example": {
+            "zh": "他们是一对夫妻。",
+            "vi": "Họ là một cặp vợ chồng."
+          }
+        },
+        {
+          "zh": "红茶",
+          "pinyin": "hóngchá",
+          "pos": "n.",
+          "vi": "hồng trà, trà đen",
+          "example": {
+            "zh": "英国人喜欢喝红茶。",
+            "vi": "Người Anh thích uống hồng trà."
+          }
+        },
+        {
+          "zh": "直到",
+          "pinyin": "zhídào",
+          "pos": "v.",
+          "vi": "cho đến (tận)",
+          "example": {
+            "zh": "他直到晚上才回来。",
+            "vi": "Mãi đến tối anh ấy mới về."
+          }
+        },
+        {
+          "zh": "地图",
+          "pinyin": "dìtú",
+          "pos": "n.",
+          "vi": "bản đồ",
+          "example": {
+            "zh": "这是一张世界地图。",
+            "vi": "Đây là một tấm bản đồ thế giới."
+          }
+        },
+        {
+          "zh": "感到",
+          "pinyin": "gǎndào",
+          "pos": "v.",
+          "vi": "cảm thấy",
+          "example": {
+            "zh": "我感到很高兴。",
+            "vi": "Tôi cảm thấy rất vui."
+          }
+        },
+        {
+          "zh": "东方",
+          "pinyin": "dōngfāng",
+          "pos": "n.",
+          "vi": "phương Đông",
+          "example": {
+            "zh": "他对东方文化很感兴趣。",
+            "vi": "Anh ấy rất quan tâm văn hoá phương Đông."
+          }
+        },
+        {
+          "zh": "文化",
+          "pinyin": "wénhuà",
+          "pos": "n.",
+          "vi": "văn hoá",
+          "example": {
+            "zh": "中国文化很有意思。",
+            "vi": "Văn hoá Trung Quốc rất thú vị."
+          }
+        }
+      ],
+      "pangdaTip": "直到十二点多才回家 = mãi đến hơn mười hai giờ mới về. 直到……才…… nhấn mạnh muộn."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我在比赛中得到了好成绩，___特别快乐。",
+      "bank": [
+        "感到",
+        "放心",
+        "来自"
+      ],
+      "answer": "感到"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "老师，这两个词有什么___？",
+      "bank": [
+        "不同",
+        "做法",
+        "文化"
+      ],
+      "answer": "不同"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "大家好，我___英国，欢迎你们有时间去旅游。",
+      "bank": [
+        "来自",
+        "感到",
+        "放心"
+      ],
+      "answer": "来自"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "今天我___，您想吃什么就点什么。",
+      "bank": [
+        "请客",
+        "做客",
+        "放心"
+      ],
+      "answer": "请客"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "下课后，别忘了把这些书放回办公室去。——好的，李老师，您___吧。",
+      "bank": [
+        "放心",
+        "请客",
+        "感到"
+      ],
+      "answer": "放心"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "一边",
+        "我们",
+        "喝茶",
+        "聊天儿",
+        "一边"
+      ],
+      "answers": [
+        "我们一边喝茶一边聊天儿"
+      ],
+      "vi": "Chúng tôi vừa uống trà vừa trò chuyện.",
+      "explain_vi": "一边 + hành động 1 + 一边 + hành động 2."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "的话",
+        "你有时间",
+        "就来我家玩",
+        "，"
+      ],
+      "answers": [
+        "你有时间的话，就来我家玩"
+      ],
+      "vi": "Nếu bạn có thời gian thì đến nhà tôi chơi.",
+      "explain_vi": "……的话，就……"
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "邻居",
+      "options": [
+        {
+          "emoji": "🏘️",
+          "label": "Hàng xóm"
+        },
+        {
+          "emoji": "🎁",
+          "label": "Quà"
+        },
+        {
+          "emoji": "🍽️",
+          "label": "Đĩa"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我把饮料和酒都放进冰箱里了。",
+      "emoji": "🧊",
+      "statement_vi": "Đồ uống vẫn để trên bàn.",
+      "answer": false,
+      "explain_vi": "放进冰箱里了 = đã cho vào tủ lạnh."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🔊",
+      "sentence": "你把声音开___太大了。",
+      "options": [
+        "得",
+        "的",
+        "地"
+      ],
+      "answer": 0,
+      "explain_vi": "Bổ ngữ trạng thái: 开得太大."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "小明，生日快乐！",
+          "a": "谢谢您！我可以打开礼物吗？"
+        },
+        {
+          "q": "你们想吃什么？",
+          "a": "我不常吃南方菜，你决定吧。"
+        },
+        {
+          "q": "你的新邻居是哪国人？",
+          "a": "他们来自英国。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Mời hàng xóm đến chơi",
+    "steps_vi": [
+      "Nhóm 3–4 người: chủ nhà, hàng xóm mới, khách.",
+      "Chủ nhà chào đón, mời ngồi, mời ăn uống, dùng câu chữ 把: 我把饮料拿过来.",
+      "Khách tặng quà, nói lời chúc; chủ nhà cảm ơn và khen quà.",
+      "Mọi người vừa ăn vừa nói chuyện về quê mình, dùng “一边……一边……” và “……的话，就……”."
+    ],
+    "patterns": [
+      {
+        "zh": "欢迎你们来我家做客！",
+        "vi": "Chào mừng mọi người đến nhà tôi chơi!"
+      },
+      {
+        "zh": "这是一个小礼物，希望你喜欢。",
+        "vi": "Đây là món quà nhỏ, mong bạn thích."
+      },
+      {
+        "zh": "咱们一边吃一边聊吧。",
+        "vi": "Mình vừa ăn vừa nói chuyện nhé."
+      },
+      {
+        "zh": "有时间的话，也来我家玩吧。",
+        "vi": "Có thời gian thì cũng đến nhà tôi chơi nhé."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Ẩm thực miền Bắc và miền Nam Trung Quốc",
+    "body_vi": [
+      "Người Trung Quốc hay nói 南米北面 – miền Nam ăn cơm, miền Bắc ăn mì và các món bột như sủi cảo, bánh bao. Miền Nam chuộng cá, hải sản và vị thanh; miền Bắc chuộng thịt dê, vị đậm.",
+      "Còn có câu 南甜北咸，东辣西酸 – miền Nam ngọt, miền Bắc mặn, miền Đông cay, miền Tây chua (nói vui, không tuyệt đối). Việt Nam cũng có khẩu vị khác nhau giữa ba miền.",
+      "Khi được mời đến nhà người Trung Quốc, khách thường mang quà như hoa quả, rượu, trà. Chủ nhà hay nói 别客气，多吃点儿 (đừng khách sáo, ăn nhiều vào)."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Miền Nam ăn cơm, miền Bắc ăn mì",
+          "南米北面",
+          "nán mǐ běi miàn"
+        ],
+        [
+          "Mời (đãi)",
+          "请客",
+          "qǐngkè"
+        ],
+        [
+          "Làm khách",
+          "做客",
+          "zuòkè"
+        ],
+        [
+          "Hàng xóm",
+          "邻居",
+          "línjū"
+        ],
+        [
+          "Đừng khách sáo",
+          "别客气",
+          "bié kèqi"
+        ]
+      ]
+    }
+  }
 }

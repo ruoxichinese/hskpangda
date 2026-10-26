@@ -1,41 +1,1166 @@
 {
   "id": 8,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "今天我出院了",
-    "pinyin": "Jīntiān wǒ chū yuàn le",
-    "vi": "Hôm nay tôi được ra viện"
+    "pinyin": "Jīntiān wǒ chūyuàn le",
+    "vi": "Hôm nay tôi ra viện rồi"
   },
   "grammarTopics_vi": [
-    "Nghĩa mở rộng của bổ ngữ xu hướng (1)",
-    "Từ ly hợp (2)",
-    "Bổ ngữ thời lượng (2)",
-    "Cấu trúc ……以前/以后/前/后"
+    "Nghĩa mở rộng của bổ ngữ xu hướng (1): 下去 = tiếp tục",
+    "Từ ly hợp (2): bổ ngữ đặt giữa",
+    "Bổ ngữ thời lượng (2): đã được bao lâu",
+    "Cấu trúc “……以前/以后/前/后”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Nghĩa mở rộng của bổ ngữ xu hướng (1)",
-      "doneWhen": []
+      "vi": "Kể chuyện đi khám bệnh và cách dùng thuốc",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Từ ly hợp (2)",
-      "doneWhen": []
+      "vi": "Nói về sức khoẻ và thói quen lành mạnh",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Bổ ngữ thời lượng (2)",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Cấu trúc ……以前/以后/前/后",
-      "doneWhen": []
+      "vi": "Nói một việc đã xảy ra được bao lâu: 过去差不多两年了",
+      "doneWhen": [
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "👂",
+      "word": "耳朵",
+      "pinyin": "ěrduo",
+      "vi": "tai"
+    },
+    {
+      "emoji": "🦵",
+      "word": "腿",
+      "pinyin": "tuǐ",
+      "vi": "chân"
+    },
+    {
+      "emoji": "🤒",
+      "word": "发烧",
+      "pinyin": "fāshāo",
+      "vi": "sốt"
+    },
+    {
+      "emoji": "🛌",
+      "word": "病人",
+      "pinyin": "bìngrén",
+      "vi": "bệnh nhân"
+    },
+    {
+      "emoji": "🤧",
+      "word": "感冒",
+      "pinyin": "gǎnmào",
+      "vi": "cảm"
+    },
+    {
+      "emoji": "🍔",
+      "word": "胖",
+      "pinyin": "pàng",
+      "vi": "béo"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà thi đấu của trường, Lý Văn gặp Trần Thiên Trung.",
+      "scene": "🏸",
+      "audio": "audio/hsk3/8-1.mp3",
+      "vocabAudio": "audio/hsk3/8-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao ngày nào Thiên Trung cũng tập thể thao?",
+          "options": [
+            "他喜欢跑步",
+            "他要学打羽毛球",
+            "他不想再胖下去了"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Lý Văn định dạy Thiên Trung gì?",
+          "options": [
+            "跑步",
+            "打篮球",
+            "打羽毛球"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "天中，最近常看见你来体育馆。",
+          "vi": "Thiên Trung, dạo này hay thấy cậu đến nhà thi đấu.",
+          "t": 0.47
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我每天下午都来跑一个小时步。",
+          "vi": "Chiều nào mình cũng đến chạy bộ một tiếng.",
+          "t": 4.15
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你的运动习惯真不错。",
+          "vi": "Thói quen tập thể thao của cậu tốt thật.",
+          "t": 9.08
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "因为我今年胖了十多斤，不能再胖下去了，有点儿不健康。",
+          "vi": "Vì năm nay mình béo thêm hơn năm cân, không thể béo thêm nữa, hơi không khoẻ.",
+          "t": 11.38
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我下课以后常去打羽毛球，你也来玩吧。",
+          "vi": "Tan học mình hay đi đánh cầu lông, cậu cũng đến chơi đi.",
+          "t": 18.97
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我知道，但是你们的水平太高了，我打得不怎么样。",
+          "vi": "Mình biết, nhưng các cậu chơi giỏi quá, mình đánh chẳng ra sao.",
+          "t": 24.56
+        },
+        {
+          "speaker": "liwen",
+          "zh": "没关系，我可以教你。",
+          "vi": "Không sao, mình dạy cậu.",
+          "t": 30.51
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "最近",
+          "pinyin": "zuìjìn",
+          "pos": "n.",
+          "vi": "gần đây, dạo này",
+          "example": {
+            "zh": "你最近忙吗？",
+            "vi": "Dạo này bạn có bận không?"
+          }
+        },
+        {
+          "zh": "常",
+          "pinyin": "cháng",
+          "pos": "adv.",
+          "vi": "thường, hay",
+          "example": {
+            "zh": "我常去那家饭馆。",
+            "vi": "Tôi hay đến quán đó."
+          }
+        },
+        {
+          "zh": "体育馆",
+          "pinyin": "tǐyùguǎn",
+          "pos": "n.",
+          "vi": "nhà thi đấu",
+          "example": {
+            "zh": "我们在体育馆打球。",
+            "vi": "Chúng tôi chơi bóng ở nhà thi đấu."
+          }
+        },
+        {
+          "zh": "习惯",
+          "pinyin": "xíguàn",
+          "pos": "n./v.",
+          "vi": "thói quen; quen",
+          "example": {
+            "zh": "早睡早起是好习惯。",
+            "vi": "Ngủ sớm dậy sớm là thói quen tốt."
+          }
+        },
+        {
+          "zh": "胖",
+          "pinyin": "pàng",
+          "pos": "adj.",
+          "vi": "béo",
+          "example": {
+            "zh": "我最近胖了。",
+            "vi": "Dạo này tôi béo lên."
+          }
+        },
+        {
+          "zh": "健康",
+          "pinyin": "jiànkāng",
+          "pos": "adj.",
+          "vi": "khoẻ mạnh",
+          "example": {
+            "zh": "祝你身体健康！",
+            "vi": "Chúc bạn mạnh khoẻ!"
+          }
+        },
+        {
+          "zh": "以后",
+          "pinyin": "yǐhòu",
+          "pos": "n.",
+          "vi": "sau khi; sau này",
+          "example": {
+            "zh": "下课以后我去打球。",
+            "vi": "Tan học xong tôi đi chơi bóng."
+          }
+        },
+        {
+          "zh": "羽毛球",
+          "pinyin": "yǔmáoqiú",
+          "pos": "n.",
+          "vi": "cầu lông",
+          "example": {
+            "zh": "你会打羽毛球吗？",
+            "vi": "Bạn biết đánh cầu lông không?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g8-1",
+          "title_zh": "趋向补语的引申用法（1）",
+          "title_vi": "Nghĩa mở rộng của bổ ngữ xu hướng (1): 下去 = tiếp tục",
+          "formula": [
+            [
+              {
+                "zh": "不能再",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "胖",
+                "label": "Động từ / tính từ",
+                "role": "V"
+              },
+              {
+                "zh": "下去",
+                "label": "tiếp tục",
+                "role": "ADV"
+              },
+              {
+                "zh": "了",
+                "label": "",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "下去 đặt sau động từ hoặc tính từ không còn nghĩa “đi xuống” nữa, mà nghĩa là một hành động hay trạng thái đã bắt đầu sẽ TIẾP TỤC: 胖下去 = cứ tiếp tục béo lên, 读下去 = đọc tiếp. Tiếng Việt hay nói “… tiếp”, “… mãi”.",
+          "examples": [
+            {
+              "zh": "我今年胖了十多斤，不能再胖下去了。",
+              "vi": "Năm nay tôi béo thêm hơn năm cân, không thể béo thêm nữa."
+            },
+            {
+              "zh": "她读完了第一个问题，后面的你读下去。",
+              "vi": "Cô ấy đọc xong câu đầu rồi, phần sau bạn đọc tiếp đi."
+            },
+            {
+              "zh": "这几天太热了，如果再热下去就不能出门了。",
+              "vi": "Mấy hôm nay nóng quá, nếu cứ nóng mãi thế này thì không ra đường được."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你下去读吧。（muốn nói: bạn đọc tiếp đi）",
+              "right": "你读下去吧。",
+              "why_vi": "下去 nghĩa “tiếp tục” đặt SAU động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cuốn sách này hay quá, tôi muốn đọc tiếp.”",
+              "options": [
+                "这本书太有意思了，我想看下去。",
+                "这本书太有意思了，我想下去看。",
+                "这本书太有意思了，我下去想看。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "不怎么样 = chẳng ra sao, bình thường thôi – cách nói khiêm tốn khi được khen hoặc tự đánh giá."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong lớp học, Annie hỏi thăm Trần Thiên Trung.",
+      "scene": "🤒",
+      "audio": "audio/hsk3/8-3.mp3",
+      "vocabAudio": "audio/hsk3/8-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Thiên Trung bị làm sao?",
+          "options": [
+            "头疼",
+            "发高烧",
+            "耳朵不舒服"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Nếu chiều vẫn còn sốt thì phải làm gì?",
+          "options": [
+            "去看医生",
+            "吃点儿药",
+            "回家休息"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "你怎么了？看上去有点儿不舒服。",
+          "vi": "Cậu sao thế? Trông có vẻ không được khoẻ.",
+          "t": 0.26
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "昨天游完泳以后，耳朵一直有点儿疼。",
+          "vi": "Hôm qua bơi xong, tai cứ hơi đau suốt.",
+          "t": 4.74
+        },
+        {
+          "speaker": "anni",
+          "zh": "是不是感冒了？发烧吗？",
+          "vi": "Có phải bị cảm không? Có sốt không?",
+          "t": 9.64
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "好像发低烧了。",
+          "vi": "Hình như sốt nhẹ.",
+          "t": 12.81
+        },
+        {
+          "speaker": "anni",
+          "zh": "我送你去医院，让医生检查一下吧。",
+          "vi": "Mình đưa cậu đi bệnh viện, để bác sĩ khám cho.",
+          "t": 15.42
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我先回去睡一觉，可能休息休息就好了。",
+          "vi": "Mình về ngủ một giấc trước đã, có khi nghỉ ngơi là khỏi.",
+          "t": 20.42
+        },
+        {
+          "speaker": "anni",
+          "zh": "好吧，如果下午还发烧，就一定要去看医生。",
+          "vi": "Thôi được, nếu chiều vẫn sốt thì nhất định phải đi khám.",
+          "t": 25.33
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "谢谢关心，我会注意的。",
+          "vi": "Cảm ơn cậu quan tâm, mình sẽ chú ý.",
+          "t": 31.32
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "耳朵",
+          "pinyin": "ěrduo",
+          "pos": "n.",
+          "vi": "tai",
+          "example": {
+            "zh": "我的耳朵有点儿疼。",
+            "vi": "Tai tôi hơi đau."
+          }
+        },
+        {
+          "zh": "感冒",
+          "pinyin": "gǎnmào",
+          "pos": "v./n.",
+          "vi": "bị cảm; cảm cúm",
+          "example": {
+            "zh": "我感冒了。",
+            "vi": "Tôi bị cảm rồi."
+          }
+        },
+        {
+          "zh": "发烧",
+          "pinyin": "fāshāo",
+          "pos": "v.",
+          "vi": "sốt",
+          "example": {
+            "zh": "孩子发烧了。",
+            "vi": "Đứa bé bị sốt."
+          }
+        },
+        {
+          "zh": "低",
+          "pinyin": "dī",
+          "pos": "adj.",
+          "vi": "thấp",
+          "example": {
+            "zh": "今天气温很低。",
+            "vi": "Hôm nay nhiệt độ rất thấp."
+          }
+        },
+        {
+          "zh": "关心",
+          "pinyin": "guānxīn",
+          "pos": "v.",
+          "vi": "quan tâm",
+          "example": {
+            "zh": "谢谢你的关心。",
+            "vi": "Cảm ơn sự quan tâm của bạn."
+          }
+        },
+        {
+          "zh": "注意",
+          "pinyin": "zhùyì",
+          "pos": "v.",
+          "vi": "chú ý",
+          "example": {
+            "zh": "注意身体！",
+            "vi": "Giữ gìn sức khoẻ nhé!"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g8-2",
+          "title_zh": "离合词（2）",
+          "title_vi": "Từ ly hợp (2): bổ ngữ đặt vào giữa",
+          "formula": [
+            [
+              {
+                "zh": "游",
+                "label": "Phần động từ",
+                "role": "V"
+              },
+              {
+                "zh": "完",
+                "label": "Bổ ngữ",
+                "role": "ADV"
+              },
+              {
+                "zh": "泳",
+                "label": "Phần tân ngữ",
+                "role": "O"
+              }
+            ],
+            [
+              {
+                "zh": "跑",
+                "label": "Phần động từ",
+                "role": "V"
+              },
+              {
+                "zh": "一个小时",
+                "label": "Thời lượng",
+                "role": "N"
+              },
+              {
+                "zh": "步",
+                "label": "Phần tân ngữ",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Từ ly hợp (游泳, 跑步, 下雨, 结婚, 睡觉…) gồm “động từ + tân ngữ”, không mang thêm tân ngữ trực tiếp. Bổ ngữ (完, 了, số lần, thời lượng) đặt VÀO GIỮA hai phần: 游完泳, 跑一个小时步, 下了两次雨. Muốn nói với ai thì dùng 跟: 跟他结婚, không nói 结婚他.",
+          "examples": [
+            {
+              "zh": "昨天游完泳以后，我的耳朵一直有点儿疼。",
+              "vi": "Hôm qua bơi xong, tai tôi cứ hơi đau suốt."
+            },
+            {
+              "zh": "今年夏天只下了两次雨。",
+              "vi": "Mùa hè năm nay chỉ mưa có hai trận."
+            },
+            {
+              "zh": "小张下个月跟他女朋友结婚。",
+              "vi": "Tháng sau Tiểu Trương cưới bạn gái."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我游泳完了。",
+              "right": "我游完泳了。",
+              "why_vi": "Bổ ngữ 完 đặt giữa 游 và 泳."
+            },
+            {
+              "wrong": "他结婚她了。",
+              "right": "他跟她结婚了。",
+              "why_vi": "结婚 không mang tân ngữ trực tiếp, dùng 跟 + người."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi ngủ ba tiếng.”",
+              "options": [
+                "我睡了三个小时觉。",
+                "我睡觉了三个小时。",
+                "我三个小时睡觉了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "发低烧 = sốt nhẹ, 发高烧 = sốt cao. Đến bệnh viện có thể nói: 医生，我发烧了。"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở phòng bệnh, Annie đến thăm Trần Thiên Trung.",
+      "scene": "🏥",
+      "audio": "audio/hsk3/8-5.mp3",
+      "vocabAudio": "audio/hsk3/8-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lần trước Thiên Trung đến bệnh viện là khi nào?",
+          "options": [
+            "几个星期前",
+            "一个月前",
+            "两年前"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao Thiên Trung thấy vui hơn nhiều?",
+          "options": [
+            "有人来看他",
+            "他的腿不疼了",
+            "马上就能回家了"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "你怎么突然住院了？大家都很担心你。",
+          "vi": "Sao tự nhiên cậu lại nằm viện? Mọi người đều rất lo cho cậu.",
+          "t": 0.52
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我的腿疼了几个星期了，医生说需要住院做检查。",
+          "vi": "Chân mình đau mấy tuần rồi, bác sĩ bảo phải nằm viện để kiểm tra.",
+          "t": 5.18
+        },
+        {
+          "speaker": "anni",
+          "zh": "你看起来一点儿也不像病人。",
+          "vi": "Trông cậu chẳng giống người bệnh chút nào.",
+          "t": 11.36
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "是啊，我很少生病。我上次来医院已经过去差不多两年了。",
+          "vi": "Đúng vậy, mình ít khi ốm. Lần trước mình vào viện đã gần hai năm rồi.",
+          "t": 14.96
+        },
+        {
+          "speaker": "anni",
+          "zh": "你每天跑步，有时候还去游泳，是不是运动太多了？",
+          "vi": "Ngày nào cậu cũng chạy bộ, có khi còn đi bơi, có phải tập nhiều quá không?",
+          "t": 21.71
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "医生也这么说，但是还得做完检查才能知道。",
+          "vi": "Bác sĩ cũng nói vậy, nhưng phải kiểm tra xong mới biết được.",
+          "t": 28.35
+        },
+        {
+          "speaker": "anni",
+          "zh": "别担心！听医生的话，好好休息，你的腿一定能好。",
+          "vi": "Đừng lo! Nghe lời bác sĩ, nghỉ ngơi cho tốt, chân cậu nhất định sẽ khỏi.",
+          "t": 33.89
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "谢谢。有人来看我，我就开心多了。",
+          "vi": "Cảm ơn cậu. Có người đến thăm, mình vui hơn nhiều.",
+          "t": 40.5
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "突然",
+          "pinyin": "tūrán",
+          "pos": "adj.",
+          "vi": "đột nhiên, bất ngờ",
+          "example": {
+            "zh": "外面突然下雨了。",
+            "vi": "Bên ngoài đột nhiên mưa."
+          }
+        },
+        {
+          "zh": "住院",
+          "pinyin": "zhùyuàn",
+          "pos": "v.",
+          "vi": "nằm viện",
+          "example": {
+            "zh": "他住院一个星期了。",
+            "vi": "Anh ấy nằm viện một tuần rồi."
+          }
+        },
+        {
+          "zh": "担心",
+          "pinyin": "dānxīn",
+          "pos": "v.",
+          "vi": "lo lắng",
+          "example": {
+            "zh": "别担心，我很好。",
+            "vi": "Đừng lo, tôi rất khoẻ."
+          }
+        },
+        {
+          "zh": "腿",
+          "pinyin": "tuǐ",
+          "pos": "n.",
+          "vi": "chân",
+          "example": {
+            "zh": "我的腿有点儿疼。",
+            "vi": "Chân tôi hơi đau."
+          }
+        },
+        {
+          "zh": "病人",
+          "pinyin": "bìngrén",
+          "pos": "n.",
+          "vi": "bệnh nhân",
+          "example": {
+            "zh": "医生在给病人检查。",
+            "vi": "Bác sĩ đang khám cho bệnh nhân."
+          }
+        },
+        {
+          "zh": "差不多",
+          "pinyin": "chàbuduō",
+          "pos": "adv./adj.",
+          "vi": "gần như, xấp xỉ; na ná",
+          "example": {
+            "zh": "我们差不多高。",
+            "vi": "Chúng tôi cao xấp xỉ nhau."
+          }
+        },
+        {
+          "zh": "得",
+          "pinyin": "děi",
+          "pos": "mod.",
+          "vi": "phải, cần",
+          "example": {
+            "zh": "我得走了。",
+            "vi": "Tôi phải đi rồi."
+          }
+        },
+        {
+          "zh": "开心",
+          "pinyin": "kāixīn",
+          "pos": "adj.",
+          "vi": "vui vẻ",
+          "example": {
+            "zh": "今天我很开心。",
+            "vi": "Hôm nay tôi rất vui."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g8-3",
+          "title_zh": "时量补语（2）",
+          "title_vi": "Bổ ngữ thời lượng (2): (từ khi… đến nay) đã bao lâu",
+          "formula": [
+            [
+              {
+                "zh": "她",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "回家",
+                "label": "Động từ không kéo dài",
+                "role": "V"
+              },
+              {
+                "zh": "两个月",
+                "label": "Khoảng thời gian",
+                "role": "N"
+              },
+              {
+                "zh": "了",
+                "label": "",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "Ở HSK 2 bạn đã học bổ ngữ thời lượng cho hành động KÉO DÀI (学了两年). Với những động từ không kéo dài được (来, 回家, 开学, 结婚, 毕业…), thời lượng phía sau cho biết từ lúc hành động xảy ra đến giờ đã bao lâu: 她回家两个月了 = cô ấy về nhà được hai tháng rồi (không phải đi đường hai tháng).",
+          "examples": [
+            {
+              "zh": "我上次来医院已经过去差不多两年了。",
+              "vi": "Lần trước tôi vào viện đã gần hai năm rồi."
+            },
+            {
+              "zh": "她回家两个月了。",
+              "vi": "Cô ấy về nhà được hai tháng rồi."
+            },
+            {
+              "zh": "开学已经三个多星期了。",
+              "vi": "Khai giảng đã hơn ba tuần rồi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我来中国了一年。（muốn nói: đến Trung Quốc được một năm rồi）",
+              "right": "我来中国一年了。",
+              "why_vi": "Thời lượng đứng sau tân ngữ, 了 ở cuối câu."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Họ cưới nhau được năm năm rồi.”",
+              "options": [
+                "他们结婚五年了。",
+                "他们五年结婚了。",
+                "他们结婚了五年过。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "得 có ba cách đọc: de (跑得快), dé (得到), děi (phải): 还得做完检查 = còn phải kiểm tra xong."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Trần Thiên Trung uống thuốc và nghỉ ngơi.",
+      "scene": "💊",
+      "audio": "audio/hsk3/8-7.mp3",
+      "vocabAudio": "audio/hsk3/8-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Thiên Trung bây giờ thế nào?",
+          "options": [
+            "出院了",
+            "病都好了",
+            "还不能回家"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Bác sĩ nói điều gì quan trọng nhất?",
+          "options": [
+            "多走路",
+            "多休息",
+            "吃药的方法"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "今天我出院了。",
+          "vi": "Hôm nay mình ra viện rồi.",
+          "t": 1.45
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "出院前，医生给我开了几种药，而且告诉了我吃药的方法。",
+          "vi": "Trước khi ra viện, bác sĩ kê cho mình mấy loại thuốc, còn dặn cách uống.",
+          "t": 3.56
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "有一种药需要每天睡前吃一次，其他几种每天吃三次，饭后吃。",
+          "vi": "Có một loại mỗi ngày uống một lần trước khi ngủ, mấy loại khác mỗi ngày uống ba lần sau bữa ăn.",
+          "t": 9.95
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "除了吃药，医生还说最重要的是多休息。",
+          "vi": "Ngoài uống thuốc, bác sĩ còn nói quan trọng nhất là nghỉ ngơi nhiều.",
+          "t": 18.69
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我都记在心里了，回家以后一定会多注意。希望我的腿能快一点儿好。",
+          "vi": "Mình ghi nhớ hết rồi, về nhà nhất định sẽ chú ý. Mong chân mình mau khỏi.",
+          "t": 23.72
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "出院",
+          "pinyin": "chūyuàn",
+          "pos": "v.",
+          "vi": "ra viện",
+          "example": {
+            "zh": "他明天就能出院了。",
+            "vi": "Mai anh ấy ra viện được rồi."
+          }
+        },
+        {
+          "zh": "开",
+          "pinyin": "kāi",
+          "pos": "v.",
+          "vi": "kê (đơn thuốc)",
+          "example": {
+            "zh": "医生给我开了药。",
+            "vi": "Bác sĩ kê thuốc cho tôi."
+          }
+        },
+        {
+          "zh": "种",
+          "pinyin": "zhǒng",
+          "pos": "m.",
+          "vi": "loại, kiểu",
+          "example": {
+            "zh": "这种水果很甜。",
+            "vi": "Loại quả này rất ngọt."
+          }
+        },
+        {
+          "zh": "方法",
+          "pinyin": "fāngfǎ",
+          "pos": "n.",
+          "vi": "phương pháp, cách",
+          "example": {
+            "zh": "你有什么好方法？",
+            "vi": "Bạn có cách gì hay không?"
+          }
+        },
+        {
+          "zh": "其他",
+          "pinyin": "qítā",
+          "pos": "pron.",
+          "vi": "khác",
+          "example": {
+            "zh": "其他人都走了。",
+            "vi": "Những người khác đi hết rồi."
+          }
+        },
+        {
+          "zh": "心里",
+          "pinyin": "xīnlǐ",
+          "pos": "n.",
+          "vi": "trong lòng",
+          "example": {
+            "zh": "我心里很高兴。",
+            "vi": "Trong lòng tôi rất vui."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g8-4",
+          "title_zh": "固定格式“……以前/以后/前/后”",
+          "title_vi": "“……以前/以后/前/后”: trước khi… / sau khi…",
+          "formula": [
+            [
+              {
+                "zh": "睡",
+                "label": "Thời gian / sự việc",
+                "role": "V"
+              },
+              {
+                "zh": "前",
+                "label": "以前 / 前: trước",
+                "role": "N"
+              },
+              {
+                "zh": "吃一次",
+                "label": "",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "考完试",
+                "label": "Thời gian / sự việc",
+                "role": "V"
+              },
+              {
+                "zh": "以后",
+                "label": "以后 / 后: sau",
+                "role": "N"
+              },
+              {
+                "zh": "，咱们一起去旅游吧",
+                "label": "",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Đặt 以前/前 hoặc 以后/后 SAU một mốc thời gian hay một sự việc để nói “trước khi…”, “sau khi…”: 睡前 = trước khi ngủ, 饭后 = sau bữa ăn. Khác tiếng Việt: tiếng Việt đặt “trước/sau” lên trước (“sau khi thi”), tiếng Trung đặt ra sau (考完试以后).",
+          "examples": [
+            {
+              "zh": "这种药需要每天睡前吃一次。",
+              "vi": "Loại thuốc này mỗi ngày uống một lần trước khi ngủ."
+            },
+            {
+              "zh": "我们决定下班后一起去看个电影。",
+              "vi": "Chúng tôi quyết định tan làm xong cùng đi xem phim."
+            },
+            {
+              "zh": "考完试以后，咱们一起去旅游吧。",
+              "vi": "Thi xong, mình cùng đi du lịch nhé."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "以后考完试，我们去旅游。",
+              "right": "考完试以后，我们去旅游。",
+              "why_vi": "以后 đặt SAU sự việc, không đặt trước như tiếng Việt."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Trước khi ăn cơm phải rửa tay.”",
+              "options": [
+                "吃饭前要洗手。",
+                "前吃饭要洗手。",
+                "吃前饭要洗手。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "记在心里 = ghi nhớ trong lòng, tức là nhớ kỹ lời dặn."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "李医生特别___病人。",
+      "bank": [
+        "关心",
+        "开",
+        "种"
+      ],
+      "answer": "关心"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "医生说你下个星期___回来检查一下。",
+      "bank": [
+        "得",
+        "种",
+        "方法"
+      ],
+      "answer": "得"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "您一直很健康，有什么好的锻炼___吗？",
+      "bank": [
+        "方法",
+        "关心",
+        "得"
+      ],
+      "answer": "方法"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "如果你的病好了，医生就不会给你___药了。",
+      "bank": [
+        "开",
+        "种",
+        "关心"
+      ],
+      "answer": "开"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "感冒的时候能吃这___药吗？你再问一下医生。",
+      "bank": [
+        "种",
+        "开",
+        "方法"
+      ],
+      "answer": "种"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "下去",
+        "不能",
+        "再胖",
+        "了",
+        "我"
+      ],
+      "answers": [
+        "我不能再胖下去了"
+      ],
+      "vi": "Tôi không thể béo thêm nữa.",
+      "explain_vi": "Tính từ + 下去 = tiếp tục."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "完",
+        "我",
+        "泳",
+        "游",
+        "了"
+      ],
+      "answers": [
+        "我游完泳了"
+      ],
+      "vi": "Tôi bơi xong rồi.",
+      "explain_vi": "Từ ly hợp: 游 + 完 + 泳."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "发烧",
+      "options": [
+        {
+          "emoji": "🤒",
+          "label": "Sốt"
+        },
+        {
+          "emoji": "👂",
+          "label": "Tai"
+        },
+        {
+          "emoji": "🏸",
+          "label": "Cầu lông"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我上次来医院已经过去差不多两年了。",
+      "emoji": "🏥",
+      "statement_vi": "Người nói tháng trước vừa đến bệnh viện.",
+      "answer": false,
+      "explain_vi": "差不多两年了 = đã gần hai năm."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "💊🌙",
+      "sentence": "这种药每天睡___吃一次。",
+      "options": [
+        "前",
+        "里",
+        "上"
+      ],
+      "answer": 0,
+      "explain_vi": "睡前 = trước khi ngủ."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你怎么了？",
+          "a": "我耳朵有点儿疼。"
+        },
+        {
+          "q": "你什么时候能出院？",
+          "a": "可能后天，还要做几个检查。"
+        },
+        {
+          "q": "这些药怎么吃？",
+          "a": "每天吃三次，饭后吃。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Khám bệnh và dặn dò",
+    "steps_vi": [
+      "Làm theo cặp: một người là bác sĩ, một người là bệnh nhân.",
+      "Bệnh nhân kể triệu chứng và đã bị bao lâu: 我的腿疼了一个星期了.",
+      "Bác sĩ khám, kê thuốc và dặn cách uống bằng “饭前/饭后/睡前”.",
+      "Cuối cùng bác sĩ khuyên một thói quen tốt cho sức khoẻ."
+    ],
+    "patterns": [
+      {
+        "zh": "医生，我耳朵疼了好几天了。",
+        "vi": "Bác sĩ ơi, tai tôi đau mấy hôm rồi."
+      },
+      {
+        "zh": "我给你检查一下。",
+        "vi": "Để tôi khám cho anh."
+      },
+      {
+        "zh": "这种药每天吃三次，饭后吃。",
+        "vi": "Thuốc này mỗi ngày uống ba lần, sau bữa ăn."
+      },
+      {
+        "zh": "注意休息，别太累了。",
+        "vi": "Chú ý nghỉ ngơi, đừng làm việc quá sức."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Đi khám bệnh ở Trung Quốc",
+    "body_vi": [
+      "Ở bệnh viện Trung Quốc, việc đầu tiên là 挂号 (đăng ký khám, lấy số), sau đó chờ gọi tên vào phòng khám. Ngày nay hầu hết bệnh viện cho đặt lịch và thanh toán qua điện thoại.",
+      "Bác sĩ thường kê đơn rồi bệnh nhân ra quầy thuốc trong bệnh viện để lấy thuốc. Trên hộp thuốc ghi rõ 饭前 (trước bữa ăn), 饭后 (sau bữa ăn), 一日三次 (ngày ba lần).",
+      "Người Trung Quốc rất chú trọng 养生 (dưỡng sinh): ngủ sớm, uống nước ấm, tập thể dục buổi sáng ở công viên – khá giống thói quen của nhiều người lớn tuổi ở Việt Nam."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Đăng ký khám",
+          "挂号",
+          "guàhào"
+        ],
+        [
+          "Trước bữa ăn",
+          "饭前",
+          "fàn qián"
+        ],
+        [
+          "Sau bữa ăn",
+          "饭后",
+          "fàn hòu"
+        ],
+        [
+          "Nằm viện",
+          "住院",
+          "zhùyuàn"
+        ],
+        [
+          "Ra viện",
+          "出院",
+          "chūyuàn"
+        ],
+        [
+          "Dưỡng sinh",
+          "养生",
+          "yǎngshēng"
+        ]
+      ]
+    }
+  }
 }

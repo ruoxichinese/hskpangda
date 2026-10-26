@@ -1,41 +1,1111 @@
 {
   "id": 7,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "那条裙子比短裤更好看",
     "pinyin": "Nà tiáo qúnzi bǐ duǎnkù gèng hǎokàn",
-    "vi": "Chiếc váy đó đẹp hơn quần soóc"
+    "vi": "Cái váy kia đẹp hơn quần soóc"
   },
   "grammarTopics_vi": [
-    "Câu liên động (2)",
-    "Câu so sánh (10)",
-    "Bổ ngữ mức độ (3)",
-    "Câu tăng tiến 不但……，而且……"
+    "Câu liên động (2): động từ 1 + 着 + động từ 2",
+    "Câu so sánh (10): A 不比 B + tính từ",
+    "Bổ ngữ mức độ (3): tính từ + 极了",
+    "Câu tăng tiến “不但……，而且……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu liên động (2)",
-      "doneWhen": []
+      "vi": "Mua sắm: hỏi giá, mặc cả, chọn đồ phù hợp",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu so sánh (10)",
-      "doneWhen": []
+      "vi": "So sánh “không hơn bao nhiêu” bằng “A 不比 B”",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Bổ ngữ mức độ (3)",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Câu tăng tiến 不但……，而且……",
-      "doneWhen": []
+      "vi": "Nói “không những… mà còn…” bằng “不但……，而且……”",
+      "doneWhen": [
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🚲",
+      "word": "自行车",
+      "pinyin": "zìxíngchē",
+      "vi": "xe đạp"
+    },
+    {
+      "emoji": "👗",
+      "word": "裙子",
+      "pinyin": "qúnzi",
+      "vi": "váy"
+    },
+    {
+      "emoji": "🩳",
+      "word": "短裤",
+      "pinyin": "duǎnkù",
+      "vi": "quần soóc"
+    },
+    {
+      "emoji": "🍉",
+      "word": "西瓜",
+      "pinyin": "xīguā",
+      "vi": "dưa hấu"
+    },
+    {
+      "emoji": "🍌",
+      "word": "香蕉",
+      "pinyin": "xiāngjiāo",
+      "vi": "chuối"
+    },
+    {
+      "emoji": "📺",
+      "word": "电视",
+      "pinyin": "diànshì",
+      "vi": "tivi"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà, chị Vương Nhất Tuyết và anh Lưu Minh bàn chuyện đi mua sắm.",
+      "scene": "🚲",
+      "audio": "audio/hsk3/7-1.mp3",
+      "vocabAudio": "audio/hsk3/7-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Xe đạp của Tiểu Tuyết mua khi nào?",
+          "options": [
+            "昨天买的",
+            "今天买的",
+            "她八岁的时候买的"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Họ đi trung tâm thương mại bằng cách nào?",
+          "options": [
+            "走路",
+            "打车",
+            "骑自行车"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "这辆自行车是小雪八岁的时候买的，看起来有点儿旧了。",
+          "vi": "Chiếc xe đạp này mua hồi Tiểu Tuyết tám tuổi, trông hơi cũ rồi.",
+          "t": 0.96
+        },
+        {
+          "speaker": "liuming",
+          "zh": "是啊，她现在长高了，这辆车已经太矮了。",
+          "vi": "Đúng vậy, giờ con cao lớn rồi, chiếc xe này đã quá thấp.",
+          "t": 6.97
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "商场里开了一家自行车店，咱们给她买辆新的吧。",
+          "vi": "Trong trung tâm thương mại mới mở một cửa hàng xe đạp, mình mua cho con chiếc mới đi.",
+          "t": 13.03
+        },
+        {
+          "speaker": "liuming",
+          "zh": "好，咱们带小雪一起去，让她试一下。",
+          "vi": "Được, mình dẫn Tiểu Tuyết đi cùng, để con thử.",
+          "t": 18.52
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那今天就去吧！我也想再看看衣服。咱们怎么去？",
+          "vi": "Vậy hôm nay đi luôn đi! Em cũng muốn xem thêm quần áo. Mình đi bằng gì?",
+          "t": 23.74
+        },
+        {
+          "speaker": "liuming",
+          "zh": "商场不远，咱们可以走着去。",
+          "vi": "Trung tâm thương mại không xa, mình đi bộ qua được.",
+          "t": 30.35
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "辆",
+          "pinyin": "liàng",
+          "pos": "m.",
+          "vi": "chiếc (xe)",
+          "example": {
+            "zh": "一辆汽车",
+            "vi": "một chiếc ô tô"
+          }
+        },
+        {
+          "zh": "自行车",
+          "pinyin": "zìxíngchē",
+          "pos": "n.",
+          "vi": "xe đạp",
+          "example": {
+            "zh": "我每天骑自行车上学。",
+            "vi": "Ngày nào tôi cũng đạp xe đi học."
+          }
+        },
+        {
+          "zh": "旧",
+          "pinyin": "jiù",
+          "pos": "adj.",
+          "vi": "cũ",
+          "example": {
+            "zh": "这件衣服有点儿旧了。",
+            "vi": "Cái áo này hơi cũ rồi."
+          }
+        },
+        {
+          "zh": "矮",
+          "pinyin": "ǎi",
+          "pos": "adj.",
+          "vi": "thấp",
+          "example": {
+            "zh": "这张桌子太矮了。",
+            "vi": "Cái bàn này thấp quá."
+          }
+        },
+        {
+          "zh": "试",
+          "pinyin": "shì",
+          "pos": "v.",
+          "vi": "thử",
+          "example": {
+            "zh": "你试一下这件衣服。",
+            "vi": "Bạn thử cái áo này xem."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g7-1",
+          "title_zh": "连动句（2）",
+          "title_vi": "Câu liên động (2): động từ 1 + 着 + động từ 2",
+          "formula": [
+            [
+              {
+                "zh": "咱们",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "走",
+                "label": "Động từ 1 (cách thức)",
+                "role": "V"
+              },
+              {
+                "zh": "着",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "去",
+                "label": "Động từ 2 (hành động chính)",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "着 đặt sau động từ thứ nhất cho biết hành động thứ hai được làm trong trạng thái hay theo cách nào: 走着去 = đi bộ đi, 坐着看电视 = ngồi xem tivi. Tiếng Việt cũng ghép hai động từ như vậy (“ngồi xem”, “đi bộ đến”), nhưng tiếng Trung cần 着 ở giữa.",
+          "examples": [
+            {
+              "zh": "咱们可以走着去。",
+              "vi": "Mình có thể đi bộ qua."
+            },
+            {
+              "zh": "弟弟吃着苹果写作业。",
+              "vi": "Em trai vừa ăn táo vừa làm bài tập."
+            },
+            {
+              "zh": "他们坐着看电视。",
+              "vi": "Họ ngồi xem tivi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "他们看着坐电视。",
+              "right": "他们坐着看电视。",
+              "why_vi": "Động từ chỉ cách thức (坐) + 着 đứng trước, hành động chính (看电视) đứng sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Cô ấy đứng gọi điện thoại.”",
+              "options": [
+                "她站着打电话。",
+                "她打着站电话。",
+                "她站电话着打。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "长高了 = đã cao lớn. Ở đây 长 đọc là zhǎng (lớn lên), không phải cháng (dài)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở trung tâm thương mại, anh Lưu Minh và chị Nhất Tuyết mua xong xe đạp, đi chọn quần áo.",
+      "scene": "👗",
+      "audio": "audio/hsk3/7-3.mp3",
+      "vocabAudio": "audio/hsk3/7-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Theo bài, món nào đắt hơn?",
+          "options": [
+            "短裤",
+            "裙子",
+            "运动鞋"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Cuối cùng chị Nhất Tuyết quyết định thế nào?",
+          "options": [
+            "买裙子",
+            "买裤子",
+            "看看再说"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "你看我穿这条黄色的短裤好看吗？",
+          "vi": "Anh xem em mặc cái quần soóc màu vàng này có đẹp không?",
+          "t": 0.46
+        },
+        {
+          "speaker": "liuming",
+          "zh": "大小合适，但我觉得那条裙子比短裤更好看。",
+          "vi": "Vừa cỡ đấy, nhưng anh thấy cái váy kia đẹp hơn quần soóc.",
+          "t": 4.21
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "裙子比短裤贵一点儿。",
+          "vi": "Váy đắt hơn quần soóc một chút.",
+          "t": 9.83
+        },
+        {
+          "speaker": "liuming",
+          "zh": "贵多少？",
+          "vi": "Đắt hơn bao nhiêu?",
+          "t": 14.19
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "裙子480，短裤400。",
+          "vi": "Váy 480, quần soóc 400.",
+          "t": 15.02
+        },
+        {
+          "speaker": "liuming",
+          "zh": "裙子不比短裤贵多少，还是买裙子吧，你穿裙子更好看。",
+          "vi": "Váy cũng không đắt hơn quần soóc là mấy, mua váy đi, em mặc váy đẹp hơn.",
+          "t": 16.16
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我多看看再决定。你看，那边有买二送一！",
+          "vi": "Em xem thêm rồi quyết định. Anh xem, đằng kia có mua hai tặng một!",
+          "t": 25.16
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "黄色",
+          "pinyin": "huángsè",
+          "pos": "n.",
+          "vi": "màu vàng",
+          "example": {
+            "zh": "我喜欢黄色的衣服。",
+            "vi": "Tôi thích quần áo màu vàng."
+          }
+        },
+        {
+          "zh": "短裤",
+          "pinyin": "duǎnkù",
+          "pos": "n.",
+          "vi": "quần soóc",
+          "example": {
+            "zh": "夏天我经常穿短裤。",
+            "vi": "Mùa hè tôi hay mặc quần soóc."
+          }
+        },
+        {
+          "zh": "大小",
+          "pinyin": "dàxiǎo",
+          "pos": "n.",
+          "vi": "kích cỡ",
+          "example": {
+            "zh": "这双鞋大小怎么样？",
+            "vi": "Đôi giày này cỡ thế nào?"
+          }
+        },
+        {
+          "zh": "合适",
+          "pinyin": "héshì",
+          "pos": "adj.",
+          "vi": "vừa, phù hợp",
+          "example": {
+            "zh": "这件衣服很合适。",
+            "vi": "Cái áo này rất vừa."
+          }
+        },
+        {
+          "zh": "裙子",
+          "pinyin": "qúnzi",
+          "pos": "n.",
+          "vi": "váy",
+          "example": {
+            "zh": "她穿着一条红裙子。",
+            "vi": "Cô ấy mặc một chiếc váy đỏ."
+          }
+        },
+        {
+          "zh": "更",
+          "pinyin": "gèng",
+          "pos": "adv.",
+          "vi": "càng, hơn",
+          "example": {
+            "zh": "这个更便宜。",
+            "vi": "Cái này rẻ hơn."
+          }
+        },
+        {
+          "zh": "决定",
+          "pinyin": "juédìng",
+          "pos": "v./n.",
+          "vi": "quyết định",
+          "example": {
+            "zh": "你决定了吗？",
+            "vi": "Bạn quyết định chưa?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g7-2",
+          "title_zh": "比较句（10）",
+          "title_vi": "Câu so sánh (10): A 不比 B + tính từ",
+          "formula": [
+            [
+              {
+                "zh": "裙子",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "不比",
+                "label": "không hơn",
+                "role": "ADV"
+              },
+              {
+                "zh": "短裤",
+                "label": "B",
+                "role": "O"
+              },
+              {
+                "zh": "贵（多少）",
+                "label": "Tính từ",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "A 不比 B + tính từ nghĩa là A và B gần như ngang nhau, A không hơn B là mấy. Thường dùng để nhấn mạnh hai bên gần bằng nhau, hoặc để bác lại lời người khác. Khác với A 没有 B (A không bằng B) đã học ở HSK 2.",
+          "examples": [
+            {
+              "zh": "裙子不比短裤贵多少。",
+              "vi": "Váy không đắt hơn quần soóc là mấy."
+            },
+            {
+              "zh": "他的中文不比你好。",
+              "vi": "Tiếng Trung của anh ấy cũng chẳng giỏi hơn bạn."
+            },
+            {
+              "zh": "他跑得不比我快多少。",
+              "vi": "Anh ấy chạy cũng không nhanh hơn tôi là mấy."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "裙子比短裤不贵。",
+              "right": "裙子不比短裤贵。",
+              "why_vi": "不 đứng trước 比, không đứng trước tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay cũng chẳng lạnh hơn hôm qua.”",
+              "options": [
+                "今天不比昨天冷。",
+                "今天比昨天不冷。",
+                "今天不冷比昨天。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "买二送一 = mua hai tặng một – cách nói khuyến mãi rất hay gặp ở cửa hàng Trung Quốc."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở cửa hàng, chị Vương Nhất Tuyết đang mua hoa quả.",
+      "scene": "🍉",
+      "audio": "audio/hsk3/7-5.mp3",
+      "vocabAudio": "audio/hsk3/7-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết mua gì?",
+          "options": [
+            "苹果",
+            "牛奶",
+            "西瓜和香蕉"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Số hoa quả này chị trả tổng cộng bao nhiêu?",
+          "options": [
+            "五十五块",
+            "五十八块",
+            "五十八块五毛"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "dianyuan",
+          "zh": "西瓜又大又新鲜，不甜不要钱！",
+          "vi": "Dưa hấu vừa to vừa tươi, không ngọt không lấy tiền!",
+          "t": 0.59
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "西瓜看起来不错，怎么卖？",
+          "vi": "Dưa hấu trông được đấy, bán thế nào?",
+          "t": 5.09
+        },
+        {
+          "speaker": "dianyuan",
+          "zh": "五块钱一公斤。来，您先尝尝这块冰西瓜，甜极了！",
+          "vi": "Năm tệ một cân. Nào, chị nếm thử miếng dưa ướp lạnh này trước, ngọt cực!",
+          "t": 8.72
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "是挺甜的！帮我选个大点儿的，再来两斤香蕉。",
+          "vi": "Ngọt thật! Chọn giúp tôi quả to to, lấy thêm hai cân chuối.",
+          "t": 15.12
+        },
+        {
+          "speaker": "dianyuan",
+          "zh": "一共五十八块五毛。",
+          "vi": "Tổng cộng năm mươi tám tệ năm hào.",
+          "t": 20.81
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我买了这么多，便宜点儿吧。",
+          "vi": "Tôi mua nhiều thế này, bớt chút đi.",
+          "t": 24.03
+        },
+        {
+          "speaker": "dianyuan",
+          "zh": "您给我五十五吧，不能再便宜了。",
+          "vi": "Chị đưa tôi năm mươi lăm thôi, không bớt được nữa đâu.",
+          "t": 27.65
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "西瓜",
+          "pinyin": "xīguā",
+          "pos": "n.",
+          "vi": "dưa hấu",
+          "example": {
+            "zh": "夏天我喜欢吃西瓜。",
+            "vi": "Mùa hè tôi thích ăn dưa hấu."
+          }
+        },
+        {
+          "zh": "新鲜",
+          "pinyin": "xīnxiān",
+          "pos": "adj.",
+          "vi": "tươi",
+          "example": {
+            "zh": "这些水果很新鲜。",
+            "vi": "Hoa quả này rất tươi."
+          }
+        },
+        {
+          "zh": "甜",
+          "pinyin": "tián",
+          "pos": "adj.",
+          "vi": "ngọt",
+          "example": {
+            "zh": "这个苹果很甜。",
+            "vi": "Quả táo này rất ngọt."
+          }
+        },
+        {
+          "zh": "公斤",
+          "pinyin": "gōngjīn",
+          "pos": "m.",
+          "vi": "kilôgam, cân",
+          "example": {
+            "zh": "苹果十块钱一公斤。",
+            "vi": "Táo mười tệ một cân."
+          }
+        },
+        {
+          "zh": "冰",
+          "pinyin": "bīng",
+          "pos": "v./n.",
+          "vi": "ướp lạnh; đá",
+          "example": {
+            "zh": "我想喝冰咖啡。",
+            "vi": "Tôi muốn uống cà phê đá."
+          }
+        },
+        {
+          "zh": "极",
+          "pinyin": "jí",
+          "pos": "adv.",
+          "vi": "cực kỳ",
+          "example": {
+            "zh": "好极了！",
+            "vi": "Tuyệt vời!"
+          }
+        },
+        {
+          "zh": "斤",
+          "pinyin": "jīn",
+          "pos": "m.",
+          "vi": "cân (nửa kilôgam)",
+          "example": {
+            "zh": "我要两斤香蕉。",
+            "vi": "Tôi lấy hai cân chuối."
+          }
+        },
+        {
+          "zh": "香蕉",
+          "pinyin": "xiāngjiāo",
+          "pos": "n.",
+          "vi": "chuối",
+          "example": {
+            "zh": "香蕉多少钱一斤？",
+            "vi": "Chuối bao nhiêu tiền một cân?"
+          }
+        },
+        {
+          "zh": "一共",
+          "pinyin": "yígòng",
+          "pos": "adv.",
+          "vi": "tổng cộng",
+          "example": {
+            "zh": "一共多少钱？",
+            "vi": "Tổng cộng bao nhiêu tiền?"
+          }
+        },
+        {
+          "zh": "毛",
+          "pinyin": "máo",
+          "pos": "m.",
+          "vi": "hào (1/10 tệ)",
+          "example": {
+            "zh": "五块五毛",
+            "vi": "năm tệ năm hào"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g7-3",
+          "title_zh": "程度补语（3）",
+          "title_vi": "Bổ ngữ mức độ (3): tính từ + 极了",
+          "formula": [
+            [
+              {
+                "zh": "这块冰西瓜",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "甜",
+                "label": "Tính từ / động từ tâm lý",
+                "role": "ATTR"
+              },
+              {
+                "zh": "极了",
+                "label": "cực kỳ",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "极了 đặt SAU tính từ hoặc động từ tâm lý (喜欢, 想…), nói mức độ cao nhất – giống “cực kỳ”, “… quá đi mất” trong tiếng Việt. Mạnh hơn 得很 ở bài 5. Đã dùng 极了 thì không thêm 很 phía trước.",
+          "examples": [
+            {
+              "zh": "这块冰西瓜甜极了。",
+              "vi": "Miếng dưa ướp lạnh này ngọt cực."
+            },
+            {
+              "zh": "今年夏天热极了。",
+              "vi": "Mùa hè năm nay nóng kinh khủng."
+            },
+            {
+              "zh": "这本书我喜欢极了。",
+              "vi": "Cuốn sách này tôi thích vô cùng."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "西瓜很甜极了。",
+              "right": "西瓜甜极了。",
+              "why_vi": "Đã có 极了 thì bỏ 很."
+            },
+            {
+              "wrong": "西瓜极了甜。",
+              "right": "西瓜甜极了。",
+              "why_vi": "极了 đứng sau tính từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay tôi mệt cực kỳ.”",
+              "options": [
+                "今天我累极了。",
+                "今天我极了累。",
+                "今天我很累极了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "不甜不要钱 = (nếu) không ngọt (thì) không lấy tiền – câu rao hàng quen thuộc, lược bỏ 如果……就…… (bài 6)."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, anh Lưu Minh đang xem tivi.",
+      "scene": "📺",
+      "audio": "audio/hsk3/7-7.mp3",
+      "vocabAudio": "audio/hsk3/7-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Anh Lưu Minh phát hiện vấn đề mới gì?",
+          "options": [
+            "电视太旧了",
+            "房子太大了",
+            "电视有点儿小"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Khi chọn tivi, anh phát hiện điều gì?",
+          "options": [
+            "新电视很方便",
+            "新电视不便宜",
+            "不能在网上选电视"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuming",
+          "zh": "这几天我们在新家坐着看电视的时候，又发现了新问题。",
+          "vi": "Mấy hôm nay, lúc ngồi xem tivi ở nhà mới, bọn mình lại phát hiện ra vấn đề mới.",
+          "t": 0
+        },
+        {
+          "speaker": "liuming",
+          "zh": "房子大了，电视看起来就有点儿小。",
+          "vi": "Nhà rộng ra nên tivi trông hơi nhỏ.",
+          "t": 6.77
+        },
+        {
+          "speaker": "liuming",
+          "zh": "这个电视是我们结婚时买的，是时候换个新电视了。",
+          "vi": "Cái tivi này mua từ hồi bọn mình cưới, đến lúc đổi tivi mới rồi.",
+          "t": 10.98
+        },
+        {
+          "speaker": "liuming",
+          "zh": "今天我一直在网上选电视，没想到，现在的电视不但便宜，而且用着非常方便，有的电视叫它一声就能开机。",
+          "vi": "Hôm nay mình chọn tivi trên mạng suốt, không ngờ tivi bây giờ không những rẻ mà dùng còn rất tiện, có cái gọi một tiếng là tự bật.",
+          "t": 17.29
+        },
+        {
+          "speaker": "liuming",
+          "zh": "我看了好几个，都很满意，晚上让一雪来决定吧。",
+          "vi": "Mình xem mấy cái đều ưng, tối để Nhất Tuyết quyết định vậy.",
+          "t": 30.22
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "结婚",
+          "pinyin": "jiéhūn",
+          "pos": "v.",
+          "vi": "kết hôn, cưới",
+          "example": {
+            "zh": "他们去年结婚了。",
+            "vi": "Họ cưới nhau năm ngoái."
+          }
+        },
+        {
+          "zh": "不但",
+          "pinyin": "búdàn",
+          "pos": "conj.",
+          "vi": "không những",
+          "example": {
+            "zh": "他不但会唱歌，而且会跳舞。",
+            "vi": "Anh ấy không những biết hát mà còn biết nhảy."
+          }
+        },
+        {
+          "zh": "而且",
+          "pinyin": "érqiě",
+          "pos": "conj.",
+          "vi": "mà còn, hơn nữa",
+          "example": {
+            "zh": "这里很便宜，而且很干净。",
+            "vi": "Ở đây rẻ, hơn nữa rất sạch."
+          }
+        },
+        {
+          "zh": "声",
+          "pinyin": "shēng",
+          "pos": "m./n.",
+          "vi": "tiếng (lượng từ); âm thanh",
+          "example": {
+            "zh": "你走的时候叫我一声。",
+            "vi": "Lúc bạn đi gọi tôi một tiếng."
+          }
+        },
+        {
+          "zh": "开机",
+          "pinyin": "kāijī",
+          "pos": "v.",
+          "vi": "bật máy",
+          "example": {
+            "zh": "我的手机开不了机了。",
+            "vi": "Điện thoại của tôi không bật lên được."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g7-4",
+          "title_zh": "递进复句“不但……，而且……”",
+          "title_vi": "“不但……，而且……”: không những… mà còn…",
+          "formula": [
+            [
+              {
+                "zh": "现在的电视",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "不但",
+                "label": "không những",
+                "role": "ADV"
+              },
+              {
+                "zh": "便宜",
+                "label": "Ý 1",
+                "role": "ATTR"
+              },
+              {
+                "zh": "，而且",
+                "label": "mà còn",
+                "role": "ADV"
+              },
+              {
+                "zh": "用着非常方便",
+                "label": "Ý 2 (mức cao hơn)",
+                "role": "ATTR"
+              }
+            ]
+          ],
+          "explain_vi": "Vế sau nói thêm một ý ở mức cao hơn vế trước – giống hệt “không những… mà còn…” trong tiếng Việt. Nếu hai vế cùng chủ ngữ, chủ ngữ đứng trước 不但. Có thể thêm 也/还 ở vế sau.",
+          "examples": [
+            {
+              "zh": "现在的电视不但便宜，而且用着非常方便。",
+              "vi": "Tivi bây giờ không những rẻ mà dùng còn rất tiện."
+            },
+            {
+              "zh": "这个超市不但大，而且人很多。",
+              "vi": "Siêu thị này không những rộng mà còn đông người."
+            },
+            {
+              "zh": "他不但会说汉语，而且说得很好。",
+              "vi": "Anh ấy không những biết nói tiếng Trung mà còn nói rất giỏi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "不但他会说汉语，而且说得很好。",
+              "right": "他不但会说汉语，而且说得很好。",
+              "why_vi": "Hai vế cùng chủ ngữ thì chủ ngữ đặt trước 不但."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Quán này không những ngon mà còn rẻ.”",
+              "options": [
+                "这家饭馆不但好吃，而且便宜。",
+                "这家饭馆而且好吃，不但便宜。",
+                "不但这家饭馆好吃，便宜而且。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "是时候……了 = đến lúc… rồi: 是时候换个新电视了. Gần nghĩa với 该……了 (bài 6)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "这件衣服大小很___，你就买这件吧。",
+      "bank": [
+        "合适",
+        "旧",
+        "矮"
+      ],
+      "answer": "合适"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我还没___买哪个，再看看吧。",
+      "bank": [
+        "决定",
+        "试",
+        "开机"
+      ],
+      "answer": "决定"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "这些水果很___，你要不要买一点儿？",
+      "bank": [
+        "新鲜",
+        "矮",
+        "旧"
+      ],
+      "answer": "新鲜"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "这些___书你还要吗？我想送给旁边学校的孩子。",
+      "bank": [
+        "旧",
+        "甜",
+        "合适"
+      ],
+      "answer": "旧"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "这些东西___多少钱？",
+      "bank": [
+        "一共",
+        "极",
+        "更"
+      ],
+      "answer": "一共"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "极了",
+        "这个西瓜",
+        "甜"
+      ],
+      "answers": [
+        "这个西瓜甜极了"
+      ],
+      "vi": "Quả dưa hấu này ngọt cực.",
+      "explain_vi": "Tính từ + 极了."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "不比",
+        "今天",
+        "冷",
+        "昨天"
+      ],
+      "answers": [
+        "今天不比昨天冷"
+      ],
+      "vi": "Hôm nay cũng chẳng lạnh hơn hôm qua.",
+      "explain_vi": "A + 不比 + B + tính từ."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "裙子",
+      "options": [
+        {
+          "emoji": "👗",
+          "label": "Váy"
+        },
+        {
+          "emoji": "🩳",
+          "label": "Quần soóc"
+        },
+        {
+          "emoji": "🚲",
+          "label": "Xe đạp"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "裙子不比短裤贵多少。",
+      "emoji": "👗",
+      "statement_vi": "Váy đắt hơn quần soóc rất nhiều.",
+      "answer": false,
+      "explain_vi": "不比……贵多少 = không đắt hơn là mấy."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🚶‍♂️🏬",
+      "sentence": "商场不远，咱们可以走___去。",
+      "options": [
+        "着",
+        "了",
+        "过"
+      ],
+      "answer": 0,
+      "explain_vi": "走着去 = đi bộ đi (động từ 1 + 着 + động từ 2)."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "西瓜怎么卖？",
+          "a": "五块钱一公斤。"
+        },
+        {
+          "q": "我买了这么多，便宜点儿吧。",
+          "a": "您给我五十五吧。"
+        },
+        {
+          "q": "你看我穿这条短裤好看吗？",
+          "a": "大小合适，但裙子更好看。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đi chợ mặc cả",
+    "steps_vi": [
+      "Làm theo cặp: một người bán hàng, một người mua.",
+      "Người bán rao hàng, dùng “……极了” để khen hàng: 甜极了, 新鲜极了.",
+      "Người mua hỏi giá, so sánh hai món bằng “比……更……” hoặc “不比……”.",
+      "Hai bên mặc cả: “便宜点儿吧”, “不能再便宜了”, rồi tính tổng tiền."
+    ],
+    "patterns": [
+      {
+        "zh": "苹果怎么卖？",
+        "vi": "Táo bán thế nào?"
+      },
+      {
+        "zh": "你尝尝，甜极了！",
+        "vi": "Anh nếm thử xem, ngọt lắm!"
+      },
+      {
+        "zh": "这个不比那个贵多少。",
+        "vi": "Cái này không đắt hơn cái kia là mấy."
+      },
+      {
+        "zh": "一共多少钱？便宜点儿吧。",
+        "vi": "Tổng cộng bao nhiêu? Bớt chút đi."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Tiền và đơn vị đo khi mua sắm ở Trung Quốc",
+    "body_vi": [
+      "Tiền Trung Quốc là nhân dân tệ (人民币). Khi viết dùng 元, 角, 分; khi nói dùng 块, 毛, 分: 58,5 tệ đọc là 五十八块五毛. 1 块 = 10 毛.",
+      "Ở chợ, người ta hay tính theo 斤 (cân Trung Quốc, bằng 0,5 kg), còn 公斤 là kilôgam. Vì vậy 5 块一公斤 cũng bằng 2,5 块一斤.",
+      "Ngày nay gần như mọi nơi đều thanh toán bằng quét mã QR qua WeChat Pay (微信支付) hoặc Alipay (支付宝), kể cả quầy hoa quả nhỏ ven đường.",
+      "Mặc cả (讲价) ở chợ là chuyện bình thường, giống ở Việt Nam, nhưng trong siêu thị và trung tâm thương mại thì giá cố định."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Nhân dân tệ",
+          "人民币",
+          "rénmínbì"
+        ],
+        [
+          "Tệ (nói)",
+          "块",
+          "kuài"
+        ],
+        [
+          "Hào (nói)",
+          "毛",
+          "máo"
+        ],
+        [
+          "Cân (0,5 kg)",
+          "斤",
+          "jīn"
+        ],
+        [
+          "Mặc cả",
+          "讲价",
+          "jiǎngjià"
+        ],
+        [
+          "Quét mã thanh toán",
+          "扫码支付",
+          "sǎomǎ zhīfù"
+        ]
+      ]
+    }
+  }
 }
