@@ -1,41 +1,590 @@
 {
  "lessonId": 6,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/06.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "心",
+      "必"
+     ],
+     "answer": 0,
+     "explain_vi": "小心 = cẩn thận: chữ 心 không có nét phẩy xuyên qua.",
+     "fixed": true,
+     "prompt_zh": "小（　），前面有车！",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "心",
+      "必"
+     ],
+     "answer": 1,
+     "explain_vi": "必须 = nhất thiết phải: chữ 必 có thêm nét phẩy xuyên qua.",
+     "fixed": true,
+     "prompt_zh": "这个工作今天（　）须做完。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "guo",
+      "guò"
+     ],
+     "answer": 0,
+     "explain_vi": "去过 qùguo: 过 trợ từ, thanh nhẹ.",
+     "fixed": true,
+     "prompt_zh": "“去过”中的“过”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "guo",
+      "guò"
+     ],
+     "answer": 1,
+     "explain_vi": "难过 nánguò = buồn: thanh 4.",
+     "fixed": true,
+     "prompt_zh": "“难过”中的“过”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）他们的火车{{1}}了，咱们还要再等两个小时。\n（2）现在都晚上十点多了，路上的{{2}}还这么多。\n（3）如果你不想坐飞机，咱们就坐{{3}}，也很快就能到。\n（4）我已经到机场了，还有一个多小时，飞机就{{4}}了。\n（5）请您往前开，我们在路口等{{5}}，马上就能过去了。",
+     "bank": [
+      "晚点",
+      "汽车",
+      "高铁",
+      "起飞",
+      "红绿灯",
+      "检票",
+      "路口"
+     ],
+     "answers": [
+      "晚点",
+      "汽车",
+      "高铁",
+      "起飞",
+      "红绿灯"
+     ],
+     "explain_vi": "火车晚点 · 路上的汽车 · 坐高铁 · 飞机起飞 · 等红绿灯.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Phương tiện",
+     "words": [
+      "飞机",
+      "高铁",
+      "火车",
+      "地铁",
+      "汽车",
+      "出租车",
+      "公交车",
+      "自行车",
+      "走路"
+     ]
+    },
+    {
+     "head": "Đi lại",
+     "words": [
+      "车站",
+      "机场",
+      "机票",
+      "起飞",
+      "晚点",
+      "检票",
+      "路上",
+      "路",
+      "路口",
+      "红绿灯",
+      "等",
+      "刷"
+     ]
+    },
+    {
+     "head": "Phương hướng",
+     "words": [
+      "东",
+      "南",
+      "西",
+      "北",
+      "前",
+      "后",
+      "左",
+      "右",
+      "上",
+      "下",
+      "里",
+      "外"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "坐高铁",
+      "高铁票",
+      "公交车站",
+      "检票口",
+      "打出租车",
+      "骑自行车",
+      "前面的路口",
+      "等红灯",
+      "飞机起飞",
+      "火车晚点",
+      "刷护照",
+      "去机场的路上"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 别等电梯了，咱们走上去吧。——还是坐电梯吧，走上去太累了。 → thang máy.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.5,
+      "end": 104.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 昨天放假你去哪儿玩了？——我没出去，在家看了几个电影。 → xem phim.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 106.5,
+      "end": 128.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 桌子上的耳机是谁的？——是小明的…… → tai nghe.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 130.5,
+      "end": 157.0
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-06/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "找人",
+      "检票",
+      "买票"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 您好，我买一张到北京西站的地铁票。——四块钱一张…… 问：男的正在做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 218.5,
+      "end": 259.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "回家",
+      "去花园",
+      "再玩一会儿"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 现在已经很晚了，咱们该回家了。——再玩一会儿吧，前面那个花园咱们还没去呢。 问：女的要做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 263.0,
+      "end": 302.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "飞机票太贵了",
+      "起飞时间太晚了",
+      "坐高铁比坐飞机快"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 现在机票都两千多了，还是不买机票了。",
+     "fixed": true,
+     "audio": {
+      "start": 307.5,
+      "end": 382.0
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "白楼的西边",
+      "路口的东边",
+      "路口的西边"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 从那个路口往西走一百米就会看见一个白色的大楼，那个楼就是（中国银行）。",
+     "fixed": true,
+     "audio": {
+      "start": 442.0,
+      "end": 488.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "现在很难过",
+      "要出国上学了",
+      "是他初中时认识的"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 他今年就要出国上学了。(Hai người quen nhau từ nhỏ, không phải từ cấp hai.)",
+     "fixed": true,
+     "audio": {
+      "start": 490.0,
+      "end": 546.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "一次",
+      "两次",
+      "三次"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: về lấy điện thoại, lại về lấy máy ảnh, rồi chạy về lấy ví → ba lần.",
+     "fixed": true,
+     "audio": {
+      "start": 550.0,
+      "end": 680.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "走路",
+      "跑步",
+      "坐公交车"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我要坐的公交车应该马上就到了。",
+     "fixed": true,
+     "audio": {
+      "start": 550.0,
+      "end": 680.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "就要放假了，你打算做什么？",
+       "a": "妈妈说她要带我去海边。"
+      },
+      {
+       "q": "下雪了，你路上一定要小心。",
+       "a": "好的，我会慢慢开的。"
+      },
+      {
+       "q": "不好意思，请问地铁站怎么走？",
+       "a": "从这儿往前走，到了第一个路口，往右走就是。"
+      },
+      {
+       "q": "你一直看手表，有什么急事吗？",
+       "a": "爸爸让我晚上九点以前必须回家。"
+      },
+      {
+       "q": "还有30分钟电影就开始了，咱们会迟到吗？",
+       "a": "不会，从这儿走过去只要十分钟。"
+      }
+     ],
+     "explain_vi": "Hỏi kỳ nghỉ → 去海边; dặn cẩn thận → 慢慢开; hỏi đường → 往右走就是; có việc gấp → 九点以前回家; có muộn không → 只要十分钟.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 该{{1}}了。拿好票，我们现在就过去吧。\n17. 路上{{2}}点儿，到了那儿就给我打电话。\n18. 你可以{{3}}这家宾馆，就在火车站旁边，方便得很。\n19. A：你怎么还没到？大家都在等你。 B：不好意思，我已经到楼下了，马上就坐{{4}}上去。\n20. A：我们这次旅游还坐{{5}}，怎么样？ B：行，又快又舒服，也比坐飞机方便。",
+     "bank": [
+      "选择",
+      "高铁",
+      "小心",
+      "电梯",
+      "鞋",
+      "检票"
+     ],
+     "answers": [
+      "检票",
+      "小心",
+      "选择",
+      "电梯",
+      "高铁"
+     ],
+     "explain_vi": "该检票了 · 路上小心 · 选择这家宾馆 · 坐电梯 · 坐高铁.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "很大",
+      "很舒服",
+      "不太安静"
+     ],
+     "answer": 1,
+     "explain_vi": "房子虽然不大，但很干净，也很安静，住着很舒服.",
+     "fixed": true,
+     "prompt_zh": "★ 他现在的房子怎么样？",
+     "context_zh": "我爱人对现在住的房子比较满意。房子虽然不大，但很干净，也很安静，住着很舒服。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "酒店",
+      "咖啡馆",
+      "红绿灯路口"
+     ],
+     "answer": 1,
+     "explain_vi": "就能看到咖啡馆了，我就在那儿等你.",
+     "fixed": true,
+     "prompt_zh": "★ 他在哪儿等乐乐？",
+     "context_zh": "乐乐，你从酒店出来后往西走，到第一个红绿灯再往北走，就能看到咖啡馆了，我就在那儿等你。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "去外面爬山",
+      "在家看电影",
+      "去超市买东西"
+     ],
+     "answer": 0,
+     "explain_vi": "如果天气好，咱们就去爬山.",
+     "fixed": true,
+     "prompt_zh": "★ 如果明天不下雨，他打算做什么？",
+     "context_zh": "明天我是这么打算的：如果天气好，咱们就去爬山，在外面拍拍照、吃吃东西。这几天天气越来越热了，咱们早点儿去，下午就回来。如果明天下雨，咱们就在家里看电影吧。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "天气热",
+      "下午会下雨",
+      "想看个电影"
+     ],
+     "answer": 0,
+     "explain_vi": "这几天天气越来越热了，咱们早点儿去，下午就回来.",
+     "fixed": true,
+     "prompt_zh": "★ 他为什么想下午回来？",
+     "context_zh": "明天我是这么打算的：如果天气好，咱们就去爬山，在外面拍拍照、吃吃东西。这几天天气越来越热了，咱们早点儿去，下午就回来。如果明天下雨，咱们就在家里看电影吧。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "你用___机听音乐吧，我要学习了。",
+     "pinyin": "ěr",
+     "answer": "耳",
+     "explain_vi": "耳机 = tai nghe.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "___果您想换本书，就告诉我，我帮您拿。",
+     "pinyin": "rú",
+     "answer": "如",
+     "explain_vi": "如果 = nếu.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "你再检___一下，护照和机票都带好了吗？",
+     "pinyin": "chá",
+     "answer": "查",
+     "explain_vi": "检查 = kiểm tra.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-06/w28.jpg",
+     "word": "电梯",
+     "sample": "电梯里的人越来越多了。",
+     "explain_vi": "电梯 = thang máy.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-06/w29.jpg",
+     "word": "安静",
+     "sample": "这家咖啡馆很安静，他常来这儿工作。",
+     "explain_vi": "安静 = yên tĩnh.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-06/w30.jpg",
+     "word": "检查",
+     "sample": "医生正在给他检查眼睛。",
+     "explain_vi": "检查 = kiểm tra, khám.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

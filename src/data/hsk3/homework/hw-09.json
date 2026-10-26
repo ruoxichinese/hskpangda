@@ -1,41 +1,581 @@
 {
  "lessonId": 9,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/09.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "爱",
+      "受"
+     ],
+     "answer": 0,
+     "explain_vi": "爱好 = sở thích: giữa chữ 爱 có 冖 và 友.",
+     "fixed": true,
+     "prompt_zh": "你有什么（　）好？",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "爱",
+      "受"
+     ],
+     "answer": 1,
+     "explain_vi": "受到 = chịu, bị: phần dưới chữ 受 là 又.",
+     "fixed": true,
+     "prompt_zh": "我（　）到姐姐的影响，也喜欢拍照了。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "jǐ",
+      "jī"
+     ],
+     "answer": 0,
+     "explain_vi": "几个 jǐ gè = mấy cái.",
+     "fixed": true,
+     "prompt_zh": "“几个”中的“几”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "jǐ",
+      "jī"
+     ],
+     "answer": 1,
+     "explain_vi": "几乎 jīhū = gần như.",
+     "fixed": true,
+     "prompt_zh": "“几乎”中的“几”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）现在有羽毛球{{1}}，快打开电视看看吧。\n（2）运动会结束了吗？我们班的{{2}}怎么样？\n（3）那名{{3}}觉得不舒服，现在要休息一下。\n（4）下课以后我要去球场{{4}}球，你也一起去吧。\n（5）我最喜欢看网球比赛，你喜欢看什么{{5}}比赛？",
+     "bank": [
+      "比赛",
+      "成绩",
+      "运动员",
+      "练",
+      "体育",
+      "球场",
+      "影响"
+     ],
+     "answers": [
+      "比赛",
+      "成绩",
+      "运动员",
+      "练",
+      "体育"
+     ],
+     "explain_vi": "羽毛球比赛 · 班的成绩 · 那名运动员 · 练球 · 体育比赛.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Thi đấu, thành tích",
+     "words": [
+      "比赛",
+      "奥运会",
+      "运动会",
+      "运动员",
+      "球场",
+      "体育馆",
+      "练",
+      "练习",
+      "参加",
+      "受到",
+      "受",
+      "影响",
+      "得到",
+      "得",
+      "成绩",
+      "得分",
+      "分",
+      "名单"
+     ]
+    },
+    {
+     "head": "Thể thao, rèn luyện",
+     "words": [
+      "体育",
+      "运动",
+      "锻炼",
+      "网球",
+      "羽毛球",
+      "篮球",
+      "足球",
+      "跑步",
+      "跑",
+      "跳舞",
+      "爬山"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "参加比赛",
+      "看奥运会",
+      "学校运动会",
+      "一名运动员",
+      "受到影响",
+      "得到好成绩",
+      "做运动",
+      "锻炼身体",
+      "练球",
+      "打网球",
+      "打羽毛球",
+      "踢足球"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这次考试的成绩怎么样？——考得不错，我非常满意。 → cầm bài thi, vui vẻ.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 102.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你们班的男生怎么都没在教室？——他们都在球场踢球呢。 → đá bóng.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 102.5,
+      "end": 123.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你看，那是我最喜欢的运动员。 → vận động viên điền kinh.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 124.0,
+      "end": 148.0
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-09/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-09/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-09/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-09/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "球踢得不好",
+      "没看完比赛",
+      "现在很着急"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我越看越着急，看了一半就没看了。 问：关于女的，可以知道什么？",
+     "fixed": true,
+     "audio": {
+      "start": 208.8,
+      "end": 258.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "去旅游了",
+      "在公司工作",
+      "出国比赛了"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你是去旅游了吗？——没有，我出国比赛了，昨天晚上才回家。",
+     "fixed": true,
+     "audio": {
+      "start": 262.0,
+      "end": 304.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "注意打球",
+      "别去比赛了",
+      "现在多练习"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 别想太多，注意打好每一个球，这样就能得到好成绩。",
+     "fixed": true,
+     "audio": {
+      "start": 308.5,
+      "end": 368.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "跑步",
+      "参加比赛",
+      "看奥运会"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我昨天看了奥运会一百米短跑比赛，真是太好看了。",
+     "fixed": true,
+     "audio": {
+      "start": 428.5,
+      "end": 470.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "练唱歌",
+      "打网球",
+      "参加唱歌比赛"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 她准备参加学校的唱歌比赛，周六她想练习一下。 → thứ bảy tập hát.",
+     "fixed": true,
+     "audio": {
+      "start": 472.0,
+      "end": 514.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "运动",
+      "去商场",
+      "参加比赛"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 每天下课以后她都要去体育馆运动一会儿。",
+     "fixed": true,
+     "audio": {
+      "start": 518.5,
+      "end": 640.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "爱唱歌跳舞",
+      "不喜欢运动",
+      "喜欢参加比赛"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 她还很喜欢参加比赛，几乎每次比赛都能得到好成绩。",
+     "fixed": true,
+     "audio": {
+      "start": 518.5,
+      "end": 640.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你们的校园真大啊！",
+       "a": "是啊，从南边走到北边要一个小时呢。"
+      },
+      {
+       "q": "大家都去上体育课了，你怎么没去？",
+       "a": "我有点儿不舒服，就先回来了。"
+      },
+      {
+       "q": "小李最近经常迟到，你知道怎么回事吗？",
+       "a": "他搬家了，现在住的地方离公司很远。"
+      },
+      {
+       "q": "菜点好了，你想喝点儿什么？来瓶啤酒？",
+       "a": "晚上还要开车呢，来杯饮料吧。"
+      },
+      {
+       "q": "如果你这次考试能得到好成绩，我就送你一个相机。",
+       "a": "真的吗？那我多做一些练习，希望能考好。"
+      }
+     ],
+     "explain_vi": "Khen trường rộng → 走一个小时; sao không đi học thể dục → 不舒服; vì sao hay muộn → 搬家了; mời bia → 还要开车; hứa tặng máy ảnh → 多做练习.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 老师让我们参加完{{1}}回教室。\n17. 我听得懂中国人说话，{{2}}看不懂汉字。\n18. 很多事情都是这样：{{3}}得越多，得到的成绩就会越好。\n19. A：你会打{{4}}吗？ B：我不会打，但是我经常去看比赛。\n20. A：张老师，还您公交{{5}}，谢谢您。 B：别客气。我有两张，如果以后忘带了，就告诉我。",
+     "bank": [
+      "卡",
+      "只是",
+      "网球",
+      "练习",
+      "鞋",
+      "运动会"
+     ],
+     "answers": [
+      "运动会",
+      "只是",
+      "练习",
+      "网球",
+      "卡"
+     ],
+     "explain_vi": "参加完运动会 · 只是看不懂 · 练习得越多 · 打网球 · 公交卡.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "很着急",
+      "不喜欢看电影",
+      "最近总是上网"
+     ],
+     "answer": 2,
+     "explain_vi": "儿子最近天天上网看电影; người sốt ruột là bố mẹ.",
+     "fixed": true,
+     "prompt_zh": "★ 关于儿子，可以知道什么？",
+     "context_zh": "儿子最近天天上网看电影，影响了学习成绩，我和妻子都很着急。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "爬山",
+      "看病",
+      "买大衣"
+     ],
+     "answer": 0,
+     "explain_vi": "山路越来越难走……越高越冷 → đang leo núi.",
+     "fixed": true,
+     "prompt_zh": "★ 他们在做什么？",
+     "context_zh": "大家注意，山路越来越难走，都小心一点儿。大家可以穿上大衣，因为越高越冷，别感冒了。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "没有漂亮的衣服",
+      "没时间准备比赛",
+      "每天在家练习唱歌"
+     ],
+     "answer": 2,
+     "explain_vi": "每天晚饭后都给我们唱一个小时.",
+     "fixed": true,
+     "prompt_zh": "★ 关于妹妹，可以知道什么？",
+     "context_zh": "为了参加唱歌比赛，妹妹准备了一个多月，每天晚饭后都给我们唱一个小时，我们觉得她唱得好极了。比赛那天，妹妹穿上漂亮的衣服，高高兴兴地去了。晚上我下课回到家，发现妹妹难过得很，我以为她没有得到好成绩，没想到她告诉我，她记错时间了，她到的时候，比赛早就结束了。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "她唱错了",
+      "比赛迟到了",
+      "比赛成绩不好"
+     ],
+     "answer": 1,
+     "explain_vi": "她记错时间了，她到的时候，比赛早就结束了.",
+     "fixed": true,
+     "prompt_zh": "★ 妹妹为什么很难过？",
+     "context_zh": "为了参加唱歌比赛，妹妹准备了一个多月，每天晚饭后都给我们唱一个小时，我们觉得她唱得好极了。比赛那天，妹妹穿上漂亮的衣服，高高兴兴地去了。晚上我下课回到家，发现妹妹难过得很，我以为她没有得到好成绩，没想到她告诉我，她记错时间了，她到的时候，比赛早就结束了。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "这本书___要介绍了中国人的姓名。",
+     "pinyin": "zhǔ",
+     "answer": "主",
+     "explain_vi": "主要 = chủ yếu.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "你感冒好了吗？会不会影响你___加比赛？",
+     "pinyin": "cān",
+     "answer": "参",
+     "explain_vi": "参加 = tham gia.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "___界很大，很多人都想走出去看看。",
+     "pinyin": "shì",
+     "answer": "世",
+     "explain_vi": "世界 = thế giới.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-09/w28.jpg",
+     "word": "校园",
+     "sample": "同学们在校园里看比赛，高兴极了。",
+     "explain_vi": "校园 = khuôn viên trường.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-09/w29.jpg",
+     "word": "练习",
+     "sample": "她每天下午都在球场练习打网球。",
+     "explain_vi": "练习 = luyện tập.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-09/w30.jpg",
+     "word": "运动会",
+     "sample": "学校运动会上，大家都跑得很快。",
+     "explain_vi": "运动会 = hội thao.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

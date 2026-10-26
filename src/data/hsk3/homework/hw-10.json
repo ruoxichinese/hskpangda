@@ -1,41 +1,589 @@
 {
  "lessonId": 10,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/10.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "炼",
+      "练"
+     ],
+     "answer": 0,
+     "explain_vi": "锻炼: bộ 火 (lửa) – rèn luyện như rèn sắt.",
+     "fixed": true,
+     "prompt_zh": "他每天早上都锻（　）身体。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "炼",
+      "练"
+     ],
+     "answer": 1,
+     "explain_vi": "练习: bộ 纟 (sợi tơ).",
+     "fixed": true,
+     "prompt_zh": "这本书上还有几个（　）习。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "yāo",
+      "yào"
+     ],
+     "answer": 0,
+     "explain_vi": "要求 yāoqiú = yêu cầu.",
+     "fixed": true,
+     "prompt_zh": "“要求”中的“要”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "yāo",
+      "yào"
+     ],
+     "answer": 1,
+     "explain_vi": "需要 xūyào = cần.",
+     "fixed": true,
+     "prompt_zh": "“需要”中的“要”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我女儿七岁，今年上小学二{{1}}。\n（2）你把名字写在历史{{2}}上吧。\n（3）明天考试，一定要带护照和笔，还可以带几张{{3}}。\n（4）这几个月他的学习{{4}}提高了很多。\n（5）这本书太好看了，我想再读一{{5}}。",
+     "bank": [
+      "年级",
+      "课本",
+      "纸",
+      "成绩",
+      "遍",
+      "句子",
+      "作业"
+     ],
+     "answers": [
+      "年级",
+      "课本",
+      "纸",
+      "成绩",
+      "遍"
+     ],
+     "explain_vi": "二年级 · 历史课本 · 几张纸 · 学习成绩 · 读一遍.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Học tập",
+     "words": [
+      "课本",
+      "课文",
+      "笔记",
+      "铅笔",
+      "纸",
+      "页",
+      "作业",
+      "句子",
+      "黑板",
+      "办公室",
+      "年级"
+     ]
+    },
+    {
+     "head": "Môn học",
+     "words": [
+      "历史",
+      "数学",
+      "外语",
+      "中文",
+      "体育",
+      "音乐"
+     ]
+    },
+    {
+     "head": "Hành vi học tập",
+     "words": [
+      "认真",
+      "努力",
+      "差",
+      "清楚",
+      "难",
+      "明白",
+      "考试",
+      "成绩",
+      "提高",
+      "要求",
+      "复习",
+      "讲",
+      "读",
+      "遍"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "记笔记",
+      "写作业",
+      "看黑板",
+      "讲课",
+      "一页纸",
+      "第十页",
+      "一年级",
+      "一个句子",
+      "读两遍",
+      "努力学习",
+      "认真复习",
+      "提高成绩",
+      "考得很差"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你今天除了数学课还上什么课？——上午还有历史课和外语课。 → thời khoá biểu.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 105.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 今天中文考试难不难？——有点儿难，有几个题我没看懂。 → đang làm bài thi.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 105.5,
+      "end": 131.0
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你为什么在教室门口站着？——我在等王老师呢，我要把课本还给他。 → đứng ở cửa lớp.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 133.5,
+      "end": 156.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-10/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-10/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-10/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-10/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "每天读历史书",
+      "上课认真听课",
+      "看同学的笔记"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我没时间每天读历史书，但是我上课会认真听课，也会认真记笔记。",
+     "fixed": true,
+     "audio": {
+      "start": 219.0,
+      "end": 272.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "老师没讲过",
+      "女的做对了",
+      "男的觉得不太难"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 第一题太难了，你做对了吗？——我觉得不太难，我做对了。 (Người thấy không khó là người phụ nữ.)",
+     "fixed": true,
+     "audio": {
+      "start": 276.0,
+      "end": 327.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "考得不好",
+      "没准备考试",
+      "每天都复习"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 为了准备这次考试，你每天复习多长时间？——差不多三个小时。",
+     "fixed": true,
+     "audio": {
+      "start": 330.5,
+      "end": 384.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "学习很认真",
+      "不常写作业",
+      "让妈妈检查作业"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 张明在学习上总是很认真，他每天做完作业以后还要再检查一遍。",
+     "fixed": true,
+     "audio": {
+      "start": 444.0,
+      "end": 482.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "画画",
+      "中文歌",
+      "中国电影"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 在中文课上，老师会给我们讲中国历史，还会教我们唱中文歌。",
+     "fixed": true,
+     "audio": {
+      "start": 484.0,
+      "end": 525.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "不爱看书",
+      "学习认真",
+      "每天很早回家"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 为了考一个好大学，她学习很认真。(Chị về nhà lúc 7 giờ tối, không phải về sớm.)",
+     "fixed": true,
+     "audio": {
+      "start": 529.5,
+      "end": 660.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "快要考试了",
+      "姐姐影响了他",
+      "考试成绩不好"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 在姐姐的影响下，弟弟学习也越来越认真。",
+     "fixed": true,
+     "audio": {
+      "start": 529.5,
+      "end": 660.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "我有几个问题想问李老师，不知道什么时间合适。",
+       "a": "他现在就在办公室，咱们一起去吧。"
+      },
+      {
+       "q": "你为什么每天用这么多时间学外语？",
+       "a": "我想在出国前提高我的水平。"
+      },
+      {
+       "q": "你和妹妹在一个学校读书吗？",
+       "a": "对。我读三年级，她读二年级。"
+      },
+      {
+       "q": "我总是忘了这个字怎么写。",
+       "a": "你把它写在本子上，每天写几遍就记住了。"
+      },
+      {
+       "q": "马上就要考试了，咱们一起复习吧。",
+       "a": "好主意。在数学上我帮你，历史上你多帮帮我。"
+      }
+     ],
+     "explain_vi": "Muốn hỏi cô → 现在就在办公室; vì sao học ngoại ngữ → 出国前提高水平; học cùng trường → 三年级/二年级; hay quên chữ → 写几遍; cùng ôn thi → 数学上我帮你.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 我昨天在学校门口{{1}}了以前的体育老师。\n17. 他这次考试考得很{{2}}，因为没认真复习。\n18. 我在教室外面，听不{{3}}老师说什么。\n19. A：你能帮我把这本书还给李老师吗？ B：{{4}}可以。\n20. A：老师{{5}}我们明天把错题本拿给他。 B：我的错题太多了，今天晚上一定写不完。",
+     "bank": [
+      "差",
+      "要求",
+      "当然",
+      "遇到",
+      "鞋",
+      "清楚"
+     ],
+     "answers": [
+      "遇到",
+      "差",
+      "清楚",
+      "当然",
+      "要求"
+     ],
+     "explain_vi": "遇到老师 · 考得很差 · 听不清楚 · 当然可以 · 老师要求.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "他教音乐",
+      "他上课听音乐",
+      "学生都很喜欢他"
+     ],
+     "answer": 2,
+     "explain_vi": "同学们都很喜欢他; thầy dạy ngoại ngữ, chỉ cho nghe nhạc giờ nghỉ.",
+     "fixed": true,
+     "prompt_zh": "★ 关于张老师，可以知道什么？",
+     "context_zh": "张老师教我们外语。他上课讲得很清楚，还常在休息的时候让我们听音乐，同学们都很喜欢他。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "没带课本",
+      "没做练习",
+      "没上历史课"
+     ],
+     "answer": 0,
+     "explain_vi": "我忘了带历史课本.",
+     "fixed": true,
+     "prompt_zh": "★ 他今天怎么了？",
+     "context_zh": "今天有历史课，但是我忘了带历史课本。上课时，我和同学一起看书、做练习，有点儿不方便。下次我一定会记得带。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "他想找作业本",
+      "他有不明白的题",
+      "李老师要给他讲题"
+     ],
+     "answer": 1,
+     "explain_vi": "作业里的几个错题我不太明白，想问问李老师.",
+     "fixed": true,
+     "prompt_zh": "★ 他为什么去找李老师？",
+     "context_zh": "昨天作业里的几个错题我不太明白，想问问李老师。进办公室的时候，李老师正在给别的同学讲题，我站在旁边听了一会儿，发现我想问的句子跟这几个同学一样。李老师讲得很清楚，听完我们都明白了。我把作业本放进书包里，高高兴兴地走出了办公室。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "在上课",
+      "在教室里等他",
+      "在给学生讲题"
+     ],
+     "answer": 2,
+     "explain_vi": "李老师正在给别的同学讲题.",
+     "fixed": true,
+     "prompt_zh": "★ 关于李老师，可以知道什么？",
+     "context_zh": "昨天作业里的几个错题我不太明白，想问问李老师。进办公室的时候，李老师正在给别的同学讲题，我站在旁边听了一会儿，发现我想问的句子跟这几个同学一样。李老师讲得很清楚，听完我们都明白了。我把作业本放进书包里，高高兴兴地走出了办公室。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "她一般___这些东西放在桌子上。",
+     "pinyin": "bǎ",
+     "answer": "把",
+     "explain_vi": "把 + tân ngữ + 放在…",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "老师要求我们这个星期就开始___习。",
+     "pinyin": "fù",
+     "answer": "复",
+     "explain_vi": "复习 = ôn tập.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "这___话我没听懂，请你再说一遍。",
+     "pinyin": "jù",
+     "answer": "句",
+     "explain_vi": "这句话 = câu này.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-10/w28.jpg",
+     "word": "努力",
+     "sample": "这些孩子学习都很努力。",
+     "explain_vi": "努力 = cố gắng.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-10/w29.jpg",
+     "word": "后年",
+     "sample": "我哥哥后年就要上大学了。",
+     "explain_vi": "后年 = năm sau nữa.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-10/w30.jpg",
+     "word": "对话",
+     "sample": "她们在用中文对话。",
+     "explain_vi": "对话 = đối thoại.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

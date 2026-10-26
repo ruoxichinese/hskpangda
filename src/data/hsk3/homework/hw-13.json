@@ -1,41 +1,578 @@
 {
  "lessonId": 13,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/13.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "白",
+      "自"
+     ],
+     "answer": 0,
+     "explain_vi": "明白: chữ 白 chỉ có một nét phẩy trên đầu.",
+     "fixed": true,
+     "prompt_zh": "他说的意思你听明（　）了吗？",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "白",
+      "自"
+     ],
+     "answer": 1,
+     "explain_vi": "来自: chữ 自 có ba nét ngang bên trong.",
+     "fixed": true,
+     "prompt_zh": "大家好，我来（　）英国。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "zhī",
+      "zhǐ"
+     ],
+     "answer": 0,
+     "explain_vi": "一只 yì zhī: lượng từ (con, chiếc).",
+     "fixed": true,
+     "prompt_zh": "“一只”中的“只”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "zhī",
+      "zhǐ"
+     ],
+     "answer": 1,
+     "explain_vi": "只能 zhǐ néng = chỉ có thể.",
+     "fixed": true,
+     "prompt_zh": "“只能”中的“只”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）邻居常常来我家跟我{{1}}。\n（2）欢迎你们来我家{{2}}，快请进。\n（3）谢谢你们来参加我的生日{{3}}。\n（4）我来自中国{{4}}，那里冬天特别冷。\n（5）今天我{{5}}，大家多点点儿、多吃点儿，别客气。",
+     "bank": [
+      "聊天儿",
+      "做客",
+      "晚会",
+      "北方",
+      "请客",
+      "南方",
+      "礼物"
+     ],
+     "answers": [
+      "聊天儿",
+      "做客",
+      "晚会",
+      "北方",
+      "请客"
+     ],
+     "explain_vi": "聊天儿 · 做客 · 生日晚会 · 北方 · 请客.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Mời khách, làm khách",
+     "words": [
+      "请客",
+      "做客",
+      "客人",
+      "邻居",
+      "夫妻",
+      "丈夫",
+      "妻子",
+      "老",
+      "欢迎",
+      "礼物",
+      "酒",
+      "咖啡",
+      "茶",
+      "饮料",
+      "菜",
+      "糖",
+      "杯子",
+      "盘子",
+      "晚会",
+      "聊天儿"
+     ]
+    },
+    {
+     "head": "Bản đồ, vùng miền",
+     "words": [
+      "地图",
+      "南方",
+      "北方",
+      "东方",
+      "西方",
+      "来自"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "一位客人",
+      "新邻居",
+      "老夫老妻",
+      "欢迎大家",
+      "一个礼物",
+      "送礼物",
+      "生日晚会",
+      "一杯酒",
+      "一个盘子",
+      "一瓶饮料",
+      "世界地图",
+      "西方人"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你们能来参加我的生日晚会，我非常高兴。 → tiệc sinh nhật.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 106.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你看，我给你带回来了什么礼物？——都老夫老妻了，你还送我礼物啊。 → vợ chồng già tặng quà.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 106.5,
+      "end": 131.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我常跟家人坐在沙发上，一边看电视一边聊天。 → gia đình trên sô pha.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 133.5,
+      "end": 158.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-13/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-13/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-13/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-13/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "常骑车",
+      "不会骑车",
+      "想买自行车"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你不会骑自行车吗？——是的……我们住在山上，很少有机会骑。",
+     "fixed": true,
+     "audio": {
+      "start": 221.0,
+      "end": 263.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "找书",
+      "看地图",
+      "找地图"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你在找什么书？我帮你找。——我没找书，我找世界地图呢。",
+     "fixed": true,
+     "audio": {
+      "start": 267.0,
+      "end": 306.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "找工作",
+      "学习新东西",
+      "教东西方文化"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 您以前是大学老师……那您现在为什么想来我们公司？ → đang phỏng vấn xin việc.",
+     "fixed": true,
+     "audio": {
+      "start": 309.5,
+      "end": 365.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "她现在不骑了",
+      "是她的生日礼物",
+      "是她送妈妈的礼物"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这辆自行车是我十二岁生日时妈妈送给我的礼物，直到现在我还骑着它上学。",
+     "fixed": true,
+     "audio": {
+      "start": 425.3,
+      "end": 470.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "酒",
+      "花",
+      "水果"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我准备好了一瓶酒，打算再去买点儿水果。 → đã chuẩn bị xong rượu.",
+     "fixed": true,
+     "audio": {
+      "start": 471.0,
+      "end": 523.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "两天",
+      "一周",
+      "两个星期"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我一放假就走，在那儿玩儿两个星期。",
+     "fixed": true,
+     "audio": {
+      "start": 526.5,
+      "end": 655.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "两个",
+      "三个",
+      "四个"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 除了北京以外，我还要去三个城市 → 1 + 3 = 4.",
+     "fixed": true,
+     "audio": {
+      "start": 526.5,
+      "end": 655.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "那边的两个人是谁？",
+       "a": "那是张先生和王女士，他们是夫妻。"
+      },
+      {
+       "q": "你把蛋糕做得太甜了。",
+       "a": "不好意思，可能是糖放多了。"
+      },
+      {
+       "q": "你的地图上怎么有这么多红点？",
+       "a": "这些都是我去过的地方。"
+      },
+      {
+       "q": "我觉得你们家的这些画太漂亮了。",
+       "a": "谢谢，我很喜欢这位画家。"
+      },
+      {
+       "q": "明天有雪，出去的话，就再加一件衣服吧。",
+       "a": "好的，没想到天气越来越冷了。"
+      }
+     ],
+     "explain_vi": "Hỏi hai người là ai → 他们是夫妻; bánh ngọt quá → 糖放多了; bản đồ nhiều chấm đỏ → 我去过的地方; khen tranh → 喜欢这位画家; dặn mặc thêm áo → 天气越来越冷.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 我在比赛中得到了好成绩，{{1}}特别快乐。\n17. 老师，我有一个问题：这两个词有什么{{2}}？\n18. 大家好，我{{3}}英国，欢迎你们有时间去旅游。\n19. A：今天我{{4}}，您想吃什么就点什么。 B：您太客气了，我吃什么都可以。\n20. A：下课后，别忘了把这些书放回办公室去。 B：好的，李老师，您{{5}}吧。",
+     "bank": [
+      "请客",
+      "感到",
+      "不同",
+      "放心",
+      "鞋",
+      "来自"
+     ],
+     "answers": [
+      "感到",
+      "不同",
+      "来自",
+      "请客",
+      "放心"
+     ],
+     "explain_vi": "感到快乐 · 有什么不同 · 来自英国 · 我请客 · 您放心.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "打电话",
+      "接客人",
+      "往楼下走"
+     ],
+     "answer": 0,
+     "explain_vi": "Anh ấy vừa thấy cuộc gọi nhỡ và đang gọi lại: 喂，……您找我有什么事？",
+     "fixed": true,
+     "prompt_zh": "★ 他正在做什么？",
+     "context_zh": "喂，我才看见您的电话，刚才我去楼下接几位客人，没带手机。您找我有什么事？",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "先复习",
+      "先写作业",
+      "边看笔记边写作业"
+     ],
+     "answer": 1,
+     "explain_vi": "她是遇到不会做的题再看笔记 → làm bài trước.",
+     "fixed": true,
+     "prompt_zh": "★ 小安是怎么做的？",
+     "context_zh": "你写作业以前先复习笔记吗？小安跟你不同，她是遇到不会做的题再看笔记。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "买衣服",
+      "去开会",
+      "和朋友吃饭"
+     ],
+     "answer": 0,
+     "explain_vi": "她需要买一条新裙子.",
+     "fixed": true,
+     "prompt_zh": "★ 小丽明天做什么？",
+     "context_zh": "明天晚上公司有一个晚会，小丽很想参加，但是她找不到合适的衣服，需要买一条新裙子。小丽希望同事明天有时间的话，能和她一起去买，但是同事明天白天要去开会，没有时间去商场，只能和小丽在晚会上见了。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "要去参加晚会",
+      "没有合适的衣服",
+      "要跟小丽去买裙子"
+     ],
+     "answer": 0,
+     "explain_vi": "只能和小丽在晚会上见了 → cũng sẽ đi dự tiệc.",
+     "fixed": true,
+     "prompt_zh": "★ 关于同事，可以知道什么？",
+     "context_zh": "明天晚上公司有一个晚会，小丽很想参加，但是她找不到合适的衣服，需要买一条新裙子。小丽希望同事明天有时间的话，能和她一起去买，但是同事明天白天要去开会，没有时间去商场，只能和小丽在晚会上见了。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "我下周休假，打算去___方旅游。",
+     "pinyin": "nán",
+     "answer": "南",
+     "explain_vi": "南方 = miền Nam.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "五个人点四个菜有点儿少，再___两个吧。",
+     "pinyin": "jiā",
+     "answer": "加",
+     "explain_vi": "加 = thêm.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "今天是我的生日，这是妈妈送我的生日___物。",
+     "pinyin": "lǐ",
+     "answer": "礼",
+     "explain_vi": "礼物 = quà.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-13/w28.jpg",
+     "word": "做客",
+     "sample": "他们一家人带着礼物去朋友家做客。",
+     "explain_vi": "做客 = đến nhà ai làm khách.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-13/w29.jpg",
+     "word": "盘子",
+     "sample": "吃完饭以后，妈妈在洗盘子。",
+     "explain_vi": "盘子 = đĩa.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-13/w30.jpg",
+     "word": "聊天儿",
+     "sample": "她们一边喝茶，一边聊天儿。",
+     "explain_vi": "聊天儿 = trò chuyện.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

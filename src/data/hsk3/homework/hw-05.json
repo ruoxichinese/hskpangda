@@ -1,41 +1,572 @@
 {
  "lessonId": 5,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/05.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "晴",
+      "情"
+     ],
+     "answer": 0,
+     "explain_vi": "晴天 = trời nắng: bộ 日 (mặt trời).",
+     "fixed": true,
+     "prompt_zh": "今天是一个大（　）天。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "晴",
+      "情"
+     ],
+     "answer": 1,
+     "explain_vi": "热情 = nhiệt tình: bộ 忄 (tâm).",
+     "fixed": true,
+     "prompt_zh": "这个服务员很热（　）。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "lè",
+      "yuè"
+     ],
+     "answer": 0,
+     "explain_vi": "快乐 kuàilè = vui vẻ.",
+     "fixed": true,
+     "prompt_zh": "“快乐”中的“乐”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "lè",
+      "yuè"
+     ],
+     "answer": 1,
+     "explain_vi": "音乐 yīnyuè = âm nhạc.",
+     "fixed": true,
+     "prompt_zh": "“音乐”中的“乐”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）{{1}}没电了，只能用手机拍照了。\n（2）今天天气好，我们一起去{{2}}山吧。\n（3）外面出太阳了，我出去{{3}}几张照片。\n（4）你喜欢听音乐吗？我有两张{{4}}的票。\n（5）我收到了两{{5}}邮件——公司的和银行的。",
+     "bank": [
+      "相机",
+      "爬",
+      "照",
+      "音乐会",
+      "封",
+      "锻炼",
+      "信"
+     ],
+     "answers": [
+      "相机",
+      "爬",
+      "照",
+      "音乐会",
+      "封"
+     ],
+     "explain_vi": "相机没电 · 爬山 · 照几张照片 · 音乐会的票 · 两封邮件.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Giải trí",
+     "words": [
+      "爬",
+      "山",
+      "锻炼",
+      "运动",
+      "音乐",
+      "音乐会",
+      "电视",
+      "电影",
+      "照",
+      "照片",
+      "拍照",
+      "照相",
+      "相机"
+     ]
+    },
+    {
+     "head": "Liên lạc",
+     "words": [
+      "信",
+      "邮件",
+      "电话",
+      "写",
+      "收到",
+      "打",
+      "封"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "爬山",
+      "锻炼身体",
+      "做运动",
+      "听音乐会",
+      "看电影",
+      "照得很好",
+      "拍张照",
+      "两张照片",
+      "一封邮件",
+      "收到邮件",
+      "写邮件",
+      "打电话"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你怎么看起来有点儿难过？——我的相机坏了，不能拍照了。 → máy ảnh.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 80.5,
+      "end": 102.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你看，外面终于出太阳了。——是啊，好久没有大晴天了。 → mặt trời.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 104.0,
+      "end": 127.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 天气冷了，我需要买一双鞋。——前面就有一家鞋店。 → giày.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 130.0,
+      "end": 155.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-05/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "等人",
+      "拍照",
+      "比较个子"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 小李应该马上就到了。前面走过来一个人，你看看是他吗？ 问：他们最可能在做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 216.5,
+      "end": 262.0
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "工作",
+      "吃饭",
+      "看电影"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你怎么才来？电影都结束了。——不好意思……走，我请你吃饭吧。 问：他们现在要做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 266.0,
+      "end": 309.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "他喜欢出去玩",
+      "这是他的相机",
+      "他照相水平很高"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 他的照相水平很高……他可以给大家多照几张漂亮的照片。",
+     "fixed": true,
+     "audio": {
+      "start": 312.5,
+      "end": 380.0
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "电脑坏了",
+      "没收到邮件",
+      "没给她写邮件"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我的电脑坏了，现在不能看邮件。",
+     "fixed": true,
+     "audio": {
+      "start": 442.0,
+      "end": 479.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "回家",
+      "爬山",
+      "买大衣"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 下午阴天，山上会很冷，你们去爬山的时候带上大衣吧。 问：他们要做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 481.0,
+      "end": 520.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "女的不满意",
+      "张张都很好看",
+      "照片里的人太少"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 这张照片照得不太好……这张照片也不好，人太小了…… → người nói không hài lòng.",
+     "fixed": true,
+     "audio": {
+      "start": 524.0,
+      "end": 645.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "多照几张照片",
+      "离自己远一点儿",
+      "先告诉自己一下"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 下次拍照前，你跟我说一下，我准备好了你再照。",
+     "fixed": true,
+     "audio": {
+      "start": 524.0,
+      "end": 645.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你对什么运动感兴趣？",
+       "a": "除了爬山以外，别的我都不喜欢。"
+      },
+      {
+       "q": "你站在树前面，我给你拍张照。",
+       "a": "这里不好看，我们去那边吧。"
+      },
+      {
+       "q": "我能用你的手机打个电话吗？",
+       "a": "不好意思，我的没电了。"
+      },
+      {
+       "q": "终于考完了，你假期要做什么？",
+       "a": "我要去旅游，你呢？"
+      },
+      {
+       "q": "你在房间里干什么呢？我叫你好几次了。",
+       "a": "不好意思，我在听音乐，没听见。"
+      }
+     ],
+     "explain_vi": "Hỏi thích môn gì → 除了爬山以外; mời chụp ảnh → 去那边吧; mượn điện thoại → 没电了; kỳ nghỉ làm gì → 去旅游; gọi mãi không thưa → 在听音乐.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 假期我们要去海边玩，你有没有{{1}}一起去？\n17. 很久没有{{2}}身体了，今天我要出去运动运动。\n18. 前面走过来几个人，我去问问他们能不能帮我们{{3}}。\n19. A：你怎么了？看起来有点儿{{4}}。 B：今天的考试我考得不太好。\n20. A：你怎么{{5}}吃外卖？ B：我这几天忙得很，没有时间自己做饭。",
+     "bank": [
+      "总是",
+      "兴趣",
+      "锻炼",
+      "照相",
+      "鞋",
+      "难过"
+     ],
+     "answers": [
+      "兴趣",
+      "锻炼",
+      "照相",
+      "难过",
+      "总是"
+     ],
+     "explain_vi": "有没有兴趣 · 锻炼身体 · 帮我们照相 · 有点儿难过 · 总是吃外卖.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "很难看",
+      "太贵了",
+      "不需要"
+     ],
+     "answer": 1,
+     "explain_vi": "一看多少钱，就一件也不想买了 → quá đắt.",
+     "fixed": true,
+     "prompt_zh": "★ 他为什么不想买大衣？",
+     "context_zh": "这些大衣件件都非常好看，我都想买，但一看多少钱，就一件也不想买了。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "喜欢音乐",
+      "正在学习音乐",
+      "买了音乐会的票"
+     ],
+     "answer": 0,
+     "explain_vi": "她对音乐非常感兴趣; vé là người viết tặng; năm sau vào đại học mới học nhạc.",
+     "fixed": true,
+     "prompt_zh": "★ 关于小白，可以知道什么？",
+     "context_zh": "我送给小白一张音乐会的票，她收到票特别高兴。她告诉我，她对音乐非常感兴趣，明年读大学时要学音乐。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "爬山",
+      "拍照",
+      "玩电脑"
+     ],
+     "answer": 2,
+     "explain_vi": "Họ leo núi và chụp ảnh; là mẹ xem ảnh trên máy tính, họ không chơi máy tính.",
+     "fixed": true,
+     "prompt_zh": "★ 他和姐姐没有做什么？",
+     "context_zh": "上个星期六，我和姐姐一起去爬山，还照了很多照片，有站在树下的，还有坐在地上的。我们想比较一下拍照水平，所以回到家就让妈妈在电脑上看我们的照片，妈妈觉得我照的照片比姐姐的好看，姐姐听了有点儿难过。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "也去爬山了",
+      "照了很多照片",
+      "觉得他照的照片好"
+     ],
+     "answer": 2,
+     "explain_vi": "妈妈觉得我照的照片比姐姐的好看.",
+     "fixed": true,
+     "prompt_zh": "★ 妈妈：",
+     "context_zh": "上个星期六，我和姐姐一起去爬山，还照了很多照片，有站在树下的，还有坐在地上的。我们想比较一下拍照水平，所以回到家就让妈妈在电脑上看我们的照片，妈妈觉得我照的照片比姐姐的好看，姐姐听了有点儿难过。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "你看，太___出来了，天气很好，咱们出去走走吧。",
+     "pinyin": "yáng",
+     "answer": "阳",
+     "explain_vi": "太阳 = mặt trời.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "在这里，你可以爬___，也可以去海里游泳，想干什么就干什么。",
+     "pinyin": "shān",
+     "answer": "山",
+     "explain_vi": "爬山 = leo núi.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "今天我___到了姐姐的邮件，她告诉了我很多大学里的事情。",
+     "pinyin": "shōu",
+     "answer": "收",
+     "explain_vi": "收到 = nhận được.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-05/w28.jpg",
+     "word": "锻炼",
+     "sample": "他们每天早上都去公园锻炼身体。",
+     "explain_vi": "锻炼身体 = rèn luyện sức khoẻ.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-05/w29.jpg",
+     "word": "结束",
+     "sample": "音乐会结束了，大家都很高兴。",
+     "explain_vi": "结束 = kết thúc.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-05/w30.jpg",
+     "word": "拍照",
+     "sample": "她很喜欢在旅游的时候拍照。",
+     "explain_vi": "拍照 = chụp ảnh.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

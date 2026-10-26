@@ -1,41 +1,584 @@
 {
  "lessonId": 11,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/11.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "轻",
+      "经"
+     ],
+     "answer": 0,
+     "explain_vi": "年轻: bộ 车 (xe) bên trái.",
+     "fixed": true,
+     "prompt_zh": "我妈妈看起来非常年（　）。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "轻",
+      "经"
+     ],
+     "answer": 1,
+     "explain_vi": "经常: bộ 纟 (sợi tơ) bên trái.",
+     "fixed": true,
+     "prompt_zh": "你最近怎么（　）常请假？",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "dì",
+      "de"
+     ],
+     "answer": 0,
+     "explain_vi": "地点 dìdiǎn = địa điểm.",
+     "fixed": true,
+     "prompt_zh": "“地点”中的“地”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "dì",
+      "de"
+     ],
+     "answer": 1,
+     "explain_vi": "Trợ từ 地 đọc de.",
+     "fixed": true,
+     "prompt_zh": "“高兴地说”中的“地”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）你说什么？我怎么听不到{{1}}了。\n（2）经理不在{{2}}里，他去洗手间了。\n（3）这个问题太难了，公司里谁都没办法{{3}}。\n（4）我下个星期{{4}}，打算去北京旅游。\n（5）请大家到第一会议室，我们十点{{5}}。",
+     "bank": [
+      "声音",
+      "办公室",
+      "解决",
+      "休假",
+      "开会",
+      "机会",
+      "邮箱"
+     ],
+     "answers": [
+      "声音",
+      "办公室",
+      "解决",
+      "休假",
+      "开会"
+     ],
+     "explain_vi": "声音 · 办公室 · 解决 · 休假 · 开会.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Công việc văn phòng",
+     "words": [
+      "公司",
+      "工作",
+      "会议",
+      "开会",
+      "会",
+      "办公室",
+      "室",
+      "笔记本",
+      "电脑",
+      "声音",
+      "邮箱",
+      "邮件",
+      "本子",
+      "纸",
+      "笔",
+      "铅笔",
+      "包",
+      "解决",
+      "请假",
+      "休假",
+      "上班",
+      "下班"
+     ]
+    },
+    {
+     "head": "Nghề nghiệp",
+     "words": [
+      "经理",
+      "医生",
+      "老师",
+      "服务员",
+      "司机",
+      "运动员",
+      "同事",
+      "城市",
+      "市",
+      "机会"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "会议室",
+      "笔记本电脑",
+      "写一封邮件",
+      "发邮件",
+      "解决问题",
+      "请病假",
+      "请事假",
+      "休两天假",
+      "上下班",
+      "公司同事",
+      "一名经理",
+      "一个机会"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 安妮是什么时候离开中国的？——她是昨天下午走的。 → người kéo vali rời đi.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 103.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这是你的新笔记本电脑吗？——是的，我上个星期买的。 → laptop.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 104.0,
+      "end": 124.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你看见经理了吗？——他在会议室开会呢。 → phòng họp.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 125.5,
+      "end": 152.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-11/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-11/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-11/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-11/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "参加比赛",
+      "听音乐会",
+      "问别人事情"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我有两张音乐会的票，明晚一起去吧。——我明晚要参加一个比赛，你再问问别人吧。",
+     "fixed": true,
+     "audio": {
+      "start": 215.5,
+      "end": 258.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "他生病了",
+      "他今天结婚",
+      "他姐姐结婚"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 小李今天怎么没来上班？生病了吗？——他请假了，今天他姐姐结婚。",
+     "fixed": true,
+     "audio": {
+      "start": 261.5,
+      "end": 304.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "换手机",
+      "买电脑",
+      "买手机"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 他们愿意为我换个新的，让我下午过去拿。 → chiều đi lấy điện thoại được đổi.",
+     "fixed": true,
+     "audio": {
+      "start": 307.8,
+      "end": 366.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "还没结婚",
+      "非常想结婚",
+      "对自己不满意"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我妹妹还没结婚，她一点儿也不着急。",
+     "fixed": true,
+     "audio": {
+      "start": 427.3,
+      "end": 472.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "离开公司",
+      "参加会议",
+      "跟朋友喝茶"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 下午公司有一个很重要的会议，我必须参加。",
+     "fixed": true,
+     "audio": {
+      "start": 473.5,
+      "end": 520.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "睡前常看电影",
+      "每天很早睡觉",
+      "觉得上网挺累的"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我晚上睡觉前喜欢把笔记本电脑放在床上，看看电影，上上网……经常一两点才睡觉。",
+     "fixed": true,
+     "audio": {
+      "start": 524.5,
+      "end": 655.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "要请假",
+      "要去医院",
+      "想去看电影"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 今天早上我觉得不太舒服，只能给经理发一封邮件请假。",
+     "fixed": true,
+     "audio": {
+      "start": 524.5,
+      "end": 655.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "小王，你把会议地点写错了。",
+       "a": "啊，不好意思，那应该在哪儿开会？"
+      },
+      {
+       "q": "看来你很喜欢这个小区。",
+       "a": "是的，生活很方便，环境也不错，我很满意。"
+      },
+      {
+       "q": "请问，我把笔记本送到哪儿？",
+       "a": "901室或902室都行，现在里面都有我的同事。"
+      },
+      {
+       "q": "你找工作的时候，最关心什么？",
+       "a": "对我来说，开心最重要。"
+      },
+      {
+       "q": "你会为家人离开这里，回到他们住的城市吗？",
+       "a": "我想我会把他们接到我这儿。"
+      }
+     ],
+     "explain_vi": "Viết sai địa điểm → 应该在哪儿开会; thích khu này → 我很满意; đưa laptop đi đâu → 901室或902室; quan tâm gì nhất → 对我来说; về với gia đình → 把他们接到我这儿.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 我今天得到了一个去上海工作的{{1}}，特别开心。\n17. 我{{2}}就休假了，这两天做不完这个工作，您还是让别人做吧。\n18. 他们都收到公司发的邮件了，我的{{3}}里怎么没有？\n19. A：你去过哪些{{4}}？ B：我才来中国三个星期，除了北京，哪儿都没去过。\n20. A：会议室的电脑坏了，你有什么{{5}}吗？ B：我去拿办公室的笔记本电脑吧，看看能不能接上。",
+     "bank": [
+      "城市",
+      "邮箱",
+      "机会",
+      "办法",
+      "鞋",
+      "后天"
+     ],
+     "answers": [
+      "机会",
+      "后天",
+      "邮箱",
+      "城市",
+      "办法"
+     ],
+     "explain_vi": "机会 · 后天 · 邮箱 · 城市 · 办法.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "他现在很年轻",
+      "教的东西很简单",
+      "孩子的世界很简单"
+     ],
+     "answer": 2,
+     "explain_vi": "因为孩子的世界很简单.",
+     "fixed": true,
+     "prompt_zh": "★ 他为什么喜欢教小孩子？",
+     "context_zh": "我最愿意教小学生，因为孩子的世界很简单，跟他们在一起，我觉得自己年轻了很多。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "同事们觉得好",
+      "不能解决问题",
+      "能更快解决问题"
+     ],
+     "answer": 2,
+     "explain_vi": "因为它能更快地解决问题.",
+     "fixed": true,
+     "prompt_zh": "★ 关于第二个办法，可以知道什么？",
+     "context_zh": "今天会议上经理说的那两个办法，虽然同事们都觉得第一个好，但我觉得第二个更好，因为它能更快地解决问题。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "今天晚上",
+      "明早6:00",
+      "明早7:00"
+     ],
+     "answer": 0,
+     "explain_vi": "大家今晚就把行李准备好.",
+     "fixed": true,
+     "prompt_zh": "★ 大家应该什么时候把行李准备好？",
+     "context_zh": "请大家安静一下，听我说。我们明天早上七点在宾馆门口见，一起坐汽车去高铁站。大家今晚就把行李准备好，明早离开前一定要再认真检查一下，别忘了自己的东西。我会为大家准备好早饭，明天六点带过来。大家可以在宾馆里吃，或者到了高铁站再吃，但是不能在汽车上吃。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "宾馆里",
+      "汽车上",
+      "高铁站里"
+     ],
+     "answer": 1,
+     "explain_vi": "但是不能在汽车上吃.",
+     "fixed": true,
+     "prompt_zh": "★ 大家不能在哪儿吃早饭？",
+     "context_zh": "请大家安静一下，听我说。我们明天早上七点在宾馆门口见，一起坐汽车去高铁站。大家今晚就把行李准备好，明早离开前一定要再认真检查一下，别忘了自己的东西。我会为大家准备好早饭，明天六点带过来。大家可以在宾馆里吃，或者到了高铁站再吃，但是不能在汽车上吃。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "你说话___音大一点儿好吗？我听不清楚。",
+     "pinyin": "shēng",
+     "answer": "声",
+     "explain_vi": "声音 = âm thanh.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "不好意思，我不太舒服，想请___回去休息一下。",
+     "pinyin": "jià",
+     "answer": "假",
+     "explain_vi": "请假 = xin nghỉ.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "张经理，我___您不在市里，给您打个电话，问一下您在哪儿。",
+     "pinyin": "pà",
+     "answer": "怕",
+     "explain_vi": "怕 = sợ, e rằng.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-11/w28.jpg",
+     "word": "城市",
+     "sample": "上海是一个很漂亮的城市。",
+     "explain_vi": "城市 = thành phố.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-11/w29.jpg",
+     "word": "声音",
+     "sample": "手机的声音太小了，他们听不清楚。",
+     "explain_vi": "声音 = âm thanh.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-11/w30.jpg",
+     "word": "笔记本",
+     "sample": "会议室的桌子上放着一台笔记本电脑。",
+     "explain_vi": "笔记本（电脑） = laptop.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

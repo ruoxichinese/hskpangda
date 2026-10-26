@@ -1,41 +1,585 @@
 {
  "lessonId": 7,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/07.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "我",
+      "找"
+     ],
+     "answer": 0,
+     "explain_vi": "我 = tôi: không có bộ 扌 bên trái.",
+     "fixed": true,
+     "prompt_zh": "（　）们多看看再决定吧。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "我",
+      "找"
+     ],
+     "answer": 1,
+     "explain_vi": "找 = tìm: có bộ 扌 (tay) bên trái.",
+     "fixed": true,
+     "prompt_zh": "请你帮我（　）一条黄色的裙子。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "gàn",
+      "gān"
+     ],
+     "answer": 0,
+     "explain_vi": "干什么 gàn shénme = làm gì.",
+     "fixed": true,
+     "prompt_zh": "“干什么”中的“干”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "gàn",
+      "gān"
+     ],
+     "answer": 1,
+     "explain_vi": "干净 gānjìng = sạch sẽ.",
+     "fixed": true,
+     "prompt_zh": "“干净”中的“干”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我还没{{1}}买哪个。\n（2）请问，一{{2}}苹果多少钱？\n（3）这些水果很{{3}}，你要不要买一点儿？\n（4）我觉得这件衣服不太{{4}}，你再看看别的吧。\n（5）这些{{5}}书你还要吗？我想送给旁边学校的孩子。",
+     "bank": [
+      "决定",
+      "斤",
+      "新鲜",
+      "合适",
+      "旧",
+      "甜",
+      "一共"
+     ],
+     "answers": [
+      "决定",
+      "斤",
+      "新鲜",
+      "合适",
+      "旧"
+     ],
+     "explain_vi": "还没决定 · 一斤苹果 · 很新鲜 · 不太合适 · 旧书.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Chọn đồ",
+     "words": [
+      "大衣",
+      "上衣",
+      "衬衫",
+      "短裤",
+      "裙子",
+      "鞋",
+      "自行车",
+      "电视",
+      "西瓜",
+      "香蕉",
+      "辆",
+      "旧",
+      "矮",
+      "黄色",
+      "大小",
+      "合适",
+      "新鲜",
+      "甜",
+      "冰",
+      "贵",
+      "便宜"
+     ]
+    },
+    {
+     "head": "Mua bán",
+     "words": [
+      "试",
+      "买",
+      "卖",
+      "决定",
+      "一共",
+      "元",
+      "块",
+      "角",
+      "毛",
+      "分",
+      "斤",
+      "公斤"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "试穿大衣",
+      "一件衬衫",
+      "一条裙子",
+      "大小合适",
+      "冰西瓜",
+      "两斤香蕉",
+      "便宜点儿",
+      "一共十二块五毛",
+      "买二送一",
+      "一辆自行车",
+      "旧电视",
+      "看看再决定"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 这条裙子的颜色很好看，穿着也舒服极了，但是比那条裙子贵一点儿。 → thử váy.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 82.0,
+      "end": 121.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这张桌子不但大小合适，而且高矮也合适。 → bàn ghế.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 123.5,
+      "end": 151.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我也觉得这辆自行车不错，比我的旧车更好看。 → cửa hàng xe đạp.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 152.5,
+      "end": 178.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-07/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-07/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-07/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-07/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "特别甜",
+      "不太新鲜",
+      "昨天买的"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 这个西瓜是你买的吗？甜极了！——我下午在水果店买的，又新鲜又便宜。",
+     "fixed": true,
+     "audio": {
+      "start": 240.5,
+      "end": 283.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "不舒服",
+      "颜色好看",
+      "大小不合适"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你试试这条黄色的短裤……——这条穿着不舒服，我还是更喜欢家里那条旧短裤。",
+     "fixed": true,
+     "audio": {
+      "start": 287.0,
+      "end": 335.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "搬家",
+      "选空调",
+      "办信用卡"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这两个空调都不错，咱们选一个吧。 问：他们在做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 339.3,
+      "end": 393.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "很新鲜",
+      "不太甜",
+      "不便宜"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 今天的水果不但新鲜，而且比昨天更便宜。",
+     "fixed": true,
+     "audio": {
+      "start": 453.5,
+      "end": 488.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "十块",
+      "二十五块七毛",
+      "三十五块七毛"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 西瓜十块钱一个，我买了一个，还花了二十五块七毛买了两斤苹果和三斤香蕉 → 10 + 25,7 = 35,7.",
+     "fixed": true,
+     "audio": {
+      "start": 490.5,
+      "end": 537.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "很小",
+      "人很多",
+      "水果很多"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这个超市不但大，而且人很多。",
+     "fixed": true,
+     "audio": {
+      "start": 541.0,
+      "end": 668.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "她看错人了",
+      "去找手机了",
+      "去买水果了"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 他说自己一直在一个人后面走，他以为是我，到超市外面才发现看错人了.",
+     "fixed": true,
+     "audio": {
+      "start": 541.0,
+      "end": 668.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你走的时候叫我一声。",
+       "a": "没问题，我先写完这些题。"
+      },
+      {
+       "q": "这些衣服我都不喜欢。",
+       "a": "你应该试试，有时候看起来不合适，穿上才好看。"
+      },
+      {
+       "q": "商场里新开了一家书店。",
+       "a": "咱们下午去看看吧。"
+      },
+      {
+       "q": "尝一尝，看一看，不甜不要钱。",
+       "a": "看起来不错，西瓜怎么卖？"
+      },
+      {
+       "q": "听说你哥哥下个月就要结婚了。",
+       "a": "对，他要准备很多东西，忙极了。"
+      }
+     ],
+     "explain_vi": "Nhờ gọi → 没问题; không thích quần áo → 应该试试; hiệu sách mới → 下午去看看; rao dưa → 西瓜怎么卖; anh sắp cưới → 忙极了.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 别买香蕉了，看起来都不太{{1}}。\n17. 我觉得那件衬衫比这件{{2}}漂亮。\n18. 这两个都很好吃，又甜又新鲜，我还不能{{3}}买哪个。\n19. A：妈妈，这张床大小{{4}}吗？ B：有点儿小。前面那个大一些，我们去看看。\n20. A：这是最新的手机。我给你开机了，你看看好用不好用。 B：好极了！{{5}}好看，而且大小合适，拿着也方便。",
+     "bank": [
+      "决定",
+      "新鲜",
+      "更",
+      "合适",
+      "鞋",
+      "不但"
+     ],
+     "answers": [
+      "新鲜",
+      "更",
+      "决定",
+      "合适",
+      "不但"
+     ],
+     "explain_vi": "不太新鲜 · 更漂亮 · 决定买哪个 · 大小合适 · 不但……而且…….",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "二十块",
+      "二十一块",
+      "二十块五毛"
+     ],
+     "answer": 0,
+     "explain_vi": "一共二十一块五毛，您给我二十吧 → trả 20 tệ.",
+     "fixed": true,
+     "prompt_zh": "★ 买这些水果要花多少钱？",
+     "context_zh": "这些是您选的水果吗？两斤苹果、一个西瓜，一共二十一块五毛，您给我二十吧。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "洗得不干净",
+      "需要用更多水",
+      "一点儿也不累"
+     ],
+     "answer": 2,
+     "explain_vi": "不但一点儿也不累，而且洗得更干净，用的水也更少.",
+     "fixed": true,
+     "prompt_zh": "★ 他觉得用洗衣机洗衣服：",
+     "context_zh": "用洗衣机洗衣服比用手洗衣服好，不但一点儿也不累，而且洗得更干净，用的水也更少。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "太大了",
+      "太旧了",
+      "特别漂亮"
+     ],
+     "answer": 1,
+     "explain_vi": "已经用了十几年了 → quá cũ.",
+     "fixed": true,
+     "prompt_zh": "★ 他现在的冰箱：",
+     "context_zh": "我家的旧冰箱已经用了十几年了，我想换一个大一点儿的。我在网上看了很久，觉得现在卖的冰箱不但更漂亮，而且更好用。我打算去商店看一看再决定买哪个。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "很贵",
+      "很好用",
+      "不能在网上买"
+     ],
+     "answer": 1,
+     "explain_vi": "不但更漂亮，而且更好用.",
+     "fixed": true,
+     "prompt_zh": "★ 关于现在卖的冰箱，可以知道什么？",
+     "context_zh": "我家的旧冰箱已经用了十几年了，我想换一个大一点儿的。我在网上看了很久，觉得现在卖的冰箱不但更漂亮，而且更好用。我打算去商店看一看再决定买哪个。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "香蕉十块钱一公___。",
+     "pinyin": "jīn",
+     "answer": "斤",
+     "explain_vi": "公斤 = kilôgam.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "我想买这个电视，不但更大，___且更便宜。",
+     "pinyin": "ér",
+     "answer": "而",
+     "explain_vi": "不但……而且…….",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "今天一___要来15个学生，我们多准备点儿饮料。",
+     "pinyin": "gòng",
+     "answer": "共",
+     "explain_vi": "一共 = tổng cộng.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-07/w28.jpg",
+     "word": "更",
+     "sample": "妹妹比姐姐更高一点儿。",
+     "explain_vi": "比……更 + tính từ.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-07/w29.jpg",
+     "word": "结婚",
+     "sample": "他们今天结婚了，大家都很高兴。",
+     "explain_vi": "结婚 = kết hôn.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-07/w30.jpg",
+     "word": "合适",
+     "sample": "这件衬衫你穿着很合适。",
+     "explain_vi": "合适 = vừa, hợp.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

@@ -1,41 +1,578 @@
 {
  "lessonId": 8,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/08.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "休",
+      "体"
+     ],
+     "answer": 0,
+     "explain_vi": "休息 = nghỉ ngơi: bên phải là 木.",
+     "fixed": true,
+     "prompt_zh": "你出院以后（　）息一个星期。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "休",
+      "体"
+     ],
+     "answer": 1,
+     "explain_vi": "体育馆 = nhà thi đấu: bên phải là 本.",
+     "fixed": true,
+     "prompt_zh": "弟弟去（　）育馆看比赛了。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "jiào",
+      "jiāo"
+     ],
+     "answer": 0,
+     "explain_vi": "教室 jiàoshì = phòng học.",
+     "fixed": true,
+     "prompt_zh": "“教室”中的“教”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "jiào",
+      "jiāo"
+     ],
+     "answer": 1,
+     "explain_vi": "教 jiāo = dạy.",
+     "fixed": true,
+     "prompt_zh": "“教你”中的“教”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我们都知道早睡早起是一个好{{1}}。\n（2）如果吃完这几种{{2}}以后还不舒服，你就再来医院。\n（3）医生给你检查完才能告诉你什么时候{{3}}。\n（4）他什么运动都不喜欢，也不注意健康，真让我{{4}}。\n（5）最近天气热，我每天上班以前都要{{5}}。",
+     "bank": [
+      "习惯",
+      "药",
+      "出院",
+      "担心",
+      "洗澡",
+      "方法",
+      "开心"
+     ],
+     "answers": [
+      "习惯",
+      "药",
+      "出院",
+      "担心",
+      "洗澡"
+     ],
+     "explain_vi": "好习惯 · 几种药 · 什么时候出院 · 让我担心 · 洗澡.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Cơ thể, sức khoẻ",
+     "words": [
+      "腿",
+      "耳朵",
+      "牙",
+      "牙刷",
+      "洗澡",
+      "健康",
+      "胖",
+      "瘦",
+      "感冒",
+      "发烧",
+      "疼"
+     ]
+    },
+    {
+     "head": "Khám bệnh, tâm lý",
+     "words": [
+      "生病",
+      "看病",
+      "检查",
+      "住院",
+      "出院",
+      "开（药）",
+      "药",
+      "病人",
+      "心里",
+      "担心",
+      "开心",
+      "关心",
+      "习惯",
+      "注意",
+      "方法"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "注意身体健康",
+      "好习惯",
+      "坏习惯",
+      "胖了好几斤",
+      "发高烧",
+      "发低烧",
+      "牙疼",
+      "疼极了",
+      "生病住院",
+      "开点儿药",
+      "几种方法",
+      "开心一点儿"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你常来体育馆运动吗？——我每天下午都来打两个小时球。 → nhà thi đấu.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 81.0,
+      "end": 104.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 医生，我昨天跑完步以后腿一直很疼。——我给你检查一下。 → bác sĩ khám chân.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 105.5,
+      "end": 128.0
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 医生开的几种药你知道怎么吃吗？ → thuốc.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 129.8,
+      "end": 152.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-08/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-08/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-08/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-08/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "住院",
+      "出院",
+      "看病"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 听说医生让你明天出院。——我好多了…… 问：女的明天要做什么？",
+     "fixed": true,
+     "audio": {
+      "start": 213.5,
+      "end": 252.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "还可以",
+      "生病了",
+      "去医院了"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你最近身体怎么样？——还可以，我上个月生病了，在家休息了几天就好了。",
+     "fixed": true,
+     "audio": {
+      "start": 256.0,
+      "end": 295.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "去看老师",
+      "给同学们写信",
+      "在家休息一周"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 医生说出院以后还得在家休息一周。",
+     "fixed": true,
+     "audio": {
+      "start": 299.2,
+      "end": 367.0
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "身体不好",
+      "一直喜欢运动",
+      "现在会跑步和游泳"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我哥哥以前不喜欢运动，后来……就开始跑步，还学了游泳。",
+     "fixed": true,
+     "audio": {
+      "start": 428.3,
+      "end": 470.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "生病了",
+      "发高烧",
+      "回学校了"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 陈老师上个星期生病了……休息了一个多星期才回学校。 → bây giờ đã đi dạy lại.",
+     "fixed": true,
+     "audio": {
+      "start": 472.5,
+      "end": 511.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "家里没药了",
+      "头也开始疼了",
+      "晚上睡得不好"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 今天早上他觉得更不舒服了，不但耳朵疼，而且头也开始疼了。",
+     "fixed": true,
+     "audio": {
+      "start": 515.5,
+      "end": 640.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "不用来医院",
+      "不用做检查",
+      "不要自己吃药"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 下次不舒服应该早一点儿来医院，不要自己在家吃药。",
+     "fixed": true,
+     "audio": {
+      "start": 515.5,
+      "end": 640.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你不能再吃冰激凌了，吃多了会不舒服。",
+       "a": "好的，我少吃一点儿。"
+      },
+      {
+       "q": "明天下午三点要去医院做检查。",
+       "a": "我知道，咱们两点半以前走就行。"
+      },
+      {
+       "q": "我差不多运动了半年，现在健康多了。",
+       "a": "有个好的习惯，身体一定会越来越好的。"
+      },
+      {
+       "q": "这种药饭前吃，那种药饭后吃。",
+       "a": "我记住了，我一定不会吃错的。"
+      },
+      {
+       "q": "我妈妈常说，多吃饭身体才能健康。",
+       "a": "她们都喜欢这么说，因为关心我们。"
+      }
+     ],
+     "explain_vi": "Đừng ăn kem nữa → 少吃一点儿; đi khám lúc ba giờ → 两点半以前走; tập nửa năm → 好的习惯; dặn uống thuốc → 记住了; mẹ hay nói → 因为关心我们.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 医生说吃药的时候要{{1}}时间和方法。\n17. 你别{{2}}，我没事，睡一觉就好了。\n18. 虽然她没说，但我知道她{{3}}一定很难过。\n19. A：我发现你{{4}}来体育馆跑步。 B：对，我每天下课以后都来跑一个小时步。\n20. A：除了羽毛球以外，你还喜欢{{5}}运动吗？ B：我什么运动都喜欢。",
+     "bank": [
+      "其他",
+      "常",
+      "注意",
+      "心里",
+      "鞋",
+      "担心"
+     ],
+     "answers": [
+      "注意",
+      "担心",
+      "心里",
+      "常",
+      "其他"
+     ],
+     "explain_vi": "注意时间 · 别担心 · 心里难过 · 常来 · 其他运动.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "一直不舒服",
+      "孩子生病了",
+      "今天发烧了"
+     ],
+     "answer": 0,
+     "explain_vi": "前几天发烧，这几天头疼，也没睡好 → mấy hôm liền không khoẻ.",
+     "fixed": true,
+     "prompt_zh": "★ 妈妈为什么去医院？",
+     "context_zh": "前几天妈妈发烧了，这几天她头疼，也没睡好。今天早上妈妈去医院了，医生给她开了药，让她多休息。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "感冒了",
+      "去医院了",
+      "明天不上班"
+     ],
+     "answer": 0,
+     "explain_vi": "张先生感冒以后没有去医院.",
+     "fixed": true,
+     "prompt_zh": "★ 关于张先生，可以知道什么？",
+     "context_zh": "张先生感冒以后没有去医院，他吃了两天药，今天觉得身体好多了。他准备明天去上班。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "他喜欢运动",
+      "他不想生病",
+      "家人让他跑步"
+     ],
+     "answer": 1,
+     "explain_vi": "医生告诉他，如果再胖下去，就会生病 → không muốn bị ốm.",
+     "fixed": true,
+     "prompt_zh": "★ 爸爸为什么开始跑步？",
+     "context_zh": "我爸爸以前不太喜欢运动，喜欢吃肉、喝饮料，今年他突然胖了不少。检查身体的时候医生告诉他，如果再胖下去，就会生病。最近他开始每天早上跑步，晚上也不吃太多。他现在不但自己运动，而且还常告诉我们要注意健康。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "生病了",
+      "不吃肉了",
+      "开始注意健康了"
+     ],
+     "answer": 2,
+     "explain_vi": "不但自己运动，而且还常告诉我们要注意健康.",
+     "fixed": true,
+     "prompt_zh": "★ 关于爸爸，可以知道什么？",
+     "context_zh": "我爸爸以前不太喜欢运动，喜欢吃肉、喝饮料，今年他突然胖了不少。检查身体的时候医生告诉他，如果再胖下去，就会生病。最近他开始每天早上跑步，晚上也不吃太多。他现在不但自己运动，而且还常告诉我们要注意健康。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "我一直很担___爷爷的身体。",
+     "pinyin": "xīn",
+     "answer": "心",
+     "explain_vi": "担心 = lo lắng.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "虽然问题有很多，但是方___更多。",
+     "pinyin": "fǎ",
+     "answer": "法",
+     "explain_vi": "方法 = cách, phương pháp.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "医生说我不能吃这种药，___他的药都可以吃。",
+     "pinyin": "qí",
+     "answer": "其",
+     "explain_vi": "其他 = khác.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-08/w28.jpg",
+     "word": "差不多",
+     "sample": "这两个孩子差不多高。",
+     "explain_vi": "差不多 = xấp xỉ.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-08/w29.jpg",
+     "word": "发烧",
+     "sample": "她发烧了，得去看医生。",
+     "explain_vi": "发烧 = sốt.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-08/w30.jpg",
+     "word": "健康",
+     "sample": "他们一家人常常跑步，身体都很健康。",
+     "explain_vi": "健康 = khoẻ mạnh.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

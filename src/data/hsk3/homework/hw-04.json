@@ -1,41 +1,577 @@
 {
  "lessonId": 4,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/04.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "已",
+      "己"
+     ],
+     "answer": 0,
+     "explain_vi": "已经: chữ 已 nét móc khép một nửa.",
+     "fixed": true,
+     "prompt_zh": "飞机票我（　）经买好了。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "已",
+      "己"
+     ],
+     "answer": 1,
+     "explain_vi": "自己: chữ 己 nét móc để hở.",
+     "fixed": true,
+     "prompt_zh": "我自（　）去旅游。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "hái",
+      "huán"
+     ],
+     "answer": 0,
+     "explain_vi": "还有 hái yǒu = còn có.",
+     "fixed": true,
+     "prompt_zh": "“还有”中的“还”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "hái",
+      "huán"
+     ],
+     "answer": 1,
+     "explain_vi": "还书 huán shū = trả sách.",
+     "fixed": true,
+     "prompt_zh": "“还书”中的“还”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我喜欢{{1}}，假期的时候我想跟朋友一起去海边。\n（2）因为天气不好，飞机{{2}}了两个小时。\n（3）今天的月亮跟照片上的{{3}}漂亮。\n（4）我也想去草原上{{4}}马，一定非常有意思。\n（5）你觉得这家{{5}}怎么样？",
+     "bank": [
+      "海",
+      "晚点",
+      "一样",
+      "骑",
+      "宾馆",
+      "司机",
+      "起飞"
+     ],
+     "answers": [
+      "海",
+      "晚点",
+      "一样",
+      "骑",
+      "宾馆"
+     ],
+     "explain_vi": "喜欢海 · 飞机晚点 · 跟……一样漂亮 · 骑马 · 这家宾馆.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Du lịch, kỳ nghỉ",
+     "words": [
+      "假期",
+      "旅游",
+      "海",
+      "草原",
+      "骑",
+      "马",
+      "羊",
+      "牛",
+      "草",
+      "地",
+      "月亮"
+     ]
+    },
+    {
+     "head": "Trải nghiệm chuyến đi",
+     "words": [
+      "起飞",
+      "晚点",
+      "司机",
+      "机场",
+      "接",
+      "送",
+      "宾馆",
+      "主意",
+      "干净",
+      "满意",
+      "安全",
+      "特别",
+      "一样",
+      "久"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "假期旅游",
+      "海边",
+      "绿草",
+      "大大的月亮",
+      "好主意",
+      "一家宾馆",
+      "吃羊肉",
+      "骑马",
+      "飞机起飞",
+      "飞机晚点",
+      "久等",
+      "出租车司机"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 飞机要晚点两个小时才能起飞。——那我们就再等一会儿，先找个饭馆吃晚饭吧。 → sân bay, bảng giờ bay.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 82.5,
+      "end": 106.5
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这家宾馆真不错，离海很近，房间也很漂亮。 → phòng khách sạn nhìn ra biển.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 109.5,
+      "end": 137.0
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我跟朋友一起去草原了，我第一次骑马。 → thảo nguyên, cưỡi ngựa.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 143.5,
+      "end": 170.5
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-04/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "第一次",
+      "第二次",
+      "第三次"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 除了我以外，别的人都是第一次去上海。 问：别的人都是第几次去上海？",
+     "fixed": true,
+     "audio": {
+      "start": 236.5,
+      "end": 277.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "三点",
+      "四点",
+      "五点一刻"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 飞机三点就应该起飞了，现在都四点了……——晚点了，五点一刻才能起飞。",
+     "fixed": true,
+     "audio": {
+      "start": 282.5,
+      "end": 326.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "床很舒服",
+      "房间不大",
+      "不太干净"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 房间很大，地上特别干净，床也很舒服。 问：女的觉得那家宾馆怎么样？",
+     "fixed": true,
+     "audio": {
+      "start": 331.3,
+      "end": 387.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "吃羊肉",
+      "去海边",
+      "看月亮"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这个假期我想跟朋友一起去草原骑马、看月亮。",
+     "fixed": true,
+     "audio": {
+      "start": 448.0,
+      "end": 482.0
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "车坏了",
+      "走错路了",
+      "飞机晚点了"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我们的车路上坏了，到机场的时候飞机已经起飞了。",
+     "fixed": true,
+     "audio": {
+      "start": 484.0,
+      "end": 520.0
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "看见草原了",
+      "看见大海了",
+      "拍了很多照片"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 她是在草原上长大的，昨天第一次看见大海。",
+     "fixed": true,
+     "audio": {
+      "start": 521.5,
+      "end": 652.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "相机坏了",
+      "照片不好看",
+      "相机不见了"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 回到宾馆，她想给妈妈看看大海的照片，但是发现相机不见了。",
+     "fixed": true,
+     "audio": {
+      "start": 521.5,
+      "end": 652.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "你的相机在哪儿？",
+       "a": "我没带出来，一直在宾馆的房间里。"
+      },
+      {
+       "q": "你为什么还不睡觉？",
+       "a": "我还在选宾馆呢，你先休息吧。"
+      },
+      {
+       "q": "欢迎您来北京，我是您的司机小王。",
+       "a": "您好，不好意思，让您久等了。"
+      },
+      {
+       "q": "这里真是太好玩儿了。",
+       "a": "我也特别喜欢这里，下次假期我还要来。"
+      },
+      {
+       "q": "除了“谢谢”以外，别的我一点儿都不会说。",
+       "a": "别着急，过几个月，你就什么都会了。"
+      }
+     ],
+     "explain_vi": "Hỏi máy ảnh → để ở khách sạn; sao chưa ngủ → đang chọn khách sạn; tài xế chào → 让您久等了; nơi này vui → 下次还要来; chỉ biết nói 谢谢 → 别着急.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 小丽想去草原看月亮、吃羊肉，但是{{1}}没有时间去。\n17. 我和姐姐都喜欢大海，但是妹妹跟我们不{{2}}，她喜欢草原。\n18. 我今天不舒服，不想吃这个，还有{{3}}吗？\n19. A：你要一个人开车去旅游吗？ B：对，我一个人去，这次{{4}}没问题。\n20. A：昨天住的那家宾馆很{{5}}，服务也很好，你觉得呢？ B：我也觉得不错，房间又大又舒服。",
+     "bank": [
+      "别的",
+      "一样",
+      "一直",
+      "一定",
+      "鞋",
+      "特别"
+     ],
+     "answers": [
+      "一直",
+      "一样",
+      "别的",
+      "一定",
+      "特别"
+     ],
+     "explain_vi": "一直没有时间 · 跟我们不一样 · 还有别的吗 · 一定没问题 · 很特别.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "要回中国",
+      "坐了六小时飞机",
+      "在机场等了六小时"
+     ],
+     "answer": 2,
+     "explain_vi": "他在机场等了六个小时.",
+     "fixed": true,
+     "prompt_zh": "★ 关于小王，可以知道什么？",
+     "context_zh": "小王要去国外旅游，但是飞机晚点了，他在机场等了六个小时，飞机才起飞。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "去了上海",
+      "只去了北京",
+      "哪儿都没去"
+     ],
+     "answer": 0,
+     "explain_vi": "除了北京以外，还去了上海和西安.",
+     "fixed": true,
+     "prompt_zh": "★ 他们假期：",
+     "context_zh": "这个假期我们去中国旅游了，除了北京以外，还去了上海和西安。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "妻子",
+      "女儿",
+      "儿子"
+     ],
+     "answer": 0,
+     "explain_vi": "我妻子希望房间和床都大一些.",
+     "fixed": true,
+     "prompt_zh": "★ 谁希望选一个房间大的宾馆？",
+     "context_zh": "我们一家人一起旅游的时候，最大的问题就是选宾馆。我觉得住的宾馆一定要去哪儿都方便。我妻子希望房间和床都大一些，休息的时候舒服点儿。儿子和女儿说：“最重要的是宾馆的早饭要好吃。”怎么才能选到大家都满意的宾馆呢？",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "舒服的床",
+      "大的房间",
+      "好吃的早饭"
+     ],
+     "answer": 2,
+     "explain_vi": "最重要的是宾馆的早饭要好吃.",
+     "fixed": true,
+     "prompt_zh": "★ 儿子和女儿觉得宾馆最重要的是什么？",
+     "context_zh": "我们一家人一起旅游的时候，最大的问题就是选宾馆。我觉得住的宾馆一定要去哪儿都方便。我妻子希望房间和床都大一些，休息的时候舒服点儿。儿子和女儿说：“最重要的是宾馆的早饭要好吃。”怎么才能选到大家都满意的宾馆呢？",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "今天的天气太热了，咱们下午去___边玩吧。",
+     "pinyin": "hǎi",
+     "answer": "海",
+     "explain_vi": "海边 = bờ biển.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "这个假期我一___要去草原骑马。",
+     "pinyin": "dìng",
+     "answer": "定",
+     "explain_vi": "一定 = nhất định.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "昨天住的那家宾馆很特___，服务也很好。",
+     "pinyin": "bié",
+     "answer": "别",
+     "explain_vi": "特别 = đặc biệt.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-04/w28.jpg",
+     "word": "特别",
+     "sample": "今天一家人在草地上玩儿得特别高兴。",
+     "explain_vi": "特别 = đặc biệt, rất.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-04/w29.jpg",
+     "word": "一直",
+     "sample": "她在飞机上一直在睡觉。",
+     "explain_vi": "一直 = suốt, liên tục.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-04/w30.jpg",
+     "word": "先",
+     "sample": "我们先看看地图，再去玩儿吧。",
+     "explain_vi": "先……再…… = trước… rồi mới….",
+     "num": "30"
+    }
+   ]
   }
  ]
 }

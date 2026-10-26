@@ -1,41 +1,587 @@
 {
  "lessonId": 12,
  "level": "hsk3",
- "status": "draft",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk3/wb/12.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程3 学练手册",
  "sections": [
   {
-   "type": "reading",
-   "part": "A1–A2",
-   "title_vi": "Đọc hiểu",
-   "passage": {
-    "zh": "",
-    "vi": ""
-   },
-   "questions": []
+   "type": "vocab",
+   "part": "一",
+   "title_vi": "Chữ Hán dễ nhầm & chữ đa âm",
+   "instructions_vi": "Chọn chữ hoặc cách đọc đúng.",
+   "questions": [
+    {
+     "id": "h1",
+     "kind": "mcq",
+     "options": [
+      "办",
+      "为"
+     ],
+     "answer": 0,
+     "explain_vi": "办公室: chữ 办 có hai chấm hai bên.",
+     "fixed": true,
+     "prompt_zh": "我去（　）公室找李老师。",
+     "num": "Chữ Hán 1"
+    },
+    {
+     "id": "h2",
+     "kind": "mcq",
+     "options": [
+      "办",
+      "为"
+     ],
+     "answer": 1,
+     "explain_vi": "为了: chữ 为 có hai chấm ở trên và giữa.",
+     "fixed": true,
+     "prompt_zh": "（　）了得到好成绩，我要认真复习。",
+     "num": "Chữ Hán 2"
+    },
+    {
+     "id": "h3",
+     "kind": "mcq",
+     "options": [
+      "zháo",
+      "zhe"
+     ],
+     "answer": 0,
+     "explain_vi": "着急 zháojí = sốt ruột.",
+     "fixed": true,
+     "prompt_zh": "“着急”中的“着”读：",
+     "num": "Chữ Hán 3"
+    },
+    {
+     "id": "h4",
+     "kind": "mcq",
+     "options": [
+      "zháo",
+      "zhe"
+     ],
+     "answer": 1,
+     "explain_vi": "Trợ từ 着 đọc zhe.",
+     "fixed": true,
+     "prompt_zh": "“坐着”中的“着”读：",
+     "num": "Chữ Hán 4"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "part": "二",
+   "title_vi": "Từ ngữ theo chủ đề",
+   "instructions_vi": "Đọc bảng từ, rồi chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这些树都{{1}}了，公园更漂亮了。\n（2）我喜欢一年有{{2}}、春夏秋冬都不一样的城市。\n（3）这条{{3}}不太长，旁边都是高高的树，夏天在这里走凉快极了。\n（4）这些树现在是绿色的，秋天就会{{4}}红色或者黄色。\n（5）听说那个{{5}}环境特别好，旁边还有一个大花园。",
+     "bank": [
+      "开花",
+      "四季",
+      "街",
+      "变成",
+      "地方",
+      "雨衣",
+      "季节"
+     ],
+     "answers": [
+      "开花",
+      "四季",
+      "街",
+      "变成",
+      "地方"
+     ],
+     "explain_vi": "开花 · 四季 · 一条街 · 变成 · 地方.",
+     "num": "Từ vựng"
+    }
+   ],
+   "wordTable": [
+    {
+     "head": "Các mùa",
+     "words": [
+      "季节",
+      "季",
+      "四季",
+      "春天",
+      "夏天",
+      "秋天",
+      "冬天"
+     ]
+    },
+    {
+     "head": "Thời tiết",
+     "words": [
+      "刮",
+      "风",
+      "下雨",
+      "下雪",
+      "阴",
+      "晴",
+      "冷",
+      "热",
+      "凉快",
+      "冰",
+      "变",
+      "变化",
+      "变成",
+      "伞",
+      "雨伞",
+      "雨衣"
+     ]
+    },
+    {
+     "head": "Môi trường sống",
+     "words": [
+      "开花",
+      "街",
+      "花园",
+      "公园",
+      "园",
+      "船",
+      "地方"
+     ]
+    },
+    {
+     "head": "Kết hợp thường gặp",
+     "words": [
+      "一年四季",
+      "春夏秋冬",
+      "刮起风来",
+      "下大雨",
+      "天气多变",
+      "刮风下雨",
+      "不冷不热",
+      "开了很多花",
+      "一条小船",
+      "一把雨伞",
+      "一个好地方",
+      "街边"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1–3)",
+   "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn tranh phù hợp nhất.",
+   "questions": [
+    {
+     "id": "1",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 好像要下雨了，我没带雨伞。——没关系，前面有个商店，咱们去买一把。 → hai người che ô.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 82.0,
+      "end": 110.0
+     },
+     "num": "1"
+    },
+    {
+     "id": "2",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你最喜欢哪个季节？——春天，天气不冷也不热，花也都开了. → hoa nở mùa xuân.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 110.5,
+      "end": 134.5
+     },
+     "num": "2"
+    },
+    {
+     "id": "3",
+     "kind": "mcq",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你看外面的大太阳……新闻说今天是最热的一天。 → nhiệt kế, trời nắng nóng.",
+     "fixed": true,
+     "prompt_vi": "Nghe đoạn hội thoại, chọn tranh phù hợp.",
+     "audio": {
+      "start": 137.5,
+      "end": 163.0
+     },
+     "num": "3"
+    }
+   ],
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-12/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-12/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-12/l1-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-12/l1-d.jpg"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe – hội thoại (câu 4–6)",
+   "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "kind": "mcq",
+     "options": [
+      "她想休息",
+      "她想工作日去",
+      "今天天气不好"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 风越刮越大，咱们下午还去爬山吗？——换个时间吧……一休息就刮风下雨。",
+     "fixed": true,
+     "audio": {
+      "start": 237.0,
+      "end": 286.5
+     },
+     "num": "4"
+    },
+    {
+     "id": "5",
+     "kind": "mcq",
+     "options": [
+      "四季都不一样",
+      "每天都是夏天",
+      "一年有两个季节"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 北京夏天很热，冬天很冷，一年的每个季节都不一样。",
+     "fixed": true,
+     "audio": {
+      "start": 290.5,
+      "end": 345.5
+     },
+     "num": "5"
+    },
+    {
+     "id": "6",
+     "kind": "mcq",
+     "options": [
+      "给她一把雨伞",
+      "让她早点儿回家",
+      "告诉她已经下雨了"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我想告诉你要下雨了，你没带雨伞，早点儿回家。",
+     "fixed": true,
+     "audio": {
+      "start": 349.5,
+      "end": 404.5
+     },
+     "num": "6"
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe – đoạn văn (câu 7–10)",
+   "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "7",
+     "kind": "mcq",
+     "options": [
+      "天气热",
+      "太阳很早下山",
+      "很多人出去吃饭"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 夏天到了，天气越来越热，我都是太阳下山以后才出去。",
+     "fixed": true,
+     "audio": {
+      "start": 463.8,
+      "end": 508.5
+     },
+     "num": "7"
+    },
+    {
+     "id": "8",
+     "kind": "mcq",
+     "options": [
+      "下大雨",
+      "刮大风",
+      "一直阴天"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 今天下午突然阴天，刮起大风来了。我以为会下雨，但是很快天就晴了。",
+     "fixed": true,
+     "audio": {
+      "start": 510.0,
+      "end": 551.5
+     },
+     "num": "8"
+    },
+    {
+     "id": "9",
+     "kind": "mcq",
+     "options": [
+      "常常刮风",
+      "不冷也不热",
+      "每天都很冷"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 他以前住的地方每天不冷也不热。",
+     "fixed": true,
+     "audio": {
+      "start": 555.5,
+      "end": 680.0
+     },
+     "num": "9"
+    },
+    {
+     "id": "10",
+     "kind": "mcq",
+     "options": [
+      "一年都很冷",
+      "每天都很热",
+      "王老师还不太习惯"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 现在住的地方一年里有半年的时间都很冷……他觉得不太习惯。 (Chỉ lạnh nửa năm, không phải cả năm.)",
+     "fixed": true,
+     "audio": {
+      "start": 555.5,
+      "end": 680.0
+     },
+     "num": "10"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A3",
-   "title_vi": "Nối câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Đọc – nối câu (câu 11–15)",
+   "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+   "questions": [
+    {
+     "id": "11-15",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "这里冬天常下雪吗？",
+       "a": "不一定，去年一次也没下。"
+      },
+      {
+       "q": "雨越下越大，一会儿怎么回家？",
+       "a": "李老师把雨伞借给我了，咱们一起走吧。"
+      },
+      {
+       "q": "最近天气太热，空调都快要卖完了。",
+       "a": "是啊，每天都热得不想出门，还是房间里凉快。"
+      },
+      {
+       "q": "环境越来越差，我们得想想办法。",
+       "a": "希望越来越多的人关注这个问题。"
+      },
+      {
+       "q": "虽然夏天运动完很热，但是你也不应该马上喝很多冰水。",
+       "a": "医生也这么说，但是我已经习惯了。"
+      }
+     ],
+     "explain_vi": "Hỏi có tuyết không → 去年一次也没下; mưa to → 借雨伞; trời nóng, điều hoà hết → 房间里凉快; môi trường xấu → 关注这个问题; đừng uống nước đá → 已经习惯了.",
+     "num": "11–15"
+    }
+   ]
   },
   {
    "type": "reading",
-   "part": "A4",
-   "title_vi": "Chọn từ điền vào chỗ trống",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Đọc – chọn từ điền (câu 16–20)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống. Có một từ thừa.",
+   "questions": [
+    {
+     "id": "16-20",
+     "kind": "cloze",
+     "text": "16. 这个花园很安静，我吃完早饭{{1}}一个人来这里走走。\n17. {{2}}还晴天呢，怎么突然就下起雨来了？\n18. 他每天早上都看新闻，非常{{3}}天气的变化。\n19. A：你在这儿住了好几年了，早就习惯了吧？ B：是的。这里已经{{4}}我的第二个家了，我会一直住下去。\n20. A：咱们找个{{5}}休息一会儿吧，雨可能要下起来了。 B：好。前面有一家咖啡店，马上就到了。",
+     "bank": [
+      "变成",
+      "刚才",
+      "常常",
+      "关注",
+      "鞋",
+      "地方"
+     ],
+     "answers": [
+      "常常",
+      "刚才",
+      "关注",
+      "变成",
+      "地方"
+     ],
+     "explain_vi": "常常 · 刚才 · 关注 · 变成 · 找个地方.",
+     "num": "16–20"
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc hiểu (câu 21–24)",
+   "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+   "questions": [
+    {
+     "id": "21",
+     "kind": "mcq",
+     "options": [
+      "下雨了",
+      "一直阴天",
+      "比昨天冷多了"
+     ],
+     "answer": 2,
+     "explain_vi": "一出门，我就发现比昨天冷得多.",
+     "fixed": true,
+     "prompt_zh": "★ 今天早上的天气怎么样？",
+     "context_zh": "今天早上一出门，我就发现比昨天冷得多。走了一会儿天突然黑了，我马上决定回家去拿雨伞了。",
+     "num": "21"
+    },
+    {
+     "id": "22",
+     "kind": "mcq",
+     "options": [
+      "天气很舒服",
+      "公园里人不多",
+      "想找凉快的地方"
+     ],
+     "answer": 0,
+     "explain_vi": "今天下午终于出太阳了，天气很舒服.",
+     "fixed": true,
+     "prompt_zh": "★ 他为什么和朋友一起去公园？",
+     "context_zh": "下了好几天的雨，今天下午终于出太阳了，天气很舒服。我和朋友一起去公园走了走，公园里的花都开了，来看花的人挺多的。",
+     "num": "22"
+    },
+    {
+     "id": "23",
+     "kind": "mcq",
+     "options": [
+      "很热",
+      "下雨了",
+      "太阳下山后很冷"
+     ],
+     "answer": 2,
+     "explain_vi": "虽然是夏天，但太阳下山以后天气特别冷.",
+     "fixed": true,
+     "prompt_zh": "★ 那天山上的天气怎么样？",
+     "context_zh": "这张照片很有意思，是我跟同学们爬山的时候照的。那天我们爬完山就住在山上了。虽然是夏天，但太阳下山以后天气特别冷，风也很大。别的同学或者带了长裤，或者带了大衣，我只穿了一条短裤和一件衬衫。因为太冷了，同学们把雨衣都借给我了。你看，照片上就我一个人穿着好几件雨衣。",
+     "num": "23"
+    },
+    {
+     "id": "24",
+     "kind": "mcq",
+     "options": [
+      "因为拍照有意思",
+      "因为他没带大衣",
+      "因为他雨衣丢了"
+     ],
+     "answer": 1,
+     "explain_vi": "我只穿了一条短裤和一件衬衫 → không mang áo ấm.",
+     "fixed": true,
+     "prompt_zh": "★ 同学们为什么把雨衣借给他？",
+     "context_zh": "这张照片很有意思，是我跟同学们爬山的时候照的。那天我们爬完山就住在山上了。虽然是夏天，但太阳下山以后天气特别冷，风也很大。别的同学或者带了长裤，或者带了大衣，我只穿了一条短裤和一件衬衫。因为太冷了，同学们把雨衣都借给我了。你看，照片上就我一个人穿着好几件雨衣。",
+     "num": "24"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B1",
-   "title_vi": "Sắp xếp từ thành câu",
-   "questions": []
+   "part": "第一部分",
+   "title_vi": "Viết chữ Hán theo pinyin (câu 25–27)",
+   "instructions_vi": "Viết chữ Hán đúng với pinyin.",
+   "questions": [
+    {
+     "id": "25",
+     "kind": "charFill",
+     "text": "今天___刮得很大，我们别去坐船了。",
+     "pinyin": "fēng",
+     "answer": "风",
+     "explain_vi": "刮风 = gió thổi.",
+     "num": "25"
+    },
+    {
+     "id": "26",
+     "kind": "charFill",
+     "text": "这几年住下来，我最喜欢的___节还是秋天。",
+     "pinyin": "jì",
+     "answer": "季",
+     "explain_vi": "季节 = mùa.",
+     "num": "26"
+    },
+    {
+     "id": "27",
+     "kind": "charFill",
+     "text": "秋天来了，天气变___快了。",
+     "pinyin": "liáng",
+     "answer": "凉",
+     "explain_vi": "凉快 = mát mẻ.",
+     "num": "27"
+    }
+   ]
   },
   {
    "type": "writing",
-   "part": "B2",
-   "title_vi": "Dịch sang tiếng Trung",
-   "questions": []
+   "part": "第二部分",
+   "title_vi": "Nhìn tranh, dùng từ đặt câu (câu 28–30)",
+   "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+   "questions": [
+    {
+     "id": "28",
+     "kind": "sentence",
+     "img": "hw-12/w28.jpg",
+     "word": "刚才",
+     "sample": "刚才下雨了，她打着伞走回家。",
+     "explain_vi": "刚才 = vừa nãy.",
+     "num": "28"
+    },
+    {
+     "id": "29",
+     "kind": "sentence",
+     "img": "hw-12/w29.jpg",
+     "word": "常常",
+     "sample": "爷爷常常在公园里看书。",
+     "explain_vi": "常常 = thường thường.",
+     "num": "29"
+    },
+    {
+     "id": "30",
+     "kind": "sentence",
+     "img": "hw-12/w30.jpg",
+     "word": "关注",
+     "sample": "她每天早上都关注天气的变化。",
+     "explain_vi": "关注 = quan tâm, theo dõi.",
+     "num": "30"
+    }
+   ]
   }
  ]
 }
