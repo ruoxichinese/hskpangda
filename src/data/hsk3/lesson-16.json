@@ -1,41 +1,1108 @@
 {
   "id": 16,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我听说有的熊猫出国了",
-    "pinyin": "Wǒ tīngshuō yǒu de xióngmāo chū guó le",
+    "pinyin": "Wǒ tīngshuō yǒude xióngmāo chūguó le",
     "vi": "Nghe nói có những chú gấu trúc đã ra nước ngoài"
   },
   "grammarTopics_vi": [
-    "Câu song song 一会儿……，一会儿……",
-    "Giới từ 关于",
-    "Cụm 一般来说",
-    "Câu so sánh (11)"
+    "Câu song song “一会儿……，一会儿……”",
+    "Giới từ “关于”",
+    "Cụm cố định “一般来说”",
+    "Câu so sánh (11): A 比 B + 早/晚/多/少 + động từ + số lượng"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu song song 一会儿……，一会儿……",
-      "doneWhen": []
+      "vi": "Miêu tả đặc điểm, tập tính và môi trường sống của động vật",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Giới từ 关于",
-      "doneWhen": []
+      "vi": "Bày tỏ suy nghĩ của mình về động vật",
+      "doneWhen": [
+        "text-1",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cụm 一般来说",
-      "doneWhen": []
+      "vi": "So sánh chênh lệch về số lượng, thời gian: 比平时早关门一个小时",
+      "doneWhen": [
+        "text-4"
+      ]
     },
     {
       "id": "o4",
-      "vi": "Câu so sánh (11)",
-      "doneWhen": []
+      "vi": "Hiểu những điều cơ bản về gấu trúc lớn",
+      "doneWhen": [
+        "text-2"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🐼",
+      "word": "脸",
+      "pinyin": "liǎn",
+      "vi": "mặt"
+    },
+    {
+      "emoji": "👄",
+      "word": "嘴",
+      "pinyin": "zuǐ",
+      "vi": "miệng"
+    },
+    {
+      "emoji": "👀",
+      "word": "眼睛",
+      "pinyin": "yǎnjing",
+      "vi": "mắt"
+    },
+    {
+      "emoji": "👂",
+      "word": "耳朵",
+      "pinyin": "ěrduo",
+      "vi": "tai"
+    },
+    {
+      "emoji": "🐾",
+      "word": "脚",
+      "pinyin": "jiǎo",
+      "vi": "chân, bàn chân"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở một cửa hàng nhận nuôi thú cưng, chị Vương Nhất Tuyết và các con đang xem các con vật.",
+      "scene": "🐱",
+      "audio": "audio/hsk3/16-1.mp3",
+      "vocabAudio": "audio/hsk3/16-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chú mèo này được nuôi bao lâu rồi?",
+          "options": [
+            "第一天养",
+            "养了一年多了",
+            "养了很多年了"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Bây giờ chú mèo trông thế nào?",
+          "options": [
+            "特别小",
+            "特别可爱",
+            "不太干净"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "这只小猫你们养了多久了？",
+          "vi": "Chú mèo này các anh chị nuôi bao lâu rồi ạ?",
+          "t": 0.71
+        },
+        {
+          "speaker": "fuwuyuan",
+          "zh": "已经一年多了。第一天看见它的时候，它又脏又小。",
+          "vi": "Hơn một năm rồi. Hôm đầu tiên thấy nó, nó vừa bẩn vừa nhỏ.",
+          "t": 4.36
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "现在它变得又干净又漂亮了。",
+          "vi": "Bây giờ nó đã sạch sẽ, xinh xắn rồi.",
+          "t": 11.59
+        },
+        {
+          "speaker": "fuwuyuan",
+          "zh": "是啊。它还特别可爱，一会儿在你脚边睡觉，一会儿在你身上爬。",
+          "vi": "Đúng vậy. Nó còn rất đáng yêu, lúc thì ngủ dưới chân em, lúc thì bò lên người em.",
+          "t": 14.97
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "你们把它照顾得真好。",
+          "vi": "Các anh chị chăm nó tốt thật.",
+          "t": 24.42
+        },
+        {
+          "speaker": "fuwuyuan",
+          "zh": "它就好像我们的孩子，我们照顾它，它也认得我们了。",
+          "vi": "Nó như con của chúng tôi vậy, chúng tôi chăm nó, nó cũng nhận ra chúng tôi rồi.",
+          "t": 27.58
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，我们家也养一只小猫吧。",
+          "vi": "Mẹ ơi, nhà mình cũng nuôi một chú mèo đi.",
+          "t": 34.94
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "咱们没时间照顾，还是别养了，我周末带你们去北京动物园看动物吧。",
+          "vi": "Nhà mình không có thời gian chăm, thôi đừng nuôi, cuối tuần mẹ đưa các con đi vườn thú Bắc Kinh xem thú nhé.",
+          "t": 39.09
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "脏",
+          "pinyin": "zāng",
+          "pos": "adj.",
+          "vi": "bẩn",
+          "example": {
+            "zh": "你的鞋太脏了。",
+            "vi": "Giày của bạn bẩn quá."
+          }
+        },
+        {
+          "zh": "可爱",
+          "pinyin": "kě'ài",
+          "pos": "adj.",
+          "vi": "đáng yêu",
+          "example": {
+            "zh": "这只小狗真可爱。",
+            "vi": "Chú chó con này đáng yêu thật."
+          }
+        },
+        {
+          "zh": "一会儿",
+          "pinyin": "yíhuìr",
+          "pos": "adv.",
+          "vi": "lúc thì…; một lát",
+          "example": {
+            "zh": "他一会儿笑，一会儿哭。",
+            "vi": "Nó lúc thì cười, lúc thì khóc."
+          }
+        },
+        {
+          "zh": "脚",
+          "pinyin": "jiǎo",
+          "pos": "n.",
+          "vi": "chân, bàn chân",
+          "example": {
+            "zh": "我的脚有点儿疼。",
+            "vi": "Chân tôi hơi đau."
+          }
+        },
+        {
+          "zh": "照顾",
+          "pinyin": "zhàogù",
+          "pos": "v.",
+          "vi": "chăm sóc",
+          "example": {
+            "zh": "她照顾生病的妈妈。",
+            "vi": "Cô ấy chăm sóc mẹ bị ốm."
+          }
+        },
+        {
+          "zh": "认得",
+          "pinyin": "rènde",
+          "pos": "v.",
+          "vi": "nhận ra, biết mặt",
+          "example": {
+            "zh": "你还认得我吗？",
+            "vi": "Bạn còn nhận ra tôi không?"
+          }
+        },
+        {
+          "zh": "周末",
+          "pinyin": "zhōumò",
+          "pos": "n.",
+          "vi": "cuối tuần",
+          "example": {
+            "zh": "周末你做什么？",
+            "vi": "Cuối tuần bạn làm gì?"
+          }
+        },
+        {
+          "zh": "动物园",
+          "pinyin": "dòngwùyuán",
+          "pos": "n.",
+          "vi": "vườn thú",
+          "example": {
+            "zh": "我们去动物园看熊猫吧。",
+            "vi": "Mình đi vườn thú xem gấu trúc đi."
+          }
+        },
+        {
+          "zh": "动物",
+          "pinyin": "dòngwù",
+          "pos": "n.",
+          "vi": "động vật",
+          "example": {
+            "zh": "你喜欢什么动物？",
+            "vi": "Bạn thích con vật nào?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g16-1",
+          "title_zh": "并列复句“一会儿……，一会儿……”",
+          "title_vi": "“一会儿……，一会儿……”: lúc thì… lúc thì…",
+          "formula": [
+            [
+              {
+                "zh": "它",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "一会儿",
+                "label": "lúc thì",
+                "role": "ADV"
+              },
+              {
+                "zh": "在你脚边睡觉",
+                "label": "Hành động / trạng thái 1",
+                "role": "V"
+              },
+              {
+                "zh": "，一会儿",
+                "label": "lúc thì",
+                "role": "ADV"
+              },
+              {
+                "zh": "在你身上爬",
+                "label": "Hành động / trạng thái 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Nói các hành động khác nhau thay nhau diễn ra trong thời gian ngắn, hoặc trạng thái đổi qua đổi lại – giống “lúc thì… lúc thì…”, “khi… khi…” trong tiếng Việt. Khác 一边……一边…… (bài 13): 一边 là cùng lúc, 一会儿 là thay phiên.",
+          "examples": [
+            {
+              "zh": "它一会儿在你脚边睡觉，一会儿在你身上爬。",
+              "vi": "Nó lúc thì ngủ dưới chân bạn, lúc thì bò lên người bạn."
+            },
+            {
+              "zh": "他一会儿进来，一会儿出去，忙得很。",
+              "vi": "Anh ấy lúc ra lúc vào, bận lắm."
+            },
+            {
+              "zh": "最近天气变化很快，一会儿冷，一会儿热。",
+              "vi": "Dạo này thời tiết thay đổi nhanh, lúc lạnh lúc nóng."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一会儿吃饭一会儿看电视。（muốn nói: vừa ăn vừa xem tivi）",
+              "right": "我一边吃饭一边看电视。",
+              "why_vi": "Hai việc làm CÙNG LÚC dùng 一边……一边……; 一会儿……一会儿…… là thay phiên nhau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Đứa bé lúc thì khóc, lúc thì cười.”",
+              "options": [
+                "孩子一会儿哭，一会儿笑。",
+                "孩子一边哭一会儿笑。",
+                "孩子哭一会儿，笑一会儿了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "Ở Trung Quốc, 它 (tā) dùng cho con vật và đồ vật – phát âm giống 他/她 nhưng chữ viết khác."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở vườn thú, chị Nhất Tuyết và các con vừa đi vừa trò chuyện.",
+      "scene": "🎋",
+      "audio": "audio/hsk3/16-3.mp3",
+      "vocabAudio": "audio/hsk3/16-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Mẹ con chị Nhất Tuyết đang nói về gì?",
+          "options": [
+            "大熊猫",
+            "北京动物园",
+            "动物和人的不同"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Vì sao Tiểu Tuyết gọi em là “mười vạn câu hỏi vì sao”?",
+          "options": [
+            "弟弟喜欢看书",
+            "弟弟喜欢听故事",
+            "弟弟喜欢问问题"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoming",
+          "zh": "妈妈，大熊猫这个名字很奇怪，它们跟猫有什么关系？",
+          "vi": "Mẹ ơi, cái tên gấu trúc (đại hùng miêu) lạ quá, chúng có liên quan gì đến mèo ạ?",
+          "t": 0.62
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "这个问题问得好，它们跟猫没什么关系，其实应该叫大猫熊。",
+          "vi": "Câu hỏi hay đấy, chúng chẳng liên quan gì đến mèo cả, thật ra nên gọi là “đại miêu hùng”.",
+          "t": 6.73
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "大熊猫为什么只吃竹子不吃肉？",
+          "vi": "Sao gấu trúc chỉ ăn tre mà không ăn thịt ạ?",
+          "t": 14.94
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "它们跟人一样，也可以吃肉，但是对肉不感兴趣。",
+          "vi": "Chúng cũng giống người, ăn thịt được, nhưng không thích thịt.",
+          "t": 19.53
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "大熊猫为什么是中国的国宝？",
+          "vi": "Vì sao gấu trúc là quốc bảo của Trung Quốc ạ?",
+          "t": 25.83
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "全世界只有中国有野生大熊猫，中国是大熊猫的家。",
+          "vi": "Cả thế giới chỉ có Trung Quốc có gấu trúc hoang dã, Trung Quốc là nhà của gấu trúc.",
+          "t": 29.23
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "我听说有的熊猫出国了，它们去哪儿了？",
+          "vi": "Con nghe nói có những chú gấu trúc đã ra nước ngoài, chúng đi đâu ạ?",
+          "t": 37.84
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "关于这个问题，我得慢慢给你讲。",
+          "vi": "Về chuyện này, mẹ phải kể từ từ cho con nghe.",
+          "t": 43.02
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "弟弟，你真是“十万个为什么”。",
+          "vi": "Em đúng là “mười vạn câu hỏi vì sao”.",
+          "t": 47.62
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "大熊猫",
+          "pinyin": "dàxióngmāo",
+          "pos": "n.",
+          "vi": "gấu trúc lớn",
+          "example": {
+            "zh": "大熊猫很可爱。",
+            "vi": "Gấu trúc rất đáng yêu."
+          }
+        },
+        {
+          "zh": "奇怪",
+          "pinyin": "qíguài",
+          "pos": "adj.",
+          "vi": "lạ, kỳ lạ",
+          "example": {
+            "zh": "这件事很奇怪。",
+            "vi": "Chuyện này rất lạ."
+          }
+        },
+        {
+          "zh": "其实",
+          "pinyin": "qíshí",
+          "pos": "adv.",
+          "vi": "thật ra",
+          "example": {
+            "zh": "其实我不太喜欢吃肉。",
+            "vi": "Thật ra tôi không thích ăn thịt lắm."
+          }
+        },
+        {
+          "zh": "竹子",
+          "pinyin": "zhúzi",
+          "pos": "n.",
+          "vi": "cây tre, trúc",
+          "example": {
+            "zh": "熊猫喜欢吃竹子。",
+            "vi": "Gấu trúc thích ăn tre."
+          }
+        },
+        {
+          "zh": "国宝",
+          "pinyin": "guóbǎo",
+          "pos": "n.",
+          "vi": "quốc bảo, báu vật quốc gia",
+          "example": {
+            "zh": "大熊猫是中国的国宝。",
+            "vi": "Gấu trúc là quốc bảo của Trung Quốc."
+          }
+        },
+        {
+          "zh": "全",
+          "pinyin": "quán",
+          "pos": "adj.",
+          "vi": "toàn bộ, cả",
+          "example": {
+            "zh": "全家都来了。",
+            "vi": "Cả nhà đều đến."
+          }
+        },
+        {
+          "zh": "野生",
+          "pinyin": "yěshēng",
+          "pos": "adj.",
+          "vi": "hoang dã",
+          "example": {
+            "zh": "这里有很多野生动物。",
+            "vi": "Ở đây có nhiều động vật hoang dã."
+          }
+        },
+        {
+          "zh": "关于",
+          "pinyin": "guānyú",
+          "pos": "prep.",
+          "vi": "về (vấn đề…)",
+          "example": {
+            "zh": "这是一本关于熊猫的书。",
+            "vi": "Đây là cuốn sách về gấu trúc."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g16-2",
+          "title_zh": "介词“关于”",
+          "title_vi": "Giới từ 关于: về, liên quan đến",
+          "formula": [
+            [
+              {
+                "zh": "关于",
+                "label": "về",
+                "role": "ADV"
+              },
+              {
+                "zh": "这个问题",
+                "label": "Chủ đề",
+                "role": "O"
+              },
+              {
+                "zh": "，我得慢慢给你讲",
+                "label": "Vế chính",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "关于 + danh từ để dẫn ra chủ đề được nói đến – giống “về…”, “liên quan đến…” trong tiếng Việt. Cụm 关于…… có thể đứng đầu câu, hoặc làm định ngữ với 的: 关于熊猫的书.",
+          "examples": [
+            {
+              "zh": "关于这个问题，我得慢慢给你讲。",
+              "vi": "Về vấn đề này, tôi phải kể từ từ cho bạn."
+            },
+            {
+              "zh": "关于他的要求，我们还要开会以后再决定。",
+              "vi": "Về yêu cầu của anh ấy, chúng tôi phải họp xong mới quyết định."
+            },
+            {
+              "zh": "关于比赛的时间，我明天一定告诉大家。",
+              "vi": "Về thời gian thi đấu, mai tôi nhất định báo mọi người."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我们关于这个问题讨论。",
+              "right": "关于这个问题，我们讨论一下。",
+              "why_vi": "Cụm 关于…… thường đứng ĐẦU câu, không đứng sau chủ ngữ như 对."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Đây là một bộ phim về động vật.”",
+              "options": [
+                "这是一个关于动物的电影。",
+                "这是一个动物关于的电影。",
+                "这是关于一个动物电影的。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "“十万个为什么” là tên bộ sách khoa học thiếu nhi rất nổi tiếng ở Trung Quốc; dùng để nói đùa người hay hỏi."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở khu gấu trúc, chị Nhất Tuyết và các con đang xem gấu trúc.",
+      "scene": "🐼",
+      "audio": "audio/hsk3/16-5.mp3",
+      "vocabAudio": "audio/hsk3/16-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Thông thường, mỗi ngày gấu trúc làm gì?",
+          "options": [
+            "爬来爬去",
+            "跟人拍照",
+            "吃东西和睡觉"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Tiểu Tuyết nhờ mẹ làm gì?",
+          "options": [
+            "照一张照片",
+            "买一些吃的",
+            "找一只熊猫"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "这只大熊猫一会儿爬上去，一会儿跳下来，可爱极了！",
+          "vi": "Chú gấu trúc này lúc thì trèo lên, lúc thì nhảy xuống, đáng yêu quá!",
+          "t": 0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "它好像还没吃饱，站起来张着嘴找吃的呢。",
+          "vi": "Hình như nó chưa ăn no, đang đứng dậy há miệng tìm đồ ăn.",
+          "t": 7.31
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "它身边那只熊猫半天没动，是不是在睡觉呢？",
+          "vi": "Con gấu trúc bên cạnh nó nằm im cả buổi, có phải đang ngủ không ạ?",
+          "t": 12.07
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "我看不见它的脸，可能是吧。一般来说，熊猫每天要睡很多次觉。",
+          "vi": "Mẹ không thấy mặt nó, chắc vậy. Thông thường, gấu trúc mỗi ngày ngủ rất nhiều lần.",
+          "t": 17.48
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "对，除了睡觉以外，很多时间都在吃东西。",
+          "vi": "Đúng, ngoài ngủ ra thì phần lớn thời gian là ăn.",
+          "t": 25.67
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "大熊猫的生活真舒服啊！",
+          "vi": "Cuộc sống của gấu trúc sướng thật!",
+          "t": 32.14
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "妈妈，您帮我和这两只大熊猫照一张照片吧。",
+          "vi": "Mẹ ơi, mẹ chụp cho con một tấm với hai chú gấu trúc này nhé.",
+          "t": 35.72
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "饱",
+          "pinyin": "bǎo",
+          "pos": "adj.",
+          "vi": "no",
+          "example": {
+            "zh": "我吃饱了。",
+            "vi": "Tôi ăn no rồi."
+          }
+        },
+        {
+          "zh": "张",
+          "pinyin": "zhāng",
+          "pos": "v.",
+          "vi": "há, mở ra",
+          "example": {
+            "zh": "请张开嘴。",
+            "vi": "Hãy há miệng ra."
+          }
+        },
+        {
+          "zh": "嘴",
+          "pinyin": "zuǐ",
+          "pos": "n.",
+          "vi": "miệng",
+          "example": {
+            "zh": "她的嘴很小。",
+            "vi": "Miệng cô ấy rất nhỏ."
+          }
+        },
+        {
+          "zh": "身边",
+          "pinyin": "shēnbiān",
+          "pos": "n.",
+          "vi": "bên cạnh",
+          "example": {
+            "zh": "妈妈坐在我身边。",
+            "vi": "Mẹ ngồi bên cạnh tôi."
+          }
+        },
+        {
+          "zh": "半天",
+          "pinyin": "bàntiān",
+          "pos": "num.-m.",
+          "vi": "nửa ngày; mãi, cả buổi",
+          "example": {
+            "zh": "我等了你半天。",
+            "vi": "Tôi đợi bạn mãi."
+          }
+        },
+        {
+          "zh": "脸",
+          "pinyin": "liǎn",
+          "pos": "n.",
+          "vi": "mặt",
+          "example": {
+            "zh": "他的脸红了。",
+            "vi": "Mặt anh ấy đỏ lên."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g16-3",
+          "title_zh": "固定短语“一般来说”",
+          "title_vi": "“一般来说”: nói chung, thông thường",
+          "formula": [
+            [
+              {
+                "zh": "一般来说，",
+                "label": "nói chung",
+                "role": "ADV"
+              },
+              {
+                "zh": "熊猫每天要睡很多次觉",
+                "label": "Điều thường gặp",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "一般来说 nghĩa là trong đa số trường hợp đều như vậy – “nói chung”, “thông thường”. Thường đặt ở đầu câu.",
+          "examples": [
+            {
+              "zh": "一般来说，熊猫每天要睡很多次觉。",
+              "vi": "Thông thường, gấu trúc mỗi ngày ngủ rất nhiều lần."
+            },
+            {
+              "zh": "一般来说，这种树每年开一次花。",
+              "vi": "Thông thường, loại cây này mỗi năm ra hoa một lần."
+            },
+            {
+              "zh": "一般来说，学习外语需要多练习。",
+              "vi": "Nói chung, học ngoại ngữ cần luyện tập nhiều."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "一般说来来，……",
+              "right": "一般来说，……",
+              "why_vi": "Cụm cố định là 一般来说 (hoặc 一般说来), không lặp 来."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Thông thường, mùa hè ở đây rất nóng.”",
+              "options": [
+                "一般来说，这里的夏天很热。",
+                "来说一般，这里的夏天很热。",
+                "这里的夏天很热一般来说的。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "半天没动 = nằm im cả buổi. 半天 ở đây không phải đúng nửa ngày, mà là “rất lâu”."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "🦁",
+      "audio": "audio/hsk3/16-7.mp3",
+      "vocabAudio": "audio/hsk3/16-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Du khách thích nhất đến vườn thú Bắc Kinh xem con gì?",
+          "options": [
+            "牛",
+            "羊",
+            "大熊猫"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vườn thú Bắc Kinh mở cửa lúc mấy giờ sáng?",
+          "options": [
+            "六点",
+            "七点",
+            "七点半"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "今天我带小雪和小明去动物园玩了。",
+          "vi": "Hôm nay mình đưa Tiểu Tuyết và Tiểu Minh đi vườn thú chơi.",
+          "t": 1.06
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "北京动物园是中国很有名的动物园，里面有非常多的动物，当然，大人和孩子最喜爱的还是大熊猫。",
+          "vi": "Vườn thú Bắc Kinh là vườn thú rất nổi tiếng của Trung Quốc, có rất nhiều động vật, đương nhiên người lớn và trẻ con thích nhất vẫn là gấu trúc.",
+          "t": 5.84
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "每天有很多游客去熊猫馆，他们带着相机去给可爱的大熊猫拍照。",
+          "vi": "Ngày nào cũng có nhiều du khách đến khu gấu trúc, họ mang máy ảnh đến chụp những chú gấu trúc đáng yêu.",
+          "t": 18.12
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "动物园早上七点半开门，晚上七点关门，冬天比夏天游客少，所以也比平时早关门一个小时。",
+          "vi": "Vườn thú mở cửa lúc bảy rưỡi sáng, đóng cửa lúc bảy giờ tối; mùa đông ít khách hơn mùa hè nên cũng đóng cửa sớm hơn thường ngày một tiếng.",
+          "t": 26.18
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "如果第一次来北京旅游，跟家人一起去北京动物园是个不错的选择。",
+          "vi": "Nếu lần đầu đến Bắc Kinh du lịch, cùng gia đình đi vườn thú Bắc Kinh là một lựa chọn không tồi.",
+          "t": 37.84
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "大人",
+          "pinyin": "dàren",
+          "pos": "n.",
+          "vi": "người lớn",
+          "example": {
+            "zh": "大人和孩子都喜欢熊猫。",
+            "vi": "Người lớn và trẻ con đều thích gấu trúc."
+          }
+        },
+        {
+          "zh": "喜爱",
+          "pinyin": "xǐ'ài",
+          "pos": "v.",
+          "vi": "yêu thích",
+          "example": {
+            "zh": "这是我最喜爱的书。",
+            "vi": "Đây là cuốn sách tôi yêu thích nhất."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g16-4",
+          "title_zh": "比较句（11）",
+          "title_vi": "Câu so sánh (11): A 比 B + 早/晚/多/少 + động từ + số lượng",
+          "formula": [
+            [
+              {
+                "zh": "冬天",
+                "label": "A",
+                "role": "S"
+              },
+              {
+                "zh": "比夏天",
+                "label": "比 + B",
+                "role": "ADV"
+              },
+              {
+                "zh": "早",
+                "label": "早/晚/多/少",
+                "role": "ADV"
+              },
+              {
+                "zh": "关门",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "一个小时",
+                "label": "Số lượng chênh lệch",
+                "role": "N"
+              }
+            ]
+          ],
+          "explain_vi": "Khi vị ngữ là động từ thường, đặt 早, 晚, 多, 少 TRƯỚC động từ, và đặt số lượng chênh lệch SAU động từ: 早关门一个小时 = đóng cửa sớm hơn một tiếng. Tiếng Việt nói “đóng cửa sớm hơn một tiếng” (sớm hơn đứng sau), tiếng Trung đặt 早 lên trước động từ.",
+          "examples": [
+            {
+              "zh": "冬天比夏天早关门一个小时。",
+              "vi": "Mùa đông đóng cửa sớm hơn mùa hè một tiếng."
+            },
+            {
+              "zh": "哥哥比弟弟多吃了三个饺子。",
+              "vi": "Anh ăn nhiều hơn em ba cái sủi cảo."
+            },
+            {
+              "zh": "我比他晚到了十分钟。",
+              "vi": "Tôi đến muộn hơn anh ấy mười phút."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我比他到晚了十分钟。",
+              "right": "我比他晚到了十分钟。",
+              "why_vi": "早/晚/多/少 đứng TRƯỚC động từ."
+            },
+            {
+              "wrong": "哥哥比弟弟吃了多三个饺子。",
+              "right": "哥哥比弟弟多吃了三个饺子。",
+              "why_vi": "多 đặt trước động từ 吃, số lượng đặt sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Hôm nay tôi dậy sớm hơn hôm qua nửa tiếng.”",
+              "options": [
+                "今天我比昨天早起了半个小时。",
+                "今天我比昨天起早了半个小时。",
+                "今天我早比昨天起了半个小时。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "熊猫馆 = khu (nhà) gấu trúc. Hậu tố 馆 chỉ toà nhà, nơi chốn: 图书馆, 体育馆, 饭馆."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "小猫看到妈妈后马上___开嘴要吃的。",
+      "bank": [
+        "张",
+        "饱",
+        "脏"
+      ],
+      "answer": "张"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "这个电影介绍了怎么___离开爸爸妈妈的小动物。",
+      "bank": [
+        "照顾",
+        "认得",
+        "喜爱"
+      ],
+      "answer": "照顾"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "我吃___了，不想再吃了。",
+      "bank": [
+        "饱",
+        "脏",
+        "全"
+      ],
+      "answer": "饱"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "这件事很___，我想不明白。",
+      "bank": [
+        "奇怪",
+        "可爱",
+        "野生"
+      ],
+      "answer": "奇怪"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "大家都以为他的工作不累，___他每天早上五点多就起床。",
+      "bank": [
+        "其实",
+        "关于",
+        "一般"
+      ],
+      "answer": "其实"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "一会儿",
+        "天气",
+        "冷",
+        "一会儿热",
+        "，"
+      ],
+      "answers": [
+        "天气一会儿冷，一会儿热"
+      ],
+      "vi": "Thời tiết lúc lạnh lúc nóng.",
+      "explain_vi": "一会儿……一会儿……"
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "比他",
+        "我",
+        "晚到了",
+        "十分钟"
+      ],
+      "answers": [
+        "我比他晚到了十分钟"
+      ],
+      "vi": "Tôi đến muộn hơn anh ấy mười phút.",
+      "explain_vi": "比 + B + 晚 + động từ + số lượng."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "大熊猫",
+      "options": [
+        {
+          "emoji": "🐼",
+          "label": "Gấu trúc"
+        },
+        {
+          "emoji": "🐱",
+          "label": "Mèo"
+        },
+        {
+          "emoji": "🐶",
+          "label": "Chó"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "冬天比夏天早关门一个小时。",
+      "emoji": "🕖",
+      "statement_vi": "Mùa đông vườn thú đóng cửa muộn hơn.",
+      "answer": false,
+      "explain_vi": "早关门一个小时 = đóng cửa sớm hơn một tiếng."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🐼🎋",
+      "sentence": "___来说，熊猫每天要睡很多次觉。",
+      "options": [
+        "一般",
+        "一会儿",
+        "关于"
+      ],
+      "answer": 0,
+      "explain_vi": "一般来说 = thông thường."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "这只小猫你们养了多久了？",
+          "a": "已经一年多了。"
+        },
+        {
+          "q": "大熊猫为什么只吃竹子？",
+          "a": "它们对肉不感兴趣。"
+        },
+        {
+          "q": "动物园几点开门？",
+          "a": "早上七点半。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Giới thiệu con vật yêu thích",
+    "steps_vi": [
+      "Mỗi người chọn một con vật (thú cưng hoặc động vật hoang dã) và chuẩn bị giới thiệu.",
+      "Miêu tả ngoại hình (脸, 嘴, 眼睛, 耳朵), thói quen bằng “一会儿……一会儿……”.",
+      "Nói về tập tính chung bằng “一般来说……”.",
+      "Cả lớp đặt câu hỏi “关于……”, người giới thiệu trả lời."
+    ],
+    "patterns": [
+      {
+        "zh": "我最喜爱的动物是大熊猫。",
+        "vi": "Con vật tôi yêu thích nhất là gấu trúc."
+      },
+      {
+        "zh": "它一会儿睡觉，一会儿吃东西。",
+        "vi": "Nó lúc thì ngủ, lúc thì ăn."
+      },
+      {
+        "zh": "一般来说，猫每天要睡十几个小时。",
+        "vi": "Thông thường, mèo mỗi ngày ngủ hơn mười tiếng."
+      },
+      {
+        "zh": "关于这个问题，我也不太清楚。",
+        "vi": "Về vấn đề này, tôi cũng không rõ lắm."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Gấu trúc – quốc bảo của Trung Quốc",
+    "body_vi": [
+      "Gấu trúc lớn (大熊猫) chỉ sống hoang dã ở vùng núi các tỉnh Tứ Xuyên, Thiểm Tây, Cam Túc. Chúng ăn tre trúc là chủ yếu, mỗi ngày ăn khoảng 12–15 kg và dành 10–16 tiếng để ăn.",
+      "Trung Quốc có “ngoại giao gấu trúc” (熊猫外交): gấu trúc được cho các vườn thú nước ngoài mượn (借) theo hợp đồng khoảng 10–15 năm; gấu trúc con sinh ra ở nước ngoài sau này cũng được đưa về Trung Quốc – đúng như bài nghe trong sách bài tập.",
+      "Thành phố Thành Đô (成都) có Cơ sở nghiên cứu nuôi dưỡng gấu trúc (大熊猫繁育研究基地), là nơi du khách đông nhất để ngắm gấu trúc."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Gấu trúc lớn",
+          "大熊猫",
+          "dàxióngmāo"
+        ],
+        [
+          "Quốc bảo",
+          "国宝",
+          "guóbǎo"
+        ],
+        [
+          "Tre, trúc",
+          "竹子",
+          "zhúzi"
+        ],
+        [
+          "Hoang dã",
+          "野生",
+          "yěshēng"
+        ],
+        [
+          "Thành Đô",
+          "成都",
+          "Chéngdū"
+        ]
+      ]
+    }
+  }
 }

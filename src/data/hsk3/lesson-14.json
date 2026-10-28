@@ -1,35 +1,1044 @@
 {
   "id": 14,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "这本书被别人借走了",
     "pinyin": "Zhè běn shū bèi biérén jièzǒu le",
-    "vi": "Quyển sách này bị người khác mượn mất rồi"
+    "vi": "Cuốn sách này bị người khác mượn mất rồi"
   },
   "grammarTopics_vi": [
-    "Câu bị động (1)",
-    "Câu nối tiếp 先……，再/然后……",
-    "Cấu trúc ×什么（啊）"
+    "Câu bị động (1): chủ ngữ + 被 + (người) + động từ + thành phần khác",
+    "Câu nối tiếp “先……，再/然后……”",
+    "Cấu trúc “×什么（啊）”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Câu bị động (1)",
-      "doneWhen": []
+      "vi": "Giới thiệu các hoạt động ở trường",
+      "doneWhen": [
+        "text-2",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu nối tiếp 先……，再/然后……",
-      "doneWhen": []
+      "vi": "Động viên, khích lệ người khác",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc ×什么（啊）",
-      "doneWhen": []
+      "vi": "Dùng câu bị động với 被",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "📖",
+      "word": "词典",
+      "pinyin": "cídiǎn",
+      "vi": "từ điển"
+    },
+    {
+      "emoji": "📰",
+      "word": "报纸",
+      "pinyin": "bàozhǐ",
+      "vi": "báo"
+    },
+    {
+      "emoji": "🏛️",
+      "word": "图书馆",
+      "pinyin": "túshūguǎn",
+      "vi": "thư viện"
+    },
+    {
+      "emoji": "📱",
+      "word": "电子书",
+      "pinyin": "diànzǐshū",
+      "vi": "sách điện tử"
+    },
+    {
+      "emoji": "🏫",
+      "word": "班级",
+      "pinyin": "bānjí",
+      "vi": "lớp học"
+    },
+    {
+      "emoji": "👨‍💼",
+      "word": "校长",
+      "pinyin": "xiàozhǎng",
+      "vi": "hiệu trưởng"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Ở nhà ăn trường, Lý Văn và Bạch Gia Nguyệt đang trò chuyện.",
+      "scene": "📚",
+      "audio": "audio/hsk3/14-1.mp3",
+      "vocabAudio": "audio/hsk3/14-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chiều nay Gia Nguyệt giúp Lý Văn làm gì?",
+          "options": [
+            "借词典",
+            "还词典",
+            "找一本书"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt biết cuốn 《名人的故事》?",
+          "options": [
+            "她有一本",
+            "她听说过",
+            "她在图书馆借过"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "我借的这本词典最好今天{还|huán}，但是我没时间去。",
+          "vi": "Cuốn từ điển mình mượn tốt nhất là trả trong hôm nay, nhưng mình không có thời gian đi.",
+          "t": 0
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "下午我只有两节课，可以帮你去图书馆{还|huán}书。",
+          "vi": "Chiều mình chỉ có hai tiết, có thể ra thư viện trả sách giúp cậu.",
+          "t": 6.97
+        },
+        {
+          "speaker": "liwen",
+          "zh": "那太谢谢了。你能再帮我借本书吗？",
+          "vi": "Vậy cảm ơn cậu nhiều. Cậu mượn giúp mình một cuốn sách nữa được không?",
+          "t": 12.38
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "行，你告诉我书名。",
+          "vi": "Được, cậu cho mình tên sách.",
+          "t": 15.87
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我把名字写在纸上吧。我去了好几次图书馆，这本书都被别人借走了。",
+          "vi": "Mình viết tên ra giấy nhé. Mình đến thư viện mấy lần rồi, lần nào cuốn này cũng bị người khác mượn mất.",
+          "t": 19.63
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "《名人的故事》？我有这本书。明天我借给你吧。",
+          "vi": "《Chuyện người nổi tiếng》à? Mình có cuốn này. Mai mình cho cậu mượn.",
+          "t": 26.91
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "词典",
+          "pinyin": "cídiǎn",
+          "pos": "n.",
+          "vi": "từ điển",
+          "example": {
+            "zh": "这本词典很有用。",
+            "vi": "Cuốn từ điển này rất hữu ích."
+          }
+        },
+        {
+          "zh": "最好",
+          "pinyin": "zuìhǎo",
+          "pos": "adv.",
+          "vi": "tốt nhất là",
+          "example": {
+            "zh": "你最好早点儿来。",
+            "vi": "Tốt nhất bạn đến sớm một chút."
+          }
+        },
+        {
+          "zh": "节",
+          "pinyin": "jié",
+          "pos": "m.",
+          "vi": "tiết (học)",
+          "example": {
+            "zh": "今天有四节课。",
+            "vi": "Hôm nay có bốn tiết."
+          }
+        },
+        {
+          "zh": "图书馆",
+          "pinyin": "túshūguǎn",
+          "pos": "n.",
+          "vi": "thư viện",
+          "example": {
+            "zh": "我去图书馆借书。",
+            "vi": "Tôi đến thư viện mượn sách."
+          }
+        },
+        {
+          "zh": "被",
+          "pinyin": "bèi",
+          "pos": "prep.",
+          "vi": "bị, được (câu bị động)",
+          "example": {
+            "zh": "我的伞被他拿走了。",
+            "vi": "Cái ô của tôi bị anh ấy cầm đi rồi."
+          }
+        },
+        {
+          "zh": "名人",
+          "pinyin": "míngrén",
+          "pos": "n.",
+          "vi": "người nổi tiếng",
+          "example": {
+            "zh": "他是一位名人。",
+            "vi": "Ông ấy là một người nổi tiếng."
+          }
+        },
+        {
+          "zh": "故事",
+          "pinyin": "gùshi",
+          "pos": "n.",
+          "vi": "câu chuyện",
+          "example": {
+            "zh": "妈妈给我讲故事。",
+            "vi": "Mẹ kể chuyện cho tôi."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g14-1",
+          "title_zh": "被动句（1）",
+          "title_vi": "Câu bị động (1): 被",
+          "formula": [
+            [
+              {
+                "zh": "这本书",
+                "label": "Chủ ngữ (vật chịu tác động)",
+                "role": "S"
+              },
+              {
+                "zh": "被",
+                "label": "bị",
+                "role": "ADV"
+              },
+              {
+                "zh": "别人",
+                "label": "Người làm (có thể lược)",
+                "role": "O"
+              },
+              {
+                "zh": "借",
+                "label": "Động từ",
+                "role": "V"
+              },
+              {
+                "zh": "走了",
+                "label": "Thành phần khác",
+                "role": "ADV"
+              }
+            ]
+          ],
+          "explain_vi": "Câu chữ 被 nhấn mạnh chủ ngữ CHỊU tác động của hành động, thường mang sắc thái bị động, không mong muốn – giống “bị” trong tiếng Việt. Sau động từ phải có thành phần khác (了, 走了, 错…). Phó từ và động từ năng nguyện đặt TRƯỚC 被. Người làm sau 被 có thể lược bỏ.",
+          "examples": [
+            {
+              "zh": "这本书被别人借走了。",
+              "vi": "Cuốn sách này bị người khác mượn mất rồi."
+            },
+            {
+              "zh": "水果可能被弟弟吃了。",
+              "vi": "Hoa quả có lẽ bị em trai ăn mất rồi."
+            },
+            {
+              "zh": "我们俩经常被叫错名字。",
+              "vi": "Hai chúng tôi hay bị gọi nhầm tên."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我的钱包被小偷偷。",
+              "right": "我的钱包被偷了。",
+              "why_vi": "Sau động từ trong câu 被 phải có thành phần khác như 了."
+            },
+            {
+              "wrong": "这本书被别人没借走。",
+              "right": "这本书没被别人借走。",
+              "why_vi": "Phủ định 没 đặt trước 被."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Xe đạp của tôi bị em gái đi mất rồi.”",
+              "options": [
+                "我的自行车被妹妹骑走了。",
+                "我的自行车妹妹被骑走了。",
+                "被我的自行车妹妹骑走了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "借给你 = cho bạn mượn. 借走 = mượn mang đi. Còn 还书 đọc huán shū = trả sách."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong sân trường, Gia Nguyệt và Annie đang trò chuyện.",
+      "scene": "🪪",
+      "audio": "audio/hsk3/14-3.mp3",
+      "vocabAudio": "audio/hsk3/14-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Tan học Gia Nguyệt sẽ làm gì?",
+          "options": [
+            "去图书馆",
+            "找校园卡",
+            "跟陈天中去游泳"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Annie thấy không vào được thư viện thì có thể làm gì?",
+          "options": [
+            "找李文借书",
+            "上网借电子书",
+            "借朋友的校园卡"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "anni",
+          "zh": "今天下课早，你一会儿做什么？",
+          "vi": "Hôm nay tan học sớm, lát nữa cậu làm gì?",
+          "t": 0.79
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我今天忙得很，要先去图书馆借书，然后去游泳。",
+          "vi": "Hôm nay mình bận lắm, phải đến thư viện mượn sách trước, rồi đi bơi.",
+          "t": 6.35
+        },
+        {
+          "speaker": "anni",
+          "zh": "咱们一起走吧，我想去图书馆看看中文报纸。",
+          "vi": "Mình đi cùng nhau nhé, mình muốn đến thư viện xem báo tiếng Trung.",
+          "t": 12.81
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "等等，我的校园卡不见了，没有卡进不去图书馆。",
+          "vi": "Đợi đã, thẻ sinh viên của mình đâu mất rồi, không có thẻ không vào được thư viện.",
+          "t": 19.28
+        },
+        {
+          "speaker": "anni",
+          "zh": "你想想上一次用是什么时候？",
+          "vi": "Cậu nghĩ xem lần cuối dùng là khi nào?",
+          "t": 26.03
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我忘记了，可能被我放在家里了。",
+          "vi": "Mình quên rồi, có lẽ mình để ở nhà.",
+          "t": 30.94
+        },
+        {
+          "speaker": "anni",
+          "zh": "进不去图书馆也没关系，上网看看有没有电子书。",
+          "vi": "Không vào được thư viện cũng không sao, lên mạng xem có sách điện tử không.",
+          "t": 36.06
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "不行，我必须去，我还得帮李文{还|huán}书呢。",
+          "vi": "Không được, mình phải đi, mình còn phải trả sách giúp Lý Văn nữa.",
+          "t": 42.95
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "然后",
+          "pinyin": "ránhòu",
+          "pos": "conj.",
+          "vi": "sau đó, rồi",
+          "example": {
+            "zh": "我先吃饭，然后去学校。",
+            "vi": "Tôi ăn cơm trước, rồi đến trường."
+          }
+        },
+        {
+          "zh": "报纸",
+          "pinyin": "bàozhǐ",
+          "pos": "n.",
+          "vi": "báo",
+          "example": {
+            "zh": "爷爷每天看报纸。",
+            "vi": "Ông ngày nào cũng đọc báo."
+          }
+        },
+        {
+          "zh": "忘记",
+          "pinyin": "wàngjì",
+          "pos": "v.",
+          "vi": "quên",
+          "example": {
+            "zh": "别忘记带护照。",
+            "vi": "Đừng quên mang hộ chiếu."
+          }
+        },
+        {
+          "zh": "电子书",
+          "pinyin": "diànzǐshū",
+          "pos": "n.",
+          "vi": "sách điện tử",
+          "example": {
+            "zh": "我常在手机上看电子书。",
+            "vi": "Tôi hay đọc sách điện tử trên điện thoại."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g14-2",
+          "title_zh": "承接复句“先……，再/然后……”",
+          "title_vi": "“先……，再/然后……”: trước… rồi (sau đó)…",
+          "formula": [
+            [
+              {
+                "zh": "先",
+                "label": "trước",
+                "role": "ADV"
+              },
+              {
+                "zh": "去图书馆借书",
+                "label": "Việc 1",
+                "role": "V"
+              },
+              {
+                "zh": "，然后 / 再",
+                "label": "rồi, sau đó",
+                "role": "ADV"
+              },
+              {
+                "zh": "去游泳",
+                "label": "Việc 2",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Nói thứ tự các hành động: làm việc 1 trước, sau đó làm việc 2 – giống “trước… rồi…” trong tiếng Việt. 再 đứng ngay trước động từ thứ hai; 然后 đứng đầu vế sau, có thể kết hợp 然后再.",
+          "examples": [
+            {
+              "zh": "我要先去图书馆借书，然后去游泳。",
+              "vi": "Tôi phải đến thư viện mượn sách trước, rồi đi bơi."
+            },
+            {
+              "zh": "你先去买门票，再来这里找我。",
+              "vi": "Bạn mua vé trước rồi đến đây tìm tôi."
+            },
+            {
+              "zh": "你们先回房间休息一会儿，然后再出来吃晚饭。",
+              "vi": "Các bạn về phòng nghỉ một lát trước, rồi ra ăn tối."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "你先去买票，我再来这里找。",
+              "right": "你先去买票，再来这里找我。",
+              "why_vi": "再 đứng ngay trước động từ thứ hai."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Con làm bài tập trước rồi hãy xem tivi.”",
+              "options": [
+                "你先写作业，再看电视。",
+                "你再写作业，先看电视。",
+                "你先写作业，看再电视。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "还得帮李文还书: 还得 (hái děi) = còn phải; 还书 (huán shū) = trả sách. Hai chữ 还 đọc khác nhau!"
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà ăn trường, Lý Văn và Gia Nguyệt vừa ăn vừa trò chuyện.",
+      "scene": "🎤",
+      "audio": "audio/hsk3/14-5.mp3",
+      "vocabAudio": "audio/hsk3/14-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn và Gia Nguyệt đang nói về chuyện gì?",
+          "options": [
+            "学校的晚会",
+            "学唱中文歌",
+            "参加唱歌比赛"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Lý Văn muốn biểu diễn tiết mục thế nào?",
+          "options": [
+            "自己跳舞",
+            "一个人唱歌",
+            "找人一起表演"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "下周学校有晚会，你知道吗？",
+          "vi": "Tuần sau trường có đêm hội, cậu biết chưa?",
+          "t": 0
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "知道，我和几个女生要表演一个节目。你也参加吗？",
+          "vi": "Biết rồi, mình với mấy bạn nữ sẽ biểu diễn một tiết mục. Cậu cũng tham gia à?",
+          "t": 3.41
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我想唱中文歌，但是还没找到人一起表演，不知道怎么办。",
+          "vi": "Mình muốn hát bài tiếng Trung, nhưng chưa tìm được người cùng biểu diễn, không biết làm sao.",
+          "t": 8.78
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "找不到人，你就一个人唱吧。",
+          "vi": "Không tìm được người thì cậu hát một mình đi.",
+          "t": 15.09
+        },
+        {
+          "speaker": "liwen",
+          "zh": "一想到要在校长、老师和那么多同学面前表演，我就有些紧张。",
+          "vi": "Cứ nghĩ đến phải biểu diễn trước mặt hiệu trưởng, thầy cô và bao nhiêu bạn là mình lại hơi run.",
+          "t": 18.45
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "紧张什么啊，我们都喜欢听你唱歌，你要相信自己。",
+          "vi": "Run gì chứ, bọn mình đều thích nghe cậu hát, cậu phải tin vào bản thân.",
+          "t": 24.67
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "女生",
+          "pinyin": "nǚshēng",
+          "pos": "n.",
+          "vi": "nữ sinh, bạn nữ",
+          "example": {
+            "zh": "我们班女生多。",
+            "vi": "Lớp chúng tôi nhiều bạn nữ."
+          }
+        },
+        {
+          "zh": "表演",
+          "pinyin": "biǎoyǎn",
+          "pos": "v.",
+          "vi": "biểu diễn",
+          "example": {
+            "zh": "他们表演得很好。",
+            "vi": "Họ biểu diễn rất hay."
+          }
+        },
+        {
+          "zh": "节目",
+          "pinyin": "jiémù",
+          "pos": "n.",
+          "vi": "tiết mục, chương trình",
+          "example": {
+            "zh": "这个节目很有意思。",
+            "vi": "Tiết mục này rất thú vị."
+          }
+        },
+        {
+          "zh": "怎么办",
+          "pinyin": "zěnme bàn",
+          "pos": "",
+          "vi": "làm thế nào bây giờ",
+          "example": {
+            "zh": "我的钥匙丢了，怎么办？",
+            "vi": "Tôi mất chìa khoá rồi, làm sao đây?"
+          }
+        },
+        {
+          "zh": "校长",
+          "pinyin": "xiàozhǎng",
+          "pos": "n.",
+          "vi": "hiệu trưởng",
+          "example": {
+            "zh": "校长在讲话。",
+            "vi": "Hiệu trưởng đang phát biểu."
+          }
+        },
+        {
+          "zh": "面前",
+          "pinyin": "miànqián",
+          "pos": "n.",
+          "vi": "trước mặt",
+          "example": {
+            "zh": "他在大家面前唱歌。",
+            "vi": "Anh ấy hát trước mặt mọi người."
+          }
+        },
+        {
+          "zh": "有些",
+          "pinyin": "yǒuxiē",
+          "pos": "adv.",
+          "vi": "hơi, có phần",
+          "example": {
+            "zh": "我有些累。",
+            "vi": "Tôi hơi mệt."
+          }
+        },
+        {
+          "zh": "相信",
+          "pinyin": "xiāngxìn",
+          "pos": "v.",
+          "vi": "tin, tin tưởng",
+          "example": {
+            "zh": "我相信你能做好。",
+            "vi": "Tôi tin bạn làm tốt được."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g14-3",
+          "title_zh": "固定格式“×什么（啊）”",
+          "title_vi": "“×什么（啊）”: … gì chứ!",
+          "formula": [
+            [
+              {
+                "zh": "紧张 / 急 / 胖",
+                "label": "Động từ / tính từ người kia vừa nói",
+                "role": "V"
+              },
+              {
+                "zh": "什么啊",
+                "label": "… gì chứ",
+                "role": "PART"
+              },
+              {
+                "zh": "，……",
+                "label": "Lý do trấn an",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Lặp lại từ người kia vừa nói rồi thêm 什么（啊） để gạt đi sự lo lắng, nghi ngờ của họ, mang giọng an ủi hoặc phản bác – giống “… gì mà…”, “… gì chứ!” trong tiếng Việt. Đây KHÔNG phải câu hỏi.",
+          "examples": [
+            {
+              "zh": "紧张什么啊，我们都喜欢听你唱歌。",
+              "vi": "Run gì chứ, bọn mình đều thích nghe cậu hát."
+            },
+            {
+              "zh": "胖什么啊，你看起来不胖也不瘦。",
+              "vi": "Béo gì mà béo, trông cậu vừa vặn mà."
+            },
+            {
+              "zh": "急什么啊，马上就到了。",
+              "vi": "Vội gì chứ, sắp tới rồi."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "（Người kia nói: 我好紧张）→ 你紧张什么？我不知道。",
+              "right": "紧张什么啊，你一定没问题！",
+              "why_vi": "×什么啊 dùng để trấn an, không phải hỏi để biết thông tin."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Bạn nói: “我做得不好，太难看了。” – Câu trấn an phù hợp:",
+              "options": [
+                "难看什么啊，我觉得挺好的。",
+                "什么难看啊？请告诉我。",
+                "难看了什么？"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "一……就…… (HSK 2) = hễ… là…: 一想到要表演，我就紧张."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Bạch Gia Nguyệt viết nhật ký.",
+      "scene": "🎉",
+      "audio": "audio/hsk3/14-7.mp3",
+      "vocabAudio": "audio/hsk3/14-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Ai đã biểu diễn ở đêm hội hôm qua?",
+          "options": [
+            "校长",
+            "一些老师",
+            "每个班级的同学"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt mệt rã rời?",
+          "options": [
+            "又唱又跳",
+            "给同学们拍照",
+            "表演了很多节目"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "昨天是我们学校的新年晚会，每个班级的同学都表演节目了。",
+          "vi": "Hôm qua là đêm hội năm mới của trường, lớp nào cũng có tiết mục biểu diễn.",
+          "t": 0.68
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "晚会是八点开始的，差不多十二点才结束。",
+          "vi": "Đêm hội bắt đầu lúc tám giờ, gần mười hai giờ mới kết thúc.",
+          "t": 7.58
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我一个晚上跟大家一起又唱又跳，开心极了，也累坏了。",
+          "vi": "Cả buổi tối mình cùng mọi người vừa hát vừa nhảy, vui cực kỳ, cũng mệt rã rời.",
+          "t": 13.06
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我最喜欢的节目是留学生们跳舞，最后老师和校长也被叫起来一块儿跳，特别有意思。",
+          "vi": "Tiết mục mình thích nhất là các bạn du học sinh nhảy, cuối cùng thầy cô và hiệu trưởng cũng bị kéo lên nhảy cùng, rất vui.",
+          "t": 19.66
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "过几天学校的网站上会有晚会的视频，我打算再看一遍。",
+          "vi": "Vài hôm nữa trên trang web của trường sẽ có video đêm hội, mình định xem lại một lượt.",
+          "t": 29.73
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "新年",
+          "pinyin": "xīnnián",
+          "pos": "n.",
+          "vi": "năm mới",
+          "example": {
+            "zh": "新年快乐！",
+            "vi": "Chúc mừng năm mới!"
+          }
+        },
+        {
+          "zh": "班级",
+          "pinyin": "bānjí",
+          "pos": "n.",
+          "vi": "lớp học",
+          "example": {
+            "zh": "我们班级有三十个学生。",
+            "vi": "Lớp chúng tôi có ba mươi học sinh."
+          }
+        },
+        {
+          "zh": "跳",
+          "pinyin": "tiào",
+          "pos": "v.",
+          "vi": "nhảy",
+          "example": {
+            "zh": "她跳得很高。",
+            "vi": "Cô ấy nhảy rất cao."
+          }
+        },
+        {
+          "zh": "留学生",
+          "pinyin": "liúxuéshēng",
+          "pos": "n.",
+          "vi": "du học sinh",
+          "example": {
+            "zh": "我们学校有很多留学生。",
+            "vi": "Trường chúng tôi có nhiều du học sinh."
+          }
+        },
+        {
+          "zh": "最后",
+          "pinyin": "zuìhòu",
+          "pos": "n.",
+          "vi": "cuối cùng",
+          "example": {
+            "zh": "最后我们都笑了。",
+            "vi": "Cuối cùng chúng tôi đều cười."
+          }
+        },
+        {
+          "zh": "一块儿",
+          "pinyin": "yíkuàir",
+          "pos": "adv./n.",
+          "vi": "cùng nhau",
+          "example": {
+            "zh": "我们一块儿去吧。",
+            "vi": "Chúng ta cùng đi nhé."
+          }
+        },
+        {
+          "zh": "网站",
+          "pinyin": "wǎngzhàn",
+          "pos": "n.",
+          "vi": "trang web",
+          "example": {
+            "zh": "这个网站很有用。",
+            "vi": "Trang web này rất hữu ích."
+          }
+        },
+        {
+          "zh": "视频",
+          "pinyin": "shìpín",
+          "pos": "n.",
+          "vi": "video",
+          "example": {
+            "zh": "我在看视频。",
+            "vi": "Tôi đang xem video."
+          }
+        }
+      ],
+      "pangdaTip": "被叫起来一块儿跳 = bị gọi lên nhảy cùng: câu bị động cũng dùng cho việc vui, không chỉ việc xấu."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "你今天看起来___难过，遇到什么问题了？",
+      "bank": [
+        "有些",
+        "最好",
+        "一块儿"
+      ],
+      "answer": "有些"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "图书馆的这本书我已经看完了，我很喜欢这个___。",
+      "bank": [
+        "故事",
+        "节目",
+        "网站"
+      ],
+      "answer": "故事"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "她读不懂中文报纸，你___把那个新闻给她讲一下。",
+      "bank": [
+        "最好",
+        "有些",
+        "最后"
+      ],
+      "answer": "最好"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "网站上已经可以看到晚会的视频了，咱们___看吧。",
+      "bank": [
+        "一块儿",
+        "有些",
+        "最好"
+      ],
+      "answer": "一块儿"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "你要___自己，这次一定能比上次更好！",
+      "bank": [
+        "相信",
+        "忘记",
+        "表演"
+      ],
+      "answer": "相信"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "被",
+        "这本书",
+        "借走了",
+        "别人"
+      ],
+      "answers": [
+        "这本书被别人借走了"
+      ],
+      "vi": "Cuốn sách này bị người khác mượn mất rồi.",
+      "explain_vi": "Chủ ngữ + 被 + người + động từ + 走了."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "先",
+        "我",
+        "吃饭",
+        "然后",
+        "去学校",
+        "，"
+      ],
+      "answers": [
+        "我先吃饭，然后去学校"
+      ],
+      "vi": "Tôi ăn cơm trước, rồi đến trường.",
+      "explain_vi": "先……，然后……"
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "图书馆",
+      "options": [
+        {
+          "emoji": "🏛️",
+          "label": "Thư viện"
+        },
+        {
+          "emoji": "📰",
+          "label": "Báo"
+        },
+        {
+          "emoji": "📖",
+          "label": "Từ điển"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "这本书都被别人借走了。",
+      "emoji": "📚",
+      "statement_vi": "Người nói đã mượn được cuốn sách.",
+      "answer": false,
+      "explain_vi": "被别人借走了 = bị người khác mượn mất."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "😰🎤",
+      "sentence": "紧张___啊，你要相信自己。",
+      "options": [
+        "什么",
+        "怎么",
+        "为什么"
+      ],
+      "answer": 0,
+      "explain_vi": "×什么啊 = … gì chứ (trấn an)."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你能帮我借本书吗？",
+          "a": "行，你告诉我书名。"
+        },
+        {
+          "q": "我的校园卡不见了。",
+          "a": "你想想上一次用是什么时候？"
+        },
+        {
+          "q": "我有些紧张。",
+          "a": "紧张什么啊，你要相信自己。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Lên kế hoạch tiết mục cho đêm hội",
+    "steps_vi": [
+      "Nhóm 4 người chuẩn bị một tiết mục cho đêm hội năm mới: hát, nhảy, kể chuyện…",
+      "Phân công và sắp xếp thứ tự bằng “先……，然后/再……”.",
+      "Một bạn tỏ ra lo lắng, các bạn khác trấn an bằng “×什么啊”.",
+      "Kể lại một sự cố: 我的……被……了, và cách nhóm giải quyết."
+    ],
+    "patterns": [
+      {
+        "zh": "我们先练习唱歌，然后再练习跳舞。",
+        "vi": "Mình tập hát trước, rồi tập nhảy."
+      },
+      {
+        "zh": "怕什么啊，大家都会帮你的。",
+        "vi": "Sợ gì chứ, mọi người đều giúp cậu."
+      },
+      {
+        "zh": "我的衣服被妹妹穿走了。",
+        "vi": "Quần áo của tôi bị em gái mặc mất rồi."
+      },
+      {
+        "zh": "你要相信自己！",
+        "vi": "Bạn phải tin vào bản thân!"
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Đêm hội năm mới ở trường học Trung Quốc",
+    "body_vi": [
+      "Trước Tết Dương lịch, nhiều trường học và công ty Trung Quốc tổ chức 新年晚会 (đêm hội năm mới): mỗi lớp góp một tiết mục như hát, nhảy, tiểu phẩm (小品), tấu nói (相声).",
+      "Đêm giao thừa Tết Nguyên đán, gần như cả nước xem 春节联欢晚会 (gọi tắt 春晚) trên truyền hình – chương trình nghệ thuật lớn nhất năm, giống chương trình Táo Quân và Gặp nhau cuối năm ở Việt Nam.",
+      "Thư viện các trường đại học Trung Quốc thường mở cửa đến 10 giờ tối, sinh viên quẹt thẻ (刷校园卡) để vào, mượn sách và tìm chỗ ngồi tự học."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Đêm hội năm mới",
+          "新年晚会",
+          "xīnnián wǎnhuì"
+        ],
+        [
+          "Gala Tết (truyền hình)",
+          "春晚",
+          "Chūnwǎn"
+        ],
+        [
+          "Tiểu phẩm",
+          "小品",
+          "xiǎopǐn"
+        ],
+        [
+          "Tiết mục",
+          "节目",
+          "jiémù"
+        ],
+        [
+          "Thẻ sinh viên",
+          "校园卡",
+          "xiàoyuánkǎ"
+        ]
+      ]
+    }
+  }
 }

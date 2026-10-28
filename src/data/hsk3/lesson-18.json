@@ -1,41 +1,1102 @@
 {
   "id": 18,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我学会了包饺子",
     "pinyin": "Wǒ xuéhuì le bāo jiǎozi",
     "vi": "Tôi đã học được cách gói sủi cảo"
   },
   "grammarTopics_vi": [
-    "Cách nói số ước lượng",
+    "Cách nói số ước lượng: 七八天, 三四年",
     "Phân biệt 刚才 và 刚刚",
-    "Câu điều kiện 只要……，就……",
-    "Cấu trúc 从……起"
+    "Câu điều kiện “只要……，就……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Cách nói số ước lượng",
-      "doneWhen": []
+      "vi": "Nói về Tết Nguyên đán và cách người Trung Quốc đón Tết",
+      "doneWhen": [
+        "text-1",
+        "text-2"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Phân biệt 刚才 và 刚刚",
-      "doneWhen": []
+      "vi": "Chúc Tết, tặng quà và đáp lời lịch sự khi đến nhà người khác",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu điều kiện 只要……，就……",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Cấu trúc 从……起",
-      "doneWhen": []
+      "vi": "Dùng “只要……就……” để nói điều kiện đủ",
+      "doneWhen": [
+        "text-3",
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🧧",
+      "word": "春节",
+      "pinyin": "Chūnjié",
+      "vi": "Tết Nguyên đán"
+    },
+    {
+      "emoji": "🥟",
+      "word": "饺子",
+      "pinyin": "jiǎozi",
+      "vi": "sủi cảo"
+    },
+    {
+      "emoji": "🎆",
+      "word": "过年",
+      "pinyin": "guònián",
+      "vi": "đón Tết"
+    },
+    {
+      "emoji": "💧",
+      "word": "矿泉水",
+      "pinyin": "kuàngquánshuǐ",
+      "vi": "nước khoáng"
+    },
+    {
+      "emoji": "👶",
+      "word": "出生",
+      "pinyin": "chūshēng",
+      "vi": "ra đời"
+    },
+    {
+      "emoji": "🎓",
+      "word": "毕业",
+      "pinyin": "bìyè",
+      "vi": "tốt nghiệp"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trên máy bay, Bạch Gia Nguyệt và Lý Văn đang trò chuyện.",
+      "scene": "✈️",
+      "audio": "audio/hsk3/18-1.mp3",
+      "vocabAudio": "audio/hsk3/18-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt rất vui?",
+          "options": [
+            "可以去北京",
+            "可以去李文家",
+            "可以在中国过春节"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Người Trung Quốc thường đón Tết thế nào?",
+          "options": [
+            "去朋友家过节",
+            "出去旅游过节",
+            "跟家人一起过节"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "我要在中国过年，真开心。",
+          "vi": "Mình sắp được đón Tết ở Trung Quốc, vui thật.",
+          "t": 0.57
+        },
+        {
+          "speaker": "liwen",
+          "zh": "第一次请外国朋友来家里过春节，我也很高兴。",
+          "vi": "Lần đầu mời bạn nước ngoài về nhà ăn Tết, mình cũng rất vui.",
+          "t": 4.01
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你们怎样过节？",
+          "vi": "Nhà cậu đón Tết thế nào?",
+          "t": 9.14
+        },
+        {
+          "speaker": "liwen",
+          "zh": "春节是中国最重要的节日，我们一般会回家，跟家人一起过。",
+          "vi": "Tết Nguyên đán là ngày lễ quan trọng nhất ở Trung Quốc, bọn mình thường về nhà, đón Tết cùng gia đình.",
+          "t": 11.0
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "那你跟家人会一起做什么？",
+          "vi": "Vậy cậu với gia đình sẽ làm gì cùng nhau?",
+          "t": 19.06
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我们家会一边包饺子，一边看春节联欢晚会，一直到十二点以后才睡觉。",
+          "vi": "Nhà mình vừa gói sủi cảo vừa xem chương trình Gala Tết, đến quá mười hai giờ mới đi ngủ.",
+          "t": 22.6
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "听起来很有意思。春节放几天假？",
+          "vi": "Nghe thú vị quá. Tết được nghỉ mấy ngày?",
+          "t": 31.41
+        },
+        {
+          "speaker": "liwen",
+          "zh": "大概七八天。",
+          "vi": "Khoảng bảy, tám ngày.",
+          "t": 35.85
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "怎样",
+          "pinyin": "zěnyàng",
+          "pos": "pron.",
+          "vi": "thế nào, ra sao",
+          "example": {
+            "zh": "你们怎样过周末？",
+            "vi": "Các bạn qua cuối tuần thế nào?"
+          }
+        },
+        {
+          "zh": "过节",
+          "pinyin": "guòjié",
+          "pos": "v.",
+          "vi": "ăn mừng ngày lễ, đón lễ",
+          "example": {
+            "zh": "过节的时候我回家。",
+            "vi": "Ngày lễ tôi về nhà."
+          }
+        },
+        {
+          "zh": "节",
+          "pinyin": "jié",
+          "pos": "n.",
+          "vi": "ngày lễ, tết",
+          "example": {
+            "zh": "中秋节快到了。",
+            "vi": "Sắp đến Tết Trung thu rồi."
+          }
+        },
+        {
+          "zh": "节日",
+          "pinyin": "jiérì",
+          "pos": "n.",
+          "vi": "ngày lễ",
+          "example": {
+            "zh": "春节是中国最重要的节日。",
+            "vi": "Tết là ngày lễ quan trọng nhất ở Trung Quốc."
+          }
+        },
+        {
+          "zh": "联欢",
+          "pinyin": "liánhuān",
+          "pos": "v.",
+          "vi": "liên hoan, vui chung",
+          "example": {
+            "zh": "我们开了一个联欢会。",
+            "vi": "Chúng tôi tổ chức một buổi liên hoan."
+          }
+        },
+        {
+          "zh": "大概",
+          "pinyin": "dàgài",
+          "pos": "adv./adj.",
+          "vi": "khoảng, có lẽ",
+          "example": {
+            "zh": "大概要两个小时。",
+            "vi": "Có lẽ mất khoảng hai tiếng."
+          }
+        },
+        {
+          "zh": "春节",
+          "pinyin": "Chūnjié",
+          "pos": "",
+          "vi": "Tết Nguyên đán",
+          "example": {
+            "zh": "春节你回家吗？",
+            "vi": "Tết bạn có về nhà không?"
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g18-1",
+          "title_zh": "概数表达法",
+          "title_vi": "Số ước lượng: hai số liền nhau (七八天, 三四年)",
+          "formula": [
+            [
+              {
+                "zh": "七八",
+                "label": "Hai số liền nhau",
+                "role": "N"
+              },
+              {
+                "zh": "天",
+                "label": "Lượng từ / danh từ",
+                "role": "O"
+              }
+            ]
+          ],
+          "explain_vi": "Đặt hai con số liền kề nhau để nói số lượng không chính xác – giống “bảy, tám ngày”, “ba, bốn năm” trong tiếng Việt. Tiếng Trung viết liền, không có dấu phẩy: 七八天, 五六个学生. Thường đi kèm 大概.",
+          "examples": [
+            {
+              "zh": "春节大概放七八天假。",
+              "vi": "Tết được nghỉ khoảng bảy, tám ngày."
+            },
+            {
+              "zh": "教室里来了五六个学生。",
+              "vi": "Trong lớp có năm, sáu học sinh đến."
+            },
+            {
+              "zh": "这些照片是三四年前照的吧？",
+              "vi": "Những tấm ảnh này chụp từ ba, bốn năm trước nhỉ?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我等了二三十分钟。→ 我等了二、三十分钟。",
+              "right": "我等了二三十分钟。",
+              "why_vi": "Số ước lượng viết liền, không chèn dấu phẩy hay dấu ngắt."
+            },
+            {
+              "wrong": "九十个人 (muốn nói: chín, mười người)",
+              "right": "差不多十个人",
+              "why_vi": "九十 là số 90; muốn nói ước lượng quanh 10 thì dùng 十来个 / 差不多十个."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Khoảng ba, bốn tiếng nữa mới đến.”",
+              "options": [
+                "大概还要三四个小时才能到。",
+                "大概还要三、四个小时才能到。",
+                "大概还要三个四个小时才能到。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "春节联欢晚会 (gọi tắt 春晚) = chương trình Gala Tết trên truyền hình đêm giao thừa – xem lại góc văn hoá bài 14."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Ở nhà Lý Văn, Gia Nguyệt chúc Tết bố mẹ Lý Văn.",
+      "scene": "🧧",
+      "audio": "audio/hsk3/18-3.mp3",
+      "vocabAudio": "audio/hsk3/18-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao Gia Nguyệt đến nhà Lý Văn?",
+          "options": [
+            "送礼物",
+            "学包饺子",
+            "一起过年"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Tối nay nhà Lý Văn ăn gì?",
+          "options": [
+            "饺子",
+            "包子",
+            "面条儿"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "张阿姨，李叔叔，过年好！这是我准备的礼物，请收下。",
+          "vi": "Cháu chào cô Trương, chú Lý, chúc mừng năm mới! Đây là quà cháu chuẩn bị, cô chú nhận cho cháu ạ.",
+          "t": 0.29
+        },
+        {
+          "speaker": "lishushu",
+          "zh": "谢谢家月，你太客气了！",
+          "vi": "Cảm ơn Gia Nguyệt, cháu khách sáo quá!",
+          "t": 7.45
+        },
+        {
+          "speaker": "zhangayi",
+          "zh": "总听小文说起你，今天终于有机会见面了。",
+          "vi": "Cô hay nghe Tiểu Văn nhắc đến cháu, hôm nay cuối cùng cũng được gặp.",
+          "t": 11.33
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "谢谢您和叔叔请我来家里做客。",
+          "vi": "Cháu cảm ơn cô và chú đã mời cháu đến nhà chơi.",
+          "t": 18.05
+        },
+        {
+          "speaker": "lishushu",
+          "zh": "桌子上有饮料，还有矿泉水，你想喝什么就自己拿。",
+          "vi": "Trên bàn có nước ngọt, còn có nước khoáng, cháu muốn uống gì cứ tự lấy.",
+          "t": 22.14
+        },
+        {
+          "speaker": "zhangayi",
+          "zh": "你先坐着看会儿电视，饺子很快就包好了。",
+          "vi": "Cháu ngồi xem tivi một lát, sủi cảo gói sắp xong rồi.",
+          "t": 29.52
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我刚刚看视频学会了包饺子，我跟你们一起包吧。",
+          "vi": "Cháu vừa xem video học gói sủi cảo, để cháu gói cùng cô chú.",
+          "t": 34.38
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "阿姨",
+          "pinyin": "āyí",
+          "pos": "n.",
+          "vi": "cô, dì",
+          "example": {
+            "zh": "阿姨，您好！",
+            "vi": "Cháu chào cô ạ!"
+          }
+        },
+        {
+          "zh": "叔叔",
+          "pinyin": "shūshu",
+          "pos": "n.",
+          "vi": "chú",
+          "example": {
+            "zh": "叔叔，谢谢您！",
+            "vi": "Cháu cảm ơn chú!"
+          }
+        },
+        {
+          "zh": "收",
+          "pinyin": "shōu",
+          "pos": "v.",
+          "vi": "nhận",
+          "example": {
+            "zh": "请收下这个礼物。",
+            "vi": "Xin nhận món quà này."
+          }
+        },
+        {
+          "zh": "总",
+          "pinyin": "zǒng",
+          "pos": "adv.",
+          "vi": "luôn, hay",
+          "example": {
+            "zh": "他总说自己很忙。",
+            "vi": "Anh ấy hay nói mình bận."
+          }
+        },
+        {
+          "zh": "起",
+          "pinyin": "qǐ",
+          "pos": "v.",
+          "vi": "(sau động từ) nhắc đến",
+          "example": {
+            "zh": "他常说起你。",
+            "vi": "Anh ấy hay nhắc đến bạn."
+          }
+        },
+        {
+          "zh": "见面",
+          "pinyin": "jiànmiàn",
+          "pos": "v.",
+          "vi": "gặp mặt",
+          "example": {
+            "zh": "我们明天见面吧。",
+            "vi": "Mai mình gặp nhau nhé."
+          }
+        },
+        {
+          "zh": "矿泉水",
+          "pinyin": "kuàngquánshuǐ",
+          "pos": "n.",
+          "vi": "nước khoáng",
+          "example": {
+            "zh": "我要一瓶矿泉水。",
+            "vi": "Cho tôi một chai nước khoáng."
+          }
+        },
+        {
+          "zh": "刚刚",
+          "pinyin": "gānggāng",
+          "pos": "adv.",
+          "vi": "vừa mới",
+          "example": {
+            "zh": "我刚刚到家。",
+            "vi": "Tôi vừa mới về đến nhà."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g18-2",
+          "title_zh": "“刚才”和“刚刚”",
+          "title_vi": "Phân biệt 刚才 và 刚刚",
+          "formula": [
+            [
+              {
+                "zh": "刚才",
+                "label": "danh từ thời gian: vài phút trước",
+                "role": "N"
+              },
+              {
+                "zh": "（主语）……",
+                "label": "đứng đầu câu hoặc trước động từ",
+                "role": "V"
+              }
+            ],
+            [
+              {
+                "zh": "（主语）",
+                "label": "",
+                "role": "S"
+              },
+              {
+                "zh": "刚刚",
+                "label": "phó từ: vừa mới (gần so với người nói)",
+                "role": "ADV"
+              },
+              {
+                "zh": "+ động từ",
+                "label": "chỉ đứng sau chủ ngữ",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Tiếng Việt đều nói “vừa nãy, vừa mới”, nhưng tiếng Trung phân biệt: 刚才 là danh từ thời gian, chỉ lúc rất gần (thường vài phút), đứng được ĐẦU câu, sau nó có thể là phủ định (刚才没……). 刚刚 là phó từ, chỉ việc mới xảy ra theo cảm nhận của người nói – có thể là vài phút, vài ngày, thậm chí vài tháng; chỉ đứng SAU chủ ngữ, trước động từ.",
+          "examples": [
+            {
+              "zh": "刚才的电话是我妈妈打来的。",
+              "vi": "Cuộc gọi vừa nãy là mẹ tôi gọi."
+            },
+            {
+              "zh": "我刚才看过一遍，不想再看了。",
+              "vi": "Vừa nãy tôi xem một lượt rồi, không muốn xem nữa."
+            },
+            {
+              "zh": "我刚刚看视频学会了包饺子。",
+              "vi": "Tôi vừa mới xem video học được cách gói sủi cảo."
+            },
+            {
+              "zh": "他刚刚来北京两个月。",
+              "vi": "Anh ấy mới đến Bắc Kinh được hai tháng."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "刚刚的电话是谁打的？",
+              "right": "刚才的电话是谁打的？",
+              "why_vi": "刚刚 là phó từ, không làm định ngữ với 的; dùng 刚才."
+            },
+            {
+              "wrong": "他刚才来北京两个月。",
+              "right": "他刚刚来北京两个月。",
+              "why_vi": "Khoảng thời gian dài (hai tháng) dùng 刚刚."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "Chọn câu ĐÚNG:",
+              "options": [
+                "刚才你去哪儿了？",
+                "刚刚的事情你知道吗？",
+                "我刚才学了中文三年。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "过年好！= Chúc mừng năm mới! Khi đến nhà ai ngày Tết, người Trung Quốc hay nói câu này và tặng quà."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà Lý Văn, mẹ Lý Văn và Gia Nguyệt đang trò chuyện.",
+      "scene": "🖼️",
+      "audio": "audio/hsk3/18-5.mp3",
+      "vocabAudio": "audio/hsk3/18-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Gia Nguyệt và mẹ Lý Văn đang làm gì?",
+          "options": [
+            "一起看电视",
+            "一起看视频",
+            "一起看照片"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Khi nào Lý Văn tốt nghiệp?",
+          "options": [
+            "一个月以后",
+            "一个学期以后",
+            "三四年以后"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "这张照片是李文出国前照的吗？",
+          "vi": "Tấm ảnh này chụp trước khi Lý Văn ra nước ngoài ạ?",
+          "t": 0.66
+        },
+        {
+          "speaker": "zhangayi",
+          "zh": "对，这是他从北京出发时，我们全家在机场照的。",
+          "vi": "Đúng rồi, đây là lúc nó lên đường từ Bắc Kinh, cả nhà cô chụp ở sân bay.",
+          "t": 4.03
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "那是三四年前吧？",
+          "vi": "Vậy là ba, bốn năm trước rồi nhỉ?",
+          "t": 10.49
+        },
+        {
+          "speaker": "zhangayi",
+          "zh": "是啊，时间过得真快，好像是不久前发生的一样。",
+          "vi": "Ừ, thời gian trôi nhanh thật, cứ như mới xảy ra gần đây.",
+          "t": 12.53
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "您一定特别想李文吧？",
+          "vi": "Chắc cô nhớ Lý Văn lắm ạ?",
+          "t": 19.1
+        },
+        {
+          "speaker": "zhangayi",
+          "zh": "他刚离开家时，我很不习惯，只要几天不跟他视频，就很想他。",
+          "vi": "Hồi nó mới đi, cô không quen lắm, chỉ cần vài hôm không gọi video với nó là cô nhớ lắm.",
+          "t": 21.93
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "还有最后一个学期就要毕业了，他很快就会回来了。",
+          "vi": "Còn học kỳ cuối nữa là tốt nghiệp rồi, anh ấy sẽ sớm về thôi ạ.",
+          "t": 29.68
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "出发",
+          "pinyin": "chūfā",
+          "pos": "v.",
+          "vi": "xuất phát, lên đường",
+          "example": {
+            "zh": "我们八点出发。",
+            "vi": "Chúng ta xuất phát lúc tám giờ."
+          }
+        },
+        {
+          "zh": "不久",
+          "pinyin": "bùjiǔ",
+          "pos": "adj.",
+          "vi": "không lâu",
+          "example": {
+            "zh": "不久以后他就回来了。",
+            "vi": "Không lâu sau anh ấy đã về."
+          }
+        },
+        {
+          "zh": "发生",
+          "pinyin": "fāshēng",
+          "pos": "v.",
+          "vi": "xảy ra",
+          "example": {
+            "zh": "发生什么事了？",
+            "vi": "Có chuyện gì xảy ra vậy?"
+          }
+        },
+        {
+          "zh": "刚",
+          "pinyin": "gāng",
+          "pos": "adv.",
+          "vi": "vừa mới",
+          "example": {
+            "zh": "我刚到。",
+            "vi": "Tôi vừa đến."
+          }
+        },
+        {
+          "zh": "只要",
+          "pinyin": "zhǐyào",
+          "pos": "conj.",
+          "vi": "chỉ cần",
+          "example": {
+            "zh": "只要你来，我就高兴。",
+            "vi": "Chỉ cần bạn đến là tôi vui."
+          }
+        },
+        {
+          "zh": "学期",
+          "pinyin": "xuéqī",
+          "pos": "n.",
+          "vi": "học kỳ",
+          "example": {
+            "zh": "这个学期我很忙。",
+            "vi": "Học kỳ này tôi rất bận."
+          }
+        },
+        {
+          "zh": "毕业",
+          "pinyin": "bìyè",
+          "pos": "v.",
+          "vi": "tốt nghiệp",
+          "example": {
+            "zh": "他明年大学毕业。",
+            "vi": "Năm sau anh ấy tốt nghiệp đại học."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g18-3",
+          "title_zh": "条件复句“只要……，就……”",
+          "title_vi": "“只要……，就……”: chỉ cần… là…",
+          "formula": [
+            [
+              {
+                "zh": "（我）",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "只要",
+                "label": "chỉ cần",
+                "role": "ADV"
+              },
+              {
+                "zh": "几天不跟他视频",
+                "label": "Điều kiện ĐỦ",
+                "role": "V"
+              },
+              {
+                "zh": "，就",
+                "label": "là",
+                "role": "ADV"
+              },
+              {
+                "zh": "很想他",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "只要 dẫn ra điều kiện ĐỦ: có điều kiện này là có kết quả – giống “chỉ cần… là…”. So sánh với 只有……才…… (bài 17): 只有 là điều kiện DUY NHẤT (bắt buộc), còn 只要 là điều kiện đủ, nhẹ nhàng hơn. Nếu hai vế khác chủ ngữ, chủ ngữ vế sau đặt trước 就.",
+          "examples": [
+            {
+              "zh": "我只要几天不跟他视频，就很想他。",
+              "vi": "Chỉ cần vài hôm không gọi video với nó là tôi nhớ lắm."
+            },
+            {
+              "zh": "只要你同意，我们就这么决定了。",
+              "vi": "Chỉ cần bạn đồng ý là chúng ta quyết định như vậy."
+            },
+            {
+              "zh": "只要你坚持每天早睡，身体就一定会好起来。",
+              "vi": "Chỉ cần bạn kiên trì ngủ sớm mỗi ngày, sức khoẻ nhất định sẽ tốt lên."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "只要你努力，才能成功。",
+              "right": "只要你努力，就能成功。",
+              "why_vi": "只要 đi với 就; 只有 mới đi với 才."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chỉ cần có thời gian là tôi đọc sách.”",
+              "options": [
+                "只要有时间，我就看书。",
+                "只要有时间，就我看书。",
+                "只要有时间，我才看书。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "视频 vừa là danh từ (video) vừa là động từ (gọi video): 跟他视频 = gọi video với anh ấy."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Bạch Gia Nguyệt viết nhật ký.",
+      "scene": "📔",
+      "audio": "audio/hsk3/18-7.mp3",
+      "vocabAudio": "audio/hsk3/18-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chuyến này đến Trung Quốc, điều khiến Gia Nguyệt vui nhất là gì?",
+          "options": [
+            "过春节",
+            "吃饺子",
+            "认识李文的父母"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Gia Nguyệt học được điều gì từ Lý Văn?",
+          "options": [
+            "如果想学医，就要努力学习",
+            "只有成绩好，才能出国留学",
+            "只要坚持努力，就能完成目标"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "这次来中国，我最高兴的是认识了李文的父母。",
+          "vi": "Chuyến này sang Trung Quốc, mình vui nhất là được quen bố mẹ Lý Văn.",
+          "t": 0.74
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "他们给我看了李文出生时的照片，还给我讲了很多他过去的故事。",
+          "vi": "Cô chú cho mình xem ảnh lúc Lý Văn mới sinh, còn kể cho mình nhiều chuyện ngày trước của anh ấy.",
+          "t": 5.7
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "李文高中的时候想学医，从那时起就努力学习。",
+          "vi": "Hồi cấp ba Lý Văn muốn học y, từ đó bắt đầu học hành chăm chỉ.",
+          "t": 12.75
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "高三的时候，因为成绩特别好，他得到了出国留学的机会。",
+          "vi": "Năm lớp 12, vì thành tích rất tốt, anh ấy có được cơ hội đi du học.",
+          "t": 17.71
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "在他身上，我懂得了，只要一直坚持，就能完成自己的目标。",
+          "vi": "Từ anh ấy, mình hiểu ra rằng chỉ cần kiên trì mãi, là có thể hoàn thành mục tiêu của mình.",
+          "t": 24.04
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "我相信，他以后一定会发展得更好。",
+          "vi": "Mình tin rằng sau này anh ấy nhất định sẽ phát triển tốt hơn nữa.",
+          "t": 30.62
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "出生",
+          "pinyin": "chūshēng",
+          "pos": "v.",
+          "vi": "sinh ra, ra đời",
+          "example": {
+            "zh": "我是2010年出生的。",
+            "vi": "Tôi sinh năm 2010."
+          }
+        },
+        {
+          "zh": "过去",
+          "pinyin": "guòqù",
+          "pos": "n.",
+          "vi": "quá khứ, trước đây",
+          "example": {
+            "zh": "过去的事就别想了。",
+            "vi": "Chuyện đã qua thì đừng nghĩ nữa."
+          }
+        },
+        {
+          "zh": "医",
+          "pinyin": "yī",
+          "pos": "n.",
+          "vi": "y, ngành y",
+          "example": {
+            "zh": "他想学医。",
+            "vi": "Cậu ấy muốn học y."
+          }
+        },
+        {
+          "zh": "懂得",
+          "pinyin": "dǒngde",
+          "pos": "v.",
+          "vi": "hiểu, hiểu được",
+          "example": {
+            "zh": "他懂得了很多道理。",
+            "vi": "Cậu ấy hiểu ra nhiều điều."
+          }
+        },
+        {
+          "zh": "坚持",
+          "pinyin": "jiānchí",
+          "pos": "v.",
+          "vi": "kiên trì",
+          "example": {
+            "zh": "我每天坚持跑步。",
+            "vi": "Ngày nào tôi cũng kiên trì chạy bộ."
+          }
+        },
+        {
+          "zh": "完成",
+          "pinyin": "wánchéng",
+          "pos": "v.",
+          "vi": "hoàn thành",
+          "example": {
+            "zh": "我完成了作业。",
+            "vi": "Tôi đã hoàn thành bài tập."
+          }
+        },
+        {
+          "zh": "目标",
+          "pinyin": "mùbiāo",
+          "pos": "n.",
+          "vi": "mục tiêu",
+          "example": {
+            "zh": "我的目标是考上大学。",
+            "vi": "Mục tiêu của tôi là đỗ đại học."
+          }
+        },
+        {
+          "zh": "发展",
+          "pinyin": "fāzhǎn",
+          "pos": "v.",
+          "vi": "phát triển",
+          "example": {
+            "zh": "这个城市发展得很快。",
+            "vi": "Thành phố này phát triển rất nhanh."
+          }
+        }
+      ],
+      "pangdaTip": "从那时起 = từ lúc đó trở đi. 从……起 = bắt đầu từ…: 从明天起，我要每天跑步."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "谢谢您的礼物，那我就___下了。",
+      "bank": [
+        "收",
+        "总",
+        "起"
+      ],
+      "answer": "收"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "六岁___的孩子和六十岁以上的老人都不用买票。",
+      "bank": [
+        "以下",
+        "以上",
+        "不久"
+      ],
+      "answer": "以下"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "就要过春节了，你们打算怎样___？",
+      "bank": [
+        "过节",
+        "见面",
+        "出发"
+      ],
+      "answer": "过节"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "经理说我们这个月的工作___得特别好。",
+      "bank": [
+        "完成",
+        "发生",
+        "出发"
+      ],
+      "answer": "完成"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "今天是这个___的最后一天，明天就放假了。",
+      "bank": [
+        "学期",
+        "节日",
+        "目标"
+      ],
+      "answer": "学期"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "就",
+        "只要有时间",
+        "我",
+        "看书",
+        "，"
+      ],
+      "answers": [
+        "只要有时间，我就看书"
+      ],
+      "vi": "Chỉ cần có thời gian là tôi đọc sách.",
+      "explain_vi": "只要……，主语 + 就……"
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "放",
+        "春节",
+        "七八天假",
+        "大概"
+      ],
+      "answers": [
+        "春节大概放七八天假"
+      ],
+      "vi": "Tết được nghỉ khoảng bảy, tám ngày.",
+      "explain_vi": "Số ước lượng: 七八天."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "饺子",
+      "options": [
+        {
+          "emoji": "🥟",
+          "label": "Sủi cảo"
+        },
+        {
+          "emoji": "💧",
+          "label": "Nước khoáng"
+        },
+        {
+          "emoji": "🧧",
+          "label": "Bao lì xì"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "我只要几天不跟他视频，就很想他。",
+      "emoji": "📱",
+      "statement_vi": "Người mẹ không nhớ con trai.",
+      "answer": false,
+      "explain_vi": "只要……就很想他 = chỉ cần… là rất nhớ."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "☎️",
+      "sentence": "___的电话是我妈妈打来的。",
+      "options": [
+        "刚才",
+        "刚刚",
+        "刚"
+      ],
+      "answer": 0,
+      "explain_vi": "Làm định ngữ với 的 chỉ dùng 刚才."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "张阿姨，过年好！",
+          "a": "家月，你太客气了！"
+        },
+        {
+          "q": "春节放几天假？",
+          "a": "大概七八天。"
+        },
+        {
+          "q": "李文什么时候毕业？",
+          "a": "还有一个学期。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Đóng vai: Đi chúc Tết",
+    "steps_vi": [
+      "Nhóm 3–4 người: khách đến chúc Tết và gia đình chủ nhà.",
+      "Khách chúc 过年好 và tặng quà; chủ nhà đáp lời, mời ngồi, mời uống nước.",
+      "Mọi người kể về Tết ở Việt Nam và Trung Quốc, dùng số ước lượng (放七八天假).",
+      "Mỗi người nói một mục tiêu năm mới, dùng “只要……就……”."
+    ],
+    "patterns": [
+      {
+        "zh": "过年好！这是我准备的礼物，请收下。",
+        "vi": "Chúc mừng năm mới! Đây là quà tôi chuẩn bị, xin nhận cho."
+      },
+      {
+        "zh": "你太客气了，快请进！",
+        "vi": "Bạn khách sáo quá, mời vào!"
+      },
+      {
+        "zh": "越南的春节一般放七八天假。",
+        "vi": "Tết ở Việt Nam thường được nghỉ bảy, tám ngày."
+      },
+      {
+        "zh": "只要每天坚持，就能完成目标。",
+        "vi": "Chỉ cần kiên trì mỗi ngày là hoàn thành được mục tiêu."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Tết Nguyên đán ở Trung Quốc và Việt Nam",
+    "body_vi": [
+      "Tết Nguyên đán (春节) là ngày lễ quan trọng nhất của cả Trung Quốc và Việt Nam. Ở Trung Quốc, đêm giao thừa (除夕) cả nhà ăn bữa cơm đoàn viên (年夜饭); người miền Bắc gói sủi cảo vì hình dáng giống thỏi vàng, tượng trưng cho tài lộc.",
+      "Người lớn mừng tuổi trẻ con bằng bao lì xì đỏ (红包), giống tục lì xì ở Việt Nam. Câu chúc phổ biến: 过年好, 新年快乐, 恭喜发财 (chúc phát tài).",
+      "Đợt di chuyển về quê dịp Tết ở Trung Quốc gọi là 春运, với hàng tỷ lượt đi lại – cuộc di cư lớn nhất hành tinh hằng năm."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Đêm giao thừa",
+          "除夕",
+          "chúxī"
+        ],
+        [
+          "Bữa cơm tất niên",
+          "年夜饭",
+          "niányèfàn"
+        ],
+        [
+          "Bao lì xì",
+          "红包",
+          "hóngbāo"
+        ],
+        [
+          "Chúc phát tài",
+          "恭喜发财",
+          "gōngxǐ fācái"
+        ],
+        [
+          "Mùa đi lại dịp Tết",
+          "春运",
+          "chūnyùn"
+        ]
+      ]
+    }
+  }
 }

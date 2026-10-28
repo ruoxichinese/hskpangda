@@ -1,41 +1,1113 @@
 {
   "id": 15,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我是半个南京人",
     "pinyin": "Wǒ shì bàn ge Nánjīng rén",
     "vi": "Tôi coi như nửa người Nam Kinh"
   },
   "grammarTopics_vi": [
-    "Giới từ 根据",
-    "Lặp cụm số lượng",
-    "Cấu trúc 在……看来",
-    "Cụm 不一会儿"
+    "Giới từ 根据: căn cứ vào, dựa theo",
+    "Lặp cụm số lượng: 一点儿一点儿, 一天一天地",
+    "Cụm cố định “在……看来”",
+    "Cụm cố định “不一会儿”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Giới từ 根据",
-      "doneWhen": []
+      "vi": "Miêu tả vị trí và môi trường của một nơi",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Lặp cụm số lượng",
-      "doneWhen": []
+      "vi": "Giới thiệu cảnh quan, lịch sử, văn hoá của một nơi",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Cấu trúc 在……看来",
-      "doneWhen": []
+      "vi": "Dùng “在……看来” để nêu quan điểm của một người hay một nhóm",
+      "doneWhen": [
+        "text-3"
+      ]
     },
     {
       "id": "o4",
-      "vi": "Cụm 不一会儿",
-      "doneWhen": []
+      "vi": "Biết về Nam Kinh và sông Hoàng Hà",
+      "doneWhen": [
+        "text-2",
+        "text-3"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "🏞️",
+      "word": "河",
+      "pinyin": "hé",
+      "vi": "sông"
+    },
+    {
+      "emoji": "👵",
+      "word": "老人",
+      "pinyin": "lǎorén",
+      "vi": "người già"
+    },
+    {
+      "emoji": "🌱",
+      "word": "草地",
+      "pinyin": "cǎodì",
+      "vi": "bãi cỏ"
+    },
+    {
+      "emoji": "🌤️",
+      "word": "蓝天",
+      "pinyin": "lántiān",
+      "vi": "trời xanh"
+    },
+    {
+      "emoji": "🛣️",
+      "word": "马路",
+      "pinyin": "mǎlù",
+      "vi": "đường cái"
+    },
+    {
+      "emoji": "🎲",
+      "word": "游戏",
+      "pinyin": "yóuxì",
+      "vi": "trò chơi"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong văn phòng, chị Vương Nhất Tuyết và Dương Đồng Lạc đang trò chuyện.",
+      "scene": "🏘️",
+      "audio": "audio/hsk3/15-1.mp3",
+      "vocabAudio": "audio/hsk3/15-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Đồng Lạc và chị Nhất Tuyết đang nói về chuyện gì?",
+          "options": [
+            "小区里的老人",
+            "小区里的孩子",
+            "蓝天小区怎么样"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Vì sao Đồng Lạc quan tâm đến khu Lam Thiên?",
+          "options": [
+            "他想搬家",
+            "他想买房子",
+            "他想跟王一雪做邻居"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "yangtongle",
+          "zh": "您搬到蓝天小区一段时间了，觉得怎么样？",
+          "vi": "Chị chuyển đến khu Lam Thiên được một thời gian rồi, thấy thế nào?",
+          "t": 0.55
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "小区环境挺好的，附近买东西也很方便，过马路就是超市。",
+          "vi": "Môi trường khu khá tốt, mua đồ quanh đó cũng tiện, qua đường là siêu thị.",
+          "t": 5.83
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "平时孩子们在哪儿玩？",
+          "vi": "Thường ngày bọn trẻ chơi ở đâu?",
+          "t": 12.96
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "小区里有很多树，孩子们放学后就在树下做游戏。你想买房子吗？",
+          "vi": "Trong khu có nhiều cây, tan học bọn trẻ chơi trò chơi dưới gốc cây. Anh muốn mua nhà à?",
+          "t": 16.75
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "是。我想买一个大房子，让我爸妈过来跟我一起住。",
+          "vi": "Vâng. Tôi muốn mua một căn nhà rộng, để bố mẹ qua ở cùng tôi.",
+          "t": 24.44
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "蓝天小区的老人挺多的，这几年小区根据他们的需要，有了很多变化。",
+          "vi": "Khu Lam Thiên có khá nhiều người già, mấy năm nay khu đã thay đổi nhiều theo nhu cầu của họ.",
+          "t": 31.48
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "真不错！过几天我去蓝天小区看看。",
+          "vi": "Hay thật! Vài hôm nữa tôi đến khu Lam Thiên xem thử.",
+          "t": 38.96
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "蓝",
+          "pinyin": "lán",
+          "pos": "adj.",
+          "vi": "xanh lam",
+          "example": {
+            "zh": "今天的天很蓝。",
+            "vi": "Trời hôm nay rất xanh."
+          }
+        },
+        {
+          "zh": "段",
+          "pinyin": "duàn",
+          "pos": "m.",
+          "vi": "đoạn, khoảng (thời gian, đường)",
+          "example": {
+            "zh": "这段时间我很忙。",
+            "vi": "Khoảng thời gian này tôi rất bận."
+          }
+        },
+        {
+          "zh": "附近",
+          "pinyin": "fùjìn",
+          "pos": "n.",
+          "vi": "gần đây, lân cận",
+          "example": {
+            "zh": "附近有银行吗？",
+            "vi": "Gần đây có ngân hàng không?"
+          }
+        },
+        {
+          "zh": "马路",
+          "pinyin": "mǎlù",
+          "pos": "n.",
+          "vi": "đường cái",
+          "example": {
+            "zh": "过马路要小心。",
+            "vi": "Qua đường phải cẩn thận."
+          }
+        },
+        {
+          "zh": "平时",
+          "pinyin": "píngshí",
+          "pos": "n.",
+          "vi": "thường ngày",
+          "example": {
+            "zh": "我平时七点起床。",
+            "vi": "Thường ngày tôi dậy lúc bảy giờ."
+          }
+        },
+        {
+          "zh": "放学",
+          "pinyin": "fàngxué",
+          "pos": "v.",
+          "vi": "tan học",
+          "example": {
+            "zh": "孩子四点放学。",
+            "vi": "Bọn trẻ tan học lúc bốn giờ."
+          }
+        },
+        {
+          "zh": "游戏",
+          "pinyin": "yóuxì",
+          "pos": "n.",
+          "vi": "trò chơi",
+          "example": {
+            "zh": "孩子们在做游戏。",
+            "vi": "Bọn trẻ đang chơi trò chơi."
+          }
+        },
+        {
+          "zh": "老人",
+          "pinyin": "lǎorén",
+          "pos": "n.",
+          "vi": "người già",
+          "example": {
+            "zh": "公园里有很多老人。",
+            "vi": "Trong công viên có nhiều người già."
+          }
+        },
+        {
+          "zh": "根据",
+          "pinyin": "gēnjù",
+          "pos": "prep./v.",
+          "vi": "căn cứ vào, dựa theo",
+          "example": {
+            "zh": "根据天气决定去哪儿。",
+            "vi": "Dựa vào thời tiết để quyết định đi đâu."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g15-1",
+          "title_zh": "介词“根据”",
+          "title_vi": "Giới từ 根据: căn cứ vào, dựa theo",
+          "formula": [
+            [
+              {
+                "zh": "（主语）",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "根据",
+                "label": "dựa theo",
+                "role": "ADV"
+              },
+              {
+                "zh": "他们的需要",
+                "label": "Căn cứ",
+                "role": "O"
+              },
+              {
+                "zh": "，有了很多变化",
+                "label": "Hành động / kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "根据 dẫn ra căn cứ, lý do của một hành động – giống “dựa vào”, “căn cứ theo”, “theo” trong tiếng Việt. Cụm 根据…… có thể đứng đầu câu hoặc sau chủ ngữ.",
+          "examples": [
+            {
+              "zh": "这几年小区根据他们的需要，有了很多变化。",
+              "vi": "Mấy năm nay khu đã thay đổi nhiều theo nhu cầu của họ."
+            },
+            {
+              "zh": "根据要求，我们必须参加明天的会议。",
+              "vi": "Theo yêu cầu, chúng tôi phải dự cuộc họp ngày mai."
+            },
+            {
+              "zh": "老师根据每个学生的兴趣，选择了不一样的书。",
+              "vi": "Cô giáo dựa theo sở thích của từng học sinh mà chọn sách khác nhau."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "根据天气，所以我们不去了。",
+              "right": "根据天气情况，我们决定不去了。",
+              "why_vi": "根据 dẫn căn cứ cho một hành động, không đi với 所以."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Dựa vào thời tiết để chọn quần áo.”",
+              "options": [
+                "根据天气选择衣服。",
+                "根据选择天气衣服。",
+                "选择衣服根据天气的。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "过马路就是超市 = qua đường là (tới) siêu thị. Cách nói vị trí rất tự nhiên: 过了路口就是……"
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trong văn phòng, chị Nhất Tuyết và Đồng Lạc tiếp tục trò chuyện.",
+      "scene": "🏯",
+      "audio": "audio/hsk3/15-3.mp3",
+      "vocabAudio": "audio/hsk3/15-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết và Đồng Lạc đang nói chuyện gì?",
+          "options": [
+            "在南京旅游",
+            "下班后吃什么",
+            "杨同乐的大学"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Nam Kinh là thành phố thế nào?",
+          "options": [
+            "有很多游客去旅游",
+            "有一千年以上的历史",
+            "有很多南京人不知道的景点"
+          ],
+          "answer": 0
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "假期我想去南京旅游，但是我不太了解那里。",
+          "vi": "Kỳ nghỉ tôi muốn đi Nam Kinh du lịch, nhưng tôi không hiểu rõ nơi đó lắm.",
+          "t": 0.72
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "我虽然不是南京人，可是我是在南京上的大学，可以说是半个南京人。",
+          "vi": "Tôi tuy không phải người Nam Kinh, nhưng tôi học đại học ở Nam Kinh, có thể coi là nửa người Nam Kinh.",
+          "t": 5.84
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "太好了！你快给我介绍一下南京吧。",
+          "vi": "Tốt quá! Anh mau giới thiệu Nam Kinh cho tôi đi.",
+          "t": 12.97
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "南京有两千年以上的历史，有老城、老街，还有很多有名的景点，每年去旅游的游客特别多。",
+          "vi": "Nam Kinh có lịch sử hơn hai nghìn năm, có thành cổ, phố cổ, còn có nhiều danh lam nổi tiếng, hằng năm du khách đến rất đông.",
+          "t": 16.82
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "除了这些以外，你再告诉我一些外地人不知道的地方。",
+          "vi": "Ngoài những chỗ đó ra, anh kể thêm cho tôi vài nơi người nơi khác không biết.",
+          "t": 28.09
+        },
+        {
+          "speaker": "yangtongle",
+          "zh": "那太多了，我得一点儿一点儿给您讲。",
+          "vi": "Thế thì nhiều lắm, tôi phải kể dần dần cho chị.",
+          "t": 32.96
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "行，下班后我请你吃晚饭，咱们边吃边聊。",
+          "vi": "Được, tan làm tôi mời anh ăn tối, mình vừa ăn vừa nói chuyện.",
+          "t": 37.58
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "了解",
+          "pinyin": "liǎojiě",
+          "pos": "v.",
+          "vi": "hiểu rõ, tìm hiểu",
+          "example": {
+            "zh": "我很了解他。",
+            "vi": "Tôi rất hiểu anh ấy."
+          }
+        },
+        {
+          "zh": "可是",
+          "pinyin": "kěshì",
+          "pos": "conj.",
+          "vi": "nhưng",
+          "example": {
+            "zh": "我想去，可是没时间。",
+            "vi": "Tôi muốn đi, nhưng không có thời gian."
+          }
+        },
+        {
+          "zh": "以上",
+          "pinyin": "yǐshàng",
+          "pos": "n.",
+          "vi": "trở lên, hơn",
+          "example": {
+            "zh": "一百人以上",
+            "vi": "hơn một trăm người"
+          }
+        },
+        {
+          "zh": "有名",
+          "pinyin": "yǒumíng",
+          "pos": "adj.",
+          "vi": "nổi tiếng",
+          "example": {
+            "zh": "这家饭馆很有名。",
+            "vi": "Quán này rất nổi tiếng."
+          }
+        },
+        {
+          "zh": "景点",
+          "pinyin": "jǐngdiǎn",
+          "pos": "n.",
+          "vi": "điểm tham quan, danh lam",
+          "example": {
+            "zh": "北京有很多景点。",
+            "vi": "Bắc Kinh có nhiều điểm tham quan."
+          }
+        },
+        {
+          "zh": "游客",
+          "pinyin": "yóukè",
+          "pos": "n.",
+          "vi": "du khách",
+          "example": {
+            "zh": "这里游客很多。",
+            "vi": "Ở đây rất đông du khách."
+          }
+        },
+        {
+          "zh": "外地",
+          "pinyin": "wàidì",
+          "pos": "n.",
+          "vi": "nơi khác, tỉnh khác",
+          "example": {
+            "zh": "他是外地人。",
+            "vi": "Anh ấy là người nơi khác."
+          }
+        },
+        {
+          "zh": "聊",
+          "pinyin": "liáo",
+          "pos": "v.",
+          "vi": "nói chuyện, tán gẫu",
+          "example": {
+            "zh": "我们聊了很久。",
+            "vi": "Chúng tôi nói chuyện rất lâu."
+          }
+        },
+        {
+          "zh": "南京",
+          "pinyin": "Nánjīng",
+          "pos": "",
+          "vi": "Nam Kinh",
+          "example": {
+            "zh": "南京是一个有名的城市。",
+            "vi": "Nam Kinh là một thành phố nổi tiếng."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g15-2",
+          "title_zh": "数量重叠“数词+量词+数词+量词”",
+          "title_vi": "Lặp cụm số lượng: 一点儿一点儿, 一天一天地, 两个两个地",
+          "formula": [
+            [
+              {
+                "zh": "我得",
+                "label": "",
+                "role": "S"
+              },
+              {
+                "zh": "一点儿一点儿",
+                "label": "Số + lượng từ lặp lại",
+                "role": "ADV"
+              },
+              {
+                "zh": "（地）",
+                "label": "",
+                "role": "PART"
+              },
+              {
+                "zh": "给您讲",
+                "label": "Động từ",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Lặp cả cụm “số + lượng từ” rồi đặt trước động từ (có thể thêm 地) để miêu tả CÁCH hành động diễn ra: từng chút một, từng ngày, từng đôi một – giống “dần dần”, “từng… một” trong tiếng Việt.",
+          "examples": [
+            {
+              "zh": "我得一点儿一点儿给您讲。",
+              "vi": "Tôi phải kể dần dần cho chị."
+            },
+            {
+              "zh": "学生们的汉语水平一天一天地提高了。",
+              "vi": "Trình độ tiếng Trung của học sinh tiến bộ từng ngày."
+            },
+            {
+              "zh": "他们两个两个地走进去了。",
+              "vi": "Họ đi vào từng đôi một."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我一点儿给您讲一点儿。",
+              "right": "我一点儿一点儿给您讲。",
+              "why_vi": "Cụm lặp đứng liền nhau, trước động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Học sinh lần lượt từng người một đi vào.”",
+              "options": [
+                "学生们一个一个地走进来。",
+                "学生们一个走进来一个。",
+                "学生们走进来一个一个。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "半个南京人 = nửa người Nam Kinh: tuy không sinh ra ở đó nhưng sống lâu, hiểu rõ như người địa phương."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Ở nhà, chị Nhất Tuyết và Lưu Tiểu Minh đang trò chuyện.",
+      "scene": "🌊",
+      "audio": "audio/hsk3/15-5.mp3",
+      "vocabAudio": "audio/hsk3/15-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Chị Nhất Tuyết và Tiểu Minh đang nói về gì?",
+          "options": [
+            "最长的河",
+            "黄河的历史",
+            "学校的作业"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Tiểu Minh hiểu về Hoàng Hà đến đâu?",
+          "options": [
+            "一点儿都不了解",
+            "了解一些",
+            "什么都知道"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "小明，中国有一条大河，它的名字跟颜色有关系，你知道是什么河吗？",
+          "vi": "Tiểu Minh, Trung Quốc có một con sông lớn, tên của nó liên quan đến màu sắc, con biết là sông gì không?",
+          "t": 0.74
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "我知道，是黄河！",
+          "vi": "Con biết, là sông Hoàng Hà!",
+          "t": 9.56
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "你说对了。我再问问你，你知道它为什么叫黄河吗？",
+          "vi": "Con nói đúng rồi. Mẹ hỏi thêm, con biết vì sao nó tên là Hoàng Hà không?",
+          "t": 12.17
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "因为河水看起来是黄色的，所以叫这个名字。黄河是中国最长的河吗？",
+          "vi": "Vì nước sông trông màu vàng nên mới có tên này. Hoàng Hà là sông dài nhất Trung Quốc ạ?",
+          "t": 19.07
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "不是。黄河虽然不是最长的河，可是在历史上很重要。",
+          "vi": "Không phải. Hoàng Hà tuy không phải sông dài nhất, nhưng rất quan trọng trong lịch sử.",
+          "t": 27.5
+        },
+        {
+          "speaker": "liuxiaoming",
+          "zh": "这个我知道。很久以前，很多中国人都住在黄河边上。",
+          "vi": "Cái này con biết. Từ rất lâu rồi, nhiều người Trung Quốc sống bên sông Hoàng Hà.",
+          "t": 34.29
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "对。在我们中国人看来，黄河像妈妈一样，养了我们几千年。",
+          "vi": "Đúng vậy. Với người Trung Quốc chúng ta, Hoàng Hà như người mẹ, đã nuôi dưỡng chúng ta mấy nghìn năm.",
+          "t": 40.36
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "河",
+          "pinyin": "hé",
+          "pos": "n.",
+          "vi": "sông",
+          "example": {
+            "zh": "这条河很长。",
+            "vi": "Con sông này rất dài."
+          }
+        },
+        {
+          "zh": "关系",
+          "pinyin": "guānxi",
+          "pos": "n.",
+          "vi": "quan hệ, liên quan",
+          "example": {
+            "zh": "这跟你没有关系。",
+            "vi": "Việc này không liên quan đến bạn."
+          }
+        },
+        {
+          "zh": "养",
+          "pinyin": "yǎng",
+          "pos": "v.",
+          "vi": "nuôi",
+          "example": {
+            "zh": "我家养了一只狗。",
+            "vi": "Nhà tôi nuôi một con chó."
+          }
+        },
+        {
+          "zh": "黄河",
+          "pinyin": "Huáng Hé",
+          "pos": "",
+          "vi": "sông Hoàng Hà",
+          "example": {
+            "zh": "黄河在中国北方。",
+            "vi": "Hoàng Hà ở miền Bắc Trung Quốc."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g15-3",
+          "title_zh": "固定短语“在……看来”",
+          "title_vi": "“在……看来”: theo cách nhìn của…, đối với…",
+          "formula": [
+            [
+              {
+                "zh": "在",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "我们中国人",
+                "label": "Người / nhóm người",
+                "role": "N"
+              },
+              {
+                "zh": "看来，",
+                "label": "nhìn nhận",
+                "role": "V"
+              },
+              {
+                "zh": "黄河像妈妈一样",
+                "label": "Quan điểm",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "在……看来 nêu quan điểm, cách nhìn của một người hay một nhóm – giống “theo… thì”, “trong mắt…” trong tiếng Việt. Gần nghĩa với 对……来说 (bài 11), nhưng 在……看来 nhấn mạnh Ý KIẾN, ĐÁNH GIÁ.",
+          "examples": [
+            {
+              "zh": "在我们中国人看来，黄河像妈妈一样，养了我们几千年。",
+              "vi": "Theo người Trung Quốc chúng tôi, Hoàng Hà như người mẹ, nuôi dưỡng chúng tôi mấy nghìn năm."
+            },
+            {
+              "zh": "在同事们看来，她工作非常认真。",
+              "vi": "Trong mắt đồng nghiệp, cô ấy làm việc rất chăm chỉ."
+            },
+            {
+              "zh": "在我看来，每天读书是一种很好的习惯。",
+              "vi": "Theo tôi, đọc sách mỗi ngày là một thói quen rất tốt."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "在我看，这个办法不错。",
+              "right": "在我看来，这个办法不错。",
+              "why_vi": "Cấu trúc cố định là 在……看来, không bỏ 来."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Theo bố mẹ, sức khoẻ quan trọng nhất.”",
+              "options": [
+                "在父母看来，健康最重要。",
+                "在父母来看，健康最重要。",
+                "父母在看来，健康最重要。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "跟……有关系 = có liên quan đến…: 它的名字跟颜色有关系."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, chị Vương Nhất Tuyết viết nhật ký.",
+      "scene": "🌳",
+      "audio": "audio/hsk3/15-7.mp3",
+      "vocabAudio": "audio/hsk3/15-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Nơi chị Nhất Tuyết sống hồi nhỏ thế nào?",
+          "options": [
+            "她家住在河边",
+            "她家在北京的南边",
+            "离她家很远的地方有一条河"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Gặp chuyện không vui, chị làm gì?",
+          "options": [
+            "去河里游泳",
+            "去河边坐着",
+            "一个人在家"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "wangyixue",
+          "zh": "我小时候住在北京的西北边，有一条非常有名的河经过那里。我家就住在河边。",
+          "vi": "Hồi nhỏ mình sống ở phía tây bắc Bắc Kinh, có một con sông rất nổi tiếng chảy qua đó. Nhà mình ở ngay bờ sông.",
+          "t": 0.82
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那里有高高的大树和绿绿的草地。",
+          "vi": "Ở đó có những cây cao vút và bãi cỏ xanh mướt.",
+          "t": 11.12
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "春天，河边的花都开了，看起来特别漂亮。",
+          "vi": "Mùa xuân, hoa bên sông nở rộ, trông đẹp vô cùng.",
+          "t": 15.88
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "还记得小时候，一到夏天我就去河里游泳。",
+          "vi": "Vẫn nhớ hồi nhỏ, cứ đến mùa hè là mình ra sông bơi.",
+          "t": 22.0
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "长大以后，遇到什么不开心的事情，我就去河边的树下坐着，听听鸟叫，看看河水，跟遇见的朋友聊聊天儿，难过的事情不一会儿就忘了。",
+          "vi": "Lớn lên rồi, gặp chuyện gì không vui, mình lại ra ngồi dưới gốc cây bên sông, nghe chim hót, ngắm dòng nước, trò chuyện với bạn bè gặp ở đó, chuyện buồn chẳng mấy chốc đã quên.",
+          "t": 27.75
+        },
+        {
+          "speaker": "wangyixue",
+          "zh": "那是我最喜欢的地方。",
+          "vi": "Đó là nơi mình yêu thích nhất.",
+          "t": 42.67
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "西北",
+          "pinyin": "xīběi",
+          "pos": "n.",
+          "vi": "tây bắc",
+          "example": {
+            "zh": "他住在城市的西北边。",
+            "vi": "Anh ấy sống ở phía tây bắc thành phố."
+          }
+        },
+        {
+          "zh": "经过",
+          "pinyin": "jīngguò",
+          "pos": "v./n.",
+          "vi": "đi qua; quá trình",
+          "example": {
+            "zh": "这辆车经过我家。",
+            "vi": "Chiếc xe này đi qua nhà tôi."
+          }
+        },
+        {
+          "zh": "草地",
+          "pinyin": "cǎodì",
+          "pos": "n.",
+          "vi": "bãi cỏ",
+          "example": {
+            "zh": "孩子们在草地上玩。",
+            "vi": "Bọn trẻ chơi trên bãi cỏ."
+          }
+        },
+        {
+          "zh": "遇见",
+          "pinyin": "yùjiàn",
+          "pos": "v.",
+          "vi": "gặp (tình cờ)",
+          "example": {
+            "zh": "我在路上遇见了老师。",
+            "vi": "Tôi gặp cô giáo trên đường."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g15-4",
+          "title_zh": "固定短语“不一会儿”",
+          "title_vi": "“不一会儿”: chẳng mấy chốc, một lát sau",
+          "formula": [
+            [
+              {
+                "zh": "难过的事情",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "不一会儿",
+                "label": "chẳng mấy chốc",
+                "role": "ADV"
+              },
+              {
+                "zh": "就",
+                "label": "",
+                "role": "ADV"
+              },
+              {
+                "zh": "忘了",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "不一会儿 nghĩa là thời gian rất ngắn – “chẳng mấy chốc”, “một lát sau”. Làm trạng ngữ, thường đi với 就; dùng nhiều trong khẩu ngữ.",
+          "examples": [
+            {
+              "zh": "难过的事情不一会儿就忘了。",
+              "vi": "Chuyện buồn chẳng mấy chốc đã quên."
+            },
+            {
+              "zh": "不一会儿，张校长就来了。",
+              "vi": "Một lát sau, hiệu trưởng Trương đã đến."
+            },
+            {
+              "zh": "两个小时看起来长，但是不一会儿就过去了。",
+              "vi": "Hai tiếng nghe thì dài, nhưng chẳng mấy chốc đã trôi qua."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我等了不一会儿。",
+              "right": "我等了一会儿。",
+              "why_vi": "不一会儿 làm trạng ngữ đứng trước động từ, không làm bổ ngữ thời lượng sau động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Một lát sau trời đã mưa.”",
+              "options": [
+                "不一会儿就下雨了。",
+                "下雨了不一会儿就。",
+                "就不一会儿下雨了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "高高的大树、绿绿的草地: lặp tính từ (HSK 2) để miêu tả sinh động."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "我爷爷喜欢___花，他家有很多漂亮的花。",
+      "bank": [
+        "养",
+        "经过",
+        "遇见"
+      ],
+      "answer": "养"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "昨天我在公园___了一位老朋友，聊了很久。",
+      "bank": [
+        "遇见",
+        "养",
+        "了解"
+      ],
+      "answer": "遇见"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "他是从___来的，还不太习惯这里的天气。",
+      "bank": [
+        "外地",
+        "附近",
+        "景点"
+      ],
+      "answer": "外地"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "这家饭馆在我们城市很___，很多人都来这里吃饭。",
+      "bank": [
+        "有名",
+        "平时",
+        "以上"
+      ],
+      "answer": "有名"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "这本书我已经看了一___时间了，越看越觉得有意思。",
+      "bank": [
+        "段",
+        "条",
+        "遍"
+      ],
+      "answer": "段"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "看来",
+        "在我",
+        "健康最重要",
+        "，"
+      ],
+      "answers": [
+        "在我看来，健康最重要"
+      ],
+      "vi": "Theo tôi, sức khoẻ quan trọng nhất.",
+      "explain_vi": "在……看来."
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "不一会儿",
+        "他",
+        "就",
+        "来了"
+      ],
+      "answers": [
+        "不一会儿他就来了",
+        "他不一会儿就来了"
+      ],
+      "vi": "Chẳng mấy chốc anh ấy đã đến.",
+      "explain_vi": "不一会儿 + 就."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "草地",
+      "options": [
+        {
+          "emoji": "🌱",
+          "label": "Bãi cỏ"
+        },
+        {
+          "emoji": "🏞️",
+          "label": "Sông"
+        },
+        {
+          "emoji": "🛣️",
+          "label": "Đường cái"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "黄河虽然不是最长的河，可是在历史上很重要。",
+      "emoji": "🌊",
+      "statement_vi": "Hoàng Hà là sông dài nhất Trung Quốc.",
+      "answer": false,
+      "explain_vi": "不是最长的河 = không phải sông dài nhất."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "📈",
+      "sentence": "学生们的汉语水平一天一___地提高了。",
+      "options": [
+        "天",
+        "点",
+        "个"
+      ],
+      "answer": 0,
+      "explain_vi": "一天一天地 = từng ngày."
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你了解南京吗？",
+          "a": "了解，我在南京上的大学。"
+        },
+        {
+          "q": "小区附近买东西方便吗？",
+          "a": "很方便，过马路就是超市。"
+        },
+        {
+          "q": "黄河为什么叫黄河？",
+          "a": "因为河水看起来是黄色的。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Giới thiệu quê hương tôi",
+    "steps_vi": [
+      "Mỗi người chuẩn bị giới thiệu một thành phố hoặc quê hương mình: vị trí, môi trường, cảnh đẹp, lịch sử.",
+      "Dùng “根据……” để gợi ý mùa nên đến: 根据天气，最好春天去.",
+      "Nêu cảm nhận bằng “在我看来……”.",
+      "Cả lớp đặt câu hỏi; người giới thiệu trả lời “我得一点儿一点儿给你讲”."
+    ],
+    "patterns": [
+      {
+        "zh": "我的家乡在越南的北方。",
+        "vi": "Quê tôi ở miền Bắc Việt Nam."
+      },
+      {
+        "zh": "那里有两千年以上的历史。",
+        "vi": "Nơi đó có lịch sử hơn hai nghìn năm."
+      },
+      {
+        "zh": "在我看来，那是最漂亮的地方。",
+        "vi": "Theo tôi, đó là nơi đẹp nhất."
+      },
+      {
+        "zh": "每年去旅游的游客特别多。",
+        "vi": "Hằng năm du khách đến rất đông."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Nam Kinh và sông Hoàng Hà",
+    "body_vi": [
+      "Nam Kinh (南京) ở tỉnh Giang Tô, từng là kinh đô của nhiều triều đại, có lịch sử hơn 2.000 năm. Du khách hay đến tường thành cổ Minh (明城墙), Lăng Tôn Trung Sơn (中山陵) và khu phố Phu Tử Miếu (夫子庙).",
+      "Hoàng Hà (黄河) dài khoảng 5.464 km, là sông dài thứ hai Trung Quốc sau Trường Giang (长江). Nước sông vàng đục vì chảy qua cao nguyên hoàng thổ, mang theo nhiều phù sa.",
+      "Lưu vực Hoàng Hà là cái nôi của văn minh Trung Hoa, nên người Trung Quốc gọi đây là 母亲河 (sông mẹ) – giống như cách người Việt gắn bó với sông Hồng và sông Cửu Long."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Nam Kinh",
+          "南京",
+          "Nánjīng"
+        ],
+        [
+          "Sông Hoàng Hà",
+          "黄河",
+          "Huáng Hé"
+        ],
+        [
+          "Sông Trường Giang",
+          "长江",
+          "Cháng Jiāng"
+        ],
+        [
+          "Sông mẹ",
+          "母亲河",
+          "mǔqīnhé"
+        ],
+        [
+          "Điểm tham quan",
+          "景点",
+          "jǐngdiǎn"
+        ]
+      ]
+    }
+  }
 }

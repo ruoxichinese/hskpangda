@@ -1,41 +1,1102 @@
 {
   "id": 17,
   "level": "hsk3",
-  "status": "draft",
+  "status": "ready",
   "title": {
     "zh": "我要多向认真的人学习",
     "pinyin": "Wǒ yào duō xiàng rènzhēn de rén xuéxí",
-    "vi": "Tôi phải học hỏi nhiều hơn từ người chăm chỉ"
+    "vi": "Tôi phải học hỏi nhiều hơn từ những người cẩn thận"
   },
   "grammarTopics_vi": [
-    "Giới từ 向",
-    "Câu hỏi tu từ 不是……吗？",
-    "Câu tăng tiến ……，更……",
-    "Câu điều kiện 只有……，才……"
+    "Giới từ 向: về phía, hướng tới",
+    "Câu hỏi phản vấn “不是……吗？”",
+    "Câu tăng tiến “……，更……”",
+    "Câu điều kiện “只有……，才……”"
   ],
   "objectives": [
     {
       "id": "o1",
-      "vi": "Giới từ 向",
-      "doneWhen": []
+      "vi": "Bày tỏ cảm xúc buồn, băn khoăn, không hài lòng",
+      "doneWhen": [
+        "text-1",
+        "text-4"
+      ]
     },
     {
       "id": "o2",
-      "vi": "Câu hỏi tu từ 不是……吗？",
-      "doneWhen": []
+      "vi": "Dùng câu hỏi phản vấn “不是……吗？” để bày tỏ thái độ",
+      "doneWhen": [
+        "text-2"
+      ]
     },
     {
       "id": "o3",
-      "vi": "Câu tăng tiến ……，更……",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Câu điều kiện 只有……，才……",
-      "doneWhen": []
+      "vi": "Dùng “只有……才……” để nói điều kiện duy nhất",
+      "doneWhen": [
+        "text-4"
+      ]
     }
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "warmup": [
+    {
+      "emoji": "😠",
+      "word": "生气",
+      "pinyin": "shēngqì",
+      "vi": "tức giận"
+    },
+    {
+      "emoji": "😨",
+      "word": "害怕",
+      "pinyin": "hàipà",
+      "vi": "sợ"
+    },
+    {
+      "emoji": "😄",
+      "word": "开心",
+      "pinyin": "kāixīn",
+      "vi": "vui"
+    },
+    {
+      "emoji": "😰",
+      "word": "紧张",
+      "pinyin": "jǐnzhāng",
+      "vi": "căng thẳng"
+    },
+    {
+      "emoji": "👌",
+      "word": "容易",
+      "pinyin": "róngyì",
+      "vi": "dễ"
+    },
+    {
+      "emoji": "🔀",
+      "word": "选择",
+      "pinyin": "xuǎnzé",
+      "vi": "lựa chọn"
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-1",
+      "context_vi": "Trong toà nhà dạy học, Lưu Tiểu Tuyết và bạn cùng lớp vừa đi vừa trò chuyện.",
+      "scene": "🪜",
+      "audio": "audio/hsk3/17-1.mp3",
+      "vocabAudio": "audio/hsk3/17-2.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Vì sao bạn của Tiểu Tuyết đã đến văn phòng cô Lý mà vẫn đi tiếp?",
+          "options": [
+            "走错了",
+            "想去楼梯那儿",
+            "害怕见李老师"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Bạn ấy cho rằng mình là người thế nào?",
+          "options": [
+            "简单的",
+            "不认真的",
+            "不聪明的"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "别再向前走了，李老师的办公室已经到了。",
+          "vi": "Đừng đi tiếp nữa, đến văn phòng cô Lý rồi.",
+          "t": 0.87
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "你进去吧，我在楼梯那儿等你。我害怕见李老师。",
+          "vi": "Cậu vào đi, mình đợi ở cầu thang. Mình sợ gặp cô Lý.",
+          "t": 6.4
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "怎么回事？",
+          "vi": "Sao thế?",
+          "t": 13.16
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "最近我做错了好几件事，我怕李老师生气。",
+          "vi": "Dạo này mình làm sai mấy việc, mình sợ cô Lý giận.",
+          "t": 15.61
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "你想多了，做错事情是很常见的。",
+          "vi": "Cậu nghĩ nhiều quá, làm sai là chuyện rất bình thường.",
+          "t": 21.83
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "我把简单的事情做错了，李老师一定觉得我不认真。",
+          "vi": "Mình làm sai cả việc đơn giản, cô Lý chắc chắn nghĩ mình không cẩn thận.",
+          "t": 26.88
+        },
+        {
+          "speaker": "liuxiaoxue",
+          "zh": "有的人虽然很聪明，但是会在简单的事情中出错，因为他们认为事情简单，就不会认真去做了。",
+          "vi": "Có người tuy rất thông minh, nhưng lại sai ở những việc đơn giản, vì họ cho rằng việc đơn giản nên không làm cẩn thận.",
+          "t": 34.01
+        },
+        {
+          "speaker": "tongxue",
+          "zh": "你说的就是我，以后我要多向认真的人学习。",
+          "vi": "Cậu nói đúng mình rồi, sau này mình phải học hỏi nhiều hơn từ những người cẩn thận.",
+          "t": 43.85
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "向",
+          "pinyin": "xiàng",
+          "pos": "prep.",
+          "vi": "về phía; với, từ (ai)",
+          "example": {
+            "zh": "向左走。",
+            "vi": "Đi về bên trái."
+          }
+        },
+        {
+          "zh": "楼梯",
+          "pinyin": "lóutī",
+          "pos": "n.",
+          "vi": "cầu thang",
+          "example": {
+            "zh": "我们走楼梯上去吧。",
+            "vi": "Mình đi cầu thang lên đi."
+          }
+        },
+        {
+          "zh": "害怕",
+          "pinyin": "hàipà",
+          "pos": "v.",
+          "vi": "sợ",
+          "example": {
+            "zh": "你别害怕。",
+            "vi": "Bạn đừng sợ."
+          }
+        },
+        {
+          "zh": "生气",
+          "pinyin": "shēngqì",
+          "pos": "v.",
+          "vi": "tức giận",
+          "example": {
+            "zh": "妈妈生气了。",
+            "vi": "Mẹ giận rồi."
+          }
+        },
+        {
+          "zh": "常见",
+          "pinyin": "cháng jiàn",
+          "pos": "",
+          "vi": "thường gặp",
+          "example": {
+            "zh": "这是很常见的问题。",
+            "vi": "Đây là vấn đề rất thường gặp."
+          }
+        },
+        {
+          "zh": "聪明",
+          "pinyin": "cōngming",
+          "pos": "adj.",
+          "vi": "thông minh",
+          "example": {
+            "zh": "这个孩子很聪明。",
+            "vi": "Đứa bé này rất thông minh."
+          }
+        },
+        {
+          "zh": "错",
+          "pinyin": "cuò",
+          "pos": "n.",
+          "vi": "lỗi, sai",
+          "example": {
+            "zh": "这不是你的错。",
+            "vi": "Đây không phải lỗi của bạn."
+          }
+        },
+        {
+          "zh": "认为",
+          "pinyin": "rènwéi",
+          "pos": "v.",
+          "vi": "cho rằng",
+          "example": {
+            "zh": "我认为你说得对。",
+            "vi": "Tôi cho rằng bạn nói đúng."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g17-1",
+          "title_zh": "介词“向”",
+          "title_vi": "Giới từ 向: về phía; với (ai)",
+          "formula": [
+            [
+              {
+                "zh": "（主语）",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "向",
+                "label": "về phía / với",
+                "role": "ADV"
+              },
+              {
+                "zh": "前 / 认真的人",
+                "label": "Hướng / đối tượng",
+                "role": "O"
+              },
+              {
+                "zh": "走 / 学习",
+                "label": "Động từ",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "向 + phương hướng / người / danh từ, đặt trước động từ, chỉ HƯỚNG của động tác (向前走 = đi về phía trước) hoặc ĐỐI TƯỢNG mà hành động hướng tới (向他学习 = học hỏi anh ấy).",
+          "examples": [
+            {
+              "zh": "别再向前走了。",
+              "vi": "Đừng đi tiếp về phía trước nữa."
+            },
+            {
+              "zh": "以后我要多向认真的人学习。",
+              "vi": "Sau này tôi phải học hỏi nhiều hơn từ những người cẩn thận."
+            },
+            {
+              "zh": "孩子一看见妈妈，就向她跑过去了。",
+              "vi": "Đứa bé vừa thấy mẹ là chạy về phía mẹ."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我学习向他。",
+              "right": "我向他学习。",
+              "why_vi": "Cụm 向 + đối tượng đứng TRƯỚC động từ."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Đi thẳng về phía trước là đến.”",
+              "options": [
+                "一直向前走就到了。",
+                "一直走向前就到了。",
+                "向一直前走就到了。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "出错 = mắc lỗi. 做错 = làm sai. 错 vừa là tính từ (sai) vừa là danh từ (lỗi)."
+    },
+    {
+      "id": "text-2",
+      "context_vi": "Trước cửa phòng đọc, Bạch Gia Nguyệt gặp Trần Thiên Trung.",
+      "scene": "📚",
+      "audio": "audio/hsk3/17-3.mp3",
+      "vocabAudio": "audio/hsk3/17-4.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Dạo này các bạn cùng khoá đều đang làm gì?",
+          "options": [
+            "玩电脑",
+            "找工作",
+            "去图书馆学习"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt_vi": "Bố mẹ Thiên Trung mong cậu ấy làm gì?",
+          "options": [
+            "工作",
+            "继续学习",
+            "多去图书馆"
+          ],
+          "answer": 1
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "baijiayue",
+          "zh": "太阳从西边出来了？这几天怎么总是在图书馆看见你？",
+          "vi": "Mặt trời mọc đằng tây à? Sao mấy hôm nay toàn thấy cậu ở thư viện thế?",
+          "t": 1.0
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "这有什么奇怪的？我是来学习的。",
+          "vi": "Có gì lạ đâu? Mình đến để học mà.",
+          "t": 8.16
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你怎么还来图书馆学习？同学们都在到处找工作呢。",
+          "vi": "Sao cậu còn đến thư viện học? Các bạn đều đang đi khắp nơi tìm việc đấy.",
+          "t": 13.19
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我不想现在就工作，还想继续学习，我爸妈也同意。可我还没想好学什么，所以来图书馆看看。",
+          "vi": "Mình chưa muốn đi làm ngay, còn muốn học tiếp, bố mẹ mình cũng đồng ý. Nhưng mình chưa nghĩ ra học gì, nên đến thư viện xem thử.",
+          "t": 20.3
+        },
+        {
+          "speaker": "baijiayue",
+          "zh": "你不是喜欢玩电脑吗？你可以去看看跟电脑有关系的书。",
+          "vi": "Chẳng phải cậu thích máy tính sao? Cậu có thể xem sách liên quan đến máy tính.",
+          "t": 32.66
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "你说得对，我记得那个屋子里有些跟电脑有关的书，我去找找。",
+          "vi": "Cậu nói đúng, mình nhớ trong phòng kia có mấy cuốn liên quan đến máy tính, để mình đi tìm.",
+          "t": 40.69
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "到处",
+          "pinyin": "dàochù",
+          "pos": "adv.",
+          "vi": "khắp nơi",
+          "example": {
+            "zh": "我到处找你。",
+            "vi": "Tôi tìm bạn khắp nơi."
+          }
+        },
+        {
+          "zh": "继续",
+          "pinyin": "jìxù",
+          "pos": "v.",
+          "vi": "tiếp tục",
+          "example": {
+            "zh": "我们继续上课吧。",
+            "vi": "Chúng ta tiếp tục học nhé."
+          }
+        },
+        {
+          "zh": "同意",
+          "pinyin": "tóngyì",
+          "pos": "v.",
+          "vi": "đồng ý",
+          "example": {
+            "zh": "我同意你的看法。",
+            "vi": "Tôi đồng ý với ý kiến của bạn."
+          }
+        },
+        {
+          "zh": "可",
+          "pinyin": "kě",
+          "pos": "conj.",
+          "vi": "nhưng",
+          "example": {
+            "zh": "我想去，可没时间。",
+            "vi": "Tôi muốn đi, nhưng không có thời gian."
+          }
+        },
+        {
+          "zh": "屋子",
+          "pinyin": "wūzi",
+          "pos": "n.",
+          "vi": "căn phòng",
+          "example": {
+            "zh": "这间屋子很大。",
+            "vi": "Căn phòng này rất rộng."
+          }
+        },
+        {
+          "zh": "有关",
+          "pinyin": "yǒuguān",
+          "pos": "v./prep.",
+          "vi": "có liên quan",
+          "example": {
+            "zh": "这本书跟历史有关。",
+            "vi": "Cuốn sách này liên quan đến lịch sử."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g17-2",
+          "title_zh": "反问句“不是……吗？”",
+          "title_vi": "Câu hỏi phản vấn “不是……吗？”: chẳng phải… sao?",
+          "formula": [
+            [
+              {
+                "zh": "你",
+                "label": "Chủ ngữ",
+                "role": "S"
+              },
+              {
+                "zh": "不是",
+                "label": "chẳng phải",
+                "role": "ADV"
+              },
+              {
+                "zh": "喜欢玩电脑",
+                "label": "Điều người nói tin là đúng",
+                "role": "V"
+              },
+              {
+                "zh": "吗？",
+                "label": "sao?",
+                "role": "PART"
+              }
+            ]
+          ],
+          "explain_vi": "Hình thức là phủ định nhưng nghĩa là KHẲNG ĐỊNH: 你不是喜欢玩电脑吗？= cậu thích máy tính mà. Dùng để nhắc lại, xác nhận, hoặc tỏ ý ngạc nhiên, không hiểu, không hài lòng – giống “chẳng phải… sao?” trong tiếng Việt.",
+          "examples": [
+            {
+              "zh": "你不是喜欢玩电脑吗？你可以去看看跟电脑有关系的书。",
+              "vi": "Chẳng phải cậu thích máy tính sao? Cậu có thể xem sách về máy tính."
+            },
+            {
+              "zh": "你不是说今天有事吗？为什么来了？",
+              "vi": "Chẳng phải cậu bảo hôm nay có việc sao? Sao lại đến?"
+            },
+            {
+              "zh": "考试不是下个月吗？你怎么今天就开始复习了？",
+              "vi": "Chẳng phải tháng sau mới thi sao? Sao cậu đã ôn từ hôm nay?"
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "（Muốn nhắc: cậu đã nói sẽ đến）你不说要来吗？",
+              "right": "你不是说要来吗？",
+              "why_vi": "Mẫu cố định là 不是……吗？, không bỏ 是."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chẳng phải hôm nay là chủ nhật sao? Sao bạn còn đi làm?”",
+              "options": [
+                "今天不是星期天吗？你怎么还上班？",
+                "今天是不星期天吗？你怎么还上班？",
+                "今天不星期天是吗？你怎么还上班？"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "太阳从西边出来了？= Mặt trời mọc đằng tây à? – câu đùa khi ai đó làm việc hiếm thấy."
+    },
+    {
+      "id": "text-3",
+      "context_vi": "Trong sân trường, Lý Văn và Trần Thiên Trung đang trò chuyện.",
+      "scene": "🌏",
+      "audio": "audio/hsk3/17-5.mp3",
+      "vocabAudio": "audio/hsk3/17-6.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Lý Văn tìm Thiên Trung có việc gì?",
+          "options": [
+            "给他出一些主意",
+            "告诉他手机没电了",
+            "告诉他家月也要留学"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt_vi": "Thiên Trung đã nghĩ ra học gì chưa?",
+          "options": [
+            "他想学中文",
+            "他想学历史",
+            "他还没想好"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "liwen",
+          "zh": "天中，你的手机怎么关机了？",
+          "vi": "Thiên Trung, sao điện thoại cậu tắt máy thế?",
+          "t": 0.39
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我的手机没电了。你找我有事？",
+          "vi": "Điện thoại mình hết pin. Cậu tìm mình có việc gì?",
+          "t": 3.53
+        },
+        {
+          "speaker": "liwen",
+          "zh": "前天我看见家月了，她告诉我你打算继续留学？",
+          "vi": "Hôm kia mình gặp Gia Nguyệt, cậu ấy bảo cậu định tiếp tục du học à?",
+          "t": 7.58
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "是，可是我还没想好学什么，更没想好去哪个国家。",
+          "vi": "Ừ, nhưng mình chưa nghĩ ra học gì, càng chưa nghĩ ra đi nước nào.",
+          "t": 13.19
+        },
+        {
+          "speaker": "liwen",
+          "zh": "你可以去中国学中文啊。比如可以去北京、上海这样的大城市，那里有很多好大学，也有很多留学生。",
+          "vi": "Cậu có thể sang Trung Quốc học tiếng Trung mà. Ví dụ đến những thành phố lớn như Bắc Kinh, Thượng Hải, ở đó có nhiều trường đại học tốt, cũng có nhiều du học sinh.",
+          "t": 19.37
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "好，那我上网查一查。",
+          "vi": "Được, vậy mình lên mạng tra thử.",
+          "t": 30.7
+        },
+        {
+          "speaker": "liwen",
+          "zh": "我给你介绍几个有用的网站。",
+          "vi": "Mình giới thiệu cho cậu mấy trang web hữu ích.",
+          "t": 34.41
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "关机",
+          "pinyin": "guānjī",
+          "pos": "v.",
+          "vi": "tắt máy",
+          "example": {
+            "zh": "上课的时候请关机。",
+            "vi": "Trong giờ học xin tắt máy."
+          }
+        },
+        {
+          "zh": "前天",
+          "pinyin": "qiántiān",
+          "pos": "n.",
+          "vi": "hôm kia",
+          "example": {
+            "zh": "我前天去了上海。",
+            "vi": "Hôm kia tôi đi Thượng Hải."
+          }
+        },
+        {
+          "zh": "留学",
+          "pinyin": "liúxué",
+          "pos": "v.",
+          "vi": "du học",
+          "example": {
+            "zh": "我想去中国留学。",
+            "vi": "Tôi muốn sang Trung Quốc du học."
+          }
+        },
+        {
+          "zh": "国家",
+          "pinyin": "guójiā",
+          "pos": "n.",
+          "vi": "đất nước, quốc gia",
+          "example": {
+            "zh": "你去过哪些国家？",
+            "vi": "Bạn đã đến những nước nào?"
+          }
+        },
+        {
+          "zh": "比如",
+          "pinyin": "bǐrú",
+          "pos": "v.",
+          "vi": "ví dụ như",
+          "example": {
+            "zh": "我喜欢水果，比如苹果和香蕉。",
+            "vi": "Tôi thích hoa quả, ví dụ như táo và chuối."
+          }
+        },
+        {
+          "zh": "查",
+          "pinyin": "chá",
+          "pos": "v.",
+          "vi": "tra, tìm",
+          "example": {
+            "zh": "我查一下词典。",
+            "vi": "Tôi tra từ điển một chút."
+          }
+        },
+        {
+          "zh": "有用",
+          "pinyin": "yǒuyòng",
+          "pos": "adj.",
+          "vi": "có ích, hữu ích",
+          "example": {
+            "zh": "这本书很有用。",
+            "vi": "Cuốn sách này rất có ích."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g17-3",
+          "title_zh": "递进复句“……，更……”",
+          "title_vi": "“……，更……”: …, càng / lại càng…",
+          "formula": [
+            [
+              {
+                "zh": "我还没想好学什么",
+                "label": "Ý 1",
+                "role": "V"
+              },
+              {
+                "zh": "，更",
+                "label": "càng",
+                "role": "ADV"
+              },
+              {
+                "zh": "没想好去哪个国家",
+                "label": "Ý 2 (mức sâu hơn)",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "Vế sau dùng 更 để nói thêm một ý ở mức độ SÂU hơn vế trước – giống “…, càng…”, “…, lại càng…” trong tiếng Việt. Gần nghĩa với 不但……而且…… (bài 7) nhưng ngắn gọn hơn.",
+          "examples": [
+            {
+              "zh": "我还没想好学什么，更没想好去哪个国家。",
+              "vi": "Tôi chưa nghĩ ra học gì, càng chưa nghĩ ra đi nước nào."
+            },
+            {
+              "zh": "想提高中文水平要多听多看，更要多说多练。",
+              "vi": "Muốn nâng cao tiếng Trung phải nghe nhiều đọc nhiều, càng phải nói nhiều luyện nhiều."
+            },
+            {
+              "zh": "来中国学习，我学会了中文，更了解了中国文化。",
+              "vi": "Sang Trung Quốc học, tôi biết tiếng Trung, lại càng hiểu văn hoá Trung Quốc."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "我没时间，没钱更。",
+              "right": "我没时间，更没钱。",
+              "why_vi": "更 đứng TRƯỚC động từ / tính từ ở vế sau."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Tôi không biết đọc chữ Hán, càng không biết viết.”",
+              "options": [
+                "我不会读汉字，更不会写。",
+                "我不会读汉字，不会更写。",
+                "我更不会读汉字，不会写。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "关机 = tắt máy, 开机 = bật máy (bài 7). 手机没电了 = điện thoại hết pin."
+    },
+    {
+      "id": "text-4",
+      "passage": true,
+      "context_vi": "Ở nhà, Trần Thiên Trung viết nhật ký.",
+      "scene": "🧭",
+      "audio": "audio/hsk3/17-7.mp3",
+      "vocabAudio": "audio/hsk3/17-8.mp3",
+      "listenQuiz": [
+        {
+          "prompt_vi": "Dạo này Thiên Trung đang nghĩ về chuyện gì?",
+          "options": [
+            "怎么找工作",
+            "真正喜欢的同学",
+            "大学结束后做什么"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt_vi": "Thiên Trung nghĩ làm sao mới có lựa chọn phù hợp nhất?",
+          "options": [
+            "听老师的话",
+            "看别人怎么做",
+            "想清楚自己真正喜欢什么"
+          ],
+          "answer": 2
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "chentianzhong",
+          "zh": "大学生活马上就要结束了，我最近经常被问到一个问题——“你以后想做什么”，这个问题真不容易回答。",
+          "vi": "Cuộc sống đại học sắp kết thúc rồi, dạo này mình hay bị hỏi một câu: “Sau này cậu muốn làm gì?” Câu này thật không dễ trả lời.",
+          "t": 0.41
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我也问了几个同学，大家选择的方向都不同。",
+          "vi": "Mình cũng hỏi mấy bạn, mỗi người chọn một hướng khác nhau.",
+          "t": 13.07
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "有的想继续在学校学习，有的打算出国留学，还有的决定先找工作。",
+          "vi": "Có bạn muốn tiếp tục học ở trường, có bạn định ra nước ngoài du học, còn có bạn quyết định đi làm trước.",
+          "t": 18.12
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "我认为只有想清楚自己真正喜欢什么，才能做出最合适的选择。",
+          "vi": "Mình cho rằng chỉ khi nghĩ rõ mình thật sự thích gì, mới có thể đưa ra lựa chọn phù hợp nhất.",
+          "t": 26.38
+        },
+        {
+          "speaker": "chentianzhong",
+          "zh": "对我来说，想清楚“真正喜欢什么”是个难题。",
+          "vi": "Với mình, nghĩ rõ “thật sự thích gì” là một bài toán khó.",
+          "t": 35.44
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "容易",
+          "pinyin": "róngyì",
+          "pos": "adj.",
+          "vi": "dễ",
+          "example": {
+            "zh": "这个问题很容易。",
+            "vi": "Câu hỏi này rất dễ."
+          }
+        },
+        {
+          "zh": "回答",
+          "pinyin": "huídá",
+          "pos": "v.",
+          "vi": "trả lời",
+          "example": {
+            "zh": "请回答我的问题。",
+            "vi": "Hãy trả lời câu hỏi của tôi."
+          }
+        },
+        {
+          "zh": "方向",
+          "pinyin": "fāngxiàng",
+          "pos": "n.",
+          "vi": "phương hướng",
+          "example": {
+            "zh": "我们走错方向了。",
+            "vi": "Chúng ta đi nhầm hướng rồi."
+          }
+        },
+        {
+          "zh": "只有",
+          "pinyin": "zhǐyǒu",
+          "pos": "conj.",
+          "vi": "chỉ có, chỉ khi",
+          "example": {
+            "zh": "只有努力才能成功。",
+            "vi": "Chỉ có cố gắng mới thành công."
+          }
+        },
+        {
+          "zh": "真正",
+          "pinyin": "zhēnzhèng",
+          "pos": "adv.",
+          "vi": "thật sự",
+          "example": {
+            "zh": "他是我真正的朋友。",
+            "vi": "Anh ấy là người bạn thật sự của tôi."
+          }
+        },
+        {
+          "zh": "难题",
+          "pinyin": "nántí",
+          "pos": "n.",
+          "vi": "vấn đề khó, bài toán khó",
+          "example": {
+            "zh": "这是一个难题。",
+            "vi": "Đây là một bài toán khó."
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "id": "h3-g17-4",
+          "title_zh": "条件复句“只有……，才……”",
+          "title_vi": "“只有……，才……”: chỉ khi… mới…",
+          "formula": [
+            [
+              {
+                "zh": "只有",
+                "label": "chỉ khi",
+                "role": "ADV"
+              },
+              {
+                "zh": "想清楚自己真正喜欢什么",
+                "label": "Điều kiện DUY NHẤT",
+                "role": "V"
+              },
+              {
+                "zh": "，才",
+                "label": "mới",
+                "role": "ADV"
+              },
+              {
+                "zh": "能做出最合适的选择",
+                "label": "Kết quả",
+                "role": "V"
+              }
+            ]
+          ],
+          "explain_vi": "只有 dẫn ra điều kiện DUY NHẤT; không có điều kiện đó thì không có kết quả sau 才 – giống “chỉ khi… mới…”, “chỉ có… mới…” trong tiếng Việt. Không dùng 就 thay cho 才 trong cấu trúc này.",
+          "examples": [
+            {
+              "zh": "只有想清楚自己真正喜欢什么，才能做出最合适的选择。",
+              "vi": "Chỉ khi nghĩ rõ mình thật sự thích gì, mới đưa ra được lựa chọn phù hợp nhất."
+            },
+            {
+              "zh": "只有每天锻炼身体，才会越来越健康。",
+              "vi": "Chỉ có tập thể dục mỗi ngày, mới ngày càng khoẻ mạnh."
+            },
+            {
+              "zh": "只有多听、多说、多看，你的中文水平才能提高。",
+              "vi": "Chỉ khi nghe nhiều, nói nhiều, đọc nhiều, tiếng Trung của bạn mới tiến bộ."
+            }
+          ],
+          "mistakes": [
+            {
+              "wrong": "只有多练习，就能学好。",
+              "right": "只有多练习，才能学好。",
+              "why_vi": "只有 đi với 才, không đi với 就."
+            }
+          ],
+          "quiz": [
+            {
+              "prompt_vi": "“Chỉ khi ôn tập chăm chỉ mới thi tốt được.”",
+              "options": [
+                "只有认真复习，才能考好。",
+                "只有认真复习，就能考好。",
+                "认真复习只有，才能考好。"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "pangdaTip": "被问到 = bị hỏi: câu bị động 被 (bài 14) dùng với việc thường gặp."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "fill",
+      "sentence": "在生活中，因为不认真做错事情是很___的。",
+      "bank": [
+        "常见",
+        "难题",
+        "方向"
+      ],
+      "answer": "常见"
+    },
+    {
+      "id": "e2",
+      "kind": "fill",
+      "sentence": "我认为大学的时候就应该选好以后工作的___。",
+      "bank": [
+        "方向",
+        "难题",
+        "常见"
+      ],
+      "answer": "方向"
+    },
+    {
+      "id": "e3",
+      "kind": "fill",
+      "sentence": "这个问题我还没想清楚怎么___他。",
+      "bank": [
+        "回答",
+        "同意",
+        "继续"
+      ],
+      "answer": "回答"
+    },
+    {
+      "id": "e4",
+      "kind": "fill",
+      "sentence": "对我来说，怎么让父母同意我的选择是一个___。",
+      "bank": [
+        "难题",
+        "方向",
+        "常见"
+      ],
+      "answer": "难题"
+    },
+    {
+      "id": "e5",
+      "kind": "fill",
+      "sentence": "中国的很多城市历史都很长，___北京、南京、西安。",
+      "bank": [
+        "比如",
+        "到处",
+        "继续"
+      ],
+      "answer": "比如"
+    },
+    {
+      "id": "e6",
+      "kind": "reorder",
+      "tiles": [
+        "才",
+        "只有多练习",
+        "能学好",
+        "，"
+      ],
+      "answers": [
+        "只有多练习，才能学好"
+      ],
+      "vi": "Chỉ khi luyện tập nhiều mới học tốt được.",
+      "explain_vi": "只有……才……"
+    },
+    {
+      "id": "e7",
+      "kind": "reorder",
+      "tiles": [
+        "学习",
+        "我",
+        "向他",
+        "要"
+      ],
+      "answers": [
+        "我要向他学习"
+      ],
+      "vi": "Tôi phải học hỏi anh ấy.",
+      "explain_vi": "向 + người + 学习."
+    },
+    {
+      "id": "e8",
+      "kind": "listenPick",
+      "audioText": "害怕",
+      "options": [
+        {
+          "emoji": "😨",
+          "label": "Sợ"
+        },
+        {
+          "emoji": "😠",
+          "label": "Tức giận"
+        },
+        {
+          "emoji": "😄",
+          "label": "Vui"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e9",
+      "kind": "listenTF",
+      "audioText": "你不是喜欢玩电脑吗？",
+      "emoji": "💻",
+      "statement_vi": "Người nói cho rằng người kia không thích máy tính.",
+      "answer": false,
+      "explain_vi": "不是……吗？ nghĩa khẳng định: bạn thích máy tính mà."
+    },
+    {
+      "id": "e10",
+      "kind": "pictureComplete",
+      "emoji": "🤔",
+      "sentence": "我还没想好学什么，___没想好去哪个国家。",
+      "options": [
+        "更",
+        "才",
+        "就"
+      ],
+      "answer": 0,
+      "explain_vi": "……，更…… = càng…"
+    },
+    {
+      "id": "e11",
+      "kind": "matchQA",
+      "pairs": [
+        {
+          "q": "你怎么不进去？",
+          "a": "我害怕见李老师。"
+        },
+        {
+          "q": "你以后想做什么？",
+          "a": "我还没想好。"
+        },
+        {
+          "q": "你的手机怎么关机了？",
+          "a": "手机没电了。"
+        }
+      ]
+    }
+  ],
+  "activity": {
+    "title_vi": "Thảo luận: Chọn hướng đi sau khi tốt nghiệp",
+    "steps_vi": [
+      "Nhóm 4 người. Mỗi người chọn một hướng: học tiếp, du học, đi làm ngay, khởi nghiệp…",
+      "Giải thích lý do bằng “我认为……” và “只有……才……”.",
+      "Phản biện ý kiến của bạn bằng “你不是……吗？”.",
+      "Cả nhóm tổng kết: “选择的方向都不同，但是……”."
+    ],
+    "patterns": [
+      {
+        "zh": "我认为应该先找工作。",
+        "vi": "Tôi cho rằng nên đi làm trước."
+      },
+      {
+        "zh": "只有出国留学，才能真正了解别的文化。",
+        "vi": "Chỉ khi đi du học mới thật sự hiểu văn hoá khác."
+      },
+      {
+        "zh": "你不是喜欢电脑吗？可以学电脑啊。",
+        "vi": "Chẳng phải bạn thích máy tính sao? Có thể học máy tính mà."
+      },
+      {
+        "zh": "这个问题真不容易回答。",
+        "vi": "Câu hỏi này thật không dễ trả lời."
+      }
+    ]
+  },
+  "culture": {
+    "title_vi": "Sinh viên Trung Quốc sau khi tốt nghiệp",
+    "body_vi": [
+      "Năm cuối đại học (大四), sinh viên Trung Quốc thường đứng trước ba lựa chọn: thi cao học (考研), đi du học (出国留学) hoặc tìm việc (找工作). Mùa tuyển dụng ở trường gọi là 校园招聘 (校招).",
+      "Thi cao học ở Trung Quốc rất cạnh tranh, mỗi năm có hàng triệu thí sinh. Nhiều sinh viên đến thư viện từ sáng sớm để giữ chỗ ôn thi – giống Thiên Trung trong bài khoá 2.",
+      "Trung Quốc cũng là điểm đến du học quen thuộc của sinh viên Việt Nam nhờ học bổng, chi phí hợp lý và gần gũi về văn hoá."
+    ],
+    "table": {
+      "head": [
+        "Tiếng Việt",
+        "Chữ Hán",
+        "Pinyin"
+      ],
+      "rows": [
+        [
+          "Thi cao học",
+          "考研",
+          "kǎoyán"
+        ],
+        [
+          "Du học",
+          "留学",
+          "liúxué"
+        ],
+        [
+          "Tìm việc",
+          "找工作",
+          "zhǎo gōngzuò"
+        ],
+        [
+          "Tuyển dụng tại trường",
+          "校园招聘",
+          "xiàoyuán zhāopìn"
+        ],
+        [
+          "Sinh viên năm tư",
+          "大四学生",
+          "dà sì xuésheng"
+        ]
+      ]
+    }
+  }
 }
