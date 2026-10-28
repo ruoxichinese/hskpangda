@@ -1,0 +1,881 @@
+{
+ "id": "thi-thu-01",
+ "short": "Thi thử 1",
+ "level": "hsk3",
+ "title": "Đề thi thử cuối khoá HSK 3 – số 1",
+ "listeningMode": "audio",
+ "audioNote": "Đề mẫu HSK 3 (HSK（三级）样卷) của 中外语言交流合作中心: dùng nguyên đề, file nghe, tranh và đáp án gốc. Phần Viết 2 chấm tự động theo từ cho sẵn, kèm câu tham khảo của đề.",
+ "listeningReviewSeconds": 300,
+ "passPercent": 60,
+ "requireCode": true,
+ "audio": "audio/hsk3/exam/thi-thu-01.mp3",
+ "sections": [
+  {
+   "id": "listening",
+   "title_zh": "听力",
+   "title_vi": "Nghe",
+   "parts": [
+    {
+     "title_zh": "第一部分",
+     "title_vi": "Phần 1 · Câu 1–5",
+     "start": 60.0,
+     "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn bức tranh phù hợp nhất (tranh D là ví dụ).",
+     "bank": [
+      {
+       "key": "A",
+       "img": "thi-thu-01/l1a-a.jpg"
+      },
+      {
+       "key": "B",
+       "img": "thi-thu-01/l1a-b.jpg"
+      },
+      {
+       "key": "C",
+       "img": "thi-thu-01/l1a-c.jpg"
+      },
+      {
+       "key": "D",
+       "img": "thi-thu-01/l1a-d.jpg"
+      },
+      {
+       "key": "E",
+       "img": "thi-thu-01/l1a-e.jpg"
+      },
+      {
+       "key": "F",
+       "img": "thi-thu-01/l1a-f.jpg"
+      }
+     ],
+     "questions": [
+      {
+       "id": "1",
+       "kind": "bank",
+       "answer": "B",
+       "start": 102.5
+      },
+      {
+       "id": "2",
+       "kind": "bank",
+       "answer": "C",
+       "start": 126.5
+      },
+      {
+       "id": "3",
+       "kind": "bank",
+       "answer": "A",
+       "start": 147.5
+      },
+      {
+       "id": "4",
+       "kind": "bank",
+       "answer": "E",
+       "start": 171.0
+      },
+      {
+       "id": "5",
+       "kind": "bank",
+       "answer": "F",
+       "start": 194.0
+      }
+     ]
+    },
+    {
+     "title_zh": "第一部分",
+     "title_vi": "Phần 1 · Câu 6–10",
+     "start": 221.4,
+     "instructions_vi": "Mỗi đoạn hội thoại đọc hai lần. Chọn bức tranh phù hợp nhất.",
+     "bank": [
+      {
+       "key": "A",
+       "img": "thi-thu-01/l1b-a.jpg"
+      },
+      {
+       "key": "B",
+       "img": "thi-thu-01/l1b-b.jpg"
+      },
+      {
+       "key": "C",
+       "img": "thi-thu-01/l1b-c.jpg"
+      },
+      {
+       "key": "D",
+       "img": "thi-thu-01/l1b-d.jpg"
+      },
+      {
+       "key": "E",
+       "img": "thi-thu-01/l1b-e.jpg"
+      }
+     ],
+     "questions": [
+      {
+       "id": "6",
+       "kind": "bank",
+       "answer": "B",
+       "start": 227.0
+      },
+      {
+       "id": "7",
+       "kind": "bank",
+       "answer": "A",
+       "start": 249.5
+      },
+      {
+       "id": "8",
+       "kind": "bank",
+       "answer": "E",
+       "start": 277.0
+      },
+      {
+       "id": "9",
+       "kind": "bank",
+       "answer": "C",
+       "start": 303.5
+      },
+      {
+       "id": "10",
+       "kind": "bank",
+       "answer": "D",
+       "start": 330.5
+      }
+     ]
+    },
+    {
+     "title_zh": "第二部分",
+     "title_vi": "Phần 2 · Câu 11–20",
+     "start": 352.0,
+     "instructions_vi": "Mỗi đoạn hội thoại và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+     "questions": [
+      {
+       "id": "11",
+       "kind": "text3",
+       "options": [
+        "跳舞",
+        "讲故事",
+        "唱中文歌"
+       ],
+       "answer": "B",
+       "start": 413.5
+      },
+      {
+       "id": "12",
+       "kind": "text3",
+       "options": [
+        "住院了",
+        "变胖了",
+        "太累了"
+       ],
+       "answer": "A",
+       "start": 449.5
+      },
+      {
+       "id": "13",
+       "kind": "text3",
+       "options": [
+        "9:05",
+        "10:15",
+        "10:30"
+       ],
+       "answer": "B",
+       "start": 490.0
+      },
+      {
+       "id": "14",
+       "kind": "text3",
+       "options": [
+        "手表坏了",
+        "书包丢了",
+        "电脑不能开机"
+       ],
+       "answer": "C",
+       "start": 526.0
+      },
+      {
+       "id": "15",
+       "kind": "text3",
+       "options": [
+        "宾馆",
+        "球场",
+        "卫生间"
+       ],
+       "answer": "A",
+       "start": 566.0
+      },
+      {
+       "id": "16",
+       "kind": "text3",
+       "options": [
+        "是电子书",
+        "和历史有关",
+        "有五千多页"
+       ],
+       "answer": "B",
+       "start": 608.0
+      },
+      {
+       "id": "17",
+       "kind": "text3",
+       "options": [
+        "今天",
+        "周六",
+        "星期天"
+       ],
+       "answer": "B",
+       "start": 659.0
+      },
+      {
+       "id": "18",
+       "kind": "text3",
+       "options": [
+        "太旧了",
+        "离药店远",
+        "附近环境好"
+       ],
+       "answer": "C",
+       "start": 721.5
+      },
+      {
+       "id": "19",
+       "kind": "text3",
+       "options": [
+        "在检票",
+        "担心儿子",
+        "要出国留学"
+       ],
+       "answer": "B",
+       "start": 777.0
+      },
+      {
+       "id": "20",
+       "kind": "text3",
+       "options": [
+        "三层的",
+        "红色的",
+        "水果的"
+       ],
+       "answer": "A",
+       "start": 830.5
+      }
+     ]
+    },
+    {
+     "title_zh": "第三部分",
+     "title_vi": "Phần 3 · Câu 21–30",
+     "start": 883.5,
+     "instructions_vi": "Mỗi đoạn nói và câu hỏi đọc hai lần. Chọn đáp án đúng.",
+     "questions": [
+      {
+       "id": "21",
+       "kind": "text3",
+       "options": [
+        "不做难题",
+        "复习汉字",
+        "看清楚要求"
+       ],
+       "answer": "C",
+       "start": 941.5
+      },
+      {
+       "id": "22",
+       "kind": "text3",
+       "options": [
+        "河边",
+        "街上",
+        "草地上"
+       ],
+       "answer": "C",
+       "start": 981.5
+      },
+      {
+       "id": "23",
+       "kind": "text3",
+       "options": [
+        "习惯差",
+        "每晚扫地",
+        "正在洗碗"
+       ],
+       "answer": "A",
+       "start": 1026.0
+      },
+      {
+       "id": "24",
+       "kind": "text3",
+       "options": [
+        "凉快",
+        "刮大风",
+        "晴天少"
+       ],
+       "answer": "A",
+       "start": 1064.5
+      },
+      {
+       "id": "25",
+       "kind": "text3",
+       "options": [
+        "经常哭",
+        "总是吃糖",
+        "刷牙时间短"
+       ],
+       "answer": "C",
+       "start": 1110.5
+      },
+      {
+       "id": "26",
+       "kind": "text3",
+       "options": [
+        "出院了",
+        "要来做客",
+        "已经搬家了"
+       ],
+       "answer": "C",
+       "start": 1161.5
+      },
+      {
+       "id": "27",
+       "kind": "text3",
+       "options": [
+        "害怕水",
+        "没人教她",
+        "练习不认真"
+       ],
+       "answer": "A",
+       "start": 1209.5
+      },
+      {
+       "id": "28",
+       "kind": "text3",
+       "options": [
+        "叔叔",
+        "名人",
+        "女朋友"
+       ],
+       "answer": "A",
+       "start": 1250.5
+      },
+      {
+       "id": "29",
+       "kind": "text3",
+       "options": [
+        "北京市",
+        "中国东北",
+        "其他国家"
+       ],
+       "answer": "C",
+       "start": 1294.5
+      },
+      {
+       "id": "30",
+       "kind": "text3",
+       "options": [
+        "假期长",
+        "想看世界",
+        "能学外语"
+       ],
+       "answer": "B",
+       "start": 1345.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title_zh": "阅读",
+   "title_vi": "Đọc",
+   "seconds": 1800,
+   "parts": [
+    {
+     "title_zh": "第一部分",
+     "title_vi": "Phần 1 · Câu 31–35",
+     "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu (E là ví dụ).",
+     "bank": [
+      {
+       "key": "A",
+       "text": "那我们还是买别的衣服吧。"
+      },
+      {
+       "key": "B",
+       "text": "您刚才坐几号桌？我让服务员找一下。"
+      },
+      {
+       "key": "C",
+       "text": "我会在里面加菜和肉，其实挺健康的。"
+      },
+      {
+       "key": "D",
+       "text": "小矮马，它们个子比较小，可爱极了。"
+      },
+      {
+       "key": "E",
+       "text": "当然。我们先坐公交车，然后换地铁。"
+      },
+      {
+       "key": "F",
+       "text": "我水平不高，怕影响大家。"
+      }
+     ],
+     "questions": [
+      {
+       "id": "31",
+       "kind": "bank",
+       "answer": "A",
+       "text": "这条裙子很漂亮，但是我有一条几乎一样的。"
+      },
+      {
+       "id": "32",
+       "kind": "bank",
+       "answer": "F",
+       "text": "你为什么不参加后天的篮球比赛？"
+      },
+      {
+       "id": "33",
+       "kind": "bank",
+       "answer": "B",
+       "text": "我把一个本子忘在这儿了，是黑色的，大概这么大。"
+      },
+      {
+       "id": "34",
+       "kind": "bank",
+       "answer": "C",
+       "text": "你不能每天只吃方便面，会生病的。"
+      },
+      {
+       "id": "35",
+       "kind": "bank",
+       "answer": "D",
+       "text": "你喜欢动物园里的哪种动物？"
+      }
+     ]
+    },
+    {
+     "title_zh": "第一部分",
+     "title_vi": "Phần 1 · Câu 36–40",
+     "instructions_vi": "Chọn câu trả lời phù hợp cho mỗi câu.",
+     "bank": [
+      {
+       "key": "A",
+       "text": "您好！我是李冰，是您妻子的同事。"
+      },
+      {
+       "key": "B",
+       "text": "八元五角。要不要来点儿？"
+      },
+      {
+       "key": "C",
+       "text": "经理怎么不在办公室？"
+      },
+      {
+       "key": "D",
+       "text": "你到哪儿了？表演快开始了。"
+      },
+      {
+       "key": "E",
+       "text": "我上节数学课没来，能看看你的笔记吗？明天还你。"
+      }
+     ],
+     "questions": [
+      {
+       "id": "36",
+       "kind": "bank",
+       "answer": "E",
+       "text": "没问题，有不明白的问我就行。"
+      },
+      {
+       "id": "37",
+       "kind": "bank",
+       "answer": "A",
+       "text": "这位是我爱人张南，他在图书馆上班。"
+      },
+      {
+       "id": "38",
+       "kind": "bank",
+       "answer": "C",
+       "text": "他休假了，你有事可以给他发邮件。"
+      },
+      {
+       "id": "39",
+       "kind": "bank",
+       "answer": "D",
+       "text": "别急，我已经上电梯了。"
+      },
+      {
+       "id": "40",
+       "kind": "bank",
+       "answer": "B",
+       "text": "请问香蕉多少钱一公斤？"
+      }
+     ]
+    },
+    {
+     "title_zh": "第二部分",
+     "title_vi": "Phần 2 · Câu 41–45",
+     "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống (E là ví dụ).",
+     "bank": [
+      {
+       "key": "A",
+       "text": "地方"
+      },
+      {
+       "key": "B",
+       "text": "迟到"
+      },
+      {
+       "key": "C",
+       "text": "封"
+      },
+      {
+       "key": "D",
+       "text": "学期"
+      },
+      {
+       "key": "E",
+       "text": "鞋"
+      },
+      {
+       "key": "F",
+       "text": "终于"
+      }
+     ],
+     "questions": [
+      {
+       "id": "41",
+       "kind": "bank",
+       "answer": "D",
+       "text": "女儿下（　）要上初中三年级了。"
+      },
+      {
+       "id": "42",
+       "kind": "bank",
+       "answer": "B",
+       "text": "那个男孩儿这个月一共（　）七回了。"
+      },
+      {
+       "id": "43",
+       "kind": "bank",
+       "answer": "C",
+       "text": "这儿有一（　）信，好像是给你的。"
+      },
+      {
+       "id": "44",
+       "kind": "bank",
+       "answer": "A",
+       "text": "洗手间（　）小，放不下那么大的洗衣机。"
+      },
+      {
+       "id": "45",
+       "kind": "bank",
+       "answer": "F",
+       "text": "在大人的帮助下，妹妹（　）学会了用筷子吃饭。"
+      }
+     ]
+    },
+    {
+     "title_zh": "第二部分",
+     "title_vi": "Phần 2 · Câu 46–50",
+     "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống (D là ví dụ).",
+     "bank": [
+      {
+       "key": "A",
+       "text": "或者"
+      },
+      {
+       "key": "B",
+       "text": "一块儿"
+      },
+      {
+       "key": "C",
+       "text": "以上"
+      },
+      {
+       "key": "D",
+       "text": "护照"
+      },
+      {
+       "key": "E",
+       "text": "马路"
+      },
+      {
+       "key": "F",
+       "text": "感冒"
+      }
+     ],
+     "questions": [
+      {
+       "id": "46",
+       "kind": "bank",
+       "answer": "F",
+       "text": "A：你的声音怎么变成这样了？\nB：我昨天开了一晚上空调，早上起来就（　）了。"
+      },
+      {
+       "id": "47",
+       "kind": "bank",
+       "answer": "A",
+       "text": "A：您口渴了吧？要不要喝杯茶（　）咖啡？\nB：不用了，我喝矿泉水就行。"
+      },
+      {
+       "id": "48",
+       "kind": "bank",
+       "answer": "E",
+       "text": "A：别一边过（　），一边玩手机，小心路上的车！\nB：对不起，我以后不这样了。"
+      },
+      {
+       "id": "49",
+       "kind": "bank",
+       "answer": "B",
+       "text": "A：等我一下，我去洗个澡，然后跟你们（　）聊天儿。\nB：好，快去吧。"
+      },
+      {
+       "id": "50",
+       "kind": "bank",
+       "answer": "C",
+       "text": "A：你网球为什么打得这么好？\nB：因为我去年一半（　）的时间都在练习打球。"
+      }
+     ]
+    },
+    {
+     "title_zh": "第三部分",
+     "title_vi": "Phần 3 · Câu 51–60",
+     "instructions_vi": "Đọc đoạn văn rồi chọn đáp án đúng cho câu có dấu ★.",
+     "questions": [
+      {
+       "id": "51",
+       "kind": "text3",
+       "options": [
+        "是游客",
+        "打算请客",
+        "来中国不久"
+       ],
+       "answer": "C",
+       "text": "小海刚来中国生活，除了我以外，没什么认识的人。快要到春节了，我想请他来咱们家过节，一起包饺子、看电视。",
+       "question": "★ 小海："
+      },
+      {
+       "id": "52",
+       "kind": "text3",
+       "options": [
+        "笑一笑",
+        "锻炼身体",
+        "喝几瓶饮料"
+       ],
+       "answer": "B",
+       "text": "难过的时候，我会选择做一些运动，比如出去跑跑步、骑会儿车。每次不需要锻炼太久，只要让身体动起来，我心里就会觉得舒服很多。",
+       "question": "★ 他难过时会怎么做？"
+      },
+      {
+       "id": "53",
+       "kind": "text3",
+       "options": [
+        "在山上",
+        "花特别多",
+        "可以坐船"
+       ],
+       "answer": "B",
+       "text": "那个公园非常有名，它有个好听的名字，叫“城市花园”，因为里面到处都开着漂亮的花。",
+       "question": "★ 那个公园："
+      },
+      {
+       "id": "54",
+       "kind": "text3",
+       "options": [
+        "没有菜单",
+        "在校园里",
+        "受小学生欢迎"
+       ],
+       "answer": "C",
+       "text": "爷爷在一个小学旁边开了家饭店，只卖面条儿、鸡腿和羊肉包子，孩子们放学后都会去那儿买吃的。",
+       "question": "★ 关于那家饭店，可以知道什么？"
+      },
+      {
+       "id": "55",
+       "kind": "text3",
+       "options": [
+        "电话号码",
+        "上衣大小",
+        "银行卡号"
+       ],
+       "answer": "A",
+       "text": "我把名单发给大家了，请再检查一下自己的姓名、电话、邮箱，如果有问题，请在星期日中午前找我。",
+       "question": "★ 他让大家检查："
+      },
+      {
+       "id": "56",
+       "kind": "text3",
+       "options": [
+        "绿色",
+        "蓝色",
+        "黄色"
+       ],
+       "answer": "C",
+       "text": "为了让班里的学生看得更清楚，我会用不同颜色的笔在黑板上写字：黄色的是常用的字词和句子，白色的是课文，蓝色的是作业。",
+       "question": "★ 他用什么颜色的笔写常用字词？"
+      },
+      {
+       "id": "57",
+       "kind": "text3",
+       "options": [
+        "不难坚持",
+        "可能变化",
+        "必须是有用的"
+       ],
+       "answer": "A",
+       "text": "兴趣是最好的老师。如果对一件事情很感兴趣，人们一般会花更多时间学习，也更容易坚持。比如我对照相很感兴趣，为了提高自己的水平，我常常去外边拍照，还会在网上学习不同的拍照方法。",
+       "question": "★ 根据这段话，感兴趣的事情："
+      },
+      {
+       "id": "58",
+       "kind": "text3",
+       "options": [
+        "去大学上课",
+        "常出门拍照",
+        "买不同的相机"
+       ],
+       "answer": "B",
+       "text": "兴趣是最好的老师。如果对一件事情很感兴趣，人们一般会花更多时间学习，也更容易坚持。比如我对照相很感兴趣，为了提高自己的水平，我常常去外边拍照，还会在网上学习不同的拍照方法。",
+       "question": "★ 为了提高拍照水平，他："
+      },
+      {
+       "id": "59",
+       "kind": "text3",
+       "options": [
+        "非常爱生气",
+        "希望别人满意",
+        "不相信身边的人"
+       ],
+       "answer": "B",
+       "text": "我过去一直不快乐，因为我总是在努力让别人满意，以为这样才能得到大家的关注和喜爱。后来我慢慢懂得了：让自己满意才是最重要的。我开始学会对别人说“不”，开始认真地关心和照顾自己。这不但让我感到快乐，而且也让我和家人、朋友的关系越来越近了。",
+       "question": "★ 他过去："
+      },
+      {
+       "id": "60",
+       "kind": "text3",
+       "options": [
+        "关心自己",
+        "照顾老人",
+        "怎样养小孩儿"
+       ],
+       "answer": "A",
+       "text": "我过去一直不快乐，因为我总是在努力让别人满意，以为这样才能得到大家的关注和喜爱。后来我慢慢懂得了：让自己满意才是最重要的。我开始学会对别人说“不”，开始认真地关心和照顾自己。这不但让我感到快乐，而且也让我和家人、朋友的关系越来越近了。",
+       "question": "★ 他现在学会了："
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title_zh": "书写",
+   "title_vi": "Viết",
+   "seconds": 1200,
+   "parts": [
+    {
+     "title_zh": "第一部分",
+     "title_vi": "Phần 1 · Câu 61–65",
+     "instructions_vi": "Viết chữ Hán vào chỗ trống. Pinyin trong ngoặc là đề bài, cho biết cần viết chữ nào.",
+     "questions": [
+      {
+       "id": "61",
+       "kind": "fillChar",
+       "text": "听说这些鸟是从北（fāng）飞过来的。",
+       "answer": "方"
+      },
+      {
+       "id": "62",
+       "kind": "fillChar",
+       "text": "没有经过我的同意，你不（gāi）动我的东西。",
+       "answer": "该"
+      },
+      {
+       "id": "63",
+       "kind": "fillChar",
+       "text": "这里一个鸡蛋只要八（máo）钱。",
+       "answer": "毛"
+      },
+      {
+       "id": "64",
+       "kind": "fillChar",
+       "text": "小东这次中文考试考了第一，（chéng）绩比上次高十分。",
+       "answer": "成"
+      },
+      {
+       "id": "65",
+       "kind": "fillChar",
+       "text": "牛先生认为这个办（fǎ）不能解决问题。",
+       "answer": "法"
+      }
+     ]
+    },
+    {
+     "title_zh": "第二部分",
+     "title_vi": "Phần 2 · Câu 66–70",
+     "instructions_vi": "Nhìn tranh, dùng từ cho sẵn đặt một câu hoàn chỉnh.",
+     "example": {
+      "kind": "sentence",
+      "options": [
+       {
+        "img": "thi-thu-01/w-ex.jpg"
+       }
+      ],
+      "word": "开心",
+      "answer": "他开心得跳起来了。"
+     },
+     "questions": [
+      {
+       "id": "66",
+       "kind": "sentence",
+       "options": [
+        {
+         "img": "thi-thu-01/w66.jpg"
+        }
+       ],
+       "word": "羽毛球",
+       "answer": "姐姐羽毛球打得很好。"
+      },
+      {
+       "id": "67",
+       "kind": "sentence",
+       "options": [
+        {
+         "img": "thi-thu-01/w67.jpg"
+        }
+       ],
+       "word": "饱",
+       "answer": "我已经饱了，不吃了。"
+      },
+      {
+       "id": "68",
+       "kind": "sentence",
+       "options": [
+        {
+         "img": "thi-thu-01/w68.jpg"
+        }
+       ],
+       "word": "爬",
+       "answer": "我周末常常去爬山。"
+      },
+      {
+       "id": "69",
+       "kind": "sentence",
+       "options": [
+        {
+         "img": "thi-thu-01/w69.jpg"
+        }
+       ],
+       "word": "结婚",
+       "answer": "他们两个今天结婚了。"
+      },
+      {
+       "id": "70",
+       "kind": "sentence",
+       "options": [
+        {
+         "img": "thi-thu-01/w70.jpg"
+        }
+       ],
+       "word": "地图",
+       "answer": "根据地图，我们应该向那边走。"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
