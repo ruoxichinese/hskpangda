@@ -9,12 +9,15 @@ describe('Đề thi thử', () => {
       const qs = e.sections.flatMap((s) => s.parts.flatMap((p) => p.questions.map((q) => ({ q, p, s }))));
       expect(new Set(qs.map((x) => x.q.id)).size).toBe(qs.length);
       const count = (id: string) => qs.filter((x) => x.s.id === id).length;
-      expect([count('listening'), count('reading'), count('writing')]).toEqual([25, 25, 10]);
+      const expected: Record<string, number[]> = { hsk2: [25, 25, 10], hsk3: [30, 30, 10] };
+      expect([count('listening'), count('reading'), count('writing')]).toEqual(expected[e.level] ?? [25, 25, 10]);
       for (const { q, p } of qs) {
         if (q.kind === 'pic3' || q.kind === 'text3') expect(['A', 'B', 'C']).toContain(q.answer);
         if (q.kind === 'bank' || q.kind === 'component') expect((p.bank ?? []).map((b) => b.key)).toContain(q.answer);
         if (q.kind === 'fillChar') { expect(q.text).toMatch(/（[^）]+）/); expect([...q.answer].length).toBe(1); }
         if (q.kind === 'component') expect(q.slot).toBeLessThan([...(q.word ?? '')].length);
+        if (q.kind === 'tf') expect(['T', 'F']).toContain(q.answer);
+        if (q.kind === 'sentence') { expect(q.word).toBeTruthy(); expect(q.answer).toContain(q.word!); }
       }
       if (e.listeningMode === 'tts') {
         // đọc bằng giọng trình duyệt: mọi câu nghe phải có bản ghi lời nghe

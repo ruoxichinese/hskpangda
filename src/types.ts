@@ -195,7 +195,7 @@ export interface Character {
 
 // ===== Đề thi thử (mô phỏng thi trên máy) =====
 export interface ExamOption { emoji?: string; clock?: string; img?: string }
-export type ExamKind = 'pic3' | 'bank' | 'text3' | 'component' | 'fillChar';
+export type ExamKind = 'pic3' | 'bank' | 'text3' | 'component' | 'fillChar' | 'tf' | 'order' | 'sentence';
 export interface ExamQuestion {
   id: string;
   kind: ExamKind;

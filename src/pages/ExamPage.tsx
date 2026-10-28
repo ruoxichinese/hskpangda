@@ -7,7 +7,7 @@ import { cls } from '../lib/util';
 import { useProgress, type ExamResult, type ExamSession, type ExamStage } from '../store/ProgressStore';
 import type { ExamOption, ExamPart, ExamQuestion, ExamSection } from '../types';
 import { NotFound } from './NotFound';
-import { grade } from '../lib/examGrade';
+import { grade, isCorrect, answerText } from '../lib/examGrade';
 import { buildTtsSteps, hasChineseVoice, speakLine } from '../lib/examTts';
 import { friendlyError, supabase } from '../lib/cloud';
 import { useCloud } from '../store/CloudSync';
@@ -128,6 +128,66 @@ function QuestionView({ item, value, onAnswer, disabled, showAnswer, isExample, 
         <p className="font-display text-lg font-bold">{num}</p>
         {q.text && <p className="whitespace-pre-line font-han text-xl leading-relaxed" lang="zh-CN">{q.text}</p>}
         <LetterPicker keys={(part.bank ?? []).map((b) => b.key)} value={value} onPick={onAnswer} disabled={disabled} correct={correct} />
+      </div>
+    );
+  }
+
+  if (q.kind === 'tf') {
+    // ★ câu nhận định: đúng (T) / sai (F)
+    return (
+      <div className="space-y-3">
+        <p className="font-display text-lg font-bold">{num}</p>
+        {q.text && <p className="font-han text-xl leading-relaxed" lang="zh-CN">★ {q.text}</p>}
+        <div className="flex gap-3" role="radiogroup">
+          {([['T', '✔ Đúng'], ['F', '✘ Sai']] as const).map(([k, label]) => (
+            <button key={k} role="radio" aria-checked={value === k} disabled={disabled} onClick={() => onAnswer(k)}
+              className={cls('opt flex-1 justify-center !py-3 text-lg font-bold disabled:cursor-default', value === k && 'opt-on', correct === k && '!border-good ring-4 ring-good/40')}>
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  if (q.kind === 'sentence') {
+    const o = ((q.options ?? [])[0] ?? {}) as ExamOption;
+    return (
+      <div className="space-y-3">
+        <p className="font-display text-lg font-bold">{num}</p>
+        <div className="flex flex-wrap items-center gap-4">
+          <div className="h-32 w-40"><Pic o={o} level={level} /></div>
+          <span className="rounded-xl bg-primary/15 px-3 py-1 font-han text-2xl font-bold" lang="zh-CN">{q.word}</span>
+        </div>
+        <textarea value={value ?? ''} disabled={disabled} rows={2} lang="zh-CN" aria-label={`Đặt câu với từ ${q.word}`}
+          placeholder={`Đặt một câu có từ “${q.word}”…`} onChange={(e) => onAnswer(e.target.value)}
+          className="w-full rounded-2xl border-2 border-outline bg-card p-3 font-han text-xl focus:border-primary focus:outline-none" />
+        <p className="text-xs text-muted">Câu đạt khi có từ “{q.word}” và đủ dài (ít nhất {(q.word ?? '').length + 4} chữ Hán).</p>
+        {correct && <p className="font-han text-lg text-good" lang="zh-CN">Câu mẫu: {correct}</p>}
+      </div>
+    );
+  }
+
+  if (q.kind === 'order') {
+    // sắp xếp các mảnh từ thành câu: bấm lần lượt; giá trị lưu là chỉ số các mảnh, ví dụ "2,0,1"
+    const tiles = (q.options as string[]) ?? [];
+    const picked = (value ?? '').split(',').filter((x) => x !== '').map(Number);
+    const sentence = picked.map((i) => tiles[i]).join('');
+    const set = (arr: number[]) => onAnswer(arr.join(','));
+    return (
+      <div className="space-y-3">
+        <p className="font-display text-lg font-bold">{num}</p>
+        <div className="min-h-[3.5rem] rounded-2xl border-2 border-dashed border-outline bg-card p-3 font-han text-2xl" lang="zh-CN" aria-live="polite">
+          {sentence || <span className="font-sans text-base text-muted">Bấm các mảnh từ theo đúng thứ tự…</span>}
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {tiles.map((t, i) => (
+            <button key={i} disabled={disabled || picked.includes(i)} onClick={() => set([...picked, i])}
+              className={cls('chip !px-4 !py-2 font-han text-xl', picked.includes(i) && 'opacity-30')} lang="zh-CN">{t}</button>
+          ))}
+          {!disabled && picked.length > 0 && <button className="chip" onClick={() => set(picked.slice(0, -1))}>↩ Bỏ mảnh cuối</button>}
+        </div>
+        {correct && <p className="font-han text-lg text-good" lang="zh-CN">Đáp án: {correct.split('|')[0]}</p>}
       </div>
     );
   }
@@ -408,12 +468,12 @@ function ExamRoom() {
                 <p className="font-bold text-muted">{p.title_zh} · {p.title_vi}</p>
                 <BankStrip part={p} level={levelId} />
                 {p.questions.map((q) => {
-                  const ok = (result.answers[q.id] ?? '') === q.answer;
+                  const ok = isCorrect(q, result.answers[q.id]);
                   return (
                     <div key={q.id} className={cls('rounded-2xl border-2 p-3', ok ? 'border-good/60' : 'border-bad/60')}>
                       <QuestionView item={{ q, part: p }} value={result.answers[q.id]} onAnswer={() => {}} disabled showAnswer level={levelId} />
                       <p className={cls('mt-2 text-sm font-bold', ok ? 'text-good' : 'text-bad')}>
-                        {ok ? '✓ Đúng' : `✗ Bạn chọn: ${result.answers[q.id] || '(bỏ trống)'} · Đáp án: ${q.answer}`}
+                        {ok ? '✓ Đúng' : `✗ Bạn chọn: ${answerText(q, result.answers[q.id]) || '(bỏ trống)'} · Đáp án: ${q.answer.split('|')[0]}`}
                       </p>
                     </div>
                   );
@@ -496,7 +556,7 @@ function ExamRoom() {
           <div className="flex items-center gap-3">
             <PandaMascot mood="explain" size={90} stage={lv.pandaStage} />
             <div>
-              <p className="font-hanfun text-3xl" lang="zh-CN">中文水平考试 · 二级</p>
+              <p className="font-hanfun text-3xl" lang="zh-CN">中文水平考试 · {({ hsk1: '一级', hsk2: '二级', hsk3: '三级', hsk4: '四级', hsk5: '五级', hsk6: '六级' } as Record<string, string>)[exam.level] ?? ''}</p>
               <h1 className="font-display text-2xl font-bold">{exam.title}</h1>
             </div>
           </div>
