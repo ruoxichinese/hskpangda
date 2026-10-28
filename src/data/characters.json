@@ -181,5 +181,23 @@
     "setting": "china",
     "color": "#4A5568",
     "desc_vi": "Đồng nghiệp ở công ty của chị Vương Nhất Tuyết và Dương Đồng Lạc."
+  },
+  {
+    "id": "zhangayi",
+    "zh": "张阿姨",
+    "pinyin": "Zhāng āyí",
+    "vi_name": "Cô Trương (mẹ Lý Văn)",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Mẹ của Lý Văn, sống ở Bắc Kinh, rất nhớ con trai đang du học."
+  },
+  {
+    "id": "lishushu",
+    "zh": "李叔叔",
+    "pinyin": "Lǐ shūshu",
+    "vi_name": "Chú Lý (bố Lý Văn)",
+    "setting": "china",
+    "color": "#2C5282",
+    "desc_vi": "Bố của Lý Văn, hiền hậu và hiếu khách."
   }
 ]

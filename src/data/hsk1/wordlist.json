@@ -1535,6 +1535,151 @@
    "zh": "天儿",
    "pinyin": "tiānr",
    "vi": "chuyện (tán gẫu)"
+  },
+  {
+   "zh": "俩",
+   "pinyin": "liǎ",
+   "vi": "hai (người)"
+  },
+  {
+   "zh": "偷",
+   "pinyin": "tōu",
+   "vi": "trộm"
+  },
+  {
+   "zh": "小偷",
+   "pinyin": "xiǎotōu",
+   "vi": "kẻ trộm"
+  },
+  {
+   "zh": "钥匙",
+   "pinyin": "yàoshi",
+   "vi": "chìa khoá"
+  },
+  {
+   "zh": "情况",
+   "pinyin": "qíngkuàng",
+   "vi": "tình hình"
+  },
+  {
+   "zh": "城",
+   "pinyin": "chéng",
+   "vi": "thành"
+  },
+  {
+   "zh": "老城",
+   "pinyin": "lǎochéng",
+   "vi": "thành cổ"
+  },
+  {
+   "zh": "父母",
+   "pinyin": "fùmǔ",
+   "vi": "bố mẹ"
+  },
+  {
+   "zh": "南",
+   "pinyin": "nán",
+   "vi": "nam"
+  },
+  {
+   "zh": "绿",
+   "pinyin": "lǜ",
+   "vi": "xanh lá"
+  },
+  {
+   "zh": "家乡",
+   "pinyin": "jiāxiāng",
+   "vi": "quê hương"
+  },
+  {
+   "zh": "身",
+   "pinyin": "shēn",
+   "vi": "thân"
+  },
+  {
+   "zh": "身上",
+   "pinyin": "shēnshang",
+   "vi": "trên người"
+  },
+  {
+   "zh": "哭",
+   "pinyin": "kū",
+   "vi": "khóc"
+  },
+  {
+   "zh": "熊",
+   "pinyin": "xióng",
+   "vi": "gấu"
+  },
+  {
+   "zh": "熊猫",
+   "pinyin": "xióngmāo",
+   "vi": "gấu trúc"
+  },
+  {
+   "zh": "讨论",
+   "pinyin": "tǎolùn",
+   "vi": "thảo luận"
+  },
+  {
+   "zh": "有关系",
+   "pinyin": "yǒu guānxi",
+   "vi": "có liên quan"
+  },
+  {
+   "zh": "没有关系",
+   "pinyin": "méiyǒu guānxi",
+   "vi": "không liên quan"
+  },
+  {
+   "zh": "西",
+   "pinyin": "xī",
+   "vi": "tây"
+  },
+  {
+   "zh": "法国",
+   "pinyin": "Fǎguó",
+   "vi": "nước Pháp"
+  },
+  {
+   "zh": "活",
+   "pinyin": "huó",
+   "vi": "sống"
+  },
+  {
+   "zh": "成功",
+   "pinyin": "chénggōng",
+   "vi": "thành công"
+  },
+  {
+   "zh": "看法",
+   "pinyin": "kànfǎ",
+   "vi": "quan điểm, cách nhìn"
+  },
+  {
+   "zh": "小文",
+   "pinyin": "Xiǎo Wén",
+   "vi": "Tiểu Văn"
+  },
+  {
+   "zh": "文",
+   "pinyin": "wén",
+   "vi": "văn"
+  },
+  {
+   "zh": "瓶",
+   "pinyin": "píng",
+   "vi": "chai, lọ"
+  },
+  {
+   "zh": "道理",
+   "pinyin": "dàolǐ",
+   "vi": "đạo lý"
+  },
+  {
+   "zh": "以",
+   "pinyin": "yǐ",
+   "vi": "lấy, để"
   }
  ]
 }
