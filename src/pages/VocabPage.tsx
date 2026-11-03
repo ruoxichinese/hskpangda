@@ -1,12 +1,13 @@
 import { useMemo, useState } from 'react';
 import { SpeakButton } from '../components/ui';
 import { posLabel, WordPopup } from '../components/VocabTable';
+import { CharBuildGame, MarketGame, SpeedFillGame } from '../components/VocabGames';
 import { getLevelVocab, levels } from '../lib/data';
 import { cls } from '../lib/util';
 import { useLevelPrefs, useProgress } from '../store/ProgressStore';
 import type { VocabItem } from '../types';
 
-type Tab = 'list' | 'cards' | 'wrong';
+type Tab = 'list' | 'cards' | 'wrong' | 'build' | 'market' | 'speed';
 
 export default function VocabPage() {
   const avail = levels.filter((l) => l.available);
@@ -26,6 +27,9 @@ export default function VocabPage() {
     (lesson === 'all' || v.lesson === lesson) && (pos === 'all' || v.pos === pos) &&
     (!q || v.zh.includes(q) || v.pinyin.toLowerCase().includes(q.toLowerCase()) || v.vi.toLowerCase().includes(q.toLowerCase())),
   );
+  // game: dùng từ theo cấp + bài (không theo từ loại/ô tìm)
+  const scope = useMemo(() => all.filter((v) => lesson === 'all' || v.lesson === lesson), [all, lesson]);
+  const isGame = tab === 'build' || tab === 'market' || tab === 'speed';
   const wrong = Object.entries(prog.wrong).sort((a, b) => b[1] - a[1]).map(([w, n]) => ({ v: all.find((x) => x.zh === w), n })).filter((x) => x.v);
 
   return (
@@ -56,11 +60,24 @@ export default function VocabPage() {
         </label>
       </div>
 
-      <div role="tablist" className="mb-4 flex gap-2">
+      <div role="tablist" className="mb-4 flex flex-wrap gap-2">
         {([['list', '📋 Danh sách'], ['cards', '🃏 Flashcard'], ['wrong', `⚠️ Từ hay sai (${wrong.length})`]] as [Tab, string][]).map(([t, label]) => (
           <button key={t} role="tab" aria-selected={tab === t} className={cls('chip', tab === t && 'chip-on')} onClick={() => setTab(t)}>{label}</button>
         ))}
+        <span className="mx-1 hidden self-center text-muted sm:inline" aria-hidden>|</span>
+        {([['build', '🧩 Ghép chữ'], ['market', '🧺 Đi chợ'], ['speed', '⚡ Điền từ']] as [Tab, string][]).map(([t, label]) => (
+          <button key={t} role="tab" aria-selected={tab === t} className={cls('chip', tab === t && 'chip-on')} onClick={() => setTab(t)}>{label}</button>
+        ))}
       </div>
+
+      {isGame && (
+        <p className="mb-3 text-sm text-muted">
+          🎮 Chơi với từ của <b>{avail.find((l) => l.id === levelId)?.name ?? levelId}</b> · {lesson === 'all' ? 'tất cả các bài' : `bài ${lesson}`} ({scope.length} từ). Đổi “Cấp” / “Bài” ở trên để chọn phạm vi ôn.
+        </p>
+      )}
+      {tab === 'build' && <CharBuildGame key={`${levelId}-${lesson}`} words={scope} levelId={levelId} />}
+      {tab === 'market' && <MarketGame key={`${levelId}-${lesson}`} words={scope} levelId={levelId} />}
+      {tab === 'speed' && <SpeedFillGame key={`${levelId}-${lesson}`} words={scope} all={all} levelId={levelId} />}
 
       {tab === 'list' && (
         <div className="card overflow-x-auto">
