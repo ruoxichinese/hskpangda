@@ -42,7 +42,7 @@
      "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
     },
     {
-     "speaker": "gt-dianyuan",
+     "speaker": "gt-yaoshi",
      "zh": "发烧吗？",
      "vi": "Có sốt không?"
     },
@@ -52,7 +52,7 @@
      "vi": "Không sốt."
     },
     {
-     "speaker": "gt-dianyuan",
+     "speaker": "gt-yaoshi",
      "zh": "那吃这个，一天两次，一次一片。吃了会犯困，开车前别吃。",
      "vi": "Vậy uống thuốc này, ngày hai lần, mỗi lần một viên. Uống vào sẽ buồn ngủ, trước khi lái xe đừng uống."
     },
@@ -62,7 +62,7 @@
      "vi": "Có loại nào uống không buồn ngủ không? Ban ngày tôi phải đi làm."
     },
     {
-     "speaker": "gt-dianyuan",
+     "speaker": "gt-yaoshi",
      "zh": "这个日夜片，白天吃白片，晚上吃黑片。",
      "vi": "Loại ngày đêm này, ban ngày uống viên trắng, buổi tối uống viên đen."
     },
@@ -72,7 +72,7 @@
      "vi": "Quẹt bảo hiểm y tế được không?"
     },
     {
-     "speaker": "gt-dianyuan",
+     "speaker": "gt-yaoshi",
      "zh": "有社保卡就能刷。",
      "vi": "Có thẻ bảo hiểm xã hội là quẹt được."
     }
