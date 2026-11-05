@@ -1,3 +1,4 @@
+import type { Mood } from '../types';
 import { useVoice } from '../lib/voice';
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { say, stopAll, type Seg } from '../lib/audio';
@@ -127,9 +128,30 @@ export function ProgressBar({ value, max = 100, label }: { value: number; max?: 
   );
 }
 
-export function Avatar({ id, size = 44 }: { id: string; size?: number }) {
+/** Đoán biểu cảm từ câu nói: ngạc nhiên / vui / mỉm cười */
+export function moodOf(zh: string): Mood {
+  if (/糟了|啊？|诶|咦|哎呀|天哪|什么？|真的假的|怎么回事|不会吧|[？?][！!]|[！!][？?]/.test(zh)) return 'surprised';
+  if (/哈哈|嘿嘿|太好了|太棒了|谢谢|好嘞|开心|绝配|成交|真香|恭喜|新年好|快乐|没问题！|一言为定/.test(zh)) return 'happy';
+  return 'smile';
+}
+
+export function Avatar({ id, size = 44, mood = 'avatar' }: { id: string; size?: number; mood?: Mood }) {
   const c = getCharacter(id);
-  const label = c ? (c.id === 'students' ? '👥' : c.id === 'xiaoyu' ? 'AI' : [...c.zh].slice(-1)[0]) : '?';
+  if (c?.img) {
+    return (
+      <img
+        src={`${import.meta.env.BASE_URL}img/nv/${c.img}_${mood}.svg`}
+        alt=""
+        width={size}
+        height={size}
+        loading="lazy"
+        className="shrink-0 rounded-full"
+        style={{ width: size, height: size, boxShadow: '0 0 0 3px rgb(var(--c-bg))' }}
+        aria-hidden
+      />
+    );
+  }
+  const label = c ? (c.id === 'students' ? '👥' : c.id === 'xiaoyu' ? 'AI' : c.id === 'gt-guangbo' ? '📢' : [...c.zh].slice(-1)[0]) : '?';
   return (
     <span
       className="han inline-flex shrink-0 items-center justify-center rounded-full font-bold text-white"

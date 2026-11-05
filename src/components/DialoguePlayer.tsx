@@ -6,7 +6,7 @@ import { compareKey, similarity } from '../lib/grading';
 import { cls } from '../lib/util';
 import { useLevelPrefs, useProgress } from '../store/ProgressStore';
 import type { TextSection, TranslationMode } from '../types';
-import { Avatar, SpeakButton, SpeedPicker } from './ui';
+import { Avatar, moodOf, SpeakButton, SpeedPicker } from './ui';
 import { ZhText } from './ZhText';
 
 /**
@@ -167,7 +167,7 @@ export function DialoguePlayer({ text, levelId, lessonId }: { text: TextSection;
           return (
             <li key={i} ref={(el) => (lineRefs.current[i] = el)} className={cls('flex gap-2', !isLeft && 'flex-row-reverse')}>
               <div className="flex w-16 shrink-0 flex-col items-center text-center">
-                <Avatar id={line.speaker} />
+                <Avatar id={line.speaker} size={c?.img ? 52 : 44} mood={moodOf(line.zh)} />
                 <span className="mt-1 whitespace-nowrap font-han text-xs leading-tight">{c?.zh}</span>
               </div>
               <div className={cls('min-w-0 max-w-[85%]', !isLeft && 'items-end text-right')}>

@@ -189,11 +189,14 @@ export interface Character {
   zh: string;
   pinyin: string;
   vi_name: string;
-  setting: 'ai' | 'overseas' | 'china' | 'group';
+  setting: 'ai' | 'overseas' | 'china' | 'group' | 'giaotiep';
   desc_vi: string;
   color: string;
   levelNotes?: Record<string, string>; // diễn biến nhân vật ở từng cấp
+  /** tên bộ ảnh trong public/img/nv: <img>_avatar|smile|happy|surprised.svg */
+  img?: string;
 }
+export type Mood = 'avatar' | 'smile' | 'happy' | 'surprised';
 
 // ===== Đề thi thử (mô phỏng thi trên máy) =====
 export interface ExamOption { emoji?: string; clock?: string; img?: string }

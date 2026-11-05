@@ -6,13 +6,14 @@ const GROUPS = [
   { key: 'overseas', title: '🌍 Ở nước ngoài – lớp học của cô Vương' },
   { key: 'china', title: '🇨🇳 Ở Trung Quốc – gia đình và đồng nghiệp' },
   { key: 'group', title: '👥 Nhân vật phụ' },
+  { key: 'giaotiep', title: '💬 Khoá Giao tiếp đời sống – Nguyễn Minh ở Bắc Kinh' },
 ] as const;
 
 export default function CharactersPage() {
   return (
     <div>
       <h1 className="text-3xl font-extrabold">👥 Nhân vật trong sách</h1>
-      <p className="mb-5 mt-1 max-w-prose text-muted">Câu chuyện diễn ra ở hai bối cảnh: lớp tiếng Trung của cô Vương Nhất Phi ở nước ngoài, và gia đình chị họ Vương Nhất Tuyết ở Bắc Kinh.</p>
+      <p className="mb-5 mt-1 max-w-prose text-muted">Giáo trình HSK có hai bối cảnh: lớp tiếng Trung của cô Vương Nhất Phi ở nước ngoài, và gia đình chị họ Vương Nhất Tuyết ở Bắc Kinh. Khoá Giao tiếp đời sống theo chân Nguyễn Minh, chàng trai Việt Nam sống và đi làm ở Bắc Kinh.</p>
       {GROUPS.map((g) => (
         <section key={g.key} className="mb-6">
           <h2 className="h-section mb-3">{g.title}</h2>
