@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800">
+      <defs><clipPath id="cl"><circle cx="200" cy="200" r="200"/></clipPath></defs><g clip-path="url(#cl)">
+    <circle cx="200" cy="200" r="200" fill="#F1F1F1"/>
+    
+    <rect x="176" y="250" width="48" height="60" rx="18" fill="#D6A37D"/>
+    <path d="M60 420 Q70 318 200 300 Q330 318 340 420 Z" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="3"/>
+            <path d="M60 420 Q70 318 150 304 L176 420 Z" fill="#3A86FF"/><path d="M340 420 Q330 318 250 304 L224 420 Z" fill="#3A86FF"/>
+            <path d="M182 304 L200 380 L218 304" stroke="#E63946" stroke-width="4" fill="none"/><rect x="186" y="378" width="28" height="36" rx="4" fill="#fff" stroke="#999" stroke-width="2"/>
+    <ellipse cx="124" cy="196" rx="16" ry="22" fill="#D6A37D"/><ellipse cx="276" cy="196" rx="16" ry="22" fill="#D6A37D"/>
+    <ellipse cx="200" cy="186" rx="80" ry="92" fill="#EDBF9A"/>
+    <ellipse cx="150" cy="218" rx="14" ry="8" fill="#F29C8F" opacity="0.35"/><ellipse cx="250" cy="218" rx="14" ry="8" fill="#F29C8F" opacity="0.35"/>
+    <path d="M114 250 Q98 104 200 90 Q302 104 286 250 Q286 168 258 134 Q220 152 192 128 Q150 150 138 146 Q116 176 114 250 Z" fill="#2B221F"/>
+    <path d="M147 160 Q166 150 186 158" stroke="#1E1B1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <path d="M214 158 Q234 150 253 160" stroke="#1E1B1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M152 186 Q167 172 182 186" stroke="#2A211D" stroke-width="6" fill="none" stroke-linecap="round"/>
+            <path d="M218 186 Q233 172 248 186" stroke="#2A211D" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M198 196 Q192 214 200 218 Q206 218 208 214" stroke="#D6A37D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M170 232 Q200 268 230 232 Z" fill="#8E2F2F"/><path d="M176 234 Q200 244 224 234 L222 238 Q200 247 178 238 Z" fill="#fff"/>
+    <g fill="none" stroke="#2B2B2B" stroke-width="4"><rect x="142" y="170" width="48" height="34" rx="10"/><rect x="210" y="170" width="48" height="34" rx="10"/><path d="M190 184 L210 184"/></g></g></svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 40 260 260" width="512" height="512">
+    <defs><clipPath id="ch"><circle cx="200" cy="170" r="130"/></clipPath></defs>
+    <g clip-path="url(#ch)">
+    <rect x="0" y="0" width="400" height="400" fill="#F1F1F1"/>
+    
+    <rect x="176" y="250" width="48" height="60" rx="18" fill="#CC946B"/>
+    <path d="M58 420 Q66 316 200 298 Q334 316 342 420 Z" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="3"/>
+            <path d="M170 300 L200 326 L230 300" stroke="#E2E2E2" stroke-width="4" fill="none"/>
+            <path d="M140 420 L150 340 Q200 350 250 340 L260 420 Z" fill="#333333"/>
+            <path d="M150 340 L168 304" stroke="#333333" stroke-width="10"/><path d="M250 340 L232 304" stroke="#333333" stroke-width="10"/>
+    <ellipse cx="124" cy="196" rx="16" ry="22" fill="#CC946B"/><ellipse cx="276" cy="196" rx="16" ry="22" fill="#CC946B"/>
+    <ellipse cx="200" cy="186" rx="80" ry="92" fill="#E4AE86"/>
+    <ellipse cx="150" cy="218" rx="14" ry="8" fill="#F29C8F" opacity="0.35"/><ellipse cx="250" cy="218" rx="14" ry="8" fill="#F29C8F" opacity="0.35"/>
+    <path d="M122 176 Q116 100 200 92 Q284 100 278 176 Q272 134 250 126 Q200 118 150 126 Q128 134 122 176 Z" fill="#1A1A1A"/>
+    <path d="M147 160 Q166 150 186 158" stroke="#1E1B1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <path d="M214 158 Q234 150 253 160" stroke="#1E1B1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="167" cy="186" rx="8" ry="9.5" fill="#2A211D"/><ellipse cx="233" cy="186" rx="8" ry="9.5" fill="#2A211D"/>
+          <circle cx="169.5" cy="183" r="2.5" fill="#fff"/><circle cx="235.5" cy="183" r="2.5" fill="#fff"/>
+    <path d="M198 196 Q192 214 200 218 Q206 218 208 214" stroke="#CC946B" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M176 234 Q200 254 224 234" stroke="#8E2F2F" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <circle cx="200" cy="170" r="126" fill="none" stroke="#BDBDBD" stroke-width="8"/></svg>
