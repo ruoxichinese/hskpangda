@@ -1,3 +1,5 @@
+import { levelHasVoice, VoiceContext } from '../lib/voice';
+import { setTtsEnabled } from '../lib/audio';
 import { useMemo, useState } from 'react';
 import { SpeakButton } from '../components/ui';
 import { posLabel, WordPopup } from '../components/VocabTable';
@@ -32,7 +34,10 @@ export default function VocabPage() {
   const isGame = tab === 'build' || tab === 'market' || tab === 'speed';
   const wrong = Object.entries(prog.wrong).sort((a, b) => b[1] - a[1]).map(([w, n]) => ({ v: all.find((x) => x.zh === w), n })).filter((x) => x.v);
 
+  const voice = levelHasVoice(levelId);
+  setTtsEnabled(voice);
   return (
+    <VoiceContext.Provider value={voice}>
     <div>
       <h1 className="text-3xl font-extrabold">📒 Sổ từ vựng</h1>
       <p className="mb-4 text-muted">{all.length} từ · đã thuộc {prog.known.length}</p>
@@ -121,6 +126,7 @@ export default function VocabPage() {
       )}
       <WordPopup word={open} levelId={levelId} upTo={open?.lesson ?? 99} onClose={() => setOpen(null)} />
     </div>
+    </VoiceContext.Provider>
   );
 }
 

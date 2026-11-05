@@ -19,7 +19,11 @@ function zhVoice(): SpeechSynthesisVoice | undefined {
 }
 if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = () => zhVoice();
 
-export const ttsSupported = () => typeof speechSynthesis !== 'undefined';
+let ttsOn = true;
+/** Bật/tắt giọng đọc máy toàn trang (khoá không dùng giọng máy sẽ tắt) */
+export function setTtsEnabled(v: boolean) { ttsOn = v; }
+export const ttsEnabled = () => ttsOn;
+export const ttsSupported = () => ttsOn && typeof speechSynthesis !== 'undefined';
 
 /** Đọc bằng TTS. Resolve khi đọc xong. */
 export function speak(text: string, rate = 0.75): Promise<void> {
@@ -85,6 +89,7 @@ export async function say(text: string, rate = 0.75, src?: string, seg?: Seg) {
 /** Đọc lần lượt nhiều câu, gọi onLine(i) để highlight kiểu karaoke. Có thể huỷ bằng stopAll(). */
 export async function speakSequence(texts: string[], rate: number, onLine: (i: number) => void) {
   stopAll();
+  if (!ttsOn) return;
   const my = token;
   for (let i = 0; i < texts.length; i++) {
     if (my !== token) return;

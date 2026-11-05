@@ -25,6 +25,8 @@ export interface LevelConfig {
   pandaStage: number; // 0 = gấu con, 1 = mầm lá, 2 = kính, 3 = mũ tốt nghiệp
   scene: { id: string; name: string; desc: string }; // phông nền mở khoá khi học bài đầu tiên của cấp
   difficulty: Difficulty;
+  /** false = khoá không có file nghe và không dùng giọng đọc máy: ẩn mọi nút nghe tự sinh */
+  tts?: boolean;
 }
 
 // ===== Từ điển =====

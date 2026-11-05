@@ -1,3 +1,5 @@
+import { levelHasVoice, VoiceContext } from '../lib/voice';
+import { setTtsEnabled } from '../lib/audio';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { ClassGate } from './ClassGate';
 import { useEffect } from 'react';
@@ -37,6 +39,9 @@ export function Layout() {
   const lastLevel = global.lastLevel || 'hsk1';
   const cloud = useCloud();
   useEffect(() => { window.scrollTo(0, 0); stopAll(); }, [pathname]);
+  const pathLevel = /^\/hsk\/([^/]+)/.exec(pathname)?.[1];
+  const voice = levelHasVoice(pathLevel);
+  setTtsEnabled(voice);
 
   const nav = NAV.map((n) => (n.to === '/hsk/hsk1' ? { ...n, to: `/hsk/${lastLevel}` } : n));
   if (cloud.isTeacher) nav.splice(5, 0, { to: '/giao-vien', label: 'Giáo viên', icon: '👩‍🏫', end: false });
@@ -73,7 +78,7 @@ export function Layout() {
       </header>
 
       <main id="main" className="mx-auto max-w-6xl px-4 py-5">
-        <ClassGate><Outlet /></ClassGate>
+        <VoiceContext.Provider value={voice}><ClassGate><Outlet /></ClassGate></VoiceContext.Provider>
       </main>
 
       <nav aria-label="Điều hướng nhanh" className="no-print fixed inset-x-0 bottom-0 z-40 border-t-[2.5px] border-outline bg-card/95 backdrop-blur lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>

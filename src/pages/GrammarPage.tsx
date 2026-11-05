@@ -1,3 +1,5 @@
+import { levelHasVoice, VoiceContext } from '../lib/voice';
+import { setTtsEnabled } from '../lib/audio';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GrammarCard } from '../components/GrammarCard';
@@ -10,7 +12,10 @@ export default function GrammarPage() {
   const items = allGrammar(levelId);
   const lessonIds = Array.from(new Set(items.map((x) => x.lesson.id)));
   const shown = items.filter((x) => lesson === 'all' || x.lesson.id === lesson);
+  const voice = levelHasVoice(levelId);
+  setTtsEnabled(voice);
   return (
+    <VoiceContext.Provider value={voice}>
     <div>
       <h1 className="text-3xl font-extrabold">🧩 Kho ngữ pháp</h1>
       <p className="mb-4 text-muted">Tất cả điểm ngữ pháp Pàngdá đã giảng, kèm lỗi hay gặp và câu kiểm tra nhanh.</p>
@@ -32,5 +37,6 @@ export default function GrammarPage() {
         ))}
       </div>
     </div>
+    </VoiceContext.Provider>
   );
 }

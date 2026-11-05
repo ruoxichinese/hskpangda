@@ -1,3 +1,4 @@
+import { useVoice } from '../lib/voice';
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { say, stopAll, type Seg } from '../lib/audio';
 import { getCharacter } from '../lib/data';
@@ -7,7 +8,9 @@ import { BADGES, useProgress } from '../store/ProgressStore';
 export function SpeakButton({ text, rate = 0.75, src, seg, label, className, size = 'md' }: {
   text: string; rate?: number; src?: string; seg?: Seg; label?: string; className?: string; size?: 'sm' | 'md' | 'lg';
 }) {
+  const voice = useVoice();
   const [busy, setBusy] = useState(false);
+  if (!voice && !src) return null;
   const dim = { sm: 'h-9 w-9 text-base', md: 'h-11 w-11 text-lg', lg: 'h-16 w-16 text-3xl' }[size];
   return (
     <button

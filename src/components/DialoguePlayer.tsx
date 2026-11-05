@@ -1,3 +1,4 @@
+import { useVoice } from '../lib/voice';
 import { useEffect, useRef, useState } from 'react';
 import { playSrc, recognitionSupported, recognize, speak, speakSequence, stopAll, say } from '../lib/audio';
 import { getCharacter } from '../lib/data';
@@ -89,24 +90,26 @@ export function DialoguePlayer({ text, levelId, lessonId }: { text: TextSection;
     setTimeout(() => setRpIndex((i) => i + 1), 900);
   };
 
+  const voice = useVoice();
+  const canHear = voice || !!text.audio;
   const rpScores = Object.values(scores).filter((x): x is number => typeof x === 'number');
   const avg = rpScores.length ? Math.round(rpScores.reduce((a, b) => a + b, 0) / rpScores.length) : null;
 
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
-        {!playing ? (
+        {canHear && (!playing ? (
           <button className="btn-primary" onClick={playAll}>▶ Nghe cả đoạn</button>
         ) : (
           <button className="btn-ghost" onClick={stop}>⏹ Dừng</button>
-        )}
-        <SpeedPicker value={prefs.speed} onChange={(v) => setSettings({ speed: v })} />
+        ))}
+        {canHear && <SpeedPicker value={prefs.speed} onChange={(v) => setSettings({ speed: v })} />}
         <button className="chip" onClick={() => setTrans(trans === 'shown' ? 'tap' : 'shown')} aria-pressed={trans === 'shown'}>
           {trans === 'shown' ? '🙈 Ẩn bản dịch' : '👀 Hiện bản dịch'}
         </button>
       </div>
 
-      {speakers.length > 1 && !text.passage && (
+      {canHear && speakers.length > 1 && !text.passage && (
       <div className="rounded-2xl border-2 border-dashed border-line p-3">
         <p className="mb-2 font-bold">🎭 Đóng vai</p>
         <p className="mb-2 text-sm text-muted">

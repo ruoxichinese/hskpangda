@@ -11,7 +11,7 @@ export function LevelSelector() {
   const { level } = useProgress();
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {levels.map((lv) => {
+      {[...levels].sort((a, b) => Number(b.available) - Number(a.available)).map((lv) => {
         const lessons = getLessons(lv.id);
         const done = lessons.filter((l) => level(lv.id).lessons[l.id]?.completed).length;
         const ready = lessons.filter(isReady).length;
@@ -20,7 +20,7 @@ export function LevelSelector() {
             <div className="flex items-start justify-between gap-2">
               <div>
                 <span className="inline-block rounded-full px-3 py-1 text-sm font-extrabold text-white" style={{ background: lv.badgeColor }}>
-                  Cấp {lv.num}
+                  {/^\d/.test(lv.num) ? `Cấp ${lv.num}` : lv.num}
                 </span>
                 <h2 className="mt-2 text-xl font-extrabold">{lv.name}</h2>
                 <p className="text-sm text-muted">{lv.subtitle}</p>

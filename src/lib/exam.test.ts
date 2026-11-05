@@ -9,14 +9,16 @@ describe('Đề thi thử', () => {
       const qs = e.sections.flatMap((s) => s.parts.flatMap((p) => p.questions.map((q) => ({ q, p, s }))));
       expect(new Set(qs.map((x) => x.q.id)).size).toBe(qs.length);
       const count = (id: string) => qs.filter((x) => x.s.id === id).length;
-      const expected: Record<string, number[]> = { hsk2: [25, 25, 10], hsk3: [30, 30, 10] };
-      expect([count('listening'), count('reading'), count('writing')]).toEqual(expected[e.level] ?? [25, 25, 10]);
+      // HSK 3 có hai dạng đề: bản mới 70 câu (30/30/10) và bản 2.0 H3100x 80 câu (40/30/10)
+      const expected: Record<string, string[]> = { hsk2: ['25,25,10'], hsk3: ['30,30,10', '40,30,10'] };
+      expect(expected[e.level] ?? ['25,25,10']).toContain([count('listening'), count('reading'), count('writing')].join(','));
       for (const { q, p } of qs) {
         if (q.kind === 'pic3' || q.kind === 'text3') expect(['A', 'B', 'C']).toContain(q.answer);
         if (q.kind === 'bank' || q.kind === 'component') expect((p.bank ?? []).map((b) => b.key)).toContain(q.answer);
         if (q.kind === 'fillChar') { expect(q.text).toMatch(/（[^）]+）/); expect([...q.answer].length).toBe(1); }
         if (q.kind === 'component') expect(q.slot).toBeLessThan([...(q.word ?? '')].length);
         if (q.kind === 'tf') expect(['T', 'F']).toContain(q.answer);
+        if (q.kind === 'order') { const tiles = (q.options as string[]) ?? []; const norm = (x: string) => x.replace(/[。？！，\s]/g, ''); expect([...norm(tiles.join(''))].sort().join('')).toBe([...norm(q.answer.split('|')[0])].sort().join('')); }
         if (q.kind === 'sentence') { expect(q.word).toBeTruthy(); expect(q.answer).toContain(q.word!); }
       }
       if (e.listeningMode === 'tts') {

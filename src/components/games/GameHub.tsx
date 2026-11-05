@@ -1,3 +1,4 @@
+import { useVoice } from '../../lib/voice';
 import { useState } from 'react';
 import { useLevelPrefs, useProgress } from '../../store/ProgressStore';
 import type { VocabItem } from '../../types';
@@ -7,13 +8,15 @@ import { MemoryGame, QuickListenGame, SentenceRaceGame, ToneGame, WritingGame, t
 
 export const GAMES = [
   { id: 'memory', emoji: '🃏', name: 'Lật thẻ ghép cặp', desc: 'Ghép chữ Hán với nghĩa tiếng Việt', C: MemoryGame },
-  { id: 'listen', emoji: '👂', name: 'Nghe nhanh chọn đúng', desc: 'Nghe và chọn chữ trong 8 giây', C: QuickListenGame },
-  { id: 'tone', emoji: '🎵', name: 'Bắt thanh điệu', desc: 'Nghe âm tiết, chọn đúng thanh', C: ToneGame },
+  { id: 'listen', emoji: '👂', name: 'Nghe nhanh chọn đúng', desc: 'Nghe và chọn chữ trong 8 giây', C: QuickListenGame, voice: true },
+  { id: 'tone', emoji: '🎵', name: 'Bắt thanh điệu', desc: 'Nghe âm tiết, chọn đúng thanh', C: ToneGame, voice: true },
   { id: 'race', emoji: '🏁', name: 'Xếp câu đua giờ', desc: 'Xếp được bao nhiêu câu trong 60 giây?', C: SentenceRaceGame },
   { id: 'write', emoji: '✍️', name: 'Tập viết chữ', desc: 'Viết từng nét theo đúng thứ tự', C: WritingGame },
 ] as const;
 
 export function GameHub({ words, lines, levelId, lessonId }: { words: VocabItem[]; lines: string[]; levelId: string; lessonId: number }) {
+  const voice = useVoice();
+  const list = GAMES.filter((g) => voice || !('voice' in g && g.voice));
   const prefs = useLevelPrefs(levelId);
   const { level, recordGame, award } = useProgress();
   const [active, setActive] = useState<string | null>(null);
@@ -56,7 +59,7 @@ export function GameHub({ words, lines, levelId, lessonId }: { words: VocabItem[
       <Confetti fire={celebrate} />
       {lastMsg && <PandaMascot mood="celebrate" size={70} message={lastMsg} />}
       <div className="grid gap-3 sm:grid-cols-2">
-        {GAMES.map((g) => (
+        {list.map((g) => (
           <button key={g.id} className="card card-lift flex items-center gap-3 text-left" onClick={() => { setLastMsg(null); setActive(g.id); }}>
             <span className="text-4xl" aria-hidden>{g.emoji}</span>
             <span className="min-w-0 flex-1">
@@ -75,7 +78,7 @@ export function GameHub({ words, lines, levelId, lessonId }: { words: VocabItem[
         <table className="w-full text-left text-sm">
           <thead><tr className="text-muted"><th className="py-1">Game</th><th>Bài này</th><th>Tốt nhất mọi bài</th></tr></thead>
           <tbody>
-            {GAMES.map((g) => {
+            {list.map((g) => {
               const all = Object.entries(games).filter(([k]) => k.endsWith(`:${g.id}`)).map(([, v]) => v);
               return (
                 <tr key={g.id} className="border-t border-line">
