@@ -1,0 +1,408 @@
+{
+ "lessonId": 15,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这周末有部新片{{1}}。\n（2）两张票加爆米花才六十九，挺{{2}}！\n（3）周五去唱K？{{3}}！\n（4）演唱会的票一开抢就{{4}}了。\n（5）黄牛票要三千多，太{{5}}了。\n（6）我是新手，怕{{6}}。",
+     "bank": [
+      "算我一个",
+      "划算",
+      "上映",
+      "秒没",
+      "离谱",
+      "拖后腿"
+     ],
+     "answers": [
+      "上映",
+      "划算",
+      "算我一个",
+      "秒没",
+      "离谱",
+      "拖后腿"
+     ],
+     "explain_vi": "上映、划算、算我一个、秒没、离谱、拖后腿"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "剧本杀",
+       "a": "trò nhập vai phá án"
+      },
+      {
+       "q": "角色",
+       "a": "nhân vật"
+      },
+      {
+       "q": "欢乐本 / 恐怖本",
+       "a": "kịch bản vui / kinh dị"
+      },
+      {
+       "q": "普通厅",
+       "a": "phòng chiếu thường"
+      },
+      {
+       "q": "套餐",
+       "a": "combo"
+      },
+      {
+       "q": "开抢",
+       "a": "mở bán (phải giành)"
+      }
+     ],
+     "explain_vi": "剧本杀 = trò nhập vai phá án · 角色 = nhân vật · 欢乐本 / 恐怖本 = kịch bản vui / kinh dị · 普通厅 = phòng chiếu thường · 套餐 = combo · 开抢 = mở bán (phải giành)"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "一个人",
+      "还差",
+      "我们"
+     ],
+     "answers": [
+      "我们还差一个人"
+     ],
+     "explain_vi": "我们还差一个人。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "怕",
+      "我",
+      "拖后腿"
+     ],
+     "answers": [
+      "我怕拖后腿"
+     ],
+     "explain_vi": "我怕拖后腿。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "吧",
+      "音乐节",
+      "要不",
+      "去"
+     ],
+     "answers": [
+      "要不去音乐节吧"
+     ],
+     "explain_vi": "要不去音乐节吧。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "选座",
+      "我来",
+      "买零食",
+      "你负责"
+     ],
+     "answers": [
+      "我来选座你负责买零食"
+     ],
+     "explain_vi": "我来选座，你负责买零食。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tối thứ Sáu bạn rảnh không? Chúng tớ hẹn chơi phá án, còn thiếu một người.",
+     "acceptedAnswers": [
+      "周五晚上有空吗？我们约了剧本杀，还差一个人。"
+     ],
+     "requiredKeywords": [
+      "剧本杀"
+     ],
+     "explain_vi": "Đáp án tham khảo: 周五晚上有空吗？我们约了剧本杀，还差一个人。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Nghe có vẻ vui đấy, nhưng tôi đọc tiếng Trung chậm.",
+     "acceptedAnswers": [
+      "听着挺好玩儿的，可我中文阅读慢。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 听着挺好玩儿的，可我中文阅读慢。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Tuyệt đối đừng mua vé chợ đen, dễ bị lừa lắm.",
+     "acceptedAnswers": [
+      "千万别买黄牛票，容易被骗。"
+     ],
+     "requiredKeywords": [
+      "黄牛票"
+     ],
+     "explain_vi": "Đáp án tham khảo: 千万别买黄牛票，容易被骗。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 还差 + số lượng + N",
+   "instructions_vi": "Hoàn thành câu với 还差 + số lượng.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "我们约了剧本杀，六个人一局，现在五个，______。",
+     "acceptedAnswers": [
+      "还差一个人"
+     ],
+     "requiredKeywords": [
+      "还差"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还差一个人",
+     "grammarRef": "gt-g15-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "电影七点开始，现在六点五十五，______。",
+     "acceptedAnswers": [
+      "还差五分钟"
+     ],
+     "requiredKeywords": [
+      "还差"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还差五分钟",
+     "grammarRef": "gt-g15-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "满一百包邮，我买了九十，______。",
+     "acceptedAnswers": [
+      "还差十块"
+     ],
+     "requiredKeywords": [
+      "还差"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还差十块",
+     "grammarRef": "gt-g15-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Nhóm chúng ta còn thiếu hai người, bạn có đi không? → ________________________________________________________",
+     "acceptedAnswers": [
+      "我们还差两个人，你来吗？"
+     ],
+     "requiredKeywords": [
+      "还差"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我们还差两个人，你来吗？",
+     "grammarRef": "gt-g15-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 怕 + V (lo ngại)",
+   "instructions_vi": "Dùng 怕 để giải thích lý do do dự.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn đọc tiếng Trung chậm, sợ làm cả nhóm chậm lại. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我中文阅读慢，怕拖后腿。"
+     ],
+     "requiredKeywords": [
+      "怕"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我中文阅读慢，怕拖后腿。",
+     "grammarRef": "gt-g15-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn muốn đi xem concert nhưng sợ không kịp giờ tan làm. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我想去，就是怕下班赶不上。"
+     ],
+     "requiredKeywords": [
+      "怕"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我想去，就是怕下班赶不上。",
+     "grammarRef": "gt-g15-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn không dám mua vé chợ đen vì sợ bị lừa. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我不敢买黄牛票，怕被骗。"
+     ],
+     "requiredKeywords": [
+      "怕"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我不敢买黄牛票，怕被骗。",
+     "grammarRef": "gt-g15-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn không muốn chơi kịch bản kinh dị vì sợ tối về không ngủ được. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我不想玩恐怖本，怕晚上睡不着。"
+     ],
+     "requiredKeywords": [
+      "怕"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我不想玩恐怖本，怕晚上睡不着。",
+     "grammarRef": "gt-g15-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 要不……吧",
+   "instructions_vi": "Đưa ra phương án thay thế với 要不……吧.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Vé concert hết rồi. (→ đi lễ hội âm nhạc) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要不去音乐节吧。"
+     ],
+     "requiredKeywords": [
+      "要不",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要不去音乐节吧。",
+     "grammarRef": "gt-g15-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Suất IMAX hết chỗ. (→ xem phòng thường) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要不看普通厅吧。"
+     ],
+     "requiredKeywords": [
+      "要不",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要不看普通厅吧。",
+     "grammarRef": "gt-g15-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn thấy kịch bản \"hại não\" quá khó. (→ chọn kịch bản vui) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要不选个欢乐本吧。"
+     ],
+     "requiredKeywords": [
+      "要不",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要不选个欢乐本吧。",
+     "grammarRef": "gt-g15-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Trời mưa, không đi công viên được. (→ ở nhà xem phim) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要不在家看电影吧。"
+     ],
+     "requiredKeywords": [
+      "要不",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要不在家看电影吧。",
+     "grammarRef": "gt-g15-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: V + V (thử, cân nhắc)",
+   "instructions_vi": "Viết lại câu bằng cách lặp động từ cho nhẹ nhàng hơn.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "我考虑一下。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我考虑考虑。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我考虑考虑。",
+     "grammarRef": "gt-g15-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "你看一下这个团购套餐。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "你看看这个团购套餐。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 你看看这个团购套餐。",
+     "grammarRef": "gt-g15-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "我们等一下回流票吧。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我们等等回流票吧。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我们等等回流票吧。",
+     "grammarRef": "gt-g15-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "周末我想休息一下。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "周末我想休息休息。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 周末我想休息休息。",
+     "grammarRef": "gt-g15-4"
+    }
+   ]
+  }
+ ]
+}

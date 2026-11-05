@@ -1,0 +1,697 @@
+{
+ "id": 22,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "投诉维权",
+  "pinyin": "tóu sù wéi quán",
+  "vi": "Khiếu nại và bảo vệ quyền lợi"
+ },
+ "grammarTopics_vi": [
+  "要么……，要么……",
+  "……在先",
+  "从来没 + V + 过",
+  "……的话，我会……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Khiếu nại qua điện thoại",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đối mặt khi bị từ chối hoàn tiền",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Yêu cầu sàn can thiệp",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Biết các kênh khiếu nại chính thức",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "电话投诉乱扣费",
+   "context_vi": "Bài khoá 1: 电话投诉乱扣费 – Gọi tổng đài vì bị trừ tiền",
+   "scene": "📢",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我这个月话费多扣了五十块，我没开通过这个业务啊。",
+     "vi": "Chào chị, tháng này tôi bị trừ thừa năm mươi tệ tiền cước, tôi chưa từng đăng ký dịch vụ này."
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "先生您好，系统显示您开通了一个视频会员包。",
+     "vi": "Chào anh, hệ thống cho thấy anh đã đăng ký một gói hội viên video."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我从来没开通过。能查一下是什么时候、通过什么渠道开的吗？",
+     "vi": "Tôi chưa bao giờ đăng ký. Chị kiểm tra giúp là đăng ký khi nào, qua kênh nào được không?"
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "……显示是回复短信开通的。",
+     "vi": "… Hệ thống ghi là đăng ký bằng cách trả lời tin nhắn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我没回复过任何短信。请帮我退订，把这三个月扣的钱退回来。",
+     "vi": "Tôi chưa trả lời bất kỳ tin nhắn nào. Phiền chị huỷ giúp tôi, và hoàn lại tiền đã trừ ba tháng nay."
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "退订马上可以办，退费要提交申请，三到五个工作日处理。",
+     "vi": "Huỷ thì làm được ngay, hoàn tiền phải gửi yêu cầu, ba đến năm ngày làm việc sẽ xử lý."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好，麻烦给我一个工单号。五个工作日没有结果的话，我会升级投诉。",
+     "vi": "Được, phiền chị cho tôi mã phiếu yêu cầu. Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "投诉",
+     "pinyin": "tóusù",
+     "vi": "khiếu nại",
+     "example": {
+      "zh": "好，麻烦给我一个工单号。五个工作日没有结果的话，我会升级投诉。",
+      "vi": "Được, phiền chị cho tôi mã phiếu yêu cầu. Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+     }
+    },
+    {
+     "zh": "维权",
+     "pinyin": "wéiquán",
+     "vi": "bảo vệ quyền lợi"
+    },
+    {
+     "zh": "扣费 / 乱扣费",
+     "pinyin": "kòu fèi / luàn kòu fèi",
+     "vi": "trừ tiền / trừ tiền vô lý"
+    },
+    {
+     "zh": "开通",
+     "pinyin": "kāitōng",
+     "vi": "kích hoạt (dịch vụ)",
+     "example": {
+      "zh": "你好，我这个月话费多扣了五十块，我没开通过这个业务啊。",
+      "vi": "Chào chị, tháng này tôi bị trừ thừa năm mươi tệ tiền cước, tôi chưa từng đăng ký dịch vụ này."
+     }
+    },
+    {
+     "zh": "业务",
+     "pinyin": "yèwù",
+     "vi": "dịch vụ, nghiệp vụ",
+     "example": {
+      "zh": "你好，我这个月话费多扣了五十块，我没开通过这个业务啊。",
+      "vi": "Chào chị, tháng này tôi bị trừ thừa năm mươi tệ tiền cước, tôi chưa từng đăng ký dịch vụ này."
+     }
+    },
+    {
+     "zh": "渠道",
+     "pinyin": "qúdào",
+     "vi": "kênh",
+     "example": {
+      "zh": "我从来没开通过。能查一下是什么时候、通过什么渠道开的吗？",
+      "vi": "Tôi chưa bao giờ đăng ký. Chị kiểm tra giúp là đăng ký khi nào, qua kênh nào được không?"
+     }
+    },
+    {
+     "zh": "退订",
+     "pinyin": "tuìdìng",
+     "vi": "hủy đăng ký",
+     "example": {
+      "zh": "我没回复过任何短信。请帮我退订，把这三个月扣的钱退回来。",
+      "vi": "Tôi chưa trả lời bất kỳ tin nhắn nào. Phiền chị huỷ giúp tôi, và hoàn lại tiền đã trừ ba tháng nay."
+     }
+    },
+    {
+     "zh": "退费",
+     "pinyin": "tuì fèi",
+     "vi": "hoàn phí",
+     "example": {
+      "zh": "退订马上可以办，退费要提交申请，三到五个工作日处理。",
+      "vi": "Huỷ thì làm được ngay, hoàn tiền phải gửi yêu cầu, ba đến năm ngày làm việc sẽ xử lý."
+     }
+    },
+    {
+     "zh": "工作日",
+     "pinyin": "gōngzuòrì",
+     "vi": "ngày làm việc",
+     "example": {
+      "zh": "退订马上可以办，退费要提交申请，三到五个工作日处理。",
+      "vi": "Huỷ thì làm được ngay, hoàn tiền phải gửi yêu cầu, ba đến năm ngày làm việc sẽ xử lý."
+     }
+    },
+    {
+     "zh": "工单号",
+     "pinyin": "gōngdān hào",
+     "vi": "mã phiếu yêu cầu",
+     "example": {
+      "zh": "好，麻烦给我一个工单号。五个工作日没有结果的话，我会升级投诉。",
+      "vi": "Được, phiền chị cho tôi mã phiếu yêu cầu. Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+     }
+    },
+    {
+     "zh": "升级投诉",
+     "pinyin": "shēngjí tóusù",
+     "vi": "khiếu nại lên cấp cao hơn",
+     "example": {
+      "zh": "好，麻烦给我一个工单号。五个工作日没有结果的话，我会升级投诉。",
+      "vi": "Được, phiền chị cho tôi mã phiếu yêu cầu. Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+     }
+    },
+    {
+     "zh": "预付卡 / 储值卡",
+     "pinyin": "yùfù kǎ / chǔzhí kǎ",
+     "vi": "thẻ trả trước / thẻ nạp tiền"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g22-1",
+     "title_zh": "要么……，要么……",
+     "title_vi": "Đặt hai lựa chọn",
+     "formula": [
+      [
+       {
+        "zh": "要么……，要么……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "要么 A，要么 B nghĩa là \"hoặc A, hoặc B\", đưa ra hai lựa chọn và buộc đối phương chọn một. Trong khiếu nại, đây là cách gây áp lực có kiểm soát: một lựa chọn có lợi cho bạn, một lựa chọn bất lợi cho đối phương. Ví dụ: 要么退款，要么我去12315投诉。Giọng điệu dứt khoát nhưng vẫn lịch sự.",
+     "examples": [
+      {
+       "zh": "要么退款，要么我去投诉。",
+       "vi": "Hoặc là hoàn tiền, hoặc là tôi đi khiếu nại."
+      }
+     ]
+    },
+    {
+     "id": "gt-g22-4",
+     "title_zh": "……的话，我会……",
+     "title_vi": "\"tối hậu thư\" lịch sự",
+     "formula": [
+      [
+       {
+        "zh": "……的话，我会……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……的话，我会…… là \"tối hậu thư\" lịch sự: nêu điều kiện (nếu không được giải quyết) và hành động tiếp theo của bạn. Thường đi kèm mốc thời gian cụ thể để tạo áp lực: 五个工作日没有结果的话，我会升级投诉。Giọng bình tĩnh, rõ ràng, có thời hạn — hiệu quả hơn nhiều so với to tiếng.",
+     "examples": [
+      {
+       "zh": "五个工作日没有结果的话，我会升级投诉。",
+       "vi": "Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "预付卡退卡",
+   "context_vi": "Bài khoá 2: 预付卡退卡 – Đòi hoàn thẻ trả trước",
+   "scene": "📢",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "老板，我这张卡还剩两千，你们店要搬到郊区了，我想退卡。",
+     "vi": "Chủ quán, thẻ này của tôi còn hai nghìn, quán sắp chuyển ra ngoại thành, tôi muốn trả thẻ."
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "我们的卡不退不换，卡背面写着呢。",
+     "vi": "Thẻ của bên tôi không hoàn không đổi, mặt sau thẻ có ghi đấy."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "\"不退不换\"属于霸王条款，不算数。你们单方面搬店，是你们违约在先。",
+     "vi": "\"Không hoàn không đổi\" là điều khoản ép buộc, không có giá trị. Bên anh tự ý chuyển cửa hàng, là bên anh vi phạm trước."
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "那你想怎么样？",
+     "vi": "Vậy cậu muốn thế nào?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "要么按剩余金额退款，要么我去12315投诉。",
+     "vi": "Hoặc là hoàn tiền theo số dư, hoặc là tôi gọi 12315 khiếu nại."
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "别别别，好商量。退你一千八行不行？",
+     "vi": "Đừng đừng đừng, có gì từ từ bàn. Hoàn cậu một nghìn tám được không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "行，今天之内转给我。",
+     "vi": "Được, chuyển cho tôi trong hôm nay."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "不退不换",
+     "pinyin": "bú tuì bú huàn",
+     "vi": "không đổi không trả",
+     "example": {
+      "zh": "我们的卡不退不换，卡背面写着呢。",
+      "vi": "Thẻ của bên tôi không hoàn không đổi, mặt sau thẻ có ghi đấy."
+     }
+    },
+    {
+     "zh": "霸王条款",
+     "pinyin": "bàwáng tiáokuǎn",
+     "vi": "điều khoản bất công",
+     "example": {
+      "zh": "\"不退不换\"属于霸王条款，不算数。你们单方面搬店，是你们违约在先。",
+      "vi": "\"Không hoàn không đổi\" là điều khoản ép buộc, không có giá trị. Bên anh tự ý chuyển cửa hàng, là bên anh vi phạm trước."
+     }
+    },
+    {
+     "zh": "不算数",
+     "pinyin": "bú suànshù",
+     "vi": "không có giá trị",
+     "example": {
+      "zh": "\"不退不换\"属于霸王条款，不算数。你们单方面搬店，是你们违约在先。",
+      "vi": "\"Không hoàn không đổi\" là điều khoản ép buộc, không có giá trị. Bên anh tự ý chuyển cửa hàng, là bên anh vi phạm trước."
+     }
+    },
+    {
+     "zh": "单方面",
+     "pinyin": "dān fāngmiàn",
+     "vi": "đơn phương",
+     "example": {
+      "zh": "\"不退不换\"属于霸王条款，不算数。你们单方面搬店，是你们违约在先。",
+      "vi": "\"Không hoàn không đổi\" là điều khoản ép buộc, không có giá trị. Bên anh tự ý chuyển cửa hàng, là bên anh vi phạm trước."
+     }
+    },
+    {
+     "zh": "违约",
+     "pinyin": "wéiyuē",
+     "vi": "vi phạm hợp đồng",
+     "example": {
+      "zh": "\"不退不换\"属于霸王条款，不算数。你们单方面搬店，是你们违约在先。",
+      "vi": "\"Không hoàn không đổi\" là điều khoản ép buộc, không có giá trị. Bên anh tự ý chuyển cửa hàng, là bên anh vi phạm trước."
+     }
+    },
+    {
+     "zh": "……在先",
+     "pinyin": "zài xiān",
+     "vi": "… trước (ai sai trước)"
+    },
+    {
+     "zh": "跑路",
+     "pinyin": "pǎolù",
+     "vi": "(chủ) bỏ trốn"
+    },
+    {
+     "zh": "好商量",
+     "pinyin": "hǎo shāngliang",
+     "vi": "dễ thương lượng mà",
+     "example": {
+      "zh": "别别别，好商量。退你一千八行不行？",
+      "vi": "Đừng đừng đừng, có gì từ từ bàn. Hoàn cậu một nghìn tám được không?"
+     }
+    },
+    {
+     "zh": "协商",
+     "pinyin": "xiéshāng",
+     "vi": "thương lượng"
+    },
+    {
+     "zh": "12315",
+     "pinyin": "yāo'èr sān yāo wǔ",
+     "vi": "đường dây khiếu nại tiêu dùng",
+     "example": {
+      "zh": "要么按剩余金额退款，要么我去12315投诉。",
+      "vi": "Hoặc là hoàn tiền theo số dư, hoặc là tôi gọi 12315 khiếu nại."
+     }
+    },
+    {
+     "zh": "消协",
+     "pinyin": "xiāoxié",
+     "vi": "Hội bảo vệ người tiêu dùng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g22-2",
+     "title_zh": "……在先",
+     "title_vi": "Xác định ai sai trước",
+     "formula": [
+      [
+       {
+        "zh": "……在先",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……在先 nghĩa là \"(ai) … trước\", dùng để xác định bên nào vi phạm, có lỗi trước — rất quan trọng khi tranh chấp. Cấu trúc: 是 + 主语 + V + 在先. Ví dụ: 是你们违约在先 (chính các anh vi phạm hợp đồng trước). Có thể dùng với 说 / 答应: 是你答应在先的.",
+     "examples": [
+      {
+       "zh": "是你们违约在先。",
+       "vi": "Là bên anh vi phạm trước."
+      }
+     ]
+    },
+    {
+     "id": "gt-g22-3",
+     "title_zh": "从来没 + V + 过",
+     "title_vi": "Phủ nhận mạnh",
+     "formula": [
+      [
+       {
+        "zh": "从来没",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "过",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "从来没 + V + 过 nghĩa là \"chưa từng bao giờ…\", là cách phủ nhận mạnh nhất về kinh nghiệm/sự việc trong quá khứ. 从来 nhấn mạnh \"từ trước đến nay\", 过 đánh dấu kinh nghiệm. Chú ý: với động từ ly hợp, 过 đặt sau phần động từ: 开通过, 回复过. Dạng với 不: 从来不 + V (chưa bao giờ có thói quen…): 我从来不喝酒.",
+     "examples": [
+      {
+       "zh": "我从来没开通过这个业务。",
+       "vi": "Tôi chưa bao giờ đăng ký dịch vụ này."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "申请平台介入",
+   "context_vi": "Bài khoá 3: 申请平台介入 – Yêu cầu sàn can thiệp",
+   "scene": "📢",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "商家一直不同意退货，已经五天没回复了。",
+     "vi": "Người bán mãi không đồng ý cho trả hàng, đã năm ngày không trả lời rồi."
+    },
+    {
+     "speaker": "gt-pingtaikefu",
+     "zh": "非常抱歉给您带来不好的体验。我帮您申请平台介入，请上传聊天记录和商品照片。",
+     "vi": "Thành thật xin lỗi vì trải nghiệm không tốt. Tôi giúp anh yêu cầu nền tảng can thiệp, anh vui lòng tải lên lịch sử chat và ảnh sản phẩm."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "已经上传了。",
+     "vi": "Tải lên rồi."
+    },
+    {
+     "speaker": "gt-pingtaikefu",
+     "zh": "审核通过后，平台会先垫付退款给您。",
+     "vi": "Sau khi xét duyệt, nền tảng sẽ ứng trước tiền hoàn cho anh."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好的，谢谢，效率挺高的！",
+     "vi": "Được, cảm ơn, nhanh thật đấy!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "平台介入",
+     "pinyin": "píngtái jièrù",
+     "vi": "sàn can thiệp",
+     "example": {
+      "zh": "非常抱歉给您带来不好的体验。我帮您申请平台介入，请上传聊天记录和商品照片。",
+      "vi": "Thành thật xin lỗi vì trải nghiệm không tốt. Tôi giúp anh yêu cầu nền tảng can thiệp, anh vui lòng tải lên lịch sử chat và ảnh sản phẩm."
+     }
+    },
+    {
+     "zh": "聊天记录",
+     "pinyin": "liáotiān jìlù",
+     "vi": "lịch sử chat",
+     "example": {
+      "zh": "非常抱歉给您带来不好的体验。我帮您申请平台介入，请上传聊天记录和商品照片。",
+      "vi": "Thành thật xin lỗi vì trải nghiệm không tốt. Tôi giúp anh yêu cầu nền tảng can thiệp, anh vui lòng tải lên lịch sử chat và ảnh sản phẩm."
+     }
+    },
+    {
+     "zh": "截图",
+     "pinyin": "jiétú",
+     "vi": "chụp màn hình"
+    },
+    {
+     "zh": "凭证",
+     "pinyin": "píngzhèng",
+     "vi": "chứng từ"
+    },
+    {
+     "zh": "审核",
+     "pinyin": "shěnhé",
+     "vi": "xét duyệt",
+     "example": {
+      "zh": "审核通过后，平台会先垫付退款给您。",
+      "vi": "Sau khi xét duyệt, nền tảng sẽ ứng trước tiền hoàn cho anh."
+     }
+    },
+    {
+     "zh": "垫付",
+     "pinyin": "diànfù",
+     "vi": "ứng trả trước",
+     "example": {
+      "zh": "审核通过后，平台会先垫付退款给您。",
+      "vi": "Sau khi xét duyệt, nền tảng sẽ ứng trước tiền hoàn cho anh."
+     }
+    },
+    {
+     "zh": "赔偿",
+     "pinyin": "péicháng",
+     "vi": "bồi thường"
+    },
+    {
+     "zh": "退一赔三",
+     "pinyin": "tuì yī péi sān",
+     "vi": "trả 1 đền 3"
+    },
+    {
+     "zh": "不好的体验",
+     "pinyin": "bù hǎo de tǐyàn",
+     "vi": "trải nghiệm không tốt",
+     "example": {
+      "zh": "非常抱歉给您带来不好的体验。我帮您申请平台介入，请上传聊天记录和商品照片。",
+      "vi": "Thành thật xin lỗi vì trải nghiệm không tốt. Tôi giúp anh yêu cầu nền tảng can thiệp, anh vui lòng tải lên lịch sử chat và ảnh sản phẩm."
+     }
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我不想用这个会员了，请帮我___。",
+   "bank": [
+    "霸王条款",
+    "退订",
+    "垫付"
+   ],
+   "answer": "退订"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "麻烦给我一个___，方便以后查询。",
+   "bank": [
+    "霸王条款",
+    "工单号",
+    "好商量"
+   ],
+   "answer": "工单号"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "\"不退不换\"属于___，不算数。",
+   "bank": [
+    "霸王条款",
+    "工单号",
+    "好商量"
+   ],
+   "answer": "霸王条款"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "申请平台介入时，要上传___和商品照片。",
+   "bank": [
+    "聊天记录",
+    "好商量",
+    "霸王条款"
+   ],
+   "answer": "聊天记录"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "审核通过后，平台会先___退款给您。",
+   "bank": [
+    "霸王条款",
+    "聊天记录",
+    "垫付"
+   ],
+   "answer": "垫付"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "别别别，有话___。",
+   "bank": [
+    "好商量",
+    "垫付",
+    "退订"
+   ],
+   "answer": "好商量"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "退款",
+    "要么",
+    "投诉",
+    "要么",
+    "我去"
+   ],
+   "answers": [
+    "要么退款要么我去投诉"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "在先",
+    "违约",
+    "是",
+    "你们"
+   ],
+   "answers": [
+    "是你们违约在先"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "这个业务",
+    "我",
+    "从来没",
+    "开通过"
+   ],
+   "answers": [
+    "我从来没开通过这个业务"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "结果",
+    "没有",
+    "的话",
+    "我会",
+    "升级投诉",
+    "五个工作日"
+   ],
+   "answers": [
+    "五个工作日没有结果的话我会升级投诉"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "维权",
+     "a": "bảo vệ quyền lợi"
+    },
+    {
+     "q": "渠道",
+     "a": "kênh"
+    },
+    {
+     "q": "预付卡 / 储值卡",
+     "a": "thẻ trả trước / thẻ nạp tiền"
+    },
+    {
+     "q": "违约",
+     "a": "vi phạm hợp đồng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn đã từng khiếu nại một dịch vụ nào chưa? Kết quả thế nào?",
+   "Khởi động: Theo bạn, khiếu nại thế nào thì hiệu quả: nói to, nói nhiều hay nói có bằng chứng?",
+   "客服地狱模式 Tổng đài \"chế độ địa ngục\" (12 phút): giáo viên đóng vai nhân viên tổng đài né tránh (\"系统就是这样\", \"我也没办法\"). Học viên phải dùng khung 4 bước và đạt được ít nhất 1 kết quả cụ thể.",
+   "维权模拟调解 Hòa giải giả lập (8 phút): 3 vai (khách, chủ tiệm, hòa giải viên 12315). Hòa giải viên phải đưa ra phương án cả hai chấp nhận.",
+   "Nhiệm vụ thực tế: viết kịch bản khiếu nại 6–8 câu theo khung 4 bước cho một trải nghiệm thật của bạn."
+  ],
+  "patterns": [
+   {
+    "zh": "要么退款，要么我去投诉。",
+    "vi": "Hoặc là hoàn tiền, hoặc là tôi đi khiếu nại."
+   },
+   {
+    "zh": "五个工作日没有结果的话，我会升级投诉。",
+    "vi": "Năm ngày làm việc không có kết quả, tôi sẽ khiếu nại lên cấp trên."
+   },
+   {
+    "zh": "是你们违约在先。",
+    "vi": "Là bên anh vi phạm trước."
+   },
+   {
+    "zh": "我从来没开通过这个业务。",
+    "vi": "Tôi chưa bao giờ đăng ký dịch vụ này."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "12315 và",
+  "body_vi": [
+   "\"3·15\" Người tiêu dùng TQ có thể khiếu nại qua đường dây 12315, website 12315.cn, hoặc mini program 12315 trên WeChat và Alipay; \"投诉\" dùng khi đòi quyền lợi dân sự (đổi, trả, bồi thường), còn \"举报\" dùng khi tố giác hành vi vi phạm (Vân Nam Net). Ngày 15/3 hằng năm là Ngày quyền người tiêu dùng, gắn với chương trình \"3·15晚会\" nổi tiếng trên CCTV. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: 12315 và \"3·15\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Khung 4 bước khi khiếu nại: nêu sự việc (事实) → dẫn quy định (依据) → yêu cầu cụ thể (诉求) → nêu bước tiếp theo (后果). Giọng bình tĩnh, không chửi bới.",
+   "Ứng xử: Luôn xin 工单号, tên nhân viên, thời gian cuộc gọi; lưu ảnh chụp màn hình và ghi âm nếu được phép.",
+   "Ứng xử: Khi đối phương nhượng bộ một phần, có thể chấp nhận nhanh và chốt thời hạn thực hiện."
+  ]
+ }
+}

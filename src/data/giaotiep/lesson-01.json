@@ -1,0 +1,738 @@
+{
+ "id": 1,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "破冰：见面聊天",
+  "pinyin": "pò bīng jiàn miàn liáo tiān",
+  "vi": "Làm quen và hàn huyên kiểu bản xứ"
+ },
+ "grammarTopics_vi": [
+  "挺 + tính từ + 的/啊",
+  "……吧？ đoán rồi xác nhận",
+  "……就行 / 就好",
+  "还行，就是……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tự giới thiệu ngắn gọn",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đáp lời khen",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Bắt chuyện với hàng xóm",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Thêm WeChat",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Duy trì câu chuyện 3 phút",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "宿舍楼下",
+   "context_vi": "Bài khoá 1: 宿舍楼下 – Dưới ký túc xá",
+   "scene": "👋",
+   "lines": [
+    {
+     "speaker": "gt-lixiang",
+     "zh": "你好，你也是新来的吧？",
+     "vi": "Chào bạn, bạn cũng mới đến à?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "对，我叫阮明，越南来的，你叫我小明就行。",
+     "vi": "Ừ, mình tên Nguyễn Minh, đến từ Việt Nam, bạn cứ gọi mình là Tiểu Minh."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "我叫李想，本地人。你中文说得挺溜啊！",
+     "vi": "Mình là Lý Tưởng, người ở đây. Tiếng Trung của bạn trôi chảy ghê!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "哪里哪里，还差得远呢。你是学什么专业的？",
+     "vi": "Đâu có đâu có, còn kém xa lắm. Bạn học chuyên ngành gì?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "计算机。你呢？",
+     "vi": "Máy tính. Còn bạn?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "国际贸易。对了，咱们加个微信吧？",
+     "vi": "Thương mại quốc tế. À này, mình kết bạn WeChat nhé?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "行啊，我扫你还是你扫我？",
+     "vi": "Được thôi, mình quét bạn hay bạn quét mình?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我扫你吧。……好了，你通过一下。",
+     "vi": "Để mình quét bạn. … Xong rồi, bạn chấp nhận giúp mình nhé."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "通过了。以后有啥事儿随时找我。",
+     "vi": "Chấp nhận rồi. Sau này có việc gì cứ tìm mình bất cứ lúc nào."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "太好了，以后多多关照！",
+     "vi": "Tốt quá, sau này mong bạn giúp đỡ nhiều!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "新来的",
+     "pinyin": "xīn lái de",
+     "vi": "người mới đến",
+     "example": {
+      "zh": "你好，你也是新来的吧？",
+      "vi": "Chào bạn, bạn cũng mới đến à?"
+     }
+    },
+    {
+     "zh": "叫我……就行",
+     "pinyin": "jiào wǒ… jiù xíng",
+     "vi": "cứ gọi tôi là…"
+    },
+    {
+     "zh": "本地人",
+     "pinyin": "běndì rén",
+     "vi": "người địa phương",
+     "example": {
+      "zh": "我叫李想，本地人。你中文说得挺溜啊！",
+      "vi": "Mình là Lý Tưởng, người ở đây. Tiếng Trung của bạn trôi chảy ghê!"
+     }
+    },
+    {
+     "zh": "溜",
+     "pinyin": "liū",
+     "vi": "(khẩu ngữ) trôi chảy, giỏi",
+     "example": {
+      "zh": "我叫李想，本地人。你中文说得挺溜啊！",
+      "vi": "Mình là Lý Tưởng, người ở đây. Tiếng Trung của bạn trôi chảy ghê!"
+     }
+    },
+    {
+     "zh": "哪里哪里",
+     "pinyin": "nǎli nǎli",
+     "vi": "đâu có (đáp lời khen)",
+     "example": {
+      "zh": "哪里哪里，还差得远呢。你是学什么专业的？",
+      "vi": "Đâu có đâu có, còn kém xa lắm. Bạn học chuyên ngành gì?"
+     }
+    },
+    {
+     "zh": "还差得远呢",
+     "pinyin": "hái chà de yuǎn ne",
+     "vi": "còn kém xa",
+     "example": {
+      "zh": "哪里哪里，还差得远呢。你是学什么专业的？",
+      "vi": "Đâu có đâu có, còn kém xa lắm. Bạn học chuyên ngành gì?"
+     }
+    },
+    {
+     "zh": "专业",
+     "pinyin": "zhuānyè",
+     "vi": "chuyên ngành",
+     "example": {
+      "zh": "哪里哪里，还差得远呢。你是学什么专业的？",
+      "vi": "Đâu có đâu có, còn kém xa lắm. Bạn học chuyên ngành gì?"
+     }
+    },
+    {
+     "zh": "加微信",
+     "pinyin": "jiā Wēixìn",
+     "vi": "kết bạn WeChat"
+    },
+    {
+     "zh": "扫",
+     "pinyin": "sǎo",
+     "vi": "quét (mã)",
+     "example": {
+      "zh": "行啊，我扫你还是你扫我？",
+      "vi": "Được thôi, mình quét bạn hay bạn quét mình?"
+     }
+    },
+    {
+     "zh": "通过（好友验证）",
+     "pinyin": "tōngguò",
+     "vi": "chấp nhận lời mời kết bạn"
+    },
+    {
+     "zh": "随时",
+     "pinyin": "suíshí",
+     "vi": "bất cứ lúc nào",
+     "example": {
+      "zh": "通过了。以后有啥事儿随时找我。",
+      "vi": "Chấp nhận rồi. Sau này có việc gì cứ tìm mình bất cứ lúc nào."
+     }
+    },
+    {
+     "zh": "多多关照",
+     "pinyin": "duōduō guānzhào",
+     "vi": "mong được giúp đỡ",
+     "example": {
+      "zh": "太好了，以后多多关照！",
+      "vi": "Tốt quá, sau này mong bạn giúp đỡ nhiều!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g1-1",
+     "title_zh": "挺 + tính từ + 的/啊",
+     "title_vi": "Mức độ vừa, rất khẩu ngữ",
+     "formula": [
+      [
+       {
+        "zh": "挺",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "tính từ",
+        "role": "V"
+       },
+       {
+        "zh": "的/啊",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "挺 là phó từ chỉ mức độ \"khá, rất\", nhẹ hơn 非常/特别 và mang đậm màu sắc khẩu ngữ. Cấu trúc thường gặp: 挺 + tính từ/động từ tâm lý + 的/啊. Chữ 的 ở cuối làm câu nghe tự nhiên, trọn ý; 啊 thêm sắc thái cảm thán. Khi bổ ngữ trình độ có 得, đặt 挺 sau 得: 说得挺溜, 做得挺好.",
+     "examples": [
+      {
+       "zh": "你中文说得挺溜啊！",
+       "vi": "Tiếng Trung của bạn trôi chảy ghê!"
+      },
+      {
+       "zh": "这儿挺方便的。",
+       "vi": "Ở đây khá tiện."
+      }
+     ]
+    },
+    {
+     "id": "gt-g1-2",
+     "title_zh": "……吧？ đoán rồi xác nhận",
+     "title_vi": "……吧？ đoán rồi xác nhận",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "……吧？ đoán rồi xác nhận",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "吧 đặt cuối câu trần thuật biến câu đó thành câu hỏi \"đoán rồi xác nhận\": người nói đã có phán đoán khoảng 70–80% và muốn người nghe xác nhận. Khác với 吗 (hỏi thật, không đoán trước). Ngữ điệu hơi lên ở cuối. Đây là cách bắt chuyện rất tự nhiên vì thể hiện sự quan sát của người hỏi.",
+     "examples": [
+      {
+       "zh": "你也是新来的吧？",
+       "vi": "Bạn cũng mới đến à?"
+      },
+      {
+       "zh": "你是南方人吧？",
+       "vi": "Bạn là người miền Nam phải không?"
+      }
+     ]
+    },
+    {
+     "id": "gt-g1-3",
+     "title_zh": "……就行 / 就好",
+     "title_vi": "Yêu cầu tối thiểu, giảm khách sáo",
+     "formula": [
+      [
+       {
+        "zh": "……就行 / 就好",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……就行 / ……就好 diễn đạt \"chỉ cần… là được\", nêu yêu cầu tối thiểu, giúp câu nói bớt khách sáo và làm người nghe thấy nhẹ nhõm. Cấu trúc: (主语) + V + 就行/就好. Hay dùng khi đề nghị cách xưng hô (叫我……就行), khi chỉ dẫn (放这儿就好) hoặc khi từ chối sự giúp đỡ dư thừa.",
+     "examples": [
+      {
+       "zh": "叫我小明就行。",
+       "vi": "Cứ gọi tôi là Tiểu Minh là được."
+      },
+      {
+       "zh": "放这儿就好。",
+       "vi": "Để ở đây là được."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "电梯里遇到邻居阿姨",
+   "context_vi": "Bài khoá 2: 电梯里遇到邻居阿姨 – Gặp cô hàng xóm trong thang máy",
+   "scene": "👋",
+   "lines": [
+    {
+     "speaker": "gt-ayi",
+     "zh": "小伙子，吃了吗？",
+     "vi": "Chàng trai, ăn cơm chưa?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "吃了吃了。阿姨您出去啊？",
+     "vi": "Ăn rồi ạ. Cô đi ra ngoài ạ?"
+    },
+    {
+     "speaker": "gt-ayi",
+     "zh": "去菜市场买点儿菜。你一个人住这儿，习惯吗？",
+     "vi": "Ra chợ mua ít rau. Cháu ở đây một mình có quen không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "还行，就是天儿太干了，嗓子老疼。",
+     "vi": "Cũng ổn ạ, chỉ là trời khô quá, họng cứ đau."
+    },
+    {
+     "speaker": "gt-ayi",
+     "zh": "北方就这样，多喝点儿热水。有空来家里坐坐。",
+     "vi": "Miền Bắc là vậy đấy, uống nhiều nước ấm vào. Rảnh thì qua nhà cô chơi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好嘞，谢谢阿姨！您慢走。",
+     "vi": "Dạ vâng, cháu cảm ơn cô! Cô đi cẩn thận ạ."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "小伙子 / 姑娘",
+     "pinyin": "xiǎohuǒzi / gūniang",
+     "vi": "chàng trai / cô gái (người lớn tuổi gọi)"
+    },
+    {
+     "zh": "吃了吗",
+     "pinyin": "chī le ma",
+     "vi": "câu chào (không phải hỏi thật)",
+     "example": {
+      "zh": "小伙子，吃了吗？",
+      "vi": "Chàng trai, ăn cơm chưa?"
+     }
+    },
+    {
+     "zh": "习惯",
+     "pinyin": "xíguàn",
+     "vi": "quen",
+     "example": {
+      "zh": "去菜市场买点儿菜。你一个人住这儿，习惯吗？",
+      "vi": "Ra chợ mua ít rau. Cháu ở đây một mình có quen không?"
+     }
+    },
+    {
+     "zh": "还行",
+     "pinyin": "hái xíng",
+     "vi": "cũng được",
+     "example": {
+      "zh": "还行，就是天儿太干了，嗓子老疼。",
+      "vi": "Cũng ổn ạ, chỉ là trời khô quá, họng cứ đau."
+     }
+    },
+    {
+     "zh": "天儿",
+     "pinyin": "tiānr",
+     "vi": "thời tiết (khẩu ngữ miền Bắc)",
+     "example": {
+      "zh": "还行，就是天儿太干了，嗓子老疼。",
+      "vi": "Cũng ổn ạ, chỉ là trời khô quá, họng cứ đau."
+     }
+    },
+    {
+     "zh": "干",
+     "pinyin": "gān",
+     "vi": "khô hanh",
+     "example": {
+      "zh": "还行，就是天儿太干了，嗓子老疼。",
+      "vi": "Cũng ổn ạ, chỉ là trời khô quá, họng cứ đau."
+     }
+    },
+    {
+     "zh": "嗓子",
+     "pinyin": "sǎngzi",
+     "vi": "cổ họng",
+     "example": {
+      "zh": "还行，就是天儿太干了，嗓子老疼。",
+      "vi": "Cũng ổn ạ, chỉ là trời khô quá, họng cứ đau."
+     }
+    },
+    {
+     "zh": "多喝热水",
+     "pinyin": "duō hē rèshuǐ",
+     "vi": "uống nhiều nước ấm (câu quan tâm \"quốc dân\")"
+    },
+    {
+     "zh": "坐坐",
+     "pinyin": "zuòzuo",
+     "vi": "ghé chơi",
+     "example": {
+      "zh": "北方就这样，多喝点儿热水。有空来家里坐坐。",
+      "vi": "Miền Bắc là vậy đấy, uống nhiều nước ấm vào. Rảnh thì qua nhà cô chơi."
+     }
+    },
+    {
+     "zh": "好嘞",
+     "pinyin": "hǎo lei",
+     "vi": "được thôi, ok (thân mật)",
+     "example": {
+      "zh": "好嘞，谢谢阿姨！您慢走。",
+      "vi": "Dạ vâng, cháu cảm ơn cô! Cô đi cẩn thận ạ."
+     }
+    },
+    {
+     "zh": "您慢走",
+     "pinyin": "nín màn zǒu",
+     "vi": "đi cẩn thận nhé (tiễn người)",
+     "example": {
+      "zh": "好嘞，谢谢阿姨！您慢走。",
+      "vi": "Dạ vâng, cháu cảm ơn cô! Cô đi cẩn thận ạ."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "食堂里找话题",
+   "context_vi": "Bài khoá 3: 食堂里找话题 – Tìm chủ đề ở căng tin",
+   "scene": "👋",
+   "lines": [
+    {
+     "speaker": "gt-lixiang",
+     "zh": "你们越南冬天冷不冷？",
+     "vi": "Mùa đông ở Việt Nam các bạn có lạnh không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "南方基本没冬天，一年到头都二三十度。",
+     "vi": "Miền Nam gần như không có mùa đông, quanh năm đều hai ba mươi độ."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "真羡慕！那你来北京第一个冬天，扛得住吗？",
+     "vi": "Ghen tị thật! Vậy mùa đông đầu tiên ở Bắc Kinh, bạn có chịu nổi không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "说实话，有点儿扛不住，我已经买了两件羽绒服了。",
+     "vi": "Nói thật là hơi không chịu nổi, mình mua hai cái áo phao rồi."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "哈哈，越南菜我只吃过河粉。",
+     "vi": "Haha, món Việt mình mới ăn mỗi phở."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "下次我带你去吃正宗的，我请客！",
+     "vi": "Lần sau mình dẫn bạn đi ăn món chuẩn vị, mình mời!"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "那哪儿好意思？这回我请，下回你请。",
+     "vi": "Thế sao được? Lần này mình mời, lần sau bạn mời."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "一年到头",
+     "pinyin": "yì nián dào tóu",
+     "vi": "quanh năm",
+     "example": {
+      "zh": "南方基本没冬天，一年到头都二三十度。",
+      "vi": "Miền Nam gần như không có mùa đông, quanh năm đều hai ba mươi độ."
+     }
+    },
+    {
+     "zh": "羡慕",
+     "pinyin": "xiànmù",
+     "vi": "ngưỡng mộ, ghen tị",
+     "example": {
+      "zh": "真羡慕！那你来北京第一个冬天，扛得住吗？",
+      "vi": "Ghen tị thật! Vậy mùa đông đầu tiên ở Bắc Kinh, bạn có chịu nổi không?"
+     }
+    },
+    {
+     "zh": "扛得住 / 扛不住",
+     "pinyin": "káng de zhù / bu zhù",
+     "vi": "chịu nổi / không chịu nổi"
+    },
+    {
+     "zh": "说实话",
+     "pinyin": "shuō shíhuà",
+     "vi": "nói thật là",
+     "example": {
+      "zh": "说实话，有点儿扛不住，我已经买了两件羽绒服了。",
+      "vi": "Nói thật là hơi không chịu nổi, mình mua hai cái áo phao rồi."
+     }
+    },
+    {
+     "zh": "羽绒服",
+     "pinyin": "yǔróngfú",
+     "vi": "áo phao lông vũ",
+     "example": {
+      "zh": "说实话，有点儿扛不住，我已经买了两件羽绒服了。",
+      "vi": "Nói thật là hơi không chịu nổi, mình mua hai cái áo phao rồi."
+     }
+    },
+    {
+     "zh": "正宗",
+     "pinyin": "zhèngzōng",
+     "vi": "chính gốc, chuẩn vị",
+     "example": {
+      "zh": "下次我带你去吃正宗的，我请客！",
+      "vi": "Lần sau mình dẫn bạn đi ăn món chuẩn vị, mình mời!"
+     }
+    },
+    {
+     "zh": "请客",
+     "pinyin": "qǐngkè",
+     "vi": "mời, bao (ăn uống)",
+     "example": {
+      "zh": "下次我带你去吃正宗的，我请客！",
+      "vi": "Lần sau mình dẫn bạn đi ăn món chuẩn vị, mình mời!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g1-4",
+     "title_zh": "还行，就是……",
+     "title_vi": "\"cũng ổn, chỉ có điều…\", câu mở để kể chuyện",
+     "formula": [
+      [
+       {
+        "zh": "还行，就是……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "还行，就是…… dùng để trả lời câu hỏi \"có ổn không / quen chưa\" theo kiểu người bản xứ: trước tiên khẳng định nhìn chung ổn (还行), sau đó dùng 就是 (\"chỉ có điều\") để nêu một điểm chưa ổn. Câu này giúp mở ra câu chuyện thay vì trả lời cụt \"习惯\" hay \"不习惯\". Sau 就是 thường là 有点儿 + tính từ, 太 + tính từ + 了, hoặc một sự việc cụ thể.",
+     "examples": [
+      {
+       "zh": "还行，就是有点儿想家。",
+       "vi": "Cũng ổn, chỉ là hơi nhớ nhà."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "有什么问题___给我打电话。",
+   "bank": [
+    "随时",
+    "还行",
+    "说实话"
+   ],
+   "answer": "随时"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "___，我还不太习惯这儿的天气。",
+   "bank": [
+    "正宗",
+    "羡慕",
+    "说实话"
+   ],
+   "answer": "说实话"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "这家越南粉很___，跟河内的一样。",
+   "bank": [
+    "说实话",
+    "还行",
+    "正宗"
+   ],
+   "answer": "正宗"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "今天是我生日，我___！",
+   "bank": [
+    "请客",
+    "羡慕",
+    "还行"
+   ],
+   "answer": "请客"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "你明年要去北京留学？真___你！",
+   "bank": [
+    "说实话",
+    "羡慕",
+    "请客"
+   ],
+   "answer": "羡慕"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "A：你最近怎么样？B：___，就是工作有点儿忙。",
+   "bank": [
+    "随时",
+    "正宗",
+    "还行"
+   ],
+   "answer": "还行"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "新来的",
+    "你",
+    "吧",
+    "也是"
+   ],
+   "answers": [
+    "你也是新来的吧"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "叫",
+    "就行",
+    "你",
+    "小明",
+    "我"
+   ],
+   "answers": [
+    "你叫我小明就行"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "说得",
+    "你",
+    "挺",
+    "中文",
+    "溜啊"
+   ],
+   "answers": [
+    "你中文说得挺溜啊"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "加个",
+    "咱们",
+    "吧",
+    "微信"
+   ],
+   "answers": [
+    "咱们加个微信吧"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "叫我……就行",
+     "a": "cứ gọi tôi là…"
+    },
+    {
+     "q": "哪里哪里",
+     "a": "đâu có (đáp lời khen)"
+    },
+    {
+     "q": "加微信",
+     "a": "kết bạn WeChat"
+    },
+    {
+     "q": "多多关照",
+     "a": "mong được giúp đỡ"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn thường chào hàng xóm hoặc người mới quen như thế nào bằng tiếng Việt? Câu chào đó có phải là câu hỏi thật không?",
+   "Khởi động: Khi được khen \"Tiếng Trung của bạn giỏi quá\", bạn thường đáp lại ra sao?",
+   "快速交友 Speed-friending (10 phút): 2 hàng ghế đối diện, mỗi cặp nói 90 giây rồi dịch sang người kế tiếp. Bắt buộc dùng 3 cấu trúc: 挺……的, ……吧？, 还行，就是……",
+   "找共同点 Tìm điểm chung (8 phút): mỗi nhóm 3–4 người tìm ra 3 điểm chung mà không được hỏi trực tiếp \"你喜欢X吗？\"; nhóm nào xong trước và báo cáo bằng tiếng Trung sẽ thắng.",
+   "Nhiệm vụ thực tế: ghi âm 1 phút tự giới thiệu kiểu \"nói chuyện\" (không đọc), gửi nhóm lớp."
+  ],
+  "patterns": [
+   {
+    "zh": "你中文说得挺溜啊！",
+    "vi": "Tiếng Trung của bạn trôi chảy ghê!"
+   },
+   {
+    "zh": "你也是新来的吧？",
+    "vi": "Bạn cũng mới đến à?"
+   },
+   {
+    "zh": "叫我小明就行。",
+    "vi": "Cứ gọi tôi là Tiểu Minh là được."
+   },
+   {
+    "zh": "还行，就是有点儿想家。",
+    "vi": "Cũng ổn, chỉ là hơi nhớ nhà."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "寒暄 (hàn huyên) không phải để hỏi thông tin",
+  "body_vi": [
+   "Người Trung Quốc chào nhau bằng câu hỏi về việc đang làm (吃了吗, 回来啦, 买菜去啊). Câu trả lời mong đợi là một lời xác nhận ngắn. Ranh giới riêng tư cũng khác người Việt ở chỗ: hỏi tuổi, quê, công việc là cách thể hiện sự thân thiện, nhưng hỏi thẳng chuyện chính trị hay tôn giáo thì nên tránh. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: 寒暄 (hàn huyên) không phải để hỏi thông tin Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Được khen tiếng Trung giỏi: người lớn tuổi thích nghe 哪里哪里；bạn trẻ thì cứ 谢谢！还在学呢 là tự nhiên nhất.",
+   "Ứng xử: \"吃了吗 / 出去啊 / 上班去啊\" là câu chào. Trả lời ngắn rồi hỏi lại, không kể chi tiết bữa ăn.",
+   "Ứng xử: Khi kết bạn WeChat, thường người đề nghị sẽ quét mã người kia; nhớ ghi chú tên (备注) ngay để khỏi quên.",
+   "Ứng xử: Bị hỏi tuổi, lương, có người yêu chưa: đây là quan tâm, không phải bất lịch sự. Muốn lảng thì cười: 保密～ / 够花就行。"
+  ]
+ }
+}

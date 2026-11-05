@@ -1,0 +1,427 @@
+{
+ "lessonId": 1,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）有什么问题{{1}}给我打电话。\n（2）{{2}}，我还不太习惯这儿的天气。\n（3）这家越南粉很{{3}}，跟河内的一样。\n（4）今天是我生日，我{{4}}！\n（5）你明年要去北京留学？真{{5}}你！\n（6）A：你最近怎么样？B：{{6}}，就是工作有点儿忙。",
+     "bank": [
+      "随时",
+      "还行",
+      "羡慕",
+      "正宗",
+      "请客",
+      "说实话"
+     ],
+     "answers": [
+      "随时",
+      "说实话",
+      "正宗",
+      "请客",
+      "羡慕",
+      "还行"
+     ],
+     "explain_vi": "随时、说实话、正宗、请客、羡慕、还行"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "叫我……就行",
+       "a": "cứ gọi tôi là…"
+      },
+      {
+       "q": "哪里哪里",
+       "a": "đâu có (đáp lời khen)"
+      },
+      {
+       "q": "加微信",
+       "a": "kết bạn WeChat"
+      },
+      {
+       "q": "多多关照",
+       "a": "mong được giúp đỡ"
+      },
+      {
+       "q": "天儿",
+       "a": "thời tiết (khẩu ngữ miền Bắc)"
+      },
+      {
+       "q": "坐坐",
+       "a": "ghé chơi"
+      }
+     ],
+     "explain_vi": "叫我……就行 = cứ gọi tôi là… · 哪里哪里 = đâu có (đáp lời khen) · 加微信 = kết bạn WeChat · 多多关照 = mong được giúp đỡ · 天儿 = thời tiết (khẩu ngữ miền Bắc) · 坐坐 = ghé chơi"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "新来的",
+      "你",
+      "吧",
+      "也是"
+     ],
+     "answers": [
+      "你也是新来的吧"
+     ],
+     "explain_vi": "你也是新来的吧？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "叫",
+      "就行",
+      "你",
+      "小明",
+      "我"
+     ],
+     "answers": [
+      "你叫我小明就行"
+     ],
+     "explain_vi": "你叫我小明就行。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "说得",
+      "你",
+      "挺",
+      "中文",
+      "溜啊"
+     ],
+     "answers": [
+      "你中文说得挺溜啊"
+     ],
+     "explain_vi": "你中文说得挺溜啊！"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "加个",
+      "咱们",
+      "吧",
+      "微信"
+     ],
+     "answers": [
+      "咱们加个微信吧"
+     ],
+     "explain_vi": "咱们加个微信吧？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Đâu có đâu có, tôi còn kém xa lắm.",
+     "acceptedAnswers": [
+      "哪里哪里，还差得远呢。"
+     ],
+     "requiredKeywords": [
+      "哪里哪里",
+      "还差得远呢"
+     ],
+     "explain_vi": "Đáp án tham khảo: 哪里哪里，还差得远呢。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Cũng ổn, chỉ là thời tiết khô quá, họng tôi cứ đau.",
+     "acceptedAnswers": [
+      "还行，就是天儿太干了，嗓子老疼。"
+     ],
+     "requiredKeywords": [
+      "还行",
+      "天儿"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还行，就是天儿太干了，嗓子老疼。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Lần này tôi mời, lần sau bạn mời nhé.",
+     "acceptedAnswers": [
+      "这回我请，下回你请。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 这回我请，下回你请。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 挺 + tính từ + 的/啊",
+   "instructions_vi": "Dùng 挺……的 / 挺……啊 để hoàn thành câu theo gợi ý trong ngoặc.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "这个宿舍______。(sạch sẽ)",
+     "acceptedAnswers": [
+      "这个宿舍挺干净的。"
+     ],
+     "requiredKeywords": [
+      "挺",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这个宿舍挺干净的。",
+     "grammarRef": "gt-g1-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "你做的菜______！(ngon)",
+     "acceptedAnswers": [
+      "你做的菜挺好吃的！"
+     ],
+     "requiredKeywords": [
+      "挺",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你做的菜挺好吃的！",
+     "grammarRef": "gt-g1-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "他汉语说得______。(trôi chảy)",
+     "acceptedAnswers": [
+      "他汉语说得挺溜的。"
+     ],
+     "requiredKeywords": [
+      "挺",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 他汉语说得挺溜的。",
+     "grammarRef": "gt-g1-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "北京的冬天______，你要多穿点儿。(lạnh)",
+     "acceptedAnswers": [
+      "北京的冬天挺冷的，你要多穿点儿。"
+     ],
+     "requiredKeywords": [
+      "挺",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 北京的冬天挺冷的，你要多穿点儿。",
+     "grammarRef": "gt-g1-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……吧？ đoán rồi xác nhận",
+   "instructions_vi": "Chuyển câu hỏi dùng 吗 thành câu hỏi dùng 吧 thể hiện sự phỏng đoán.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "你是越南人吗？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "你是越南人吧？"
+     ],
+     "requiredKeywords": [
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你是越南人吧？",
+     "grammarRef": "gt-g1-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "你是新来的吗？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "你也是新来的吧？",
+      "你是新来的吧？"
+     ],
+     "requiredKeywords": [
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你也是新来的吧？ / 你是新来的吧？",
+     "grammarRef": "gt-g1-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "你还没吃饭吗？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "你还没吃饭吧？"
+     ],
+     "requiredKeywords": [
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你还没吃饭吧？",
+     "grammarRef": "gt-g1-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "这是你的手机吗？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "这是你的手机吧？"
+     ],
+     "requiredKeywords": [
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这是你的手机吧？",
+     "grammarRef": "gt-g1-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: ……就行 / 就好",
+   "instructions_vi": "Hoàn thành câu bằng ……就行 / ……就好.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "不用叫我\"阮先生\"，______。(cứ gọi tôi là Tiểu Minh)",
+     "acceptedAnswers": [
+      "不用叫我\"阮先生\"，叫我小明就行。"
+     ],
+     "requiredKeywords": [
+      "就行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不用叫我\"阮先生\"，叫我小明就行。",
+     "grammarRef": "gt-g1-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "东西不用拿上来，______。(để ở cửa là được)",
+     "acceptedAnswers": [
+      "东西不用拿上来，放门口就行。"
+     ],
+     "requiredKeywords": [
+      "就行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 东西不用拿上来，放门口就行。",
+     "grammarRef": "gt-g1-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "不用买礼物，你______。(đến là được rồi)",
+     "acceptedAnswers": [
+      "不用买礼物，你来就好。"
+     ],
+     "requiredKeywords": [
+      "就好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不用买礼物，你来就好。",
+     "grammarRef": "gt-g1-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "A：要我帮你什么？B：不用，你______。(gửi cho tôi số điện thoại là được)",
+     "acceptedAnswers": [
+      "不用，你把电话号码发给我就行。"
+     ],
+     "requiredKeywords": [
+      "就行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不用，你把电话号码发给我就行。",
+     "grammarRef": "gt-g1-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 还行，就是……",
+   "instructions_vi": "Trả lời các câu hỏi sau bằng 还行，就是…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "你住这儿习惯吗？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "还行，就是天儿太干了。"
+     ],
+     "requiredKeywords": [
+      "还行",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还行，就是天儿太干了。",
+     "grammarRef": "gt-g1-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "新工作怎么样？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "还行，就是每天下班有点儿晚。"
+     ],
+     "requiredKeywords": [
+      "还行",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还行，就是每天下班有点儿晚。",
+     "grammarRef": "gt-g1-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "这家饭馆的菜怎么样？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "还行，就是有点儿咸。"
+     ],
+     "requiredKeywords": [
+      "还行",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还行，就是有点儿咸。",
+     "grammarRef": "gt-g1-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "你来中国以后过得怎么样？ → ________________________________________________________",
+     "acceptedAnswers": [
+      "还行，就是有点儿想家。"
+     ],
+     "requiredKeywords": [
+      "还行",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 还行，就是有点儿想家。",
+     "grammarRef": "gt-g1-4"
+    }
+   ]
+  }
+ ]
+}

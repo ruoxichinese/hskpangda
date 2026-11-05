@@ -1,0 +1,426 @@
+{
+ "lessonId": 18,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）你今天看起来好放松，好有{{1}}！\n（2）这个地方特别{{2}}，随便拍都好看。\n（3）你{{3}}，每次都夸得我好开心。\n（4）不是你的问题，是他们{{4}}。\n（5）你负责社交，我负责吃，咱俩{{5}}！\n（6）带你吃好吃的，情绪价值{{6}}！",
+     "bank": [
+      "松弛感",
+      "出片",
+      "嘴甜",
+      "没眼光",
+      "绝配",
+      "拉满"
+     ],
+     "answers": [
+      "松弛感",
+      "出片",
+      "嘴甜",
+      "没眼光",
+      "绝配",
+      "拉满"
+     ],
+     "explain_vi": "松弛感、出片、嘴甜、没眼光、绝配、拉满"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "真的假的",
+       "a": "thật á?"
+      },
+      {
+       "q": "一整个……住了",
+       "a": "hoàn toàn bị… (一整个爱住了)"
+      },
+      {
+       "q": "溜",
+       "a": "chuồn"
+      },
+      {
+       "q": "服了",
+       "a": "chịu thua, bó tay"
+      },
+      {
+       "q": "救命",
+       "a": "cứu với (phóng đại)"
+      },
+      {
+       "q": "上头",
+       "a": "nghiện, cuốn"
+      }
+     ],
+     "explain_vi": "真的假的 = thật á? · 一整个……住了 = hoàn toàn bị… (一整个爱住了) · 溜 = chuồn · 服了 = chịu thua, bó tay · 救命 = cứu với (phóng đại) · 上头 = nghiện, cuốn"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "好有",
+      "你今天",
+      "松弛感"
+     ],
+     "answers": [
+      "你今天好有松弛感"
+     ],
+     "explain_vi": "你今天好有松弛感！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "住了",
+      "一整个",
+      "我",
+      "爱"
+     ],
+     "answers": [
+      "我一整个爱住了"
+     ],
+     "explain_vi": "我一整个爱住了。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "有被",
+      "到",
+      "你",
+      "笑"
+     ],
+     "answers": [
+      "有被你笑到"
+     ],
+     "explain_vi": "有被你笑到。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "属于是",
+      "离谱",
+      "这波"
+     ],
+     "answers": [
+      "这波离谱属于是"
+     ],
+     "explain_vi": "这波离谱属于是。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Thật á? Tớ mặc đại thôi mà.",
+     "acceptedAnswers": [
+      "真的假的？我随便穿的。"
+     ],
+     "requiredKeywords": [
+      "真的假的",
+      "随便"
+     ],
+     "explain_vi": "Đáp án tham khảo: 真的假的？我随便穿的。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Ôm cái nào! Không phải lỗi của cậu đâu.",
+     "acceptedAnswers": [
+      "抱抱！不是你的问题。"
+     ],
+     "requiredKeywords": [
+      "抱抱"
+     ],
+     "explain_vi": "Đáp án tham khảo: 抱抱！不是你的问题。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Tớ là người hướng nội, đông người lạ là muốn chuồn.",
+     "acceptedAnswers": [
+      "我是i人，不认识的人一多我就想溜。"
+     ],
+     "requiredKeywords": [
+      "i人"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我是i人，不认识的人一多我就想溜。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 好 + tính từ + 啊/哦",
+   "instructions_vi": "Viết lời khen hoặc cảm thán với 好 + tính từ.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn khen bộ đồ của bạn bè rất đẹp. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你这身好好看啊！"
+     ],
+     "requiredKeywords": [
+      "好",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你这身好好看啊！",
+     "grammarRef": "gt-g18-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn thấy món ăn rất ngon. → ________________________________________________________",
+     "acceptedAnswers": [
+      "这个好好吃啊！"
+     ],
+     "requiredKeywords": [
+      "好",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这个好好吃啊！",
+     "grammarRef": "gt-g18-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn thấy giá vé chợ đen thật vô lý. → ________________________________________________________",
+     "acceptedAnswers": [
+      "黄牛票三千多，好离谱！"
+     ],
+     "requiredKeywords": [
+      "好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 黄牛票三千多，好离谱！",
+     "grammarRef": "gt-g18-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn thấy con mèo rất đáng yêu. → ________________________________________________________",
+     "acceptedAnswers": [
+      "这只猫好可爱哦！"
+     ],
+     "requiredKeywords": [
+      "好",
+      "哦"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这只猫好可爱哦！",
+     "grammarRef": "gt-g18-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 一整个 + V/Adj + 住了",
+   "instructions_vi": "Dùng 一整个……住了 để phản ứng trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn xem ảnh một chú chó dễ thương và mê mẩn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "一整个爱住了！"
+     ],
+     "requiredKeywords": [
+      "一整个",
+      "住了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一整个爱住了！",
+     "grammarRef": "gt-g18-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Đồng nghiệp đổ lỗi cho bạn vô lý quá. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我一整个无语住了。"
+     ],
+     "requiredKeywords": [
+      "一整个",
+      "住了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我一整个无语住了。",
+     "grammarRef": "gt-g18-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn trượt phỏng vấn, buồn rũ người. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我现在一整个emo住了。"
+     ],
+     "requiredKeywords": [
+      "一整个",
+      "住了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我现在一整个emo住了。",
+     "grammarRef": "gt-g18-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn nghe một câu chuyện cảm động. → ________________________________________________________",
+     "acceptedAnswers": [
+      "一整个感动住了。"
+     ],
+     "requiredKeywords": [
+      "一整个",
+      "住了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一整个感动住了。",
+     "grammarRef": "gt-g18-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 有被 + V + 到",
+   "instructions_vi": "Viết lại câu bằng 有被……到.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "你的话让我很感动。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "有被你的话感动到。"
+     ],
+     "requiredKeywords": [
+      "有被",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 有被你的话感动到。",
+     "grammarRef": "gt-g18-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "这个视频吓了我一跳。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "有被这个视频吓到。"
+     ],
+     "requiredKeywords": [
+      "有被",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 有被这个视频吓到。",
+     "grammarRef": "gt-g18-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "你太搞笑了，我笑了半天。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "有被你笑到。"
+     ],
+     "requiredKeywords": [
+      "有被",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 有被你笑到。",
+     "grammarRef": "gt-g18-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "这家店的价格让我很惊讶。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "有被这家店的价格惊到。"
+     ],
+     "requiredKeywords": [
+      "有被",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 有被这家店的价格惊到。",
+     "grammarRef": "gt-g18-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: ……属于是",
+   "instructions_vi": "Viết lại câu theo kiểu ……属于是.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "这次真是太离谱了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "这波离谱属于是。"
+     ],
+     "requiredKeywords": [
+      "属于是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这波离谱属于是。",
+     "grammarRef": "gt-g18-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "今天真快乐。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "快乐属于是。"
+     ],
+     "requiredKeywords": [
+      "属于是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 快乐属于是。",
+     "grammarRef": "gt-g18-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "他这是在凡尔赛。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "凡尔赛属于是。"
+     ],
+     "requiredKeywords": [
+      "属于是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 凡尔赛属于是。",
+     "grammarRef": "gt-g18-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "这次考试是我自己太大意了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "大意了属于是。"
+     ],
+     "requiredKeywords": [
+      "属于是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 大意了属于是。",
+     "grammarRef": "gt-g18-4"
+    }
+   ]
+  }
+ ]
+}

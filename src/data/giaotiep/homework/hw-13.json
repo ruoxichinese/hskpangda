@@ -1,0 +1,409 @@
+{
+ "lessonId": 13,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）第一次来医院，得先{{1}}再看病。\n（2）我对青霉素{{2}}。\n（3）抽血要{{3}}吗？\n（4）挂好号以后去二楼{{4}}，叫到号再进去。\n（5）麻烦开一张{{5}}，我要跟公司请假。\n（6）三天以后还不退烧的话，回来{{6}}。",
+     "bank": [
+      "挂号",
+      "空腹",
+      "过敏",
+      "复诊",
+      "候诊",
+      "假条"
+     ],
+     "answers": [
+      "挂号",
+      "过敏",
+      "空腹",
+      "候诊",
+      "假条",
+      "复诊"
+     ],
+     "explain_vi": "挂号、过敏、空腹、候诊、假条、复诊"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "自助机",
+       "a": "máy tự phục vụ"
+      },
+      {
+       "q": "内科 / 外科",
+       "a": "khoa nội / khoa ngoại"
+      },
+      {
+       "q": "发烧",
+       "a": "sốt"
+      },
+      {
+       "q": "咳嗽 / 有痰",
+       "a": "ho / có đờm"
+      },
+      {
+       "q": "拍片 / 胸片",
+       "a": "chụp X-quang / phim ngực"
+      },
+      {
+       "q": "细菌 / 病毒感染",
+       "a": "nhiễm khuẩn / nhiễm virus"
+      }
+     ],
+     "explain_vi": "自助机 = máy tự phục vụ · 内科 / 外科 = khoa nội / khoa ngoại · 发烧 = sốt · 咳嗽 / 有痰 = ho / có đờm · 拍片 / 胸片 = chụp X-quang / phim ngực · 细菌 / 病毒感染 = nhiễm khuẩn / nhiễm virus"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "开始",
+      "发烧",
+      "从周一"
+     ],
+     "answers": [
+      "从周一开始发烧"
+     ],
+     "explain_vi": "从周一开始发烧。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "咽不下",
+      "嗓子",
+      "东西",
+      "疼得"
+     ],
+     "answers": [
+      "嗓子疼得咽不下东西"
+     ],
+     "explain_vi": "嗓子疼得咽不下东西。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "一次",
+      "一天",
+      "两粒",
+      "三次"
+     ],
+     "answers": [
+      "一天三次一次两粒"
+     ],
+     "explain_vi": "一天三次，一次两粒。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "哪个科",
+      "挂",
+      "我这种情况"
+     ],
+     "answers": [
+      "我这种情况挂哪个科"
+     ],
+     "explain_vi": "我这种情况挂哪个科？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi đến lần đầu, đăng ký khám như thế nào?",
+     "acceptedAnswers": [
+      "我第一次来，怎么挂号？"
+     ],
+     "requiredKeywords": [
+      "挂号"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我第一次来，怎么挂号？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Trước tiên đi xét nghiệm máu, rồi chụp phim phổi, có kết quả thì mang lại cho tôi xem.",
+     "acceptedAnswers": [
+      "先去验个血，再拍个胸片，结果出来拿回来给我看。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 先去验个血，再拍个胸片，结果出来拿回来给我看。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Đơn bác sĩ kê đóng tiền ở đâu ạ?",
+     "acceptedAnswers": [
+      "医生开的单子在哪儿缴费？"
+     ],
+     "requiredKeywords": [
+      "缴费"
+     ],
+     "explain_vi": "Đáp án tham khảo: 医生开的单子在哪儿缴费？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 从……开始 + trạng thái",
+   "instructions_vi": "Mô tả triệu chứng bằng 从……开始…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(từ thứ Hai → sốt) → ________________________________________________________",
+     "acceptedAnswers": [
+      "从周一开始发烧。"
+     ],
+     "requiredKeywords": [
+      "从",
+      "开始"
+     ],
+     "explain_vi": "Đáp án tham khảo: 从周一开始发烧。",
+     "grammarRef": "gt-g13-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(từ tối qua → tiêu chảy) → ________________________________________________________",
+     "acceptedAnswers": [
+      "从昨天晚上开始拉肚子。"
+     ],
+     "requiredKeywords": [
+      "从",
+      "开始"
+     ],
+     "explain_vi": "Đáp án tham khảo: 从昨天晚上开始拉肚子。",
+     "grammarRef": "gt-g13-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(từ tuần trước → ho) → ________________________________________________________",
+     "acceptedAnswers": [
+      "从上个星期开始咳嗽。"
+     ],
+     "requiredKeywords": [
+      "从",
+      "开始"
+     ],
+     "explain_vi": "Đáp án tham khảo: 从上个星期开始咳嗽。",
+     "grammarRef": "gt-g13-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Đặt câu hỏi của bác sĩ: Từ lúc nào bắt đầu đau họng? → ________________________________________________________",
+     "acceptedAnswers": [
+      "从什么时候开始嗓子疼的？"
+     ],
+     "requiredKeywords": [
+      "从",
+      "开始"
+     ],
+     "explain_vi": "Đáp án tham khảo: 从什么时候开始嗓子疼的？",
+     "grammarRef": "gt-g13-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: V/Adj + 得 + hậu quả",
+   "instructions_vi": "Dùng V/Adj + 得 + hậu quả để mô tả mức độ.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Ho đến mức không ngủ được. → ________________________________________________________",
+     "acceptedAnswers": [
+      "咳得睡不着。"
+     ],
+     "requiredKeywords": [
+      "得"
+     ],
+     "explain_vi": "Đáp án tham khảo: 咳得睡不着。",
+     "grammarRef": "gt-g13-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Họng đau đến mức nuốt không nổi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "嗓子疼得咽不下东西。"
+     ],
+     "requiredKeywords": [
+      "得"
+     ],
+     "explain_vi": "Đáp án tham khảo: 嗓子疼得咽不下东西。",
+     "grammarRef": "gt-g13-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Đau đầu đến mức không làm việc được. → ________________________________________________________",
+     "acceptedAnswers": [
+      "头疼得没法工作。"
+     ],
+     "requiredKeywords": [
+      "得"
+     ],
+     "explain_vi": "Đáp án tham khảo: 头疼得没法工作。",
+     "grammarRef": "gt-g13-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Mệt đến mức không muốn nói chuyện. → ________________________________________________________",
+     "acceptedAnswers": [
+      "累得不想说话。"
+     ],
+     "requiredKeywords": [
+      "得"
+     ],
+     "explain_vi": "Đáp án tham khảo: 累得不想说话。",
+     "grammarRef": "gt-g13-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 一天 + X次，一次 + X片/粒",
+   "instructions_vi": "Đọc hướng dẫn trên hộp thuốc (giả định) và nói lại bằng tiếng Trung, hoặc dịch sang tiếng Việt.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Ngày 3 lần, mỗi lần 2 viên nang, uống sau ăn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "一天三次，一次两粒，饭后吃。"
+     ],
+     "requiredKeywords": [
+      "一天",
+      "次"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一天三次，一次两粒，饭后吃。",
+     "grammarRef": "gt-g13-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Ngày 2 lần, mỗi lần 1 gói, uống trước khi ngủ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "一天两次，一次一袋，睡前吃。"
+     ],
+     "requiredKeywords": [
+      "一天",
+      "次"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一天两次，一次一袋，睡前吃。",
+     "grammarRef": "gt-g13-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Dịch: 一天一次，一次一片，连着吃五天。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "Ngày một lần, mỗi lần một viên, uống liên tục năm ngày."
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: Ngày một lần, mỗi lần một viên, uống liên tục năm ngày.",
+     "grammarRef": "gt-g13-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Đặt câu hỏi cho dược sĩ: Thuốc này ngày uống mấy lần, mỗi lần mấy viên? → ________________________________________________________",
+     "acceptedAnswers": [
+      "这个药一天吃几次，一次吃几片？"
+     ],
+     "requiredKeywords": [
+      "一天",
+      "次"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这个药一天吃几次，一次吃几片？",
+     "grammarRef": "gt-g13-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: Mô tả triệu chứng theo khung",
+   "instructions_vi": "Dùng khung 哪儿 + 怎么样 + 多久了 + 最……的时候 để mô tả các trường hợp sau.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Đau bụng, quặn từng cơn, một ngày rồi, sau khi ăn nặng nhất. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我肚子疼，一阵一阵的，已经一天了，吃完饭以后最厉害。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我肚子疼，一阵一阵的，已经一天了，吃完饭以后最厉害。",
+     "grammarRef": "gt-g13-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Sốt, ba ngày rồi, cao nhất 38,9 độ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我发烧，已经三天了，最高三十八度九。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我发烧，已经三天了，最高三十八度九。",
+     "grammarRef": "gt-g13-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Ho, có đờm, một tuần rồi, ban đêm nặng nhất. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我咳嗽，有痰，已经一个星期了，晚上最厉害。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我咳嗽，有痰，已经一个星期了，晚上最厉害。",
+     "grammarRef": "gt-g13-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Đau răng, đau liên tục, hai ngày rồi, ăn đồ lạnh thì đau nhất. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我牙疼，一直疼，已经两天了，吃凉的最疼。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我牙疼，一直疼，已经两天了，吃凉的最疼。",
+     "grammarRef": "gt-g13-4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "lessonId": 21,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）面试前，HR先看了我的{{1}}。\n（2）你的{{2}}是多少？——一万五到一万八之间。\n（3）{{3}}三个月，工资打八折。\n（4）试用期结束，下周走{{4}}流程。\n（5）公司按实际工资给员工交{{5}}。\n（6）他在这家公司干了一年就{{6}}了。",
+     "bank": [
+      "简历",
+      "期望薪资",
+      "五险一金",
+      "试用期",
+      "转正",
+      "跳槽"
+     ],
+     "answers": [
+      "简历",
+      "期望薪资",
+      "试用期",
+      "转正",
+      "五险一金",
+      "跳槽"
+     ],
+     "explain_vi": "简历、期望薪资、试用期、转正、五险一金、跳槽"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "毕业于",
+       "a": "tốt nghiệp từ (trang trọng)"
+      },
+      {
+       "q": "跨境电商",
+       "a": "thương mại điện tử xuyên biên giới"
+      },
+      {
+       "q": "抠细节",
+       "a": "soi chi tiết"
+      },
+      {
+       "q": "十三薪",
+       "a": "lương tháng 13"
+      },
+      {
+       "q": "入职",
+       "a": "nhận việc"
+      },
+      {
+       "q": "熟悉业务",
+       "a": "làm quen nghiệp vụ"
+      }
+     ],
+     "explain_vi": "毕业于 = tốt nghiệp từ (trang trọng) · 跨境电商 = thương mại điện tử xuyên biên giới · 抠细节 = soi chi tiết · 十三薪 = lương tháng 13 · 入职 = nhận việc · 熟悉业务 = làm quen nghiệp vụ"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "河内国家大学",
+      "毕业于",
+      "我"
+     ],
+     "answers": [
+      "我毕业于河内国家大学"
+     ],
+     "explain_vi": "我毕业于河内国家大学。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "之间",
+      "一万五",
+      "在",
+      "一万八",
+      "到",
+      "月薪"
+     ],
+     "answers": [
+      "月薪在一万五到一万八之间"
+     ],
+     "explain_vi": "月薪在一万五到一万八之间。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "再谈",
+      "根据",
+      "可以",
+      "岗位要求"
+     ],
+     "answers": [
+      "可以根据岗位要求再谈"
+     ],
+     "explain_vi": "可以根据岗位要求再谈。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "东南亚市场",
+      "主要负责",
+      "我",
+      "的运营"
+     ],
+     "answers": [
+      "我主要负责东南亚市场的运营"
+     ],
+     "explain_vi": "我主要负责东南亚市场的运营。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Xin hỏi là lương trước thuế hay sau thuế? Năm bảo hiểm một quỹ đóng thế nào?",
+     "acceptedAnswers": [
+      "请问是税前还是税后？五险一金怎么交？"
+     ],
+     "requiredKeywords": [
+      "税前",
+      "五险一金"
+     ],
+     "explain_vi": "Đáp án tham khảo: 请问是税前还是税后？五险一金怎么交？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Công ty có thể giúp làm giấy phép lao động không?",
+     "acceptedAnswers": [
+      "公司能帮忙办工作许可吗？"
+     ],
+     "requiredKeywords": [
+      "工作许可"
+     ],
+     "explain_vi": "Đáp án tham khảo: 公司能帮忙办工作许可吗？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Cảm ơn chị đã luôn hướng dẫn em, sau này em còn phải học hỏi chị nhiều.",
+     "acceptedAnswers": [
+      "谢谢您一直带我，以后还要多向您请教。"
+     ],
+     "requiredKeywords": [
+      "请教"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谢谢您一直带我，以后还要多向您请教。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 毕业于 + trường + chuyên ngành",
+   "instructions_vi": "Chuyển các câu khẩu ngữ sau sang văn phong trang trọng với 毕业于 / 来自.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "我是河内国家大学毕业的。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我毕业于河内国家大学。"
+     ],
+     "requiredKeywords": [
+      "毕业于"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我毕业于河内国家大学。",
+     "grammarRef": "gt-g21-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "我是越南人。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我来自越南。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我来自越南。",
+     "grammarRef": "gt-g21-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "我大学学的是国际贸易，在胡志明市经济大学。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我毕业于胡志明市经济大学国际贸易专业。"
+     ],
+     "requiredKeywords": [
+      "毕业于"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我毕业于胡志明市经济大学国际贸易专业。",
+     "grammarRef": "gt-g21-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Tự giới thiệu: tên, quê, trường, chuyên ngành của bạn (dùng 来自, 毕业于). → ________________________________________________________",
+     "acceptedAnswers": [
+      "我叫……，来自……，毕业于……大学……专业。"
+     ],
+     "requiredKeywords": [
+      "毕业于"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我叫……，来自……，毕业于……大学……专业。",
+     "grammarRef": "gt-g21-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 在……到……之间",
+   "instructions_vi": "Diễn đạt khoảng với 在……到……之间.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Lương tháng mong muốn khoảng 15.000–18.000 tệ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "期望月薪在一万五到一万八之间。"
+     ],
+     "requiredKeywords": [
+      "在",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 期望月薪在一万五到一万八之间。",
+     "grammarRef": "gt-g21-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Thời gian thử việc từ 3 đến 6 tháng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "试用期在三到六个月之间。"
+     ],
+     "requiredKeywords": [
+      "在",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 试用期在三到六个月之间。",
+     "grammarRef": "gt-g21-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Giá thuê nhà khoảng 4.000–5.000 tệ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "房租在四千到五千之间。"
+     ],
+     "requiredKeywords": [
+      "在",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 房租在四千到五千之间。",
+     "grammarRef": "gt-g21-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Mỗi ngày tôi làm việc khoảng 8 đến 9 tiếng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我每天工作时间在八到九个小时之间。"
+     ],
+     "requiredKeywords": [
+      "在",
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我每天工作时间在八到九个小时之间。",
+     "grammarRef": "gt-g21-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 根据……再……",
+   "instructions_vi": "Hoàn thành câu với 根据……再…….",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "期望月薪一万五到一万八，具体可以______。(theo yêu cầu vị trí → bàn tiếp)",
+     "acceptedAnswers": [
+      "根据岗位要求再谈"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 根据岗位要求再谈",
+     "grammarRef": "gt-g21-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "出差的时间，我们______。(theo tình hình khách hàng → quyết định)",
+     "acceptedAnswers": [
+      "根据客户的情况再定"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 根据客户的情况再定",
+     "grammarRef": "gt-g21-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "要不要加人，______。(theo tiến độ dự án → bàn)",
+     "acceptedAnswers": [
+      "根据项目进度再商量"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 根据项目进度再商量",
+     "grammarRef": "gt-g21-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "行程先这样，______。(theo thời tiết → điều chỉnh)",
+     "acceptedAnswers": [
+      "到时候根据天气再调整"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 到时候根据天气再调整",
+     "grammarRef": "gt-g21-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 主要负责……",
+   "instructions_vi": "Mô tả công việc bằng 主要负责…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(vận hành thị trường Đông Nam Á) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我主要负责东南亚市场的运营。"
+     ],
+     "requiredKeywords": [
+      "主要负责"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我主要负责东南亚市场的运营。",
+     "grammarRef": "gt-g21-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(chăm sóc khách hàng Việt Nam) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我之前主要负责越南客户的维护。"
+     ],
+     "requiredKeywords": [
+      "主要负责"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我之前主要负责越南客户的维护。",
+     "grammarRef": "gt-g21-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(dịch tài liệu và phiên dịch hội nghị) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我主要负责翻译资料和会议口译。"
+     ],
+     "requiredKeywords": [
+      "主要负责"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我主要负责翻译资料和会议口译。",
+     "grammarRef": "gt-g21-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Mô tả công việc hiện tại hoặc công việc mơ ước của bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我主要负责……。"
+     ],
+     "requiredKeywords": [
+      "主要负责"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我主要负责……。",
+     "grammarRef": "gt-g21-4"
+    }
+   ]
+  }
+ ]
+}

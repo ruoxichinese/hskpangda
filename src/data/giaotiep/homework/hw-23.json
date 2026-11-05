@@ -1,0 +1,416 @@
+{
+ "lessonId": 23,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我这个月{{1}}，下个月再买新手机吧。\n（2）我刚才{{2}}给您三千块，麻烦您退回一下。\n（3）对方没收的话，二十四小时后会{{3}}。\n（4）房子打扫干净了，{{4}}什么时候能退？\n（5）千万别把{{5}}告诉陌生人。\n（6）自称\"公安\"让你转账的电话，一定是{{6}}。",
+     "bank": [
+      "手头紧",
+      "误转",
+      "自动退回",
+      "押金",
+      "验证码",
+      "诈骗"
+     ],
+     "answers": [
+      "手头紧",
+      "误转",
+      "自动退回",
+      "押金",
+      "验证码",
+      "诈骗"
+     ],
+     "explain_vi": "手头紧、误转、自动退回、押金、验证码、诈骗"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "借记卡 / 信用卡",
+       "a": "thẻ ghi nợ / thẻ tín dụng"
+      },
+      {
+       "q": "工资卡",
+       "a": "thẻ nhận lương"
+      },
+      {
+       "q": "转错账 / 误转",
+       "a": "chuyển nhầm"
+      },
+      {
+       "q": "借钱 / 还钱",
+       "a": "vay tiền / trả tiền"
+      },
+      {
+       "q": "催",
+       "a": "giục, đòi"
+      },
+      {
+       "q": "钥匙",
+       "a": "chìa khóa"
+      }
+     ],
+     "explain_vi": "借记卡 / 信用卡 = thẻ ghi nợ / thẻ tín dụng · 工资卡 = thẻ nhận lương · 转错账 / 误转 = chuyển nhầm · 借钱 / 还钱 = vay tiền / trả tiền · 催 = giục, đòi · 钥匙 = chìa khóa"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "一千",
+      "能不能",
+      "借我",
+      "先"
+     ],
+     "answers": [
+      "能不能先借我一千"
+     ],
+     "explain_vi": "能不能先借我一千？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "还",
+      "你",
+      "再",
+      "方便的时候"
+     ],
+     "answers": [
+      "你方便的时候再还"
+     ],
+     "explain_vi": "你方便的时候再还。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "方便",
+      "你看",
+      "什么时候"
+     ],
+     "answers": [
+      "你看什么时候方便"
+     ],
+     "explain_vi": "你看什么时候方便？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "我",
+      "忘",
+      "给"
+     ],
+     "answers": [
+      "我给忘了"
+     ],
+     "explain_vi": "我给忘了。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn làm một thẻ ghi nợ.",
+     "acceptedAnswers": [
+      "我想办一张借记卡。"
+     ],
+     "requiredKeywords": [
+      "借记卡"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我想办一张借记卡。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Đừng hoảng, trước tiên liên hệ lịch sự với người kia, trình bày sự việc.",
+     "acceptedAnswers": [
+      "别慌，先礼貌地联系对方，说明情况。"
+     ],
+     "requiredKeywords": [
+      "别慌",
+      "说明情况"
+     ],
+     "explain_vi": "Đáp án tham khảo: 别慌，先礼貌地联系对方，说明情况。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Cái lỗ đinh đó có từ lúc tôi dọn vào, lúc đó tôi có chụp ảnh.",
+     "acceptedAnswers": [
+      "那个钉子眼是入住时就有的，我当时拍了照片。"
+     ],
+     "requiredKeywords": [
+      "钉子眼"
+     ],
+     "explain_vi": "Đáp án tham khảo: 那个钉子眼是入住时就有的，我当时拍了照片。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 能不能先 + V + 我……？",
+   "instructions_vi": "Mở lời vay mượn với 能不能先……我……？ kèm thời hạn trả.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(vay 1.000 tệ, trả khi nhận lương tháng sau) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能先借我一千？下个月发工资就还你。"
+     ],
+     "requiredKeywords": [
+      "能不能先",
+      "我"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能先借我一千？下个月发工资就还你。",
+     "grammarRef": "gt-g23-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(mượn sạc dự phòng, dùng xong trả ngay) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能先借我用一下充电宝？用完马上还你。"
+     ],
+     "requiredKeywords": [
+      "能不能先",
+      "我"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能先借我用一下充电宝？用完马上还你。",
+     "grammarRef": "gt-g23-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(ứng giúp tiền taxi, về nhà chuyển lại) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能先帮我垫一下车费？到家就转你。"
+     ],
+     "requiredKeywords": [
+      "能不能先",
+      "我"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能先帮我垫一下车费？到家就转你。",
+     "grammarRef": "gt-g23-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(cho mượn 200 tệ, cuối tuần trả) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能先借我两百？周末还你。"
+     ],
+     "requiredKeywords": [
+      "能不能先",
+      "我"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能先借我两百？周末还你。",
+     "grammarRef": "gt-g23-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……的时候再……",
+   "instructions_vi": "Hoàn thành câu với ……的时候再…….",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "不急，你______还。(khi nào tiện)",
+     "acceptedAnswers": [
+      "方便的时候再"
+     ],
+     "requiredKeywords": [
+      "的时候再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 方便的时候再",
+     "grammarRef": "gt-g23-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "这件事等你回来______说。",
+     "acceptedAnswers": [
+      "的时候再"
+     ],
+     "requiredKeywords": [
+      "的时候再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 的时候再",
+     "grammarRef": "gt-g23-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "现在太忙了，下班______聊吧。",
+     "acceptedAnswers": [
+      "的时候再"
+     ],
+     "requiredKeywords": [
+      "的时候再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 的时候再",
+     "grammarRef": "gt-g23-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Lúc nào nhận lương rồi hãy trả tôi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "发工资的时候再还我。"
+     ],
+     "requiredKeywords": [
+      "的时候再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 发工资的时候再还我。",
+     "grammarRef": "gt-g23-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 你看什么时候方便？",
+   "instructions_vi": "Nhắc khéo hoặc hẹn lịch bằng 你看什么时候方便？",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn muốn nhắc bạn cùng phòng trả 1.000 tệ đã vay. → ________________________________________________________",
+     "acceptedAnswers": [
+      "对了，上次那一千你看什么时候方便？"
+     ],
+     "requiredKeywords": [
+      "你看什么时候方便"
+     ],
+     "explain_vi": "Đáp án tham khảo: 对了，上次那一千你看什么时候方便？",
+     "grammarRef": "gt-g23-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn muốn chủ nhà trả lại tiền cọc. → ________________________________________________________",
+     "acceptedAnswers": [
+      "王姐，押金的事儿您看什么时候方便？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 王姐，押金的事儿您看什么时候方便？",
+     "grammarRef": "gt-g23-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn muốn hẹn khách hàng gặp để ký hợp đồng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "合同已经准备好了，您看什么时候方便见面签？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 合同已经准备好了，您看什么时候方便见面签？",
+     "grammarRef": "gt-g23-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Thêm lý do và viết lời nhắc nợ: bạn tháng này hơi kẹt tiền. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我这个月手头有点儿紧，上次那笔钱你看什么时候方便？"
+     ],
+     "requiredKeywords": [
+      "你看什么时候方便"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我这个月手头有点儿紧，上次那笔钱你看什么时候方便？",
+     "grammarRef": "gt-g23-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 给 + V (nhấn mạnh việc đã xảy ra ngoài ý muốn)",
+   "instructions_vi": "Thêm 给 vào câu để nhấn mạnh sự việc ngoài ý muốn.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "哎呀，我忘了！ → ________________________________________________________",
+     "acceptedAnswers": [
+      "哎呀，我给忘了！"
+     ],
+     "requiredKeywords": [
+      "给"
+     ],
+     "explain_vi": "Đáp án tham khảo: 哎呀，我给忘了！",
+     "grammarRef": "gt-g23-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "手机摔了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "手机给摔了。"
+     ],
+     "requiredKeywords": [
+      "给"
+     ],
+     "explain_vi": "Đáp án tham khảo: 手机给摔了。",
+     "grammarRef": "gt-g23-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "我把钥匙丢了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我把钥匙给丢了。"
+     ],
+     "requiredKeywords": [
+      "给"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我把钥匙给丢了。",
+     "grammarRef": "gt-g23-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "钱包被人偷了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "钱包被人给偷了。"
+     ],
+     "requiredKeywords": [
+      "给"
+     ],
+     "explain_vi": "Đáp án tham khảo: 钱包被人给偷了。",
+     "grammarRef": "gt-g23-4"
+    }
+   ]
+  }
+ ]
+}

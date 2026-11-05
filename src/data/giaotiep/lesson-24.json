@@ -1,0 +1,703 @@
+{
+ "id": 24,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "过年过节",
+  "pinyin": "guò nián guò jié",
+  "vi": "Lễ Tết + Dự án tổng kết khóa học"
+ },
+ "grammarTopics_vi": [
+  "Khung lời chúc theo đối tượng",
+  "图个 + N/Adj",
+  "……都……",
+  "V着V着 / 拿着拿着"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Chúc Tết đúng đối tượng",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Nhận lì xì",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Giành lì xì trong nhóm chat",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nói về Trung thu; trình diễn dự án cuối khóa",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "去朋友家拜年",
+   "context_vi": "Bài khoá 1: 去朋友家拜年 – Đến nhà bạn chúc Tết",
+   "scene": "🧧",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "叔叔阿姨，新年好！给您二位拜年了！祝您身体健康，万事如意！",
+     "vi": "Cháu chào chú, chào cô, chúc mừng năm mới! Cháu chúc Tết cô chú! Chúc cô chú mạnh khoẻ, vạn sự như ý!"
+    },
+    {
+     "speaker": "gt-ayi",
+     "zh": "哎呀，小明来啦！新年好新年好！快进来坐，吃点儿瓜子和糖。",
+     "vi": "Ôi chao, Tiểu Minh đến rồi! Chúc mừng năm mới, chúc mừng năm mới! Mau vào ngồi, ăn chút hạt dưa với kẹo."
+    },
+    {
+     "speaker": "gt-shushu",
+     "zh": "小伙子，在中国过年习惯吗？",
+     "vi": "Chàng trai, ăn Tết ở Trung Quốc có quen không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "特别热闹！就是鞭炮声有点儿吓人，哈哈。",
+     "vi": "Vui lắm ạ! Chỉ là tiếng pháo hơi đáng sợ, haha."
+    },
+    {
+     "speaker": "gt-ayi",
+     "zh": "来，这个红包给你，压岁钱，图个吉利！",
+     "vi": "Nào, bao lì xì này cho cháu, tiền mừng tuổi, lấy may!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "阿姨，这可不行，我都工作了……",
+     "vi": "Cô ơi, thế không được đâu, cháu đi làm rồi mà…"
+    },
+    {
+     "speaker": "gt-ayi",
+     "zh": "拿着拿着！在我们这儿，没结婚都是孩子。",
+     "vi": "Cầm đi cầm đi! Ở chỗ cô, chưa lấy vợ thì vẫn là trẻ con."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那谢谢阿姨！祝您新的一年红红火火！",
+     "vi": "Vậy cháu cảm ơn cô! Chúc cô năm mới đỏ lửa, phát đạt!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "过年 / 春节",
+     "pinyin": "guònián / Chūnjié",
+     "vi": "ăn Tết / Tết Nguyên đán"
+    },
+    {
+     "zh": "拜年",
+     "pinyin": "bài nián",
+     "vi": "chúc Tết",
+     "example": {
+      "zh": "叔叔阿姨，新年好！给您二位拜年了！祝您身体健康，万事如意！",
+      "vi": "Cháu chào chú, chào cô, chúc mừng năm mới! Cháu chúc Tết cô chú! Chúc cô chú mạnh khoẻ, vạn sự như ý!"
+     }
+    },
+    {
+     "zh": "给您拜年了",
+     "pinyin": "gěi nín bài nián le",
+     "vi": "xin chúc Tết bác/cô"
+    },
+    {
+     "zh": "万事如意",
+     "pinyin": "wàn shì rú yì",
+     "vi": "vạn sự như ý",
+     "example": {
+      "zh": "叔叔阿姨，新年好！给您二位拜年了！祝您身体健康，万事如意！",
+      "vi": "Cháu chào chú, chào cô, chúc mừng năm mới! Cháu chúc Tết cô chú! Chúc cô chú mạnh khoẻ, vạn sự như ý!"
+     }
+    },
+    {
+     "zh": "身体健康",
+     "pinyin": "shēntǐ jiànkāng",
+     "vi": "sức khỏe dồi dào",
+     "example": {
+      "zh": "叔叔阿姨，新年好！给您二位拜年了！祝您身体健康，万事如意！",
+      "vi": "Cháu chào chú, chào cô, chúc mừng năm mới! Cháu chúc Tết cô chú! Chúc cô chú mạnh khoẻ, vạn sự như ý!"
+     }
+    },
+    {
+     "zh": "恭喜发财",
+     "pinyin": "gōngxǐ fācái",
+     "vi": "chúc phát tài"
+    },
+    {
+     "zh": "红红火火",
+     "pinyin": "hónghóng huǒhuǒ",
+     "vi": "đỏ rực, thịnh vượng",
+     "example": {
+      "zh": "那谢谢阿姨！祝您新的一年红红火火！",
+      "vi": "Vậy cháu cảm ơn cô! Chúc cô năm mới đỏ lửa, phát đạt!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g24-1",
+     "title_zh": "Khung lời chúc theo đối tượng",
+     "title_vi": "Người lớn tuổi →",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "Khung lời chúc theo đối tượng",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Lời chúc cần hợp với đối tượng. Người lớn tuổi: 身体健康、万事如意、福如东海. Sếp, khách hàng: cảm ơn trước (感谢您过去一年的指导/照顾) rồi chúc 阖家幸福、新春大吉. Bạn bè: vui, hiện đại: 发大财、暴富、脱单. Trẻ em: 学习进步、快快长大. Khung chung: 称呼 + 新年好 / 给您拜年了 + 祝您 + lời chúc.",
+     "examples": []
+    },
+    {
+     "id": "gt-g24-2",
+     "title_zh": "图个 + N/Adj",
+     "title_vi": "图个 + N/Adj",
+     "formula": [
+      [
+       {
+        "zh": "图个",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "N/Adj",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "图个 + danh từ/tính từ nghĩa là \"cầu lấy cái…, làm cho có…\", diễn tả mục đích mang tính tượng trưng, tinh thần hơn là thực tế. Ví dụ: 图个吉利 (lấy may), 图个热闹 (cho vui, cho đông vui), 图个方便 (cho tiện). Rất hay dùng để giải thích phong tục: 压岁钱不多，图个吉利。",
+     "examples": [
+      {
+       "zh": "图个吉利。",
+       "vi": "Lấy may thôi."
+      },
+      {
+       "zh": "图个热闹。",
+       "vi": "Cho vui, cho náo nhiệt."
+      },
+      {
+       "zh": "图个方便。",
+       "vi": "Cho tiện thôi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g24-3",
+     "title_zh": "……都……",
+     "title_vi": "\"hễ… là…\"",
+     "formula": [
+      [
+       {
+        "zh": "……都……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……都…… ở đây diễn tả \"hễ thuộc nhóm… thì đều…\", nêu một quy luật/quan niệm áp dụng cho cả nhóm. Phần trước 都 là điều kiện hoặc nhóm đối tượng, phần sau là kết luận chung. Ví dụ: 没结婚都是孩子 (chưa kết hôn thì đều là trẻ con — nên vẫn được lì xì), 来的都是客 (ai đến đều là khách).",
+     "examples": [
+      {
+       "zh": "没结婚都是孩子。",
+       "vi": "Chưa lấy vợ lấy chồng thì vẫn là trẻ con."
+      },
+      {
+       "zh": "来的都是客。",
+       "vi": "Đã đến đây đều là khách."
+      }
+     ]
+    },
+    {
+     "id": "gt-g24-4",
+     "title_zh": "V着V着 / 拿着拿着",
+     "title_vi": "Lặp để mời, ép nhận",
+     "formula": [
+      [
+       {
+        "zh": "V着V着 / 拿着拿着",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Lặp lại 拿着拿着！(hoặc 吃吃吃！/ 坐坐坐！/ 别别别！) là cách mời mọc, ép nhận rất nhiệt tình, thân mật của người Trung Quốc, nhất là dịp lễ Tết. Lặp hai lần (hoặc ba lần với động từ đơn) làm lời nói gấp gáp, nồng nhiệt, khiến người kia khó từ chối. Người nhận thường từ chối một hai lần (这可不行) rồi mới nhận và cảm ơn.",
+     "examples": [
+      {
+       "zh": "拿着拿着！",
+       "vi": "Cầm đi cầm đi!"
+      },
+      {
+       "zh": "吃吃吃！",
+       "vi": "Ăn đi ăn đi!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "抢红包与拜年消息",
+   "context_vi": "Bài khoá 2: 抢红包与拜年消息 – Giành lì xì và tin nhắn chúc Tết",
+   "scene": "🧧",
+   "lines": [
+    {
+     "speaker": "gt-qunzhu",
+     "zh": "新年快乐！发个红包，手慢无！",
+     "vi": "Năm mới vui vẻ! Phát lì xì đây, tay chậm là hết!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "抢到八块八，吉利！谢谢老板！",
+     "vi": "Giành được tám tệ tám, may mắn! Cảm ơn sếp!"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "我才抢到一毛，手气太差了。",
+     "vi": "Mình mới giành được một hào, đen quá."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（私聊）王总，新春快乐！感谢您过去一年的指导，祝您和家人新春大吉，阖家幸福！",
+     "vi": "(Nhắn riêng) Anh Vương, chúc mừng năm mới! Cảm ơn anh đã chỉ bảo em suốt năm qua, chúc anh và gia đình năm mới đại cát, cả nhà hạnh phúc!"
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "谢谢小阮，新年快乐，来年继续加油！",
+     "vi": "Cảm ơn Tiểu Nguyễn, năm mới vui vẻ, sang năm tiếp tục cố gắng nhé!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "新春大吉",
+     "pinyin": "xīnchūn dàjí",
+     "vi": "năm mới đại cát",
+     "example": {
+      "zh": "（私聊）王总，新春快乐！感谢您过去一年的指导，祝您和家人新春大吉，阖家幸福！",
+      "vi": "(Nhắn riêng) Anh Vương, chúc mừng năm mới! Cảm ơn anh đã chỉ bảo em suốt năm qua, chúc anh và gia đình năm mới đại cát, cả nhà hạnh phúc!"
+     }
+    },
+    {
+     "zh": "阖家幸福",
+     "pinyin": "héjiā xìngfú",
+     "vi": "cả nhà hạnh phúc",
+     "example": {
+      "zh": "（私聊）王总，新春快乐！感谢您过去一年的指导，祝您和家人新春大吉，阖家幸福！",
+      "vi": "(Nhắn riêng) Anh Vương, chúc mừng năm mới! Cảm ơn anh đã chỉ bảo em suốt năm qua, chúc anh và gia đình năm mới đại cát, cả nhà hạnh phúc!"
+     }
+    },
+    {
+     "zh": "来年",
+     "pinyin": "láinián",
+     "vi": "năm tới",
+     "example": {
+      "zh": "谢谢小阮，新年快乐，来年继续加油！",
+      "vi": "Cảm ơn Tiểu Nguyễn, năm mới vui vẻ, sang năm tiếp tục cố gắng nhé!"
+     }
+    },
+    {
+     "zh": "压岁钱",
+     "pinyin": "yāsuìqián",
+     "vi": "tiền lì xì cho trẻ",
+     "example": {
+      "zh": "来，这个红包给你，压岁钱，图个吉利！",
+      "vi": "Nào, bao lì xì này cho cháu, tiền mừng tuổi, lấy may!"
+     }
+    },
+    {
+     "zh": "红包",
+     "pinyin": "hóngbāo",
+     "vi": "bao lì xì; lì xì điện tử",
+     "example": {
+      "zh": "来，这个红包给你，压岁钱，图个吉利！",
+      "vi": "Nào, bao lì xì này cho cháu, tiền mừng tuổi, lấy may!"
+     }
+    },
+    {
+     "zh": "图个吉利",
+     "pinyin": "tú ge jílì",
+     "vi": "lấy may",
+     "example": {
+      "zh": "来，这个红包给你，压岁钱，图个吉利！",
+      "vi": "Nào, bao lì xì này cho cháu, tiền mừng tuổi, lấy may!"
+     }
+    },
+    {
+     "zh": "鞭炮 / 烟花",
+     "pinyin": "biānpào / yānhuā",
+     "vi": "pháo / pháo hoa"
+    },
+    {
+     "zh": "热闹",
+     "pinyin": "rènao",
+     "vi": "náo nhiệt",
+     "example": {
+      "zh": "特别热闹！就是鞭炮声有点儿吓人，哈哈。",
+      "vi": "Vui lắm ạ! Chỉ là tiếng pháo hơi đáng sợ, haha."
+     }
+    },
+    {
+     "zh": "年夜饭",
+     "pinyin": "niányèfàn",
+     "vi": "bữa cơm tất niên"
+    },
+    {
+     "zh": "春晚",
+     "pinyin": "Chūnwǎn",
+     "vi": "chương trình Gala Xuân CCTV"
+    },
+    {
+     "zh": "守岁",
+     "pinyin": "shǒusuì",
+     "vi": "thức đón giao thừa"
+    },
+    {
+     "zh": "春联",
+     "pinyin": "chūnlián",
+     "vi": "câu đối Tết"
+    },
+    {
+     "zh": "福字倒贴",
+     "pinyin": "fú zì dào tiē",
+     "vi": "dán ngược chữ Phúc (福到了)"
+    },
+    {
+     "zh": "抢红包",
+     "pinyin": "qiǎng hóngbāo",
+     "vi": "giành lì xì trong nhóm"
+    },
+    {
+     "zh": "手慢无",
+     "pinyin": "shǒu màn wú",
+     "vi": "chậm tay là hết",
+     "example": {
+      "zh": "新年快乐！发个红包，手慢无！",
+      "vi": "Năm mới vui vẻ! Phát lì xì đây, tay chậm là hết!"
+     }
+    },
+    {
+     "zh": "手气",
+     "pinyin": "shǒuqì",
+     "vi": "vận may (khi bốc)",
+     "example": {
+      "zh": "我才抢到一毛，手气太差了。",
+      "vi": "Mình mới giành được một hào, đen quá."
+     }
+    },
+    {
+     "zh": "群主",
+     "pinyin": "qúnzhǔ",
+     "vi": "trưởng nhóm chat"
+    },
+    {
+     "zh": "中秋节",
+     "pinyin": "Zhōngqiū jié",
+     "vi": "Trung thu"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "中秋",
+   "context_vi": "Bài khoá 3: 中秋 – Trung thu",
+   "scene": "🧧",
+   "lines": [
+    {
+     "speaker": "gt-tongshi",
+     "zh": "中秋公司发月饼了，你喜欢什么馅儿的？",
+     "vi": "Trung thu công ty phát bánh trung thu, cậu thích nhân gì?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "莲蓉蛋黄的。你们中秋一般怎么过？",
+     "vi": "Nhân sen trứng muối. Trung thu các cậu thường đón thế nào?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "回老家跟家人吃团圆饭、赏月。你们越南呢？",
+     "vi": "Về quê ăn bữa cơm đoàn viên với gia đình, ngắm trăng. Còn ở Việt Nam thì sao?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "越南中秋更像儿童节，小朋友提灯笼、看舞狮。",
+     "vi": "Trung thu ở Việt Nam giống ngày lễ thiếu nhi hơn, trẻ con rước đèn lồng, xem múa lân."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "真有意思！今年中秋来我家吃饭吧，一个人在外过节太冷清了。",
+     "vi": "Thú vị thật! Trung thu năm nay đến nhà mình ăn cơm đi, một mình ăn Tết xa nhà buồn lắm."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那就打扰了！",
+     "vi": "Vậy mình xin làm phiền nhé!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "月饼",
+     "pinyin": "yuèbing",
+     "vi": "bánh trung thu",
+     "example": {
+      "zh": "中秋公司发月饼了，你喜欢什么馅儿的？",
+      "vi": "Trung thu công ty phát bánh trung thu, cậu thích nhân gì?"
+     }
+    },
+    {
+     "zh": "馅儿",
+     "pinyin": "xiànr",
+     "vi": "nhân bánh",
+     "example": {
+      "zh": "中秋公司发月饼了，你喜欢什么馅儿的？",
+      "vi": "Trung thu công ty phát bánh trung thu, cậu thích nhân gì?"
+     }
+    },
+    {
+     "zh": "莲蓉蛋黄",
+     "pinyin": "liánróng dànhuáng",
+     "vi": "nhân sen trứng muối",
+     "example": {
+      "zh": "莲蓉蛋黄的。你们中秋一般怎么过？",
+      "vi": "Nhân sen trứng muối. Trung thu các cậu thường đón thế nào?"
+     }
+    },
+    {
+     "zh": "团圆饭",
+     "pinyin": "tuányuán fàn",
+     "vi": "bữa cơm đoàn viên",
+     "example": {
+      "zh": "回老家跟家人吃团圆饭、赏月。你们越南呢？",
+      "vi": "Về quê ăn bữa cơm đoàn viên với gia đình, ngắm trăng. Còn ở Việt Nam thì sao?"
+     }
+    },
+    {
+     "zh": "赏月",
+     "pinyin": "shǎng yuè",
+     "vi": "ngắm trăng",
+     "example": {
+      "zh": "回老家跟家人吃团圆饭、赏月。你们越南呢？",
+      "vi": "Về quê ăn bữa cơm đoàn viên với gia đình, ngắm trăng. Còn ở Việt Nam thì sao?"
+     }
+    },
+    {
+     "zh": "灯笼",
+     "pinyin": "dēnglong",
+     "vi": "đèn lồng",
+     "example": {
+      "zh": "越南中秋更像儿童节，小朋友提灯笼、看舞狮。",
+      "vi": "Trung thu ở Việt Nam giống ngày lễ thiếu nhi hơn, trẻ con rước đèn lồng, xem múa lân."
+     }
+    },
+    {
+     "zh": "舞狮",
+     "pinyin": "wǔshī",
+     "vi": "múa lân",
+     "example": {
+      "zh": "越南中秋更像儿童节，小朋友提灯笼、看舞狮。",
+      "vi": "Trung thu ở Việt Nam giống ngày lễ thiếu nhi hơn, trẻ con rước đèn lồng, xem múa lân."
+     }
+    },
+    {
+     "zh": "冷清",
+     "pinyin": "lěngqīng",
+     "vi": "vắng vẻ, lạnh lẽo",
+     "example": {
+      "zh": "真有意思！今年中秋来我家吃饭吧，一个人在外过节太冷清了。",
+      "vi": "Thú vị thật! Trung thu năm nay đến nhà mình ăn cơm đi, một mình ăn Tết xa nhà buồn lắm."
+     }
+    },
+    {
+     "zh": "回老家",
+     "pinyin": "huí lǎojiā",
+     "vi": "về quê",
+     "example": {
+      "zh": "回老家跟家人吃团圆饭、赏月。你们越南呢？",
+      "vi": "Về quê ăn bữa cơm đoàn viên với gia đình, ngắm trăng. Còn ở Việt Nam thì sao?"
+     }
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "大年初一，我去朋友家___。",
+   "bank": [
+    "压岁钱",
+    "拜年",
+    "团圆饭"
+   ],
+   "answer": "拜年"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "阿姨给了我一个红包，说是___。",
+   "bank": [
+    "冷清",
+    "手气",
+    "压岁钱"
+   ],
+   "answer": "压岁钱"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "过年的时候，街上特别___。",
+   "bank": [
+    "压岁钱",
+    "热闹",
+    "团圆饭"
+   ],
+   "answer": "热闹"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "我才抢到一毛，___太差了！",
+   "bank": [
+    "压岁钱",
+    "手气",
+    "冷清"
+   ],
+   "answer": "手气"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "中秋节大家回老家跟家人吃___。",
+   "bank": [
+    "团圆饭",
+    "压岁钱",
+    "冷清"
+   ],
+   "answer": "团圆饭"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "一个人在外过节太___了，来我家吃饭吧。",
+   "bank": [
+    "热闹",
+    "冷清",
+    "拜年"
+   ],
+   "answer": "冷清"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "拜年了",
+    "给您",
+    "叔叔阿姨"
+   ],
+   "answers": [
+    "叔叔阿姨给您拜年了"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "吉利",
+    "图个"
+   ],
+   "answers": [
+    "图个吉利"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "孩子",
+    "没结婚",
+    "是",
+    "都"
+   ],
+   "answers": [
+    "没结婚都是孩子"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "手慢无",
+    "发个红包"
+   ],
+   "answers": [
+    "发个红包手慢无"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "给您拜年了",
+     "a": "xin chúc Tết bác/cô"
+    },
+    {
+     "q": "红红火火",
+     "a": "đỏ rực, thịnh vượng"
+    },
+    {
+     "q": "红包",
+     "a": "bao lì xì; lì xì điện tử"
+    },
+    {
+     "q": "春晚",
+     "a": "chương trình Gala Xuân CCTV"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Tết Nguyên đán ở Việt Nam và Trung Quốc có những điểm gì giống và khác nhau?",
+   "Khởi động: Bạn thường chúc Tết ông bà, thầy cô và bạn bè bằng những câu gì?",
+   "拜年大作战 Đi chúc Tết (10 phút): lớp dựng 3 \"nhà\" (nhà bạn thân, nhà sếp, nhà hàng xóm lớn tuổi). Mỗi học viên đi đủ 3 nhà, chúc đúng đối tượng, xử lý lì xì và lời mời ăn.",
+   "结课汇报 Dự án tổng kết (60 phút): mỗi nhóm 3–4 người diễn tiểu phẩm 8 phút \"Một năm sống ở Trung Quốc\", lồng ghép ít nhất 5 chủ đề đã học (ví dụ: thuê nhà → gọi đồ ăn → đi khám → khiếu nại → chúc Tết). Tiêu chí: hoàn thành nhiệm vụ giao tiếp 30%, tự nhiên–lưu loát 25%, dùng từ vựng khẩu ngữ và từ lóng đúng chỗ 20%, ứng xử văn hóa 15%, sáng tạo 10%. Kết thúc bằng phát giấy chứng nhận và \"lì xì\" tượng trưng cho mỗi học viên.",
+   "Nhiệm vụ thực tế: gửi 3 tin nhắn chúc Tết (cho thầy cô, bạn TQ, \"sếp\") và ghi âm lời chúc 30 giây."
+  ],
+  "patterns": [
+   {
+    "zh": "图个吉利。",
+    "vi": "Lấy may thôi."
+   },
+   {
+    "zh": "没结婚都是孩子。",
+    "vi": "Chưa lấy vợ lấy chồng thì vẫn là trẻ con."
+   },
+   {
+    "zh": "拿着拿着！",
+    "vi": "Cầm đi cầm đi!"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "lì xì điện tử và",
+  "body_vi": [
+   "\"福到了\" Từ khi WeChat ra mắt lì xì điện tử dịp Tết, \"抢红包\" trong nhóm chat trở thành phong tục mới; số tiền mang ý nghĩa như 6.66, 8.88 được ưa chuộng. Chữ 福 thường được dán ngược, vì \"福倒了\" đồng âm \"福到了\" (phúc đến). Trung thu ở TQ là dịp đoàn viên gia đình, khác Việt Nam nơi Trung thu gắn với thiếu nhi, nên đây là chủ đề so sánh văn hóa rất tốt để mở chuyện. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: lì xì điện tử và \"福到了\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Nhận lì xì: từ chối 1–2 lần cho phải phép rồi nhận bằng hai tay, cảm ơn và chúc lại; không mở trước mặt người cho.",
+   "Ứng xử: Tin nhắn chúc Tết sếp, khách hàng nên viết riêng tên người nhận; tin nhắn copy gửi hàng loạt dễ bị coi là thiếu thành ý.",
+   "Ứng xử: Ngày Tết tránh nói các từ xui (死, 破, 输, 病), tránh làm vỡ đồ; lỡ làm vỡ thì nói \"碎碎平安\"."
+  ]
+ }
+}

@@ -1,0 +1,737 @@
+{
+ "id": 15,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "休闲娱乐",
+  "pinyin": "xiū xián yú lè",
+  "vi": "Giải trí"
+ },
+ "grammarTopics_vi": [
+  "还差 + số lượng + N",
+  "怕 + V (lo ngại)",
+  "要不……吧",
+  "V + V (thử, cân nhắc)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Rủ và nhận lời đi chơi",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Từ chối khéo",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Mua vé phim và voucher nhóm",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nói về các hình thức giải trí mới của giới trẻ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "约剧本杀",
+   "context_vi": "Bài khoá 1: 约剧本杀 – Rủ chơi kịch bản giết người",
+   "scene": "🎤",
+   "lines": [
+    {
+     "speaker": "gt-lixiang",
+     "zh": "周五晚上有空吗？我们几个约了剧本杀，还差一个人。",
+     "vi": "Tối thứ sáu rảnh không? Bọn mình hẹn chơi murder mystery, còn thiếu một người."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "剧本杀是什么？",
+     "vi": "Murder mystery là gì?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+     "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "听着挺好玩儿的，可我中文阅读慢，怕拖后腿。",
+     "vi": "Nghe có vẻ vui đấy, nhưng mình đọc tiếng Trung chậm, sợ làm chậm cả đội."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "那选个欢乐本，不烧脑。玩完再去唱K。",
+     "vi": "Vậy chọn kịch bản vui nhộn, không hại não. Chơi xong đi hát karaoke."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那算我一个！",
+     "vi": "Vậy tính mình một suất!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "约",
+     "pinyin": "yuē",
+     "vi": "hẹn, rủ",
+     "example": {
+      "zh": "周五晚上有空吗？我们几个约了剧本杀，还差一个人。",
+      "vi": "Tối thứ sáu rảnh không? Bọn mình hẹn chơi murder mystery, còn thiếu một người."
+     }
+    },
+    {
+     "zh": "剧本杀",
+     "pinyin": "jùběnshā",
+     "vi": "trò nhập vai phá án",
+     "example": {
+      "zh": "周五晚上有空吗？我们几个约了剧本杀，还差一个人。",
+      "vi": "Tối thứ sáu rảnh không? Bọn mình hẹn chơi murder mystery, còn thiếu một người."
+     }
+    },
+    {
+     "zh": "密室逃脱",
+     "pinyin": "mìshì táotuō",
+     "vi": "trò thoát khỏi phòng kín"
+    },
+    {
+     "zh": "局",
+     "pinyin": "jú",
+     "vi": "ván, cuộc chơi",
+     "example": {
+      "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+      "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+     }
+    },
+    {
+     "zh": "扮演",
+     "pinyin": "bànyǎn",
+     "vi": "đóng vai",
+     "example": {
+      "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+      "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+     }
+    },
+    {
+     "zh": "角色",
+     "pinyin": "juésè",
+     "vi": "nhân vật",
+     "example": {
+      "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+      "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+     }
+    },
+    {
+     "zh": "推理",
+     "pinyin": "tuīlǐ",
+     "vi": "suy luận",
+     "example": {
+      "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+      "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+     }
+    },
+    {
+     "zh": "凶手",
+     "pinyin": "xiōngshǒu",
+     "vi": "hung thủ",
+     "example": {
+      "zh": "就是每人扮演一个角色，一起推理找凶手，一局四五个小时。",
+      "vi": "Là mỗi người đóng một vai, cùng nhau suy luận tìm hung thủ, một ván bốn năm tiếng."
+     }
+    },
+    {
+     "zh": "拖后腿",
+     "pinyin": "tuō hòutuǐ",
+     "vi": "làm vướng chân, kéo cả nhóm chậm",
+     "example": {
+      "zh": "听着挺好玩儿的，可我中文阅读慢，怕拖后腿。",
+      "vi": "Nghe có vẻ vui đấy, nhưng mình đọc tiếng Trung chậm, sợ làm chậm cả đội."
+     }
+    },
+    {
+     "zh": "烧脑",
+     "pinyin": "shāo nǎo",
+     "vi": "hại não",
+     "example": {
+      "zh": "那选个欢乐本，不烧脑。玩完再去唱K。",
+      "vi": "Vậy chọn kịch bản vui nhộn, không hại não. Chơi xong đi hát karaoke."
+     }
+    },
+    {
+     "zh": "欢乐本 / 恐怖本",
+     "pinyin": "huānlè běn / kǒngbù běn",
+     "vi": "kịch bản vui / kinh dị"
+    },
+    {
+     "zh": "唱K / KTV",
+     "pinyin": "chàng K",
+     "vi": "đi hát karaoke"
+    },
+    {
+     "zh": "算我一个",
+     "pinyin": "suàn wǒ yí gè",
+     "vi": "tính cả tôi",
+     "example": {
+      "zh": "那算我一个！",
+      "vi": "Vậy tính mình một suất!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g15-1",
+     "title_zh": "还差 + số lượng + N",
+     "title_vi": "还差 + số lượng + N",
+     "formula": [
+      [
+       {
+        "zh": "还差",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "số lượng",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "N",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "还差 + số lượng + (N) nghĩa là \"còn thiếu…\", cho biết khoảng cách tới đủ số lượng cần thiết. Hay dùng khi rủ rê (还差一个人), báo thời gian (还差五分钟) hoặc tiền (还差十块). So sánh với 就差……了 (Bài 5): 就差 nhấn mạnh \"chỉ thiếu chút xíu\", còn 还差 trung tính hơn.",
+     "examples": [
+      {
+       "zh": "还差一个人。",
+       "vi": "Còn thiếu một người."
+      },
+      {
+       "zh": "还差五分钟。",
+       "vi": "Còn thiếu năm phút."
+      }
+     ]
+    },
+    {
+     "id": "gt-g15-2",
+     "title_zh": "怕 + V (lo ngại)",
+     "title_vi": "怕 + V (lo ngại)",
+     "formula": [
+      [
+       {
+        "zh": "怕",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V (lo ngại)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "怕 + V/mệnh đề nghĩa là \"sợ rằng, e là…\", diễn tả sự lo ngại về một khả năng không tốt. Khác với 害怕 (sợ hãi thật sự), 怕 ở đây nhẹ, thường dùng để giải thích lý do do dự hoặc từ chối: 我中文阅读慢，怕拖后腿。Có thể dùng 就怕 để nhấn mạnh: 就怕赶不上.",
+     "examples": [
+      {
+       "zh": "怕拖后腿。",
+       "vi": "Sợ làm chậm cả đội."
+      },
+      {
+       "zh": "怕赶不上。",
+       "vi": "Sợ không kịp."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "看电影",
+   "context_vi": "Bài khoá 2: 看电影 – Đi xem phim",
+   "scene": "🎤",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "这周末有部新片上映，一起看吗？",
+     "vi": "Cuối tuần này có phim mới ra rạp, đi xem cùng không?"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "好啊，我在猫眼上看看……IMAX场次快满了，普通厅还有中间的座儿。",
+     "vi": "Được đấy, để mình xem trên Maoyan… Suất IMAX sắp kín rồi, phòng thường còn chỗ ở giữa."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "大众点评上有团购套餐，两张票加一桶爆米花，六十九。",
+     "vi": "Trên Dianping có combo mua nhóm, hai vé thêm một xô bỏng ngô, sáu mươi chín tệ."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "挺划算！我来选座，你负责买零食。",
+     "vi": "Hời quá! Mình chọn chỗ, cậu lo mua đồ ăn vặt."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "成交！",
+     "vi": "Chốt!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "上映",
+     "pinyin": "shàngyìng",
+     "vi": "công chiếu",
+     "example": {
+      "zh": "这周末有部新片上映，一起看吗？",
+      "vi": "Cuối tuần này có phim mới ra rạp, đi xem cùng không?"
+     }
+    },
+    {
+     "zh": "猫眼 / 淘票票",
+     "pinyin": "Māoyǎn / Táopiàopiào",
+     "vi": "app mua vé phim"
+    },
+    {
+     "zh": "场次",
+     "pinyin": "chǎngcì",
+     "vi": "suất chiếu",
+     "example": {
+      "zh": "好啊，我在猫眼上看看……IMAX场次快满了，普通厅还有中间的座儿。",
+      "vi": "Được đấy, để mình xem trên Maoyan… Suất IMAX sắp kín rồi, phòng thường còn chỗ ở giữa."
+     }
+    },
+    {
+     "zh": "普通厅",
+     "pinyin": "pǔtōng tīng",
+     "vi": "phòng chiếu thường",
+     "example": {
+      "zh": "好啊，我在猫眼上看看……IMAX场次快满了，普通厅还有中间的座儿。",
+      "vi": "Được đấy, để mình xem trên Maoyan… Suất IMAX sắp kín rồi, phòng thường còn chỗ ở giữa."
+     }
+    },
+    {
+     "zh": "选座",
+     "pinyin": "xuǎn zuò",
+     "vi": "chọn ghế",
+     "example": {
+      "zh": "挺划算！我来选座，你负责买零食。",
+      "vi": "Hời quá! Mình chọn chỗ, cậu lo mua đồ ăn vặt."
+     }
+    },
+    {
+     "zh": "大众点评",
+     "pinyin": "Dàzhòng diǎnpíng",
+     "vi": "app đánh giá và voucher địa phương",
+     "example": {
+      "zh": "大众点评上有团购套餐，两张票加一桶爆米花，六十九。",
+      "vi": "Trên Dianping có combo mua nhóm, hai vé thêm một xô bỏng ngô, sáu mươi chín tệ."
+     }
+    },
+    {
+     "zh": "团购",
+     "pinyin": "tuángòu",
+     "vi": "mua voucher nhóm",
+     "example": {
+      "zh": "大众点评上有团购套餐，两张票加一桶爆米花，六十九。",
+      "vi": "Trên Dianping có combo mua nhóm, hai vé thêm một xô bỏng ngô, sáu mươi chín tệ."
+     }
+    },
+    {
+     "zh": "套餐",
+     "pinyin": "tàocān",
+     "vi": "combo",
+     "example": {
+      "zh": "大众点评上有团购套餐，两张票加一桶爆米花，六十九。",
+      "vi": "Trên Dianping có combo mua nhóm, hai vé thêm một xô bỏng ngô, sáu mươi chín tệ."
+     }
+    },
+    {
+     "zh": "划算",
+     "pinyin": "huásuàn",
+     "vi": "hời, đáng tiền",
+     "example": {
+      "zh": "挺划算！我来选座，你负责买零食。",
+      "vi": "Hời quá! Mình chọn chỗ, cậu lo mua đồ ăn vặt."
+     }
+    },
+    {
+     "zh": "零食",
+     "pinyin": "língshí",
+     "vi": "đồ ăn vặt",
+     "example": {
+      "zh": "挺划算！我来选座，你负责买零食。",
+      "vi": "Hời quá! Mình chọn chỗ, cậu lo mua đồ ăn vặt."
+     }
+    },
+    {
+     "zh": "成交",
+     "pinyin": "chéngjiāo",
+     "vi": "chốt!",
+     "example": {
+      "zh": "成交！",
+      "vi": "Chốt!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "抢票失败",
+   "context_vi": "Bài khoá 3: 抢票失败 – Săn vé thất bại",
+   "scene": "🎤",
+   "lines": [
+    {
+     "speaker": "gt-pengyou",
+     "zh": "那个歌手的演唱会票一开抢就秒没了！",
+     "vi": "Vé concert của ca sĩ đó vừa mở bán là hết sạch trong vài giây!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我也没抢到。黄牛票要三千多，太离谱了。",
+     "vi": "Mình cũng không giành được. Vé phe đòi hơn ba nghìn, quá vô lý."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "千万别买黄牛票，容易被骗。等等官方的回流票吧。",
+     "vi": "Tuyệt đối đừng mua vé phe, dễ bị lừa lắm. Chờ vé trả lại chính thức đi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "要不去音乐节吧，票好买，氛围也不错。",
+     "vi": "Hay đi lễ hội âm nhạc đi, vé dễ mua, không khí cũng hay."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "我考虑考虑……下次一定！",
+     "vi": "Để mình suy nghĩ đã… Lần sau nhất định!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你每次都\"下次一定\"！",
+     "vi": "Lần nào cậu cũng \"lần sau nhất định\"!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "演唱会",
+     "pinyin": "yǎnchànghuì",
+     "vi": "đêm nhạc, concert",
+     "example": {
+      "zh": "那个歌手的演唱会票一开抢就秒没了！",
+      "vi": "Vé concert của ca sĩ đó vừa mở bán là hết sạch trong vài giây!"
+     }
+    },
+    {
+     "zh": "开抢",
+     "pinyin": "kāi qiǎng",
+     "vi": "mở bán (phải giành)",
+     "example": {
+      "zh": "那个歌手的演唱会票一开抢就秒没了！",
+      "vi": "Vé concert của ca sĩ đó vừa mở bán là hết sạch trong vài giây!"
+     }
+    },
+    {
+     "zh": "秒没",
+     "pinyin": "miǎo méi",
+     "vi": "hết trong vài giây",
+     "example": {
+      "zh": "那个歌手的演唱会票一开抢就秒没了！",
+      "vi": "Vé concert của ca sĩ đó vừa mở bán là hết sạch trong vài giây!"
+     }
+    },
+    {
+     "zh": "黄牛票",
+     "pinyin": "huángniú piào",
+     "vi": "vé chợ đen",
+     "example": {
+      "zh": "我也没抢到。黄牛票要三千多，太离谱了。",
+      "vi": "Mình cũng không giành được. Vé phe đòi hơn ba nghìn, quá vô lý."
+     }
+    },
+    {
+     "zh": "离谱",
+     "pinyin": "lípǔ",
+     "vi": "quá đáng, vô lý",
+     "example": {
+      "zh": "我也没抢到。黄牛票要三千多，太离谱了。",
+      "vi": "Mình cũng không giành được. Vé phe đòi hơn ba nghìn, quá vô lý."
+     }
+    },
+    {
+     "zh": "回流票",
+     "pinyin": "huíliú piào",
+     "vi": "vé bị trả lại, mở bán lại",
+     "example": {
+      "zh": "千万别买黄牛票，容易被骗。等等官方的回流票吧。",
+      "vi": "Tuyệt đối đừng mua vé phe, dễ bị lừa lắm. Chờ vé trả lại chính thức đi."
+     }
+    },
+    {
+     "zh": "氛围",
+     "pinyin": "fēnwéi",
+     "vi": "bầu không khí",
+     "example": {
+      "zh": "要不去音乐节吧，票好买，氛围也不错。",
+      "vi": "Hay đi lễ hội âm nhạc đi, vé dễ mua, không khí cũng hay."
+     }
+    },
+    {
+     "zh": "下次一定",
+     "pinyin": "xià cì yídìng",
+     "vi": "lần sau nhất định (thường là từ chối khéo)",
+     "example": {
+      "zh": "我考虑考虑……下次一定！",
+      "vi": "Để mình suy nghĩ đã… Lần sau nhất định!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g15-3",
+     "title_zh": "要不……吧",
+     "title_vi": "Đề xuất phương án thay thế",
+     "formula": [
+      [
+       {
+        "zh": "要不……吧",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "要不……吧 dùng để đề xuất một phương án thay thế khi phương án ban đầu không ổn: \"hay là… đi\". 要不 đứng đầu câu (cũng có thể nói 要不然 / 不如), 吧 cuối câu làm lời đề nghị mềm. Ví dụ: 演唱会票没抢到，要不去音乐节吧。",
+     "examples": [
+      {
+       "zh": "要不去音乐节吧。",
+       "vi": "Hay đi lễ hội âm nhạc đi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g15-4",
+     "title_zh": "V + V (thử, cân nhắc)",
+     "title_vi": "V + V (thử, cân nhắc)",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V (thử, cân nhắc)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Lặp động từ (V V, hoặc ABAB với động từ hai âm tiết) làm hành động nhẹ đi: \"thử…, … một chút, … xem sao\". Dùng để giảm sự cứng nhắc, nghe thoải mái hơn: 你看看 (bạn xem thử), 等等回流票 (chờ thử vé mở bán lại). Đặc biệt 我考虑考虑 thường là cách từ chối khéo, tương tự 下次一定.",
+     "examples": [
+      {
+       "zh": "我考虑考虑。",
+       "vi": "Để tôi suy nghĩ đã."
+      },
+      {
+       "zh": "你看看。",
+       "vi": "Bạn xem thử đi."
+      },
+      {
+       "zh": "等等回流票。",
+       "vi": "Chờ vé trả lại xem sao."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "这周末有部新片___。",
+   "bank": [
+    "上映",
+    "拖后腿",
+    "算我一个"
+   ],
+   "answer": "上映"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "两张票加爆米花才六十九，挺___！",
+   "bank": [
+    "拖后腿",
+    "划算",
+    "上映"
+   ],
+   "answer": "划算"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "周五去唱K？___！",
+   "bank": [
+    "拖后腿",
+    "离谱",
+    "算我一个"
+   ],
+   "answer": "算我一个"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "演唱会的票一开抢就___了。",
+   "bank": [
+    "秒没",
+    "划算",
+    "拖后腿"
+   ],
+   "answer": "秒没"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "黄牛票要三千多，太___了。",
+   "bank": [
+    "算我一个",
+    "上映",
+    "离谱"
+   ],
+   "answer": "离谱"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我是新手，怕___。",
+   "bank": [
+    "划算",
+    "拖后腿",
+    "离谱"
+   ],
+   "answer": "拖后腿"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "一个人",
+    "还差",
+    "我们"
+   ],
+   "answers": [
+    "我们还差一个人"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "怕",
+    "我",
+    "拖后腿"
+   ],
+   "answers": [
+    "我怕拖后腿"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "吧",
+    "音乐节",
+    "要不",
+    "去"
+   ],
+   "answers": [
+    "要不去音乐节吧"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "选座",
+    "我来",
+    "买零食",
+    "你负责"
+   ],
+   "answers": [
+    "我来选座你负责买零食"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "剧本杀",
+     "a": "trò nhập vai phá án"
+    },
+    {
+     "q": "角色",
+     "a": "nhân vật"
+    },
+    {
+     "q": "欢乐本 / 恐怖本",
+     "a": "kịch bản vui / kinh dị"
+    },
+    {
+     "q": "普通厅",
+     "a": "phòng chiếu thường"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Cuối tuần bạn thường giải trí bằng hoạt động gì?",
+   "Khởi động: Khi không muốn nhận lời rủ đi chơi, bạn thường từ chối thế nào?",
+   "周末约起来 Hẹn cuối tuần (10 phút): mỗi người cầm lịch cá nhân bí mật có 2–3 khung bận. Cả nhóm phải thương lượng chọn được 1 hoạt động và 1 khung giờ chung cho tất cả.",
+   "迷你剧本杀 Mini phá án (12 phút): giáo viên phát 4 vai với thông tin ngắn (100 chữ). Học viên hỏi–đáp để tìm \"ai ăn vụng bánh sinh nhật\". Buộc dùng: 你当时在哪儿？/ 有谁能证明？",
+   "Nhiệm vụ thực tế: nhắn tin rủ 3 bạn cùng lớp đi một hoạt động, nhận 1 lời đồng ý và 1 lời từ chối khéo (có thể nhờ bạn đóng vai)."
+  ],
+  "patterns": [
+   {
+    "zh": "还差一个人。",
+    "vi": "Còn thiếu một người."
+   },
+   {
+    "zh": "怕拖后腿。",
+    "vi": "Sợ làm chậm cả đội."
+   },
+   {
+    "zh": "要不去音乐节吧。",
+    "vi": "Hay đi lễ hội âm nhạc đi."
+   },
+   {
+    "zh": "我考虑考虑。",
+    "vi": "Để tôi suy nghĩ đã."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "下次一定\" và giải trí kiểu mới Câu \"下次一定\" bắt nguồn từ bình luận trên Bilibili: người xem hứa \"lần sau nhất định ủng hộ\" nhưng không làm, nên thành câu từ chối vui. 剧本杀 và 密室逃脱 là hình thức giải trí nhóm rất được giới trẻ đô thị ưa chuộng; voucher nhóm trên 大众点评 dùng cho gần như mọi dịch vụ, từ nhà hàng đến massage. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"下次一定\" và giải trí kiểu mới Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Nhận lời: 算我一个！/ 走起！/ 必须的！",
+   "Ứng xử: Từ chối khéo: 这周有点儿忙，下次吧 / 我看看时间再回你. \"下次一定\" có thể là thật hoặc là từ chối, xem ngữ cảnh.",
+   "Ứng xử: Được rủ lần đầu nên cố gắng nhận lời. Từ chối 2–3 lần liên tiếp thường bị hiểu là không muốn chơi cùng.",
+   "Ứng xử: Chơi 剧本杀 lần đầu thì nói trước \"我是新手\", mọi người sẽ chọn kịch bản dễ hơn."
+  ]
+ }
+}

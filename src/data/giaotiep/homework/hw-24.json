@@ -1,0 +1,399 @@
+{
+ "lessonId": 24,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）大年初一，我去朋友家{{1}}。\n（2）阿姨给了我一个红包，说是{{2}}。\n（3）过年的时候，街上特别{{3}}。\n（4）我才抢到一毛，{{4}}太差了！\n（5）中秋节大家回老家跟家人吃{{5}}。\n（6）一个人在外过节太{{6}}了，来我家吃饭吧。",
+     "bank": [
+      "拜年",
+      "压岁钱",
+      "热闹",
+      "手气",
+      "团圆饭",
+      "冷清"
+     ],
+     "answers": [
+      "拜年",
+      "压岁钱",
+      "热闹",
+      "手气",
+      "团圆饭",
+      "冷清"
+     ],
+     "explain_vi": "拜年、压岁钱、热闹、手气、团圆饭、冷清"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "给您拜年了",
+       "a": "xin chúc Tết bác/cô"
+      },
+      {
+       "q": "红红火火",
+       "a": "đỏ rực, thịnh vượng"
+      },
+      {
+       "q": "红包",
+       "a": "bao lì xì; lì xì điện tử"
+      },
+      {
+       "q": "春晚",
+       "a": "chương trình Gala Xuân CCTV"
+      },
+      {
+       "q": "抢红包",
+       "a": "giành lì xì trong nhóm"
+      },
+      {
+       "q": "月饼",
+       "a": "bánh trung thu"
+      }
+     ],
+     "explain_vi": "给您拜年了 = xin chúc Tết bác/cô · 红红火火 = đỏ rực, thịnh vượng · 红包 = bao lì xì; lì xì điện tử · 春晚 = chương trình Gala Xuân CCTV · 抢红包 = giành lì xì trong nhóm · 月饼 = bánh trung thu"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "拜年了",
+      "给您",
+      "叔叔阿姨"
+     ],
+     "answers": [
+      "叔叔阿姨给您拜年了"
+     ],
+     "explain_vi": "叔叔阿姨，给您拜年了！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "吉利",
+      "图个"
+     ],
+     "answers": [
+      "图个吉利"
+     ],
+     "explain_vi": "图个吉利。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "孩子",
+      "没结婚",
+      "是",
+      "都"
+     ],
+     "answers": [
+      "没结婚都是孩子"
+     ],
+     "explain_vi": "没结婚都是孩子。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "手慢无",
+      "发个红包"
+     ],
+     "answers": [
+      "发个红包手慢无"
+     ],
+     "explain_vi": "发个红包，手慢无！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Năm mới vui vẻ! Chúc cô chú sức khỏe dồi dào, vạn sự như ý!",
+     "acceptedAnswers": [
+      "新年快乐！祝您身体健康，万事如意！"
+     ],
+     "requiredKeywords": [
+      "万事如意",
+      "身体健康"
+     ],
+     "explain_vi": "Đáp án tham khảo: 新年快乐！祝您身体健康，万事如意！"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Giành được 8,8 tệ, may mắn quá! Cảm ơn sếp!",
+     "acceptedAnswers": [
+      "抢到八块八，吉利！谢谢老板！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 抢到八块八，吉利！谢谢老板！"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Trung thu ở Việt Nam giống ngày Tết thiếu nhi hơn, trẻ em rước đèn lồng, xem múa lân.",
+     "acceptedAnswers": [
+      "越南中秋更像儿童节，小朋友提灯笼、看舞狮。"
+     ],
+     "requiredKeywords": [
+      "灯笼",
+      "舞狮"
+     ],
+     "explain_vi": "Đáp án tham khảo: 越南中秋更像儿童节，小朋友提灯笼、看舞狮。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: Khung lời chúc theo đối tượng",
+   "instructions_vi": "Viết lời chúc Tết phù hợp cho các đối tượng sau.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "Ông bà, cô chú lớn tuổi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "叔叔阿姨，给您拜年了！祝您身体健康，万事如意！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 叔叔阿姨，给您拜年了！祝您身体健康，万事如意！",
+     "grammarRef": "gt-g24-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "Sếp (giám đốc Vương). → ________________________________________________________",
+     "acceptedAnswers": [
+      "王总，新春快乐！感谢您过去一年的指导，祝您阖家幸福，新春大吉！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 王总，新春快乐！感谢您过去一年的指导，祝您阖家幸福，新春大吉！",
+     "grammarRef": "gt-g24-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn thân. → ________________________________________________________",
+     "acceptedAnswers": [
+      "新年快乐！祝你新的一年发大财、早日脱单！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 新年快乐！祝你新的一年发大财、早日脱单！",
+     "grammarRef": "gt-g24-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Một em nhỏ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "小朋友，新年好！祝你学习进步，快快长大！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 小朋友，新年好！祝你学习进步，快快长大！",
+     "grammarRef": "gt-g24-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 图个 + N/Adj",
+   "instructions_vi": "Giải thích mục đích bằng 图个…….",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Vì sao lì xì chỉ cần ít tiền? → ________________________________________________________",
+     "acceptedAnswers": [
+      "压岁钱不在多少，图个吉利。"
+     ],
+     "requiredKeywords": [
+      "图个"
+     ],
+     "explain_vi": "Đáp án tham khảo: 压岁钱不在多少，图个吉利。",
+     "grammarRef": "gt-g24-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Vì sao Tết phải đốt pháo hoa? → ________________________________________________________",
+     "acceptedAnswers": [
+      "过年放烟花，图个热闹。"
+     ],
+     "requiredKeywords": [
+      "图个"
+     ],
+     "explain_vi": "Đáp án tham khảo: 过年放烟花，图个热闹。",
+     "grammarRef": "gt-g24-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Vì sao bạn chọn khách sạn gần ga? → ________________________________________________________",
+     "acceptedAnswers": [
+      "住车站旁边，图个方便。"
+     ],
+     "requiredKeywords": [
+      "图个"
+     ],
+     "explain_vi": "Đáp án tham khảo: 住车站旁边，图个方便。",
+     "grammarRef": "gt-g24-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Vì sao lì xì thường là 8,8 tệ hoặc 6,66 tệ? → ________________________________________________________",
+     "acceptedAnswers": [
+      "发八块八、六块六六，图个好彩头",
+      "图个吉利。"
+     ],
+     "requiredKeywords": [
+      "图个"
+     ],
+     "explain_vi": "Đáp án tham khảo: 发八块八、六块六六，图个好彩头 / 图个吉利。",
+     "grammarRef": "gt-g24-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: ……都……",
+   "instructions_vi": "Hoàn thành câu với ……都…….",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "在我们这儿，没结婚______是孩子。",
+     "acceptedAnswers": [
+      "都"
+     ],
+     "requiredKeywords": [
+      "都"
+     ],
+     "explain_vi": "Đáp án tham khảo: 都",
+     "grammarRef": "gt-g24-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "(ai đến đều là khách) → ________________________________________________________",
+     "acceptedAnswers": [
+      "来的都是客。"
+     ],
+     "requiredKeywords": [
+      "都"
+     ],
+     "explain_vi": "Đáp án tham khảo: 来的都是客。",
+     "grammarRef": "gt-g24-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "(chỉ cần là người Bắc Kinh thì đều biết món này) → ________________________________________________________",
+     "acceptedAnswers": [
+      "是北京人都知道这道菜。"
+     ],
+     "requiredKeywords": [
+      "都"
+     ],
+     "explain_vi": "Đáp án tham khảo: 是北京人都知道这道菜。",
+     "grammarRef": "gt-g24-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "(về quê ăn Tết thì ai cũng phải ăn bánh chẻo) → ________________________________________________________",
+     "acceptedAnswers": [
+      "回老家过年，大家都要吃饺子。"
+     ],
+     "requiredKeywords": [
+      "都"
+     ],
+     "explain_vi": "Đáp án tham khảo: 回老家过年，大家都要吃饺子。",
+     "grammarRef": "gt-g24-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: V着V着 / 拿着拿着",
+   "instructions_vi": "Dùng hình thức lặp để mời mọc nhiệt tình trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn đưa bao lì xì, đối phương từ chối. → ________________________________________________________",
+     "acceptedAnswers": [
+      "拿着拿着！"
+     ],
+     "requiredKeywords": [
+      "着",
+      "着"
+     ],
+     "explain_vi": "Đáp án tham khảo: 拿着拿着！",
+     "grammarRef": "gt-g24-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn mời khách ăn kẹo, hạt dưa. → ________________________________________________________",
+     "acceptedAnswers": [
+      "吃吃吃，别客气！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 吃吃吃，别客气！",
+     "grammarRef": "gt-g24-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn mời khách vào nhà ngồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "快进来，坐坐坐！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 快进来，坐坐坐！",
+     "grammarRef": "gt-g24-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Đối phương định trả tiền, bạn ngăn lại. → ________________________________________________________",
+     "acceptedAnswers": [
+      "别别别，今天我请！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 别别别，今天我请！",
+     "grammarRef": "gt-g24-4"
+    }
+   ]
+  }
+ ]
+}

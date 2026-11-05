@@ -1,0 +1,428 @@
+{
+ "lessonId": 8,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）卫生间下水道{{1}}，水都漫出来了。\n（2）我拍几张照片{{2}}，以后退房的时候用。\n（3）正常到期的话，{{3}}全额退还。\n（4）家里停电了，可能是电费{{4}}了。\n（5）热水器坏了，我得给房东打电话{{5}}。\n（6）我下个月回国，想把房子{{6}}出去。",
+     "bank": [
+      "押金",
+      "转租",
+      "报修",
+      "欠费",
+      "堵了",
+      "存个底"
+     ],
+     "answers": [
+      "堵了",
+      "存个底",
+      "押金",
+      "欠费",
+      "报修",
+      "转租"
+     ],
+     "explain_vi": "堵了、存个底、押金、欠费、报修、转租"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "租期",
+       "a": "thời hạn thuê"
+      },
+      {
+       "q": "到期 / 续租",
+       "a": "hết hạn / gia hạn"
+      },
+      {
+       "q": "下水道",
+       "a": "ống thoát nước"
+      },
+      {
+       "q": "人为损坏",
+       "a": "hư do người dùng"
+      },
+      {
+       "q": "电表 / 水表",
+       "a": "đồng hồ điện / nước"
+      },
+      {
+       "q": "垃圾分类",
+       "a": "phân loại rác"
+      }
+     ],
+     "explain_vi": "租期 = thời hạn thuê · 到期 / 续租 = hết hạn / gia hạn · 下水道 = ống thoát nước · 人为损坏 = hư do người dùng · 电表 / 水表 = đồng hồ điện / nước · 垃圾分类 = phân loại rác"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "时好时坏",
+      "的",
+      "热水器",
+      "也"
+     ],
+     "answers": [
+      "热水器也时好时坏的"
+     ],
+     "explain_vi": "热水器也时好时坏的。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "经过",
+      "转租",
+      "同意",
+      "房东",
+      "要"
+     ],
+     "answers": [
+      "转租要经过房东同意"
+     ],
+     "explain_vi": "转租要经过房东同意。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "一个月",
+      "我",
+      "住进来",
+      "才"
+     ],
+     "answers": [
+      "我才住进来一个月"
+     ],
+     "explain_vi": "我才住进来一个月。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "能",
+      "合同后面",
+      "附在",
+      "吗",
+      "清单"
+     ],
+     "answers": [
+      "清单能附在合同后面吗"
+     ],
+     "explain_vi": "清单能附在合同后面吗？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Trường hợp nào thì không được trả lại tiền cọc?",
+     "acceptedAnswers": [
+      "押金什么情况下不退？"
+     ],
+     "requiredKeywords": [
+      "押金"
+     ],
+     "explain_vi": "Đáp án tham khảo: 押金什么情况下不退？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Người nước ngoài sau khi vào ở trong vòng 24 giờ phải đăng ký tạm trú.",
+     "acceptedAnswers": [
+      "外国人入住后二十四小时内要办住宿登记。"
+     ],
+     "requiredKeywords": [
+      "住宿登记"
+     ],
+     "explain_vi": "Đáp án tham khảo: 外国人入住后二十四小时内要办住宿登记。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Rác phải phân loại, rác nhà bếp bỏ vào thùng xanh lá.",
+     "acceptedAnswers": [
+      "垃圾要分类，厨余垃圾放绿桶。"
+     ],
+     "requiredKeywords": [
+      "厨余垃圾"
+     ],
+     "explain_vi": "Đáp án tham khảo: 垃圾要分类，厨余垃圾放绿桶。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: ……的话，……；……，就……",
+   "instructions_vi": "Viết điều khoản hợp đồng theo gợi ý, dùng ……的话，……；……，就…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(trả nhà trước hạn → mất cọc; hết hạn bình thường → hoàn đủ cọc) → ________________________________________________________",
+     "acceptedAnswers": [
+      "提前退租的话，押金不退；正常到期，就全额退还。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 提前退租的话，押金不退；正常到期，就全额退还。",
+     "grammarRef": "gt-g8-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(hư do người dùng → người thuê trả tiền; hư tự nhiên → chủ nhà sửa) → ________________________________________________________",
+     "acceptedAnswers": [
+      "人为损坏的话，租客出钱；正常损坏，就房东负责修。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 人为损坏的话，租客出钱；正常损坏，就房东负责修。",
+     "grammarRef": "gt-g8-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(đóng tiền trễ quá 7 ngày → phạt 5%; đóng đúng hạn → không phạt) → ________________________________________________________",
+     "acceptedAnswers": [
+      "晚交七天以上的话，罚百分之五；按时交，就没有罚款。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 晚交七天以上的话，罚百分之五；按时交，就没有罚款。",
+     "grammarRef": "gt-g8-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Đọc và dịch: 到期想续租的话，要提前一个月告诉房东。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "Nếu hết hạn muốn gia hạn thuê thì phải báo chủ nhà trước một tháng."
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: Nếu hết hạn muốn gia hạn thuê thì phải báo chủ nhà trước một tháng.",
+     "grammarRef": "gt-g8-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 时A时B",
+   "instructions_vi": "Dùng 时A时B để mô tả các tình huống sau.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bình nóng lạnh lúc chạy lúc không. → ________________________________________________________",
+     "acceptedAnswers": [
+      "热水器时好时坏。"
+     ],
+     "requiredKeywords": [
+      "时",
+      "时"
+     ],
+     "explain_vi": "Đáp án tham khảo: 热水器时好时坏。",
+     "grammarRef": "gt-g8-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Mạng lúc nhanh lúc chậm. → ________________________________________________________",
+     "acceptedAnswers": [
+      "网速时快时慢。"
+     ],
+     "requiredKeywords": [
+      "时",
+      "时"
+     ],
+     "explain_vi": "Đáp án tham khảo: 网速时快时慢。",
+     "grammarRef": "gt-g8-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Thời tiết tháng ba ở Bắc Kinh lúc lạnh lúc nóng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "北京三月的天气时冷时热。"
+     ],
+     "requiredKeywords": [
+      "时",
+      "时"
+     ],
+     "explain_vi": "Đáp án tham khảo: 北京三月的天气时冷时热。",
+     "grammarRef": "gt-g8-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Điều hòa lúc có gió lúc không. → ________________________________________________________",
+     "acceptedAnswers": [
+      "空调时有风时没风。",
+      "空调的风时有时无。"
+     ],
+     "requiredKeywords": [
+      "时",
+      "时"
+     ],
+     "explain_vi": "Đáp án tham khảo: 空调时有风时没风。 / 空调的风时有时无。",
+     "grammarRef": "gt-g8-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 经过 + ai + 同意",
+   "instructions_vi": "Hoàn thành câu với 经过……同意.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "转租要______。",
+     "acceptedAnswers": [
+      "经过房东同意"
+     ],
+     "requiredKeywords": [
+      "经过",
+      "同意"
+     ],
+     "explain_vi": "Đáp án tham khảo: 经过房东同意",
+     "grammarRef": "gt-g8-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "在房子里养宠物，得______。",
+     "acceptedAnswers": [
+      "经过房东同意"
+     ],
+     "requiredKeywords": [
+      "经过",
+      "同意"
+     ],
+     "explain_vi": "Đáp án tham khảo: 经过房东同意",
+     "grammarRef": "gt-g8-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "没______，不能随便请假。",
+     "acceptedAnswers": [
+      "经过领导同意"
+     ],
+     "requiredKeywords": [
+      "经过",
+      "同意"
+     ],
+     "explain_vi": "Đáp án tham khảo: 经过领导同意",
+     "grammarRef": "gt-g8-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Muốn sửa lại phòng thì phải được chủ nhà đồng ý. → ________________________________________________________",
+     "acceptedAnswers": [
+      "想重新装修房间，要经过房东同意。"
+     ],
+     "requiredKeywords": [
+      "经过",
+      "同意"
+     ],
+     "explain_vi": "Đáp án tham khảo: 想重新装修房间，要经过房东同意。",
+     "grammarRef": "gt-g8-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 才 + V (mới chỉ)",
+   "instructions_vi": "Dùng 才 để hoàn thành câu theo gợi ý.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "这不是人为损坏，我______。(mới vào ở một tháng)",
+     "acceptedAnswers": [
+      "我才住进来一个月"
+     ],
+     "requiredKeywords": [
+      "才"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我才住进来一个月",
+     "grammarRef": "gt-g8-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "别着急，你______，慢慢就习惯了。(mới đến ba ngày)",
+     "acceptedAnswers": [
+      "你才来三天"
+     ],
+     "requiredKeywords": [
+      "才"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你才来三天",
+     "grammarRef": "gt-g8-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "这个手机我______就坏了。(mới dùng hai tuần)",
+     "acceptedAnswers": [
+      "我才用了两个星期就坏了"
+     ],
+     "requiredKeywords": [
+      "才"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我才用了两个星期就坏了",
+     "grammarRef": "gt-g8-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Chọn câu đúng: A. 我才来中国半年了。 B. 我才来中国半年。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "B. 我才来中国半年。"
+     ],
+     "requiredKeywords": [
+      "才"
+     ],
+     "explain_vi": "Đáp án tham khảo: B. 我才来中国半年。",
+     "grammarRef": "gt-g8-4"
+    }
+   ]
+  }
+ ]
+}

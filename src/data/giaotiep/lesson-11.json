@@ -1,0 +1,721 @@
+{
+ "id": 11,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "旅游攻略",
+  "pinyin": "lǚ yóu gōng lüè",
+  "vi": "Lên kế hoạch du lịch"
+ },
+ "grammarTopics_vi": [
+  "最好 + V",
+  "再 + tính từ/V + (的话)，就要……了",
+  "换个 + tính từ + 点儿的 + N",
+  "除了……以外，还……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi kinh nghiệm du lịch",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đặt vé tham quan",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Nhận và trả phòng khách sạn",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đưa yêu cầu đặc biệt",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "做攻略",
+   "context_vi": "Bài khoá 1: 做攻略 – Lên kế hoạch",
+   "scene": "🗺️",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "国庆想去成都玩儿，你有什么攻略吗？",
+     "vi": "Quốc khánh mình muốn đi Thành Đô chơi, cậu có kinh nghiệm gì không?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "先上小红书搜\"成都三天两晚\"，好多人分享路线。",
+     "vi": "Lên Xiaohongshu tìm \"Thành Đô ba ngày hai đêm\" trước, nhiều người chia sẻ lộ trình lắm."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "大熊猫基地要预约吗？",
+     "vi": "Khu gấu trúc có phải đặt trước không?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "要，得在官方小程序上实名预约，节假日特别难抢。",
+     "vi": "Có, phải đặt bằng tên thật trên mini app chính thức, ngày lễ cực khó giành vé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "住哪儿方便？",
+     "vi": "Ở đâu thì tiện?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "春熙路、太古里附近，吃的多，地铁也方便。不过国庆人山人海，最好错峰出行。",
+     "vi": "Gần phố Xuân Hy, Thái Cổ Lý, nhiều đồ ăn, tàu điện cũng tiện. Nhưng Quốc khánh đông nghịt người, tốt nhất đi lệch ngày cao điểm."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "攻略 / 做攻略",
+     "pinyin": "gōnglüè",
+     "vi": "cẩm nang / lên kế hoạch"
+    },
+    {
+     "zh": "小红书",
+     "pinyin": "Xiǎohóngshū",
+     "vi": "mạng xã hội chia sẻ kinh nghiệm",
+     "example": {
+      "zh": "先上小红书搜\"成都三天两晚\"，好多人分享路线。",
+      "vi": "Lên Xiaohongshu tìm \"Thành Đô ba ngày hai đêm\" trước, nhiều người chia sẻ lộ trình lắm."
+     }
+    },
+    {
+     "zh": "路线",
+     "pinyin": "lùxiàn",
+     "vi": "lộ trình",
+     "example": {
+      "zh": "先上小红书搜\"成都三天两晚\"，好多人分享路线。",
+      "vi": "Lên Xiaohongshu tìm \"Thành Đô ba ngày hai đêm\" trước, nhiều người chia sẻ lộ trình lắm."
+     }
+    },
+    {
+     "zh": "三天两晚",
+     "pinyin": "sān tiān liǎng wǎn",
+     "vi": "3 ngày 2 đêm",
+     "example": {
+      "zh": "先上小红书搜\"成都三天两晚\"，好多人分享路线。",
+      "vi": "Lên Xiaohongshu tìm \"Thành Đô ba ngày hai đêm\" trước, nhiều người chia sẻ lộ trình lắm."
+     }
+    },
+    {
+     "zh": "打卡",
+     "pinyin": "dǎkǎ",
+     "vi": "check-in (đến và chụp ảnh)"
+    },
+    {
+     "zh": "网红景点",
+     "pinyin": "wǎnghóng jǐngdiǎn",
+     "vi": "điểm \"hot\" trên mạng"
+    },
+    {
+     "zh": "实名预约",
+     "pinyin": "shímíng yùyuē",
+     "vi": "đặt chỗ bằng tên thật",
+     "example": {
+      "zh": "要，得在官方小程序上实名预约，节假日特别难抢。",
+      "vi": "Có, phải đặt bằng tên thật trên mini app chính thức, ngày lễ cực khó giành vé."
+     }
+    },
+    {
+     "zh": "难抢",
+     "pinyin": "nán qiǎng",
+     "vi": "khó giành (vé)",
+     "example": {
+      "zh": "要，得在官方小程序上实名预约，节假日特别难抢。",
+      "vi": "Có, phải đặt bằng tên thật trên mini app chính thức, ngày lễ cực khó giành vé."
+     }
+    },
+    {
+     "zh": "节假日",
+     "pinyin": "jiéjiàrì",
+     "vi": "ngày lễ",
+     "example": {
+      "zh": "要，得在官方小程序上实名预约，节假日特别难抢。",
+      "vi": "Có, phải đặt bằng tên thật trên mini app chính thức, ngày lễ cực khó giành vé."
+     }
+    },
+    {
+     "zh": "人山人海",
+     "pinyin": "rén shān rén hǎi",
+     "vi": "đông nghịt người",
+     "example": {
+      "zh": "春熙路、太古里附近，吃的多，地铁也方便。不过国庆人山人海，最好错峰出行。",
+      "vi": "Gần phố Xuân Hy, Thái Cổ Lý, nhiều đồ ăn, tàu điện cũng tiện. Nhưng Quốc khánh đông nghịt người, tốt nhất đi lệch ngày cao điểm."
+     }
+    },
+    {
+     "zh": "错峰出行",
+     "pinyin": "cuò fēng chūxíng",
+     "vi": "đi lệch giờ/ngày cao điểm",
+     "example": {
+      "zh": "春熙路、太古里附近，吃的多，地铁也方便。不过国庆人山人海，最好错峰出行。",
+      "vi": "Gần phố Xuân Hy, Thái Cổ Lý, nhiều đồ ăn, tàu điện cũng tiện. Nhưng Quốc khánh đông nghịt người, tốt nhất đi lệch ngày cao điểm."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g11-1",
+     "title_zh": "最好 + V",
+     "title_vi": "Gợi ý tốt nhất",
+     "formula": [
+      [
+       {
+        "zh": "最好",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "最好 + V nghĩa là \"tốt nhất là nên…\", đưa ra lời khuyên tối ưu. Nhẹ nhàng hơn 一定要 / 必须 nhưng vẫn rõ ý. Có thể dùng dạng phủ định 最好别 + V (tốt nhất đừng…). Ví dụ: 最好错峰出行。最好提前一周预约。国庆最好别去热门景点。",
+     "examples": [
+      {
+       "zh": "最好错峰出行。",
+       "vi": "Tốt nhất đi lệch ngày cao điểm."
+      },
+      {
+       "zh": "最好提前一周预约。",
+       "vi": "Tốt nhất đặt trước một tuần."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "酒店入住",
+   "context_vi": "Bài khoá 2: 酒店入住 – Nhận phòng khách sạn",
+   "scene": "🗺️",
+   "lines": [
+    {
+     "speaker": "gt-qiantai",
+     "zh": "您好，办理入住吗？",
+     "vi": "Xin chào, anh làm thủ tục nhận phòng ạ?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "对，我在携程上订的大床房，两晚。",
+     "vi": "Đúng, tôi đặt phòng giường đôi trên Ctrip, hai đêm."
+    },
+    {
+     "speaker": "gt-qiantai",
+     "zh": "请出示护照。押金两百，退房时退还。早餐七点到十点，在二楼。",
+     "vi": "Vui lòng xuất trình hộ chiếu. Cọc hai trăm, trả phòng sẽ hoàn lại. Bữa sáng từ bảy đến mười giờ, ở tầng hai."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "可以晚点儿退房吗？我的航班是晚上的。",
+     "vi": "Trả phòng muộn một chút được không? Chuyến bay của tôi vào buổi tối."
+    },
+    {
+     "speaker": "gt-qiantai",
+     "zh": "可以延迟到下午两点，再晚就要收半天房费了。行李可以寄存在前台。",
+     "vi": "Có thể lùi đến hai giờ chiều, muộn hơn nữa sẽ tính nửa ngày tiền phòng. Hành lý có thể gửi ở quầy lễ tân."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "能换个安静点儿的房间吗？别靠电梯的。",
+     "vi": "Đổi cho tôi phòng yên tĩnh hơn được không? Đừng gần thang máy."
+    },
+    {
+     "speaker": "gt-qiantai",
+     "zh": "我帮您看看……给您换到高层，可以吗？",
+     "vi": "Để tôi xem giúp anh… Đổi lên tầng cao cho anh, được không ạ?"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "携程 / 飞猪",
+     "pinyin": "Xiéchéng / Fēizhū",
+     "vi": "app đặt phòng, vé"
+    },
+    {
+     "zh": "大床房 / 双床房",
+     "pinyin": "dàchuáng fáng / shuāngchuáng fáng",
+     "vi": "phòng giường đôi / 2 giường"
+    },
+    {
+     "zh": "办理入住",
+     "pinyin": "bànlǐ rùzhù",
+     "vi": "làm thủ tục nhận phòng",
+     "example": {
+      "zh": "您好，办理入住吗？",
+      "vi": "Xin chào, anh làm thủ tục nhận phòng ạ?"
+     }
+    },
+    {
+     "zh": "退房",
+     "pinyin": "tuì fáng",
+     "vi": "trả phòng",
+     "example": {
+      "zh": "请出示护照。押金两百，退房时退还。早餐七点到十点，在二楼。",
+      "vi": "Vui lòng xuất trình hộ chiếu. Cọc hai trăm, trả phòng sẽ hoàn lại. Bữa sáng từ bảy đến mười giờ, ở tầng hai."
+     }
+    },
+    {
+     "zh": "押金",
+     "pinyin": "yājīn",
+     "vi": "tiền cọc",
+     "example": {
+      "zh": "请出示护照。押金两百，退房时退还。早餐七点到十点，在二楼。",
+      "vi": "Vui lòng xuất trình hộ chiếu. Cọc hai trăm, trả phòng sẽ hoàn lại. Bữa sáng từ bảy đến mười giờ, ở tầng hai."
+     }
+    },
+    {
+     "zh": "延迟退房",
+     "pinyin": "yánchí tuìfáng",
+     "vi": "trả phòng muộn"
+    },
+    {
+     "zh": "半天房费",
+     "pinyin": "bàntiān fángfèi",
+     "vi": "phí nửa ngày",
+     "example": {
+      "zh": "可以延迟到下午两点，再晚就要收半天房费了。行李可以寄存在前台。",
+      "vi": "Có thể lùi đến hai giờ chiều, muộn hơn nữa sẽ tính nửa ngày tiền phòng. Hành lý có thể gửi ở quầy lễ tân."
+     }
+    },
+    {
+     "zh": "寄存",
+     "pinyin": "jìcún",
+     "vi": "gửi (hành lý)",
+     "example": {
+      "zh": "可以延迟到下午两点，再晚就要收半天房费了。行李可以寄存在前台。",
+      "vi": "Có thể lùi đến hai giờ chiều, muộn hơn nữa sẽ tính nửa ngày tiền phòng. Hành lý có thể gửi ở quầy lễ tân."
+     }
+    },
+    {
+     "zh": "前台",
+     "pinyin": "qiántái",
+     "vi": "lễ tân",
+     "example": {
+      "zh": "可以延迟到下午两点，再晚就要收半天房费了。行李可以寄存在前台。",
+      "vi": "Có thể lùi đến hai giờ chiều, muộn hơn nữa sẽ tính nửa ngày tiền phòng. Hành lý có thể gửi ở quầy lễ tân."
+     }
+    },
+    {
+     "zh": "高层",
+     "pinyin": "gāocéng",
+     "vi": "tầng cao",
+     "example": {
+      "zh": "我帮您看看……给您换到高层，可以吗？",
+      "vi": "Để tôi xem giúp anh… Đổi lên tầng cao cho anh, được không ạ?"
+     }
+    },
+    {
+     "zh": "景区",
+     "pinyin": "jǐngqū",
+     "vi": "khu du lịch"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g11-2",
+     "title_zh": "再 + tính từ/V + (的话)，就要……了",
+     "title_vi": "再 + tính từ/V + (的话)，就要……了",
+     "formula": [
+      [
+       {
+        "zh": "再",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "tính từ/V",
+        "role": "V"
+       },
+       {
+        "zh": "(的话)，就要……了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "再 + tính từ/V + (的话)，就要……了 diễn tả lời cảnh báo: \"nếu còn… thêm nữa thì sẽ…\". 再 ở đây chỉ mức độ vượt thêm so với hiện tại; 就要……了 cho biết hậu quả sắp xảy ra. Ví dụ: 再晚就要收半天房费了 (muộn hơn nữa là phải tính phí nửa ngày). Lễ tân, nhân viên, người thân rất hay dùng câu này.",
+     "examples": [
+      {
+       "zh": "再晚就要收半天房费了。",
+       "vi": "Muộn hơn nữa sẽ tính nửa ngày tiền phòng."
+      }
+     ]
+    },
+    {
+     "id": "gt-g11-3",
+     "title_zh": "换个 + tính từ + 点儿的 + N",
+     "title_vi": "Yêu cầu thay đổi",
+     "formula": [
+      [
+       {
+        "zh": "换个",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "tính từ",
+        "role": "V"
+       },
+       {
+        "zh": "点儿的",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "N",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "换个 + tính từ + 点儿的 + (N) dùng để yêu cầu đổi sang thứ \"… hơn một chút\". 换个 = đổi một cái; 点儿 làm mức so sánh nhẹ; 的 biến cụm tính từ thành định ngữ, danh từ có thể lược bỏ nếu đã rõ. Ví dụ: 换个安静点儿的房间。换个大点儿的。",
+     "examples": [
+      {
+       "zh": "换个安静点儿的房间。",
+       "vi": "Đổi phòng yên tĩnh hơn chút."
+      },
+      {
+       "zh": "换个大点儿的。",
+       "vi": "Đổi cái to hơn chút."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "景区",
+   "context_vi": "Bài khoá 3: 景区 – Ở khu tham quan",
+   "scene": "🗺️",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，两张成人票。学生证能打折吗？",
+     "vi": "Chào chị, hai vé người lớn. Thẻ sinh viên có được giảm không?"
+    },
+    {
+     "speaker": "gt-shoupiaoyuan",
+     "zh": "门票都在网上卖，扫码预约就行。学生票要在小程序里上传学生证。",
+     "vi": "Vé đều bán trên mạng, quét mã đặt trước là được. Vé sinh viên phải tải thẻ sinh viên lên trong mini app."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "讲解怎么收费？",
+     "vi": "Thuyết minh tính phí thế nào?"
+    },
+    {
+     "speaker": "gt-shoupiaoyuan",
+     "zh": "人工讲解一百五一场，也可以租电子导览器，二十块。",
+     "vi": "Thuyết minh viên một trăm rưỡi một lượt, cũng có thể thuê máy thuyết minh điện tử, hai mươi tệ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那租导览器吧。里面能拍照吗？",
+     "vi": "Vậy thuê máy thuyết minh. Bên trong chụp ảnh được không?"
+    },
+    {
+     "speaker": "gt-shoupiaoyuan",
+     "zh": "能拍，但展厅里禁止用闪光灯。",
+     "vi": "Được chụp, nhưng trong phòng trưng bày cấm dùng đèn flash."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "门票",
+     "pinyin": "ménpiào",
+     "vi": "vé vào cửa",
+     "example": {
+      "zh": "门票都在网上卖，扫码预约就行。学生票要在小程序里上传学生证。",
+      "vi": "Vé đều bán trên mạng, quét mã đặt trước là được. Vé sinh viên phải tải thẻ sinh viên lên trong mini app."
+     }
+    },
+    {
+     "zh": "成人票 / 学生票",
+     "pinyin": "chéngrén piào / xuéshēng piào",
+     "vi": "vé người lớn / sinh viên"
+    },
+    {
+     "zh": "上传",
+     "pinyin": "shàngchuán",
+     "vi": "tải lên",
+     "example": {
+      "zh": "门票都在网上卖，扫码预约就行。学生票要在小程序里上传学生证。",
+      "vi": "Vé đều bán trên mạng, quét mã đặt trước là được. Vé sinh viên phải tải thẻ sinh viên lên trong mini app."
+     }
+    },
+    {
+     "zh": "讲解",
+     "pinyin": "jiǎngjiě",
+     "vi": "thuyết minh",
+     "example": {
+      "zh": "讲解怎么收费？",
+      "vi": "Thuyết minh tính phí thế nào?"
+     }
+    },
+    {
+     "zh": "导览器",
+     "pinyin": "dǎolǎn qì",
+     "vi": "máy thuyết minh tự động",
+     "example": {
+      "zh": "人工讲解一百五一场，也可以租电子导览器，二十块。",
+      "vi": "Thuyết minh viên một trăm rưỡi một lượt, cũng có thể thuê máy thuyết minh điện tử, hai mươi tệ."
+     }
+    },
+    {
+     "zh": "禁止",
+     "pinyin": "jìnzhǐ",
+     "vi": "cấm",
+     "example": {
+      "zh": "能拍，但展厅里禁止用闪光灯。",
+      "vi": "Được chụp, nhưng trong phòng trưng bày cấm dùng đèn flash."
+     }
+    },
+    {
+     "zh": "闪光灯",
+     "pinyin": "shǎnguāngdēng",
+     "vi": "đèn flash",
+     "example": {
+      "zh": "能拍，但展厅里禁止用闪光灯。",
+      "vi": "Được chụp, nhưng trong phòng trưng bày cấm dùng đèn flash."
+     }
+    },
+    {
+     "zh": "自由行 / 跟团游",
+     "pinyin": "zìyóuxíng / gēntuán yóu",
+     "vi": "tự túc / đi theo tour"
+    },
+    {
+     "zh": "特种兵旅游",
+     "pinyin": "tèzhǒngbīng lǚyóu",
+     "vi": "du lịch kiểu \"đặc công\" (đi thật nhiều điểm, ngủ rất ít)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g11-4",
+     "title_zh": "除了……以外，还……",
+     "title_vi": "除了……以外，还……",
+     "formula": [
+      [
+       {
+        "zh": "除了……以外，还……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "除了……以外，还…… nghĩa là \"ngoài… ra, còn…\", dùng để bổ sung thêm (bao gồm cả cái đã nêu). 以外 có thể lược bỏ. Phân biệt với 除了……以外，都…… (ngoài… ra, tất cả đều… — loại trừ cái đã nêu). Ví dụ: 除了熊猫基地以外，还有什么值得去？/ 除了我以外，大家都去过成都。",
+     "examples": [
+      {
+       "zh": "除了熊猫基地以外，还有什么值得去？",
+       "vi": "Ngoài khu gấu trúc ra, còn chỗ nào đáng đi nữa?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "去旅游之前，我习惯先在小红书上做___。",
+   "bank": [
+    "实名预约",
+    "人山人海",
+    "攻略"
+   ],
+   "answer": "攻略"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "国庆的时候，景点都___。",
+   "bank": [
+    "退房",
+    "打卡",
+    "人山人海"
+   ],
+   "answer": "人山人海"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "熊猫基地要在官方小程序上___。",
+   "bank": [
+    "寄存",
+    "实名预约",
+    "打卡"
+   ],
+   "answer": "实名预约"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "我的航班是晚上的，可以晚点儿___吗？",
+   "bank": [
+    "人山人海",
+    "攻略",
+    "退房"
+   ],
+   "answer": "退房"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "行李可以___在前台。",
+   "bank": [
+    "打卡",
+    "寄存",
+    "人山人海"
+   ],
+   "answer": "寄存"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "很多年轻人去网红景点只是为了___拍照。",
+   "bank": [
+    "退房",
+    "打卡",
+    "寄存"
+   ],
+   "answer": "打卡"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "出行",
+    "错峰",
+    "最好"
+   ],
+   "answers": [
+    "最好错峰出行"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "半天房费",
+    "再晚",
+    "收",
+    "就要",
+    "了"
+   ],
+   "answers": [
+    "再晚就要收半天房费了"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "房间",
+    "安静点儿的",
+    "换个",
+    "能",
+    "吗"
+   ],
+   "answers": [
+    "能换个安静点儿的房间吗"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "还有",
+    "值得去",
+    "除了",
+    "熊猫基地以外",
+    "什么"
+   ],
+   "answers": [
+    "除了熊猫基地以外还有什么值得去"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "小红书",
+     "a": "mạng xã hội chia sẻ kinh nghiệm"
+    },
+    {
+     "q": "难抢",
+     "a": "khó giành (vé)"
+    },
+    {
+     "q": "大床房 / 双床房",
+     "a": "phòng giường đôi / 2 giường"
+    },
+    {
+     "q": "半天房费",
+     "a": "phí nửa ngày"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Trước khi đi du lịch, bạn thường tìm thông tin ở đâu?",
+   "Khởi động: Bạn thích du lịch tự túc hay đi theo tour? Vì sao?",
+   "旅行社PK Đại chiến công ty du lịch (12 phút): hai nhóm lập tour 3 ngày 2 đêm cho 1 thành phố TQ với ngân sách 2.000 tệ, thuyết trình 3 phút, lớp chọn tour \"muốn mua\".",
+   "前台急救 Lễ tân cấp cứu (6 phút): khách bốc thẻ rắc rối (phòng không có nước nóng, bị đặt nhầm giường, mất thẻ phòng, muốn thêm 1 đêm). Lễ tân phải đưa giải pháp.",
+   "Nhiệm vụ thực tế: viết một bài \"攻略\" ngắn kiểu Xiaohongshu (150 chữ) về một nơi ở Việt Nam, đọc thành tiếng ghi âm."
+  ],
+  "patterns": [
+   {
+    "zh": "最好错峰出行。",
+    "vi": "Tốt nhất đi lệch ngày cao điểm."
+   },
+   {
+    "zh": "再晚就要收半天房费了。",
+    "vi": "Muộn hơn nữa sẽ tính nửa ngày tiền phòng."
+   },
+   {
+    "zh": "换个安静点儿的房间。",
+    "vi": "Đổi phòng yên tĩnh hơn chút."
+   },
+   {
+    "zh": "除了熊猫基地以外，还有什么值得去？",
+    "vi": "Ngoài khu gấu trúc ra, còn chỗ nào đáng đi nữa?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "特种兵旅游\" và \"打卡\" Giới trẻ TQ có phong cách du lịch \"đặc công\": cuối tuần đi thật nhiều điểm, ngủ ít, chi phí thấp, rồi đăng ảnh \"打卡\". Các bảo tàng, danh thắng lớn gần như đều yêu cầu đặt chỗ bằng tên thật qua mini program; người nước ngoài dùng số hộ chiếu. Kỳ nghỉ Quốc khánh và 1/5 là thời điểm đông nhất năm. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"特种兵旅游\" và \"打卡\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Hỏi kinh nghiệm người bản địa: \"你们本地人一般去哪儿？\" thường cho gợi ý hay hơn hỏi \"景点\".",
+   "Ứng xử: Muốn đổi phòng thì nêu lý do cụ thể và lịch sự: 不好意思，隔壁有点儿吵，能换一间吗？",
+   "Ứng xử: Du lịch mùa 黄金周 (1/10, 1/5) giá phòng có thể tăng gấp 2–3 lần; nên đặt sớm hoặc tránh."
+  ]
+ }
+}

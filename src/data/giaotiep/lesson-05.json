@@ -1,0 +1,695 @@
+{
+ "id": 5,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "网购",
+  "pinyin": "wǎng gòu",
+  "vi": "Mua sắm online"
+ },
+ "grammarTopics_vi": [
+  "按 / 根据……，建议……",
+  "V着 + đánh giá cảm quan",
+  "就差……了",
+  "A有A的道理 / 好"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi shop về size và giao hàng",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Mặc cả online",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Đọc đánh giá",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Săn khuyến mãi",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Mua chung",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "问客服",
+   "context_vi": "Bài khoá 1: 问客服 – Hỏi chăm sóc khách hàng",
+   "scene": "🛒",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "在吗？这件卫衣我一米七五，一百三十斤，穿哪个码合适？",
+     "vi": "Shop ơi? Áo nỉ này mình cao 1m75, nặng 65 cân, mặc size nào vừa?"
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "亲，在的～按您的身高体重，建议拿L码。我们家是修身款，偏小一码。",
+     "vi": "Dạ có ạ~ Theo chiều cao cân nặng của bạn thì nên lấy size L. Bên mình là dáng ôm, nhỏ hơn một size."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "有色差吗？图片看着是雾霾蓝。",
+     "vi": "Có bị lệch màu không? Ảnh nhìn là màu xanh xám."
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "实物拍摄，可能会有轻微色差哦，您可以看看买家秀。",
+     "vi": "Ảnh chụp thật ạ, có thể lệch màu chút xíu, bạn xem thử ảnh khách đã mua nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "今天下单什么时候发货？",
+     "vi": "Hôm nay đặt thì khi nào gửi hàng?"
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "下午四点前付款当天发，默认中通，包邮的亲。",
+     "vi": "Thanh toán trước 4 giờ chiều là gửi trong ngày, mặc định ZTO, miễn phí ship ạ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "能便宜点儿吗？",
+     "vi": "Rẻ hơn chút được không?"
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "亲，已经是活动价啦，领店铺券还能再减十块哦。",
+     "vi": "Dạ, đã là giá khuyến mãi rồi ạ, lấy phiếu giảm giá của shop còn giảm thêm mười tệ nữa."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "网购",
+     "pinyin": "wǎnggòu",
+     "vi": "mua sắm online"
+    },
+    {
+     "zh": "客服",
+     "pinyin": "kèfú",
+     "vi": "chăm sóc khách hàng"
+    },
+    {
+     "zh": "在吗？",
+     "pinyin": "zài ma",
+     "vi": "câu mở đầu khi nhắn shop",
+     "example": {
+      "zh": "在吗？这件卫衣我一米七五，一百三十斤，穿哪个码合适？",
+      "vi": "Shop ơi? Áo nỉ này mình cao 1m75, nặng 65 cân, mặc size nào vừa?"
+     }
+    },
+    {
+     "zh": "码 / 尺码",
+     "pinyin": "mǎ / chǐmǎ",
+     "vi": "size"
+    },
+    {
+     "zh": "偏大 / 偏小",
+     "pinyin": "piān dà / piān xiǎo",
+     "vi": "rộng hơn / nhỏ hơn chuẩn"
+    },
+    {
+     "zh": "修身款",
+     "pinyin": "xiūshēn kuǎn",
+     "vi": "dáng ôm",
+     "example": {
+      "zh": "亲，在的～按您的身高体重，建议拿L码。我们家是修身款，偏小一码。",
+      "vi": "Dạ có ạ~ Theo chiều cao cân nặng của bạn thì nên lấy size L. Bên mình là dáng ôm, nhỏ hơn một size."
+     }
+    },
+    {
+     "zh": "色差",
+     "pinyin": "sèchā",
+     "vi": "chênh lệch màu",
+     "example": {
+      "zh": "有色差吗？图片看着是雾霾蓝。",
+      "vi": "Có bị lệch màu không? Ảnh nhìn là màu xanh xám."
+     }
+    },
+    {
+     "zh": "买家秀 / 卖家秀",
+     "pinyin": "mǎijiā xiù / màijiā xiù",
+     "vi": "ảnh thật của khách / ảnh quảng cáo của shop"
+    },
+    {
+     "zh": "发货",
+     "pinyin": "fā huò",
+     "vi": "gửi hàng đi",
+     "example": {
+      "zh": "今天下单什么时候发货？",
+      "vi": "Hôm nay đặt thì khi nào gửi hàng?"
+     }
+    },
+    {
+     "zh": "包邮",
+     "pinyin": "bāo yóu",
+     "vi": "miễn phí vận chuyển",
+     "example": {
+      "zh": "下午四点前付款当天发，默认中通，包邮的亲。",
+      "vi": "Thanh toán trước 4 giờ chiều là gửi trong ngày, mặc định ZTO, miễn phí ship ạ."
+     }
+    },
+    {
+     "zh": "默认",
+     "pinyin": "mòrèn",
+     "vi": "mặc định",
+     "example": {
+      "zh": "下午四点前付款当天发，默认中通，包邮的亲。",
+      "vi": "Thanh toán trước 4 giờ chiều là gửi trong ngày, mặc định ZTO, miễn phí ship ạ."
+     }
+    },
+    {
+     "zh": "活动价",
+     "pinyin": "huódòng jià",
+     "vi": "giá khuyến mãi",
+     "example": {
+      "zh": "亲，已经是活动价啦，领店铺券还能再减十块哦。",
+      "vi": "Dạ, đã là giá khuyến mãi rồi ạ, lấy phiếu giảm giá của shop còn giảm thêm mười tệ nữa."
+     }
+    },
+    {
+     "zh": "店铺券",
+     "pinyin": "diànpù quàn",
+     "vi": "voucher của shop",
+     "example": {
+      "zh": "亲，已经是活动价啦，领店铺券还能再减十块哦。",
+      "vi": "Dạ, đã là giá khuyến mãi rồi ạ, lấy phiếu giảm giá của shop còn giảm thêm mười tệ nữa."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g5-1",
+     "title_zh": "按 / 根据……，建议……",
+     "title_vi": "按 / 根据……，建议……",
+     "formula": [
+      [
+       {
+        "zh": "按 / 根据……，建议……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "按 / 根据 + căn cứ đứng đầu câu nghĩa là \"dựa theo, căn cứ vào…\", theo sau là lời khuyên với 建议 + V. Đây là khung câu tư vấn rất hay gặp khi shop, bác sĩ, nhân viên ngân hàng… giải thích cho khách. 按 ngắn gọn, khẩu ngữ hơn; 根据 trang trọng hơn một chút. Ví dụ: 按您的身高，建议拿L码。根据天气预报，建议带伞。",
+     "examples": [
+      {
+       "zh": "按您的身高，建议拿L码。",
+       "vi": "Theo chiều cao của bạn thì nên lấy size L."
+      }
+     ]
+    },
+    {
+     "id": "gt-g5-2",
+     "title_zh": "V着 + đánh giá cảm quan",
+     "title_vi": "V着 + đánh giá cảm quan",
+     "formula": [
+      [
+       {
+        "zh": "V着",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "đánh giá cảm quan",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "V着 + đánh giá diễn tả cảm nhận qua giác quan: 看着 (nhìn thì thấy), 听着 (nghe thì thấy), 摸着 (sờ thì thấy), 吃着 / 闻着 (ăn/ngửi thì thấy). Cấu trúc này nhấn mạnh đây là cảm nhận chủ quan, chưa chắc là sự thật, nên rất hợp khi bình luận ảnh sản phẩm hoặc nêu nghi ngờ: 图片看着是蓝色，实物不一定。",
+     "examples": [
+      {
+       "zh": "看着是蓝色。",
+       "vi": "Nhìn thì là màu xanh."
+      },
+      {
+       "zh": "听着不错。",
+       "vi": "Nghe có vẻ được đấy."
+      },
+      {
+       "zh": "摸着挺舒服的。",
+       "vi": "Sờ vào thấy khá dễ chịu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "种草与防坑",
+   "context_vi": "Bài khoá 2: 种草与防坑 – Bị",
+   "scene": "🛒",
+   "lines": [
+    {
+     "speaker": "gt-shiyou",
+     "zh": "你又在剁手？",
+     "vi": "Cậu lại chốt đơn à?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "双十一快到了，先加购，到时候再付尾款。",
+     "vi": "Sắp đến 11/11 rồi, bỏ vào giỏ trước, đến hôm đó trả nốt phần còn lại."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "这个耳机你在哪儿看到的？",
+     "vi": "Cái tai nghe này cậu thấy ở đâu thế?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "在小红书上被种草了，好多博主都推荐。",
+     "vi": "Bị dụ mua trên Xiaohongshu, nhiều blogger giới thiệu lắm."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "小心被割韭菜。先看差评，别光看好评，好多是刷的。",
+     "vi": "Cẩn thận bị móc túi đấy. Xem đánh giá xấu trước, đừng chỉ xem đánh giá tốt, nhiều cái là đánh giá ảo."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "有道理。拼多多上同款便宜一百，就是怕是假货。",
+     "vi": "Có lý. Trên Pinduoduo cùng mẫu rẻ hơn một trăm, chỉ sợ là hàng giả."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "贵有贵的道理。要不去京东买自营的，发货快，售后也靠谱。",
+     "vi": "Đắt có cái lý của đắt. Hay mua hàng chính hãng do JD bán, giao nhanh, hậu mãi cũng đáng tin."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "剁手",
+     "pinyin": "duò shǒu",
+     "vi": "\"chặt tay\" = mua sắm quá tay",
+     "example": {
+      "zh": "你又在剁手？",
+      "vi": "Cậu lại chốt đơn à?"
+     }
+    },
+    {
+     "zh": "双十一 / 618",
+     "pinyin": "shuāng shíyī / liù yāo bā",
+     "vi": "hai đợt siêu sale lớn nhất"
+    },
+    {
+     "zh": "加购 / 购物车",
+     "pinyin": "jiā gòu / gòuwùchē",
+     "vi": "thêm vào giỏ / giỏ hàng"
+    },
+    {
+     "zh": "定金 / 尾款",
+     "pinyin": "dìngjīn / wěikuǎn",
+     "vi": "tiền cọc / tiền còn lại"
+    },
+    {
+     "zh": "种草 / 拔草",
+     "pinyin": "zhòng cǎo / bá cǎo",
+     "vi": "bị gợi ý muốn mua / hết muốn mua (hoặc đã mua)"
+    },
+    {
+     "zh": "博主",
+     "pinyin": "bózhǔ",
+     "vi": "blogger, KOL",
+     "example": {
+      "zh": "在小红书上被种草了，好多博主都推荐。",
+      "vi": "Bị dụ mua trên Xiaohongshu, nhiều blogger giới thiệu lắm."
+     }
+    },
+    {
+     "zh": "割韭菜",
+     "pinyin": "gē jiǔcài",
+     "vi": "\"cắt hẹ\" = bị lợi dụng móc túi",
+     "example": {
+      "zh": "小心被割韭菜。先看差评，别光看好评，好多是刷的。",
+      "vi": "Cẩn thận bị móc túi đấy. Xem đánh giá xấu trước, đừng chỉ xem đánh giá tốt, nhiều cái là đánh giá ảo."
+     }
+    },
+    {
+     "zh": "刷好评 / 刷单",
+     "pinyin": "shuā hǎopíng / shuā dān",
+     "vi": "đánh giá ảo / đơn ảo"
+    },
+    {
+     "zh": "同款",
+     "pinyin": "tóngkuǎn",
+     "vi": "cùng mẫu",
+     "example": {
+      "zh": "有道理。拼多多上同款便宜一百，就是怕是假货。",
+      "vi": "Có lý. Trên Pinduoduo cùng mẫu rẻ hơn một trăm, chỉ sợ là hàng giả."
+     }
+    },
+    {
+     "zh": "假货 / 正品",
+     "pinyin": "jiǎhuò / zhèngpǐn",
+     "vi": "hàng giả / hàng chính hãng"
+    },
+    {
+     "zh": "自营",
+     "pinyin": "zìyíng",
+     "vi": "hàng do sàn tự kinh doanh",
+     "example": {
+      "zh": "贵有贵的道理。要不去京东买自营的，发货快，售后也靠谱。",
+      "vi": "Đắt có cái lý của đắt. Hay mua hàng chính hãng do JD bán, giao nhanh, hậu mãi cũng đáng tin."
+     }
+    },
+    {
+     "zh": "售后",
+     "pinyin": "shòuhòu",
+     "vi": "hậu mãi",
+     "example": {
+      "zh": "贵有贵的道理。要不去京东买自营的，发货快，售后也靠谱。",
+      "vi": "Đắt có cái lý của đắt. Hay mua hàng chính hãng do JD bán, giao nhanh, hậu mãi cũng đáng tin."
+     }
+    },
+    {
+     "zh": "靠谱",
+     "pinyin": "kàopǔ",
+     "vi": "đáng tin",
+     "example": {
+      "zh": "贵有贵的道理。要不去京东买自营的，发货快，售后也靠谱。",
+      "vi": "Đắt có cái lý của đắt. Hay mua hàng chính hãng do JD bán, giao nhanh, hậu mãi cũng đáng tin."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g5-4",
+     "title_zh": "A有A的道理 / 好",
+     "title_vi": "A有A的道理 / 好",
+     "formula": [
+      [
+       {
+        "zh": "A有A的道理 / 好",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "A有A的道理 / A有A的好 là khung câu lặp lại chủ ngữ, nghĩa \"A có lý do riêng của A / A có cái hay riêng của A\". Dùng để bình luận cân bằng, thừa nhận mỗi lựa chọn đều có mặt hợp lý. Câu quen thuộc nhất: 贵有贵的道理 (đắt xắt ra miếng). Có thể ghép đôi: 贵有贵的道理，便宜有便宜的好。",
+     "examples": [
+      {
+       "zh": "贵有贵的道理。",
+       "vi": "Đắt có cái lý của đắt."
+      },
+      {
+       "zh": "便宜有便宜的好。",
+       "vi": "Rẻ có cái hay của rẻ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "帮我砍一刀",
+   "context_vi": "Bài khoá 3: 帮我砍一刀 – Giúp tớ",
+   "scene": "🛒",
+   "lines": [
+    {
+     "speaker": "gt-pengyou",
+     "zh": "帮我砍一刀！就差一点点了！",
+     "vi": "Chặt giúp mình một nhát! Chỉ còn thiếu chút xíu nữa thôi!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "又是拼多多？我点了，说我是新用户，砍了一大截。",
+     "vi": "Lại Pinduoduo à? Mình bấm rồi, nó bảo mình là người dùng mới, chặt được một đoạn to."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "谢啦！对了，咱俩拼单买水果吧，两人成团更便宜。",
+     "vi": "Cảm ơn nha! À, hai đứa mình mua chung hoa quả đi, đủ hai người thành nhóm là rẻ hơn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "行，你把链接发我。",
+     "vi": "Được, cậu gửi link cho mình."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "砍一刀",
+     "pinyin": "kǎn yì dāo",
+     "vi": "bấm giúp giảm giá (Pinduoduo)",
+     "example": {
+      "zh": "帮我砍一刀！就差一点点了！",
+      "vi": "Chặt giúp mình một nhát! Chỉ còn thiếu chút xíu nữa thôi!"
+     }
+    },
+    {
+     "zh": "拼单 / 成团",
+     "pinyin": "pīn dān / chéng tuán",
+     "vi": "mua chung / đủ người thành nhóm"
+    },
+    {
+     "zh": "链接",
+     "pinyin": "liànjiē",
+     "vi": "đường link",
+     "example": {
+      "zh": "行，你把链接发我。",
+      "vi": "Được, cậu gửi link cho mình."
+     }
+    },
+    {
+     "zh": "直播带货",
+     "pinyin": "zhíbō dài huò",
+     "vi": "livestream bán hàng"
+    },
+    {
+     "zh": "下单 / 付款",
+     "pinyin": "xià dān / fùkuǎn",
+     "vi": "đặt hàng / thanh toán"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g5-3",
+     "title_zh": "就差……了",
+     "title_vi": "就差……了",
+     "formula": [
+      [
+       {
+        "zh": "就差……了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "就差……了 nghĩa là \"chỉ còn thiếu… nữa thôi\", nhấn mạnh khoảng cách tới mục tiêu rất nhỏ. Sau 就差 là số lượng hoặc sự vật còn thiếu; có thể nối tiếp bằng 就 + kết quả: 就差五块就包邮了 (thiếu 5 tệ nữa là được miễn ship). Câu này thường dùng để thúc giục, nhờ vả: 帮我砍一刀，就差一点点了！",
+     "examples": [
+      {
+       "zh": "就差一点点了。",
+       "vi": "Chỉ còn thiếu chút xíu nữa thôi."
+      },
+      {
+       "zh": "就差五块就包邮了。",
+       "vi": "Chỉ thiếu năm tệ nữa là được miễn phí ship."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "这家店满九十九___，我再凑点儿单。",
+   "bank": [
+    "发货",
+    "包邮",
+    "色差"
+   ],
+   "answer": "包邮"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "实物拍摄，可能会有轻微___。",
+   "bank": [
+    "发货",
+    "包邮",
+    "色差"
+   ],
+   "answer": "色差"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "今天下单，什么时候___？",
+   "bank": [
+    "色差",
+    "售后",
+    "发货"
+   ],
+   "answer": "发货"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "双十一又到了，我又要___了。",
+   "bank": [
+    "剁手",
+    "包邮",
+    "色差"
+   ],
+   "answer": "剁手"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "京东自营的___很好，坏了可以直接换。",
+   "bank": [
+    "售后",
+    "靠谱",
+    "包邮"
+   ],
+   "answer": "售后"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "这个博主推荐的东西都挺___的。",
+   "bank": [
+    "靠谱",
+    "发货",
+    "售后"
+   ],
+   "answer": "靠谱"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "建议",
+    "按您的身高",
+    "拿L码"
+   ],
+   "answers": [
+    "按您的身高建议拿L码"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "是",
+    "看着",
+    "雾霾蓝",
+    "图片"
+   ],
+   "answers": [
+    "图片看着是雾霾蓝"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "道理",
+    "有",
+    "的",
+    "贵",
+    "贵"
+   ],
+   "answers": [
+    "贵有贵的道理"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "包邮",
+    "就差",
+    "了",
+    "五块",
+    "就"
+   ],
+   "answers": [
+    "就差五块就包邮了"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "客服",
+     "a": "chăm sóc khách hàng"
+    },
+    {
+     "q": "偏大 / 偏小",
+     "a": "rộng hơn / nhỏ hơn chuẩn"
+    },
+    {
+     "q": "活动价",
+     "a": "giá khuyến mãi"
+    },
+    {
+     "q": "加购 / 购物车",
+     "a": "thêm vào giỏ / giỏ hàng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn hay mua sắm online trên sàn nào? Bạn đã từng mua phải hàng không giống ảnh chưa?",
+   "Khởi động: Trước khi đặt hàng, bạn thường hỏi shop những câu gì?",
+   "直播带货 Livestream bán hàng (12 phút): mỗi nhóm 2 người \"bán\" 1 món đồ trong 2 phút, dùng ít nhất 6 từ mới (包邮, 活动价, 限时…). Khán giả đặt câu hỏi kiểu bình luận trực tiếp; nhóm có nhiều \"đơn\" nhất thắng.",
+   "真假评价 Thật hay ảo (6 phút): giáo viên đọc 6 đánh giá, học viên đoán cái nào là 刷的 và giải thích vì sao.",
+   "Nhiệm vụ thực tế: nhắn tin hỏi một shop Taobao thật (hoặc giả lập) 4 câu về size, màu, giao hàng, ưu đãi; chụp màn hình gửi lớp."
+  ],
+  "patterns": [
+   {
+    "zh": "按您的身高，建议拿L码。",
+    "vi": "Theo chiều cao của bạn thì nên lấy size L."
+   },
+   {
+    "zh": "看着是蓝色。",
+    "vi": "Nhìn thì là màu xanh."
+   },
+   {
+    "zh": "贵有贵的道理。",
+    "vi": "Đắt có cái lý của đắt."
+   },
+   {
+    "zh": "就差一点点了。",
+    "vi": "Chỉ còn thiếu chút xíu nữa thôi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "ngôn ngữ",
+  "body_vi": [
+   "\"淘宝体\" và mùa sale Người bán online gọi khách là \"亲\", thêm \"哦、呢、啦、～\" để giọng mềm hơn. Hai đợt sale lớn là 618 (18/6) và 双十一 (11/11), thường có cơ chế trả cọc trước và trả phần còn lại sau. Livestream bán hàng và gợi ý mua từ 小红书 hiện ảnh hưởng mạnh đến thói quen tiêu dùng của giới trẻ. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: ngôn ngữ \"淘宝体\" và mùa sale Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Nhắn shop mở bằng \"在吗？\" rồi hỏi luôn. Không cần chào dài.",
+   "Ứng xử: Mặc cả online hiếm khi giảm giá trực tiếp; nên hỏi: 有没有优惠券？/ 能送个小礼物吗？/ 能帮我备注优先发货吗？",
+   "Ứng xử: Đọc đánh giá: lọc \"有图\" và \"追评\" (đánh giá bổ sung sau khi dùng), đọc 差评 trước.",
+   "Ứng xử: Đừng hối thúc bạn bè \"砍一刀\" quá nhiều. Nhiều người thấy phiền."
+  ]
+ }
+}

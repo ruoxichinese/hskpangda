@@ -1,0 +1,427 @@
+{
+ "lessonId": 5,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这家店满九十九{{1}}，我再凑点儿单。\n（2）实物拍摄，可能会有轻微{{2}}。\n（3）今天下单，什么时候{{3}}？\n（4）双十一又到了，我又要{{4}}了。\n（5）京东自营的{{5}}很好，坏了可以直接换。\n（6）这个博主推荐的东西都挺{{6}}的。",
+     "bank": [
+      "包邮",
+      "色差",
+      "靠谱",
+      "剁手",
+      "发货",
+      "售后"
+     ],
+     "answers": [
+      "包邮",
+      "色差",
+      "发货",
+      "剁手",
+      "售后",
+      "靠谱"
+     ],
+     "explain_vi": "包邮、色差、发货、剁手、售后、靠谱"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "客服",
+       "a": "chăm sóc khách hàng"
+      },
+      {
+       "q": "偏大 / 偏小",
+       "a": "rộng hơn / nhỏ hơn chuẩn"
+      },
+      {
+       "q": "活动价",
+       "a": "giá khuyến mãi"
+      },
+      {
+       "q": "加购 / 购物车",
+       "a": "thêm vào giỏ / giỏ hàng"
+      },
+      {
+       "q": "割韭菜",
+       "a": "\"cắt hẹ\" = bị lợi dụng móc túi"
+      },
+      {
+       "q": "假货 / 正品",
+       "a": "hàng giả / hàng chính hãng"
+      }
+     ],
+     "explain_vi": "客服 = chăm sóc khách hàng · 偏大 / 偏小 = rộng hơn / nhỏ hơn chuẩn · 活动价 = giá khuyến mãi · 加购 / 购物车 = thêm vào giỏ / giỏ hàng · 割韭菜 = \"cắt hẹ\" = bị lợi dụng móc túi · 假货 / 正品 = hàng giả / hàng chính hãng"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "建议",
+      "按您的身高",
+      "拿L码"
+     ],
+     "answers": [
+      "按您的身高建议拿L码"
+     ],
+     "explain_vi": "按您的身高，建议拿L码。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "是",
+      "看着",
+      "雾霾蓝",
+      "图片"
+     ],
+     "answers": [
+      "图片看着是雾霾蓝"
+     ],
+     "explain_vi": "图片看着是雾霾蓝。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "道理",
+      "有",
+      "的",
+      "贵",
+      "贵"
+     ],
+     "answers": [
+      "贵有贵的道理"
+     ],
+     "explain_vi": "贵有贵的道理。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "包邮",
+      "就差",
+      "了",
+      "五块",
+      "就"
+     ],
+     "answers": [
+      "就差五块就包邮了"
+     ],
+     "explain_vi": "就差五块就包邮了。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Shop ơi, tôi cao 1m75, mặc size nào thì vừa?",
+     "acceptedAnswers": [
+      "在吗？我一米七五，穿哪个码合适？"
+     ],
+     "requiredKeywords": [
+      "在吗？"
+     ],
+     "explain_vi": "Đáp án tham khảo: 在吗？我一米七五，穿哪个码合适？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Xem đánh giá xấu trước, đừng chỉ xem đánh giá tốt, nhiều cái là đánh giá ảo đấy.",
+     "acceptedAnswers": [
+      "先看差评，别光看好评，好多是刷的。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 先看差评，别光看好评，好多是刷的。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Hai chúng ta mua chung đi, đủ hai người thành nhóm sẽ rẻ hơn.",
+     "acceptedAnswers": [
+      "咱俩拼单吧，两人成团更便宜。"
+     ],
+     "requiredKeywords": [
+      "拼单"
+     ],
+     "explain_vi": "Đáp án tham khảo: 咱俩拼单吧，两人成团更便宜。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 按 / 根据……，建议……",
+   "instructions_vi": "Dùng 按 / 根据……，建议…… để đưa ra lời khuyên theo gợi ý.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(chiều cao của bạn → chọn size M) → ________________________________________________________",
+     "acceptedAnswers": [
+      "按你的身高，建议拿M码。"
+     ],
+     "requiredKeywords": [
+      "按",
+      "建议"
+     ],
+     "explain_vi": "Đáp án tham khảo: 按你的身高，建议拿M码。",
+     "grammarRef": "gt-g5-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(dự báo thời tiết → mang ô) → ________________________________________________________",
+     "acceptedAnswers": [
+      "根据天气预报，建议带伞。"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "建议"
+     ],
+     "explain_vi": "Đáp án tham khảo: 根据天气预报，建议带伞。",
+     "grammarRef": "gt-g5-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(cân nặng của bạn → chọn size lớn hơn một cỡ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "按您的体重，建议拿大一码。"
+     ],
+     "requiredKeywords": [
+      "按",
+      "建议"
+     ],
+     "explain_vi": "Đáp án tham khảo: 按您的体重，建议拿大一码。",
+     "grammarRef": "gt-g5-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(đánh giá của khách → mua ở cửa hàng tự doanh) → ________________________________________________________",
+     "acceptedAnswers": [
+      "根据买家的评价，建议去自营店买。"
+     ],
+     "requiredKeywords": [
+      "根据",
+      "建议"
+     ],
+     "explain_vi": "Đáp án tham khảo: 根据买家的评价，建议去自营店买。",
+     "grammarRef": "gt-g5-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: V着 + đánh giá cảm quan",
+   "instructions_vi": "Hoàn thành câu bằng 看着 / 听着 / 摸着 / 吃着 thích hợp.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "这件衣服______挺舒服的，料子很软。",
+     "acceptedAnswers": [
+      "摸着"
+     ],
+     "requiredKeywords": [
+      "着"
+     ],
+     "explain_vi": "Đáp án tham khảo: 摸着",
+     "grammarRef": "gt-g5-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "你的计划______不错，什么时候开始？",
+     "acceptedAnswers": [
+      "听着"
+     ],
+     "requiredKeywords": [
+      "着"
+     ],
+     "explain_vi": "Đáp án tham khảo: 听着",
+     "grammarRef": "gt-g5-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "图片______是蓝色，不知道实物是不是。",
+     "acceptedAnswers": [
+      "看着"
+     ],
+     "requiredKeywords": [
+      "着"
+     ],
+     "explain_vi": "Đáp án tham khảo: 看着",
+     "grammarRef": "gt-g5-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "这个蛋糕______不太甜，正好。",
+     "acceptedAnswers": [
+      "吃着"
+     ],
+     "requiredKeywords": [
+      "着"
+     ],
+     "explain_vi": "Đáp án tham khảo: 吃着",
+     "grammarRef": "gt-g5-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 就差……了",
+   "instructions_vi": "Hoàn thành câu với 就差……了.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "满九十九包邮，我买了九十四，______。",
+     "acceptedAnswers": [
+      "就差五块了"
+     ],
+     "requiredKeywords": [
+      "就差",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 就差五块了",
+     "grammarRef": "gt-g5-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "五个人才能成团，我们已经四个人了，______。",
+     "acceptedAnswers": [
+      "就差一个人了"
+     ],
+     "requiredKeywords": [
+      "就差",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 就差一个人了",
+     "grammarRef": "gt-g5-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "作业写完了吗？——______，马上就好。",
+     "acceptedAnswers": [
+      "就差最后一题了"
+     ],
+     "requiredKeywords": [
+      "就差",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 就差最后一题了",
+     "grammarRef": "gt-g5-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Chỉ thiếu một chút xíu nữa thôi, giúp mình bấm giảm giá nhé! → ________________________________________________________",
+     "acceptedAnswers": [
+      "就差一点点了，帮我砍一刀吧！"
+     ],
+     "requiredKeywords": [
+      "就差",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 就差一点点了，帮我砍一刀吧！",
+     "grammarRef": "gt-g5-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: A有A的道理 / 好",
+   "instructions_vi": "Hoàn thành câu với A有A的道理 / A有A的好.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "自营的东西贵一点儿，但是______，售后靠谱。",
+     "acceptedAnswers": [
+      "贵有贵的道理"
+     ],
+     "requiredKeywords": [
+      "有",
+      "的道理"
+     ],
+     "explain_vi": "Đáp án tham khảo: 贵有贵的道理",
+     "grammarRef": "gt-g5-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "住宿舍不自由，可是______，便宜又方便。",
+     "acceptedAnswers": [
+      "宿舍有宿舍的好"
+     ],
+     "requiredKeywords": [
+      "有",
+      "好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 宿舍有宿舍的好",
+     "grammarRef": "gt-g5-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "北方冬天冷，南方夏天热，______。",
+     "acceptedAnswers": [
+      "北方有北方的好，南方有南方的好"
+     ],
+     "requiredKeywords": [
+      "有",
+      "好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 北方有北方的好，南方有南方的好",
+     "grammarRef": "gt-g5-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "A：老人总是让我多穿衣服。B：老人说的话______。",
+     "acceptedAnswers": [
+      "有老人的道理"
+     ],
+     "requiredKeywords": [
+      "有",
+      "的道理"
+     ],
+     "explain_vi": "Đáp án tham khảo: 有老人的道理",
+     "grammarRef": "gt-g5-4"
+    }
+   ]
+  }
+ ]
+}

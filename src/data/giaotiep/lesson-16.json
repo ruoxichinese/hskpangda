@@ -1,0 +1,662 @@
+{
+ "id": 16,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "交朋友",
+  "pinyin": "jiāo péng yǒu",
+  "vi": "Kết bạn và mạng xã hội"
+ },
+ "grammarTopics_vi": [
+  "……是什么意思？— 就是……",
+  "你怎么没/不……？",
+  "不许 + V + 啊",
+  "谁……谁……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tìm \"bạn đồng hành\"",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Tương tác trên 朋友圈",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng sticker đúng ngữ cảnh",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Hẹn và từ chối hẹn",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Hiểu các quy ước nhắn tin",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "找搭子",
+   "context_vi": "Bài khoá 1: 找搭子 – Tìm bạn đồng hành",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "gt-shiyou",
+     "zh": "我最近在健身房认识了一个健身搭子，每天一起练。",
+     "vi": "Dạo này mình quen một bạn tập gym ở phòng tập, ngày nào cũng tập cùng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "搭子是什么意思？",
+     "vi": "\"Đáp tử\" nghĩa là gì?"
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "就是一起做某件事的伙伴。饭搭子、旅游搭子、学习搭子都有，不用太熟，各玩各的也行。",
+     "vi": "Là bạn đồng hành cùng làm một việc nào đó. Bạn ăn cùng, bạn du lịch cùng, bạn học cùng đều có, không cần quá thân, ai chơi việc nấy cũng được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那我想找个语言搭子，我教越南语，他教我中文。",
+     "vi": "Vậy mình muốn tìm một bạn trao đổi ngôn ngữ, mình dạy tiếng Việt, bạn ấy dạy mình tiếng Trung."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "可以在小红书发个帖，写清楚时间地点。",
+     "vi": "Có thể đăng bài trên Xiaohongshu, ghi rõ thời gian địa điểm."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "搭子",
+     "pinyin": "dāzi",
+     "vi": "bạn đồng hành cho 1 việc cụ thể",
+     "example": {
+      "zh": "我最近在健身房认识了一个健身搭子，每天一起练。",
+      "vi": "Dạo này mình quen một bạn tập gym ở phòng tập, ngày nào cũng tập cùng."
+     }
+    },
+    {
+     "zh": "饭搭子 / 学习搭子",
+     "pinyin": "fàn dāzi / xuéxí dāzi",
+     "vi": "bạn ăn cùng / bạn học cùng"
+    },
+    {
+     "zh": "伙伴",
+     "pinyin": "huǒbàn",
+     "vi": "bạn, cộng sự",
+     "example": {
+      "zh": "就是一起做某件事的伙伴。饭搭子、旅游搭子、学习搭子都有，不用太熟，各玩各的也行。",
+      "vi": "Là bạn đồng hành cùng làm một việc nào đó. Bạn ăn cùng, bạn du lịch cùng, bạn học cùng đều có, không cần quá thân, ai chơi việc nấy cũng được."
+     }
+    },
+    {
+     "zh": "各玩各的",
+     "pinyin": "gè wán gè de",
+     "vi": "ai chơi phần nấy",
+     "example": {
+      "zh": "就是一起做某件事的伙伴。饭搭子、旅游搭子、学习搭子都有，不用太熟，各玩各的也行。",
+      "vi": "Là bạn đồng hành cùng làm một việc nào đó. Bạn ăn cùng, bạn du lịch cùng, bạn học cùng đều có, không cần quá thân, ai chơi việc nấy cũng được."
+     }
+    },
+    {
+     "zh": "发帖",
+     "pinyin": "fā tiě",
+     "vi": "đăng bài"
+    },
+    {
+     "zh": "语言交换",
+     "pinyin": "yǔyán jiāohuàn",
+     "vi": "trao đổi ngôn ngữ"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g16-1",
+     "title_zh": "……是什么意思？— 就是……",
+     "title_vi": "Hỏi và giải thích từ mới, cấu trúc học viên dùng nhiều nhất ngoài đời",
+     "formula": [
+      [
+       {
+        "zh": "……是什么意思？— 就是……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……是什么意思？ — 就是…… là cặp hỏi–đáp quan trọng nhất cho người học: hỏi nghĩa từ mới và giải thích lại bằng từ đơn giản. Khi giải thích, người bản xứ thường mở đầu bằng 就是 (tức là, nghĩa là) và đưa ví dụ cụ thể. Học thuộc cấu trúc này, bạn có thể học từ mới ngay trong lúc trò chuyện.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "朋友圈",
+   "context_vi": "Bài khoá 2: 朋友圈 – Vòng bạn bè",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你昨天发的朋友圈好好看，在哪儿拍的？",
+     "vi": "Bài đăng Moments hôm qua của cậu đẹp quá, chụp ở đâu thế?"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "颐和园！我P了一下。你怎么没点赞？",
+     "vi": "Di Hoà Viên! Mình chỉnh ảnh một chút. Sao cậu không thả like?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "刷到了，忘点了。我现在给你评论一个\"绝了\"。",
+     "vi": "Lướt thấy rồi, quên bấm. Giờ mình bình luận ngay một câu \"đỉnh quá\"."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "哈哈。对了，你朋友圈怎么是一条横线？把我屏蔽了？",
+     "vi": "Haha. À mà sao Moments của cậu chỉ có một đường gạch ngang? Chặn mình rồi à?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没有没有！我设置了三天可见，发得太少不好意思。",
+     "vi": "Đâu có đâu có! Mình đặt chỉ hiện ba ngày, đăng ít quá nên ngại."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "朋友圈",
+     "pinyin": "péngyouquān",
+     "vi": "Moments trên WeChat",
+     "example": {
+      "zh": "你昨天发的朋友圈好好看，在哪儿拍的？",
+      "vi": "Bài đăng Moments hôm qua của cậu đẹp quá, chụp ở đâu thế?"
+     }
+    },
+    {
+     "zh": "发朋友圈",
+     "pinyin": "fā péngyouquān",
+     "vi": "đăng Moments"
+    },
+    {
+     "zh": "点赞",
+     "pinyin": "diǎn zàn",
+     "vi": "thả like",
+     "example": {
+      "zh": "颐和园！我P了一下。你怎么没点赞？",
+      "vi": "Di Hoà Viên! Mình chỉnh ảnh một chút. Sao cậu không thả like?"
+     }
+    },
+    {
+     "zh": "评论",
+     "pinyin": "pínglùn",
+     "vi": "bình luận",
+     "example": {
+      "zh": "刷到了，忘点了。我现在给你评论一个\"绝了\"。",
+      "vi": "Lướt thấy rồi, quên bấm. Giờ mình bình luận ngay một câu \"đỉnh quá\"."
+     }
+    },
+    {
+     "zh": "刷到",
+     "pinyin": "shuā dào",
+     "vi": "lướt thấy",
+     "example": {
+      "zh": "刷到了，忘点了。我现在给你评论一个\"绝了\"。",
+      "vi": "Lướt thấy rồi, quên bấm. Giờ mình bình luận ngay một câu \"đỉnh quá\"."
+     }
+    },
+    {
+     "zh": "P图",
+     "pinyin": "P tú",
+     "vi": "chỉnh ảnh"
+    },
+    {
+     "zh": "绝了",
+     "pinyin": "jué le",
+     "vi": "đỉnh quá",
+     "example": {
+      "zh": "刷到了，忘点了。我现在给你评论一个\"绝了\"。",
+      "vi": "Lướt thấy rồi, quên bấm. Giờ mình bình luận ngay một câu \"đỉnh quá\"."
+     }
+    },
+    {
+     "zh": "屏蔽",
+     "pinyin": "píngbì",
+     "vi": "chặn xem",
+     "example": {
+      "zh": "哈哈。对了，你朋友圈怎么是一条横线？把我屏蔽了？",
+      "vi": "Haha. À mà sao Moments của cậu chỉ có một đường gạch ngang? Chặn mình rồi à?"
+     }
+    },
+    {
+     "zh": "三天可见",
+     "pinyin": "sān tiān kějiàn",
+     "vi": "chỉ hiển thị 3 ngày gần nhất",
+     "example": {
+      "zh": "没有没有！我设置了三天可见，发得太少不好意思。",
+      "vi": "Đâu có đâu có! Mình đặt chỉ hiện ba ngày, đăng ít quá nên ngại."
+     }
+    },
+    {
+     "zh": "私聊",
+     "pinyin": "sī liáo",
+     "vi": "nhắn riêng"
+    },
+    {
+     "zh": "群聊 / 拉群",
+     "pinyin": "qúnliáo / lā qún",
+     "vi": "nhóm chat / lập nhóm"
+    },
+    {
+     "zh": "发语音",
+     "pinyin": "fā yǔyīn",
+     "vi": "gửi tin nhắn thoại"
+    },
+    {
+     "zh": "表情包",
+     "pinyin": "biǎoqíngbāo",
+     "vi": "sticker, meme"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g16-2",
+     "title_zh": "你怎么没/不……？",
+     "title_vi": "Trách yêu",
+     "formula": [
+      [
+       {
+        "zh": "你怎么没/不……？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "你怎么没/不……？ là câu \"trách yêu\" giữa bạn bè: dùng 怎么 để hỏi vì sao người kia không làm điều mình mong đợi, nhưng giọng điệu đùa vui chứ không giận thật. 没 cho việc đã không làm (你怎么没点赞？), 不 cho việc cố ý không làm (你怎么不回我消息？). Thường kèm sticker hoặc từ ngữ khí 啊 / 呀.",
+     "examples": [
+      {
+       "zh": "你怎么没点赞？",
+       "vi": "Sao bạn không thả like?"
+      },
+      {
+       "zh": "你怎么不回我消息？",
+       "vi": "Sao bạn không trả lời tin nhắn của tôi?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "约饭与放鸽子",
+   "context_vi": "Bài khoá 3: 约饭与放鸽子 – Hẹn ăn và cho leo cây",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "gt-pengyou",
+     "zh": "（语音）明天出来吃饭不？",
+     "vi": "(Tin nhắn thoại) Mai ra ngoài ăn không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（文字）明天要加班，改天吧～[捂脸]",
+     "vi": "(Tin nhắn chữ) Mai phải tăng ca, hôm khác nhé~ [che mặt]"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "你上次也这么说！",
+     "vi": "Lần trước cậu cũng nói vậy!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "这次是真的！周六我请你，地方你挑。",
+     "vi": "Lần này là thật! Thứ bảy mình mời, chỗ cậu chọn."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "好，一言为定！不许放鸽子啊。",
+     "vi": "Được, nói là giữ lời đấy! Không được cho leo cây nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "放心，谁放鸽子谁请客！",
+     "vi": "Yên tâm, ai cho leo cây người đó mời!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "捂脸",
+     "pinyin": "wǔ liǎn",
+     "vi": "sticker che mặt (ngại, cười trừ)",
+     "example": {
+      "zh": "（文字）明天要加班，改天吧～[捂脸]",
+      "vi": "(Tin nhắn chữ) Mai phải tăng ca, hôm khác nhé~ [che mặt]"
+     }
+    },
+    {
+     "zh": "改天",
+     "pinyin": "gǎitiān",
+     "vi": "hôm khác",
+     "example": {
+      "zh": "（文字）明天要加班，改天吧～[捂脸]",
+      "vi": "(Tin nhắn chữ) Mai phải tăng ca, hôm khác nhé~ [che mặt]"
+     }
+    },
+    {
+     "zh": "一言为定",
+     "pinyin": "yì yán wéi dìng",
+     "vi": "chốt lời rồi nhé",
+     "example": {
+      "zh": "好，一言为定！不许放鸽子啊。",
+      "vi": "Được, nói là giữ lời đấy! Không được cho leo cây nhé."
+     }
+    },
+    {
+     "zh": "放鸽子",
+     "pinyin": "fàng gēzi",
+     "vi": "cho leo cây",
+     "example": {
+      "zh": "好，一言为定！不许放鸽子啊。",
+      "vi": "Được, nói là giữ lời đấy! Không được cho leo cây nhé."
+     }
+    },
+    {
+     "zh": "秒回",
+     "pinyin": "miǎo huí",
+     "vi": "trả lời ngay"
+    },
+    {
+     "zh": "已读不回",
+     "pinyin": "yǐ dú bù huí",
+     "vi": "đã xem không trả lời"
+    },
+    {
+     "zh": "备注",
+     "pinyin": "bèizhù",
+     "vi": "đặt tên ghi chú cho bạn"
+    },
+    {
+     "zh": "拉黑",
+     "pinyin": "lā hēi",
+     "vi": "chặn"
+    },
+    {
+     "zh": "删好友",
+     "pinyin": "shān hǎoyǒu",
+     "vi": "xóa bạn"
+    },
+    {
+     "zh": "共同好友",
+     "pinyin": "gòngtóng hǎoyǒu",
+     "vi": "bạn chung"
+    },
+    {
+     "zh": "社恐 / 社牛",
+     "pinyin": "shèkǒng / shèniú",
+     "vi": "sợ giao tiếp / cực kỳ giỏi giao tiếp"
+    },
+    {
+     "zh": "挑",
+     "pinyin": "tiāo",
+     "vi": "chọn",
+     "example": {
+      "zh": "这次是真的！周六我请你，地方你挑。",
+      "vi": "Lần này là thật! Thứ bảy mình mời, chỗ cậu chọn."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g16-3",
+     "title_zh": "不许 + V + 啊",
+     "title_vi": "不许 + V + 啊",
+     "formula": [
+      [
+       {
+        "zh": "不许",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "啊",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "不许 + V + 啊 nghĩa là \"không được… đâu nhé\", là lời dặn mang tính đùa vui, thân mật. 不许 vốn là cấm đoán mạnh, nhưng khi thêm 啊 / 哦 cuối câu và dùng giữa bạn bè, nó thành lời nhắc nhẹ nhàng. Ví dụ: 不许放鸽子啊 / 不许迟到啊.",
+     "examples": [
+      {
+       "zh": "不许放鸽子啊。",
+       "vi": "Không được cho leo cây nhé."
+      },
+      {
+       "zh": "不许迟到啊。",
+       "vi": "Không được đến muộn nhé."
+      }
+     ]
+    },
+    {
+     "id": "gt-g16-4",
+     "title_zh": "谁……谁……",
+     "title_vi": "Điều kiện tương ứng",
+     "formula": [
+      [
+       {
+        "zh": "谁……谁……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "谁……谁…… là cấu trúc điều kiện tương ứng: \"ai… thì người đó…\". Hai chữ 谁 chỉ cùng một người, không phải câu hỏi. Rất hay dùng để đặt \"luật chơi\" vui giữa bạn bè: 谁放鸽子谁请客 (ai cho leo cây người đó bao), 谁先到谁点菜. Cùng kiểu: 哪儿……哪儿……, 什么……什么…….",
+     "examples": [
+      {
+       "zh": "谁放鸽子谁请客。",
+       "vi": "Ai cho leo cây người đó mời."
+      },
+      {
+       "zh": "谁先到谁点菜。",
+       "vi": "Ai đến trước người đó gọi món."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我想找个学习___，每天一起去图书馆。",
+   "bank": [
+    "搭子",
+    "屏蔽",
+    "一言为定"
+   ],
+   "answer": "搭子"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我刷到你的朋友圈了，忘了___。",
+   "bank": [
+    "点赞",
+    "搭子",
+    "改天"
+   ],
+   "answer": "点赞"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "明天要加班，___吧。",
+   "bank": [
+    "改天",
+    "点赞",
+    "放鸽子"
+   ],
+   "answer": "改天"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "好，周六见，___！",
+   "bank": [
+    "一言为定",
+    "改天",
+    "放鸽子"
+   ],
+   "answer": "一言为定"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "他每次都说来，最后都___。",
+   "bank": [
+    "搭子",
+    "放鸽子",
+    "点赞"
+   ],
+   "answer": "放鸽子"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "你朋友圈怎么是一条横线？把我___了？",
+   "bank": [
+    "放鸽子",
+    "屏蔽",
+    "搭子"
+   ],
+   "answer": "屏蔽"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "是",
+    "搭子",
+    "什么意思"
+   ],
+   "answers": [
+    "搭子是什么意思"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "点赞",
+    "怎么",
+    "你",
+    "没"
+   ],
+   "answers": [
+    "你怎么没点赞"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "啊",
+    "放鸽子",
+    "不许"
+   ],
+   "answers": [
+    "不许放鸽子啊"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "请客",
+    "谁",
+    "谁",
+    "放鸽子"
+   ],
+   "answers": [
+    "谁放鸽子谁请客"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "伙伴",
+     "a": "bạn, cộng sự"
+    },
+    {
+     "q": "朋友圈",
+     "a": "Moments trên WeChat"
+    },
+    {
+     "q": "P图",
+     "a": "chỉnh ảnh"
+    },
+    {
+     "q": "群聊 / 拉群",
+     "a": "nhóm chat / lập nhóm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn có hay đăng ảnh, trạng thái lên mạng xã hội không? Bạn thường bình luận gì cho bạn bè?",
+   "Khởi động: Bạn đã bao giờ bị bạn bè \"cho leo cây\" chưa?",
+   "朋友圈评论大赛 Thi bình luận Moments (8 phút): giáo viên chiếu 5 bài đăng (khoe đồ ăn, than mệt, ảnh du lịch, thông báo đổi việc, ảnh thú cưng). Mỗi người viết bình luận phù hợp nhất; lớp bình chọn.",
+   "表情包翻译官 Phiên dịch sticker (6 phút): chiếu sticker WeChat, học viên đoán nghĩa và đặt vào 1 tình huống nhắn tin.",
+   "找搭子帖 Viết bài tìm bạn (6 phút): mỗi người viết 1 bài đăng tìm \"搭子\" 50 chữ, đọc to, ai \"match\" được với ai thì đứng thành cặp.",
+   "Nhiệm vụ thực tế: đăng 1 bài Moments bằng tiếng Trung (thật hoặc trên giấy), nhận và trả lời 3 bình luận của bạn cùng lớp."
+  ],
+  "patterns": [
+   {
+    "zh": "你怎么没点赞？",
+    "vi": "Sao bạn không thả like?"
+   },
+   {
+    "zh": "不许放鸽子啊。",
+    "vi": "Không được cho leo cây nhé."
+   },
+   {
+    "zh": "谁放鸽子谁请客。",
+    "vi": "Ai cho leo cây người đó mời."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "搭子\" và nghệ thuật 朋友圈 \"搭子\" phản ánh kiểu quan hệ nhẹ nhàng của giới trẻ: chỉ cần hợp nhau ở một việc, không cần thân sâu. 朋友圈 là \"bộ mặt\" xã hội; nhiều người đặt chế độ chỉ hiện 3 ngày hoặc phân nhóm bạn (分组可见), nên đừng coi việc không thấy bài là bị ghét. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"搭子\" và nghệ thuật 朋友圈 Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Tin nhắn thoại rất phổ biến, nhưng với người chưa thân hoặc cấp trên nên gõ chữ.",
+   "Ứng xử: Sticker [微笑] trên WeChat với giới trẻ thường mang ý \"cạn lời\", mỉa mai; muốn cười thân thiện dùng [呲牙], [偷笑] hoặc sticker động.",
+   "Ứng xử: Được thả like/bình luận Moments nhiều lần thì thỉnh thoảng tương tác lại, đó là cách \"giữ quan hệ\".",
+   "Ứng xử: Từ chối hẹn thì kèm đề xuất cụ thể (改到周六？), không chỉ nói \"改天\"."
+  ]
+ }
+}

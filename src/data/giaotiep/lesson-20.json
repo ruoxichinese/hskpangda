@@ -1,0 +1,695 @@
+{
+ "id": 20,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "饭局与人情",
+  "pinyin": "fàn jú yǔ rén qíng",
+  "vi": "Tiệc tùng, mời rượu, tặng quà"
+ },
+ "grammarTopics_vi": [
+  "Khung lời mời rượu",
+  "以A代B",
+  "A跟B谐音 / A听着像B",
+  "千万别……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Nói lời mời rượu",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Từ chối uống khéo léo",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Hiểu quy tắc chỗ ngồi",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Chọn quà",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Nhận và từ chối quà đúng mực",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "敬酒",
+   "context_vi": "Bài khoá 1: 敬酒 – Mời rượu",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "gt-wangzong",
+     "zh": "来，今天大家都辛苦了，我先干为敬！",
+     "vi": "Nào, hôm nay mọi người đều vất vả rồi, tôi xin uống cạn trước để tỏ lòng kính trọng!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "王总，我敬您一杯，感谢您这段时间的照顾。我干了，您随意！",
+     "vi": "Giám đốc Vương, em xin kính anh một ly, cảm ơn anh thời gian qua đã chiếu cố. Em cạn, anh tuỳ ý ạ!"
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "小阮客气了，年轻人有前途！",
+     "vi": "Tiểu Nguyễn khách sáo quá, người trẻ có tương lai!"
+    },
+    {
+     "speaker": "gt-kehu",
+     "zh": "小阮，再来一杯！",
+     "vi": "Tiểu Nguyễn, thêm một ly nữa!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "实在不好意思，我酒量不行，一会儿还要开车，我以茶代酒敬您！",
+     "vi": "Thật sự xin lỗi, tửu lượng của em kém, lát nữa còn phải lái xe, em xin lấy trà thay rượu kính anh!"
+    },
+    {
+     "speaker": "gt-kehu",
+     "zh": "好，那就意思意思！",
+     "vi": "Được, vậy uống tượng trưng thôi!"
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g20-1",
+     "title_zh": "Khung lời mời rượu",
+     "title_vi": "Khung lời mời rượu",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "Khung lời mời rượu",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Khung lời mời rượu chuẩn gồm 4 phần: 称呼 (xưng hô: 王总 / 张经理) + 我敬您一杯 (tôi kính anh một ly) + 感谢……/ 祝您…… (lý do: cảm ơn hoặc chúc) + 我干了，您随意 (tôi cạn, anh tùy ý). Phần cuối thể hiện sự khiêm nhường: người mời uống hết, người được mời uống bao nhiêu tùy ý. Khi mời người ngang hàng có thể đơn giản: 来，我敬你，干杯！",
+     "examples": [
+      {
+       "zh": "王总，我敬您一杯，祝您身体健康，我干了，您随意！",
+       "vi": "Anh Vương, em xin kính anh một ly, chúc anh mạnh khoẻ, em cạn, anh tuỳ ý!"
+      }
+     ]
+    },
+    {
+     "id": "gt-g20-2",
+     "title_zh": "以A代B",
+     "title_vi": "以A代B",
+     "formula": [
+      [
+       {
+        "zh": "以A代B",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "以 A 代 B nghĩa là \"lấy A thay cho B\", cấu trúc mang màu sắc văn viết (gốc Hán cổ) nhưng rất phổ biến trên bàn tiệc khi muốn từ chối uống rượu mà vẫn giữ lễ: 以茶代酒 (lấy trà thay rượu), 以水代酒. Nên kèm lý do chính đáng: 我一会儿要开车 / 我在吃药.",
+     "examples": [
+      {
+       "zh": "以茶代酒。",
+       "vi": "Lấy trà thay rượu."
+      },
+      {
+       "zh": "以水代酒。",
+       "vi": "Lấy nước thay rượu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "座位与规矩",
+   "context_vi": "Bài khoá 2: 座位与规矩 – Chỗ ngồi và phép tắc",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "gt-tongshi",
+     "zh": "主位是王总的，就是正对门那个。你坐这儿。",
+     "vi": "Ghế chủ toạ là của giám đốc Vương, là ghế đối diện thẳng cửa ra vào. Cậu ngồi đây."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "还有这讲究？",
+     "vi": "Còn có cả quy tắc này nữa à?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+     "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "敬酒的时候杯子要低一点儿吧？",
+     "vi": "Lúc mời rượu thì ly phải thấp hơn một chút đúng không?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "对，跟领导、长辈碰杯，杯口比对方低一点儿，表示尊重。",
+     "vi": "Đúng, cụng ly với sếp hay người lớn tuổi thì miệng ly thấp hơn đối phương một chút, thể hiện sự tôn trọng."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "饭局",
+     "pinyin": "fànjú",
+     "vi": "bữa tiệc, bữa nhậu có mục đích",
+     "example": {
+      "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+      "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+     }
+    },
+    {
+     "zh": "应酬",
+     "pinyin": "yìngchou",
+     "vi": "tiếp khách"
+    },
+    {
+     "zh": "敬酒",
+     "pinyin": "jìng jiǔ",
+     "vi": "mời rượu",
+     "example": {
+      "zh": "敬酒的时候杯子要低一点儿吧？",
+      "vi": "Lúc mời rượu thì ly phải thấp hơn một chút đúng không?"
+     }
+    },
+    {
+     "zh": "干杯",
+     "pinyin": "gānbēi",
+     "vi": "cạn ly"
+    },
+    {
+     "zh": "先干为敬",
+     "pinyin": "xiān gān wéi jìng",
+     "vi": "tôi uống trước để tỏ lòng kính trọng",
+     "example": {
+      "zh": "来，今天大家都辛苦了，我先干为敬！",
+      "vi": "Nào, hôm nay mọi người đều vất vả rồi, tôi xin uống cạn trước để tỏ lòng kính trọng!"
+     }
+    },
+    {
+     "zh": "我干了，您随意",
+     "pinyin": "wǒ gān le, nín suíyì",
+     "vi": "tôi cạn, anh/chị tùy ý",
+     "example": {
+      "zh": "王总，我敬您一杯，感谢您这段时间的照顾。我干了，您随意！",
+      "vi": "Giám đốc Vương, em xin kính anh một ly, cảm ơn anh thời gian qua đã chiếu cố. Em cạn, anh tuỳ ý ạ!"
+     }
+    },
+    {
+     "zh": "酒量",
+     "pinyin": "jiǔliàng",
+     "vi": "tửu lượng",
+     "example": {
+      "zh": "实在不好意思，我酒量不行，一会儿还要开车，我以茶代酒敬您！",
+      "vi": "Thật sự xin lỗi, tửu lượng của em kém, lát nữa còn phải lái xe, em xin lấy trà thay rượu kính anh!"
+     }
+    },
+    {
+     "zh": "以茶代酒",
+     "pinyin": "yǐ chá dài jiǔ",
+     "vi": "lấy trà thay rượu",
+     "example": {
+      "zh": "实在不好意思，我酒量不行，一会儿还要开车，我以茶代酒敬您！",
+      "vi": "Thật sự xin lỗi, tửu lượng của em kém, lát nữa còn phải lái xe, em xin lấy trà thay rượu kính anh!"
+     }
+    },
+    {
+     "zh": "意思意思",
+     "pinyin": "yìsi yìsi",
+     "vi": "uống chút tượng trưng",
+     "example": {
+      "zh": "好，那就意思意思！",
+      "vi": "Được, vậy uống tượng trưng thôi!"
+     }
+    },
+    {
+     "zh": "劝酒",
+     "pinyin": "quàn jiǔ",
+     "vi": "ép rượu, mời mọc uống"
+    },
+    {
+     "zh": "碰杯",
+     "pinyin": "pèng bēi",
+     "vi": "cụng ly",
+     "example": {
+      "zh": "对，跟领导、长辈碰杯，杯口比对方低一点儿，表示尊重。",
+      "vi": "Đúng, cụng ly với sếp hay người lớn tuổi thì miệng ly thấp hơn đối phương một chút, thể hiện sự tôn trọng."
+     }
+    },
+    {
+     "zh": "前途",
+     "pinyin": "qiántú",
+     "vi": "tương lai, triển vọng",
+     "example": {
+      "zh": "小阮客气了，年轻人有前途！",
+      "vi": "Tiểu Nguyễn khách sáo quá, người trẻ có tương lai!"
+     }
+    },
+    {
+     "zh": "主位",
+     "pinyin": "zhǔwèi",
+     "vi": "ghế chủ tọa",
+     "example": {
+      "zh": "主位是王总的，就是正对门那个。你坐这儿。",
+      "vi": "Ghế chủ toạ là của giám đốc Vương, là ghế đối diện thẳng cửa ra vào. Cậu ngồi đây."
+     }
+    },
+    {
+     "zh": "主人 / 主宾",
+     "pinyin": "zhǔrén / zhǔbīn",
+     "vi": "chủ tiệc / khách chính"
+    },
+    {
+     "zh": "讲究",
+     "pinyin": "jiǎngjiu",
+     "vi": "cầu kỳ, có phép tắc",
+     "example": {
+      "zh": "还有这讲究？",
+      "vi": "Còn có cả quy tắc này nữa à?"
+     }
+    },
+    {
+     "zh": "规矩",
+     "pinyin": "guīju",
+     "vi": "quy tắc",
+     "example": {
+      "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+      "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+     }
+    },
+    {
+     "zh": "转桌",
+     "pinyin": "zhuàn zhuō",
+     "vi": "xoay mâm",
+     "example": {
+      "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+      "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+     }
+    },
+    {
+     "zh": "顺时针",
+     "pinyin": "shùn shízhēn",
+     "vi": "theo chiều kim đồng hồ",
+     "example": {
+      "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+      "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+     }
+    },
+    {
+     "zh": "动筷子",
+     "pinyin": "dòng kuàizi",
+     "vi": "bắt đầu ăn",
+     "example": {
+      "zh": "饭局规矩不少。转桌一般顺时针，领导没动筷子，咱们先别动。",
+      "vi": "Bữa tiệc nhiều quy tắc lắm. Bàn xoay thường xoay theo chiều kim đồng hồ, sếp chưa động đũa thì mình đừng động."
+     }
+    },
+    {
+     "zh": "夹菜",
+     "pinyin": "jiā cài",
+     "vi": "gắp thức ăn"
+    },
+    {
+     "zh": "长辈",
+     "pinyin": "zhǎngbèi",
+     "vi": "bậc trên",
+     "example": {
+      "zh": "对，跟领导、长辈碰杯，杯口比对方低一点儿，表示尊重。",
+      "vi": "Đúng, cụng ly với sếp hay người lớn tuổi thì miệng ly thấp hơn đối phương một chút, thể hiện sự tôn trọng."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g20-3",
+     "title_zh": "A跟B谐音 / A听着像B",
+     "title_vi": "A跟B谐音 / A听着像B",
+     "formula": [
+      [
+       {
+        "zh": "A跟B谐音 / A听着像B",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "A 跟 B 谐音 (A đồng âm với B) và A 听着像 B (A nghe giống B) dùng để giải thích các điều kiêng kỵ dựa trên đồng âm — một nét văn hóa rất đặc trưng của người Trung Quốc. Ví dụ: 送钟 (tặng đồng hồ) đồng âm với 送终 (lo hậu sự); 分梨 (chia lê) nghe giống 分离 (chia lìa). Ngược lại, số 8 (八) nghe giống 发 (phát tài) nên được ưa chuộng.",
+     "examples": [
+      {
+       "zh": "送钟跟送终谐音。",
+       "vi": "\"Tặng đồng hồ\" đồng âm với \"tiễn người lúc lâm chung\"."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "送礼",
+   "context_vi": "Bài khoá 3: 送礼 – Tặng quà",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "下周去客户家拜访，带什么礼物合适？",
+     "vi": "Tuần sau đến nhà khách hàng thăm, mang quà gì thì hợp?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "水果、茶叶都行。千万别送钟，\"送钟\"跟\"送终\"谐音。梨也别送，\"分梨\"听着像\"分离\"。",
+     "vi": "Hoa quả, trà đều được. Tuyệt đối đừng tặng đồng hồ, \"tặng đồng hồ\" đồng âm với \"tiễn người lúc lâm chung\". Lê cũng đừng tặng, \"chia lê\" nghe giống \"chia ly\"."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "要是对方推辞呢？",
+     "vi": "Nếu người ta từ chối thì sao?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "推一两次很正常，你就说\"一点儿心意，您一定收下\"。",
+     "vi": "Từ chối một hai lần là bình thường, cậu cứ nói \"Chút tấm lòng thôi, anh nhất định nhận cho\"."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那别人送我东西，我也要推一下？",
+     "vi": "Vậy người khác tặng quà mình, mình cũng phải từ chối một chút à?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "客气一下再收，回头找机会还个人情就行。",
+     "vi": "Khách sáo một chút rồi nhận, sau đó tìm dịp đáp lễ là được."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "拜访",
+     "pinyin": "bàifǎng",
+     "vi": "đến thăm",
+     "example": {
+      "zh": "下周去客户家拜访，带什么礼物合适？",
+      "vi": "Tuần sau đến nhà khách hàng thăm, mang quà gì thì hợp?"
+     }
+    },
+    {
+     "zh": "心意",
+     "pinyin": "xīnyì",
+     "vi": "tấm lòng",
+     "example": {
+      "zh": "推一两次很正常，你就说\"一点儿心意，您一定收下\"。",
+      "vi": "Từ chối một hai lần là bình thường, cậu cứ nói \"Chút tấm lòng thôi, anh nhất định nhận cho\"."
+     }
+    },
+    {
+     "zh": "收下",
+     "pinyin": "shōuxià",
+     "vi": "nhận lấy",
+     "example": {
+      "zh": "推一两次很正常，你就说\"一点儿心意，您一定收下\"。",
+      "vi": "Từ chối một hai lần là bình thường, cậu cứ nói \"Chút tấm lòng thôi, anh nhất định nhận cho\"."
+     }
+    },
+    {
+     "zh": "推辞",
+     "pinyin": "tuīcí",
+     "vi": "từ chối (nhận)",
+     "example": {
+      "zh": "要是对方推辞呢？",
+      "vi": "Nếu người ta từ chối thì sao?"
+     }
+    },
+    {
+     "zh": "谐音",
+     "pinyin": "xiéyīn",
+     "vi": "đồng âm",
+     "example": {
+      "zh": "水果、茶叶都行。千万别送钟，\"送钟\"跟\"送终\"谐音。梨也别送，\"分梨\"听着像\"分离\"。",
+      "vi": "Hoa quả, trà đều được. Tuyệt đối đừng tặng đồng hồ, \"tặng đồng hồ\" đồng âm với \"tiễn người lúc lâm chung\". Lê cũng đừng tặng, \"chia lê\" nghe giống \"chia ly\"."
+     }
+    },
+    {
+     "zh": "送钟 / 送终",
+     "pinyin": "sòng zhōng",
+     "vi": "tặng đồng hồ / lo tang (đồng âm)"
+    },
+    {
+     "zh": "人情",
+     "pinyin": "rénqíng",
+     "vi": "ân tình, nợ tình cảm",
+     "example": {
+      "zh": "客气一下再收，回头找机会还个人情就行。",
+      "vi": "Khách sáo một chút rồi nhận, sau đó tìm dịp đáp lễ là được."
+     }
+    },
+    {
+     "zh": "还人情",
+     "pinyin": "huán rénqíng",
+     "vi": "trả ơn"
+    },
+    {
+     "zh": "面子 / 给面子",
+     "pinyin": "miànzi / gěi miànzi",
+     "vi": "thể diện / nể mặt"
+    },
+    {
+     "zh": "酒驾",
+     "pinyin": "jiǔjià",
+     "vi": "lái xe sau khi uống rượu"
+    },
+    {
+     "zh": "喝不了",
+     "pinyin": "hē bu liǎo",
+     "vi": "không uống được"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g20-4",
+     "title_zh": "千万别……",
+     "title_vi": "Cảnh báo mạnh",
+     "formula": [
+      [
+       {
+        "zh": "千万别……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "千万别…… nghĩa là \"tuyệt đối đừng…, nhất định không được…\", là lời cảnh báo mạnh nhất trong khẩu ngữ. 千万 nhấn mạnh mức độ nghiêm trọng; chỉ dùng trong câu cầu khiến (đặc biệt là phủ định). Ví dụ: 千万别送钟。千万别酒驾。",
+     "examples": [
+      {
+       "zh": "千万别送钟。",
+       "vi": "Tuyệt đối đừng tặng đồng hồ."
+      },
+      {
+       "zh": "千万别酒驾。",
+       "vi": "Tuyệt đối đừng lái xe khi đã uống rượu."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我___不行，喝一杯就脸红。",
+   "bank": [
+    "酒量",
+    "主位",
+    "推辞"
+   ],
+   "answer": "酒量"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "正对门的是___，要留给王总。",
+   "bank": [
+    "推辞",
+    "主位",
+    "面子"
+   ],
+   "answer": "主位"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "一点儿___，您一定收下。",
+   "bank": [
+    "心意",
+    "主位",
+    "酒量"
+   ],
+   "answer": "心意"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "对方___一两次很正常，你再坚持一下。",
+   "bank": [
+    "敬酒",
+    "推辞",
+    "主位"
+   ],
+   "answer": "推辞"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "他是客户，你得给他点儿___。",
+   "bank": [
+    "面子",
+    "酒量",
+    "推辞"
+   ],
+   "answer": "面子"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "吃到一半，小阮站起来给王总___。",
+   "bank": [
+    "敬酒",
+    "酒量",
+    "主位"
+   ],
+   "answer": "敬酒"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "一杯",
+    "我",
+    "敬您",
+    "王总"
+   ],
+   "answers": [
+    "王总我敬您一杯"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "代",
+    "以",
+    "茶",
+    "酒"
+   ],
+   "answers": [
+    "以茶代酒"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "送终",
+    "跟",
+    "送钟",
+    "谐音"
+   ],
+   "answers": [
+    "送钟跟送终谐音"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "别",
+    "千万",
+    "酒驾"
+   ],
+   "answers": [
+    "千万别酒驾"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "应酬",
+     "a": "tiếp khách"
+    },
+    {
+     "q": "以茶代酒",
+     "a": "lấy trà thay rượu"
+    },
+    {
+     "q": "前途",
+     "a": "tương lai, triển vọng"
+    },
+    {
+     "q": "转桌",
+     "a": "xoay mâm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Ở Việt Nam, trong bữa tiệc công ty có văn hóa mời rượu không? Bạn thường từ chối uống thế nào?",
+   "Khởi động: Có món quà nào người Việt kiêng tặng không?",
+   "敬酒词接龙 Chuỗi lời chúc rượu (8 phút): mỗi người nâng ly (nước) mời một người khác với một lời chúc mới, không trùng; người được mời phải đáp lại hoặc từ chối khéo.",
+   "饭局座位图 Xếp chỗ ngồi (6 phút): phát sơ đồ bàn tròn và danh sách 8 người (sếp, khách chính, trợ lý, người trả tiền…), nhóm xếp chỗ và giải thích.",
+   "送礼雷区 Bãi mìn quà tặng (5 phút): giáo viên đọc 10 món quà, học viên giơ thẻ \"可以/不行\" và giải thích bằng tiếng Trung.",
+   "Nhiệm vụ thực tế: chuẩn bị 3 lời mời rượu cho 3 đối tượng (sếp, khách hàng, đồng nghiệp) và 1 câu từ chối khéo, ghi âm."
+  ],
+  "patterns": [
+   {
+    "zh": "王总，我敬您一杯，祝您身体健康，我干了，您随意！",
+    "vi": "Anh Vương, em xin kính anh một ly, chúc anh mạnh khoẻ, em cạn, anh tuỳ ý!"
+   },
+   {
+    "zh": "以茶代酒。",
+    "vi": "Lấy trà thay rượu."
+   },
+   {
+    "zh": "送钟跟送终谐音。",
+    "vi": "\"Tặng đồng hồ\" đồng âm với \"tiễn người lúc lâm chung\"."
+   },
+   {
+    "zh": "千万别送钟。",
+    "vi": "Tuyệt đối đừng tặng đồng hồ."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "面子\" và \"人情\" Trên bàn tiệc, uống rượu là cách trao và nhận thể diện; từ chối thẳng thừng có thể làm người mời mất mặt, nên hãy từ chối kèm lý do và cử chỉ thay thế. Giới trẻ và nhiều công ty hiện đã hạn chế \"劝酒\"; luật TQ xử phạt rất nặng lái xe sau khi uống rượu, nên \"我要开车\" là lý do không ai phản đối. \"人情\" là sổ nợ tình cảm: được giúp thì tìm cơ hội đáp lại. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"面子\" và \"人情\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Lý do từ chối rượu được chấp nhận rộng rãi: 要开车, 在吃药, 酒精过敏, 明天一早有重要的会. Nói kèm hành động thay thế (以茶代酒) để giữ thể diện cho người mời.",
+   "Ứng xử: Cụng ly: miệng ly thấp hơn cấp trên, người lớn tuổi. Cầm ly bằng hai tay khi mời người bề trên.",
+   "Ứng xử: Tặng quà: đưa và nhận bằng hai tay; thường không mở quà ngay trước mặt người tặng.",
+   "Ứng xử: Quà kiêng: đồng hồ treo tường, lê, ô (伞 ~ 散), số 4. Tiền mừng dùng số chẵn, trừ số 4."
+  ]
+ }
+}

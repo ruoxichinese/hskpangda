@@ -1,0 +1,730 @@
+{
+ "id": 4,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "点外卖",
+  "pinyin": "diǎn wài mài",
+  "vi": "Giao đồ ăn tận nhà"
+ },
+ "grammarTopics_vi": [
+  "满……起送 / 满……减……",
+  "把 + N + V + 结果/地点",
+  "给 + 人 + 添麻烦了 / 麻烦 + 人 + V",
+  "……怎么算？"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Chọn quán theo đánh giá",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Viết ghi chú",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Liên hệ shipper",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Xử lý đơn thiếu",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Đổ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Trễ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "下单写备注",
+   "context_vi": "Bài khoá 1: 下单写备注 – Đặt đơn, viết ghi chú",
+   "scene": "🛵",
+   "lines": [
+    {
+     "speaker": "gt-shiyou",
+     "zh": "今天累死了，不想下楼，点外卖吧。",
+     "vi": "Hôm nay mệt chết đi được, không muốn xuống nhà, đặt đồ ăn ngoài thôi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "美团还是饿了么？",
+     "vi": "Meituan hay Ele.me?"
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "美团吧，我是会员，能领无门槛红包。",
+     "vi": "Meituan đi, mình là hội viên, được nhận phiếu giảm giá không cần mức tối thiểu."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我想吃麻辣烫。这家评分四点八，月售五千多。",
+     "vi": "Mình muốn ăn malatang. Quán này đánh giá 4,8, một tháng bán hơn năm nghìn suất."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+     "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "地址选宿舍楼哪个门？",
+     "vi": "Địa chỉ chọn cổng nào của ký túc xá?"
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "北门。外卖进不了校园，得去门口取。",
+     "vi": "Cổng Bắc. Shipper không vào được trường, phải ra cổng lấy."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "点外卖",
+     "pinyin": "diǎn wàimài",
+     "vi": "gọi đồ ăn giao tận nơi",
+     "example": {
+      "zh": "今天累死了，不想下楼，点外卖吧。",
+      "vi": "Hôm nay mệt chết đi được, không muốn xuống nhà, đặt đồ ăn ngoài thôi."
+     }
+    },
+    {
+     "zh": "美团 / 饿了么",
+     "pinyin": "Měituán / Èleme",
+     "vi": "hai app giao đồ ăn lớn nhất"
+    },
+    {
+     "zh": "会员",
+     "pinyin": "huìyuán",
+     "vi": "thành viên trả phí",
+     "example": {
+      "zh": "美团吧，我是会员，能领无门槛红包。",
+      "vi": "Meituan đi, mình là hội viên, được nhận phiếu giảm giá không cần mức tối thiểu."
+     }
+    },
+    {
+     "zh": "无门槛红包",
+     "pinyin": "wú ménkǎn hóngbāo",
+     "vi": "voucher không cần đơn tối thiểu",
+     "example": {
+      "zh": "美团吧，我是会员，能领无门槛红包。",
+      "vi": "Meituan đi, mình là hội viên, được nhận phiếu giảm giá không cần mức tối thiểu."
+     }
+    },
+    {
+     "zh": "评分",
+     "pinyin": "píngfēn",
+     "vi": "điểm đánh giá",
+     "example": {
+      "zh": "我想吃麻辣烫。这家评分四点八，月售五千多。",
+      "vi": "Mình muốn ăn malatang. Quán này đánh giá 4,8, một tháng bán hơn năm nghìn suất."
+     }
+    },
+    {
+     "zh": "月售",
+     "pinyin": "yuè shòu",
+     "vi": "lượng bán mỗi tháng",
+     "example": {
+      "zh": "我想吃麻辣烫。这家评分四点八，月售五千多。",
+      "vi": "Mình muốn ăn malatang. Quán này đánh giá 4,8, một tháng bán hơn năm nghìn suất."
+     }
+    },
+    {
+     "zh": "配送费",
+     "pinyin": "pèisòng fèi",
+     "vi": "phí giao hàng",
+     "example": {
+      "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+      "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+     }
+    },
+    {
+     "zh": "起送",
+     "pinyin": "qǐ sòng",
+     "vi": "mức đơn tối thiểu để giao",
+     "example": {
+      "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+      "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+     }
+    },
+    {
+     "zh": "备注",
+     "pinyin": "bèizhù",
+     "vi": "ghi chú đơn hàng",
+     "example": {
+      "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+      "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+     }
+    },
+    {
+     "zh": "放门口",
+     "pinyin": "fàng ménkǒu",
+     "vi": "để trước cửa",
+     "example": {
+      "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+      "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+     }
+    },
+    {
+     "zh": "敲门",
+     "pinyin": "qiāo mén",
+     "vi": "gõ cửa",
+     "example": {
+      "zh": "配送费三块，满二十起送。备注写上：不要葱，多放醋，放门口，别敲门。",
+      "vi": "Phí giao ba tệ, đủ hai mươi mới giao. Ghi chú vào: không hành, nhiều giấm, để ở cửa, đừng gõ cửa."
+     }
+    },
+    {
+     "zh": "骑手 / 外卖小哥",
+     "pinyin": "qíshǒu / wàimài xiǎogē",
+     "vi": "shipper"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g4-1",
+     "title_zh": "满……起送 / 满……减……",
+     "title_vi": "满……起送 / 满……减……",
+     "formula": [
+      [
+       {
+        "zh": "满……起送 / 满……减……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "满……起送 và 满……减…… là hai cấu trúc khuyến mãi/điều kiện thường thấy trên app. 满 nghĩa là \"đủ, đạt\". 满二十起送: đơn đủ 20 tệ mới giao (đơn tối thiểu). 满三十减八: đơn đủ 30 tệ thì giảm 8 tệ. Biến thể: 满……包邮 (đủ… miễn phí ship), 满……送…… (đủ… tặng…).",
+     "examples": [
+      {
+       "zh": "满二十起送。",
+       "vi": "Đủ hai mươi mới giao."
+      },
+      {
+       "zh": "满三十减八。",
+       "vi": "Mua đủ ba mươi giảm tám."
+      }
+     ]
+    },
+    {
+     "id": "gt-g4-2",
+     "title_zh": "把 + N + V + 结果/地点",
+     "title_vi": "Yêu cầu cụ thể",
+     "formula": [
+      [
+       {
+        "zh": "把",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "N",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "结果/地点",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Câu chữ 把 đưa tân ngữ lên trước động từ để nhấn mạnh việc \"xử lý\" đối tượng đó như thế nào: 主语 + 把 + 宾语 + V + thành phần khác (kết quả, nơi chốn, 了…). Động từ không được đứng một mình, phải có thành phần đi sau: 把外卖放门口 (để đồ ăn trước cửa), 把汤洒了 (làm đổ canh). Tân ngữ của 把 phải là đối tượng xác định, đã biết.",
+     "examples": [
+      {
+       "zh": "把外卖放门口。",
+       "vi": "Để đồ ăn ở cửa."
+      },
+      {
+       "zh": "你把汤洒了一半。",
+       "vi": "Bạn làm đổ mất một nửa canh rồi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "跟骑手打电话",
+   "context_vi": "Bài khoá 2: 跟骑手打电话 – Nói chuyện với shipper",
+   "scene": "🛵",
+   "lines": [
+    {
+     "speaker": "gt-qishou",
+     "zh": "喂，您好，外卖到了，我在北门，您下来拿一下。",
+     "vi": "Alô, chào bạn, đồ ăn đến rồi, tôi ở cổng Bắc, bạn xuống lấy nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "师傅，我马上下来，大概三分钟。",
+     "vi": "Anh ơi, em xuống ngay, khoảng ba phút."
+    },
+    {
+     "speaker": "gt-qishou",
+     "zh": "我还有别的单赶时间，给您放外卖柜里吧，柜号发您短信。",
+     "vi": "Tôi còn đơn khác đang gấp, để vào tủ đồ ăn cho bạn nhé, số tủ tôi nhắn tin."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好的，辛苦了！",
+     "vi": "Vâng ạ, anh vất vả rồi!"
+    },
+    {
+     "speaker": "gt-qishou",
+     "zh": "麻烦给个好评哈！",
+     "vi": "Nhớ đánh giá tốt giúp tôi nhé!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没问题，五星！",
+     "vi": "Không thành vấn đề, năm sao!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "师傅",
+     "pinyin": "shīfu",
+     "vi": "bác, anh (gọi người làm dịch vụ)",
+     "example": {
+      "zh": "师傅，我马上下来，大概三分钟。",
+      "vi": "Anh ơi, em xuống ngay, khoảng ba phút."
+     }
+    },
+    {
+     "zh": "取餐",
+     "pinyin": "qǔ cān",
+     "vi": "lấy đồ ăn"
+    },
+    {
+     "zh": "外卖柜",
+     "pinyin": "wàimài guì",
+     "vi": "tủ nhận đồ ăn",
+     "example": {
+      "zh": "我还有别的单赶时间，给您放外卖柜里吧，柜号发您短信。",
+      "vi": "Tôi còn đơn khác đang gấp, để vào tủ đồ ăn cho bạn nhé, số tủ tôi nhắn tin."
+     }
+    },
+    {
+     "zh": "赶时间",
+     "pinyin": "gǎn shíjiān",
+     "vi": "vội",
+     "example": {
+      "zh": "我还有别的单赶时间，给您放外卖柜里吧，柜号发您短信。",
+      "vi": "Tôi còn đơn khác đang gấp, để vào tủ đồ ăn cho bạn nhé, số tủ tôi nhắn tin."
+     }
+    },
+    {
+     "zh": "预计送达",
+     "pinyin": "yùjì sòngdá",
+     "vi": "dự kiến giao lúc"
+    },
+    {
+     "zh": "超时",
+     "pinyin": "chāoshí",
+     "vi": "quá giờ"
+    },
+    {
+     "zh": "好评 / 差评",
+     "pinyin": "hǎopíng / chàpíng",
+     "vi": "đánh giá tốt / xấu"
+    },
+    {
+     "zh": "五星",
+     "pinyin": "wǔ xīng",
+     "vi": "5 sao",
+     "example": {
+      "zh": "没问题，五星！",
+      "vi": "Không thành vấn đề, năm sao!"
+     }
+    },
+    {
+     "zh": "商家",
+     "pinyin": "shāngjiā",
+     "vi": "cửa hàng, người bán"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "漏送洒汤",
+   "context_vi": "Bài khoá 3: 漏送洒汤 – Thiếu món, đổ canh",
+   "scene": "🛵",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "老板，我点的麻辣烫少了一瓶饮料，汤也洒了一半。",
+     "vi": "Chủ quán ơi, phần malatang tôi đặt thiếu một chai nước, canh cũng đổ mất một nửa."
+    },
+    {
+     "speaker": "gt-shangjia",
+     "zh": "亲，实在不好意思！饮料钱给您退了，再补一张五块的券，您看行吗？",
+     "vi": "Dạ, thật sự xin lỗi bạn! Tiền nước em hoàn lại cho bạn, tặng thêm phiếu năm tệ, bạn thấy được không ạ?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "汤洒了一半怎么算？我拍照了。",
+     "vi": "Canh đổ mất một nửa thì tính sao? Tôi chụp ảnh rồi."
+    },
+    {
+     "speaker": "gt-shangjia",
+     "zh": "那再退您一半菜钱。您点\"申请退款\"，选\"部分退款\"，我这边马上同意。",
+     "vi": "Vậy em hoàn thêm cho bạn một nửa tiền món. Bạn bấm \"Yêu cầu hoàn tiền\", chọn \"Hoàn một phần\", bên em đồng ý ngay."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好，下次打包用点儿心啊。",
+     "vi": "Được, lần sau đóng gói cẩn thận chút nhé."
+    },
+    {
+     "speaker": "gt-shangjia",
+     "zh": "一定一定，给您添麻烦了！",
+     "vi": "Nhất định ạ, làm phiền bạn rồi!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "亲",
+     "pinyin": "qīn",
+     "vi": "\"bạn ơi\" (người bán online gọi khách)",
+     "example": {
+      "zh": "亲，实在不好意思！饮料钱给您退了，再补一张五块的券，您看行吗？",
+      "vi": "Dạ, thật sự xin lỗi bạn! Tiền nước em hoàn lại cho bạn, tặng thêm phiếu năm tệ, bạn thấy được không ạ?"
+     }
+    },
+    {
+     "zh": "漏送",
+     "pinyin": "lòu sòng",
+     "vi": "giao thiếu"
+    },
+    {
+     "zh": "洒",
+     "pinyin": "sǎ",
+     "vi": "đổ, tràn",
+     "example": {
+      "zh": "老板，我点的麻辣烫少了一瓶饮料，汤也洒了一半。",
+      "vi": "Chủ quán ơi, phần malatang tôi đặt thiếu một chai nước, canh cũng đổ mất một nửa."
+     }
+    },
+    {
+     "zh": "补偿",
+     "pinyin": "bǔcháng",
+     "vi": "bồi thường"
+    },
+    {
+     "zh": "申请退款",
+     "pinyin": "shēnqǐng tuìkuǎn",
+     "vi": "yêu cầu hoàn tiền",
+     "example": {
+      "zh": "那再退您一半菜钱。您点\"申请退款\"，选\"部分退款\"，我这边马上同意。",
+      "vi": "Vậy em hoàn thêm cho bạn một nửa tiền món. Bạn bấm \"Yêu cầu hoàn tiền\", chọn \"Hoàn một phần\", bên em đồng ý ngay."
+     }
+    },
+    {
+     "zh": "部分退款",
+     "pinyin": "bùfen tuìkuǎn",
+     "vi": "hoàn một phần",
+     "example": {
+      "zh": "那再退您一半菜钱。您点\"申请退款\"，选\"部分退款\"，我这边马上同意。",
+      "vi": "Vậy em hoàn thêm cho bạn một nửa tiền món. Bạn bấm \"Yêu cầu hoàn tiền\", chọn \"Hoàn một phần\", bên em đồng ý ngay."
+     }
+    },
+    {
+     "zh": "拍照留证",
+     "pinyin": "pāizhào liú zhèng",
+     "vi": "chụp ảnh làm bằng chứng"
+    },
+    {
+     "zh": "用心",
+     "pinyin": "yòngxīn",
+     "vi": "chu đáo, để tâm"
+    },
+    {
+     "zh": "添麻烦",
+     "pinyin": "tiān máfan",
+     "vi": "gây phiền",
+     "example": {
+      "zh": "一定一定，给您添麻烦了！",
+      "vi": "Nhất định ạ, làm phiền bạn rồi!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g4-3",
+     "title_zh": "给 + 人 + 添麻烦了 / 麻烦 + 人 + V",
+     "title_vi": "Xin lỗi và nhờ vả",
+     "formula": [
+      [
+       {
+        "zh": "给",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "人",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "添麻烦了 / 麻烦",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "人",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Hai cấu trúc cùng chữ 麻烦: (1) 麻烦 + 人 + V: \"phiền ai làm gì\", lời nhờ vả lịch sự, thường dùng với người làm dịch vụ: 麻烦您放外卖柜。(2) 给 + 人 + 添麻烦了: \"gây phiền cho ai rồi\", lời xin lỗi/cảm ơn khi đã làm người khác vất vả. Người bán thường nói 给您添麻烦了 khi có sai sót.",
+     "examples": [
+      {
+       "zh": "麻烦您放外卖柜。",
+       "vi": "Phiền anh để vào tủ đồ ăn."
+      },
+      {
+       "zh": "给您添麻烦了。",
+       "vi": "Làm phiền bạn rồi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g4-4",
+     "title_zh": "……怎么算？",
+     "title_vi": "Hỏi cách xử lý, cách tính",
+     "formula": [
+      [
+       {
+        "zh": "……怎么算？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……怎么算？ nghĩa đen là \"tính thế nào\", dùng để hỏi cách xử lý, cách bồi thường hoặc cách tính phí khi có vấn đề phát sinh. Đây là câu hỏi lịch sự nhưng cứng rắn, buộc bên kia phải đưa ra phương án cụ thể. Ví dụ: 汤洒了怎么算？(Canh bị đổ thì xử lý sao?) 超时了怎么算？(Giao trễ thì tính sao?)",
+     "examples": [
+      {
+       "zh": "汤洒了怎么算？",
+       "vi": "Canh đổ rồi thì tính sao?"
+      },
+      {
+       "zh": "超时了怎么算？",
+       "vi": "Giao trễ giờ thì tính sao?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我在___里写了\"不要葱，多放醋\"。",
+   "bank": [
+    "备注",
+    "赶时间",
+    "漏送"
+   ],
+   "answer": "备注"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "这家店满二十___，我们再加一个菜吧。",
+   "bank": [
+    "起送",
+    "好评",
+    "备注"
+   ],
+   "answer": "起送"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "骑手还有别的单，他很___。",
+   "bank": [
+    "拍照留证",
+    "赶时间",
+    "好评"
+   ],
+   "answer": "赶时间"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "送得很快，我给了五星___。",
+   "bank": [
+    "拍照留证",
+    "漏送",
+    "好评"
+   ],
+   "answer": "好评"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "商家___了一瓶饮料，我申请了部分退款。",
+   "bank": [
+    "拍照留证",
+    "赶时间",
+    "漏送"
+   ],
+   "answer": "漏送"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "汤洒了，你先___，再找商家。",
+   "bank": [
+    "漏送",
+    "赶时间",
+    "拍照留证"
+   ],
+   "answer": "拍照留证"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "门口",
+    "外卖",
+    "放",
+    "把",
+    "请"
+   ],
+   "answers": [
+    "请把外卖放门口"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "添",
+    "给您",
+    "麻烦了"
+   ],
+   "answers": [
+    "给您添麻烦了"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "怎么",
+    "超时了",
+    "算"
+   ],
+   "answers": [
+    "超时了怎么算"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "起送",
+    "满二十",
+    "这家"
+   ],
+   "answers": [
+    "这家满二十起送"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "美团 / 饿了么",
+     "a": "hai app giao đồ ăn lớn nhất"
+    },
+    {
+     "q": "月售",
+     "a": "lượng bán mỗi tháng"
+    },
+    {
+     "q": "骑手 / 外卖小哥",
+     "a": "shipper"
+    },
+    {
+     "q": "预计送达",
+     "a": "dự kiến giao lúc"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn có hay đặt đồ ăn qua app không? Bạn hay dùng app nào?",
+   "Khởi động: Bạn thường viết ghi chú gì cho người bán hoặc shipper?",
+   "备注大赛 Thi viết ghi chú (8 phút): mỗi người viết 1 ghi chú \"khó\" (vừa chính xác vừa hài hước), lớp bình chọn. Ví dụ: 麻烦别放葱，我跟葱有仇。",
+   "售后谈判 Đàm phán hậu mãi (10 phút): nhóm A là quán, nhóm B là khách với thẻ sự cố (giao nhầm món, trễ 40 phút, thiếu đũa, đồ ăn nguội). Quán chỉ được hoàn tối đa 50%, khách phải thuyết phục để được đền bù tốt nhất.",
+   "Nhiệm vụ thực tế: chụp màn hình giỏ hàng trên app (giả lập), viết 3 ghi chú và 1 tin nhắn khiếu nại lịch sự."
+  ],
+  "patterns": [
+   {
+    "zh": "满二十起送。",
+    "vi": "Đủ hai mươi mới giao."
+   },
+   {
+    "zh": "把外卖放门口。",
+    "vi": "Để đồ ăn ở cửa."
+   },
+   {
+    "zh": "麻烦您放外卖柜。",
+    "vi": "Phiền anh để vào tủ đồ ăn."
+   },
+   {
+    "zh": "汤洒了怎么算？",
+    "vi": "Canh đổ rồi thì tính sao?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "外卖小哥\" và văn hóa ghi chú Giao đồ ăn là một phần đời sống đô thị Trung Quốc. Nhiều trường học, khu chung cư không cho shipper vào, nên có tủ nhận đồ và điểm tập kết. Ghi chú đơn hàng kiểu hài hước là một \"văn hóa mạng\" riêng; chủ quán đôi khi đáp lại bằng mẩu giấy viết tay trong túi đồ ăn. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"外卖小哥\" và văn hóa ghi chú Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Có sự cố, nhắn cho 商家 trước, chụp ảnh rồi mới yêu cầu hoàn tiền. Đa số shop xử lý nhanh để tránh 差评.",
+   "Ứng xử: Shipper thường bị phạt khi trễ hoặc bị đánh giá xấu. Lỗi của quán thì đừng đánh giá xấu shipper.",
+   "Ứng xử: Nghe điện thoại shipper: trả lời ngay \"马上下来\" hoặc \"放门口就行\". Cuộc gọi thường chỉ 10 giây.",
+   "Ứng xử: Câu \"辛苦了\" rất được quý, dùng với shipper, tài xế, bảo vệ, lao công."
+  ]
+ }
+}

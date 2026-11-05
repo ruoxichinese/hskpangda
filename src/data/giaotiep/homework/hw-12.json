@@ -1,0 +1,422 @@
+{
+ "lessonId": 12,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我手机没电了，在老城区{{1}}了。\n（2）银行卡丢了，你赶紧给银行打电话{{2}}。\n（3）警察先给我{{3}}，再去调监控。\n（4）我也去地铁站，正好{{4}}，带你过去吧。\n（5）老板，我要看{{5}}。\n（6）有消息我们会{{6}}通知你。",
+     "bank": [
+      "迷路",
+      "挂失",
+      "做笔录",
+      "顺路",
+      "价目表",
+      "第一时间"
+     ],
+     "answers": [
+      "迷路",
+      "挂失",
+      "做笔录",
+      "顺路",
+      "价目表",
+      "第一时间"
+     ],
+     "explain_vi": "迷路、挂失、做笔录、顺路、价目表、第一时间"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "……怎么走？",
+       "a": "đi … thế nào?"
+      },
+      {
+       "q": "往前直走",
+       "a": "đi thẳng"
+      },
+      {
+       "q": "路口",
+       "a": "ngã tư"
+      },
+      {
+       "q": "被偷",
+       "a": "bị trộm"
+      },
+      {
+       "q": "报失证明",
+       "a": "giấy xác nhận mất"
+      },
+      {
+       "q": "调监控",
+       "a": "trích xuất camera"
+      }
+     ],
+     "explain_vi": "……怎么走？ = đi … thế nào? · 往前直走 = đi thẳng · 路口 = ngã tư · 被偷 = bị trộm · 报失证明 = giấy xác nhận mất · 调监控 = trích xuất camera"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "被",
+      "了",
+      "我的钱包",
+      "偷"
+     ],
+     "answers": [
+      "我的钱包被偷了"
+     ],
+     "explain_vi": "我的钱包被偷了。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "往前",
+      "第二个红绿灯",
+      "直走",
+      "右拐"
+     ],
+     "answers": [
+      "往前直走第二个红绿灯右拐"
+     ],
+     "explain_vi": "往前直走，第二个红绿灯右拐。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "按两算",
+      "当时",
+      "你",
+      "可",
+      "没说"
+     ],
+     "answers": [
+      "你当时可没说按两算"
+     ],
+     "explain_vi": "你当时可没说按两算。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "就",
+      "二十",
+      "二十"
+     ],
+     "answers": [
+      "二十就二十"
+     ],
+     "explain_vi": "二十就二十。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Xin làm phiền, cho hỏi ga tàu điện đi thế nào ạ?",
+     "acceptedAnswers": [
+      "打扰一下，请问地铁站怎么走？"
+     ],
+     "requiredKeywords": [
+      "打扰一下"
+     ],
+     "explain_vi": "Đáp án tham khảo: 打扰一下，请问地铁站怎么走？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Anh công an ơi, tôi bị mất ví, trong đó có hộ chiếu và thẻ ngân hàng.",
+     "acceptedAnswers": [
+      "警察同志，我钱包丢了，里面有护照和银行卡。"
+     ],
+     "requiredKeywords": [
+      "警察同志",
+      "丢了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 警察同志，我钱包丢了，里面有护照和银行卡。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Bảng giá ghi rõ ràng rành mạch là hai mươi tệ một bát.",
+     "acceptedAnswers": [
+      "价目表上写得清清楚楚，一碗二十。"
+     ],
+     "requiredKeywords": [
+      "价目表",
+      "清清楚楚"
+     ],
+     "explain_vi": "Đáp án tham khảo: 价目表上写得清清楚楚，一碗二十。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 被 bị động (việc không may)",
+   "instructions_vi": "Chuyển các câu sau sang câu bị động với 被.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "小偷偷了我的钱包。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的钱包被小偷偷了。"
+     ],
+     "requiredKeywords": [
+      "被"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的钱包被小偷偷了。",
+     "grammarRef": "gt-g12-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "导航把我绕晕了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我被导航绕晕了。"
+     ],
+     "requiredKeywords": [
+      "被"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我被导航绕晕了。",
+     "grammarRef": "gt-g12-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "老板宰了我。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我被老板宰了。"
+     ],
+     "requiredKeywords": [
+      "被"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我被老板宰了。",
+     "grammarRef": "gt-g12-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "雨把我的衣服淋湿了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的衣服被雨淋湿了。"
+     ],
+     "requiredKeywords": [
+      "被"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的衣服被雨淋湿了。",
+     "grammarRef": "gt-g12-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 往 + hướng + V",
+   "instructions_vi": "Chỉ đường theo gợi ý, dùng 往 + hướng + V.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "(đi thẳng về phía trước) → ________________________________________________________",
+     "acceptedAnswers": [
+      "往前直走。"
+     ],
+     "requiredKeywords": [
+      "往"
+     ],
+     "explain_vi": "Đáp án tham khảo: 往前直走。",
+     "grammarRef": "gt-g12-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "(đến đèn giao thông thứ hai rẽ phải) → ________________________________________________________",
+     "acceptedAnswers": [
+      "第二个红绿灯往右拐。"
+     ],
+     "requiredKeywords": [
+      "往"
+     ],
+     "explain_vi": "Đáp án tham khảo: 第二个红绿灯往右拐。",
+     "grammarRef": "gt-g12-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "(thấy McDonald's thì đi vào trong 100 mét) → ________________________________________________________",
+     "acceptedAnswers": [
+      "看到麦当劳再往里走一百米。"
+     ],
+     "requiredKeywords": [
+      "往"
+     ],
+     "explain_vi": "Đáp án tham khảo: 看到麦当劳再往里走一百米。",
+     "grammarRef": "gt-g12-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "(ra khỏi ga đi về phía đông 5 phút) → ________________________________________________________",
+     "acceptedAnswers": [
+      "出了站往东走五分钟。"
+     ],
+     "requiredKeywords": [
+      "往"
+     ],
+     "explain_vi": "Đáp án tham khảo: 出了站往东走五分钟。",
+     "grammarRef": "gt-g12-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 可 + 没/不 + V (nhấn mạnh phản bác)",
+   "instructions_vi": "Dùng 可 + 没/不 để phản bác trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Chủ quán nói đã báo giá theo lạng, nhưng thực ra không hề nói. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你当时可没说按两算。"
+     ],
+     "requiredKeywords": [
+      "可",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你当时可没说按两算。",
+     "grammarRef": "gt-g12-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn bè trách bạn không nói trước, nhưng bạn đã nói rồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我可没忘，我早就跟你说了。"
+     ],
+     "requiredKeywords": [
+      "可",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我可没忘，我早就跟你说了。",
+     "grammarRef": "gt-g12-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Người bán nói bạn đồng ý mua hai phần, nhưng bạn không hề đồng ý. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我可没说要两份。"
+     ],
+     "requiredKeywords": [
+      "可",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我可没说要两份。",
+     "grammarRef": "gt-g12-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Người ta bảo bạn đến muộn, nhưng bạn đến đúng giờ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我可没迟到，七点整到的。"
+     ],
+     "requiredKeywords": [
+      "可",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我可没迟到，七点整到的。",
+     "grammarRef": "gt-g12-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: A 就 A",
+   "instructions_vi": "Dùng A 就 A để thể hiện sự chấp nhận.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "A：价目表上写的是二十，那就二十吧。B（老板）：行行行，______。",
+     "acceptedAnswers": [
+      "二十就二十"
+     ],
+     "requiredKeywords": [
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 二十就二十",
+     "grammarRef": "gt-g12-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "这个包有点儿贵，不过我真的很喜欢，______，买了！",
+     "acceptedAnswers": [
+      "贵就贵吧"
+     ],
+     "requiredKeywords": [
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 贵就贵吧",
+     "grammarRef": "gt-g12-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "远是远了点儿，______，风景好就行。",
+     "acceptedAnswers": [
+      "远就远吧"
+     ],
+     "requiredKeywords": [
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 远就远吧",
+     "grammarRef": "gt-g12-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "A：明天要早起六点出发。B：______，为了看日出！",
+     "acceptedAnswers": [
+      "早就早吧"
+     ],
+     "requiredKeywords": [
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 早就早吧",
+     "grammarRef": "gt-g12-4"
+    }
+   ]
+  }
+ ]
+}

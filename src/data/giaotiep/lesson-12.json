@@ -1,0 +1,702 @@
+{
+ "id": 12,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "旅途意外",
+  "pinyin": "lǚ tú yì wài",
+  "vi": "Sự cố khi du lịch + Thi nói giữa kỳ"
+ },
+ "grammarTopics_vi": [
+  "被 bị động (việc không may)",
+  "往 + hướng + V",
+  "可 + 没/不 + V (nhấn mạnh phản bác)",
+  "A 就 A"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi đường",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Báo mất đồ",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Trình báo công an",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Phản ứng khi bị \"chặt chém\". Nửa sau buổi học là thi nói giữa kỳ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "问路",
+   "context_vi": "Bài khoá 1: 问路 – Hỏi đường",
+   "scene": "🧳",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "打扰一下，请问地铁站怎么走？导航把我绕晕了。",
+     "vi": "Xin lỗi làm phiền, cho hỏi ga tàu điện đi đường nào? Bản đồ dẫn đường làm tôi rối hết cả lên."
+    },
+    {
+     "speaker": "gt-luren",
+     "zh": "你往前直走，第二个红绿灯右拐，看到麦当劳再往里走一百米就是。",
+     "vi": "Bạn đi thẳng phía trước, đến đèn xanh đèn đỏ thứ hai rẽ phải, thấy McDonald's thì đi vào thêm một trăm mét là tới."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "离这儿远吗？",
+     "vi": "Có xa đây không?"
+    },
+    {
+     "speaker": "gt-luren",
+     "zh": "不远，走路七八分钟。要不我带你过去吧，正好顺路。",
+     "vi": "Không xa, đi bộ bảy tám phút. Hay để tôi dẫn bạn đi, tiện đường luôn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "太感谢了！",
+     "vi": "Cảm ơn bạn nhiều lắm!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "打扰一下",
+     "pinyin": "dǎrǎo yíxià",
+     "vi": "xin làm phiền",
+     "example": {
+      "zh": "打扰一下，请问地铁站怎么走？导航把我绕晕了。",
+      "vi": "Xin lỗi làm phiền, cho hỏi ga tàu điện đi đường nào? Bản đồ dẫn đường làm tôi rối hết cả lên."
+     }
+    },
+    {
+     "zh": "……怎么走？",
+     "pinyin": "zěnme zǒu",
+     "vi": "đi … thế nào?"
+    },
+    {
+     "zh": "导航",
+     "pinyin": "dǎoháng",
+     "vi": "chỉ đường (app)",
+     "example": {
+      "zh": "打扰一下，请问地铁站怎么走？导航把我绕晕了。",
+      "vi": "Xin lỗi làm phiền, cho hỏi ga tàu điện đi đường nào? Bản đồ dẫn đường làm tôi rối hết cả lên."
+     }
+    },
+    {
+     "zh": "绕晕",
+     "pinyin": "rào yūn",
+     "vi": "chỉ lòng vòng đến chóng mặt",
+     "example": {
+      "zh": "打扰一下，请问地铁站怎么走？导航把我绕晕了。",
+      "vi": "Xin lỗi làm phiền, cho hỏi ga tàu điện đi đường nào? Bản đồ dẫn đường làm tôi rối hết cả lên."
+     }
+    },
+    {
+     "zh": "往前直走",
+     "pinyin": "wǎng qián zhí zǒu",
+     "vi": "đi thẳng",
+     "example": {
+      "zh": "你往前直走，第二个红绿灯右拐，看到麦当劳再往里走一百米就是。",
+      "vi": "Bạn đi thẳng phía trước, đến đèn xanh đèn đỏ thứ hai rẽ phải, thấy McDonald's thì đi vào thêm một trăm mét là tới."
+     }
+    },
+    {
+     "zh": "红绿灯",
+     "pinyin": "hónglǜdēng",
+     "vi": "đèn giao thông",
+     "example": {
+      "zh": "你往前直走，第二个红绿灯右拐，看到麦当劳再往里走一百米就是。",
+      "vi": "Bạn đi thẳng phía trước, đến đèn xanh đèn đỏ thứ hai rẽ phải, thấy McDonald's thì đi vào thêm một trăm mét là tới."
+     }
+    },
+    {
+     "zh": "左拐 / 右拐",
+     "pinyin": "zuǒ guǎi / yòu guǎi",
+     "vi": "rẽ trái / phải"
+    },
+    {
+     "zh": "路口",
+     "pinyin": "lùkǒu",
+     "vi": "ngã tư"
+    },
+    {
+     "zh": "顺路",
+     "pinyin": "shùnlù",
+     "vi": "tiện đường",
+     "example": {
+      "zh": "不远，走路七八分钟。要不我带你过去吧，正好顺路。",
+      "vi": "Không xa, đi bộ bảy tám phút. Hay để tôi dẫn bạn đi, tiện đường luôn."
+     }
+    },
+    {
+     "zh": "迷路",
+     "pinyin": "mílù",
+     "vi": "lạc đường"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g12-1",
+     "title_zh": "被 bị động (việc không may)",
+     "title_vi": "被 bị động (việc không may)",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "被 bị động (việc không may)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu bị động với 被: 主语 (người/vật chịu tác động) + 被 + (người gây ra) + V + thành phần khác. Trong tiếng Trung, 被 thường dùng cho việc không may, bất lợi: 钱包被偷了, 我被宰了. Người gây ra có thể lược bỏ khi không rõ hoặc không cần nói. Câu 把 tương ứng đặt người gây ra làm chủ ngữ: 导航把我绕晕了 = 我被导航绕晕了.",
+     "examples": [
+      {
+       "zh": "钱包被偷了。",
+       "vi": "Ví bị móc mất rồi."
+      },
+      {
+       "zh": "我被宰了。",
+       "vi": "Tôi bị chặt chém rồi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g12-2",
+     "title_zh": "往 + hướng + V",
+     "title_vi": "往 + hướng + V",
+     "formula": [
+      [
+       {
+        "zh": "往",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "hướng",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "往 + phương hướng + V dùng để chỉ đường: 往 = \"về phía\". Hướng thường gặp: 前 / 后 / 左 / 右 / 东 / 西 / 南 / 北 / 里 / 外. Động từ đi kèm: 走, 拐, 开, 看. Có thể thêm khoảng cách: 往里走一百米. Kết hợp với mốc: 第二个红绿灯往右拐.",
+     "examples": [
+      {
+       "zh": "往前直走。",
+       "vi": "Đi thẳng phía trước."
+      },
+      {
+       "zh": "往左拐。",
+       "vi": "Rẽ trái."
+      },
+      {
+       "zh": "往里走一百米。",
+       "vi": "Đi vào thêm một trăm mét."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "报警挂失",
+   "context_vi": "Bài khoá 2: 报警挂失 – Trình báo, khóa thẻ",
+   "scene": "🧳",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "警察同志，我钱包丢了，里面有护照和银行卡。",
+     "vi": "Đồng chí cảnh sát, tôi bị mất ví, trong đó có hộ chiếu và thẻ ngân hàng."
+    },
+    {
+     "speaker": "gt-jingcha",
+     "zh": "别着急，在哪儿丢的？大概什么时候？",
+     "vi": "Đừng lo, mất ở đâu? Khoảng mấy giờ?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "一个小时前，在步行街，可能是被偷了。",
+     "vi": "Một tiếng trước, ở phố đi bộ, chắc là bị móc túi."
+    },
+    {
+     "speaker": "gt-jingcha",
+     "zh": "我先给你做个笔录。你赶紧联系银行把卡挂失。护照丢了要开报失证明，再去大使馆补办。",
+     "vi": "Tôi lập biên bản cho anh trước. Anh mau liên hệ ngân hàng khoá thẻ. Mất hộ chiếu thì phải làm giấy xác nhận báo mất, rồi lên đại sứ quán làm lại."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那儿有监控吗？",
+     "vi": "Chỗ đó có camera không?"
+    },
+    {
+     "speaker": "gt-jingcha",
+     "zh": "我们会调监控，有消息第一时间通知你。",
+     "vi": "Chúng tôi sẽ trích xuất camera, có tin là báo anh ngay."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "警察同志",
+     "pinyin": "jǐngchá tóngzhì",
+     "vi": "anh/chị công an",
+     "example": {
+      "zh": "警察同志，我钱包丢了，里面有护照和银行卡。",
+      "vi": "Đồng chí cảnh sát, tôi bị mất ví, trong đó có hộ chiếu và thẻ ngân hàng."
+     }
+    },
+    {
+     "zh": "丢了",
+     "pinyin": "diū le",
+     "vi": "bị mất",
+     "example": {
+      "zh": "警察同志，我钱包丢了，里面有护照和银行卡。",
+      "vi": "Đồng chí cảnh sát, tôi bị mất ví, trong đó có hộ chiếu và thẻ ngân hàng."
+     }
+    },
+    {
+     "zh": "被偷",
+     "pinyin": "bèi tōu",
+     "vi": "bị trộm",
+     "example": {
+      "zh": "一个小时前，在步行街，可能是被偷了。",
+      "vi": "Một tiếng trước, ở phố đi bộ, chắc là bị móc túi."
+     }
+    },
+    {
+     "zh": "报警",
+     "pinyin": "bàojǐng",
+     "vi": "báo cảnh sát"
+    },
+    {
+     "zh": "做笔录",
+     "pinyin": "zuò bǐlù",
+     "vi": "lập biên bản"
+    },
+    {
+     "zh": "挂失",
+     "pinyin": "guàshī",
+     "vi": "báo mất, khóa (thẻ)",
+     "example": {
+      "zh": "我先给你做个笔录。你赶紧联系银行把卡挂失。护照丢了要开报失证明，再去大使馆补办。",
+      "vi": "Tôi lập biên bản cho anh trước. Anh mau liên hệ ngân hàng khoá thẻ. Mất hộ chiếu thì phải làm giấy xác nhận báo mất, rồi lên đại sứ quán làm lại."
+     }
+    },
+    {
+     "zh": "补办",
+     "pinyin": "bǔbàn",
+     "vi": "làm lại (giấy tờ)",
+     "example": {
+      "zh": "我先给你做个笔录。你赶紧联系银行把卡挂失。护照丢了要开报失证明，再去大使馆补办。",
+      "vi": "Tôi lập biên bản cho anh trước. Anh mau liên hệ ngân hàng khoá thẻ. Mất hộ chiếu thì phải làm giấy xác nhận báo mất, rồi lên đại sứ quán làm lại."
+     }
+    },
+    {
+     "zh": "报失证明",
+     "pinyin": "bàoshī zhèngmíng",
+     "vi": "giấy xác nhận mất",
+     "example": {
+      "zh": "我先给你做个笔录。你赶紧联系银行把卡挂失。护照丢了要开报失证明，再去大使馆补办。",
+      "vi": "Tôi lập biên bản cho anh trước. Anh mau liên hệ ngân hàng khoá thẻ. Mất hộ chiếu thì phải làm giấy xác nhận báo mất, rồi lên đại sứ quán làm lại."
+     }
+    },
+    {
+     "zh": "大使馆 / 领事馆",
+     "pinyin": "dàshǐguǎn / lǐngshìguǎn",
+     "vi": "đại sứ quán / lãnh sự quán"
+    },
+    {
+     "zh": "监控",
+     "pinyin": "jiānkòng",
+     "vi": "camera giám sát",
+     "example": {
+      "zh": "那儿有监控吗？",
+      "vi": "Chỗ đó có camera không?"
+     }
+    },
+    {
+     "zh": "调监控",
+     "pinyin": "diào jiānkòng",
+     "vi": "trích xuất camera",
+     "example": {
+      "zh": "我们会调监控，有消息第一时间通知你。",
+      "vi": "Chúng tôi sẽ trích xuất camera, có tin là báo anh ngay."
+     }
+    },
+    {
+     "zh": "第一时间",
+     "pinyin": "dì yī shíjiān",
+     "vi": "ngay lập tức",
+     "example": {
+      "zh": "我们会调监控，有消息第一时间通知你。",
+      "vi": "Chúng tôi sẽ trích xuất camera, có tin là báo anh ngay."
+     }
+    },
+    {
+     "zh": "着急",
+     "pinyin": "zháojí",
+     "vi": "sốt ruột",
+     "example": {
+      "zh": "别着急，在哪儿丢的？大概什么时候？",
+      "vi": "Đừng lo, mất ở đâu? Khoảng mấy giờ?"
+     }
+    },
+    {
+     "zh": "被宰",
+     "pinyin": "bèi zǎi",
+     "vi": "bị chặt chém"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "被宰了",
+   "context_vi": "Bài khoá 3: 被宰了 – Bị chặt chém",
+   "scene": "🧳",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "老板，刚才说好一碗二十，怎么收我八十？",
+     "vi": "Chủ quán, vừa nãy nói rõ một bát hai mươi, sao lại tính tôi tám mươi?"
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "一两二十，你吃了四两。",
+     "vi": "Một lạng hai mươi, cậu ăn bốn lạng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你当时可没说按两算。我要看价目表。",
+     "vi": "Lúc đó anh đâu có nói là tính theo lạng. Tôi muốn xem bảng giá."
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "……那算你四十吧。",
+     "vi": "… Vậy tính cậu bốn mươi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "价目表上写得清清楚楚，一碗二十。不然我打12345投诉了。",
+     "vi": "Bảng giá ghi rõ ràng, một bát hai mươi. Không thì tôi gọi 12345 khiếu nại đấy."
+    },
+    {
+     "speaker": "gt-laoban",
+     "zh": "行行行，二十就二十。",
+     "vi": "Được được được, hai mươi thì hai mươi."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "价目表",
+     "pinyin": "jiàmù biǎo",
+     "vi": "bảng giá",
+     "example": {
+      "zh": "你当时可没说按两算。我要看价目表。",
+      "vi": "Lúc đó anh đâu có nói là tính theo lạng. Tôi muốn xem bảng giá."
+     }
+    },
+    {
+     "zh": "按……算",
+     "pinyin": "àn… suàn",
+     "vi": "tính theo…"
+    },
+    {
+     "zh": "两",
+     "pinyin": "liǎng",
+     "vi": "lạng (50g)",
+     "example": {
+      "zh": "一两二十，你吃了四两。",
+      "vi": "Một lạng hai mươi, cậu ăn bốn lạng."
+     }
+    },
+    {
+     "zh": "清清楚楚",
+     "pinyin": "qīngqīngchǔchǔ",
+     "vi": "rõ ràng rành mạch",
+     "example": {
+      "zh": "价目表上写得清清楚楚，一碗二十。不然我打12345投诉了。",
+      "vi": "Bảng giá ghi rõ ràng, một bát hai mươi. Không thì tôi gọi 12345 khiếu nại đấy."
+     }
+    },
+    {
+     "zh": "12345",
+     "pinyin": "yāo'èr sān sì wǔ",
+     "vi": "đường dây nóng dịch vụ công của thành phố",
+     "example": {
+      "zh": "价目表上写得清清楚楚，一碗二十。不然我打12345投诉了。",
+      "vi": "Bảng giá ghi rõ ràng, một bát hai mươi. Không thì tôi gọi 12345 khiếu nại đấy."
+     }
+    },
+    {
+     "zh": "求助",
+     "pinyin": "qiúzhù",
+     "vi": "cầu cứu, nhờ giúp"
+    },
+    {
+     "zh": "……就……",
+     "pinyin": "… jiù …",
+     "vi": "chấp nhận: 二十就二十 (hai mươi thì hai mươi)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g12-3",
+     "title_zh": "可 + 没/不 + V (nhấn mạnh phản bác)",
+     "title_vi": "可 + 没/不 + V (nhấn mạnh phản bác)",
+     "formula": [
+      [
+       {
+        "zh": "可",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "没/不",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V (nhấn mạnh phản bác)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "可 + 没/不 + V là cách dùng 可 như phó từ nhấn mạnh (khác với 可 = 可是 ở Bài 6): \"đâu có…, rõ ràng là không…\". Dùng để phản bác mạnh khi đối phương nói sai sự thật. Ví dụ: 你当时可没说按两算 (Lúc đó anh đâu có nói là tính theo lạng!). Giọng điệu chắc chắn, hơi bức xúc.",
+     "examples": [
+      {
+       "zh": "你当时可没说按两算。",
+       "vi": "Lúc đó anh đâu có nói là tính theo lạng."
+      }
+     ]
+    },
+    {
+     "id": "gt-g12-4",
+     "title_zh": "A 就 A",
+     "title_vi": "Chấp nhận cho xong chuyện",
+     "formula": [
+      [
+       {
+        "zh": "A 就 A",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "A 就 A diễn tả sự chấp nhận cho xong chuyện, \"A thì A vậy\", hàm ý không muốn tranh cãi thêm. A lặp lại ở hai bên 就: 二十就二十 (hai mươi thì hai mươi), 贵就贵吧 (đắt thì đắt vậy). Thường kèm 吧 và một hành động tiếp theo: 贵就贵吧，买了。",
+     "examples": [
+      {
+       "zh": "二十就二十。",
+       "vi": "Hai mươi thì hai mươi."
+      },
+      {
+       "zh": "贵就贵吧，买了。",
+       "vi": "Đắt thì đắt, mua thôi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我手机没电了，在老城区___了。",
+   "bank": [
+    "第一时间",
+    "迷路",
+    "顺路"
+   ],
+   "answer": "迷路"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "银行卡丢了，你赶紧给银行打电话___。",
+   "bank": [
+    "顺路",
+    "挂失",
+    "第一时间"
+   ],
+   "answer": "挂失"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "警察先给我___，再去调监控。",
+   "bank": [
+    "价目表",
+    "第一时间",
+    "做笔录"
+   ],
+   "answer": "做笔录"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "我也去地铁站，正好___，带你过去吧。",
+   "bank": [
+    "价目表",
+    "顺路",
+    "第一时间"
+   ],
+   "answer": "顺路"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "老板，我要看___。",
+   "bank": [
+    "挂失",
+    "价目表",
+    "顺路"
+   ],
+   "answer": "价目表"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "有消息我们会___通知你。",
+   "bank": [
+    "做笔录",
+    "第一时间",
+    "价目表"
+   ],
+   "answer": "第一时间"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "被",
+    "了",
+    "我的钱包",
+    "偷"
+   ],
+   "answers": [
+    "我的钱包被偷了"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "往前",
+    "第二个红绿灯",
+    "直走",
+    "右拐"
+   ],
+   "answers": [
+    "往前直走第二个红绿灯右拐"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "按两算",
+    "当时",
+    "你",
+    "可",
+    "没说"
+   ],
+   "answers": [
+    "你当时可没说按两算"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "就",
+    "二十",
+    "二十"
+   ],
+   "answers": [
+    "二十就二十"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "……怎么走？",
+     "a": "đi … thế nào?"
+    },
+    {
+     "q": "往前直走",
+     "a": "đi thẳng"
+    },
+    {
+     "q": "路口",
+     "a": "ngã tư"
+    },
+    {
+     "q": "被偷",
+     "a": "bị trộm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Khi đi du lịch, bạn đã từng gặp sự cố gì chưa (lạc đường, mất đồ, bị nói thách)?",
+   "Khởi động: Bạn có biết số điện thoại khẩn cấp ở Trung Quốc không?",
+   "报警接力 Tiếp sức báo án (8 phút, khởi động): mỗi người xem ảnh \"kẻ trộm\" 10 giây, rồi mô tả cho \"công an\" vẽ lại; cặp có bản vẽ giống nhất thắng.",
+   "期中口试 Thi nói giữa kỳ (còn lại khoảng 60 phút): mỗi học viên bốc thăm 1 tình huống từ buổi 1–12 (ví dụ: bị trừ tiền 2 lần ở quán; nhà thuê bị tắc nước; lỡ tàu cao tốc). Giáo viên đóng vai, 5 phút/người. Tiêu chí: hoàn thành nhiệm vụ 40%, độ lưu loát 20%, từ vựng và mẫu câu 20%, ứng xử phù hợp văn hóa 20%. Người chờ thi làm \"giám khảo phụ\" ghi 2 câu hay của bạn.",
+   "Nhiệm vụ thực tế: lưu danh bạ các số khẩn cấp và số Đại sứ quán Việt Nam tại TQ; ghi âm lời trình báo mất đồ 1 phút."
+  ],
+  "patterns": [
+   {
+    "zh": "钱包被偷了。",
+    "vi": "Ví bị móc mất rồi."
+   },
+   {
+    "zh": "往前直走。",
+    "vi": "Đi thẳng phía trước."
+   },
+   {
+    "zh": "你当时可没说按两算。",
+    "vi": "Lúc đó anh đâu có nói là tính theo lạng."
+   },
+   {
+    "zh": "二十就二十。",
+    "vi": "Hai mươi thì hai mươi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "gọi",
+  "body_vi": [
+   "\"同志\" và \"热心群众\" Với công an, gọi \"警察同志\" hoặc \"警官\" là chuẩn mực, thể hiện tôn trọng. Người TQ rất sẵn lòng chỉ đường và thường dẫn tận nơi; báo chí gọi họ là \"热心群众\" (người dân nhiệt tình). Hộ chiếu bị mất phải có giấy xác nhận của công an trước khi xin cấp lại ở Đại sứ quán/Lãnh sự quán Việt Nam. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: gọi \"同志\" và \"热心群众\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Khi báo mất, nói đủ 4 ý theo thứ tự: 什么东西 → 在哪儿 → 什么时候 → 有什么特征.",
+   "Ứng xử: Số khẩn cấp: 110 công an, 120 cấp cứu, 119 cứu hỏa, 122 tai nạn giao thông, 12345 đường dây nóng thành phố.",
+   "Ứng xử: Bị chặt chém: bình tĩnh, yêu cầu xem 价目表, chụp ảnh; nhắc tới 12345 thường đủ để giải quyết.",
+   "Ứng xử: Người lạ nhiệt tình dẫn đường là chuyện bình thường; nhưng cảnh giác nếu bị kéo vào quán trà, triển lãm tranh."
+  ]
+ }
+}

@@ -1,0 +1,753 @@
+{
+ "id": 7,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "找房看房",
+  "pinyin": "zhǎo fáng kàn fáng",
+  "vi": "Tìm nhà, xem nhà, mặc cả tiền thuê"
+ },
+ "grammarTopics_vi": [
+  "离 + nơi + V + thời gian",
+  "……的话，……",
+  "Con số + 行不行 / 怎么样 / 能不能",
+  "V + 个 + số + 折 + 呗"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi môi giới về căn hộ",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đặt lịch xem nhà",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Phát hiện vấn đề khi xem",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Mặc cả giá và phí môi giới",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "联系中介",
+   "context_vi": "Bài khoá 1: 联系中介 – Liên hệ môi giới",
+   "scene": "🏠",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我在贝壳上看到一个房源，望京那套一居室还在吗？",
+     "vi": "Chào anh, tôi thấy một căn trên Beike, căn một phòng ngủ ở Vọng Kinh còn không ạ?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "在的，精装修，南北通透，离地铁站走路五分钟，月租五千五。",
+     "vi": "Còn ạ, nội thất đẹp, thoáng hai đầu Nam Bắc, đi bộ ra ga tàu điện năm phút, thuê năm nghìn rưỡi một tháng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "可以短租吗？我只住半年。",
+     "vi": "Thuê ngắn hạn được không? Tôi chỉ ở nửa năm."
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "房东要求至少签一年，押一付三。半年的话，租金可能要上浮一点。",
+     "vi": "Chủ nhà yêu cầu ký ít nhất một năm, cọc một trả ba. Nếu nửa năm thì tiền thuê có thể tăng lên một chút."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "中介费怎么收？",
+     "vi": "Phí môi giới tính thế nào?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "一个月房租，不过可以谈。您什么时候方便看房？",
+     "vi": "Một tháng tiền nhà, nhưng có thể thương lượng. Khi nào chị tiện đi xem nhà?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "周六上午吧。",
+     "vi": "Sáng thứ bảy nhé."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "中介",
+     "pinyin": "zhōngjiè",
+     "vi": "môi giới",
+     "example": {
+      "zh": "中介费怎么收？",
+      "vi": "Phí môi giới tính thế nào?"
+     }
+    },
+    {
+     "zh": "房东",
+     "pinyin": "fángdōng",
+     "vi": "chủ nhà",
+     "example": {
+      "zh": "房东要求至少签一年，押一付三。半年的话，租金可能要上浮一点。",
+      "vi": "Chủ nhà yêu cầu ký ít nhất một năm, cọc một trả ba. Nếu nửa năm thì tiền thuê có thể tăng lên một chút."
+     }
+    },
+    {
+     "zh": "房源",
+     "pinyin": "fángyuán",
+     "vi": "tin cho thuê, nguồn nhà",
+     "example": {
+      "zh": "你好，我在贝壳上看到一个房源，望京那套一居室还在吗？",
+      "vi": "Chào anh, tôi thấy một căn trên Beike, căn một phòng ngủ ở Vọng Kinh còn không ạ?"
+     }
+    },
+    {
+     "zh": "贝壳 / 链家 / 自如",
+     "pinyin": "Bèiké / Liànjiā / Zìrú",
+     "vi": "các nền tảng thuê nhà"
+    },
+    {
+     "zh": "一居室 / 两室一厅",
+     "pinyin": "yì jūshì / liǎng shì yì tīng",
+     "vi": "1 phòng ngủ / 2 ngủ 1 khách"
+    },
+    {
+     "zh": "整租 / 合租",
+     "pinyin": "zhěng zū / hé zū",
+     "vi": "thuê nguyên căn / ở ghép"
+    },
+    {
+     "zh": "精装修",
+     "pinyin": "jīng zhuāngxiū",
+     "vi": "hoàn thiện đẹp",
+     "example": {
+      "zh": "在的，精装修，南北通透，离地铁站走路五分钟，月租五千五。",
+      "vi": "Còn ạ, nội thất đẹp, thoáng hai đầu Nam Bắc, đi bộ ra ga tàu điện năm phút, thuê năm nghìn rưỡi một tháng."
+     }
+    },
+    {
+     "zh": "南北通透",
+     "pinyin": "nán běi tōngtòu",
+     "vi": "thông thoáng hai hướng",
+     "example": {
+      "zh": "在的，精装修，南北通透，离地铁站走路五分钟，月租五千五。",
+      "vi": "Còn ạ, nội thất đẹp, thoáng hai đầu Nam Bắc, đi bộ ra ga tàu điện năm phút, thuê năm nghìn rưỡi một tháng."
+     }
+    },
+    {
+     "zh": "朝南 / 朝北",
+     "pinyin": "cháo nán / cháo běi",
+     "vi": "hướng nam / hướng bắc"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g7-1",
+     "title_zh": "离 + nơi + V + thời gian",
+     "title_vi": "离 + nơi + V + thời gian",
+     "formula": [
+      [
+       {
+        "zh": "离",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "nơi",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "thời gian",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "离 + địa điểm + cách di chuyển + thời gian dùng để nói khoảng cách tính bằng thời gian đi lại — cách người Trung Quốc mô tả vị trí nhà rất phổ biến. Cấu trúc đầy đủ: A 离 B + 走路/开车/坐地铁 + 五分钟. Hỏi: 离地铁站远吗？/ 离公司多远？Chú ý: 离 đứng giữa hai địa điểm, không dùng 从 trong câu này.",
+     "examples": [
+      {
+       "zh": "离地铁站走路五分钟。",
+       "vi": "Đi bộ ra ga tàu điện năm phút."
+      },
+      {
+       "zh": "离公司开车半小时。",
+       "vi": "Lái xe đến công ty nửa tiếng."
+      }
+     ]
+    },
+    {
+     "id": "gt-g7-2",
+     "title_zh": "……的话，……",
+     "title_vi": "……的话，……",
+     "formula": [
+      [
+       {
+        "zh": "……的话，……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……的话，…… diễn tả điều kiện \"nếu… thì…\". 的话 đặt cuối vế điều kiện, nghe tự nhiên và khẩu ngữ hơn 如果; hai cái có thể dùng cùng nhau: 如果……的话. Vế sau thường có 就 / 能 / 可以 / 要. Đây là công cụ thương lượng rất hữu ích: đặt điều kiện của mình (一次付的话) rồi đề nghị (能便宜点儿吗？).",
+     "examples": [
+      {
+       "zh": "半年的话，租金要上浮。",
+       "vi": "Nếu nửa năm thì tiền thuê sẽ tăng."
+      },
+      {
+       "zh": "一次付的话，能便宜点儿吗？",
+       "vi": "Nếu trả một lần thì rẻ hơn chút được không?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "看房",
+   "context_vi": "Bài khoá 2: 看房 – Đi xem nhà",
+   "scene": "🏠",
+   "lines": [
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "就是这套，您看，采光特别好。",
+     "vi": "Chính là căn này, chị xem, ánh sáng cực tốt."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "卧室是朝北的吧？卫生间也没窗户。",
+     "vi": "Phòng ngủ hướng Bắc đúng không? Nhà vệ sinh cũng không có cửa sổ."
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "有排气扇，不潮。",
+     "vi": "Có quạt thông gió, không bị ẩm."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "热水器是燃气的还是电的？空调、洗衣机都能用吗？",
+     "vi": "Bình nóng lạnh dùng gas hay điện? Điều hoà, máy giặt đều dùng được chứ?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "都是房东配的，坏了房东负责修。",
+     "vi": "Đều do chủ nhà trang bị, hỏng thì chủ nhà chịu trách nhiệm sửa."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "水电燃气怎么交？物业费含在房租里吗？",
+     "vi": "Điện nước gas đóng thế nào? Phí quản lý có tính trong tiền nhà không?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "水电燃气按表走，物业费和取暖费房东出。",
+     "vi": "Điện nước gas tính theo đồng hồ, phí quản lý và phí sưởi chủ nhà trả."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "墙角这块有点儿发霉，签约前能处理一下吗？",
+     "vi": "Góc tường chỗ này hơi bị mốc, trước khi ký hợp đồng xử lý được không?"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "采光",
+     "pinyin": "cǎiguāng",
+     "vi": "ánh sáng tự nhiên",
+     "example": {
+      "zh": "就是这套，您看，采光特别好。",
+      "vi": "Chính là căn này, chị xem, ánh sáng cực tốt."
+     }
+    },
+    {
+     "zh": "月租",
+     "pinyin": "yuè zū",
+     "vi": "tiền thuê tháng",
+     "example": {
+      "zh": "在的，精装修，南北通透，离地铁站走路五分钟，月租五千五。",
+      "vi": "Còn ạ, nội thất đẹp, thoáng hai đầu Nam Bắc, đi bộ ra ga tàu điện năm phút, thuê năm nghìn rưỡi một tháng."
+     }
+    },
+    {
+     "zh": "短租 / 长租",
+     "pinyin": "duǎn zū / cháng zū",
+     "vi": "thuê ngắn / dài hạn"
+    },
+    {
+     "zh": "押一付三",
+     "pinyin": "yā yī fù sān",
+     "vi": "cọc 1 tháng, trả trước 3 tháng",
+     "example": {
+      "zh": "房东要求至少签一年，押一付三。半年的话，租金可能要上浮一点。",
+      "vi": "Chủ nhà yêu cầu ký ít nhất một năm, cọc một trả ba. Nếu nửa năm thì tiền thuê có thể tăng lên một chút."
+     }
+    },
+    {
+     "zh": "上浮",
+     "pinyin": "shàngfú",
+     "vi": "tăng lên (giá)",
+     "example": {
+      "zh": "房东要求至少签一年，押一付三。半年的话，租金可能要上浮一点。",
+      "vi": "Chủ nhà yêu cầu ký ít nhất một năm, cọc một trả ba. Nếu nửa năm thì tiền thuê có thể tăng lên một chút."
+     }
+    },
+    {
+     "zh": "中介费",
+     "pinyin": "zhōngjiè fèi",
+     "vi": "phí môi giới",
+     "example": {
+      "zh": "中介费怎么收？",
+      "vi": "Phí môi giới tính thế nào?"
+     }
+    },
+    {
+     "zh": "看房",
+     "pinyin": "kàn fáng",
+     "vi": "xem nhà",
+     "example": {
+      "zh": "一个月房租，不过可以谈。您什么时候方便看房？",
+      "vi": "Một tháng tiền nhà, nhưng có thể thương lượng. Khi nào chị tiện đi xem nhà?"
+     }
+    },
+    {
+     "zh": "卧室 / 客厅",
+     "pinyin": "wòshì / kètīng",
+     "vi": "phòng ngủ / phòng khách"
+    },
+    {
+     "zh": "卫生间",
+     "pinyin": "wèishēngjiān",
+     "vi": "nhà vệ sinh",
+     "example": {
+      "zh": "卧室是朝北的吧？卫生间也没窗户。",
+      "vi": "Phòng ngủ hướng Bắc đúng không? Nhà vệ sinh cũng không có cửa sổ."
+     }
+    },
+    {
+     "zh": "排气扇",
+     "pinyin": "páiqìshàn",
+     "vi": "quạt hút",
+     "example": {
+      "zh": "有排气扇，不潮。",
+      "vi": "Có quạt thông gió, không bị ẩm."
+     }
+    },
+    {
+     "zh": "潮 / 发霉",
+     "pinyin": "cháo / fāméi",
+     "vi": "ẩm / mốc"
+    },
+    {
+     "zh": "热水器",
+     "pinyin": "rèshuǐqì",
+     "vi": "bình nóng lạnh",
+     "example": {
+      "zh": "热水器是燃气的还是电的？空调、洗衣机都能用吗？",
+      "vi": "Bình nóng lạnh dùng gas hay điện? Điều hoà, máy giặt đều dùng được chứ?"
+     }
+    },
+    {
+     "zh": "燃气",
+     "pinyin": "ránqì",
+     "vi": "ga",
+     "example": {
+      "zh": "热水器是燃气的还是电的？空调、洗衣机都能用吗？",
+      "vi": "Bình nóng lạnh dùng gas hay điện? Điều hoà, máy giặt đều dùng được chứ?"
+     }
+    },
+    {
+     "zh": "房东配的",
+     "pinyin": "fángdōng pèi de",
+     "vi": "đồ chủ nhà trang bị",
+     "example": {
+      "zh": "都是房东配的，坏了房东负责修。",
+      "vi": "Đều do chủ nhà trang bị, hỏng thì chủ nhà chịu trách nhiệm sửa."
+     }
+    },
+    {
+     "zh": "物业费",
+     "pinyin": "wùyè fèi",
+     "vi": "phí quản lý",
+     "example": {
+      "zh": "水电燃气怎么交？物业费含在房租里吗？",
+      "vi": "Điện nước gas đóng thế nào? Phí quản lý có tính trong tiền nhà không?"
+     }
+    },
+    {
+     "zh": "取暖费",
+     "pinyin": "qǔnuǎn fèi",
+     "vi": "phí sưởi (miền Bắc)",
+     "example": {
+      "zh": "水电燃气按表走，物业费和取暖费房东出。",
+      "vi": "Điện nước gas tính theo đồng hồ, phí quản lý và phí sưởi chủ nhà trả."
+     }
+    },
+    {
+     "zh": "按表走",
+     "pinyin": "àn biǎo zǒu",
+     "vi": "tính theo đồng hồ",
+     "example": {
+      "zh": "水电燃气按表走，物业费和取暖费房东出。",
+      "vi": "Điện nước gas tính theo đồng hồ, phí quản lý và phí sưởi chủ nhà trả."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "砍价",
+   "context_vi": "Bài khoá 3: 砍价 – Mặc cả",
+   "scene": "🏠",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "五千五有点儿超预算了，五千行不行？",
+     "vi": "Năm nghìn rưỡi hơi vượt ngân sách, năm nghìn được không?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "五千房东估计不同意，我帮您问问，五千三怎么样？",
+     "vi": "Năm nghìn chắc chủ nhà không đồng ý, để tôi hỏi giúp, năm nghìn ba thì sao?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我可以一次付半年，五千二能不能？",
+     "vi": "Tôi có thể trả một lần nửa năm, năm nghìn hai được không?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "我给房东打个电话……房东说行，但中介费不能少。",
+     "vi": "Để tôi gọi cho chủ nhà… Chủ nhà bảo được, nhưng phí môi giới không bớt được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "中介费打个八折呗，我以后还给你介绍朋友。",
+     "vi": "Phí môi giới giảm 20% đi mà, sau này tôi còn giới thiệu bạn bè cho anh."
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "得，就这么定了！",
+     "vi": "Thôi được, chốt vậy nhé!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "超预算",
+     "pinyin": "chāo yùsuàn",
+     "vi": "vượt ngân sách",
+     "example": {
+      "zh": "五千五有点儿超预算了，五千行不行？",
+      "vi": "Năm nghìn rưỡi hơi vượt ngân sách, năm nghìn được không?"
+     }
+    },
+    {
+     "zh": "一次付",
+     "pinyin": "yí cì fù",
+     "vi": "trả một lần",
+     "example": {
+      "zh": "我可以一次付半年，五千二能不能？",
+      "vi": "Tôi có thể trả một lần nửa năm, năm nghìn hai được không?"
+     }
+    },
+    {
+     "zh": "打八折",
+     "pinyin": "dǎ bā zhé",
+     "vi": "giảm 20%"
+    },
+    {
+     "zh": "呗",
+     "pinyin": "bei",
+     "vi": "ngữ khí đề nghị nhẹ",
+     "example": {
+      "zh": "中介费打个八折呗，我以后还给你介绍朋友。",
+      "vi": "Phí môi giới giảm 20% đi mà, sau này tôi còn giới thiệu bạn bè cho anh."
+     }
+    },
+    {
+     "zh": "就这么定了",
+     "pinyin": "jiù zhème dìng le",
+     "vi": "chốt vậy nhé",
+     "example": {
+      "zh": "得，就这么定了！",
+      "vi": "Thôi được, chốt vậy nhé!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g7-3",
+     "title_zh": "Con số + 行不行 / 怎么样 / 能不能",
+     "title_vi": "Ba cách trả giá",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "Con số",
+        "role": "V"
+       },
+       {
+        "zh": "行不行 / 怎么样 / 能不能",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Có ba cách trả giá thông dụng, đều đặt con số đề xuất lên trước: 五千行不行？(… được không? — trực tiếp), 五千三怎么样？(… thế nào? — mở, mời thương lượng), 五千二能不能？(… có được không? — hơi nài nỉ). Kết hợp với lý do (超预算了、我一次付) sẽ thuyết phục hơn. Người bán thường đáp: 我帮您问问 / 这个价不行 / 最低……",
+     "examples": [
+      {
+       "zh": "五千行不行？",
+       "vi": "Năm nghìn được không?"
+      },
+      {
+       "zh": "五千三怎么样？",
+       "vi": "Năm nghìn ba thì sao?"
+      }
+     ]
+    },
+    {
+     "id": "gt-g7-4",
+     "title_zh": "V + 个 + số + 折 + 呗",
+     "title_vi": "Đề nghị nhẹ nhàng",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "个",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "số",
+        "role": "V"
+       },
+       {
+        "zh": "折",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "呗",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "V + 个 + số/折 + 呗 là cách đề nghị mềm mỏng, thân mật. 个 ở đây làm câu nhẹ nhàng, \"chút xíu\"; 呗 cuối câu mang sắc thái \"thì… đi mà\", vừa nài nỉ vừa vui vẻ. Cách nói giảm giá: 打八折 = giảm còn 80% (giảm 20%), 打九折 = giảm 10%. Ví dụ: 打个八折呗。便宜个两百呗。",
+     "examples": [
+      {
+       "zh": "打个八折呗。",
+       "vi": "Giảm 20% đi mà."
+      },
+      {
+       "zh": "便宜个两百呗。",
+       "vi": "Bớt hai trăm đi mà."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我在贝壳上找了个___，帮我看房。",
+   "bank": [
+    "物业费",
+    "发霉",
+    "中介"
+   ],
+   "answer": "中介"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "这套房子朝南，___特别好。",
+   "bank": [
+    "超预算",
+    "采光",
+    "押一付三"
+   ],
+   "answer": "采光"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "房东要求___，第一次要交四个月的钱。",
+   "bank": [
+    "物业费",
+    "押一付三",
+    "采光"
+   ],
+   "answer": "押一付三"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "墙角有点儿___，签约前要处理一下。",
+   "bank": [
+    "中介",
+    "发霉",
+    "物业费"
+   ],
+   "answer": "发霉"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "六千块有点儿___了，有没有便宜点儿的？",
+   "bank": [
+    "发霉",
+    "采光",
+    "超预算"
+   ],
+   "answer": "超预算"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "___含在房租里吗？",
+   "bank": [
+    "物业费",
+    "押一付三",
+    "中介"
+   ],
+   "answer": "物业费"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "离",
+    "走路",
+    "地铁站",
+    "五分钟",
+    "这套房子"
+   ],
+   "answers": [
+    "这套房子离地铁站走路五分钟"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "呗",
+    "八折",
+    "打个",
+    "中介费"
+   ],
+   "answers": [
+    "中介费打个八折呗"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "一次付",
+    "能",
+    "的话",
+    "便宜点儿吗"
+   ],
+   "answers": [
+    "一次付的话能便宜点儿吗"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "行不行",
+    "五千"
+   ],
+   "answers": [
+    "五千行不行"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "房源",
+     "a": "tin cho thuê, nguồn nhà"
+    },
+    {
+     "q": "精装修",
+     "a": "hoàn thiện đẹp"
+    },
+    {
+     "q": "短租 / 长租",
+     "a": "thuê ngắn / dài hạn"
+    },
+    {
+     "q": "卧室 / 客厅",
+     "a": "phòng ngủ / phòng khách"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Khi thuê nhà, bạn quan tâm nhất điều gì: giá, vị trí, ánh sáng hay chủ nhà?",
+   "Khởi động: Ở Việt Nam, người thuê nhà thường phải đặt cọc bao nhiêu tháng?",
+   "看房找茬 Soi lỗi căn hộ (8 phút): giáo viên chiếu ảnh căn hộ có 6 lỗi (mốc, không cửa sổ, ổ điện hỏng…). Các nhóm thi phát hiện và đặt câu hỏi cho \"môi giới\" bằng tiếng Trung.",
+   "砍价大师 Bậc thầy mặc cả (10 phút): mỗi cặp 1 môi giới, 1 người thuê. Môi giới có thẻ \"giá sàn bí mật\", người thuê có thẻ \"ngân sách\". Cặp nào chốt được trong 3 phút và cả hai đều hài lòng sẽ được điểm.",
+   "Nhiệm vụ thực tế: tìm 1 căn hộ thật trên app thuê nhà, ghi âm 1 phút gọi điện hỏi 5 thông tin chính."
+  ],
+  "patterns": [
+   {
+    "zh": "离地铁站走路五分钟。",
+    "vi": "Đi bộ ra ga tàu điện năm phút."
+   },
+   {
+    "zh": "半年的话，租金要上浮。",
+    "vi": "Nếu nửa năm thì tiền thuê sẽ tăng."
+   },
+   {
+    "zh": "五千行不行？",
+    "vi": "Năm nghìn được không?"
+   },
+   {
+    "zh": "打个八折呗。",
+    "vi": "Giảm 20% đi mà."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "押一付三\" và phí môi giới Hình thức phổ biến là cọc 1 tháng và trả trước 3 tháng. Phí môi giới thường tương đương 1 tháng tiền nhà hoặc một tỷ lệ phần trăm, tùy địa phương và có thể thương lượng. Tin \"miễn phí môi giới\" đôi khi đã cộng phí vào tiền thuê (Huá Lǜ). Ở miền Bắc, căn hộ hướng nam được giá hơn vì nắng mùa đông. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"押一付三\" và phí môi giới Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Yêu cầu xem 房产证 (sổ nhà) và CCCD của chủ nhà, hoặc giấy ủy quyền nếu người khác cho thuê hộ.",
+   "Ứng xử: Không chuyển cọc trước khi xem nhà thật; cẩn thận tin \"giá rẻ bất ngờ\" trên mạng.",
+   "Ứng xử: Mặc cả khôn khéo: đưa lợi ích cho đối phương (付半年, 签两年, 介绍朋友) thay vì chỉ chê.",
+   "Ứng xử: Chụp ảnh, quay video toàn bộ căn nhà trước khi ký, nhất là chỗ hư hỏng."
+  ]
+ }
+}

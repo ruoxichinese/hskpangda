@@ -1,0 +1,719 @@
+{
+ "id": 10,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "地铁高铁",
+  "pinyin": "dì tiě gāo tiě",
+  "vi": "Tàu điện ngầm, tàu cao tốc"
+ },
+ "grammarTopics_vi": [
+  "先……，再/然后……",
+  "能……就……",
+  "Tính từ + 得不行",
+  "越……越……",
+  "……好像……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi và chỉ đường tàu điện",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Dùng mã đi tàu",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Mua vé",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Chờ vé",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Đổi vé",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Xử lý nhầm ghế",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "坐地铁",
+   "context_vi": "Bài khoá 1: 坐地铁 – Đi tàu điện ngầm",
+   "scene": "🚄",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "请问去天安门东坐几号线？",
+     "vi": "Cho hỏi đi ga Thiên An Môn Đông thì đi tuyến số mấy?"
+    },
+    {
+     "speaker": "gt-luren",
+     "zh": "你先坐十号线到国贸，换乘一号线，再坐四站就到了。",
+     "vi": "Bạn đi tuyến 10 đến Quốc Mậu trước, đổi sang tuyến 1, đi thêm bốn ga là tới."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "手机能直接刷吗？",
+     "vi": "Quẹt điện thoại trực tiếp được không?"
+    },
+    {
+     "speaker": "gt-luren",
+     "zh": "能，支付宝里搜\"乘车码\"，扫码进站就行。",
+     "vi": "Được, tìm \"Mã đi tàu xe\" trong Alipay, quét mã vào ga là được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "现在人多吗？",
+     "vi": "Bây giờ có đông không?"
+    },
+    {
+     "speaker": "gt-luren",
+     "zh": "早晚高峰挤得不行，能错峰就错峰。",
+     "vi": "Giờ cao điểm sáng tối chen kinh khủng, tránh được giờ cao điểm thì nên tránh."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "几号线",
+     "pinyin": "jǐ hào xiàn",
+     "vi": "tuyến số mấy",
+     "example": {
+      "zh": "请问去天安门东坐几号线？",
+      "vi": "Cho hỏi đi ga Thiên An Môn Đông thì đi tuyến số mấy?"
+     }
+    },
+    {
+     "zh": "换乘",
+     "pinyin": "huànchéng",
+     "vi": "đổi tuyến",
+     "example": {
+      "zh": "你先坐十号线到国贸，换乘一号线，再坐四站就到了。",
+      "vi": "Bạn đi tuyến 10 đến Quốc Mậu trước, đổi sang tuyến 1, đi thêm bốn ga là tới."
+     }
+    },
+    {
+     "zh": "站",
+     "pinyin": "zhàn",
+     "vi": "ga, trạm",
+     "example": {
+      "zh": "你先坐十号线到国贸，换乘一号线，再坐四站就到了。",
+      "vi": "Bạn đi tuyến 10 đến Quốc Mậu trước, đổi sang tuyến 1, đi thêm bốn ga là tới."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g10-1",
+     "title_zh": "先……，再/然后……",
+     "title_vi": "Chỉ đường nhiều chặng",
+     "formula": [
+      [
+       {
+        "zh": "先……，再/然后……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "先……，再/然后…… dùng để chỉ trình tự các bước, rất hữu ích khi chỉ đường nhiều chặng hoặc hướng dẫn thủ tục. 先 đánh dấu bước đầu tiên; 再 hoặc 然后 đánh dấu bước tiếp theo; bước cuối thường có 就到了 / 就行了. Ví dụ: 先坐十号线到国贸，再换乘一号线，坐四站就到了。",
+     "examples": [
+      {
+       "zh": "先坐十号线，再换乘一号线。",
+       "vi": "Đi tuyến 10 trước, rồi đổi sang tuyến 1."
+      }
+     ]
+    },
+    {
+     "id": "gt-g10-2",
+     "title_zh": "能……就……",
+     "title_vi": "能……就……",
+     "formula": [
+      [
+       {
+        "zh": "能……就……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "能……就…… nghĩa là \"được thì cứ…, có thể… thì cứ…\", khuyên tận dụng khả năng/cơ hội khi có thể. Động từ ở hai vế thường lặp lại: 能错峰就错峰 (tránh được giờ cao điểm thì cứ tránh). Biến thể: 能 A 就别 B (làm được A thì đừng B): 能坐高铁就别坐飞机.",
+     "examples": [
+      {
+       "zh": "能错峰就错峰。",
+       "vi": "Tránh được giờ cao điểm thì nên tránh."
+      },
+      {
+       "zh": "能坐高铁就别坐飞机。",
+       "vi": "Đi được tàu cao tốc thì đừng đi máy bay."
+      }
+     ]
+    },
+    {
+     "id": "gt-g10-3",
+     "title_zh": "Tính từ + 得不行",
+     "title_vi": "Tính từ + 得不行",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "Tính từ",
+        "role": "V"
+       },
+       {
+        "zh": "得不行",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Tính từ/động từ tâm lý + 得不行 diễn tả mức độ cực cao, \"… không chịu nổi, … kinh khủng\". Đây là bổ ngữ trình độ rất khẩu ngữ, tương đương ……死了 / ……极了. Thường dùng để than: 挤得不行 (chen kinh khủng), 困得不行 (buồn ngủ díp mắt), 饿得不行. Không dùng với phó từ mức độ khác (không nói 很挤得不行).",
+     "examples": [
+      {
+       "zh": "挤得不行。",
+       "vi": "Chen kinh khủng."
+      },
+      {
+       "zh": "困得不行。",
+       "vi": "Buồn ngủ kinh khủng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "抢高铁票",
+   "context_vi": "Bài khoá 2: 抢高铁票 – Săn vé tàu cao tốc",
+   "scene": "🚄",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我想买后天北京到上海的高铁票，二等座全没了。",
+     "vi": "Mình muốn mua vé tàu cao tốc Bắc Kinh – Thượng Hải ngày kia, ghế hạng hai hết sạch rồi."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "试试候补，或者买一等座。也可以先买到南京的，上车再补票。",
+     "vi": "Thử đăng ký chờ vé xem, hoặc mua ghế hạng nhất. Cũng có thể mua đến Nam Kinh trước, lên tàu rồi mua bù."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "候补成功会通知我吗？",
+     "vi": "Chờ vé thành công có báo cho mình không?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "会。没成功的话钱全额退回。",
+     "vi": "Có. Nếu không thành công thì hoàn lại đủ tiền."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "要是临时有事呢？",
+     "vi": "Nếu đột xuất có việc thì sao?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "开车前可以改签，退票要收手续费，越晚收得越多。",
+     "vi": "Trước giờ tàu chạy có thể đổi vé, trả vé thì mất phí, càng muộn phí càng cao."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g10-4",
+     "title_zh": "越……越……",
+     "title_vi": "越……越……",
+     "formula": [
+      [
+       {
+        "zh": "越……越……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "越 A 越 B nghĩa là \"càng A càng B\": B thay đổi theo mức độ của A. Có hai dạng: (1) chủ ngữ khác nhau: 退票越晚，手续费越高; (2) cùng chủ ngữ: 他越说越快. Chú ý: sau 越 không dùng thêm phó từ mức độ (không nói 越很高).",
+     "examples": [
+      {
+       "zh": "退票越晚，手续费越高。",
+       "vi": "Trả vé càng muộn, phí càng cao."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "车站与车厢",
+   "context_vi": "Bài khoá 3: 车站与车厢 – Ở ga và trên toa",
+   "scene": "🚄",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，G3次在哪个检票口？",
+     "vi": "Chào chị, tàu G3 ở cửa soát vé nào ạ?"
+    },
+    {
+     "speaker": "gt-gongzuorenyuan",
+     "zh": "B12，开车前五分钟停止检票，抓紧吧。",
+     "vi": "B12, trước giờ tàu chạy năm phút ngừng soát vé, nhanh lên nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（车上）不好意思，这好像是我的座位，12车7F。",
+     "vi": "(Trên tàu) Xin lỗi, hình như đây là chỗ của tôi, toa 12 ghế 7F."
+    },
+    {
+     "speaker": "gt-chengke",
+     "zh": "啊？我看看……哦，我坐错车厢了，不好意思啊。",
+     "vi": "Hả? Để tôi xem… À, tôi ngồi nhầm toa, xin lỗi nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没事儿没事儿。",
+     "vi": "Không sao, không sao."
+    },
+    {
+     "speaker": "gt-guangbo",
+     "zh": "各位旅客，本次列车晚点二十分钟，请大家谅解。",
+     "vi": "Kính thưa quý hành khách, chuyến tàu này trễ hai mươi phút, mong quý khách thông cảm."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "……口 (A口)",
+     "pinyin": "kǒu",
+     "vi": "cửa ra (cửa A)"
+    },
+    {
+     "zh": "进站 / 出站",
+     "pinyin": "jìn zhàn / chū zhàn",
+     "vi": "vào ga / ra ga"
+    },
+    {
+     "zh": "乘车码",
+     "pinyin": "chéngchē mǎ",
+     "vi": "mã đi tàu xe",
+     "example": {
+      "zh": "能，支付宝里搜\"乘车码\"，扫码进站就行。",
+      "vi": "Được, tìm \"Mã đi tàu xe\" trong Alipay, quét mã vào ga là được."
+     }
+    },
+    {
+     "zh": "刷",
+     "pinyin": "shuā",
+     "vi": "quẹt, quét",
+     "example": {
+      "zh": "手机能直接刷吗？",
+      "vi": "Quẹt điện thoại trực tiếp được không?"
+     }
+    },
+    {
+     "zh": "安检",
+     "pinyin": "ānjiǎn",
+     "vi": "kiểm tra an ninh"
+    },
+    {
+     "zh": "高峰期",
+     "pinyin": "gāofēng qī",
+     "vi": "giờ cao điểm"
+    },
+    {
+     "zh": "错峰",
+     "pinyin": "cuò fēng",
+     "vi": "tránh giờ cao điểm",
+     "example": {
+      "zh": "早晚高峰挤得不行，能错峰就错峰。",
+      "vi": "Giờ cao điểm sáng tối chen kinh khủng, tránh được giờ cao điểm thì nên tránh."
+     }
+    },
+    {
+     "zh": "挤",
+     "pinyin": "jǐ",
+     "vi": "chen chúc",
+     "example": {
+      "zh": "早晚高峰挤得不行，能错峰就错峰。",
+      "vi": "Giờ cao điểm sáng tối chen kinh khủng, tránh được giờ cao điểm thì nên tránh."
+     }
+    },
+    {
+     "zh": "高铁 / 动车",
+     "pinyin": "gāotiě / dòngchē",
+     "vi": "tàu cao tốc (G) / tàu nhanh (D)"
+    },
+    {
+     "zh": "12306",
+     "pinyin": "yāo'èr sān líng liù",
+     "vi": "app/website bán vé tàu chính thức"
+    },
+    {
+     "zh": "二等座 / 一等座 / 商务座",
+     "pinyin": "èr / yī děng zuò / shāngwù zuò",
+     "vi": "ghế hạng 2 / hạng 1 / thương gia"
+    },
+    {
+     "zh": "无座",
+     "pinyin": "wú zuò",
+     "vi": "vé đứng"
+    },
+    {
+     "zh": "候补",
+     "pinyin": "hòubǔ",
+     "vi": "đặt chờ vé",
+     "example": {
+      "zh": "试试候补，或者买一等座。也可以先买到南京的，上车再补票。",
+      "vi": "Thử đăng ký chờ vé xem, hoặc mua ghế hạng nhất. Cũng có thể mua đến Nam Kinh trước, lên tàu rồi mua bù."
+     }
+    },
+    {
+     "zh": "补票",
+     "pinyin": "bǔ piào",
+     "vi": "mua bù vé",
+     "example": {
+      "zh": "试试候补，或者买一等座。也可以先买到南京的，上车再补票。",
+      "vi": "Thử đăng ký chờ vé xem, hoặc mua ghế hạng nhất. Cũng có thể mua đến Nam Kinh trước, lên tàu rồi mua bù."
+     }
+    },
+    {
+     "zh": "改签",
+     "pinyin": "gǎiqiān",
+     "vi": "đổi vé",
+     "example": {
+      "zh": "开车前可以改签，退票要收手续费，越晚收得越多。",
+      "vi": "Trước giờ tàu chạy có thể đổi vé, trả vé thì mất phí, càng muộn phí càng cao."
+     }
+    },
+    {
+     "zh": "退票",
+     "pinyin": "tuì piào",
+     "vi": "trả vé",
+     "example": {
+      "zh": "开车前可以改签，退票要收手续费，越晚收得越多。",
+      "vi": "Trước giờ tàu chạy có thể đổi vé, trả vé thì mất phí, càng muộn phí càng cao."
+     }
+    },
+    {
+     "zh": "手续费",
+     "pinyin": "shǒuxù fèi",
+     "vi": "phí thủ tục",
+     "example": {
+      "zh": "开车前可以改签，退票要收手续费，越晚收得越多。",
+      "vi": "Trước giờ tàu chạy có thể đổi vé, trả vé thì mất phí, càng muộn phí càng cao."
+     }
+    },
+    {
+     "zh": "临时有事",
+     "pinyin": "línshí yǒu shì",
+     "vi": "có việc đột xuất",
+     "example": {
+      "zh": "要是临时有事呢？",
+      "vi": "Nếu đột xuất có việc thì sao?"
+     }
+    },
+    {
+     "zh": "检票口",
+     "pinyin": "jiǎnpiào kǒu",
+     "vi": "cửa soát vé",
+     "example": {
+      "zh": "你好，G3次在哪个检票口？",
+      "vi": "Chào chị, tàu G3 ở cửa soát vé nào ạ?"
+     }
+    },
+    {
+     "zh": "闸机",
+     "pinyin": "zhájī",
+     "vi": "cổng soát vé tự động"
+    },
+    {
+     "zh": "停止检票",
+     "pinyin": "tíngzhǐ jiǎnpiào",
+     "vi": "dừng soát vé",
+     "example": {
+      "zh": "B12，开车前五分钟停止检票，抓紧吧。",
+      "vi": "B12, trước giờ tàu chạy năm phút ngừng soát vé, nhanh lên nhé."
+     }
+    },
+    {
+     "zh": "抓紧",
+     "pinyin": "zhuājǐn",
+     "vi": "nhanh lên",
+     "example": {
+      "zh": "B12，开车前五分钟停止检票，抓紧吧。",
+      "vi": "B12, trước giờ tàu chạy năm phút ngừng soát vé, nhanh lên nhé."
+     }
+    },
+    {
+     "zh": "车厢",
+     "pinyin": "chēxiāng",
+     "vi": "toa",
+     "example": {
+      "zh": "啊？我看看……哦，我坐错车厢了，不好意思啊。",
+      "vi": "Hả? Để tôi xem… À, tôi ngồi nhầm toa, xin lỗi nhé."
+     }
+    },
+    {
+     "zh": "靠窗 / 过道",
+     "pinyin": "kào chuāng / guòdào",
+     "vi": "cạnh cửa sổ / lối đi"
+    },
+    {
+     "zh": "晚点",
+     "pinyin": "wǎndiǎn",
+     "vi": "trễ giờ",
+     "example": {
+      "zh": "各位旅客，本次列车晚点二十分钟，请大家谅解。",
+      "vi": "Kính thưa quý hành khách, chuyến tàu này trễ hai mươi phút, mong quý khách thông cảm."
+     }
+    },
+    {
+     "zh": "坐过站",
+     "pinyin": "zuò guò zhàn",
+     "vi": "đi quá ga"
+    },
+    {
+     "zh": "谅解",
+     "pinyin": "liàngjiě",
+     "vi": "thông cảm",
+     "example": {
+      "zh": "各位旅客，本次列车晚点二十分钟，请大家谅解。",
+      "vi": "Kính thưa quý hành khách, chuyến tàu này trễ hai mươi phút, mong quý khách thông cảm."
+     }
+    },
+    {
+     "zh": "静音车厢",
+     "pinyin": "jìngyīn chēxiāng",
+     "vi": "toa yên lặng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g10-5",
+     "title_zh": "……好像……",
+     "title_vi": "Chỉ ra lỗi của người khác một cách mềm mỏng",
+     "formula": [
+      [
+       {
+        "zh": "……好像……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……好像…… nghĩa là \"hình như…\", vốn để nói điều không chắc chắn. Trong giao tiếp, người Trung Quốc dùng 好像 để chỉ ra lỗi của người khác một cách mềm mỏng, chừa thể diện cho họ: 不好意思，这好像是我的座位 (dù bạn biết chắc chắn đó là ghế của mình). Mở đầu bằng 不好意思 càng lịch sự.",
+     "examples": [
+      {
+       "zh": "这好像是我的座位。",
+       "vi": "Hình như đây là chỗ của tôi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "二等座没了，你可以试试___。",
+   "bank": [
+    "错峰",
+    "候补",
+    "晚点"
+   ],
+   "answer": "候补"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "你先坐十号线，到国贸___一号线。",
+   "bank": [
+    "换乘",
+    "候补",
+    "晚点"
+   ],
+   "answer": "换乘"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "临时有事的话，开车前可以___。",
+   "bank": [
+    "检票口",
+    "改签",
+    "晚点"
+   ],
+   "answer": "改签"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "G3次在B12___检票。",
+   "bank": [
+    "换乘",
+    "候补",
+    "检票口"
+   ],
+   "answer": "检票口"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "本次列车___二十分钟，请大家谅解。",
+   "bank": [
+    "换乘",
+    "改签",
+    "晚点"
+   ],
+   "answer": "晚点"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "早晚高峰挤得不行，能___就___。",
+   "bank": [
+    "错峰",
+    "换乘",
+    "晚点"
+   ],
+   "answer": "错峰"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "越",
+    "手续费",
+    "高",
+    "越",
+    "晚",
+    "退票"
+   ],
+   "answers": [
+    "退票越晚手续费越高"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "就",
+    "错峰",
+    "能",
+    "错峰"
+   ],
+   "answers": [
+    "能错峰就错峰"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "好像",
+    "我的座位",
+    "这",
+    "是"
+   ],
+   "answers": [
+    "这好像是我的座位"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "挤得",
+    "早高峰",
+    "不行",
+    "地铁"
+   ],
+   "answers": [
+    "早高峰地铁挤得不行"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "站",
+     "a": "ga, trạm"
+    },
+    {
+     "q": "刷",
+     "a": "quẹt, quét"
+    },
+    {
+     "q": "高铁 / 动车",
+     "a": "tàu cao tốc (G) / tàu nhanh (D)"
+    },
+    {
+     "q": "补票",
+     "a": "mua bù vé"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn đã từng đi tàu điện ngầm hoặc tàu cao tốc chưa? Ấn tượng của bạn thế nào?",
+   "Khởi động: Nếu ngồi nhầm ghế của người khác, bạn sẽ nói gì?",
+   "地铁导航竞速 Đua chỉ đường (10 phút): phát bản đồ tàu điện ngầm Bắc Kinh/Thượng Hải; mỗi cặp bốc 2 điểm, một người hỏi, một người chỉ bằng cấu trúc 先……再……换乘……. Cặp chỉ đúng nhanh nhất thắng.",
+   "抢票大作战 Chiến dịch săn vé (8 phút): tình huống kỳ nghỉ lễ hết vé; nhóm thảo luận các phương án (候补, 买短补长, 改坐动车) và thuyết phục \"bạn đồng hành\".",
+   "Nhiệm vụ thực tế: lập lộ trình tàu điện từ nơi bạn muốn ở đến 2 điểm tham quan và ghi âm giải thích như chỉ đường cho bạn."
+  ],
+  "patterns": [
+   {
+    "zh": "先坐十号线，再换乘一号线。",
+    "vi": "Đi tuyến 10 trước, rồi đổi sang tuyến 1."
+   },
+   {
+    "zh": "能错峰就错峰。",
+    "vi": "Tránh được giờ cao điểm thì nên tránh."
+   },
+   {
+    "zh": "挤得不行。",
+    "vi": "Chen kinh khủng."
+   },
+   {
+    "zh": "退票越晚，手续费越高。",
+    "vi": "Trả vé càng muộn, phí càng cao."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "春运 và đi tàu bằng hộ chiếu",
+  "body_vi": [
+   "春运 là đợt đi lại dịp Tết Nguyên đán, được gọi là cuộc di cư lớn nhất hành tinh; vé tàu mở bán trước 15 ngày và thường hết trong vài phút. Tàu cao tốc TQ có văn hóa yên tĩnh; nhiều tuyến có \"静音车厢\" riêng. Người nước ngoài mua vé bằng hộ chiếu trên 12306. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: 春运 và đi tàu bằng hộ chiếu Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Mọi ga tàu điện đều qua 安检; để túi lên băng chuyền và nói \"好的\" là đủ.",
+   "Ứng xử: Ghế ưu tiên gọi là 爱心专座; nhường ghế cho người già, phụ nữ mang thai.",
+   "Ứng xử: Người khác ngồi nhầm ghế: dùng \"好像\" và đưa vé xem, không đòi gay gắt.",
+   "Ứng xử: Ở toa yên lặng: gọi điện ra khu nối toa, bật tai nghe."
+  ]
+ }
+}

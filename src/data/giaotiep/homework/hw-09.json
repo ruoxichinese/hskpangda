@@ -1,0 +1,413 @@
+{
+ "lessonId": 9,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）司机已经{{1}}了，预计三分钟到。\n（2）这儿不让{{2}}，您过马路到我这边来吧。\n（3）下班高峰，三环上{{3}}得厉害。\n（4）糟了，我的充电宝{{4}}车上了！\n（5）司机把东西送回来，要付点儿{{5}}。\n（6）地铁站就一公里，扫个{{6}}吧。",
+     "bank": [
+      "接单",
+      "掉头",
+      "堵车",
+      "落",
+      "跑腿费",
+      "共享单车"
+     ],
+     "answers": [
+      "接单",
+      "掉头",
+      "堵车",
+      "落",
+      "跑腿费",
+      "共享单车"
+     ],
+     "explain_vi": "接单、掉头、堵车、落、跑腿费、共享单车"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "滴滴 / 高德打车",
+       "a": "app gọi xe phổ biến"
+      },
+      {
+       "q": "专车 / 拼车",
+       "a": "xe cao cấp / đi ghép"
+      },
+      {
+       "q": "马路对面",
+       "a": "bên kia đường"
+      },
+      {
+       "q": "绕路",
+       "a": "đi đường vòng"
+      },
+      {
+       "q": "充电宝",
+       "a": "sạc dự phòng"
+      },
+      {
+       "q": "取消订单 / 取消费",
+       "a": "hủy chuyến / phí hủy"
+      }
+     ],
+     "explain_vi": "滴滴 / 高德打车 = app gọi xe phổ biến · 专车 / 拼车 = xe cao cấp / đi ghép · 马路对面 = bên kia đường · 绕路 = đi đường vòng · 充电宝 = sạc dự phòng · 取消订单 / 取消费 = hủy chuyến / phí hủy"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "南门",
+      "起点",
+      "小区",
+      "定位到"
+     ],
+     "answers": [
+      "起点定位到小区南门"
+     ],
+     "explain_vi": "起点定位到小区南门。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "辅路",
+      "走",
+      "还快点儿"
+     ],
+     "answers": [
+      "走辅路还快点儿"
+     ],
+     "explain_vi": "走辅路还快点儿。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "不然",
+      "停到规定区域",
+      "调度费",
+      "要收"
+     ],
+     "answers": [
+      "停到规定区域不然要收调度费"
+     ],
+     "explain_vi": "停到规定区域，不然要收调度费。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "尾号",
+      "您",
+      "多少",
+      "手机"
+     ],
+     "answers": [
+      "您手机尾号多少"
+     ],
+     "explain_vi": "您手机尾号多少？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Anh ơi, tôi ở bên kia đường cổng Nam, mặc áo đỏ.",
+     "acceptedAnswers": [
+      "师傅，我在南门马路对面，穿红衣服的。"
+     ],
+     "requiredKeywords": [
+      "马路对面"
+     ],
+     "explain_vi": "Đáp án tham khảo: 师傅，我在南门马路对面，穿红衣服的。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Điều hòa vặn nhỏ một chút được không ạ?",
+     "acceptedAnswers": [
+      "空调能开小点儿吗？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 空调能开小点儿吗？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Đừng hoảng, mở chuyến đi ra, bấm \"liên hệ tài xế\".",
+     "acceptedAnswers": [
+      "别慌，打开行程，点\"联系司机\"。"
+     ],
+     "requiredKeywords": [
+      "行程"
+     ],
+     "explain_vi": "Đáp án tham khảo: 别慌，打开行程，点\"联系司机\"。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: V + 到 + nơi",
+   "instructions_vi": "Hoàn thành câu với V + 到 + nơi.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "师傅，麻烦您把我______。(đưa tôi tới sân bay)",
+     "acceptedAnswers": [
+      "送到机场"
+     ],
+     "requiredKeywords": [
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 送到机场",
+     "grammarRef": "gt-g9-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "起点______小区南门。(định vị tới)",
+     "acceptedAnswers": [
+      "定位到"
+     ],
+     "requiredKeywords": [
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 定位到",
+     "grammarRef": "gt-g9-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "骑完记得把车______规定区域。(đỗ vào)",
+     "acceptedAnswers": [
+      "停到"
+     ],
+     "requiredKeywords": [
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 停到",
+     "grammarRef": "gt-g9-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Anh gửi đồ để quên đến khách sạn của tôi được không? → ________________________________________________________",
+     "acceptedAnswers": [
+      "能把我落的东西送到我住的酒店吗？"
+     ],
+     "requiredKeywords": [
+      "到"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能把我落的东西送到我住的酒店吗？",
+     "grammarRef": "gt-g9-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……还快点儿",
+   "instructions_vi": "Dùng ……还 + tính từ + 点儿 để đưa ra phương án tốt hơn.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "高速这会儿堵，______。(đi đường gom còn nhanh hơn)",
+     "acceptedAnswers": [
+      "走辅路还快点儿"
+     ],
+     "requiredKeywords": [
+      "还快点儿"
+     ],
+     "explain_vi": "Đáp án tham khảo: 走辅路还快点儿",
+     "grammarRef": "gt-g9-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "打车太贵了，______。(tự đi tàu điện còn rẻ hơn)",
+     "acceptedAnswers": [
+      "坐地铁还便宜点儿"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 坐地铁还便宜点儿",
+     "grammarRef": "gt-g9-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "外卖要等一个小时，______。(tự xuống lầu mua còn nhanh hơn)",
+     "acceptedAnswers": [
+      "自己下楼买还快点儿"
+     ],
+     "requiredKeywords": [
+      "还快点儿"
+     ],
+     "explain_vi": "Đáp án tham khảo: 自己下楼买还快点儿",
+     "grammarRef": "gt-g9-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "这家店的东西不新鲜，______。(siêu thị bên cạnh còn tươi hơn)",
+     "acceptedAnswers": [
+      "旁边的超市还新鲜点儿"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 旁边的超市还新鲜点儿",
+     "grammarRef": "gt-g9-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 别 + V + 东西 / 了",
+   "instructions_vi": "Viết lời dặn dò với 别 + V cho các tình huống sau.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Khách sắp xuống xe taxi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "您慢点儿，别落东西。"
+     ],
+     "requiredKeywords": [
+      "别",
+      "东西"
+     ],
+     "explain_vi": "Đáp án tham khảo: 您慢点儿，别落东西。",
+     "grammarRef": "gt-g9-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn của bạn lo lắng vì xe bị trễ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "别着急了，马上就到。"
+     ],
+     "requiredKeywords": [
+      "别",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 别着急了，马上就到。",
+     "grammarRef": "gt-g9-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn dặn bạn bè đừng quên trả xe đạp vào đúng chỗ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "别忘了把车停到规定区域。"
+     ],
+     "requiredKeywords": [
+      "别",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 别忘了把车停到规定区域。",
+     "grammarRef": "gt-g9-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Người lái xe đang chạy quá nhanh. → ________________________________________________________",
+     "acceptedAnswers": [
+      "师傅，别开太快了。"
+     ],
+     "requiredKeywords": [
+      "别",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 师傅，别开太快了。",
+     "grammarRef": "gt-g9-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 不然 (nếu không thì)",
+   "instructions_vi": "Nối hai vế bằng 不然.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "快点儿走 / 赶不上飞机了 → ________________________________________________________",
+     "acceptedAnswers": [
+      "快点儿走，不然赶不上飞机了。"
+     ],
+     "requiredKeywords": [
+      "不然"
+     ],
+     "explain_vi": "Đáp án tham khảo: 快点儿走，不然赶不上飞机了。",
+     "grammarRef": "gt-g9-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "停到规定区域 / 要收调度费 → ________________________________________________________",
+     "acceptedAnswers": [
+      "停到规定区域，不然要收调度费。"
+     ],
+     "requiredKeywords": [
+      "不然"
+     ],
+     "explain_vi": "Đáp án tham khảo: 停到规定区域，不然要收调度费。",
+     "grammarRef": "gt-g9-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "带上充电宝 / 手机没电就叫不了车 → ________________________________________________________",
+     "acceptedAnswers": [
+      "带上充电宝，不然手机没电就叫不了车。"
+     ],
+     "requiredKeywords": [
+      "不然"
+     ],
+     "explain_vi": "Đáp án tham khảo: 带上充电宝，不然手机没电就叫不了车。",
+     "grammarRef": "gt-g9-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "先分享行程给朋友 / 他们会担心 → ________________________________________________________",
+     "acceptedAnswers": [
+      "先把行程分享给朋友，不然他们会担心。"
+     ],
+     "requiredKeywords": [
+      "不然"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先把行程分享给朋友，不然他们会担心。",
+     "grammarRef": "gt-g9-4"
+    }
+   ]
+  }
+ ]
+}

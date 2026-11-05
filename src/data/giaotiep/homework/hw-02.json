@@ -1,0 +1,426 @@
+{
+ "lessonId": 2,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）页面没反应，你{{1}}一下试试。\n（2）钱我已经转了，您看{{2}}了吗？\n（3）刚才车费是我先{{3}}的，你转我十八就行。\n（4）我的卡超{{4}}了，付不了。\n（5）不急，你{{5}}再转我。\n（6）A：要{{6}}吗？B：不用了，谢谢。",
+     "bank": [
+      "到账",
+      "刷新",
+      "限额",
+      "垫",
+      "回头",
+      "小票"
+     ],
+     "answers": [
+      "刷新",
+      "到账",
+      "垫",
+      "限额",
+      "回头",
+      "小票"
+     ],
+     "explain_vi": "刷新、到账、垫、限额、回头、小票"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "付款码",
+       "a": "mã thanh toán (của người mua)"
+      },
+      {
+       "q": "二维码",
+       "a": "mã QR"
+      },
+      {
+       "q": "关注",
+       "a": "theo dõi (follow)"
+      },
+      {
+       "q": "凑单",
+       "a": "mua thêm cho đủ mức giảm"
+      },
+      {
+       "q": "余额不足",
+       "a": "số dư không đủ"
+      },
+      {
+       "q": "支付密码",
+       "a": "mật khẩu thanh toán"
+      }
+     ],
+     "explain_vi": "付款码 = mã thanh toán (của người mua) · 二维码 = mã QR · 关注 = theo dõi (follow) · 凑单 = mua thêm cho đủ mức giảm · 余额不足 = số dư không đủ · 支付密码 = mật khẩu thanh toán"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "还是",
+      "扫码",
+      "现金"
+     ],
+     "answers": [
+      "扫码还是现金"
+     ],
+     "explain_vi": "扫码还是现金？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "没",
+      "怎么",
+      "反应"
+     ],
+     "answers": [
+      "怎么没反应"
+     ],
+     "explain_vi": "怎么没反应？"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "先",
+      "领券",
+      "凑单",
+      "再"
+     ],
+     "answers": [
+      "先领券再凑单"
+     ],
+     "explain_vi": "先领券，再凑单。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "你",
+      "我",
+      "付款码",
+      "出示",
+      "扫你",
+      "就行"
+     ],
+     "answers": [
+      "你出示付款码我扫你就行"
+     ],
+     "explain_vi": "你出示付款码，我扫你就行。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi quét anh hay anh quét tôi?",
+     "acceptedAnswers": [
+      "我扫您还是您扫我？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我扫您还是您扫我？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Sao lại báo \"thanh toán thất bại\" thế nhỉ?",
+     "acceptedAnswers": [
+      "怎么提示\"支付失败\"？"
+     ],
+     "requiredKeywords": [
+      "支付失败"
+     ],
+     "explain_vi": "Đáp án tham khảo: 怎么提示\"支付失败\"？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Anh em ruột cũng phải sòng phẳng mà! Tôi chuyển trước năm tệ, phần còn lại tối nay đưa bạn.",
+     "acceptedAnswers": [
+      "亲兄弟明算账嘛！我先转五块，剩下的晚上给你。"
+     ],
+     "requiredKeywords": [
+      "亲兄弟明算账"
+     ],
+     "explain_vi": "Đáp án tham khảo: 亲兄弟明算账嘛！我先转五块，剩下的晚上给你。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: A 还是 B？",
+   "instructions_vi": "Đặt câu hỏi lựa chọn với 还是 theo gợi ý.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(quét mã / tiền mặt) → ________________________________________________________",
+     "acceptedAnswers": [
+      "扫码还是现金？"
+     ],
+     "requiredKeywords": [
+      "还是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 扫码还是现金？",
+     "grammarRef": "gt-g2-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(ăn ở đây / mang đi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "在这儿吃还是带走？"
+     ],
+     "requiredKeywords": [
+      "还是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 在这儿吃还是带走？",
+     "grammarRef": "gt-g2-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(tôi quét bạn / bạn quét tôi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我扫你还是你扫我？"
+     ],
+     "requiredKeywords": [
+      "还是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我扫你还是你扫我？",
+     "grammarRef": "gt-g2-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Chọn đáp án đúng: 我们坐地铁______打车？ (A. 或者 B. 还是)",
+     "acceptedAnswers": [
+      "B. 还是"
+     ],
+     "requiredKeywords": [
+      "还是"
+     ],
+     "explain_vi": "Đáp án tham khảo: B. 还是",
+     "grammarRef": "gt-g2-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 怎么 + 没/不 + V？",
+   "instructions_vi": "Dùng 怎么 + 没/不 + V？ để phản ứng với các tình huống sau.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn đã chuyển tiền nhưng người bán nói chưa thấy tiền về. → ________________________________________________________",
+     "acceptedAnswers": [
+      "怎么没到账？"
+     ],
+     "requiredKeywords": [
+      "怎么",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 怎么没到账？",
+     "grammarRef": "gt-g2-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn quét mã nhưng điện thoại không phản hồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "怎么没反应？"
+     ],
+     "requiredKeywords": [
+      "怎么",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 怎么没反应？",
+     "grammarRef": "gt-g2-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn của bạn im lặng suốt bữa ăn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你怎么不说话？"
+     ],
+     "requiredKeywords": [
+      "怎么",
+      "不"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你怎么不说话？",
+     "grammarRef": "gt-g2-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn đặt đồ ăn một tiếng rồi vẫn chưa giao tới. → ________________________________________________________",
+     "acceptedAnswers": [
+      "外卖怎么还没到？"
+     ],
+     "requiredKeywords": [
+      "怎么",
+      "没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 外卖怎么还没到？",
+     "grammarRef": "gt-g2-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 先……再…… / 先……回头再……",
+   "instructions_vi": "Nối hai việc bằng 先……再…… hoặc 先……回头再…….",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "领券 / 下单 → ________________________________________________________",
+     "acceptedAnswers": [
+      "先领券，再下单。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先领券，再下单。",
+     "grammarRef": "gt-g2-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "转五块 / 剩下的给你 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我先转五块，回头再把剩下的给你。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我先转五块，回头再把剩下的给你。",
+     "grammarRef": "gt-g2-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "刷新一下 / 扫码 → ________________________________________________________",
+     "acceptedAnswers": [
+      "你先刷新一下，再扫码。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你先刷新一下，再扫码。",
+     "grammarRef": "gt-g2-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "吃饭 / 商量这件事 → ________________________________________________________",
+     "acceptedAnswers": [
+      "咱们先吃饭，回头再商量这件事。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 咱们先吃饭，回头再商量这件事。",
+     "grammarRef": "gt-g2-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 凑 + 够/齐",
+   "instructions_vi": "Hoàn thành câu với 凑够 / 凑齐.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "满五十减十，我们才四十二，再加一份米饭就______了。",
+     "acceptedAnswers": [
+      "凑够五十"
+     ],
+     "requiredKeywords": [
+      "凑",
+      "够"
+     ],
+     "explain_vi": "Đáp án tham khảo: 凑够五十",
+     "grammarRef": "gt-g2-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "打篮球要十个人，现在才八个，还没______。",
+     "acceptedAnswers": [
+      "凑齐"
+     ],
+     "requiredKeywords": [
+      "凑",
+      "齐"
+     ],
+     "explain_vi": "Đáp án tham khảo: 凑齐",
+     "grammarRef": "gt-g2-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "包邮要满九十九，我再买一双袜子______。",
+     "acceptedAnswers": [
+      "凑单",
+      "凑够九十九"
+     ],
+     "requiredKeywords": [
+      "凑"
+     ],
+     "explain_vi": "Đáp án tham khảo: 凑单 / 凑够九十九",
+     "grammarRef": "gt-g2-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Thêm một chai Coca nữa là gom đủ 50 tệ rồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "再加一瓶可乐就凑够五十了。"
+     ],
+     "requiredKeywords": [
+      "凑",
+      "够"
+     ],
+     "explain_vi": "Đáp án tham khảo: 再加一瓶可乐就凑够五十了。",
+     "grammarRef": "gt-g2-4"
+    }
+   ]
+  }
+ ]
+}

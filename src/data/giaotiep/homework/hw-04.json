@@ -1,0 +1,418 @@
+{
+ "lessonId": 4,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我在{{1}}里写了\"不要葱，多放醋\"。\n（2）这家店满二十{{2}}，我们再加一个菜吧。\n（3）骑手还有别的单，他很{{3}}。\n（4）送得很快，我给了五星{{4}}。\n（5）商家{{5}}了一瓶饮料，我申请了部分退款。\n（6）汤洒了，你先{{6}}，再找商家。",
+     "bank": [
+      "备注",
+      "起送",
+      "赶时间",
+      "好评",
+      "漏送",
+      "拍照留证"
+     ],
+     "answers": [
+      "备注",
+      "起送",
+      "赶时间",
+      "好评",
+      "漏送",
+      "拍照留证"
+     ],
+     "explain_vi": "备注、起送、赶时间、好评、漏送、拍照留证"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "美团 / 饿了么",
+       "a": "hai app giao đồ ăn lớn nhất"
+      },
+      {
+       "q": "月售",
+       "a": "lượng bán mỗi tháng"
+      },
+      {
+       "q": "骑手 / 外卖小哥",
+       "a": "shipper"
+      },
+      {
+       "q": "预计送达",
+       "a": "dự kiến giao lúc"
+      },
+      {
+       "q": "商家",
+       "a": "cửa hàng, người bán"
+      },
+      {
+       "q": "申请退款",
+       "a": "yêu cầu hoàn tiền"
+      }
+     ],
+     "explain_vi": "美团 / 饿了么 = hai app giao đồ ăn lớn nhất · 月售 = lượng bán mỗi tháng · 骑手 / 外卖小哥 = shipper · 预计送达 = dự kiến giao lúc · 商家 = cửa hàng, người bán · 申请退款 = yêu cầu hoàn tiền"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "门口",
+      "外卖",
+      "放",
+      "把",
+      "请"
+     ],
+     "answers": [
+      "请把外卖放门口"
+     ],
+     "explain_vi": "请把外卖放门口。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "添",
+      "给您",
+      "麻烦了"
+     ],
+     "answers": [
+      "给您添麻烦了"
+     ],
+     "explain_vi": "给您添麻烦了。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "怎么",
+      "超时了",
+      "算"
+     ],
+     "answers": [
+      "超时了怎么算"
+     ],
+     "explain_vi": "超时了怎么算？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "起送",
+      "满二十",
+      "这家"
+     ],
+     "answers": [
+      "这家满二十起送"
+     ],
+     "explain_vi": "这家满二十起送。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Không lấy hành, cho nhiều giấm, để trước cửa, đừng gõ cửa.",
+     "acceptedAnswers": [
+      "不要葱，多放醋，放门口，别敲门。"
+     ],
+     "requiredKeywords": [
+      "放门口",
+      "敲门"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不要葱，多放醋，放门口，别敲门。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Anh ơi, tôi xuống ngay, khoảng ba phút nữa.",
+     "acceptedAnswers": [
+      "师傅，我马上下来，大概三分钟。"
+     ],
+     "requiredKeywords": [
+      "师傅"
+     ],
+     "explain_vi": "Đáp án tham khảo: 师傅，我马上下来，大概三分钟。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Lần sau đóng gói chu đáo hơn chút nhé.",
+     "acceptedAnswers": [
+      "下次打包用点儿心啊。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 下次打包用点儿心啊。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 满……起送 / 满……减……",
+   "instructions_vi": "Đọc thông tin và trả lời câu hỏi.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "Quán ghi \"满二十起送\", đơn của bạn 18 tệ. Quán có giao không? Vì sao? → ________________________________________________________",
+     "acceptedAnswers": [
+      "不送，因为满二十才起送，还差两块。"
+     ],
+     "requiredKeywords": [
+      "满",
+      "起送"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不送，因为满二十才起送，还差两块。",
+     "grammarRef": "gt-g4-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "Quán ghi \"满三十减八\", bạn đặt 35 tệ. Bạn phải trả bao nhiêu? → ________________________________________________________",
+     "acceptedAnswers": [
+      "二十七块。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 二十七块。",
+     "grammarRef": "gt-g4-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "Viết bằng tiếng Trung: Đủ 99 tệ miễn phí ship. → ________________________________________________________",
+     "acceptedAnswers": [
+      "满九十九包邮。"
+     ],
+     "requiredKeywords": [
+      "满",
+      "满"
+     ],
+     "explain_vi": "Đáp án tham khảo: 满九十九包邮。",
+     "grammarRef": "gt-g4-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Viết bằng tiếng Trung: Đơn đủ 15 tệ mới giao. → ________________________________________________________",
+     "acceptedAnswers": [
+      "满十五起送。"
+     ],
+     "requiredKeywords": [
+      "满",
+      "起送"
+     ],
+     "explain_vi": "Đáp án tham khảo: 满十五起送。",
+     "grammarRef": "gt-g4-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 把 + N + V + 结果/地点",
+   "instructions_vi": "Viết lại câu bằng câu chữ 把.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "你放外卖在门口。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "你把外卖放门口。",
+      "你把外卖放在门口。"
+     ],
+     "requiredKeywords": [
+      "把"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你把外卖放门口。 / 你把外卖放在门口。",
+     "grammarRef": "gt-g4-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "他洒了一半汤。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "他把汤洒了一半。"
+     ],
+     "requiredKeywords": [
+      "把"
+     ],
+     "explain_vi": "Đáp án tham khảo: 他把汤洒了一半。",
+     "grammarRef": "gt-g4-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "请发柜号到我手机上。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "请把柜号发到我手机上。"
+     ],
+     "requiredKeywords": [
+      "把"
+     ],
+     "explain_vi": "Đáp án tham khảo: 请把柜号发到我手机上。",
+     "grammarRef": "gt-g4-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Sắp xếp: 地址 / 把 / 你 / 写清楚 → ________________________________________________________",
+     "acceptedAnswers": [
+      "你把地址写清楚。"
+     ],
+     "requiredKeywords": [
+      "把"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你把地址写清楚。",
+     "grammarRef": "gt-g4-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 给 + 人 + 添麻烦了 / 麻烦 + 人 + V",
+   "instructions_vi": "Chọn 麻烦…… hoặc ……添麻烦了 để hoàn thành câu.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "______您帮我放门口，谢谢！",
+     "acceptedAnswers": [
+      "麻烦"
+     ],
+     "requiredKeywords": [
+      "麻烦"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦",
+     "grammarRef": "gt-g4-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "实在不好意思，给您______！",
+     "acceptedAnswers": [
+      "添麻烦了"
+     ],
+     "requiredKeywords": [
+      "添麻烦了",
+      "麻烦"
+     ],
+     "explain_vi": "Đáp án tham khảo: 添麻烦了",
+     "grammarRef": "gt-g4-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn nhờ shipper gọi điện trước khi đến. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦您到了先给我打个电话。"
+     ],
+     "requiredKeywords": [
+      "给",
+      "麻烦"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦您到了先给我打个电话。",
+     "grammarRef": "gt-g4-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn đến muộn làm cả nhóm phải chờ, bạn xin lỗi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不好意思，给大家添麻烦了。"
+     ],
+     "requiredKeywords": [
+      "给",
+      "添麻烦了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不好意思，给大家添麻烦了。",
+     "grammarRef": "gt-g4-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: ……怎么算？",
+   "instructions_vi": "Dùng ……怎么算？ để hỏi cách xử lý trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Đồ ăn giao trễ 40 phút. → ________________________________________________________",
+     "acceptedAnswers": [
+      "超时了怎么算？"
+     ],
+     "requiredKeywords": [
+      "怎么算"
+     ],
+     "explain_vi": "Đáp án tham khảo: 超时了怎么算？",
+     "grammarRef": "gt-g4-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Shop giao thiếu một chai nước. → ________________________________________________________",
+     "acceptedAnswers": [
+      "少了一瓶饮料，怎么算？"
+     ],
+     "requiredKeywords": [
+      "怎么算"
+     ],
+     "explain_vi": "Đáp án tham khảo: 少了一瓶饮料，怎么算？",
+     "grammarRef": "gt-g4-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn chỉ ở 3 ngày nhưng đã trả tiền phòng 1 tuần. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我只住了三天，剩下的怎么算？"
+     ],
+     "requiredKeywords": [
+      "怎么算"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我只住了三天，剩下的怎么算？",
+     "grammarRef": "gt-g4-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Canh bị đổ một nửa thì tính sao? → ________________________________________________________",
+     "acceptedAnswers": [
+      "汤洒了一半怎么算？"
+     ],
+     "requiredKeywords": [
+      "怎么算"
+     ],
+     "explain_vi": "Đáp án tham khảo: 汤洒了一半怎么算？",
+     "grammarRef": "gt-g4-4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "id": 21,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "面试与试用期",
+  "pinyin": "miàn shì yǔ shì yòng qī",
+  "vi": "Phỏng vấn và thử việc"
+ },
+ "grammarTopics_vi": [
+  "毕业于 + trường + chuyên ngành",
+  "在……到……之间",
+  "根据……再……",
+  "主要负责……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tự giới thiệu trong phỏng vấn",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Trả lời câu hỏi điểm mạnh–điểm yếu",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Hỏi lương và chế độ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Trao đổi khi kết thúc thử việc",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "自我介绍",
+   "context_vi": "Bài khoá 1: 自我介绍 – Giới thiệu bản thân",
+   "scene": "👔",
+   "lines": [
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "先简单做个自我介绍吧。",
+     "vi": "Trước tiên bạn giới thiệu ngắn gọn về bản thân nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好的。我叫阮明，来自越南，毕业于河内国家大学国际贸易专业，HSK五级。之前在一家贸易公司做了两年跨境电商运营，主要负责东南亚市场。",
+     "vi": "Vâng. Tôi tên Nguyễn Minh, đến từ Việt Nam, tốt nghiệp chuyên ngành Thương mại quốc tế Đại học Quốc gia Hà Nội, HSK 5. Trước đây tôi làm vận hành thương mại điện tử xuyên biên giới hai năm ở một công ty thương mại, chủ yếu phụ trách thị trường Đông Nam Á."
+    },
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "为什么想来我们公司？",
+     "vi": "Vì sao bạn muốn vào công ty chúng tôi?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "贵公司这两年在东南亚发展很快，我熟悉越南市场，也会中文和英文，相信能帮上忙。",
+     "vi": "Hai năm nay quý công ty phát triển rất nhanh ở Đông Nam Á, tôi hiểu thị trường Việt Nam, lại biết tiếng Trung và tiếng Anh, tôi tin là có thể giúp được."
+    },
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "你最大的缺点是什么？",
+     "vi": "Khuyết điểm lớn nhất của bạn là gì?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "有时候太抠细节，影响效率。现在我会先定好优先级，再抓细节。",
+     "vi": "Đôi khi tôi quá chăm chút chi tiết, ảnh hưởng đến hiệu suất. Bây giờ tôi sẽ xác định thứ tự ưu tiên trước, rồi mới lo chi tiết."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "面试 / 面试官",
+     "pinyin": "miànshì / miànshìguān",
+     "vi": "phỏng vấn / người phỏng vấn"
+    },
+    {
+     "zh": "简历",
+     "pinyin": "jiǎnlì",
+     "vi": "CV"
+    },
+    {
+     "zh": "毕业于",
+     "pinyin": "bìyè yú",
+     "vi": "tốt nghiệp từ (trang trọng)",
+     "example": {
+      "zh": "好的。我叫阮明，来自越南，毕业于河内国家大学国际贸易专业，HSK五级。之前在一家贸易公司做了两年跨境电商运营，主要负责东南亚市场。",
+      "vi": "Vâng. Tôi tên Nguyễn Minh, đến từ Việt Nam, tốt nghiệp chuyên ngành Thương mại quốc tế Đại học Quốc gia Hà Nội, HSK 5. Trước đây tôi làm vận hành thương mại điện tử xuyên biên giới hai năm ở một công ty thương mại, chủ yếu phụ trách thị trường Đông Nam Á."
+     }
+    },
+    {
+     "zh": "工作经验",
+     "pinyin": "gōngzuò jīngyàn",
+     "vi": "kinh nghiệm làm việc"
+    },
+    {
+     "zh": "负责",
+     "pinyin": "fùzé",
+     "vi": "phụ trách",
+     "example": {
+      "zh": "好的。我叫阮明，来自越南，毕业于河内国家大学国际贸易专业，HSK五级。之前在一家贸易公司做了两年跨境电商运营，主要负责东南亚市场。",
+      "vi": "Vâng. Tôi tên Nguyễn Minh, đến từ Việt Nam, tốt nghiệp chuyên ngành Thương mại quốc tế Đại học Quốc gia Hà Nội, HSK 5. Trước đây tôi làm vận hành thương mại điện tử xuyên biên giới hai năm ở một công ty thương mại, chủ yếu phụ trách thị trường Đông Nam Á."
+     }
+    },
+    {
+     "zh": "运营",
+     "pinyin": "yùnyíng",
+     "vi": "vận hành (sản phẩm, kênh bán)",
+     "example": {
+      "zh": "好的。我叫阮明，来自越南，毕业于河内国家大学国际贸易专业，HSK五级。之前在一家贸易公司做了两年跨境电商运营，主要负责东南亚市场。",
+      "vi": "Vâng. Tôi tên Nguyễn Minh, đến từ Việt Nam, tốt nghiệp chuyên ngành Thương mại quốc tế Đại học Quốc gia Hà Nội, HSK 5. Trước đây tôi làm vận hành thương mại điện tử xuyên biên giới hai năm ở một công ty thương mại, chủ yếu phụ trách thị trường Đông Nam Á."
+     }
+    },
+    {
+     "zh": "跨境电商",
+     "pinyin": "kuàjìng diànshāng",
+     "vi": "thương mại điện tử xuyên biên giới",
+     "example": {
+      "zh": "好的。我叫阮明，来自越南，毕业于河内国家大学国际贸易专业，HSK五级。之前在一家贸易公司做了两年跨境电商运营，主要负责东南亚市场。",
+      "vi": "Vâng. Tôi tên Nguyễn Minh, đến từ Việt Nam, tốt nghiệp chuyên ngành Thương mại quốc tế Đại học Quốc gia Hà Nội, HSK 5. Trước đây tôi làm vận hành thương mại điện tử xuyên biên giới hai năm ở một công ty thương mại, chủ yếu phụ trách thị trường Đông Nam Á."
+     }
+    },
+    {
+     "zh": "贵公司",
+     "pinyin": "guì gōngsī",
+     "vi": "quý công ty",
+     "example": {
+      "zh": "贵公司这两年在东南亚发展很快，我熟悉越南市场，也会中文和英文，相信能帮上忙。",
+      "vi": "Hai năm nay quý công ty phát triển rất nhanh ở Đông Nam Á, tôi hiểu thị trường Việt Nam, lại biết tiếng Trung và tiếng Anh, tôi tin là có thể giúp được."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g21-1",
+     "title_zh": "毕业于 + trường + chuyên ngành",
+     "title_vi": "Văn phong trang trọng khi phỏng vấn",
+     "formula": [
+      [
+       {
+        "zh": "毕业于",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "trường",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "chuyên ngành",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "毕业于 + trường (+ chuyên ngành) nghĩa là \"tốt nghiệp từ…\", mang văn phong trang trọng (于 là giới từ gốc văn viết, = 从 / 在). Rất thích hợp khi phỏng vấn, viết CV, giới thiệu trong hội nghị. Dạng khẩu ngữ tương đương: 我是……大学毕业的. Cấu trúc tương tự: 来自 + nơi (đến từ), 就职于 + công ty (làm việc tại).",
+     "examples": [
+      {
+       "zh": "我毕业于河内国家大学。",
+       "vi": "Tôi tốt nghiệp Đại học Quốc gia Hà Nội."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "谈薪资福利",
+   "context_vi": "Bài khoá 2: 谈薪资福利 – Bàn lương và phúc lợi",
+   "scene": "👔",
+   "lines": [
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "你的期望薪资是多少？",
+     "vi": "Mức lương bạn mong muốn là bao nhiêu?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我了解了一下行业水平，期望月薪在一万五到一万八之间，具体可以根据岗位要求再谈。",
+     "vi": "Tôi đã tìm hiểu mặt bằng chung của ngành, mong muốn lương tháng trong khoảng mười lăm đến mười tám nghìn, cụ thể có thể bàn thêm theo yêu cầu vị trí."
+    },
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "这个岗位税前一万五，十三薪，五险一金按实际工资交。",
+     "vi": "Vị trí này trước thuế mười lăm nghìn, lương tháng thứ mười ba, năm loại bảo hiểm và quỹ nhà ở đóng theo lương thực tế."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "请问试用期多久？试用期工资怎么算？",
+     "vi": "Cho hỏi thời gian thử việc bao lâu? Lương thử việc tính thế nào?"
+    },
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "试用期三个月，工资打八折，转正后全额。",
+     "vi": "Thử việc ba tháng, lương bằng 80%, chính thức thì nhận đủ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "公司能帮忙办工作许可吗？",
+     "vi": "Công ty có thể giúp làm giấy phép lao động không?"
+    },
+    {
+     "speaker": "gt-mianshiguan",
+     "zh": "可以，这个HR会跟你对接。",
+     "vi": "Có, việc này bộ phận nhân sự sẽ làm việc với bạn."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "岗位",
+     "pinyin": "gǎngwèi",
+     "vi": "vị trí công việc",
+     "example": {
+      "zh": "我了解了一下行业水平，期望月薪在一万五到一万八之间，具体可以根据岗位要求再谈。",
+      "vi": "Tôi đã tìm hiểu mặt bằng chung của ngành, mong muốn lương tháng trong khoảng mười lăm đến mười tám nghìn, cụ thể có thể bàn thêm theo yêu cầu vị trí."
+     }
+    },
+    {
+     "zh": "优势 / 缺点",
+     "pinyin": "yōushì / quēdiǎn",
+     "vi": "điểm mạnh / điểm yếu"
+    },
+    {
+     "zh": "抠细节",
+     "pinyin": "kōu xìjié",
+     "vi": "soi chi tiết",
+     "example": {
+      "zh": "有时候太抠细节，影响效率。现在我会先定好优先级，再抓细节。",
+      "vi": "Đôi khi tôi quá chăm chút chi tiết, ảnh hưởng đến hiệu suất. Bây giờ tôi sẽ xác định thứ tự ưu tiên trước, rồi mới lo chi tiết."
+     }
+    },
+    {
+     "zh": "效率",
+     "pinyin": "xiàolǜ",
+     "vi": "hiệu suất",
+     "example": {
+      "zh": "有时候太抠细节，影响效率。现在我会先定好优先级，再抓细节。",
+      "vi": "Đôi khi tôi quá chăm chút chi tiết, ảnh hưởng đến hiệu suất. Bây giờ tôi sẽ xác định thứ tự ưu tiên trước, rồi mới lo chi tiết."
+     }
+    },
+    {
+     "zh": "期望薪资",
+     "pinyin": "qīwàng xīnzī",
+     "vi": "mức lương mong muốn",
+     "example": {
+      "zh": "你的期望薪资是多少？",
+      "vi": "Mức lương bạn mong muốn là bao nhiêu?"
+     }
+    },
+    {
+     "zh": "月薪 / 年薪",
+     "pinyin": "yuèxīn / niánxīn",
+     "vi": "lương tháng / lương năm"
+    },
+    {
+     "zh": "税前 / 税后",
+     "pinyin": "shuì qián / shuì hòu",
+     "vi": "trước thuế / sau thuế"
+    },
+    {
+     "zh": "十三薪",
+     "pinyin": "shísān xīn",
+     "vi": "lương tháng 13",
+     "example": {
+      "zh": "这个岗位税前一万五，十三薪，五险一金按实际工资交。",
+      "vi": "Vị trí này trước thuế mười lăm nghìn, lương tháng thứ mười ba, năm loại bảo hiểm và quỹ nhà ở đóng theo lương thực tế."
+     }
+    },
+    {
+     "zh": "年终奖",
+     "pinyin": "niánzhōng jiǎng",
+     "vi": "thưởng cuối năm"
+    },
+    {
+     "zh": "五险一金",
+     "pinyin": "wǔ xiǎn yì jīn",
+     "vi": "5 loại bảo hiểm + quỹ nhà ở",
+     "example": {
+      "zh": "这个岗位税前一万五，十三薪，五险一金按实际工资交。",
+      "vi": "Vị trí này trước thuế mười lăm nghìn, lương tháng thứ mười ba, năm loại bảo hiểm và quỹ nhà ở đóng theo lương thực tế."
+     }
+    },
+    {
+     "zh": "试用期",
+     "pinyin": "shìyòng qī",
+     "vi": "thời gian thử việc",
+     "example": {
+      "zh": "请问试用期多久？试用期工资怎么算？",
+      "vi": "Cho hỏi thời gian thử việc bao lâu? Lương thử việc tính thế nào?"
+     }
+    },
+    {
+     "zh": "转正",
+     "pinyin": "zhuǎnzhèng",
+     "vi": "lên chính thức",
+     "example": {
+      "zh": "试用期三个月，工资打八折，转正后全额。",
+      "vi": "Thử việc ba tháng, lương bằng 80%, chính thức thì nhận đủ."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g21-2",
+     "title_zh": "在……到……之间",
+     "title_vi": "Nói khoảng",
+     "formula": [
+      [
+       {
+        "zh": "在……到……之间",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "在 A 到 B 之间 nghĩa là \"trong khoảng từ A đến B\", dùng để nói một khoảng số lượng, thời gian, giá cả. Khi nói lương mong muốn, nêu một khoảng sẽ linh hoạt hơn một con số cố định. Cấu trúc: 月薪在一万五到一万八之间. Có thể lược 在 khi đứng đầu câu: 一万五到一万八之间都可以.",
+     "examples": [
+      {
+       "zh": "月薪在一万五到一万八之间。",
+       "vi": "Lương tháng trong khoảng mười lăm đến mười tám nghìn."
+      }
+     ]
+    },
+    {
+     "id": "gt-g21-3",
+     "title_zh": "根据……再……",
+     "title_vi": "Để ngỏ thương lượng",
+     "formula": [
+      [
+       {
+        "zh": "根据……再……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "根据……再…… nghĩa là \"căn cứ vào… rồi hãy…\", dùng để để ngỏ, trì hoãn quyết định đến khi có thêm thông tin. Trong phỏng vấn, câu 具体可以根据岗位要求再谈 giúp bạn không chốt cứng mức lương mà vẫn thể hiện sự linh hoạt, chuyên nghiệp. So sánh với ……再说 (Bài 6): 再说 khẩu ngữ, 根据……再…… trang trọng hơn.",
+     "examples": [
+      {
+       "zh": "具体可以根据岗位要求再谈。",
+       "vi": "Cụ thể có thể bàn thêm theo yêu cầu vị trí."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "转正面谈",
+   "context_vi": "Bài khoá 3: 转正面谈 – Buổi đánh giá hết thử việc",
+   "scene": "👔",
+   "lines": [
+    {
+     "speaker": "gt-daoshi",
+     "zh": "试用期快结束了，你自己觉得怎么样？",
+     "vi": "Sắp hết thời gian thử việc rồi, bạn tự thấy thế nào?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "前两个月主要在熟悉业务，第三个月独立负责了两个客户，还有很多要学的地方。",
+     "vi": "Hai tháng đầu chủ yếu làm quen nghiệp vụ, tháng thứ ba tự phụ trách hai khách hàng, vẫn còn nhiều điều phải học."
+    },
+    {
+     "speaker": "gt-daoshi",
+     "zh": "领导对你挺满意的，下周走转正流程。",
+     "vi": "Sếp khá hài lòng về bạn, tuần sau làm thủ tục lên chính thức."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "太好了！谢谢您一直带我，以后还要多向您请教。",
+     "vi": "Tuyệt quá! Cảm ơn chị luôn hướng dẫn em, sau này em còn phải học hỏi chị nhiều."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "流程",
+     "pinyin": "liúchéng",
+     "vi": "quy trình",
+     "example": {
+      "zh": "领导对你挺满意的，下周走转正流程。",
+      "vi": "Sếp khá hài lòng về bạn, tuần sau làm thủ tục lên chính thức."
+     }
+    },
+    {
+     "zh": "工作许可",
+     "pinyin": "gōngzuò xǔkě",
+     "vi": "giấy phép lao động",
+     "example": {
+      "zh": "公司能帮忙办工作许可吗？",
+      "vi": "Công ty có thể giúp làm giấy phép lao động không?"
+     }
+    },
+    {
+     "zh": "入职",
+     "pinyin": "rùzhí",
+     "vi": "nhận việc"
+    },
+    {
+     "zh": "offer / 录用通知",
+     "pinyin": "lùyòng tōngzhī",
+     "vi": "thư mời nhận việc"
+    },
+    {
+     "zh": "背调",
+     "pinyin": "bèidiào",
+     "vi": "kiểm tra lý lịch (hỏi công ty cũ)"
+    },
+    {
+     "zh": "导师 / 带教",
+     "pinyin": "dǎoshī / dàijiào",
+     "vi": "người hướng dẫn"
+    },
+    {
+     "zh": "熟悉业务",
+     "pinyin": "shúxī yèwù",
+     "vi": "làm quen nghiệp vụ",
+     "example": {
+      "zh": "前两个月主要在熟悉业务，第三个月独立负责了两个客户，还有很多要学的地方。",
+      "vi": "Hai tháng đầu chủ yếu làm quen nghiệp vụ, tháng thứ ba tự phụ trách hai khách hàng, vẫn còn nhiều điều phải học."
+     }
+    },
+    {
+     "zh": "独立",
+     "pinyin": "dúlì",
+     "vi": "độc lập",
+     "example": {
+      "zh": "前两个月主要在熟悉业务，第三个月独立负责了两个客户，还有很多要学的地方。",
+      "vi": "Hai tháng đầu chủ yếu làm quen nghiệp vụ, tháng thứ ba tự phụ trách hai khách hàng, vẫn còn nhiều điều phải học."
+     }
+    },
+    {
+     "zh": "请教",
+     "pinyin": "qǐngjiào",
+     "vi": "xin chỉ giáo",
+     "example": {
+      "zh": "太好了！谢谢您一直带我，以后还要多向您请教。",
+      "vi": "Tuyệt quá! Cảm ơn chị luôn hướng dẫn em, sau này em còn phải học hỏi chị nhiều."
+     }
+    },
+    {
+     "zh": "面谈",
+     "pinyin": "miàntán",
+     "vi": "trao đổi trực tiếp"
+    },
+    {
+     "zh": "跳槽",
+     "pinyin": "tiàocáo",
+     "vi": "nhảy việc"
+    },
+    {
+     "zh": "加班费",
+     "pinyin": "jiābān fèi",
+     "vi": "tiền tăng ca"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g21-4",
+     "title_zh": "主要负责……",
+     "title_vi": "Mô tả công việc cũ",
+     "formula": [
+      [
+       {
+        "zh": "主要负责……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "主要负责 + công việc/lĩnh vực nghĩa là \"chủ yếu phụ trách…\", là cụm then chốt khi mô tả kinh nghiệm làm việc. Có thể dùng thì quá khứ với 之前 / 在……的时候: 之前在一家贸易公司主要负责东南亚市场的运营. Nối nhiều nhiệm vụ: 主要负责……和……，也参与过…….",
+     "examples": [
+      {
+       "zh": "我主要负责东南亚市场的运营。",
+       "vi": "Tôi chủ yếu phụ trách vận hành thị trường Đông Nam Á."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "面试前，HR先看了我的___。",
+   "bank": [
+    "跳槽",
+    "简历",
+    "试用期"
+   ],
+   "answer": "简历"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "你的___是多少？——一万五到一万八之间。",
+   "bank": [
+    "转正",
+    "期望薪资",
+    "跳槽"
+   ],
+   "answer": "期望薪资"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "___三个月，工资打八折。",
+   "bank": [
+    "跳槽",
+    "期望薪资",
+    "试用期"
+   ],
+   "answer": "试用期"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "试用期结束，下周走___流程。",
+   "bank": [
+    "转正",
+    "五险一金",
+    "期望薪资"
+   ],
+   "answer": "转正"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "公司按实际工资给员工交___。",
+   "bank": [
+    "跳槽",
+    "五险一金",
+    "简历"
+   ],
+   "answer": "五险一金"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "他在这家公司干了一年就___了。",
+   "bank": [
+    "试用期",
+    "跳槽",
+    "简历"
+   ],
+   "answer": "跳槽"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "河内国家大学",
+    "毕业于",
+    "我"
+   ],
+   "answers": [
+    "我毕业于河内国家大学"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "之间",
+    "一万五",
+    "在",
+    "一万八",
+    "到",
+    "月薪"
+   ],
+   "answers": [
+    "月薪在一万五到一万八之间"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "再谈",
+    "根据",
+    "可以",
+    "岗位要求"
+   ],
+   "answers": [
+    "可以根据岗位要求再谈"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "东南亚市场",
+    "主要负责",
+    "我",
+    "的运营"
+   ],
+   "answers": [
+    "我主要负责东南亚市场的运营"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "毕业于",
+     "a": "tốt nghiệp từ (trang trọng)"
+    },
+    {
+     "q": "跨境电商",
+     "a": "thương mại điện tử xuyên biên giới"
+    },
+    {
+     "q": "抠细节",
+     "a": "soi chi tiết"
+    },
+    {
+     "q": "十三薪",
+     "a": "lương tháng 13"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn đã từng phỏng vấn xin việc chưa? Câu hỏi nào khiến bạn khó trả lời nhất?",
+   "Khởi động: Khi đi phỏng vấn, bạn có dám hỏi về lương và chế độ không?",
+   "三轮面试 Phỏng vấn 3 vòng (15 phút): vòng HR (giới thiệu, lý do ứng tuyển), vòng chuyên môn (câu hỏi tình huống), vòng sếp (lương, chế độ). Học viên luân phiên làm ứng viên và người phỏng vấn, người quan sát chấm theo phiếu.",
+   "薪资拔河 Kéo co tiền lương (5 phút): cặp đôi có mức \"ngân sách\" và \"mong muốn\" bí mật, thương lượng thêm phúc lợi (年假, 远程办公, 培训) nếu lương không đạt.",
+   "Nhiệm vụ thực tế: quay video 90 giây tự giới thiệu cho một vị trí tuyển dụng thật (tìm trên BOSS直聘 hoặc 智联招聘)."
+  ],
+  "patterns": [
+   {
+    "zh": "我毕业于河内国家大学。",
+    "vi": "Tôi tốt nghiệp Đại học Quốc gia Hà Nội."
+   },
+   {
+    "zh": "月薪在一万五到一万八之间。",
+    "vi": "Lương tháng trong khoảng mười lăm đến mười tám nghìn."
+   },
+   {
+    "zh": "具体可以根据岗位要求再谈。",
+    "vi": "Cụ thể có thể bàn thêm theo yêu cầu vị trí."
+   },
+   {
+    "zh": "我主要负责东南亚市场的运营。",
+    "vi": "Tôi chủ yếu phụ trách vận hành thị trường Đông Nam Á."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "五险一金\" và luật thử việc Gói phúc lợi chuẩn gồm 5 loại bảo hiểm và quỹ nhà ở; nhiều công ty đóng theo mức lương thấp hơn thực tế, nên cần hỏi rõ. Theo Luật Hợp đồng lao động TQ, hợp đồng từ 3 năm trở lên thử việc tối đa 6 tháng, và lương thử việc không được thấp hơn 80% lương đã thỏa thuận (Huệ Thành luật sư). Câu \"工资打八折\" trong bài khóa là mức thấp nhất hợp pháp. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"五险一金\" và luật thử việc Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Tự giới thiệu theo công thức 60 giây: tên–xuất thân → học vấn → kinh nghiệm liên quan → vì sao hợp vị trí này.",
+   "Ứng xử: Không chê công ty cũ; lý do nghỉ việc nói theo hướng tích cực: 想找一个更大的平台 / 想更多接触中国市场.",
+   "Ứng xử: Hỏi lương: nói khoảng, kèm \"可以再谈\"; hỏi rõ 税前/税后, 几薪, 五险一金 đóng theo mức nào.",
+   "Ứng xử: Kết thúc phỏng vấn nên hỏi 1 câu: 这个岗位最大的挑战是什么？ để thể hiện sự quan tâm."
+  ]
+ }
+}

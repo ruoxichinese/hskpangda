@@ -1,0 +1,419 @@
+{
+ "lessonId": 6,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）去驿站取快递，要先报{{1}}。\n（2）{{2}}没剪的话，可以七天无理由退货。\n（3）买了{{3}}，退货的运费就不用自己出了。\n（4）这个件是{{4}}的，得当面给钱。\n（5）快递盒子{{5}}了，里面的杯子也碎了。\n（6）我没买过这个东西，我要{{6}}。",
+     "bank": [
+      "取件码",
+      "吊牌",
+      "运费险",
+      "到付",
+      "拒收",
+      "破损"
+     ],
+     "answers": [
+      "取件码",
+      "吊牌",
+      "运费险",
+      "到付",
+      "破损",
+      "拒收"
+     ],
+     "explain_vi": "取件码、吊牌、运费险、到付、破损、拒收"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "快递员 / 快递小哥",
+       "a": "nhân viên giao hàng"
+      },
+      {
+       "q": "已签收",
+       "a": "đã ký nhận"
+      },
+      {
+       "q": "单号",
+       "a": "mã vận đơn"
+      },
+      {
+       "q": "退货退款",
+       "a": "trả hàng hoàn tiền"
+      },
+      {
+       "q": "寄件",
+       "a": "gửi hàng"
+      },
+      {
+       "q": "质量问题",
+       "a": "lỗi chất lượng"
+      }
+     ],
+     "explain_vi": "快递员 / 快递小哥 = nhân viên giao hàng · 已签收 = đã ký nhận · 单号 = mã vận đơn · 退货退款 = trả hàng hoàn tiền · 寄件 = gửi hàng · 质量问题 = lỗi chất lượng"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "签收",
+      "先别",
+      "麻烦"
+     ],
+     "answers": [
+      "麻烦先别签收"
+     ],
+     "explain_vi": "麻烦先别签收。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "我",
+      "再说",
+      "问清楚"
+     ],
+     "answers": [
+      "我问清楚再说"
+     ],
+     "explain_vi": "我问清楚再说。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "已签收",
+      "我",
+      "显示",
+      "可",
+      "没收到"
+     ],
+     "answers": [
+      "显示已签收可我没收到"
+     ],
+     "explain_vi": "显示已签收，可我没收到。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "退款",
+      "到账",
+      "多久"
+     ],
+     "answers": [
+      "退款多久到账"
+     ],
+     "explain_vi": "退款多久到账？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn trả hàng 7 ngày không cần lý do.",
+     "acceptedAnswers": [
+      "我想申请七天无理由退货。"
+     ],
+     "requiredKeywords": [
+      "七天无理由"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我想申请七天无理由退货。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Tôi chưa cắt mác, chỉ mặc thử một chút thôi.",
+     "acceptedAnswers": [
+      "我没剪吊牌，就试穿了一下。"
+     ],
+     "requiredKeywords": [
+      "吊牌",
+      "试穿"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我没剪吊牌，就试穿了一下。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Anh cứ để hàng ở trạm trước, tôi liên hệ với shop đã.",
+     "acceptedAnswers": [
+      "你先放驿站吧，我先跟商家联系一下。"
+     ],
+     "requiredKeywords": [
+      "驿站"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你先放驿站吧，我先跟商家联系一下。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 可 (= 可是), ngắn, khẩu ngữ",
+   "instructions_vi": "Nối hai vế câu bằng 可.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "物流显示已签收 / 我没收到 → ________________________________________________________",
+     "acceptedAnswers": [
+      "物流显示已签收，可我没收到啊。"
+     ],
+     "requiredKeywords": [
+      "可"
+     ],
+     "explain_vi": "Đáp án tham khảo: 物流显示已签收，可我没收到啊。",
+     "grammarRef": "gt-g6-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "我想退货 / 吊牌已经剪了 → ________________________________________________________",
+     "acceptedAnswers": [
+      "我想退货，可吊牌已经剪了。"
+     ],
+     "requiredKeywords": [
+      "可"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我想退货，可吊牌已经剪了。",
+     "grammarRef": "gt-g6-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "说好今天发货 / 现在还没有物流信息 → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好今天发货，可现在还没有物流信息。"
+     ],
+     "requiredKeywords": [
+      "可"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好今天发货，可现在还没有物流信息。",
+     "grammarRef": "gt-g6-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "这件衣服很好看 / 有点儿贵 → ________________________________________________________",
+     "acceptedAnswers": [
+      "这件衣服很好看，可有点儿贵。"
+     ],
+     "requiredKeywords": [
+      "可"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这件衣服很好看，可有点儿贵。",
+     "grammarRef": "gt-g6-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……再说",
+   "instructions_vi": "Dùng ……再说 để trả lời hoặc hoàn thành câu.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "A：要不要签收？B：______。(hỏi rõ shop rồi tính)",
+     "acceptedAnswers": [
+      "我先问清楚商家再说。"
+     ],
+     "requiredKeywords": [
+      "再说"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我先问清楚商家再说。",
+     "grammarRef": "gt-g6-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "A：这个周末去哪儿玩？B：______。(làm xong bài tập rồi tính)",
+     "acceptedAnswers": [
+      "先把作业写完再说。"
+     ],
+     "requiredKeywords": [
+      "再说"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先把作业写完再说。",
+     "grammarRef": "gt-g6-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "A：你买不买这个耳机？B：______。(xem đánh giá rồi tính)",
+     "acceptedAnswers": [
+      "我先看看评价再说。"
+     ],
+     "requiredKeywords": [
+      "再说"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我先看看评价再说。",
+     "grammarRef": "gt-g6-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Ăn cơm trước đã, chuyện khác để lát nữa tính. → ________________________________________________________",
+     "acceptedAnswers": [
+      "先吃饭，别的回头再说。"
+     ],
+     "requiredKeywords": [
+      "再说"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先吃饭，别的回头再说。",
+     "grammarRef": "gt-g6-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 先别 + V",
+   "instructions_vi": "Dùng 先别 + V để khuyên người khác trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn của bạn định bấm hoàn tiền nhưng chưa xem kỹ hàng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "先别退款，你再看看。"
+     ],
+     "requiredKeywords": [
+      "先别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先别退款，你再看看。",
+     "grammarRef": "gt-g6-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Shipper định ký nhận giúp bạn món hàng thu tiền khi nhận. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦先别签收，我问清楚再说。"
+     ],
+     "requiredKeywords": [
+      "先别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦先别签收，我问清楚再说。",
+     "grammarRef": "gt-g6-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn cùng phòng định cắt mác áo trước khi thử. → ________________________________________________________",
+     "acceptedAnswers": [
+      "先别剪吊牌，试穿合适了再剪。"
+     ],
+     "requiredKeywords": [
+      "先别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先别剪吊牌，试穿合适了再剪。",
+     "grammarRef": "gt-g6-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn bè định đặt món trước khi mọi người đến đủ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "先别点菜，等大家到齐了再说。"
+     ],
+     "requiredKeywords": [
+      "先别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先别点菜，等大家到齐了再说。",
+     "grammarRef": "gt-g6-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 说好……的 (ôn lại) + phản bác nhẹ",
+   "instructions_vi": "Dùng 说好……的，怎么……？ để phản bác trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Shop hứa miễn phí ship nhưng hàng lại là hàng thu tiền khi nhận. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好包邮的，怎么要到付？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好包邮的，怎么要到付？",
+     "grammarRef": "gt-g6-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Shop hứa gửi hàng trong 24 giờ nhưng 3 ngày chưa gửi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好二十四小时内发货的，怎么三天了还没发？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好二十四小时内发货的，怎么三天了还没发？",
+     "grammarRef": "gt-g6-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn hẹn đi xem phim tối nay nhưng lại nói bận. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好今晚看电影的，怎么又有事了？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好今晚看电影的，怎么又有事了？",
+     "grammarRef": "gt-g6-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Shop nói hàng chính hãng nhưng bạn nhận được hàng giả. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好是正品的，怎么是假货？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好是正品的，怎么是假货？",
+     "grammarRef": "gt-g6-4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "lessonId": 16,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我想找个学习{{1}}，每天一起去图书馆。\n（2）我刷到你的朋友圈了，忘了{{2}}。\n（3）明天要加班，{{3}}吧。\n（4）好，周六见，{{4}}！\n（5）他每次都说来，最后都{{5}}。\n（6）你朋友圈怎么是一条横线？把我{{6}}了？",
+     "bank": [
+      "点赞",
+      "屏蔽",
+      "改天",
+      "一言为定",
+      "放鸽子",
+      "搭子"
+     ],
+     "answers": [
+      "搭子",
+      "点赞",
+      "改天",
+      "一言为定",
+      "放鸽子",
+      "屏蔽"
+     ],
+     "explain_vi": "搭子、点赞、改天、一言为定、放鸽子、屏蔽"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "伙伴",
+       "a": "bạn, cộng sự"
+      },
+      {
+       "q": "朋友圈",
+       "a": "Moments trên WeChat"
+      },
+      {
+       "q": "P图",
+       "a": "chỉnh ảnh"
+      },
+      {
+       "q": "群聊 / 拉群",
+       "a": "nhóm chat / lập nhóm"
+      },
+      {
+       "q": "秒回",
+       "a": "trả lời ngay"
+      },
+      {
+       "q": "删好友",
+       "a": "xóa bạn"
+      }
+     ],
+     "explain_vi": "伙伴 = bạn, cộng sự · 朋友圈 = Moments trên WeChat · P图 = chỉnh ảnh · 群聊 / 拉群 = nhóm chat / lập nhóm · 秒回 = trả lời ngay · 删好友 = xóa bạn"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "是",
+      "搭子",
+      "什么意思"
+     ],
+     "answers": [
+      "搭子是什么意思"
+     ],
+     "explain_vi": "搭子是什么意思？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "点赞",
+      "怎么",
+      "你",
+      "没"
+     ],
+     "answers": [
+      "你怎么没点赞"
+     ],
+     "explain_vi": "你怎么没点赞？"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "啊",
+      "放鸽子",
+      "不许"
+     ],
+     "answers": [
+      "不许放鸽子啊"
+     ],
+     "explain_vi": "不许放鸽子啊。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "请客",
+      "谁",
+      "谁",
+      "放鸽子"
+     ],
+     "answers": [
+      "谁放鸽子谁请客"
+     ],
+     "explain_vi": "谁放鸽子谁请客。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Ảnh Moments hôm qua bạn đăng đẹp quá, chụp ở đâu thế?",
+     "acceptedAnswers": [
+      "你昨天发的朋友圈好好看，在哪儿拍的？"
+     ],
+     "requiredKeywords": [
+      "朋友圈"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你昨天发的朋友圈好好看，在哪儿拍的？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Thứ Bảy tôi mời bạn, chỗ nào bạn chọn.",
+     "acceptedAnswers": [
+      "周六我请你，地方你挑。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 周六我请你，地方你挑。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn tìm một bạn trao đổi ngôn ngữ: tôi dạy tiếng Việt, bạn ấy dạy tôi tiếng Trung.",
+     "acceptedAnswers": [
+      "我想找个语言搭子，我教越南语，他教我中文。"
+     ],
+     "requiredKeywords": [
+      "搭子"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我想找个语言搭子，我教越南语，他教我中文。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: ……是什么意思？— 就是……",
+   "instructions_vi": "Hỏi và giải thích nghĩa các từ sau bằng ……是什么意思？— 就是…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "搭子 → ________________________________________________________",
+     "acceptedAnswers": [
+      "搭子是什么意思？— 就是一起做某件事的伙伴。"
+     ],
+     "requiredKeywords": [
+      "是什么意思",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 搭子是什么意思？— 就是一起做某件事的伙伴。",
+     "grammarRef": "gt-g16-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "放鸽子 → ________________________________________________________",
+     "acceptedAnswers": [
+      "放鸽子是什么意思？— 就是说好了见面，可是没来。"
+     ],
+     "requiredKeywords": [
+      "是什么意思",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 放鸽子是什么意思？— 就是说好了见面，可是没来。",
+     "grammarRef": "gt-g16-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "秒回 → ________________________________________________________",
+     "acceptedAnswers": [
+      "秒回是什么意思？— 就是很快就回消息。"
+     ],
+     "requiredKeywords": [
+      "是什么意思",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 秒回是什么意思？— 就是很快就回消息。",
+     "grammarRef": "gt-g16-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "社恐 → ________________________________________________________",
+     "acceptedAnswers": [
+      "社恐是什么意思？— 就是很怕跟别人交流。"
+     ],
+     "requiredKeywords": [
+      "是什么意思",
+      "就是"
+     ],
+     "explain_vi": "Đáp án tham khảo: 社恐是什么意思？— 就是很怕跟别人交流。",
+     "grammarRef": "gt-g16-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 你怎么没/不……？",
+   "instructions_vi": "Dùng 你怎么没/不……？ để",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn đăng Moments mà bạn thân không thả like. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你怎么没给我点赞？"
+     ],
+     "requiredKeywords": [
+      "你怎么没"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你怎么没给我点赞？",
+     "grammarRef": "gt-g16-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn nhắn tin cả buổi mà bạn kia không trả lời. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你怎么不回我消息啊？"
+     ],
+     "requiredKeywords": [
+      "不"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你怎么不回我消息啊？",
+     "grammarRef": "gt-g16-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn kia đi du lịch mà không rủ bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你去旅游怎么没叫我？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 你去旅游怎么没叫我？",
+     "grammarRef": "gt-g16-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn kia chặn không cho bạn xem Moments. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你怎么把我屏蔽了？"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 你怎么把我屏蔽了？",
+     "grammarRef": "gt-g16-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 不许 + V + 啊",
+   "instructions_vi": "Viết lời dặn đùa với 不许……啊.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "(không được cho leo cây) → ________________________________________________________",
+     "acceptedAnswers": [
+      "不许放鸽子啊。"
+     ],
+     "requiredKeywords": [
+      "不许",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不许放鸽子啊。",
+     "grammarRef": "gt-g16-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "(không được đến muộn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "不许迟到啊。"
+     ],
+     "requiredKeywords": [
+      "不许",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不许迟到啊。",
+     "grammarRef": "gt-g16-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "(không được đã xem mà không trả lời) → ________________________________________________________",
+     "acceptedAnswers": [
+      "不许已读不回啊。"
+     ],
+     "requiredKeywords": [
+      "不许",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不许已读不回啊。",
+     "grammarRef": "gt-g16-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "(không được chỉnh ảnh tôi xấu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "不许把我P丑啊。"
+     ],
+     "requiredKeywords": [
+      "不许",
+      "啊"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不许把我P丑啊。",
+     "grammarRef": "gt-g16-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 谁……谁……",
+   "instructions_vi": "Đặt",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(ai đến muộn → người đó trả tiền) → ________________________________________________________",
+     "acceptedAnswers": [
+      "谁迟到谁请客。"
+     ],
+     "requiredKeywords": [
+      "谁",
+      "谁"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谁迟到谁请客。",
+     "grammarRef": "gt-g16-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(ai đến trước → người đó gọi món) → ________________________________________________________",
+     "acceptedAnswers": [
+      "谁先到谁点菜。"
+     ],
+     "requiredKeywords": [
+      "谁",
+      "谁"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谁先到谁点菜。",
+     "grammarRef": "gt-g16-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(ai thua → người đó hát một bài) → ________________________________________________________",
+     "acceptedAnswers": [
+      "谁输了谁唱一首歌。"
+     ],
+     "requiredKeywords": [
+      "谁",
+      "谁"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谁输了谁唱一首歌。",
+     "grammarRef": "gt-g16-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "(ai nói tiếng Việt → người đó phạt một câu từ lóng) → ________________________________________________________",
+     "acceptedAnswers": [
+      "谁说越南语谁罚一个流行语。"
+     ],
+     "requiredKeywords": [
+      "谁",
+      "谁"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谁说越南语谁罚一个流行语。",
+     "grammarRef": "gt-g16-4"
+    }
+   ]
+  }
+ ]
+}

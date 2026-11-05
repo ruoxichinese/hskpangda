@@ -1,0 +1,425 @@
+{
+ "lessonId": 3,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）吃不完的菜，服务员，帮我们{{1}}一下。\n（2）你们家的{{2}}是什么？\n（3）一共四百二十六，给您{{3}}，四百二。\n（4）大厅满了，您先{{4}}，前面还有六桌。\n（5）{{5}}有最低消费，八百起。\n（6）请问有没有{{6}}？香菜要吗？",
+     "bank": [
+      "招牌菜",
+      "忌口",
+      "打包",
+      "抹零",
+      "包间",
+      "取号"
+     ],
+     "answers": [
+      "打包",
+      "招牌菜",
+      "抹零",
+      "取号",
+      "包间",
+      "忌口"
+     ],
+     "explain_vi": "打包、招牌菜、抹零、取号、包间、忌口"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "预约 / 订位",
+       "a": "đặt trước / đặt bàn"
+      },
+      {
+       "q": "前面还有……桌",
+       "a": "phía trước còn… bàn"
+      },
+      {
+       "q": "锅底",
+       "a": "nước lẩu"
+      },
+      {
+       "q": "香菜",
+       "a": "rau mùi"
+      },
+      {
+       "q": "小料台",
+       "a": "quầy nước chấm tự chọn"
+      },
+      {
+       "q": "我来",
+       "a": "để tôi (trả)"
+      }
+     ],
+     "explain_vi": "预约 / 订位 = đặt trước / đặt bàn · 前面还有……桌 = phía trước còn… bàn · 锅底 = nước lẩu · 香菜 = rau mùi · 小料台 = quầy nước chấm tự chọn · 我来 = để tôi (trả)"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "吃不了",
+      "太辣",
+      "我",
+      "的"
+     ],
+     "answers": [
+      "我吃不了太辣的"
+     ],
+     "explain_vi": "我吃不了太辣的。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "AA",
+      "说好",
+      "的"
+     ],
+     "answers": [
+      "说好AA的"
+     ],
+     "explain_vi": "说好AA的。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "吗",
+      "微辣",
+      "红锅",
+      "做",
+      "能"
+     ],
+     "answers": [
+      "红锅能做微辣吗"
+     ],
+     "explain_vi": "红锅能做微辣吗？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "还有",
+      "前面",
+      "六桌"
+     ],
+     "answers": [
+      "前面还有六桌"
+     ],
+     "explain_vi": "前面还有六桌。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Phía trước còn mấy bàn ạ?",
+     "acceptedAnswers": [
+      "前面还有几桌？"
+     ],
+     "requiredKeywords": [
+      "前面还有"
+     ],
+     "explain_vi": "Đáp án tham khảo: 前面还有几桌？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Tôi không ăn rau mùi, còn lại đều được.",
+     "acceptedAnswers": [
+      "我不吃香菜，别的都行。"
+     ],
+     "requiredKeywords": [
+      "香菜"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我不吃香菜，别的都行。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Em ơi, tính tiền! Gói mấy món này lại giúp anh nhé.",
+     "acceptedAnswers": [
+      "服务员，买单！这几个菜帮我们打包一下。"
+     ],
+     "requiredKeywords": [
+      "买单",
+      "打包"
+     ],
+     "explain_vi": "Đáp án tham khảo: 服务员，买单！这几个菜帮我们打包一下。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 来 + số lượng + món",
+   "instructions_vi": "Gọi món bằng cấu trúc 来 + số lượng + món theo gợi ý.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(1 phần lòng bò, 2 chai bia) → ________________________________________________________",
+     "acceptedAnswers": [
+      "来一份毛肚，再来两瓶啤酒。"
+     ],
+     "requiredKeywords": [
+      "来"
+     ],
+     "explain_vi": "Đáp án tham khảo: 来一份毛肚，再来两瓶啤酒。",
+     "grammarRef": "gt-g3-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(nửa phần chả tôm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "虾滑来半份。",
+      "来半份虾滑。"
+     ],
+     "requiredKeywords": [
+      "来"
+     ],
+     "explain_vi": "Đáp án tham khảo: 虾滑来半份。 / 来半份虾滑。",
+     "grammarRef": "gt-g3-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(2 bát cơm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "来两碗米饭。"
+     ],
+     "requiredKeywords": [
+      "来"
+     ],
+     "explain_vi": "Đáp án tham khảo: 来两碗米饭。",
+     "grammarRef": "gt-g3-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(1 nồi lẩu hai ngăn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "来一个鸳鸯锅。"
+     ],
+     "requiredKeywords": [
+      "来"
+     ],
+     "explain_vi": "Đáp án tham khảo: 来一个鸳鸯锅。",
+     "grammarRef": "gt-g3-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: V得了 / V不了",
+   "instructions_vi": "Hoàn thành câu bằng V得了 / V不了.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "我______太辣的，能做微辣吗？",
+     "acceptedAnswers": [
+      "吃不了"
+     ],
+     "requiredKeywords": [
+      "不了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 吃不了",
+     "grammarRef": "gt-g3-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "四个人______这么多菜吗？",
+     "acceptedAnswers": [
+      "吃得了"
+     ],
+     "requiredKeywords": [
+      "得了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 吃得了",
+     "grammarRef": "gt-g3-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "今天加班，七点的饭局我去______了。",
+     "acceptedAnswers": [
+      "去不了 (不了)"
+     ],
+     "requiredKeywords": [
+      "不了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 去不了 (不了)",
+     "grammarRef": "gt-g3-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "这么重的箱子你一个人拿______吗？",
+     "acceptedAnswers": [
+      "拿得了"
+     ],
+     "requiredKeywords": [
+      "得了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 拿得了",
+     "grammarRef": "gt-g3-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 说好……的",
+   "instructions_vi": "Dùng 说好……的 để nhắc lại thỏa thuận trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn bè định tranh trả tiền, nhưng mọi người đã thống nhất chia đều. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好AA的。"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好AA的。",
+     "grammarRef": "gt-g3-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn hẹn 7 giờ gặp nhưng 7 rưỡi bạn kia vẫn chưa đến. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好七点见的，你怎么还没到？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好七点见的，你怎么还没到？",
+     "grammarRef": "gt-g3-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Shop hứa miễn phí ship nhưng lại thu phí. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好包邮的，怎么还要运费？"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好包邮的，怎么还要运费？",
+     "grammarRef": "gt-g3-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Lần trước bạn mời, lần này bạn lại định trả tiếp. → ________________________________________________________",
+     "acceptedAnswers": [
+      "说好这回我请的！"
+     ],
+     "requiredKeywords": [
+      "说好",
+      "的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 说好这回我请的！",
+     "grammarRef": "gt-g3-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 能不能/能……吗 + yêu cầu đặc biệt",
+   "instructions_vi": "Đặt câu yêu cầu với 能……吗？ hoặc 能不能……？",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(Muốn món lẩu chỉ cay nhẹ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "红锅能做微辣吗？"
+     ],
+     "requiredKeywords": [
+      "能",
+      "吗"
+     ],
+     "explain_vi": "Đáp án tham khảo: 红锅能做微辣吗？",
+     "grammarRef": "gt-g3-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(Muốn đổi sang chỗ ngồi cạnh cửa sổ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能换个靠窗的位子？"
+     ],
+     "requiredKeywords": [
+      "能不能",
+      "能"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能换个靠窗的位子？",
+     "grammarRef": "gt-g3-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(Muốn xuất hóa đơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能开发票吗？"
+     ],
+     "requiredKeywords": [
+      "能",
+      "吗"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能开发票吗？",
+     "grammarRef": "gt-g3-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "(Muốn quán không bỏ rau mùi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能不放香菜？"
+     ],
+     "requiredKeywords": [
+      "能不能",
+      "能"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能不放香菜？",
+     "grammarRef": "gt-g3-4"
+    }
+   ]
+  }
+ ]
+}

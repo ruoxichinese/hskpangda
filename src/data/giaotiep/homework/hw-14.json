@@ -1,0 +1,423 @@
+{
+ "lessonId": 14,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这个药有{{1}}吗？\n（2）我感冒了，{{2}}，流鼻涕。\n（3）吃了这个药会{{3}}，开车前别吃。\n（4）处方药得有医生开的{{4}}才能买。\n（5）你最近辣的吃太多了，可能是{{5}}了。\n（6）别加班了，{{6}}，早点儿回家休息。",
+     "bank": [
+      "犯困",
+      "鼻塞",
+      "副作用",
+      "处方",
+      "上火",
+      "身体要紧"
+     ],
+     "answers": [
+      "副作用",
+      "鼻塞",
+      "犯困",
+      "处方",
+      "上火",
+      "身体要紧"
+     ],
+     "explain_vi": "副作用、鼻塞、犯困、处方、上火、身体要紧"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "感冒",
+       "a": "cảm"
+      },
+      {
+       "q": "日夜片",
+       "a": "thuốc cảm ngày–đêm"
+      },
+      {
+       "q": "拉肚子",
+       "a": "tiêu chảy"
+      },
+      {
+       "q": "生冷辛辣",
+       "a": "đồ sống, lạnh, cay"
+      },
+      {
+       "q": "止疼药",
+       "a": "thuốc giảm đau"
+      },
+      {
+       "q": "美团买药",
+       "a": "mua thuốc giao nhanh qua Meituan"
+      }
+     ],
+     "explain_vi": "感冒 = cảm · 日夜片 = thuốc cảm ngày–đêm · 拉肚子 = tiêu chảy · 生冷辛辣 = đồ sống, lạnh, cay · 止疼药 = thuốc giảm đau · 美团买药 = mua thuốc giao nhanh qua Meituan"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "犯困",
+      "会",
+      "吃了",
+      "这个药"
+     ],
+     "answers": [
+      "这个药吃了会犯困"
+     ],
+     "explain_vi": "这个药吃了会犯困。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "肚子",
+      "吃坏",
+      "我"
+     ],
+     "answers": [
+      "我吃坏肚子了"
+     ],
+     "explain_vi": "我吃坏肚子了。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "吧",
+      "肠胃炎",
+      "不会是"
+     ],
+     "answers": [
+      "不会是肠胃炎吧"
+     ],
+     "explain_vi": "不会是肠胃炎吧？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "去医院",
+      "实在不行",
+      "就"
+     ],
+     "answers": [
+      "实在不行就去医院"
+     ],
+     "explain_vi": "实在不行就去医院。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi bị cảm, nghẹt mũi, sổ mũi, uống thuốc gì thì tốt?",
+     "acceptedAnswers": [
+      "我感冒了，鼻塞，流鼻涕，吃什么药好？"
+     ],
+     "requiredKeywords": [
+      "感冒",
+      "鼻塞"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我感冒了，鼻塞，流鼻涕，吃什么药好？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Mấy ngày này ăn chút cháo, đừng ăn đồ sống lạnh cay.",
+     "acceptedAnswers": [
+      "这两天喝点儿粥，别吃生冷辛辣的。"
+     ],
+     "requiredKeywords": [
+      "生冷辛辣"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这两天喝点儿粥，别吃生冷辛辣的。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Cảm ơn đã quan tâm, đỡ nhiều rồi.",
+     "acceptedAnswers": [
+      "谢谢关心，好多了。"
+     ],
+     "requiredKeywords": [
+      "谢谢关心"
+     ],
+     "explain_vi": "Đáp án tham khảo: 谢谢关心，好多了。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: V了 + 会 + kết quả (cảnh báo)",
+   "instructions_vi": "Viết câu cảnh báo với V了 + 会 + kết quả.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(uống thuốc này → buồn ngủ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "这个药吃了会犯困。"
+     ],
+     "requiredKeywords": [
+      "了",
+      "会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这个药吃了会犯困。",
+     "grammarRef": "gt-g14-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(uống cà phê buổi tối → mất ngủ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "晚上喝了咖啡会睡不着。"
+     ],
+     "requiredKeywords": [
+      "了",
+      "会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 晚上喝了咖啡会睡不着。",
+     "grammarRef": "gt-g14-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(ăn đồ cay → nóng trong) → ________________________________________________________",
+     "acceptedAnswers": [
+      "吃了辣的会上火。"
+     ],
+     "requiredKeywords": [
+      "了",
+      "会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 吃了辣的会上火。",
+     "grammarRef": "gt-g14-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(uống rượu rồi lái xe → bị phạt) → ________________________________________________________",
+     "acceptedAnswers": [
+      "喝了酒开车会被罚。"
+     ],
+     "requiredKeywords": [
+      "了",
+      "会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 喝了酒开车会被罚。",
+     "grammarRef": "gt-g14-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: V + 坏 (hậu quả xấu)",
+   "instructions_vi": "Hoàn thành câu với V + 坏.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "昨天吃烧烤______肚子了。",
+     "acceptedAnswers": [
+      "吃坏"
+     ],
+     "requiredKeywords": [
+      "坏"
+     ],
+     "explain_vi": "Đáp án tham khảo: 吃坏",
+     "grammarRef": "gt-g14-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "手机从桌子上掉下来，______了。",
+     "acceptedAnswers": [
+      "摔坏"
+     ],
+     "requiredKeywords": [
+      "坏"
+     ],
+     "explain_vi": "Đáp án tham khảo: 摔坏",
+     "grammarRef": "gt-g14-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "加了一个星期的班，我______了。",
+     "acceptedAnswers": [
+      "累坏"
+     ],
+     "requiredKeywords": [
+      "坏"
+     ],
+     "explain_vi": "Đáp án tham khảo: 累坏",
+     "grammarRef": "gt-g14-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "孩子找不到了，妈妈______了。",
+     "acceptedAnswers": [
+      "急坏"
+     ],
+     "requiredKeywords": [
+      "坏"
+     ],
+     "explain_vi": "Đáp án tham khảo: 急坏",
+     "grammarRef": "gt-g14-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 不会是……吧？",
+   "instructions_vi": "Dùng 不会是……吧？ để bày tỏ lo lắng.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn bị tiêu chảy cả đêm. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不会是急性肠胃炎吧？"
+     ],
+     "requiredKeywords": [
+      "不会是",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不会是急性肠胃炎吧？",
+     "grammarRef": "gt-g14-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Người bạn trán nóng, mặt đỏ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你不会是发烧了吧？"
+     ],
+     "requiredKeywords": [
+      "不会是",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你不会是发烧了吧？",
+     "grammarRef": "gt-g14-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Hàng mua online giá rẻ bất thường. → ________________________________________________________",
+     "acceptedAnswers": [
+      "这么便宜，不会是假货吧？"
+     ],
+     "requiredKeywords": [
+      "不会是",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这么便宜，不会是假货吧？",
+     "grammarRef": "gt-g14-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn bè hẹn mà nửa tiếng chưa tới, gọi không nghe. → ________________________________________________________",
+     "acceptedAnswers": [
+      "他还没到，不会是出什么事了吧？"
+     ],
+     "requiredKeywords": [
+      "不会是",
+      "吧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 他还没到，不会是出什么事了吧？",
+     "grammarRef": "gt-g14-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 实在不行就……",
+   "instructions_vi": "Đưa ra phương án cuối bằng 实在不行就…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn uống thuốc rồi nhưng vẫn chưa đỡ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "实在不行就去医院吧。"
+     ],
+     "requiredKeywords": [
+      "实在不行就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 实在不行就去医院吧。",
+     "grammarRef": "gt-g14-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Đồng nghiệp mệt mà còn nhiều việc. → ________________________________________________________",
+     "acceptedAnswers": [
+      "实在不行就请假回家，身体要紧。"
+     ],
+     "requiredKeywords": [
+      "实在不行就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 实在不行就请假回家，身体要紧。",
+     "grammarRef": "gt-g14-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Không mua được vé tàu cao tốc. → ________________________________________________________",
+     "acceptedAnswers": [
+      "实在不行就坐飞机。"
+     ],
+     "requiredKeywords": [
+      "实在不行就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 实在不行就坐飞机。",
+     "grammarRef": "gt-g14-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Không tìm được nhà gần công ty. → ________________________________________________________",
+     "acceptedAnswers": [
+      "实在不行就租远一点儿的。"
+     ],
+     "requiredKeywords": [
+      "实在不行就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 实在不行就租远一点儿的。",
+     "grammarRef": "gt-g14-4"
+    }
+   ]
+  }
+ ]
+}

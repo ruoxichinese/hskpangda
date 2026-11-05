@@ -1,0 +1,489 @@
+{
+ "lessonId": 10,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）二等座没了，你可以试试{{1}}。\n（2）你先坐十号线，到国贸{{2}}一号线。\n（3）临时有事的话，开车前可以{{3}}。\n（4）G3次在B12{{4}}检票。\n（5）本次列车{{5}}二十分钟，请大家谅解。\n（6）早晚高峰挤得不行，能{{6}}就______。",
+     "bank": [
+      "换乘",
+      "错峰",
+      "候补",
+      "改签",
+      "晚点",
+      "检票口"
+     ],
+     "answers": [
+      "候补",
+      "换乘",
+      "改签",
+      "检票口",
+      "晚点",
+      "错峰"
+     ],
+     "explain_vi": "候补、换乘、改签、检票口、晚点、错峰"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "站",
+       "a": "ga, trạm"
+      },
+      {
+       "q": "刷",
+       "a": "quẹt, quét"
+      },
+      {
+       "q": "高铁 / 动车",
+       "a": "tàu cao tốc (G) / tàu nhanh (D)"
+      },
+      {
+       "q": "补票",
+       "a": "mua bù vé"
+      },
+      {
+       "q": "闸机",
+       "a": "cổng soát vé tự động"
+      },
+      {
+       "q": "靠窗 / 过道",
+       "a": "cạnh cửa sổ / lối đi"
+      }
+     ],
+     "explain_vi": "站 = ga, trạm · 刷 = quẹt, quét · 高铁 / 动车 = tàu cao tốc (G) / tàu nhanh (D) · 补票 = mua bù vé · 闸机 = cổng soát vé tự động · 靠窗 / 过道 = cạnh cửa sổ / lối đi"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "越",
+      "手续费",
+      "高",
+      "越",
+      "晚",
+      "退票"
+     ],
+     "answers": [
+      "退票越晚手续费越高"
+     ],
+     "explain_vi": "退票越晚，手续费越高。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "就",
+      "错峰",
+      "能",
+      "错峰"
+     ],
+     "answers": [
+      "能错峰就错峰"
+     ],
+     "explain_vi": "能错峰就错峰。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "好像",
+      "我的座位",
+      "这",
+      "是"
+     ],
+     "answers": [
+      "这好像是我的座位"
+     ],
+     "explain_vi": "这好像是我的座位。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "挤得",
+      "早高峰",
+      "不行",
+      "地铁"
+     ],
+     "answers": [
+      "早高峰地铁挤得不行"
+     ],
+     "explain_vi": "早高峰地铁挤得不行。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Xin hỏi đi Thiên An Môn Đông thì đi tuyến số mấy?",
+     "acceptedAnswers": [
+      "请问去天安门东坐几号线？"
+     ],
+     "requiredKeywords": [
+      "几号线"
+     ],
+     "explain_vi": "Đáp án tham khảo: 请问去天安门东坐几号线？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Năm phút trước khi tàu chạy sẽ dừng soát vé, nhanh lên!",
+     "acceptedAnswers": [
+      "开车前五分钟停止检票，抓紧吧！"
+     ],
+     "requiredKeywords": [
+      "停止检票",
+      "抓紧"
+     ],
+     "explain_vi": "Đáp án tham khảo: 开车前五分钟停止检票，抓紧吧！"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Không sao, không sao.",
+     "acceptedAnswers": [
+      "没事儿没事儿。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 没事儿没事儿。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 先……，再/然后……",
+   "instructions_vi": "Chỉ đường hoặc hướng dẫn bằng 先……，再/然后…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(tuyến 10 đến Quốc Mậu → đổi tuyến 1 → 4 ga là tới) → ________________________________________________________",
+     "acceptedAnswers": [
+      "先坐十号线到国贸，再换乘一号线，坐四站就到了。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先坐十号线到国贸，再换乘一号线，坐四站就到了。",
+     "grammarRef": "gt-g10-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(mở Alipay → tìm \"mã đi tàu\" → quét mã vào ga) → ________________________________________________________",
+     "acceptedAnswers": [
+      "先打开支付宝，然后搜\"乘车码\"，再扫码进站。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先打开支付宝，然后搜\"乘车码\"，再扫码进站。",
+     "grammarRef": "gt-g10-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(qua kiểm tra an ninh → tìm cửa soát vé) → ________________________________________________________",
+     "acceptedAnswers": [
+      "先过安检，再找检票口。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先过安检，再找检票口。",
+     "grammarRef": "gt-g10-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(mua vé đến Nam Kinh → lên tàu mua bù vé) → ________________________________________________________",
+     "acceptedAnswers": [
+      "先买到南京的票，上车再补票。"
+     ],
+     "requiredKeywords": [
+      "先",
+      "再"
+     ],
+     "explain_vi": "Đáp án tham khảo: 先买到南京的票，上车再补票。",
+     "grammarRef": "gt-g10-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 能……就……",
+   "instructions_vi": "Hoàn thành câu với 能……就…… hoặc 能……就别…….",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "早晚高峰太挤了，______。(tránh được giờ cao điểm thì cứ tránh)",
+     "acceptedAnswers": [
+      "能错峰就错峰"
+     ],
+     "requiredKeywords": [
+      "能",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能错峰就错峰",
+     "grammarRef": "gt-g10-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "北京到上海，______。(đi được tàu cao tốc thì đừng đi máy bay)",
+     "acceptedAnswers": [
+      "能坐高铁就别坐飞机"
+     ],
+     "requiredKeywords": [
+      "能",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能坐高铁就别坐飞机",
+     "grammarRef": "gt-g10-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "现在票很难买，______。(mua được thì mua ngay)",
+     "acceptedAnswers": [
+      "能买就赶紧买"
+     ],
+     "requiredKeywords": [
+      "能",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能买就赶紧买",
+     "grammarRef": "gt-g10-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "你身体不好，______。(nghỉ được thì cứ nghỉ)",
+     "acceptedAnswers": [
+      "能休息就休息"
+     ],
+     "requiredKeywords": [
+      "能",
+      "就"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能休息就休息",
+     "grammarRef": "gt-g10-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: Tính từ + 得不行",
+   "instructions_vi": "Dùng ……得不行 để mô tả các tình huống sau.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Tàu điện giờ cao điểm đông người kinh khủng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "早高峰地铁挤得不行。"
+     ],
+     "requiredKeywords": [
+      "得不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 早高峰地铁挤得不行。",
+     "grammarRef": "gt-g10-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Thức khuya làm bài, sáng hôm sau buồn ngủ không chịu nổi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "昨天熬夜写作业，今天困得不行。"
+     ],
+     "requiredKeywords": [
+      "得不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 昨天熬夜写作业，今天困得不行。",
+     "grammarRef": "gt-g10-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Cả ngày chưa ăn gì, đói lắm rồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "一天没吃东西，饿得不行。"
+     ],
+     "requiredKeywords": [
+      "得不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一天没吃东西，饿得不行。",
+     "grammarRef": "gt-g10-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Tàu trễ hai tiếng, mọi người sốt ruột lắm. → ________________________________________________________",
+     "acceptedAnswers": [
+      "车晚点两个小时，大家急得不行。"
+     ],
+     "requiredKeywords": [
+      "得不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 车晚点两个小时，大家急得不行。",
+     "grammarRef": "gt-g10-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 越……越……",
+   "instructions_vi": "Hoàn thành câu với 越……越…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "退票______晚，手续费______高。",
+     "acceptedAnswers": [
+      "越……越……"
+     ],
+     "requiredKeywords": [
+      "越",
+      "越"
+     ],
+     "explain_vi": "Đáp án tham khảo: 越……越……",
+     "grammarRef": "gt-g10-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Càng gần Tết, vé tàu càng khó mua. → ________________________________________________________",
+     "acceptedAnswers": [
+      "离春节越近，火车票越难买。"
+     ],
+     "requiredKeywords": [
+      "越",
+      "越"
+     ],
+     "explain_vi": "Đáp án tham khảo: 离春节越近，火车票越难买。",
+     "grammarRef": "gt-g10-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Càng đi sớm, càng ít người. → ________________________________________________________",
+     "acceptedAnswers": [
+      "去得越早，人越少。"
+     ],
+     "requiredKeywords": [
+      "越",
+      "越"
+     ],
+     "explain_vi": "Đáp án tham khảo: 去得越早，人越少。",
+     "grammarRef": "gt-g10-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Tiếng Trung của anh ấy càng nói càng trôi chảy. → ________________________________________________________",
+     "acceptedAnswers": [
+      "他的中文越说越流利。",
+      "他中文越说越溜。"
+     ],
+     "requiredKeywords": [
+      "越",
+      "越"
+     ],
+     "explain_vi": "Đáp án tham khảo: 他的中文越说越流利。 / 他中文越说越溜。",
+     "grammarRef": "gt-g10-4"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 5: ……好像……",
+   "instructions_vi": "Dùng 好像 để nhắc nhở lịch sự trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g5-1",
+     "kind": "translate",
+     "prompt_vi": "Có người ngồi vào ghế 7F của bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不好意思，这好像是我的座位，7F。"
+     ],
+     "requiredKeywords": [
+      "好像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不好意思，这好像是我的座位，7F。",
+     "grammarRef": "gt-g10-5"
+    },
+    {
+     "id": "g5-2",
+     "kind": "translate",
+     "prompt_vi": "Người bán thối nhầm tiền cho bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不好意思，您好像找错钱了。"
+     ],
+     "requiredKeywords": [
+      "好像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不好意思，您好像找错钱了。",
+     "grammarRef": "gt-g10-5"
+    },
+    {
+     "id": "g5-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn thấy người bên cạnh đang ngồi nhầm toa. → ________________________________________________________",
+     "acceptedAnswers": [
+      "您好像坐错车厢了，这是12车。"
+     ],
+     "requiredKeywords": [
+      "好像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 您好像坐错车厢了，这是12车。",
+     "grammarRef": "gt-g10-5"
+    },
+    {
+     "id": "g5-4",
+     "kind": "translate",
+     "prompt_vi": "Người khác cầm nhầm vali của bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不好意思，这个行李箱好像是我的。"
+     ],
+     "requiredKeywords": [
+      "好像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不好意思，这个行李箱好像是我的。",
+     "grammarRef": "gt-g10-5"
+    }
+   ]
+  }
+ ]
+}

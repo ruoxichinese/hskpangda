@@ -1,0 +1,413 @@
+{
+ "lessonId": 20,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我{{1}}不行，喝一杯就脸红。\n（2）正对门的是{{2}}，要留给王总。\n（3）一点儿{{3}}，您一定收下。\n（4）对方{{4}}一两次很正常，你再坚持一下。\n（5）他是客户，你得给他点儿{{5}}。\n（6）吃到一半，小阮站起来给王总{{6}}。",
+     "bank": [
+      "敬酒",
+      "酒量",
+      "主位",
+      "推辞",
+      "心意",
+      "面子"
+     ],
+     "answers": [
+      "酒量",
+      "主位",
+      "心意",
+      "推辞",
+      "面子",
+      "敬酒"
+     ],
+     "explain_vi": "酒量、主位、心意、推辞、面子、敬酒"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "应酬",
+       "a": "tiếp khách"
+      },
+      {
+       "q": "以茶代酒",
+       "a": "lấy trà thay rượu"
+      },
+      {
+       "q": "前途",
+       "a": "tương lai, triển vọng"
+      },
+      {
+       "q": "转桌",
+       "a": "xoay mâm"
+      },
+      {
+       "q": "长辈",
+       "a": "bậc trên"
+      },
+      {
+       "q": "送钟 / 送终",
+       "a": "tặng đồng hồ / lo tang (đồng âm)"
+      }
+     ],
+     "explain_vi": "应酬 = tiếp khách · 以茶代酒 = lấy trà thay rượu · 前途 = tương lai, triển vọng · 转桌 = xoay mâm · 长辈 = bậc trên · 送钟 / 送终 = tặng đồng hồ / lo tang (đồng âm)"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "一杯",
+      "我",
+      "敬您",
+      "王总"
+     ],
+     "answers": [
+      "王总我敬您一杯"
+     ],
+     "explain_vi": "王总，我敬您一杯！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "代",
+      "以",
+      "茶",
+      "酒"
+     ],
+     "answers": [
+      "以茶代酒"
+     ],
+     "explain_vi": "以茶代酒。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "送终",
+      "跟",
+      "送钟",
+      "谐音"
+     ],
+     "answers": [
+      "送钟跟送终谐音"
+     ],
+     "explain_vi": "送钟跟送终谐音。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "别",
+      "千万",
+      "酒驾"
+     ],
+     "answers": [
+      "千万别酒驾"
+     ],
+     "explain_vi": "千万别酒驾。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi uống trước để tỏ lòng kính trọng!",
+     "acceptedAnswers": [
+      "我先干为敬！"
+     ],
+     "requiredKeywords": [
+      "先干为敬"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我先干为敬！"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Lúc cụng ly với sếp, miệng ly thấp hơn người ta một chút để thể hiện sự tôn trọng.",
+     "acceptedAnswers": [
+      "跟领导碰杯，杯口比对方低一点儿，表示尊重。"
+     ],
+     "requiredKeywords": [
+      "碰杯"
+     ],
+     "explain_vi": "Đáp án tham khảo: 跟领导碰杯，杯口比对方低一点儿，表示尊重。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Khách sáo một chút rồi hãy nhận, sau này tìm dịp trả ơn là được.",
+     "acceptedAnswers": [
+      "客气一下再收，回头找机会还个人情就行。"
+     ],
+     "requiredKeywords": [
+      "人情"
+     ],
+     "explain_vi": "Đáp án tham khảo: 客气一下再收，回头找机会还个人情就行。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: Khung lời mời rượu",
+   "instructions_vi": "Viết lời mời rượu theo khung 4 phần cho các đối tượng sau.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "Sếp (giám đốc Vương) – cảm ơn sự chỉ bảo. → ________________________________________________________",
+     "acceptedAnswers": [
+      "王总，我敬您一杯，感谢您这段时间的指导，我干了，您随意！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 王总，我敬您一杯，感谢您这段时间的指导，我干了，您随意！",
+     "grammarRef": "gt-g20-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "Khách hàng (quản lý Trương) – chúc hợp tác vui vẻ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "张经理，我敬您一杯，祝我们合作愉快，我干了，您随意！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 张经理，我敬您一杯，祝我们合作愉快，我干了，您随意！",
+     "grammarRef": "gt-g20-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "Đồng nghiệp (chị Lý) – cảm ơn đã giúp đỡ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "李姐，我敬你一杯，谢谢你一直帮我！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 李姐，我敬你一杯，谢谢你一直帮我！",
+     "grammarRef": "gt-g20-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Khách lớn tuổi – chúc sức khỏe. → ________________________________________________________",
+     "acceptedAnswers": [
+      "叔叔，我敬您一杯，祝您身体健康！"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 叔叔，我敬您一杯，祝您身体健康！",
+     "grammarRef": "gt-g20-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 以A代B",
+   "instructions_vi": "Từ chối uống rượu một cách lịch sự với 以A代B kèm lý do.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn phải lái xe. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我一会儿要开车，以茶代酒敬您！"
+     ],
+     "requiredKeywords": [
+      "以",
+      "代"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我一会儿要开车，以茶代酒敬您！",
+     "grammarRef": "gt-g20-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn đang uống thuốc kháng sinh. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我最近在吃药，以水代酒，敬您一杯！"
+     ],
+     "requiredKeywords": [
+      "以",
+      "代"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我最近在吃药，以水代酒，敬您一杯！",
+     "grammarRef": "gt-g20-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn không uống được rượu. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我酒量不行，以饮料代酒，谢谢您！"
+     ],
+     "requiredKeywords": [
+      "以",
+      "代"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我酒量不行，以饮料代酒，谢谢您！",
+     "grammarRef": "gt-g20-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Xin lỗi, tôi xin lấy trà thay rượu. → ________________________________________________________",
+     "acceptedAnswers": [
+      "不好意思，我以茶代酒。"
+     ],
+     "requiredKeywords": [
+      "以",
+      "代"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不好意思，我以茶代酒。",
+     "grammarRef": "gt-g20-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: A跟B谐音 / A听着像B",
+   "instructions_vi": "Giải thích các điều kiêng kỵ/may mắn sau bằng 谐音 hoặc 听着像.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Vì sao không nên tặng đồng hồ? → ________________________________________________________",
+     "acceptedAnswers": [
+      "因为\"送钟\"跟\"送终\"谐音。"
+     ],
+     "requiredKeywords": [
+      "跟",
+      "谐音"
+     ],
+     "explain_vi": "Đáp án tham khảo: 因为\"送钟\"跟\"送终\"谐音。",
+     "grammarRef": "gt-g20-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Vì sao không nên chia quả lê cho nhau? → ________________________________________________________",
+     "acceptedAnswers": [
+      "因为\"分梨\"听着像\"分离\"。"
+     ],
+     "requiredKeywords": [
+      "听着像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 因为\"分梨\"听着像\"分离\"。",
+     "grammarRef": "gt-g20-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Vì sao người Trung Quốc thích số 8? → ________________________________________________________",
+     "acceptedAnswers": [
+      "因为\"八\"听着像\"发\"，发财的发。"
+     ],
+     "requiredKeywords": [
+      "听着像"
+     ],
+     "explain_vi": "Đáp án tham khảo: 因为\"八\"听着像\"发\"，发财的发。",
+     "grammarRef": "gt-g20-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Vì sao không nên tặng ô (伞 sǎn)? → ________________________________________________________",
+     "acceptedAnswers": [
+      "因为\"伞\"跟\"散\"谐音，听着像分散。"
+     ],
+     "requiredKeywords": [
+      "跟",
+      "谐音"
+     ],
+     "explain_vi": "Đáp án tham khảo: 因为\"伞\"跟\"散\"谐音，听着像分散。",
+     "grammarRef": "gt-g20-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 千万别……",
+   "instructions_vi": "Viết lời cảnh báo với 千万别…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(không được lái xe sau khi uống rượu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "千万别酒驾。"
+     ],
+     "requiredKeywords": [
+      "千万别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 千万别酒驾。",
+     "grammarRef": "gt-g20-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(không được tặng đồng hồ cho người lớn tuổi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "千万别给老人送钟。"
+     ],
+     "requiredKeywords": [
+      "千万别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 千万别给老人送钟。",
+     "grammarRef": "gt-g20-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(không được động đũa trước sếp) → ________________________________________________________",
+     "acceptedAnswers": [
+      "领导没动筷子，千万别先动。"
+     ],
+     "requiredKeywords": [
+      "千万别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 领导没动筷子，千万别先动。",
+     "grammarRef": "gt-g20-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "(không được ép rượu khách) → ________________________________________________________",
+     "acceptedAnswers": [
+      "千万别劝客人喝酒。"
+     ],
+     "requiredKeywords": [
+      "千万别"
+     ],
+     "explain_vi": "Đáp án tham khảo: 千万别劝客人喝酒。",
+     "grammarRef": "gt-g20-4"
+    }
+   ]
+  }
+ ]
+}

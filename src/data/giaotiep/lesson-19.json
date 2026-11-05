@@ -1,0 +1,693 @@
+{
+ "id": 19,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "职场日常",
+  "pinyin": "zhí chǎng rì cháng",
+  "vi": "Văn hóa công sở"
+ },
+ "grammarTopics_vi": [
+  "已经……了，还有……要……",
+  "预计 + thời điểm + 前 + V",
+  "麻烦（您）+ V + 一下",
+  "能不能请 + ai + 帮忙 + V"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Xưng hô đúng",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Giới thiệu ngày đầu đi làm",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Báo cáo tiến độ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nhờ đồng nghiệp hỗ trợ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Nhắn tin công việc chuẩn mực",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "入职第一天",
+   "context_vi": "Bài khoá 1: 入职第一天 – Ngày đầu đi làm",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "gt-hr",
+     "zh": "给大家介绍一下，这是新同事阮明，以后在市场部。",
+     "vi": "Xin giới thiệu với mọi người, đây là đồng nghiệp mới Nguyễn Minh, từ nay làm ở phòng Marketing."
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "欢迎欢迎！",
+     "vi": "Chào mừng, chào mừng!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "王总好，各位好！我刚来，很多地方不懂，还请大家多多指教。",
+     "vi": "Chào giám đốc Vương, chào mọi người! Tôi mới đến, nhiều chỗ còn chưa hiểu, mong mọi người chỉ bảo thêm."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "别客气，有事在群里@我就行。你的工位在这边，钉钉记得下载，打卡、请假都在上面。",
+     "vi": "Đừng khách sáo, có việc gì cứ @ tôi trong nhóm là được. Chỗ ngồi của bạn ở bên này, nhớ tải DingTalk, chấm công, xin nghỉ đều trên đó."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好的，谢谢！",
+     "vi": "Vâng, cảm ơn chị!"
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g19-1",
+     "title_zh": "已经……了，还有……要……",
+     "title_vi": "Khung báo cáo tiến độ",
+     "formula": [
+      [
+       {
+        "zh": "已经……了，还有……要……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "已经……了，还有……要…… là khung báo cáo tiến độ hai vế: vế đầu nói phần đã xong (已经 + V + 了), vế sau nói phần còn lại cần làm (还有 + việc/số lượng + 要 + V). Cách báo cáo này rõ ràng, giúp sếp nắm được tình hình ngay. Ví dụ: 初稿已经完成了，还有两个数据要核对。",
+     "examples": [
+      {
+       "zh": "初稿已经完成了，还有两个数据要核对。",
+       "vi": "Bản nháp đầu đã xong, còn hai số liệu cần đối chiếu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "汇报进度",
+   "context_vi": "Bài khoá 2: 汇报进度 – Báo cáo tiến độ",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "gt-wangzong",
+     "zh": "小阮，上周那个方案进展怎么样了？",
+     "vi": "Tiểu Nguyễn, phương án tuần trước tiến triển thế nào rồi?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "初稿已经完成了，还有两个数据要跟财务对一下，预计周三前发您。",
+     "vi": "Bản nháp đầu đã xong, còn hai số liệu cần đối chiếu với phòng Tài chính, dự kiến trước thứ tư gửi anh."
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "好，抓紧。客户那边比较急，这个项目优先级最高。",
+     "vi": "Được, khẩn trương lên. Bên khách hàng khá gấp, dự án này được ưu tiên cao nhất."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "收到。另外我这边人手有点儿紧，能不能请小李帮忙做一下PPT？",
+     "vi": "Đã rõ. Ngoài ra bên tôi hơi thiếu người, có thể nhờ Tiểu Lý giúp làm PPT được không ạ?"
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "可以，你们俩对接一下。",
+     "vi": "Được, hai người phối hợp với nhau nhé."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g19-2",
+     "title_zh": "预计 + thời điểm + 前 + V",
+     "title_vi": "Cam kết mốc",
+     "formula": [
+      [
+       {
+        "zh": "预计",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "thời điểm",
+        "role": "V"
+       },
+       {
+        "zh": "前",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "预计 + thời điểm + 前 + V dùng để cam kết mốc hoàn thành: \"dự kiến trước… sẽ…\". 预计 nghe chuyên nghiệp hơn 大概 / 应该; 前 nghĩa \"trước (mốc)\". Ví dụ: 预计周三前发您 (dự kiến gửi anh trước thứ Tư). Có thể thêm 能 / 可以: 预计下班前可以完成.",
+     "examples": [
+      {
+       "zh": "预计周三前发您。",
+       "vi": "Dự kiến trước thứ tư gửi anh."
+      }
+     ]
+    },
+    {
+     "id": "gt-g19-3",
+     "title_zh": "麻烦（您）+ V + 一下",
+     "title_vi": "Nhờ lịch sự",
+     "formula": [
+      [
+       {
+        "zh": "麻烦（您）",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "一下",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "麻烦（您）+ V + 一下 là công thức nhờ vả lịch sự chuẩn mực nơi công sở. 麻烦 = \"phiền (anh/chị)\", 一下 làm hành động nhẹ đi, ngắn gọn. Có thể thêm 有空 để mềm hơn: 麻烦您有空看一下. Khi nhờ đồng nghiệp ngang cấp có thể bỏ 您: 麻烦帮我转发一下.",
+     "examples": [
+      {
+       "zh": "麻烦您看一下。",
+       "vi": "Phiền anh xem giúp."
+      },
+      {
+       "zh": "麻烦帮我转发一下。",
+       "vi": "Phiền bạn chuyển tiếp giúp tôi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g19-4",
+     "title_zh": "能不能请 + ai + 帮忙 + V",
+     "title_vi": "Xin hỗ trợ qua sếp",
+     "formula": [
+      [
+       {
+        "zh": "能不能请",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "ai",
+        "role": "V"
+       },
+       {
+        "zh": "帮忙",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "能不能请 + người + 帮忙 + V là cách xin hỗ trợ thông qua cấp trên: bạn hỏi sếp xem có thể nhờ một đồng nghiệp khác giúp không. 请 thể hiện sự tôn trọng với người được nhờ; 能不能 làm câu mang tính thương lượng, không ép buộc. Thường đi kèm lý do: 我这边人手有点儿紧，能不能请小李帮忙做一下PPT？",
+     "examples": [
+      {
+       "zh": "能不能请小李帮忙做一下PPT？",
+       "vi": "Có thể nhờ Tiểu Lý giúp làm PPT được không?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "工作消息",
+   "context_vi": "Bài khoá 3: 工作消息 – Tin nhắn công việc",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（企业微信）王总，打扰了。方案已发到您邮箱，麻烦您有空看一下，有问题随时沟通～",
+     "vi": "(WeChat công việc) Anh Vương, xin lỗi đã làm phiền. Phương án đã gửi vào email của anh, phiền anh lúc rảnh xem giúp, có vấn đề gì cứ trao đổi ạ~"
+    },
+    {
+     "speaker": "gt-wangzong",
+     "zh": "收到，辛苦。",
+     "vi": "Nhận được rồi, vất vả rồi."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "（私聊）给领导发消息别加\"～\"，显得太随意。也别只发\"在吗\"，直接说事儿。",
+     "vi": "(Nhắn riêng) Nhắn cho sếp đừng thêm dấu \"~\", trông tuỳ tiện quá. Cũng đừng chỉ gửi mỗi câu \"Có ở đó không?\", nói thẳng vào việc luôn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "学到了，谢谢提醒！",
+     "vi": "Học được rồi, cảm ơn chị đã nhắc!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "领导",
+     "pinyin": "lǐngdǎo",
+     "vi": "sếp, cấp trên",
+     "example": {
+      "zh": "（私聊）给领导发消息别加\"～\"，显得太随意。也别只发\"在吗\"，直接说事儿。",
+      "vi": "(Nhắn riêng) Nhắn cho sếp đừng thêm dấu \"~\", trông tuỳ tiện quá. Cũng đừng chỉ gửi mỗi câu \"Có ở đó không?\", nói thẳng vào việc luôn."
+     }
+    },
+    {
+     "zh": "王总 / 张经理",
+     "pinyin": "Wáng zǒng / Zhāng jīnglǐ",
+     "vi": "Giám đốc Vương / Quản lý Trương"
+    },
+    {
+     "zh": "同事",
+     "pinyin": "tóngshì",
+     "vi": "đồng nghiệp",
+     "example": {
+      "zh": "给大家介绍一下，这是新同事阮明，以后在市场部。",
+      "vi": "Xin giới thiệu với mọi người, đây là đồng nghiệp mới Nguyễn Minh, từ nay làm ở phòng Marketing."
+     }
+    },
+    {
+     "zh": "部门",
+     "pinyin": "bùmén",
+     "vi": "bộ phận"
+    },
+    {
+     "zh": "入职 / 离职",
+     "pinyin": "rùzhí / lízhí",
+     "vi": "vào làm / nghỉ việc"
+    },
+    {
+     "zh": "多多指教",
+     "pinyin": "duōduō zhǐjiào",
+     "vi": "mong được chỉ bảo",
+     "example": {
+      "zh": "王总好，各位好！我刚来，很多地方不懂，还请大家多多指教。",
+      "vi": "Chào giám đốc Vương, chào mọi người! Tôi mới đến, nhiều chỗ còn chưa hiểu, mong mọi người chỉ bảo thêm."
+     }
+    },
+    {
+     "zh": "工位",
+     "pinyin": "gōngwèi",
+     "vi": "bàn làm việc",
+     "example": {
+      "zh": "别客气，有事在群里@我就行。你的工位在这边，钉钉记得下载，打卡、请假都在上面。",
+      "vi": "Đừng khách sáo, có việc gì cứ @ tôi trong nhóm là được. Chỗ ngồi của bạn ở bên này, nhớ tải DingTalk, chấm công, xin nghỉ đều trên đó."
+     }
+    },
+    {
+     "zh": "钉钉 / 企业微信 / 飞书",
+     "pinyin": "Dīngding / Qǐyè Wēixìn / Fēishū",
+     "vi": "các app làm việc văn phòng"
+    },
+    {
+     "zh": "打卡",
+     "pinyin": "dǎkǎ",
+     "vi": "chấm công",
+     "example": {
+      "zh": "别客气，有事在群里@我就行。你的工位在这边，钉钉记得下载，打卡、请假都在上面。",
+      "vi": "Đừng khách sáo, có việc gì cứ @ tôi trong nhóm là được. Chỗ ngồi của bạn ở bên này, nhớ tải DingTalk, chấm công, xin nghỉ đều trên đó."
+     }
+    },
+    {
+     "zh": "@",
+     "pinyin": "ài tè",
+     "vi": "tag tên trong nhóm",
+     "example": {
+      "zh": "别客气，有事在群里@我就行。你的工位在这边，钉钉记得下载，打卡、请假都在上面。",
+      "vi": "Đừng khách sáo, có việc gì cứ @ tôi trong nhóm là được. Chỗ ngồi của bạn ở bên này, nhớ tải DingTalk, chấm công, xin nghỉ đều trên đó."
+     }
+    },
+    {
+     "zh": "方案",
+     "pinyin": "fāng'àn",
+     "vi": "phương án, đề xuất",
+     "example": {
+      "zh": "小阮，上周那个方案进展怎么样了？",
+      "vi": "Tiểu Nguyễn, phương án tuần trước tiến triển thế nào rồi?"
+     }
+    },
+    {
+     "zh": "进展",
+     "pinyin": "jìnzhǎn",
+     "vi": "tiến triển",
+     "example": {
+      "zh": "小阮，上周那个方案进展怎么样了？",
+      "vi": "Tiểu Nguyễn, phương án tuần trước tiến triển thế nào rồi?"
+     }
+    },
+    {
+     "zh": "初稿",
+     "pinyin": "chūgǎo",
+     "vi": "bản nháp đầu",
+     "example": {
+      "zh": "初稿已经完成了，还有两个数据要跟财务对一下，预计周三前发您。",
+      "vi": "Bản nháp đầu đã xong, còn hai số liệu cần đối chiếu với phòng Tài chính, dự kiến trước thứ tư gửi anh."
+     }
+    },
+    {
+     "zh": "对（数据）",
+     "pinyin": "duì (shùjù)",
+     "vi": "đối chiếu số liệu"
+    },
+    {
+     "zh": "优先级",
+     "pinyin": "yōuxiān jí",
+     "vi": "mức ưu tiên",
+     "example": {
+      "zh": "好，抓紧。客户那边比较急，这个项目优先级最高。",
+      "vi": "Được, khẩn trương lên. Bên khách hàng khá gấp, dự án này được ưu tiên cao nhất."
+     }
+    },
+    {
+     "zh": "抓紧",
+     "pinyin": "zhuājǐn",
+     "vi": "khẩn trương",
+     "example": {
+      "zh": "好，抓紧。客户那边比较急，这个项目优先级最高。",
+      "vi": "Được, khẩn trương lên. Bên khách hàng khá gấp, dự án này được ưu tiên cao nhất."
+     }
+    },
+    {
+     "zh": "收到",
+     "pinyin": "shōudào",
+     "vi": "đã nhận (thay cho \"ok\")",
+     "example": {
+      "zh": "收到。另外我这边人手有点儿紧，能不能请小李帮忙做一下PPT？",
+      "vi": "Đã rõ. Ngoài ra bên tôi hơi thiếu người, có thể nhờ Tiểu Lý giúp làm PPT được không ạ?"
+     }
+    },
+    {
+     "zh": "人手紧",
+     "pinyin": "rénshǒu jǐn",
+     "vi": "thiếu người"
+    },
+    {
+     "zh": "对接",
+     "pinyin": "duìjiē",
+     "vi": "phối hợp, làm việc trực tiếp với nhau",
+     "example": {
+      "zh": "可以，你们俩对接一下。",
+      "vi": "Được, hai người phối hợp với nhau nhé."
+     }
+    },
+    {
+     "zh": "跟进",
+     "pinyin": "gēnjìn",
+     "vi": "theo sát, follow up"
+    },
+    {
+     "zh": "沟通",
+     "pinyin": "gōutōng",
+     "vi": "trao đổi",
+     "example": {
+      "zh": "（企业微信）王总，打扰了。方案已发到您邮箱，麻烦您有空看一下，有问题随时沟通～",
+      "vi": "(WeChat công việc) Anh Vương, xin lỗi đã làm phiền. Phương án đã gửi vào email của anh, phiền anh lúc rảnh xem giúp, có vấn đề gì cứ trao đổi ạ~"
+     }
+    },
+    {
+     "zh": "周报",
+     "pinyin": "zhōubào",
+     "vi": "báo cáo tuần"
+    },
+    {
+     "zh": "复盘",
+     "pinyin": "fùpán",
+     "vi": "rút kinh nghiệm sau dự án"
+    },
+    {
+     "zh": "对齐",
+     "pinyin": "duìqí",
+     "vi": "thống nhất (thông tin, mục tiêu)"
+    },
+    {
+     "zh": "甩锅 / 背锅",
+     "pinyin": "shuǎi guō / bēi guō",
+     "vi": "đổ lỗi / gánh tội thay"
+    },
+    {
+     "zh": "摸鱼",
+     "pinyin": "mō yú",
+     "vi": "lười, làm việc riêng trong giờ"
+    },
+    {
+     "zh": "加班",
+     "pinyin": "jiābān",
+     "vi": "tăng ca"
+    },
+    {
+     "zh": "调休",
+     "pinyin": "tiáoxiū",
+     "vi": "nghỉ bù"
+    },
+    {
+     "zh": "年假",
+     "pinyin": "niánjià",
+     "vi": "nghỉ phép năm"
+    },
+    {
+     "zh": "请假",
+     "pinyin": "qǐngjià",
+     "vi": "xin nghỉ",
+     "example": {
+      "zh": "别客气，有事在群里@我就行。你的工位在这边，钉钉记得下载，打卡、请假都在上面。",
+      "vi": "Đừng khách sáo, có việc gì cứ @ tôi trong nhóm là được. Chỗ ngồi của bạn ở bên này, nhớ tải DingTalk, chấm công, xin nghỉ đều trên đó."
+     }
+    },
+    {
+     "zh": "打扰了",
+     "pinyin": "dǎrǎo le",
+     "vi": "xin làm phiền",
+     "example": {
+      "zh": "（企业微信）王总，打扰了。方案已发到您邮箱，麻烦您有空看一下，有问题随时沟通～",
+      "vi": "(WeChat công việc) Anh Vương, xin lỗi đã làm phiền. Phương án đã gửi vào email của anh, phiền anh lúc rảnh xem giúp, có vấn đề gì cứ trao đổi ạ~"
+     }
+    },
+    {
+     "zh": "学到了",
+     "pinyin": "xué dào le",
+     "vi": "học được rồi (cảm ơn góp ý)",
+     "example": {
+      "zh": "学到了，谢谢提醒！",
+      "vi": "Học được rồi, cảm ơn chị đã nhắc!"
+     }
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "这个项目___最高，大家抓紧。",
+   "bank": [
+    "优先级",
+    "对接",
+    "收到"
+   ],
+   "answer": "优先级"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "王总说完以后，我回复了一句\"___\"。",
+   "bank": [
+    "请假",
+    "优先级",
+    "收到"
+   ],
+   "answer": "收到"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "每天上班要在钉钉上___。",
+   "bank": [
+    "对接",
+    "请假",
+    "打卡"
+   ],
+   "answer": "打卡"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "你们俩___一下，有问题直接沟通。",
+   "bank": [
+    "打卡",
+    "对接",
+    "摸鱼"
+   ],
+   "answer": "对接"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "上班的时候刷手机，被领导发现在___。",
+   "bank": [
+    "请假",
+    "摸鱼",
+    "优先级"
+   ],
+   "answer": "摸鱼"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我周五想___一天，回老家。",
+   "bank": [
+    "打卡",
+    "请假",
+    "优先级"
+   ],
+   "answer": "请假"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "前",
+    "预计",
+    "发您",
+    "周三"
+   ],
+   "answers": [
+    "预计周三前发您"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "一下",
+    "麻烦您",
+    "看",
+    "有空"
+   ],
+   "answers": [
+    "麻烦您有空看一下"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "多多指教",
+    "请",
+    "还",
+    "大家"
+   ],
+   "answers": [
+    "还请大家多多指教"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "已经",
+    "了",
+    "完成",
+    "初稿"
+   ],
+   "answers": [
+    "初稿已经完成了"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "王总 / 张经理",
+     "a": "Giám đốc Vương / Quản lý Trương"
+    },
+    {
+     "q": "多多指教",
+     "a": "mong được chỉ bảo"
+    },
+    {
+     "q": "方案",
+     "a": "phương án, đề xuất"
+    },
+    {
+     "q": "抓紧",
+     "a": "khẩn trương"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Ngày đầu tiên đi làm ở một công ty mới, bạn sẽ nói gì để giới thiệu bản thân?",
+   "Khởi động: Ở Việt Nam, bạn nhắn tin công việc cho sếp như thế nào? Có dùng sticker hay biểu tượng cảm xúc không?",
+   "晨会模拟 Họp giao ban (10 phút): mỗi người đóng 1 vị trí, báo cáo 45 giây theo khung \"昨天做了…今天要做…遇到的问题是…\". \"Sếp\" (giáo viên) hỏi vặn 1 câu.",
+   "职场黑话翻译 Dịch \"tiếng lóng công sở\" (8 phút): các nhóm dịch các câu kiểu 我们要对齐颗粒度，找到抓手，形成闭环 sang tiếng Trung thông thường, rồi sang tiếng Việt.",
+   "Nhiệm vụ thực tế: viết 1 tin nhắn báo cáo tiến độ và 1 tin nhắn xin nghỉ phép gửi \"sếp\" trong nhóm lớp."
+  ],
+  "patterns": [
+   {
+    "zh": "初稿已经完成了，还有两个数据要核对。",
+    "vi": "Bản nháp đầu đã xong, còn hai số liệu cần đối chiếu."
+   },
+   {
+    "zh": "预计周三前发您。",
+    "vi": "Dự kiến trước thứ tư gửi anh."
+   },
+   {
+    "zh": "麻烦您看一下。",
+    "vi": "Phiền anh xem giúp."
+   },
+   {
+    "zh": "能不能请小李帮忙做一下PPT？",
+    "vi": "Có thể nhờ Tiểu Lý giúp làm PPT được không?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "职场黑话\" và chuyện tăng ca Các công ty internet có một bộ \"ngôn ngữ công sở\" riêng (对齐, 抓手, 赋能, 闭环, 颗粒度) mà người trong ngành vừa dùng vừa tự giễu. Chuyện tăng ca, \"摸鱼\", \"打工人\" là chủ đề than thở phổ biến. Người nước ngoài nên hiểu để nói chuyện cùng, nhưng khi viết văn bản chính thức nên dùng từ ngữ rõ ràng. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"职场黑话\" và chuyện tăng ca Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Xưng hô: họ + chức danh (王总, 李经理, 张老师); nhiều công ty công nghệ và nước ngoài dùng tên tiếng Anh. Ngày đầu hãy hỏi: 我该怎么称呼您？",
+   "Ứng xử: Nhận việc từ sếp: trả lời \"收到\" hoặc \"好的，收到\" ngay, không \"已读不回\".",
+   "Ứng xử: Tin nhắn cho cấp trên theo khung: chào + nội dung + đề nghị + cảm ơn, gom trong một tin, không gửi \"在吗？\" rồi đợi.",
+   "Ứng xử: Xin nghỉ: nói lý do, thời gian và người thay thế. 我周五想请一天年假，手上的工作已经跟小李交接好了。"
+  ]
+ }
+}

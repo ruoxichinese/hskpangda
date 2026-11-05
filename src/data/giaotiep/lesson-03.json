@@ -1,0 +1,741 @@
+{
+ "id": 3,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "下馆子",
+  "pinyin": "xià guǎn zi",
+  "vi": "Đi ăn nhà hàng"
+ },
+ "grammarTopics_vi": [
+  "来 + số lượng + món",
+  "V得了 / V不了",
+  "说好……的",
+  "能不能/能……吗 + yêu cầu đặc biệt"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Lấy số chờ bàn",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Gọi món theo khẩu vị",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dặn kiêng",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Tính tiền",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Gói mang về",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Xin hóa đơn",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "排队等位",
+   "context_vi": "Bài khoá 1: 排队等位 – Xếp hàng chờ bàn",
+   "scene": "🍲",
+   "lines": [
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "您好，请问几位？有预约吗？",
+     "vi": "Xin chào, cho hỏi mấy người ạ? Có đặt bàn trước không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没预约，四个人，现在有位吗？",
+     "vi": "Không đặt trước, bốn người, giờ còn chỗ không?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "大厅满了，您先取个号，前面还有六桌，大概等半小时。",
+     "vi": "Sảnh kín chỗ rồi, anh lấy số trước nhé, phía trước còn sáu bàn, chờ khoảng nửa tiếng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "包间呢？",
+     "vi": "Thế phòng riêng thì sao?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "包间有最低消费，八百起。",
+     "vi": "Phòng riêng có mức chi tối thiểu, từ tám trăm trở lên."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那算了，我们排队吧。能扫码排号吗？",
+     "vi": "Thôi vậy, chúng tôi xếp hàng. Quét mã lấy số được không?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "可以，到号了给您发短信。等位区有免费的瓜子和饮料。",
+     "vi": "Được ạ, đến lượt sẽ nhắn tin cho anh. Khu chờ có hạt dưa và đồ uống miễn phí."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "下馆子",
+     "pinyin": "xià guǎnzi",
+     "vi": "đi ăn tiệm"
+    },
+    {
+     "zh": "预约 / 订位",
+     "pinyin": "yùyuē / dìng wèi",
+     "vi": "đặt trước / đặt bàn"
+    },
+    {
+     "zh": "几位",
+     "pinyin": "jǐ wèi",
+     "vi": "mấy người (lịch sự)",
+     "example": {
+      "zh": "您好，请问几位？有预约吗？",
+      "vi": "Xin chào, cho hỏi mấy người ạ? Có đặt bàn trước không?"
+     }
+    },
+    {
+     "zh": "取号 / 排号",
+     "pinyin": "qǔ hào / pái hào",
+     "vi": "lấy số thứ tự"
+    },
+    {
+     "zh": "等位",
+     "pinyin": "děng wèi",
+     "vi": "chờ bàn",
+     "example": {
+      "zh": "可以，到号了给您发短信。等位区有免费的瓜子和饮料。",
+      "vi": "Được ạ, đến lượt sẽ nhắn tin cho anh. Khu chờ có hạt dưa và đồ uống miễn phí."
+     }
+    },
+    {
+     "zh": "前面还有……桌",
+     "pinyin": "qiánmiàn hái yǒu… zhuō",
+     "vi": "phía trước còn… bàn"
+    },
+    {
+     "zh": "大厅",
+     "pinyin": "dàtīng",
+     "vi": "sảnh chung",
+     "example": {
+      "zh": "大厅满了，您先取个号，前面还有六桌，大概等半小时。",
+      "vi": "Sảnh kín chỗ rồi, anh lấy số trước nhé, phía trước còn sáu bàn, chờ khoảng nửa tiếng."
+     }
+    },
+    {
+     "zh": "包间",
+     "pinyin": "bāojiān",
+     "vi": "phòng riêng",
+     "example": {
+      "zh": "包间呢？",
+      "vi": "Thế phòng riêng thì sao?"
+     }
+    },
+    {
+     "zh": "最低消费",
+     "pinyin": "zuìdī xiāofèi",
+     "vi": "mức chi tối thiểu",
+     "example": {
+      "zh": "包间有最低消费，八百起。",
+      "vi": "Phòng riêng có mức chi tối thiểu, từ tám trăm trở lên."
+     }
+    },
+    {
+     "zh": "算了",
+     "pinyin": "suàn le",
+     "vi": "thôi bỏ đi",
+     "example": {
+      "zh": "那算了，我们排队吧。能扫码排号吗？",
+      "vi": "Thôi vậy, chúng tôi xếp hàng. Quét mã lấy số được không?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g3-1",
+     "title_zh": "来 + số lượng + món",
+     "title_vi": "Cách gọi món tự nhiên nhất",
+     "formula": [
+      [
+       {
+        "zh": "来",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "số lượng",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "món",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Khi gọi món, người Trung Quốc rất hay dùng 来 thay cho 要 hay 点: 来 + số lượng + lượng từ + món. Cách nói này ngắn gọn, thân mật và rất tự nhiên ở nhà hàng. Gọi thêm dùng 再来…… Lượng từ thường gặp: 一份 (một phần), 一碗 (một bát), 一瓶 (một chai), 一盘 (một đĩa), 半份 (nửa phần).",
+     "examples": [
+      {
+       "zh": "来一份毛肚，再来两瓶啤酒。",
+       "vi": "Cho một phần lá sách bò, thêm hai chai bia."
+      }
+     ]
+    },
+    {
+     "id": "gt-g3-2",
+     "title_zh": "V得了 / V不了",
+     "title_vi": "Khả năng chịu được",
+     "formula": [
+      [
+       {
+        "zh": "V得了 / V不了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "V得了 / V不了 là bổ ngữ khả năng với 了 (đọc liǎo), diễn đạt việc có đủ khả năng/sức chịu đựng để làm hay không. 吃不了辣 = không ăn cay được (do cơ thể không chịu nổi); 吃不了这么多 = ăn không hết nhiều thế. Câu hỏi: V得了V不了？ hoặc V得了吗？ Phân biệt: 不能吃 thường mang nghĩa \"không được phép/không nên ăn\", còn 吃不了 là \"không kham nổi\".",
+     "examples": [
+      {
+       "zh": "我吃不了辣。",
+       "vi": "Tôi không ăn được cay."
+      },
+      {
+       "zh": "四个人吃得了这么多吗？",
+       "vi": "Bốn người ăn hết chừng này không?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "点菜",
+   "context_vi": "Bài khoá 2: 点菜 – Gọi món lẩu",
+   "scene": "🍲",
+   "lines": [
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "几位想吃点儿什么？",
+     "vi": "Mọi người muốn ăn gì ạ?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你们家招牌菜是什么？",
+     "vi": "Món đặc trưng của quán là gì?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "毛肚、鸭肠，还有我们自己打的虾滑。",
+     "vi": "Lá sách bò, lòng vịt, còn có chả tôm quán tự làm."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "锅底要鸳鸯的吧，一半辣一半不辣。",
+     "vi": "Nồi lẩu lấy uyên ương nhé, một nửa cay một nửa không cay."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "红锅能做微辣吗？我吃不了太辣。",
+     "vi": "Nồi đỏ làm cay ít được không? Tôi không ăn được cay quá."
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "可以。有没有忌口？香菜、葱花要吗？",
+     "vi": "Được ạ. Có kiêng gì không? Có lấy rau mùi, hành lá không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我不吃香菜，别的都行。毛肚来一份，虾滑来半份。",
+     "vi": "Tôi không ăn rau mùi, còn lại đều được. Cho một phần lá sách, nửa phần chả tôm."
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "好的。小料台在那边，调料自己调。",
+     "vi": "Vâng ạ. Quầy nước chấm ở bên kia, gia vị mọi người tự pha."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "招牌菜",
+     "pinyin": "zhāopáicài",
+     "vi": "món đặc trưng của quán",
+     "example": {
+      "zh": "你们家招牌菜是什么？",
+      "vi": "Món đặc trưng của quán là gì?"
+     }
+    },
+    {
+     "zh": "锅底",
+     "pinyin": "guōdǐ",
+     "vi": "nước lẩu",
+     "example": {
+      "zh": "锅底要鸳鸯的吧，一半辣一半不辣。",
+      "vi": "Nồi lẩu lấy uyên ương nhé, một nửa cay một nửa không cay."
+     }
+    },
+    {
+     "zh": "鸳鸯锅",
+     "pinyin": "yuānyāng guō",
+     "vi": "nồi lẩu hai ngăn"
+    },
+    {
+     "zh": "微辣 / 中辣 / 特辣",
+     "pinyin": "wēi / zhōng / tè là",
+     "vi": "cay nhẹ / vừa / rất cay"
+    },
+    {
+     "zh": "吃不了",
+     "pinyin": "chī bu liǎo",
+     "vi": "không ăn được",
+     "example": {
+      "zh": "红锅能做微辣吗？我吃不了太辣。",
+      "vi": "Nồi đỏ làm cay ít được không? Tôi không ăn được cay quá."
+     }
+    },
+    {
+     "zh": "忌口",
+     "pinyin": "jìkǒu",
+     "vi": "kiêng ăn",
+     "example": {
+      "zh": "可以。有没有忌口？香菜、葱花要吗？",
+      "vi": "Được ạ. Có kiêng gì không? Có lấy rau mùi, hành lá không?"
+     }
+    },
+    {
+     "zh": "香菜",
+     "pinyin": "xiāngcài",
+     "vi": "rau mùi",
+     "example": {
+      "zh": "可以。有没有忌口？香菜、葱花要吗？",
+      "vi": "Được ạ. Có kiêng gì không? Có lấy rau mùi, hành lá không?"
+     }
+    },
+    {
+     "zh": "葱花",
+     "pinyin": "cōnghuā",
+     "vi": "hành lá thái nhỏ",
+     "example": {
+      "zh": "可以。有没有忌口？香菜、葱花要吗？",
+      "vi": "Được ạ. Có kiêng gì không? Có lấy rau mùi, hành lá không?"
+     }
+    },
+    {
+     "zh": "来一份",
+     "pinyin": "lái yí fèn",
+     "vi": "cho một phần",
+     "example": {
+      "zh": "我不吃香菜，别的都行。毛肚来一份，虾滑来半份。",
+      "vi": "Tôi không ăn rau mùi, còn lại đều được. Cho một phần lá sách, nửa phần chả tôm."
+     }
+    },
+    {
+     "zh": "半份",
+     "pinyin": "bàn fèn",
+     "vi": "nửa phần",
+     "example": {
+      "zh": "我不吃香菜，别的都行。毛肚来一份，虾滑来半份。",
+      "vi": "Tôi không ăn rau mùi, còn lại đều được. Cho một phần lá sách, nửa phần chả tôm."
+     }
+    },
+    {
+     "zh": "小料台",
+     "pinyin": "xiǎoliào tái",
+     "vi": "quầy nước chấm tự chọn",
+     "example": {
+      "zh": "好的。小料台在那边，调料自己调。",
+      "vi": "Vâng ạ. Quầy nước chấm ở bên kia, gia vị mọi người tự pha."
+     }
+    },
+    {
+     "zh": "调料",
+     "pinyin": "tiáoliào",
+     "vi": "gia vị",
+     "example": {
+      "zh": "好的。小料台在那边，调料自己调。",
+      "vi": "Vâng ạ. Quầy nước chấm ở bên kia, gia vị mọi người tự pha."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g3-4",
+     "title_zh": "能不能/能……吗 + yêu cầu đặc biệt",
+     "title_vi": "能不能/能……吗 + yêu cầu đặc biệt",
+     "formula": [
+      [
+       {
+        "zh": "能不能/能……吗",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "yêu cầu đặc biệt",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "能……吗？/ 能不能……？ dùng để đưa ra yêu cầu đặc biệt hoặc hỏi xem việc gì đó có thể thực hiện được không, lịch sự hơn mệnh lệnh trực tiếp. 能不能 (dạng chính phản) nghe mềm và thương lượng hơn một chút. Muốn lịch sự hơn nữa thêm 请问 / 麻烦 ở đầu câu. Trả lời: 能 / 可以 / 不行.",
+     "examples": [
+      {
+       "zh": "能做微辣吗？",
+       "vi": "Làm cay ít được không?"
+      },
+      {
+       "zh": "能换个靠窗的位子吗？",
+       "vi": "Đổi giúp tôi chỗ gần cửa sổ được không?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "买单打包",
+   "context_vi": "Bài khoá 3: 买单打包 – Tính tiền và gói về",
+   "scene": "🍲",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "服务员，买单！这几个菜帮我们打包一下。",
+     "vi": "Phục vụ ơi, tính tiền! Mấy món này gói mang về giúp chúng tôi."
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "好的，打包盒一个两块。一共四百二十六，给您抹个零，四百二。",
+     "vi": "Vâng, hộp đựng hai tệ một cái. Tổng cộng bốn trăm hai mươi sáu, bớt số lẻ cho anh, bốn trăm hai."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "今天我来！",
+     "vi": "Hôm nay để mình!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "别别别，说好AA的。我在群里发个群收款吧。",
+     "vi": "Đừng đừng, đã nói chia đều mà. Để mình tạo thu tiền nhóm trong group."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "行，那下回你请我喝奶茶。",
+     "vi": "Được, vậy lần sau cậu mời mình trà sữa."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没问题！对了，能开发票吗？",
+     "vi": "Không thành vấn đề! À, xuất hoá đơn được không ạ?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "可以，扫这个码填一下抬头就行。",
+     "vi": "Được ạ, quét mã này điền tên đơn vị là được."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "买单 / 结账",
+     "pinyin": "mǎidān / jiézhàng",
+     "vi": "tính tiền"
+    },
+    {
+     "zh": "打包",
+     "pinyin": "dǎbāo",
+     "vi": "gói mang về",
+     "example": {
+      "zh": "服务员，买单！这几个菜帮我们打包一下。",
+      "vi": "Phục vụ ơi, tính tiền! Mấy món này gói mang về giúp chúng tôi."
+     }
+    },
+    {
+     "zh": "打包盒",
+     "pinyin": "dǎbāo hé",
+     "vi": "hộp mang về",
+     "example": {
+      "zh": "好的，打包盒一个两块。一共四百二十六，给您抹个零，四百二。",
+      "vi": "Vâng, hộp đựng hai tệ một cái. Tổng cộng bốn trăm hai mươi sáu, bớt số lẻ cho anh, bốn trăm hai."
+     }
+    },
+    {
+     "zh": "抹零",
+     "pinyin": "mǒ líng",
+     "vi": "bỏ số lẻ"
+    },
+    {
+     "zh": "我来",
+     "pinyin": "wǒ lái",
+     "vi": "để tôi (trả)",
+     "example": {
+      "zh": "今天我来！",
+      "vi": "Hôm nay để mình!"
+     }
+    },
+    {
+     "zh": "说好的",
+     "pinyin": "shuō hǎo de",
+     "vi": "đã hứa/thỏa thuận rồi"
+    },
+    {
+     "zh": "群收款",
+     "pinyin": "qún shōukuǎn",
+     "vi": "thu tiền nhóm trên WeChat",
+     "example": {
+      "zh": "别别别，说好AA的。我在群里发个群收款吧。",
+      "vi": "Đừng đừng, đã nói chia đều mà. Để mình tạo thu tiền nhóm trong group."
+     }
+    },
+    {
+     "zh": "开发票",
+     "pinyin": "kāi fāpiào",
+     "vi": "xuất hóa đơn",
+     "example": {
+      "zh": "没问题！对了，能开发票吗？",
+      "vi": "Không thành vấn đề! À, xuất hoá đơn được không ạ?"
+     }
+    },
+    {
+     "zh": "抬头",
+     "pinyin": "táitóu",
+     "vi": "tên đơn vị trên hóa đơn",
+     "example": {
+      "zh": "可以，扫这个码填一下抬头就行。",
+      "vi": "Được ạ, quét mã này điền tên đơn vị là được."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g3-3",
+     "title_zh": "说好……的",
+     "title_vi": "Nhắc lại thỏa thuận",
+     "formula": [
+      [
+       {
+        "zh": "说好……的",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "说好……的 nghĩa là \"đã nói/hứa rồi mà\", dùng để nhắc lại một thỏa thuận trước đó, thường kèm sắc thái nhắc nhở hoặc trách nhẹ khi đối phương không làm đúng. Có thể theo sau bằng câu hỏi với 怎么 để phản bác: 说好七点见的，你怎么还没到？ Từ 说好的 cũng có thể dùng độc lập: 这是说好的！",
+     "examples": [
+      {
+       "zh": "说好AA的。",
+       "vi": "Đã nói là chia đều mà."
+      },
+      {
+       "zh": "说好七点见的，你怎么还没到？",
+       "vi": "Đã hẹn bảy giờ gặp, sao bạn vẫn chưa đến?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "吃不完的菜，服务员，帮我们___一下。",
+   "bank": [
+    "招牌菜",
+    "打包",
+    "忌口"
+   ],
+   "answer": "打包"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "你们家的___是什么？",
+   "bank": [
+    "包间",
+    "忌口",
+    "招牌菜"
+   ],
+   "answer": "招牌菜"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "一共四百二十六，给您___，四百二。",
+   "bank": [
+    "抹零",
+    "招牌菜",
+    "打包"
+   ],
+   "answer": "抹零"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "大厅满了，您先___，前面还有六桌。",
+   "bank": [
+    "包间",
+    "取号",
+    "招牌菜"
+   ],
+   "answer": "取号"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "___有最低消费，八百起。",
+   "bank": [
+    "包间",
+    "取号",
+    "打包"
+   ],
+   "answer": "包间"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "请问有没有___？香菜要吗？",
+   "bank": [
+    "忌口",
+    "抹零",
+    "招牌菜"
+   ],
+   "answer": "忌口"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "吃不了",
+    "太辣",
+    "我",
+    "的"
+   ],
+   "answers": [
+    "我吃不了太辣的"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "AA",
+    "说好",
+    "的"
+   ],
+   "answers": [
+    "说好AA的"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "吗",
+    "微辣",
+    "红锅",
+    "做",
+    "能"
+   ],
+   "answers": [
+    "红锅能做微辣吗"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "还有",
+    "前面",
+    "六桌"
+   ],
+   "answers": [
+    "前面还有六桌"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "预约 / 订位",
+     "a": "đặt trước / đặt bàn"
+    },
+    {
+     "q": "前面还有……桌",
+     "a": "phía trước còn… bàn"
+    },
+    {
+     "q": "锅底",
+     "a": "nước lẩu"
+    },
+    {
+     "q": "香菜",
+     "a": "rau mùi"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Khi đi ăn với bạn bè ở Việt Nam, ai thường là người trả tiền? Có hay chia đều không?",
+   "Khởi động: Bạn có kiêng món gì không? Bạn sẽ nói điều đó với nhân viên phục vụ thế nào?",
+   "神秘顾客 Khách hàng bí ẩn (12 phút): 1 bạn làm phục vụ, 3 bạn làm khách, mỗi khách bốc thẻ yêu cầu bí mật (ăn chay, dị ứng đậu phộng, muốn ngồi gần cửa sổ, chỉ có 100 tệ). Phục vụ phải hỏi ra hết yêu cầu và gọi món đúng.",
+   "抢买单大战 Tranh trả tiền (6 phút): cặp đôi tranh nhau trả, mỗi người phải đưa 3 lý do khác nhau (我比你大, 上次你请的, 我刚发工资…). Người hết lý do trước thua.",
+   "Nhiệm vụ thực tế: chọn 1 nhà hàng trên 大众点评, ghi âm màn gọi món cho 4 người với 2 yêu cầu đặc biệt."
+  ],
+  "patterns": [
+   {
+    "zh": "来一份毛肚，再来两瓶啤酒。",
+    "vi": "Cho một phần lá sách bò, thêm hai chai bia."
+   },
+   {
+    "zh": "我吃不了辣。",
+    "vi": "Tôi không ăn được cay."
+   },
+   {
+    "zh": "能做微辣吗？",
+    "vi": "Làm cay ít được không?"
+   },
+   {
+    "zh": "说好AA的。",
+    "vi": "Đã nói là chia đều mà."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "bàn ăn là nơi giữ",
+  "body_vi": [
+   "\"mặt mũi\" Người mời thường gọi dư món, vì ăn hết sạch có thể hiểu là chưa đủ. Mẹo chung là \"số món = số người + 1\". Sau dịch, nhiều nhà hàng khuyến khích 公筷公勺 (đũa muỗng chung), nên dùng đũa chung gắp cho người khác là lịch sự. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: bàn ăn là nơi giữ \"mặt mũi\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Gọi nhân viên: 服务员 / 您好 / 麻烦一下，giơ tay hoặc bấm chuông bàn. Không vỗ bàn, không huýt sáo.",
+   "Ứng xử: Tranh trả tiền (抢着买单) là thể hiện tình cảm và thể diện. Nếu muốn AA, nói trước lúc gọi món: 今天咱们AA啊。",
+   "Ứng xử: Bạn được mời thì cảm ơn và hẹn mời lại cụ thể: 那下次我请，你挑地方。",
+   "Ứng xử: Dị ứng thực phẩm phải nói rõ: 我对虾过敏，一点儿都不能放。"
+  ]
+ }
+}

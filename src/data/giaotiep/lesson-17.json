@@ -1,0 +1,633 @@
+{
+ "id": 17,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "网络流行语",
+  "pinyin": "wǎng luò liú xíng yǔ",
+  "vi": "Từ lóng mạng và từ viết tắt"
+ },
+ "grammarTopics_vi": [
+  "××基础，××不基础",
+  "V + 不动了",
+  "真香 (định luật",
+  "……，如何呢？又能怎？"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hiểu 32 từ lóng/viết tắt thông dụng khi đọc bình luận",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Nhóm chat; biết từ nào dùng được",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng với ai",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "群聊",
+   "context_vi": "Bài khoá 1: 群聊 – Nhóm chat",
+   "scene": "💬",
+   "lines": [
+    {
+     "speaker": "gt-xiaomei",
+     "zh": "刚看完那部剧，结局太好哭了555",
+     "vi": "Vừa xem xong bộ phim đó, cái kết làm mình khóc hu hu luôn."
+    },
+    {
+     "speaker": "gt-xiaozhang",
+     "zh": "xswl，你上周还说不看呢。",
+     "vi": "Cười xỉu (xswl), tuần trước cậu còn bảo không xem cơ mà."
+    },
+    {
+     "speaker": "gt-xiaomei",
+     "zh": "真香了。男主yyds！",
+     "vi": "Thơm quá nên quay xe rồi. Nam chính đỉnh nhất (yyds)!"
+    },
+    {
+     "speaker": "gt-xiaoli",
+     "zh": "nsdd，演技绝了。",
+     "vi": "Chuẩn không cần chỉnh (nsdd), diễn xuất đỉnh thật."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "等等，xswl和nsdd是什么？",
+     "vi": "Khoan đã, xswl với nsdd là gì thế?"
+    },
+    {
+     "speaker": "gt-xiaozhang",
+     "zh": "笑死我了、你说得对。你多刷刷弹幕就懂了。",
+     "vi": "Là \"cười chết mất\" với \"cậu nói đúng\". Cậu lướt bình luận chạy trên màn hình nhiều vào là hiểu."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "yyds (永远的神)",
+     "pinyin": "\"thần thánh mãi mãi\", đỉnh nhất",
+     "vi": "B"
+    },
+    {
+     "zh": "xswl (笑死我了)",
+     "pinyin": "cười chết mất",
+     "vi": "B"
+    },
+    {
+     "zh": "nsdd (你说得对)",
+     "pinyin": "bạn nói đúng",
+     "vi": "B"
+    },
+    {
+     "zh": "awsl (啊我死了)",
+     "pinyin": "dễ thương/xúc động \"chết mất\"",
+     "vi": "B"
+    },
+    {
+     "zh": "dbq (对不起)",
+     "pinyin": "xin lỗi (đùa)",
+     "vi": "B"
+    },
+    {
+     "zh": "u1s1 (有一说一)",
+     "pinyin": "nói thật thì",
+     "vi": "B"
+    },
+    {
+     "zh": "pyq (朋友圈)",
+     "pinyin": "Moments WeChat",
+     "vi": "B"
+    },
+    {
+     "zh": "555 / 呜呜呜",
+     "pinyin": "khóc hu hu",
+     "vi": "A"
+    },
+    {
+     "zh": "666",
+     "pinyin": "giỏi quá, đỉnh",
+     "vi": "A"
+    },
+    {
+     "zh": "88 / 拜拜",
+     "pinyin": "tạm biệt",
+     "vi": "A"
+    },
+    {
+     "zh": "520 / 1314",
+     "pinyin": "anh yêu em / trọn đời",
+     "vi": "A"
+    },
+    {
+     "zh": "真香",
+     "pinyin": "\"thơm thật\": lúc trước chê, giờ lại thích",
+     "vi": "A",
+     "example": {
+      "zh": "真香了。男主yyds！",
+      "vi": "Thơm quá nên quay xe rồi. Nam chính đỉnh nhất (yyds)!"
+     }
+    },
+    {
+     "zh": "绝了 / 绝绝子",
+     "pinyin": "đỉnh quá",
+     "vi": "A"
+    },
+    {
+     "zh": "破防",
+     "pinyin": "bị chạm đến mức vỡ phòng tuyến cảm xúc",
+     "vi": "A"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g17-1",
+     "title_zh": "××基础，××不基础",
+     "title_vi": "Khung câu đùa",
+     "formula": [
+      [
+       {
+        "zh": "××基础，××不基础",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "××基础，××不基础 là khung câu đùa đang thịnh hành trên mạng. 基础 vốn nghĩa \"cơ bản\", ở đây được dùng như tính từ \"bình thường, xoàng\". Cấu trúc đặt hai thứ đối lập: một thứ rất \"cơ bản\" (khiêm tốn), một thứ \"không cơ bản\" (vượt trội, thường là điểm hài hước). Ví dụ: 我的厨艺基础，我的胃口不基础 (Tài nấu ăn của tôi thường thôi, nhưng sức ăn thì không thường đâu).",
+     "examples": [
+      {
+       "zh": "我的厨艺基础，我的胃口不基础。",
+       "vi": "Tay nghề nấu ăn của tôi thì cơ bản, sức ăn của tôi thì không cơ bản."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "打工人吐槽",
+   "context_vi": "Bài khoá 2: 打工人吐槽 – Dân công sở than thở",
+   "scene": "💬",
+   "lines": [
+    {
+     "speaker": "gt-tongshi",
+     "zh": "又加班，身上的班味儿都腌入味了。",
+     "vi": "Lại tăng ca, người ám đầy mùi đi làm rồi."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "打工人，打工魂。我已经躺平了，爱咋咋地。",
+     "vi": "Dân đi làm, hồn đi làm. Mình buông xuôi rồi, muốn ra sao thì ra."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "可你们部门不是挺卷的吗？",
+     "vi": "Nhưng phòng cậu chẳng phải cạnh tranh khốc liệt lắm sao?"
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "卷不动了，我就是个牛马。",
+     "vi": "Cày không nổi nữa, mình chỉ là thân trâu ngựa thôi."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "如何呢？又能怎？下班了，先敬自己一杯！",
+     "vi": "Thì sao nào? Làm gì được nhau? Tan làm rồi, trước tiên tự cạn một ly với chính mình!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "躺平",
+     "pinyin": "buông xuôi, không cố gắng nữa",
+     "vi": "A",
+     "example": {
+      "zh": "打工人，打工魂。我已经躺平了，爱咋咋地。",
+      "vi": "Dân đi làm, hồn đi làm. Mình buông xuôi rồi, muốn ra sao thì ra."
+     }
+    },
+    {
+     "zh": "内卷 / 卷",
+     "pinyin": "cạnh tranh nội bộ quá mức",
+     "vi": "A"
+    },
+    {
+     "zh": "卷不动了",
+     "pinyin": "không cạnh tranh nổi nữa",
+     "vi": "A",
+     "example": {
+      "zh": "卷不动了，我就是个牛马。",
+      "vi": "Cày không nổi nữa, mình chỉ là thân trâu ngựa thôi."
+     }
+    },
+    {
+     "zh": "摆烂",
+     "pinyin": "mặc kệ, buông thả",
+     "vi": "A"
+    },
+    {
+     "zh": "打工人",
+     "pinyin": "dân làm công",
+     "vi": "A",
+     "example": {
+      "zh": "打工人，打工魂。我已经躺平了，爱咋咋地。",
+      "vi": "Dân đi làm, hồn đi làm. Mình buông xuôi rồi, muốn ra sao thì ra."
+     }
+    },
+    {
+     "zh": "牛马",
+     "pinyin": "\"trâu ngựa\", tự giễu làm việc cực nhọc",
+     "vi": "B",
+     "example": {
+      "zh": "卷不动了，我就是个牛马。",
+      "vi": "Cày không nổi nữa, mình chỉ là thân trâu ngựa thôi."
+     }
+    },
+    {
+     "zh": "班味",
+     "pinyin": "\"mùi công sở\", vẻ mệt mỏi vì đi làm",
+     "vi": "A",
+     "example": {
+      "zh": "又加班，身上的班味儿都腌入味了。",
+      "vi": "Lại tăng ca, người ám đầy mùi đi làm rồi."
+     }
+    },
+    {
+     "zh": "社死",
+     "pinyin": "chết vì xấu hổ (trước mọi người)",
+     "vi": "A"
+    },
+    {
+     "zh": "凡尔赛",
+     "pinyin": "khoe khéo giả vờ than",
+     "vi": "A"
+    },
+    {
+     "zh": "emo",
+     "pinyin": "buồn, xuống tinh thần",
+     "vi": "A"
+    },
+    {
+     "zh": "显眼包",
+     "pinyin": "người thích gây chú ý, lầy lội",
+     "vi": "A"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g17-2",
+     "title_zh": "V + 不动了",
+     "title_vi": "Đã hết sức",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "不动了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "V + 不动了 là bổ ngữ khả năng phủ định, nghĩa \"không… nổi nữa\", diễn tả đã hết sức, không thể tiếp tục. 动 ở đây chỉ khả năng di chuyển/hoạt động. Ví dụ: 走不动了 (đi hết nổi), 吃不动了 (ăn hết nổi). Trong ngôn ngữ mạng, 卷不动了 (không cạnh tranh nổi nữa) là câu than quen thuộc của giới trẻ đi làm.",
+     "examples": [
+      {
+       "zh": "卷不动了。",
+       "vi": "Cày không nổi nữa rồi."
+      },
+      {
+       "zh": "走不动了。",
+       "vi": "Đi không nổi nữa rồi."
+      },
+      {
+       "zh": "吃不动了。",
+       "vi": "Ăn không nổi nữa rồi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g17-3",
+     "title_zh": "真香 (định luật",
+     "title_vi": "Kể chuyện đổi ý",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "真香 (định luật",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "真香 (\"thơm thật\") xuất phát từ một chương trình truyền hình: nhân vật thề không ăn, rồi lại ăn ngon lành và khen \"thơm thật\". Từ đó 真香 dùng để kể chuyện đổi ý: lúc đầu chê/từ chối, sau lại thích. Khung thường gặp: 我说不……，结果真香了 hoặc ……，真香！",
+     "examples": [
+      {
+       "zh": "我说不买，结果真香了。",
+       "vi": "Tôi bảo không mua, cuối cùng thơm quá lại mua."
+      }
+     ]
+    },
+    {
+     "id": "gt-g17-4",
+     "title_zh": "……，如何呢？又能怎？",
+     "title_vi": "Nói đùa sự bất lực",
+     "formula": [
+      [
+       {
+        "zh": "……，如何呢？又能怎？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……，如何呢？又能怎？ là câu cửa miệng mạng diễn tả thái độ bình thản, tự giễu trước những chuyện không thay đổi được: \"thì đã sao? làm gì được nào?\". Phần trước nêu một sự thật hơi buồn; phần sau thể hiện \"chấp nhận và sống tiếp\". Chỉ dùng với bạn bè, ngữ cảnh đùa; không dùng với sếp hay trong văn bản trang trọng.",
+     "examples": [
+      {
+       "zh": "周末又加班，如何呢？",
+       "vi": "Cuối tuần lại tăng ca, thì sao nào?"
+      },
+      {
+       "zh": "又能怎？",
+       "vi": "Làm gì được nhau?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "解释新词",
+   "context_vi": "Bài khoá 3: 解释新词 – Giải thích từ mới",
+   "scene": "💬",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "最近老看到\"情绪价值\"，什么意思？",
+     "vi": "Dạo này hay thấy chữ \"giá trị cảm xúc\", nghĩa là gì?"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "就是让人心情好、觉得被理解。比如你夸我新发型，就是在给我提供情绪价值。",
+     "vi": "Là làm người khác vui vẻ, thấy được thấu hiểu. Ví dụ cậu khen kiểu tóc mới của mình, tức là đang mang lại giá trị cảm xúc cho mình."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那\"××基础，××不基础\"呢？",
+     "vi": "Thế còn \"×× thì cơ bản, ×× thì không cơ bản\"?"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "一个百搭句式，比如\"我的中文很基础，我的脸皮不基础\"。",
+     "vi": "Là một mẫu câu dùng đâu cũng hợp, ví dụ \"tiếng Trung của tôi rất cơ bản, độ mặt dày của tôi thì không cơ bản\"."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "哈哈，那我的饭量基础，我喝奶茶的量不基础！",
+     "vi": "Haha, vậy sức ăn của mình thì cơ bản, lượng trà sữa mình uống thì không cơ bản!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "情绪价值",
+     "pinyin": "giá trị cảm xúc (khiến người khác thấy vui, được hiểu)",
+     "vi": "A",
+     "example": {
+      "zh": "最近老看到\"情绪价值\"，什么意思？",
+      "vi": "Dạo này hay thấy chữ \"giá trị cảm xúc\", nghĩa là gì?"
+     }
+    },
+    {
+     "zh": "敬自己一杯",
+     "pinyin": "nâng ly chúc chính mình, tự ghi nhận bản thân",
+     "vi": "A",
+     "example": {
+      "zh": "如何呢？又能怎？下班了，先敬自己一杯！",
+      "vi": "Thì sao nào? Làm gì được nhau? Tan làm rồi, trước tiên tự cạn một ly với chính mình!"
+     }
+    },
+    {
+     "zh": "如何呢，又能怎",
+     "pinyin": "thì sao, làm gì được nhau (thái độ bình thản)",
+     "vi": "A"
+    },
+    {
+     "zh": "××基础，××不基础",
+     "pinyin": "cái này thì thường, cái kia thì không thường",
+     "vi": "A",
+     "example": {
+      "zh": "那\"××基础，××不基础\"呢？",
+      "vi": "Thế còn \"×× thì cơ bản, ×× thì không cơ bản\"?"
+     }
+    },
+    {
+     "zh": "拼好×",
+     "pinyin": "ghép cho đủ (拼好饭: đồ ăn giá rẻ gom đơn)",
+     "vi": "A"
+    },
+    {
+     "zh": "主理人",
+     "pinyin": "\"chủ thương hiệu\", người đứng sau một cửa hàng/concept",
+     "vi": "A"
+    },
+    {
+     "zh": "爱咋咋地",
+     "pinyin": "kệ, sao cũng được (khẩu ngữ miền Bắc)",
+     "vi": "B",
+     "example": {
+      "zh": "打工人，打工魂。我已经躺平了，爱咋咋地。",
+      "vi": "Dân đi làm, hồn đi làm. Mình buông xuôi rồi, muốn ra sao thì ra."
+     }
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "他说话特别会照顾别人的感受，很会提供___。",
+   "bank": [
+    "社死",
+    "内卷",
+    "情绪价值"
+   ],
+   "answer": "情绪价值"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "在全公司面前叫错了老板的名字，我当场___了。",
+   "bank": [
+    "社死",
+    "情绪价值",
+    "内卷"
+   ],
+   "answer": "社死"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "我们公司太___了，大家都加班到十点。",
+   "bank": [
+    "内卷",
+    "社死",
+    "打工人"
+   ],
+   "answer": "内卷"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "不想卷了，我决定___。",
+   "bank": [
+    "躺平",
+    "内卷",
+    "情绪价值"
+   ],
+   "answer": "躺平"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "看到这条评论，我一下子就___了，哭了半天。",
+   "bank": [
+    "破防",
+    "打工人",
+    "内卷"
+   ],
+   "answer": "破防"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "___，打工魂，打工都是人上人！",
+   "bank": [
+    "破防",
+    "打工人",
+    "内卷"
+   ],
+   "answer": "打工人"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "不动了",
+    "我",
+    "卷"
+   ],
+   "answers": [
+    "我卷不动了"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "真香了",
+    "结果",
+    "我说不买"
+   ],
+   "answers": [
+    "我说不买结果真香了"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "基础",
+    "我的中文",
+    "不基础",
+    "我的脸皮"
+   ],
+   "answers": [
+    "我的中文基础我的脸皮不基础"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "敬自己",
+    "先",
+    "一杯",
+    "下班了"
+   ],
+   "answers": [
+    "下班了先敬自己一杯"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "xswl (笑死我了)",
+     "a": "cười chết mất"
+    },
+    {
+     "q": "dbq (对不起)",
+     "a": "xin lỗi (đùa)"
+    },
+    {
+     "q": "555 / 呜呜呜",
+     "a": "khóc hu hu"
+    },
+    {
+     "q": "520 / 1314",
+     "a": "anh yêu em / trọn đời"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn biết những từ lóng mạng tiếng Việt nào đang \"hot\"? Bạn có hay dùng chúng không?",
+   "Khởi động: Bạn có đọc bình luận (弹幕) trên Bilibili, Douyin không? Bạn có hiểu hết không?",
+   "流行语你画我猜 Vẽ đoán từ lóng (8 phút): một người vẽ hoặc diễn (躺平, 破防, 社死…), đội đoán; đoán đúng phải đặt 1 câu có từ đó.",
+   "翻译大挑战 Dịch hai chiều (10 phút): giáo viên đưa câu \"sách giáo khoa\" (这个电影非常好看，我改变看法了), nhóm dịch sang câu mạng (真香，这部电影yyds) và ngược lại. Mỗi câu đúng tính 1 điểm.",
+   "Nhiệm vụ thực tế: lướt Weibo/Douyin/Bilibili, sưu tầm 3 từ lóng mới chưa có trong bài, giải thích và đặt câu."
+  ],
+  "patterns": [
+   {
+    "zh": "我的厨艺基础，我的胃口不基础。",
+    "vi": "Tay nghề nấu ăn của tôi thì cơ bản, sức ăn của tôi thì không cơ bản."
+   },
+   {
+    "zh": "卷不动了。",
+    "vi": "Cày không nổi nữa rồi."
+   },
+   {
+    "zh": "我说不买，结果真香了。",
+    "vi": "Tôi bảo không mua, cuối cùng thơm quá lại mua."
+   },
+   {
+    "zh": "周末又加班，如何呢？",
+    "vi": "Cuối tuần lại tăng ca, thì sao nào?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "ba bảng xếp hạng lưu hành ngữ",
+  "body_vi": [
+   "Mỗi tháng 12, ba đơn vị công bố lưu hành ngữ năm: Trung tâm Giám sát Tài nguyên Ngôn ngữ Quốc gia, tạp chí 《咬文嚼字》 và tuần báo 《语言文字周报》. Năm 2025, danh sách của Trung tâm quốc gia có DeepSeek, 敬自己一杯, 情绪价值, 如何呢又能怎, 村咖… dựa trên kho ngữ liệu mạng hơn 7,8 tỷ ký tự (Tân Hoa xã). Danh sách của 《语言文字周报》 lại có 主理人, 邪修, 拼好× (Tân Dân Vãn Báo). Các bảng gần như không trùng nhau, cho thấy từ lóng rất phân tầng: cái hot với nhóm này có thể xa lạ với nhóm khác. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: ba bảng xếp hạng lưu hành ngữ Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Từ lóng là để kéo gần khoảng cách với bạn cùng tuổi. Không dùng trong email công việc, với người lớn tuổi, khách hàng.",
+   "Ứng xử: Nhóm C (các từ tục hoặc châm chọc) chỉ cần nghe hiểu; người nước ngoài dùng dễ gây phản cảm.",
+   "Ứng xử: Không hiểu thì hỏi thẳng: \"这个梗是什么意思？\" Người TQ rất thích giải thích meme cho bạn nước ngoài."
+  ]
+ }
+}

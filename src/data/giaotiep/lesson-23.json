@@ -1,0 +1,673 @@
+{
+ "id": 23,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "钱的小事",
+  "pinyin": "qián de xiǎo shì",
+  "vi": "Tài chính nhẹ: ngân hàng, chuyển nhầm, vay mượn, tiền cọc"
+ },
+ "grammarTopics_vi": [
+  "能不能先 + V + 我……？",
+  "……的时候再……",
+  "你看什么时候方便？",
+  "给 + V (nhấn mạnh việc đã xảy ra ngoài ý muốn)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Mở tài khoản ngân hàng",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Xử lý chuyển khoản nhầm",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Vay và nhắc trả tiền khéo léo",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đòi lại tiền cọc",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Nhận diện lừa đảo",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "银行开户",
+   "context_vi": "Bài khoá 1: 银行开户 – Mở tài khoản",
+   "scene": "💰",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我想办一张借记卡。",
+     "vi": "Chào chị, tôi muốn làm một thẻ ghi nợ."
+    },
+    {
+     "speaker": "gt-guiyuan",
+     "zh": "请出示护照和居留许可，还需要一个国内手机号。开户用途是什么？",
+     "vi": "Vui lòng xuất trình hộ chiếu và giấy phép cư trú, còn cần một số điện thoại trong nước. Mục đích mở tài khoản là gì?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "工资卡，公司要求的。",
+     "vi": "Thẻ nhận lương, công ty yêu cầu."
+    },
+    {
+     "speaker": "gt-guiyuan",
+     "zh": "好，请填一下这张表，再设一个六位数密码。手机银行要开通吗？",
+     "vi": "Được, anh điền tờ khai này, rồi đặt mật khẩu sáu số. Có đăng ký ngân hàng điện tử không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "要。每天转账限额是多少？",
+     "vi": "Có. Hạn mức chuyển khoản mỗi ngày là bao nhiêu?"
+    },
+    {
+     "speaker": "gt-guiyuan",
+     "zh": "新开户默认额度比较低，要提高得提供工作证明。",
+     "vi": "Tài khoản mới mở hạn mức mặc định khá thấp, muốn nâng phải có giấy xác nhận công việc."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "开户",
+     "pinyin": "kāi hù",
+     "vi": "mở tài khoản",
+     "example": {
+      "zh": "请出示护照和居留许可，还需要一个国内手机号。开户用途是什么？",
+      "vi": "Vui lòng xuất trình hộ chiếu và giấy phép cư trú, còn cần một số điện thoại trong nước. Mục đích mở tài khoản là gì?"
+     }
+    },
+    {
+     "zh": "借记卡 / 信用卡",
+     "pinyin": "jièjì kǎ / xìnyòng kǎ",
+     "vi": "thẻ ghi nợ / thẻ tín dụng"
+    },
+    {
+     "zh": "柜员 / 柜台",
+     "pinyin": "guìyuán / guìtái",
+     "vi": "giao dịch viên / quầy"
+    },
+    {
+     "zh": "居留许可",
+     "pinyin": "jūliú xǔkě",
+     "vi": "giấy phép cư trú",
+     "example": {
+      "zh": "请出示护照和居留许可，还需要一个国内手机号。开户用途是什么？",
+      "vi": "Vui lòng xuất trình hộ chiếu và giấy phép cư trú, còn cần một số điện thoại trong nước. Mục đích mở tài khoản là gì?"
+     }
+    },
+    {
+     "zh": "用途",
+     "pinyin": "yòngtú",
+     "vi": "mục đích sử dụng",
+     "example": {
+      "zh": "请出示护照和居留许可，还需要一个国内手机号。开户用途是什么？",
+      "vi": "Vui lòng xuất trình hộ chiếu và giấy phép cư trú, còn cần một số điện thoại trong nước. Mục đích mở tài khoản là gì?"
+     }
+    },
+    {
+     "zh": "工资卡",
+     "pinyin": "gōngzī kǎ",
+     "vi": "thẻ nhận lương",
+     "example": {
+      "zh": "工资卡，公司要求的。",
+      "vi": "Thẻ nhận lương, công ty yêu cầu."
+     }
+    },
+    {
+     "zh": "手机银行",
+     "pinyin": "shǒujī yínháng",
+     "vi": "ngân hàng điện tử trên điện thoại",
+     "example": {
+      "zh": "好，请填一下这张表，再设一个六位数密码。手机银行要开通吗？",
+      "vi": "Được, anh điền tờ khai này, rồi đặt mật khẩu sáu số. Có đăng ký ngân hàng điện tử không?"
+     }
+    },
+    {
+     "zh": "额度 / 限额",
+     "pinyin": "édù / xiàn'é",
+     "vi": "hạn mức"
+    },
+    {
+     "zh": "工作证明",
+     "pinyin": "gōngzuò zhèngmíng",
+     "vi": "giấy xác nhận công việc",
+     "example": {
+      "zh": "新开户默认额度比较低，要提高得提供工作证明。",
+      "vi": "Tài khoản mới mở hạn mức mặc định khá thấp, muốn nâng phải có giấy xác nhận công việc."
+     }
+    },
+    {
+     "zh": "转错账 / 误转",
+     "pinyin": "zhuǎn cuò zhàng / wù zhuǎn",
+     "vi": "chuyển nhầm"
+    },
+    {
+     "zh": "收款人",
+     "pinyin": "shōukuǎn rén",
+     "vi": "người nhận"
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "转错账",
+   "context_vi": "Bài khoá 2: 转错账 – Chuyển nhầm",
+   "scene": "💰",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "糟了，给房东转房租，转错人了！",
+     "vi": "Chết rồi, chuyển tiền nhà cho chủ nhà mà chuyển nhầm người rồi!"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "别慌。微信转账对方没收的话，二十四小时后会自动退回。",
+     "vi": "Đừng hoảng. Chuyển khoản WeChat nếu đối phương chưa nhận, sau hai mươi tư giờ sẽ tự động hoàn lại."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "他已经收了……",
+     "vi": "Người ta nhận rồi…"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "那先礼貌地联系对方，说明情况。不行再找微信客服，实在不行就报警。",
+     "vi": "Vậy trước tiên lịch sự liên hệ với người đó, nói rõ tình hình. Không được thì tìm CSKH WeChat, thật sự không được thì báo cảnh sát."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（发消息）您好，不好意思打扰您。我刚才误转给您三千块房租，麻烦您退回一下，非常感谢！",
+     "vi": "(Gửi tin nhắn) Chào anh, xin lỗi đã làm phiền. Vừa rồi tôi chuyển nhầm cho anh ba nghìn tiền nhà, phiền anh chuyển lại giúp tôi, cảm ơn anh rất nhiều!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "自动退回",
+     "pinyin": "zìdòng tuìhuí",
+     "vi": "tự động hoàn lại",
+     "example": {
+      "zh": "别慌。微信转账对方没收的话，二十四小时后会自动退回。",
+      "vi": "Đừng hoảng. Chuyển khoản WeChat nếu đối phương chưa nhận, sau hai mươi tư giờ sẽ tự động hoàn lại."
+     }
+    },
+    {
+     "zh": "别慌",
+     "pinyin": "bié huāng",
+     "vi": "đừng hoảng",
+     "example": {
+      "zh": "别慌。微信转账对方没收的话，二十四小时后会自动退回。",
+      "vi": "Đừng hoảng. Chuyển khoản WeChat nếu đối phương chưa nhận, sau hai mươi tư giờ sẽ tự động hoàn lại."
+     }
+    },
+    {
+     "zh": "说明情况",
+     "pinyin": "shuōmíng qíngkuàng",
+     "vi": "trình bày sự việc",
+     "example": {
+      "zh": "那先礼貌地联系对方，说明情况。不行再找微信客服，实在不行就报警。",
+      "vi": "Vậy trước tiên lịch sự liên hệ với người đó, nói rõ tình hình. Không được thì tìm CSKH WeChat, thật sự không được thì báo cảnh sát."
+     }
+    },
+    {
+     "zh": "借钱 / 还钱",
+     "pinyin": "jiè qián / huán qián",
+     "vi": "vay tiền / trả tiền"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g23-3",
+     "title_zh": "你看什么时候方便？",
+     "title_vi": "Nhắc nợ khéo, không nói thẳng chữ \"",
+     "formula": [
+      [
+       {
+        "zh": "你看什么时候方便？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "你看什么时候方便？ là câu nhắc nợ khéo léo nhất: không nhắc thẳng chữ 还钱 (trả tiền), chỉ hỏi \"bạn xem khi nào tiện?\". Người nghe hiểu ngay ý. Có thể mở đầu bằng 对了 (à này) để câu tự nhiên, và nêu lý do nhẹ nhàng: 我这个月手头有点儿紧. Cấu trúc này còn dùng để hẹn lịch: 我们见一面，你看什么时候方便？",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "借钱与退押金",
+   "context_vi": "Bài khoá 3: 借钱与退押金 – Vay tiền và lấy lại cọc",
+   "scene": "💰",
+   "lines": [
+    {
+     "speaker": "gt-shiyou",
+     "zh": "那个……能不能先借我一千？下个月发工资就还你。",
+     "vi": "Ừm… có thể cho mình mượn trước một nghìn không? Tháng sau lĩnh lương mình trả."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "行，我转你。不急，你方便的时候再还。",
+     "vi": "Được, mình chuyển cho. Không vội, lúc nào tiện thì trả."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（一个月后）对了，上次那一千你看什么时候方便？我这个月手头有点儿紧。",
+     "vi": "À này, một nghìn lần trước cậu xem lúc nào tiện? Tháng này mình hơi kẹt tiền."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "哎呀，我给忘了！马上转你，不好意思啊！",
+     "vi": "Ôi trời, mình quên mất! Chuyển cậu ngay đây, xin lỗi nhé!"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "（退房时）王姐，房子打扫干净了，钥匙放桌上了，押金什么时候能退？",
+     "vi": "Chị Vương, nhà em dọn sạch rồi, chìa khoá để trên bàn, khi nào thì hoàn cọc ạ?"
+    },
+    {
+     "speaker": "gt-fangdong",
+     "zh": "墙上有个钉子眼，扣你两百。",
+     "vi": "Trên tường có một lỗ đinh, trừ em hai trăm."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那个钉子眼是入住时就有的，我当时拍了照片，发您看看。",
+     "vi": "Lỗ đinh đó có từ lúc em mới vào ở, lúc đó em có chụp ảnh, em gửi chị xem."
+    },
+    {
+     "speaker": "gt-fangdong",
+     "zh": "……那行，全退给你。",
+     "vi": "… Vậy được, hoàn đủ cho em."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "发工资",
+     "pinyin": "fā gōngzī",
+     "vi": "nhận lương",
+     "example": {
+      "zh": "那个……能不能先借我一千？下个月发工资就还你。",
+      "vi": "Ừm… có thể cho mình mượn trước một nghìn không? Tháng sau lĩnh lương mình trả."
+     }
+    },
+    {
+     "zh": "方便的时候",
+     "pinyin": "fāngbiàn de shíhou",
+     "vi": "khi nào tiện",
+     "example": {
+      "zh": "行，我转你。不急，你方便的时候再还。",
+      "vi": "Được, mình chuyển cho. Không vội, lúc nào tiện thì trả."
+     }
+    },
+    {
+     "zh": "手头紧",
+     "pinyin": "shǒutóu jǐn",
+     "vi": "kẹt tiền"
+    },
+    {
+     "zh": "欠",
+     "pinyin": "qiàn",
+     "vi": "nợ"
+    },
+    {
+     "zh": "催",
+     "pinyin": "cuī",
+     "vi": "giục, đòi"
+    },
+    {
+     "zh": "退押金",
+     "pinyin": "tuì yājīn",
+     "vi": "trả lại cọc"
+    },
+    {
+     "zh": "扣钱",
+     "pinyin": "kòu qián",
+     "vi": "trừ tiền"
+    },
+    {
+     "zh": "钉子眼",
+     "pinyin": "dīngzi yǎn",
+     "vi": "lỗ đinh",
+     "example": {
+      "zh": "墙上有个钉子眼，扣你两百。",
+      "vi": "Trên tường có một lỗ đinh, trừ em hai trăm."
+     }
+    },
+    {
+     "zh": "钥匙",
+     "pinyin": "yàoshi",
+     "vi": "chìa khóa",
+     "example": {
+      "zh": "（退房时）王姐，房子打扫干净了，钥匙放桌上了，押金什么时候能退？",
+      "vi": "Chị Vương, nhà em dọn sạch rồi, chìa khoá để trên bàn, khi nào thì hoàn cọc ạ?"
+     }
+    },
+    {
+     "zh": "汇率",
+     "pinyin": "huìlǜ",
+     "vi": "tỷ giá"
+    },
+    {
+     "zh": "换汇",
+     "pinyin": "huàn huì",
+     "vi": "đổi ngoại tệ"
+    },
+    {
+     "zh": "跨境汇款",
+     "pinyin": "kuàjìng huìkuǎn",
+     "vi": "chuyển tiền quốc tế"
+    },
+    {
+     "zh": "验证码",
+     "pinyin": "yànzhèngmǎ",
+     "vi": "mã xác thực (OTP)"
+    },
+    {
+     "zh": "诈骗 / 电信诈骗",
+     "pinyin": "zhàpiàn / diànxìn zhàpiàn",
+     "vi": "lừa đảo / lừa đảo qua điện thoại, mạng"
+    },
+    {
+     "zh": "冻结",
+     "pinyin": "dòngjié",
+     "vi": "phong tỏa (tài khoản)"
+    },
+    {
+     "zh": "挂失",
+     "pinyin": "guàshī",
+     "vi": "báo mất"
+    },
+    {
+     "zh": "我给忘了",
+     "pinyin": "wǒ gěi wàng le",
+     "vi": "tôi quên mất tiêu",
+     "example": {
+      "zh": "哎呀，我给忘了！马上转你，不好意思啊！",
+      "vi": "Ôi trời, mình quên mất! Chuyển cậu ngay đây, xin lỗi nhé!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g23-1",
+     "title_zh": "能不能先 + V + 我……？",
+     "title_vi": "Nhờ vả tiền bạc",
+     "formula": [
+      [
+       {
+        "zh": "能不能先",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "我……？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "能不能先 + V + 我 + số tiền/vật？ là cách mở lời vay mượn khéo léo. 能不能 làm lời đề nghị mềm, 先 hàm ý \"tạm thời, trước mắt\" — tức là sẽ trả lại sớm. Nên kèm thời hạn trả cụ thể để người kia yên tâm: 能不能先借我一千？下个月发工资就还你。",
+     "examples": [
+      {
+       "zh": "能不能先借我一千？",
+       "vi": "Có thể cho tôi mượn trước một nghìn không?"
+      }
+     ]
+    },
+    {
+     "id": "gt-g23-2",
+     "title_zh": "……的时候再……",
+     "title_vi": "……的时候再……",
+     "formula": [
+      [
+       {
+        "zh": "……的时候再……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……的时候再…… nghĩa là \"đến khi… thì hãy…\", hẹn thực hiện việc gì vào thời điểm thích hợp. Khi cho vay, câu 你方便的时候再还 (khi nào tiện thì trả) thể hiện sự rộng lượng, không gây áp lực. 再 ở đây chỉ việc sẽ làm sau, không phải \"lại\".",
+     "examples": [
+      {
+       "zh": "你方便的时候再还。",
+       "vi": "Lúc nào bạn tiện thì trả."
+      }
+     ]
+    },
+    {
+     "id": "gt-g23-4",
+     "title_zh": "给 + V (nhấn mạnh việc đã xảy ra ngoài ý muốn)",
+     "title_vi": "给 + V (nhấn mạnh việc đã xảy ra ngoài ý muốn)",
+     "formula": [
+      [
+       {
+        "zh": "给",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V (nhấn mạnh việc đã xảy ra ngoài ý muốn)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "给 + V (đặt trước động từ, thường kèm 了) nhấn mạnh việc đã xảy ra ngoài ý muốn, mang sắc thái tiếc nuối hoặc xin lỗi: 我给忘了 (tôi quên mất tiêu), 手机给摔了. Đây là cách dùng khẩu ngữ phương Bắc, 给 có thể bỏ mà nghĩa không đổi, nhưng thêm vào câu nghe tự nhiên và \"thật\" hơn. Hay đi với câu 把/被: 我把钥匙给丢了 / 钱包被人给偷了.",
+     "examples": [
+      {
+       "zh": "我给忘了。",
+       "vi": "Tôi quên mất rồi."
+      },
+      {
+       "zh": "手机给摔了。",
+       "vi": "Làm rơi điện thoại rồi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我这个月___，下个月再买新手机吧。",
+   "bank": [
+    "手头紧",
+    "误转",
+    "押金"
+   ],
+   "answer": "手头紧"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我刚才___给您三千块，麻烦您退回一下。",
+   "bank": [
+    "验证码",
+    "诈骗",
+    "误转"
+   ],
+   "answer": "误转"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "对方没收的话，二十四小时后会___。",
+   "bank": [
+    "手头紧",
+    "押金",
+    "自动退回"
+   ],
+   "answer": "自动退回"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "房子打扫干净了，___什么时候能退？",
+   "bank": [
+    "自动退回",
+    "押金",
+    "验证码"
+   ],
+   "answer": "押金"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "千万别把___告诉陌生人。",
+   "bank": [
+    "误转",
+    "验证码",
+    "押金"
+   ],
+   "answer": "验证码"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "自称\"公安\"让你转账的电话，一定是___。",
+   "bank": [
+    "押金",
+    "诈骗",
+    "验证码"
+   ],
+   "answer": "诈骗"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "一千",
+    "能不能",
+    "借我",
+    "先"
+   ],
+   "answers": [
+    "能不能先借我一千"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "还",
+    "你",
+    "再",
+    "方便的时候"
+   ],
+   "answers": [
+    "你方便的时候再还"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "方便",
+    "你看",
+    "什么时候"
+   ],
+   "answers": [
+    "你看什么时候方便"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "了",
+    "我",
+    "忘",
+    "给"
+   ],
+   "answers": [
+    "我给忘了"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "借记卡 / 信用卡",
+     "a": "thẻ ghi nợ / thẻ tín dụng"
+    },
+    {
+     "q": "工资卡",
+     "a": "thẻ nhận lương"
+    },
+    {
+     "q": "转错账 / 误转",
+     "a": "chuyển nhầm"
+    },
+    {
+     "q": "借钱 / 还钱",
+     "a": "vay tiền / trả tiền"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn có hay cho bạn bè vay tiền không? Khi bạn bè chưa trả, bạn nhắc thế nào?",
+   "Khởi động: Bạn đã từng chuyển khoản nhầm chưa? Khi đó bạn xử lý ra sao?",
+   "催债的艺术 Nghệ thuật đòi nợ (8 phút): mỗi cặp một người nợ, một người đòi; người đòi chỉ được dùng câu gián tiếp, người nợ đưa ra lý do trì hoãn. Lớp chấm độ \"khéo\".",
+   "防骗大作战 Chiến dịch chống lừa đảo (10 phút): giáo viên đọc 5 kịch bản điện thoại (giả công an, giả shipper hoàn tiền, giả người quen mượn tiền, trúng thưởng…). Nhóm phát hiện dấu hiệu lừa đảo và diễn cách từ chối.",
+   "Nhiệm vụ thực tế: viết tin nhắn chuyển nhầm tiền và tin nhắn đòi cọc nhà, mỗi tin 3–4 câu, đọc cho bạn cùng cặp phản hồi."
+  ],
+  "patterns": [
+   {
+    "zh": "能不能先借我一千？",
+    "vi": "Có thể cho tôi mượn trước một nghìn không?"
+   },
+   {
+    "zh": "你方便的时候再还。",
+    "vi": "Lúc nào bạn tiện thì trả."
+   },
+   {
+    "zh": "我给忘了。",
+    "vi": "Tôi quên mất rồi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "亲兄弟明算账\" và \"反诈\" Người TQ coi trọng việc sòng phẳng tiền bạc ngay cả giữa bạn thân; trả nợ đúng hẹn giúp giữ uy tín. Lừa đảo qua điện thoại là vấn đề được tuyên truyền rộng khắp; nhiều nơi khuyến khích cài app \"国家反诈中心\" để cảnh báo cuộc gọi và đường link đáng ngờ. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"亲兄弟明算账\" và \"反诈\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Nhắc nợ: mở bằng \"对了\", dùng lý do của bản thân (手头紧, 要交房租), không trách móc.",
+   "Ứng xử: Vay tiền: chỉ cho vay số tiền mình chấp nhận mất; nếu từ chối: 真不好意思，我这个月也刚交完房租。",
+   "Ứng xử: Chuyển nhầm: nhắn lịch sự, đưa ảnh chụp giao dịch, không đe dọa ngay.",
+   "Ứng xử: Chống lừa đảo: không bao giờ đọc 验证码 cho ai; công an, tòa án, ngân hàng không yêu cầu chuyển tiền vào \"tài khoản an toàn\"."
+  ]
+ }
+}

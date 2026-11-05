@@ -1,0 +1,433 @@
+{
+ "lessonId": 19,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）这个项目{{1}}最高，大家抓紧。\n（2）王总说完以后，我回复了一句\"{{2}}\"。\n（3）每天上班要在钉钉上{{3}}。\n（4）你们俩{{4}}一下，有问题直接沟通。\n（5）上班的时候刷手机，被领导发现在{{5}}。\n（6）我周五想{{6}}一天，回老家。",
+     "bank": [
+      "收到",
+      "打卡",
+      "优先级",
+      "对接",
+      "摸鱼",
+      "请假"
+     ],
+     "answers": [
+      "优先级",
+      "收到",
+      "打卡",
+      "对接",
+      "摸鱼",
+      "请假"
+     ],
+     "explain_vi": "优先级、收到、打卡、对接、摸鱼、请假"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "王总 / 张经理",
+       "a": "Giám đốc Vương / Quản lý Trương"
+      },
+      {
+       "q": "多多指教",
+       "a": "mong được chỉ bảo"
+      },
+      {
+       "q": "方案",
+       "a": "phương án, đề xuất"
+      },
+      {
+       "q": "抓紧",
+       "a": "khẩn trương"
+      },
+      {
+       "q": "周报",
+       "a": "báo cáo tuần"
+      },
+      {
+       "q": "加班",
+       "a": "tăng ca"
+      }
+     ],
+     "explain_vi": "王总 / 张经理 = Giám đốc Vương / Quản lý Trương · 多多指教 = mong được chỉ bảo · 方案 = phương án, đề xuất · 抓紧 = khẩn trương · 周报 = báo cáo tuần · 加班 = tăng ca"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "前",
+      "预计",
+      "发您",
+      "周三"
+     ],
+     "answers": [
+      "预计周三前发您"
+     ],
+     "explain_vi": "预计周三前发您。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "一下",
+      "麻烦您",
+      "看",
+      "有空"
+     ],
+     "answers": [
+      "麻烦您有空看一下"
+     ],
+     "explain_vi": "麻烦您有空看一下。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "多多指教",
+      "请",
+      "还",
+      "大家"
+     ],
+     "answers": [
+      "还请大家多多指教"
+     ],
+     "explain_vi": "还请大家多多指教。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "已经",
+      "了",
+      "完成",
+      "初稿"
+     ],
+     "answers": [
+      "初稿已经完成了"
+     ],
+     "explain_vi": "初稿已经完成了。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Chào giám đốc Vương, chào mọi người! Tôi mới đến, nhiều chỗ chưa biết.",
+     "acceptedAnswers": [
+      "王总好，各位好！我刚来，很多地方不懂。"
+     ],
+     "requiredKeywords": [
+      "王总"
+     ],
+     "explain_vi": "Đáp án tham khảo: 王总好，各位好！我刚来，很多地方不懂。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Phương án đã gửi vào email của anh, có vấn đề gì xin cứ trao đổi.",
+     "acceptedAnswers": [
+      "方案已发到您邮箱，有问题随时沟通。"
+     ],
+     "requiredKeywords": [
+      "方案",
+      "沟通"
+     ],
+     "explain_vi": "Đáp án tham khảo: 方案已发到您邮箱，有问题随时沟通。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Học được rồi, cảm ơn đã nhắc nhở!",
+     "acceptedAnswers": [
+      "学到了，谢谢提醒！"
+     ],
+     "requiredKeywords": [
+      "学到了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 学到了，谢谢提醒！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 已经……了，还有……要……",
+   "instructions_vi": "Báo cáo tiến độ bằng 已经……了，还有……要…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(bản nháp xong → còn 2 số liệu cần đối chiếu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "初稿已经完成了，还有两个数据要核对。"
+     ],
+     "requiredKeywords": [
+      "已经",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 初稿已经完成了，还有两个数据要核对。",
+     "grammarRef": "gt-g19-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(PPT làm xong 10 trang → còn 5 trang cần làm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "PPT已经做完十页了，还有五页要做。"
+     ],
+     "requiredKeywords": [
+      "已经",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: PPT已经做完十页了，还有五页要做。",
+     "grammarRef": "gt-g19-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(đã liên hệ 3 khách hàng → còn 2 khách cần gọi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "已经联系了三个客户了，还有两个要打电话。"
+     ],
+     "requiredKeywords": [
+      "已经",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 已经联系了三个客户了，还有两个要打电话。",
+     "grammarRef": "gt-g19-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(báo cáo tuần viết xong → còn phần tổng kết cần sửa) → ________________________________________________________",
+     "acceptedAnswers": [
+      "周报已经写好了，还有总结部分要改一下。"
+     ],
+     "requiredKeywords": [
+      "已经",
+      "了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 周报已经写好了，还有总结部分要改一下。",
+     "grammarRef": "gt-g19-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 预计 + thời điểm + 前 + V",
+   "instructions_vi": "Cam kết thời hạn bằng 预计……前…….",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "(gửi sếp trước thứ Tư) → ________________________________________________________",
+     "acceptedAnswers": [
+      "预计周三前发您。"
+     ],
+     "requiredKeywords": [
+      "预计",
+      "前"
+     ],
+     "explain_vi": "Đáp án tham khảo: 预计周三前发您。",
+     "grammarRef": "gt-g19-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "(hoàn thành trước giờ tan làm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "预计下班前可以完成。"
+     ],
+     "requiredKeywords": [
+      "预计",
+      "前"
+     ],
+     "explain_vi": "Đáp án tham khảo: 预计下班前可以完成。",
+     "grammarRef": "gt-g19-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "(giao cho khách hàng trước cuối tháng) → ________________________________________________________",
+     "acceptedAnswers": [
+      "预计月底前交给客户。"
+     ],
+     "requiredKeywords": [
+      "预计",
+      "前"
+     ],
+     "explain_vi": "Đáp án tham khảo: 预计月底前交给客户。",
+     "grammarRef": "gt-g19-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "(trả lời anh trước 3 giờ chiều nay) → ________________________________________________________",
+     "acceptedAnswers": [
+      "预计今天下午三点前回复您。"
+     ],
+     "requiredKeywords": [
+      "预计",
+      "前"
+     ],
+     "explain_vi": "Đáp án tham khảo: 预计今天下午三点前回复您。",
+     "grammarRef": "gt-g19-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 麻烦（您）+ V + 一下",
+   "instructions_vi": "Viết lời nhờ vả lịch sự với 麻烦……一下.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Nhờ sếp xem phương án khi rảnh. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦您有空看一下方案。"
+     ],
+     "requiredKeywords": [
+      "麻烦",
+      "您"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦您有空看一下方案。",
+     "grammarRef": "gt-g19-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Nhờ đồng nghiệp chuyển tiếp email cho bạn. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦帮我转发一下邮件。"
+     ],
+     "requiredKeywords": [
+      "麻烦",
+      "一下"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦帮我转发一下邮件。",
+     "grammarRef": "gt-g19-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Nhờ bộ phận tài chính đối chiếu số liệu. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦财务帮我核对一下数据。"
+     ],
+     "requiredKeywords": [
+      "麻烦",
+      "一下"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦财务帮我核对一下数据。",
+     "grammarRef": "gt-g19-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Nhờ lễ tân đặt phòng họp. → ________________________________________________________",
+     "acceptedAnswers": [
+      "麻烦帮我订一下会议室。"
+     ],
+     "requiredKeywords": [
+      "麻烦",
+      "一下"
+     ],
+     "explain_vi": "Đáp án tham khảo: 麻烦帮我订一下会议室。",
+     "grammarRef": "gt-g19-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 能不能请 + ai + 帮忙 + V",
+   "instructions_vi": "Viết lời xin hỗ trợ qua sếp với 能不能请……帮忙…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(nhờ Tiểu Lý làm PPT) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能请小李帮忙做一下PPT？"
+     ],
+     "requiredKeywords": [
+      "能不能请",
+      "帮忙"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能请小李帮忙做一下PPT？",
+     "grammarRef": "gt-g19-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(nhờ bộ phận IT cài phần mềm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能请IT部门帮忙装一下软件？"
+     ],
+     "requiredKeywords": [
+      "能不能请",
+      "帮忙"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能请IT部门帮忙装一下软件？",
+     "grammarRef": "gt-g19-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(nhờ chị Trương dịch tài liệu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能不能请张姐帮忙翻译一下这份资料？"
+     ],
+     "requiredKeywords": [
+      "能不能请",
+      "帮忙"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能不能请张姐帮忙翻译一下这份资料？",
+     "grammarRef": "gt-g19-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Thêm lý do và viết câu hoàn chỉnh: (bạn thiếu người, nhờ Tiểu Vương đối chiếu số liệu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我这边人手有点儿紧，能不能请小王帮忙对一下数据？"
+     ],
+     "requiredKeywords": [
+      "能不能请",
+      "帮忙"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我这边人手有点儿紧，能不能请小王帮忙对一下数据？",
+     "grammarRef": "gt-g19-4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "lessonId": 22,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我不想用这个会员了，请帮我{{1}}。\n（2）麻烦给我一个{{2}}，方便以后查询。\n（3）\"不退不换\"属于{{3}}，不算数。\n（4）申请平台介入时，要上传{{4}}和商品照片。\n（5）审核通过后，平台会先{{5}}退款给您。\n（6）别别别，有话{{6}}。",
+     "bank": [
+      "退订",
+      "工单号",
+      "霸王条款",
+      "聊天记录",
+      "垫付",
+      "好商量"
+     ],
+     "answers": [
+      "退订",
+      "工单号",
+      "霸王条款",
+      "聊天记录",
+      "垫付",
+      "好商量"
+     ],
+     "explain_vi": "退订、工单号、霸王条款、聊天记录、垫付、好商量"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "维权",
+       "a": "bảo vệ quyền lợi"
+      },
+      {
+       "q": "渠道",
+       "a": "kênh"
+      },
+      {
+       "q": "预付卡 / 储值卡",
+       "a": "thẻ trả trước / thẻ nạp tiền"
+      },
+      {
+       "q": "违约",
+       "a": "vi phạm hợp đồng"
+      },
+      {
+       "q": "12315",
+       "a": "đường dây khiếu nại tiêu dùng"
+      },
+      {
+       "q": "凭证",
+       "a": "chứng từ"
+      }
+     ],
+     "explain_vi": "维权 = bảo vệ quyền lợi · 渠道 = kênh · 预付卡 / 储值卡 = thẻ trả trước / thẻ nạp tiền · 违约 = vi phạm hợp đồng · 12315 = đường dây khiếu nại tiêu dùng · 凭证 = chứng từ"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "退款",
+      "要么",
+      "投诉",
+      "要么",
+      "我去"
+     ],
+     "answers": [
+      "要么退款要么我去投诉"
+     ],
+     "explain_vi": "要么退款，要么我去投诉。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "在先",
+      "违约",
+      "是",
+      "你们"
+     ],
+     "answers": [
+      "是你们违约在先"
+     ],
+     "explain_vi": "是你们违约在先。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "这个业务",
+      "我",
+      "从来没",
+      "开通过"
+     ],
+     "answers": [
+      "我从来没开通过这个业务"
+     ],
+     "explain_vi": "我从来没开通过这个业务。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "结果",
+      "没有",
+      "的话",
+      "我会",
+      "升级投诉",
+      "五个工作日"
+     ],
+     "answers": [
+      "五个工作日没有结果的话我会升级投诉"
+     ],
+     "explain_vi": "五个工作日没有结果的话，我会升级投诉。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tháng này tiền điện thoại bị trừ thêm 50 tệ.",
+     "acceptedAnswers": [
+      "我这个月话费多扣了五十块。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 我这个月话费多扣了五十块。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Anh có thể kiểm tra giúp được kích hoạt lúc nào, qua kênh nào không?",
+     "acceptedAnswers": [
+      "能查一下是什么时候、通过什么渠道开通的吗？"
+     ],
+     "requiredKeywords": [
+      "开通",
+      "渠道"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能查一下是什么时候、通过什么渠道开通的吗？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Được, trong hôm nay chuyển cho tôi.",
+     "acceptedAnswers": [
+      "行，今天之内转给我。"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: 行，今天之内转给我。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 要么……，要么……",
+   "instructions_vi": "Đưa ra hai lựa chọn với 要么……，要么…….",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(hoàn tiền / tôi khiếu nại lên 12315) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要么退款，要么我去12315投诉。"
+     ],
+     "requiredKeywords": [
+      "要么",
+      "要么"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要么退款，要么我去12315投诉。",
+     "grammarRef": "gt-g22-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(đổi hàng mới / trả hàng hoàn tiền) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要么给我换个新的，要么退货退款。"
+     ],
+     "requiredKeywords": [
+      "要么",
+      "要么"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要么给我换个新的，要么退货退款。",
+     "grammarRef": "gt-g22-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(hôm nay sửa xong / giảm tiền thuê tháng này) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要么今天修好，要么这个月房租减一点儿。"
+     ],
+     "requiredKeywords": [
+      "要么",
+      "要么"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要么今天修好，要么这个月房租减一点儿。",
+     "grammarRef": "gt-g22-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(chúng ta đi tàu cao tốc / đi máy bay) → ________________________________________________________",
+     "acceptedAnswers": [
+      "要么坐高铁，要么坐飞机，你选吧。"
+     ],
+     "requiredKeywords": [
+      "要么",
+      "要么"
+     ],
+     "explain_vi": "Đáp án tham khảo: 要么坐高铁，要么坐飞机，你选吧。",
+     "grammarRef": "gt-g22-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……在先",
+   "instructions_vi": "Xác định bên có lỗi trước bằng ……在先.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Cửa hàng tự ý chuyển địa điểm, vi phạm thỏa thuận. → ________________________________________________________",
+     "acceptedAnswers": [
+      "你们单方面搬店，是你们违约在先。"
+     ],
+     "requiredKeywords": [
+      "在先"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你们单方面搬店，是你们违约在先。",
+     "grammarRef": "gt-g22-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Shop hứa miễn phí ship nhưng lại thu phí. → ________________________________________________________",
+     "acceptedAnswers": [
+      "是你们说好包邮在先的。"
+     ],
+     "requiredKeywords": [
+      "在先"
+     ],
+     "explain_vi": "Đáp án tham khảo: 是你们说好包邮在先的。",
+     "grammarRef": "gt-g22-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Chủ nhà tăng giá giữa chừng, vi phạm hợp đồng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "房东中途涨房租，是他违约在先。"
+     ],
+     "requiredKeywords": [
+      "在先"
+     ],
+     "explain_vi": "Đáp án tham khảo: 房东中途涨房租，是他违约在先。",
+     "grammarRef": "gt-g22-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Bạn bè đã hứa trước, giờ không thể nuốt lời. → ________________________________________________________",
+     "acceptedAnswers": [
+      "是你答应在先的，不能说话不算数。"
+     ],
+     "requiredKeywords": [
+      "在先"
+     ],
+     "explain_vi": "Đáp án tham khảo: 是你答应在先的，不能说话不算数。",
+     "grammarRef": "gt-g22-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 从来没 + V + 过",
+   "instructions_vi": "Phủ nhận mạnh với 从来没……过.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn chưa từng đăng ký dịch vụ này. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我从来没开通过这个业务。"
+     ],
+     "requiredKeywords": [
+      "从来没",
+      "过"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我从来没开通过这个业务。",
+     "grammarRef": "gt-g22-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn chưa bao giờ trả lời tin nhắn quảng cáo. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我从来没回复过这种短信。"
+     ],
+     "requiredKeywords": [
+      "从来没",
+      "过"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我从来没回复过这种短信。",
+     "grammarRef": "gt-g22-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn chưa từng mua hàng ở cửa hàng này. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我从来没在这家店买过东西。"
+     ],
+     "requiredKeywords": [
+      "从来没",
+      "过"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我从来没在这家店买过东西。",
+     "grammarRef": "gt-g22-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Chọn câu đúng: A. 我从来没去过上海。 B. 我从来没去上海过了。 → ________________________________________________________",
+     "acceptedAnswers": [
+      "A. 我从来没去过上海。"
+     ],
+     "requiredKeywords": [
+      "从来没",
+      "过"
+     ],
+     "explain_vi": "Đáp án tham khảo: A. 我从来没去过上海。",
+     "grammarRef": "gt-g22-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: ……的话，我会……",
+   "instructions_vi": "Viết",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(5 ngày làm việc không có kết quả → khiếu nại lên cấp cao hơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "五个工作日没有结果的话，我会升级投诉。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "我会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 五个工作日没有结果的话，我会升级投诉。",
+     "grammarRef": "gt-g22-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(hôm nay không hoàn tiền → gọi 12315) → ________________________________________________________",
+     "acceptedAnswers": [
+      "今天不退款的话，我会打12315。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "我会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 今天不退款的话，我会打12315。",
+     "grammarRef": "gt-g22-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(shop không trả lời trong 48 giờ → yêu cầu sàn can thiệp) → ________________________________________________________",
+     "acceptedAnswers": [
+      "四十八小时内不回复的话，我会申请平台介入。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "我会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 四十八小时内不回复的话，我会申请平台介入。",
+     "grammarRef": "gt-g22-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "(chủ nhà không trả cọc → nhờ luật sư) → ________________________________________________________",
+     "acceptedAnswers": [
+      "不退押金的话，我会找律师。"
+     ],
+     "requiredKeywords": [
+      "的话",
+      "我会"
+     ],
+     "explain_vi": "Đáp án tham khảo: 不退押金的话，我会找律师。",
+     "grammarRef": "gt-g22-4"
+    }
+   ]
+  }
+ ]
+}

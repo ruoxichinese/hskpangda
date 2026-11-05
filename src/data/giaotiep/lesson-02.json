@@ -1,0 +1,716 @@
+{
+ "id": 2,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "扫码生活",
+  "pinyin": "sǎo mǎ shēng huó",
+  "vi": "Hệ sinh thái quét mã và thanh toán di động"
+ },
+ "grammarTopics_vi": [
+  "A 还是 B？",
+  "怎么 + 没/不 + V？",
+  "先……再…… / 先……回头再……",
+  "凑 + 够/齐"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Trả tiền bằng mã",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Quét mã gọi món",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Chia tiền với bạn",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Xử lý khi thanh toán lỗi",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "便利店结账",
+   "context_vi": "Bài khoá 1: 便利店结账 – Tính tiền ở cửa hàng tiện lợi",
+   "scene": "📱",
+   "lines": [
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "一共二十八块五。扫码还是现金？",
+     "vi": "Tổng cộng hai mươi tám tệ rưỡi. Quét mã hay tiền mặt?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "扫码。我扫您还是您扫我？",
+     "vi": "Quét mã. Tôi quét anh hay anh quét tôi?"
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "你出示付款码，我扫你就行。",
+     "vi": "Bạn mở mã thanh toán ra, tôi quét bạn là được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好……诶，怎么没反应？",
+     "vi": "Được… Ơ, sao không thấy phản hồi gì?"
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "可能网不好，你刷新一下，或者扫墙上那个码。",
+     "vi": "Chắc mạng yếu, bạn tải lại xem, hoặc quét cái mã dán trên tường."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "扫好了，输了二十八块五。您看到账了吗？",
+     "vi": "Quét xong rồi, tôi nhập hai mươi tám tệ rưỡi. Anh thấy tiền vào chưa?"
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "到了。要小票吗？",
+     "vi": "Vào rồi. Lấy hoá đơn không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "不用了，谢谢。",
+     "vi": "Không cần đâu, cảm ơn."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "扫码",
+     "pinyin": "sǎo mǎ",
+     "vi": "quét mã",
+     "example": {
+      "zh": "一共二十八块五。扫码还是现金？",
+      "vi": "Tổng cộng hai mươi tám tệ rưỡi. Quét mã hay tiền mặt?"
+     }
+    },
+    {
+     "zh": "付款码",
+     "pinyin": "fùkuǎn mǎ",
+     "vi": "mã thanh toán (của người mua)",
+     "example": {
+      "zh": "你出示付款码，我扫你就行。",
+      "vi": "Bạn mở mã thanh toán ra, tôi quét bạn là được."
+     }
+    },
+    {
+     "zh": "收款码",
+     "pinyin": "shōukuǎn mǎ",
+     "vi": "mã nhận tiền (của người bán)"
+    },
+    {
+     "zh": "出示",
+     "pinyin": "chūshì",
+     "vi": "đưa ra, trình",
+     "example": {
+      "zh": "你出示付款码，我扫你就行。",
+      "vi": "Bạn mở mã thanh toán ra, tôi quét bạn là được."
+     }
+    },
+    {
+     "zh": "刷新",
+     "pinyin": "shuāxīn",
+     "vi": "làm mới (trang)",
+     "example": {
+      "zh": "可能网不好，你刷新一下，或者扫墙上那个码。",
+      "vi": "Chắc mạng yếu, bạn tải lại xem, hoặc quét cái mã dán trên tường."
+     }
+    },
+    {
+     "zh": "没反应",
+     "pinyin": "méi fǎnyìng",
+     "vi": "không phản hồi, đơ",
+     "example": {
+      "zh": "好……诶，怎么没反应？",
+      "vi": "Được… Ơ, sao không thấy phản hồi gì?"
+     }
+    },
+    {
+     "zh": "到账",
+     "pinyin": "dào zhàng",
+     "vi": "tiền đã về tài khoản",
+     "example": {
+      "zh": "扫好了，输了二十八块五。您看到账了吗？",
+      "vi": "Quét xong rồi, tôi nhập hai mươi tám tệ rưỡi. Anh thấy tiền vào chưa?"
+     }
+    },
+    {
+     "zh": "小票",
+     "pinyin": "xiǎopiào",
+     "vi": "hóa đơn nhỏ",
+     "example": {
+      "zh": "到了。要小票吗？",
+      "vi": "Vào rồi. Lấy hoá đơn không?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g2-1",
+     "title_zh": "A 还是 B？",
+     "title_vi": "Hỏi lựa chọn",
+     "formula": [
+      [
+       {
+        "zh": "A 还是 B？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "A 还是 B？ là câu hỏi lựa chọn, đưa ra hai (hoặc nhiều) phương án để người nghe chọn một. Cuối câu KHÔNG dùng 吗 (nói 你喝茶还是咖啡？ chứ không nói 你喝茶还是咖啡吗？). Lưu ý: 还是 dùng trong câu hỏi; trong câu trần thuật \"hoặc\" thì dùng 或者.",
+     "examples": [
+      {
+       "zh": "扫码还是现金？",
+       "vi": "Quét mã hay tiền mặt?"
+      },
+      {
+       "zh": "我扫您还是您扫我？",
+       "vi": "Tôi quét anh hay anh quét tôi?"
+      }
+     ]
+    },
+    {
+     "id": "gt-g2-2",
+     "title_zh": "怎么 + 没/不 + V？",
+     "title_vi": "Ngạc nhiên khi có sự cố",
+     "formula": [
+      [
+       {
+        "zh": "怎么",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "没/不",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V？",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "怎么 + 没/不 + V？ dùng để bày tỏ sự ngạc nhiên, khó hiểu (thậm chí hơi bực) khi một việc lẽ ra phải xảy ra nhưng không xảy ra. 怎么 ở đây mang nghĩa \"sao lại\", không phải hỏi cách thức. Dùng 没 cho việc đã/chưa xảy ra (怎么没反应？), dùng 不 cho thái độ, ý muốn hoặc thói quen (你怎么不说话？). Với sự việc bất thường đã xảy ra có thể dùng 怎么 + V + 了 (怎么扣了两次钱？).",
+     "examples": [
+      {
+       "zh": "怎么没反应？",
+       "vi": "Sao không thấy phản hồi gì?"
+      },
+      {
+       "zh": "怎么扣了两次钱？",
+       "vi": "Sao bị trừ tiền hai lần thế?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "扫码点单",
+   "context_vi": "Bài khoá 2: 扫码点单 – Quét mã gọi món",
+   "scene": "📱",
+   "lines": [
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "您好，几位？",
+     "vi": "Xin chào, mấy người ạ?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "两位。",
+     "vi": "Hai người."
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "这边请。桌上有二维码，扫码点单，下完单直接在手机上付就行。",
+     "vi": "Mời đi lối này. Trên bàn có mã QR, quét mã gọi món, đặt xong thanh toán luôn trên điện thoại là được."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "得先关注公众号吗？还要授权手机号？",
+     "vi": "Có phải theo dõi tài khoản công chúng trước không? Còn phải cấp quyền số điện thoại à?"
+    },
+    {
+     "speaker": "gt-fuwuyuan",
+     "zh": "不用关注，点\"允许\"就行。",
+     "vi": "Không cần theo dõi, bấm \"Cho phép\" là được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "这个小程序里有满五十减十的券。",
+     "vi": "Trong mini app này có phiếu mua đủ năm mươi giảm mười."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "那先领券，再凑够五十。",
+     "vi": "Vậy lấy phiếu trước, rồi gọi thêm cho đủ năm mươi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "加一份米饭就够了。下单了！",
+     "vi": "Thêm một suất cơm là đủ. Đặt món rồi!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "二维码",
+     "pinyin": "èrwéimǎ",
+     "vi": "mã QR",
+     "example": {
+      "zh": "这边请。桌上有二维码，扫码点单，下完单直接在手机上付就行。",
+      "vi": "Mời đi lối này. Trên bàn có mã QR, quét mã gọi món, đặt xong thanh toán luôn trên điện thoại là được."
+     }
+    },
+    {
+     "zh": "点单 / 下单",
+     "pinyin": "diǎn dān / xià dān",
+     "vi": "gọi món / đặt đơn"
+    },
+    {
+     "zh": "小程序",
+     "pinyin": "xiǎochéngxù",
+     "vi": "mini app trong WeChat/Alipay",
+     "example": {
+      "zh": "这个小程序里有满五十减十的券。",
+      "vi": "Trong mini app này có phiếu mua đủ năm mươi giảm mười."
+     }
+    },
+    {
+     "zh": "公众号",
+     "pinyin": "gōngzhònghào",
+     "vi": "tài khoản chính thức (official account)",
+     "example": {
+      "zh": "得先关注公众号吗？还要授权手机号？",
+      "vi": "Có phải theo dõi tài khoản công chúng trước không? Còn phải cấp quyền số điện thoại à?"
+     }
+    },
+    {
+     "zh": "关注",
+     "pinyin": "guānzhù",
+     "vi": "theo dõi (follow)",
+     "example": {
+      "zh": "得先关注公众号吗？还要授权手机号？",
+      "vi": "Có phải theo dõi tài khoản công chúng trước không? Còn phải cấp quyền số điện thoại à?"
+     }
+    },
+    {
+     "zh": "授权",
+     "pinyin": "shòuquán",
+     "vi": "cấp quyền",
+     "example": {
+      "zh": "得先关注公众号吗？还要授权手机号？",
+      "vi": "Có phải theo dõi tài khoản công chúng trước không? Còn phải cấp quyền số điện thoại à?"
+     }
+    },
+    {
+     "zh": "领券",
+     "pinyin": "lǐng quàn",
+     "vi": "nhận phiếu giảm giá",
+     "example": {
+      "zh": "那先领券，再凑够五十。",
+      "vi": "Vậy lấy phiếu trước, rồi gọi thêm cho đủ năm mươi."
+     }
+    },
+    {
+     "zh": "满……减……",
+     "pinyin": "mǎn… jiǎn…",
+     "vi": "mua đủ… giảm…"
+    },
+    {
+     "zh": "凑单",
+     "pinyin": "còu dān",
+     "vi": "mua thêm cho đủ mức giảm"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g2-3",
+     "title_zh": "先……再…… / 先……回头再……",
+     "title_vi": "先……再…… / 先……回头再……",
+     "formula": [
+      [
+       {
+        "zh": "先……再…… / 先……回头再……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "先……再…… diễn đạt trình tự \"trước… rồi mới…\". Biến thể khẩu ngữ 先……回头再…… có nghĩa \"trước làm phần này, để sau/lát nữa làm phần kia\", thường dùng khi chưa thể làm trọn một việc ngay (trả trước một phần, hẹn lát nữa). 再 ở đây đứng trước động từ thứ hai và chỉ hành động sẽ xảy ra trong tương lai.",
+     "examples": [
+      {
+       "zh": "先领券，再凑单。",
+       "vi": "Lấy phiếu trước, rồi gọi thêm cho đủ."
+      },
+      {
+       "zh": "先转五块，回头再给你。",
+       "vi": "Chuyển trước năm tệ, lát nữa đưa bạn nốt."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "AA 和支付失败",
+   "context_vi": "Bài khoá 3: AA 和支付失败 – Chia tiền và thanh toán thất bại",
+   "scene": "📱",
+   "lines": [
+    {
+     "speaker": "gt-lixiang",
+     "zh": "刚才打车一共三十六，我先垫的。",
+     "vi": "Vừa nãy đi taxi hết ba mươi sáu, mình trả trước."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我转你十八。……咦，怎么提示\"支付失败\"？",
+     "vi": "Mình chuyển bạn mười tám. … Ơ, sao báo \"Thanh toán thất bại\"?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "你绑卡了吗？",
+     "vi": "Bạn liên kết thẻ chưa?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "绑的是越南的卡，可能超限额了，零钱也只剩五块。",
+     "vi": "Mình liên kết thẻ Việt Nam, chắc vượt hạn mức rồi, ví cũng chỉ còn năm tệ."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "没事儿，不急，回头再转我。",
+     "vi": "Không sao, không vội, lát nữa chuyển mình cũng được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那我先转五块，剩下的晚上给你。亲兄弟明算账嘛！",
+     "vi": "Vậy mình chuyển trước năm tệ, phần còn lại tối mình đưa. Anh em ruột cũng phải sòng phẳng mà!"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "哈哈，行，我收了啊。",
+     "vi": "Haha, được, mình nhận nhé."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "垫（钱）",
+     "pinyin": "diàn (qián)",
+     "vi": "ứng tiền trước"
+    },
+    {
+     "zh": "转账",
+     "pinyin": "zhuǎn zhàng",
+     "vi": "chuyển khoản"
+    },
+    {
+     "zh": "支付失败",
+     "pinyin": "zhīfù shībài",
+     "vi": "thanh toán thất bại",
+     "example": {
+      "zh": "我转你十八。……咦，怎么提示\"支付失败\"？",
+      "vi": "Mình chuyển bạn mười tám. … Ơ, sao báo \"Thanh toán thất bại\"?"
+     }
+    },
+    {
+     "zh": "余额不足",
+     "pinyin": "yú'é bùzú",
+     "vi": "số dư không đủ"
+    },
+    {
+     "zh": "零钱",
+     "pinyin": "língqián",
+     "vi": "ví số dư WeChat; tiền lẻ",
+     "example": {
+      "zh": "绑的是越南的卡，可能超限额了，零钱也只剩五块。",
+      "vi": "Mình liên kết thẻ Việt Nam, chắc vượt hạn mức rồi, ví cũng chỉ còn năm tệ."
+     }
+    },
+    {
+     "zh": "绑卡",
+     "pinyin": "bǎng kǎ",
+     "vi": "liên kết thẻ",
+     "example": {
+      "zh": "你绑卡了吗？",
+      "vi": "Bạn liên kết thẻ chưa?"
+     }
+    },
+    {
+     "zh": "外卡内绑",
+     "pinyin": "wàikǎ nèibǎng",
+     "vi": "liên kết thẻ nước ngoài vào ví TQ"
+    },
+    {
+     "zh": "限额",
+     "pinyin": "xiàn'é",
+     "vi": "hạn mức",
+     "example": {
+      "zh": "绑的是越南的卡，可能超限额了，零钱也只剩五块。",
+      "vi": "Mình liên kết thẻ Việt Nam, chắc vượt hạn mức rồi, ví cũng chỉ còn năm tệ."
+     }
+    },
+    {
+     "zh": "支付密码",
+     "pinyin": "zhīfù mìmǎ",
+     "vi": "mật khẩu thanh toán"
+    },
+    {
+     "zh": "免密支付",
+     "pinyin": "miǎn mì zhīfù",
+     "vi": "thanh toán không cần mật khẩu"
+    },
+    {
+     "zh": "收钱 / 收款",
+     "pinyin": "shōu qián",
+     "vi": "nhận tiền"
+    },
+    {
+     "zh": "回头",
+     "pinyin": "huítóu",
+     "vi": "lát nữa, để sau",
+     "example": {
+      "zh": "没事儿，不急，回头再转我。",
+      "vi": "Không sao, không vội, lát nữa chuyển mình cũng được."
+     }
+    },
+    {
+     "zh": "亲兄弟明算账",
+     "pinyin": "qīn xiōngdì míng suàn zhàng",
+     "vi": "anh em ruột cũng phải sòng phẳng",
+     "example": {
+      "zh": "那我先转五块，剩下的晚上给你。亲兄弟明算账嘛！",
+      "vi": "Vậy mình chuyển trước năm tệ, phần còn lại tối mình đưa. Anh em ruột cũng phải sòng phẳng mà!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g2-4",
+     "title_zh": "凑 + 够/齐",
+     "title_vi": "Gom cho đủ",
+     "formula": [
+      [
+       {
+        "zh": "凑",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "够/齐",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "凑 nghĩa là \"gom, góp cho đủ\". Cấu trúc 凑 + 够/齐 (+ số lượng/đối tượng) nhấn mạnh việc bổ sung thêm để đạt mức yêu cầu: 凑够五十 (gom đủ 50 tệ), 凑齐人 (gom đủ người). Từ 凑单 rất phổ biến khi mua sắm online: mua thêm món nhỏ để đạt mức \"满……减……\" hoặc miễn phí ship.",
+     "examples": [
+      {
+       "zh": "再加一瓶可乐就凑够五十了。",
+       "vi": "Thêm một chai Coca nữa là đủ năm mươi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "页面没反应，你___一下试试。",
+   "bank": [
+    "到账",
+    "刷新",
+    "小票"
+   ],
+   "answer": "刷新"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "钱我已经转了，您看___了吗？",
+   "bank": [
+    "限额",
+    "回头",
+    "到账"
+   ],
+   "answer": "到账"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "刚才车费是我先___的，你转我十八就行。",
+   "bank": [
+    "限额",
+    "垫",
+    "到账"
+   ],
+   "answer": "垫"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "我的卡超___了，付不了。",
+   "bank": [
+    "垫",
+    "限额",
+    "到账"
+   ],
+   "answer": "限额"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "不急，你___再转我。",
+   "bank": [
+    "垫",
+    "小票",
+    "回头"
+   ],
+   "answer": "回头"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "A：要___吗？B：不用了，谢谢。",
+   "bank": [
+    "小票",
+    "回头",
+    "垫"
+   ],
+   "answer": "小票"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "还是",
+    "扫码",
+    "现金"
+   ],
+   "answers": [
+    "扫码还是现金"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "没",
+    "怎么",
+    "反应"
+   ],
+   "answers": [
+    "怎么没反应"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "先",
+    "领券",
+    "凑单",
+    "再"
+   ],
+   "answers": [
+    "先领券再凑单"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "你",
+    "我",
+    "付款码",
+    "出示",
+    "扫你",
+    "就行"
+   ],
+   "answers": [
+    "你出示付款码我扫你就行"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "付款码",
+     "a": "mã thanh toán (của người mua)"
+    },
+    {
+     "q": "二维码",
+     "a": "mã QR"
+    },
+    {
+     "q": "关注",
+     "a": "theo dõi (follow)"
+    },
+    {
+     "q": "凑单",
+     "a": "mua thêm cho đủ mức giảm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Ở Việt Nam bạn thường thanh toán bằng tiền mặt, thẻ hay quét mã QR?",
+   "Khởi động: Bạn đã từng gặp sự cố khi thanh toán chưa (mạng yếu, bị trừ tiền hai lần…)? Khi đó bạn đã làm gì?",
+   "支付大救援 Cứu nguy thanh toán (10 phút): giáo viên phát thẻ sự cố (mất mạng, quá hạn mức, bị trừ tiền 2 lần, người bán không có mã, quét nhầm mã bàn khác). Cặp đôi đóng vai khách–nhân viên, phải giải quyết trong 60 giây.",
+   "谁是凑单王 Vua gom đơn (8 phút): phát thực đơn giả có mã \"满80减15\", nhóm thương lượng để gom đơn rẻ nhất; nhóm trình bày lý do bằng tiếng Trung.",
+   "Nhiệm vụ thực tế: chụp màn hình 3 loại mã (付款码, 收款码, mã gọi món) và giải thích bằng tiếng Trung mỗi loại dùng khi nào."
+  ],
+  "patterns": [
+   {
+    "zh": "扫码还是现金？",
+    "vi": "Quét mã hay tiền mặt?"
+   },
+   {
+    "zh": "怎么没反应？",
+    "vi": "Sao không thấy phản hồi gì?"
+   },
+   {
+    "zh": "先领券，再凑单。",
+    "vi": "Lấy phiếu trước, rồi gọi thêm cho đủ."
+   },
+   {
+    "zh": "再加一瓶可乐就凑够五十了。",
+    "vi": "Thêm một chai Coca nữa là đủ năm mươi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "thanh toán cho người nước ngoài đã dễ hơn nhiều",
+  "body_vi": [
+   "Từ năm 2024, Ngân hàng Nhân dân Trung Quốc chỉ đạo Alipay và WeChat Pay nâng hạn mức cho người nước ngoài từ 1.000 lên 5.000 USD/giao dịch và từ 1 vạn lên 5 vạn USD/năm (Chính phủ TQ/Nhân dân Nhật báo). Có hai cách: \"外卡内绑\" (liên kết thẻ nước ngoài vào ví TQ) và \"外包内用\" (dùng ví nước ngoài quét mã ở TQ) (Tân Hoa xã). Tiền mặt vẫn được chấp nhận hợp pháp, nhưng hàng quán nhỏ có thể không có tiền thối, nên luôn chuẩn bị ví điện tử. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: thanh toán cho người nước ngoài đã dễ hơn nhiều Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Quét lỗi thì nói ngay: 不好意思，我这边网不好，我扫您的码行吗？ Tuyệt đối đừng đứng im chờ.",
+   "Ứng xử: Sau khi trả, đưa màn hình \"支付成功\" cho người bán xem nếu họ không có loa báo.",
+   "Ứng xử: Chia tiền: bạn thân thường luân phiên mời (这次我请，下次你); bạn mới hoặc đồng nghiệp thì AA qua 群收款 là bình thường.",
+   "Ứng xử: Ngại thì nói: 我先垫着，你回头转我就行，không cần chuyển ngay trước mặt."
+  ]
+ }
+}

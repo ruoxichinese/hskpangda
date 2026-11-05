@@ -1,0 +1,674 @@
+{
+ "id": 6,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "快递与退换货",
+  "pinyin": "kuài dì yǔ tuì huàn huò",
+  "vi": "Nhận hàng, đổi trả"
+ },
+ "grammarTopics_vi": [
+  "可 (= 可是), ngắn, khẩu ngữ",
+  "……再说",
+  "先别 + V",
+  "说好……的 (ôn lại) + phản bác nhẹ"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Lấy hàng ở trạm",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Xử lý khi báo đã nhận mà chưa thấy hàng",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Đổi trả 7 ngày",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Từ chối hàng thu tiền khi nhận",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "驿站取件",
+   "context_vi": "Bài khoá 1: 驿站取件 – Lấy hàng ở trạm",
+   "scene": "📦",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我取快递。",
+     "vi": "Chào chị, em lấy hàng."
+    },
+    {
+     "speaker": "gt-gongzuorenyuan",
+     "zh": "取件码多少？",
+     "vi": "Mã lấy hàng bao nhiêu?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "3-2-1508。",
+     "vi": "3-2-1508."
+    },
+    {
+     "speaker": "gt-gongzuorenyuan",
+     "zh": "自己去三号架第二层找，找到了扫一下出库。",
+     "vi": "Tự ra kệ số ba tầng hai tìm, tìm thấy thì quét mã xuất kho."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "找到了。还有一个显示\"已签收\"，可我没收到啊。",
+     "vi": "Thấy rồi ạ. Còn một kiện báo \"Đã ký nhận\" mà em chưa nhận được."
+    },
+    {
+     "speaker": "gt-gongzuorenyuan",
+     "zh": "可能快递员放快递柜了，你看看短信，或者给快递员打个电话问问。",
+     "vi": "Chắc shipper để vào tủ nhận hàng rồi, em xem tin nhắn, hoặc gọi cho shipper hỏi thử."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "快递",
+     "pinyin": "kuàidì",
+     "vi": "chuyển phát; bưu kiện",
+     "example": {
+      "zh": "你好，我取快递。",
+      "vi": "Chào chị, em lấy hàng."
+     }
+    },
+    {
+     "zh": "快递员 / 快递小哥",
+     "pinyin": "kuàidìyuán",
+     "vi": "nhân viên giao hàng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g6-1",
+     "title_zh": "可 (= 可是), ngắn, khẩu ngữ",
+     "title_vi": "可 (= 可是), ngắn, khẩu ngữ",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "可 (= 可是), ngắn, khẩu ngữ",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "可 trong khẩu ngữ là dạng rút gọn của 可是, nghĩa \"nhưng mà\", dùng để chuyển ý hoặc đối lập với điều vừa nói. Đặc điểm: 可 thường đứng sau chủ ngữ hoặc đầu vế sau, câu ngắn gọn, tự nhiên, hay đi với 啊 cuối câu để thể hiện bức xúc nhẹ: 显示已签收，可我没收到啊。So sánh: 但是 trung tính, dùng cả văn viết; 可 thân mật, đậm khẩu ngữ.",
+     "examples": [
+      {
+       "zh": "显示已签收，可我没收到啊。",
+       "vi": "Báo đã ký nhận mà tôi chưa nhận được."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "七天无理由退货",
+   "context_vi": "Bài khoá 2: 七天无理由退货 – Trả hàng 7 ngày không cần lý do",
+   "scene": "📦",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，衣服码数不合适，我想退货。",
+     "vi": "Chào shop, áo không vừa size, mình muốn trả hàng."
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "亲，支持七天无理由的哦。吊牌没剪吧？",
+     "vi": "Dạ, bên em hỗ trợ đổi trả bảy ngày không cần lý do ạ. Bạn chưa cắt mác đúng không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没剪，就试穿了一下。",
+     "vi": "Chưa cắt, chỉ mặc thử một chút."
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "好的，您在订单页点\"退货退款\"，选\"七天无理由\"，可以预约上门取件，运费险会赔运费。",
+     "vi": "Vâng, bạn vào trang đơn hàng bấm \"Trả hàng hoàn tiền\", chọn \"Bảy ngày không lý do\", có thể hẹn lấy hàng tận nhà, bảo hiểm phí ship sẽ bù tiền ship."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "退款多久到账？",
+     "vi": "Bao lâu thì nhận được tiền hoàn?"
+    },
+    {
+     "speaker": "gt-kefu",
+     "zh": "我们收到货验收后，一般一到三天原路退回。",
+     "vi": "Bên em nhận hàng kiểm tra xong, thường một đến ba ngày hoàn về đúng tài khoản đã thanh toán."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g6-3",
+     "title_zh": "先别 + V",
+     "title_vi": "先别 + V",
+     "formula": [
+      [
+       {
+        "zh": "先别",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "先别 + V nghĩa là \"khoan hãy…, tạm thời đừng…\", dùng để ngăn một hành động tạm thời chứ không phải cấm hẳn. 先 cho biết đây chỉ là tạm dừng, có thể làm sau. Thường đi kèm lý do hoặc với ……再说: 先别签收，我问清楚再说。So sánh: 别签收 (đừng ký nhận — dứt khoát hơn).",
+     "examples": [
+      {
+       "zh": "先别签收。",
+       "vi": "Đừng ký nhận vội."
+      },
+      {
+       "zh": "先别退款，我再看看。",
+       "vi": "Đừng hoàn tiền vội, để tôi xem thêm."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "到付件",
+   "context_vi": "Bài khoá 3: 到付件 – Hàng thu tiền khi nhận",
+   "scene": "📦",
+   "lines": [
+    {
+     "speaker": "gt-kuaidiyuan",
+     "zh": "喂，你有个件，家里有人吗？",
+     "vi": "Alô, bạn có một kiện hàng, nhà có ai không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "没人，放门口可以吗？",
+     "vi": "Không có ai, để ở cửa được không?"
+    },
+    {
+     "speaker": "gt-kuaidiyuan",
+     "zh": "这个是到付的，得当面给钱。",
+     "vi": "Kiện này là thanh toán khi nhận, phải trả tiền trực tiếp."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "到付？我没选到付啊。是商家寄回来的换货吧，说好包邮的。",
+     "vi": "Thanh toán khi nhận? Mình đâu có chọn thanh toán khi nhận. Chắc là hàng đổi người bán gửi lại, đã nói là miễn phí ship mà."
+    },
+    {
+     "speaker": "gt-kuaidiyuan",
+     "zh": "那你先跟商家联系，我先放驿站。",
+     "vi": "Vậy bạn liên hệ với người bán trước, tôi để ở điểm gửi hàng đã."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "麻烦先别帮我签收，我问清楚再说。",
+     "vi": "Phiền anh đừng ký nhận giúp mình vội, để mình hỏi rõ rồi tính."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "驿站",
+     "pinyin": "yìzhàn",
+     "vi": "trạm nhận hàng (菜鸟驿站)",
+     "example": {
+      "zh": "那你先跟商家联系，我先放驿站。",
+      "vi": "Vậy bạn liên hệ với người bán trước, tôi để ở điểm gửi hàng đã."
+     }
+    },
+    {
+     "zh": "取件码",
+     "pinyin": "qǔjiàn mǎ",
+     "vi": "mã nhận hàng",
+     "example": {
+      "zh": "取件码多少？",
+      "vi": "Mã lấy hàng bao nhiêu?"
+     }
+    },
+    {
+     "zh": "货架",
+     "pinyin": "huòjià",
+     "vi": "kệ hàng"
+    },
+    {
+     "zh": "出库",
+     "pinyin": "chū kù",
+     "vi": "quét xuất kho",
+     "example": {
+      "zh": "自己去三号架第二层找，找到了扫一下出库。",
+      "vi": "Tự ra kệ số ba tầng hai tìm, tìm thấy thì quét mã xuất kho."
+     }
+    },
+    {
+     "zh": "已签收",
+     "pinyin": "yǐ qiānshōu",
+     "vi": "đã ký nhận",
+     "example": {
+      "zh": "找到了。还有一个显示\"已签收\"，可我没收到啊。",
+      "vi": "Thấy rồi ạ. Còn một kiện báo \"Đã ký nhận\" mà em chưa nhận được."
+     }
+    },
+    {
+     "zh": "快递柜",
+     "pinyin": "kuàidì guì",
+     "vi": "tủ nhận hàng tự động",
+     "example": {
+      "zh": "可能快递员放快递柜了，你看看短信，或者给快递员打个电话问问。",
+      "vi": "Chắc shipper để vào tủ nhận hàng rồi, em xem tin nhắn, hoặc gọi cho shipper hỏi thử."
+     }
+    },
+    {
+     "zh": "派送中",
+     "pinyin": "pàisòng zhōng",
+     "vi": "đang giao"
+    },
+    {
+     "zh": "物流信息",
+     "pinyin": "wùliú xìnxī",
+     "vi": "thông tin vận chuyển"
+    },
+    {
+     "zh": "单号",
+     "pinyin": "dānhào",
+     "vi": "mã vận đơn"
+    },
+    {
+     "zh": "催一下",
+     "pinyin": "cuī yíxià",
+     "vi": "giục"
+    },
+    {
+     "zh": "七天无理由",
+     "pinyin": "qī tiān wú lǐyóu",
+     "vi": "trả hàng 7 ngày không cần lý do",
+     "example": {
+      "zh": "亲，支持七天无理由的哦。吊牌没剪吧？",
+      "vi": "Dạ, bên em hỗ trợ đổi trả bảy ngày không cần lý do ạ. Bạn chưa cắt mác đúng không?"
+     }
+    },
+    {
+     "zh": "吊牌",
+     "pinyin": "diàopái",
+     "vi": "mác treo",
+     "example": {
+      "zh": "亲，支持七天无理由的哦。吊牌没剪吧？",
+      "vi": "Dạ, bên em hỗ trợ đổi trả bảy ngày không cần lý do ạ. Bạn chưa cắt mác đúng không?"
+     }
+    },
+    {
+     "zh": "试穿",
+     "pinyin": "shì chuān",
+     "vi": "mặc thử",
+     "example": {
+      "zh": "没剪，就试穿了一下。",
+      "vi": "Chưa cắt, chỉ mặc thử một chút."
+     }
+    },
+    {
+     "zh": "退货退款",
+     "pinyin": "tuìhuò tuìkuǎn",
+     "vi": "trả hàng hoàn tiền",
+     "example": {
+      "zh": "好的，您在订单页点\"退货退款\"，选\"七天无理由\"，可以预约上门取件，运费险会赔运费。",
+      "vi": "Vâng, bạn vào trang đơn hàng bấm \"Trả hàng hoàn tiền\", chọn \"Bảy ngày không lý do\", có thể hẹn lấy hàng tận nhà, bảo hiểm phí ship sẽ bù tiền ship."
+     }
+    },
+    {
+     "zh": "仅退款",
+     "pinyin": "jǐn tuìkuǎn",
+     "vi": "chỉ hoàn tiền (không trả hàng)"
+    },
+    {
+     "zh": "换货",
+     "pinyin": "huàn huò",
+     "vi": "đổi hàng",
+     "example": {
+      "zh": "到付？我没选到付啊。是商家寄回来的换货吧，说好包邮的。",
+      "vi": "Thanh toán khi nhận? Mình đâu có chọn thanh toán khi nhận. Chắc là hàng đổi người bán gửi lại, đã nói là miễn phí ship mà."
+     }
+    },
+    {
+     "zh": "运费险",
+     "pinyin": "yùnfèi xiǎn",
+     "vi": "bảo hiểm phí vận chuyển",
+     "example": {
+      "zh": "好的，您在订单页点\"退货退款\"，选\"七天无理由\"，可以预约上门取件，运费险会赔运费。",
+      "vi": "Vâng, bạn vào trang đơn hàng bấm \"Trả hàng hoàn tiền\", chọn \"Bảy ngày không lý do\", có thể hẹn lấy hàng tận nhà, bảo hiểm phí ship sẽ bù tiền ship."
+     }
+    },
+    {
+     "zh": "上门取件",
+     "pinyin": "shàngmén qǔjiàn",
+     "vi": "lấy hàng tận nơi",
+     "example": {
+      "zh": "好的，您在订单页点\"退货退款\"，选\"七天无理由\"，可以预约上门取件，运费险会赔运费。",
+      "vi": "Vâng, bạn vào trang đơn hàng bấm \"Trả hàng hoàn tiền\", chọn \"Bảy ngày không lý do\", có thể hẹn lấy hàng tận nhà, bảo hiểm phí ship sẽ bù tiền ship."
+     }
+    },
+    {
+     "zh": "寄件",
+     "pinyin": "jì jiàn",
+     "vi": "gửi hàng"
+    },
+    {
+     "zh": "验收",
+     "pinyin": "yànshōu",
+     "vi": "kiểm tra nhận",
+     "example": {
+      "zh": "我们收到货验收后，一般一到三天原路退回。",
+      "vi": "Bên em nhận hàng kiểm tra xong, thường một đến ba ngày hoàn về đúng tài khoản đã thanh toán."
+     }
+    },
+    {
+     "zh": "原路退回",
+     "pinyin": "yuánlù tuìhuí",
+     "vi": "hoàn về đúng tài khoản đã trả",
+     "example": {
+      "zh": "我们收到货验收后，一般一到三天原路退回。",
+      "vi": "Bên em nhận hàng kiểm tra xong, thường một đến ba ngày hoàn về đúng tài khoản đã thanh toán."
+     }
+    },
+    {
+     "zh": "到付",
+     "pinyin": "dào fù",
+     "vi": "trả tiền khi nhận",
+     "example": {
+      "zh": "这个是到付的，得当面给钱。",
+      "vi": "Kiện này là thanh toán khi nhận, phải trả tiền trực tiếp."
+     }
+    },
+    {
+     "zh": "拒收",
+     "pinyin": "jù shōu",
+     "vi": "từ chối nhận"
+    },
+    {
+     "zh": "当面",
+     "pinyin": "dāngmiàn",
+     "vi": "trực tiếp, trước mặt",
+     "example": {
+      "zh": "这个是到付的，得当面给钱。",
+      "vi": "Kiện này là thanh toán khi nhận, phải trả tiền trực tiếp."
+     }
+    },
+    {
+     "zh": "质量问题",
+     "pinyin": "zhìliàng wèntí",
+     "vi": "lỗi chất lượng"
+    },
+    {
+     "zh": "破损",
+     "pinyin": "pòsǔn",
+     "vi": "hư hỏng, vỡ"
+    },
+    {
+     "zh": "开箱视频",
+     "pinyin": "kāixiāng shìpín",
+     "vi": "video mở hộp làm bằng chứng"
+    },
+    {
+     "zh": "问清楚再说",
+     "pinyin": "wèn qīngchu zài shuō",
+     "vi": "hỏi rõ rồi tính",
+     "example": {
+      "zh": "麻烦先别帮我签收，我问清楚再说。",
+      "vi": "Phiền anh đừng ký nhận giúp mình vội, để mình hỏi rõ rồi tính."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g6-2",
+     "title_zh": "……再说",
+     "title_vi": "Hoãn quyết định",
+     "formula": [
+      [
+       {
+        "zh": "……再说",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……再说 đứng cuối câu nghĩa là \"rồi tính sau\", dùng để hoãn một quyết định cho đến khi điều kiện phía trước được đáp ứng. Cấu trúc: (先) + V + (清楚/完) + 再说. Ví dụ 我问清楚再说 = hỏi rõ rồi hẵng tính. Câu này cũng là cách từ chối khéo, lảng tránh quyết định ngay: 这事儿回头再说吧。",
+     "examples": [
+      {
+       "zh": "我问清楚再说。",
+       "vi": "Để tôi hỏi rõ rồi tính."
+      },
+      {
+       "zh": "先吃饭，别的回头再说。",
+       "vi": "Ăn cơm trước đã, chuyện khác tính sau."
+      }
+     ]
+    },
+    {
+     "id": "gt-g6-4",
+     "title_zh": "说好……的 (ôn lại) + phản bác nhẹ",
+     "title_vi": "说好……的 (ôn lại) + phản bác nhẹ",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "说好……的 (ôn lại)",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "phản bác nhẹ",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Ôn lại 说好……的 (Bài 3) và mở rộng thành khung phản bác nhẹ: 说好……的，怎么……？ Vế trước nhắc lại thỏa thuận, vế sau dùng 怎么 để chất vấn vì sao thực tế lại khác. Giọng điệu cứng rắn nhưng vẫn lịch sự, rất hợp khi khiếu nại với shop hoặc nhắc bạn bè giữ lời.",
+     "examples": [
+      {
+       "zh": "说好包邮的，怎么要到付？",
+       "vi": "Đã nói là miễn phí ship, sao lại phải trả tiền khi nhận?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "去驿站取快递，要先报___。",
+   "bank": [
+    "取件码",
+    "拒收",
+    "运费险"
+   ],
+   "answer": "取件码"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "___没剪的话，可以七天无理由退货。",
+   "bank": [
+    "破损",
+    "到付",
+    "吊牌"
+   ],
+   "answer": "吊牌"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "买了___，退货的运费就不用自己出了。",
+   "bank": [
+    "取件码",
+    "运费险",
+    "到付"
+   ],
+   "answer": "运费险"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "这个件是___的，得当面给钱。",
+   "bank": [
+    "取件码",
+    "运费险",
+    "到付"
+   ],
+   "answer": "到付"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "快递盒子___了，里面的杯子也碎了。",
+   "bank": [
+    "取件码",
+    "拒收",
+    "破损"
+   ],
+   "answer": "破损"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我没买过这个东西，我要___。",
+   "bank": [
+    "拒收",
+    "取件码",
+    "到付"
+   ],
+   "answer": "拒收"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "签收",
+    "先别",
+    "麻烦"
+   ],
+   "answers": [
+    "麻烦先别签收"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "我",
+    "再说",
+    "问清楚"
+   ],
+   "answers": [
+    "我问清楚再说"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "已签收",
+    "我",
+    "显示",
+    "可",
+    "没收到"
+   ],
+   "answers": [
+    "显示已签收可我没收到"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "退款",
+    "到账",
+    "多久"
+   ],
+   "answers": [
+    "退款多久到账"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "快递员 / 快递小哥",
+     "a": "nhân viên giao hàng"
+    },
+    {
+     "q": "已签收",
+     "a": "đã ký nhận"
+    },
+    {
+     "q": "单号",
+     "a": "mã vận đơn"
+    },
+    {
+     "q": "退货退款",
+     "a": "trả hàng hoàn tiền"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn đã từng gặp trường hợp app báo \"đã giao hàng\" nhưng bạn không nhận được chưa?",
+   "Khởi động: Bạn có hay trả lại hàng mua online không? Quy trình đổi trả ở Việt Nam có dễ không?",
+   "我的快递去哪儿了 Kiện hàng của tôi đâu (10 phút): chuỗi 3 vai (khách – trạm – shipper). Mỗi người chỉ có 1 mảnh thông tin; phải hỏi nhau để tìm ra kiện hàng bị để ở đâu.",
+   "退货攻防 Công thủ đổi trả (8 phút): khách bốc lý do trả hàng (đã mặc 1 lần, cắt mác, màu khác ảnh, hàng lỗi sau 10 ngày); shop quyết định có nhận không, cả hai phải lập luận có căn cứ.",
+   "Nhiệm vụ thực tế: viết kịch bản tin nhắn yêu cầu trả hàng với lý do \"màu khác ảnh\", dùng ít nhất 5 từ mới."
+  ],
+  "patterns": [
+   {
+    "zh": "显示已签收，可我没收到啊。",
+    "vi": "Báo đã ký nhận mà tôi chưa nhận được."
+   },
+   {
+    "zh": "先别签收。",
+    "vi": "Đừng ký nhận vội."
+   },
+   {
+    "zh": "我问清楚再说。",
+    "vi": "Để tôi hỏi rõ rồi tính."
+   },
+   {
+    "zh": "说好包邮的，怎么要到付？",
+    "vi": "Đã nói là miễn phí ship, sao lại phải trả tiền khi nhận?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "7 ngày\" có căn cứ pháp luật Luật Bảo vệ quyền lợi người tiêu dùng TQ (Điều 25) cho phép trả hàng mua online trong 7 ngày. Thời hạn tính từ ngày hôm sau khi ký nhận, và việc mở bao bì để kiểm tra hợp lý không làm mất quyền trả hàng (Sở Quản lý Thị trường Bắc Kinh). Ngoại lệ gồm hàng đặt làm riêng, đồ tươi sống, sản phẩm số đã mở và báo tạp chí (Vân Nam Net). Lỗi chất lượng thì quyền đổi trả kéo dài hơn 7 ngày. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"7 ngày\" có căn cứ pháp luật Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Hàng giá trị cao: quay video mở hộp liên tục, không cắt; có thể mở kiểm tra ngay tại trạm (当面验货).",
+   "Ứng xử: Shop từ chối trả hàng vô lý: bấm \"申请平台介入\" (yêu cầu sàn can thiệp) trước, không cãi nhau tay đôi quá lâu.",
+   "Ứng xử: Không rõ vì sao bị đòi tiền: \"先别签收\" và liên hệ shop. Ký nhận rồi sẽ khó khiếu nại."
+  ]
+ }
+}

@@ -1,0 +1,673 @@
+{
+ "id": 18,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "年轻人口语",
+  "pinyin": "nián qīng rén kǒu yǔ",
+  "vi": "Khẩu ngữ giới trẻ: khen, than, an ủi"
+ },
+ "grammarTopics_vi": [
+  "好 + tính từ + 啊/哦",
+  "一整个 + V/Adj + 住了",
+  "有被 + V + 到",
+  "……属于是"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Khen tự nhiên",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đáp lại lời khen",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "An ủi bạn",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Thể hiện cảm xúc và tính cách bằng ngôn ngữ của người trẻ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "夸人",
+   "context_vi": "Bài khoá 1: 夸人 – Khen",
+   "scene": "😎",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你今天这身好好看，好有松弛感！",
+     "vi": "Bộ đồ hôm nay của cậu đẹp quá, trông thư thái ghê!"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "真的假的？我随便穿的。",
+     "vi": "Thật hay đùa? Mình mặc đại thôi."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "真的，特别出片，拍照肯定好看。",
+     "vi": "Thật mà, cực lên ảnh, chụp chắc chắn đẹp."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "嘿嘿，你嘴真甜。走，我给你当摄影师！",
+     "vi": "Hihi, cậu khéo miệng ghê. Đi, mình làm thợ ảnh cho cậu!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "好 + tính từ",
+     "pinyin": "hǎo…",
+     "vi": "rất… (好好看, 好可爱)"
+    },
+    {
+     "zh": "松弛感",
+     "pinyin": "sōngchí gǎn",
+     "vi": "vẻ thoải mái, tự nhiên, không gồng",
+     "example": {
+      "zh": "你今天这身好好看，好有松弛感！",
+      "vi": "Bộ đồ hôm nay của cậu đẹp quá, trông thư thái ghê!"
+     }
+    },
+    {
+     "zh": "真的假的",
+     "pinyin": "zhēn de jiǎ de",
+     "vi": "thật á?",
+     "example": {
+      "zh": "真的假的？我随便穿的。",
+      "vi": "Thật hay đùa? Mình mặc đại thôi."
+     }
+    },
+    {
+     "zh": "随便",
+     "pinyin": "suíbiàn",
+     "vi": "tùy tiện, đại khái",
+     "example": {
+      "zh": "真的假的？我随便穿的。",
+      "vi": "Thật hay đùa? Mình mặc đại thôi."
+     }
+    },
+    {
+     "zh": "出片",
+     "pinyin": "chū piàn",
+     "vi": "lên ảnh đẹp",
+     "example": {
+      "zh": "真的，特别出片，拍照肯定好看。",
+      "vi": "Thật mà, cực lên ảnh, chụp chắc chắn đẹp."
+     }
+    },
+    {
+     "zh": "嘴甜",
+     "pinyin": "zuǐ tián",
+     "vi": "khéo miệng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g18-1",
+     "title_zh": "好 + tính từ + 啊/哦",
+     "title_vi": "Mức độ cao, giọng trẻ",
+     "formula": [
+      [
+       {
+        "zh": "好",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "tính từ",
+        "role": "V"
+       },
+       {
+        "zh": "啊/哦",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "好 + tính từ (+ 啊/哦/呀) là cách nói mức độ cao rất phổ biến với giới trẻ, tương đương 很 / 非常 nhưng giàu cảm xúc hơn, nghe \"dễ thương\", hơi phóng đại. Ví dụ: 好好看啊！好离谱！好有松弛感！Chú ý: 好 ở đây là phó từ chỉ mức độ, không phải \"tốt\"; 好好吃 = ngon quá (không phải \"ăn ngon lành\").",
+     "examples": [
+      {
+       "zh": "好好吃啊！",
+       "vi": "Ngon quá đi!"
+      },
+      {
+       "zh": "好离谱！",
+       "vi": "Vô lý hết sức!"
+      }
+     ]
+    },
+    {
+     "id": "gt-g18-2",
+     "title_zh": "一整个 + V/Adj + 住了",
+     "title_vi": "一整个 + V/Adj + 住了",
+     "formula": [
+      [
+       {
+        "zh": "一整个",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V/Adj",
+        "role": "V"
+       },
+       {
+        "zh": "住了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "一整个 + V/Adj + 住了 là cấu trúc \"trend\" mạng, diễn tả cảm xúc chiếm trọn người nói: \"hoàn toàn bị… luôn\". 一整个 = \"nguyên cả người\", 住了 làm trạng thái như bị \"đóng băng\". Ví dụ: 一整个爱住了 (mê luôn), 一整个无语住了 (cạn lời luôn), 一整个emo住了. Chỉ dùng trong khẩu ngữ, mạng xã hội.",
+     "examples": [
+      {
+       "zh": "一整个爱住了。",
+       "vi": "Yêu hết cả người luôn."
+      },
+      {
+       "zh": "一整个无语住了。",
+       "vi": "Cạn lời hết cả người luôn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "破防与安慰",
+   "context_vi": "Bài khoá 2: 破防与安慰 – Suy sụp và an ủi",
+   "scene": "😎",
+   "lines": [
+    {
+     "speaker": "gt-pengyou",
+     "zh": "我破防了，面试又挂了。",
+     "vi": "Mình sụp đổ rồi, phỏng vấn lại trượt nữa."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "抱抱！不是你的问题，是他们没眼光。",
+     "vi": "Ôm cái nào! Không phải lỗi của cậu, là họ không có mắt nhìn người."
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "我现在一整个emo住了。",
+     "vi": "Giờ mình buồn hết cả người luôn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "走，带你吃顿好的，化悲愤为食欲！",
+     "vi": "Đi, dẫn cậu đi ăn một bữa ngon, biến đau thương thành sức ăn!"
+    },
+    {
+     "speaker": "gt-pengyou",
+     "zh": "还是你懂我，情绪价值拉满。",
+     "vi": "Vẫn là cậu hiểu mình nhất, giá trị cảm xúc max luôn."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "挂了",
+     "pinyin": "guà le",
+     "vi": "trượt (thi, phỏng vấn)",
+     "example": {
+      "zh": "我破防了，面试又挂了。",
+      "vi": "Mình sụp đổ rồi, phỏng vấn lại trượt nữa."
+     }
+    },
+    {
+     "zh": "抱抱",
+     "pinyin": "bàobao",
+     "vi": "ôm cái nào (an ủi)",
+     "example": {
+      "zh": "抱抱！不是你的问题，是他们没眼光。",
+      "vi": "Ôm cái nào! Không phải lỗi của cậu, là họ không có mắt nhìn người."
+     }
+    },
+    {
+     "zh": "没眼光",
+     "pinyin": "méi yǎnguāng",
+     "vi": "không có mắt nhìn",
+     "example": {
+      "zh": "抱抱！不是你的问题，是他们没眼光。",
+      "vi": "Ôm cái nào! Không phải lỗi của cậu, là họ không có mắt nhìn người."
+     }
+    },
+    {
+     "zh": "一整个……住了",
+     "pinyin": "yì zhěng gè… zhù le",
+     "vi": "hoàn toàn bị… (一整个爱住了)"
+    },
+    {
+     "zh": "化悲愤为食欲",
+     "pinyin": "huà bēifèn wéi shíyù",
+     "vi": "biến đau buồn thành thèm ăn",
+     "example": {
+      "zh": "走，带你吃顿好的，化悲愤为食欲！",
+      "vi": "Đi, dẫn cậu đi ăn một bữa ngon, biến đau thương thành sức ăn!"
+     }
+    },
+    {
+     "zh": "懂我",
+     "pinyin": "dǒng wǒ",
+     "vi": "hiểu tôi",
+     "example": {
+      "zh": "还是你懂我，情绪价值拉满。",
+      "vi": "Vẫn là cậu hiểu mình nhất, giá trị cảm xúc max luôn."
+     }
+    },
+    {
+     "zh": "拉满",
+     "pinyin": "lā mǎn",
+     "vi": "kéo max, tối đa",
+     "example": {
+      "zh": "还是你懂我，情绪价值拉满。",
+      "vi": "Vẫn là cậu hiểu mình nhất, giá trị cảm xúc max luôn."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g18-3",
+     "title_zh": "有被 + V + 到",
+     "title_vi": "Thừa nhận cảm xúc",
+     "formula": [
+      [
+       {
+        "zh": "有被",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "到",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "有被 + V + 到 là cách nói mới của giới trẻ để thừa nhận mình bị tác động cảm xúc: \"bị… thật đấy\". Cấu trúc mượn từ câu bị động 被 nhưng thêm 有 ở trước và 到 ở sau làm câu nhẹ, dí dỏm. Ví dụ: 有被感动到 (cảm động thật đấy), 有被吓到 (giật mình thật), 有被你笑到 (bạn làm tôi cười thật).",
+     "examples": [
+      {
+       "zh": "有被感动到。",
+       "vi": "Bị làm cho cảm động rồi."
+      },
+      {
+       "zh": "有被吓到。",
+       "vi": "Bị doạ sợ rồi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "i人还是e人",
+   "context_vi": "Bài khoá 3: i人还是e人 – Hướng nội hay hướng ngoại",
+   "scene": "😎",
+   "lines": [
+    {
+     "speaker": "gt-tongxue",
+     "zh": "你是i人还是e人？",
+     "vi": "Cậu là người hướng nội hay hướng ngoại?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我是i人，聚会上不认识的人一多我就想溜。",
+     "vi": "Mình hướng nội, đi tiệc mà nhiều người lạ là mình chỉ muốn chuồn."
+    },
+    {
+     "speaker": "gt-tongxue",
+     "zh": "我是e人，一天不说话能憋死。",
+     "vi": "Mình hướng ngoại, một ngày không nói chuyện chắc nghẹn chết."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那以后聚会你负责社交，我负责吃。",
+     "vi": "Vậy sau này đi tiệc cậu lo giao lưu, mình lo ăn."
+    },
+    {
+     "speaker": "gt-tongxue",
+     "zh": "绝配！有被你笑到。",
+     "vi": "Cặp bài trùng luôn! Bị cậu làm cho cười rồi đấy."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "i人 / e人",
+     "pinyin": "i rén / e rén",
+     "vi": "người hướng nội / hướng ngoại"
+    },
+    {
+     "zh": "溜",
+     "pinyin": "liū",
+     "vi": "chuồn",
+     "example": {
+      "zh": "我是i人，聚会上不认识的人一多我就想溜。",
+      "vi": "Mình hướng nội, đi tiệc mà nhiều người lạ là mình chỉ muốn chuồn."
+     }
+    },
+    {
+     "zh": "憋死",
+     "pinyin": "biē sǐ",
+     "vi": "nghẹn chết (vì không được nói)",
+     "example": {
+      "zh": "我是e人，一天不说话能憋死。",
+      "vi": "Mình hướng ngoại, một ngày không nói chuyện chắc nghẹn chết."
+     }
+    },
+    {
+     "zh": "绝配",
+     "pinyin": "juépèi",
+     "vi": "cặp đôi hoàn hảo",
+     "example": {
+      "zh": "绝配！有被你笑到。",
+      "vi": "Cặp bài trùng luôn! Bị cậu làm cho cười rồi đấy."
+     }
+    },
+    {
+     "zh": "有被……到",
+     "pinyin": "yǒu bèi… dào",
+     "vi": "bị… thật đấy (有被笑到)"
+    },
+    {
+     "zh": "无语",
+     "pinyin": "wúyǔ",
+     "vi": "cạn lời"
+    },
+    {
+     "zh": "服了",
+     "pinyin": "fú le",
+     "vi": "chịu thua, bó tay"
+    },
+    {
+     "zh": "好家伙",
+     "pinyin": "hǎo jiāhuo",
+     "vi": "trời đất! (ngạc nhiên)"
+    },
+    {
+     "zh": "离谱",
+     "pinyin": "lípǔ",
+     "vi": "vô lý, quá đáng"
+    },
+    {
+     "zh": "……属于是",
+     "pinyin": "shǔyú shì",
+     "vi": "đúng là… (đảo ngữ: 离谱属于是)"
+    },
+    {
+     "zh": "救命",
+     "pinyin": "jiùmìng",
+     "vi": "cứu với (phóng đại)"
+    },
+    {
+     "zh": "我真的会谢",
+     "pinyin": "wǒ zhēnde huì xiè",
+     "vi": "cảm ơn nhé (mỉa: bó tay)"
+    },
+    {
+     "zh": "家人们",
+     "pinyin": "jiārénmen",
+     "vi": "cả nhà ơi (mở đầu kể chuyện)"
+    },
+    {
+     "zh": "太可了",
+     "pinyin": "tài kě le",
+     "vi": "dễ thương/tuyệt quá"
+    },
+    {
+     "zh": "上头",
+     "pinyin": "shàngtóu",
+     "vi": "nghiện, cuốn"
+    },
+    {
+     "zh": "下头",
+     "pinyin": "xiàtóu",
+     "vi": "tụt hứng"
+    },
+    {
+     "zh": "夸夸",
+     "pinyin": "kuākua",
+     "vi": "khen (dễ thương)"
+    },
+    {
+     "zh": "我在呢",
+     "pinyin": "wǒ zài ne",
+     "vi": "có tôi đây (an ủi)"
+    },
+    {
+     "zh": "吐槽",
+     "pinyin": "tǔcáo",
+     "vi": "than thở, cà khịa"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g18-4",
+     "title_zh": "……属于是",
+     "title_vi": "Nhận xét đảo ngữ",
+     "formula": [
+      [
+       {
+        "zh": "……属于是",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……属于是 là cấu trúc nhận xét kiểu đảo ngữ trên mạng: đưa nhận xét lên trước, 属于是 ở cuối câu, nghĩa \"đúng là…, thuộc loại…\". Câu bình thường 这波属于离谱 → nói kiểu mạng: 这波离谱属于是. Dùng khi bình luận, cà khịa nhẹ một sự việc vừa xảy ra.",
+     "examples": [
+      {
+       "zh": "这波离谱属于是。",
+       "vi": "Vụ này đúng là vô lý thật."
+      },
+      {
+       "zh": "快乐属于是。",
+       "vi": "Đúng là vui thật sự."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "你今天看起来好放松，好有___！",
+   "bank": [
+    "松弛感",
+    "嘴甜",
+    "没眼光"
+   ],
+   "answer": "松弛感"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "这个地方特别___，随便拍都好看。",
+   "bank": [
+    "绝配",
+    "出片",
+    "嘴甜"
+   ],
+   "answer": "出片"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "你___，每次都夸得我好开心。",
+   "bank": [
+    "没眼光",
+    "嘴甜",
+    "绝配"
+   ],
+   "answer": "嘴甜"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "不是你的问题，是他们___。",
+   "bank": [
+    "拉满",
+    "绝配",
+    "没眼光"
+   ],
+   "answer": "没眼光"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "你负责社交，我负责吃，咱俩___！",
+   "bank": [
+    "绝配",
+    "拉满",
+    "松弛感"
+   ],
+   "answer": "绝配"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "带你吃好吃的，情绪价值___！",
+   "bank": [
+    "出片",
+    "嘴甜",
+    "拉满"
+   ],
+   "answer": "拉满"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "好有",
+    "你今天",
+    "松弛感"
+   ],
+   "answers": [
+    "你今天好有松弛感"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "住了",
+    "一整个",
+    "我",
+    "爱"
+   ],
+   "answers": [
+    "我一整个爱住了"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "有被",
+    "到",
+    "你",
+    "笑"
+   ],
+   "answers": [
+    "有被你笑到"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "属于是",
+    "离谱",
+    "这波"
+   ],
+   "answers": [
+    "这波离谱属于是"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "真的假的",
+     "a": "thật á?"
+    },
+    {
+     "q": "一整个……住了",
+     "a": "hoàn toàn bị… (一整个爱住了)"
+    },
+    {
+     "q": "溜",
+     "a": "chuồn"
+    },
+    {
+     "q": "服了",
+     "a": "chịu thua, bó tay"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn thường khen bạn bè như thế nào? Bạn có hay nhận lời khen một cách tự nhiên không?",
+   "Khởi động: Khi bạn thân buồn, bạn sẽ làm gì để an ủi?",
+   "夸夸群 Nhóm khen (8 phút): mỗi người ngồi \"ghế nóng\" 40 giây, cả nhóm lần lượt khen bằng mẫu câu mới; người được khen phải đáp lại tự nhiên.",
+   "情绪电台 Đài phát thanh cảm xúc (10 phút): mỗi người bốc 1 chuyện (thi trượt, bị người yêu chia tay, được tăng lương, bị sếp mắng). Người kể dùng từ cảm xúc; người nghe phản hồi đúng kiểu (vui cùng, an ủi, cà khịa nhẹ).",
+   "Nhiệm vụ thực tế: gửi tin nhắn thoại 30 giây khen một người bạn và 30 giây an ủi một người bạn (giả lập), dùng ít nhất 4 từ mới."
+  ],
+  "patterns": [
+   {
+    "zh": "好好吃啊！",
+    "vi": "Ngon quá đi!"
+   },
+   {
+    "zh": "一整个爱住了。",
+    "vi": "Yêu hết cả người luôn."
+   },
+   {
+    "zh": "有被感动到。",
+    "vi": "Bị làm cho cảm động rồi."
+   },
+   {
+    "zh": "这波离谱属于是。",
+    "vi": "Vụ này đúng là vô lý thật."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "夸夸群\" và nhu cầu \"情绪价值\" Giới trẻ TQ từng lập các nhóm chat chỉ để khen nhau (夸夸群), phản ánh nhu cầu được ghi nhận trong môi trường nhiều áp lực. Nhãn i/e (từ MBTI) được dùng như cách giới thiệu bản thân nhanh; hỏi \"你是i人还是e人？\" là câu mở chuyện an toàn trong buổi gặp mặt. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"夸夸群\" và nhu cầu \"情绪价值\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Đáp lời khen giữa bạn trẻ: 真的假的？/ 哪有～ / 你也很好看啊！ Tránh quá khiêm tốn kiểu \"不好不好\".",
+   "Ứng xử: An ủi: tránh \"别哭了\" hay \"这有什么\". Dùng \"抱抱 / 我在呢 / 换我也会难过\", rồi rủ làm gì đó cùng.",
+   "Ứng xử: Cà khịa (吐槽) chỉ dùng khi đã thân; cà khịa ngoại hình, cân nặng dễ làm người khác 下头."
+  ]
+ }
+}

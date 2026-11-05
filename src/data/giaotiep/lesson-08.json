@@ -1,0 +1,694 @@
+{
+ "id": 8,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "签约入住",
+  "pinyin": "qiān yuē rù zhù",
+  "vi": "Ký hợp đồng và sống ở nhà thuê"
+ },
+ "grammarTopics_vi": [
+  "……的话，……；……，就……",
+  "时A时B",
+  "经过 + ai + 同意",
+  "才 + V (mới chỉ)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Đọc điều khoản chính",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Hỏi về cọc và chấm dứt hợp đồng",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Báo sửa chữa",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đóng điện nước",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Đăng ký tạm trú",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "签合同",
+   "context_vi": "Bài khoá 1: 签合同 – Ký hợp đồng",
+   "scene": "🔑",
+   "lines": [
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "这是合同，您看一下。租期一年，押金一个月，三个月交一次房租。",
+     "vi": "Đây là hợp đồng, chị xem nhé. Thời hạn thuê một năm, cọc một tháng, ba tháng đóng tiền nhà một lần."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "押金什么情况下不退？",
+     "vi": "Trường hợp nào thì không trả lại tiền cọc?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "提前退租的话，押金不退；正常到期，房子没损坏，就全额退还。",
+     "vi": "Nếu trả nhà trước hạn thì không hoàn cọc; hết hạn bình thường, nhà không hư hỏng thì hoàn đủ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "如果我中途回国，能转租吗？",
+     "vi": "Nếu giữa chừng tôi về nước, có cho thuê lại được không?"
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "转租要经过房东同意，最好写进合同里。",
+     "vi": "Cho thuê lại phải được chủ nhà đồng ý, tốt nhất ghi vào hợp đồng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "家具家电清单能附在合同后面吗？我再拍几张照片存个底。",
+     "vi": "Danh sách đồ đạc, thiết bị điện có đính kèm sau hợp đồng được không? Tôi chụp thêm vài tấm ảnh để làm bằng."
+    },
+    {
+     "speaker": "gt-zhongjie",
+     "zh": "没问题。另外外国人住这儿，入住后24小时内要办住宿登记。",
+     "vi": "Không thành vấn đề. Ngoài ra người nước ngoài ở đây, trong vòng 24 giờ sau khi vào ở phải đăng ký tạm trú."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "签合同",
+     "pinyin": "qiān hétong",
+     "vi": "ký hợp đồng"
+    },
+    {
+     "zh": "租期",
+     "pinyin": "zūqī",
+     "vi": "thời hạn thuê",
+     "example": {
+      "zh": "这是合同，您看一下。租期一年，押金一个月，三个月交一次房租。",
+      "vi": "Đây là hợp đồng, chị xem nhé. Thời hạn thuê một năm, cọc một tháng, ba tháng đóng tiền nhà một lần."
+     }
+    },
+    {
+     "zh": "押金",
+     "pinyin": "yājīn",
+     "vi": "tiền cọc",
+     "example": {
+      "zh": "这是合同，您看一下。租期一年，押金一个月，三个月交一次房租。",
+      "vi": "Đây là hợp đồng, chị xem nhé. Thời hạn thuê một năm, cọc một tháng, ba tháng đóng tiền nhà một lần."
+     }
+    },
+    {
+     "zh": "全额退还",
+     "pinyin": "quán'é tuìhuán",
+     "vi": "hoàn trả toàn bộ",
+     "example": {
+      "zh": "提前退租的话，押金不退；正常到期，房子没损坏，就全额退还。",
+      "vi": "Nếu trả nhà trước hạn thì không hoàn cọc; hết hạn bình thường, nhà không hư hỏng thì hoàn đủ."
+     }
+    },
+    {
+     "zh": "提前退租",
+     "pinyin": "tíqián tuìzū",
+     "vi": "trả nhà trước hạn",
+     "example": {
+      "zh": "提前退租的话，押金不退；正常到期，房子没损坏，就全额退还。",
+      "vi": "Nếu trả nhà trước hạn thì không hoàn cọc; hết hạn bình thường, nhà không hư hỏng thì hoàn đủ."
+     }
+    },
+    {
+     "zh": "违约金",
+     "pinyin": "wéiyuē jīn",
+     "vi": "tiền phạt vi phạm hợp đồng"
+    },
+    {
+     "zh": "转租",
+     "pinyin": "zhuǎnzū",
+     "vi": "cho thuê lại",
+     "example": {
+      "zh": "如果我中途回国，能转租吗？",
+      "vi": "Nếu giữa chừng tôi về nước, có cho thuê lại được không?"
+     }
+    },
+    {
+     "zh": "到期 / 续租",
+     "pinyin": "dàoqī / xùzū",
+     "vi": "hết hạn / gia hạn"
+    },
+    {
+     "zh": "清单",
+     "pinyin": "qīngdān",
+     "vi": "danh sách",
+     "example": {
+      "zh": "家具家电清单能附在合同后面吗？我再拍几张照片存个底。",
+      "vi": "Danh sách đồ đạc, thiết bị điện có đính kèm sau hợp đồng được không? Tôi chụp thêm vài tấm ảnh để làm bằng."
+     }
+    },
+    {
+     "zh": "存个底",
+     "pinyin": "cún ge dǐ",
+     "vi": "lưu làm bằng",
+     "example": {
+      "zh": "家具家电清单能附在合同后面吗？我再拍几张照片存个底。",
+      "vi": "Danh sách đồ đạc, thiết bị điện có đính kèm sau hợp đồng được không? Tôi chụp thêm vài tấm ảnh để làm bằng."
+     }
+    },
+    {
+     "zh": "住宿登记",
+     "pinyin": "zhùsù dēngjì",
+     "vi": "đăng ký tạm trú",
+     "example": {
+      "zh": "没问题。另外外国人住这儿，入住后24小时内要办住宿登记。",
+      "vi": "Không thành vấn đề. Ngoài ra người nước ngoài ở đây, trong vòng 24 giờ sau khi vào ở phải đăng ký tạm trú."
+     }
+    },
+    {
+     "zh": "派出所",
+     "pinyin": "pàichūsuǒ",
+     "vi": "đồn công an phường"
+    },
+    {
+     "zh": "报修",
+     "pinyin": "bàoxiū",
+     "vi": "báo sửa chữa"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g8-1",
+     "title_zh": "……的话，……；……，就……",
+     "title_vi": "Điều kiện trong hợp đồng",
+     "formula": [
+      [
+       {
+        "zh": "……的话，……；……，就……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Hợp đồng thường mô tả điều kiện bằng hai khung song song: ……的话，…… (nếu… thì…) cho tình huống bất lợi, và (如果)……，就…… cho tình huống bình thường. Hai vế được ngăn bằng dấu chấm phẩy để đối chiếu rõ: 提前退租的话，押金不退；正常到期，就全额退还。Khi đọc hợp đồng, hãy tìm 的话 và 就 để biết điều kiện và hệ quả.",
+     "examples": [
+      {
+       "zh": "提前退租的话，押金不退；正常到期，就全额退还。",
+       "vi": "Nếu trả nhà trước hạn thì không hoàn cọc; hết hạn bình thường thì hoàn đủ."
+      }
+     ]
+    },
+    {
+     "id": "gt-g8-2",
+     "title_zh": "时A时B",
+     "title_vi": "时A时B",
+     "formula": [
+      [
+       {
+        "zh": "时A时B",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "时A时B nghĩa là \"lúc A lúc B\", diễn tả trạng thái thay đổi thất thường, không ổn định. A và B thường là hai tính từ đơn âm tiết trái nghĩa: 时好时坏 (lúc được lúc không), 时快时慢, 时冷时热, 时有时无. Rất hữu ích khi báo hỏng hóc mà thiết bị không hỏng hẳn.",
+     "examples": [
+      {
+       "zh": "热水器时好时坏。",
+       "vi": "Bình nóng lạnh lúc được lúc không."
+      },
+      {
+       "zh": "网速时快时慢。",
+       "vi": "Mạng lúc nhanh lúc chậm."
+      }
+     ]
+    },
+    {
+     "id": "gt-g8-3",
+     "title_zh": "经过 + ai + 同意",
+     "title_vi": "经过 + ai + 同意",
+     "formula": [
+      [
+       {
+        "zh": "经过",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "ai",
+        "role": "V"
+       },
+       {
+        "zh": "同意",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "经过 + ai + 同意 nghĩa là \"được sự đồng ý của ai\", diễn tả điều kiện cần có sự cho phép. Thường đi với 要 / 得 / 必须: 转租要经过房东同意。Dạng phủ định: 没经过……同意，不能…… (chưa được ai đồng ý thì không được…). Đây là cách nói hay gặp trong hợp đồng, nội quy.",
+     "examples": [
+      {
+       "zh": "转租要经过房东同意。",
+       "vi": "Cho thuê lại phải được chủ nhà đồng ý."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "报修",
+   "context_vi": "Bài khoá 2: 报修 – Báo sửa chữa",
+   "scene": "🔑",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "王姐，卫生间下水道堵了，水都漫出来了。",
+     "vi": "Chị Vương ơi, cống nhà vệ sinh bị tắc, nước tràn hết ra ngoài rồi."
+    },
+    {
+     "speaker": "gt-fangdong",
+     "zh": "哎呀，我找个师傅明天上午过去，你在家吗？",
+     "vi": "Ôi trời, chị tìm thợ sáng mai qua, em có nhà không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "十点以后在。另外热水器也时好时坏的。",
+     "vi": "Sau mười giờ em có nhà. Ngoài ra bình nóng lạnh cũng lúc được lúc không."
+    },
+    {
+     "speaker": "gt-fangdong",
+     "zh": "一起看看吧。不过人为损坏的话得你出钱哈。",
+     "vi": "Xem luôn một thể. Nhưng nếu do người làm hỏng thì em phải trả tiền đấy nhé."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "这肯定不是人为的，我才住进来一个月。",
+     "vi": "Chắc chắn không phải do em đâu, em mới vào ở được một tháng."
+    },
+    {
+     "speaker": "gt-fangdong",
+     "zh": "行行行，那我出。",
+     "vi": "Được được được, vậy chị trả."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "下水道",
+     "pinyin": "xiàshuǐdào",
+     "vi": "ống thoát nước",
+     "example": {
+      "zh": "王姐，卫生间下水道堵了，水都漫出来了。",
+      "vi": "Chị Vương ơi, cống nhà vệ sinh bị tắc, nước tràn hết ra ngoài rồi."
+     }
+    },
+    {
+     "zh": "堵了",
+     "pinyin": "dǔ le",
+     "vi": "bị tắc",
+     "example": {
+      "zh": "王姐，卫生间下水道堵了，水都漫出来了。",
+      "vi": "Chị Vương ơi, cống nhà vệ sinh bị tắc, nước tràn hết ra ngoài rồi."
+     }
+    },
+    {
+     "zh": "漏水",
+     "pinyin": "lòu shuǐ",
+     "vi": "rò nước"
+    },
+    {
+     "zh": "漫出来",
+     "pinyin": "màn chūlai",
+     "vi": "tràn ra",
+     "example": {
+      "zh": "王姐，卫生间下水道堵了，水都漫出来了。",
+      "vi": "Chị Vương ơi, cống nhà vệ sinh bị tắc, nước tràn hết ra ngoài rồi."
+     }
+    },
+    {
+     "zh": "时好时坏",
+     "pinyin": "shí hǎo shí huài",
+     "vi": "lúc được lúc không",
+     "example": {
+      "zh": "十点以后在。另外热水器也时好时坏的。",
+      "vi": "Sau mười giờ em có nhà. Ngoài ra bình nóng lạnh cũng lúc được lúc không."
+     }
+    },
+    {
+     "zh": "人为损坏",
+     "pinyin": "rénwéi sǔnhuài",
+     "vi": "hư do người dùng",
+     "example": {
+      "zh": "一起看看吧。不过人为损坏的话得你出钱哈。",
+      "vi": "Xem luôn một thể. Nhưng nếu do người làm hỏng thì em phải trả tiền đấy nhé."
+     }
+    },
+    {
+     "zh": "维修师傅",
+     "pinyin": "wéixiū shīfu",
+     "vi": "thợ sửa"
+    },
+    {
+     "zh": "物业",
+     "pinyin": "wùyè",
+     "vi": "ban quản lý tòa nhà"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g8-4",
+     "title_zh": "才 + V (mới chỉ)",
+     "title_vi": "Nhấn mạnh thời gian ngắn",
+     "formula": [
+      [
+       {
+        "zh": "才",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V (mới chỉ)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "才 + V (+ thời lượng) nghĩa là \"mới chỉ…\", nhấn mạnh thời gian hoặc số lượng ít hơn mong đợi. Thường dùng để bào chữa hoặc phản bác: 我才住进来一个月 (tôi mới vào ở có một tháng — nên không thể là lỗi của tôi). Chú ý: 才 đứng trước động từ; cuối câu thường không dùng 了. So sánh: 我已经住了一年了 (đã ở cả năm rồi — nhấn mạnh nhiều).",
+     "examples": [
+      {
+       "zh": "我才住进来一个月。",
+       "vi": "Tôi mới vào ở được một tháng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "缴费与物业",
+   "context_vi": "Bài khoá 3: 缴费与物业 – Đóng phí và ban quản lý",
+   "scene": "🔑",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我家停电了，是不是电费没交？",
+     "vi": "Chào anh, nhà tôi bị mất điện, có phải chưa đóng tiền điện không?"
+    },
+    {
+     "speaker": "gt-wuye",
+     "zh": "你看一下电表，可能是欠费了。可以在国家电网APP上交，或者支付宝\"生活缴费\"。",
+     "vi": "Chị xem đồng hồ điện, chắc là bị nợ cước. Có thể đóng trên app State Grid, hoặc mục \"Thanh toán sinh hoạt\" của Alipay."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "燃气呢？",
+     "vi": "Còn gas thì sao?"
+    },
+    {
+     "speaker": "gt-wuye",
+     "zh": "燃气是插卡的，得去营业厅充值。对了，垃圾要分类，厨余垃圾放绿桶。",
+     "vi": "Gas là loại cắm thẻ, phải ra điểm giao dịch nạp tiền. À, rác phải phân loại, rác nhà bếp bỏ thùng xanh lá."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "明白了，谢谢！",
+     "vi": "Tôi hiểu rồi, cảm ơn anh!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "停电 / 停水",
+     "pinyin": "tíng diàn / tíng shuǐ",
+     "vi": "mất điện / mất nước"
+    },
+    {
+     "zh": "欠费",
+     "pinyin": "qiàn fèi",
+     "vi": "nợ cước",
+     "example": {
+      "zh": "你看一下电表，可能是欠费了。可以在国家电网APP上交，或者支付宝\"生活缴费\"。",
+      "vi": "Chị xem đồng hồ điện, chắc là bị nợ cước. Có thể đóng trên app State Grid, hoặc mục \"Thanh toán sinh hoạt\" của Alipay."
+     }
+    },
+    {
+     "zh": "电表 / 水表",
+     "pinyin": "diànbiǎo / shuǐbiǎo",
+     "vi": "đồng hồ điện / nước"
+    },
+    {
+     "zh": "生活缴费",
+     "pinyin": "shēnghuó jiǎofèi",
+     "vi": "thanh toán hóa đơn sinh hoạt",
+     "example": {
+      "zh": "你看一下电表，可能是欠费了。可以在国家电网APP上交，或者支付宝\"生活缴费\"。",
+      "vi": "Chị xem đồng hồ điện, chắc là bị nợ cước. Có thể đóng trên app State Grid, hoặc mục \"Thanh toán sinh hoạt\" của Alipay."
+     }
+    },
+    {
+     "zh": "充值",
+     "pinyin": "chōngzhí",
+     "vi": "nạp tiền",
+     "example": {
+      "zh": "燃气是插卡的，得去营业厅充值。对了，垃圾要分类，厨余垃圾放绿桶。",
+      "vi": "Gas là loại cắm thẻ, phải ra điểm giao dịch nạp tiền. À, rác phải phân loại, rác nhà bếp bỏ thùng xanh lá."
+     }
+    },
+    {
+     "zh": "营业厅",
+     "pinyin": "yíngyètīng",
+     "vi": "phòng giao dịch",
+     "example": {
+      "zh": "燃气是插卡的，得去营业厅充值。对了，垃圾要分类，厨余垃圾放绿桶。",
+      "vi": "Gas là loại cắm thẻ, phải ra điểm giao dịch nạp tiền. À, rác phải phân loại, rác nhà bếp bỏ thùng xanh lá."
+     }
+    },
+    {
+     "zh": "垃圾分类",
+     "pinyin": "lājī fēnlèi",
+     "vi": "phân loại rác"
+    },
+    {
+     "zh": "厨余垃圾",
+     "pinyin": "chúyú lājī",
+     "vi": "rác nhà bếp",
+     "example": {
+      "zh": "燃气是插卡的，得去营业厅充值。对了，垃圾要分类，厨余垃圾放绿桶。",
+      "vi": "Gas là loại cắm thẻ, phải ra điểm giao dịch nạp tiền. À, rác phải phân loại, rác nhà bếp bỏ thùng xanh lá."
+     }
+    },
+    {
+     "zh": "可回收物",
+     "pinyin": "kě huíshōu wù",
+     "vi": "rác tái chế"
+    },
+    {
+     "zh": "行行行",
+     "pinyin": "xíng xíng xíng",
+     "vi": "thôi được rồi (đồng ý, hơi miễn cưỡng)",
+     "example": {
+      "zh": "行行行，那我出。",
+      "vi": "Được được được, vậy chị trả."
+     }
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "卫生间下水道___，水都漫出来了。",
+   "bank": [
+    "押金",
+    "堵了",
+    "转租"
+   ],
+   "answer": "堵了"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我拍几张照片___，以后退房的时候用。",
+   "bank": [
+    "存个底",
+    "欠费",
+    "押金"
+   ],
+   "answer": "存个底"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "正常到期的话，___全额退还。",
+   "bank": [
+    "转租",
+    "存个底",
+    "押金"
+   ],
+   "answer": "押金"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "家里停电了，可能是电费___了。",
+   "bank": [
+    "转租",
+    "存个底",
+    "欠费"
+   ],
+   "answer": "欠费"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "热水器坏了，我得给房东打电话___。",
+   "bank": [
+    "报修",
+    "存个底",
+    "堵了"
+   ],
+   "answer": "报修"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我下个月回国，想把房子___出去。",
+   "bank": [
+    "转租",
+    "欠费",
+    "堵了"
+   ],
+   "answer": "转租"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "时好时坏",
+    "的",
+    "热水器",
+    "也"
+   ],
+   "answers": [
+    "热水器也时好时坏的"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "经过",
+    "转租",
+    "同意",
+    "房东",
+    "要"
+   ],
+   "answers": [
+    "转租要经过房东同意"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "一个月",
+    "我",
+    "住进来",
+    "才"
+   ],
+   "answers": [
+    "我才住进来一个月"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "能",
+    "合同后面",
+    "附在",
+    "吗",
+    "清单"
+   ],
+   "answers": [
+    "清单能附在合同后面吗"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "租期",
+     "a": "thời hạn thuê"
+    },
+    {
+     "q": "到期 / 续租",
+     "a": "hết hạn / gia hạn"
+    },
+    {
+     "q": "下水道",
+     "a": "ống thoát nước"
+    },
+    {
+     "q": "人为损坏",
+     "a": "hư do người dùng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Khi ký hợp đồng thuê nhà, bạn có đọc kỹ từng điều khoản không? Điều khoản nào quan trọng nhất?",
+   "Khởi động: Nếu đồ đạc trong nhà thuê bị hỏng, bạn sẽ báo cho chủ nhà như thế nào?",
+   "合同找坑 Tìm bẫy trong hợp đồng (10 phút): phát hợp đồng giả 1 trang có 4 điều khoản bất lợi (mất cọc nếu chậm 1 ngày, tự trả mọi khoản sửa chữa, chủ nhà được vào nhà bất cứ lúc nào…). Nhóm tìm ra, rồi đóng vai thương lượng sửa.",
+   "报修接力 Tiếp sức báo sửa (8 phút): mỗi người bốc 1 sự cố (tắc bồn cầu, điều hòa chảy nước, mất ga), gọi \"chủ nhà\" (người bên cạnh) báo trong 45 giây, rồi chuyền.",
+   "Nhiệm vụ thực tế: viết tin nhắn WeChat báo hỏng cho chủ nhà (3–4 câu), có hẹn giờ và xác nhận ai chịu chi phí."
+  ],
+  "patterns": [
+   {
+    "zh": "提前退租的话，押金不退；正常到期，就全额退还。",
+    "vi": "Nếu trả nhà trước hạn thì không hoàn cọc; hết hạn bình thường thì hoàn đủ."
+   },
+   {
+    "zh": "热水器时好时坏。",
+    "vi": "Bình nóng lạnh lúc được lúc không."
+   },
+   {
+    "zh": "转租要经过房东同意。",
+    "vi": "Cho thuê lại phải được chủ nhà đồng ý."
+   },
+   {
+    "zh": "我才住进来一个月。",
+    "vi": "Tôi mới vào ở được một tháng."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "đăng ký tạm trú 24 giờ",
+  "body_vi": [
+   "Theo Điều 39 Luật Quản lý xuất nhập cảnh, người nước ngoài ở ngoài khách sạn phải đăng ký với công an nơi cư trú trong 24 giờ sau khi đến. Từ năm 2026, Cục Quản lý Di dân Quốc gia cho phép đăng ký online qua app, mini program WeChat hoặc Alipay \"移民局12367\", có giá trị như làm trực tiếp (Cục Quản lý Di dân Quốc gia). Học viên nên nhắc chủ nhà cùng làm ngay ngày dọn vào. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: đăng ký tạm trú 24 giờ Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Mọi thỏa thuận miệng (sửa gì, ai trả) nên nhắn lại qua WeChat để có bằng chứng: 王姐，我确认一下，热水器维修费您出，对吧？",
+   "Ứng xử: Báo hỏng ngay tuần đầu. Để lâu dễ bị coi là 人为损坏.",
+   "Ứng xử: Trước khi trả nhà, hẹn chủ nhà kiểm tra cùng lúc (一起验房) và đối chiếu danh sách đồ."
+  ]
+ }
+}

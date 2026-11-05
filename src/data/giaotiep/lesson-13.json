@@ -1,0 +1,721 @@
+{
+ "id": 13,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "医院看病",
+  "pinyin": "yī yuàn kàn bìng",
+  "vi": "Khám bệnh ở bệnh viện"
+ },
+ "grammarTopics_vi": [
+  "从……开始 + trạng thái",
+  "V/Adj + 得 + hậu quả",
+  "一天 + X次，一次 + X片/粒",
+  "Mô tả triệu chứng theo khung"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Đăng ký khám",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Chọn khoa",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Tả triệu chứng chính xác",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Khai dị ứng",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Làm xét nghiệm",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Đóng tiền",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o7",
+   "vi": "Xin giấy nghỉ ốm",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "挂号",
+   "context_vi": "Bài khoá 1: 挂号 – Đăng ký khám",
+   "scene": "🏥",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我第一次来，怎么挂号？",
+     "vi": "Chào chị, tôi đến lần đầu, đăng ký khám thế nào ạ?"
+    },
+    {
+     "speaker": "gt-daozhen",
+     "zh": "可以在自助机上用护照建档，也可以关注医院公众号预约。您哪儿不舒服？",
+     "vi": "Có thể dùng hộ chiếu lập hồ sơ ở máy tự phục vụ, cũng có thể theo dõi tài khoản công chúng của bệnh viện để đặt lịch. Anh khó chịu ở đâu?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "嗓子疼，发烧三天了。",
+     "vi": "Đau họng, sốt ba ngày rồi."
+    },
+    {
+     "speaker": "gt-daozhen",
+     "zh": "挂呼吸内科。要普通号还是专家号？专家号得等两个小时。",
+     "vi": "Đăng ký khoa Nội hô hấp. Lấy số thường hay số chuyên gia? Số chuyên gia phải chờ hai tiếng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "普通号吧。",
+     "vi": "Số thường thôi ạ."
+    },
+    {
+     "speaker": "gt-daozhen",
+     "zh": "挂好了去二楼候诊，叫到号再进去。",
+     "vi": "Đăng ký xong lên tầng hai chờ khám, gọi đến số thì vào."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "挂号",
+     "pinyin": "guàhào",
+     "vi": "đăng ký khám",
+     "example": {
+      "zh": "你好，我第一次来，怎么挂号？",
+      "vi": "Chào chị, tôi đến lần đầu, đăng ký khám thế nào ạ?"
+     }
+    },
+    {
+     "zh": "导诊台 / 导诊",
+     "pinyin": "dǎozhěn tái",
+     "vi": "quầy hướng dẫn / nhân viên hướng dẫn"
+    },
+    {
+     "zh": "自助机",
+     "pinyin": "zìzhù jī",
+     "vi": "máy tự phục vụ",
+     "example": {
+      "zh": "可以在自助机上用护照建档，也可以关注医院公众号预约。您哪儿不舒服？",
+      "vi": "Có thể dùng hộ chiếu lập hồ sơ ở máy tự phục vụ, cũng có thể theo dõi tài khoản công chúng của bệnh viện để đặt lịch. Anh khó chịu ở đâu?"
+     }
+    },
+    {
+     "zh": "建档",
+     "pinyin": "jiàn dàng",
+     "vi": "lập hồ sơ bệnh nhân",
+     "example": {
+      "zh": "可以在自助机上用护照建档，也可以关注医院公众号预约。您哪儿不舒服？",
+      "vi": "Có thể dùng hộ chiếu lập hồ sơ ở máy tự phục vụ, cũng có thể theo dõi tài khoản công chúng của bệnh viện để đặt lịch. Anh khó chịu ở đâu?"
+     }
+    },
+    {
+     "zh": "预约挂号",
+     "pinyin": "yùyuē guàhào",
+     "vi": "đặt lịch khám"
+    },
+    {
+     "zh": "普通号 / 专家号",
+     "pinyin": "pǔtōng hào / zhuānjiā hào",
+     "vi": "khám thường / khám chuyên gia"
+    },
+    {
+     "zh": "内科 / 外科",
+     "pinyin": "nèikē / wàikē",
+     "vi": "khoa nội / khoa ngoại"
+    },
+    {
+     "zh": "呼吸内科",
+     "pinyin": "hūxī nèikē",
+     "vi": "khoa hô hấp",
+     "example": {
+      "zh": "挂呼吸内科。要普通号还是专家号？专家号得等两个小时。",
+      "vi": "Đăng ký khoa Nội hô hấp. Lấy số thường hay số chuyên gia? Số chuyên gia phải chờ hai tiếng."
+     }
+    },
+    {
+     "zh": "急诊",
+     "pinyin": "jízhěn",
+     "vi": "cấp cứu"
+    },
+    {
+     "zh": "候诊",
+     "pinyin": "hòuzhěn",
+     "vi": "chờ khám",
+     "example": {
+      "zh": "挂好了去二楼候诊，叫到号再进去。",
+      "vi": "Đăng ký xong lên tầng hai chờ khám, gọi đến số thì vào."
+     }
+    },
+    {
+     "zh": "叫号",
+     "pinyin": "jiào hào",
+     "vi": "gọi số"
+    },
+    {
+     "zh": "发烧",
+     "pinyin": "fāshāo",
+     "vi": "sốt",
+     "example": {
+      "zh": "嗓子疼，发烧三天了。",
+      "vi": "Đau họng, sốt ba ngày rồi."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "看医生",
+   "context_vi": "Bài khoá 2: 看医生 – Gặp bác sĩ",
+   "scene": "🏥",
+   "lines": [
+    {
+     "speaker": "gt-yisheng",
+     "zh": "怎么不舒服？",
+     "vi": "Anh thấy khó chịu thế nào?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "从周一开始发烧，最高三十八度九，嗓子疼得咽不下东西，还咳嗽，有痰。",
+     "vi": "Từ thứ hai bắt đầu sốt, cao nhất 38,9 độ, họng đau đến mức không nuốt nổi, còn ho, có đờm."
+    },
+    {
+     "speaker": "gt-yisheng",
+     "zh": "有没有药物过敏史？",
+     "vi": "Có tiền sử dị ứng thuốc không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "我对青霉素过敏。",
+     "vi": "Tôi dị ứng penicillin."
+    },
+    {
+     "speaker": "gt-yisheng",
+     "zh": "好，我记一下。先去验个血，再拍个胸片，结果出来拿回来给我看。",
+     "vi": "Được, tôi ghi lại. Đi xét nghiệm máu trước, rồi chụp X-quang phổi, có kết quả thì mang về cho tôi xem."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "验血要空腹吗？",
+     "vi": "Xét nghiệm máu có phải nhịn ăn không ạ?"
+    },
+    {
+     "speaker": "gt-yisheng",
+     "zh": "不用。",
+     "vi": "Không cần."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "……度",
+     "pinyin": "dù",
+     "vi": "độ (nhiệt độ)"
+    },
+    {
+     "zh": "嗓子疼",
+     "pinyin": "sǎngzi téng",
+     "vi": "đau họng",
+     "example": {
+      "zh": "嗓子疼，发烧三天了。",
+      "vi": "Đau họng, sốt ba ngày rồi."
+     }
+    },
+    {
+     "zh": "咽不下",
+     "pinyin": "yàn bu xià",
+     "vi": "nuốt không nổi",
+     "example": {
+      "zh": "从周一开始发烧，最高三十八度九，嗓子疼得咽不下东西，还咳嗽，有痰。",
+      "vi": "Từ thứ hai bắt đầu sốt, cao nhất 38,9 độ, họng đau đến mức không nuốt nổi, còn ho, có đờm."
+     }
+    },
+    {
+     "zh": "咳嗽 / 有痰",
+     "pinyin": "késou / yǒu tán",
+     "vi": "ho / có đờm"
+    },
+    {
+     "zh": "过敏史",
+     "pinyin": "guòmǐn shǐ",
+     "vi": "tiền sử dị ứng",
+     "example": {
+      "zh": "有没有药物过敏史？",
+      "vi": "Có tiền sử dị ứng thuốc không?"
+     }
+    },
+    {
+     "zh": "青霉素",
+     "pinyin": "qīngméisù",
+     "vi": "penicillin",
+     "example": {
+      "zh": "我对青霉素过敏。",
+      "vi": "Tôi dị ứng penicillin."
+     }
+    },
+    {
+     "zh": "验血 / 抽血",
+     "pinyin": "yàn xiě / chōu xiě",
+     "vi": "xét nghiệm máu / lấy máu"
+    },
+    {
+     "zh": "拍片 / 胸片",
+     "pinyin": "pāi piàn / xiōngpiàn",
+     "vi": "chụp X-quang / phim ngực"
+    },
+    {
+     "zh": "空腹",
+     "pinyin": "kōngfù",
+     "vi": "nhịn đói",
+     "example": {
+      "zh": "验血要空腹吗？",
+      "vi": "Xét nghiệm máu có phải nhịn ăn không ạ?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g13-1",
+     "title_zh": "从……开始 + trạng thái",
+     "title_vi": "从……开始 + trạng thái",
+     "formula": [
+      [
+       {
+        "zh": "从……开始",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "trạng thái",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "从 + mốc thời gian + 开始 + trạng thái/hành động cho biết triệu chứng hay sự việc bắt đầu từ lúc nào và kéo dài đến giờ. Đây là thông tin bác sĩ luôn hỏi đầu tiên. Mốc thời gian có thể là thứ, ngày, buổi: 从周一开始发烧, 从昨天晚上开始拉肚子. Có thể thêm 就 để nhấn mạnh \"từ sớm đã…\": 从早上起来就头疼.",
+     "examples": [
+      {
+       "zh": "从周一开始发烧。",
+       "vi": "Bắt đầu sốt từ thứ hai."
+      },
+      {
+       "zh": "从昨天晚上开始拉肚子。",
+       "vi": "Bắt đầu đi ngoài từ tối hôm qua."
+      }
+     ]
+    },
+    {
+     "id": "gt-g13-2",
+     "title_zh": "V/Adj + 得 + hậu quả",
+     "title_vi": "Mô tả mức độ triệu chứng",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V/Adj",
+        "role": "V"
+       },
+       {
+        "zh": "得",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "hậu quả",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "V/Adj + 得 + hậu quả là bổ ngữ trình độ diễn tả mức độ bằng một kết quả cụ thể: đau đến mức nào? → 疼得咽不下东西 (đau đến mức nuốt không nổi). Cách mô tả này giúp bác sĩ hiểu chính xác hơn là chỉ nói 很疼. Phần sau 得 thường là cụm động từ có bổ ngữ khả năng: 睡不着, 走不了路, 吃不下饭.",
+     "examples": [
+      {
+       "zh": "疼得咽不下东西。",
+       "vi": "Đau đến mức không nuốt nổi."
+      },
+      {
+       "zh": "咳得睡不着。",
+       "vi": "Ho đến mức không ngủ được."
+      }
+     ]
+    },
+    {
+     "id": "gt-g13-3",
+     "title_zh": "一天 + X次，一次 + X片/粒",
+     "title_vi": "Cách dùng thuốc",
+     "formula": [
+      [
+       {
+        "zh": "一天",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "X次，一次",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "X片/粒",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "一天 + X次，一次 + X片/粒/袋 là khung nói liều dùng thuốc: số lần mỗi ngày, rồi lượng mỗi lần. Lượng từ theo dạng thuốc: 片 (viên nén), 粒 (viên nang), 袋 (gói), 毫升 (ml). Thường kèm thời điểm uống: 饭前 / 饭后 / 睡前, và thời gian dùng: 连着吃五天. Chú ý: luôn làm theo hướng dẫn của bác sĩ, dược sĩ hoặc nhãn thuốc.",
+     "examples": [
+      {
+       "zh": "一天三次，一次两粒。",
+       "vi": "Ngày ba lần, mỗi lần hai viên."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "缴费拿药",
+   "context_vi": "Bài khoá 3: 缴费拿药 – Đóng tiền, lấy thuốc",
+   "scene": "🏥",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "医生开的单子在哪儿缴费？",
+     "vi": "Phiếu bác sĩ kê thì nộp tiền ở đâu ạ?"
+    },
+    {
+     "speaker": "gt-hushi",
+     "zh": "手机上直接缴，或者去一楼收费处。缴完费去抽血，报告大概一个小时出来，手机上能查。",
+     "vi": "Nộp thẳng trên điện thoại, hoặc xuống quầy thu tiền tầng một. Nộp xong đi lấy máu, khoảng một tiếng có kết quả, xem được trên điện thoại."
+    },
+    {
+     "speaker": "gt-yisheng",
+     "zh": "（看报告）细菌感染。给你开点儿抗生素，一天三次，饭后吃，连着吃五天。多喝水，多休息。要开假条吗？",
+     "vi": "(Xem kết quả) Nhiễm khuẩn. Tôi kê cho anh ít kháng sinh, ngày ba lần, uống sau ăn, uống liền năm ngày. Uống nhiều nước, nghỉ ngơi nhiều. Có cần giấy nghỉ ốm không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "麻烦开一张，我要跟公司请假。",
+     "vi": "Phiền bác sĩ viết cho tôi một tờ, tôi phải xin nghỉ ở công ty."
+    },
+    {
+     "speaker": "gt-yisheng",
+     "zh": "好。三天后还不退烧的话，回来复诊。",
+     "vi": "Được. Ba ngày sau vẫn chưa hạ sốt thì quay lại tái khám."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "缴费",
+     "pinyin": "jiǎofèi",
+     "vi": "đóng tiền",
+     "example": {
+      "zh": "医生开的单子在哪儿缴费？",
+      "vi": "Phiếu bác sĩ kê thì nộp tiền ở đâu ạ?"
+     }
+    },
+    {
+     "zh": "收费处",
+     "pinyin": "shōufèi chù",
+     "vi": "quầy thu ngân",
+     "example": {
+      "zh": "手机上直接缴，或者去一楼收费处。缴完费去抽血，报告大概一个小时出来，手机上能查。",
+      "vi": "Nộp thẳng trên điện thoại, hoặc xuống quầy thu tiền tầng một. Nộp xong đi lấy máu, khoảng một tiếng có kết quả, xem được trên điện thoại."
+     }
+    },
+    {
+     "zh": "检查报告",
+     "pinyin": "jiǎnchá bàogào",
+     "vi": "kết quả xét nghiệm"
+    },
+    {
+     "zh": "细菌 / 病毒感染",
+     "pinyin": "xìjūn / bìngdú gǎnrǎn",
+     "vi": "nhiễm khuẩn / nhiễm virus"
+    },
+    {
+     "zh": "抗生素",
+     "pinyin": "kàngshēngsù",
+     "vi": "kháng sinh",
+     "example": {
+      "zh": "（看报告）细菌感染。给你开点儿抗生素，一天三次，饭后吃，连着吃五天。多喝水，多休息。要开假条吗？",
+      "vi": "(Xem kết quả) Nhiễm khuẩn. Tôi kê cho anh ít kháng sinh, ngày ba lần, uống sau ăn, uống liền năm ngày. Uống nhiều nước, nghỉ ngơi nhiều. Có cần giấy nghỉ ốm không?"
+     }
+    },
+    {
+     "zh": "开药",
+     "pinyin": "kāi yào",
+     "vi": "kê thuốc"
+    },
+    {
+     "zh": "饭前 / 饭后",
+     "pinyin": "fàn qián / fàn hòu",
+     "vi": "trước / sau ăn"
+    },
+    {
+     "zh": "连着吃",
+     "pinyin": "liánzhe chī",
+     "vi": "uống liên tục",
+     "example": {
+      "zh": "（看报告）细菌感染。给你开点儿抗生素，一天三次，饭后吃，连着吃五天。多喝水，多休息。要开假条吗？",
+      "vi": "(Xem kết quả) Nhiễm khuẩn. Tôi kê cho anh ít kháng sinh, ngày ba lần, uống sau ăn, uống liền năm ngày. Uống nhiều nước, nghỉ ngơi nhiều. Có cần giấy nghỉ ốm không?"
+     }
+    },
+    {
+     "zh": "假条",
+     "pinyin": "jiàtiáo",
+     "vi": "giấy nghỉ ốm",
+     "example": {
+      "zh": "（看报告）细菌感染。给你开点儿抗生素，一天三次，饭后吃，连着吃五天。多喝水，多休息。要开假条吗？",
+      "vi": "(Xem kết quả) Nhiễm khuẩn. Tôi kê cho anh ít kháng sinh, ngày ba lần, uống sau ăn, uống liền năm ngày. Uống nhiều nước, nghỉ ngơi nhiều. Có cần giấy nghỉ ốm không?"
+     }
+    },
+    {
+     "zh": "复诊",
+     "pinyin": "fùzhěn",
+     "vi": "tái khám",
+     "example": {
+      "zh": "好。三天后还不退烧的话，回来复诊。",
+      "vi": "Được. Ba ngày sau vẫn chưa hạ sốt thì quay lại tái khám."
+     }
+    },
+    {
+     "zh": "医保",
+     "pinyin": "yībǎo",
+     "vi": "bảo hiểm y tế"
+    },
+    {
+     "zh": "三甲医院",
+     "pinyin": "sān jiǎ yīyuàn",
+     "vi": "bệnh viện hạng cao nhất"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g13-4",
+     "title_zh": "Mô tả triệu chứng theo khung",
+     "title_vi": "Mô tả triệu chứng theo khung",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "Mô tả triệu chứng theo khung",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Khung mô tả triệu chứng 4 bước giúp bạn nói rõ ràng như người bản xứ: 哪儿 (chỗ nào không khỏe) + 怎么样 (cảm giác thế nào: 一阵一阵的, 一直, 跳着疼…) + 多久了 (bao lâu rồi) + 最……的时候 (lúc nào nặng nhất / cao nhất). Ví dụ: 我头疼，一阵一阵的，已经两天了，晚上最厉害。",
+     "examples": [
+      {
+       "zh": "我头疼，一阵一阵的，已经两天了，晚上最厉害。",
+       "vi": "Tôi đau đầu, từng cơn một, đã hai ngày rồi, buổi tối là đau nhất."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "第一次来医院，得先___再看病。",
+   "bank": [
+    "过敏",
+    "假条",
+    "挂号"
+   ],
+   "answer": "挂号"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我对青霉素___。",
+   "bank": [
+    "空腹",
+    "过敏",
+    "候诊"
+   ],
+   "answer": "过敏"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "抽血要___吗？",
+   "bank": [
+    "空腹",
+    "挂号",
+    "候诊"
+   ],
+   "answer": "空腹"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "挂好号以后去二楼___，叫到号再进去。",
+   "bank": [
+    "假条",
+    "过敏",
+    "候诊"
+   ],
+   "answer": "候诊"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "麻烦开一张___，我要跟公司请假。",
+   "bank": [
+    "过敏",
+    "假条",
+    "候诊"
+   ],
+   "answer": "假条"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "三天以后还不退烧的话，回来___。",
+   "bank": [
+    "候诊",
+    "复诊",
+    "过敏"
+   ],
+   "answer": "复诊"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "开始",
+    "发烧",
+    "从周一"
+   ],
+   "answers": [
+    "从周一开始发烧"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "咽不下",
+    "嗓子",
+    "东西",
+    "疼得"
+   ],
+   "answers": [
+    "嗓子疼得咽不下东西"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "一次",
+    "一天",
+    "两粒",
+    "三次"
+   ],
+   "answers": [
+    "一天三次一次两粒"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "哪个科",
+    "挂",
+    "我这种情况"
+   ],
+   "answers": [
+    "我这种情况挂哪个科"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "自助机",
+     "a": "máy tự phục vụ"
+    },
+    {
+     "q": "内科 / 外科",
+     "a": "khoa nội / khoa ngoại"
+    },
+    {
+     "q": "发烧",
+     "a": "sốt"
+    },
+    {
+     "q": "咳嗽 / 有痰",
+     "a": "ho / có đờm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Ở Việt Nam, khi đi khám bệnh viện bạn phải làm những thủ tục gì?",
+   "Khởi động: Bạn có thể mô tả bằng tiếng Trung lần ốm gần nhất của mình không?",
+   "看病闯关 Vượt ải khám bệnh (15 phút): lớp dựng 5 trạm (导诊 → 医生 → 缴费 → 检验 → 取药), mỗi trạm 1 học viên đóng vai nhân viên. Mỗi \"bệnh nhân\" cầm thẻ bệnh (đau dạ dày, bong gân, dị ứng da) đi qua đủ 5 trạm.",
+   "医生猜病 Bác sĩ đoán bệnh (5 phút): người mô tả triệu chứng không được nói tên bệnh; bác sĩ hỏi tối đa 5 câu rồi \"chẩn đoán\".",
+   "Nhiệm vụ thực tế: ghi âm 1 phút tả triệu chứng của một lần ốm gần nhất theo khung 哪儿–怎么样–多久–最严重."
+  ],
+  "patterns": [
+   {
+    "zh": "从周一开始发烧。",
+    "vi": "Bắt đầu sốt từ thứ hai."
+   },
+   {
+    "zh": "疼得咽不下东西。",
+    "vi": "Đau đến mức không nuốt nổi."
+   },
+   {
+    "zh": "一天三次，一次两粒。",
+    "vi": "Ngày ba lần, mỗi lần hai viên."
+   },
+   {
+    "zh": "我头疼，一阵一阵的，已经两天了，晚上最厉害。",
+    "vi": "Tôi đau đầu, từng cơn một, đã hai ngày rồi, buổi tối là đau nhất."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "quy trình",
+  "body_vi": [
+   "\"挂号 trước, khám sau\" Ở TQ không đến thẳng phòng bác sĩ; mọi việc bắt đầu bằng đăng ký khám và thanh toán từng khâu trên điện thoại. Bệnh viện 三甲 rất đông, nên bệnh nhẹ nhiều người đến 社区医院 (trạm y tế cộng đồng) hoặc phòng khám quốc tế nếu có bảo hiểm thương mại. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: quy trình \"挂号 trước, khám sau\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Luôn mang hộ chiếu. Lần đầu đến viện phải 建档 (lập hồ sơ).",
+   "Ứng xử: Không chắc khám khoa nào: hỏi 导诊台 \"我这种情况挂哪个科？\"",
+   "Ứng xử: Chủ động khai dị ứng và thuốc đang dùng, kể cả khi bác sĩ không hỏi.",
+   "Ứng xử: Bác sĩ TQ khám rất nhanh vì đông bệnh nhân; chuẩn bị sẵn 3 câu mô tả để không bị cắt ngang."
+  ]
+ }
+}

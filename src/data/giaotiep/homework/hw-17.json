@@ -1,0 +1,420 @@
+{
+ "lessonId": 17,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）他说话特别会照顾别人的感受，很会提供{{1}}。\n（2）在全公司面前叫错了老板的名字，我当场{{2}}了。\n（3）我们公司太{{3}}了，大家都加班到十点。\n（4）不想卷了，我决定{{4}}。\n（5）看到这条评论，我一下子就{{5}}了，哭了半天。\n（6）{{6}}，打工魂，打工都是人上人！",
+     "bank": [
+      "躺平",
+      "破防",
+      "内卷",
+      "打工人",
+      "社死",
+      "情绪价值"
+     ],
+     "answers": [
+      "情绪价值",
+      "社死",
+      "内卷",
+      "躺平",
+      "破防",
+      "打工人"
+     ],
+     "explain_vi": "情绪价值、社死、内卷、躺平、破防、打工人"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "xswl (笑死我了)",
+       "a": "cười chết mất"
+      },
+      {
+       "q": "dbq (对不起)",
+       "a": "xin lỗi (đùa)"
+      },
+      {
+       "q": "555 / 呜呜呜",
+       "a": "khóc hu hu"
+      },
+      {
+       "q": "520 / 1314",
+       "a": "anh yêu em / trọn đời"
+      },
+      {
+       "q": "卷不动了",
+       "a": "không cạnh tranh nổi nữa"
+      },
+      {
+       "q": "班味",
+       "a": "\"mùi công sở\", vẻ mệt mỏi vì đi làm"
+      }
+     ],
+     "explain_vi": "xswl (笑死我了) = cười chết mất · dbq (对不起) = xin lỗi (đùa) · 555 / 呜呜呜 = khóc hu hu · 520 / 1314 = anh yêu em / trọn đời · 卷不动了 = không cạnh tranh nổi nữa · 班味 = \"mùi công sở\", vẻ mệt mỏi vì đi làm"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "不动了",
+      "我",
+      "卷"
+     ],
+     "answers": [
+      "我卷不动了"
+     ],
+     "explain_vi": "我卷不动了。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "真香了",
+      "结果",
+      "我说不买"
+     ],
+     "answers": [
+      "我说不买结果真香了"
+     ],
+     "explain_vi": "我说不买，结果真香了。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "基础",
+      "我的中文",
+      "不基础",
+      "我的脸皮"
+     ],
+     "answers": [
+      "我的中文基础我的脸皮不基础"
+     ],
+     "explain_vi": "我的中文基础，我的脸皮不基础。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "敬自己",
+      "先",
+      "一杯",
+      "下班了"
+     ],
+     "answers": [
+      "下班了先敬自己一杯"
+     ],
+     "explain_vi": "下班了，先敬自己一杯！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Đợi đã, xswl và nsdd là gì thế?",
+     "acceptedAnswers": [
+      "等等，xswl和nsdd是什么？"
+     ],
+     "requiredKeywords": [
+      "xswl",
+      "nsdd"
+     ],
+     "explain_vi": "Đáp án tham khảo: 等等，xswl和nsdd是什么？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Gần đây hay thấy \"情绪价值\", nghĩa là gì vậy?",
+     "acceptedAnswers": [
+      "最近老看到\"情绪价值\"，什么意思？"
+     ],
+     "requiredKeywords": [
+      "情绪价值"
+     ],
+     "explain_vi": "Đáp án tham khảo: 最近老看到\"情绪价值\"，什么意思？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Tôi chỉ là một \"trâu ngựa\" thôi.",
+     "acceptedAnswers": [
+      "我就是个牛马。"
+     ],
+     "requiredKeywords": [
+      "牛马"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我就是个牛马。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: ××基础，××不基础",
+   "instructions_vi": "Đặt câu đùa theo khung ××基础，××不基础.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(trình độ tiếng Trung bình thường / độ dày mặt thì không) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的中文基础，我的脸皮不基础。"
+     ],
+     "requiredKeywords": [
+      "基础",
+      "不基础"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的中文基础，我的脸皮不基础。",
+     "grammarRef": "gt-g17-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(tửu lượng bình thường / lượng trà sữa thì không) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的酒量基础，我喝奶茶的量不基础。"
+     ],
+     "requiredKeywords": [
+      "基础",
+      "不基础"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的酒量基础，我喝奶茶的量不基础。",
+     "grammarRef": "gt-g17-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(lương bình thường / tiêu tiền thì không) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的工资基础，我花钱不基础。"
+     ],
+     "requiredKeywords": [
+      "基础",
+      "不基础"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的工资基础，我花钱不基础。",
+     "grammarRef": "gt-g17-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(kỹ năng chụp ảnh bình thường / kỹ năng chỉnh ảnh thì không) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我的拍照技术基础，我的P图技术不基础。"
+     ],
+     "requiredKeywords": [
+      "基础",
+      "不基础"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我的拍照技术基础，我的P图技术不基础。",
+     "grammarRef": "gt-g17-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: V + 不动了",
+   "instructions_vi": "Dùng V + 不动了 để than thở trong các tình huống sau.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "Leo núi cả ngày, chân mỏi nhừ. → ________________________________________________________",
+     "acceptedAnswers": [
+      "爬了一天山，我走不动了。"
+     ],
+     "requiredKeywords": [
+      "不动了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 爬了一天山，我走不动了。",
+     "grammarRef": "gt-g17-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "Ăn buffet đã no căng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我吃不动了。"
+     ],
+     "requiredKeywords": [
+      "不动了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我吃不动了。",
+     "grammarRef": "gt-g17-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "Công ty ai cũng tăng ca, bạn không muốn cạnh tranh nữa. → ________________________________________________________",
+     "acceptedAnswers": [
+      "卷不动了，我躺平了。"
+     ],
+     "requiredKeywords": [
+      "不动了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 卷不动了，我躺平了。",
+     "grammarRef": "gt-g17-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "Vali quá nặng. → ________________________________________________________",
+     "acceptedAnswers": [
+      "箱子太重了，我拿不动了。"
+     ],
+     "requiredKeywords": [
+      "不动了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 箱子太重了，我拿不动了。",
+     "grammarRef": "gt-g17-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 真香 (định luật",
+   "instructions_vi": "Dùng 真香 để kể chuyện đổi ý.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "Bạn nói không mua điện thoại mới, cuối cùng vẫn mua và rất thích. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我说不买新手机，结果真香了。"
+     ],
+     "requiredKeywords": [
+      "真香"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我说不买新手机，结果真香了。",
+     "grammarRef": "gt-g17-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "Bạn chê lẩu cay, ăn thử xong thì mê. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我说我不吃辣，结果吃了一次火锅，真香！"
+     ],
+     "requiredKeywords": [
+      "真香"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我说我不吃辣，结果吃了一次火锅，真香！",
+     "grammarRef": "gt-g17-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "Bạn nói sẽ không xem phim này, cuối cùng xem hết trong một đêm. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我说不看这部剧，结果一晚上看完了，真香了。"
+     ],
+     "requiredKeywords": [
+      "真香"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我说不看这部剧，结果一晚上看完了，真香了。",
+     "grammarRef": "gt-g17-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Dịch: Tuần trước cậu còn nói không xem cơ mà, giờ \"thơm\" rồi nhé! → ________________________________________________________",
+     "acceptedAnswers": [
+      "你上周还说不看呢，现在真香了吧！"
+     ],
+     "requiredKeywords": [
+      "真香"
+     ],
+     "explain_vi": "Đáp án tham khảo: 你上周还说不看呢，现在真香了吧！",
+     "grammarRef": "gt-g17-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: ……，如何呢？又能怎？",
+   "instructions_vi": "Dùng ……，如何呢？又能怎？ để đáp lại các tình huống sau.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "Cuối tuần lại phải tăng ca. → ________________________________________________________",
+     "acceptedAnswers": [
+      "周末又加班，如何呢？又能怎？"
+     ],
+     "requiredKeywords": [
+      "如何呢",
+      "又能怎"
+     ],
+     "explain_vi": "Đáp án tham khảo: 周末又加班，如何呢？又能怎？",
+     "grammarRef": "gt-g17-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Lương tháng này tiêu hết rồi mà mới ngày 15. → ________________________________________________________",
+     "acceptedAnswers": [
+      "才十五号工资就花完了，如何呢？又能怎？"
+     ],
+     "requiredKeywords": [
+      "如何呢",
+      "又能怎"
+     ],
+     "explain_vi": "Đáp án tham khảo: 才十五号工资就花完了，如何呢？又能怎？",
+     "grammarRef": "gt-g17-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Ăn kiêng ba ngày lại béo thêm một cân. → ________________________________________________________",
+     "acceptedAnswers": [
+      "减肥三天胖了一斤，如何呢？又能怎？"
+     ],
+     "requiredKeywords": [
+      "如何呢",
+      "又能怎"
+     ],
+     "explain_vi": "Đáp án tham khảo: 减肥三天胖了一斤，如何呢？又能怎？",
+     "grammarRef": "gt-g17-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Chọn tình huống KHÔNG nên dùng câu này: A. nói với bạn thân về chuyện tăng ca B. báo cáo với sếp về việc trễ deadline → ________________________________________________________",
+     "acceptedAnswers": [
+      "B"
+     ],
+     "requiredKeywords": [],
+     "explain_vi": "Đáp án tham khảo: B",
+     "grammarRef": "gt-g17-4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,699 @@
+{
+ "id": 14,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "药店与小病",
+  "pinyin": "yào diàn yǔ xiǎo bìng",
+  "vi": "Nhà thuốc và bệnh vặt"
+ },
+ "grammarTopics_vi": [
+  "V了 + 会 + kết quả (cảnh báo)",
+  "V + 坏 (hậu quả xấu)",
+  "不会是……吧？",
+  "实在不行就……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Mua thuốc cảm",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đau bụng; hỏi liều và tác dụng phụ; mua thuốc qua app; nói chuyện sức khỏe với đồng nghiệp",
+   "doneWhen": [
+    "text-2"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "药店买药",
+   "context_vi": "Bài khoá 1: 药店买药 – Mua thuốc",
+   "scene": "💊",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "你好，我感冒了，鼻塞，流鼻涕，还有点儿头疼，吃什么药好？",
+     "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "发烧吗？",
+     "vi": "Có sốt không?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "不烧。",
+     "vi": "Không sốt."
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "那吃这个，一天两次，一次一片。吃了会犯困，开车前别吃。",
+     "vi": "Vậy uống thuốc này, ngày hai lần, mỗi lần một viên. Uống vào sẽ buồn ngủ, trước khi lái xe đừng uống."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "有吃了不困的吗？我白天要上班。",
+     "vi": "Có loại nào uống không buồn ngủ không? Ban ngày tôi phải đi làm."
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "这个日夜片，白天吃白片，晚上吃黑片。",
+     "vi": "Loại ngày đêm này, ban ngày uống viên trắng, buổi tối uống viên đen."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "能刷医保吗？",
+     "vi": "Quẹt bảo hiểm y tế được không?"
+    },
+    {
+     "speaker": "gt-dianyuan",
+     "zh": "有社保卡就能刷。",
+     "vi": "Có thẻ bảo hiểm xã hội là quẹt được."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g14-1",
+     "title_zh": "V了 + 会 + kết quả (cảnh báo)",
+     "title_vi": "V了 + 会 + kết quả (cảnh báo)",
+     "formula": [
+      [
+       {
+        "zh": "V了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "会",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "kết quả (cảnh báo)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "V了 + 会 + kết quả dùng để cảnh báo tác dụng/hậu quả có thể xảy ra sau khi làm việc gì. 了 đánh dấu \"sau khi làm xong\", 会 biểu thị khả năng xảy ra. Ví dụ: 吃了会犯困 (uống vào sẽ buồn ngủ). Thường nối tiếp bằng lời khuyên với 别: 吃了会犯困，开车前别吃。",
+     "examples": [
+      {
+       "zh": "吃了会犯困。",
+       "vi": "Uống vào sẽ buồn ngủ."
+      },
+      {
+       "zh": "喝了会睡不着。",
+       "vi": "Uống vào sẽ mất ngủ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "吃坏肚子",
+   "context_vi": "Bài khoá 2: 吃坏肚子 – Bị đau bụng",
+   "scene": "💊",
+   "lines": [
+    {
+     "speaker": "gt-tongshi",
+     "zh": "你脸色怎么这么差？",
+     "vi": "Sao sắc mặt cậu kém thế?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "昨天吃烧烤吃坏肚子了，拉了一晚上。",
+     "vi": "Hôm qua ăn đồ nướng bị đau bụng, đi ngoài cả đêm."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "不会是急性肠胃炎吧？要不去医院看看？",
+     "vi": "Không phải là viêm dạ dày ruột cấp chứ? Hay đi viện khám đi?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "不用，吃点儿药应该就好了。",
+     "vi": "Không cần, uống chút thuốc chắc là khỏi."
+    },
+    {
+     "speaker": "gt-tongshi",
+     "zh": "那这两天喝点儿粥，别吃生冷辛辣的。实在不行就请假回家，身体要紧。",
+     "vi": "Vậy mấy hôm nay ăn cháo thôi, đừng ăn đồ sống lạnh, cay nóng. Thật sự không ổn thì xin nghỉ về nhà, sức khoẻ là quan trọng."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "谢谢关心！",
+     "vi": "Cảm ơn cậu đã quan tâm!"
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "gt-g14-2",
+     "title_zh": "V + 坏 (hậu quả xấu)",
+     "title_vi": "V + 坏 (hậu quả xấu)",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "坏 (hậu quả xấu)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "V + 坏 là bổ ngữ kết quả mang nghĩa xấu: hành động dẫn tới hỏng hóc hoặc tổn hại. 吃坏肚子 (ăn bị đau bụng), 摔坏 (làm rơi hỏng), 用坏 (dùng hỏng). Đặc biệt, sau tính từ tâm lý/trạng thái, 坏了 chỉ mức độ cực cao: 累坏了 (mệt rã rời), 急坏了 (sốt ruột muốn chết), 高兴坏了.",
+     "examples": [
+      {
+       "zh": "吃坏肚子。",
+       "vi": "Ăn đồ hỏng bụng."
+      },
+      {
+       "zh": "累坏了。",
+       "vi": "Mệt rã rời rồi."
+      },
+      {
+       "zh": "手机摔坏了。",
+       "vi": "Làm rơi hỏng điện thoại rồi."
+      }
+     ]
+    },
+    {
+     "id": "gt-g14-3",
+     "title_zh": "不会是……吧？",
+     "title_vi": "Phỏng đoán lo lắng",
+     "formula": [
+      [
+       {
+        "zh": "不会是……吧？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "不会是……吧？ dùng để nêu một phỏng đoán mang tính lo lắng: \"không lẽ là… sao?\". Người nói nghĩ đến khả năng xấu và hy vọng điều đó không đúng. Khác với ……吧？ (Bài 1) chỉ đơn thuần đoán. Ví dụ: 不会是急性肠胃炎吧？/ 他还没回消息，不会是出事了吧？",
+     "examples": [
+      {
+       "zh": "不会是肠胃炎吧？",
+       "vi": "Không phải là viêm dạ dày ruột chứ?"
+      },
+      {
+       "zh": "不会是发烧了吧？",
+       "vi": "Không phải là bị sốt rồi chứ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "半夜买药",
+   "context_vi": "Bài khoá 3: 半夜买药 – Mua thuốc lúc nửa đêm",
+   "scene": "💊",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "牙疼得睡不着，药店都关门了。",
+     "vi": "Đau răng không ngủ được, nhà thuốc thì đóng cửa hết rồi."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "用美团买药啊，二十四小时的，半小时送到。",
+     "vi": "Mua thuốc trên Meituan đi, hai mươi tư tiếng, nửa tiếng là giao tới."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "止疼药也能买吗？",
+     "vi": "Thuốc giảm đau cũng mua được à?"
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "非处方药直接买。处方药得先线上问诊，医生开了处方才能买。",
+     "vi": "Thuốc không kê đơn thì mua luôn. Thuốc kê đơn phải khám online trước, bác sĩ kê đơn rồi mới mua được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好，我先买点儿止疼药，明天去看牙。",
+     "vi": "Được, mình mua ít thuốc giảm đau trước, mai đi khám răng."
+    },
+    {
+     "speaker": "gt-shiyou",
+     "zh": "你这是上火了吧，最近少吃点儿辣的。",
+     "vi": "Cậu bị nóng trong rồi đấy, dạo này bớt ăn cay đi."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "药店",
+     "pinyin": "yàodiàn",
+     "vi": "nhà thuốc",
+     "example": {
+      "zh": "牙疼得睡不着，药店都关门了。",
+      "vi": "Đau răng không ngủ được, nhà thuốc thì đóng cửa hết rồi."
+     }
+    },
+    {
+     "zh": "感冒",
+     "pinyin": "gǎnmào",
+     "vi": "cảm",
+     "example": {
+      "zh": "你好，我感冒了，鼻塞，流鼻涕，还有点儿头疼，吃什么药好？",
+      "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
+     }
+    },
+    {
+     "zh": "鼻塞",
+     "pinyin": "bísè",
+     "vi": "nghẹt mũi",
+     "example": {
+      "zh": "你好，我感冒了，鼻塞，流鼻涕，还有点儿头疼，吃什么药好？",
+      "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
+     }
+    },
+    {
+     "zh": "流鼻涕",
+     "pinyin": "liú bítì",
+     "vi": "sổ mũi",
+     "example": {
+      "zh": "你好，我感冒了，鼻塞，流鼻涕，还有点儿头疼，吃什么药好？",
+      "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
+     }
+    },
+    {
+     "zh": "头疼",
+     "pinyin": "tóuténg",
+     "vi": "đau đầu",
+     "example": {
+      "zh": "你好，我感冒了，鼻塞，流鼻涕，还有点儿头疼，吃什么药好？",
+      "vi": "Chào chị, tôi bị cảm, nghẹt mũi, sổ mũi, còn hơi đau đầu, uống thuốc gì thì tốt ạ?"
+     }
+    },
+    {
+     "zh": "片 / 粒 / 袋",
+     "pinyin": "piàn / lì / dài",
+     "vi": "viên nén / viên nang / gói"
+    },
+    {
+     "zh": "犯困",
+     "pinyin": "fàn kùn",
+     "vi": "buồn ngủ",
+     "example": {
+      "zh": "那吃这个，一天两次，一次一片。吃了会犯困，开车前别吃。",
+      "vi": "Vậy uống thuốc này, ngày hai lần, mỗi lần một viên. Uống vào sẽ buồn ngủ, trước khi lái xe đừng uống."
+     }
+    },
+    {
+     "zh": "副作用",
+     "pinyin": "fùzuòyòng",
+     "vi": "tác dụng phụ"
+    },
+    {
+     "zh": "日夜片",
+     "pinyin": "rìyè piàn",
+     "vi": "thuốc cảm ngày–đêm",
+     "example": {
+      "zh": "这个日夜片，白天吃白片，晚上吃黑片。",
+      "vi": "Loại ngày đêm này, ban ngày uống viên trắng, buổi tối uống viên đen."
+     }
+    },
+    {
+     "zh": "医保 / 社保卡",
+     "pinyin": "yībǎo / shèbǎo kǎ",
+     "vi": "bảo hiểm y tế / thẻ an sinh xã hội"
+    },
+    {
+     "zh": "脸色差",
+     "pinyin": "liǎnsè chà",
+     "vi": "sắc mặt kém"
+    },
+    {
+     "zh": "吃坏肚子",
+     "pinyin": "chī huài dùzi",
+     "vi": "ăn đau bụng",
+     "example": {
+      "zh": "昨天吃烧烤吃坏肚子了，拉了一晚上。",
+      "vi": "Hôm qua ăn đồ nướng bị đau bụng, đi ngoài cả đêm."
+     }
+    },
+    {
+     "zh": "拉肚子",
+     "pinyin": "lā dùzi",
+     "vi": "tiêu chảy"
+    },
+    {
+     "zh": "吐",
+     "pinyin": "tù",
+     "vi": "nôn"
+    },
+    {
+     "zh": "急性肠胃炎",
+     "pinyin": "jíxìng chángwèiyán",
+     "vi": "viêm dạ dày ruột cấp",
+     "example": {
+      "zh": "不会是急性肠胃炎吧？要不去医院看看？",
+      "vi": "Không phải là viêm dạ dày ruột cấp chứ? Hay đi viện khám đi?"
+     }
+    },
+    {
+     "zh": "粥",
+     "pinyin": "zhōu",
+     "vi": "cháo",
+     "example": {
+      "zh": "那这两天喝点儿粥，别吃生冷辛辣的。实在不行就请假回家，身体要紧。",
+      "vi": "Vậy mấy hôm nay ăn cháo thôi, đừng ăn đồ sống lạnh, cay nóng. Thật sự không ổn thì xin nghỉ về nhà, sức khoẻ là quan trọng."
+     }
+    },
+    {
+     "zh": "生冷辛辣",
+     "pinyin": "shēng lěng xīn là",
+     "vi": "đồ sống, lạnh, cay",
+     "example": {
+      "zh": "那这两天喝点儿粥，别吃生冷辛辣的。实在不行就请假回家，身体要紧。",
+      "vi": "Vậy mấy hôm nay ăn cháo thôi, đừng ăn đồ sống lạnh, cay nóng. Thật sự không ổn thì xin nghỉ về nhà, sức khoẻ là quan trọng."
+     }
+    },
+    {
+     "zh": "实在不行",
+     "pinyin": "shízài bù xíng",
+     "vi": "nếu thật sự không ổn",
+     "example": {
+      "zh": "那这两天喝点儿粥，别吃生冷辛辣的。实在不行就请假回家，身体要紧。",
+      "vi": "Vậy mấy hôm nay ăn cháo thôi, đừng ăn đồ sống lạnh, cay nóng. Thật sự không ổn thì xin nghỉ về nhà, sức khoẻ là quan trọng."
+     }
+    },
+    {
+     "zh": "身体要紧",
+     "pinyin": "shēntǐ yàojǐn",
+     "vi": "sức khỏe là trên hết",
+     "example": {
+      "zh": "那这两天喝点儿粥，别吃生冷辛辣的。实在不行就请假回家，身体要紧。",
+      "vi": "Vậy mấy hôm nay ăn cháo thôi, đừng ăn đồ sống lạnh, cay nóng. Thật sự không ổn thì xin nghỉ về nhà, sức khoẻ là quan trọng."
+     }
+    },
+    {
+     "zh": "谢谢关心",
+     "pinyin": "xièxie guānxīn",
+     "vi": "cảm ơn đã quan tâm",
+     "example": {
+      "zh": "谢谢关心！",
+      "vi": "Cảm ơn cậu đã quan tâm!"
+     }
+    },
+    {
+     "zh": "牙疼",
+     "pinyin": "yá téng",
+     "vi": "đau răng",
+     "example": {
+      "zh": "牙疼得睡不着，药店都关门了。",
+      "vi": "Đau răng không ngủ được, nhà thuốc thì đóng cửa hết rồi."
+     }
+    },
+    {
+     "zh": "止疼药",
+     "pinyin": "zhǐténg yào",
+     "vi": "thuốc giảm đau",
+     "example": {
+      "zh": "止疼药也能买吗？",
+      "vi": "Thuốc giảm đau cũng mua được à?"
+     }
+    },
+    {
+     "zh": "退烧药",
+     "pinyin": "tuìshāo yào",
+     "vi": "thuốc hạ sốt"
+    },
+    {
+     "zh": "处方",
+     "pinyin": "chǔfāng",
+     "vi": "đơn thuốc",
+     "example": {
+      "zh": "非处方药直接买。处方药得先线上问诊，医生开了处方才能买。",
+      "vi": "Thuốc không kê đơn thì mua luôn. Thuốc kê đơn phải khám online trước, bác sĩ kê đơn rồi mới mua được."
+     }
+    },
+    {
+     "zh": "处方药 / 非处方药",
+     "pinyin": "chǔfāng yào / fēi chǔfāng yào",
+     "vi": "thuốc kê đơn / không kê đơn"
+    },
+    {
+     "zh": "线上问诊",
+     "pinyin": "xiànshàng wènzhěn",
+     "vi": "khám online",
+     "example": {
+      "zh": "非处方药直接买。处方药得先线上问诊，医生开了处方才能买。",
+      "vi": "Thuốc không kê đơn thì mua luôn. Thuốc kê đơn phải khám online trước, bác sĩ kê đơn rồi mới mua được."
+     }
+    },
+    {
+     "zh": "美团买药",
+     "pinyin": "Měituán mǎi yào",
+     "vi": "mua thuốc giao nhanh qua Meituan",
+     "example": {
+      "zh": "用美团买药啊，二十四小时的，半小时送到。",
+      "vi": "Mua thuốc trên Meituan đi, hai mươi tư tiếng, nửa tiếng là giao tới."
+     }
+    },
+    {
+     "zh": "看牙",
+     "pinyin": "kàn yá",
+     "vi": "đi khám răng",
+     "example": {
+      "zh": "好，我先买点儿止疼药，明天去看牙。",
+      "vi": "Được, mình mua ít thuốc giảm đau trước, mai đi khám răng."
+     }
+    },
+    {
+     "zh": "上火",
+     "pinyin": "shànghuǒ",
+     "vi": "\"nóng trong\" (theo Đông y)",
+     "example": {
+      "zh": "你这是上火了吧，最近少吃点儿辣的。",
+      "vi": "Cậu bị nóng trong rồi đấy, dạo này bớt ăn cay đi."
+     }
+    },
+    {
+     "zh": "中成药",
+     "pinyin": "zhōngchéngyào",
+     "vi": "thuốc Đông y bào chế sẵn"
+    },
+    {
+     "zh": "创可贴",
+     "pinyin": "chuāngkětiē",
+     "vi": "băng cá nhân"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g14-4",
+     "title_zh": "实在不行就……",
+     "title_vi": "Phương án cuối",
+     "formula": [
+      [
+       {
+        "zh": "实在不行就……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "实在不行就…… nghĩa là \"nếu thật sự không ổn thì cứ…\", đưa ra phương án cuối cùng khi các cách khác không hiệu quả. 实在 nhấn mạnh \"thực sự, quả thật\". Câu này vừa là lời khuyên vừa thể hiện sự quan tâm: 实在不行就请假回家，身体要紧。",
+     "examples": [
+      {
+       "zh": "实在不行就去医院。",
+       "vi": "Thật sự không ổn thì đi viện."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "这个药有___吗？",
+   "bank": [
+    "处方",
+    "副作用",
+    "犯困"
+   ],
+   "answer": "副作用"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我感冒了，___，流鼻涕。",
+   "bank": [
+    "处方",
+    "犯困",
+    "鼻塞"
+   ],
+   "answer": "鼻塞"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "吃了这个药会___，开车前别吃。",
+   "bank": [
+    "犯困",
+    "处方",
+    "鼻塞"
+   ],
+   "answer": "犯困"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "处方药得有医生开的___才能买。",
+   "bank": [
+    "副作用",
+    "鼻塞",
+    "处方"
+   ],
+   "answer": "处方"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "你最近辣的吃太多了，可能是___了。",
+   "bank": [
+    "上火",
+    "鼻塞",
+    "处方"
+   ],
+   "answer": "上火"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "别加班了，___，早点儿回家休息。",
+   "bank": [
+    "副作用",
+    "身体要紧",
+    "处方"
+   ],
+   "answer": "身体要紧"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "犯困",
+    "会",
+    "吃了",
+    "这个药"
+   ],
+   "answers": [
+    "这个药吃了会犯困"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "了",
+    "肚子",
+    "吃坏",
+    "我"
+   ],
+   "answers": [
+    "我吃坏肚子了"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "吧",
+    "肠胃炎",
+    "不会是"
+   ],
+   "answers": [
+    "不会是肠胃炎吧"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "去医院",
+    "实在不行",
+    "就"
+   ],
+   "answers": [
+    "实在不行就去医院"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "感冒",
+     "a": "cảm"
+    },
+    {
+     "q": "日夜片",
+     "a": "thuốc cảm ngày–đêm"
+    },
+    {
+     "q": "拉肚子",
+     "a": "tiêu chảy"
+    },
+    {
+     "q": "生冷辛辣",
+     "a": "đồ sống, lạnh, cay"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Khi bị cảm nhẹ, bạn thường tự mua thuốc hay đi khám?",
+   "Khởi động: Ở Việt Nam, người ta có quan niệm \"nóng trong\" không? Thường làm gì để \"giải nhiệt\"?",
+   "症状你来演 Diễn tả triệu chứng (6 phút): diễn câm triệu chứng, đội bạn đoán bằng tiếng Trung đầy đủ câu (他拉肚子了 / 她鼻塞).",
+   "药店老板 Chủ nhà thuốc (12 phút): 1 dược sĩ và 3 khách lần lượt với thẻ tình huống (cần thuốc không gây buồn ngủ, đang mang thai, trẻ em sốt). Dược sĩ phải hỏi ít nhất 3 câu trước khi đưa thuốc.",
+   "Nhiệm vụ thực tế: viết tin nhắn xin nghỉ ốm cho \"sếp\" và tin nhắn hỏi thăm một người bạn bị ốm."
+  ],
+  "patterns": [
+   {
+    "zh": "吃了会犯困。",
+    "vi": "Uống vào sẽ buồn ngủ."
+   },
+   {
+    "zh": "吃坏肚子。",
+    "vi": "Ăn đồ hỏng bụng."
+   },
+   {
+    "zh": "不会是肠胃炎吧？",
+    "vi": "Không phải là viêm dạ dày ruột chứ?"
+   },
+   {
+    "zh": "实在不行就去医院。",
+    "vi": "Thật sự không ổn thì đi viện."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "上火\" và \"多喝热水\" Quan niệm Đông y về nóng–lạnh ăn sâu vào đời sống: nổi mụn, đau họng, nhiệt miệng thường bị quy về \"上火\"; người ốm được khuyên kiêng đồ lạnh và uống nước ấm. Học viên không cần tin hay phản bác, chỉ cần hiểu đây là lời quan tâm. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"上火\" và \"多喝热水\" Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Hỏi thuốc thì nói đủ triệu chứng và hỏi \"有没有副作用？\", \"能跟别的药一起吃吗？\"",
+   "Ứng xử: Đồng nghiệp hỏi thăm sức khỏe: đáp \"谢谢关心，好多了\" rồi kể ngắn. Người TQ quan tâm bằng lời khuyên cụ thể (喝粥, 喝热水).",
+   "Ứng xử: Nhắn xin nghỉ ốm: 领导，我今天发烧了，想请一天病假，工作我已经交代给小王了。"
+  ]
+ }
+}

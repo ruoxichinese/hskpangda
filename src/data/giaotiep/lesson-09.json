@@ -1,0 +1,701 @@
+{
+ "id": 9,
+ "level": "giaotiep",
+ "status": "ready",
+ "title": {
+  "zh": "打车与骑行",
+  "pinyin": "dǎ chē yǔ qí xíng",
+  "vi": "Gọi xe công nghệ, xe đạp chia sẻ"
+ },
+ "grammarTopics_vi": [
+  "V + 到 + nơi",
+  "……还快点儿",
+  "别 + V + 东西 / 了",
+  "不然 (nếu không thì)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Đặt xe",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Tìm nhau ở điểm đón",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Yêu cầu tài xế",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Xử lý khi quên đồ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Dùng xe đạp chia sẻ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "叫车",
+   "context_vi": "Bài khoá 1: 叫车 – Gọi xe",
+   "scene": "🚕",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "起点定位到小区南门，终点首都机场T3。选快车还是特惠？",
+     "vi": "Điểm đón định vị ở cổng Nam khu chung cư, điểm đến sân bay Thủ đô T3. Chọn xe nhanh hay xe tiết kiệm?"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "赶时间就选快车，特惠得等半天。行李多的话叫个六座的。",
+     "vi": "Vội thì chọn xe nhanh, xe tiết kiệm phải chờ lâu lắm. Nhiều hành lý thì gọi xe sáu chỗ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "司机接单了，白色比亚迪，车牌尾号345，预计三分钟到。",
+     "vi": "Tài xế nhận chuyến rồi, xe BYD trắng, biển số đuôi 345, khoảng ba phút nữa đến."
+    },
+    {
+     "speaker": "gt-siji",
+     "zh": "喂，您好，我到南门了，您在哪儿呢？",
+     "vi": "Alô, chào bạn, tôi đến cổng Nam rồi, bạn đang ở đâu?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "师傅，我在南门马路对面，穿红衣服的，您能掉个头吗？",
+     "vi": "Anh ơi, em ở bên kia đường đối diện cổng Nam, mặc áo đỏ, anh quay đầu xe được không?"
+    },
+    {
+     "speaker": "gt-siji",
+     "zh": "这儿不让掉头，您过马路到我这边来吧。",
+     "vi": "Chỗ này không cho quay đầu, em qua đường sang bên anh nhé."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "打车",
+     "pinyin": "dǎ chē",
+     "vi": "gọi xe, đi taxi"
+    },
+    {
+     "zh": "滴滴 / 高德打车",
+     "pinyin": "Dīdī / Gāodé dǎchē",
+     "vi": "app gọi xe phổ biến"
+    },
+    {
+     "zh": "起点 / 终点",
+     "pinyin": "qǐdiǎn / zhōngdiǎn",
+     "vi": "điểm đi / điểm đến"
+    },
+    {
+     "zh": "定位",
+     "pinyin": "dìngwèi",
+     "vi": "định vị",
+     "example": {
+      "zh": "起点定位到小区南门，终点首都机场T3。选快车还是特惠？",
+      "vi": "Điểm đón định vị ở cổng Nam khu chung cư, điểm đến sân bay Thủ đô T3. Chọn xe nhanh hay xe tiết kiệm?"
+     }
+    },
+    {
+     "zh": "快车 / 特惠快车",
+     "pinyin": "kuàichē / tèhuì kuàichē",
+     "vi": "xe thường / xe giá rẻ (chờ lâu)"
+    },
+    {
+     "zh": "专车 / 拼车",
+     "pinyin": "zhuānchē / pīnchē",
+     "vi": "xe cao cấp / đi ghép"
+    },
+    {
+     "zh": "接单",
+     "pinyin": "jiē dān",
+     "vi": "nhận chuyến",
+     "example": {
+      "zh": "司机接单了，白色比亚迪，车牌尾号345，预计三分钟到。",
+      "vi": "Tài xế nhận chuyến rồi, xe BYD trắng, biển số đuôi 345, khoảng ba phút nữa đến."
+     }
+    },
+    {
+     "zh": "车牌",
+     "pinyin": "chēpái",
+     "vi": "biển số",
+     "example": {
+      "zh": "司机接单了，白色比亚迪，车牌尾号345，预计三分钟到。",
+      "vi": "Tài xế nhận chuyến rồi, xe BYD trắng, biển số đuôi 345, khoảng ba phút nữa đến."
+     }
+    },
+    {
+     "zh": "尾号",
+     "pinyin": "wěihào",
+     "vi": "số cuối (biển số, điện thoại)",
+     "example": {
+      "zh": "司机接单了，白色比亚迪，车牌尾号345，预计三分钟到。",
+      "vi": "Tài xế nhận chuyến rồi, xe BYD trắng, biển số đuôi 345, khoảng ba phút nữa đến."
+     }
+    },
+    {
+     "zh": "预计",
+     "pinyin": "yùjì",
+     "vi": "dự kiến",
+     "example": {
+      "zh": "司机接单了，白色比亚迪，车牌尾号345，预计三分钟到。",
+      "vi": "Tài xế nhận chuyến rồi, xe BYD trắng, biển số đuôi 345, khoảng ba phút nữa đến."
+     }
+    },
+    {
+     "zh": "马路对面",
+     "pinyin": "mǎlù duìmiàn",
+     "vi": "bên kia đường",
+     "example": {
+      "zh": "师傅，我在南门马路对面，穿红衣服的，您能掉个头吗？",
+      "vi": "Anh ơi, em ở bên kia đường đối diện cổng Nam, mặc áo đỏ, anh quay đầu xe được không?"
+     }
+    },
+    {
+     "zh": "掉头",
+     "pinyin": "diàotóu",
+     "vi": "quay đầu xe",
+     "example": {
+      "zh": "这儿不让掉头，您过马路到我这边来吧。",
+      "vi": "Chỗ này không cho quay đầu, em qua đường sang bên anh nhé."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "车上",
+   "context_vi": "Bài khoá 2: 车上 – Trên xe",
+   "scene": "🚕",
+   "lines": [
+    {
+     "speaker": "gt-siji",
+     "zh": "您手机尾号多少？",
+     "vi": "Số điện thoại của bạn đuôi là gì?"
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "8866。师傅，走高速吧，我赶飞机。",
+     "vi": "8866. Anh ơi, đi cao tốc nhé, em đang vội ra sân bay."
+    },
+    {
+     "speaker": "gt-siji",
+     "zh": "高速这会儿堵，走辅路还快点儿。",
+     "vi": "Giờ này cao tốc tắc, đi đường gom còn nhanh hơn."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "那听您的。空调能开小点儿吗？",
+     "vi": "Vậy nghe anh. Điều hoà vặn nhỏ chút được không?"
+    },
+    {
+     "speaker": "gt-siji",
+     "zh": "行。……到了，T3出发层。您慢点儿，别落东西。",
+     "vi": "Được. … Đến rồi, tầng khởi hành T3. Em đi cẩn thận, đừng để quên đồ."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "谢谢师傅！",
+     "vi": "Cảm ơn anh!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "走高速",
+     "pinyin": "zǒu gāosù",
+     "vi": "đi đường cao tốc",
+     "example": {
+      "zh": "8866。师傅，走高速吧，我赶飞机。",
+      "vi": "8866. Anh ơi, đi cao tốc nhé, em đang vội ra sân bay."
+     }
+    },
+    {
+     "zh": "辅路",
+     "pinyin": "fǔlù",
+     "vi": "đường gom",
+     "example": {
+      "zh": "高速这会儿堵，走辅路还快点儿。",
+      "vi": "Giờ này cao tốc tắc, đi đường gom còn nhanh hơn."
+     }
+    },
+    {
+     "zh": "堵 / 堵车",
+     "pinyin": "dǔ / dǔchē",
+     "vi": "tắc đường"
+    },
+    {
+     "zh": "绕路",
+     "pinyin": "rào lù",
+     "vi": "đi đường vòng"
+    },
+    {
+     "zh": "按导航走",
+     "pinyin": "àn dǎoháng zǒu",
+     "vi": "đi theo chỉ đường"
+    },
+    {
+     "zh": "改目的地",
+     "pinyin": "gǎi mùdìdì",
+     "vi": "đổi điểm đến"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g9-2",
+     "title_zh": "……还快点儿",
+     "title_vi": "So sánh ngầm \"thế còn hơn\"",
+     "formula": [
+      [
+       {
+        "zh": "……还快点儿",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "……还快点儿 (hoặc ……还 + tính từ + 点儿) là cách so sánh ngầm: \"làm vậy thế mà còn… hơn\". 还 ở đây biểu thị điều trái với dự đoán thông thường. Ví dụ: ai cũng nghĩ đi cao tốc nhanh, nhưng lúc tắc thì 走辅路还快点儿. Cấu trúc thường mở đầu bằng một phương án khác: 坐地铁还快点儿 / 自己做还便宜点儿.",
+     "examples": [
+      {
+       "zh": "走辅路还快点儿。",
+       "vi": "Đi đường gom còn nhanh hơn."
+      }
+     ]
+    },
+    {
+     "id": "gt-g9-3",
+     "title_zh": "别 + V + 东西 / 了",
+     "title_vi": "Dặn dò",
+     "formula": [
+      [
+       {
+        "zh": "别",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "东西 / 了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "别 + V + … dùng để dặn dò, nhắc nhở người khác đừng làm điều gì. 别落东西 (đừng để quên đồ) là câu tài xế hay nói khi khách xuống xe. 别 + V + 了 dùng để khuyên dừng một việc đang diễn ra: 别着急了 (đừng sốt ruột nữa), 别哭了. Thêm 千万 để nhấn mạnh: 千万别忘了。",
+     "examples": [
+      {
+       "zh": "别落东西。",
+       "vi": "Đừng để quên đồ."
+      },
+      {
+       "zh": "别着急了。",
+       "vi": "Đừng lo nữa."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "东西落车上了",
+   "context_vi": "Bài khoá 3: 东西落车上了 – Quên đồ trên xe",
+   "scene": "🚕",
+   "lines": [
+    {
+     "speaker": "gt-ruanming",
+     "zh": "糟了，我的充电宝落车上了！",
+     "vi": "Chết rồi, sạc dự phòng của mình để quên trên xe!"
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "别慌，打开行程，点\"联系司机\"，是虚拟号，能直接打。",
+     "vi": "Đừng hoảng, mở chuyến đi ra, bấm \"Liên hệ tài xế\", là số ảo, gọi thẳng được."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "打了没人接。",
+     "vi": "Gọi rồi mà không ai nghe."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "那点\"物品遗失\"，平台会帮你联系。找回来的话可能要付点儿跑腿费。",
+     "vi": "Vậy bấm \"Thất lạc đồ\", nền tảng sẽ giúp cậu liên hệ. Nếu tìm lại được có thể phải trả ít phí chạy việc."
+    },
+    {
+     "speaker": "gt-ruanming",
+     "zh": "好。回去的时候咱们扫个共享单车吧，地铁站就一公里。",
+     "vi": "Được. Lúc về mình quét xe đạp công cộng đi, ga tàu điện chỉ cách một cây số."
+    },
+    {
+     "speaker": "gt-lixiang",
+     "zh": "行，骑完记得停到规定区域，不然要收调度费。",
+     "vi": "Ừ, đạp xong nhớ đỗ vào khu vực quy định, không là bị thu phí điều phối đấy."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "行程",
+     "pinyin": "xíngchéng",
+     "vi": "chuyến đi (trong app)",
+     "example": {
+      "zh": "别慌，打开行程，点\"联系司机\"，是虚拟号，能直接打。",
+      "vi": "Đừng hoảng, mở chuyến đi ra, bấm \"Liên hệ tài xế\", là số ảo, gọi thẳng được."
+     }
+    },
+    {
+     "zh": "落",
+     "pinyin": "là",
+     "vi": "để quên",
+     "example": {
+      "zh": "行。……到了，T3出发层。您慢点儿，别落东西。",
+      "vi": "Được. … Đến rồi, tầng khởi hành T3. Em đi cẩn thận, đừng để quên đồ."
+     }
+    },
+    {
+     "zh": "充电宝",
+     "pinyin": "chōngdiànbǎo",
+     "vi": "sạc dự phòng",
+     "example": {
+      "zh": "糟了，我的充电宝落车上了！",
+      "vi": "Chết rồi, sạc dự phòng của mình để quên trên xe!"
+     }
+    },
+    {
+     "zh": "虚拟号",
+     "pinyin": "xūnǐ hào",
+     "vi": "số ảo bảo mật",
+     "example": {
+      "zh": "别慌，打开行程，点\"联系司机\"，是虚拟号，能直接打。",
+      "vi": "Đừng hoảng, mở chuyến đi ra, bấm \"Liên hệ tài xế\", là số ảo, gọi thẳng được."
+     }
+    },
+    {
+     "zh": "物品遗失",
+     "pinyin": "wùpǐn yíshī",
+     "vi": "báo mất đồ",
+     "example": {
+      "zh": "那点\"物品遗失\"，平台会帮你联系。找回来的话可能要付点儿跑腿费。",
+      "vi": "Vậy bấm \"Thất lạc đồ\", nền tảng sẽ giúp cậu liên hệ. Nếu tìm lại được có thể phải trả ít phí chạy việc."
+     }
+    },
+    {
+     "zh": "跑腿费",
+     "pinyin": "pǎotuǐ fèi",
+     "vi": "phí gửi trả đồ",
+     "example": {
+      "zh": "那点\"物品遗失\"，平台会帮你联系。找回来的话可能要付点儿跑腿费。",
+      "vi": "Vậy bấm \"Thất lạc đồ\", nền tảng sẽ giúp cậu liên hệ. Nếu tìm lại được có thể phải trả ít phí chạy việc."
+     }
+    },
+    {
+     "zh": "分享行程",
+     "pinyin": "fēnxiǎng xíngchéng",
+     "vi": "chia sẻ hành trình"
+    },
+    {
+     "zh": "取消订单 / 取消费",
+     "pinyin": "qǔxiāo dìngdān / qǔxiāo fèi",
+     "vi": "hủy chuyến / phí hủy"
+    },
+    {
+     "zh": "共享单车",
+     "pinyin": "gòngxiǎng dānchē",
+     "vi": "xe đạp chia sẻ",
+     "example": {
+      "zh": "好。回去的时候咱们扫个共享单车吧，地铁站就一公里。",
+      "vi": "Được. Lúc về mình quét xe đạp công cộng đi, ga tàu điện chỉ cách một cây số."
+     }
+    },
+    {
+     "zh": "实名认证",
+     "pinyin": "shímíng rènzhèng",
+     "vi": "xác thực danh tính"
+    },
+    {
+     "zh": "扫码开锁 / 还车",
+     "pinyin": "sǎomǎ kāisuǒ / huán chē",
+     "vi": "quét mở khóa / trả xe"
+    },
+    {
+     "zh": "规定区域",
+     "pinyin": "guīdìng qūyù",
+     "vi": "khu vực quy định",
+     "example": {
+      "zh": "行，骑完记得停到规定区域，不然要收调度费。",
+      "vi": "Ừ, đạp xong nhớ đỗ vào khu vực quy định, không là bị thu phí điều phối đấy."
+     }
+    },
+    {
+     "zh": "调度费",
+     "pinyin": "diàodù fèi",
+     "vi": "phí điều phối (đỗ sai chỗ)",
+     "example": {
+      "zh": "行，骑完记得停到规定区域，不然要收调度费。",
+      "vi": "Ừ, đạp xong nhớ đỗ vào khu vực quy định, không là bị thu phí điều phối đấy."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gt-g9-1",
+     "title_zh": "V + 到 + nơi",
+     "title_vi": "V + 到 + nơi",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       },
+       {
+        "zh": "到",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "nơi",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "V + 到 + địa điểm diễn tả hành động khiến người/vật đến (hoặc dừng ở) một nơi nào đó. 到 là bổ ngữ chỉ đích đến, đứng ngay sau động từ: 定位到南门 (định vị tới cổng Nam), 停到规定区域 (đỗ vào khu vực quy định), 送到机场 (đưa tới sân bay). Có thể dùng trong câu chữ 把: 把我送到机场。",
+     "examples": [
+      {
+       "zh": "定位到南门。",
+       "vi": "Định vị ở cổng Nam."
+      },
+      {
+       "zh": "停到规定区域。",
+       "vi": "Đỗ vào khu vực quy định."
+      },
+      {
+       "zh": "送到机场。",
+       "vi": "Đưa đến sân bay."
+      }
+     ]
+    },
+    {
+     "id": "gt-g9-4",
+     "title_zh": "不然 (nếu không thì)",
+     "title_vi": "不然 (nếu không thì)",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "不然 (nếu không thì)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "不然 nghĩa là \"nếu không thì…\", nối hai vế: vế trước là việc nên làm, vế sau là hậu quả xấu nếu không làm. Tương đương 要不然 / 否则 (trang trọng hơn). Cấu trúc: (lời khuyên/yêu cầu)，不然 + hậu quả. Ví dụ: 停到规定区域，不然要收调度费。",
+     "examples": [
+      {
+       "zh": "停到规定区域，不然要收调度费。",
+       "vi": "Đỗ vào khu vực quy định, không là bị thu phí điều phối."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "司机已经___了，预计三分钟到。",
+   "bank": [
+    "接单",
+    "掉头",
+    "落"
+   ],
+   "answer": "接单"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "这儿不让___，您过马路到我这边来吧。",
+   "bank": [
+    "共享单车",
+    "堵车",
+    "掉头"
+   ],
+   "answer": "掉头"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "下班高峰，三环上___得厉害。",
+   "bank": [
+    "堵车",
+    "接单",
+    "掉头"
+   ],
+   "answer": "堵车"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "糟了，我的充电宝___车上了！",
+   "bank": [
+    "落",
+    "堵车",
+    "跑腿费"
+   ],
+   "answer": "落"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "司机把东西送回来，要付点儿___。",
+   "bank": [
+    "跑腿费",
+    "共享单车",
+    "接单"
+   ],
+   "answer": "跑腿费"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "地铁站就一公里，扫个___吧。",
+   "bank": [
+    "共享单车",
+    "掉头",
+    "跑腿费"
+   ],
+   "answer": "共享单车"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "南门",
+    "起点",
+    "小区",
+    "定位到"
+   ],
+   "answers": [
+    "起点定位到小区南门"
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "辅路",
+    "走",
+    "还快点儿"
+   ],
+   "answers": [
+    "走辅路还快点儿"
+   ]
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "不然",
+    "停到规定区域",
+    "调度费",
+    "要收"
+   ],
+   "answers": [
+    "停到规定区域不然要收调度费"
+   ]
+  },
+  {
+   "id": "e10",
+   "kind": "reorder",
+   "tiles": [
+    "尾号",
+    "您",
+    "多少",
+    "手机"
+   ],
+   "answers": [
+    "您手机尾号多少"
+   ]
+  },
+  {
+   "id": "e11",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "滴滴 / 高德打车",
+     "a": "app gọi xe phổ biến"
+    },
+    {
+     "q": "专车 / 拼车",
+     "a": "xe cao cấp / đi ghép"
+    },
+    {
+     "q": "马路对面",
+     "a": "bên kia đường"
+    },
+    {
+     "q": "绕路",
+     "a": "đi đường vòng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hoạt động trên lớp",
+  "steps_vi": [
+   "Khởi động: Bạn thường đi lại bằng phương tiện gì? Bạn đã dùng app gọi xe bao giờ chưa?",
+   "Khởi động: Khi tài xế không tìm thấy bạn, bạn sẽ mô tả vị trí của mình thế nào?",
+   "接头暗号 Mật mã điểm đón (8 phút): \"tài xế\" và \"khách\" ngồi quay lưng, chỉ nói qua \"điện thoại\". Khách tả vị trí trên ảnh bản đồ, tài xế phải chỉ đúng điểm đón trong 60 giây.",
+   "乘客难题 Khách khó tính (10 phút): mỗi người bốc thẻ yêu cầu (đổi điểm đến, thêm điểm dừng, hủy vì chờ lâu, thấy tài xế đi vòng). Tài xế phản hồi hợp lý, lớp chấm độ tự nhiên.",
+   "Nhiệm vụ thực tế: ghi âm cuộc gọi giả lập với tài xế: tả vị trí, đổi điểm đón và dặn tài xế đợi 2 phút."
+  ],
+  "patterns": [
+   {
+    "zh": "走辅路还快点儿。",
+    "vi": "Đi đường gom còn nhanh hơn."
+   },
+   {
+    "zh": "别落东西。",
+    "vi": "Đừng để quên đồ."
+   },
+   {
+    "zh": "定位到南门。",
+    "vi": "Định vị ở cổng Nam."
+   },
+   {
+    "zh": "停到规定区域，不然要收调度费。",
+    "vi": "Đỗ vào khu vực quy định, không là bị thu phí điều phối."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "\"",
+  "body_vi": [
+   "师傅\" và chuyện trò với tài xế \"师傅\" là cách gọi tôn trọng cho tài xế, thợ, đầu bếp, không phân biệt tuổi. Tài xế Bắc Kinh nổi tiếng hay \"侃大山\" (tán chuyện). Hỏi \"师傅，您是本地人吗？\" là cách mở chuyện tốt nhất để luyện nghe khẩu ngữ. [ KHUNG CHÈN HÌNH MINH HỌA ] Hình minh họa điểm văn hóa: \"师傅\" và chuyện trò với tài xế Bấm vào khung, xóa dòng chữ rồi chọn Insert › Pictures để chèn ảnh.",
+   "Ứng xử: Trước khi lên xe, đối chiếu biển số; tài xế sẽ hỏi 4 số cuối điện thoại của bạn để xác nhận.",
+   "Ứng xử: Ngồi ghế sau là bình thường. Đi đêm một mình nên bật 分享行程 gửi bạn bè.",
+   "Ứng xử: Không rõ đường thì nói \"按导航走就行\" thay vì tự chỉ.",
+   "Ứng xử: Tài xế gọi mà bạn chưa ra: nói ngay vị trí và đặc điểm dễ nhận (穿红衣服的, 在便利店门口)."
+  ]
+ }
+}

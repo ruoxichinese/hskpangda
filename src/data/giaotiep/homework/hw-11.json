@@ -1,0 +1,432 @@
+{
+ "lessonId": 11,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）去旅游之前，我习惯先在小红书上做{{1}}。\n（2）国庆的时候，景点都{{2}}。\n（3）熊猫基地要在官方小程序上{{3}}。\n（4）我的航班是晚上的，可以晚点儿{{4}}吗？\n（5）行李可以{{5}}在前台。\n（6）很多年轻人去网红景点只是为了{{6}}拍照。",
+     "bank": [
+      "攻略",
+      "人山人海",
+      "实名预约",
+      "寄存",
+      "退房",
+      "打卡"
+     ],
+     "answers": [
+      "攻略",
+      "人山人海",
+      "实名预约",
+      "退房",
+      "寄存",
+      "打卡"
+     ],
+     "explain_vi": "攻略、人山人海、实名预约、退房、寄存、打卡"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "小红书",
+       "a": "mạng xã hội chia sẻ kinh nghiệm"
+      },
+      {
+       "q": "难抢",
+       "a": "khó giành (vé)"
+      },
+      {
+       "q": "大床房 / 双床房",
+       "a": "phòng giường đôi / 2 giường"
+      },
+      {
+       "q": "半天房费",
+       "a": "phí nửa ngày"
+      },
+      {
+       "q": "门票",
+       "a": "vé vào cửa"
+      },
+      {
+       "q": "导览器",
+       "a": "máy thuyết minh tự động"
+      }
+     ],
+     "explain_vi": "小红书 = mạng xã hội chia sẻ kinh nghiệm · 难抢 = khó giành (vé) · 大床房 / 双床房 = phòng giường đôi / 2 giường · 半天房费 = phí nửa ngày · 门票 = vé vào cửa · 导览器 = máy thuyết minh tự động"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "出行",
+      "错峰",
+      "最好"
+     ],
+     "answers": [
+      "最好错峰出行"
+     ],
+     "explain_vi": "最好错峰出行。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "半天房费",
+      "再晚",
+      "收",
+      "就要",
+      "了"
+     ],
+     "answers": [
+      "再晚就要收半天房费了"
+     ],
+     "explain_vi": "再晚就要收半天房费了。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "房间",
+      "安静点儿的",
+      "换个",
+      "能",
+      "吗"
+     ],
+     "answers": [
+      "能换个安静点儿的房间吗"
+     ],
+     "explain_vi": "能换个安静点儿的房间吗？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "还有",
+      "值得去",
+      "除了",
+      "熊猫基地以外",
+      "什么"
+     ],
+     "answers": [
+      "除了熊猫基地以外还有什么值得去"
+     ],
+     "explain_vi": "除了熊猫基地以外，还有什么值得去？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Tôi đặt phòng giường đôi trên Ctrip, hai đêm.",
+     "acceptedAnswers": [
+      "我在携程上订的大床房，两晚。"
+     ],
+     "requiredKeywords": [
+      "携程",
+      "大床房"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我在携程上订的大床房，两晚。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Thuyết minh viên tính phí thế nào?",
+     "acceptedAnswers": [
+      "讲解怎么收费？"
+     ],
+     "requiredKeywords": [
+      "讲解"
+     ],
+     "explain_vi": "Đáp án tham khảo: 讲解怎么收费？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Được chụp ảnh nhưng trong phòng triển lãm cấm dùng đèn flash.",
+     "acceptedAnswers": [
+      "能拍照，但展厅里禁止用闪光灯。"
+     ],
+     "requiredKeywords": [
+      "禁止",
+      "闪光灯"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能拍照，但展厅里禁止用闪光灯。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 最好 + V",
+   "instructions_vi": "Đưa ra lời khuyên bằng 最好 / 最好别.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(Đi Thành Đô dịp Quốc khánh → đi lệch cao điểm) → ________________________________________________________",
+     "acceptedAnswers": [
+      "国庆去成都，最好错峰出行。"
+     ],
+     "requiredKeywords": [
+      "最好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 国庆去成都，最好错峰出行。",
+     "grammarRef": "gt-g11-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(Vườn gấu trúc → đặt chỗ trước một tuần) → ________________________________________________________",
+     "acceptedAnswers": [
+      "去熊猫基地最好提前一周预约。"
+     ],
+     "requiredKeywords": [
+      "最好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 去熊猫基地最好提前一周预约。",
+     "grammarRef": "gt-g11-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(Trong phòng triển lãm → đừng dùng đèn flash) → ________________________________________________________",
+     "acceptedAnswers": [
+      "展厅里最好别用闪光灯。"
+     ],
+     "requiredKeywords": [
+      "最好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 展厅里最好别用闪光灯。",
+     "grammarRef": "gt-g11-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "(Mang hộ chiếu → dùng khi nhận phòng) → ________________________________________________________",
+     "acceptedAnswers": [
+      "最好带上护照，入住的时候要用。"
+     ],
+     "requiredKeywords": [
+      "最好"
+     ],
+     "explain_vi": "Đáp án tham khảo: 最好带上护照，入住的时候要用。",
+     "grammarRef": "gt-g11-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: 再 + tính từ/V + (的话)，就要……了",
+   "instructions_vi": "Viết lời cảnh báo với 再……就要……了.",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "(trả phòng muộn hơn → tính phí nửa ngày) → ________________________________________________________",
+     "acceptedAnswers": [
+      "再晚就要收半天房费了。"
+     ],
+     "requiredKeywords": [
+      "再",
+      "就要"
+     ],
+     "explain_vi": "Đáp án tham khảo: 再晚就要收半天房费了。",
+     "grammarRef": "gt-g11-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "(ăn thêm → đau bụng) → ________________________________________________________",
+     "acceptedAnswers": [
+      "再吃就要肚子疼了。"
+     ],
+     "requiredKeywords": [
+      "再",
+      "就要"
+     ],
+     "explain_vi": "Đáp án tham khảo: 再吃就要肚子疼了。",
+     "grammarRef": "gt-g11-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "(không xuất phát → lỡ tàu) → ________________________________________________________",
+     "acceptedAnswers": [
+      "再不走就要赶不上火车了。"
+     ],
+     "requiredKeywords": [
+      "再",
+      "就要"
+     ],
+     "explain_vi": "Đáp án tham khảo: 再不走就要赶不上火车了。",
+     "grammarRef": "gt-g11-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "(mua thêm → vượt ngân sách) → ________________________________________________________",
+     "acceptedAnswers": [
+      "再买就要超预算了。"
+     ],
+     "requiredKeywords": [
+      "再",
+      "就要"
+     ],
+     "explain_vi": "Đáp án tham khảo: 再买就要超预算了。",
+     "grammarRef": "gt-g11-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: 换个 + tính từ + 点儿的 + N",
+   "instructions_vi": "Đưa ra yêu cầu đổi với 换个……点儿的.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "(phòng sát thang máy, ồn → phòng yên tĩnh hơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能换个安静点儿的房间吗？"
+     ],
+     "requiredKeywords": [
+      "换个",
+      "点儿的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能换个安静点儿的房间吗？",
+     "grammarRef": "gt-g11-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "(áo chật → size lớn hơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "这件有点儿小，换个大点儿的吧。"
+     ],
+     "requiredKeywords": [
+      "换个",
+      "点儿的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这件有点儿小，换个大点儿的吧。",
+     "grammarRef": "gt-g11-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "(bàn ở cửa lạnh → chỗ ấm hơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "能换个暖和点儿的位子吗？"
+     ],
+     "requiredKeywords": [
+      "换个",
+      "点儿的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 能换个暖和点儿的位子吗？",
+     "grammarRef": "gt-g11-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "(lộ trình quá mệt → lộ trình thoải mái hơn) → ________________________________________________________",
+     "acceptedAnswers": [
+      "我们换个轻松点儿的路线吧。"
+     ],
+     "requiredKeywords": [
+      "换个",
+      "点儿的"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我们换个轻松点儿的路线吧。",
+     "grammarRef": "gt-g11-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: 除了……以外，还……",
+   "instructions_vi": "Hoàn thành câu với 除了……以外，还…… / 都…….",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "______熊猫基地以外，______有什么值得去？",
+     "acceptedAnswers": [
+      "除了……还"
+     ],
+     "requiredKeywords": [
+      "除了",
+      "还"
+     ],
+     "explain_vi": "Đáp án tham khảo: 除了……还",
+     "grammarRef": "gt-g11-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "Ngoài lẩu ra, ở Thành Đô còn nên ăn gì? → ________________________________________________________",
+     "acceptedAnswers": [
+      "除了火锅以外，成都还应该吃什么？"
+     ],
+     "requiredKeywords": [
+      "除了",
+      "以外"
+     ],
+     "explain_vi": "Đáp án tham khảo: 除了火锅以外，成都还应该吃什么？",
+     "grammarRef": "gt-g11-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "Ngoài hộ chiếu, nhận phòng còn cần giấy tờ gì nữa không? → ________________________________________________________",
+     "acceptedAnswers": [
+      "除了护照以外，办入住还需要什么证件吗？"
+     ],
+     "requiredKeywords": [
+      "除了",
+      "以外"
+     ],
+     "explain_vi": "Đáp án tham khảo: 除了护照以外，办入住还需要什么证件吗？",
+     "grammarRef": "gt-g11-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "Ngoài tôi ra, mọi người đều đã đến Thành Đô rồi. → ________________________________________________________",
+     "acceptedAnswers": [
+      "除了我以外，大家都去过成都了。"
+     ],
+     "requiredKeywords": [
+      "除了",
+      "以外"
+     ],
+     "explain_vi": "Đáp án tham khảo: 除了我以外，大家都去过成都了。",
+     "grammarRef": "gt-g11-4"
+    }
+   ]
+  }
+ ]
+}

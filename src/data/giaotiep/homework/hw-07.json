@@ -1,0 +1,420 @@
+{
+ "lessonId": 7,
+ "level": "giaotiep",
+ "status": "ready",
+ "pinyin": false,
+ "source_vi": "Bài tập trong giáo trình 汉语生活口语 – Tiếng Trung Giao tiếp Đời sống thực tế",
+ "sections": [
+  {
+   "type": "vocab",
+   "title_vi": "I. Chọn từ điền vào chỗ trống",
+   "instructions_vi": "Chọn từ thích hợp trong bảng điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "cloze",
+     "text": "（1）我在贝壳上找了个{{1}}，帮我看房。\n（2）这套房子朝南，{{2}}特别好。\n（3）房东要求{{3}}，第一次要交四个月的钱。\n（4）墙角有点儿{{4}}，签约前要处理一下。\n（5）六千块有点儿{{5}}了，有没有便宜点儿的？\n（6）{{6}}含在房租里吗？",
+     "bank": [
+      "采光",
+      "押一付三",
+      "物业费",
+      "中介",
+      "超预算",
+      "发霉"
+     ],
+     "answers": [
+      "中介",
+      "采光",
+      "押一付三",
+      "发霉",
+      "超预算",
+      "物业费"
+     ],
+     "explain_vi": "中介、采光、押一付三、发霉、超预算、物业费"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "II. Nối từ với nghĩa",
+   "instructions_vi": "Nối từ ở cột trái với nghĩa thích hợp.",
+   "questions": [
+    {
+     "id": "v2",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "房源",
+       "a": "tin cho thuê, nguồn nhà"
+      },
+      {
+       "q": "精装修",
+       "a": "hoàn thiện đẹp"
+      },
+      {
+       "q": "短租 / 长租",
+       "a": "thuê ngắn / dài hạn"
+      },
+      {
+       "q": "卧室 / 客厅",
+       "a": "phòng ngủ / phòng khách"
+      },
+      {
+       "q": "热水器",
+       "a": "bình nóng lạnh"
+      },
+      {
+       "q": "按表走",
+       "a": "tính theo đồng hồ"
+      }
+     ],
+     "explain_vi": "房源 = tin cho thuê, nguồn nhà · 精装修 = hoàn thiện đẹp · 短租 / 长租 = thuê ngắn / dài hạn · 卧室 / 客厅 = phòng ngủ / phòng khách · 热水器 = bình nóng lạnh · 按表走 = tính theo đồng hồ"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "III. Sắp xếp thành câu hoàn chỉnh",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "离",
+      "走路",
+      "地铁站",
+      "五分钟",
+      "这套房子"
+     ],
+     "answers": [
+      "这套房子离地铁站走路五分钟"
+     ],
+     "explain_vi": "这套房子离地铁站走路五分钟。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "呗",
+      "八折",
+      "打个",
+      "中介费"
+     ],
+     "answers": [
+      "中介费打个八折呗"
+     ],
+     "explain_vi": "中介费打个八折呗。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "一次付",
+      "能",
+      "的话",
+      "便宜点儿吗"
+     ],
+     "answers": [
+      "一次付的话能便宜点儿吗"
+     ],
+     "explain_vi": "一次付的话，能便宜点儿吗？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "行不行",
+      "五千"
+     ],
+     "answers": [
+      "五千行不行"
+     ],
+     "explain_vi": "五千行不行？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "IV. Dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Căn hộ một phòng ngủ ở Vọng Kinh còn không ạ?",
+     "acceptedAnswers": [
+      "望京那套一居室还在吗？"
+     ],
+     "requiredKeywords": [
+      "一居室"
+     ],
+     "explain_vi": "Đáp án tham khảo: 望京那套一居室还在吗？"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Điện nước ga đóng thế nào? Phí quản lý có tính trong tiền nhà không?",
+     "acceptedAnswers": [
+      "水电燃气怎么交？物业费含在房租里吗？"
+     ],
+     "requiredKeywords": [
+      "燃气",
+      "物业费"
+     ],
+     "explain_vi": "Đáp án tham khảo: 水电燃气怎么交？物业费含在房租里吗？"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Được, chốt vậy nhé!",
+     "acceptedAnswers": [
+      "行，就这么定了！"
+     ],
+     "requiredKeywords": [
+      "就这么定了"
+     ],
+     "explain_vi": "Đáp án tham khảo: 行，就这么定了！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 1: 离 + nơi + V + thời gian",
+   "instructions_vi": "Dùng 离 + nơi + V + thời gian để mô tả theo gợi ý.",
+   "questions": [
+    {
+     "id": "g1-1",
+     "kind": "translate",
+     "prompt_vi": "(nhà → ga tàu điện, đi bộ 5 phút) → ________________________________________________________",
+     "acceptedAnswers": [
+      "这套房子离地铁站走路五分钟。"
+     ],
+     "requiredKeywords": [
+      "离"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这套房子离地铁站走路五分钟。",
+     "grammarRef": "gt-g7-1"
+    },
+    {
+     "id": "g1-2",
+     "kind": "translate",
+     "prompt_vi": "(ký túc xá → trường, đạp xe 10 phút) → ________________________________________________________",
+     "acceptedAnswers": [
+      "宿舍离学校骑车十分钟。"
+     ],
+     "requiredKeywords": [
+      "离"
+     ],
+     "explain_vi": "Đáp án tham khảo: 宿舍离学校骑车十分钟。",
+     "grammarRef": "gt-g7-1"
+    },
+    {
+     "id": "g1-3",
+     "kind": "translate",
+     "prompt_vi": "(nhà → công ty, lái xe nửa tiếng) → ________________________________________________________",
+     "acceptedAnswers": [
+      "家离公司开车半小时。"
+     ],
+     "requiredKeywords": [
+      "离"
+     ],
+     "explain_vi": "Đáp án tham khảo: 家离公司开车半小时。",
+     "grammarRef": "gt-g7-1"
+    },
+    {
+     "id": "g1-4",
+     "kind": "translate",
+     "prompt_vi": "Đặt câu hỏi: Căn nhà này cách siêu thị bao xa? → ________________________________________________________",
+     "acceptedAnswers": [
+      "这套房子离超市多远？"
+     ],
+     "requiredKeywords": [
+      "离"
+     ],
+     "explain_vi": "Đáp án tham khảo: 这套房子离超市多远？",
+     "grammarRef": "gt-g7-1"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 2: ……的话，……",
+   "instructions_vi": "Hoàn thành câu với ……的话，…….",
+   "questions": [
+    {
+     "id": "g2-1",
+     "kind": "translate",
+     "prompt_vi": "半年______，租金可能要上浮一点儿。",
+     "acceptedAnswers": [
+      "的话"
+     ],
+     "requiredKeywords": [
+      "的话"
+     ],
+     "explain_vi": "Đáp án tham khảo: 的话",
+     "grammarRef": "gt-g7-2"
+    },
+    {
+     "id": "g2-2",
+     "kind": "translate",
+     "prompt_vi": "(trả một lần nửa năm → có rẻ hơn không?) → ________________________________________________________",
+     "acceptedAnswers": [
+      "一次付半年的话，能便宜点儿吗？"
+     ],
+     "requiredKeywords": [
+      "的话"
+     ],
+     "explain_vi": "Đáp án tham khảo: 一次付半年的话，能便宜点儿吗？",
+     "grammarRef": "gt-g7-2"
+    },
+    {
+     "id": "g2-3",
+     "kind": "translate",
+     "prompt_vi": "(thuê dài hạn → giảm 200 tệ được không?) → ________________________________________________________",
+     "acceptedAnswers": [
+      "长租的话，能便宜两百吗？"
+     ],
+     "requiredKeywords": [
+      "的话"
+     ],
+     "explain_vi": "Đáp án tham khảo: 长租的话，能便宜两百吗？",
+     "grammarRef": "gt-g7-2"
+    },
+    {
+     "id": "g2-4",
+     "kind": "translate",
+     "prompt_vi": "(máy giặt hỏng → ai chịu trách nhiệm sửa?) → ________________________________________________________",
+     "acceptedAnswers": [
+      "洗衣机坏了的话，谁负责修？"
+     ],
+     "requiredKeywords": [
+      "的话"
+     ],
+     "explain_vi": "Đáp án tham khảo: 洗衣机坏了的话，谁负责修？",
+     "grammarRef": "gt-g7-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 3: Con số + 行不行 / 怎么样 / 能不能",
+   "instructions_vi": "Dùng các cách trả giá đã học để hoàn thành hội thoại.",
+   "questions": [
+    {
+     "id": "g3-1",
+     "kind": "translate",
+     "prompt_vi": "A：月租五千五。B：五千五有点儿超预算了，______？(5.000 được không?)",
+     "acceptedAnswers": [
+      "五千行不行"
+     ],
+     "requiredKeywords": [
+      "行不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 五千行不行",
+     "grammarRef": "gt-g7-3"
+    },
+    {
+     "id": "g3-2",
+     "kind": "translate",
+     "prompt_vi": "A：五千房东不同意。B：那______？(5.200 thì sao?)",
+     "acceptedAnswers": [
+      "那五千二怎么样"
+     ],
+     "requiredKeywords": [
+      "怎么样"
+     ],
+     "explain_vi": "Đáp án tham khảo: 那五千二怎么样",
+     "grammarRef": "gt-g7-3"
+    },
+    {
+     "id": "g3-3",
+     "kind": "translate",
+     "prompt_vi": "A：这件衣服三百。B：______？(250 có được không?)",
+     "acceptedAnswers": [
+      "二百五能不能"
+     ],
+     "requiredKeywords": [
+      "能不能"
+     ],
+     "explain_vi": "Đáp án tham khảo: 二百五能不能",
+     "grammarRef": "gt-g7-3"
+    },
+    {
+     "id": "g3-4",
+     "kind": "translate",
+     "prompt_vi": "Viết một câu trả giá có lý do: bạn trả một lần cả năm, muốn giảm còn 4.800. → ________________________________________________________",
+     "acceptedAnswers": [
+      "我可以一次付一年，四千八行不行？"
+     ],
+     "requiredKeywords": [
+      "行不行"
+     ],
+     "explain_vi": "Đáp án tham khảo: 我可以一次付一年，四千八行不行？",
+     "grammarRef": "gt-g7-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Luyện mẫu câu 4: V + 个 + số + 折 + 呗",
+   "instructions_vi": "Dùng V + 个 + … + 呗 để nài nỉ theo gợi ý.",
+   "questions": [
+    {
+     "id": "g4-1",
+     "kind": "translate",
+     "prompt_vi": "(phí môi giới giảm 20%) → ________________________________________________________",
+     "acceptedAnswers": [
+      "中介费打个八折呗。"
+     ],
+     "requiredKeywords": [
+      "个",
+      "折"
+     ],
+     "explain_vi": "Đáp án tham khảo: 中介费打个八折呗。",
+     "grammarRef": "gt-g7-4"
+    },
+    {
+     "id": "g4-2",
+     "kind": "translate",
+     "prompt_vi": "(bớt cho 200 tệ) → ________________________________________________________",
+     "acceptedAnswers": [
+      "便宜个两百呗。"
+     ],
+     "requiredKeywords": [
+      "个",
+      "呗"
+     ],
+     "explain_vi": "Đáp án tham khảo: 便宜个两百呗。",
+     "grammarRef": "gt-g7-4"
+    },
+    {
+     "id": "g4-3",
+     "kind": "translate",
+     "prompt_vi": "(giảm 10%) → ________________________________________________________",
+     "acceptedAnswers": [
+      "打个九折呗。"
+     ],
+     "requiredKeywords": [
+      "个",
+      "折"
+     ],
+     "explain_vi": "Đáp án tham khảo: 打个九折呗。",
+     "grammarRef": "gt-g7-4"
+    },
+    {
+     "id": "g4-4",
+     "kind": "translate",
+     "prompt_vi": "(bỏ số lẻ cho tôi) → ________________________________________________________",
+     "acceptedAnswers": [
+      "抹个零呗。"
+     ],
+     "requiredKeywords": [
+      "个",
+      "呗"
+     ],
+     "explain_vi": "Đáp án tham khảo: 抹个零呗。",
+     "grammarRef": "gt-g7-4"
+    }
+   ]
+  }
+ ]
+}

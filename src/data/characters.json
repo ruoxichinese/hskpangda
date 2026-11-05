@@ -199,5 +199,383 @@
     "setting": "china",
     "color": "#2C5282",
     "desc_vi": "Bố của Lý Văn, hiền hậu và hiếu khách."
+  },
+  {
+    "id": "gt-lixiang",
+    "zh": "李想",
+    "pinyin": "lǐxiǎng",
+    "vi_name": "Lý Tưởng",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Bạn người Bắc Kinh của Nguyễn Minh, học ngành máy tính, nhiệt tình và hay giúp đỡ."
+  },
+  {
+    "id": "gt-ruanming",
+    "zh": "阮明",
+    "pinyin": "ruǎnmíng",
+    "vi_name": "Nguyễn Minh",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Nhân vật chính: chàng trai Việt Nam sang Bắc Kinh học và đi làm, trải qua đủ tình huống đời sống thực tế."
+  },
+  {
+    "id": "gt-ayi",
+    "zh": "阿姨",
+    "pinyin": "āyí",
+    "vi_name": "Cô hàng xóm",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Cô hàng xóm trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-dianyuan",
+    "zh": "店员",
+    "pinyin": "diànyuán",
+    "vi_name": "Nhân viên cửa hàng",
+    "setting": "china",
+    "color": "#9B2C2C",
+    "desc_vi": "Nhân viên cửa hàng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-fuwuyuan",
+    "zh": "服务员",
+    "pinyin": "fúwùyuán",
+    "vi_name": "Phục vụ",
+    "setting": "china",
+    "color": "#6B46C1",
+    "desc_vi": "Phục vụ trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-shiyou",
+    "zh": "室友",
+    "pinyin": "shìyǒu",
+    "vi_name": "Bạn cùng phòng",
+    "setting": "china",
+    "color": "#B7791F",
+    "desc_vi": "Bạn cùng phòng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-qishou",
+    "zh": "骑手",
+    "pinyin": "qíshǒu",
+    "vi_name": "Shipper",
+    "setting": "china",
+    "color": "#2C7A7B",
+    "desc_vi": "Shipper trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-shangjia",
+    "zh": "商家",
+    "pinyin": "shāngjiā",
+    "vi_name": "Người bán",
+    "setting": "china",
+    "color": "#97266D",
+    "desc_vi": "Người bán trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-kefu",
+    "zh": "客服",
+    "pinyin": "kèfú",
+    "vi_name": "Chăm sóc khách hàng",
+    "setting": "china",
+    "color": "#4A5568",
+    "desc_vi": "Chăm sóc khách hàng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-pengyou",
+    "zh": "朋友",
+    "pinyin": "péngyǒu",
+    "vi_name": "Bạn bè",
+    "setting": "china",
+    "color": "#285E61",
+    "desc_vi": "Bạn bè trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-gongzuorenyuan",
+    "zh": "工作人员",
+    "pinyin": "gōngzuòrényuán",
+    "vi_name": "Nhân viên",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Nhân viên trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-kuaidiyuan",
+    "zh": "快递员",
+    "pinyin": "kuàidìyuán",
+    "vi_name": "Nhân viên giao hàng",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Nhân viên giao hàng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-zhongjie",
+    "zh": "中介",
+    "pinyin": "zhōngjiè",
+    "vi_name": "Môi giới nhà",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Môi giới nhà trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-fangdong",
+    "zh": "房东",
+    "pinyin": "fángdōng",
+    "vi_name": "Chủ nhà",
+    "setting": "china",
+    "color": "#9B2C2C",
+    "desc_vi": "Chủ nhà trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-wuye",
+    "zh": "物业",
+    "pinyin": "wùyè",
+    "vi_name": "Ban quản lý toà nhà",
+    "setting": "china",
+    "color": "#6B46C1",
+    "desc_vi": "Ban quản lý toà nhà trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-siji",
+    "zh": "司机",
+    "pinyin": "sījī",
+    "vi_name": "Tài xế",
+    "setting": "china",
+    "color": "#B7791F",
+    "desc_vi": "Tài xế trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-luren",
+    "zh": "路人",
+    "pinyin": "lùrén",
+    "vi_name": "Người qua đường",
+    "setting": "china",
+    "color": "#2C7A7B",
+    "desc_vi": "Người qua đường trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-chengke",
+    "zh": "乘客",
+    "pinyin": "chéngkè",
+    "vi_name": "Hành khách",
+    "setting": "china",
+    "color": "#97266D",
+    "desc_vi": "Hành khách trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-guangbo",
+    "zh": "广播",
+    "pinyin": "guǎngbō",
+    "vi_name": "Loa thông báo",
+    "setting": "china",
+    "color": "#4A5568",
+    "desc_vi": "Loa thông báo trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-qiantai",
+    "zh": "前台",
+    "pinyin": "qiántái",
+    "vi_name": "Lễ tân",
+    "setting": "china",
+    "color": "#285E61",
+    "desc_vi": "Lễ tân trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-shoupiaoyuan",
+    "zh": "售票员",
+    "pinyin": "shòupiàoyuán",
+    "vi_name": "Nhân viên bán vé",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Nhân viên bán vé trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-jingcha",
+    "zh": "警察",
+    "pinyin": "jǐngchá",
+    "vi_name": "Cảnh sát",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Cảnh sát trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-laoban",
+    "zh": "老板",
+    "pinyin": "lǎobǎn",
+    "vi_name": "Ông chủ",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Ông chủ trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-daozhen",
+    "zh": "导诊",
+    "pinyin": "dǎozhěn",
+    "vi_name": "Nhân viên hướng dẫn",
+    "setting": "china",
+    "color": "#9B2C2C",
+    "desc_vi": "Nhân viên hướng dẫn trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-yisheng",
+    "zh": "医生",
+    "pinyin": "yīshēng",
+    "vi_name": "Bác sĩ",
+    "setting": "china",
+    "color": "#6B46C1",
+    "desc_vi": "Bác sĩ trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-hushi",
+    "zh": "护士",
+    "pinyin": "hùshì",
+    "vi_name": "Y tá",
+    "setting": "china",
+    "color": "#B7791F",
+    "desc_vi": "Y tá trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-tongshi",
+    "zh": "同事",
+    "pinyin": "tóngshì",
+    "vi_name": "Đồng nghiệp",
+    "setting": "china",
+    "color": "#2C7A7B",
+    "desc_vi": "Đồng nghiệp trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-xiaomei",
+    "zh": "小美",
+    "pinyin": "xiǎoměi",
+    "vi_name": "Tiểu Mỹ",
+    "setting": "china",
+    "color": "#97266D",
+    "desc_vi": "Tiểu Mỹ trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-xiaozhang",
+    "zh": "小张",
+    "pinyin": "xiǎozhāng",
+    "vi_name": "Tiểu Trương",
+    "setting": "china",
+    "color": "#4A5568",
+    "desc_vi": "Tiểu Trương trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-xiaoli",
+    "zh": "小李",
+    "pinyin": "xiǎolǐ",
+    "vi_name": "Tiểu Lý",
+    "setting": "china",
+    "color": "#285E61",
+    "desc_vi": "Tiểu Lý trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-tongshi",
+    "zh": "同事A",
+    "pinyin": "tóngshì",
+    "vi_name": "Đồng nghiệp A",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Đồng nghiệp A trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-tongshi",
+    "zh": "同事B",
+    "pinyin": "tóngshì",
+    "vi_name": "Đồng nghiệp B",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Đồng nghiệp B trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-tongxue",
+    "zh": "同学",
+    "pinyin": "tóngxué",
+    "vi_name": "Bạn học",
+    "setting": "china",
+    "color": "#2F855A",
+    "desc_vi": "Bạn học trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-hr",
+    "zh": "HR",
+    "pinyin": "HR",
+    "vi_name": "Nhân sự (HR)",
+    "setting": "china",
+    "color": "#9B2C2C",
+    "desc_vi": "Nhân sự (HR) trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-wangzong",
+    "zh": "王总",
+    "pinyin": "wángzǒng",
+    "vi_name": "Giám đốc Vương",
+    "setting": "china",
+    "color": "#6B46C1",
+    "desc_vi": "Giám đốc Vương trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-kehu",
+    "zh": "客户",
+    "pinyin": "kèhù",
+    "vi_name": "Khách hàng",
+    "setting": "china",
+    "color": "#B7791F",
+    "desc_vi": "Khách hàng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-mianshiguan",
+    "zh": "面试官",
+    "pinyin": "miànshìguān",
+    "vi_name": "Người phỏng vấn",
+    "setting": "china",
+    "color": "#2C7A7B",
+    "desc_vi": "Người phỏng vấn trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-daoshi",
+    "zh": "导师",
+    "pinyin": "dǎoshī",
+    "vi_name": "Người hướng dẫn",
+    "setting": "china",
+    "color": "#97266D",
+    "desc_vi": "Người hướng dẫn trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-pingtaikefu",
+    "zh": "平台客服",
+    "pinyin": "píngtáikèfú",
+    "vi_name": "CSKH nền tảng",
+    "setting": "china",
+    "color": "#4A5568",
+    "desc_vi": "CSKH nền tảng trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-guiyuan",
+    "zh": "柜员",
+    "pinyin": "guìyuán",
+    "vi_name": "Giao dịch viên",
+    "setting": "china",
+    "color": "#285E61",
+    "desc_vi": "Giao dịch viên trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-shushu",
+    "zh": "叔叔",
+    "pinyin": "shūshū",
+    "vi_name": "Chú",
+    "setting": "china",
+    "color": "#2B6CB0",
+    "desc_vi": "Chú trong các tình huống của khoá Giao tiếp đời sống."
+  },
+  {
+    "id": "gt-qunzhu",
+    "zh": "群主",
+    "pinyin": "qúnzhǔ",
+    "vi_name": "Trưởng nhóm chat",
+    "setting": "china",
+    "color": "#C05621",
+    "desc_vi": "Trưởng nhóm chat trong các tình huống của khoá Giao tiếp đời sống."
   }
 ]

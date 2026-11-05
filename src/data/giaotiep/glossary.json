@@ -1,0 +1,13685 @@
+{
+"_note": "Bảng tra pinyin (tự sinh) cho các từ ngoài danh sách từ mới của khoá Giao tiếp đời sống.",
+"words": [
+{
+"zh": "破冰",
+"pinyin": "pòbīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "破",
+"pinyin": "pò",
+"vi": "",
+"known": true
+},
+{
+"zh": "就行",
+"pinyin": "jiùxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "宿舍楼",
+"pinyin": "sùshèlóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "宿",
+"pinyin": "sù",
+"vi": "",
+"known": true
+},
+{
+"zh": "舍",
+"pinyin": "shě",
+"vi": "",
+"known": true
+},
+{
+"zh": "新来",
+"pinyin": "xīnlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "阮明",
+"pinyin": "ruǎnmíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "阮",
+"pinyin": "ruǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "明",
+"pinyin": "míng",
+"vi": "",
+"known": true
+},
+{
+"zh": "李想",
+"pinyin": "lǐxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "哪里",
+"pinyin": "nǎlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "差得远",
+"pinyin": "chàdeyuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "什",
+"pinyin": "shén",
+"vi": "",
+"known": true
+},
+{
+"zh": "么",
+"pinyin": "me",
+"vi": "",
+"known": true
+},
+{
+"zh": "专",
+"pinyin": "zhuān",
+"vi": "",
+"known": true
+},
+{
+"zh": "业",
+"pinyin": "yè",
+"vi": "",
+"known": true
+},
+{
+"zh": "计算机",
+"pinyin": "jìsuànjī",
+"vi": "",
+"known": true
+},
+{
+"zh": "计",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "算",
+"pinyin": "suàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "国际贸易",
+"pinyin": "guójìmàoyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "际",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "贸",
+"pinyin": "mào",
+"vi": "",
+"known": true
+},
+{
+"zh": "易",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "咱",
+"pinyin": "zán",
+"vi": "",
+"known": true
+},
+{
+"zh": "加个",
+"pinyin": "jiāgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "微信",
+"pinyin": "wēixìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "微",
+"pinyin": "wēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "信",
+"pinyin": "xìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "通过",
+"pinyin": "tōngguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "通",
+"pinyin": "tōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "啥",
+"pinyin": "shá",
+"vi": "",
+"known": true
+},
+{
+"zh": "事儿",
+"pinyin": "shìér",
+"vi": "",
+"known": true
+},
+{
+"zh": "随",
+"pinyin": "suí",
+"vi": "",
+"known": true
+},
+{
+"zh": "太好了",
+"pinyin": "tàihǎole",
+"vi": "",
+"known": true
+},
+{
+"zh": "好友",
+"pinyin": "hǎoyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "友",
+"pinyin": "yǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "验证",
+"pinyin": "yànzhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "验",
+"pinyin": "yàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "证",
+"pinyin": "zhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "非",
+"pinyin": "fēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "特",
+"pinyin": "tè",
+"vi": "",
+"known": true
+},
+{
+"zh": "方",
+"pinyin": "fāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "便",
+"pinyin": "biàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "南方人",
+"pinyin": "nánfāngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "主语",
+"pinyin": "zhǔyǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "主",
+"pinyin": "zhǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "语",
+"pinyin": "yǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "梯",
+"pinyin": "tī",
+"vi": "",
+"known": true
+},
+{
+"zh": "遇",
+"pinyin": "yù",
+"vi": "",
+"known": true
+},
+{
+"zh": "邻",
+"pinyin": "lín",
+"vi": "",
+"known": true
+},
+{
+"zh": "居",
+"pinyin": "jū",
+"vi": "",
+"known": true
+},
+{
+"zh": "阿",
+"pinyin": "ā",
+"vi": "",
+"known": true
+},
+{
+"zh": "姨",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "小伙子",
+"pinyin": "xiǎohuǒzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "伙",
+"pinyin": "huǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "子",
+"pinyin": "zi",
+"vi": "",
+"known": true
+},
+{
+"zh": "菜市场",
+"pinyin": "càishìchǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "市",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "买点儿",
+"pinyin": "mǎidiǎnér",
+"vi": "",
+"known": true
+},
+{
+"zh": "一个",
+"pinyin": "yígè",
+"vi": "",
+"known": true
+},
+{
+"zh": "人住",
+"pinyin": "rénzhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "习",
+"pinyin": "xí",
+"vi": "",
+"known": true
+},
+{
+"zh": "惯",
+"pinyin": "guàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "太干",
+"pinyin": "tàigàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "嗓",
+"pinyin": "sǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "老疼",
+"pinyin": "lǎoténg",
+"vi": "",
+"known": true
+},
+{
+"zh": "北",
+"pinyin": "běi",
+"vi": "",
+"known": true
+},
+{
+"zh": "样",
+"pinyin": "yàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "热水",
+"pinyin": "rèshuǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "有空",
+"pinyin": "yǒukòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "空",
+"pinyin": "kōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "家里",
+"pinyin": "jiālǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "嘞",
+"pinyin": "lei",
+"vi": "",
+"known": true
+},
+{
+"zh": "慢走",
+"pinyin": "mànzǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "姑娘",
+"pinyin": "gūniáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "姑",
+"pinyin": "gū",
+"vi": "",
+"known": true
+},
+{
+"zh": "娘",
+"pinyin": "niáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "食堂",
+"pinyin": "shítáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "食",
+"pinyin": "shí",
+"vi": "",
+"known": true
+},
+{
+"zh": "堂",
+"pinyin": "táng",
+"vi": "",
+"known": true
+},
+{
+"zh": "话题",
+"pinyin": "huàtí",
+"vi": "",
+"known": true
+},
+{
+"zh": "冷不冷",
+"pinyin": "lěngbùlěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "基本",
+"pinyin": "jīběn",
+"vi": "",
+"known": true
+},
+{
+"zh": "基",
+"pinyin": "jī",
+"vi": "",
+"known": true
+},
+{
+"zh": "二三十",
+"pinyin": "èrsānshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "度",
+"pinyin": "dù",
+"vi": "",
+"known": true
+},
+{
+"zh": "羡",
+"pinyin": "xiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "慕",
+"pinyin": "mù",
+"vi": "",
+"known": true
+},
+{
+"zh": "京",
+"pinyin": "jīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "第一个",
+"pinyin": "dìyígè",
+"vi": "",
+"known": true
+},
+{
+"zh": "扛得住",
+"pinyin": "kángdezhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "扛",
+"pinyin": "káng",
+"vi": "",
+"known": true
+},
+{
+"zh": "实",
+"pinyin": "shí",
+"vi": "",
+"known": true
+},
+{
+"zh": "扛不住",
+"pinyin": "kángbúzhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "已",
+"pinyin": "yǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "经",
+"pinyin": "jīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "两件",
+"pinyin": "liǎngjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "羽",
+"pinyin": "yǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "绒",
+"pinyin": "róng",
+"vi": "",
+"known": true
+},
+{
+"zh": "服",
+"pinyin": "fú",
+"vi": "",
+"known": true
+},
+{
+"zh": "哈",
+"pinyin": "hā",
+"vi": "",
+"known": true
+},
+{
+"zh": "过河",
+"pinyin": "guòhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "粉",
+"pinyin": "fěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "带你去",
+"pinyin": "dàinǐqù",
+"vi": "",
+"known": true
+},
+{
+"zh": "宗",
+"pinyin": "zōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "客",
+"pinyin": "kè",
+"vi": "",
+"known": true
+},
+{
+"zh": "好意思",
+"pinyin": "hǎoyìsi",
+"vi": "",
+"known": true
+},
+{
+"zh": "意",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "思",
+"pinyin": "sī",
+"vi": "",
+"known": true
+},
+{
+"zh": "这回",
+"pinyin": "zhèhuí",
+"vi": "",
+"known": true
+},
+{
+"zh": "下回",
+"pinyin": "xiàhuí",
+"vi": "",
+"known": true
+},
+{
+"zh": "想家",
+"pinyin": "xiǎngjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "气",
+"pinyin": "qì",
+"vi": "",
+"known": true
+},
+{
+"zh": "这家",
+"pinyin": "zhèjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "内",
+"pinyin": "nèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "今",
+"pinyin": "jīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "留",
+"pinyin": "liú",
+"vi": "",
+"known": true
+},
+{
+"zh": "怎",
+"pinyin": "zěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "工",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "作",
+"pinyin": "zuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "快速",
+"pinyin": "kuàisù",
+"vi": "",
+"known": true
+},
+{
+"zh": "速",
+"pinyin": "sù",
+"vi": "",
+"known": true
+},
+{
+"zh": "交友",
+"pinyin": "jiāoyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "共同点",
+"pinyin": "gòngtóngdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "共",
+"pinyin": "gòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "同",
+"pinyin": "tóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "欢",
+"pinyin": "huān",
+"vi": "",
+"known": true
+},
+{
+"zh": "寒暄",
+"pinyin": "hánxuān",
+"vi": "",
+"known": true
+},
+{
+"zh": "寒",
+"pinyin": "hán",
+"vi": "",
+"known": true
+},
+{
+"zh": "暄",
+"pinyin": "xuān",
+"vi": "",
+"known": true
+},
+{
+"zh": "啦",
+"pinyin": "la",
+"vi": "",
+"known": true
+},
+{
+"zh": "买菜",
+"pinyin": "mǎicài",
+"vi": "",
+"known": true
+},
+{
+"zh": "备",
+"pinyin": "bèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "注",
+"pinyin": "zhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "保密",
+"pinyin": "bǎomì",
+"vi": "",
+"known": true
+},
+{
+"zh": "保",
+"pinyin": "bǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "密",
+"pinyin": "mì",
+"vi": "",
+"known": true
+},
+{
+"zh": "够花",
+"pinyin": "gòuhuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "够",
+"pinyin": "gòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "码",
+"pinyin": "mǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "凑",
+"pinyin": "còu",
+"vi": "",
+"known": true
+},
+{
+"zh": "齐",
+"pinyin": "qí",
+"vi": "",
+"known": true
+},
+{
+"zh": "便利店",
+"pinyin": "biànlìdiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "利",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "结账",
+"pinyin": "jiézhàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "结",
+"pinyin": "jié",
+"vi": "",
+"known": true
+},
+{
+"zh": "账",
+"pinyin": "zhàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十八",
+"pinyin": "èrshíbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "现金",
+"pinyin": "xiànjīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "现",
+"pinyin": "xiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "金",
+"pinyin": "jīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "示",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "付款",
+"pinyin": "fùkuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "付",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "款",
+"pinyin": "kuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "诶",
+"pinyin": "éi",
+"vi": "",
+"known": true
+},
+{
+"zh": "反应",
+"pinyin": "fǎnyìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "反",
+"pinyin": "fǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "应",
+"pinyin": "yīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "网",
+"pinyin": "wǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "不好",
+"pinyin": "bùhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "者",
+"pinyin": "zhě",
+"vi": "",
+"known": true
+},
+{
+"zh": "墙上",
+"pinyin": "qiángshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "墙",
+"pinyin": "qiáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "扫好",
+"pinyin": "sǎohǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "输",
+"pinyin": "shū",
+"vi": "",
+"known": true
+},
+{
+"zh": "收款",
+"pinyin": "shōukuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "喝茶",
+"pinyin": "hēchá",
+"vi": "",
+"known": true
+},
+{
+"zh": "咖",
+"pinyin": "kā",
+"vi": "",
+"known": true
+},
+{
+"zh": "啡",
+"pinyin": "fēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "扣",
+"pinyin": "kòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "两次",
+"pinyin": "liǎngcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "点单",
+"pinyin": "diǎndān",
+"vi": "",
+"known": true
+},
+{
+"zh": "单",
+"pinyin": "dān",
+"vi": "",
+"known": true
+},
+{
+"zh": "您好",
+"pinyin": "nínhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "两位",
+"pinyin": "liǎngwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "桌上",
+"pinyin": "zhuōshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "桌",
+"pinyin": "zhuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "维",
+"pinyin": "wéi",
+"vi": "",
+"known": true
+},
+{
+"zh": "完单",
+"pinyin": "wándān",
+"vi": "",
+"known": true
+},
+{
+"zh": "直接",
+"pinyin": "zhíjiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "直",
+"pinyin": "zhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "上付",
+"pinyin": "shàngfù",
+"vi": "",
+"known": true
+},
+{
+"zh": "公众",
+"pinyin": "gōngzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "公",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "众",
+"pinyin": "zhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "还要",
+"pinyin": "háiyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "授",
+"pinyin": "shòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "权",
+"pinyin": "quán",
+"vi": "",
+"known": true
+},
+{
+"zh": "手机号",
+"pinyin": "shǒujīhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "允许",
+"pinyin": "yǔnxǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "允",
+"pinyin": "yǔn",
+"vi": "",
+"known": true
+},
+{
+"zh": "许",
+"pinyin": "xǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "程序",
+"pinyin": "chéngxù",
+"vi": "",
+"known": true
+},
+{
+"zh": "程",
+"pinyin": "chéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "序",
+"pinyin": "xù",
+"vi": "",
+"known": true
+},
+{
+"zh": "满",
+"pinyin": "mǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "五十",
+"pinyin": "wǔshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "减十的券",
+"pinyin": "jiǎnshídequàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "减",
+"pinyin": "jiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "券",
+"pinyin": "quàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "那先",
+"pinyin": "nàxiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "领",
+"pinyin": "lǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "凑够",
+"pinyin": "còugòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "一份",
+"pinyin": "yīfèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "份",
+"pinyin": "fèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "就够",
+"pinyin": "jiùgòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "下单",
+"pinyin": "xiàdān",
+"vi": "",
+"known": true
+},
+{
+"zh": "先转",
+"pinyin": "xiānzhuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "转",
+"pinyin": "zhuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "五块",
+"pinyin": "wǔkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "支付",
+"pinyin": "zhīfù",
+"vi": "",
+"known": true
+},
+{
+"zh": "支",
+"pinyin": "zhī",
+"vi": "",
+"known": true
+},
+{
+"zh": "失败",
+"pinyin": "shībài",
+"vi": "",
+"known": true
+},
+{
+"zh": "失",
+"pinyin": "shī",
+"vi": "",
+"known": true
+},
+{
+"zh": "败",
+"pinyin": "bài",
+"vi": "",
+"known": true
+},
+{
+"zh": "三十六",
+"pinyin": "sānshíliù",
+"vi": "",
+"known": true
+},
+{
+"zh": "垫",
+"pinyin": "diàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "十八",
+"pinyin": "shíbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "咦",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "提示",
+"pinyin": "tíshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "提",
+"pinyin": "tí",
+"vi": "",
+"known": true
+},
+{
+"zh": "绑",
+"pinyin": "bǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "超",
+"pinyin": "chāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "限",
+"pinyin": "xiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "额",
+"pinyin": "é",
+"vi": "",
+"known": true
+},
+{
+"zh": "剩",
+"pinyin": "shèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "没事儿",
+"pinyin": "méishìér",
+"vi": "",
+"known": true
+},
+{
+"zh": "剩下",
+"pinyin": "shèngxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "亲兄弟明",
+"pinyin": "qīnxiōngdìmíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "兄",
+"pinyin": "xiōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "弟",
+"pinyin": "dì",
+"vi": "",
+"known": true
+},
+{
+"zh": "算账",
+"pinyin": "suànzhàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "嘛",
+"pinyin": "ma",
+"vi": "",
+"known": true
+},
+{
+"zh": "我收",
+"pinyin": "wǒshōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "余额",
+"pinyin": "yúé",
+"vi": "",
+"known": true
+},
+{
+"zh": "余",
+"pinyin": "yú",
+"vi": "",
+"known": true
+},
+{
+"zh": "不足",
+"pinyin": "bùzú",
+"vi": "",
+"known": true
+},
+{
+"zh": "足",
+"pinyin": "zú",
+"vi": "",
+"known": true
+},
+{
+"zh": "外卡",
+"pinyin": "wàikǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "密码",
+"pinyin": "mìmǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "免密",
+"pinyin": "miǎnmì",
+"vi": "",
+"known": true
+},
+{
+"zh": "免",
+"pinyin": "miǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "收钱",
+"pinyin": "shōuqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "凑齐",
+"pinyin": "còuqí",
+"vi": "",
+"known": true
+},
+{
+"zh": "一瓶",
+"pinyin": "yīpíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "可乐",
+"pinyin": "kělè",
+"vi": "",
+"known": true
+},
+{
+"zh": "乐",
+"pinyin": "lè",
+"vi": "",
+"known": true
+},
+{
+"zh": "页面",
+"pinyin": "yèmiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "试试",
+"pinyin": "shìshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "车费",
+"pinyin": "chēfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "费",
+"pinyin": "fèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "卡超",
+"pinyin": "kǎchāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "不了",
+"pinyin": "bùliǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "救援",
+"pinyin": "jiùyuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "救",
+"pinyin": "jiù",
+"vi": "",
+"known": true
+},
+{
+"zh": "援",
+"pinyin": "yuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "单王",
+"pinyin": "dānwáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "外包",
+"pinyin": "wàibāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "内用",
+"pinyin": "nèiyòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "码行",
+"pinyin": "mǎxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "功",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "这次",
+"pinyin": "zhècì",
+"vi": "",
+"known": true
+},
+{
+"zh": "群",
+"pinyin": "qún",
+"vi": "",
+"known": true
+},
+{
+"zh": "说好",
+"pinyin": "shuōhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "不能",
+"pinyin": "bùnéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "排队",
+"pinyin": "páiduì",
+"vi": "",
+"known": true
+},
+{
+"zh": "排",
+"pinyin": "pái",
+"vi": "",
+"known": true
+},
+{
+"zh": "队",
+"pinyin": "duì",
+"vi": "",
+"known": true
+},
+{
+"zh": "预约",
+"pinyin": "yùyuē",
+"vi": "",
+"known": true
+},
+{
+"zh": "预",
+"pinyin": "yù",
+"vi": "",
+"known": true
+},
+{
+"zh": "四个",
+"pinyin": "sìgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "有位",
+"pinyin": "yǒuwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "厅",
+"pinyin": "tīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "取个",
+"pinyin": "qǔgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "取",
+"pinyin": "qǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "还有",
+"pinyin": "háiyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "六桌",
+"pinyin": "liùzhuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "概",
+"pinyin": "gài",
+"vi": "",
+"known": true
+},
+{
+"zh": "半小时",
+"pinyin": "bànxiǎoshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "最低",
+"pinyin": "zuìdī",
+"vi": "",
+"known": true
+},
+{
+"zh": "消费",
+"pinyin": "xiāofèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "消",
+"pinyin": "xiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "八百",
+"pinyin": "bābǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "排号",
+"pinyin": "páihào",
+"vi": "",
+"known": true
+},
+{
+"zh": "发短信",
+"pinyin": "fāduǎnxìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "区有",
+"pinyin": "qūyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "区",
+"pinyin": "qū",
+"vi": "",
+"known": true
+},
+{
+"zh": "免费",
+"pinyin": "miǎnfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "瓜子",
+"pinyin": "guāzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "瓜",
+"pinyin": "guā",
+"vi": "",
+"known": true
+},
+{
+"zh": "饮",
+"pinyin": "yǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "料",
+"pinyin": "liào",
+"vi": "",
+"known": true
+},
+{
+"zh": "订位",
+"pinyin": "dìngwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "订",
+"pinyin": "dìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "取号",
+"pinyin": "qǔhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "一碗",
+"pinyin": "yīwǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一盘",
+"pinyin": "yīpán",
+"vi": "",
+"known": true
+},
+{
+"zh": "盘",
+"pinyin": "pán",
+"vi": "",
+"known": true
+},
+{
+"zh": "毛肚",
+"pinyin": "máodù",
+"vi": "",
+"known": true
+},
+{
+"zh": "肚",
+"pinyin": "dù",
+"vi": "",
+"known": true
+},
+{
+"zh": "两瓶",
+"pinyin": "liǎngpíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "啤",
+"pinyin": "pí",
+"vi": "",
+"known": true
+},
+{
+"zh": "辣",
+"pinyin": "là",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃得了",
+"pinyin": "chīdéle",
+"vi": "",
+"known": true
+},
+{
+"zh": "点菜",
+"pinyin": "diǎncài",
+"vi": "",
+"known": true
+},
+{
+"zh": "招",
+"pinyin": "zhāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "牌",
+"pinyin": "pái",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸭肠",
+"pinyin": "yācháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸭",
+"pinyin": "yā",
+"vi": "",
+"known": true
+},
+{
+"zh": "肠",
+"pinyin": "cháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "自",
+"pinyin": "zì",
+"vi": "",
+"known": true
+},
+{
+"zh": "己",
+"pinyin": "jǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "虾",
+"pinyin": "xiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "滑",
+"pinyin": "huá",
+"vi": "",
+"known": true
+},
+{
+"zh": "锅",
+"pinyin": "guō",
+"vi": "",
+"known": true
+},
+{
+"zh": "底",
+"pinyin": "dǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸳鸯",
+"pinyin": "yuānyāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸳",
+"pinyin": "yuān",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸯",
+"pinyin": "yāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一半",
+"pinyin": "yíbàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "不辣",
+"pinyin": "bùlà",
+"vi": "",
+"known": true
+},
+{
+"zh": "红锅",
+"pinyin": "hóngguō",
+"vi": "",
+"known": true
+},
+{
+"zh": "微辣",
+"pinyin": "wēilà",
+"vi": "",
+"known": true
+},
+{
+"zh": "太辣",
+"pinyin": "tàilà",
+"vi": "",
+"known": true
+},
+{
+"zh": "有没有",
+"pinyin": "yǒuméiyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "忌",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "香",
+"pinyin": "xiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "葱",
+"pinyin": "cōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "不吃",
+"pinyin": "bùchī",
+"vi": "",
+"known": true
+},
+{
+"zh": "都行",
+"pinyin": "dōuxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "滑来",
+"pinyin": "huálái",
+"vi": "",
+"known": true
+},
+{
+"zh": "小料",
+"pinyin": "xiǎoliào",
+"vi": "",
+"known": true
+},
+{
+"zh": "调",
+"pinyin": "diào",
+"vi": "",
+"known": true
+},
+{
+"zh": "中辣",
+"pinyin": "zhōnglà",
+"vi": "",
+"known": true
+},
+{
+"zh": "特辣",
+"pinyin": "tèlà",
+"vi": "",
+"known": true
+},
+{
+"zh": "麻烦",
+"pinyin": "máfán",
+"vi": "",
+"known": true
+},
+{
+"zh": "麻",
+"pinyin": "má",
+"vi": "",
+"known": true
+},
+{
+"zh": "烦",
+"pinyin": "fán",
+"vi": "",
+"known": true
+},
+{
+"zh": "不行",
+"pinyin": "bùxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "能换个",
+"pinyin": "nénghuàngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "靠窗",
+"pinyin": "kàochuāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "靠",
+"pinyin": "kào",
+"vi": "",
+"known": true
+},
+{
+"zh": "窗",
+"pinyin": "chuāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "位子",
+"pinyin": "wèizi",
+"vi": "",
+"known": true
+},
+{
+"zh": "买单",
+"pinyin": "mǎidān",
+"vi": "",
+"known": true
+},
+{
+"zh": "务",
+"pinyin": "wù",
+"vi": "",
+"known": true
+},
+{
+"zh": "几个",
+"pinyin": "jǐgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "盒",
+"pinyin": "hé",
+"vi": "",
+"known": true
+},
+{
+"zh": "两块",
+"pinyin": "liǎngkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "四百",
+"pinyin": "sìbǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十六",
+"pinyin": "èrshíliù",
+"vi": "",
+"known": true
+},
+{
+"zh": "抹",
+"pinyin": "mǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "别别别",
+"pinyin": "biébiébié",
+"vi": "",
+"known": true
+},
+{
+"zh": "群里",
+"pinyin": "qúnlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "发个",
+"pinyin": "fāgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "奶",
+"pinyin": "nǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "码填",
+"pinyin": "mǎtián",
+"vi": "",
+"known": true
+},
+{
+"zh": "填",
+"pinyin": "tián",
+"vi": "",
+"known": true
+},
+{
+"zh": "抬",
+"pinyin": "tái",
+"vi": "",
+"known": true
+},
+{
+"zh": "七点",
+"pinyin": "qīdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "没到",
+"pinyin": "méidào",
+"vi": "",
+"known": true
+},
+{
+"zh": "这是",
+"pinyin": "zhèshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃不完",
+"pinyin": "chībùwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "神秘",
+"pinyin": "shénmì",
+"vi": "",
+"known": true
+},
+{
+"zh": "神",
+"pinyin": "shén",
+"vi": "",
+"known": true
+},
+{
+"zh": "秘",
+"pinyin": "mì",
+"vi": "",
+"known": true
+},
+{
+"zh": "顾客",
+"pinyin": "gùkè",
+"vi": "",
+"known": true
+},
+{
+"zh": "顾",
+"pinyin": "gù",
+"vi": "",
+"known": true
+},
+{
+"zh": "抢",
+"pinyin": "qiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "大战",
+"pinyin": "dàzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "战",
+"pinyin": "zhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "上次",
+"pinyin": "shàngcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "我刚",
+"pinyin": "wǒgāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "资",
+"pinyin": "zī",
+"vi": "",
+"known": true
+},
+{
+"zh": "大众",
+"pinyin": "dàzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "点评",
+"pinyin": "diǎnpíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "评",
+"pinyin": "píng",
+"vi": "",
+"known": true
+},
+{
+"zh": "公筷",
+"pinyin": "gōngkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "筷",
+"pinyin": "kuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "公勺",
+"pinyin": "gōngsháo",
+"vi": "",
+"known": true
+},
+{
+"zh": "勺",
+"pinyin": "sháo",
+"vi": "",
+"known": true
+},
+{
+"zh": "对虾",
+"pinyin": "duìxiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "过敏",
+"pinyin": "guòmǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "敏",
+"pinyin": "mǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "结果",
+"pinyin": "jiéguǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "果",
+"pinyin": "guǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "添",
+"pinyin": "tiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "累死",
+"pinyin": "lèisǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "死",
+"pinyin": "sǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "不想",
+"pinyin": "bùxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "下楼",
+"pinyin": "xiàlóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "美团",
+"pinyin": "měituán",
+"vi": "",
+"known": true
+},
+{
+"zh": "团",
+"pinyin": "tuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "能领",
+"pinyin": "nénglǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "无",
+"pinyin": "wú",
+"vi": "",
+"known": true
+},
+{
+"zh": "门槛",
+"pinyin": "ménkǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "槛",
+"pinyin": "kǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "麻辣烫",
+"pinyin": "málàtàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "烫",
+"pinyin": "tàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "分",
+"pinyin": "fēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "四点",
+"pinyin": "sìdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "售",
+"pinyin": "shòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "五千多",
+"pinyin": "wǔqiānduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "配",
+"pinyin": "pèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "三块",
+"pinyin": "sānkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十",
+"pinyin": "èrshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "不要",
+"pinyin": "búyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "多放醋",
+"pinyin": "duōfàngcù",
+"vi": "",
+"known": true
+},
+{
+"zh": "醋",
+"pinyin": "cù",
+"vi": "",
+"known": true
+},
+{
+"zh": "敲",
+"pinyin": "qiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "地址",
+"pinyin": "dìzhǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "址",
+"pinyin": "zhǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "哪个",
+"pinyin": "nǎge",
+"vi": "",
+"known": true
+},
+{
+"zh": "北门",
+"pinyin": "běimén",
+"vi": "",
+"known": true
+},
+{
+"zh": "进不了",
+"pinyin": "jìnbùliǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "校",
+"pinyin": "xiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "园",
+"pinyin": "yuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "骑手",
+"pinyin": "qíshǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "小哥",
+"pinyin": "xiǎogē",
+"vi": "",
+"known": true
+},
+{
+"zh": "哥",
+"pinyin": "gē",
+"vi": "",
+"known": true
+},
+{
+"zh": "三十",
+"pinyin": "sānshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "减八",
+"pinyin": "jiǎnbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "邮",
+"pinyin": "yóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "宾语",
+"pinyin": "bīnyǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "宾",
+"pinyin": "bīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "汤",
+"pinyin": "tāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "师",
+"pinyin": "shī",
+"vi": "",
+"known": true
+},
+{
+"zh": "傅",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "三分钟",
+"pinyin": "sānfēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "钟",
+"pinyin": "zhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "赶",
+"pinyin": "gǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "柜里",
+"pinyin": "guìlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "柜",
+"pinyin": "guì",
+"vi": "",
+"known": true
+},
+{
+"zh": "柜号",
+"pinyin": "guìhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "短信",
+"pinyin": "duǎnxìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "辛苦",
+"pinyin": "xīnkǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "辛",
+"pinyin": "xīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "苦",
+"pinyin": "kǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "好评",
+"pinyin": "hǎopíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "星",
+"pinyin": "xīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "餐",
+"pinyin": "cān",
+"vi": "",
+"known": true
+},
+{
+"zh": "送达",
+"pinyin": "sòngdá",
+"vi": "",
+"known": true
+},
+{
+"zh": "达",
+"pinyin": "dá",
+"vi": "",
+"known": true
+},
+{
+"zh": "差评",
+"pinyin": "chàpíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "商",
+"pinyin": "shāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "漏",
+"pinyin": "lòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "老板",
+"pinyin": "lǎobǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "板",
+"pinyin": "bǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "我点",
+"pinyin": "wǒdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "实在",
+"pinyin": "shízài",
+"vi": "",
+"known": true
+},
+{
+"zh": "退",
+"pinyin": "tuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "补",
+"pinyin": "bǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一张",
+"pinyin": "yīzhāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "看行",
+"pinyin": "kànxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "汤洒",
+"pinyin": "tāngsǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "拍",
+"pinyin": "pāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "申请",
+"pinyin": "shēnqǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "申",
+"pinyin": "shēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "退款",
+"pinyin": "tuìkuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "部分",
+"pinyin": "bùfèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "部",
+"pinyin": "bù",
+"vi": "",
+"known": true
+},
+{
+"zh": "心",
+"pinyin": "xīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "定",
+"pinyin": "dìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "偿",
+"pinyin": "cháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "留证",
+"pinyin": "liúzhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "店满",
+"pinyin": "diànmǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "送得",
+"pinyin": "sòngdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "很快",
+"pinyin": "hěnkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "大赛",
+"pinyin": "dàsài",
+"vi": "",
+"known": true
+},
+{
+"zh": "赛",
+"pinyin": "sài",
+"vi": "",
+"known": true
+},
+{
+"zh": "别放葱",
+"pinyin": "biéfàngcōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "仇",
+"pinyin": "chóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "谈判",
+"pinyin": "tánpàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "谈",
+"pinyin": "tán",
+"vi": "",
+"known": true
+},
+{
+"zh": "判",
+"pinyin": "pàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "购",
+"pinyin": "gòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "按",
+"pinyin": "àn",
+"vi": "",
+"known": true
+},
+{
+"zh": "根",
+"pinyin": "gēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "据",
+"pinyin": "jù",
+"vi": "",
+"known": true
+},
+{
+"zh": "建议",
+"pinyin": "jiànyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "建",
+"pinyin": "jiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "议",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "道",
+"pinyin": "dào",
+"vi": "",
+"known": true
+},
+{
+"zh": "理",
+"pinyin": "lǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "这件",
+"pinyin": "zhèjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "卫衣",
+"pinyin": "wèiyī",
+"vi": "",
+"known": true
+},
+{
+"zh": "卫",
+"pinyin": "wèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "衣",
+"pinyin": "yī",
+"vi": "",
+"known": true
+},
+{
+"zh": "一米",
+"pinyin": "yīmǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "七五",
+"pinyin": "qīwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一百三十斤",
+"pinyin": "yìbǎisānshíjīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "合",
+"pinyin": "hé",
+"vi": "",
+"known": true
+},
+{
+"zh": "适",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "身高体重",
+"pinyin": "shēngāotǐzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "体",
+"pinyin": "tǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "修身",
+"pinyin": "xiūshēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "修",
+"pinyin": "xiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "偏小一码",
+"pinyin": "piānxiǎoyīmǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "偏",
+"pinyin": "piān",
+"vi": "",
+"known": true
+},
+{
+"zh": "色",
+"pinyin": "sè",
+"vi": "",
+"known": true
+},
+{
+"zh": "图片",
+"pinyin": "túpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "图",
+"pinyin": "tú",
+"vi": "",
+"known": true
+},
+{
+"zh": "片",
+"pinyin": "piàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "看着",
+"pinyin": "kànzhe",
+"vi": "",
+"known": true
+},
+{
+"zh": "雾",
+"pinyin": "wù",
+"vi": "",
+"known": true
+},
+{
+"zh": "霾",
+"pinyin": "mái",
+"vi": "",
+"known": true
+},
+{
+"zh": "实物",
+"pinyin": "shíwù",
+"vi": "",
+"known": true
+},
+{
+"zh": "物",
+"pinyin": "wù",
+"vi": "",
+"known": true
+},
+{
+"zh": "拍摄",
+"pinyin": "pāishè",
+"vi": "",
+"known": true
+},
+{
+"zh": "摄",
+"pinyin": "shè",
+"vi": "",
+"known": true
+},
+{
+"zh": "轻微",
+"pinyin": "qīngwēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "轻",
+"pinyin": "qīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "哦",
+"pinyin": "ó",
+"vi": "",
+"known": true
+},
+{
+"zh": "看看",
+"pinyin": "kànkàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "买家",
+"pinyin": "mǎijiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "秀",
+"pinyin": "xiù",
+"vi": "",
+"known": true
+},
+{
+"zh": "候",
+"pinyin": "hòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "货",
+"pinyin": "huò",
+"vi": "",
+"known": true
+},
+{
+"zh": "午",
+"pinyin": "wǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "当天",
+"pinyin": "dàngtiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "当",
+"pinyin": "dāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "默",
+"pinyin": "mò",
+"vi": "",
+"known": true
+},
+{
+"zh": "认",
+"pinyin": "rèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "中通",
+"pinyin": "zhōngtōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "宜",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "活动",
+"pinyin": "huódòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "价啦",
+"pinyin": "jiàla",
+"vi": "",
+"known": true
+},
+{
+"zh": "价",
+"pinyin": "jià",
+"vi": "",
+"known": true
+},
+{
+"zh": "店铺",
+"pinyin": "diànpù",
+"vi": "",
+"known": true
+},
+{
+"zh": "铺",
+"pinyin": "pù",
+"vi": "",
+"known": true
+},
+{
+"zh": "十块",
+"pinyin": "shíkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "尺码",
+"pinyin": "chǐmǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "尺",
+"pinyin": "chǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "偏小",
+"pinyin": "piānxiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "卖家",
+"pinyin": "màijiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "天气预报",
+"pinyin": "tiānqìyùbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "报",
+"pinyin": "bào",
+"vi": "",
+"known": true
+},
+{
+"zh": "带伞",
+"pinyin": "dàisǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "摸",
+"pinyin": "mō",
+"vi": "",
+"known": true
+},
+{
+"zh": "闻着",
+"pinyin": "wénzhe",
+"vi": "",
+"known": true
+},
+{
+"zh": "闻",
+"pinyin": "wén",
+"vi": "",
+"known": true
+},
+{
+"zh": "蓝色",
+"pinyin": "lánsè",
+"vi": "",
+"known": true
+},
+{
+"zh": "挺舒服",
+"pinyin": "tǐngshūfú",
+"vi": "",
+"known": true
+},
+{
+"zh": "舒",
+"pinyin": "shū",
+"vi": "",
+"known": true
+},
+{
+"zh": "种草",
+"pinyin": "zhòngcǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "草",
+"pinyin": "cǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "与",
+"pinyin": "yǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "防坑",
+"pinyin": "fángkēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "防",
+"pinyin": "fáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "坑",
+"pinyin": "kēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "剁",
+"pinyin": "duò",
+"vi": "",
+"known": true
+},
+{
+"zh": "双十",
+"pinyin": "shuāngshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "一快",
+"pinyin": "yīkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "先加购",
+"pinyin": "xiānjiāgòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "到时候",
+"pinyin": "dàoshíhòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "再付",
+"pinyin": "zàifù",
+"vi": "",
+"known": true
+},
+{
+"zh": "尾款",
+"pinyin": "wěikuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "尾",
+"pinyin": "wěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "耳",
+"pinyin": "ěr",
+"vi": "",
+"known": true
+},
+{
+"zh": "小红",
+"pinyin": "xiǎohóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "书上",
+"pinyin": "shūshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "博",
+"pinyin": "bó",
+"vi": "",
+"known": true
+},
+{
+"zh": "推荐",
+"pinyin": "tuījiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "推",
+"pinyin": "tuī",
+"vi": "",
+"known": true
+},
+{
+"zh": "荐",
+"pinyin": "jiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "割",
+"pinyin": "gē",
+"vi": "",
+"known": true
+},
+{
+"zh": "韭菜",
+"pinyin": "jiǔcài",
+"vi": "",
+"known": true
+},
+{
+"zh": "韭",
+"pinyin": "jiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "先看",
+"pinyin": "xiānkàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "别光",
+"pinyin": "biéguāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "光",
+"pinyin": "guāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "拼",
+"pinyin": "pīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "多多",
+"pinyin": "duōduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "一百",
+"pinyin": "yìbǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "假货",
+"pinyin": "jiǎhuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "贵有",
+"pinyin": "guìyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "京东",
+"pinyin": "jīngdōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "东",
+"pinyin": "dōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "营",
+"pinyin": "yíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "谱",
+"pinyin": "pǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "加购",
+"pinyin": "jiāgòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "购物车",
+"pinyin": "gòuwùchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "定金",
+"pinyin": "dìngjīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "拔草",
+"pinyin": "bácǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "拔",
+"pinyin": "bá",
+"vi": "",
+"known": true
+},
+{
+"zh": "刷单",
+"pinyin": "shuādān",
+"vi": "",
+"known": true
+},
+{
+"zh": "正品",
+"pinyin": "zhèngpǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "品",
+"pinyin": "pǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "砍",
+"pinyin": "kǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一刀",
+"pinyin": "yīdāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "刀",
+"pinyin": "dāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "一点点",
+"pinyin": "yìdiǎndiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "用户",
+"pinyin": "yònghù",
+"vi": "",
+"known": true
+},
+{
+"zh": "户",
+"pinyin": "hù",
+"vi": "",
+"known": true
+},
+{
+"zh": "一大截",
+"pinyin": "yīdàjié",
+"vi": "",
+"known": true
+},
+{
+"zh": "截",
+"pinyin": "jié",
+"vi": "",
+"known": true
+},
+{
+"zh": "咱俩",
+"pinyin": "zánliǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "单买",
+"pinyin": "dānmǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "两人",
+"pinyin": "liǎngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "成团",
+"pinyin": "chéngtuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "链",
+"pinyin": "liàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "拼单",
+"pinyin": "pīndān",
+"vi": "",
+"known": true
+},
+{
+"zh": "直播",
+"pinyin": "zhíbō",
+"vi": "",
+"known": true
+},
+{
+"zh": "播",
+"pinyin": "bō",
+"vi": "",
+"known": true
+},
+{
+"zh": "带货",
+"pinyin": "dàihuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "九十九",
+"pinyin": "jiǔshíjiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "限时",
+"pinyin": "xiànshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "真假",
+"pinyin": "zhēnjiǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "评价",
+"pinyin": "píngjià",
+"vi": "",
+"known": true
+},
+{
+"zh": "淘宝",
+"pinyin": "táobǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "淘",
+"pinyin": "táo",
+"vi": "",
+"known": true
+},
+{
+"zh": "宝",
+"pinyin": "bǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "优惠券",
+"pinyin": "yōuhuìquàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "优",
+"pinyin": "yōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "惠",
+"pinyin": "huì",
+"vi": "",
+"known": true
+},
+{
+"zh": "送个",
+"pinyin": "sònggè",
+"vi": "",
+"known": true
+},
+{
+"zh": "礼",
+"pinyin": "lǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "优先",
+"pinyin": "yōuxiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "有图",
+"pinyin": "yǒutú",
+"vi": "",
+"known": true
+},
+{
+"zh": "追评",
+"pinyin": "zhuīpíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "追",
+"pinyin": "zhuī",
+"vi": "",
+"known": true
+},
+{
+"zh": "递",
+"pinyin": "dì",
+"vi": "",
+"known": true
+},
+{
+"zh": "退换货",
+"pinyin": "tuìhuànhuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "再说",
+"pinyin": "zàishuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "驿",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "取件",
+"pinyin": "qǔjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "我取",
+"pinyin": "wǒqǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "三号",
+"pinyin": "sānhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "架",
+"pinyin": "jià",
+"vi": "",
+"known": true
+},
+{
+"zh": "第二层",
+"pinyin": "dìèrcéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "找到",
+"pinyin": "zhǎodào",
+"vi": "",
+"known": true
+},
+{
+"zh": "库",
+"pinyin": "kù",
+"vi": "",
+"known": true
+},
+{
+"zh": "显示",
+"pinyin": "xiǎnshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "显",
+"pinyin": "xiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "签收",
+"pinyin": "qiānshōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "签",
+"pinyin": "qiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "没收",
+"pinyin": "mòshōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "员放",
+"pinyin": "yuánfàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "打个",
+"pinyin": "dǎgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "问问",
+"pinyin": "wènwèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "七天",
+"pinyin": "qītiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "理由",
+"pinyin": "lǐyóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "由",
+"pinyin": "yóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "退货",
+"pinyin": "tuìhuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "码数",
+"pinyin": "mǎshù",
+"vi": "",
+"known": true
+},
+{
+"zh": "数",
+"pinyin": "shù",
+"vi": "",
+"known": true
+},
+{
+"zh": "支持",
+"pinyin": "zhīchí",
+"vi": "",
+"known": true
+},
+{
+"zh": "持",
+"pinyin": "chí",
+"vi": "",
+"known": true
+},
+{
+"zh": "吊",
+"pinyin": "diào",
+"vi": "",
+"known": true
+},
+{
+"zh": "没剪",
+"pinyin": "méijiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "剪",
+"pinyin": "jiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "订单",
+"pinyin": "dìngdān",
+"vi": "",
+"known": true
+},
+{
+"zh": "上门",
+"pinyin": "shàngmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "运费",
+"pinyin": "yùnfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "运",
+"pinyin": "yùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "险会",
+"pinyin": "xiǎnhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "险",
+"pinyin": "xiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "赔",
+"pinyin": "péi",
+"vi": "",
+"known": true
+},
+{
+"zh": "多久",
+"pinyin": "duōjiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "般",
+"pinyin": "bān",
+"vi": "",
+"known": true
+},
+{
+"zh": "一到",
+"pinyin": "yīdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "三天",
+"pinyin": "sāntiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "原",
+"pinyin": "yuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "退回",
+"pinyin": "tuìhuí",
+"vi": "",
+"known": true
+},
+{
+"zh": "清",
+"pinyin": "qīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "楚",
+"pinyin": "chǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "付件",
+"pinyin": "fùjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "个件",
+"pinyin": "gèjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "有人",
+"pinyin": "yǒurén",
+"vi": "",
+"known": true
+},
+{
+"zh": "给钱",
+"pinyin": "gěiqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "没选到",
+"pinyin": "méixuǎndào",
+"vi": "",
+"known": true
+},
+{
+"zh": "寄",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "联系",
+"pinyin": "liánxì",
+"vi": "",
+"known": true
+},
+{
+"zh": "联",
+"pinyin": "lián",
+"vi": "",
+"known": true
+},
+{
+"zh": "系",
+"pinyin": "xì",
+"vi": "",
+"known": true
+},
+{
+"zh": "先放",
+"pinyin": "xiānfàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "先别",
+"pinyin": "xiānbié",
+"vi": "",
+"known": true
+},
+{
+"zh": "菜鸟",
+"pinyin": "càiniǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "派送",
+"pinyin": "pàisòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "派",
+"pinyin": "pài",
+"vi": "",
+"known": true
+},
+{
+"zh": "物流",
+"pinyin": "wùliú",
+"vi": "",
+"known": true
+},
+{
+"zh": "流",
+"pinyin": "liú",
+"vi": "",
+"known": true
+},
+{
+"zh": "信息",
+"pinyin": "xìnxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "息",
+"pinyin": "xī",
+"vi": "",
+"known": true
+},
+{
+"zh": "仅",
+"pinyin": "jǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "拒",
+"pinyin": "jù",
+"vi": "",
+"known": true
+},
+{
+"zh": "质量",
+"pinyin": "zhìliàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "质",
+"pinyin": "zhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "量",
+"pinyin": "liàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "损",
+"pinyin": "sǔn",
+"vi": "",
+"known": true
+},
+{
+"zh": "开箱",
+"pinyin": "kāixiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "视",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "频",
+"pinyin": "pín",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃饭",
+"pinyin": "chīfàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "先报",
+"pinyin": "xiānbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "盒子",
+"pinyin": "hézi",
+"vi": "",
+"known": true
+},
+{
+"zh": "碎",
+"pinyin": "suì",
+"vi": "",
+"known": true
+},
+{
+"zh": "我要",
+"pinyin": "wǒyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "攻防",
+"pinyin": "gōngfáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "攻",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "验货",
+"pinyin": "yànhuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "平台",
+"pinyin": "píngtái",
+"vi": "",
+"known": true
+},
+{
+"zh": "平",
+"pinyin": "píng",
+"vi": "",
+"known": true
+},
+{
+"zh": "介入",
+"pinyin": "jièrù",
+"vi": "",
+"known": true
+},
+{
+"zh": "入",
+"pinyin": "rù",
+"vi": "",
+"known": true
+},
+{
+"zh": "找房",
+"pinyin": "zhǎofáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "房",
+"pinyin": "fáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "行不行",
+"pinyin": "xíngbùxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "折",
+"pinyin": "zhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "贝壳",
+"pinyin": "bèiké",
+"vi": "",
+"known": true
+},
+{
+"zh": "贝",
+"pinyin": "bèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "壳",
+"pinyin": "ké",
+"vi": "",
+"known": true
+},
+{
+"zh": "源",
+"pinyin": "yuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "望京",
+"pinyin": "wàngjīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "望",
+"pinyin": "wàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "那套",
+"pinyin": "nàtào",
+"vi": "",
+"known": true
+},
+{
+"zh": "套",
+"pinyin": "tào",
+"vi": "",
+"known": true
+},
+{
+"zh": "居室",
+"pinyin": "jūshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "精",
+"pinyin": "jīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "装",
+"pinyin": "zhuāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "南北",
+"pinyin": "nánběi",
+"vi": "",
+"known": true
+},
+{
+"zh": "通透",
+"pinyin": "tōngtòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "透",
+"pinyin": "tòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "地铁站",
+"pinyin": "dìtiězhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "铁",
+"pinyin": "tiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "五分钟",
+"pinyin": "wǔfēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "租",
+"pinyin": "zū",
+"vi": "",
+"known": true
+},
+{
+"zh": "五千",
+"pinyin": "wǔqiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "短租",
+"pinyin": "duǎnzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "半年",
+"pinyin": "bànnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "求",
+"pinyin": "qiú",
+"vi": "",
+"known": true
+},
+{
+"zh": "至少",
+"pinyin": "zhìshǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "至",
+"pinyin": "zhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "一年",
+"pinyin": "yīnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "押",
+"pinyin": "yā",
+"vi": "",
+"known": true
+},
+{
+"zh": "一付",
+"pinyin": "yīfù",
+"vi": "",
+"known": true
+},
+{
+"zh": "租金",
+"pinyin": "zūjīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "浮",
+"pinyin": "fú",
+"vi": "",
+"known": true
+},
+{
+"zh": "一点",
+"pinyin": "yìdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一个月",
+"pinyin": "yígèyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "房租",
+"pinyin": "fángzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "不过",
+"pinyin": "bùguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "周六",
+"pinyin": "zhōuliù",
+"vi": "",
+"known": true
+},
+{
+"zh": "链家",
+"pinyin": "liànjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "自如",
+"pinyin": "zìrú",
+"vi": "",
+"known": true
+},
+{
+"zh": "如",
+"pinyin": "rú",
+"vi": "",
+"known": true
+},
+{
+"zh": "两室",
+"pinyin": "liǎngshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "一厅",
+"pinyin": "yītīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "整租",
+"pinyin": "zhěngzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "整",
+"pinyin": "zhěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "合租",
+"pinyin": "hézū",
+"vi": "",
+"known": true
+},
+{
+"zh": "朝南",
+"pinyin": "cháonán",
+"vi": "",
+"known": true
+},
+{
+"zh": "朝",
+"pinyin": "cháo",
+"vi": "",
+"known": true
+},
+{
+"zh": "坐地铁",
+"pinyin": "zuòdìtiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "司",
+"pinyin": "sī",
+"vi": "",
+"known": true
+},
+{
+"zh": "多远",
+"pinyin": "duōyuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一次",
+"pinyin": "yīcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "这套",
+"pinyin": "zhètào",
+"vi": "",
+"known": true
+},
+{
+"zh": "采",
+"pinyin": "cǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "卧室",
+"pinyin": "wòshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "卧",
+"pinyin": "wò",
+"vi": "",
+"known": true
+},
+{
+"zh": "朝北",
+"pinyin": "cháoběi",
+"vi": "",
+"known": true
+},
+{
+"zh": "扇",
+"pinyin": "shàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "不潮",
+"pinyin": "bùcháo",
+"vi": "",
+"known": true
+},
+{
+"zh": "潮",
+"pinyin": "cháo",
+"vi": "",
+"known": true
+},
+{
+"zh": "器",
+"pinyin": "qì",
+"vi": "",
+"known": true
+},
+{
+"zh": "燃",
+"pinyin": "rán",
+"vi": "",
+"known": true
+},
+{
+"zh": "负",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "责",
+"pinyin": "zé",
+"vi": "",
+"known": true
+},
+{
+"zh": "水电",
+"pinyin": "shuǐdiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "含",
+"pinyin": "hán",
+"vi": "",
+"known": true
+},
+{
+"zh": "按表",
+"pinyin": "ànbiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "表",
+"pinyin": "biǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "暖",
+"pinyin": "nuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "墙角",
+"pinyin": "qiángjiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "角",
+"pinyin": "jiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "这块",
+"pinyin": "zhèkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "发霉",
+"pinyin": "fāméi",
+"vi": "",
+"known": true
+},
+{
+"zh": "霉",
+"pinyin": "méi",
+"vi": "",
+"known": true
+},
+{
+"zh": "签约",
+"pinyin": "qiānyuē",
+"vi": "",
+"known": true
+},
+{
+"zh": "前能",
+"pinyin": "qiánnéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "处理",
+"pinyin": "chǔlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "处",
+"pinyin": "chù",
+"vi": "",
+"known": true
+},
+{
+"zh": "长租",
+"pinyin": "zhǎngzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "客厅",
+"pinyin": "kètīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "砍价",
+"pinyin": "kǎnjià",
+"vi": "",
+"known": true
+},
+{
+"zh": "估计",
+"pinyin": "gūjì",
+"vi": "",
+"known": true
+},
+{
+"zh": "估",
+"pinyin": "gū",
+"vi": "",
+"known": true
+},
+{
+"zh": "二能",
+"pinyin": "èrnéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "说行",
+"pinyin": "shuōxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "八折",
+"pinyin": "bāzhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "还给",
+"pinyin": "huángěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "绍",
+"pinyin": "shào",
+"vi": "",
+"known": true
+},
+{
+"zh": "朋",
+"pinyin": "péng",
+"vi": "",
+"known": true
+},
+{
+"zh": "九折",
+"pinyin": "jiǔzhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "两百",
+"pinyin": "liǎngbǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "第一次",
+"pinyin": "dìyīcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "要交",
+"pinyin": "yàojiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "前要",
+"pinyin": "qiányào",
+"vi": "",
+"known": true
+},
+{
+"zh": "六千块",
+"pinyin": "liùqiānkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "找茬",
+"pinyin": "zhǎochá",
+"vi": "",
+"known": true
+},
+{
+"zh": "茬",
+"pinyin": "chá",
+"vi": "",
+"known": true
+},
+{
+"zh": "大师",
+"pinyin": "dàshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "房产证",
+"pinyin": "fángchǎnzhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "产",
+"pinyin": "chǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "两年",
+"pinyin": "liǎngnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "入住",
+"pinyin": "rùzhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "合同",
+"pinyin": "hétóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "期",
+"pinyin": "qī",
+"vi": "",
+"known": true
+},
+{
+"zh": "三个",
+"pinyin": "sāngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "情",
+"pinyin": "qíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "况",
+"pinyin": "kuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "下不退",
+"pinyin": "xiàbùtuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "提前",
+"pinyin": "tíqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "退租",
+"pinyin": "tuìzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "正常",
+"pinyin": "zhèngcháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "到期",
+"pinyin": "dàoqī",
+"vi": "",
+"known": true
+},
+{
+"zh": "损坏",
+"pinyin": "sǔnhuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "全额",
+"pinyin": "quáné",
+"vi": "",
+"known": true
+},
+{
+"zh": "退还",
+"pinyin": "tuìhuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "中途",
+"pinyin": "zhōngtú",
+"vi": "",
+"known": true
+},
+{
+"zh": "途",
+"pinyin": "tú",
+"vi": "",
+"known": true
+},
+{
+"zh": "回国",
+"pinyin": "huíguó",
+"vi": "",
+"known": true
+},
+{
+"zh": "家具",
+"pinyin": "jiājù",
+"vi": "",
+"known": true
+},
+{
+"zh": "具",
+"pinyin": "jù",
+"vi": "",
+"known": true
+},
+{
+"zh": "家电",
+"pinyin": "jiādiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "附",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "几张",
+"pinyin": "jǐzhāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "存个",
+"pinyin": "cúngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "存",
+"pinyin": "cún",
+"vi": "",
+"known": true
+},
+{
+"zh": "另外",
+"pinyin": "lìngwài",
+"vi": "",
+"known": true
+},
+{
+"zh": "另",
+"pinyin": "lìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "外国人",
+"pinyin": "wàiguórén",
+"vi": "",
+"known": true
+},
+{
+"zh": "内要",
+"pinyin": "nèiyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "住宿",
+"pinyin": "zhùsù",
+"vi": "",
+"known": true
+},
+{
+"zh": "登记",
+"pinyin": "dēngjì",
+"vi": "",
+"known": true
+},
+{
+"zh": "登",
+"pinyin": "dēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "违",
+"pinyin": "wéi",
+"vi": "",
+"known": true
+},
+{
+"zh": "续租",
+"pinyin": "xùzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "续",
+"pinyin": "xù",
+"vi": "",
+"known": true
+},
+{
+"zh": "所",
+"pinyin": "suǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "时快时慢",
+"pinyin": "shíkuàishímàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "时冷时热",
+"pinyin": "shílěngshírè",
+"vi": "",
+"known": true
+},
+{
+"zh": "时有时无",
+"pinyin": "shíyǒushíwú",
+"vi": "",
+"known": true
+},
+{
+"zh": "网速",
+"pinyin": "wǎngsù",
+"vi": "",
+"known": true
+},
+{
+"zh": "必",
+"pinyin": "bì",
+"vi": "",
+"known": true
+},
+{
+"zh": "须",
+"pinyin": "xū",
+"vi": "",
+"known": true
+},
+{
+"zh": "姐",
+"pinyin": "jiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "堵",
+"pinyin": "dǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "漫",
+"pinyin": "màn",
+"vi": "",
+"known": true
+},
+{
+"zh": "哎呀",
+"pinyin": "āiyā",
+"vi": "",
+"known": true
+},
+{
+"zh": "哎",
+"pinyin": "āi",
+"vi": "",
+"known": true
+},
+{
+"zh": "呀",
+"pinyin": "ya",
+"vi": "",
+"known": true
+},
+{
+"zh": "找个",
+"pinyin": "zhǎogè",
+"vi": "",
+"known": true
+},
+{
+"zh": "在家",
+"pinyin": "zàijiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "十点",
+"pinyin": "shídiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "人为",
+"pinyin": "rénwéi",
+"vi": "",
+"known": true
+},
+{
+"zh": "出钱",
+"pinyin": "chūqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "肯定",
+"pinyin": "kěndìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "肯",
+"pinyin": "kěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "不是",
+"pinyin": "búshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "维修",
+"pinyin": "wéixiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "缴",
+"pinyin": "jiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "我家",
+"pinyin": "wǒjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "停电",
+"pinyin": "tíngdiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "停",
+"pinyin": "tíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "是不是",
+"pinyin": "shìbúshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "电费",
+"pinyin": "diànfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "电表",
+"pinyin": "diànbiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "国家电网",
+"pinyin": "guójiādiànwǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "上交",
+"pinyin": "shàngjiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "支付宝",
+"pinyin": "zhīfùbǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "插卡",
+"pinyin": "chākǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "插",
+"pinyin": "chā",
+"vi": "",
+"known": true
+},
+{
+"zh": "充",
+"pinyin": "chōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "值",
+"pinyin": "zhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "垃圾",
+"pinyin": "lājī",
+"vi": "",
+"known": true
+},
+{
+"zh": "垃",
+"pinyin": "lā",
+"vi": "",
+"known": true
+},
+{
+"zh": "圾",
+"pinyin": "jī",
+"vi": "",
+"known": true
+},
+{
+"zh": "分类",
+"pinyin": "fēnlèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "类",
+"pinyin": "lèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "厨余",
+"pinyin": "chúyú",
+"vi": "",
+"known": true
+},
+{
+"zh": "厨",
+"pinyin": "chú",
+"vi": "",
+"known": true
+},
+{
+"zh": "放绿桶",
+"pinyin": "fànglǜtǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "桶",
+"pinyin": "tǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "停水",
+"pinyin": "tíngshuǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "水表",
+"pinyin": "shuǐbiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "可回收",
+"pinyin": "kěhuíshōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "下个月",
+"pinyin": "xiàgèyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "附在",
+"pinyin": "fùzài",
+"vi": "",
+"known": true
+},
+{
+"zh": "找坑",
+"pinyin": "zhǎokēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "接力",
+"pinyin": "jiēlì",
+"vi": "",
+"known": true
+},
+{
+"zh": "力",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "移民局",
+"pinyin": "yímínjú",
+"vi": "",
+"known": true
+},
+{
+"zh": "移",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "民",
+"pinyin": "mín",
+"vi": "",
+"known": true
+},
+{
+"zh": "确认",
+"pinyin": "quèrèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "确",
+"pinyin": "què",
+"vi": "",
+"known": true
+},
+{
+"zh": "维修费",
+"pinyin": "wéixiūfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "验房",
+"pinyin": "yànfáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "骑行",
+"pinyin": "qíxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "快点儿",
+"pinyin": "kuàidiǎnér",
+"vi": "",
+"known": true
+},
+{
+"zh": "不然",
+"pinyin": "bùrán",
+"vi": "",
+"known": true
+},
+{
+"zh": "然",
+"pinyin": "rán",
+"vi": "",
+"known": true
+},
+{
+"zh": "叫车",
+"pinyin": "jiàochē",
+"vi": "",
+"known": true
+},
+{
+"zh": "起点",
+"pinyin": "qǐdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "南门",
+"pinyin": "nánmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "终点",
+"pinyin": "zhōngdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "终",
+"pinyin": "zhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "首都机场",
+"pinyin": "shǒudūjīchǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "快车",
+"pinyin": "kuàichē",
+"vi": "",
+"known": true
+},
+{
+"zh": "特惠",
+"pinyin": "tèhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "叫个",
+"pinyin": "jiàogè",
+"vi": "",
+"known": true
+},
+{
+"zh": "六座",
+"pinyin": "liùzuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "比亚迪",
+"pinyin": "bǐyàdí",
+"vi": "",
+"known": true
+},
+{
+"zh": "亚",
+"pinyin": "yà",
+"vi": "",
+"known": true
+},
+{
+"zh": "迪",
+"pinyin": "dí",
+"vi": "",
+"known": true
+},
+{
+"zh": "对面",
+"pinyin": "duìmiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "红衣服",
+"pinyin": "hóngyīfú",
+"vi": "",
+"known": true
+},
+{
+"zh": "掉",
+"pinyin": "diào",
+"vi": "",
+"known": true
+},
+{
+"zh": "个头",
+"pinyin": "gètóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "不让",
+"pinyin": "bùràng",
+"vi": "",
+"known": true
+},
+{
+"zh": "滴滴",
+"pinyin": "dīdī",
+"vi": "",
+"known": true
+},
+{
+"zh": "滴",
+"pinyin": "dī",
+"vi": "",
+"known": true
+},
+{
+"zh": "高德",
+"pinyin": "gāodé",
+"vi": "",
+"known": true
+},
+{
+"zh": "德",
+"pinyin": "dé",
+"vi": "",
+"known": true
+},
+{
+"zh": "专车",
+"pinyin": "zhuānchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "拼车",
+"pinyin": "pīnchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "车上",
+"pinyin": "chēshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "高速",
+"pinyin": "gāosù",
+"vi": "",
+"known": true
+},
+{
+"zh": "这会儿",
+"pinyin": "zhèhuìer",
+"vi": "",
+"known": true
+},
+{
+"zh": "辅",
+"pinyin": "fǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "小点儿",
+"pinyin": "xiǎodiǎnér",
+"vi": "",
+"known": true
+},
+{
+"zh": "慢点儿",
+"pinyin": "màndiǎnér",
+"vi": "",
+"known": true
+},
+{
+"zh": "别落",
+"pinyin": "biéluò",
+"vi": "",
+"known": true
+},
+{
+"zh": "堵车",
+"pinyin": "dǔchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "绕",
+"pinyin": "rào",
+"vi": "",
+"known": true
+},
+{
+"zh": "导",
+"pinyin": "dǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "航",
+"pinyin": "háng",
+"vi": "",
+"known": true
+},
+{
+"zh": "改",
+"pinyin": "gǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "目的地",
+"pinyin": "mùdìdì",
+"vi": "",
+"known": true
+},
+{
+"zh": "目",
+"pinyin": "mù",
+"vi": "",
+"known": true
+},
+{
+"zh": "别着急",
+"pinyin": "biézháojí",
+"vi": "",
+"known": true
+},
+{
+"zh": "别哭",
+"pinyin": "biékū",
+"vi": "",
+"known": true
+},
+{
+"zh": "千万",
+"pinyin": "qiānwàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "别忘了",
+"pinyin": "biéwàngle",
+"vi": "",
+"known": true
+},
+{
+"zh": "糟",
+"pinyin": "zāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "充电",
+"pinyin": "chōngdiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "宝落",
+"pinyin": "bǎoluò",
+"vi": "",
+"known": true
+},
+{
+"zh": "慌",
+"pinyin": "huāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "虚拟",
+"pinyin": "xūnǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "虚",
+"pinyin": "xū",
+"vi": "",
+"known": true
+},
+{
+"zh": "拟",
+"pinyin": "nǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "没人接",
+"pinyin": "méirénjiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "那点",
+"pinyin": "nàdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "物品",
+"pinyin": "wùpǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "遗失",
+"pinyin": "yíshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "遗",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "跑腿",
+"pinyin": "pǎotuǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "扫个",
+"pinyin": "sǎogè",
+"vi": "",
+"known": true
+},
+{
+"zh": "共享",
+"pinyin": "gòngxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "享",
+"pinyin": "xiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "单车",
+"pinyin": "dānchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "公里",
+"pinyin": "gōnglǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "规定",
+"pinyin": "guīdìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "规",
+"pinyin": "guī",
+"vi": "",
+"known": true
+},
+{
+"zh": "区域",
+"pinyin": "qūyù",
+"vi": "",
+"known": true
+},
+{
+"zh": "域",
+"pinyin": "yù",
+"vi": "",
+"known": true
+},
+{
+"zh": "要收",
+"pinyin": "yàoshōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "调度",
+"pinyin": "diàodù",
+"vi": "",
+"known": true
+},
+{
+"zh": "分享",
+"pinyin": "fēnxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "取消",
+"pinyin": "qǔxiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "实名",
+"pinyin": "shímíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "认证",
+"pinyin": "rènzhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "开锁",
+"pinyin": "kāisuǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "锁",
+"pinyin": "suǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "还车",
+"pinyin": "háichē",
+"vi": "",
+"known": true
+},
+{
+"zh": "送到",
+"pinyin": "sòngdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "要不然",
+"pinyin": "yàobùrán",
+"vi": "",
+"known": true
+},
+{
+"zh": "否则",
+"pinyin": "fǒuzé",
+"vi": "",
+"known": true
+},
+{
+"zh": "否",
+"pinyin": "fǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "则",
+"pinyin": "zé",
+"vi": "",
+"known": true
+},
+{
+"zh": "高峰",
+"pinyin": "gāofēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "峰",
+"pinyin": "fēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "三环",
+"pinyin": "sānhuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "环",
+"pinyin": "huán",
+"vi": "",
+"known": true
+},
+{
+"zh": "厉害",
+"pinyin": "lìhài",
+"vi": "",
+"known": true
+},
+{
+"zh": "厉",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "害",
+"pinyin": "hài",
+"vi": "",
+"known": true
+},
+{
+"zh": "接头",
+"pinyin": "jiētóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "暗号",
+"pinyin": "ànhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "暗",
+"pinyin": "àn",
+"vi": "",
+"known": true
+},
+{
+"zh": "乘客",
+"pinyin": "chéngkè",
+"vi": "",
+"known": true
+},
+{
+"zh": "乘",
+"pinyin": "chéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "侃大山",
+"pinyin": "kǎndàshān",
+"vi": "",
+"known": true
+},
+{
+"zh": "侃",
+"pinyin": "kǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "天安门",
+"pinyin": "tiānānmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "安",
+"pinyin": "ān",
+"vi": "",
+"known": true
+},
+{
+"zh": "东坐",
+"pinyin": "dōngzuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "几号",
+"pinyin": "jǐhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "线",
+"pinyin": "xiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "十号",
+"pinyin": "shíhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "线到",
+"pinyin": "xiàndào",
+"vi": "",
+"known": true
+},
+{
+"zh": "国贸",
+"pinyin": "guómào",
+"vi": "",
+"known": true
+},
+{
+"zh": "一号线",
+"pinyin": "yīhàoxiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "坐四站",
+"pinyin": "zuòsìzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "搜",
+"pinyin": "sōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "乘车",
+"pinyin": "chéngchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "进站",
+"pinyin": "jìnzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "人多",
+"pinyin": "rénduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "早晚",
+"pinyin": "zǎowǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "挤得",
+"pinyin": "jǐdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "就行了",
+"pinyin": "jiùxíngle",
+"vi": "",
+"known": true
+},
+{
+"zh": "先坐",
+"pinyin": "xiānzuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "就别",
+"pinyin": "jiùbié",
+"vi": "",
+"known": true
+},
+{
+"zh": "坐飞机",
+"pinyin": "zuòfēijī",
+"vi": "",
+"known": true
+},
+{
+"zh": "极了",
+"pinyin": "jíle",
+"vi": "",
+"known": true
+},
+{
+"zh": "困得",
+"pinyin": "kùndé",
+"vi": "",
+"known": true
+},
+{
+"zh": "困",
+"pinyin": "kùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "饿得",
+"pinyin": "èdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "很挤",
+"pinyin": "hěnjǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "二等",
+"pinyin": "èrděng",
+"vi": "",
+"known": true
+},
+{
+"zh": "座全",
+"pinyin": "zuòquán",
+"vi": "",
+"known": true
+},
+{
+"zh": "一等",
+"pinyin": "yīděng",
+"vi": "",
+"known": true
+},
+{
+"zh": "先买",
+"pinyin": "xiānmǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "上车",
+"pinyin": "shàngchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "通知",
+"pinyin": "tōngzhī",
+"vi": "",
+"known": true
+},
+{
+"zh": "知",
+"pinyin": "zhī",
+"vi": "",
+"known": true
+},
+{
+"zh": "要是",
+"pinyin": "yàoshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "临时",
+"pinyin": "línshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "临",
+"pinyin": "lín",
+"vi": "",
+"known": true
+},
+{
+"zh": "有事",
+"pinyin": "yǒushì",
+"vi": "",
+"known": true
+},
+{
+"zh": "越晚",
+"pinyin": "yuèwǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "收得",
+"pinyin": "shōudé",
+"vi": "",
+"known": true
+},
+{
+"zh": "越高",
+"pinyin": "yuègāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "厢",
+"pinyin": "xiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "检",
+"pinyin": "jiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "停止",
+"pinyin": "tíngzhǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "止",
+"pinyin": "zhǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "抓",
+"pinyin": "zhuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "紧",
+"pinyin": "jǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "座位",
+"pinyin": "zuòwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "坐错",
+"pinyin": "zuòcuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "各位",
+"pinyin": "gèwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "旅客",
+"pinyin": "lǚkè",
+"vi": "",
+"known": true
+},
+{
+"zh": "旅",
+"pinyin": "lǚ",
+"vi": "",
+"known": true
+},
+{
+"zh": "本次",
+"pinyin": "běncì",
+"vi": "",
+"known": true
+},
+{
+"zh": "列车",
+"pinyin": "lièchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "列",
+"pinyin": "liè",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十分钟",
+"pinyin": "èrshífēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "谅",
+"pinyin": "liàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "解",
+"pinyin": "jiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "出站",
+"pinyin": "chūzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "动车",
+"pinyin": "dòngchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "商务",
+"pinyin": "shāngwù",
+"vi": "",
+"known": true
+},
+{
+"zh": "闸",
+"pinyin": "zhá",
+"vi": "",
+"known": true
+},
+{
+"zh": "坐过",
+"pinyin": "zuòguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "静音",
+"pinyin": "jìngyīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "静",
+"pinyin": "jìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "音",
+"pinyin": "yīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "竞速",
+"pinyin": "jìngsù",
+"vi": "",
+"known": true
+},
+{
+"zh": "竞",
+"pinyin": "jìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "抢票",
+"pinyin": "qiǎngpiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "作战",
+"pinyin": "zuòzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "补长",
+"pinyin": "bǔzhǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "改坐",
+"pinyin": "gǎizuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "春运",
+"pinyin": "chūnyùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "爱心",
+"pinyin": "àixīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "专座",
+"pinyin": "zhuānzuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "攻略",
+"pinyin": "gōnglüè",
+"vi": "",
+"known": true
+},
+{
+"zh": "略",
+"pinyin": "lüè",
+"vi": "",
+"known": true
+},
+{
+"zh": "就要",
+"pinyin": "jiùyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "换个",
+"pinyin": "huàngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "除",
+"pinyin": "chú",
+"vi": "",
+"known": true
+},
+{
+"zh": "国庆",
+"pinyin": "guóqìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "庆",
+"pinyin": "qìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "成都",
+"pinyin": "chéngdū",
+"vi": "",
+"known": true
+},
+{
+"zh": "先上",
+"pinyin": "xiānshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "两晚",
+"pinyin": "liǎngwǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "基地",
+"pinyin": "jīdì",
+"vi": "",
+"known": true
+},
+{
+"zh": "官方",
+"pinyin": "guānfāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "官",
+"pinyin": "guān",
+"vi": "",
+"known": true
+},
+{
+"zh": "春熙路",
+"pinyin": "chūnxīlù",
+"vi": "",
+"known": true
+},
+{
+"zh": "熙",
+"pinyin": "xī",
+"vi": "",
+"known": true
+},
+{
+"zh": "太古",
+"pinyin": "tàigǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "古",
+"pinyin": "gǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "出行",
+"pinyin": "chūxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "网红",
+"pinyin": "wǎnghóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "景",
+"pinyin": "jǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一周",
+"pinyin": "yīzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "别去",
+"pinyin": "biéqù",
+"vi": "",
+"known": true
+},
+{
+"zh": "热门",
+"pinyin": "rèmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "办理",
+"pinyin": "bànlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "携程",
+"pinyin": "xiéchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "携",
+"pinyin": "xié",
+"vi": "",
+"known": true
+},
+{
+"zh": "上订",
+"pinyin": "shàngdìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "大床",
+"pinyin": "dàchuáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "护",
+"pinyin": "hù",
+"vi": "",
+"known": true
+},
+{
+"zh": "早餐",
+"pinyin": "zǎocān",
+"vi": "",
+"known": true
+},
+{
+"zh": "二楼",
+"pinyin": "èrlóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "航班",
+"pinyin": "hángbān",
+"vi": "",
+"known": true
+},
+{
+"zh": "延迟",
+"pinyin": "yánchí",
+"vi": "",
+"known": true
+},
+{
+"zh": "延",
+"pinyin": "yán",
+"vi": "",
+"known": true
+},
+{
+"zh": "迟",
+"pinyin": "chí",
+"vi": "",
+"known": true
+},
+{
+"zh": "两点",
+"pinyin": "liǎngdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "再晚",
+"pinyin": "zàiwǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "房费",
+"pinyin": "fángfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "别靠",
+"pinyin": "biékào",
+"vi": "",
+"known": true
+},
+{
+"zh": "飞猪",
+"pinyin": "fēizhū",
+"vi": "",
+"known": true
+},
+{
+"zh": "猪",
+"pinyin": "zhū",
+"vi": "",
+"known": true
+},
+{
+"zh": "双床",
+"pinyin": "shuāngchuáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "两张",
+"pinyin": "liǎngzhāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "成人",
+"pinyin": "chéngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "学生证",
+"pinyin": "xuéshēngzhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "打折",
+"pinyin": "dǎzhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "学生票",
+"pinyin": "xuéshēngpiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "传",
+"pinyin": "chuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "收费",
+"pinyin": "shōufèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "人工",
+"pinyin": "réngōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一场",
+"pinyin": "yīcháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "电子",
+"pinyin": "diànzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "导览",
+"pinyin": "dǎolǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "览",
+"pinyin": "lǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十块",
+"pinyin": "èrshíkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "那租",
+"pinyin": "nàzū",
+"vi": "",
+"known": true
+},
+{
+"zh": "展厅",
+"pinyin": "zhǎntīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "展",
+"pinyin": "zhǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "禁",
+"pinyin": "jìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "闪",
+"pinyin": "shǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "自由",
+"pinyin": "zìyóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "团游",
+"pinyin": "tuányóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "特种兵",
+"pinyin": "tèzhǒngbīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "兵",
+"pinyin": "bīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "值得",
+"pinyin": "zhíde",
+"vi": "",
+"known": true
+},
+{
+"zh": "去过",
+"pinyin": "qùguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "之前",
+"pinyin": "zhīqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "之",
+"pinyin": "zhī",
+"vi": "",
+"known": true
+},
+{
+"zh": "很多",
+"pinyin": "hěnduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "年轻人",
+"pinyin": "niánqīngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "旅行社",
+"pinyin": "lǚxíngshè",
+"vi": "",
+"known": true
+},
+{
+"zh": "社",
+"pinyin": "shè",
+"vi": "",
+"known": true
+},
+{
+"zh": "急救",
+"pinyin": "jíjiù",
+"vi": "",
+"known": true
+},
+{
+"zh": "隔壁",
+"pinyin": "gébì",
+"vi": "",
+"known": true
+},
+{
+"zh": "隔",
+"pinyin": "gé",
+"vi": "",
+"known": true
+},
+{
+"zh": "壁",
+"pinyin": "bì",
+"vi": "",
+"known": true
+},
+{
+"zh": "吵",
+"pinyin": "chǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "能换",
+"pinyin": "nénghuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一间",
+"pinyin": "yījiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "黄金周",
+"pinyin": "huángjīnzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "旅途",
+"pinyin": "lǚtú",
+"vi": "",
+"known": true
+},
+{
+"zh": "意外",
+"pinyin": "yìwài",
+"vi": "",
+"known": true
+},
+{
+"zh": "问路",
+"pinyin": "wènlù",
+"vi": "",
+"known": true
+},
+{
+"zh": "打扰",
+"pinyin": "dǎrǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "扰",
+"pinyin": "rǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "晕",
+"pinyin": "yūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "往前",
+"pinyin": "wǎngqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "直走",
+"pinyin": "zhízǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "第二个",
+"pinyin": "dìèrgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "右拐",
+"pinyin": "yòuguǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "拐",
+"pinyin": "guǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "麦当劳",
+"pinyin": "màidāngláo",
+"vi": "",
+"known": true
+},
+{
+"zh": "麦",
+"pinyin": "mài",
+"vi": "",
+"known": true
+},
+{
+"zh": "劳",
+"pinyin": "láo",
+"vi": "",
+"known": true
+},
+{
+"zh": "再往",
+"pinyin": "zàiwǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一百米",
+"pinyin": "yìbǎimǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "不远",
+"pinyin": "bùyuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "七八分钟",
+"pinyin": "qībāfēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "正好",
+"pinyin": "zhènghǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "顺",
+"pinyin": "shùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "感谢",
+"pinyin": "gǎnxiè",
+"vi": "",
+"known": true
+},
+{
+"zh": "感",
+"pinyin": "gǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "左拐",
+"pinyin": "zuǒguǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "迷",
+"pinyin": "mí",
+"vi": "",
+"known": true
+},
+{
+"zh": "钱包",
+"pinyin": "qiánbāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "宰",
+"pinyin": "zǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "往里",
+"pinyin": "wǎnglǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "往右",
+"pinyin": "wǎngyòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "警",
+"pinyin": "jǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "挂",
+"pinyin": "guà",
+"vi": "",
+"known": true
+},
+{
+"zh": "警察",
+"pinyin": "jǐngchá",
+"vi": "",
+"known": true
+},
+{
+"zh": "察",
+"pinyin": "chá",
+"vi": "",
+"known": true
+},
+{
+"zh": "同志",
+"pinyin": "tóngzhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "志",
+"pinyin": "zhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "银行卡",
+"pinyin": "yínhángkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "银",
+"pinyin": "yín",
+"vi": "",
+"known": true
+},
+{
+"zh": "步行街",
+"pinyin": "bùxíngjiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "笔录",
+"pinyin": "bǐlù",
+"vi": "",
+"known": true
+},
+{
+"zh": "录",
+"pinyin": "lù",
+"vi": "",
+"known": true
+},
+{
+"zh": "赶紧",
+"pinyin": "gǎnjǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "报失",
+"pinyin": "bàoshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "证明",
+"pinyin": "zhèngmíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "大使馆",
+"pinyin": "dàshǐguǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "使",
+"pinyin": "shǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "监",
+"pinyin": "jiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "控",
+"pinyin": "kòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "会调",
+"pinyin": "huìdiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "消息",
+"pinyin": "xiāoxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "领事馆",
+"pinyin": "lǐngshìguǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "八十",
+"pinyin": "bāshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "一两",
+"pinyin": "yīliǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "四两",
+"pinyin": "sìliǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "当时",
+"pinyin": "dāngshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "两算",
+"pinyin": "liǎngsuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "那算",
+"pinyin": "nàsuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "投",
+"pinyin": "tóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "诉",
+"pinyin": "sù",
+"vi": "",
+"known": true
+},
+{
+"zh": "助",
+"pinyin": "zhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "没电",
+"pinyin": "méidiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "老城区",
+"pinyin": "lǎochéngqū",
+"vi": "",
+"known": true
+},
+{
+"zh": "先给",
+"pinyin": "xiāngěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "没说",
+"pinyin": "méishuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "期中",
+"pinyin": "qīzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "口试",
+"pinyin": "kǒushì",
+"vi": "",
+"known": true
+},
+{
+"zh": "热心",
+"pinyin": "rèxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "群众",
+"pinyin": "qúnzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "警官",
+"pinyin": "jǐngguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "特征",
+"pinyin": "tèzhēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "征",
+"pinyin": "zhēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "院",
+"pinyin": "yuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "始",
+"pinyin": "shǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一天",
+"pinyin": "yītiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "粒",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "自助",
+"pinyin": "zìzhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "机上",
+"pinyin": "jīshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "档",
+"pinyin": "dàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "呼吸",
+"pinyin": "hūxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "呼",
+"pinyin": "hū",
+"vi": "",
+"known": true
+},
+{
+"zh": "吸",
+"pinyin": "xī",
+"vi": "",
+"known": true
+},
+{
+"zh": "内科",
+"pinyin": "nèikē",
+"vi": "",
+"known": true
+},
+{
+"zh": "科",
+"pinyin": "kē",
+"vi": "",
+"known": true
+},
+{
+"zh": "普通",
+"pinyin": "pǔtōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "普",
+"pinyin": "pǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "专家",
+"pinyin": "zhuānjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "两个",
+"pinyin": "liǎnggè",
+"vi": "",
+"known": true
+},
+{
+"zh": "诊",
+"pinyin": "zhěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "导诊",
+"pinyin": "dǎozhěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "外科",
+"pinyin": "wàikē",
+"vi": "",
+"known": true
+},
+{
+"zh": "周一",
+"pinyin": "zhōuyī",
+"vi": "",
+"known": true
+},
+{
+"zh": "最高",
+"pinyin": "zuìgāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "三十八",
+"pinyin": "sānshíbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "咽",
+"pinyin": "yàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "咳嗽",
+"pinyin": "késòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "咳",
+"pinyin": "ké",
+"vi": "",
+"known": true
+},
+{
+"zh": "嗽",
+"pinyin": "sòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "痰",
+"pinyin": "tán",
+"vi": "",
+"known": true
+},
+{
+"zh": "药物",
+"pinyin": "yàowù",
+"vi": "",
+"known": true
+},
+{
+"zh": "史",
+"pinyin": "shǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "青",
+"pinyin": "qīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "素",
+"pinyin": "sù",
+"vi": "",
+"known": true
+},
+{
+"zh": "我记",
+"pinyin": "wǒjì",
+"vi": "",
+"known": true
+},
+{
+"zh": "先去",
+"pinyin": "xiānqù",
+"vi": "",
+"known": true
+},
+{
+"zh": "验个",
+"pinyin": "yàngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "血",
+"pinyin": "xuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "拍个",
+"pinyin": "pāigè",
+"vi": "",
+"known": true
+},
+{
+"zh": "胸片",
+"pinyin": "xiōngpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "胸",
+"pinyin": "xiōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "验血",
+"pinyin": "yànxuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "腹",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "抽血",
+"pinyin": "chōuxuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "抽",
+"pinyin": "chōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "拍片",
+"pinyin": "pāipiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "昨天晚上",
+"pinyin": "zuótiānwǎnshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "昨",
+"pinyin": "zuó",
+"vi": "",
+"known": true
+},
+{
+"zh": "拉",
+"pinyin": "lā",
+"vi": "",
+"known": true
+},
+{
+"zh": "起来",
+"pinyin": "qǐlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "疼得",
+"pinyin": "téngdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "睡不着",
+"pinyin": "shuìbùzhe",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃不下",
+"pinyin": "chībùxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "咳得",
+"pinyin": "kédé",
+"vi": "",
+"known": true
+},
+{
+"zh": "袋",
+"pinyin": "dài",
+"vi": "",
+"known": true
+},
+{
+"zh": "毫升",
+"pinyin": "háoshēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "毫",
+"pinyin": "háo",
+"vi": "",
+"known": true
+},
+{
+"zh": "升",
+"pinyin": "shēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "饭前",
+"pinyin": "fànqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "饭后",
+"pinyin": "fànhòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "睡前",
+"pinyin": "shuìqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "连",
+"pinyin": "lián",
+"vi": "",
+"known": true
+},
+{
+"zh": "五天",
+"pinyin": "wǔtiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "三次",
+"pinyin": "sāncì",
+"vi": "",
+"known": true
+},
+{
+"zh": "两粒",
+"pinyin": "liǎnglì",
+"vi": "",
+"known": true
+},
+{
+"zh": "拿药",
+"pinyin": "náyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "单子",
+"pinyin": "dānzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "一楼",
+"pinyin": "yīlóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "完费",
+"pinyin": "wánfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "报告",
+"pinyin": "bàogào",
+"vi": "",
+"known": true
+},
+{
+"zh": "告",
+"pinyin": "gào",
+"vi": "",
+"known": true
+},
+{
+"zh": "上能查",
+"pinyin": "shàngnéngchá",
+"vi": "",
+"known": true
+},
+{
+"zh": "细菌",
+"pinyin": "xìjūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "细",
+"pinyin": "xì",
+"vi": "",
+"known": true
+},
+{
+"zh": "菌",
+"pinyin": "jūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "感染",
+"pinyin": "gǎnrǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "染",
+"pinyin": "rǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "抗",
+"pinyin": "kàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "多喝水",
+"pinyin": "duōhēshuǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "要开",
+"pinyin": "yàokāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "退烧",
+"pinyin": "tuìshāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "复",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "病毒感染",
+"pinyin": "bìngdúgǎnrǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "毒",
+"pinyin": "dú",
+"vi": "",
+"known": true
+},
+{
+"zh": "三甲",
+"pinyin": "sānjiǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "甲",
+"pinyin": "jiǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一阵一阵",
+"pinyin": "yīzhènyīzhèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "阵",
+"pinyin": "zhèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "两天",
+"pinyin": "liǎngtiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "这种",
+"pinyin": "zhèzhǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "闯关",
+"pinyin": "chuǎngguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "闯",
+"pinyin": "chuǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "检验",
+"pinyin": "jiǎnyàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "取药",
+"pinyin": "qǔyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "猜病",
+"pinyin": "cāibìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "猜",
+"pinyin": "cāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "严重",
+"pinyin": "yánzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "严",
+"pinyin": "yán",
+"vi": "",
+"known": true
+},
+{
+"zh": "社区",
+"pinyin": "shèqū",
+"vi": "",
+"known": true
+},
+{
+"zh": "小病",
+"pinyin": "xiǎobìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "不会",
+"pinyin": "búhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "买药",
+"pinyin": "mǎiyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "冒",
+"pinyin": "mào",
+"vi": "",
+"known": true
+},
+{
+"zh": "鼻",
+"pinyin": "bí",
+"vi": "",
+"known": true
+},
+{
+"zh": "塞",
+"pinyin": "sāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "涕",
+"pinyin": "tì",
+"vi": "",
+"known": true
+},
+{
+"zh": "药好",
+"pinyin": "yàohǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "不烧",
+"pinyin": "bùshāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "一片",
+"pinyin": "yīpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "犯",
+"pinyin": "fàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "前别",
+"pinyin": "qiánbié",
+"vi": "",
+"known": true
+},
+{
+"zh": "不困",
+"pinyin": "bùkùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "白天",
+"pinyin": "báitiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "日夜",
+"pinyin": "rìyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "夜",
+"pinyin": "yè",
+"vi": "",
+"known": true
+},
+{
+"zh": "白片",
+"pinyin": "báipiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "黑片",
+"pinyin": "hēipiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "能刷",
+"pinyin": "néngshuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "社保卡",
+"pinyin": "shèbǎokǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃坏",
+"pinyin": "chīhuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "肚子",
+"pinyin": "dǔzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "脸色",
+"pinyin": "liǎnsè",
+"vi": "",
+"known": true
+},
+{
+"zh": "烧烤",
+"pinyin": "shāokǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "烤",
+"pinyin": "kǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "急性",
+"pinyin": "jíxìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "性",
+"pinyin": "xìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "肠胃炎",
+"pinyin": "chángwèiyán",
+"vi": "",
+"known": true
+},
+{
+"zh": "胃",
+"pinyin": "wèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "炎",
+"pinyin": "yán",
+"vi": "",
+"known": true
+},
+{
+"zh": "生冷",
+"pinyin": "shēnglěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "辛辣",
+"pinyin": "xīnlà",
+"vi": "",
+"known": true
+},
+{
+"zh": "要紧",
+"pinyin": "yàojǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "摔坏",
+"pinyin": "shuāihuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "摔",
+"pinyin": "shuāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "累坏",
+"pinyin": "lèihuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "急坏",
+"pinyin": "jíhuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "兴",
+"pinyin": "xīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "没回",
+"pinyin": "méihuí",
+"vi": "",
+"known": true
+},
+{
+"zh": "出事",
+"pinyin": "chūshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "半夜",
+"pinyin": "bànyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "牙",
+"pinyin": "yá",
+"vi": "",
+"known": true
+},
+{
+"zh": "关门",
+"pinyin": "guānmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "用美团",
+"pinyin": "yòngměituán",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十四",
+"pinyin": "èrshísì",
+"vi": "",
+"known": true
+},
+{
+"zh": "非处方药",
+"pinyin": "fēichǔfāngyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "处方药",
+"pinyin": "chǔfāngyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "先线",
+"pinyin": "xiānxiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "问诊",
+"pinyin": "wènzhěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "才能",
+"pinyin": "cáinéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "我先",
+"pinyin": "wǒxiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "火",
+"pinyin": "huǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "副",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "线上",
+"pinyin": "xiànshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "创",
+"pinyin": "chuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "贴",
+"pinyin": "tiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "药有",
+"pinyin": "yàoyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "药会",
+"pinyin": "yàohuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "早点儿",
+"pinyin": "zǎodiǎnér",
+"vi": "",
+"known": true
+},
+{
+"zh": "症状",
+"pinyin": "zhèngzhuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "症",
+"pinyin": "zhèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "状",
+"pinyin": "zhuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "演",
+"pinyin": "yǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "喝粥",
+"pinyin": "hēzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "病假",
+"pinyin": "bìngjià",
+"vi": "",
+"known": true
+},
+{
+"zh": "交代",
+"pinyin": "jiāodài",
+"vi": "",
+"known": true
+},
+{
+"zh": "代",
+"pinyin": "dài",
+"vi": "",
+"known": true
+},
+{
+"zh": "小王",
+"pinyin": "xiǎowáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "休闲",
+"pinyin": "xiūxián",
+"vi": "",
+"known": true
+},
+{
+"zh": "闲",
+"pinyin": "xián",
+"vi": "",
+"known": true
+},
+{
+"zh": "娱乐",
+"pinyin": "yúlè",
+"vi": "",
+"known": true
+},
+{
+"zh": "娱",
+"pinyin": "yú",
+"vi": "",
+"known": true
+},
+{
+"zh": "剧本",
+"pinyin": "jùběn",
+"vi": "",
+"known": true
+},
+{
+"zh": "剧",
+"pinyin": "jù",
+"vi": "",
+"known": true
+},
+{
+"zh": "杀",
+"pinyin": "shā",
+"vi": "",
+"known": true
+},
+{
+"zh": "周五",
+"pinyin": "zhōuwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "每人",
+"pinyin": "měirén",
+"vi": "",
+"known": true
+},
+{
+"zh": "扮",
+"pinyin": "bàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "凶",
+"pinyin": "xiōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一局",
+"pinyin": "yījú",
+"vi": "",
+"known": true
+},
+{
+"zh": "四五个",
+"pinyin": "sìwǔgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "好玩儿",
+"pinyin": "hǎowánér",
+"vi": "",
+"known": true
+},
+{
+"zh": "阅读",
+"pinyin": "yuèdú",
+"vi": "",
+"known": true
+},
+{
+"zh": "阅",
+"pinyin": "yuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "拖",
+"pinyin": "tuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "那选个",
+"pinyin": "nàxuǎngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "欢乐",
+"pinyin": "huānlè",
+"vi": "",
+"known": true
+},
+{
+"zh": "不烧脑",
+"pinyin": "bùshāonǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "脑",
+"pinyin": "nǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "玩完",
+"pinyin": "wánwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "密室",
+"pinyin": "mìshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "逃脱",
+"pinyin": "táotuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "逃",
+"pinyin": "táo",
+"vi": "",
+"known": true
+},
+{
+"zh": "脱",
+"pinyin": "tuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "恐怖",
+"pinyin": "kǒngbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "恐",
+"pinyin": "kǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "怖",
+"pinyin": "bù",
+"vi": "",
+"known": true
+},
+{
+"zh": "赶不上",
+"pinyin": "gǎnbùshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "影",
+"pinyin": "yǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "末",
+"pinyin": "mò",
+"vi": "",
+"known": true
+},
+{
+"zh": "有部",
+"pinyin": "yǒubù",
+"vi": "",
+"known": true
+},
+{
+"zh": "新片",
+"pinyin": "xīnpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "映",
+"pinyin": "yìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "猫眼",
+"pinyin": "māoyǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "眼",
+"pinyin": "yǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "快满了",
+"pinyin": "kuàimǎnle",
+"vi": "",
+"known": true
+},
+{
+"zh": "座儿",
+"pinyin": "zuòér",
+"vi": "",
+"known": true
+},
+{
+"zh": "票加",
+"pinyin": "piàojiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "一桶",
+"pinyin": "yītǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "爆米花",
+"pinyin": "bàomǐhuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "爆",
+"pinyin": "bào",
+"vi": "",
+"known": true
+},
+{
+"zh": "六十九",
+"pinyin": "liùshíjiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "划",
+"pinyin": "huà",
+"vi": "",
+"known": true
+},
+{
+"zh": "淘票票",
+"pinyin": "táopiàopiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "歌手",
+"pinyin": "gēshǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "一开",
+"pinyin": "yīkāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "秒",
+"pinyin": "miǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "三千多",
+"pinyin": "sānqiānduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "千万别",
+"pinyin": "qiānwànbié",
+"vi": "",
+"known": true
+},
+{
+"zh": "容",
+"pinyin": "róng",
+"vi": "",
+"known": true
+},
+{
+"zh": "骗",
+"pinyin": "piàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "等等",
+"pinyin": "děngděng",
+"vi": "",
+"known": true
+},
+{
+"zh": "回流",
+"pinyin": "huíliú",
+"vi": "",
+"known": true
+},
+{
+"zh": "音乐节",
+"pinyin": "yīnyuèjié",
+"vi": "",
+"known": true
+},
+{
+"zh": "氛",
+"pinyin": "fēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "围",
+"pinyin": "wéi",
+"vi": "",
+"known": true
+},
+{
+"zh": "考虑",
+"pinyin": "kǎolǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "虑",
+"pinyin": "lǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "每次",
+"pinyin": "měicì",
+"vi": "",
+"known": true
+},
+{
+"zh": "不如",
+"pinyin": "bùrú",
+"vi": "",
+"known": true
+},
+{
+"zh": "新手",
+"pinyin": "xīnshǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "我怕",
+"pinyin": "wǒpà",
+"vi": "",
+"known": true
+},
+{
+"zh": "迷你",
+"pinyin": "mínǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "交朋友",
+"pinyin": "jiāopéngyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "不许",
+"pinyin": "bùxǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "圈",
+"pinyin": "quān",
+"vi": "",
+"known": true
+},
+{
+"zh": "搭",
+"pinyin": "dā",
+"vi": "",
+"known": true
+},
+{
+"zh": "健身房",
+"pinyin": "jiànshēnfáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "健",
+"pinyin": "jiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "识",
+"pinyin": "shí",
+"vi": "",
+"known": true
+},
+{
+"zh": "健身",
+"pinyin": "jiànshēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "每天",
+"pinyin": "měitiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "某件事",
+"pinyin": "mǒujiànshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "某",
+"pinyin": "mǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "伴",
+"pinyin": "bàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "太熟",
+"pinyin": "tàishú",
+"vi": "",
+"known": true
+},
+{
+"zh": "熟",
+"pinyin": "shú",
+"vi": "",
+"known": true
+},
+{
+"zh": "各玩",
+"pinyin": "gèwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "语言",
+"pinyin": "yǔyán",
+"vi": "",
+"known": true
+},
+{
+"zh": "言",
+"pinyin": "yán",
+"vi": "",
+"known": true
+},
+{
+"zh": "我教",
+"pinyin": "wǒjiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "越南语",
+"pinyin": "yuènányǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "他教",
+"pinyin": "tājiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "帖",
+"pinyin": "tiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "交换",
+"pinyin": "jiāohuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "好好看",
+"pinyin": "hǎohǎokàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "颐",
+"pinyin": "yí",
+"vi": "",
+"known": true
+},
+{
+"zh": "没点",
+"pinyin": "méidiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "赞",
+"pinyin": "zàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "忘点",
+"pinyin": "wàngdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "论",
+"pinyin": "lùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "绝",
+"pinyin": "jué",
+"vi": "",
+"known": true
+},
+{
+"zh": "一条",
+"pinyin": "yītiáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "横线",
+"pinyin": "héngxiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "横",
+"pinyin": "héng",
+"vi": "",
+"known": true
+},
+{
+"zh": "屏",
+"pinyin": "píng",
+"vi": "",
+"known": true
+},
+{
+"zh": "蔽",
+"pinyin": "bì",
+"vi": "",
+"known": true
+},
+{
+"zh": "设置",
+"pinyin": "shèzhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "设",
+"pinyin": "shè",
+"vi": "",
+"known": true
+},
+{
+"zh": "置",
+"pinyin": "zhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "可见",
+"pinyin": "kějiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "发得",
+"pinyin": "fādé",
+"vi": "",
+"known": true
+},
+{
+"zh": "太少",
+"pinyin": "tàishǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "私",
+"pinyin": "sī",
+"vi": "",
+"known": true
+},
+{
+"zh": "群聊",
+"pinyin": "qúnliáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "拉群",
+"pinyin": "lāqún",
+"vi": "",
+"known": true
+},
+{
+"zh": "语音",
+"pinyin": "yǔyīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "表情",
+"pinyin": "biǎoqíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "不回",
+"pinyin": "bùhuí",
+"vi": "",
+"known": true
+},
+{
+"zh": "鸽",
+"pinyin": "gē",
+"vi": "",
+"known": true
+},
+{
+"zh": "文字",
+"pinyin": "wénzì",
+"vi": "",
+"known": true
+},
+{
+"zh": "捂",
+"pinyin": "wǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "已读",
+"pinyin": "yǐdú",
+"vi": "",
+"known": true
+},
+{
+"zh": "删",
+"pinyin": "shān",
+"vi": "",
+"known": true
+},
+{
+"zh": "共同",
+"pinyin": "gòngtóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "社恐",
+"pinyin": "shèkǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "社牛",
+"pinyin": "shèniú",
+"vi": "",
+"known": true
+},
+{
+"zh": "先到",
+"pinyin": "xiāndào",
+"vi": "",
+"known": true
+},
+{
+"zh": "我想",
+"pinyin": "wǒxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "我刷",
+"pinyin": "wǒshuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "说来",
+"pinyin": "shuōlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "翻译官",
+"pinyin": "fānyìguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "翻",
+"pinyin": "fān",
+"vi": "",
+"known": true
+},
+{
+"zh": "译",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "分组",
+"pinyin": "fēnzǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "组",
+"pinyin": "zǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "微笑",
+"pinyin": "wēixiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "呲",
+"pinyin": "cī",
+"vi": "",
+"known": true
+},
+{
+"zh": "偷笑",
+"pinyin": "tōuxiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "网络",
+"pinyin": "wǎngluò",
+"vi": "",
+"known": true
+},
+{
+"zh": "络",
+"pinyin": "luò",
+"vi": "",
+"known": true
+},
+{
+"zh": "流行语",
+"pinyin": "liúxíngyǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "基础",
+"pinyin": "jīchǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "础",
+"pinyin": "chǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "不动",
+"pinyin": "bùdòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "如何",
+"pinyin": "rúhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "何",
+"pinyin": "hé",
+"vi": "",
+"known": true
+},
+{
+"zh": "刚看",
+"pinyin": "gāngkàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "那部剧",
+"pinyin": "nàbùjù",
+"vi": "",
+"known": true
+},
+{
+"zh": "结局",
+"pinyin": "jiéjú",
+"vi": "",
+"known": true
+},
+{
+"zh": "太好",
+"pinyin": "tàihǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "上周",
+"pinyin": "shàngzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "男主",
+"pinyin": "nánzhǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "男",
+"pinyin": "nán",
+"vi": "",
+"known": true
+},
+{
+"zh": "演技",
+"pinyin": "yǎnjì",
+"vi": "",
+"known": true
+},
+{
+"zh": "技",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "说得对",
+"pinyin": "shuōdéduì",
+"vi": "",
+"known": true
+},
+{
+"zh": "刷刷",
+"pinyin": "shuāshuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "弹幕",
+"pinyin": "dànmù",
+"vi": "",
+"known": true
+},
+{
+"zh": "弹",
+"pinyin": "dàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "幕",
+"pinyin": "mù",
+"vi": "",
+"known": true
+},
+{
+"zh": "永远",
+"pinyin": "yǒngyuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "永",
+"pinyin": "yǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "呜呜",
+"pinyin": "wūwū",
+"vi": "",
+"known": true
+},
+{
+"zh": "呜",
+"pinyin": "wū",
+"vi": "",
+"known": true
+},
+{
+"zh": "拜拜",
+"pinyin": "bàibài",
+"vi": "",
+"known": true
+},
+{
+"zh": "拜",
+"pinyin": "bài",
+"vi": "",
+"known": true
+},
+{
+"zh": "绝绝子",
+"pinyin": "juéjuézi",
+"vi": "",
+"known": true
+},
+{
+"zh": "厨艺",
+"pinyin": "chúyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "艺",
+"pinyin": "yì",
+"vi": "",
+"known": true
+},
+{
+"zh": "胃口",
+"pinyin": "wèikǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "工人",
+"pinyin": "gōngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "槽",
+"pinyin": "cáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "味儿",
+"pinyin": "wèiér",
+"vi": "",
+"known": true
+},
+{
+"zh": "味",
+"pinyin": "wèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "腌",
+"pinyin": "yān",
+"vi": "",
+"known": true
+},
+{
+"zh": "入味",
+"pinyin": "rùwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "打工",
+"pinyin": "dǎgōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "魂",
+"pinyin": "hún",
+"vi": "",
+"known": true
+},
+{
+"zh": "咋",
+"pinyin": "zǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "挺卷",
+"pinyin": "tǐngjuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "卷",
+"pinyin": "juǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "卷不动",
+"pinyin": "juǎnbùdòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "先敬",
+"pinyin": "xiānjìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "敬",
+"pinyin": "jìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一杯",
+"pinyin": "yībēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "摆",
+"pinyin": "bǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "烂",
+"pinyin": "làn",
+"vi": "",
+"known": true
+},
+{
+"zh": "凡",
+"pinyin": "fán",
+"vi": "",
+"known": true
+},
+{
+"zh": "尔",
+"pinyin": "ěr",
+"vi": "",
+"known": true
+},
+{
+"zh": "显眼",
+"pinyin": "xiǎnyǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "走不动",
+"pinyin": "zǒubùdòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "解释",
+"pinyin": "jiěshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "释",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "新词",
+"pinyin": "xīncí",
+"vi": "",
+"known": true
+},
+{
+"zh": "情绪",
+"pinyin": "qíngxù",
+"vi": "",
+"known": true
+},
+{
+"zh": "绪",
+"pinyin": "xù",
+"vi": "",
+"known": true
+},
+{
+"zh": "价值",
+"pinyin": "jiàzhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "心情",
+"pinyin": "xīnqíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "理解",
+"pinyin": "lǐjiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "夸",
+"pinyin": "kuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "新发型",
+"pinyin": "xīnfàxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "型",
+"pinyin": "xíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "提供",
+"pinyin": "tígōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "供",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "百搭",
+"pinyin": "bǎidā",
+"vi": "",
+"known": true
+},
+{
+"zh": "句式",
+"pinyin": "jùshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "式",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "脸皮",
+"pinyin": "liǎnpí",
+"vi": "",
+"known": true
+},
+{
+"zh": "皮",
+"pinyin": "pí",
+"vi": "",
+"known": true
+},
+{
+"zh": "饭量",
+"pinyin": "fànliàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "拼好",
+"pinyin": "pīnhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "主理",
+"pinyin": "zhǔlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "感受",
+"pinyin": "gǎnshòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "受",
+"pinyin": "shòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "很会",
+"pinyin": "hěnhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "当场",
+"pinyin": "dāngchǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "决",
+"pinyin": "jué",
+"vi": "",
+"known": true
+},
+{
+"zh": "一下子",
+"pinyin": "yīxiàzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "我卷",
+"pinyin": "wǒjuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "翻译",
+"pinyin": "fānyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "挑战",
+"pinyin": "tiǎozhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "改变",
+"pinyin": "gǎibiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "法",
+"pinyin": "fǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "这部",
+"pinyin": "zhèbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "咬文嚼字",
+"pinyin": "yǎowénjiáozì",
+"vi": "",
+"known": true
+},
+{
+"zh": "咬",
+"pinyin": "yǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "嚼",
+"pinyin": "jué",
+"vi": "",
+"known": true
+},
+{
+"zh": "语言文字",
+"pinyin": "yǔyánwénzì",
+"vi": "",
+"known": true
+},
+{
+"zh": "村",
+"pinyin": "cūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "邪修",
+"pinyin": "xiéxiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "邪",
+"pinyin": "xié",
+"vi": "",
+"known": true
+},
+{
+"zh": "梗",
+"pinyin": "gěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "口语",
+"pinyin": "kǒuyǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "整个",
+"pinyin": "zhěnggè",
+"vi": "",
+"known": true
+},
+{
+"zh": "属于",
+"pinyin": "shǔyú",
+"vi": "",
+"known": true
+},
+{
+"zh": "属",
+"pinyin": "shǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "于",
+"pinyin": "yú",
+"vi": "",
+"known": true
+},
+{
+"zh": "夸人",
+"pinyin": "kuārén",
+"vi": "",
+"known": true
+},
+{
+"zh": "松弛",
+"pinyin": "sōngchí",
+"vi": "",
+"known": true
+},
+{
+"zh": "松",
+"pinyin": "sōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "弛",
+"pinyin": "chí",
+"vi": "",
+"known": true
+},
+{
+"zh": "真的假",
+"pinyin": "zhēndejiǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "嘿嘿",
+"pinyin": "hēihēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "嘿",
+"pinyin": "hēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "真甜",
+"pinyin": "zhēntián",
+"vi": "",
+"known": true
+},
+{
+"zh": "摄影师",
+"pinyin": "shèyǐngshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "爱住",
+"pinyin": "àizhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "安慰",
+"pinyin": "ānwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "慰",
+"pinyin": "wèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "面试",
+"pinyin": "miànshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "抱",
+"pinyin": "bào",
+"vi": "",
+"known": true
+},
+{
+"zh": "眼光",
+"pinyin": "yǎnguāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "顿",
+"pinyin": "dùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "化",
+"pinyin": "huà",
+"vi": "",
+"known": true
+},
+{
+"zh": "悲愤",
+"pinyin": "bēifèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "悲",
+"pinyin": "bēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "愤",
+"pinyin": "fèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "食欲",
+"pinyin": "shíyù",
+"vi": "",
+"known": true
+},
+{
+"zh": "欲",
+"pinyin": "yù",
+"vi": "",
+"known": true
+},
+{
+"zh": "感动",
+"pinyin": "gǎndòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "吓",
+"pinyin": "xià",
+"vi": "",
+"known": true
+},
+{
+"zh": "聚会",
+"pinyin": "jùhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "聚",
+"pinyin": "jù",
+"vi": "",
+"known": true
+},
+{
+"zh": "一多",
+"pinyin": "yīduō",
+"vi": "",
+"known": true
+},
+{
+"zh": "憋",
+"pinyin": "biē",
+"vi": "",
+"known": true
+},
+{
+"zh": "社交",
+"pinyin": "shèjiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "命",
+"pinyin": "mìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "会谢",
+"pinyin": "huìxiè",
+"vi": "",
+"known": true
+},
+{
+"zh": "人们",
+"pinyin": "rénmen",
+"vi": "",
+"known": true
+},
+{
+"zh": "这波",
+"pinyin": "zhèbō",
+"vi": "",
+"known": true
+},
+{
+"zh": "波",
+"pinyin": "bō",
+"vi": "",
+"known": true
+},
+{
+"zh": "放松",
+"pinyin": "fàngsōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "夸得",
+"pinyin": "kuādé",
+"vi": "",
+"known": true
+},
+{
+"zh": "好开心",
+"pinyin": "hǎokāixīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "电台",
+"pinyin": "diàntái",
+"vi": "",
+"known": true
+},
+{
+"zh": "哪有",
+"pinyin": "nǎyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "好不好",
+"pinyin": "hǎobùhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "这有",
+"pinyin": "zhèyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "职场",
+"pinyin": "zhíchǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "职",
+"pinyin": "zhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "日常",
+"pinyin": "rìcháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "第一天",
+"pinyin": "dìyītiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "市场部",
+"pinyin": "shìchǎngbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "迎",
+"pinyin": "yíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "王总好",
+"pinyin": "wángzǒnghǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "刚来",
+"pinyin": "gānglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "指",
+"pinyin": "zhǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "钉",
+"pinyin": "dīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "下载",
+"pinyin": "xiàzài",
+"vi": "",
+"known": true
+},
+{
+"zh": "载",
+"pinyin": "zài",
+"vi": "",
+"known": true
+},
+{
+"zh": "初",
+"pinyin": "chū",
+"vi": "",
+"known": true
+},
+{
+"zh": "稿",
+"pinyin": "gǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "数据",
+"pinyin": "shùjù",
+"vi": "",
+"known": true
+},
+{
+"zh": "核对",
+"pinyin": "héduì",
+"vi": "",
+"known": true
+},
+{
+"zh": "核",
+"pinyin": "hé",
+"vi": "",
+"known": true
+},
+{
+"zh": "汇报",
+"pinyin": "huìbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "汇",
+"pinyin": "huì",
+"vi": "",
+"known": true
+},
+{
+"zh": "进度",
+"pinyin": "jìndù",
+"vi": "",
+"known": true
+},
+{
+"zh": "案",
+"pinyin": "àn",
+"vi": "",
+"known": true
+},
+{
+"zh": "财务",
+"pinyin": "cáiwù",
+"vi": "",
+"known": true
+},
+{
+"zh": "财",
+"pinyin": "cái",
+"vi": "",
+"known": true
+},
+{
+"zh": "周三",
+"pinyin": "zhōusān",
+"vi": "",
+"known": true
+},
+{
+"zh": "前发",
+"pinyin": "qiánfā",
+"vi": "",
+"known": true
+},
+{
+"zh": "客户",
+"pinyin": "kèhù",
+"vi": "",
+"known": true
+},
+{
+"zh": "较",
+"pinyin": "jiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "项目",
+"pinyin": "xiàngmù",
+"vi": "",
+"known": true
+},
+{
+"zh": "项",
+"pinyin": "xiàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "级",
+"pinyin": "jí",
+"vi": "",
+"known": true
+},
+{
+"zh": "人手",
+"pinyin": "rénshǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "转发",
+"pinyin": "zhuǎnfā",
+"vi": "",
+"known": true
+},
+{
+"zh": "企业",
+"pinyin": "qǐyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "企",
+"pinyin": "qǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "王总",
+"pinyin": "wángzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "发到",
+"pinyin": "fādào",
+"vi": "",
+"known": true
+},
+{
+"zh": "沟",
+"pinyin": "gōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "发消息",
+"pinyin": "fāxiāoxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "别加",
+"pinyin": "biéjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "显得",
+"pinyin": "xiǎnde",
+"vi": "",
+"known": true
+},
+{
+"zh": "随意",
+"pinyin": "suíyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "只发",
+"pinyin": "zhǐfā",
+"vi": "",
+"known": true
+},
+{
+"zh": "学到",
+"pinyin": "xuédào",
+"vi": "",
+"known": true
+},
+{
+"zh": "提醒",
+"pinyin": "tíxǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "醒",
+"pinyin": "xǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "离职",
+"pinyin": "lízhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "手紧",
+"pinyin": "shǒujǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "甩锅",
+"pinyin": "shuǎiguō",
+"vi": "",
+"known": true
+},
+{
+"zh": "甩",
+"pinyin": "shuǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "背锅",
+"pinyin": "bèiguō",
+"vi": "",
+"known": true
+},
+{
+"zh": "背",
+"pinyin": "bèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "说完",
+"pinyin": "shuōwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "回复",
+"pinyin": "huífù",
+"vi": "",
+"known": true
+},
+{
+"zh": "一句",
+"pinyin": "yījù",
+"vi": "",
+"known": true
+},
+{
+"zh": "晨会",
+"pinyin": "chénhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "晨",
+"pinyin": "chén",
+"vi": "",
+"known": true
+},
+{
+"zh": "模拟",
+"pinyin": "mónǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "模",
+"pinyin": "mó",
+"vi": "",
+"known": true
+},
+{
+"zh": "黑话",
+"pinyin": "hēihuà",
+"vi": "",
+"known": true
+},
+{
+"zh": "颗粒",
+"pinyin": "kēlì",
+"vi": "",
+"known": true
+},
+{
+"zh": "颗",
+"pinyin": "kē",
+"vi": "",
+"known": true
+},
+{
+"zh": "抓手",
+"pinyin": "zhuāshǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "形成",
+"pinyin": "xíngchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "形",
+"pinyin": "xíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "闭环",
+"pinyin": "bìhuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "闭",
+"pinyin": "bì",
+"vi": "",
+"known": true
+},
+{
+"zh": "赋能",
+"pinyin": "fùnéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "赋",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "李经理",
+"pinyin": "lǐjīnglǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "张老师",
+"pinyin": "zhānglǎoshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "我该",
+"pinyin": "wǒgāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "称呼",
+"pinyin": "chēnghū",
+"vi": "",
+"known": true
+},
+{
+"zh": "称",
+"pinyin": "chēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "手上",
+"pinyin": "shǒushàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "交接",
+"pinyin": "jiāojiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "谐",
+"pinyin": "xié",
+"vi": "",
+"known": true
+},
+{
+"zh": "干为",
+"pinyin": "gànwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "我敬",
+"pinyin": "wǒjìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "感谢您",
+"pinyin": "gǎnxiènín",
+"vi": "",
+"known": true
+},
+{
+"zh": "段时间",
+"pinyin": "duànshíjiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "我以",
+"pinyin": "wǒyǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "茶代",
+"pinyin": "chádài",
+"vi": "",
+"known": true
+},
+{
+"zh": "酒敬",
+"pinyin": "jiǔjìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "祝您",
+"pinyin": "zhùnín",
+"vi": "",
+"known": true
+},
+{
+"zh": "康",
+"pinyin": "kāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "茶代酒",
+"pinyin": "chádàijiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "以水代酒",
+"pinyin": "yǐshuǐdàijiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃药",
+"pinyin": "chīyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "矩",
+"pinyin": "jǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "正对门",
+"pinyin": "zhèngduìmén",
+"vi": "",
+"known": true
+},
+{
+"zh": "究",
+"pinyin": "jiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "针",
+"pinyin": "zhēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "别动",
+"pinyin": "biédòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "辈",
+"pinyin": "bèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "碰",
+"pinyin": "pèng",
+"vi": "",
+"known": true
+},
+{
+"zh": "杯口",
+"pinyin": "bēikǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "表示",
+"pinyin": "biǎoshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "尊重",
+"pinyin": "zūnzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "尊",
+"pinyin": "zūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "酬",
+"pinyin": "chóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "先干",
+"pinyin": "xiāngàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "劝",
+"pinyin": "quàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "主人",
+"pinyin": "zhǔrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "主宾",
+"pinyin": "zhǔbīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "夹",
+"pinyin": "jiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "送钟",
+"pinyin": "sòngzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "送终",
+"pinyin": "sòngzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "分梨",
+"pinyin": "fēnlí",
+"vi": "",
+"known": true
+},
+{
+"zh": "梨",
+"pinyin": "lí",
+"vi": "",
+"known": true
+},
+{
+"zh": "分离",
+"pinyin": "fēnlí",
+"vi": "",
+"known": true
+},
+{
+"zh": "送礼",
+"pinyin": "sònglǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "下周",
+"pinyin": "xiàzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "访",
+"pinyin": "fǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "茶叶",
+"pinyin": "cháyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "叶",
+"pinyin": "yè",
+"vi": "",
+"known": true
+},
+{
+"zh": "辞",
+"pinyin": "cí",
+"vi": "",
+"known": true
+},
+{
+"zh": "一两次",
+"pinyin": "yīliǎngcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "再收",
+"pinyin": "zàishōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "个人",
+"pinyin": "gèrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "情就行",
+"pinyin": "qíngjiùxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "面子",
+"pinyin": "miànzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "给面子",
+"pinyin": "gěimiànzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "驾",
+"pinyin": "jià",
+"vi": "",
+"known": true
+},
+{
+"zh": "喝一杯",
+"pinyin": "hēyībēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "脸红",
+"pinyin": "liǎnhóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "留给",
+"pinyin": "liúgěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "坚",
+"pinyin": "jiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "阮站",
+"pinyin": "ruǎnzhàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "接龙",
+"pinyin": "jiēlóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "龙",
+"pinyin": "lóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "雷区",
+"pinyin": "léiqū",
+"vi": "",
+"known": true
+},
+{
+"zh": "雷",
+"pinyin": "léi",
+"vi": "",
+"known": true
+},
+{
+"zh": "酒精",
+"pinyin": "jiǔjīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一早",
+"pinyin": "yīzǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "散",
+"pinyin": "sàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "毕",
+"pinyin": "bì",
+"vi": "",
+"known": true
+},
+{
+"zh": "之间",
+"pinyin": "zhījiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "自我介绍",
+"pinyin": "zìwǒjièshào",
+"vi": "",
+"known": true
+},
+{
+"zh": "简",
+"pinyin": "jiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "做个",
+"pinyin": "zuògè",
+"vi": "",
+"known": true
+},
+{
+"zh": "大学",
+"pinyin": "dàxué",
+"vi": "",
+"known": true
+},
+{
+"zh": "五级",
+"pinyin": "wǔjí",
+"vi": "",
+"known": true
+},
+{
+"zh": "一家",
+"pinyin": "yījiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "贸易",
+"pinyin": "màoyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "跨境",
+"pinyin": "kuàjìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "跨",
+"pinyin": "kuà",
+"vi": "",
+"known": true
+},
+{
+"zh": "境",
+"pinyin": "jìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "电商",
+"pinyin": "diànshāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "东南亚",
+"pinyin": "dōngnányà",
+"vi": "",
+"known": true
+},
+{
+"zh": "市场",
+"pinyin": "shìchǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "想来",
+"pinyin": "xiǎnglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "熟悉",
+"pinyin": "shúxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "悉",
+"pinyin": "xī",
+"vi": "",
+"known": true
+},
+{
+"zh": "英",
+"pinyin": "yīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "相",
+"pinyin": "xiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "最大",
+"pinyin": "zuìdà",
+"vi": "",
+"known": true
+},
+{
+"zh": "缺点",
+"pinyin": "quēdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "缺",
+"pinyin": "quē",
+"vi": "",
+"known": true
+},
+{
+"zh": "太抠",
+"pinyin": "tàikōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "抠",
+"pinyin": "kōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "细节",
+"pinyin": "xìjié",
+"vi": "",
+"known": true
+},
+{
+"zh": "响",
+"pinyin": "xiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "效",
+"pinyin": "xiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "率",
+"pinyin": "lǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "我会",
+"pinyin": "wǒhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "先定",
+"pinyin": "xiāndìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "面试官",
+"pinyin": "miànshìguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "历",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "经验",
+"pinyin": "jīngyàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "大学毕业",
+"pinyin": "dàxuébìyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "就职",
+"pinyin": "jiùzhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "薪资",
+"pinyin": "xīnzī",
+"vi": "",
+"known": true
+},
+{
+"zh": "薪",
+"pinyin": "xīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "福利",
+"pinyin": "fúlì",
+"vi": "",
+"known": true
+},
+{
+"zh": "福",
+"pinyin": "fú",
+"vi": "",
+"known": true
+},
+{
+"zh": "期望",
+"pinyin": "qīwàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "行业",
+"pinyin": "hángyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "月薪",
+"pinyin": "yuèxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一万五",
+"pinyin": "yīwànwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一万八",
+"pinyin": "yīwànbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "具体",
+"pinyin": "jùtǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "岗",
+"pinyin": "gǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "再谈",
+"pinyin": "zàitán",
+"vi": "",
+"known": true
+},
+{
+"zh": "税前",
+"pinyin": "shuìqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "税",
+"pinyin": "shuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "十三",
+"pinyin": "shísān",
+"vi": "",
+"known": true
+},
+{
+"zh": "五险",
+"pinyin": "wǔxiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一金",
+"pinyin": "yījīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "实际工资",
+"pinyin": "shíjìgōngzī",
+"vi": "",
+"known": true
+},
+{
+"zh": "工资",
+"pinyin": "gōngzī",
+"vi": "",
+"known": true
+},
+{
+"zh": "许可",
+"pinyin": "xǔkě",
+"vi": "",
+"known": true
+},
+{
+"zh": "优势",
+"pinyin": "yōushì",
+"vi": "",
+"known": true
+},
+{
+"zh": "势",
+"pinyin": "shì",
+"vi": "",
+"known": true
+},
+{
+"zh": "年薪",
+"pinyin": "niánxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "税后",
+"pinyin": "shuìhòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "奖",
+"pinyin": "jiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "束",
+"pinyin": "shù",
+"vi": "",
+"known": true
+},
+{
+"zh": "第三个",
+"pinyin": "dìsāngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "独",
+"pinyin": "dú",
+"vi": "",
+"known": true
+},
+{
+"zh": "立",
+"pinyin": "lì",
+"vi": "",
+"known": true
+},
+{
+"zh": "要学",
+"pinyin": "yàoxué",
+"vi": "",
+"known": true
+},
+{
+"zh": "录用",
+"pinyin": "lùyòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "导师",
+"pinyin": "dǎoshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "带教",
+"pinyin": "dàijiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "参与",
+"pinyin": "cānyù",
+"vi": "",
+"known": true
+},
+{
+"zh": "参",
+"pinyin": "cān",
+"vi": "",
+"known": true
+},
+{
+"zh": "员工",
+"pinyin": "yuángōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "三轮",
+"pinyin": "sānlún",
+"vi": "",
+"known": true
+},
+{
+"zh": "轮",
+"pinyin": "lún",
+"vi": "",
+"known": true
+},
+{
+"zh": "拔河",
+"pinyin": "báhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "远程",
+"pinyin": "yuǎnchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "办公",
+"pinyin": "bàngōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "培训",
+"pinyin": "péixùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "培",
+"pinyin": "péi",
+"vi": "",
+"known": true
+},
+{
+"zh": "训",
+"pinyin": "xùn",
+"vi": "",
+"known": true
+},
+{
+"zh": "直聘",
+"pinyin": "zhípìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "聘",
+"pinyin": "pìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "智联",
+"pinyin": "zhìlián",
+"vi": "",
+"known": true
+},
+{
+"zh": "智",
+"pinyin": "zhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "招聘",
+"pinyin": "zhāopìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "更大",
+"pinyin": "gèngdà",
+"vi": "",
+"known": true
+},
+{
+"zh": "接触",
+"pinyin": "jiēchù",
+"vi": "",
+"known": true
+},
+{
+"zh": "触",
+"pinyin": "chù",
+"vi": "",
+"known": true
+},
+{
+"zh": "几薪",
+"pinyin": "jǐxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "要么",
+"pinyin": "yàome",
+"vi": "",
+"known": true
+},
+{
+"zh": "从来",
+"pinyin": "cónglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "乱",
+"pinyin": "luàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "扣费",
+"pinyin": "kòufèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "月话费",
+"pinyin": "yuèhuàfèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "多扣",
+"pinyin": "duōkòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "五十块",
+"pinyin": "wǔshíkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "没开",
+"pinyin": "méikāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "先生",
+"pinyin": "xiānshēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "系统",
+"pinyin": "xìtǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "统",
+"pinyin": "tǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "能查",
+"pinyin": "néngchá",
+"vi": "",
+"known": true
+},
+{
+"zh": "渠",
+"pinyin": "qú",
+"vi": "",
+"known": true
+},
+{
+"zh": "任何",
+"pinyin": "rènhé",
+"vi": "",
+"known": true
+},
+{
+"zh": "任",
+"pinyin": "rèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "退回来",
+"pinyin": "tuìhuílái",
+"vi": "",
+"known": true
+},
+{
+"zh": "提交",
+"pinyin": "tíjiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "三到",
+"pinyin": "sāndào",
+"vi": "",
+"known": true
+},
+{
+"zh": "五个",
+"pinyin": "wǔgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "工单",
+"pinyin": "gōngdān",
+"vi": "",
+"known": true
+},
+{
+"zh": "升级",
+"pinyin": "shēngjí",
+"vi": "",
+"known": true
+},
+{
+"zh": "预付卡",
+"pinyin": "yùfùkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "储值卡",
+"pinyin": "chǔzhíkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "储",
+"pinyin": "chǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "退卡",
+"pinyin": "tuìkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "张卡",
+"pinyin": "zhāngkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "两千",
+"pinyin": "liǎngqiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "店要",
+"pinyin": "diànyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "郊区",
+"pinyin": "jiāoqū",
+"vi": "",
+"known": true
+},
+{
+"zh": "郊",
+"pinyin": "jiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "卡不退",
+"pinyin": "kǎbùtuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "不换",
+"pinyin": "bùhuàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "背面",
+"pinyin": "bèimiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "不退",
+"pinyin": "bùtuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "霸王",
+"pinyin": "bàwáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "霸",
+"pinyin": "bà",
+"vi": "",
+"known": true
+},
+{
+"zh": "条款",
+"pinyin": "tiáokuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "搬店",
+"pinyin": "bāndiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "剩余",
+"pinyin": "shèngyú",
+"vi": "",
+"known": true
+},
+{
+"zh": "金额",
+"pinyin": "jīné",
+"vi": "",
+"known": true
+},
+{
+"zh": "商量",
+"pinyin": "shāngliáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一千",
+"pinyin": "yīqiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "八行",
+"pinyin": "bāxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "之内",
+"pinyin": "zhīnèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "转给",
+"pinyin": "zhuǎngěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "协",
+"pinyin": "xié",
+"vi": "",
+"known": true
+},
+{
+"zh": "答应",
+"pinyin": "dāyìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "答",
+"pinyin": "dá",
+"vi": "",
+"known": true
+},
+{
+"zh": "从来不",
+"pinyin": "cóngláibù",
+"vi": "",
+"known": true
+},
+{
+"zh": "喝酒",
+"pinyin": "hējiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "抱歉",
+"pinyin": "bàoqiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "歉",
+"pinyin": "qiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "带来",
+"pinyin": "dàilái",
+"vi": "",
+"known": true
+},
+{
+"zh": "体验",
+"pinyin": "tǐyàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "商品",
+"pinyin": "shāngpǐn",
+"vi": "",
+"known": true
+},
+{
+"zh": "审",
+"pinyin": "shěn",
+"vi": "",
+"known": true
+},
+{
+"zh": "会先",
+"pinyin": "huìxiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "凭",
+"pinyin": "píng",
+"vi": "",
+"known": true
+},
+{
+"zh": "退一",
+"pinyin": "tuìyī",
+"vi": "",
+"known": true
+},
+{
+"zh": "查询",
+"pinyin": "cháxún",
+"vi": "",
+"known": true
+},
+{
+"zh": "询",
+"pinyin": "xún",
+"vi": "",
+"known": true
+},
+{
+"zh": "有话",
+"pinyin": "yǒuhuà",
+"vi": "",
+"known": true
+},
+{
+"zh": "地狱",
+"pinyin": "dìyù",
+"vi": "",
+"known": true
+},
+{
+"zh": "狱",
+"pinyin": "yù",
+"vi": "",
+"known": true
+},
+{
+"zh": "模式",
+"pinyin": "móshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "调解",
+"pinyin": "tiáojiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "举报",
+"pinyin": "jǔbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "举",
+"pinyin": "jǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "事实",
+"pinyin": "shìshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "依据",
+"pinyin": "yījù",
+"vi": "",
+"known": true
+},
+{
+"zh": "依",
+"pinyin": "yī",
+"vi": "",
+"known": true
+},
+{
+"zh": "诉求",
+"pinyin": "sùqiú",
+"vi": "",
+"known": true
+},
+{
+"zh": "后果",
+"pinyin": "hòuguǒ",
+"vi": "",
+"known": true
+},
+{
+"zh": "小事",
+"pinyin": "xiǎoshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "借记卡",
+"pinyin": "jièjìkǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "居留",
+"pinyin": "jūliú",
+"vi": "",
+"known": true
+},
+{
+"zh": "需",
+"pinyin": "xū",
+"vi": "",
+"known": true
+},
+{
+"zh": "国内",
+"pinyin": "guónèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "张表",
+"pinyin": "zhāngbiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "再设",
+"pinyin": "zàishè",
+"vi": "",
+"known": true
+},
+{
+"zh": "六位数",
+"pinyin": "liùwèishù",
+"vi": "",
+"known": true
+},
+{
+"zh": "额度",
+"pinyin": "édù",
+"vi": "",
+"known": true
+},
+{
+"zh": "柜员",
+"pinyin": "guìyuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "柜台",
+"pinyin": "guìtái",
+"vi": "",
+"known": true
+},
+{
+"zh": "转错",
+"pinyin": "zhuǎncuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "误转",
+"pinyin": "wùzhuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "误",
+"pinyin": "wù",
+"vi": "",
+"known": true
+},
+{
+"zh": "自动",
+"pinyin": "zìdòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "礼貌",
+"pinyin": "lǐmào",
+"vi": "",
+"known": true
+},
+{
+"zh": "貌",
+"pinyin": "mào",
+"vi": "",
+"known": true
+},
+{
+"zh": "说明",
+"pinyin": "shuōmíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "三千块",
+"pinyin": "sānqiānkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "非常感谢",
+"pinyin": "fēichánggǎnxiè",
+"vi": "",
+"known": true
+},
+{
+"zh": "借钱",
+"pinyin": "jièqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "手头",
+"pinyin": "shǒutóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "一面",
+"pinyin": "yímiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "先借",
+"pinyin": "xiānjiè",
+"vi": "",
+"known": true
+},
+{
+"zh": "马上转",
+"pinyin": "mǎshàngzhuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "净",
+"pinyin": "jìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "钥",
+"pinyin": "yào",
+"vi": "",
+"known": true
+},
+{
+"zh": "匙",
+"pinyin": "shi",
+"vi": "",
+"known": true
+},
+{
+"zh": "有个",
+"pinyin": "yǒugè",
+"vi": "",
+"known": true
+},
+{
+"zh": "钉子",
+"pinyin": "dīngzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "眼是",
+"pinyin": "yǎnshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "全退",
+"pinyin": "quántuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "汇款",
+"pinyin": "huìkuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "诈骗",
+"pinyin": "zhàpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "诈",
+"pinyin": "zhà",
+"vi": "",
+"known": true
+},
+{
+"zh": "电信",
+"pinyin": "diànxìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "冻",
+"pinyin": "dòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "新手机",
+"pinyin": "xīnshǒujī",
+"vi": "",
+"known": true
+},
+{
+"zh": "后会",
+"pinyin": "hòuhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "陌生人",
+"pinyin": "mòshēngrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "陌",
+"pinyin": "mò",
+"vi": "",
+"known": true
+},
+{
+"zh": "自称",
+"pinyin": "zìchēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "公安",
+"pinyin": "gōngān",
+"vi": "",
+"known": true
+},
+{
+"zh": "催债",
+"pinyin": "cuīzhài",
+"vi": "",
+"known": true
+},
+{
+"zh": "债",
+"pinyin": "zhài",
+"vi": "",
+"known": true
+},
+{
+"zh": "艺术",
+"pinyin": "yìshù",
+"vi": "",
+"known": true
+},
+{
+"zh": "术",
+"pinyin": "shù",
+"vi": "",
+"known": true
+},
+{
+"zh": "防骗",
+"pinyin": "fángpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "反诈",
+"pinyin": "fǎnzhà",
+"vi": "",
+"known": true
+},
+{
+"zh": "中心",
+"pinyin": "zhōngxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "交完",
+"pinyin": "jiāowán",
+"vi": "",
+"known": true
+},
+{
+"zh": "图个",
+"pinyin": "túgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "朋友家",
+"pinyin": "péngyǒujiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "叔",
+"pinyin": "shū",
+"vi": "",
+"known": true
+},
+{
+"zh": "新年好",
+"pinyin": "xīnniánhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "二位",
+"pinyin": "èrwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "小明来",
+"pinyin": "xiǎomínglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "快进来",
+"pinyin": "kuàijìnlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "糖",
+"pinyin": "táng",
+"vi": "",
+"known": true
+},
+{
+"zh": "闹",
+"pinyin": "nào",
+"vi": "",
+"known": true
+},
+{
+"zh": "鞭炮声",
+"pinyin": "biānpàoshēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "鞭",
+"pinyin": "biān",
+"vi": "",
+"known": true
+},
+{
+"zh": "炮",
+"pinyin": "pào",
+"vi": "",
+"known": true
+},
+{
+"zh": "吓人",
+"pinyin": "xiàrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "压",
+"pinyin": "yā",
+"vi": "",
+"known": true
+},
+{
+"zh": "吉利",
+"pinyin": "jílì",
+"vi": "",
+"known": true
+},
+{
+"zh": "吉",
+"pinyin": "jí",
+"vi": "",
+"known": true
+},
+{
+"zh": "婚",
+"pinyin": "hūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "孩",
+"pinyin": "hái",
+"vi": "",
+"known": true
+},
+{
+"zh": "恭",
+"pinyin": "gōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "福如东海",
+"pinyin": "fúrúdōnghǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "指导",
+"pinyin": "zhǐdǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "阖",
+"pinyin": "hé",
+"vi": "",
+"known": true
+},
+{
+"zh": "幸",
+"pinyin": "xìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "新春",
+"pinyin": "xīnchūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "大吉",
+"pinyin": "dàjí",
+"vi": "",
+"known": true
+},
+{
+"zh": "发大财",
+"pinyin": "fādàcái",
+"vi": "",
+"known": true
+},
+{
+"zh": "暴富",
+"pinyin": "bàofù",
+"vi": "",
+"known": true
+},
+{
+"zh": "暴",
+"pinyin": "bào",
+"vi": "",
+"known": true
+},
+{
+"zh": "富",
+"pinyin": "fù",
+"vi": "",
+"known": true
+},
+{
+"zh": "脱单",
+"pinyin": "tuōdān",
+"vi": "",
+"known": true
+},
+{
+"zh": "快快",
+"pinyin": "kuàikuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "长大",
+"pinyin": "zhǎngdà",
+"vi": "",
+"known": true
+},
+{
+"zh": "新年快乐",
+"pinyin": "xīnniánkuàilè",
+"vi": "",
+"known": true
+},
+{
+"zh": "手慢",
+"pinyin": "shǒumàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "八块",
+"pinyin": "bākuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "一毛",
+"pinyin": "yīmáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "太差",
+"pinyin": "tàichà",
+"vi": "",
+"known": true
+},
+{
+"zh": "新春快乐",
+"pinyin": "xīnchūnkuàilè",
+"vi": "",
+"known": true
+},
+{
+"zh": "继",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "加油",
+"pinyin": "jiāyóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "油",
+"pinyin": "yóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "鞭炮",
+"pinyin": "biānpào",
+"vi": "",
+"known": true
+},
+{
+"zh": "烟花",
+"pinyin": "yānhuā",
+"vi": "",
+"known": true
+},
+{
+"zh": "烟",
+"pinyin": "yān",
+"vi": "",
+"known": true
+},
+{
+"zh": "守",
+"pinyin": "shǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "福字",
+"pinyin": "fúzì",
+"vi": "",
+"known": true
+},
+{
+"zh": "倒贴",
+"pinyin": "dàotiē",
+"vi": "",
+"known": true
+},
+{
+"zh": "倒",
+"pinyin": "dào",
+"vi": "",
+"known": true
+},
+{
+"zh": "福到",
+"pinyin": "fúdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "中秋",
+"pinyin": "zhōngqiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "饼",
+"pinyin": "bǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "馅",
+"pinyin": "xiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "莲蓉",
+"pinyin": "liánróng",
+"vi": "",
+"known": true
+},
+{
+"zh": "莲",
+"pinyin": "lián",
+"vi": "",
+"known": true
+},
+{
+"zh": "蓉",
+"pinyin": "róng",
+"vi": "",
+"known": true
+},
+{
+"zh": "蛋黄",
+"pinyin": "dànhuáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "蛋",
+"pinyin": "dàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "圆",
+"pinyin": "yuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "赏",
+"pinyin": "shǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "儿童节",
+"pinyin": "értóngjié",
+"vi": "",
+"known": true
+},
+{
+"zh": "童",
+"pinyin": "tóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "小朋友",
+"pinyin": "xiǎopéngyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "笼",
+"pinyin": "lóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "舞",
+"pinyin": "wǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "狮",
+"pinyin": "shī",
+"vi": "",
+"known": true
+},
+{
+"zh": "在外",
+"pinyin": "zàiwài",
+"vi": "",
+"known": true
+},
+{
+"zh": "大年初一",
+"pinyin": "dàniánchūyī",
+"vi": "",
+"known": true
+},
+{
+"zh": "街上",
+"pinyin": "jiēshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "结课",
+"pinyin": "jiékè",
+"vi": "",
+"known": true
+},
+{
+"zh": "福倒",
+"pinyin": "fúdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "碎碎",
+"pinyin": "suìsuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "平安",
+"pinyin": "píngān",
+"vi": "",
+"known": true
+},
+{
+"zh": "汉",
+"pinyin": "hàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "宿舍",
+"pinyin": "sùshè",
+"vi": "",
+"known": true
+},
+{
+"zh": "挺好吃",
+"pinyin": "tǐnghǎochī",
+"vi": "",
+"known": true
+},
+{
+"zh": "越南人",
+"pinyin": "yuènánrén",
+"vi": "",
+"known": true
+},
+{
+"zh": "拿上来",
+"pinyin": "náshànglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "电话号码",
+"pinyin": "diànhuàhàomǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "发给",
+"pinyin": "fāgěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "咸",
+"pinyin": "xián",
+"vi": "",
+"known": true
+},
+{
+"zh": "过得",
+"pinyin": "guòdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "带走",
+"pinyin": "dàizǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "减十",
+"pinyin": "jiǎnshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "四十二",
+"pinyin": "sìshíèr",
+"vi": "",
+"known": true
+},
+{
+"zh": "打篮球",
+"pinyin": "dǎlánqiú",
+"vi": "",
+"known": true
+},
+{
+"zh": "篮",
+"pinyin": "lán",
+"vi": "",
+"known": true
+},
+{
+"zh": "十个",
+"pinyin": "shígè",
+"vi": "",
+"known": true
+},
+{
+"zh": "八个",
+"pinyin": "bāgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "包邮要",
+"pinyin": "bāoyóuyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "一双",
+"pinyin": "yīshuāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "袜子",
+"pinyin": "wàzi",
+"vi": "",
+"known": true
+},
+{
+"zh": "袜",
+"pinyin": "wà",
+"vi": "",
+"known": true
+},
+{
+"zh": "几桌",
+"pinyin": "jǐzhuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "两碗",
+"pinyin": "liǎngwǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "多菜",
+"pinyin": "duōcài",
+"vi": "",
+"known": true
+},
+{
+"zh": "不能不",
+"pinyin": "bùnéngbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "不送",
+"pinyin": "bùsòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "因",
+"pinyin": "yīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "二十七",
+"pinyin": "èrshíqī",
+"vi": "",
+"known": true
+},
+{
+"zh": "十五",
+"pinyin": "shíwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "放在",
+"pinyin": "fàngzài",
+"vi": "",
+"known": true
+},
+{
+"zh": "发柜",
+"pinyin": "fāguì",
+"vi": "",
+"known": true
+},
+{
+"zh": "体重",
+"pinyin": "tǐzhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "拿大",
+"pinyin": "nádà",
+"vi": "",
+"known": true
+},
+{
+"zh": "一码",
+"pinyin": "yīmǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "店买",
+"pinyin": "diànmǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "料子",
+"pinyin": "liàozi",
+"vi": "",
+"known": true
+},
+{
+"zh": "很软",
+"pinyin": "hěnruǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "软",
+"pinyin": "ruǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "计划",
+"pinyin": "jìhuà",
+"vi": "",
+"known": true
+},
+{
+"zh": "糕",
+"pinyin": "gāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "不太甜",
+"pinyin": "bùtàitián",
+"vi": "",
+"known": true
+},
+{
+"zh": "人才",
+"pinyin": "réncái",
+"vi": "",
+"known": true
+},
+{
+"zh": "一题",
+"pinyin": "yītí",
+"vi": "",
+"known": true
+},
+{
+"zh": "穿衣服",
+"pinyin": "chuānyīfú",
+"vi": "",
+"known": true
+},
+{
+"zh": "再剪",
+"pinyin": "zàijiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "没发",
+"pinyin": "méifā",
+"vi": "",
+"known": true
+},
+{
+"zh": "骑车",
+"pinyin": "qíchē",
+"vi": "",
+"known": true
+},
+{
+"zh": "十分钟",
+"pinyin": "shífēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "家离",
+"pinyin": "jiālí",
+"vi": "",
+"known": true
+},
+{
+"zh": "三百",
+"pinyin": "sānbǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "二百五",
+"pinyin": "èrbǎiwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "四千",
+"pinyin": "sìqiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "抹个",
+"pinyin": "mǒgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "租客",
+"pinyin": "zūkè",
+"vi": "",
+"known": true
+},
+{
+"zh": "晚交",
+"pinyin": "wǎnjiāo",
+"vi": "",
+"known": true
+},
+{
+"zh": "罚",
+"pinyin": "fá",
+"vi": "",
+"known": true
+},
+{
+"zh": "百分之五",
+"pinyin": "bǎifēnzhīwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "按时",
+"pinyin": "ànshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "罚款",
+"pinyin": "fákuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "三月",
+"pinyin": "sānyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "时有",
+"pinyin": "shíyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "风时",
+"pinyin": "fēngshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "没风",
+"pinyin": "méifēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "里养",
+"pinyin": "lǐyǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "宠物",
+"pinyin": "chǒngwù",
+"vi": "",
+"known": true
+},
+{
+"zh": "宠",
+"pinyin": "chǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "重新",
+"pinyin": "chóngxīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "装修",
+"pinyin": "zhuāngxiū",
+"vi": "",
+"known": true
+},
+{
+"zh": "慢慢",
+"pinyin": "mànmàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "太贵",
+"pinyin": "tàiguì",
+"vi": "",
+"known": true
+},
+{
+"zh": "鲜",
+"pinyin": "xiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "旁",
+"pinyin": "páng",
+"vi": "",
+"known": true
+},
+{
+"zh": "停到",
+"pinyin": "tíngdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "别开",
+"pinyin": "biékāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "太快",
+"pinyin": "tàikuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "带上",
+"pinyin": "dàishàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "担",
+"pinyin": "dān",
+"vi": "",
+"known": true
+},
+{
+"zh": "先过",
+"pinyin": "xiānguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "太挤",
+"pinyin": "tàijǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "熬夜",
+"pinyin": "áoyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "熬",
+"pinyin": "áo",
+"vi": "",
+"known": true
+},
+{
+"zh": "急得",
+"pinyin": "jídé",
+"vi": "",
+"known": true
+},
+{
+"zh": "越近",
+"pinyin": "yuèjìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "火车票",
+"pinyin": "huǒchēpiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "越难",
+"pinyin": "yuènán",
+"vi": "",
+"known": true
+},
+{
+"zh": "人越",
+"pinyin": "rényuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "流利",
+"pinyin": "liúlì",
+"vi": "",
+"known": true
+},
+{
+"zh": "找错",
+"pinyin": "zhǎocuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "别用",
+"pinyin": "biéyòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "肚子疼",
+"pinyin": "dǔziténg",
+"vi": "",
+"known": true
+},
+{
+"zh": "暖和",
+"pinyin": "nuǎnhuo",
+"vi": "",
+"known": true
+},
+{
+"zh": "轻松",
+"pinyin": "qīngsōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "火锅",
+"pinyin": "huǒguō",
+"vi": "",
+"known": true
+},
+{
+"zh": "证件",
+"pinyin": "zhèngjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "偷偷",
+"pinyin": "tōutōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "淋湿",
+"pinyin": "línshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "淋",
+"pinyin": "lín",
+"vi": "",
+"known": true
+},
+{
+"zh": "湿",
+"pinyin": "shī",
+"vi": "",
+"known": true
+},
+{
+"zh": "雨淋",
+"pinyin": "yǔlín",
+"vi": "",
+"known": true
+},
+{
+"zh": "往东",
+"pinyin": "wǎngdōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "早就",
+"pinyin": "zǎojiù",
+"vi": "",
+"known": true
+},
+{
+"zh": "两份",
+"pinyin": "liǎngfèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "整到",
+"pinyin": "zhěngdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "风景",
+"pinyin": "fēngjǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "早起",
+"pinyin": "zǎoqǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "六点",
+"pinyin": "liùdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "日出",
+"pinyin": "rìchū",
+"vi": "",
+"known": true
+},
+{
+"zh": "上个星期",
+"pinyin": "shànggèxīngqī",
+"vi": "",
+"known": true
+},
+{
+"zh": "没法",
+"pinyin": "méifǎ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一袋",
+"pinyin": "yīdài",
+"vi": "",
+"known": true
+},
+{
+"zh": "几次",
+"pinyin": "jǐcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "几片",
+"pinyin": "jǐpiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃完饭",
+"pinyin": "chīwánfàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃凉",
+"pinyin": "chīliáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "凉",
+"pinyin": "liáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "会上",
+"pinyin": "huìshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "喝了酒",
+"pinyin": "hēlejiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "掉下来",
+"pinyin": "diàoxiàlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "不到",
+"pinyin": "búdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "租远",
+"pinyin": "zūyuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "六个",
+"pinyin": "liùgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "五十五",
+"pinyin": "wǔshíwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "九十",
+"pinyin": "jiǔshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "不敢",
+"pinyin": "bùgǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "敢",
+"pinyin": "gǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "选个",
+"pinyin": "xuǎngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "电影吧",
+"pinyin": "diànyǐngba",
+"vi": "",
+"known": true
+},
+{
+"zh": "考虑一下",
+"pinyin": "kǎolǜyīxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "就是说",
+"pinyin": "jiùshìshuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "很怕",
+"pinyin": "hěnpà",
+"vi": "",
+"known": true
+},
+{
+"zh": "交流",
+"pinyin": "jiāoliú",
+"vi": "",
+"known": true
+},
+{
+"zh": "没给",
+"pinyin": "méigěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "没叫",
+"pinyin": "méijiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "丑",
+"pinyin": "chǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "一首歌",
+"pinyin": "yīshǒugē",
+"vi": "",
+"known": true
+},
+{
+"zh": "花钱",
+"pinyin": "huāqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "技术",
+"pinyin": "jìshù",
+"vi": "",
+"known": true
+},
+{
+"zh": "太重",
+"pinyin": "tàizhòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "十五号",
+"pinyin": "shíwǔhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "花完",
+"pinyin": "huāwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "减肥",
+"pinyin": "jiǎnféi",
+"vi": "",
+"known": true
+},
+{
+"zh": "肥",
+"pinyin": "féi",
+"vi": "",
+"known": true
+},
+{
+"zh": "一斤",
+"pinyin": "yījīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "这身",
+"pinyin": "zhèshēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "搞笑",
+"pinyin": "gǎoxiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "搞",
+"pinyin": "gǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "价格",
+"pinyin": "jiàgé",
+"vi": "",
+"known": true
+},
+{
+"zh": "格",
+"pinyin": "gé",
+"vi": "",
+"known": true
+},
+{
+"zh": "惊讶",
+"pinyin": "jīngyà",
+"vi": "",
+"known": true
+},
+{
+"zh": "惊",
+"pinyin": "jīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "讶",
+"pinyin": "yà",
+"vi": "",
+"known": true
+},
+{
+"zh": "惊到",
+"pinyin": "jīngdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "真是太",
+"pinyin": "zhēnshìtài",
+"vi": "",
+"known": true
+},
+{
+"zh": "太大意",
+"pinyin": "tàidàyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "大意",
+"pinyin": "dàyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "十页",
+"pinyin": "shíyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "五页",
+"pinyin": "wǔyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "总结",
+"pinyin": "zǒngjié",
+"vi": "",
+"known": true
+},
+{
+"zh": "月底",
+"pinyin": "yuèdǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "交给",
+"pinyin": "jiāogěi",
+"vi": "",
+"known": true
+},
+{
+"zh": "今天下午",
+"pinyin": "jīntiānxiàwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "三点",
+"pinyin": "sāndiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "我订",
+"pinyin": "wǒdìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "会议室",
+"pinyin": "huìyìshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "软件",
+"pinyin": "ruǎnjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "张姐",
+"pinyin": "zhāngjiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "这份",
+"pinyin": "zhèfèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "资料",
+"pinyin": "zīliào",
+"vi": "",
+"known": true
+},
+{
+"zh": "请小王",
+"pinyin": "qǐngxiǎowáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "合作愉快",
+"pinyin": "hézuòyúkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "愉",
+"pinyin": "yú",
+"vi": "",
+"known": true
+},
+{
+"zh": "李姐",
+"pinyin": "lǐjiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "代酒",
+"pinyin": "dàijiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "发财",
+"pinyin": "fācái",
+"vi": "",
+"known": true
+},
+{
+"zh": "分散",
+"pinyin": "fēnsàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "先动",
+"pinyin": "xiāndòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "胡志明市",
+"pinyin": "húzhìmíngshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "胡",
+"pinyin": "hú",
+"vi": "",
+"known": true
+},
+{
+"zh": "经济",
+"pinyin": "jīngjì",
+"vi": "",
+"known": true
+},
+{
+"zh": "济",
+"pinyin": "jì",
+"vi": "",
+"known": true
+},
+{
+"zh": "六个月",
+"pinyin": "liùgèyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "八到",
+"pinyin": "bādào",
+"vi": "",
+"known": true
+},
+{
+"zh": "九个",
+"pinyin": "jiǔgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "出差",
+"pinyin": "chūchāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "调整",
+"pinyin": "tiáozhěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "维护",
+"pinyin": "wéihù",
+"vi": "",
+"known": true
+},
+{
+"zh": "口译",
+"pinyin": "kǒuyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "修好",
+"pinyin": "xiūhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "涨",
+"pinyin": "zhǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "四十八",
+"pinyin": "sìshíbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "律师",
+"pinyin": "lǜshī",
+"vi": "",
+"known": true
+},
+{
+"zh": "律",
+"pinyin": "lǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "我用",
+"pinyin": "wǒyòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "先帮",
+"pinyin": "xiānbāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "到家",
+"pinyin": "dàojiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "太忙",
+"pinyin": "tàimáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "准",
+"pinyin": "zhǔn",
+"vi": "",
+"known": true
+},
+{
+"zh": "那笔",
+"pinyin": "nàbǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "早日",
+"pinyin": "zǎorì",
+"vi": "",
+"known": true
+},
+{
+"zh": "六块",
+"pinyin": "liùkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "六六",
+"pinyin": "liùliù",
+"vi": "",
+"known": true
+},
+{
+"zh": "好彩头",
+"pinyin": "hǎocǎitóu",
+"vi": "",
+"known": true
+},
+{
+"zh": "彩",
+"pinyin": "cǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "道菜",
+"pinyin": "dàocài",
+"vi": "",
+"known": true
+},
+{
+"zh": "吃饺子",
+"pinyin": "chījiǎozi",
+"vi": "",
+"known": true
+},
+{
+"zh": "饺",
+"pinyin": "jiǎo",
+"vi": "",
+"known": true
+}
+]
+}
