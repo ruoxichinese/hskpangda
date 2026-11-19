@@ -10,7 +10,12 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:single": "tsc -b && vite build -c vite.single.config.ts",
-    "hanzi-data": "node scripts/build-hanzi-data.mjs"
+    "hanzi-data": "node scripts/build-hanzi-data.mjs",
+    "dict-index": "node scripts/build-dict-index.mjs",
+    "predev": "node scripts/build-dict-index.mjs",
+    "prebuild": "node scripts/build-dict-index.mjs",
+    "pretest": "node scripts/build-dict-index.mjs",
+    "prebuild:single": "node scripts/build-dict-index.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",

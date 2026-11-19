@@ -24,6 +24,8 @@ create table if not exists public.classes (
   teacher_id uuid not null default auth.uid() references public.profiles (id) on delete cascade,
   created_at timestamptz not null default now()
 );
+-- khoá học lớp được mở (null = tất cả); xem supabase/migrations/2026-11-khoa-hoc-cho-lop.sql
+alter table public.classes add column if not exists courses text[];
 
 create table if not exists public.class_members (
   class_id   uuid not null references public.classes (id) on delete cascade,

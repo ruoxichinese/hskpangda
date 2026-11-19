@@ -194,6 +194,16 @@ Cần chạy lại `supabase/schema.sql` trong SQL Editor để tạo bảng `ex
 
 Giới hạn: nội dung đề và đáp án vẫn nằm trong code website, nên một học sinh rành kỹ thuật có thể mở công cụ lập trình của trình duyệt để xem. Với thi trực tuyến có giám sát qua camera thì đủ dùng. Muốn chặt hơn, đặt kho GitHub ở chế độ riêng tư.
 
+### Chỉ học sinh trong lớp mới vào học được
+
+Khi website có đăng nhập (Supabase), mọi trang học và phòng thi chỉ mở cho người **đã đăng nhập và đang ở trong ít nhất một lớp**, hoặc là giáo viên. Người khác có đường link chỉ thấy trang mời đăng nhập và nhập mã lớp. Trang Tài khoản luôn mở để đăng nhập.
+
+- Quyền vào học được kiểm tra trên máy chủ mỗi lần mở website, và nhớ trên máy 30 ngày để học sinh vẫn học được khi mạng chập chờn.
+- Giáo viên xoá học sinh khỏi lớp thì lần mở website sau, học sinh đó bị chặn (nếu không còn ở lớp nào khác).
+- Muốn mở công khai trở lại: thêm Repository variable `VITE_REQUIRE_CLASS` = `0` rồi chạy lại workflow.
+
+Giới hạn: đây là cổng ở giao diện. File nội dung (dữ liệu bài học trong code, file mp3) vẫn nằm công khai trên GitHub Pages, người rành kỹ thuật biết đường dẫn vẫn tải được.
+
 ## Ghi chú kỹ thuật
 
 - **Tiến độ** lưu trong localStorage với các khoá `progress.<cấp>`, `pangda.global`, `pangda.settings`, `pangda.theme`, `pangda.mode`. Trang Cài đặt có xuất/nhập file JSON. Phiên đăng nhập Supabase lưu ở khoá `sb-pangda-auth` (không nằm trong file sao lưu).
@@ -201,3 +211,8 @@ Giới hạn: nội dung đề và đáp án vẫn nằm trong code website, nê
 - **Chấm phát âm** khi Đóng vai dùng Speech Recognition (Chrome, Edge, Safari). Điểm là độ giống giữa câu nhận dạng được và câu mẫu, chỉ mang tính tham khảo.
 - **Triển khai** lên host tĩnh không hỗ trợ rewrite URL (GitHub Pages…): `VITE_HASH_ROUTER=1 VITE_BASE=/ten-repo/ npm run build`.
 - **Tiếp cận:** điều hướng được bằng bàn phím, có aria-label, có link "Bỏ qua tới nội dung chính". Khi bật prefers-reduced-motion, Pàngdá đứng yên và không có confetti.
+
+## Nguồn dữ liệu
+
+- Nghĩa tiếng Việt của bảng tra từ (`src/data/giaotiep/glossary.json`, `src/data/business/glossary.json`) lấy từ [CVDICT](https://github.com/ph0ngp/CVDICT) của Phong Phan, giấy phép [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), dựa trên CC-CEDICT. Hai file này phân phối lại theo cùng giấy phép.
+- Dữ liệu tách bộ kiện chữ (`src/data/components.json`) lấy từ [Make Me a Hanzi](https://github.com/skishore/makemeahanzi).
