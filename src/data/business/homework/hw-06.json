@@ -1,0 +1,276 @@
+{
+ "lessonId": 6,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "你好你好！还好，（　　）挺准时的。这位是我们的技术总监孙总。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "航班",
+      "生产线",
+      "安全帽"
+     ],
+     "answer": 0,
+     "explain_vi": "航班: chuyến bay. Câu đầy đủ: 你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！（　　）了！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "一路辛苦",
+      "留步",
+      "车间"
+     ],
+     "answer": 0,
+     "explain_vi": "一路辛苦: đi đường vất vả rồi. Câu đầy đủ: 请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "（　　），还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "安全帽",
+      "哪里哪里",
+      "一路平安"
+     ],
+     "answer": 1,
+     "explain_vi": "哪里哪里: đâu có (đáp lời khen). Câu đầy đủ: 哪里哪里，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "各位领导，我简单介绍一下这两天的（　　）：明天上午九点参观我们平阳的厂区和生产线，下午两点在会议室洽谈；后天上午自由活动，下午三点送机。行程表我已经发到群里了，大家可以看一下。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "宣传册",
+      "座次",
+      "行程安排"
+     ],
+     "answer": 2,
+     "explain_vi": "行程安排: lịch trình. Câu đầy đủ: 各位领导，我简单介绍一下这两天的行程安排：明天上午九点参观我们平阳的厂区和生产线，下午两点在会议室洽谈；后天上午自由活动，下午三点送机。行程表我已经发到群里了，大家可以看一下。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "安排得很周到。（　　）的时候可以拍照吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "航班",
+      "参观",
+      "陪同"
+     ],
+     "answer": 1,
+     "explain_vi": "参观: tham quan. Câu đầy đủ: 安排得很周到。参观的时候可以拍照吗？"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好（　　），注意脚下。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "考察",
+      "安全帽",
+      "行程安排"
+     ],
+     "answer": 1,
+     "explain_vi": "安全帽: mũ bảo hộ. Câu đầy đủ: 办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "小阮，这两天辛苦你了，送到这儿就行，请（　　）。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "留步",
+      "一路辛苦",
+      "安全帽"
+     ],
+     "answer": 0,
+     "explain_vi": "留步: xin dừng bước (đừng tiễn). Câu đầy đủ: 小阮，这两天辛苦你了，送到这儿就行，请留步。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "应该的！这两天（　　），还请多多包涵。欢迎下次再来，一路平安！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "招待不周",
+      "航班",
+      "行程表"
+     ],
+     "answer": 0,
+     "explain_vi": "招待不周: tiếp đãi chưa chu đáo. Câu đầy đủ: 应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "接待",
+       "a": "tiếp đón"
+      },
+      {
+       "q": "接机 / 送机",
+       "a": "đón / tiễn sân bay"
+      },
+      {
+       "q": "航班",
+       "a": "chuyến bay"
+      },
+      {
+       "q": "一路辛苦",
+       "a": "đi đường vất vả rồi"
+      },
+      {
+       "q": "幸会",
+       "a": "hân hạnh được gặp"
+      },
+      {
+       "q": "久仰",
+       "a": "ngưỡng mộ đã lâu"
+      }
+     ],
+     "explain_vi": "接待 = tiếp đón · 接机 / 送机 = đón / tiễn sân bay · 航班 = chuyến bay · 一路辛苦 = đi đường vất vả rồi · 幸会 = hân hạnh được gặp · 久仰 = ngưỡng mộ đã lâu"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "的赵",
+      "经理吗",
+      "请问是",
+      "华丰",
+      "深圳"
+     ],
+     "answers": [
+      "请问是深圳华丰的赵经理吗"
+     ],
+     "explain_vi": "请问是深圳华丰的赵经理吗 — trích từ câu: 请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "集团",
+      "我是",
+      "阮",
+      "东盛",
+      "的小"
+     ],
+     "answers": [
+      "我是东盛集团的小阮"
+     ],
+     "explain_vi": "我是东盛集团的小阮 — trích từ câu: 请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "来到",
+      "胡志明市",
+      "欢迎"
+     ],
+     "answers": [
+      "欢迎来到胡志明市"
+     ],
+     "explain_vi": "欢迎来到胡志明市 — trích từ câu: 请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "准时",
+      "航班",
+      "挺"
+     ],
+     "answers": [
+      "航班挺准时的"
+     ],
+     "explain_vi": "航班挺准时的 — trích từ câu: 你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Chào anh Tôn, rất hân hạnh được gặp anh! (đưa danh thiếp bằng hai tay) Đây là danh thiếp của em, mong anh giúp đỡ.",
+     "acceptedAnswers": [
+      "孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。"
+     ],
+     "requiredKeywords": [
+      "幸会",
+      "名片"
+     ],
+     "explain_vi": "Câu trong bài khoá: 孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "这位是",
+      "我们的",
+      "技术",
+      "孙总",
+      "总监"
+     ],
+     "answers": [
+      "这位是我们的技术总监孙总"
+     ],
+     "explain_vi": "这位是我们的技术总监孙总 — trích từ câu: 你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "名片",
+      "双手递上",
+      "我的",
+      "名片",
+      "这是"
+     ],
+     "answers": [
+      "双手递上名片这是我的名片"
+     ],
+     "explain_vi": "双手递上名片这是我的名片 — trích từ câu: 孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "中文说得",
+      "看了",
+      "先生的",
+      "真好啊",
+      "一下阮"
+     ],
+     "answers": [
+      "看了一下阮先生的中文说得真好啊"
+     ],
+     "explain_vi": "看了一下阮先生的中文说得真好啊 — trích từ câu: （双手接过，看了一下）阮先生的中文说得真好啊！"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+ "id": 20,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "中越商务合作：数据、规则与文化差异",
+  "pinyin": "zhōng yuè shāng wù hé zuò shù jù guī zé yǔ wén huà chā yì",
+  "vi": "trình bày số liệu thương mại"
+ },
+ "grammarTopics_vi": [
+  "据……统计，……达……，同比增长……%",
+  "……，不过……，建议您……",
+  "这个很关键。……，但……，不是简单……就可以。",
+  "这跟……有关系。……，建议……",
+  "原来如此，这一点跟……其实挺像的。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Trình bày số liệu thương mại",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Thảo luận đầu tư – chuỗi cung ứng",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Làm cầu nối văn hoá giữa công ty Trung Quốc và nhân sự",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đối tác Việt Nam",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "中国—东盟博览会上",
+   "context_vi": "课文一 · 中国—东盟博览会上",
+   "scene": "🇻🇳",
+   "lines": [
+    {
+     "speaker": "bc-huangzong",
+     "zh": "阮先生，你们越南这几年发展很快啊。我们想在北宁设厂，你觉得怎么样？",
+     "vi": "Anh Nguyễn, mấy năm nay Việt Nam các anh phát triển nhanh thật đấy. Chúng tôi muốn đặt nhà máy ở Bắc Ninh, anh thấy thế nào?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "欢迎啊！北宁、北江离谅山口岸近，供应链配套比较成熟，电子产业基础也好。不过现在工业园区土地价格涨得比较快，劳动力成本也在上升，建议您尽早实地考察。",
+     "vi": "Hoan nghênh anh! Bắc Ninh, Bắc Giang gần cửa khẩu Lạng Sơn, chuỗi cung ứng phụ trợ khá hoàn thiện, nền tảng ngành điện tử cũng tốt. Tuy nhiên hiện giá đất khu công nghiệp tăng khá nhanh, chi phí lao động cũng đang tăng, em đề xuất anh nên sớm khảo sát thực địa."
+    },
+    {
+     "speaker": "bc-huangzong",
+     "zh": "原产地规则这块你熟悉吗？我们主要出口欧美。",
+     "vi": "Mảng quy tắc xuất xứ anh có rành không? Chúng tôi chủ yếu xuất khẩu sang Âu Mỹ."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "这个很关键。越南跟欧盟有自贸协定，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。",
+     "vi": "Việc này rất then chốt. Việt Nam có hiệp định thương mại tự do với EU, nhưng giấy chứng nhận xuất xứ có yêu cầu về tỷ lệ giá trị gia tăng nội địa, không phải chỉ lắp ráp đơn giản là được. Em có thể hẹn giúp anh một người bạn là luật sư chuyên về tuân thủ."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "设厂",
+     "pinyin": "shèchǎng",
+     "vi": "đặt nhà máy",
+     "example": {
+      "zh": "阮先生，你们越南这几年发展很快啊。我们想在北宁设厂，你觉得怎么样？",
+      "vi": "Anh Nguyễn, mấy năm nay Việt Nam các anh phát triển nhanh thật đấy. Chúng tôi muốn đặt nhà máy ở Bắc Ninh, anh thấy thế nào?"
+     }
+    },
+    {
+     "zh": "工业园区",
+     "pinyin": "gōngyè yuánqū",
+     "vi": "khu công nghiệp"
+    },
+    {
+     "zh": "供应链",
+     "pinyin": "gōngyìngliàn",
+     "vi": "chuỗi cung ứng"
+    },
+    {
+     "zh": "配套",
+     "pinyin": "pèitào",
+     "vi": "đồng bộ, phụ trợ"
+    },
+    {
+     "zh": "产业链",
+     "pinyin": "chǎnyèliàn",
+     "vi": "chuỗi ngành"
+    },
+    {
+     "zh": "实地考察",
+     "pinyin": "shídì kǎochá",
+     "vi": "khảo sát thực địa"
+    },
+    {
+     "zh": "劳动力成本",
+     "pinyin": "láodònglì chéngběn",
+     "vi": "chi phí lao động"
+    },
+    {
+     "zh": "自贸协定",
+     "pinyin": "zìmào xiédìng",
+     "vi": "hiệp định thương mại tự do"
+    },
+    {
+     "zh": "原产地证书",
+     "pinyin": "yuánchǎndì zhèngshū",
+     "vi": "giấy chứng nhận xuất xứ (C/O)"
+    },
+    {
+     "zh": "增值比例",
+     "pinyin": "zēngzhí bǐlì",
+     "vi": "tỉ lệ giá trị gia tăng"
+    },
+    {
+     "zh": "组装",
+     "pinyin": "zǔzhuāng",
+     "vi": "lắp ráp"
+    },
+    {
+     "zh": "关税",
+     "pinyin": "guānshuì",
+     "vi": "thuế quan"
+    },
+    {
+     "zh": "清关",
+     "pinyin": "qīngguān",
+     "vi": "thông quan"
+    },
+    {
+     "zh": "口岸",
+     "pinyin": "kǒu'àn",
+     "vi": "cửa khẩu"
+    },
+    {
+     "zh": "边境贸易",
+     "pinyin": "biānjìng màoyì",
+     "vi": "thương mại biên giới"
+    },
+    {
+     "zh": "跨境电商",
+     "pinyin": "kuàjìng diànshāng",
+     "vi": "thương mại điện tử xuyên biên giới"
+    },
+    {
+     "zh": "合资 / 独资",
+     "pinyin": "hézī / dúzī",
+     "vi": "liên doanh / 100% vốn"
+    },
+    {
+     "zh": "经销商",
+     "pinyin": "jīngxiāoshāng",
+     "vi": "nhà phân phối"
+    },
+    {
+     "zh": "本土化",
+     "pinyin": "běntǔhuà",
+     "vi": "nội địa hoá"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g20-1",
+     "title_zh": "据……统计，……达……，同比增长……%",
+     "title_vi": "Câu báo cáo số liệu kiểu báo chí",
+     "formula": [
+      [
+       {
+        "zh": "据",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "统计，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "达",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，同比增长",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "%",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu báo cáo số liệu kiểu báo chí.",
+     "examples": []
+    },
+    {
+     "id": "bc-g20-3",
+     "title_zh": "这个很关键。……，但……，不是简单……就可以。",
+     "title_vi": "Nhấn mạnh điều kiện, chỉnh cách hiểu sai của đối phương",
+     "formula": [
+      [
+       {
+        "zh": "这个很关键。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，但",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，不是简单",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "就可以。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Nhấn mạnh điều kiện, chỉnh cách hiểu sai của đối phương.",
+     "examples": [
+      {
+       "zh": "这个很关键。越南跟欧盟有自贸协定，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。",
+       "vi": "Việc này rất then chốt. Việt Nam có hiệp định thương mại tự do với EU, nhưng giấy chứng nhận xuất xứ có yêu cầu về tỷ lệ giá trị gia tăng nội địa, không phải chỉ lắp ráp đơn giản là được. Em có thể hẹn giúp anh một người bạn là luật sư chuyên về tuân thủ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）。越南跟欧盟有自贸协定，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。",
+       "options": [
+        "其实挺像的",
+        "增长了一倍",
+        "这个很关键"
+       ],
+       "answer": 2,
+       "explain_vi": "这个很关键。越南跟欧盟有自贸协定，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。 — Việc này rất then chốt. Việt Nam có hiệp định thương mại tự do với EU, nhưng giấy chứng nhận xuất xứ có yêu cầu về tỷ lệ giá trị gia tăng nội địa, không phải chỉ lắp ráp đơn giản là được. Em có thể hẹn giúp anh một người bạn là luật sư chuyên về tuân thủ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "中方经理与越南团队",
+   "context_vi": "课文二 · 中方经理与越南团队",
+   "scene": "🇻🇳",
+   "lines": [
+    {
+     "speaker": "bc-zhengzong",
+     "zh": "小阮，我们越南工厂的员工好像不太愿意加班，给加班费也不来，这是怎么回事？",
+     "vi": "Tiểu Nguyễn, công nhân ở nhà máy Việt Nam của chúng ta hình như không thích tăng ca lắm, trả tiền tăng ca cũng không đến, là sao vậy?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "郑总，这跟文化有关系。越南员工很重视家庭和周末，而且很多人是从外省来的，节假日要回老家。建议提前一周排班，说明原因，让组长先沟通。另外，越南员工很看重被尊重，当着大家的面批评容易伤面子，最好私下谈。",
+     "vi": "Anh Trịnh, chuyện này liên quan đến văn hoá. Người lao động Việt Nam rất coi trọng gia đình và cuối tuần, lại nhiều người từ tỉnh khác đến, ngày lễ phải về quê. Em đề xuất xếp ca trước một tuần, giải thích lý do, để tổ trưởng trao đổi trước. Ngoài ra, người Việt Nam rất coi trọng việc được tôn trọng, phê bình trước mặt mọi người dễ làm mất thể diện, tốt nhất nên nói chuyện riêng."
+    },
+    {
+     "speaker": "bc-zhengzong",
+     "zh": "原来如此，这一点跟中国其实挺像的。那年终的时候，越南有什么习惯？",
+     "vi": "Ra là vậy, điểm này thật ra khá giống Trung Quốc. Vậy cuối năm thì Việt Nam có tập quán gì?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "越南春节前一般要发第十三个月工资，也就是“Tết”奖金，大家非常看重。",
+     "vi": "Trước Tết Nguyên đán, Việt Nam thường trả lương tháng thứ mười ba, tức là thưởng Tết, mọi người rất coi trọng."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "排班",
+     "pinyin": "páibān",
+     "vi": "xếp ca"
+    },
+    {
+     "zh": "私下",
+     "pinyin": "sīxià",
+     "vi": "riêng tư, riêng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g20-2",
+     "title_zh": "……，不过……，建议您……",
+     "title_vi": "Tư vấn cho đối tác",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，不过",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，建议您",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Tư vấn cho đối tác: ưu điểm → rủi ro → khuyến nghị.",
+     "examples": []
+    },
+    {
+     "id": "bc-g20-5",
+     "title_zh": "原来如此，这一点跟……其实挺像的。",
+     "title_vi": "Đáp lại khi hiểu ra",
+     "formula": [
+      [
+       {
+        "zh": "原来如此，这一点跟",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "其实挺像的。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Đáp lại khi hiểu ra; hữu ích để tìm điểm chung.",
+     "examples": [
+      {
+       "zh": "原来如此，这一点跟中国其实挺像的。那年终的时候，越南有什么习惯？",
+       "vi": "Ra là vậy, điểm này thật ra khá giống Trung Quốc. Vậy cuối năm thì Việt Nam có tập quán gì?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "原来如此，这一点跟中国（　）。那年终的时候，越南有什么习惯？",
+       "options": [
+        "其实挺像的",
+        "增长了一倍",
+        "这个很关键"
+       ],
+       "answer": 0,
+       "explain_vi": "原来如此，这一点跟中国其实挺像的。那年终的时候，越南有什么习惯？ — Ra là vậy, điểm này thật ra khá giống Trung Quốc. Vậy cuối năm thì Việt Nam có tập quán gì?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "数据速读",
+   "context_vi": "课文三 · 数据速读",
+   "scene": "🇻🇳",
+   "lines": [
+    {
+     "speaker": "bc-wenben",
+     "zh": "据中国海关总署统计，2025年中越双边贸易额达2961.4亿美元，同比增长13.7%。中国连续多年保持越南第一大贸易伙伴地位，越南是中国在东盟最大的贸易伙伴。",
+     "vi": "Theo thống kê của Tổng cục Hải quan Trung Quốc, năm 2025 kim ngạch thương mại song phương Trung – Việt đạt 296,14 tỷ đô la Mỹ, tăng 13,7% so với cùng kỳ. Trung Quốc nhiều năm liền giữ vị trí đối tác thương mại lớn nhất của Việt Nam, còn Việt Nam là đối tác thương mại lớn nhất của Trung Quốc trong ASEAN."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "东盟",
+     "pinyin": "Dōngméng",
+     "vi": "ASEAN"
+    },
+    {
+     "zh": "博览会",
+     "pinyin": "bólǎnhuì",
+     "vi": "hội chợ triển lãm"
+    },
+    {
+     "zh": "客商",
+     "pinyin": "kèshāng",
+     "vi": "thương nhân (khách)"
+    },
+    {
+     "zh": "双边贸易额",
+     "pinyin": "shuāngbiān màoyì'é",
+     "vi": "kim ngạch thương mại song phương"
+    },
+    {
+     "zh": "同比增长",
+     "pinyin": "tóngbǐ zēngzhǎng",
+     "vi": "tăng so với cùng kỳ"
+    },
+    {
+     "zh": "贸易伙伴",
+     "pinyin": "màoyì huǒbàn",
+     "vi": "đối tác thương mại"
+    },
+    {
+     "zh": "互利共赢",
+     "pinyin": "hùlì gòngyíng",
+     "vi": "cùng có lợi, cùng thắng"
+    },
+    {
+     "zh": "入乡随俗",
+     "pinyin": "rù xiāng suí sú",
+     "vi": "nhập gia tuỳ tục"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g20-4",
+     "title_zh": "这跟……有关系。……，建议……",
+     "title_vi": "Giải thích khác biệt văn hoá và đưa giải pháp",
+     "formula": [
+      [
+       {
+        "zh": "这跟",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "有关系。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，建议",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Giải thích khác biệt văn hoá và đưa giải pháp.",
+     "examples": []
+    },
+    {
+     "id": "bc-c20-1",
+     "title_zh": "达到 / 突破 / 超过 + số",
+     "title_vi": "Văn viết công sở · So sánh số liệu",
+     "formula": [
+      [
+       {
+        "zh": "达到 / 突破 / 超过",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "số",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "突破 nhấn mạnh việc vượt một mốc tròn. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "贸易额突破2900亿美元。",
+       "vi": "Kim ngạch thương mại vượt mốc 290 tỷ đô la Mỹ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "贸易额（　）2900亿美元。",
+       "options": [
+        "建议",
+        "达到",
+        "突破"
+       ],
+       "answer": 2,
+       "explain_vi": "贸易额突破2900亿美元。 — Kim ngạch thương mại vượt mốc 290 tỷ đô la Mỹ."
+      }
+     ]
+    },
+    {
+     "id": "bc-c20-2",
+     "title_zh": "占 + X%",
+     "title_vi": "Văn viết công sở · So sánh số liệu",
+     "formula": [
+      [
+       {
+        "zh": "占",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "X%",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Diễn tả tỉ trọng. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "占总额的26%。",
+       "vi": "Chiếm 26% tổng giá trị."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）总额的26%。",
+       "options": [
+        "达",
+        "系",
+        "占"
+       ],
+       "answer": 2,
+       "explain_vi": "占总额的26%。 — Chiếm 26% tổng giá trị."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "据中国海关总署统计，2025年中越双边贸易额达2961.4亿美元，同比增长13.7%。中国连续多年保持越南第一大贸易伙伴地位，越南是中国在___最大的贸易伙伴。",
+   "bank": [
+    "组装",
+    "博览会",
+    "东盟"
+   ],
+   "answer": "东盟"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "阮先生，你们越南这几年发展很快啊。我们想在北宁___，你觉得怎么样？",
+   "bank": [
+    "私下",
+    "同比增长",
+    "设厂"
+   ],
+   "answer": "设厂"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "欢迎啊！北宁、北江离谅山口岸近，供应链配套比较成熟，电子产业基础也好。不过现在___土地价格涨得比较快，劳动力成本也在上升，建议您尽早实地考察。",
+   "bank": [
+    "原产地证书",
+    "设厂",
+    "工业园区"
+   ],
+   "answer": "工业园区"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "这个很关键。越南跟欧盟有___，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。",
+   "bank": [
+    "自贸协定",
+    "口岸",
+    "劳动力成本"
+   ],
+   "answer": "自贸协定"
+  },
+  {
+   "id": "e5",
+   "kind": "reorder",
+   "tiles": [
+    "很快啊",
+    "你们",
+    "发展",
+    "越南这",
+    "几年"
+   ],
+   "answers": [
+    "你们越南这几年发展很快啊"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "想",
+    "我们",
+    "北宁",
+    "在",
+    "设厂"
+   ],
+   "answers": [
+    "我们想在北宁设厂"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "你",
+    "怎么样",
+    "觉得"
+   ],
+   "answers": [
+    "你觉得怎么样"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "东盟",
+     "a": "ASEAN"
+    },
+    {
+     "q": "博览会",
+     "a": "hội chợ triển lãm"
+    },
+    {
+     "q": "客商",
+     "a": "thương nhân (khách)"
+    },
+    {
+     "q": "设厂",
+     "a": "đặt nhà máy"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Hội chợ mô phỏng: lớp dựng 4 “gian hàng” (nông sản, dệt may, nội thất, logistics). Một nửa lớp là doanh nghiệp Việt, nửa còn lại là thương nhân Trung Quốc có “nhiệm vụ mật” (tìm nhà cung cấp giá rẻ nhất, tìm đối tác liên doanh…). Sau 20 phút, mỗi bên báo cáo kết quả kết nối.",
+   "② Cầu nối văn hoá: 5 tình huống xung đột ở nhà máy Trung Quốc tại Việt Nam (nhân viên nghỉ đồng loạt sau Tết, quản lý mắng công nhân trước đám đông…). Đội đóng vai phiên dịch – điều phối, giải thích cho cả hai phía.",
+   "③ Đọc số liệu: mỗi đội nhận một đoạn tin Tân Hoa Xã/Nhân Dân Nhật Báo về thương mại Trung – Việt, tóm tắt 3 số liệu chính và nói lại trong 1 phút. Viết thêm một mail giới thiệu doanh nghiệp mình cho đối tác Trung Quốc; nộp vào portfolio."
+  ],
+  "patterns": [
+   {
+    "zh": "这个很关键。越南跟欧盟有自贸协定，但原产地证书对本地增值比例有要求，不是简单组装就可以。我可以帮您约一位做合规的律师朋友。",
+    "vi": "Việc này rất then chốt. Việt Nam có hiệp định thương mại tự do với EU, nhưng giấy chứng nhận xuất xứ có yêu cầu về tỷ lệ giá trị gia tăng nội địa, không phải chỉ lắp ráp đơn giản là được. Em có thể hẹn giúp anh một người bạn là luật sư chuyên về tuân thủ."
+   },
+   {
+    "zh": "原来如此，这一点跟中国其实挺像的。那年终的时候，越南有什么习惯？",
+    "vi": "Ra là vậy, điểm này thật ra khá giống Trung Quốc. Vậy cuối năm thì Việt Nam có tập quán gì?"
+   },
+   {
+    "zh": "贸易额突破2900亿美元。",
+    "vi": "Kim ngạch thương mại vượt mốc 290 tỷ đô la Mỹ."
+   },
+   {
+    "zh": "占总额的26%。",
+    "vi": "Chiếm 26% tổng giá trị."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Khác biệt văn hoá kinh doanh Trung – Việt",
+  "body_vi": [
+   "Trung Quốc là đối tác thương mại lớn nhất của Việt Nam từ năm 2004, còn Việt Nam là đối tác thương mại lớn nhất của Trung Quốc trong ASEAN từ năm 2016 ([商务部](https://dzswgf.mofcom.gov.cn/news/183/2025/4/1744340261002.html)). Theo Bộ Ngoại giao Trung Quốc, kim ngạch hai chiều năm 2025 đạt 296,14 tỉ USD, tăng 13,7%; doanh nghiệp Trung Quốc đầu tư vào Việt Nam 2,55 tỉ USD trong năm và luỹ kế 30,89 tỉ USD đến cuối 2025 ([外交部](https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_677292/sbgx_677296/)). Đại sứ Trung Quốc tại Việt Nam cho biết rau quả Việt Nam xuất sang Trung Quốc năm 2025 đạt 5,5 tỉ USD và cứ 4 khách quốc tế đến Việt Nam thì có 1 người Trung Quốc ([新浪财经/中新社](https://finance.sina.com.cn/jjxw/2026-02-12/doc-inhmpqki9865640.shtml)). Lưu ý số liệu Hải quan Việt Nam khác: năm 2024 phía Việt Nam ghi nhận 205,2 tỉ USD ([驻越南使馆经商处](https://vn.mofcom.gov.cn/jmxw/art/2025/art_8c1a9350101c48b2b10fe0604c14c55e.html)), trong khi phía Trung Quốc ghi nhận 260,65 tỉ USD cho cùng năm ([商务部](https://dzswgf.mofcom.gov.cn/news/183/2025/4/1744340261002.html)). Về văn hoá, hai nước chung nền Nho giáo nên đều coi trọng thể diện, thứ bậc, quan hệ; khác biệt thường gặp nằm ở tốc độ (“中国速度” với quyết định và triển khai rất nhanh), cường độ làm việc, mức độ chấp nhận tăng ca, và kênh giao tiếp (WeChat so với Zalo).",
+   "Ứng xử: Khi trích số liệu, ghi rõ nguồn: số liệu của Hải quan Trung Quốc và Hải quan Việt Nam thường khác nhau do cách tính xuất nhập khẩu khác nhau.",
+   "Ứng xử: Làm cầu nối giữa quản lý Trung Quốc và nhân viên Việt Nam: giải thích nguyên nhân văn hoá, tránh quy chụp “người Việt lười” hay “người Trung Quốc khắt khe”.",
+   "Ứng xử: Tránh chủ đề chính trị nhạy cảm giữa hai nước (biên giới, biển đảo) trong môi trường công việc; nếu bị hỏi, có thể nói 这个我不太了解，我们还是聊聊合作吧.",
+   "Ứng xử: Chuẩn bị tài liệu song ngữ Trung – Việt; tên riêng Việt Nam nên có cả chữ Latinh để đối tác tra cứu."
+  ]
+ }
+}

@@ -1,0 +1,901 @@
+{
+ "id": 12,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "商务谈判（二）：合同条款与签约",
+  "pinyin": "shāng wù tán pàn èr hé tóng tiáo kuǎn yǔ qiān yuē",
+  "vi": "đọc hiểu cấu trúc hợp đồng tiếng Trung"
+ },
+ "grammarTopics_vi": [
+  "大部分……没问题，有……处想跟您商量一下。",
+  "……偏高/偏低，建议改成……",
+  "……作为补充协议另行商定",
+  "本合同自……之日起生效 / 如有歧义，以……为准",
+  "任何一方……的，应……；造成……的，还应……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Đọc hiểu cấu trúc hợp đồng tiếng Trung",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đề xuất sửa điều khoản",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Xử lý khâu ký kết và đóng dấu",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "审核合同",
+   "context_vi": "课文一 · 审核合同",
+   "scene": "📜",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+     "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "你说。",
+     "vi": "Cậu nói đi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "第一，第七条违约金是合同总额的30%，我们觉得偏高，建议改成10%。第二，不可抗力条款里建议加上“口岸临时关闭”，因为陆路运输经常遇到这种情况。第三，争议解决方式，我们希望选择在新加坡国际仲裁中心仲裁。",
+     "vi": "Một, tiền phạt vi phạm ở điều 7 là 30% tổng giá trị hợp đồng, bọn em thấy hơi cao, đề nghị sửa thành 10%. Hai, trong điều khoản bất khả kháng, đề nghị thêm “cửa khẩu tạm thời đóng cửa”, vì vận chuyển đường bộ thường xuyên gặp tình huống này. Ba, về phương thức giải quyết tranh chấp, bọn em mong chọn trọng tài tại Trung tâm Trọng tài Quốc tế Singapore."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "前两条问题不大。仲裁地点我们倾向于深圳国际仲裁院，这个我得请示一下领导。",
+     "vi": "Hai điểm đầu không có vấn đề gì lớn. Địa điểm trọng tài bên tôi nghiêng về Viện Trọng tài Quốc tế Thâm Quyến, việc này tôi phải xin ý kiến lãnh đạo."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？",
+     "vi": "Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "合同初稿",
+     "pinyin": "hétong chūgǎo",
+     "vi": "bản thảo hợp đồng",
+     "example": {
+      "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+      "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+     }
+    },
+    {
+     "zh": "条款",
+     "pinyin": "tiáokuǎn",
+     "vi": "điều khoản",
+     "example": {
+      "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+      "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+     }
+    },
+    {
+     "zh": "甲方 / 乙方",
+     "pinyin": "jiǎfāng / yǐfāng",
+     "vi": "bên A / bên B"
+    },
+    {
+     "zh": "法务",
+     "pinyin": "fǎwù",
+     "vi": "bộ phận pháp chế",
+     "example": {
+      "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+      "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+     }
+    },
+    {
+     "zh": "审核",
+     "pinyin": "shěnhé",
+     "vi": "thẩm định, rà soát"
+    },
+    {
+     "zh": "签订",
+     "pinyin": "qiāndìng",
+     "vi": "ký kết"
+    },
+    {
+     "zh": "违约",
+     "pinyin": "wéiyuē",
+     "vi": "vi phạm hợp đồng",
+     "example": {
+      "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+      "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+     }
+    },
+    {
+     "zh": "违约金",
+     "pinyin": "wéiyuējīn",
+     "vi": "tiền phạt vi phạm",
+     "example": {
+      "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+      "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+     }
+    },
+    {
+     "zh": "不可抗力",
+     "pinyin": "bùkěkànglì",
+     "vi": "bất khả kháng"
+    },
+    {
+     "zh": "争议解决",
+     "pinyin": "zhēngyì jiějué",
+     "vi": "giải quyết tranh chấp"
+    },
+    {
+     "zh": "仲裁",
+     "pinyin": "zhòngcái",
+     "vi": "trọng tài",
+     "example": {
+      "zh": "前两条问题不大。仲裁地点我们倾向于深圳国际仲裁院，这个我得请示一下领导。",
+      "vi": "Hai điểm đầu không có vấn đề gì lớn. Địa điểm trọng tài bên tôi nghiêng về Viện Trọng tài Quốc tế Thâm Quyến, việc này tôi phải xin ý kiến lãnh đạo."
+     }
+    },
+    {
+     "zh": "管辖",
+     "pinyin": "guǎnxiá",
+     "vi": "thẩm quyền xét xử"
+    },
+    {
+     "zh": "补充协议",
+     "pinyin": "bǔchōng xiéyì",
+     "vi": "phụ lục/thoả thuận bổ sung",
+     "example": {
+      "zh": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？",
+      "vi": "Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+     }
+    },
+    {
+     "zh": "另行商定",
+     "pinyin": "lìngxíng shāngdìng",
+     "vi": "thoả thuận riêng sau",
+     "example": {
+      "zh": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？",
+      "vi": "Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+     }
+    },
+    {
+     "zh": "以……为准",
+     "pinyin": "yǐ……wéi zhǔn",
+     "vi": "lấy … làm chuẩn"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g12-1",
+     "title_zh": "大部分……没问题，有……处想跟您商量一下。",
+     "title_vi": "Mở lời đề xuất sửa hợp đồng",
+     "formula": [
+      [
+       {
+        "zh": "大部分",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "没问题，有",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "处想跟您商量一下。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Mở lời đề xuất sửa hợp đồng: khẳng định trước, góp ý sau.",
+     "examples": [
+      {
+       "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+       "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三（　）。",
+       "options": [
+        "增长了一倍",
+        "处想跟您商量一下",
+        "作为补充协议另行商定"
+       ],
+       "answer": 1,
+       "explain_vi": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。 — Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+      }
+     ]
+    },
+    {
+     "id": "bc-g12-3",
+     "title_zh": "……作为补充协议另行商定",
+     "title_vi": "Tạm gác điểm bất đồng để hoàn tất phần đã thống nhất",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "作为补充协议另行商定",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Tạm gác điểm bất đồng để hoàn tất phần đã thống nhất.",
+     "examples": [
+      {
+       "zh": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？",
+       "vi": "Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "理解。那我们先把前两条改好，仲裁地点（　），您看可以吗？",
+       "options": [
+        "作为补充协议另行商定",
+        "处想跟您商量一下",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？ — Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "签约现场",
+   "context_vi": "课文二 · 签约现场",
+   "scene": "📜",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "合同一式两份，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+     "vi": "Hợp đồng lập thành hai bản, mỗi bên giữ một bản, có giá trị pháp lý như nhau. Mời anh Tôn ký vào đây, bên em sẽ do anh Lý ký."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "签字以后还要盖我们的合同专用章，每页之间还要盖骑缝章。",
+     "vi": "Ký xong còn phải đóng dấu hợp đồng chuyên dụng của chúng tôi, giữa các trang còn phải đóng dấu giáp lai."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，我们带了公章和合同章。另外，越南方面的中文译本以哪个版本为准？",
+     "vi": "Vâng, bọn em có mang theo con dấu công ty và dấu hợp đồng. Ngoài ra, bản dịch tiếng Trung phía Việt Nam thì lấy bản nào làm chuẩn ạ?"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "中越文版本具有同等效力，如有歧义，以中文版为准。这个写在最后一条了。",
+     "vi": "Bản tiếng Trung và tiếng Việt có hiệu lực như nhau, nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn. Điều này ghi ở điều cuối cùng."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "一式两份",
+     "pinyin": "yí shì liǎng fèn",
+     "vi": "lập thành hai bản",
+     "example": {
+      "zh": "合同一式两份，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+      "vi": "Hợp đồng lập thành hai bản, mỗi bên giữ một bản, có giá trị pháp lý như nhau. Mời anh Tôn ký vào đây, bên em sẽ do anh Lý ký."
+     }
+    },
+    {
+     "zh": "各执一份",
+     "pinyin": "gè zhí yí fèn",
+     "vi": "mỗi bên giữ một bản",
+     "example": {
+      "zh": "合同一式两份，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+      "vi": "Hợp đồng lập thành hai bản, mỗi bên giữ một bản, có giá trị pháp lý như nhau. Mời anh Tôn ký vào đây, bên em sẽ do anh Lý ký."
+     }
+    },
+    {
+     "zh": "同等法律效力",
+     "pinyin": "tóngděng fǎlǜ xiàolì",
+     "vi": "giá trị pháp lý như nhau",
+     "example": {
+      "zh": "合同一式两份，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+      "vi": "Hợp đồng lập thành hai bản, mỗi bên giữ một bản, có giá trị pháp lý như nhau. Mời anh Tôn ký vào đây, bên em sẽ do anh Lý ký."
+     }
+    },
+    {
+     "zh": "歧义",
+     "pinyin": "qíyì",
+     "vi": "hiểu theo nhiều nghĩa",
+     "example": {
+      "zh": "中越文版本具有同等效力，如有歧义，以中文版为准。这个写在最后一条了。",
+      "vi": "Bản tiếng Trung và tiếng Việt có hiệu lực như nhau, nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn. Điều này ghi ở điều cuối cùng."
+     }
+    },
+    {
+     "zh": "公章",
+     "pinyin": "gōngzhāng",
+     "vi": "con dấu công ty",
+     "example": {
+      "zh": "好的，我们带了公章和合同章。另外，越南方面的中文译本以哪个版本为准？",
+      "vi": "Vâng, bọn em có mang theo con dấu công ty và dấu hợp đồng. Ngoài ra, bản dịch tiếng Trung phía Việt Nam thì lấy bản nào làm chuẩn ạ?"
+     }
+    },
+    {
+     "zh": "合同专用章",
+     "pinyin": "hétong zhuānyòngzhāng",
+     "vi": "dấu chuyên dùng cho hợp đồng",
+     "example": {
+      "zh": "签字以后还要盖我们的合同专用章，每页之间还要盖骑缝章。",
+      "vi": "Ký xong còn phải đóng dấu hợp đồng chuyên dụng của chúng tôi, giữa các trang còn phải đóng dấu giáp lai."
+     }
+    },
+    {
+     "zh": "骑缝章",
+     "pinyin": "qífèngzhāng",
+     "vi": "dấu giáp lai",
+     "example": {
+      "zh": "签字以后还要盖我们的合同专用章，每页之间还要盖骑缝章。",
+      "vi": "Ký xong còn phải đóng dấu hợp đồng chuyên dụng của chúng tôi, giữa các trang còn phải đóng dấu giáp lai."
+     }
+    },
+    {
+     "zh": "法定代表人",
+     "pinyin": "fǎdìng dàibiǎorén",
+     "vi": "người đại diện theo pháp luật"
+    },
+    {
+     "zh": "电子签章",
+     "pinyin": "diànzǐ qiānzhāng",
+     "vi": "chữ ký/dấu điện tử"
+    },
+    {
+     "zh": "保密协议",
+     "pinyin": "bǎomì xiéyì",
+     "vi": "thoả thuận bảo mật (NDA)"
+    },
+    {
+     "zh": "验收",
+     "pinyin": "yànshōu",
+     "vi": "nghiệm thu"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g12-2",
+     "title_zh": "……偏高/偏低，建议改成……",
+     "title_vi": "Đề xuất sửa kèm con số cụ thể",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "偏高",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "偏低，建议改成",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Đề xuất sửa kèm con số cụ thể.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "合同条款节选",
+   "context_vi": "课文三 · 合同条款节选",
+   "scene": "📜",
+   "lines": [
+    {
+     "speaker": "bc-wenben",
+     "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+     "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+    },
+    {
+     "speaker": "bc-wenben",
+     "zh": "第十二条 本合同自双方签字并盖章之日起生效。",
+     "vi": "Điều 12. Hợp đồng này có hiệu lực kể từ ngày hai bên ký tên và đóng dấu."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "生效",
+     "pinyin": "shēngxiào",
+     "vi": "có hiệu lực",
+     "example": {
+      "zh": "第十二条 本合同自双方签字并盖章之日起生效。",
+      "vi": "Điều 12. Hợp đồng này có hiệu lực kể từ ngày hai bên ký tên và đóng dấu."
+     }
+    },
+    {
+     "zh": "守约方",
+     "pinyin": "shǒuyuēfāng",
+     "vi": "bên tuân thủ hợp đồng",
+     "example": {
+      "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+      "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+     }
+    },
+    {
+     "zh": "赔偿",
+     "pinyin": "péicháng",
+     "vi": "bồi thường",
+     "example": {
+      "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+      "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g12-4",
+     "title_zh": "本合同自……之日起生效 / 如有歧义，以……为准",
+     "title_vi": "Cấu trúc văn bản pháp lý",
+     "formula": [
+      [
+       {
+        "zh": "本合同自",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "之日起生效",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "如有歧义，以",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "为准",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Cấu trúc văn bản pháp lý: 自……起, 以……为准.",
+     "examples": [
+      {
+       "zh": "第十二条 本合同自双方签字并盖章之日起生效。",
+       "vi": "Điều 12. Hợp đồng này có hiệu lực kể từ ngày hai bên ký tên và đóng dấu."
+      },
+      {
+       "zh": "中越文版本具有同等效力，如有歧义，以中文版为准。这个写在最后一条了。",
+       "vi": "Bản tiếng Trung và tiếng Việt có hiệu lực như nhau, nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn. Điều này ghi ở điều cuối cùng."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "第十二条 本合同自双方签字并盖章（　）。",
+       "options": [
+        "增长了一倍",
+        "建议改成",
+        "之日起生效"
+       ],
+       "answer": 2,
+       "explain_vi": "第十二条 本合同自双方签字并盖章之日起生效。 — Điều 12. Hợp đồng này có hiệu lực kể từ ngày hai bên ký tên và đóng dấu."
+      }
+     ]
+    },
+    {
+     "id": "bc-g12-5",
+     "title_zh": "任何一方……的，应……；造成……的，还应……",
+     "title_vi": "Câu điều kiện pháp lý với 的 cuối mệnh đề (“trường hợp…”)",
+     "formula": [
+      [
+       {
+        "zh": "任何一方",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的，应",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；造成",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的，还应",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu điều kiện pháp lý với 的 cuối mệnh đề (“trường hợp…”).",
+     "examples": [
+      {
+       "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+       "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "第七条 违约责任：（　）违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+       "options": [
+        "建议改成",
+        "如有歧义",
+        "任何一方"
+       ],
+       "answer": 2,
+       "explain_vi": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。 — Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+      }
+     ]
+    },
+    {
+     "id": "bc-c12-1",
+     "title_zh": "予以 + V (hai âm tiết)",
+     "title_vi": "Văn viết công sở · Khách quan hoá",
+     "formula": [
+      [
+       {
+        "zh": "予以",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V (hai âm tiết)",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Chỉ đi với động từ hai âm tiết. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "对违规行为予以处罚。",
+       "vi": "Xử phạt đối với hành vi vi phạm."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "对违规行为（　）处罚。",
+       "options": [
+        "达到",
+        "予以",
+        "造成"
+       ],
+       "answer": 1,
+       "explain_vi": "对违规行为予以处罚。 — Xử phạt đối với hành vi vi phạm."
+      }
+     ]
+    },
+    {
+     "id": "bc-c12-2",
+     "title_zh": "……的，应/可……",
+     "title_vi": "Văn viết công sở · Điều kiện pháp lý",
+     "formula": [
+      [
+       {
+        "zh": "……的，应/可……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "的 cuối mệnh đề = “trường hợp…”; không dùng trong khẩu ngữ. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "逾期付款的，应支付违约金。",
+       "vi": "Trường hợp thanh toán quá hạn thì phải trả tiền phạt vi phạm."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "逾期付款（　），应支付违约金。",
+       "options": [
+        "的",
+        "有",
+        "但"
+       ],
+       "answer": 0,
+       "explain_vi": "逾期付款的，应支付违约金。 — Trường hợp thanh toán quá hạn thì phải trả tiền phạt vi phạm."
+      }
+     ]
+    },
+    {
+     "id": "bc-c12-3",
+     "title_zh": "自……之日起",
+     "title_vi": "Văn viết công sở · Điều kiện pháp lý",
+     "formula": [
+      [
+       {
+        "zh": "自……之日起",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Mốc bắt đầu hiệu lực. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "自签字盖章之日起生效。",
+       "vi": "Có hiệu lực kể từ ngày ký tên, đóng dấu."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "自签字盖章（　）生效。",
+       "options": [
+        "没问题",
+        "翻一番",
+        "之日起"
+       ],
+       "answer": 2,
+       "explain_vi": "自签字盖章之日起生效。 — Có hiệu lực kể từ ngày ký tên, đóng dấu."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "赵经理，___我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+   "bank": [
+    "一式两份",
+    "合同初稿",
+    "违约"
+   ],
+   "answer": "合同初稿"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "第十二条 本合同自双方签字并盖章之日起___。",
+   "bank": [
+    "生效",
+    "管辖",
+    "违约金"
+   ],
+   "answer": "生效"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的___；造成损失的，还应赔偿实际损失。",
+   "bank": [
+    "骑缝章",
+    "违约金",
+    "签订"
+   ],
+   "answer": "违约金"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "理解。那我们先把前两条改好，___地点作为补充协议另行商定，您看可以吗？",
+   "bank": [
+    "审核",
+    "仲裁",
+    "违约金"
+   ],
+   "answer": "仲裁"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "合同___，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+   "bank": [
+    "另行商定",
+    "一式两份",
+    "审核"
+   ],
+   "answer": "一式两份"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "中越文版本具有同等效力，如有___，以中文版为准。这个写在最后一条了。",
+   "bank": [
+    "管辖",
+    "合同初稿",
+    "歧义"
+   ],
+   "answer": "歧义"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "我们",
+    "看过了",
+    "合同",
+    "法务",
+    "初稿"
+   ],
+   "answers": [
+    "合同初稿我们法务看过了"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "条款",
+    "没",
+    "大部分",
+    "问题"
+   ],
+   "answers": [
+    "大部分条款没问题"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "三处",
+    "商量一下",
+    "想跟",
+    "有",
+    "您"
+   ],
+   "answers": [
+    "有三处想跟您商量一下"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "合同初稿",
+     "a": "bản thảo hợp đồng"
+    },
+    {
+     "q": "条款",
+     "a": "điều khoản"
+    },
+    {
+     "q": "甲方 / 乙方",
+     "a": "bên A / bên B"
+    },
+    {
+     "q": "法务",
+     "a": "bộ phận pháp chế"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Thám tử hợp đồng: mỗi đội nhận một bản hợp đồng mua bán 2 trang có cài 6 “bẫy” (tên pháp nhân sai, thiếu điều khoản bất khả kháng, phạt vi phạm 50%, không ghi ngôn ngữ ưu tiên, sai đơn vị tiền tệ, thiếu thời hạn nghiệm thu). Đội tìm đủ và đề xuất sửa bằng tiếng Trung nhanh nhất thắng.",
+   "② Đàm phán điều khoản: tiếp nối minigame buổi 10, hai đội thương lượng 3 điều khoản còn tranh chấp: nơi trọng tài, mức phạt, điều kiện thanh toán; cuối cùng cùng soạn 1 补充协议 ngắn.",
+   "③ Nghi thức ký kết: diễn lễ ký hợp đồng 5 phút: giới thiệu hai bên, ký, đóng dấu, trao đổi văn bản, bắt tay chụp ảnh, nâng ly. Chấm theo thứ tự nghi thức và câu nói."
+  ],
+  "patterns": [
+   {
+    "zh": "赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+    "vi": "Anh Triệu, bản thảo hợp đồng bộ phận pháp chế bên em đã xem, phần lớn điều khoản không có vấn đề, có ba chỗ muốn trao đổi với anh."
+   },
+   {
+    "zh": "理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？",
+    "vi": "Em hiểu ạ. Vậy mình sửa xong hai điểm đầu trước, địa điểm trọng tài sẽ thoả thuận riêng trong phụ lục bổ sung, anh thấy được không ạ?"
+   },
+   {
+    "zh": "第十二条 本合同自双方签字并盖章之日起生效。",
+    "vi": "Điều 12. Hợp đồng này có hiệu lực kể từ ngày hai bên ký tên và đóng dấu."
+   },
+   {
+    "zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。",
+    "vi": "Điều 7. Trách nhiệm do vi phạm hợp đồng: bên nào vi phạm thoả thuận của hợp đồng này phải trả cho bên tuân thủ khoản tiền phạt bằng 10% tổng giá trị hợp đồng; nếu gây thiệt hại thì còn phải bồi thường thiệt hại thực tế."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Quyền lực của con dấu",
+  "body_vi": [
+   "Ở Trung Quốc, con dấu công ty (公章) mang giá trị pháp lý rất lớn, đôi khi được xem nặng hơn chữ ký cá nhân. Bộ Dân luật (民法典, điều 490) quy định hợp đồng bằng văn bản được xác lập khi các bên ký tên, đóng dấu hoặc điểm chỉ, nhưng trong thực tế doanh nghiệp, hợp đồng chỉ có chữ ký mà thiếu dấu thường bị phía Trung Quốc coi là “chưa xong”. Một công ty thường có nhiều loại dấu: 公章, 合同专用章, 财务专用章, 发票专用章, 法人章; ai giữ dấu gần như là người nắm quyền kiểm soát công ty, và tranh chấp “cướp dấu” (抢公章) từng xuất hiện trên báo chí. Hợp đồng nhiều trang được đóng dấu giáp lai để chống thay trang. Hiện nay chữ ký/dấu điện tử qua các nền tảng được công nhận theo Luật Chữ ký điện tử và ngày càng phổ biến.",
+   "Ứng xử: Luôn đề nghị đối phương gửi file Word có thể theo dõi thay đổi (修订模式); không chỉ nhận bản PDF.",
+   "Ứng xử: Kiểm tra tên pháp nhân trên hợp đồng khớp với con dấu và giấy phép kinh doanh (营业执照); hỏi 统一社会信用代码 để tra cứu.",
+   "Ứng xử: Hợp đồng song ngữ phải có điều khoản ngôn ngữ ưu tiên; nếu là bên Việt Nam, cố gắng thương lượng để hai bản có giá trị ngang nhau.",
+   "Ứng xử: Đừng coi chữ ký là kết thúc: với nhiều đối tác Trung Quốc, hợp đồng là khung, quan hệ tốt mới giúp xử lý phát sinh."
+  ],
+  "figures": [
+   {
+    "src": "img/bc/signing.svg",
+    "title_vi": "Trình tự lễ ký hợp đồng",
+    "caption_vi": "Giới thiệu → ký → đóng dấu → trao đổi văn bản → bắt tay chụp ảnh → nâng ly."
+   }
+  ]
+ }
+}

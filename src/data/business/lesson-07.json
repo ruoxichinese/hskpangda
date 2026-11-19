@@ -1,0 +1,778 @@
+{
+ "id": 7,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "商务宴请：酒桌上的规矩",
+  "pinyin": "shāng wù yàn qǐng jiǔ zhuō shàng de guī jǔ",
+  "vi": "mời và nhận lời mời tiệc"
+ },
+ "grammarTopics_vi": [
+  "我代表……，对……表示热烈欢迎！我提议，为……干杯！",
+  "……，我敬您一杯。感谢……，祝您……！",
+  "我干了，您随意。/ 我先干为敬。",
+  "真不好意思，我……（开车/吃药/身体原因），今天以茶代酒，敬您一杯。",
+  "（今晚）招待不周，还请见谅。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Mời và nhận lời mời tiệc",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Nâng ly chúc rượu",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Từ chối rượu mà không mất lòng",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Cảm ơn sau tiệc",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "开席敬酒",
+   "context_vi": "课文一 · 开席敬酒",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "bc-lizong",
+     "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+     "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+    },
+    {
+     "speaker": "bc-zhongren",
+     "zh": "干杯！",
+     "vi": "Cạn ly!"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+     "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+    },
+    {
+     "speaker": "bc-lizong",
+     "zh": "好！感情深，一口闷！小阮，你是年轻人，替我敬一下孙总。",
+     "vi": "Tốt! Tình cảm sâu đậm, uống một hơi cạn! Tiểu Nguyễn, em là người trẻ, thay anh mời anh Tôn một ly đi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+     "vi": "(nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "宴请",
+     "pinyin": "yànqǐng",
+     "vi": "mời tiệc"
+    },
+    {
+     "zh": "饭局",
+     "pinyin": "fànjú",
+     "vi": "bữa tiệc xã giao"
+    },
+    {
+     "zh": "应酬",
+     "pinyin": "yìngchou",
+     "vi": "tiếp khách, xã giao"
+    },
+    {
+     "zh": "包间",
+     "pinyin": "bāojiān",
+     "vi": "phòng riêng"
+    },
+    {
+     "zh": "主陪",
+     "pinyin": "zhǔpéi",
+     "vi": "chủ tiệc (bên chủ)",
+     "example": {
+      "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+      "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+     }
+    },
+    {
+     "zh": "副陪",
+     "pinyin": "fùpéi",
+     "vi": "phó chủ tiệc"
+    },
+    {
+     "zh": "主宾",
+     "pinyin": "zhǔbīn",
+     "vi": "khách chính"
+    },
+    {
+     "zh": "盛情款待",
+     "pinyin": "shèngqíng kuǎndài",
+     "vi": "tiếp đãi nồng hậu",
+     "example": {
+      "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+      "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+     }
+    },
+    {
+     "zh": "点菜",
+     "pinyin": "diǎncài",
+     "vi": "gọi món"
+    },
+    {
+     "zh": "忌口",
+     "pinyin": "jìkǒu",
+     "vi": "kiêng ăn"
+    },
+    {
+     "zh": "敬酒",
+     "pinyin": "jìngjiǔ",
+     "vi": "mời rượu (kính)"
+    },
+    {
+     "zh": "回敬",
+     "pinyin": "huíjìng",
+     "vi": "mời lại",
+     "example": {
+      "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+      "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+     }
+    },
+    {
+     "zh": "劝酒",
+     "pinyin": "quànjiǔ",
+     "vi": "ép rượu, nài rượu"
+    },
+    {
+     "zh": "举杯",
+     "pinyin": "jǔbēi",
+     "vi": "nâng ly",
+     "example": {
+      "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+      "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+     }
+    },
+    {
+     "zh": "干杯",
+     "pinyin": "gānbēi",
+     "vi": "cạn ly",
+     "example": {
+      "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+      "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+     }
+    },
+    {
+     "zh": "碰杯",
+     "pinyin": "pèngbēi",
+     "vi": "cụng ly"
+    },
+    {
+     "zh": "随意",
+     "pinyin": "suíyì",
+     "vi": "tuỳ ý (uống bao nhiêu cũng được)"
+    },
+    {
+     "zh": "先干为敬",
+     "pinyin": "xiān gān wéi jìng",
+     "vi": "tôi cạn trước để tỏ lòng kính",
+     "example": {
+      "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+      "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+     }
+    },
+    {
+     "zh": "一口闷",
+     "pinyin": "yì kǒu mēn",
+     "vi": "uống một hơi hết",
+     "example": {
+      "zh": "好！感情深，一口闷！小阮，你是年轻人，替我敬一下孙总。",
+      "vi": "Tốt! Tình cảm sâu đậm, uống một hơi cạn! Tiểu Nguyễn, em là người trẻ, thay anh mời anh Tôn một ly đi."
+     }
+    },
+    {
+     "zh": "酒量",
+     "pinyin": "jiǔliàng",
+     "vi": "tửu lượng"
+    },
+    {
+     "zh": "白酒",
+     "pinyin": "báijiǔ",
+     "vi": "rượu trắng (Mao Đài, Ngũ Lương…)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g7-1",
+     "title_zh": "我代表……，对……表示热烈欢迎！我提议，为……干杯！",
+     "title_vi": "Lời chúc mở tiệc của chủ tiệc",
+     "formula": [
+      [
+       {
+        "zh": "我代表",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，对",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "表示热烈欢迎！我提议，为",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "干杯！",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Lời chúc mở tiệc của chủ tiệc.",
+     "examples": [
+      {
+       "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+       "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团（　）！我提议，大家共同举杯，为我们合作愉快，干杯！",
+       "options": [
+        "表示热烈欢迎",
+        "增长了一倍",
+        "今天以茶代酒"
+       ],
+       "answer": 0,
+       "explain_vi": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！ — (chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+      }
+     ]
+    },
+    {
+     "id": "bc-g7-2",
+     "title_zh": "……，我敬您一杯。感谢……，祝您……！",
+     "title_vi": "Công thức mời rượu",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，我敬您一杯。感谢",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，祝您",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "！",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Công thức mời rượu: gọi tên → lý do cảm ơn → lời chúc.",
+     "examples": [
+      {
+       "zh": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+       "vi": "(nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+      },
+      {
+       "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+       "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（双手举杯，杯口低于孙总的杯子）孙总，（　）。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+       "options": [
+        "增长了一倍",
+        "我敬您一杯",
+        "真不好意思"
+       ],
+       "answer": 1,
+       "explain_vi": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。 — (nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+      }
+     ]
+    },
+    {
+     "id": "bc-g7-3",
+     "title_zh": "我干了，您随意。/ 我先干为敬。",
+     "title_vi": "Hạ mình khi mời người cấp cao hơn",
+     "formula": [
+      [
+       {
+        "zh": "我干了，您随意。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "我先干为敬。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Hạ mình khi mời người cấp cao hơn.",
+     "examples": [
+      {
+       "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+       "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+      },
+      {
+       "zh": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+       "vi": "(nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。（　）！",
+       "options": [
+        "我先干为敬",
+        "我敬您一杯",
+        "真不好意思"
+       ],
+       "answer": 0,
+       "explain_vi": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！ — Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "委婉拒酒",
+   "context_vi": "课文二 · 委婉拒酒",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "bc-sunzong",
+     "zh": "小阮，来，再喝一杯！",
+     "vi": "Tiểu Nguyễn, nào, thêm một ly nữa!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+     "vi": "Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+    },
+    {
+     "speaker": "bc-sunzong",
+     "zh": "开车就算了，安全第一！那明天你一定得补上啊。",
+     "vi": "Lái xe thì thôi, an toàn là trên hết! Vậy mai cậu nhất định phải uống bù đấy nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "一定一定！明天晚上我叫代驾，陪您好好喝两杯。",
+     "vi": "Nhất định, nhất định ạ! Tối mai em gọi tài xế lái hộ, ngồi uống với anh vài ly cho đã."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "以茶代酒",
+     "pinyin": "yǐ chá dài jiǔ",
+     "vi": "lấy trà thay rượu",
+     "example": {
+      "zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+      "vi": "Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+     }
+    },
+    {
+     "zh": "酒驾",
+     "pinyin": "jiǔjià",
+     "vi": "lái xe khi say"
+    },
+    {
+     "zh": "代驾",
+     "pinyin": "dàijià",
+     "vi": "dịch vụ lái xe hộ",
+     "example": {
+      "zh": "一定一定！明天晚上我叫代驾，陪您好好喝两杯。",
+      "vi": "Nhất định, nhất định ạ! Tối mai em gọi tài xế lái hộ, ngồi uống với anh vài ly cho đã."
+     }
+    },
+    {
+     "zh": "买单",
+     "pinyin": "mǎidān",
+     "vi": "thanh toán"
+    },
+    {
+     "zh": "祝酒词",
+     "pinyin": "zhùjiǔcí",
+     "vi": "lời chúc rượu"
+    },
+    {
+     "zh": "补上",
+     "pinyin": "bǔshang",
+     "vi": "bù lại",
+     "example": {
+      "zh": "开车就算了，安全第一！那明天你一定得补上啊。",
+      "vi": "Lái xe thì thôi, an toàn là trên hết! Vậy mai cậu nhất định phải uống bù đấy nhé."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g7-4",
+     "title_zh": "真不好意思，我……（开车/吃药/身体原因），今天以茶代酒，敬您一杯。",
+     "title_vi": "Từ chối rượu kèm lý do, nhưng vẫn giữ nghi thức mời",
+     "formula": [
+      [
+       {
+        "zh": "真不好意思，我",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "（开车",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "吃药",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "身体原因），今天以茶代酒，敬您一杯。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối rượu kèm lý do, nhưng vẫn giữ nghi thức mời.",
+     "examples": [
+      {
+       "zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+       "vi": "Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+      },
+      {
+       "zh": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+       "vi": "(nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "孙总，（　），我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+       "options": [
+        "我先干为敬",
+        "真不好意思",
+        "增长了一倍"
+       ],
+       "answer": 1,
+       "explain_vi": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？ — Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "饭后的微信",
+   "context_vi": "课文三 · 饭后的微信",
+   "scene": "🥂",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理、孙总，今晚招待不周，还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息报平安。明早8:30我在大堂等各位。",
+     "vi": "Anh Triệu, anh Tôn, tối nay tiếp đón chưa được chu đáo, mong hai anh thông cảm. Cảm ơn hai anh đã ủng hộ công việc của chúng em! Nếu đã về đến khách sạn, phiền hai anh nhắn lại một tin báo bình an. Sáng mai 8:30 em đợi mọi người ở sảnh."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "报平安",
+     "pinyin": "bào píng'ān",
+     "vi": "báo đã về an toàn"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g7-5",
+     "title_zh": "（今晚）招待不周，还请见谅。",
+     "title_vi": "Câu khiêm tốn sau tiệc",
+     "formula": [
+      [
+       {
+        "zh": "（今晚）招待不周，还请见谅。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Câu khiêm tốn sau tiệc.",
+     "examples": [
+      {
+       "zh": "赵经理、孙总，今晚招待不周，还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息报平安。明早8:30我在大堂等各位。",
+       "vi": "Anh Triệu, anh Tôn, tối nay tiếp đón chưa được chu đáo, mong hai anh thông cảm. Cảm ơn hai anh đã ủng hộ công việc của chúng em! Nếu đã về đến khách sạn, phiền hai anh nhắn lại một tin báo bình an. Sáng mai 8:30 em đợi mọi người ở sảnh."
+      },
+      {
+       "zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+       "vi": "Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "赵经理、孙总，今晚（　），还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息报平安。明早8:30我在大堂等各位。",
+       "options": [
+        "身体原因",
+        "招待不周",
+        "敬您一杯"
+       ],
+       "answer": 1,
+       "explain_vi": "赵经理、孙总，今晚招待不周，还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息报平安。明早8:30我在大堂等各位。 — Anh Triệu, anh Tôn, tối nay tiếp đón chưa được chu đáo, mong hai anh thông cảm. Cảm ơn hai anh đã ủng hộ công việc của chúng em! Nếu đã về đến khách sạn, phiền hai anh nhắn lại một tin báo bình an. Sáng mai 8:30 em đợi mọi người ở sảnh."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "（___）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+   "bank": [
+    "祝酒词",
+    "主陪",
+    "饭局"
+   ],
+   "answer": "主陪"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "谢谢李总的___！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+   "bank": [
+    "酒驾",
+    "应酬",
+    "盛情款待"
+   ],
+   "answer": "盛情款待"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "（双手___，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+   "bank": [
+    "举杯",
+    "忌口",
+    "以茶代酒"
+   ],
+   "answer": "举杯"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "好！感情深，___！小阮，你是年轻人，替我敬一下孙总。",
+   "bank": [
+    "补上",
+    "先干为敬",
+    "一口闷"
+   ],
+   "answer": "一口闷"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我___，敬您一杯，您看行吗？",
+   "bank": [
+    "应酬",
+    "一口闷",
+    "以茶代酒"
+   ],
+   "answer": "以茶代酒"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "一定一定！明天晚上我叫___，陪您好好喝两杯。",
+   "bank": [
+    "忌口",
+    "代驾",
+    "买单"
+   ],
+   "answer": "代驾"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "今天",
+    "孙总",
+    "经理",
+    "赵",
+    "远道而来"
+   ],
+   "answers": [
+    "今天赵经理孙总远道而来"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "集团",
+    "我代表",
+    "表示",
+    "东盛",
+    "热烈欢迎"
+   ],
+   "answers": [
+    "我代表东盛集团表示热烈欢迎"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "举杯",
+    "大家",
+    "共同"
+   ],
+   "answers": [
+    "大家共同举杯"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "宴请",
+     "a": "mời tiệc"
+    },
+    {
+     "q": "饭局",
+     "a": "bữa tiệc xã giao"
+    },
+    {
+     "q": "应酬",
+     "a": "tiếp khách, xã giao"
+    },
+    {
+     "q": "包间",
+     "a": "phòng riêng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Bàn tiệc mô phỏng: xếp bàn tròn 8 người, mỗi người bốc thẻ vai (chủ tiệc, khách chính, phó tổng, nhân viên mới, phiên dịch…). Diễn 15 phút: ngồi đúng chỗ, mời rượu đúng thứ tự, mỗi người đọc ít nhất 1 lời chúc.",
+   "② Thử thách từ chối: “孙总” (giáo viên) ép rượu 5 lần với 5 kiểu nói khác nhau (不喝就是不给面子, 你看不起我是吧…). Học viên phải từ chối 5 lần, không lặp lý do, vẫn giữ không khí vui.",
+   "③ Thi lời chúc: mỗi đội soạn lời chúc 30 giây cho 3 dịp: ký hợp đồng, tiễn đối tác về nước, tất niên. Cả lớp bình chọn."
+  ],
+  "patterns": [
+   {
+    "zh": "（主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+    "vi": "(chủ tiệc) Thưa các vị, hôm nay anh Triệu, anh Tôn từ xa đến, tôi xin thay mặt Tập đoàn Đông Thịnh nhiệt liệt chào mừng! Tôi đề nghị, mọi người cùng nâng ly, vì sự hợp tác vui vẻ của chúng ta, cạn ly!"
+   },
+   {
+    "zh": "（双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+    "vi": "(nâng ly bằng hai tay, miệng ly thấp hơn ly của anh Tôn) Anh Tôn, em xin kính anh một ly. Hai ngày nay em học được từ anh rất nhiều về kỹ thuật, chúc anh mạnh khoẻ, công việc thuận lợi! Em cạn, anh tuỳ ý ạ."
+   },
+   {
+    "zh": "谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+    "vi": "Cảm ơn anh Lý đã tiếp đón nồng hậu! Ly này tôi xin mời lại anh Lý, cảm ơn quý công ty đã sắp xếp chu đáo hai ngày qua. Tôi xin cạn trước để tỏ lòng kính trọng!"
+   },
+   {
+    "zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？",
+    "vi": "Anh Tôn, thật sự xin lỗi anh, tối nay em còn phải lái xe đưa mọi người về khách sạn, không uống thêm được nữa. Em xin lấy trà thay rượu, kính anh một ly, anh thấy được không ạ?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Văn hoá bàn nhậu (酒桌文化)",
+  "body_vi": [
+   "Bàn rượu từ lâu là nơi xây dựng lòng tin trong kinh doanh ở Trung Quốc. Kinh tế học gia Nhiếp Huy Hoa (Đại học Nhân dân) cho rằng khi thể chế và quy tắc còn thiếu, việc uống rượu đóng vai trò tạo niềm tin giữa hai bên ([财新博客](https://niehuihua.blog.caixin.com/archives/249041)). Nó cũng phản ánh thứ bậc: một bài phân tích trên Giới Diện chỉ ra “luật ngầm” là cấp càng cao càng uống ít, nhân viên mới ở đáy thang bậc thì phải uống nhiều nhất ([界面新闻](https://www.jiemian.com/article/6459407.html)). Từ sau vụ nhân viên Alibaba bị xâm hại sau bữa tiệc năm 2021, xã hội phản đối mạnh việc ép rượu; Alibaba khi đó tuyên bố ủng hộ vô điều kiện việc nhân viên từ chối bị ép rượu ([网易](https://c.m.163.com/news/a/GHHJ2GL305316R7L.html)). Tân Hoa Xã cũng từng kêu gọi bỏ thái độ ép người khác uống và quan niệm “không say không về” ([财新博客](https://niehuihua.blog.caixin.com/archives/249041)). Ở khu vực nhà nước, điều lệ sửa đổi năm 2025 quy định bữa ăn công vụ không phục vụ rượu, thuốc lá ([中国政府网](https://www.gov.cn/zhengce/202505/content_7024131.htm)). Kết luận thực tế: rượu vẫn phổ biến ở tiệc doanh nghiệp tư nhân, nhất là ngành truyền thống và các tỉnh phía Bắc, nhưng lớp trẻ và công ty internet ngày càng coi trọng quyền từ chối.",
+   "Ứng xử: Chỗ ngồi: chủ tiệc ngồi ghế đối diện cửa, khách chính ngồi bên phải chủ tiệc; người trẻ, cấp thấp ngồi gần cửa để tiện gọi món, rót trà.",
+   "Ứng xử: Thứ tự: chủ tiệc mời chung trước; sau đó mới đến lượt từng người đi mời. Không “mời vượt” khi sếp mình chưa mời.",
+   "Ứng xử: Cụng ly: người cấp thấp giữ miệng ly thấp hơn người cấp cao. Khi bàn có mâm xoay, xoay theo chiều kim đồng hồ, không xoay khi có người đang gắp.",
+   "Ứng xử: Từ chối: nói lý do sớm (từ trước khi rót), nhất quán cả buổi. Lý do được chấp nhận rộng rãi: lái xe, đang uống thuốc, dị ứng cồn, tôn giáo. Có quyền từ chối; nếu bị ép quá mức, rời bàn là chính đáng."
+  ],
+  "figures": [
+   {
+    "src": "img/bc/banquet.svg",
+    "title_vi": "Chỗ ngồi bàn tiệc tròn",
+    "caption_vi": "Chủ tiệc ngồi đối diện cửa, khách chính bên phải chủ tiệc, người trẻ ngồi gần cửa; mâm xoay theo chiều kim đồng hồ."
+   },
+   {
+    "src": "img/bc/toast.svg",
+    "title_vi": "Cụng ly",
+    "caption_vi": "Người cấp dưới giữ miệng ly thấp hơn người cấp trên."
+   }
+  ]
+ }
+}

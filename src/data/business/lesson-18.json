@@ -1,0 +1,698 @@
+{
+ "id": 18,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "团建与年会：辞旧迎新",
+  "pinyin": "tuán jiàn yǔ nián huì cí jiù yíng xīn",
+  "vi": "tổ chức và tham gia team building"
+ },
+ "grammarTopics_vi": [
+  "尊敬的各位领导、亲爱的同事们，大家晚上好！",
+  "……之际，我们在这里……",
+  "首先，有请……上台致辞，大家掌声欢迎！",
+  "接下来是……的环节——……！",
+  "祝您新的一年……，……！"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tổ chức và tham gia team building",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Phát biểu và dẫn chương trình tất niên",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Chúc Tết và chúc khai xuân nơi công sở",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "策划团建",
+   "context_vi": "课文一 · 策划团建",
+   "scene": "🎉",
+   "lines": [
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "今年部门团建经费每人500元，大家有什么想法？",
+     "vi": "Năm nay kinh phí team building của phòng là 500 tệ mỗi người, mọi người có ý tưởng gì không?"
+    },
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？",
+     "vi": "Năm ngoái leo núi mệt quá, năm nay nhẹ nhàng hơn được không, ví dụ đi homestay nông trại hoặc chơi murder mystery?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+     "vi": "Em đề xuất tổ chức vào ngày làm việc, đừng chiếm cuối tuần. Buổi sáng có thể làm một hoạt động huấn luyện kỹ năng nhỏ, tăng gắn kết đội nhóm, chiều tự do, tối cả phòng ăn với nhau một bữa."
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+     "vi": "Ý tổ chức ngày làm việc hay đấy, mọi người sẽ tham gia đông hơn. Vậy mình tạo bình chọn, chốt trước thứ sáu, ai muốn đi thì đăng ký."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "团建",
+     "pinyin": "tuánjiàn",
+     "vi": "team building",
+     "example": {
+      "zh": "今年部门团建经费每人500元，大家有什么想法？",
+      "vi": "Năm nay kinh phí team building của phòng là 500 tệ mỗi người, mọi người có ý tưởng gì không?"
+     }
+    },
+    {
+     "zh": "经费",
+     "pinyin": "jīngfèi",
+     "vi": "kinh phí",
+     "example": {
+      "zh": "今年部门团建经费每人500元，大家有什么想法？",
+      "vi": "Năm nay kinh phí team building của phòng là 500 tệ mỗi người, mọi người có ý tưởng gì không?"
+     }
+    },
+    {
+     "zh": "拓展训练",
+     "pinyin": "tuòzhǎn xùnliàn",
+     "vi": "huấn luyện kỹ năng ngoài trời",
+     "example": {
+      "zh": "我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+      "vi": "Em đề xuất tổ chức vào ngày làm việc, đừng chiếm cuối tuần. Buổi sáng có thể làm một hoạt động huấn luyện kỹ năng nhỏ, tăng gắn kết đội nhóm, chiều tự do, tối cả phòng ăn với nhau một bữa."
+     }
+    },
+    {
+     "zh": "凝聚力",
+     "pinyin": "níngjùlì",
+     "vi": "sức gắn kết",
+     "example": {
+      "zh": "我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+      "vi": "Em đề xuất tổ chức vào ngày làm việc, đừng chiếm cuối tuần. Buổi sáng có thể làm một hoạt động huấn luyện kỹ năng nhỏ, tăng gắn kết đội nhóm, chiều tự do, tối cả phòng ăn với nhau một bữa."
+     }
+    },
+    {
+     "zh": "农家乐",
+     "pinyin": "nóngjiālè",
+     "vi": "du lịch nông trại",
+     "example": {
+      "zh": "去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？",
+      "vi": "Năm ngoái leo núi mệt quá, năm nay nhẹ nhàng hơn được không, ví dụ đi homestay nông trại hoặc chơi murder mystery?"
+     }
+    },
+    {
+     "zh": "剧本杀",
+     "pinyin": "jùběnshā",
+     "vi": "trò chơi nhập vai phá án",
+     "example": {
+      "zh": "去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？",
+      "vi": "Năm ngoái leo núi mệt quá, năm nay nhẹ nhàng hơn được không, ví dụ đi homestay nông trại hoặc chơi murder mystery?"
+     }
+    },
+    {
+     "zh": "占用",
+     "pinyin": "zhànyòng",
+     "vi": "chiếm dụng",
+     "example": {
+      "zh": "我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+      "vi": "Em đề xuất tổ chức vào ngày làm việc, đừng chiếm cuối tuần. Buổi sáng có thể làm một hoạt động huấn luyện kỹ năng nhỏ, tăng gắn kết đội nhóm, chiều tự do, tối cả phòng ăn với nhau một bữa."
+     }
+    },
+    {
+     "zh": "参与度",
+     "pinyin": "cānyùdù",
+     "vi": "mức độ tham gia",
+     "example": {
+      "zh": "工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+      "vi": "Ý tổ chức ngày làm việc hay đấy, mọi người sẽ tham gia đông hơn. Vậy mình tạo bình chọn, chốt trước thứ sáu, ai muốn đi thì đăng ký."
+     }
+    },
+    {
+     "zh": "投票",
+     "pinyin": "tóupiào",
+     "vi": "bỏ phiếu",
+     "example": {
+      "zh": "工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+      "vi": "Ý tổ chức ngày làm việc hay đấy, mọi người sẽ tham gia đông hơn. Vậy mình tạo bình chọn, chốt trước thứ sáu, ai muốn đi thì đăng ký."
+     }
+    },
+    {
+     "zh": "自愿",
+     "pinyin": "zìyuàn",
+     "vi": "tự nguyện",
+     "example": {
+      "zh": "工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+      "vi": "Ý tổ chức ngày làm việc hay đấy, mọi người sẽ tham gia đông hơn. Vậy mình tạo bình chọn, chốt trước thứ sáu, ai muốn đi thì đăng ký."
+     }
+    },
+    {
+     "zh": "报名",
+     "pinyin": "bàomíng",
+     "vi": "đăng ký",
+     "example": {
+      "zh": "工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+      "vi": "Ý tổ chức ngày làm việc hay đấy, mọi người sẽ tham gia đông hơn. Vậy mình tạo bình chọn, chốt trước thứ sáu, ai muốn đi thì đăng ký."
+     }
+    },
+    {
+     "zh": "年会",
+     "pinyin": "niánhuì",
+     "vi": "tiệc tất niên"
+    },
+    {
+     "zh": "主持词",
+     "pinyin": "zhǔchící",
+     "vi": "lời dẫn chương trình"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g18-1",
+     "title_zh": "尊敬的各位领导、亲爱的同事们，大家晚上好！",
+     "title_vi": "Câu mở đầu phát biểu chuẩn",
+     "formula": [
+      [
+       {
+        "zh": "尊敬的各位领导、亲爱的同事们，大家晚上好！",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Câu mở đầu phát biểu chuẩn: lãnh đạo trước, đồng nghiệp sau.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "年会主持词",
+   "context_vi": "课文二 · 年会主持词",
+   "scene": "🎉",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "尊敬的各位领导、亲爱的同事们，大家晚上好！辞旧迎新之际，我们在这里欢聚一堂，回顾2026年的收获，展望2027年的目标。首先，有请我们的王总上台致辞，大家掌声欢迎！",
+     "vi": "Kính thưa các vị lãnh đạo, các đồng nghiệp thân mến, chào buổi tối mọi người! Nhân dịp tiễn năm cũ đón năm mới, chúng ta cùng hội tụ nơi đây, nhìn lại những thành quả năm 2026 và hướng tới mục tiêu năm 2027. Trước tiên, xin trân trọng kính mời anh Vương lên phát biểu, xin mọi người một tràng pháo tay!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+     "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "辞旧迎新",
+     "pinyin": "cí jiù yíng xīn",
+     "vi": "tiễn năm cũ đón năm mới"
+    },
+    {
+     "zh": "欢聚一堂",
+     "pinyin": "huānjù yì táng",
+     "vi": "sum vầy một nhà"
+    },
+    {
+     "zh": "回顾",
+     "pinyin": "huígù",
+     "vi": "nhìn lại"
+    },
+    {
+     "zh": "展望",
+     "pinyin": "zhǎnwàng",
+     "vi": "nhìn về phía trước"
+    },
+    {
+     "zh": "致辞",
+     "pinyin": "zhìcí",
+     "vi": "phát biểu chúc mừng",
+     "example": {
+      "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+      "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+     }
+    },
+    {
+     "zh": "掌声欢迎",
+     "pinyin": "zhǎngshēng huānyíng",
+     "vi": "xin một tràng pháo tay"
+    },
+    {
+     "zh": "环节",
+     "pinyin": "huánjié",
+     "vi": "phần, tiết mục",
+     "example": {
+      "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+      "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+     }
+    },
+    {
+     "zh": "抽奖",
+     "pinyin": "chōujiǎng",
+     "vi": "bốc thăm trúng thưởng",
+     "example": {
+      "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+      "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+     }
+    },
+    {
+     "zh": "幸运儿",
+     "pinyin": "xìngyùn'ér",
+     "vi": "người may mắn",
+     "example": {
+      "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+      "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+     }
+    },
+    {
+     "zh": "节目",
+     "pinyin": "jiémù",
+     "vi": "tiết mục"
+    },
+    {
+     "zh": "优秀员工",
+     "pinyin": "yōuxiù yuángōng",
+     "vi": "nhân viên xuất sắc"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g18-2",
+     "title_zh": "……之际，我们在这里……",
+     "title_vi": "Văn trang trọng “nhân dịp…”",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "之际，我们在这里",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Văn trang trọng “nhân dịp…”.",
+     "examples": [
+      {
+       "zh": "辞旧迎新之际，我们在这里欢聚一堂。",
+       "vi": "Nhân dịp tiễn năm cũ đón năm mới, chúng ta cùng hội tụ nơi đây."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "辞旧迎新之际，（　）欢聚一堂。",
+       "options": [
+        "大家晚上好",
+        "增长了一倍",
+        "我们在这里"
+       ],
+       "answer": 2,
+       "explain_vi": "辞旧迎新之际，我们在这里欢聚一堂。 — Nhân dịp tiễn năm cũ đón năm mới, chúng ta cùng hội tụ nơi đây."
+      }
+     ]
+    },
+    {
+     "id": "bc-g18-4",
+     "title_zh": "接下来是……的环节——……！",
+     "title_vi": "Chuyển tiết mục",
+     "formula": [
+      [
+       {
+        "zh": "接下来是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的环节——",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "！",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Chuyển tiết mục.",
+     "examples": [
+      {
+       "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+       "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "感谢王总的精彩致辞！（　）大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+       "options": [
+        "我们在这里",
+        "接下来是",
+        "上台致辞"
+       ],
+       "answer": 1,
+       "explain_vi": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！ — Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "开工第一天",
+   "context_vi": "课文三 · 开工第一天",
+   "scene": "🎉",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "王总，新年好！祝您新的一年身体健康，事业兴旺！",
+     "vi": "Anh Vương, chúc mừng năm mới! Chúc anh năm mới mạnh khoẻ, sự nghiệp hưng thịnh!"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "小阮新年好！来，开工红包，祝你今年开门红！",
+     "vi": "Tiểu Nguyễn năm mới vui vẻ! Nào, lì xì khai xuân, chúc em năm nay khởi đầu đỏ rực!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谢谢王总！恭喜发财，龙马精神！",
+     "vi": "Em cảm ơn anh Vương! Chúc anh phát tài, luôn sung sức như rồng như ngựa!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "开工红包",
+     "pinyin": "kāigōng hóngbāo",
+     "vi": "lì xì ngày khai xuân",
+     "example": {
+      "zh": "小阮新年好！来，开工红包，祝你今年开门红！",
+      "vi": "Tiểu Nguyễn năm mới vui vẻ! Nào, lì xì khai xuân, chúc em năm nay khởi đầu đỏ rực!"
+     }
+    },
+    {
+     "zh": "开门红",
+     "pinyin": "kāiménhóng",
+     "vi": "khởi đầu suôn sẻ",
+     "example": {
+      "zh": "小阮新年好！来，开工红包，祝你今年开门红！",
+      "vi": "Tiểu Nguyễn năm mới vui vẻ! Nào, lì xì khai xuân, chúc em năm nay khởi đầu đỏ rực!"
+     }
+    },
+    {
+     "zh": "事业兴旺",
+     "pinyin": "shìyè xīngwàng",
+     "vi": "sự nghiệp thịnh vượng",
+     "example": {
+      "zh": "王总，新年好！祝您新的一年身体健康，事业兴旺！",
+      "vi": "Anh Vương, chúc mừng năm mới! Chúc anh năm mới mạnh khoẻ, sự nghiệp hưng thịnh!"
+     }
+    },
+    {
+     "zh": "龙马精神",
+     "pinyin": "lóng mǎ jīngshén",
+     "vi": "tinh thần sung sức",
+     "example": {
+      "zh": "谢谢王总！恭喜发财，龙马精神！",
+      "vi": "Em cảm ơn anh Vương! Chúc anh phát tài, luôn sung sức như rồng như ngựa!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g18-3",
+     "title_zh": "首先，有请……上台致辞，大家掌声欢迎！",
+     "title_vi": "Mời người lên sân khấu",
+     "formula": [
+      [
+       {
+        "zh": "首先，有请",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "上台致辞，大家掌声欢迎！",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Mời người lên sân khấu.",
+     "examples": []
+    },
+    {
+     "id": "bc-g18-5",
+     "title_zh": "祝您新的一年……，……！",
+     "title_vi": "Lời chúc Tết theo cặp bốn chữ",
+     "formula": [
+      [
+       {
+        "zh": "祝您新的一年",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "，",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "！",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Lời chúc Tết theo cặp bốn chữ: 身体健康、万事如意、事业兴旺、阖家幸福.",
+     "examples": [
+      {
+       "zh": "王总，新年好！祝您新的一年身体健康，事业兴旺！",
+       "vi": "Anh Vương, chúc mừng năm mới! Chúc anh năm mới mạnh khoẻ, sự nghiệp hưng thịnh!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "王总，新年好！（　）身体健康，事业兴旺！",
+       "options": [
+        "大家掌声欢迎",
+        "祝您新的一年",
+        "亲爱的同事们"
+       ],
+       "answer": 1,
+       "explain_vi": "王总，新年好！祝您新的一年身体健康，事业兴旺！ — Anh Vương, chúc mừng năm mới! Chúc anh năm mới mạnh khoẻ, sự nghiệp hưng thịnh!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "今年部门___经费每人500元，大家有什么想法？",
+   "bank": [
+    "团建",
+    "节目",
+    "优秀员工"
+   ],
+   "answer": "团建"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我建议安排在工作日，别占用周末。可以上午做一个小型的___，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+   "bank": [
+    "参与度",
+    "拓展训练",
+    "主持词"
+   ],
+   "answer": "拓展训练"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "去年爬山太累了，今年能不能轻松一点，比如去___或者剧本杀？",
+   "bank": [
+    "年会",
+    "事业兴旺",
+    "农家乐"
+   ],
+   "answer": "农家乐"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "工作日这个建议好，大家___会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+   "bank": [
+    "龙马精神",
+    "农家乐",
+    "参与度"
+   ],
+   "answer": "参与度"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "尊敬的各位领导、亲爱的同事们，大家晚上好！___之际，我们在这里欢聚一堂，回顾2026年的收获，展望2027年的目标。首先，有请我们的王总上台致辞，大家掌声欢迎！",
+   "bank": [
+    "辞旧迎新",
+    "节目",
+    "抽奖"
+   ],
+   "answer": "辞旧迎新"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "感谢王总的精彩___！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+   "bank": [
+    "回顾",
+    "致辞",
+    "掌声欢迎"
+   ],
+   "answer": "致辞"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "有",
+    "大家",
+    "什么",
+    "想法"
+   ],
+   "answers": [
+    "大家有什么想法"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "去年",
+    "太累",
+    "爬山",
+    "了"
+   ],
+   "answers": [
+    "去年爬山太累了"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "能",
+    "轻松",
+    "不能",
+    "一点",
+    "今年"
+   ],
+   "answers": [
+    "今年能不能轻松一点"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "团建",
+     "a": "team building"
+    },
+    {
+     "q": "经费",
+     "a": "kinh phí"
+    },
+    {
+     "q": "拓展训练",
+     "a": "huấn luyện kỹ năng ngoài trời"
+    },
+    {
+     "q": "凝聚力",
+     "a": "sức gắn kết"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Ban tổ chức 年会: mỗi đội lên kịch bản 1 tiếng cho tiệc tất niên của công ty 200 người (chương trình, ngân sách, giải thưởng, tiết mục), trình bày 3 phút.",
+   "② MC tranh tài: mỗi học viên dẫn một đoạn 1 phút: mở màn, mời sếp phát biểu, chuyển sang bốc thăm. Chấm: giọng, lời dẫn, không khí.",
+   "③ Chúc Tết tiếp sức: vòng tròn, mỗi người nói một câu chúc bốn chữ không trùng người trước; ai bí hoặc trùng thì ra ngoài. Người cuối cùng thắng “lì xì” của giáo viên."
+  ],
+  "patterns": [
+   {
+    "zh": "辞旧迎新之际，我们在这里欢聚一堂。",
+    "vi": "Nhân dịp tiễn năm cũ đón năm mới, chúng ta cùng hội tụ nơi đây."
+   },
+   {
+    "zh": "感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+    "vi": "Cảm ơn bài phát biểu tuyệt vời của anh Vương! Tiếp theo là phần mọi người mong chờ nhất: bốc thăm trúng thưởng! Giải nhất năm nay là… một chiếc laptop! Kính mời anh Vương bốc ra người may mắn đầu tiên!"
+   },
+   {
+    "zh": "王总，新年好！祝您新的一年身体健康，事业兴旺！",
+    "vi": "Anh Vương, chúc mừng năm mới! Chúc anh năm mới mạnh khoẻ, sự nghiệp hưng thịnh!"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "年会 và 团建",
+  "body_vi": [
+   "Tiệc tất niên (年会) là sự kiện lớn nhất trong năm của công ty Trung Quốc: lãnh đạo phát biểu, trao giải nhân viên xuất sắc, văn nghệ do nhân viên tự diễn, và bốc thăm trúng thưởng với giải từ phong bì tiền đến điện thoại, xe hơi. Ngày đầu đi làm sau Tết, nhiều công ty (đặc biệt ở Quảng Đông, Hồng Kông, nơi gọi là 利是) có tục sếp phát lì xì khai xuân. Mặt khác, team building vào cuối tuần hay các tiết mục văn nghệ bắt buộc thường bị nhân viên trẻ than là “một hình thức tăng ca khác”; nhiều công ty đã chuyển sang tổ chức trong giờ làm và cho phép tự nguyện tham gia.",
+   "Ứng xử: Người mới thường được “mời” diễn văn nghệ ở 年会; nhận lời là cách hoà nhập nhanh, nhưng có thể đề xuất tiết mục tập thể nếu ngại.",
+   "Ứng xử: Nhận 开工红包 bằng hai tay, nói lời chúc; không mở trước mặt sếp.",
+   "Ứng xử: Tham gia nhóm WeChat 抢红包 dịp Tết; “cướp” được lì xì của sếp thì cảm ơn trong nhóm.",
+   "Ứng xử: Góp ý cho team building nên đề xuất phương án cụ thể, tránh chỉ than phiền."
+  ]
+ }
+}

@@ -1,0 +1,747 @@
+{
+ "id": 22,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "综合实战：项目汇报与数字化办公",
+  "pinyin": "zōng hé shí zhàn xiàng mù huì bào yǔ shù zì huà bàn gōng",
+  "vi": "thuyết trình một dự án hoàn chỉnh bằng tiếng Trung"
+ },
+ "grammarTopics_vi": [
+  "今天我汇报的题目是……。我的汇报分为……个部分：……",
+  "先看这张……图：……。这就是我们的机会。",
+  "讲完了……，接下来看……",
+  "谢谢……的问题，这点非常关键。……是按照……测算的。",
+  "总而言之，……可以概括为一句话：……。我的汇报就到这里，欢迎各位提问。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Thuyết trình một dự án hoàn chỉnh bằng tiếng Trung",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Trả lời câu hỏi chất vấn",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng thuần thục ngôn ngữ các nền tảng văn phòng số",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Hoàn thành bài thi cuối khoá",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "项目汇报（开场、过渡、结尾）",
+   "context_vi": "课文一 · 项目汇报（开场、过渡、结尾）",
+   "scene": "🖥️",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "各位领导、各位同事，下午好！今天我汇报的题目是《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。",
+     "vi": "Kính chào các anh chị lãnh đạo, các đồng nghiệp, chúc buổi chiều tốt lành! Đề tài báo cáo hôm nay của tôi là “Phương án mở rộng thị trường Campuchia của Đông Thịnh”. Bài báo cáo gồm bốn phần: bối cảnh thị trường, mục tiêu, lộ trình thực hiện và ngân sách."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+     "vi": "…Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+     "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+     "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "开场白",
+     "pinyin": "kāichǎngbái",
+     "vi": "lời mở đầu"
+    },
+    {
+     "zh": "题目",
+     "pinyin": "tímù",
+     "vi": "đề tài"
+    },
+    {
+     "zh": "执行路径",
+     "pinyin": "zhíxíng lùjìng",
+     "vi": "lộ trình thực hiện",
+     "example": {
+      "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+      "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+     }
+    },
+    {
+     "zh": "柱状图",
+     "pinyin": "zhùzhuàngtú",
+     "vi": "biểu đồ cột",
+     "example": {
+      "zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+      "vi": "…Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+     }
+    },
+    {
+     "zh": "折线图",
+     "pinyin": "zhéxiàntú",
+     "vi": "biểu đồ đường"
+    },
+    {
+     "zh": "饼图",
+     "pinyin": "bǐngtú",
+     "vi": "biểu đồ tròn"
+    },
+    {
+     "zh": "年均增长",
+     "pinyin": "niánjūn zēngzhǎng",
+     "vi": "tăng trưởng bình quân năm",
+     "example": {
+      "zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+      "vi": "…Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+     }
+    },
+    {
+     "zh": "盈亏平衡",
+     "pinyin": "yíngkuī pínghéng",
+     "vi": "hoà vốn",
+     "example": {
+      "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+      "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+     }
+    },
+    {
+     "zh": "投资回报率",
+     "pinyin": "tóuzī huíbàolǜ",
+     "vi": "tỉ suất hoàn vốn (ROI)",
+     "example": {
+      "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+      "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+     }
+    },
+    {
+     "zh": "总而言之",
+     "pinyin": "zǒng ér yán zhī",
+     "vi": "tóm lại",
+     "example": {
+      "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+      "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+     }
+    },
+    {
+     "zh": "概括",
+     "pinyin": "gàikuò",
+     "vi": "khái quát",
+     "example": {
+      "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+      "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+     }
+    },
+    {
+     "zh": "依托",
+     "pinyin": "yītuō",
+     "vi": "dựa vào",
+     "example": {
+      "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+      "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+     }
+    },
+    {
+     "zh": "辐射",
+     "pinyin": "fúshè",
+     "vi": "lan toả sang",
+     "example": {
+      "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+      "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+     }
+    },
+    {
+     "zh": "答疑",
+     "pinyin": "dáyí",
+     "vi": "giải đáp thắc mắc"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g22-1",
+     "title_zh": "今天我汇报的题目是……。我的汇报分为……个部分：……",
+     "title_vi": "Mở đầu thuyết trình",
+     "formula": [
+      [
+       {
+        "zh": "今天我汇报的题目是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。我的汇报分为",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "个部分：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mở đầu thuyết trình.",
+     "examples": [
+      {
+       "zh": "各位领导、各位同事，下午好！今天我汇报的题目是《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。",
+       "vi": "Kính chào các anh chị lãnh đạo, các đồng nghiệp, chúc buổi chiều tốt lành! Đề tài báo cáo hôm nay của tôi là “Phương án mở rộng thị trường Campuchia của Đông Thịnh”. Bài báo cáo gồm bốn phần: bối cảnh thị trường, mục tiêu, lộ trình thực hiện và ngân sách."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "各位领导、各位同事，下午好！（　）《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。",
+       "options": [
+        "我的汇报就到这里",
+        "可以概括为一句话",
+        "今天我汇报的题目是"
+       ],
+       "answer": 2,
+       "explain_vi": "各位领导、各位同事，下午好！今天我汇报的题目是《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。 — Kính chào các anh chị lãnh đạo, các đồng nghiệp, chúc buổi chiều tốt lành! Đề tài báo cáo hôm nay của tôi là “Phương án mở rộng thị trường Campuchia của Đông Thịnh”. Bài báo cáo gồm bốn phần: bối cảnh thị trường, mục tiêu, lộ trình thực hiện và ngân sách."
+      }
+     ]
+    },
+    {
+     "id": "bc-g22-2",
+     "title_zh": "先看这张……图：……。这就是我们的机会。",
+     "title_vi": "Dẫn dắt biểu đồ và rút ra ý chính",
+     "formula": [
+      [
+       {
+        "zh": "先看这张",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "图：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。这就是我们的机会。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Dẫn dắt biểu đồ và rút ra ý chính.",
+     "examples": [
+      {
+       "zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+       "vi": "…Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。（　）。",
+       "options": [
+        "可以概括为一句话",
+        "这就是我们的机会",
+        "我的汇报就到这里"
+       ],
+       "answer": 1,
+       "explain_vi": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。 — …Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+      }
+     ]
+    },
+    {
+     "id": "bc-g22-3",
+     "title_zh": "讲完了……，接下来看……",
+     "title_vi": "Câu chuyển ý giữa các phần",
+     "formula": [
+      [
+       {
+        "zh": "讲完了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，接下来看",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu chuyển ý giữa các phần.",
+     "examples": [
+      {
+       "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+       "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "……讲完了执行路径，（　）预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+       "options": [
+        "总而言之",
+        "先看这张",
+        "接下来看"
+       ],
+       "answer": 2,
+       "explain_vi": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。 — …Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+      }
+     ]
+    },
+    {
+     "id": "bc-g22-5",
+     "title_zh": "总而言之，……可以概括为一句话：……。我的汇报就到这里，欢迎各位提问。",
+     "title_vi": "Kết thúc thuyết trình",
+     "formula": [
+      [
+       {
+        "zh": "总而言之，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "可以概括为一句话：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。我的汇报就到这里，欢迎各位提问。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Kết thúc thuyết trình.",
+     "examples": [
+      {
+       "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+       "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "总而言之，我们的核心策略（　）：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+       "options": [
+        "可以概括为一句话",
+        "这就是我们的机会",
+        "今天我汇报的题目是"
+       ],
+       "answer": 0,
+       "explain_vi": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。 — Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-2",
+   "title": "答疑环节",
+   "context_vi": "课文二 · 答疑环节",
+   "scene": "🖥️",
+   "lines": [
+    {
+     "speaker": "bc-wangzong",
+     "zh": "你这个25%的回报率是怎么算出来的？有没有考虑汇率风险？",
+     "vi": "Tỷ suất hoàn vốn 25% này của cậu tính ra thế nào? Có tính đến rủi ro tỷ giá không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谢谢王总的问题，这点非常关键。回报率是按照保守、中性、乐观三种情景测算的，25%是中性情景。汇率方面，我们计划用美元结算，并跟银行做远期锁汇。详细的测算表我会后发到飞书群里。",
+     "vi": "Cảm ơn câu hỏi của anh Vương, điểm này rất then chốt. Tỷ suất hoàn vốn được tính theo ba kịch bản thận trọng, trung tính và lạc quan, 25% là kịch bản trung tính. Về tỷ giá, bọn em dự định thanh toán bằng đô la Mỹ và làm hợp đồng khoá tỷ giá kỳ hạn với ngân hàng. Bảng tính chi tiết em sẽ gửi vào nhóm Feishu sau buổi họp."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "如果第一年订单达不到预期呢？",
+     "vi": "Nếu năm đầu đơn hàng không đạt kỳ vọng thì sao?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我们设了一个止损线：如果前六个月订单完成率低于50%，就暂停第二阶段投入，重新评估。",
+     "vi": "Bọn em đặt một ngưỡng cắt lỗ: nếu sáu tháng đầu tỷ lệ hoàn thành đơn hàng dưới 50%, sẽ tạm dừng đầu tư giai đoạn hai và đánh giá lại."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "测算",
+     "pinyin": "cèsuàn",
+     "vi": "tính toán, ước tính"
+    },
+    {
+     "zh": "情景",
+     "pinyin": "qíngjǐng",
+     "vi": "kịch bản (scenario)"
+    },
+    {
+     "zh": "保守 / 乐观",
+     "pinyin": "bǎoshǒu / lèguān",
+     "vi": "thận trọng / lạc quan"
+    },
+    {
+     "zh": "远期锁汇",
+     "pinyin": "yuǎnqī suǒhuì",
+     "vi": "khoá tỉ giá kỳ hạn"
+    },
+    {
+     "zh": "止损线",
+     "pinyin": "zhǐsǔnxiàn",
+     "vi": "ngưỡng cắt lỗ",
+     "example": {
+      "zh": "我们设了一个止损线：如果前六个月订单完成率低于50%，就暂停第二阶段投入，重新评估。",
+      "vi": "Bọn em đặt một ngưỡng cắt lỗ: nếu sáu tháng đầu tỷ lệ hoàn thành đơn hàng dưới 50%, sẽ tạm dừng đầu tư giai đoạn hai và đánh giá lại."
+     }
+    },
+    {
+     "zh": "钉钉",
+     "pinyin": "Dīngding",
+     "vi": "DingTalk"
+    },
+    {
+     "zh": "飞书",
+     "pinyin": "Fēishū",
+     "vi": "Feishu/Lark"
+    },
+    {
+     "zh": "企业微信",
+     "pinyin": "Qǐyè Wēixìn",
+     "vi": "WeChat Work"
+    },
+    {
+     "zh": "在线文档",
+     "pinyin": "zàixiàn wéndàng",
+     "vi": "tài liệu trực tuyến"
+    },
+    {
+     "zh": "共享盘",
+     "pinyin": "gòngxiǎngpán",
+     "vi": "ổ chia sẻ"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "飞书文档评论",
+   "context_vi": "课文三 · 飞书文档评论",
+   "scene": "🖥️",
+   "lines": [
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "@阮文安 预算表第3页的人工成本按越南标准算的？柬埔寨那边要不要单独列？麻烦今天下班前更新一下，我已经把审批流发起了，更新后直接在待办里点通过就行。——周敏",
+     "vi": "@Nguyễn Văn An Chi phí nhân công ở trang 3 bảng ngân sách là tính theo chuẩn Việt Nam à? Bên Campuchia có cần tách riêng không? Phiền em cập nhật trước giờ tan làm hôm nay, chị đã khởi tạo quy trình phê duyệt rồi, cập nhật xong em bấm Duyệt thẳng trong mục Việc cần làm là được. — Chu Mẫn"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "审批流",
+     "pinyin": "shěnpīliú",
+     "vi": "luồng phê duyệt"
+    },
+    {
+     "zh": "发起",
+     "pinyin": "fāqǐ",
+     "vi": "khởi tạo"
+    },
+    {
+     "zh": "待办",
+     "pinyin": "dàibàn",
+     "vi": "việc cần làm (to-do)"
+    },
+    {
+     "zh": "已读回执",
+     "pinyin": "yǐdú huízhí",
+     "vi": "xác nhận đã đọc"
+    },
+    {
+     "zh": "数字化转型",
+     "pinyin": "shùzìhuà zhuǎnxíng",
+     "vi": "chuyển đổi số"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g22-4",
+     "title_zh": "谢谢……的问题，这点非常关键。……是按照……测算的。",
+     "title_vi": "Trả lời chất vấn",
+     "formula": [
+      [
+       {
+        "zh": "谢谢",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的问题，这点非常关键。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "是按照",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "测算的。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Trả lời chất vấn: cảm ơn → công nhận → giải thích căn cứ.",
+     "examples": []
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "各位领导、各位同事，下午好！今天我汇报的___是《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。",
+   "bank": [
+    "折线图",
+    "数字化转型",
+    "题目"
+   ],
+   "answer": "题目"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "……讲完了___，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+   "bank": [
+    "执行路径",
+    "远期锁汇",
+    "飞书"
+   ],
+   "answer": "执行路径"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "……先看这张___：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+   "bank": [
+    "柱状图",
+    "答疑",
+    "钉钉"
+   ],
+   "answer": "柱状图"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "___，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+   "bank": [
+    "总而言之",
+    "投资回报率",
+    "数字化转型"
+   ],
+   "answer": "总而言之"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "谢谢王总的问题，这点非常关键。回报率是按照保守、中性、乐观三种情景测算的，25%是中性情景。汇率方面，我们计划用美元结算，并跟银行做___。详细的测算表我会后发到飞书群里。",
+   "bank": [
+    "数字化转型",
+    "待办",
+    "远期锁汇"
+   ],
+   "answer": "远期锁汇"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我们设了一个___：如果前六个月订单完成率低于50%，就暂停第二阶段投入，重新评估。",
+   "bank": [
+    "数字化转型",
+    "年均增长",
+    "止损线"
+   ],
+   "answer": "止损线"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "领导",
+    "各位",
+    "同事",
+    "各位"
+   ],
+   "answers": [
+    "各位领导各位同事"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "我的",
+    "部分",
+    "汇报",
+    "分为",
+    "四个"
+   ],
+   "answers": [
+    "我的汇报分为四个部分"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "路径和",
+    "目标",
+    "预算",
+    "执行",
+    "市场背景"
+   ],
+   "answers": [
+    "市场背景目标执行路径和预算"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "开场白",
+     "a": "lời mở đầu"
+    },
+    {
+     "q": "题目",
+     "a": "đề tài"
+    },
+    {
+     "q": "执行路径",
+     "a": "lộ trình thực hiện"
+    },
+    {
+     "q": "柱状图",
+     "a": "biểu đồ cột"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Thuyết trình dự án (thi): mỗi học viên hoặc nhóm 2 người thuyết trình 8 phút một dự án kinh doanh Trung – Việt tự chọn, có ít nhất 1 biểu đồ, sau đó 5 phút chất vấn từ “ban lãnh đạo”.",
+   "② Đàm phán phân vai (thi): bốc thăm 1 trong 5 tình huống tổng hợp (báo giá + điều khoản + khiếu nại), đàm phán 10 phút với giáo viên hoặc khách mời người Trung Quốc.",
+   "③ Lễ tốt nghiệp kiểu 年会: trao giải “最佳谈判手”, “最佳邮件”, “最佳主持人”; mỗi học viên nâng ly (trà) nói một lời chúc."
+  ],
+  "patterns": [
+   {
+    "zh": "各位领导、各位同事，下午好！今天我汇报的题目是《东盛柬埔寨市场开拓方案》。我的汇报分为四个部分：市场背景、目标、执行路径和预算。",
+    "vi": "Kính chào các anh chị lãnh đạo, các đồng nghiệp, chúc buổi chiều tốt lành! Đề tài báo cáo hôm nay của tôi là “Phương án mở rộng thị trường Campuchia của Đông Thịnh”. Bài báo cáo gồm bốn phần: bối cảnh thị trường, mục tiêu, lộ trình thực hiện và ngân sách."
+   },
+   {
+    "zh": "……先看这张柱状图：过去三年，柬埔寨冷链需求年均增长18%，但本地服务商只能满足不到一半。这就是我们的机会。",
+    "vi": "…Trước hết xem biểu đồ cột này: ba năm qua, nhu cầu chuỗi lạnh ở Campuchia tăng trung bình 18% mỗi năm, nhưng các nhà cung cấp dịch vụ địa phương chỉ đáp ứng được chưa đến một nửa. Đây chính là cơ hội của chúng ta."
+   },
+   {
+    "zh": "……讲完了执行路径，接下来看预算。首年总投入300万元，预计第二年实现盈亏平衡，三年投资回报率约25%。",
+    "vi": "…Trình bày xong lộ trình thực hiện, tiếp theo là ngân sách. Tổng đầu tư năm đầu 3 triệu tệ, dự kiến năm thứ hai hoà vốn, tỷ suất hoàn vốn ba năm khoảng 25%."
+   },
+   {
+    "zh": "总而言之，我们的核心策略可以概括为一句话：依托越南，辐射柬埔寨。我的汇报就到这里，欢迎各位提问。",
+    "vi": "Tóm lại, chiến lược cốt lõi của chúng ta có thể gói gọn trong một câu: dựa vào Việt Nam, lan toả sang Campuchia. Báo cáo của tôi xin dừng ở đây, xin mời các anh chị đặt câu hỏi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Văn phòng số kiểu Trung Quốc",
+  "body_vi": [
+   "Công ty Trung Quốc chuyển đổi số văn phòng rất sâu: 钉钉 (Alibaba), 飞书 (ByteDance) và 企业微信 (Tencent) gộp chat, lịch, chấm công, phê duyệt, tài liệu trực tuyến, họp video vào một ứng dụng. Chấm công bằng định vị trên điện thoại, xin nghỉ và thanh toán chi phí qua 审批流, xác nhận đã đọc tin nhắn là chuyện thường ngày. Điều này giúp làm việc nhanh (“中国速度”), nhưng cũng làm ranh giới giờ làm mờ đi, liên quan đến chủ đề 隐形加班 ở buổi 3 và buổi 16. Người Việt làm cho công ty Trung Quốc nên cài sẵn các ứng dụng này và làm quen giao diện tiếng Trung.",
+   "Ứng xử: Slide tiếng Trung nên ít chữ, nhiều số; mỗi slide một thông điệp. Tiêu đề slide là kết luận, không phải chủ đề (“需求增长18%” thay vì “市场需求”).",
+   "Ứng xử: Khi bị chất vấn mà chưa có câu trả lời: 这个问题我需要再核实一下数据，会后一小时内发给您. Không bịa số.",
+   "Ứng xử: Trên 钉钉/飞书, tính năng 已读回执 cho người gửi biết ai đã đọc; “đã đọc không trả lời” với sếp dễ gây phản cảm, nên phản hồi 收到 ngay.",
+   "Ứng xử: Tài liệu dùng chung: bình luận và @ đúng người thay vì sửa thẳng vào nội dung của người khác."
+  ]
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "lessonId": 11,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "喂？喂？小阮啊，我在高速上，（　　）不太好哈……那个货，你们那个货，是不是四号到？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "单号",
+      "信号",
+      "散会"
+     ],
+     "answer": 1,
+     "explain_vi": "信号: sóng điện thoại. Câu đầy đủ: 喂？喂？小阮啊，我在高速上，信号不太好哈……那个货，你们那个货，是不是四号到？"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "（背景音：……喂？你们能听到吗？我这边（　　）……）",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "卡了",
+      "散会",
+      "信号"
+     ],
+     "answer": 0,
+     "explain_vi": "卡了: bị đơ, giật (mạng). Câu đầy đủ: （背景音：……喂？你们能听到吗？我这边卡了……）"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "不好意思我（　　）啊，那个接口的问题，我们昨天其实已经……",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "散会",
+      "大概齐",
+      "插一句"
+     ],
+     "answer": 2,
+     "explain_vi": "插一句: xin chen một câu. Câu đầy đủ: 不好意思我插一句啊，那个接口的问题，我们昨天其实已经……"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "啊，那就简单了，我还以为要大改呢。那……周三能（　　）吧？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "搞定",
+      "平翘舌",
+      "方言"
+     ],
+     "answer": 0,
+     "explain_vi": "搞定: xong xuôi, giải quyết được. Câu đầy đủ: 啊，那就简单了，我还以为要大改呢。那……周三能搞定吧？"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "哦哦，十号，好好。那你把那个单号发我微信，我（　　）让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "插一句",
+      "普通话",
+      "回头"
+     ],
+     "answer": 2,
+     "explain_vi": "回头: lát nữa, sau này. Câu đầy đủ: 哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "小阮啊，跟你说个事儿。（　　）那个会，甭订大会议室了，就咱仨，找个小屋儿就得。然后呢，PPT你大概齐过一遍就行，别整太细，领导就看那三页数据。对了，那个报价单是两千五一吨，不是两千八，你别弄错了啊。行，就这事儿。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "回头",
+      "明儿",
+      "单号"
+     ],
+     "answer": 1,
+     "explain_vi": "明儿: ngày mai (Bắc Kinh). Câu đầy đủ: 小阮啊，跟你说个事儿。明儿那个会，甭订大会议室了，就咱仨，找个小屋儿就得。然后呢，PPT你大概齐过一遍就行，别整太细，领导就看那三页数据。对了，那个报价单是两千五一吨，不是两千八，你别弄错了啊。行，就这事儿。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "口音",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "âm đầu lưỡi thẳng/uốn (z-zh, s-sh)",
+      "giọng (vùng miền)",
+      "đại khái (Bắc Kinh)"
+     ],
+     "answer": 1,
+     "explain_vi": "口音 (kǒuyīn): giọng (vùng miền)"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "方言",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "phương ngữ",
+      "vần -n / -ng",
+      "bị đơ, giật (mạng)"
+     ],
+     "answer": 0,
+     "explain_vi": "方言 (fāngyán): phương ngữ"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "口音",
+       "a": "giọng (vùng miền)"
+      },
+      {
+       "q": "方言",
+       "a": "phương ngữ"
+      },
+      {
+       "q": "普通话",
+       "a": "tiếng phổ thông"
+      },
+      {
+       "q": "平翘舌",
+       "a": "âm đầu lưỡi thẳng/uốn (z-zh, s-sh)"
+      },
+      {
+       "q": "前后鼻音",
+       "a": "vần -n / -ng"
+      },
+      {
+       "q": "儿化音",
+       "a": "âm cuốn lưỡi -r"
+      }
+     ],
+     "explain_vi": "口音 = giọng (vùng miền) · 方言 = phương ngữ · 普通话 = tiếng phổ thông · 平翘舌 = âm đầu lưỡi thẳng/uốn (z-zh, s-sh) · 前后鼻音 = vần -n / -ng · 儿化音 = âm cuốn lưỡi -r"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "不太好",
+      "货",
+      "哈",
+      "那个",
+      "信号"
+     ],
+     "answers": [
+      "信号不太好哈那个货"
+     ],
+     "explain_vi": "信号不太好哈那个货 — trích từ câu: 喂？喂？小阮啊，我在高速上，信号不太好哈……那个货，你们那个货，是不是四号到？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "四号",
+      "到",
+      "是不是"
+     ],
+     "answers": [
+      "是不是四号到"
+     ],
+     "explain_vi": "是不是四号到 — trích từ câu: 喂？喂？小阮啊，我在高速上，信号不太好哈……那个货，你们那个货，是不是四号到？"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "那你把",
+      "发我",
+      "那个",
+      "单号",
+      "微信"
+     ],
+     "answers": [
+      "那你把那个单号发我微信"
+     ],
+     "explain_vi": "那你把那个单号发我微信 — trích từ câu: 哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "仓库",
+      "让",
+      "回头",
+      "去拿",
+      "我"
+     ],
+     "answers": [
+      "我回头让仓库去拿"
+     ],
+     "explain_vi": "我回头让仓库去拿 — trích từ câu: 哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。"
+    },
+    {
+     "id": "r5x",
+     "kind": "reorder",
+     "tiles": [
+      "你",
+      "发微信",
+      "直接",
+      "吧"
+     ],
+     "answers": [
+      "你直接发微信吧"
+     ],
+     "explain_vi": "你直接发微信吧 — trích từ câu: 哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "您",
+      "注意安全",
+      "开车"
+     ],
+     "answers": [
+      "您开车注意安全"
+     ],
+     "explain_vi": "您开车注意安全 — trích từ câu: 好的黄总，我马上发您，您开车注意安全！"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "插",
+      "我",
+      "啊",
+      "一句",
+      "不好意思"
+     ],
+     "answers": [
+      "不好意思我插一句啊"
+     ],
+     "explain_vi": "不好意思我插一句啊 — trích từ câu: 不好意思我插一句啊，那个接口的问题，我们昨天其实已经……"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "问题",
+      "那个",
+      "接口"
+     ],
+     "answers": [
+      "那个接口的问题"
+     ],
+     "explain_vi": "那个接口的问题 — trích từ câu: 不好意思我插一句啊，那个接口的问题，我们昨天其实已经……"
+    }
+   ]
+  }
+ ]
+}

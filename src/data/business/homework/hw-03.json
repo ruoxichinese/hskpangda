@@ -1,0 +1,275 @@
+{
+ "lessonId": 3,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "您好，我是东盛集团市场部的小阮，麻烦您帮我（　　）一下采购部的赵经理。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "转接",
+      "已读不回",
+      "扫码"
+     ],
+     "answer": 0,
+     "explain_vi": "转接: chuyển máy. Câu đầy đủ: 您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "请稍等……不好意思，赵经理的电话（　　）。您要留言吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "占线",
+      "置顶",
+      "朋友圈"
+     ],
+     "answer": 0,
+     "explain_vi": "占线: máy bận. Câu đầy đủ: 请稍等……不好意思，赵经理的电话占线。您要留言吗？"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "好的，麻烦您（　　）他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "扫码",
+      "朋友圈",
+      "转告"
+     ],
+     "answer": 2,
+     "explain_vi": "转告: nhắn lại, chuyển lời. Câu đầy đủ: 好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "谢谢您，（　　）了！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "扫码",
+      "打扰",
+      "备注"
+     ],
+     "answer": 1,
+     "explain_vi": "打扰: làm phiền. Câu đầy đủ: 谢谢您，打扰了！"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "@所有人 各位好，华丰样品交付时间（　　）为10月15日（周三）上午10点，地点：华丰二号仓库。请技术部陈工、物流部小林提前半小时到达。收到请回复，谢谢！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "确认",
+      "秒回",
+      "占线"
+     ],
+     "answer": 0,
+     "explain_vi": "确认: xác nhận. Câu đầy đủ: @所有人 各位好，华丰样品交付时间确认为10月15日（周三）上午10点，地点：华丰二号仓库。请技术部陈工、物流部小林提前半小时到达。收到请回复，谢谢！"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "可以。对了，你们发（　　）我不太方便听，尽量打字哈。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "打扰",
+      "已读不回",
+      "语音"
+     ],
+     "answer": 2,
+     "explain_vi": "语音: tin nhắn thoại. Câu đầy đủ: 可以。对了，你们发语音我不太方便听，尽量打字哈。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "明白！重要信息我都会（　　），并在群里置顶。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "打字",
+      "样品",
+      "加微信"
+     ],
+     "answer": 0,
+     "explain_vi": "打字: gõ chữ. Câu đầy đủ: 明白！重要信息我都会打字，并在群里置顶。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "分机",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "hàng mẫu",
+      "gõ chữ",
+      "số máy lẻ"
+     ],
+     "answer": 2,
+     "explain_vi": "分机 (fēnjī): số máy lẻ"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "转接",
+       "a": "chuyển máy"
+      },
+      {
+       "q": "占线",
+       "a": "máy bận"
+      },
+      {
+       "q": "分机",
+       "a": "số máy lẻ"
+      },
+      {
+       "q": "留言",
+       "a": "để lại lời nhắn"
+      },
+      {
+       "q": "转告",
+       "a": "nhắn lại, chuyển lời"
+      },
+      {
+       "q": "回电话",
+       "a": "gọi lại"
+      }
+     ],
+     "explain_vi": "转接 = chuyển máy · 占线 = máy bận · 分机 = số máy lẻ · 留言 = để lại lời nhắn · 转告 = nhắn lại, chuyển lời · 回电话 = gọi lại"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "哪位",
+      "找",
+      "您",
+      "请问"
+     ],
+     "answers": [
+      "请问您找哪位"
+     ],
+     "explain_vi": "请问您找哪位 — trích từ câu: 您好，华丰贸易，请问您找哪位？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "市场部",
+      "集团",
+      "我是",
+      "的小阮",
+      "东盛"
+     ],
+     "answers": [
+      "我是东盛集团市场部的小阮"
+     ],
+     "explain_vi": "我是东盛集团市场部的小阮 — trích từ câu: 您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "的赵经理",
+      "麻烦",
+      "采购部",
+      "转接一下",
+      "您帮我"
+     ],
+     "answers": [
+      "麻烦您帮我转接一下采购部的赵经理"
+     ],
+     "explain_vi": "麻烦您帮我转接一下采购部的赵经理 — trích từ câu: 您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "占线",
+      "电话",
+      "赵",
+      "的",
+      "经理"
+     ],
+     "answers": [
+      "赵经理的电话占线"
+     ],
+     "explain_vi": "赵经理的电话占线 — trích từ câu: 请稍等……不好意思，赵经理的电话占线。您要留言吗？"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Vâng, tôi ghi lại rồi, sẽ nhắn anh ấy sớm nhất.",
+     "acceptedAnswers": [
+      "好的，我记下了，会尽快转告他。"
+     ],
+     "requiredKeywords": [
+      "转告"
+     ],
+     "explain_vi": "Câu trong bài khoá: 好的，我记下了，会尽快转告他。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "麻烦",
+      "转告",
+      "他",
+      "您"
+     ],
+     "answers": [
+      "麻烦您转告他"
+     ],
+     "explain_vi": "麻烦您转告他 — trích từ câu: 好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "就行",
+      "给我回个",
+      "他方便",
+      "电话",
+      "的时候"
+     ],
+     "answers": [
+      "他方便的时候给我回个电话就行"
+     ],
+     "explain_vi": "他方便的时候给我回个电话就行 — trích từ câu: 好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "尽快",
+      "会",
+      "转告",
+      "他"
+     ],
+     "answers": [
+      "会尽快转告他"
+     ],
+     "explain_vi": "会尽快转告他 — trích từ câu: 好的，我记下了，会尽快转告他。"
+    }
+   ]
+  }
+ ]
+}

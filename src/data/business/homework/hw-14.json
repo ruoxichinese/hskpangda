@@ -1,0 +1,320 @@
+{
+ "lessonId": 14,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "小阮，你今年表现不错，（　　）评了A。你对自己有什么想法？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "绩效",
+      "调薪",
+      "十三薪"
+     ],
+     "answer": 0,
+     "explain_vi": "绩效: hiệu suất, thành tích. Câu đầy đủ: 小阮，你今年表现不错，绩效评了A。你对自己有什么想法？"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，（　　）115%；回款率96%，新增客户14家。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "达成率",
+      "亮点",
+      "开拓"
+     ],
+     "answer": 0,
+     "explain_vi": "达成率: tỉ lệ đạt. Câu đầy đủ: 第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、（　　）和不足，以及明年的规划。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "缩短",
+      "亮点",
+      "绩效"
+     ],
+     "answer": 1,
+     "explain_vi": "亮点: điểm sáng. Câu đầy đủ: 各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "（　　）是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "不足之处",
+      "绩效",
+      "人才盘点"
+     ],
+     "answer": 0,
+     "explain_vi": "不足之处: điểm còn thiếu sót. Câu đầy đủ: 不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "第三，明年规划：在（　　）越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "低于预期",
+      "巩固",
+      "缩短"
+     ],
+     "answer": 1,
+     "explain_vi": "巩固: củng cố. Câu đầy đủ: 第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "你的想法我理解，我会在人才盘点会上推荐你。不过（　　）除了业绩，还要看带团队的能力，你明年可以先把东南亚小组带起来。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "画饼",
+      "管理岗",
+      "坦诚"
+     ],
+     "answer": 1,
+     "explain_vi": "管理岗: vị trí quản lý. Câu đầy đủ: 你的想法我理解，我会在人才盘点会上推荐你。不过管理岗除了业绩，还要看带团队的能力，你明年可以先把东南亚小组带起来。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "好的，我会努力的。那薪资方面，今年的（　　）幅度大概是多少？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "调薪",
+      "绩效",
+      "晋升"
+     ],
+     "answer": 0,
+     "explain_vi": "调薪: điều chỉnh lương. Câu đầy đủ: 好的，我会努力的。那薪资方面，今年的调薪幅度大概是多少？"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "我们部门今年实行末位淘汰，排最后的要谈话。（　　）也缩水了，老板说明年上市以后大家都能分股份。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "十三薪",
+      "开拓",
+      "年终奖"
+     ],
+     "answer": 2,
+     "explain_vi": "年终奖: thưởng cuối năm. Câu đầy đủ: 我们部门今年实行末位淘汰，排最后的要谈话。年终奖也缩水了，老板说明年上市以后大家都能分股份。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "述职",
+       "a": "báo cáo công tác (trình bày nhiệm vụ)"
+      },
+      {
+       "q": "年终总结",
+       "a": "tổng kết cuối năm"
+      },
+      {
+       "q": "绩效",
+       "a": "hiệu suất, thành tích"
+      },
+      {
+       "q": "考核",
+       "a": "đánh giá, sát hạch"
+      },
+      {
+       "q": "指标",
+       "a": "chỉ tiêu"
+      },
+      {
+       "q": "达成率",
+       "a": "tỉ lệ đạt"
+      }
+     ],
+     "explain_vi": "述职 = báo cáo công tác (trình bày nhiệm vụ) · 年终总结 = tổng kết cuối năm · 绩效 = hiệu suất, thành tích · 考核 = đánh giá, sát hạch · 指标 = chỉ tiêu · 达成率 = tỉ lệ đạt"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "文安",
+      "的阮",
+      "市场部",
+      "东南亚",
+      "我是"
+     ],
+     "answers": [
+      "我是东南亚市场部的阮文安"
+     ],
+     "explain_vi": "我是东南亚市场部的阮文安 — trích từ câu: 各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "亮点",
+      "和",
+      "业绩",
+      "不足"
+     ],
+     "answers": [
+      "业绩亮点和不足"
+     ],
+     "explain_vi": "业绩亮点和不足 — trích từ câu: 各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "以及",
+      "规划",
+      "的",
+      "明年"
+     ],
+     "answers": [
+      "以及明年的规划"
+     ],
+     "explain_vi": "以及明年的规划 — trích từ câu: 各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "仓库",
+      "系统的",
+      "本地化",
+      "越南新",
+      "主导了"
+     ],
+     "answers": [
+      "主导了越南新仓库系统的本地化"
+     ],
+     "explain_vi": "主导了越南新仓库系统的本地化 — trích từ câu: 第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Haha, đây là đang “vẽ bánh” (hứa suông) chứ gì?",
+     "acceptedAnswers": [
+      "哈哈，这是在“画饼”吧？"
+     ],
+     "requiredKeywords": [
+      "画饼"
+     ],
+     "explain_vi": "Câu trong bài khoá: 哈哈，这是在“画饼”吧？"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "深入",
+      "不够",
+      "调研",
+      "市场的",
+      "对柬埔寨"
+     ],
+     "answers": [
+      "对柬埔寨市场的调研不够深入"
+     ],
+     "explain_vi": "对柬埔寨市场的调研不够深入 — trích từ câu: 不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "预期",
+      "客户",
+      "开发",
+      "新",
+      "低于"
+     ],
+     "answers": [
+      "新客户开发低于预期"
+     ],
+     "explain_vi": "新客户开发低于预期 — trích từ câu: 不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "基础",
+      "市场的",
+      "上",
+      "在巩固",
+      "越南"
+     ],
+     "answers": [
+      "在巩固越南市场的基础上"
+     ],
+     "explain_vi": "在巩固越南市场的基础上 — trích từ câu: 第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "translate",
+     "prompt_vi": "Chuyển sang văn viết trang trọng: 今年卖得比去年多了一倍。",
+     "acceptedAnswers": [
+      "今年销售额同比翻了一番。"
+     ],
+     "requiredKeywords": [
+      "翻了一番"
+     ],
+     "explain_vi": "Đáp án gợi ý: 今年销售额同比翻了一番。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Bài viết công việc (hồ sơ portfolio)",
+   "instructions_vi": "Viết bằng chữ Hán, văn phong trang trọng. Giáo viên đọc bài trên trang giáo viên và chấm theo thang A2.",
+   "questions": [
+    {
+     "id": "w1",
+     "kind": "essay",
+     "prompt_vi": "Viết bản tổng kết cuối năm (述职) ngắn",
+     "requirements_vi": [
+      "Ba phần: kết quả (có số liệu), điểm nổi bật và hạn chế, kế hoạch năm tới",
+      "Dùng số liệu so sánh: 达成率, 比……增长 hoặc 翻了一番"
+     ],
+     "minChars": 100,
+     "keywords": [
+      "业绩",
+      "亮点",
+      "不足",
+      "规划"
+     ],
+     "model": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。\n第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。\n第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。\n不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。\n第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+     "explain_vi": "So sánh với bài mẫu và tự chấm theo thang A2."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "lessonId": 17,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "小阮！你们这批腰果到货以后，有三十箱包装（　　），还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "空运",
+      "破损",
+      "老化"
+     ],
+     "answer": 1,
+     "explain_vi": "破损: hư hỏng, vỡ. Câu đầy đủ: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "对于10月批次货物出现包装破损及（　　）问题，我司深表歉意。经核实，问题系运输途中集装箱密封不良所致。我司已于10月22日完成补发，并将承担全部相关费用。今后我们将加强出货前检查，杜绝类似问题再次发生。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "整改",
+      "老化",
+      "受潮"
+     ],
+     "answer": 2,
+     "explain_vi": "受潮: bị ẩm. Câu đầy đủ: 对于10月批次货物出现包装破损及受潮问题，我司深表歉意。经核实，问题系运输途中集装箱密封不良所致。我司已于10月22日完成补发，并将承担全部相关费用。今后我们将加强出货前检查，杜绝类似问题再次发生。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "赵经理，非常抱歉给您（　　）了，您先别着急。我理解这批货对您下周上架非常重要。麻烦您先拍一下破损的照片和箱号发给我，我马上跟仓库和物流核实，两个小时内给您初步答复。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "受潮",
+      "投诉",
+      "添麻烦"
+     ],
+     "answer": 2,
+     "explain_vi": "添麻烦: gây phiền phức. Câu đầy đủ: 赵经理，非常抱歉给您添麻烦了，您先别着急。我理解这批货对您下周上架非常重要。麻烦您先拍一下破损的照片和箱号发给我，我马上跟仓库和物流核实，两个小时内给您初步答复。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "一定！我们已经要求物流方全面检查（　　），并在装柜时增加防潮包装。整改报告我下周发给您。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "索赔",
+      "空运",
+      "集装箱"
+     ],
+     "answer": 2,
+     "explain_vi": "集装箱: container. Câu đầy đủ: 一定！我们已经要求物流方全面检查集装箱，并在装柜时增加防潮包装。整改报告我下周发给您。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "（　　）？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "补发",
+      "集装箱",
+      "杜绝"
+     ],
+     "answer": 0,
+     "explain_vi": "补发: gửi bù. Câu đầy đủ: 补发？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "好。我们仓库在深圳还有十五箱同批次的货，我现在就安排今天发出，明天到您那儿；剩下的（　　）周五到。另外，关于上架延误的损失，您这边能不能先提供一个大概的数字？我需要向领导申请，今天下班前一定给您正式答复。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "空运",
+      "给个说法",
+      "核实"
+     ],
+     "answer": 0,
+     "explain_vi": "空运: vận chuyển hàng không. Câu đầy đủ: 好。我们仓库在深圳还有十五箱同批次的货，我现在就安排今天发出，明天到您那儿；剩下的空运周五到。另外，关于上架延误的损失，您这边能不能先提供一个大概的数字？我需要向领导申请，今天下班前一定给您正式答复。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "投诉",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "chấn chỉnh, khắc phục",
+      "khiếu nại",
+      "container"
+     ],
+     "answer": 1,
+     "explain_vi": "投诉 (tóusù): khiếu nại"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "给个说法",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "vận chuyển hàng không",
+      "bị ẩm",
+      "đưa ra lời giải thích thoả đáng"
+     ],
+     "answer": 2,
+     "explain_vi": "给个说法 (gěi ge shuōfǎ): đưa ra lời giải thích thoả đáng"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "投诉",
+       "a": "khiếu nại"
+      },
+      {
+       "q": "破损",
+       "a": "hư hỏng, vỡ"
+      },
+      {
+       "q": "受潮",
+       "a": "bị ẩm"
+      },
+      {
+       "q": "给个说法",
+       "a": "đưa ra lời giải thích thoả đáng"
+      },
+      {
+       "q": "添麻烦",
+       "a": "gây phiền phức"
+      },
+      {
+       "q": "核实",
+       "a": "xác minh"
+      }
+     ],
+     "explain_vi": "投诉 = khiếu nại · 破损 = hư hỏng, vỡ · 受潮 = bị ẩm · 给个说法 = đưa ra lời giải thích thoả đáng · 添麻烦 = gây phiền phức · 核实 = xác minh"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "这批",
+      "到货",
+      "腰果",
+      "你们",
+      "以后"
+     ],
+     "answers": [
+      "你们这批腰果到货以后"
+     ],
+     "explain_vi": "你们这批腰果到货以后 — trích từ câu: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "箱",
+      "三十",
+      "破损",
+      "有",
+      "包装"
+     ],
+     "answers": [
+      "有三十箱包装破损"
+     ],
+     "explain_vi": "有三十箱包装破损 — trích từ câu: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "受潮",
+      "还有",
+      "几箱"
+     ],
+     "answers": [
+      "还有几箱受潮了"
+     ],
+     "explain_vi": "还有几箱受潮了 — trích từ câu: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "就要",
+      "我们",
+      "上架",
+      "下周"
+     ],
+     "answers": [
+      "我们下周就要上架"
+     ],
+     "explain_vi": "我们下周就要上架 — trích từ câu: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Sự cố là do niêm phong không kín gây ra.",
+     "acceptedAnswers": [
+      "问题系密封不良所致。"
+     ],
+     "requiredKeywords": [
+      "密封"
+     ],
+     "explain_vi": "Câu trong bài khoá: 问题系密封不良所致。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Qua kiểm tra, hàng hoá bị ẩm trong quá trình vận chuyển.",
+     "acceptedAnswers": [
+      "经核实，货物系运输途中受潮。"
+     ],
+     "requiredKeywords": [
+      "受潮",
+      "核实"
+     ],
+     "explain_vi": "Câu trong bài khoá: 经核实，货物系运输途中受潮。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "说法",
+      "必须",
+      "今天",
+      "给我",
+      "一个"
+     ],
+     "answers": [
+      "今天必须给我一个说法"
+     ],
+     "explain_vi": "今天必须给我一个说法 — trích từ câu: 小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "translate",
+     "prompt_vi": "Chuyển sang văn viết trang trọng: 我们查了一下，是运输的时候箱子没封好才受潮的。",
+     "acceptedAnswers": [
+      "经核实，货物受潮系运输途中密封不良所致。"
+     ],
+     "requiredKeywords": [
+      "经核实",
+      "所致"
+     ],
+     "explain_vi": "Đáp án gợi ý: 经核实，货物受潮系运输途中密封不良所致。"
+    },
+    {
+     "id": "c2",
+     "kind": "translate",
+     "prompt_vi": "Sửa lỗi: 经过核实，问题是由于密封不良所致。",
+     "acceptedAnswers": [
+      "经核实，问题系密封不良所致。",
+      "经核实，问题是由于密封不良造成的。"
+     ],
+     "requiredKeywords": [
+      "经核实"
+     ],
+     "explain_vi": "Bỏ trùng 由于…所致: 经核实，问题系密封不良所致。"
+    },
+    {
+     "id": "c3",
+     "kind": "mcq",
+     "prompt_zh": "（　）明天下雨，展会（　）照常举行。",
+     "prompt_vi": "Chọn cặp từ nối thích hợp.",
+     "options": [
+      "虽然……但是",
+      "尽管……还是",
+      "即使……也"
+     ],
+     "answer": 2,
+     "explain_vi": "即使……也 (giả định): 即使明天下雨，展会也照常举行。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Bài viết công việc (hồ sơ portfolio)",
+   "instructions_vi": "Viết bằng chữ Hán, văn phong trang trọng. Giáo viên đọc bài trên trang giáo viên và chấm theo thang A2.",
+   "questions": [
+    {
+     "id": "w1",
+     "kind": "essay",
+     "prompt_vi": "Viết thư xin lỗi (致歉函) gửi khách hàng về sự cố lô hàng",
+     "requirements_vi": [
+      "Xin lỗi rõ ràng, nêu nguyên nhân đã kiểm tra",
+      "Nêu biện pháp đã làm và cam kết cho lần sau"
+     ],
+     "minChars": 80,
+     "keywords": [
+      "深表歉意",
+      "经核实",
+      "系",
+      "今后"
+     ],
+     "model": "尊敬的华丰贸易：\n对于10月批次货物出现包装破损及受潮问题，我司深表歉意。经核实，问题系运输途中集装箱密封不良所致。我司已于10月22日完成补发，并将承担全部相关费用。今后我们将加强出货前检查，杜绝类似问题再次发生。",
+     "explain_vi": "So sánh với bài mẫu và tự chấm theo thang A2."
+    }
+   ]
+  }
+ ]
+}

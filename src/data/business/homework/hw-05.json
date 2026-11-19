@@ -1,0 +1,271 @@
+{
+ "lessonId": 5,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "会议纪要｜10月13日周（　　） 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "对齐",
+      "静音",
+      "例会"
+     ],
+     "answer": 2,
+     "explain_vi": "例会: họp định kỳ. Câu đầy đủ: 会议纪要｜10月13日周例会 参会人：李经理、王姐、小阮、小林 记录人：小阮"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "人都到齐了吧？那我们开始。今天会议主要有三个（　　）：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "截止日期",
+      "共识",
+      "议题"
+     ],
+     "answer": 2,
+     "explain_vi": "议题: chủ đề thảo luận. Câu đầy đủ: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "关于双十一备货，我同意王姐的观点，要多备一些。不过，我有一个（　　）：越南客户付款周期长，如果备货太多，资金压力会比较大。能不能先备七成，根据预售数据再补？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "闭环",
+      "顾虑",
+      "会议纪要"
+     ],
+     "answer": 1,
+     "explain_vi": "顾虑: băn khoăn, lo ngại. Câu đầy đủ: 关于双十一备货，我同意王姐的观点，要多备一些。不过，我有一个顾虑：越南客户付款周期长，如果备货太多，资金压力会比较大。能不能先备七成，根据预售数据再补？"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "好的。上周越南线销售额280万，（　　）增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "闭环",
+      "环比",
+      "负责人"
+     ],
+     "answer": 1,
+     "explain_vi": "环比: so với kỳ trước liền kề. Câu đầy đủ: 好的。上周越南线销售额280万，环比增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "- 双十一备货：按预计销量80%备货，10月25日根据（　　）数据复核（负责人：王姐）。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "议题",
+      "同比",
+      "预售"
+     ],
+     "answer": 2,
+     "explain_vi": "预售: đặt hàng trước. Câu đầy đủ: - 双十一备货：按预计销量80%备货，10月25日根据预售数据复核（负责人：王姐）。"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "- 越南线物流延迟问题：小阮、小林会后（　　）原因，10月15日前提交改进方案。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "备货",
+      "对齐",
+      "主持"
+     ],
+     "answer": 1,
+     "explain_vi": "对齐: thống nhất, “align” (lóng). Câu đầy đủ: - 越南线物流延迟问题：小阮、小林会后对齐原因，10月15日前提交改进方案。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "议程",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "người tham dự",
+      "lạc đề",
+      "chương trình họp"
+     ],
+     "answer": 2,
+     "explain_vi": "议程 (yìchéng): chương trình họp"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "主持",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "chuẩn bị hàng, dự trữ hàng",
+      "chủ trì",
+      "mức độ chi tiết (lóng)"
+     ],
+     "answer": 1,
+     "explain_vi": "主持 (zhǔchí): chủ trì"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "例会",
+       "a": "họp định kỳ"
+      },
+      {
+       "q": "议题",
+       "a": "chủ đề thảo luận"
+      },
+      {
+       "q": "议程",
+       "a": "chương trình họp"
+      },
+      {
+       "q": "主持",
+       "a": "chủ trì"
+      },
+      {
+       "q": "参会人",
+       "a": "người tham dự"
+      },
+      {
+       "q": "发言",
+       "a": "phát biểu"
+      }
+     ],
+     "explain_vi": "例会 = họp định kỳ · 议题 = chủ đề thảo luận · 议程 = chương trình họp · 主持 = chủ trì · 参会人 = người tham dự · 发言 = phát biểu"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "吧",
+      "了",
+      "到",
+      "人都",
+      "齐"
+     ],
+     "answers": [
+      "人都到齐了吧"
+     ],
+     "explain_vi": "人都到齐了吧 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "三个",
+      "会议",
+      "主要有",
+      "今天",
+      "议题"
+     ],
+     "answers": [
+      "今天会议主要有三个议题"
+     ],
+     "explain_vi": "今天会议主要有三个议题 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "复盘",
+      "上周",
+      "销售"
+     ],
+     "answers": [
+      "上周销售复盘"
+     ],
+     "explain_vi": "上周销售复盘 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "安排",
+      "新人",
+      "培训"
+     ],
+     "answers": [
+      "新人培训安排"
+     ],
+     "explain_vi": "新人培训安排 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Giảm 3,2% so với kỳ trước.",
+     "acceptedAnswers": [
+      "环比下降3.2%。"
+     ],
+     "requiredKeywords": [
+      "环比"
+     ],
+     "explain_vi": "Câu trong bài khoá: 环比下降3.2%。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai.",
+     "acceptedAnswers": [
+      "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。"
+     ],
+     "requiredKeywords": [
+      "议题"
+     ],
+     "explain_vi": "Câu trong bài khoá: 好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "以内",
+      "控制",
+      "时间",
+      "在",
+      "四十分钟"
+     ],
+     "answers": [
+      "时间控制在四十分钟以内"
+     ],
+     "explain_vi": "时间控制在四十分钟以内 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "你先",
+      "说说",
+      "市场的",
+      "越南",
+      "情况"
+     ],
+     "answers": [
+      "你先说说越南市场的情况"
+     ],
+     "explain_vi": "你先说说越南市场的情况 — trích từ câu: 人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。"
+    }
+   ]
+  }
+ ]
+}

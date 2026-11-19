@@ -1,0 +1,316 @@
+{
+ "lessonId": 4,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "（　　）： 关于10月20日拜访贵司洽谈合作事宜",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "来函收悉",
+      "烦请",
+      "主题"
+     ],
+     "answer": 2,
+     "explain_vi": "主题: tiêu đề (mail). Câu đầy đủ: 主题： 关于10月20日拜访贵司洽谈合作事宜"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "打扰了。（　　）为9月份订单的对账单（发票号：No.0925），应付款项合计人民币186,000元，原约定付款日为10月10日，目前我方尚未收到该笔款项。可能是流程上还在处理中，烦请您帮忙确认一下付款进度。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "附件",
+      "我司",
+      "结算"
+     ],
+     "answer": 0,
+     "explain_vi": "附件: tệp đính kèm. Câu đầy đủ: 打扰了。附件为9月份订单的对账单（发票号：No.0925），应付款项合计人民币186,000元，原约定付款日为10月10日，目前我方尚未收到该笔款项。可能是流程上还在处理中，烦请您帮忙确认一下付款进度。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "您好！我是东盛集团东南亚市场部的阮文安。感谢（　　）一直以来对我们的支持。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "查收",
+      "贵司",
+      "尊敬的"
+     ],
+     "answer": 1,
+     "explain_vi": "贵司: quý công ty. Câu đầy đủ: 您好！我是东盛集团东南亚市场部的阮文安。感谢贵司一直以来对我们的支持。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "您好！来函收悉。非常欢迎李经理一行来访。不巧的是，20日下午（　　）有董事会，能否改至21日（周二）上午10点？如有不便，敬请见谅。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "我司",
+      "顺颂商祺",
+      "洽谈"
+     ],
+     "answer": 0,
+     "explain_vi": "我司: công ty chúng tôi. Câu đầy đủ: 您好！来函收悉。非常欢迎李经理一行来访。不巧的是，20日下午我司有董事会，能否改至21日（周二）上午10点？如有不便，敬请见谅。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "主题： 回复：关于10月20日拜访贵司洽谈合作（　　）",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "事宜",
+      "抄送",
+      "密送"
+     ],
+     "answer": 0,
+     "explain_vi": "事宜: công việc, vấn đề (văn viết). Câu đầy đủ: 主题： 回复：关于10月20日拜访贵司洽谈合作事宜"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "（　　）于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "烦请",
+      "附件",
+      "对账单"
+     ],
+     "answer": 0,
+     "explain_vi": "烦请: kính phiền. Câu đầy đủ: 烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "如已付款，请忽略本邮件，并请（　　）付款凭证，便于我方核对。谢谢！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "密送",
+      "告知",
+      "查收"
+     ],
+     "answer": 1,
+     "explain_vi": "告知: thông báo cho biết. Câu đầy đủ: 如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "主题： 温馨提醒：9月订单（　　）结算",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "付款凭证",
+      "事宜",
+      "款项"
+     ],
+     "answer": 2,
+     "explain_vi": "款项: khoản tiền. Câu đầy đủ: 主题： 温馨提醒：9月订单款项结算"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "主题",
+       "a": "tiêu đề (mail)"
+      },
+      {
+       "q": "收件人",
+       "a": "người nhận"
+      },
+      {
+       "q": "抄送",
+       "a": "CC"
+      },
+      {
+       "q": "密送",
+       "a": "BCC"
+      },
+      {
+       "q": "附件",
+       "a": "tệp đính kèm"
+      },
+      {
+       "q": "查收",
+       "a": "kiểm tra và nhận"
+      }
+     ],
+     "explain_vi": "主题 = tiêu đề (mail) · 收件人 = người nhận · 抄送 = CC · 密送 = BCC · 附件 = tệp đính kèm · 查收 = kiểm tra và nhận"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "尊敬",
+      "的",
+      "经理",
+      "赵"
+     ],
+     "answers": [
+      "尊敬的赵经理"
+     ],
+     "explain_vi": "尊敬的赵经理 — trích từ câu: 尊敬的赵经理："
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "市场部",
+      "集团",
+      "的阮文安",
+      "我是东盛",
+      "东南亚"
+     ],
+     "answers": [
+      "我是东盛集团东南亚市场部的阮文安"
+     ],
+     "explain_vi": "我是东盛集团东南亚市场部的阮文安 — trích từ câu: 您好！我是东盛集团东南亚市场部的阮文安。感谢贵司一直以来对我们的支持。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "一直",
+      "我们的",
+      "感谢贵司",
+      "以来对",
+      "支持"
+     ],
+     "answers": [
+      "感谢贵司一直以来对我们的支持"
+     ],
+     "explain_vi": "感谢贵司一直以来对我们的支持 — trích từ câu: 您好！我是东盛集团东南亚市场部的阮文安。感谢贵司一直以来对我们的支持。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "如下",
+      "主要",
+      "议题"
+     ],
+     "answers": [
+      "主要议题如下"
+     ],
+     "explain_vi": "主要议题如下 — trích từ câu: 为进一步推进双方在冷链物流方面的合作，我司市场部李经理一行三人拟于10月20日（周一）下午2:30拜访贵司，时间约1小时。主要议题如下："
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Kính gửi anh Triệu,",
+     "acceptedAnswers": [
+      "尊敬的赵经理："
+     ],
+     "requiredKeywords": [
+      "尊敬的"
+     ],
+     "explain_vi": "Câu trong bài khoá: 尊敬的赵经理："
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Mong được gặp quý công ty!",
+     "acceptedAnswers": [
+      "期待与贵司见面！"
+     ],
+     "requiredKeywords": [
+      "贵司"
+     ],
+     "explain_vi": "Câu trong bài khoá: 期待与贵司见面！"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "V/v kế hoạch đơn hàng quý IV.",
+     "acceptedAnswers": [
+      "关于第四季度订单事宜。"
+     ],
+     "requiredKeywords": [
+      "事宜"
+     ],
+     "explain_vi": "Câu trong bài khoá: 关于第四季度订单事宜。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "样品",
+      "反馈",
+      "结果",
+      "检测"
+     ],
+     "answers": [
+      "样品检测结果反馈"
+     ],
+     "explain_vi": "样品检测结果反馈 — trích từ câu: - 样品检测结果反馈。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "translate",
+     "prompt_vi": "Chuyển sang văn viết trang trọng: 我们公司打算下周去你们公司看看。",
+     "acceptedAnswers": [
+      "我司拟于下周拜访贵司。"
+     ],
+     "requiredKeywords": [
+      "我司",
+      "拟",
+      "贵司"
+     ],
+     "explain_vi": "Đáp án gợi ý: 我司拟于下周拜访贵司。(我们公司 → 我司, 打算 → 拟, 你们公司 → 贵司)"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Bài viết công việc (hồ sơ portfolio)",
+   "instructions_vi": "Viết bằng chữ Hán, văn phong trang trọng. Giáo viên đọc bài trên trang giáo viên và chấm theo thang A2.",
+   "questions": [
+    {
+     "id": "w1",
+     "kind": "essay",
+     "prompt_vi": "Viết email hẹn lịch đến thăm công ty khách hàng",
+     "requirements_vi": [
+      "Đủ bố cục: 主题 → 称呼 → 正文 → 结束语 → 落款",
+      "Nêu rõ thời gian, thành phần đoàn, nội dung làm việc",
+      "Đề nghị đối tác xác nhận trước một ngày cụ thể"
+     ],
+     "minChars": 80,
+     "keywords": [
+      "贵司",
+      "我司",
+      "拟",
+      "烦请",
+      "顺颂商祺"
+     ],
+     "model": "主题： 关于10月20日拜访贵司洽谈合作事宜\n尊敬的赵经理：\n您好！我是东盛集团东南亚市场部的阮文安。感谢贵司一直以来对我们的支持。\n为进一步推进双方在冷链物流方面的合作，我司市场部李经理一行三人拟于10月20日（周一）下午2:30拜访贵司，时间约1小时。主要议题如下：\n- 2026年第四季度订单计划；\n- 新线路报价说明；\n- 样品检测结果反馈。\n烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。\n顺颂商祺！\n阮文安 东盛集团 · 东南亚市场部 电话：138xxxx5678",
+     "explain_vi": "So sánh với bài mẫu và tự chấm theo thang A2."
+    }
+   ]
+  }
+ ]
+}

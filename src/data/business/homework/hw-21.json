@@ -1,0 +1,294 @@
+{
+ "lessonId": 21,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "同事们，新年好！过去的一年，大家辛苦了。说实话，去年（　　）不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "外部环境",
+      "本台消息",
+      "框架协议"
+     ],
+     "answer": 0,
+     "explain_vi": "外部环境: môi trường bên ngoài. Câu đầy đủ: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "今年我讲三个关键词：第一，降本增效。不是简单地砍成本，而是把钱花在刀刃上。第二，出海。越南、柬埔寨是我们的主战场，要把本地化做深做实。第三，不卷价格，卷价值。我们坚决不打（　　），要靠服务和技术赢客户。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "顶住压力",
+      "价格战",
+      "有竞争力"
+     ],
+     "answer": 1,
+     "explain_vi": "价格战: cuộc chiến giá. Câu đầy đủ: 今年我讲三个关键词：第一，降本增效。不是简单地砍成本，而是把钱花在刀刃上。第二，出海。越南、柬埔寨是我们的主战场，要把本地化做深做实。第三，不卷价格，卷价值。我们坚决不打价格战，要靠服务和技术赢客户。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "最后，希望大家新的一年身体健康，（　　）！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "再创佳绩",
+      "互联互通",
+      "分析人士"
+     ],
+     "answer": 0,
+     "explain_vi": "再创佳绩: tiếp tục đạt thành tích. Câu đầy đủ: 最后，希望大家新的一年身体健康，再创佳绩！"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "小阮啊，你们的货没什么问题，质量挺好的。就是……怎么说呢，最近也有几家越南工厂来找我们，价格都挺（　　）的。当然了，我们跟你们合作这么多年，感情还是在的。你回去跟李总说一声，明年的框架协议，我们可能要重新看一下。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "营商环境",
+      "有竞争力",
+      "顶住压力"
+     ],
+     "answer": 1,
+     "explain_vi": "有竞争力: có sức cạnh tranh. Câu đầy đủ: 小阮啊，你们的货没什么问题，质量挺好的。就是……怎么说呢，最近也有几家越南工厂来找我们，价格都挺有竞争力的。当然了，我们跟你们合作这么多年，感情还是在的。你回去跟李总说一声，明年的框架协议，我们可能要重新看一下。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "顶住压力",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "làm sâu, làm chắc",
+      "trụ vững trước áp lực",
+      "chịu áp lực"
+     ],
+     "answer": 1,
+     "explain_vi": "顶住压力 (dǐngzhù yālì): trụ vững trước áp lực"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "来之不易",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "phát triển chất lượng cao",
+      "có được không dễ",
+      "giảm chi phí, tăng hiệu quả"
+     ],
+     "answer": 1,
+     "explain_vi": "来之不易 (lái zhī bú yì): có được không dễ"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "关键词",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "tính đến",
+      "giới phân tích",
+      "từ khoá"
+     ],
+     "answer": 2,
+     "explain_vi": "关键词 (guānjiàncí): từ khoá"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "降本增效",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "giảm chi phí, tăng hiệu quả",
+      "cơ hội",
+      "thị trường trọng điểm"
+     ],
+     "answer": 0,
+     "explain_vi": "降本增效 (jiàng běn zēng xiào): giảm chi phí, tăng hiệu quả"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "外部环境",
+       "a": "môi trường bên ngoài"
+      },
+      {
+       "q": "价格战",
+       "a": "cuộc chiến giá"
+      },
+      {
+       "q": "顶住压力",
+       "a": "trụ vững trước áp lực"
+      },
+      {
+       "q": "来之不易",
+       "a": "có được không dễ"
+      },
+      {
+       "q": "关键词",
+       "a": "từ khoá"
+      },
+      {
+       "q": "降本增效",
+       "a": "giảm chi phí, tăng hiệu quả"
+      }
+     ],
+     "explain_vi": "外部环境 = môi trường bên ngoài · 价格战 = cuộc chiến giá · 顶住压力 = trụ vững trước áp lực · 来之不易 = có được không dễ · 关键词 = từ khoá · 降本增效 = giảm chi phí, tăng hiệu quả"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "不太好",
+      "去年",
+      "外部环境"
+     ],
+     "answers": [
+      "去年外部环境不太好"
+     ],
+     "explain_vi": "去年外部环境不太好 — trích từ câu: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "行业",
+      "很凶",
+      "里",
+      "价格战",
+      "打得"
+     ],
+     "answers": [
+      "行业里价格战打得很凶"
+     ],
+     "explain_vi": "行业里价格战打得很凶 — trích từ câu: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "我们",
+      "顶住",
+      "了",
+      "但",
+      "压力"
+     ],
+     "answers": [
+      "但我们顶住了压力"
+     ],
+     "explain_vi": "但我们顶住了压力 — trích từ câu: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "一",
+      "业务同比",
+      "增长了",
+      "东南亚",
+      "百分之二十"
+     ],
+     "answers": [
+      "东南亚业务同比增长了百分之二十一"
+     ],
+     "explain_vi": "东南亚业务同比增长了百分之二十一 — trích từ câu: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Không phải đơn giản là cắt chi phí, mà là tiêu tiền vào đúng chỗ.",
+     "acceptedAnswers": [
+      "不是简单砍成本，而是把钱花在刀刃上。"
+     ],
+     "requiredKeywords": [
+      "花在刀刃上"
+     ],
+     "explain_vi": "Câu trong bài khoá: 不是简单砍成本，而是把钱花在刀刃上。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "成绩",
+      "这个",
+      "来之不易"
+     ],
+     "answers": [
+      "这个成绩来之不易"
+     ],
+     "explain_vi": "这个成绩来之不易 — trích từ câu: 同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "我",
+      "今年",
+      "关键词",
+      "讲",
+      "三个"
+     ],
+     "answers": [
+      "今年我讲三个关键词"
+     ],
+     "explain_vi": "今年我讲三个关键词 — trích từ câu: 今年我讲三个关键词：第一，降本增效。不是简单地砍成本，而是把钱花在刀刃上。第二，出海。越南、柬埔寨是我们的主战场，要把本地化做深做实。第三，不卷价格，卷价值。我们坚决不打价格战，要靠服务和技术赢客户。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "简单",
+      "地",
+      "砍",
+      "成本",
+      "不是"
+     ],
+     "answers": [
+      "不是简单地砍成本"
+     ],
+     "explain_vi": "不是简单地砍成本 — trích từ câu: 今年我讲三个关键词：第一，降本增效。不是简单地砍成本，而是把钱花在刀刃上。第二，出海。越南、柬埔寨是我们的主战场，要把本地化做深做实。第三，不卷价格，卷价值。我们坚决不打价格战，要靠服务和技术赢客户。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "translate",
+     "prompt_vi": "Sửa lỗi: 销售额同比比去年增长了15%。",
+     "acceptedAnswers": [
+      "销售额同比增长了15%。",
+      "销售额比去年增长了15%。"
+     ],
+     "requiredKeywords": [
+      "增长"
+     ],
+     "explain_vi": "Bỏ 同比 hoặc bỏ 比去年: có 比 thì không thêm 同比."
+    }
+   ]
+  }
+ ]
+}

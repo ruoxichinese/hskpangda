@@ -1,0 +1,817 @@
+{
+ "id": 5,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "开会：主持、发言与会议纪要",
+  "pinyin": "kāi huì zhǔ chí fā yán yù huì yì jì yào",
+  "vi": "chủ trì cuộc họp ngắn"
+ },
+ "grammarTopics_vi": [
+  "今天会议主要有……个议题：第一……；第二……",
+  "我补充一点 / 我说两句",
+  "我同意……的观点，不过我有一个顾虑：……",
+  "时间有限，……我们会后再单独讨论。",
+  "这样吧，先……，……再调整。没有不同意见的话，就这么定了。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Chủ trì cuộc họp ngắn",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Phát biểu",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Bổ sung",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Phản đối khéo",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Chốt việc sau họp",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Hiểu “tiếng lóng” họp hành của công ty internet",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "周一例会",
+   "context_vi": "课文一 · 周一例会",
+   "scene": "🗂️",
+   "lines": [
+    {
+     "speaker": "bc-lijingli",
+     "zh": "人都到齐了吧？那我们开始。今天会议主要有三个议题：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。",
+     "vi": "Mọi người đến đủ rồi chứ? Vậy chúng ta bắt đầu. Cuộc họp hôm nay có ba nội dung chính: một, nhìn lại doanh số tuần trước; hai, chuẩn bị hàng cho 11/11; ba, sắp xếp đào tạo nhân viên mới. Thời gian gói gọn trong bốn mươi phút. Tiểu Nguyễn, em nói trước tình hình thị trường Việt Nam nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的。上周越南线销售额280万，环比增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。",
+     "vi": "Vâng ạ. Tuần trước doanh số tuyến Việt Nam đạt 2,8 triệu, tăng 12% so với kỳ trước, chủ yếu từ hai khách hàng mới. Tuy nhiên thời gian giao vận có vấn đề, trung bình trễ 1,5 ngày."
+    },
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "我补充一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+     "vi": "Em bổ sung một ý, giao trễ chủ yếu là do xếp hàng ở cửa khẩu Lạng Sơn, không phải lỗi kho của mình."
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+     "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "议题",
+     "pinyin": "yìtí",
+     "vi": "chủ đề thảo luận",
+     "example": {
+      "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+      "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+     }
+    },
+    {
+     "zh": "议程",
+     "pinyin": "yìchéng",
+     "vi": "chương trình họp"
+    },
+    {
+     "zh": "主持",
+     "pinyin": "zhǔchí",
+     "vi": "chủ trì"
+    },
+    {
+     "zh": "补充",
+     "pinyin": "bǔchōng",
+     "vi": "bổ sung",
+     "example": {
+      "zh": "我补充一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+      "vi": "Em bổ sung một ý, giao trễ chủ yếu là do xếp hàng ở cửa khẩu Lạng Sơn, không phải lỗi kho của mình."
+     }
+    },
+    {
+     "zh": "复盘",
+     "pinyin": "fùpán",
+     "vi": "tổng kết rút kinh nghiệm"
+    },
+    {
+     "zh": "环比",
+     "pinyin": "huánbǐ",
+     "vi": "so với kỳ trước liền kề",
+     "example": {
+      "zh": "好的。上周越南线销售额280万，环比增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。",
+      "vi": "Vâng ạ. Tuần trước doanh số tuyến Việt Nam đạt 2,8 triệu, tăng 12% so với kỳ trước, chủ yếu từ hai khách hàng mới. Tuy nhiên thời gian giao vận có vấn đề, trung bình trễ 1,5 ngày."
+     }
+    },
+    {
+     "zh": "同比",
+     "pinyin": "tóngbǐ",
+     "vi": "so với cùng kỳ năm trước"
+    },
+    {
+     "zh": "时效",
+     "pinyin": "shíxiào",
+     "vi": "thời gian đáp ứng (giao hàng)",
+     "example": {
+      "zh": "好的。上周越南线销售额280万，环比增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。",
+      "vi": "Vâng ạ. Tuần trước doanh số tuyến Việt Nam đạt 2,8 triệu, tăng 12% so với kỳ trước, chủ yếu từ hai khách hàng mới. Tuy nhiên thời gian giao vận có vấn đề, trung bình trễ 1,5 ngày."
+     }
+    },
+    {
+     "zh": "备货",
+     "pinyin": "bèihuò",
+     "vi": "chuẩn bị hàng, dự trữ hàng",
+     "example": {
+      "zh": "- 双十一备货：按预计销量80%备货，10月25日根据预售数据复核（负责人：王姐）。",
+      "vi": "- Chuẩn bị hàng 11/11: chuẩn bị 80% doanh số dự kiến, rà soát lại ngày 25/10 theo số liệu đặt trước (phụ trách: chị Vương)."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g5-1",
+     "title_zh": "今天会议主要有……个议题：第一……；第二……",
+     "title_vi": "Mở đầu cuộc họp, nêu thời lượng",
+     "formula": [
+      [
+       {
+        "zh": "今天会议主要有",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "个议题：第一",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第二",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mở đầu cuộc họp, nêu thời lượng.",
+     "examples": [
+      {
+       "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+       "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+      },
+      {
+       "zh": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话就这么定了。",
+       "vi": "Ý kiến của hai người đều có lý. Thế này nhé, trước mắt chuẩn bị tám phần, có số liệu tuần đầu thì điều chỉnh. Mọi người có ý kiến khác không?… Không có thì chốt như vậy."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二（　）。",
+       "options": [
+        "这样吧",
+        "之日起",
+        "个议题"
+       ],
+       "answer": 2,
+       "explain_vi": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。 — Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+      }
+     ]
+    },
+    {
+     "id": "bc-g5-2",
+     "title_zh": "我补充一点 / 我说两句",
+     "title_vi": "Xin phát biểu ngắn",
+     "formula": [
+      [
+       {
+        "zh": "我补充一点",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "我说两句",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Xin phát biểu ngắn; 说两句 khiêm tốn, hay dùng khi lãnh đạo phát biểu.",
+     "examples": [
+      {
+       "zh": "我补充一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+       "vi": "Em bổ sung một ý, giao trễ chủ yếu là do xếp hàng ở cửa khẩu Lạng Sơn, không phải lỗi kho của mình."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　），晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+       "options": [
+        "增长了一倍",
+        "就这么定了",
+        "我补充一点"
+       ],
+       "answer": 2,
+       "explain_vi": "我补充一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。 — Em bổ sung một ý, giao trễ chủ yếu là do xếp hàng ở cửa khẩu Lạng Sơn, không phải lỗi kho của mình."
+      }
+     ]
+    },
+    {
+     "id": "bc-g5-4",
+     "title_zh": "时间有限，……我们会后再单独讨论。",
+     "title_vi": "Kéo cuộc họp về đúng hướng khi có người lạc đề",
+     "formula": [
+      [
+       {
+        "zh": "时间有限，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "我们会后再单独讨论。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Kéo cuộc họp về đúng hướng khi có người lạc đề.",
+     "examples": [
+      {
+       "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+       "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "好，这个问题会后你们俩单独对一下。（　），我们先进入第二个议题。",
+       "options": [
+        "我说两句",
+        "的观点",
+        "时间有限"
+       ],
+       "answer": 2,
+       "explain_vi": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。 — Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "意见不同时",
+   "context_vi": "课文二 · 意见不同时",
+   "scene": "🗂️",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "关于双十一备货，我同意王姐的观点，要多备一些。不过，我有一个顾虑：越南客户付款周期长，如果备货太多，资金压力会比较大。能不能先备七成，根据预售数据再补？",
+     "vi": "Về chuẩn bị hàng cho 11/11, em đồng ý với quan điểm của chị Vương, nên chuẩn bị nhiều hơn. Tuy nhiên em có một băn khoăn: khách Việt Nam kỳ hạn thanh toán dài, nếu nhập hàng quá nhiều, áp lực vốn sẽ khá lớn. Mình có thể chuẩn bị trước bảy phần, rồi dựa vào số liệu đặt trước để bổ sung được không?"
+    },
+    {
+     "speaker": "bc-wangjie",
+     "zh": "你说的有道理，但七成可能不够。",
+     "vi": "Em nói có lý, nhưng bảy phần có thể không đủ."
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话就这么定了。",
+     "vi": "Ý kiến của hai người đều có lý. Thế này nhé, trước mắt chuẩn bị tám phần, có số liệu tuần đầu thì điều chỉnh. Mọi người có ý kiến khác không?… Không có thì chốt như vậy."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "顾虑",
+     "pinyin": "gùlǜ",
+     "vi": "băn khoăn, lo ngại"
+    },
+    {
+     "zh": "分歧",
+     "pinyin": "fēnqí",
+     "vi": "bất đồng"
+    },
+    {
+     "zh": "共识",
+     "pinyin": "gòngshí",
+     "vi": "đồng thuận"
+    },
+    {
+     "zh": "预售",
+     "pinyin": "yùshòu",
+     "vi": "đặt hàng trước",
+     "example": {
+      "zh": "- 双十一备货：按预计销量80%备货，10月25日根据预售数据复核（负责人：王姐）。",
+      "vi": "- Chuẩn bị hàng 11/11: chuẩn bị 80% doanh số dự kiến, rà soát lại ngày 25/10 theo số liệu đặt trước (phụ trách: chị Vương)."
+     }
+    },
+    {
+     "zh": "资金压力",
+     "pinyin": "zījīn yālì",
+     "vi": "áp lực dòng tiền"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g5-5",
+     "title_zh": "这样吧，先……，……再调整。没有不同意见的话，就这么定了。",
+     "title_vi": "Người chủ trì chốt quyết định",
+     "formula": [
+      [
+       {
+        "zh": "这样吧，先",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "，",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "再调整。没有不同意见的话，就这么定了。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Người chủ trì chốt quyết định.",
+     "examples": [
+      {
+       "zh": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话就这么定了。",
+       "vi": "Ý kiến của hai người đều có lý. Thế này nhé, trước mắt chuẩn bị tám phần, có số liệu tuần đầu thì điều chỉnh. Mọi người có ý kiến khác không?… Không có thì chốt như vậy."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话（　）。",
+       "options": [
+        "就这么定了",
+        "我补充一点",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话就这么定了。 — Ý kiến của hai người đều có lý. Thế này nhé, trước mắt chuẩn bị tám phần, có số liệu tuần đầu thì điều chỉnh. Mọi người có ý kiến khác không?… Không có thì chốt như vậy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "会议纪要",
+   "context_vi": "课文三 · 会议纪要",
+   "scene": "🗂️",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "会议纪要｜10月13日周例会 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+     "vi": "Biên bản họp | Họp tuần ngày 13/10 · Thành phần: anh Lý, chị Vương, Tiểu Nguyễn, Tiểu Lâm · Thư ký: Tiểu Nguyễn"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 越南线物流延迟问题：小阮、小林会后对齐原因，10月15日前提交改进方案。",
+     "vi": "- Vấn đề giao hàng trễ tuyến Việt Nam: Tiểu Nguyễn, Tiểu Lâm đối chiếu nguyên nhân sau họp, nộp phương án cải thiện trước 15/10."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 双十一备货：按预计销量80%备货，10月25日根据预售数据复核（负责人：王姐）。",
+     "vi": "- Chuẩn bị hàng 11/11: chuẩn bị 80% doanh số dự kiến, rà soát lại ngày 25/10 theo số liệu đặt trước (phụ trách: chị Vương)."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 新人培训：下周三下午，由陈工负责。",
+     "vi": "- Đào tạo nhân viên mới: chiều thứ tư tuần sau, do anh Trần phụ trách."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "例会",
+     "pinyin": "lìhuì",
+     "vi": "họp định kỳ",
+     "example": {
+      "zh": "会议纪要｜10月13日周例会 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+      "vi": "Biên bản họp | Họp tuần ngày 13/10 · Thành phần: anh Lý, chị Vương, Tiểu Nguyễn, Tiểu Lâm · Thư ký: Tiểu Nguyễn"
+     }
+    },
+    {
+     "zh": "参会人",
+     "pinyin": "cānhuìrén",
+     "vi": "người tham dự",
+     "example": {
+      "zh": "会议纪要｜10月13日周例会 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+      "vi": "Biên bản họp | Họp tuần ngày 13/10 · Thành phần: anh Lý, chị Vương, Tiểu Nguyễn, Tiểu Lâm · Thư ký: Tiểu Nguyễn"
+     }
+    },
+    {
+     "zh": "发言",
+     "pinyin": "fāyán",
+     "vi": "phát biểu"
+    },
+    {
+     "zh": "会议纪要",
+     "pinyin": "huìyì jìyào",
+     "vi": "biên bản họp",
+     "example": {
+      "zh": "会议纪要｜10月13日周例会 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+      "vi": "Biên bản họp | Họp tuần ngày 13/10 · Thành phần: anh Lý, chị Vương, Tiểu Nguyễn, Tiểu Lâm · Thư ký: Tiểu Nguyễn"
+     }
+    },
+    {
+     "zh": "负责人",
+     "pinyin": "fùzérén",
+     "vi": "người phụ trách",
+     "example": {
+      "zh": "- 双十一备货：按预计销量80%备货，10月25日根据预售数据复核（负责人：王姐）。",
+      "vi": "- Chuẩn bị hàng 11/11: chuẩn bị 80% doanh số dự kiến, rà soát lại ngày 25/10 theo số liệu đặt trước (phụ trách: chị Vương)."
+     }
+    },
+    {
+     "zh": "截止日期",
+     "pinyin": "jiézhǐ rìqī",
+     "vi": "hạn chót"
+    },
+    {
+     "zh": "跑题",
+     "pinyin": "pǎotí",
+     "vi": "lạc đề"
+    },
+    {
+     "zh": "线上会议",
+     "pinyin": "xiànshàng huìyì",
+     "vi": "họp trực tuyến"
+    },
+    {
+     "zh": "共享屏幕",
+     "pinyin": "gòngxiǎng píngmù",
+     "vi": "chia sẻ màn hình"
+    },
+    {
+     "zh": "静音",
+     "pinyin": "jìngyīn",
+     "vi": "tắt tiếng"
+    },
+    {
+     "zh": "对齐",
+     "pinyin": "duìqí",
+     "vi": "thống nhất, “align” (lóng)",
+     "example": {
+      "zh": "- 越南线物流延迟问题：小阮、小林会后对齐原因，10月15日前提交改进方案。",
+      "vi": "- Vấn đề giao hàng trễ tuyến Việt Nam: Tiểu Nguyễn, Tiểu Lâm đối chiếu nguyên nhân sau họp, nộp phương án cải thiện trước 15/10."
+     }
+    },
+    {
+     "zh": "抓手",
+     "pinyin": "zhuāshǒu",
+     "vi": "điểm tựa triển khai (lóng)"
+    },
+    {
+     "zh": "闭环",
+     "pinyin": "bìhuán",
+     "vi": "khép kín quy trình (lóng)"
+    },
+    {
+     "zh": "颗粒度",
+     "pinyin": "kēlìdù",
+     "vi": "mức độ chi tiết (lóng)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g5-3",
+     "title_zh": "我同意……的观点，不过我有一个顾虑：……",
+     "title_vi": "Công thức phản đối khéo",
+     "formula": [
+      [
+       {
+        "zh": "我同意",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的观点，不过我有一个顾虑：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Công thức phản đối khéo: đồng ý trước, băn khoăn sau.",
+     "examples": []
+    },
+    {
+     "id": "bc-c5-1",
+     "title_zh": "比……增长/下降 X%",
+     "title_vi": "Văn viết công sở · So sánh số liệu",
+     "formula": [
+      [
+       {
+        "zh": "比……增长/下降 X%",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Có 比 thì không thêm 同比. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "销售额比去年增长12%。",
+       "vi": "Doanh số tăng 12% so với năm ngoái."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "销售额比去年（　）12%。",
+       "options": [
+        "即使",
+        "同比",
+        "增长"
+       ],
+       "answer": 2,
+       "explain_vi": "销售额比去年增长12%。 — Doanh số tăng 12% so với năm ngoái."
+      }
+     ]
+    },
+    {
+     "id": "bc-c5-2",
+     "title_zh": "同比/环比 + 增长/下降 X%",
+     "title_vi": "Văn viết công sở · So sánh số liệu",
+     "formula": [
+      [
+       {
+        "zh": "同比/环比",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "增长/下降 X%",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "同比 = so với cùng kỳ năm trước; 环比 = so với kỳ liền trước. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "环比下降3.2%。",
+       "vi": "Giảm 3,2% so với kỳ trước."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）下降3.2%。",
+       "options": [
+        "环比",
+        "尽管",
+        "第二"
+       ],
+       "answer": 0,
+       "explain_vi": "环比下降3.2%。 — Giảm 3,2% so với kỳ trước."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "会议纪要｜10月13日周___ 参会人：李经理、王姐、小阮、小林 记录人：小阮",
+   "bank": [
+    "例会",
+    "顾虑",
+    "环比"
+   ],
+   "answer": "例会"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "人都到齐了吧？那我们开始。今天会议主要有三个___：第一，上周销售复盘；第二，双十一备货；第三，新人培训安排。时间控制在四十分钟以内。小阮，你先说说越南市场的情况。",
+   "bank": [
+    "议题",
+    "例会",
+    "线上会议"
+   ],
+   "answer": "议题"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "我___一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+   "bank": [
+    "截止日期",
+    "补充",
+    "参会人"
+   ],
+   "answer": "补充"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "关于双十一备货，我同意王姐的观点，要多备一些。不过，我有一个___：越南客户付款周期长，如果备货太多，资金压力会比较大。能不能先备七成，根据预售数据再补？",
+   "bank": [
+    "顾虑",
+    "议程",
+    "线上会议"
+   ],
+   "answer": "顾虑"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "好的。上周越南线销售额280万，___增长12%，主要来自两家新客户。不过物流时效有问题，平均晚了1.5天。",
+   "bank": [
+    "截止日期",
+    "会议纪要",
+    "环比"
+   ],
+   "answer": "环比"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "- 双十一备货：按预计销量80%备货，10月25日根据___数据复核（负责人：王姐）。",
+   "bank": [
+    "议程",
+    "静音",
+    "预售"
+   ],
+   "answer": "预售"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "了",
+    "齐",
+    "到",
+    "吧",
+    "人都"
+   ],
+   "answers": [
+    "人都到齐了吧"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "今天",
+    "会议",
+    "主要有",
+    "议题",
+    "三个"
+   ],
+   "answers": [
+    "今天会议主要有三个议题"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "销售",
+    "复盘",
+    "上周"
+   ],
+   "answers": [
+    "上周销售复盘"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "例会",
+     "a": "họp định kỳ"
+    },
+    {
+     "q": "议题",
+     "a": "chủ đề thảo luận"
+    },
+    {
+     "q": "议程",
+     "a": "chương trình họp"
+    },
+    {
+     "q": "主持",
+     "a": "chủ trì"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Chủ trì 10 phút: mỗi nhóm 5 người, một người chủ trì với 3 nghị sự cho sẵn. Giáo viên phát “thẻ bí mật” cho các thành viên: người hay lạc đề, người phản đối mọi thứ, người im lặng, sếp đến muộn. Người chủ trì phải giữ cuộc họp đúng giờ và chốt được việc.",
+   "② Thư ký nhanh tay: cả lớp nghe đoạn ghi âm họp 4 phút, viết 会议纪要 đủ 3 yếu tố: việc gì, ai phụ trách, hạn nào. So với đáp án.",
+   "③ Bingo tiếng lóng: giáo viên đọc một “bài phát biểu” đầy 黑话; học viên đánh dấu bảng bingo 4×4 và dịch lại câu đó sang tiếng Trung bình thường."
+  ],
+  "patterns": [
+   {
+    "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+    "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+   },
+   {
+    "zh": "我补充一点，晚到主要是因为谅山口岸排队，不是我们仓库的问题。",
+    "vi": "Em bổ sung một ý, giao trễ chủ yếu là do xếp hàng ở cửa khẩu Lạng Sơn, không phải lỗi kho của mình."
+   },
+   {
+    "zh": "好，这个问题会后你们俩单独对一下。时间有限，我们先进入第二个议题。",
+    "vi": "Được, vấn đề này họp xong hai em đối chiếu riêng với nhau. Thời gian có hạn, chúng ta chuyển sang nội dung thứ hai."
+   },
+   {
+    "zh": "两位的意见都有道理。这样吧，先按八成备，第一周数据出来再调整。大家有没有不同意见？……没有的话就这么定了。",
+    "vi": "Ý kiến của hai người đều có lý. Thế này nhé, trước mắt chuẩn bị tám phần, có số liệu tuần đầu thì điều chỉnh. Mọi người có ý kiến khác không?… Không có thì chốt như vậy."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Văn hoá họp và “tiếng lóng internet”",
+  "body_vi": [
+   "Họp nhiều, họp dài (文山会海) là than phiền quen thuộc ở công sở Trung Quốc và bị chính quyền phê phán là hình thức chủ nghĩa. Điều lệ tiết kiệm của cơ quan Đảng và nhà nước sửa đổi năm 2025 yêu cầu cuộc họp nào không cần thì kiên quyết không họp, cuộc họp gộp được thì kiên quyết gộp ([中国政府网](https://www.gov.cn/zhengce/202505/content_7024131.htm)). Trong khi đó, công ty internet sinh ra một lớp từ lóng riêng (互联网黑话) như 对齐, 抓手, 闭环, 赋能, 颗粒度, 打法, 链路. Người học cần hiểu để nghe được, nhưng không nên lạm dụng; nhiều người Trung Quốc tự giễu lối nói này là rỗng tuếch.",
+   "Ứng xử: Trong họp có lãnh đạo, người cấp cao nhất thường phát biểu cuối cùng để tổng kết (领导总结); cấp dưới không nên “chốt” thay.",
+   "Ứng xử: Muốn phản đối, dùng câu hỏi thay vì phủ định: 能不能……？/ 有没有可能……？",
+   "Ứng xử: Người mới được giao ghi 会议纪要 là chuyện bình thường; đây là cơ hội để sếp nhớ tên bạn. Gửi biên bản trong vòng 2 giờ sau họp.",
+   "Ứng xử: Họp online: bật camera khi khách bật, tắt mic khi không nói, đổi tên hiển thị thành “公司-姓名”."
+  ]
+ }
+}

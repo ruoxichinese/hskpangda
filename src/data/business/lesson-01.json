@@ -1,0 +1,844 @@
+{
+ "id": 1,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "入职第一天：报到与自我介绍",
+  "pinyin": "rù zhí dì yī tiān bào dào yǔ zì wǒ jiè shào",
+  "vi": "làm thủ tục nhận việc"
+ },
+ "grammarTopics_vi": [
+  "我叫……，之前在……负责……，做了……年。",
+  "先……，然后……，最后……",
+  "麻烦您……一下 / 麻烦您了",
+  "有什么……的地方，（请）随时……",
+  "由 + người + 动词"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Làm thủ tục nhận việc",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Tự giới thiệu trước phòng ban",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Xưng hô đúng với sếp và đồng nghiệp",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "人事部报到",
+   "context_vi": "课文一 · 人事部报到",
+   "scene": "🪪",
+   "lines": [
+    {
+     "speaker": "bc-liumin",
+     "zh": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。",
+     "vi": "Chào bạn, là Nguyễn Văn An đúng không? Chào mừng bạn gia nhập công ty! Mình là Lưu Mẫn ở phòng Nhân sự, hôm nay mình sẽ làm thủ tục nhận việc cho bạn."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "刘姐好！麻烦您了。需要我准备哪些材料？",
+     "vi": "Em chào chị Lưu! Phiền chị quá. Em cần chuẩn bị những giấy tờ gì ạ?"
+    },
+    {
+     "speaker": "bc-liumin",
+     "zh": "身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。",
+     "vi": "Giấy tờ tuỳ thân, bằng cấp và bản sao thẻ ngân hàng. Trước tiên ký hợp đồng lao động, sau đó nhận thẻ nhân viên và máy tính, cuối cùng chị đưa em về chỗ ngồi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的。请问试用期是多长时间？",
+     "vi": "Vâng ạ. Cho em hỏi thời gian thử việc là bao lâu?"
+    },
+    {
+     "speaker": "bc-liumin",
+     "zh": "三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+     "vi": "Ba tháng. Thử việc tốt thì có thể lên chính thức sớm. Năm loại bảo hiểm và quỹ nhà ở đóng từ tháng đầu vào làm, chi tiết em xem trong sổ tay nhân viên."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "明白了。那考勤是怎么规定的？",
+     "vi": "Em hiểu rồi. Vậy chấm công quy định thế nào ạ?"
+    },
+    {
+     "speaker": "bc-liumin",
+     "zh": "早上九点前打卡，下班六点打卡。出差、加班的费用在系统里申请报销就行。",
+     "vi": "Sáng quẹt thẻ trước chín giờ, chiều sáu giờ quẹt thẻ ra về. Chi phí đi công tác, tăng ca thì đề nghị thanh toán trên hệ thống là được."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "入职",
+     "pinyin": "rùzhí",
+     "vi": "nhận việc, vào làm",
+     "example": {
+      "zh": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。",
+      "vi": "Chào bạn, là Nguyễn Văn An đúng không? Chào mừng bạn gia nhập công ty! Mình là Lưu Mẫn ở phòng Nhân sự, hôm nay mình sẽ làm thủ tục nhận việc cho bạn."
+     }
+    },
+    {
+     "zh": "报到",
+     "pinyin": "bàodào",
+     "vi": "trình diện, báo danh"
+    },
+    {
+     "zh": "入职手续",
+     "pinyin": "rùzhí shǒuxù",
+     "vi": "thủ tục nhận việc",
+     "example": {
+      "zh": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。",
+      "vi": "Chào bạn, là Nguyễn Văn An đúng không? Chào mừng bạn gia nhập công ty! Mình là Lưu Mẫn ở phòng Nhân sự, hôm nay mình sẽ làm thủ tục nhận việc cho bạn."
+     }
+    },
+    {
+     "zh": "人事部",
+     "pinyin": "rénshìbù",
+     "vi": "phòng nhân sự",
+     "example": {
+      "zh": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。",
+      "vi": "Chào bạn, là Nguyễn Văn An đúng không? Chào mừng bạn gia nhập công ty! Mình là Lưu Mẫn ở phòng Nhân sự, hôm nay mình sẽ làm thủ tục nhận việc cho bạn."
+     }
+    },
+    {
+     "zh": "劳动合同",
+     "pinyin": "láodòng hétong",
+     "vi": "hợp đồng lao động",
+     "example": {
+      "zh": "身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。",
+      "vi": "Giấy tờ tuỳ thân, bằng cấp và bản sao thẻ ngân hàng. Trước tiên ký hợp đồng lao động, sau đó nhận thẻ nhân viên và máy tính, cuối cùng chị đưa em về chỗ ngồi."
+     }
+    },
+    {
+     "zh": "试用期",
+     "pinyin": "shìyòngqī",
+     "vi": "thời gian thử việc",
+     "example": {
+      "zh": "好的。请问试用期是多长时间？",
+      "vi": "Vâng ạ. Cho em hỏi thời gian thử việc là bao lâu?"
+     }
+    },
+    {
+     "zh": "转正",
+     "pinyin": "zhuǎnzhèng",
+     "vi": "lên nhân viên chính thức",
+     "example": {
+      "zh": "三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+      "vi": "Ba tháng. Thử việc tốt thì có thể lên chính thức sớm. Năm loại bảo hiểm và quỹ nhà ở đóng từ tháng đầu vào làm, chi tiết em xem trong sổ tay nhân viên."
+     }
+    },
+    {
+     "zh": "工牌",
+     "pinyin": "gōngpái",
+     "vi": "thẻ nhân viên",
+     "example": {
+      "zh": "身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。",
+      "vi": "Giấy tờ tuỳ thân, bằng cấp và bản sao thẻ ngân hàng. Trước tiên ký hợp đồng lao động, sau đó nhận thẻ nhân viên và máy tính, cuối cùng chị đưa em về chỗ ngồi."
+     }
+    },
+    {
+     "zh": "工位",
+     "pinyin": "gōngwèi",
+     "vi": "chỗ ngồi làm việc",
+     "example": {
+      "zh": "身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。",
+      "vi": "Giấy tờ tuỳ thân, bằng cấp và bản sao thẻ ngân hàng. Trước tiên ký hợp đồng lao động, sau đó nhận thẻ nhân viên và máy tính, cuối cùng chị đưa em về chỗ ngồi."
+     }
+    },
+    {
+     "zh": "员工手册",
+     "pinyin": "yuángōng shǒucè",
+     "vi": "sổ tay nhân viên",
+     "example": {
+      "zh": "三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+      "vi": "Ba tháng. Thử việc tốt thì có thể lên chính thức sớm. Năm loại bảo hiểm và quỹ nhà ở đóng từ tháng đầu vào làm, chi tiết em xem trong sổ tay nhân viên."
+     }
+    },
+    {
+     "zh": "五险一金",
+     "pinyin": "wǔ xiǎn yì jīn",
+     "vi": "5 loại bảo hiểm + quỹ nhà ở",
+     "example": {
+      "zh": "三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+      "vi": "Ba tháng. Thử việc tốt thì có thể lên chính thức sớm. Năm loại bảo hiểm và quỹ nhà ở đóng từ tháng đầu vào làm, chi tiết em xem trong sổ tay nhân viên."
+     }
+    },
+    {
+     "zh": "缴纳",
+     "pinyin": "jiǎonà",
+     "vi": "nộp, đóng (phí, bảo hiểm)",
+     "example": {
+      "zh": "三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+      "vi": "Ba tháng. Thử việc tốt thì có thể lên chính thức sớm. Năm loại bảo hiểm và quỹ nhà ở đóng từ tháng đầu vào làm, chi tiết em xem trong sổ tay nhân viên."
+     }
+    },
+    {
+     "zh": "考勤",
+     "pinyin": "kǎoqín",
+     "vi": "chấm công, chuyên cần",
+     "example": {
+      "zh": "明白了。那考勤是怎么规定的？",
+      "vi": "Em hiểu rồi. Vậy chấm công quy định thế nào ạ?"
+     }
+    },
+    {
+     "zh": "打卡",
+     "pinyin": "dǎkǎ",
+     "vi": "quẹt thẻ chấm công",
+     "example": {
+      "zh": "早上九点前打卡，下班六点打卡。出差、加班的费用在系统里申请报销就行。",
+      "vi": "Sáng quẹt thẻ trước chín giờ, chiều sáu giờ quẹt thẻ ra về. Chi phí đi công tác, tăng ca thì đề nghị thanh toán trên hệ thống là được."
+     }
+    },
+    {
+     "zh": "报销",
+     "pinyin": "bàoxiāo",
+     "vi": "thanh toán, hoàn ứng chi phí",
+     "example": {
+      "zh": "早上九点前打卡，下班六点打卡。出差、加班的费用在系统里申请报销就行。",
+      "vi": "Sáng quẹt thẻ trước chín giờ, chiều sáu giờ quẹt thẻ ra về. Chi phí đi công tác, tăng ca thì đề nghị thanh toán trên hệ thống là được."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g1-1",
+     "title_zh": "我叫……，之前在……负责……，做了……年。",
+     "title_vi": "Khung tự giới thiệu chuẩn",
+     "formula": [
+      [
+       {
+        "zh": "我叫",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，之前在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "负责",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，做了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "年。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Khung tự giới thiệu chuẩn: tên → kinh nghiệm → việc sẽ làm.",
+     "examples": [
+      {
+       "zh": "我叫阮文安，之前在一家物流公司负责客户对接，做了三年。",
+       "vi": "Tôi tên là Nguyễn Văn An, trước đây phụ trách làm đầu mối khách hàng ở một công ty logistics, làm được ba năm."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我叫阮文安，（　）一家物流公司负责客户对接，做了三年。",
+       "options": [
+        "麻烦您",
+        "有什么",
+        "之前在"
+       ],
+       "answer": 2,
+       "explain_vi": "我叫阮文安，之前在一家物流公司负责客户对接，做了三年。 — Tôi tên là Nguyễn Văn An, trước đây phụ trách làm đầu mối khách hàng ở một công ty logistics, làm được ba năm."
+      }
+     ]
+    },
+    {
+     "id": "bc-g1-2",
+     "title_zh": "先……，然后……，最后……",
+     "title_vi": "Trình bày thứ tự thủ tục, quy trình",
+     "formula": [
+      [
+       {
+        "zh": "先",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，然后",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，最后",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Trình bày thứ tự thủ tục, quy trình.",
+     "examples": [
+      {
+       "zh": "先签合同，然后领工牌，最后去工位。",
+       "vi": "Ký hợp đồng trước, sau đó nhận thẻ nhân viên, cuối cùng về chỗ ngồi."
+      },
+      {
+       "zh": "身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。",
+       "vi": "Giấy tờ tuỳ thân, bằng cấp và bản sao thẻ ngân hàng. Trước tiên ký hợp đồng lao động, sau đó nhận thẻ nhân viên và máy tính, cuối cùng chị đưa em về chỗ ngồi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "先签合同，（　）领工牌，最后去工位。",
+       "options": [
+        "做了",
+        "所致",
+        "然后"
+       ],
+       "answer": 2,
+       "explain_vi": "先签合同，然后领工牌，最后去工位。 — Ký hợp đồng trước, sau đó nhận thẻ nhân viên, cuối cùng về chỗ ngồi."
+      }
+     ]
+    },
+    {
+     "id": "bc-g1-3",
+     "title_zh": "麻烦您……一下 / 麻烦您了",
+     "title_vi": "Nhờ vả lịch sự, dùng với người lớn tuổi hoặc cấp trên",
+     "formula": [
+      [
+       {
+        "zh": "麻烦您",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "麻烦您了",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Nhờ vả lịch sự, dùng với người lớn tuổi hoặc cấp trên.",
+     "examples": [
+      {
+       "zh": "麻烦您帮我看一下这份表格。",
+       "vi": "Phiền anh xem giúp tôi bảng biểu này."
+      },
+      {
+       "zh": "刘姐好！麻烦您了。需要我准备哪些材料？",
+       "vi": "Em chào chị Lưu! Phiền chị quá. Em cần chuẩn bị những giấy tờ gì ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "刘姐好！（　）。需要我准备哪些材料？",
+       "options": [
+        "之日起",
+        "之前在",
+        "麻烦您了"
+       ],
+       "answer": 2,
+       "explain_vi": "刘姐好！麻烦您了。需要我准备哪些材料？ — Em chào chị Lưu! Phiền chị quá. Em cần chuẩn bị những giấy tờ gì ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "部门晨会上的自我介绍",
+   "context_vi": "课文二 · 部门晨会上的自我介绍",
+   "scene": "🪪",
+   "lines": [
+    {
+     "speaker": "bc-wangzong",
+     "zh": "各位，今天我们部门来了一位新同事，大家欢迎一下。小阮，你跟大家介绍一下自己吧。",
+     "vi": "Mọi người, hôm nay phòng mình có một đồng nghiệp mới, mọi người chào đón nhé. Tiểu Nguyễn, em giới thiệu bản thân với mọi người đi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "各位领导、各位同事，大家好！我叫阮文安，大家叫我小阮就行。我来自越南胡志明市，之前在一家物流公司负责中越线路的客户对接，做了三年。以后我主要负责东南亚市场的客户维护。我刚来，对很多情况还不太熟悉，有什么做得不到位的地方，请大家多多指教！",
+     "vi": "Kính chào các anh chị lãnh đạo, các anh chị đồng nghiệp! Em tên là Nguyễn Văn An, mọi người cứ gọi em là Tiểu Nguyễn. Em đến từ TP. Hồ Chí Minh, Việt Nam, trước đây em phụ trách làm đầu mối khách hàng tuyến Trung – Việt ở một công ty logistics, làm được ba năm. Sắp tới em chủ yếu phụ trách chăm sóc khách hàng thị trường Đông Nam Á. Em mới đến, nhiều việc còn chưa quen, có chỗ nào làm chưa chu đáo, mong mọi người chỉ bảo thêm!"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "好。老陈，小阮的带教师傅就是你了，你多带带他。",
+     "vi": "Được. Anh Trần, anh sẽ là người kèm Tiểu Nguyễn, anh hướng dẫn cậu ấy nhiều vào nhé."
+    },
+    {
+     "speaker": "bc-chengong",
+     "zh": "没问题！小阮，有什么不懂的地方，随时来问我。",
+     "vi": "Không vấn đề gì! Tiểu Nguyễn, có gì chưa hiểu cứ hỏi anh bất cứ lúc nào."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "部门",
+     "pinyin": "bùmén",
+     "vi": "bộ phận, phòng ban",
+     "example": {
+      "zh": "各位，今天我们部门来了一位新同事，大家欢迎一下。小阮，你跟大家介绍一下自己吧。",
+      "vi": "Mọi người, hôm nay phòng mình có một đồng nghiệp mới, mọi người chào đón nhé. Tiểu Nguyễn, em giới thiệu bản thân với mọi người đi."
+     }
+    },
+    {
+     "zh": "直属领导",
+     "pinyin": "zhíshǔ lǐngdǎo",
+     "vi": "cấp trên trực tiếp"
+    },
+    {
+     "zh": "带教师傅",
+     "pinyin": "dàijiào shīfu",
+     "vi": "người kèm cặp, hướng dẫn",
+     "example": {
+      "zh": "好。老陈，小阮的带教师傅就是你了，你多带带他。",
+      "vi": "Được. Anh Trần, anh sẽ là người kèm Tiểu Nguyễn, anh hướng dẫn cậu ấy nhiều vào nhé."
+     }
+    },
+    {
+     "zh": "岗位",
+     "pinyin": "gǎngwèi",
+     "vi": "vị trí công việc"
+    },
+    {
+     "zh": "职责",
+     "pinyin": "zhízé",
+     "vi": "chức trách, nhiệm vụ"
+    },
+    {
+     "zh": "负责",
+     "pinyin": "fùzé",
+     "vi": "phụ trách"
+    },
+    {
+     "zh": "对接",
+     "pinyin": "duìjiē",
+     "vi": "làm đầu mối, kết nối công việc"
+    },
+    {
+     "zh": "维护",
+     "pinyin": "wéihù",
+     "vi": "duy trì, chăm sóc (khách hàng)"
+    },
+    {
+     "zh": "熟悉",
+     "pinyin": "shúxī",
+     "vi": "quen thuộc, làm quen"
+    },
+    {
+     "zh": "到位",
+     "pinyin": "dàowèi",
+     "vi": "chu đáo, đạt yêu cầu"
+    },
+    {
+     "zh": "请多指教",
+     "pinyin": "qǐng duō zhǐjiào",
+     "vi": "xin chỉ bảo thêm"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g1-4",
+     "title_zh": "有什么……的地方，（请）随时……",
+     "title_vi": "Câu mở lời giúp đỡ hoặc xin giúp đỡ",
+     "formula": [
+      [
+       {
+        "zh": "有什么",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的地方，（请）随时",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu mở lời giúp đỡ hoặc xin giúp đỡ.",
+     "examples": [
+      {
+       "zh": "有什么做得不到位的地方，请随时提醒我。",
+       "vi": "Có chỗ nào làm chưa chu đáo, mong anh chị cứ nhắc tôi."
+      },
+      {
+       "zh": "没问题！小阮，有什么不懂的地方，随时来问我。",
+       "vi": "Không vấn đề gì! Tiểu Nguyễn, có gì chưa hiểu cứ hỏi anh bất cứ lúc nào."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）做得不到位的地方，请随时提醒我。",
+       "options": [
+        "翻一番",
+        "之日起",
+        "有什么"
+       ],
+       "answer": 2,
+       "explain_vi": "有什么做得不到位的地方，请随时提醒我。 — Có chỗ nào làm chưa chu đáo, mong anh chị cứ nhắc tôi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "工作群里的入职消息",
+   "context_vi": "课文三 · 工作群里的入职消息",
+   "scene": "🪪",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "大家好！我是今天入职市场部的阮文安（Andy），负责东南亚客户维护，工位在3楼B区。以后工作上还请大家多多关照，有需要越南语支持的地方也欢迎随时找我！🙏",
+     "vi": "Chào mọi người! Mình là Nguyễn Văn An (Andy), hôm nay bắt đầu làm ở phòng Marketing, phụ trách chăm sóc khách hàng Đông Nam Á, chỗ ngồi ở khu B tầng 3. Sau này mong mọi người giúp đỡ trong công việc, cần hỗ trợ tiếng Việt thì cứ tìm mình bất cứ lúc nào nhé! 🙏"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "多多关照",
+     "pinyin": "duōduō guānzhào",
+     "vi": "mong được giúp đỡ"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g1-5",
+     "title_zh": "由 + người + 动词",
+     "title_vi": "Chỉ người chịu trách nhiệm, văn phong công việc",
+     "formula": [
+      [
+       {
+        "zh": "由",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "người",
+        "role": "V"
+       },
+       {
+        "zh": "动词",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Chỉ người chịu trách nhiệm, văn phong công việc.",
+     "examples": [
+      {
+       "zh": "今天由我帮你办理入职手续。",
+       "vi": "Hôm nay tôi sẽ làm thủ tục nhận việc cho bạn."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "今天（　）我帮你办理入职手续。",
+       "options": [
+        "由",
+        "应",
+        "占"
+       ],
+       "answer": 0,
+       "explain_vi": "今天由我帮你办理入职手续。 — Hôm nay tôi sẽ làm thủ tục nhận việc cho bạn."
+      }
+     ]
+    },
+    {
+     "id": "bc-c1-1",
+     "title_zh": "由 + người + V",
+     "title_vi": "Văn viết công sở · Khách quan hoá",
+     "formula": [
+      [
+       {
+        "zh": "由",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "người",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Văn viết, thông báo; khẩu ngữ dùng 让/找. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "培训由陈工负责。",
+       "vi": "Việc đào tạo do kỹ sư Trần phụ trách."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "培训（　）陈工负责。",
+       "options": [
+        "由",
+        "应",
+        "经"
+       ],
+       "answer": 0,
+       "explain_vi": "培训由陈工负责。 — Việc đào tạo do kỹ sư Trần phụ trách."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理___手续。",
+   "bank": [
+    "熟悉",
+    "入职",
+    "直属领导"
+   ],
+   "answer": "入职"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "身份证件、学历证明和银行卡复印件。先签___，然后领工牌和电脑，最后我带你去工位。",
+   "bank": [
+    "职责",
+    "部门",
+    "劳动合同"
+   ],
+   "answer": "劳动合同"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "好的。请问___是多长时间？",
+   "bank": [
+    "部门",
+    "试用期",
+    "转正"
+   ],
+   "answer": "试用期"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "三个月。试用期表现好的话，可以提前___。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+   "bank": [
+    "入职手续",
+    "带教师傅",
+    "转正"
+   ],
+   "answer": "转正"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "大家好！我是今天入职市场部的阮文安（Andy），负责东南亚客户维护，___在3楼B区。以后工作上还请大家多多关照，有需要越南语支持的地方也欢迎随时找我！🙏",
+   "bank": [
+    "熟悉",
+    "工位",
+    "五险一金"
+   ],
+   "answer": "工位"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "明白了。那___是怎么规定的？",
+   "bank": [
+    "缴纳",
+    "部门",
+    "考勤"
+   ],
+   "answer": "考勤"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "公司",
+    "我们",
+    "加入",
+    "欢迎"
+   ],
+   "answers": [
+    "欢迎加入我们公司"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "人事部",
+    "刘敏",
+    "是",
+    "的",
+    "我"
+   ],
+   "answers": [
+    "我是人事部的刘敏"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "手续",
+    "今天由我",
+    "办理",
+    "入职",
+    "帮你"
+   ],
+   "answers": [
+    "今天由我帮你办理入职手续"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "入职",
+     "a": "nhận việc, vào làm"
+    },
+    {
+     "q": "报到",
+     "a": "trình diện, báo danh"
+    },
+    {
+     "q": "入职手续",
+     "a": "thủ tục nhận việc"
+    },
+    {
+     "q": "人事部",
+     "a": "phòng nhân sự"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Tự giới thiệu 60 giây: mỗi học viên bốc thẻ “công ty” (ngân hàng nhà nước / startup công nghệ / nhà máy FDI) và tự giới thiệu phù hợp với môi trường đó; cả lớp chấm theo 3 tiêu chí: đủ ý, đúng xưng hô, tự nhiên.",
+   "② Xưng hô tiếp sức: giáo viên chiếu ảnh nhân vật kèm mô tả (VD: “Phó tổng họ Hoàng, 50 tuổi”, “kỹ sư họ Triệu”, “chị HR hơn bạn 5 tuổi”); đội nào nói đúng cách gọi nhanh nhất được điểm.",
+   "③ Viết tin nhắn nhập nhóm: viết lại 课文三 cho vị trí của chính mình, tối đa 80 chữ."
+  ],
+  "patterns": [
+   {
+    "zh": "我叫阮文安，之前在一家物流公司负责客户对接，做了三年。",
+    "vi": "Tôi tên là Nguyễn Văn An, trước đây phụ trách làm đầu mối khách hàng ở một công ty logistics, làm được ba năm."
+   },
+   {
+    "zh": "先签合同，然后领工牌，最后去工位。",
+    "vi": "Ký hợp đồng trước, sau đó nhận thẻ nhân viên, cuối cùng về chỗ ngồi."
+   },
+   {
+    "zh": "麻烦您帮我看一下这份表格。",
+    "vi": "Phiền anh xem giúp tôi bảng biểu này."
+   },
+   {
+    "zh": "有什么做得不到位的地方，请随时提醒我。",
+    "vi": "Có chỗ nào làm chưa chu đáo, mong anh chị cứ nhắc tôi."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Văn hoá xưng hô",
+  "body_vi": [
+   "Cách gọi nhau ở công sở Trung Quốc phản ánh cấp bậc và loại hình công ty. Công ty truyền thống và doanh nghiệp nhà nước gọi theo chức danh: 王总 (tổng giám đốc/giám đốc), 李经理, 张主任; kỹ sư được gọi 陈工. Người lớn tuổi hơn gọi cấp dưới là 小+họ (小阮), cấp dưới gọi đồng nghiệp lớn tuổi là 老+họ hoặc 哥/姐 (刘姐). Ngành truyền thông, giáo dục, sáng tạo hay gọi nhau là 老师 dù không phải giáo viên. Nhiều công ty internet cố ý làm phẳng cấp bậc: Alibaba dùng biệt danh nội bộ (花名), ByteDance quen gọi nhau là 同学 hoặc gọi thẳng tên. Tránh gọi phụ nữ là 小姐 trong ngữ cảnh công việc vì từ này có thể mang nghĩa xấu; dùng 女士 hoặc chức danh.",
+   "Ứng xử: Ngày đầu nên đến sớm 10–15 phút, mang bản sao giấy tờ in sẵn, lưu ngay WeChat của HR và cấp trên trực tiếp.",
+   "Ứng xử: Tự giới thiệu ngắn gọn dưới 1 phút; kết thúc bằng 请多指教 hoặc 多多关照 để thể hiện khiêm tốn.",
+   "Ứng xử: Không hỏi lương của đồng nghiệp; nhiều công ty coi lương là thông tin bảo mật (薪资保密).",
+   "Ứng xử: Buổi trưa đầu tiên, nếu được đồng nghiệp rủ ăn cơm thì nên đi; đây là cách nhanh nhất để 融入团队."
+  ]
+ }
+}

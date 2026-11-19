@@ -1,0 +1,270 @@
+{
+ "lessonId": 2,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "王总，您现在方便吗？我想跟您（　　）一下本周的工作进度，大概五分钟。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "结论",
+      "汇报",
+      "提交"
+     ],
+     "answer": 1,
+     "explain_vi": "汇报: báo cáo (lên cấp trên). Câu đầy đủ: 王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "陈工，关于下个月去胡志明市参展的事，我想先（　　）一下王总，您觉得我直接找他合适吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "签字",
+      "汇报",
+      "请示"
+     ],
+     "answer": 2,
+     "explain_vi": "请示: xin chỉ thị, xin ý kiến. Câu đầy đủ: 陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "先说（　　）：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "流程",
+      "越级",
+      "结论"
+     ],
+     "answer": 2,
+     "explain_vi": "结论: kết luận. Câu đầy đủ: 先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "好。那个……越南这边（　　），三家已经谈下来两家了，然后第三家——",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "卡在",
+      "方案",
+      "续约"
+     ],
+     "answer": 2,
+     "explain_vi": "续约: gia hạn hợp đồng. Câu đầy đủ: 好。那个……越南这边续约，三家已经谈下来两家了，然后第三家——"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "就是（　　），他们想要六十天。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "风险",
+      "付款周期",
+      "汇报"
+     ],
+     "answer": 1,
+     "explain_vi": "付款周期: kỳ hạn thanh toán. Câu đầy đủ: 就是付款周期，他们想要六十天。"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "我建议可以接受45天，但要求对方（　　）20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "签字",
+      "卡在",
+      "预付"
+     ],
+     "answer": 2,
+     "explain_vi": "预付: trả trước. Câu đầy đủ: 我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "思路可以。你把（　　）整理一下，下午发给我，我跟财务同步一下再拍板。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "预算",
+      "方案",
+      "指示"
+     ],
+     "answer": 1,
+     "explain_vi": "方案: phương án. Câu đầy đủ: 思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "好的，（　　）。我三点前发给您。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "进度",
+      "请示",
+      "收到"
+     ],
+     "answer": 2,
+     "explain_vi": "收到: đã nhận (xác nhận chỉ thị). Câu đầy đủ: 好的，收到。我三点前发给您。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "汇报",
+       "a": "báo cáo (lên cấp trên)"
+      },
+      {
+       "q": "请示",
+       "a": "xin chỉ thị, xin ý kiến"
+      },
+      {
+       "q": "进度",
+       "a": "tiến độ"
+      },
+      {
+       "q": "结论",
+       "a": "kết luận"
+      },
+      {
+       "q": "完成率",
+       "a": "tỉ lệ hoàn thành"
+      },
+      {
+       "q": "续约",
+       "a": "gia hạn hợp đồng"
+      }
+     ],
+     "explain_vi": "汇报 = báo cáo (lên cấp trên) · 请示 = xin chỉ thị, xin ý kiến · 进度 = tiến độ · 结论 = kết luận · 完成率 = tỉ lệ hoàn thành · 续约 = gia hạn hợp đồng"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "您",
+      "方便",
+      "现在",
+      "吗"
+     ],
+     "answers": [
+      "您现在方便吗"
+     ],
+     "explain_vi": "您现在方便吗 — trích từ câu: 王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "汇报",
+      "工作进度",
+      "本周的",
+      "我想跟您",
+      "一下"
+     ],
+     "answers": [
+      "我想跟您汇报一下本周的工作进度"
+     ],
+     "explain_vi": "我想跟您汇报一下本周的工作进度 — trích từ câu: 王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "完成",
+      "越南三家",
+      "续约已经",
+      "两家",
+      "客户的"
+     ],
+     "answers": [
+      "越南三家客户的续约已经完成两家"
+     ],
+     "explain_vi": "越南三家客户的续约已经完成两家 — trích từ câu: 先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "还在",
+      "谈",
+      "河内的",
+      "客户",
+      "第三家"
+     ],
+     "answers": [
+      "第三家河内的客户还在谈"
+     ],
+     "explain_vi": "第三家河内的客户还在谈 — trích từ câu: 先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Phương án đã được lãnh đạo phê duyệt.",
+     "acceptedAnswers": [
+      "方案已被领导批准。"
+     ],
+     "requiredKeywords": [
+      "方案"
+     ],
+     "explain_vi": "Câu trong bài khoá: 方案已被领导批准。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Nếu không có vấn đề gì, thứ hai em sẽ trình phê duyệt.",
+     "acceptedAnswers": [
+      "如无问题，我周一提交审批。"
+     ],
+     "requiredKeywords": [
+      "审批",
+      "提交"
+     ],
+     "explain_vi": "Câu trong bài khoá: 如无问题，我周一提交审批。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Về chuyện ngân sách triển lãm, em muốn xin ý kiến anh.",
+     "acceptedAnswers": [
+      "关于展会预算的事，我想请示一下。"
+     ],
+     "requiredKeywords": [
+      "请示",
+      "预算"
+     ],
+     "explain_vi": "Câu trong bài khoá: 关于展会预算的事，我想请示一下。"
+    },
+    {
+     "id": "t4",
+     "kind": "translate",
+     "prompt_vi": "Hai phần mười đủ không?… Thôi được, em làm phương án trước, chiều gửi anh.",
+     "acceptedAnswers": [
+      "两成够吗？……行吧，你先出个方案，下午给我。"
+     ],
+     "requiredKeywords": [
+      "方案"
+     ],
+     "explain_vi": "Câu trong bài khoá: 两成够吗？……行吧，你先出个方案，下午给我。"
+    }
+   ]
+  }
+ ]
+}

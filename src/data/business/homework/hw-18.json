@@ -1,0 +1,274 @@
+{
+ "lessonId": 18,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "今年部门（　　）经费每人500元，大家有什么想法？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "开工红包",
+      "剧本杀",
+      "团建"
+     ],
+     "answer": 2,
+     "explain_vi": "团建: team building. Câu đầy đủ: 今年部门团建经费每人500元，大家有什么想法？"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "我建议安排在工作日，别占用周末。可以上午做一个小型的（　　），增强团队凝聚力，下午自由活动，晚上一起吃顿饭。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "投票",
+      "拓展训练",
+      "报名"
+     ],
+     "answer": 1,
+     "explain_vi": "拓展训练: huấn luyện kỹ năng ngoài trời. Câu đầy đủ: 我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "去年爬山太累了，今年能不能轻松一点，比如去（　　）或者剧本杀？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "致辞",
+      "农家乐",
+      "拓展训练"
+     ],
+     "answer": 1,
+     "explain_vi": "农家乐: du lịch nông trại. Câu đầy đủ: 去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "工作日这个建议好，大家（　　）会更高。那我们发个投票，周五前定下来，大家自愿报名。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "事业兴旺",
+      "节目",
+      "参与度"
+     ],
+     "answer": 2,
+     "explain_vi": "参与度: mức độ tham gia. Câu đầy đủ: 工作日这个建议好，大家参与度会更高。那我们发个投票，周五前定下来，大家自愿报名。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "尊敬的各位领导、亲爱的同事们，大家晚上好！（　　）之际，我们在这里欢聚一堂，回顾2026年的收获，展望2027年的目标。首先，有请我们的王总上台致辞，大家掌声欢迎！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "开门红",
+      "经费",
+      "辞旧迎新"
+     ],
+     "answer": 2,
+     "explain_vi": "辞旧迎新: tiễn năm cũ đón năm mới. Câu đầy đủ: 尊敬的各位领导、亲爱的同事们，大家晚上好！辞旧迎新之际，我们在这里欢聚一堂，回顾2026年的收获，展望2027年的目标。首先，有请我们的王总上台致辞，大家掌声欢迎！"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "感谢王总的精彩（　　）！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "掌声欢迎",
+      "参与度",
+      "致辞"
+     ],
+     "answer": 2,
+     "explain_vi": "致辞: phát biểu chúc mừng. Câu đầy đủ: 感谢王总的精彩致辞！接下来是大家最期待的环节——抽奖！今年的一等奖是……一台笔记本电脑！请王总为我们抽出第一位幸运儿！"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "小阮新年好！来，（　　），祝你今年开门红！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "自愿",
+      "开工红包",
+      "团建"
+     ],
+     "answer": 1,
+     "explain_vi": "开工红包: lì xì ngày khai xuân. Câu đầy đủ: 小阮新年好！来，开工红包，祝你今年开门红！"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "王总，新年好！祝您新的一年身体健康，（　　）！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "回顾",
+      "致辞",
+      "事业兴旺"
+     ],
+     "answer": 2,
+     "explain_vi": "事业兴旺: sự nghiệp thịnh vượng. Câu đầy đủ: 王总，新年好！祝您新的一年身体健康，事业兴旺！"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "团建",
+       "a": "team building"
+      },
+      {
+       "q": "经费",
+       "a": "kinh phí"
+      },
+      {
+       "q": "拓展训练",
+       "a": "huấn luyện kỹ năng ngoài trời"
+      },
+      {
+       "q": "凝聚力",
+       "a": "sức gắn kết"
+      },
+      {
+       "q": "农家乐",
+       "a": "du lịch nông trại"
+      },
+      {
+       "q": "剧本杀",
+       "a": "trò chơi nhập vai phá án"
+      }
+     ],
+     "explain_vi": "团建 = team building · 经费 = kinh phí · 拓展训练 = huấn luyện kỹ năng ngoài trời · 凝聚力 = sức gắn kết · 农家乐 = du lịch nông trại · 剧本杀 = trò chơi nhập vai phá án"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "大家",
+      "什么",
+      "有",
+      "想法"
+     ],
+     "answers": [
+      "大家有什么想法"
+     ],
+     "explain_vi": "大家有什么想法 — trích từ câu: 今年部门团建经费每人500元，大家有什么想法？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "爬山",
+      "去年",
+      "了",
+      "太累"
+     ],
+     "answers": [
+      "去年爬山太累了"
+     ],
+     "explain_vi": "去年爬山太累了 — trích từ câu: 去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "一点",
+      "不能",
+      "轻松",
+      "今年",
+      "能"
+     ],
+     "answers": [
+      "今年能不能轻松一点"
+     ],
+     "explain_vi": "今年能不能轻松一点 — trích từ câu: 去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "比如去",
+      "杀",
+      "剧本",
+      "或者",
+      "农家乐"
+     ],
+     "answers": [
+      "比如去农家乐或者剧本杀"
+     ],
+     "explain_vi": "比如去农家乐或者剧本杀 — trích từ câu: 去年爬山太累了，今年能不能轻松一点，比如去农家乐或者剧本杀？"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Em cảm ơn anh Vương! Chúc anh phát tài, luôn sung sức như rồng như ngựa!",
+     "acceptedAnswers": [
+      "谢谢王总！恭喜发财，龙马精神！"
+     ],
+     "requiredKeywords": [
+      "龙马精神"
+     ],
+     "explain_vi": "Câu trong bài khoá: 谢谢王总！恭喜发财，龙马精神！"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Nhân dịp tiễn năm cũ đón năm mới, chúng ta cùng hội tụ nơi đây.",
+     "acceptedAnswers": [
+      "辞旧迎新之际，我们在这里欢聚一堂。"
+     ],
+     "requiredKeywords": [
+      "辞旧迎新",
+      "欢聚一堂"
+     ],
+     "explain_vi": "Câu trong bài khoá: 辞旧迎新之际，我们在这里欢聚一堂。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "工作日",
+      "安排",
+      "在",
+      "我",
+      "建议"
+     ],
+     "answers": [
+      "我建议安排在工作日"
+     ],
+     "explain_vi": "我建议安排在工作日 — trích từ câu: 我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "拓展训练",
+      "上午做",
+      "可以",
+      "小型的",
+      "一个"
+     ],
+     "answers": [
+      "可以上午做一个小型的拓展训练"
+     ],
+     "explain_vi": "可以上午做一个小型的拓展训练 — trích từ câu: 我建议安排在工作日，别占用周末。可以上午做一个小型的拓展训练，增强团队凝聚力，下午自由活动，晚上一起吃顿饭。"
+    }
+   ]
+  }
+ ]
+}

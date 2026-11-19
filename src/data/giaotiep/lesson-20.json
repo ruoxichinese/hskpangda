@@ -690,6 +690,18 @@
    "Ứng xử: Cụng ly: miệng ly thấp hơn cấp trên, người lớn tuổi. Cầm ly bằng hai tay khi mời người bề trên.",
    "Ứng xử: Tặng quà: đưa và nhận bằng hai tay; thường không mở quà ngay trước mặt người tặng.",
    "Ứng xử: Quà kiêng: đồng hồ treo tường, lê, ô (伞 ~ 散), số 4. Tiền mừng dùng số chẵn, trừ số 4."
+  ],
+  "figures": [
+   {
+    "src": "img/bc/banquet.svg",
+    "title_vi": "Chỗ ngồi bàn tiệc tròn",
+    "caption_vi": "Ghế chủ toạ đối diện cửa; khách chính ngồi bên phải chủ tiệc; mâm xoay theo chiều kim đồng hồ."
+   },
+   {
+    "src": "img/bc/toast.svg",
+    "title_vi": "Cụng ly với sếp, người lớn tuổi",
+    "caption_vi": "Miệng ly thấp hơn đối phương một chút để tỏ sự tôn trọng."
+   }
   ]
  }
 }

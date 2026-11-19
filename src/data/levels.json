@@ -200,6 +200,32 @@
     "name": "Phố cổ Bắc Kinh",
     "desc": "Ngõ nhỏ, cổng đỏ và tháp chuông"
    }
+  },
+  {
+   "id": "business",
+   "num": "Business",
+   "name": "Business Chinese thực chiến (HSK 4–6)",
+   "subtitle": "Tiếng Trung công sở: báo cáo, email, họp, tiếp khách, tiệc, đàm phán, hợp đồng, phỏng vấn, xử lý khiếu nại",
+   "badgeColor": "#2C5282",
+   "available": true,
+   "lessonCount": 22,
+   "reviewEvery": 5,
+   "pandaStage": 3,
+   "tts": false,
+   "difficulty": {
+    "pinyinDefault": "tap",
+    "translationDefault": "tap",
+    "explainLanguage": "vi",
+    "audioSpeed": 1,
+    "hintsPerQuestion": 1,
+    "timerSeconds": 1800,
+    "homeworkPassScore": 70
+   },
+   "scene": {
+    "id": "palace",
+    "name": "Toà nhà văn phòng",
+    "desc": "Công sở, phòng họp và bàn tiệc"
+   }
   }
  ]
 }

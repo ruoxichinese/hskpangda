@@ -1,0 +1,296 @@
+{
+ "lessonId": 10,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "小阮，你们的（　　）我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "尾款",
+      "波动",
+      "报价"
+     ],
+     "answer": 2,
+     "explain_vi": "报价: báo giá. Câu đầy đủ: 小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "我理解。那我们各退一步：（　　）3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "让利",
+      "信用证",
+      "单价"
+     ],
+     "answer": 2,
+     "explain_vi": "单价: đơn giá. Câu đầy đủ: 我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "赵经理，这个价格已经考虑了今年原材料上涨和（　　）波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "汇率",
+      "电汇",
+      "讨价还价"
+     ],
+     "answer": 0,
+     "explain_vi": "汇率: tỉ giá. Câu đầy đủ: 赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "2,900确实低于我们的（　　）了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "信用证",
+      "让利",
+      "成本"
+     ],
+     "answer": 2,
+     "explain_vi": "成本: giá thành, chi phí. Câu đầy đủ: 2,900确实低于我们的成本了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "华丰谈下来了，单价3,000美元/吨（比首轮报价降6.25%），交期25天，（　　）30%，尾款30天内付清。赵经理说“原则上可以”，还需要他们老板最后确认，预计周三前有结果。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "让利",
+      "研究研究",
+      "定金"
+     ],
+     "answer": 2,
+     "explain_vi": "定金: tiền đặt cọc. Câu đầy đủ: 华丰谈下来了，单价3,000美元/吨（比首轮报价降6.25%），交期25天，定金30%，尾款30天内付清。赵经理说“原则上可以”，还需要他们老板最后确认，预计周三前有结果。"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "好的！报价（　　）到本月底，希望我们尽快落实。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "单价",
+      "诚意",
+      "有效期"
+     ],
+     "answer": 2,
+     "explain_vi": "有效期: thời hạn hiệu lực. Câu đầy đủ: 好的！报价有效期到本月底，希望我们尽快落实。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "交期长一点问题不大。（　　）可以，我跟老板确认一下再签字。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "提单",
+      "原则上",
+      "让步"
+     ],
+     "answer": 1,
+     "explain_vi": "原则上: về nguyên tắc. Câu đầy đủ: 交期长一点问题不大。原则上可以，我跟老板确认一下再签字。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "这个价格我们回去（　　），下周给你答复。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "研究研究",
+      "电汇",
+      "成本"
+     ],
+     "answer": 0,
+     "explain_vi": "研究研究: nghiên cứu thêm (thường là từ chối khéo). Câu đầy đủ: 这个价格我们回去研究研究，下周给你答复。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "询价",
+       "a": "hỏi giá"
+      },
+      {
+       "q": "报价",
+       "a": "báo giá"
+      },
+      {
+       "q": "还价",
+       "a": "trả giá"
+      },
+      {
+       "q": "讨价还价",
+       "a": "mặc cả"
+      },
+      {
+       "q": "单价",
+       "a": "đơn giá"
+      },
+      {
+       "q": "总价",
+       "a": "tổng giá"
+      }
+     ],
+     "explain_vi": "询价 = hỏi giá · 报价 = báo giá · 还价 = trả giá · 讨价还价 = mặc cả · 单价 = đơn giá · 总价 = tổng giá"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "我们",
+      "看了",
+      "报价",
+      "的",
+      "你们"
+     ],
+     "answers": [
+      "你们的报价我们看了"
+     ],
+     "explain_vi": "你们的报价我们看了 — trích từ câu: 小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "不少",
+      "预算",
+      "的",
+      "比我们",
+      "高了"
+     ],
+     "answers": [
+      "比我们的预算高了不少"
+     ],
+     "explain_vi": "比我们的预算高了不少 — trích từ câu: 小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "多年",
+      "合作",
+      "看在",
+      "的份上",
+      "我们"
+     ],
+     "answers": [
+      "看在我们合作多年的份上"
+     ],
+     "explain_vi": "看在我们合作多年的份上 — trích từ câu: 2,900确实低于我们的成本了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "是我们",
+      "能给的",
+      "最大",
+      "这已经",
+      "让步了"
+     ],
+     "answers": [
+      "这已经是我们能给的最大让步了"
+     ],
+     "explain_vi": "这已经是我们能给的最大让步了 — trích từ câu: 2,900确实低于我们的成本了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Giảm 6,25% so với báo giá vòng đầu.",
+     "acceptedAnswers": [
+      "比首轮报价降了6.25%。"
+     ],
+     "requiredKeywords": [
+      "报价"
+     ],
+     "explain_vi": "Câu trong bài khoá: 比首轮报价降了6.25%。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "研究",
+      "我们",
+      "研究",
+      "这个价格",
+      "回去"
+     ],
+     "answers": [
+      "这个价格我们回去研究研究"
+     ],
+     "explain_vi": "这个价格我们回去研究研究 — trích từ câu: 这个价格我们回去研究研究，下周给你答复。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "下周",
+      "给",
+      "答复",
+      "你"
+     ],
+     "answers": [
+      "下周给你答复"
+     ],
+     "explain_vi": "下周给你答复 — trích từ câu: 这个价格我们回去研究研究，下周给你答复。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "我们",
+      "各",
+      "那",
+      "退一步"
+     ],
+     "answers": [
+      "那我们各退一步"
+     ],
+     "explain_vi": "那我们各退一步 — trích từ câu: 我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "mcq",
+     "prompt_zh": "（　）这次合作不成功，（　）希望保持联系。",
+     "prompt_vi": "Chọn cặp từ nối thích hợp.",
+     "options": [
+      "虽然……但是",
+      "既然……就",
+      "只有……才"
+     ],
+     "answer": 0,
+     "explain_vi": "虽然……但是 (cũng có thể dùng 即使……也). Câu: 虽然这次合作不成功，但是希望保持联系。"
+    }
+   ]
+  }
+ ]
+}

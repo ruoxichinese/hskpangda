@@ -1,0 +1,857 @@
+{
+ "id": 14,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "绩效与述职：年终总结怎么说",
+  "pinyin": "jì xiào yǔ shù zhí nián zhōng zǒng jié zěn me shuō",
+  "vi": "trình bày báo cáo cuối năm (述职) bằng số liệu"
+ },
+ "grammarTopics_vi": [
+  "下面我从……个方面汇报……：……、……以及……",
+  "全年目标……，实际完成……，达成率……%",
+  "主导了……，使……从……缩短/提高到……",
+  "在……的基础上，重点……",
+  "我想跟您坦诚地聊一下……，不知道公司在……方面有什么考虑？"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Trình bày báo cáo cuối năm (述职) bằng số liệu",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Tự đánh giá",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Trao đổi 1-1 về kết quả",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đề xuất tăng lương hoặc thăng chức",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "年终述职（节选）",
+   "context_vi": "课文一 · 年终述职（节选）",
+   "scene": "🏆",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。",
+     "vi": "Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。",
+     "vi": "Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+     "vi": "Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+     "vi": "Hạn chế là khảo sát thị trường Campuchia chưa đủ sâu, việc phát triển khách hàng mới thấp hơn kỳ vọng."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+     "vi": "Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "述职",
+     "pinyin": "shùzhí",
+     "vi": "báo cáo công tác (trình bày nhiệm vụ)"
+    },
+    {
+     "zh": "年终总结",
+     "pinyin": "niánzhōng zǒngjié",
+     "vi": "tổng kết cuối năm"
+    },
+    {
+     "zh": "达成率",
+     "pinyin": "dáchénglǜ",
+     "vi": "tỉ lệ đạt",
+     "example": {
+      "zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。",
+      "vi": "Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+     }
+    },
+    {
+     "zh": "超额完成",
+     "pinyin": "chāo'é wánchéng",
+     "vi": "vượt chỉ tiêu"
+    },
+    {
+     "zh": "回款率",
+     "pinyin": "huíkuǎnlǜ",
+     "vi": "tỉ lệ thu hồi công nợ",
+     "example": {
+      "zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。",
+      "vi": "Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+     }
+    },
+    {
+     "zh": "亮点",
+     "pinyin": "liàngdiǎn",
+     "vi": "điểm sáng",
+     "example": {
+      "zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。",
+      "vi": "Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+     }
+    },
+    {
+     "zh": "不足之处",
+     "pinyin": "bùzú zhī chù",
+     "vi": "điểm còn thiếu sót",
+     "example": {
+      "zh": "不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+      "vi": "Hạn chế là khảo sát thị trường Campuchia chưa đủ sâu, việc phát triển khách hàng mới thấp hơn kỳ vọng."
+     }
+    },
+    {
+     "zh": "主导",
+     "pinyin": "zhǔdǎo",
+     "vi": "chủ trì, dẫn dắt",
+     "example": {
+      "zh": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+      "vi": "Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+     }
+    },
+    {
+     "zh": "缩短",
+     "pinyin": "suōduǎn",
+     "vi": "rút ngắn",
+     "example": {
+      "zh": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+      "vi": "Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+     }
+    },
+    {
+     "zh": "调研",
+     "pinyin": "diàoyán",
+     "vi": "khảo sát, nghiên cứu",
+     "example": {
+      "zh": "不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+      "vi": "Hạn chế là khảo sát thị trường Campuchia chưa đủ sâu, việc phát triển khách hàng mới thấp hơn kỳ vọng."
+     }
+    },
+    {
+     "zh": "低于预期",
+     "pinyin": "dīyú yùqī",
+     "vi": "thấp hơn kỳ vọng",
+     "example": {
+      "zh": "不足之处是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+      "vi": "Hạn chế là khảo sát thị trường Campuchia chưa đủ sâu, việc phát triển khách hàng mới thấp hơn kỳ vọng."
+     }
+    },
+    {
+     "zh": "巩固",
+     "pinyin": "gǒnggù",
+     "vi": "củng cố",
+     "example": {
+      "zh": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+      "vi": "Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+     }
+    },
+    {
+     "zh": "开拓",
+     "pinyin": "kāituò",
+     "vi": "khai phá, mở rộng",
+     "example": {
+      "zh": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+      "vi": "Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+     }
+    },
+    {
+     "zh": "规划",
+     "pinyin": "guīhuà",
+     "vi": "kế hoạch, định hướng",
+     "example": {
+      "zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。",
+      "vi": "Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g14-1",
+     "title_zh": "下面我从……个方面汇报……：……、……以及……",
+     "title_vi": "Mở đầu 述职 có cấu trúc",
+     "formula": [
+      [
+       {
+        "zh": "下面我从",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "个方面汇报",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "：",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "、",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "以及",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mở đầu 述职 có cấu trúc.",
+     "examples": [
+      {
+       "zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。",
+       "vi": "Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三（　）2026年的工作：业绩、亮点和不足，以及明年的规划。",
+       "options": [
+        "个方面汇报",
+        "的基础上",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。 — Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+      }
+     ]
+    },
+    {
+     "id": "bc-g14-2",
+     "title_zh": "全年目标……，实际完成……，达成率……%",
+     "title_vi": "Công thức báo cáo số liệu",
+     "formula": [
+      [
+       {
+        "zh": "全年目标",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，实际完成",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，达成率",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "%",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Công thức báo cáo số liệu.",
+     "examples": [
+      {
+       "zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。",
+       "vi": "Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "第一，业绩方面：全年销售目标1,200万元，（　）1,380万元，达成率115%；回款率96%，新增客户14家。",
+       "options": [
+        "全年目标",
+        "实际完成",
+        "下面我从"
+       ],
+       "answer": 1,
+       "explain_vi": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。 — Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+      }
+     ]
+    },
+    {
+     "id": "bc-g14-3",
+     "title_zh": "主导了……，使……从……缩短/提高到……",
+     "title_vi": "Mô tả thành tích bằng kết quả đo được",
+     "formula": [
+      [
+       {
+        "zh": "主导了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，使",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "从",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "缩短",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "提高到",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mô tả thành tích bằng kết quả đo được; 使 nhấn tác động.",
+     "examples": [
+      {
+       "zh": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+       "vi": "Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "第二，工作亮点：（　）越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+       "options": [
+        "主导了",
+        "之日起",
+        "提高到"
+       ],
+       "answer": 0,
+       "explain_vi": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。 — Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+      }
+     ]
+    },
+    {
+     "id": "bc-g14-4",
+     "title_zh": "在……的基础上，重点……",
+     "title_vi": "Trình bày kế hoạch",
+     "formula": [
+      [
+       {
+        "zh": "在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的基础上，重点",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Trình bày kế hoạch: nền tảng → trọng tâm.",
+     "examples": [
+      {
+       "zh": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+       "vi": "Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "第三，明年规划：在巩固越南市场（　），重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+       "options": [
+        "的基础上",
+        "下面我从",
+        "实际完成"
+       ],
+       "answer": 0,
+       "explain_vi": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！ — Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+      }
+     ]
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-2",
+   "title": "一对一面谈",
+   "context_vi": "课文二 · 一对一面谈",
+   "scene": "🏆",
+   "lines": [
+    {
+     "speaker": "bc-lijingli",
+     "zh": "小阮，你今年表现不错，绩效评了A。你对自己有什么想法？",
+     "vi": "Tiểu Nguyễn, năm nay em làm tốt, đánh giá hiệu suất được loại A. Em có suy nghĩ gì về bản thân không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谢谢李经理的认可！我想跟您坦诚地聊一下发展方向。这一年我负责的客户量增加了一倍，也带了一个新人。我希望明年能有机会承担团队管理的工作，不知道公司在晋升方面有什么考虑？",
+     "vi": "Cảm ơn anh Lý đã ghi nhận! Em muốn thẳng thắn trao đổi với anh về định hướng phát triển. Năm nay số khách hàng em phụ trách tăng gấp đôi, em cũng kèm một bạn mới. Em mong năm tới có cơ hội đảm nhận việc quản lý nhóm, không biết công ty có cân nhắc gì về việc thăng chức không ạ?"
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "你的想法我理解，我会在人才盘点会上推荐你。不过管理岗除了业绩，还要看带团队的能力，你明年可以先把东南亚小组带起来。",
+     "vi": "Suy nghĩ của em anh hiểu, anh sẽ đề cử em trong cuộc họp đánh giá nhân sự. Nhưng vị trí quản lý ngoài kết quả công việc còn xét khả năng dẫn dắt nhóm, năm tới em có thể dẫn dắt nhóm Đông Nam Á trước."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，我会努力的。那薪资方面，今年的调薪幅度大概是多少？",
+     "vi": "Vâng, em sẽ cố gắng. Vậy về lương, mức tăng lương năm nay khoảng bao nhiêu ạ?"
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "具体要等HR通知，A级的一般在10%到15%之间。",
+     "vi": "Cụ thể phải đợi HR thông báo, loại A thường trong khoảng 10% đến 15%."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "绩效",
+     "pinyin": "jìxiào",
+     "vi": "hiệu suất, thành tích",
+     "example": {
+      "zh": "小阮，你今年表现不错，绩效评了A。你对自己有什么想法？",
+      "vi": "Tiểu Nguyễn, năm nay em làm tốt, đánh giá hiệu suất được loại A. Em có suy nghĩ gì về bản thân không?"
+     }
+    },
+    {
+     "zh": "考核",
+     "pinyin": "kǎohé",
+     "vi": "đánh giá, sát hạch"
+    },
+    {
+     "zh": "指标",
+     "pinyin": "zhǐbiāo",
+     "vi": "chỉ tiêu"
+    },
+    {
+     "zh": "认可",
+     "pinyin": "rènkě",
+     "vi": "công nhận"
+    },
+    {
+     "zh": "坦诚",
+     "pinyin": "tǎnchéng",
+     "vi": "thẳng thắn, chân thành"
+    },
+    {
+     "zh": "晋升",
+     "pinyin": "jìnshēng",
+     "vi": "thăng chức"
+    },
+    {
+     "zh": "管理岗",
+     "pinyin": "guǎnlǐgǎng",
+     "vi": "vị trí quản lý",
+     "example": {
+      "zh": "你的想法我理解，我会在人才盘点会上推荐你。不过管理岗除了业绩，还要看带团队的能力，你明年可以先把东南亚小组带起来。",
+      "vi": "Suy nghĩ của em anh hiểu, anh sẽ đề cử em trong cuộc họp đánh giá nhân sự. Nhưng vị trí quản lý ngoài kết quả công việc còn xét khả năng dẫn dắt nhóm, năm tới em có thể dẫn dắt nhóm Đông Nam Á trước."
+     }
+    },
+    {
+     "zh": "人才盘点",
+     "pinyin": "réncái pándiǎn",
+     "vi": "rà soát nhân tài",
+     "example": {
+      "zh": "你的想法我理解，我会在人才盘点会上推荐你。不过管理岗除了业绩，还要看带团队的能力，你明年可以先把东南亚小组带起来。",
+      "vi": "Suy nghĩ của em anh hiểu, anh sẽ đề cử em trong cuộc họp đánh giá nhân sự. Nhưng vị trí quản lý ngoài kết quả công việc còn xét khả năng dẫn dắt nhóm, năm tới em có thể dẫn dắt nhóm Đông Nam Á trước."
+     }
+    },
+    {
+     "zh": "调薪",
+     "pinyin": "tiáoxīn",
+     "vi": "điều chỉnh lương",
+     "example": {
+      "zh": "好的，我会努力的。那薪资方面，今年的调薪幅度大概是多少？",
+      "vi": "Vâng, em sẽ cố gắng. Vậy về lương, mức tăng lương năm nay khoảng bao nhiêu ạ?"
+     }
+    },
+    {
+     "zh": "幅度",
+     "pinyin": "fúdù",
+     "vi": "biên độ, mức",
+     "example": {
+      "zh": "好的，我会努力的。那薪资方面，今年的调薪幅度大概是多少？",
+      "vi": "Vâng, em sẽ cố gắng. Vậy về lương, mức tăng lương năm nay khoảng bao nhiêu ạ?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "同事吐槽",
+   "context_vi": "课文三 · 同事吐槽",
+   "scene": "🏆",
+   "lines": [
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "我们部门今年实行末位淘汰，排最后的要谈话。年终奖也缩水了，老板说明年上市以后大家都能分股份。",
+     "vi": "Phòng mình năm nay áp dụng loại người xếp cuối, ai đứng chót sẽ bị gọi lên nói chuyện. Thưởng cuối năm cũng teo tóp, sếp bảo năm sau lên sàn thì ai cũng được chia cổ phần."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "哈哈，这是在“画饼”吧？",
+     "vi": "Haha, đây là đang “vẽ bánh” (hứa suông) chứ gì?"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "年终奖",
+     "pinyin": "niánzhōngjiǎng",
+     "vi": "thưởng cuối năm",
+     "example": {
+      "zh": "我们部门今年实行末位淘汰，排最后的要谈话。年终奖也缩水了，老板说明年上市以后大家都能分股份。",
+      "vi": "Phòng mình năm nay áp dụng loại người xếp cuối, ai đứng chót sẽ bị gọi lên nói chuyện. Thưởng cuối năm cũng teo tóp, sếp bảo năm sau lên sàn thì ai cũng được chia cổ phần."
+     }
+    },
+    {
+     "zh": "十三薪",
+     "pinyin": "shísān xīn",
+     "vi": "lương tháng 13"
+    },
+    {
+     "zh": "末位淘汰",
+     "pinyin": "mòwèi táotài",
+     "vi": "loại người xếp cuối",
+     "example": {
+      "zh": "我们部门今年实行末位淘汰，排最后的要谈话。年终奖也缩水了，老板说明年上市以后大家都能分股份。",
+      "vi": "Phòng mình năm nay áp dụng loại người xếp cuối, ai đứng chót sẽ bị gọi lên nói chuyện. Thưởng cuối năm cũng teo tóp, sếp bảo năm sau lên sàn thì ai cũng được chia cổ phần."
+     }
+    },
+    {
+     "zh": "画饼",
+     "pinyin": "huàbǐng",
+     "vi": "“vẽ bánh”, hứa suông",
+     "example": {
+      "zh": "哈哈，这是在“画饼”吧？",
+      "vi": "Haha, đây là đang “vẽ bánh” (hứa suông) chứ gì?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g14-5",
+     "title_zh": "我想跟您坦诚地聊一下……，不知道公司在……方面有什么考虑？",
+     "title_vi": "Mở lời về lương, thăng chức một cách khéo",
+     "formula": [
+      [
+       {
+        "zh": "我想跟您坦诚地聊一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，不知道公司在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "方面有什么考虑？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Mở lời về lương, thăng chức một cách khéo.",
+     "examples": []
+    },
+    {
+     "id": "bc-c14-1",
+     "title_zh": "翻一番 / 增长了一倍",
+     "title_vi": "Văn viết công sở · So sánh số liệu",
+     "formula": [
+      [
+       {
+        "zh": "翻一番 / 增长了一倍",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Cả hai đều = gấp đôi. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "客户量翻了一番。",
+       "vi": "Số lượng khách hàng tăng gấp đôi."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "小阮，你今年表现不错，___评了A。你对自己有什么想法？",
+   "bank": [
+    "考核",
+    "绩效",
+    "年终总结"
+   ],
+   "answer": "绩效"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，___115%；回款率96%，新增客户14家。",
+   "bank": [
+    "巩固",
+    "缩短",
+    "达成率"
+   ],
+   "answer": "达成率"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、___和不足，以及明年的规划。",
+   "bank": [
+    "开拓",
+    "画饼",
+    "亮点"
+   ],
+   "answer": "亮点"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "___是，对柬埔寨市场的调研不够深入，新客户开发低于预期。",
+   "bank": [
+    "不足之处",
+    "管理岗",
+    "年终总结"
+   ],
+   "answer": "不足之处"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "第二，工作亮点：___了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+   "bank": [
+    "主导",
+    "回款率",
+    "述职"
+   ],
+   "answer": "主导"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "第三，明年规划：在___越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+   "bank": [
+    "超额完成",
+    "画饼",
+    "巩固"
+   ],
+   "answer": "巩固"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "东南亚",
+    "市场部",
+    "文安",
+    "的阮",
+    "我是"
+   ],
+   "answers": [
+    "我是东南亚市场部的阮文安"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "亮点",
+    "和",
+    "业绩",
+    "不足"
+   ],
+   "answers": [
+    "业绩亮点和不足"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "以及",
+    "的",
+    "明年",
+    "规划"
+   ],
+   "answers": [
+    "以及明年的规划"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "述职",
+     "a": "báo cáo công tác (trình bày nhiệm vụ)"
+    },
+    {
+     "q": "年终总结",
+     "a": "tổng kết cuối năm"
+    },
+    {
+     "q": "绩效",
+     "a": "hiệu suất, thành tích"
+    },
+    {
+     "q": "考核",
+     "a": "đánh giá, sát hạch"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① 述职 3 phút: mỗi học viên chuẩn bị 1 slide và 述职 về công việc thật (hoặc nhân vật giả định). Ban “lãnh đạo” gồm 3 bạn chấm theo: số liệu, cấu trúc, phần 不足, thời gian.",
+   "② Phòng 1-1: cặp đôi “sếp – nhân viên”. Sếp bốc thẻ bí mật (công ty cắt giảm ngân sách / nhân viên thực ra được đề bạt / sếp sắp nghỉ việc). Nhân viên phải khéo léo hỏi về lương và thăng chức.",
+   "③ Viết 年终总结: viết bản tổng kết 300 chữ, nộp vào portfolio."
+  ],
+  "patterns": [
+   {
+    "zh": "各位领导好，我是东南亚市场部的阮文安。下面我从三个方面汇报2026年的工作：业绩、亮点和不足，以及明年的规划。",
+    "vi": "Kính chào các anh chị lãnh đạo, tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á. Sau đây tôi xin báo cáo công việc năm 2026 trên ba mặt: kết quả, điểm nổi bật và hạn chế, và kế hoạch năm tới."
+   },
+   {
+    "zh": "第一，业绩方面：全年销售目标1,200万元，实际完成1,380万元，达成率115%；回款率96%，新增客户14家。",
+    "vi": "Thứ nhất, về kết quả: mục tiêu doanh số cả năm 12 triệu tệ, thực tế đạt 13,8 triệu, tỷ lệ hoàn thành 115%; tỷ lệ thu hồi công nợ 96%, thêm mới 14 khách hàng."
+   },
+   {
+    "zh": "第二，工作亮点：主导了越南新仓库系统的本地化，使清关时间从平均3天缩短到1.5天。",
+    "vi": "Thứ hai, điểm nổi bật: chủ trì bản địa hoá hệ thống kho mới ở Việt Nam, giúp thời gian thông quan giảm từ trung bình 3 ngày xuống 1,5 ngày."
+   },
+   {
+    "zh": "第三，明年规划：在巩固越南市场的基础上，重点开拓柬埔寨和老挝，目标新增客户10家。我的汇报完毕，谢谢！",
+    "vi": "Thứ ba, kế hoạch năm tới: trên cơ sở củng cố thị trường Việt Nam, tập trung mở rộng Campuchia và Lào, mục tiêu thêm mới 10 khách hàng. Báo cáo của tôi đến đây là hết, xin cảm ơn!"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Thưởng cuối năm và mùa 述职",
+  "body_vi": [
+   "Cuối năm âm lịch là mùa quan trọng nhất của công sở Trung Quốc: tổng kết, 述职, xếp loại, rồi thưởng Tết (年终奖) và tiệc tất niên. Nhiều công ty trả thưởng theo “số tháng lương” (如 13薪, 16薪) và gắn chặt với xếp loại hiệu suất; một số công ty lớn áp dụng phân phối bắt buộc hoặc 末位淘汰, tạo áp lực đáng kể. Nhiều người chờ nhận 年终奖 xong sau Tết mới nghỉ việc, nên tháng 2–3 là mùa “nhảy việc” (金三银四). Người đi làm cũng hay tự giễu những lời hứa “vẽ bánh” (画饼) của sếp. Hiểu nhịp này giúp người Việt đoán được thời điểm đối tác và đồng nghiệp bận rộn hoặc thay đổi nhân sự.",
+   "Ứng xử: 述职 thường 5–10 phút kèm PPT; lãnh đạo thích con số, so sánh năm trước, và 1–2 câu chuyện cụ thể.",
+   "Ứng xử: Phần “不足” bắt buộc phải có; nêu một điểm yếu thật nhưng đã có kế hoạch khắc phục, không tự hạ mình quá mức.",
+   "Ứng xử: Nói chuyện lương: hỏi về “cơ chế” và “khoảng” thay vì đòi con số; không so sánh với lương đồng nghiệp.",
+   "Ứng xử: Công khai cảm ơn sếp và đồng đội trong 述职 là phép lịch sự được mong đợi."
+  ]
+ }
+}

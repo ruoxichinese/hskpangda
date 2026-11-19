@@ -1,0 +1,719 @@
+{
+ "id": 10,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "商务谈判（一）：报价与讨价还价",
+  "pinyin": "shāng wù tán pàn yī bào jià yǔ tǎo jià huán jià",
+  "vi": "báo giá"
+ },
+ "grammarTopics_vi": [
+  "如果……（的话），我们可以考虑……",
+  "看在……的份上，……",
+  "这已经是我们能给的最大让步了 / ……已经低于我们的成本了。",
+  "那我们各退一步：……可以，但是……",
+  "……比……降了/高了……%"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Báo giá",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Mặc cả",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Đưa điều kiện đổi lấy nhượng bộ",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nhận biết lời từ chối gián tiếp của phía Trung Quốc",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "第一轮报价",
+   "context_vi": "课文一 · 第一轮报价",
+   "scene": "💹",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。",
+     "vi": "Tiểu Nguyễn, báo giá của các cậu chúng tôi xem rồi. FOB cảng Hồ Chí Minh 3.200 đô mỗi tấn, cao hơn ngân sách của chúng tôi khá nhiều."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+     "vi": "Anh Triệu, giá này đã tính đến yếu tố nguyên vật liệu tăng giá và tỷ giá biến động năm nay. Tuy nhiên, nếu lượng đặt hàng của quý công ty đạt trên 50 tấn mỗi tháng, bọn em có thể xem xét chiết khấu số lượng 5%."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "5%还是太少。我们的底线是每吨2,900。",
+     "vi": "5% vẫn ít quá. Mức sàn của chúng tôi là 2.900 mỗi tấn."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "2,900确实低于我们的成本了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。",
+     "vi": "2.900 thực sự đã thấp hơn giá vốn của bọn em rồi. Thế này đi, nể tình chúng ta hợp tác nhiều năm, 3.050 mỗi tấn, phương thức thanh toán đổi thành đặt cọc 30%, 70% thanh toán khi nhận bản sao vận đơn. Đây đã là mức nhượng bộ lớn nhất bọn em có thể đưa ra."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "这个价格我们回去研究研究，下周给你答复。",
+     "vi": "Giá này chúng tôi về nghiên cứu thêm, tuần sau trả lời cậu."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "询价",
+     "pinyin": "xúnjià",
+     "vi": "hỏi giá"
+    },
+    {
+     "zh": "报价",
+     "pinyin": "bàojià",
+     "vi": "báo giá",
+     "example": {
+      "zh": "小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。",
+      "vi": "Tiểu Nguyễn, báo giá của các cậu chúng tôi xem rồi. FOB cảng Hồ Chí Minh 3.200 đô mỗi tấn, cao hơn ngân sách của chúng tôi khá nhiều."
+     }
+    },
+    {
+     "zh": "还价",
+     "pinyin": "huánjià",
+     "vi": "trả giá"
+    },
+    {
+     "zh": "讨价还价",
+     "pinyin": "tǎojià huánjià",
+     "vi": "mặc cả"
+    },
+    {
+     "zh": "汇率",
+     "pinyin": "huìlǜ",
+     "vi": "tỉ giá"
+    },
+    {
+     "zh": "波动",
+     "pinyin": "bōdòng",
+     "vi": "biến động"
+    },
+    {
+     "zh": "成本",
+     "pinyin": "chéngběn",
+     "vi": "giá thành, chi phí"
+    },
+    {
+     "zh": "批量折扣",
+     "pinyin": "pīliàng zhékòu",
+     "vi": "chiết khấu theo số lượng"
+    },
+    {
+     "zh": "底价 / 底线",
+     "pinyin": "dǐjià / dǐxiàn",
+     "vi": "giá sàn / giới hạn cuối"
+    },
+    {
+     "zh": "让步",
+     "pinyin": "ràngbù",
+     "vi": "nhượng bộ"
+    },
+    {
+     "zh": "让利",
+     "pinyin": "rànglì",
+     "vi": "nhường lợi nhuận"
+    },
+    {
+     "zh": "定金",
+     "pinyin": "dìngjīn",
+     "vi": "tiền đặt cọc"
+    },
+    {
+     "zh": "提单",
+     "pinyin": "tídān",
+     "vi": "vận đơn (B/L)"
+    },
+    {
+     "zh": "信用证",
+     "pinyin": "xìnyòngzhèng",
+     "vi": "thư tín dụng (L/C)"
+    },
+    {
+     "zh": "电汇",
+     "pinyin": "diànhuì",
+     "vi": "chuyển khoản T/T"
+    },
+    {
+     "zh": "研究研究",
+     "pinyin": "yánjiū yánjiū",
+     "vi": "nghiên cứu thêm (thường là từ chối khéo)",
+     "example": {
+      "zh": "这个价格我们回去研究研究，下周给你答复。",
+      "vi": "Giá này chúng tôi về nghiên cứu thêm, tuần sau trả lời cậu."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g10-1",
+     "title_zh": "如果……（的话），我们可以考虑……",
+     "title_vi": "Nhượng bộ có điều kiện",
+     "formula": [
+      [
+       {
+        "zh": "如果",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "（的话），我们可以考虑",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Nhượng bộ có điều kiện: không bao giờ cho không.",
+     "examples": [
+      {
+       "zh": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+       "vi": "Anh Triệu, giá này đã tính đến yếu tố nguyên vật liệu tăng giá và tỷ giá biến động năm nay. Tuy nhiên, nếu lượng đặt hàng của quý công ty đạt trên 50 tấn mỗi tháng, bọn em có thể xem xét chiết khấu số lượng 5%."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，（　）给5%的批量折扣。",
+       "options": [
+        "我们可以考虑",
+        "那我们各退一步",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。 — Anh Triệu, giá này đã tính đến yếu tố nguyên vật liệu tăng giá và tỷ giá biến động năm nay. Tuy nhiên, nếu lượng đặt hàng của quý công ty đạt trên 50 tấn mỗi tháng, bọn em có thể xem xét chiết khấu số lượng 5%."
+      }
+     ]
+    },
+    {
+     "id": "bc-g10-5",
+     "title_zh": "……比……降了/高了……%",
+     "title_vi": "Báo cáo kết quả bằng số",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "比",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "降了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "高了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "%",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Báo cáo kết quả bằng số.",
+     "examples": [
+      {
+       "zh": "比首轮报价降了6.25%。",
+       "vi": "Giảm 6,25% so với báo giá vòng đầu."
+      },
+      {
+       "zh": "小阮，你们的报价我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。",
+       "vi": "Tiểu Nguyễn, báo giá của các cậu chúng tôi xem rồi. FOB cảng Hồ Chí Minh 3.200 đô mỗi tấn, cao hơn ngân sách của chúng tôi khá nhiều."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "比首轮报价（　）6.25%。",
+       "options": [
+        "环比",
+        "增长",
+        "降了"
+       ],
+       "answer": 2,
+       "explain_vi": "比首轮报价降了6.25%。 — Giảm 6,25% so với báo giá vòng đầu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "打破僵局",
+   "context_vi": "课文二 · 打破僵局",
+   "scene": "💹",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "说实话，3,050还是有点难。我们老板的意思是3,000以内。",
+     "vi": "Nói thật, 3.050 vẫn hơi khó. Ý của sếp chúng tôi là dưới 3.000."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+     "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "交期长一点问题不大。原则上可以，我跟老板确认一下再签字。",
+     "vi": "Giao hàng lâu hơn chút không thành vấn đề. Về nguyên tắc là được, để tôi xác nhận với sếp rồi ký."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的！报价有效期到本月底，希望我们尽快落实。",
+     "vi": "Vâng ạ! Báo giá có hiệu lực đến cuối tháng này, mong mình sớm chốt."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "单价",
+     "pinyin": "dānjià",
+     "vi": "đơn giá",
+     "example": {
+      "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+      "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+     }
+    },
+    {
+     "zh": "总价",
+     "pinyin": "zǒngjià",
+     "vi": "tổng giá"
+    },
+    {
+     "zh": "离岸价 (FOB)",
+     "pinyin": "lí'ànjià",
+     "vi": "giá FOB"
+    },
+    {
+     "zh": "到岸价 (CIF)",
+     "pinyin": "dào'ànjià",
+     "vi": "giá CIF"
+    },
+    {
+     "zh": "尾款",
+     "pinyin": "wěikuǎn",
+     "vi": "khoản thanh toán cuối",
+     "example": {
+      "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+      "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+     }
+    },
+    {
+     "zh": "付清",
+     "pinyin": "fùqīng",
+     "vi": "thanh toán đủ",
+     "example": {
+      "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+      "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+     }
+    },
+    {
+     "zh": "交货期",
+     "pinyin": "jiāohuòqī",
+     "vi": "thời hạn giao hàng",
+     "example": {
+      "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+      "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+     }
+    },
+    {
+     "zh": "有效期",
+     "pinyin": "yǒuxiàoqī",
+     "vi": "thời hạn hiệu lực",
+     "example": {
+      "zh": "好的！报价有效期到本月底，希望我们尽快落实。",
+      "vi": "Vâng ạ! Báo giá có hiệu lực đến cuối tháng này, mong mình sớm chốt."
+     }
+    },
+    {
+     "zh": "僵局",
+     "pinyin": "jiāngjú",
+     "vi": "thế bế tắc"
+    },
+    {
+     "zh": "各退一步",
+     "pinyin": "gè tuì yí bù",
+     "vi": "mỗi bên lùi một bước",
+     "example": {
+      "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+      "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+     }
+    },
+    {
+     "zh": "双赢",
+     "pinyin": "shuāngyíng",
+     "vi": "cùng thắng"
+    },
+    {
+     "zh": "诚意",
+     "pinyin": "chéngyì",
+     "vi": "thành ý"
+    },
+    {
+     "zh": "原则上",
+     "pinyin": "yuánzé shang",
+     "vi": "về nguyên tắc",
+     "example": {
+      "zh": "交期长一点问题不大。原则上可以，我跟老板确认一下再签字。",
+      "vi": "Giao hàng lâu hơn chút không thành vấn đề. Về nguyên tắc là được, để tôi xác nhận với sếp rồi ký."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g10-2",
+     "title_zh": "看在……的份上，……",
+     "title_vi": "Viện dẫn quan hệ để nhượng bộ mà vẫn giữ giá trị",
+     "formula": [
+      [
+       {
+        "zh": "看在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的份上，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Viện dẫn quan hệ để nhượng bộ mà vẫn giữ giá trị.",
+     "examples": []
+    },
+    {
+     "id": "bc-g10-4",
+     "title_zh": "那我们各退一步：……可以，但是……",
+     "title_vi": "Công thức phá thế bế tắc",
+     "formula": [
+      [
+       {
+        "zh": "那我们各退一步：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "可以，但是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Công thức phá thế bế tắc: đổi giá lấy điều kiện khác (交期, 付款, 数量).",
+     "examples": [
+      {
+       "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+       "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+      },
+      {
+       "zh": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+       "vi": "Anh Triệu, giá này đã tính đến yếu tố nguyên vật liệu tăng giá và tỷ giá biến động năm nay. Tuy nhiên, nếu lượng đặt hàng của quý công ty đạt trên 50 tấn mỗi tháng, bọn em có thể xem xét chiết khấu số lượng 5%."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我理解。（　）：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+       "options": [
+        "我们可以考虑",
+        "那我们各退一步",
+        "增长了一倍"
+       ],
+       "answer": 1,
+       "explain_vi": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？ — Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "谈判后内部汇报（微信）",
+   "context_vi": "课文三 · 谈判后内部汇报（微信）",
+   "scene": "💹",
+   "lines": [
+    {
+     "speaker": "bc-lijingli",
+     "zh": "华丰谈下来了，单价3,000美元/吨（比首轮报价降6.25%），交期25天，定金30%，尾款30天内付清。赵经理说“原则上可以”，还需要他们老板最后确认，预计周三前有结果。",
+     "vi": "Anh Lý ơi, đã chốt được với Hoa Phong, đơn giá 3.000 đô/tấn (giảm 6,25% so với báo giá vòng đầu), giao hàng 25 ngày, cọc 30%, phần còn lại thanh toán trong 30 ngày. Anh Triệu nói “về nguyên tắc là được”, còn cần sếp bên họ xác nhận lần cuối, dự kiến có kết quả trước thứ tư."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "bc-g10-3",
+     "title_zh": "这已经是我们能给的最大让步了 / ……已经低于我们的成本了。",
+     "title_vi": "Báo hiệu gần đến giới hạn",
+     "formula": [
+      [
+       {
+        "zh": "这已经是我们能给的最大让步了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "已经低于我们的成本了。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Báo hiệu gần đến giới hạn.",
+     "examples": []
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "小阮，你们的___我们看了。FOB胡志明港每吨3,200美元，比我们的预算高了不少。",
+   "bank": [
+    "波动",
+    "原则上",
+    "报价"
+   ],
+   "answer": "报价"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我理解。那我们各退一步：___3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+   "bank": [
+    "诚意",
+    "信用证",
+    "单价"
+   ],
+   "answer": "单价"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "赵经理，这个价格已经考虑了今年原材料上涨和___波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+   "bank": [
+    "原则上",
+    "汇率",
+    "单价"
+   ],
+   "answer": "汇率"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "2,900确实低于我们的___了。这样吧，看在我们合作多年的份上，每吨3,050，付款方式改成30%定金、70%见提单副本付款。这已经是我们能给的最大让步了。",
+   "bank": [
+    "尾款",
+    "成本",
+    "单价"
+   ],
+   "answer": "成本"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "华丰谈下来了，单价3,000美元/吨（比首轮报价降6.25%），交期25天，___30%，尾款30天内付清。赵经理说“原则上可以”，还需要他们老板最后确认，预计周三前有结果。",
+   "bank": [
+    "电汇",
+    "有效期",
+    "定金"
+   ],
+   "answer": "定金"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "好的！报价___到本月底，希望我们尽快落实。",
+   "bank": [
+    "尾款",
+    "诚意",
+    "有效期"
+   ],
+   "answer": "有效期"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "报价",
+    "的",
+    "我们",
+    "看了",
+    "你们"
+   ],
+   "answers": [
+    "你们的报价我们看了"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "高了",
+    "预算",
+    "不少",
+    "比我们",
+    "的"
+   ],
+   "answers": [
+    "比我们的预算高了不少"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "多年",
+    "看在",
+    "我们",
+    "合作",
+    "的份上"
+   ],
+   "answers": [
+    "看在我们合作多年的份上"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "询价",
+     "a": "hỏi giá"
+    },
+    {
+     "q": "报价",
+     "a": "báo giá"
+    },
+    {
+     "q": "还价",
+     "a": "trả giá"
+    },
+    {
+     "q": "讨价还价",
+     "a": "mặc cả"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Đàm phán theo đội: hai đội mua – bán nhận “thẻ mật” khác nhau (giá sàn, giá trần, điều kiện ưu tiên, áp lực từ sếp). 3 vòng × 5 phút, giữa mỗi vòng được 2 phút “gọi điện cho sếp” (hỏi giáo viên). Đội đạt thoả thuận gần mục tiêu nhất và đúng mẫu câu nhất thắng.",
+   "② Giải mã câu nói: giáo viên đọc 8 câu phía Trung Quốc hay nói (研究研究, 问题不大, 原则上可以, 再说吧, 我尽量…); đội đoán nghĩa thật (đồng ý / từ chối / cần thêm điều kiện) và đề xuất câu trả lời tiếp theo.",
+   "③ Viết tin báo cáo: mỗi đội viết tin WeChat báo kết quả đàm phán cho sếp như 课文三, tối đa 100 chữ."
+  ],
+  "patterns": [
+   {
+    "zh": "赵经理，这个价格已经考虑了今年原材料上涨和汇率波动的因素。不过，如果贵司的订单量能达到每月50吨以上，我们可以考虑给5%的批量折扣。",
+    "vi": "Anh Triệu, giá này đã tính đến yếu tố nguyên vật liệu tăng giá và tỷ giá biến động năm nay. Tuy nhiên, nếu lượng đặt hàng của quý công ty đạt trên 50 tấn mỗi tháng, bọn em có thể xem xét chiết khấu số lượng 5%."
+   },
+   {
+    "zh": "比首轮报价降了6.25%。",
+    "vi": "Giảm 6,25% so với báo giá vòng đầu."
+   },
+   {
+    "zh": "我理解。那我们各退一步：单价3,000可以，但交货期从15天延长到25天，另外尾款要在30天内付清。您看这样行不行？",
+    "vi": "Em hiểu. Vậy mỗi bên lùi một bước: đơn giá 3.000 được, nhưng thời gian giao hàng kéo dài từ 15 ngày lên 25 ngày, ngoài ra phần tiền còn lại phải thanh toán hết trong 30 ngày. Anh thấy như vậy được không ạ?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Từ chối khéo và phong cách đàm phán",
+  "body_vi": [
+   "Người Trung Quốc hiếm khi nói “不行” thẳng thừng trên bàn đàm phán. Những câu như 我们回去研究研究, 这个问题比较复杂, 再考虑考虑, 原则上可以 cần được đọc theo ngữ cảnh: có thể là “cần thời gian thật”, cũng có thể là lời từ chối lịch sự; 原则上可以 thường có nghĩa “đồng ý nhưng còn điều kiện”. Nhà nghiên cứu Tony Fang (Đại học Stockholm) mô tả nhà đàm phán Trung Quốc là sự pha trộn giữa “người quân tử Nho gia” đề cao niềm tin, hài hoà, đôi bên cùng có lợi, và “nhà chiến lược kiểu Tôn Tử” dùng mưu lược; vai trò nào nổi lên phụ thuộc vào mức độ tin tưởng giữa hai bên ([Fang 2006, ResearchGate](https://www.researchgate.net/publication/228735122_Negotiation_the_Chinese_style)). Hàm ý thực tế: đầu tư vào lòng tin trước khi đàm phán giá, và luôn để lại đường lui cho đối phương.",
+   "Ứng xử: Chuẩn bị trước 3 con số: giá mở, giá mục tiêu, giá sàn; và danh sách “đồ đổi” (交期, 付款, 包装, 数量).",
+   "Ứng xử: Người ngồi bàn phía Trung Quốc thường không có quyền quyết cuối: 我跟老板确认一下 là thật, không nhất thiết là chiêu. Hỏi sớm: 这次谈判由哪位最终拍板？",
+   "Ứng xử: Không ép đối phương nói “không” trực tiếp trước mặt cấp dưới của họ; hãy cho họ một lựa chọn để “có mặt mũi” mà đồng ý.",
+   "Ứng xử: Sau mỗi vòng, gửi mail xác nhận những gì đã thống nhất để tránh 口头承诺 bị quên."
+  ]
+ }
+}

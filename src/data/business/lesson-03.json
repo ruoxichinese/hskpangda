@@ -1,0 +1,691 @@
+{
+ "id": 3,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "电话与微信沟通",
+  "pinyin": "diàn huà yǔ wēi xìn gōu tōng",
+  "vi": "gọi và nhận điện thoại công việc"
+ },
+ "grammarTopics_vi": [
+  "您好，我是……公司……部的……，麻烦您帮我转接一下……",
+  "麻烦您转告他，……。他方便的时候给我回个电话就行。",
+  "我想跟您确认一下……",
+  "……我马上发您 / 发您邮箱。",
+  "收到请回复 / 如有问题请随时联系。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Gọi và nhận điện thoại công việc",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Để lại lời nhắn",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng WeChat công việc đúng phép lịch sự",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "打电话找客户",
+   "context_vi": "课文一 · 打电话找客户",
+   "scene": "📞",
+   "lines": [
+    {
+     "speaker": "bc-qiantai",
+     "zh": "您好，华丰贸易，请问您找哪位？",
+     "vi": "Xin chào, Thương mại Hoa Phong xin nghe, anh cần gặp ai ạ?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。",
+     "vi": "Chào chị, tôi là Tiểu Nguyễn ở phòng Marketing Tập đoàn Đông Thịnh, phiền chị nối máy giúp tôi tới anh Triệu phòng Thu mua."
+    },
+    {
+     "speaker": "bc-qiantai",
+     "zh": "请稍等……不好意思，赵经理的电话占线。您要留言吗？",
+     "vi": "Anh vui lòng chờ chút… Xin lỗi anh, máy anh Triệu đang bận. Anh có muốn để lại lời nhắn không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。",
+     "vi": "Vâng, phiền chị nhắn giúp anh ấy, tôi muốn xác nhận với anh ấy thời gian giao mẫu thứ tư tuần sau. Số của tôi là 138xxxx5678, khi nào anh ấy tiện thì gọi lại cho tôi là được."
+    },
+    {
+     "speaker": "bc-qiantai",
+     "zh": "好的，我记下了，会尽快转告他。",
+     "vi": "Vâng, tôi ghi lại rồi, sẽ nhắn anh ấy sớm nhất."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谢谢您，打扰了！",
+     "vi": "Cảm ơn chị, làm phiền chị rồi!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "转接",
+     "pinyin": "zhuǎnjiē",
+     "vi": "chuyển máy",
+     "example": {
+      "zh": "您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。",
+      "vi": "Chào chị, tôi là Tiểu Nguyễn ở phòng Marketing Tập đoàn Đông Thịnh, phiền chị nối máy giúp tôi tới anh Triệu phòng Thu mua."
+     }
+    },
+    {
+     "zh": "占线",
+     "pinyin": "zhànxiàn",
+     "vi": "máy bận",
+     "example": {
+      "zh": "请稍等……不好意思，赵经理的电话占线。您要留言吗？",
+      "vi": "Anh vui lòng chờ chút… Xin lỗi anh, máy anh Triệu đang bận. Anh có muốn để lại lời nhắn không?"
+     }
+    },
+    {
+     "zh": "分机",
+     "pinyin": "fēnjī",
+     "vi": "số máy lẻ"
+    },
+    {
+     "zh": "留言",
+     "pinyin": "liúyán",
+     "vi": "để lại lời nhắn",
+     "example": {
+      "zh": "请稍等……不好意思，赵经理的电话占线。您要留言吗？",
+      "vi": "Anh vui lòng chờ chút… Xin lỗi anh, máy anh Triệu đang bận. Anh có muốn để lại lời nhắn không?"
+     }
+    },
+    {
+     "zh": "转告",
+     "pinyin": "zhuǎngào",
+     "vi": "nhắn lại, chuyển lời",
+     "example": {
+      "zh": "好的，我记下了，会尽快转告他。",
+      "vi": "Vâng, tôi ghi lại rồi, sẽ nhắn anh ấy sớm nhất."
+     }
+    },
+    {
+     "zh": "回电话",
+     "pinyin": "huí diànhuà",
+     "vi": "gọi lại"
+    },
+    {
+     "zh": "稍等",
+     "pinyin": "shāoděng",
+     "vi": "chờ một chút",
+     "example": {
+      "zh": "请稍等……不好意思，赵经理的电话占线。您要留言吗？",
+      "vi": "Anh vui lòng chờ chút… Xin lỗi anh, máy anh Triệu đang bận. Anh có muốn để lại lời nhắn không?"
+     }
+    },
+    {
+     "zh": "打扰",
+     "pinyin": "dǎrǎo",
+     "vi": "làm phiền",
+     "example": {
+      "zh": "谢谢您，打扰了！",
+      "vi": "Cảm ơn chị, làm phiền chị rồi!"
+     }
+    },
+    {
+     "zh": "确认",
+     "pinyin": "quèrèn",
+     "vi": "xác nhận"
+    },
+    {
+     "zh": "交付",
+     "pinyin": "jiāofù",
+     "vi": "bàn giao"
+    },
+    {
+     "zh": "样品",
+     "pinyin": "yàngpǐn",
+     "vi": "hàng mẫu",
+     "example": {
+      "zh": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+      "vi": "Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g3-1",
+     "title_zh": "您好，我是……公司……部的……，麻烦您帮我转接一下……",
+     "title_vi": "Mở đầu cuộc gọi",
+     "formula": [
+      [
+       {
+        "zh": "您好，我是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "公司",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "部的",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，麻烦您帮我转接一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mở đầu cuộc gọi: công ty → bộ phận → tên → người cần gặp.",
+     "examples": [
+      {
+       "zh": "您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。",
+       "vi": "Chào chị, tôi là Tiểu Nguyễn ở phòng Marketing Tập đoàn Đông Thịnh, phiền chị nối máy giúp tôi tới anh Triệu phòng Thu mua."
+      },
+      {
+       "zh": "您好，华丰贸易，请问您找哪位？",
+       "vi": "Xin chào, Thương mại Hoa Phong xin nghe, anh cần gặp ai ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "您好，我是东盛集团市场部的小阮，（　）采购部的赵经理。",
+       "options": [
+        "麻烦您帮我转接一下",
+        "我想跟您确认一下",
+        "如有问题请随时联系"
+       ],
+       "answer": 0,
+       "explain_vi": "您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。 — Chào chị, tôi là Tiểu Nguyễn ở phòng Marketing Tập đoàn Đông Thịnh, phiền chị nối máy giúp tôi tới anh Triệu phòng Thu mua."
+      }
+     ]
+    },
+    {
+     "id": "bc-g3-2",
+     "title_zh": "麻烦您转告他，……。他方便的时候给我回个电话就行。",
+     "title_vi": "Để lại lời nhắn lịch sự",
+     "formula": [
+      [
+       {
+        "zh": "麻烦您转告他，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。他方便的时候给我回个电话就行。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Để lại lời nhắn lịch sự; 就行 làm câu nhẹ nhàng, không ép.",
+     "examples": [
+      {
+       "zh": "好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。",
+       "vi": "Vâng, phiền chị nhắn giúp anh ấy, tôi muốn xác nhận với anh ấy thời gian giao mẫu thứ tư tuần sau. Số của tôi là 138xxxx5678, khi nào anh ấy tiện thì gọi lại cho tôi là được."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，（　）。",
+       "options": [
+        "如有问题请随时联系",
+        "他方便的时候给我回个电话就行",
+        "麻烦您帮我转接一下"
+       ],
+       "answer": 1,
+       "explain_vi": "好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。 — Vâng, phiền chị nhắn giúp anh ấy, tôi muốn xác nhận với anh ấy thời gian giao mẫu thứ tư tuần sau. Số của tôi là 138xxxx5678, khi nào anh ấy tiện thì gọi lại cho tôi là được."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "加微信之后",
+   "context_vi": "课文二 · 加微信之后",
+   "scene": "📞",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "小阮你好，刚才在开会。我扫你的码加一下微信，文件发我这边吧。",
+     "vi": "Tiểu Nguyễn chào cậu, lúc nãy tôi đang họp. Tôi quét mã kết bạn WeChat với cậu, tài liệu gửi qua cho tôi nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+     "vi": "Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "可以。对了，你们发语音我不太方便听，尽量打字哈。",
+     "vi": "Được. À, các cậu gửi tin nhắn thoại tôi không tiện nghe lắm, cố gắng nhắn chữ nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "明白！重要信息我都会打字，并在群里置顶。",
+     "vi": "Em hiểu rồi! Thông tin quan trọng em sẽ nhắn chữ hết, và ghim lên đầu nhóm."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "报价单",
+     "pinyin": "bàojiàdān",
+     "vi": "bảng báo giá",
+     "example": {
+      "zh": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+      "vi": "Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+     }
+    },
+    {
+     "zh": "扫码",
+     "pinyin": "sǎomǎ",
+     "vi": "quét mã QR"
+    },
+    {
+     "zh": "加微信",
+     "pinyin": "jiā Wēixìn",
+     "vi": "kết bạn WeChat"
+    },
+    {
+     "zh": "拉群",
+     "pinyin": "lāqún",
+     "vi": "lập nhóm chat"
+    },
+    {
+     "zh": "工作群",
+     "pinyin": "gōngzuòqún",
+     "vi": "nhóm chat công việc"
+    },
+    {
+     "zh": "艾特 (@)",
+     "pinyin": "àitè",
+     "vi": "tag, gắn tên"
+    },
+    {
+     "zh": "语音",
+     "pinyin": "yǔyīn",
+     "vi": "tin nhắn thoại",
+     "example": {
+      "zh": "可以。对了，你们发语音我不太方便听，尽量打字哈。",
+      "vi": "Được. À, các cậu gửi tin nhắn thoại tôi không tiện nghe lắm, cố gắng nhắn chữ nhé."
+     }
+    },
+    {
+     "zh": "打字",
+     "pinyin": "dǎzì",
+     "vi": "gõ chữ",
+     "example": {
+      "zh": "可以。对了，你们发语音我不太方便听，尽量打字哈。",
+      "vi": "Được. À, các cậu gửi tin nhắn thoại tôi không tiện nghe lắm, cố gắng nhắn chữ nhé."
+     }
+    },
+    {
+     "zh": "置顶",
+     "pinyin": "zhìdǐng",
+     "vi": "ghim lên đầu",
+     "example": {
+      "zh": "明白！重要信息我都会打字，并在群里置顶。",
+      "vi": "Em hiểu rồi! Thông tin quan trọng em sẽ nhắn chữ hết, và ghim lên đầu nhóm."
+     }
+    },
+    {
+     "zh": "撤回",
+     "pinyin": "chèhuí",
+     "vi": "thu hồi tin nhắn"
+    },
+    {
+     "zh": "已读不回",
+     "pinyin": "yǐdú bù huí",
+     "vi": "đã xem không trả lời"
+    },
+    {
+     "zh": "秒回",
+     "pinyin": "miǎohuí",
+     "vi": "trả lời ngay lập tức"
+    },
+    {
+     "zh": "截图",
+     "pinyin": "jiétú",
+     "vi": "chụp màn hình"
+    },
+    {
+     "zh": "备注",
+     "pinyin": "bèizhù",
+     "vi": "ghi chú (tên liên hệ)"
+    },
+    {
+     "zh": "朋友圈",
+     "pinyin": "péngyouquān",
+     "vi": "trang cá nhân WeChat (Moments)"
+    },
+    {
+     "zh": "隐形加班",
+     "pinyin": "yǐnxíng jiābān",
+     "vi": "làm thêm giờ “ẩn”"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g3-4",
+     "title_zh": "……我马上发您 / 发您邮箱。",
+     "title_vi": "Khẩu ngữ công việc",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "我马上发您",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "发您邮箱。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Khẩu ngữ công việc: 发 + người + vật, lược 给.",
+     "examples": [
+      {
+       "zh": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+       "vi": "Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "好的赵经理！报价单和样品照片（　）。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+       "options": [
+        "我马上发您",
+        "收到请回复",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。 — Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "工作群通知",
+   "context_vi": "课文三 · 工作群通知",
+   "scene": "📞",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "@所有人 各位好，华丰样品交付时间确认为10月15日（周三）上午10点，地点：华丰二号仓库。请技术部陈工、物流部小林提前半小时到达。收到请回复，谢谢！",
+     "vi": "@Tất cả mọi người Chào mọi người, thời gian giao mẫu cho Hoa Phong đã xác nhận là 10 giờ sáng thứ tư, 15/10, địa điểm: kho số 2 của Hoa Phong. Mời anh Trần phòng Kỹ thuật và Tiểu Lâm phòng Logistics đến trước nửa tiếng. Nhận được tin vui lòng phản hồi, cảm ơn!"
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "bc-g3-3",
+     "title_zh": "我想跟您确认一下……",
+     "title_vi": "Xác nhận thông tin",
+     "formula": [
+      [
+       {
+        "zh": "我想跟您确认一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Xác nhận thông tin; dùng rất nhiều trong điện thoại và chat.",
+     "examples": []
+    },
+    {
+     "id": "bc-g3-5",
+     "title_zh": "收到请回复 / 如有问题请随时联系。",
+     "title_vi": "Kết thúc thông báo nhóm",
+     "formula": [
+      [
+       {
+        "zh": "收到请回复",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "如有问题请随时联系。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Kết thúc thông báo nhóm.",
+     "examples": []
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "您好，我是东盛集团市场部的小阮，麻烦您帮我___一下采购部的赵经理。",
+   "bank": [
+    "转接",
+    "已读不回",
+    "撤回"
+   ],
+   "answer": "转接"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "请稍等……不好意思，赵经理的电话___。您要留言吗？",
+   "bank": [
+    "朋友圈",
+    "截图",
+    "占线"
+   ],
+   "answer": "占线"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "好的，麻烦您___他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。",
+   "bank": [
+    "工作群",
+    "报价单",
+    "转告"
+   ],
+   "answer": "转告"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "谢谢您，___了！",
+   "bank": [
+    "已读不回",
+    "打扰",
+    "打字"
+   ],
+   "answer": "打扰"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "@所有人 各位好，华丰样品交付时间___为10月15日（周三）上午10点，地点：华丰二号仓库。请技术部陈工、物流部小林提前半小时到达。收到请回复，谢谢！",
+   "bank": [
+    "确认",
+    "语音",
+    "稍等"
+   ],
+   "answer": "确认"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "好的赵经理！报价单和___照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+   "bank": [
+    "置顶",
+    "样品",
+    "打字"
+   ],
+   "answer": "样品"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "您",
+    "找",
+    "请问",
+    "哪位"
+   ],
+   "answers": [
+    "请问您找哪位"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "东盛",
+    "我是",
+    "市场部",
+    "的小阮",
+    "集团"
+   ],
+   "answers": [
+    "我是东盛集团市场部的小阮"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "采购部",
+    "转接一下",
+    "麻烦",
+    "您帮我",
+    "的赵经理"
+   ],
+   "answers": [
+    "麻烦您帮我转接一下采购部的赵经理"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "转接",
+     "a": "chuyển máy"
+    },
+    {
+     "q": "占线",
+     "a": "máy bận"
+    },
+    {
+     "q": "分机",
+     "a": "số máy lẻ"
+    },
+    {
+     "q": "留言",
+     "a": "để lại lời nhắn"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Tổng đài bận rộn: 2 người ngồi quay lưng, một người gọi, một người làm lễ tân; bốc thẻ tình huống (người cần gặp đang họp / đã nghỉ việc / đang đi công tác). Người gọi phải để lại lời nhắn đủ 4 yếu tố: ai, việc gì, số điện thoại, thời hạn.",
+   "② Chat nhóm mô phỏng: giáo viên lập nhóm WeChat thật của lớp, đưa ra sự cố “giao hàng chậm 2 ngày”; học viên phân vai sales, kho, khách, sếp và xử lý hoàn toàn bằng tin nhắn gõ chữ trong 15 phút. Chấm: rõ ràng, lịch sự, đúng người được @.",
+   "③ Bắt lỗi phép lịch sự: 8 ảnh chụp màn hình chat “thảm hoạ” (nhắn 在吗, gửi 5 tin thoại, gửi file không chú thích…); đội tìm lỗi và viết lại."
+  ],
+  "patterns": [
+   {
+    "zh": "您好，我是东盛集团市场部的小阮，麻烦您帮我转接一下采购部的赵经理。",
+    "vi": "Chào chị, tôi là Tiểu Nguyễn ở phòng Marketing Tập đoàn Đông Thịnh, phiền chị nối máy giúp tôi tới anh Triệu phòng Thu mua."
+   },
+   {
+    "zh": "好的，麻烦您转告他，我想跟他确认一下下周三的样品交付时间。我的电话是138xxxx5678，他方便的时候给我回个电话就行。",
+    "vi": "Vâng, phiền chị nhắn giúp anh ấy, tôi muốn xác nhận với anh ấy thời gian giao mẫu thứ tư tuần sau. Số của tôi là 138xxxx5678, khi nào anh ấy tiện thì gọi lại cho tôi là được."
+   },
+   {
+    "zh": "好的赵经理！报价单和样品照片我马上发您。我拉个群吧，把我们的技术同事也拉进来，有技术问题可以直接@他。",
+    "vi": "Vâng anh Triệu! Bảng báo giá và ảnh mẫu em gửi anh ngay. Em lập một nhóm nhé, kéo cả đồng nghiệp kỹ thuật bên em vào, có vấn đề kỹ thuật anh có thể @ thẳng anh ấy."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "WeChat là văn phòng thứ hai",
+  "body_vi": [
+   "Ở Trung Quốc, email vẫn dùng cho văn bản chính thức, nhưng phần lớn trao đổi hàng ngày diễn ra trên WeChat, 钉钉 (DingTalk) hoặc 飞书 (Feishu/Lark). Hệ quả là ranh giới giờ làm bị xoá mờ: việc trả lời tin nhắn công việc ngoài giờ đã được toà án công nhận là làm thêm giờ trong một số trường hợp. Năm 2024, Toà án cấp cao Bắc Kinh đưa vào báo cáo công tác một vụ án mà toà xác định việc dùng WeChat để làm việc thực chất sau giờ làm là tăng ca, buộc công ty trả 30.000 tệ ([京报网](https://news.bjd.com.cn/2024/01/23/10683930.shtml)). Tiêu chí được nêu là có “lao động thực chất” và “chiếm dụng thời gian rõ rệt”; trả lời kiểu 好的、收到 được xem là trao đổi thông thường ([央广网](https://finance.cnr.cn/jjgd/20251104/t20251104_527418967.shtml)). Buổi 16 sẽ quay lại chủ đề này từ góc độ luật lao động.",
+   "Ứng xử: Tin nhắn đầu tiên khi kết bạn nên tự giới thiệu đủ: 您好，我是东盛集团的阮文安，之前电话联系过。Sửa ngay 备注 theo dạng “Tên – Công ty”.",
+   "Ứng xử: Hạn chế gửi tin nhắn thoại dài cho khách và cấp trên; nhiều người Trung Quốc coi đó là bất tiện cho người nhận.",
+   "Ứng xử: Không nhắn “在吗？” rồi chờ; hãy nói thẳng việc cần hỏi trong một tin.",
+   "Ứng xử: Tránh nhắn công việc sau 21h hoặc cuối tuần nếu không gấp; nếu buộc phải nhắn, mở đầu bằng 不好意思这么晚打扰您."
+  ]
+ }
+}

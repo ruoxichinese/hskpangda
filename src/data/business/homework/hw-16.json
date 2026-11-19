@@ -1,0 +1,305 @@
+{
+ "lessonId": 16,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "安排得挺周到。你在系统里提交（　　）申请吧，我来批。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "大小周",
+      "请假",
+      "弹性工作制"
+     ],
+     "answer": 1,
+     "explain_vi": "请假: xin nghỉ. Câu đầy đủ: 安排得挺周到。你在系统里提交请假申请吧，我来批。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "李经理，打扰一下。我想跟您请一下（　　）：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "年假",
+      "批假",
+      "病假"
+     ],
+     "answer": 0,
+     "explain_vi": "年假: nghỉ phép năm. Câu đầy đủ: 李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "周姐，这周六我已经约了医生复查，实在（　　）。周五晚上我可以留到九点，把我负责的测试用例先跑完。如果还有剩下的，周日上午我可以远程处理，您看这样可以吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "过劳",
+      "请假申请",
+      "走不开"
+     ],
+     "answer": 2,
+     "explain_vi": "走不开: không thể rời đi. Câu đầy đủ: 周姐，这周六我已经约了医生复查，实在走不开。周五晚上我可以留到九点，把我负责的测试用例先跑完。如果还有剩下的，周日上午我可以远程处理，您看这样可以吗？"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "可以。那周日上午的你记得报（　　），下周可以调休。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "维权",
+      "加班",
+      "远程"
+     ],
+     "answer": 1,
+     "explain_vi": "加班: tăng ca. Câu đầy đủ: 可以。那周日上午的你记得报加班，下周可以调休。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "事假",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "giờ làm việc",
+      "nghỉ phép năm",
+      "nghỉ việc riêng"
+     ],
+     "answer": 2,
+     "explain_vi": "事假 (shìjià): nghỉ việc riêng"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "病假",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "duyệt nghỉ",
+      "nghỉ ốm",
+      "tiền làm thêm giờ"
+     ],
+     "answer": 1,
+     "explain_vi": "病假 (bìngjià): nghỉ ốm"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "婚假 / 产假",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "nghỉ cưới / nghỉ thai sản",
+      "tiền bồi thường",
+      "nghỉ phép năm"
+     ],
+     "answer": 0,
+     "explain_vi": "婚假 / 产假 (hūnjià / chǎnjià): nghỉ cưới / nghỉ thai sản"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "请假申请",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "nghỉ bù",
+      "chế độ làm việc không cố định giờ",
+      "đơn xin nghỉ"
+     ],
+     "answer": 2,
+     "explain_vi": "请假申请 (qǐngjià shēnqǐng): đơn xin nghỉ"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "请假",
+       "a": "xin nghỉ"
+      },
+      {
+       "q": "年假",
+       "a": "nghỉ phép năm"
+      },
+      {
+       "q": "事假",
+       "a": "nghỉ việc riêng"
+      },
+      {
+       "q": "病假",
+       "a": "nghỉ ốm"
+      },
+      {
+       "q": "婚假 / 产假",
+       "a": "nghỉ cưới / nghỉ thai sản"
+      },
+      {
+       "q": "请假申请",
+       "a": "đơn xin nghỉ"
+      }
+     ],
+     "explain_vi": "请假 = xin nghỉ · 年假 = nghỉ phép năm · 事假 = nghỉ việc riêng · 病假 = nghỉ ốm · 婚假 / 产假 = nghỉ cưới / nghỉ thai sản · 请假申请 = đơn xin nghỉ"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "年假",
+      "跟您",
+      "请",
+      "我想",
+      "一下"
+     ],
+     "answers": [
+      "我想跟您请一下年假"
+     ],
+     "explain_vi": "我想跟您请一下年假 — trích từ câu: 李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "参加我",
+      "婚礼",
+      "的",
+      "姐姐",
+      "回越南"
+     ],
+     "answers": [
+      "回越南参加我姐姐的婚礼"
+     ],
+     "explain_vi": "回越南参加我姐姐的婚礼 — trích từ câu: 李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "的货",
+      "那几天",
+      "华丰",
+      "到港",
+      "刚好"
+     ],
+     "answers": [
+      "那几天华丰的货刚好到港"
+     ],
+     "explain_vi": "那几天华丰的货刚好到港 — trích từ câu: 那几天华丰的货刚好到港，你走了谁来跟？"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "来",
+      "跟",
+      "了",
+      "谁",
+      "你走"
+     ],
+     "answers": [
+      "你走了谁来跟"
+     ],
+     "explain_vi": "你走了谁来跟 — trích từ câu: 那几天华丰的货刚好到港，你走了谁来跟？"
+    },
+    {
+     "id": "r5x",
+     "kind": "reorder",
+     "tiles": [
+      "到",
+      "考虑",
+      "了",
+      "我",
+      "已经"
+     ],
+     "answers": [
+      "我已经考虑到了"
+     ],
+     "explain_vi": "我已经考虑到了 — trích từ câu: 我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "我走之前",
+      "单据",
+      "准备好",
+      "会把",
+      "所有"
+     ],
+     "answers": [
+      "我走之前会把所有单据准备好"
+     ],
+     "explain_vi": "我走之前会把所有单据准备好 — trích từ câu: 我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "顶一下",
+      "小林",
+      "请",
+      "帮",
+      "我"
+     ],
+     "answers": [
+      "请小林帮我顶一下"
+     ],
+     "explain_vi": "请小林帮我顶一下 — trích từ câu: 我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "就写",
+      "交接",
+      "这周",
+      "好",
+      "文档我"
+     ],
+     "answers": [
+      "交接文档我这周就写好"
+     ],
+     "explain_vi": "交接文档我这周就写好 — trích từ câu: 我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Bài viết công việc (hồ sơ portfolio)",
+   "instructions_vi": "Viết bằng chữ Hán, văn phong trang trọng. Giáo viên đọc bài trên trang giáo viên và chấm theo thang A2.",
+   "questions": [
+    {
+     "id": "w1",
+     "kind": "essay",
+     "prompt_vi": "Viết đơn xin nghỉ phép năm kèm phần bàn giao công việc",
+     "requirements_vi": [
+      "Ghi rõ loại nghỉ, thời gian, lý do",
+      "Bàn giao: ai làm thay, tài liệu để ở đâu, liên hệ khi có việc gấp"
+     ],
+     "minChars": 50,
+     "keywords": [
+      "请假类型",
+      "事由",
+      "工作交接"
+     ],
+     "model": "请假类型：年假 时间：11月3日—11月7日（共5个工作日） 事由：回国参加家人婚礼 工作交接：进口单据跟进由林晓代理，交接文档已上传共享盘；紧急事项可电话联系。",
+     "explain_vi": "So sánh với bài mẫu và tự chấm theo thang A2."
+    }
+   ]
+  }
+ ]
+}

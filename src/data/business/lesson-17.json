@@ -1,0 +1,775 @@
+{
+ "id": 17,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "客户投诉与危机处理",
+  "pinyin": "kè hù tóu sù yǔ wēi jī chǔ lǐ",
+  "vi": "tiếp nhận khiếu nại"
+ },
+ "grammarTopics_vi": [
+  "非常抱歉给您添麻烦了，您先别着急。我理解……",
+  "麻烦您先……，我马上……，……内给您答复。",
+  "情况已经核实了：……。我们的方案是：第一……；第二……；第三……",
+  "经核实，问题系……所致。",
+  "今后我们将……，杜绝类似问题再次发生。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tiếp nhận khiếu nại",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Xoa dịu cảm xúc",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Xác minh",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Đưa phương án bồi thường",
+   "doneWhen": [
+    "text-4"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Viết thư xin lỗi",
+   "doneWhen": [
+    "text-4"
+   ]
+  },
+  {
+   "id": "o6",
+   "vi": "Làm quen với ngôn ngữ “khủng hoảng truyền thông”",
+   "doneWhen": [
+    "text-4"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "电话投诉",
+   "context_vi": "课文一 · 电话投诉",
+   "scene": "🚨",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！",
+     "vi": "Tiểu Nguyễn! Lô hạt điều của các cậu về đến nơi có ba mươi thùng vỡ bao bì, còn mấy thùng bị ẩm. Tuần sau chúng tôi phải lên kệ rồi, cậu nói xem tính sao? Hôm nay nhất định phải cho tôi một lời giải thích!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，非常抱歉给您添麻烦了，您先别着急。我理解这批货对您下周上架非常重要。麻烦您先拍一下破损的照片和箱号发给我，我马上跟仓库和物流核实，两个小时内给您初步答复。",
+     "vi": "Anh Triệu, em thành thật xin lỗi vì đã gây phiền phức cho anh, anh bình tĩnh đã ạ. Em hiểu lô hàng này rất quan trọng với việc lên kệ tuần sau của anh. Phiền anh chụp ảnh chỗ hư hỏng và số thùng gửi em, em kiểm tra ngay với kho và bên vận chuyển, trong hai tiếng sẽ phản hồi sơ bộ cho anh."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "两个小时，我等你电话。",
+     "vi": "Hai tiếng, tôi đợi điện thoại của cậu."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "投诉",
+     "pinyin": "tóusù",
+     "vi": "khiếu nại"
+    },
+    {
+     "zh": "破损",
+     "pinyin": "pòsǔn",
+     "vi": "hư hỏng, vỡ",
+     "example": {
+      "zh": "小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！",
+      "vi": "Tiểu Nguyễn! Lô hạt điều của các cậu về đến nơi có ba mươi thùng vỡ bao bì, còn mấy thùng bị ẩm. Tuần sau chúng tôi phải lên kệ rồi, cậu nói xem tính sao? Hôm nay nhất định phải cho tôi một lời giải thích!"
+     }
+    },
+    {
+     "zh": "受潮",
+     "pinyin": "shòucháo",
+     "vi": "bị ẩm",
+     "example": {
+      "zh": "小阮！你们这批腰果到货以后，有三十箱包装破损，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！",
+      "vi": "Tiểu Nguyễn! Lô hạt điều của các cậu về đến nơi có ba mươi thùng vỡ bao bì, còn mấy thùng bị ẩm. Tuần sau chúng tôi phải lên kệ rồi, cậu nói xem tính sao? Hôm nay nhất định phải cho tôi một lời giải thích!"
+     }
+    },
+    {
+     "zh": "给个说法",
+     "pinyin": "gěi ge shuōfǎ",
+     "vi": "đưa ra lời giải thích thoả đáng"
+    },
+    {
+     "zh": "添麻烦",
+     "pinyin": "tiān máfan",
+     "vi": "gây phiền phức"
+    },
+    {
+     "zh": "核实",
+     "pinyin": "héshí",
+     "vi": "xác minh"
+    },
+    {
+     "zh": "初步答复",
+     "pinyin": "chūbù dáfù",
+     "vi": "phản hồi ban đầu"
+    },
+    {
+     "zh": "箱号",
+     "pinyin": "xiānghào",
+     "vi": "số thùng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g17-1",
+     "title_zh": "非常抱歉给您添麻烦了，您先别着急。我理解……",
+     "title_vi": "Bước 1",
+     "formula": [
+      [
+       {
+        "zh": "非常抱歉给您添麻烦了，您先别着急。我理解",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Bước 1: xin lỗi + công nhận cảm xúc.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "给出解决方案",
+   "context_vi": "课文二 · 给出解决方案",
+   "scene": "🚨",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，情况已经核实了：是运输途中遇到暴雨，集装箱密封条老化进水，责任在我们的物流供应商，但我们作为卖方负全部责任。我们的方案是：第一，三十箱破损的货全部补发，走空运，周五前到；第二，这批货的运费我们承担；第三，下次订单给您九五折作为补偿。您看这样可以吗？",
+     "vi": "Anh Triệu, tình hình đã kiểm tra xong: trên đường vận chuyển gặp mưa to, gioăng kín của container bị lão hoá nên nước vào, trách nhiệm thuộc về nhà cung cấp vận chuyển của bọn em, nhưng bọn em là bên bán nên chịu toàn bộ trách nhiệm. Phương án của bọn em là: một, ba mươi thùng hỏng gửi bù toàn bộ, đi đường hàng không, đến trước thứ sáu; hai, cước vận chuyển lô này bọn em chịu; ba, đơn hàng lần sau giảm 5% cho anh để bù đắp. Anh thấy như vậy được không ạ?"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "嗯，你们处理得还算及时。以后要注意啊！",
+     "vi": "Ừm, các cậu xử lý cũng coi như kịp thời. Sau này phải chú ý đấy!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "一定！我们已经要求物流方全面检查集装箱，并在装柜时增加防潮包装。整改报告我下周发给您。",
+     "vi": "Nhất định ạ! Bọn em đã yêu cầu bên vận chuyển kiểm tra toàn bộ container, và tăng thêm bao bì chống ẩm khi đóng hàng. Tuần sau em gửi anh báo cáo khắc phục."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "集装箱",
+     "pinyin": "jízhuāngxiāng",
+     "vi": "container",
+     "example": {
+      "zh": "一定！我们已经要求物流方全面检查集装箱，并在装柜时增加防潮包装。整改报告我下周发给您。",
+      "vi": "Nhất định ạ! Bọn em đã yêu cầu bên vận chuyển kiểm tra toàn bộ container, và tăng thêm bao bì chống ẩm khi đóng hàng. Tuần sau em gửi anh báo cáo khắc phục."
+     }
+    },
+    {
+     "zh": "密封",
+     "pinyin": "mìfēng",
+     "vi": "niêm kín"
+    },
+    {
+     "zh": "老化",
+     "pinyin": "lǎohuà",
+     "vi": "lão hoá, xuống cấp"
+    },
+    {
+     "zh": "补发",
+     "pinyin": "bǔfā",
+     "vi": "gửi bù",
+     "example": {
+      "zh": "补发？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+      "vi": "Gửi bù? Thứ sáu mới đến thì có ích gì! Thứ tư chúng tôi phải lên kệ rồi, kệ hàng đang trống trơn, thiệt hại ai chịu? Cái giảm 5% của các cậu là bố thí cho ăn mày à?"
+     }
+    },
+    {
+     "zh": "空运",
+     "pinyin": "kōngyùn",
+     "vi": "vận chuyển hàng không"
+    },
+    {
+     "zh": "承担",
+     "pinyin": "chéngdān",
+     "vi": "chịu, gánh vác",
+     "example": {
+      "zh": "补发？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+      "vi": "Gửi bù? Thứ sáu mới đến thì có ích gì! Thứ tư chúng tôi phải lên kệ rồi, kệ hàng đang trống trơn, thiệt hại ai chịu? Cái giảm 5% của các cậu là bố thí cho ăn mày à?"
+     }
+    },
+    {
+     "zh": "补偿",
+     "pinyin": "bǔcháng",
+     "vi": "đền bù"
+    },
+    {
+     "zh": "九五折",
+     "pinyin": "jiǔwǔ zhé",
+     "vi": "giảm 5%",
+     "example": {
+      "zh": "补发？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+      "vi": "Gửi bù? Thứ sáu mới đến thì có ích gì! Thứ tư chúng tôi phải lên kệ rồi, kệ hàng đang trống trơn, thiệt hại ai chịu? Cái giảm 5% của các cậu là bố thí cho ăn mày à?"
+     }
+    },
+    {
+     "zh": "退货 / 换货",
+     "pinyin": "tuìhuò / huànhuò",
+     "vi": "trả hàng / đổi hàng"
+    },
+    {
+     "zh": "索赔",
+     "pinyin": "suǒpéi",
+     "vi": "đòi bồi thường"
+    },
+    {
+     "zh": "整改",
+     "pinyin": "zhěnggǎi",
+     "vi": "chấn chỉnh, khắc phục",
+     "example": {
+      "zh": "一定！我们已经要求物流方全面检查集装箱，并在装柜时增加防潮包装。整改报告我下周发给您。",
+      "vi": "Nhất định ạ! Bọn em đã yêu cầu bên vận chuyển kiểm tra toàn bộ container, và tăng thêm bao bì chống ẩm khi đóng hàng. Tuần sau em gửi anh báo cáo khắc phục."
+     }
+    },
+    {
+     "zh": "致歉函",
+     "pinyin": "zhìqiànhán",
+     "vi": "thư xin lỗi"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g17-2",
+     "title_zh": "麻烦您先……，我马上……，……内给您答复。",
+     "title_vi": "Bước 2",
+     "formula": [
+      [
+       {
+        "zh": "麻烦您先",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，我马上",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "，",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "内给您答复。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Bước 2: xin thông tin + cam kết thời hạn.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "致歉函（节选）",
+   "context_vi": "课文三 · 致歉函（节选）",
+   "scene": "🚨",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "尊敬的华丰贸易：",
+     "vi": "Kính gửi Công ty Thương mại Hoa Phong,"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "对于10月批次货物出现包装破损及受潮问题，我司深表歉意。经核实，问题系运输途中集装箱密封不良所致。我司已于10月22日完成补发，并将承担全部相关费用。今后我们将加强出货前检查，杜绝类似问题再次发生。",
+     "vi": "Về việc lô hàng tháng 10 bị vỡ bao bì và ẩm, công ty chúng tôi vô cùng lấy làm tiếc. Qua kiểm tra, sự cố là do container bị hở trong quá trình vận chuyển. Ngày 22/10 công ty chúng tôi đã hoàn tất gửi bù hàng, và sẽ chịu toàn bộ chi phí liên quan. Từ nay chúng tôi sẽ tăng cường kiểm tra trước khi xuất hàng, ngăn chặn sự cố tương tự tái diễn."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "深表歉意",
+     "pinyin": "shēn biǎo qiànyì",
+     "vi": "vô cùng xin lỗi"
+    },
+    {
+     "zh": "系……所致",
+     "pinyin": "xì……suǒ zhì",
+     "vi": "là do … gây ra"
+    },
+    {
+     "zh": "杜绝",
+     "pinyin": "dùjué",
+     "vi": "chấm dứt, ngăn chặn triệt để"
+    },
+    {
+     "zh": "安抚",
+     "pinyin": "ānfǔ",
+     "vi": "xoa dịu"
+    },
+    {
+     "zh": "危机公关",
+     "pinyin": "wēijī gōngguān",
+     "vi": "PR khủng hoảng"
+    },
+    {
+     "zh": "舆情",
+     "pinyin": "yúqíng",
+     "vi": "dư luận"
+    },
+    {
+     "zh": "热搜",
+     "pinyin": "rèsōu",
+     "vi": "top tìm kiếm (hot search)"
+    },
+    {
+     "zh": "发酵",
+     "pinyin": "fājiào",
+     "vi": "lan rộng, “lên men” (dư luận)"
+    },
+    {
+     "zh": "口碑",
+     "pinyin": "kǒubēi",
+     "vi": "danh tiếng truyền miệng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g17-3",
+     "title_zh": "情况已经核实了：……。我们的方案是：第一……；第二……；第三……",
+     "title_vi": "Bước 3",
+     "formula": [
+      [
+       {
+        "zh": "情况已经核实了：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。我们的方案是：第一",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第二",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第三",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Bước 3: nguyên nhân + phương án.",
+     "examples": []
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-4",
+   "title": "客户不接受方案",
+   "context_vi": "课文四（tình huống xấu hơn） · 客户不接受方案",
+   "scene": "🚨",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "补发？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+     "vi": "Gửi bù? Thứ sáu mới đến thì có ích gì! Thứ tư chúng tôi phải lên kệ rồi, kệ hàng đang trống trơn, thiệt hại ai chịu? Cái giảm 5% của các cậu là bố thí cho ăn mày à?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，您的心情我完全理解，这确实影响到了您的销售计划。我想先确认一下：周三上架最少需要多少箱才能开卖？",
+     "vi": "Anh Triệu, em hoàn toàn hiểu tâm trạng của anh, việc này đúng là đã ảnh hưởng đến kế hoạch bán hàng của anh. Em muốn xác nhận trước: thứ tư lên kệ thì tối thiểu cần bao nhiêu thùng mới bán được ạ?"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "……至少二十箱。",
+     "vi": "…Ít nhất hai mươi thùng."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好。我们仓库在深圳还有十五箱同批次的货，我现在就安排今天发出，明天到您那儿；剩下的空运周五到。另外，关于上架延误的损失，您这边能不能先提供一个大概的数字？我需要向领导申请，今天下班前一定给您正式答复。",
+     "vi": "Dạ. Kho của bọn em ở Thâm Quyến còn mười lăm thùng cùng lô, em sắp xếp gửi ngay trong hôm nay, mai đến chỗ anh; số còn lại đi hàng không đến thứ sáu. Ngoài ra, về thiệt hại do lên kệ chậm, anh có thể cung cấp trước một con số ước tính được không ạ? Em cần trình lãnh đạo, trước giờ tan làm hôm nay nhất định sẽ trả lời chính thức cho anh."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "行，我让财务算一下。但我丑话说在前头，再有下次，我们就换供应商了。",
+     "vi": "Được, để tôi bảo kế toán tính. Nhưng tôi nói trước khó nghe, còn lần sau nữa là chúng tôi đổi nhà cung cấp đấy."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "明白，这是我们的问题，我们一定吸取教训。",
+     "vi": "Em hiểu ạ, đây là lỗi của bọn em, bọn em nhất định rút kinh nghiệm."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "bc-g17-4",
+     "title_zh": "经核实，问题系……所致。",
+     "title_vi": "Văn viết trang trọng giải thích nguyên nhân",
+     "formula": [
+      [
+       {
+        "zh": "经核实，问题系",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "所致。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Văn viết trang trọng giải thích nguyên nhân; 系 = 是.",
+     "examples": []
+    },
+    {
+     "id": "bc-g17-5",
+     "title_zh": "今后我们将……，杜绝类似问题再次发生。",
+     "title_vi": "Cam kết cải thiện, câu kết bắt buộc của thư xin lỗi",
+     "formula": [
+      [
+       {
+        "zh": "今后我们将",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，杜绝类似问题再次发生。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Cam kết cải thiện, câu kết bắt buộc của thư xin lỗi.",
+     "examples": []
+    },
+    {
+     "id": "bc-c17-1",
+     "title_zh": "经 + V，……",
+     "title_vi": "Văn viết công sở · Khách quan hoá",
+     "formula": [
+      [
+       {
+        "zh": "经",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "V，……",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "经 = sau khi đã (qua quá trình). (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "经核实，货物系运输途中受潮。",
+       "vi": "Qua kiểm tra, hàng hoá bị ẩm trong quá trình vận chuyển."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）核实，货物系运输途中受潮。",
+       "options": [
+        "是",
+        "自",
+        "经"
+       ],
+       "answer": 2,
+       "explain_vi": "经核实，货物系运输途中受潮。 — Qua kiểm tra, hàng hoá bị ẩm trong quá trình vận chuyển."
+      }
+     ]
+    },
+    {
+     "id": "bc-c17-2",
+     "title_zh": "系……所致",
+     "title_vi": "Văn viết công sở · Khách quan hoá",
+     "formula": [
+      [
+       {
+        "zh": "系……所致",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "系 = 是; 所致 = gây ra. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "问题系密封不良所致。",
+       "vi": "Sự cố là do niêm phong không kín gây ra."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "问题系密封不良（　）。",
+       "options": [
+        "突破",
+        "即使",
+        "所致"
+       ],
+       "answer": 2,
+       "explain_vi": "问题系密封不良所致。 — Sự cố là do niêm phong không kín gây ra."
+      }
+     ]
+    },
+    {
+     "id": "bc-c17-3",
+     "title_zh": "即使……，也……",
+     "title_vi": "Văn viết công sở · Nhượng bộ",
+     "formula": [
+      [
+       {
+        "zh": "即使……，也……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Giả định. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "即使订单减少，也不能降低标准。",
+       "vi": "Cho dù đơn hàng giảm, cũng không được hạ tiêu chuẩn."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）订单减少，也不能降低标准。",
+       "options": [
+        "下降",
+        "所致",
+        "即使"
+       ],
+       "answer": 2,
+       "explain_vi": "即使订单减少，也不能降低标准。 — Cho dù đơn hàng giảm, cũng không được hạ tiêu chuẩn."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "小阮！你们这批腰果到货以后，有三十箱包装___，还有几箱受潮了。我们下周就要上架，你说怎么办？今天必须给我一个说法！",
+   "bank": [
+    "破损",
+    "投诉",
+    "舆情"
+   ],
+   "answer": "破损"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "赵经理，非常抱歉给您___了，您先别着急。我理解这批货对您下周上架非常重要。麻烦您先拍一下破损的照片和箱号发给我，我马上跟仓库和物流核实，两个小时内给您初步答复。",
+   "bank": [
+    "添麻烦",
+    "整改",
+    "投诉"
+   ],
+   "answer": "添麻烦"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "一定！我们已经要求物流方全面检查___，并在装柜时增加防潮包装。整改报告我下周发给您。",
+   "bank": [
+    "核实",
+    "集装箱",
+    "杜绝"
+   ],
+   "answer": "集装箱"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "___？周五才到有什么用！我们周三就要上架，货架都空着，损失谁来承担？你们这个九五折，打发要饭的呢？",
+   "bank": [
+    "补发",
+    "密封",
+    "受潮"
+   ],
+   "answer": "补发"
+  },
+  {
+   "id": "e5",
+   "kind": "reorder",
+   "tiles": [
+    "腰果",
+    "以后",
+    "到货",
+    "你们",
+    "这批"
+   ],
+   "answers": [
+    "你们这批腰果到货以后"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "包装",
+    "三十",
+    "有",
+    "破损",
+    "箱"
+   ],
+   "answers": [
+    "有三十箱包装破损"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "几箱",
+    "还有",
+    "了",
+    "受潮"
+   ],
+   "answers": [
+    "还有几箱受潮了"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "投诉",
+     "a": "khiếu nại"
+    },
+    {
+     "q": "破损",
+     "a": "hư hỏng, vỡ"
+    },
+    {
+     "q": "受潮",
+     "a": "bị ẩm"
+    },
+    {
+     "q": "给个说法",
+     "a": "đưa ra lời giải thích thoả đáng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Đường dây nóng: “khách hàng” (giáo viên hoặc học viên giỏi) gọi đến trong trạng thái rất tức giận; học viên có 3 phút để làm khách bình tĩnh và hẹn giờ phản hồi. Chấm bằng “thang giận dữ” 1–10 của khách sau cuộc gọi.",
+   "② Phòng khủng hoảng: một bài đăng giả lập trên Weibo tố sản phẩm của công ty đang lan rộng. Mỗi đội có 15 phút: phân vai (PR, pháp chế, sales, CEO), thống nhất phương án và viết 致歉声明 200 chữ.",
+   "③ Viết thư xin lỗi: mỗi học viên viết 致歉函 cho tình huống giao hàng trễ 7 ngày; nộp vào portfolio."
+  ],
+  "patterns": [
+   {
+    "zh": "经核实，货物系运输途中受潮。",
+    "vi": "Qua kiểm tra, hàng hoá bị ẩm trong quá trình vận chuyển."
+   },
+   {
+    "zh": "问题系密封不良所致。",
+    "vi": "Sự cố là do niêm phong không kín gây ra."
+   },
+   {
+    "zh": "即使订单减少，也不能降低标准。",
+    "vi": "Cho dù đơn hàng giảm, cũng không được hạ tiêu chuẩn."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Xin lỗi và giữ thể diện cho khách",
+  "body_vi": [
+   "Khi khách hàng Trung Quốc nói 给我一个说法, họ không chỉ cần tiền đền bù mà cần một lời giải thích để báo cáo lên trên và giữ thể diện trước cấp trên, đồng nghiệp. Vì vậy phương án tốt thường gồm ba lớp: khắc phục (补发, 退换), đền bù tượng trưng (折扣, 承担运费), và văn bản chính thức (致歉函, 整改报告). Ở quy mô công chúng, các doanh nghiệp Trung Quốc rất sợ sự cố “lên men” trên mạng xã hội thành 热搜; tuyên bố xin lỗi (致歉声明) thường xuất hiện trên Weibo trong vài giờ đầu, với cấu trúc gần như cố định: xin lỗi – nguyên nhân – biện pháp – cam kết – kênh liên hệ. Người học nên đọc 2–3 tuyên bố thật để quen văn phong.",
+   "Ứng xử: Trong 30 giây đầu không giải thích, không đổ lỗi; chỉ lắng nghe và xin lỗi vì sự bất tiện.",
+   "Ứng xử: Cam kết thời hạn phản hồi ngắn và giữ đúng; đây là cách lấy lại lòng tin nhanh nhất.",
+   "Ứng xử: Dù lỗi do bên thứ ba (vận chuyển, nhà cung cấp), với khách hàng vẫn nhận trách nhiệm; xử lý nội bộ sau.",
+   "Ứng xử: Gửi báo cáo khắc phục (整改报告) bằng văn bản; nó giúp người phụ trách phía khách có “bằng chứng” để báo cáo lên sếp của họ, tức là giữ 面子 cho họ."
+  ]
+ }
+}

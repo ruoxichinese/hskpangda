@@ -1,0 +1,738 @@
+{
+ "id": 15,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "求职面试：从简历到offer",
+  "pinyin": "qiú zhí miàn shì cóng jiǎn lì dào",
+  "vi": "trả lời các câu phỏng vấn kinh điển bằng tiếng Trung"
+ },
+ "grammarTopics_vi": [
+  "我的核心竞争力有两点：一是……；二是……",
+  "……对我帮助很大，主要是我希望……，而贵司……，跟我的……很契合。",
+  "我以前……，有时候会……。现在我会……",
+  "考虑到……，我希望……在……左右",
+  "我可以问两个问题吗？第一……；第二……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Trả lời các câu phỏng vấn kinh điển bằng tiếng Trung",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Nói về lý do nghỉ việc và mức lương mong muốn",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Đặt câu hỏi ngược cho nhà tuyển dụng",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "经典问题",
+   "context_vi": "课文一 · 经典问题",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "bc-mianshiguan",
+     "zh": "请你先用两分钟做个自我介绍。",
+     "vi": "Mời anh giới thiệu bản thân trong hai phút trước nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的。我叫阮文安，越南人，HSK六级，有五年中越跨境物流和销售经验。在上一家公司，我负责东南亚客户，年销售额从800万做到1,380万元。我的核心竞争力有两点：一是懂中越两边的市场和规则；二是能独立完成从谈判到签约的全流程。",
+     "vi": "Vâng ạ. Tôi tên là Nguyễn Văn An, người Việt Nam, HSK 6, có năm năm kinh nghiệm logistics và kinh doanh xuyên biên giới Trung – Việt. Ở công ty trước, tôi phụ trách khách hàng Đông Nam Á, doanh số năm từ 8 triệu lên 13,8 triệu tệ. Năng lực cạnh tranh cốt lõi của tôi có hai điểm: một là hiểu thị trường và luật lệ của cả Trung Quốc lẫn Việt Nam; hai là có thể tự hoàn thành trọn quy trình từ đàm phán đến ký kết."
+    },
+    {
+     "speaker": "bc-mianshiguan",
+     "zh": "你为什么想离开现在的公司？",
+     "vi": "Vì sao anh muốn rời công ty hiện tại?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+     "vi": "Công ty hiện tại đã giúp tôi rất nhiều, tôi rất biết ơn. Chủ yếu là tôi mong được phụ trách quản lý khu vực trên một nền tảng lớn hơn, mà quý công ty đang mở rộng mảng Đông Nam Á, rất phù hợp với định hướng nghề nghiệp của tôi."
+    },
+    {
+     "speaker": "bc-mianshiguan",
+     "zh": "说说你最大的缺点。",
+     "vi": "Hãy nói về khuyết điểm lớn nhất của anh."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我以前做事比较追求完美，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+     "vi": "Trước đây tôi làm việc khá cầu toàn, đôi khi ảnh hưởng đến hiệu suất. Bây giờ tôi xác định thứ tự ưu tiên trước, việc quan trọng thì làm tốt nhất, việc khác làm “đủ tốt” trước đã."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "求职",
+     "pinyin": "qiúzhí",
+     "vi": "tìm việc"
+    },
+    {
+     "zh": "简历",
+     "pinyin": "jiǎnlì",
+     "vi": "CV"
+    },
+    {
+     "zh": "投简历",
+     "pinyin": "tóu jiǎnlì",
+     "vi": "nộp CV"
+    },
+    {
+     "zh": "猎头",
+     "pinyin": "liètóu",
+     "vi": "headhunter"
+    },
+    {
+     "zh": "面试官",
+     "pinyin": "miànshìguān",
+     "vi": "người phỏng vấn"
+    },
+    {
+     "zh": "初试 / 复试",
+     "pinyin": "chūshì / fùshì",
+     "vi": "vòng 1 / vòng 2"
+    },
+    {
+     "zh": "群面",
+     "pinyin": "qúnmiàn",
+     "vi": "phỏng vấn nhóm"
+    },
+    {
+     "zh": "核心竞争力",
+     "pinyin": "héxīn jìngzhēnglì",
+     "vi": "năng lực cạnh tranh cốt lõi"
+    },
+    {
+     "zh": "全流程",
+     "pinyin": "quán liúchéng",
+     "vi": "toàn bộ quy trình"
+    },
+    {
+     "zh": "离职原因",
+     "pinyin": "lízhí yuányīn",
+     "vi": "lý do nghỉ việc"
+    },
+    {
+     "zh": "跳槽",
+     "pinyin": "tiàocáo",
+     "vi": "nhảy việc"
+    },
+    {
+     "zh": "平台",
+     "pinyin": "píngtái",
+     "vi": "môi trường, nền tảng (công ty)"
+    },
+    {
+     "zh": "扩张",
+     "pinyin": "kuòzhāng",
+     "vi": "mở rộng"
+    },
+    {
+     "zh": "职业规划",
+     "pinyin": "zhíyè guīhuà",
+     "vi": "định hướng nghề nghiệp"
+    },
+    {
+     "zh": "契合",
+     "pinyin": "qìhé",
+     "vi": "phù hợp, ăn khớp"
+    },
+    {
+     "zh": "追求完美",
+     "pinyin": "zhuīqiú wánměi",
+     "vi": "cầu toàn",
+     "example": {
+      "zh": "我以前做事比较追求完美，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+      "vi": "Trước đây tôi làm việc khá cầu toàn, đôi khi ảnh hưởng đến hiệu suất. Bây giờ tôi xác định thứ tự ưu tiên trước, việc quan trọng thì làm tốt nhất, việc khác làm “đủ tốt” trước đã."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g15-1",
+     "title_zh": "我的核心竞争力有两点：一是……；二是……",
+     "title_vi": "Tóm tắt thế mạnh, dùng 一是……二是…… (văn nói trang trọng)",
+     "formula": [
+      [
+       {
+        "zh": "我的核心竞争力有两点：一是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；二是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Tóm tắt thế mạnh, dùng 一是……二是…… (văn nói trang trọng).",
+     "examples": []
+    },
+    {
+     "id": "bc-g15-2",
+     "title_zh": "……对我帮助很大，主要是我希望……，而贵司……，跟我的……很契合。",
+     "title_vi": "Trả lời lý do nghỉ việc",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "对我帮助很大，主要是我希望",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，而贵司",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，跟我的",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "很契合。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Trả lời lý do nghỉ việc: cảm ơn chỗ cũ → mục tiêu → sự phù hợp.",
+     "examples": [
+      {
+       "zh": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+       "vi": "Công ty hiện tại đã giúp tôi rất nhiều, tôi rất biết ơn. Chủ yếu là tôi mong được phụ trách quản lý khu vực trên một nền tảng lớn hơn, mà quý công ty đang mở rộng mảng Đông Nam Á, rất phù hợp với định hướng nghề nghiệp của tôi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "现在的公司（　），我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+       "options": [
+        "现在我会",
+        "对我帮助很大",
+        "增长了一倍"
+       ],
+       "answer": 1,
+       "explain_vi": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。 — Công ty hiện tại đã giúp tôi rất nhiều, tôi rất biết ơn. Chủ yếu là tôi mong được phụ trách quản lý khu vực trên một nền tảng lớn hơn, mà quý công ty đang mở rộng mảng Đông Nam Á, rất phù hợp với định hướng nghề nghiệp của tôi."
+      }
+     ]
+    },
+    {
+     "id": "bc-g15-3",
+     "title_zh": "我以前……，有时候会……。现在我会……",
+     "title_vi": "Khung trả lời “điểm yếu”",
+     "formula": [
+      [
+       {
+        "zh": "我以前",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，有时候会",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。现在我会",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Khung trả lời “điểm yếu”: quá khứ → cải thiện.",
+     "examples": [
+      {
+       "zh": "我以前做事比较追求完美，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+       "vi": "Trước đây tôi làm việc khá cầu toàn, đôi khi ảnh hưởng đến hiệu suất. Bây giờ tôi xác định thứ tự ưu tiên trước, việc quan trọng thì làm tốt nhất, việc khác làm “đủ tốt” trước đã."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我以前做事比较追求完美，（　）影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+       "options": [
+        "我希望",
+        "翻一番",
+        "有时候会"
+       ],
+       "answer": 2,
+       "explain_vi": "我以前做事比较追求完美，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。 — Trước đây tôi làm việc khá cầu toàn, đôi khi ảnh hưởng đến hiệu suất. Bây giờ tôi xác định thứ tự ưu tiên trước, việc quan trọng thì làm tốt nhất, việc khác làm “đủ tốt” trước đã."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "谈薪资",
+   "context_vi": "课文二 · 谈薪资",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "bc-hr",
+     "zh": "你的期望薪资是多少？",
+     "vi": "Mức lương mong muốn của anh là bao nhiêu?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我目前税前月薪是两万五，加上年终奖大概是十四薪。考虑到这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的薪资结构。",
+     "vi": "Hiện lương tháng trước thuế của tôi là hai mươi lăm nghìn, cộng thưởng cuối năm khoảng mười bốn tháng lương. Xét phạm vi trách nhiệm của vị trí này, tôi mong lương tháng trước thuế khoảng ba mươi nghìn, đồng thời cũng muốn tìm hiểu cơ cấu lương của quý công ty."
+    },
+    {
+     "speaker": "bc-hr",
+     "zh": "我们是基本工资加绩效，一年十四薪，另外有股票期权。最快什么时候能到岗？",
+     "vi": "Bên chúng tôi là lương cơ bản cộng thưởng hiệu suất, một năm mười bốn tháng lương, ngoài ra có quyền chọn mua cổ phiếu. Sớm nhất khi nào anh có thể nhận việc?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我需要一个月时间做工作交接，下个月15号可以到岗。",
+     "vi": "Tôi cần một tháng để bàn giao công việc, ngày 15 tháng sau có thể nhận việc."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "期望薪资",
+     "pinyin": "qīwàng xīnzī",
+     "vi": "lương mong muốn",
+     "example": {
+      "zh": "你的期望薪资是多少？",
+      "vi": "Mức lương mong muốn của anh là bao nhiêu?"
+     }
+    },
+    {
+     "zh": "税前 / 税后",
+     "pinyin": "shuìqián / shuìhòu",
+     "vi": "trước thuế / sau thuế"
+    },
+    {
+     "zh": "薪资结构",
+     "pinyin": "xīnzī jiégòu",
+     "vi": "cơ cấu lương"
+    },
+    {
+     "zh": "股票期权",
+     "pinyin": "gǔpiào qīquán",
+     "vi": "quyền chọn cổ phiếu",
+     "example": {
+      "zh": "我们是基本工资加绩效，一年十四薪，另外有股票期权。最快什么时候能到岗？",
+      "vi": "Bên chúng tôi là lương cơ bản cộng thưởng hiệu suất, một năm mười bốn tháng lương, ngoài ra có quyền chọn mua cổ phiếu. Sớm nhất khi nào anh có thể nhận việc?"
+     }
+    },
+    {
+     "zh": "到岗",
+     "pinyin": "dàogǎng",
+     "vi": "bắt đầu đi làm",
+     "example": {
+      "zh": "我们是基本工资加绩效，一年十四薪，另外有股票期权。最快什么时候能到岗？",
+      "vi": "Bên chúng tôi là lương cơ bản cộng thưởng hiệu suất, một năm mười bốn tháng lương, ngoài ra có quyền chọn mua cổ phiếu. Sớm nhất khi nào anh có thể nhận việc?"
+     }
+    },
+    {
+     "zh": "工作交接",
+     "pinyin": "gōngzuò jiāojiē",
+     "vi": "bàn giao công việc",
+     "example": {
+      "zh": "我需要一个月时间做工作交接，下个月15号可以到岗。",
+      "vi": "Tôi cần một tháng để bàn giao công việc, ngày 15 tháng sau có thể nhận việc."
+     }
+    },
+    {
+     "zh": "背景调查",
+     "pinyin": "bèijǐng diàochá",
+     "vi": "kiểm tra lý lịch"
+    },
+    {
+     "zh": "录用通知 (offer)",
+     "pinyin": "lùyòng tōngzhī",
+     "vi": "thư mời nhận việc"
+    },
+    {
+     "zh": "抗压能力",
+     "pinyin": "kàngyā nénglì",
+     "vi": "khả năng chịu áp lực"
+    },
+    {
+     "zh": "反问",
+     "pinyin": "fǎnwèn",
+     "vi": "hỏi ngược lại"
+    },
+    {
+     "zh": "年龄门槛",
+     "pinyin": "niánlíng ménkǎn",
+     "vi": "ngưỡng tuổi"
+    },
+    {
+     "zh": "就业歧视",
+     "pinyin": "jiùyè qíshì",
+     "vi": "phân biệt đối xử trong tuyển dụng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g15-4",
+     "title_zh": "考虑到……，我希望……在……左右",
+     "title_vi": "Đưa ra mức lương kèm lý do",
+     "formula": [
+      [
+       {
+        "zh": "考虑到",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，我希望",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "左右",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Đưa ra mức lương kèm lý do.",
+     "examples": [
+      {
+       "zh": "我目前税前月薪是两万五，加上年终奖大概是十四薪。考虑到这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的薪资结构。",
+       "vi": "Hiện lương tháng trước thuế của tôi là hai mươi lăm nghìn, cộng thưởng cuối năm khoảng mười bốn tháng lương. Xét phạm vi trách nhiệm của vị trí này, tôi mong lương tháng trước thuế khoảng ba mươi nghìn, đồng thời cũng muốn tìm hiểu cơ cấu lương của quý công ty."
+      },
+      {
+       "zh": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+       "vi": "Công ty hiện tại đã giúp tôi rất nhiều, tôi rất biết ơn. Chủ yếu là tôi mong được phụ trách quản lý khu vực trên một nền tảng lớn hơn, mà quý công ty đang mở rộng mảng Đông Nam Á, rất phù hợp với định hướng nghề nghiệp của tôi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我目前税前月薪是两万五，加上年终奖大概是十四薪。（　）这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的薪资结构。",
+       "options": [
+        "考虑到",
+        "而贵司",
+        "很契合"
+       ],
+       "answer": 0,
+       "explain_vi": "我目前税前月薪是两万五，加上年终奖大概是十四薪。考虑到这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的薪资结构。 — Hiện lương tháng trước thuế của tôi là hai mươi lăm nghìn, cộng thưởng cuối năm khoảng mười bốn tháng lương. Xét phạm vi trách nhiệm của vị trí này, tôi mong lương tháng trước thuế khoảng ba mươi nghìn, đồng thời cũng muốn tìm hiểu cơ cấu lương của quý công ty."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "反问环节",
+   "context_vi": "课文三 · 反问环节",
+   "scene": "💼",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我可以问两个问题吗？第一，这个岗位入职后前三个月最重要的目标是什么？第二，团队现在有多少人，主要分布在哪些国家？",
+     "vi": "Tôi có thể hỏi hai câu được không ạ? Một, sau khi nhận việc, mục tiêu quan trọng nhất của vị trí này trong ba tháng đầu là gì? Hai, đội ngũ hiện có bao nhiêu người, chủ yếu ở những nước nào?"
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "bc-g15-5",
+     "title_zh": "我可以问两个问题吗？第一……；第二……",
+     "title_vi": "Câu hỏi ngược cho nhà tuyển dụng",
+     "formula": [
+      [
+       {
+        "zh": "我可以问两个问题吗？第一",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第二",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu hỏi ngược cho nhà tuyển dụng.",
+     "examples": [
+      {
+       "zh": "我可以问两个问题吗？第一，这个岗位入职后前三个月最重要的目标是什么？第二，团队现在有多少人，主要分布在哪些国家？",
+       "vi": "Tôi có thể hỏi hai câu được không ạ? Một, sau khi nhận việc, mục tiêu quan trọng nhất của vị trí này trong ba tháng đầu là gì? Hai, đội ngũ hiện có bao nhiêu người, chủ yếu ở những nước nào?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）？第一，这个岗位入职后前三个月最重要的目标是什么？第二，团队现在有多少人，主要分布在哪些国家？",
+       "options": [
+        "我可以问两个问题吗",
+        "我的核心竞争力有两点",
+        "主要是我希望"
+       ],
+       "answer": 0,
+       "explain_vi": "我可以问两个问题吗？第一，这个岗位入职后前三个月最重要的目标是什么？第二，团队现在有多少人，主要分布在哪些国家？ — Tôi có thể hỏi hai câu được không ạ? Một, sau khi nhận việc, mục tiêu quan trọng nhất của vị trí này trong ba tháng đầu là gì? Hai, đội ngũ hiện có bao nhiêu người, chủ yếu ở những nước nào?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的___上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+   "bank": [
+    "工作交接",
+    "平台",
+    "年龄门槛"
+   ],
+   "answer": "平台"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我以前做事比较___，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+   "bank": [
+    "离职原因",
+    "简历",
+    "追求完美"
+   ],
+   "answer": "追求完美"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "你的___是多少？",
+   "bank": [
+    "期望薪资",
+    "全流程",
+    "职业规划"
+   ],
+   "answer": "期望薪资"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "我目前税前月薪是两万五，加上年终奖大概是十四薪。考虑到这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的___。",
+   "bank": [
+    "薪资结构",
+    "契合",
+    "反问"
+   ],
+   "answer": "薪资结构"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "我们是基本工资加绩效，一年十四薪，另外有___。最快什么时候能到岗？",
+   "bank": [
+    "扩张",
+    "股票期权",
+    "群面"
+   ],
+   "answer": "股票期权"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我需要一个月时间做工作交接，下个月15号可以___。",
+   "bank": [
+    "到岗",
+    "背景调查",
+    "求职"
+   ],
+   "answer": "到岗"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "做个",
+    "自我介绍",
+    "请你",
+    "两分钟",
+    "先用"
+   ],
+   "answers": [
+    "请你先用两分钟做个自我介绍"
+   ],
+   "vi": "Mời anh giới thiệu bản thân trong hai phút trước nhé."
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "有五年",
+    "物流和",
+    "销售",
+    "中越跨境",
+    "经验"
+   ],
+   "answers": [
+    "有五年中越跨境物流和销售经验"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "公司",
+    "在",
+    "上",
+    "一家"
+   ],
+   "answers": [
+    "在上一家公司"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "求职",
+     "a": "tìm việc"
+    },
+    {
+     "q": "简历",
+     "a": "CV"
+    },
+    {
+     "q": "投简历",
+     "a": "nộp CV"
+    },
+    {
+     "q": "猎头",
+     "a": "headhunter"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Phỏng vấn thử 2 vòng: vòng 1 với HR (tự giới thiệu, lương, thời gian nhận việc), vòng 2 với trưởng bộ phận (câu hỏi chuyên môn và tình huống). Người phỏng vấn dùng bộ 20 câu hỏi rút thăm.",
+   "② Phỏng vấn nhóm (群面): 5 người cùng thảo luận đề: “公司只有50万预算，怎么打开柬埔寨市场？” trong 15 phút rồi cử người trình bày. Giám khảo chấm vai trò từng người: dẫn dắt, ghi chép, tính giờ, tổng kết.",
+   "③ Sửa câu trả lời: 6 câu trả lời phỏng vấn “dở” (我离职是因为老板太差 …); đội viết lại phiên bản chuyên nghiệp."
+  ],
+  "patterns": [
+   {
+    "zh": "现在的公司对我帮助很大，我很感激。主要是我希望在更大的平台上负责区域管理，而贵司正在扩张东南亚业务，跟我的职业规划很契合。",
+    "vi": "Công ty hiện tại đã giúp tôi rất nhiều, tôi rất biết ơn. Chủ yếu là tôi mong được phụ trách quản lý khu vực trên một nền tảng lớn hơn, mà quý công ty đang mở rộng mảng Đông Nam Á, rất phù hợp với định hướng nghề nghiệp của tôi."
+   },
+   {
+    "zh": "我以前做事比较追求完美，有时候会影响效率。现在我会先定好优先级，重要的事做到最好，其他事先做到“够好”。",
+    "vi": "Trước đây tôi làm việc khá cầu toàn, đôi khi ảnh hưởng đến hiệu suất. Bây giờ tôi xác định thứ tự ưu tiên trước, việc quan trọng thì làm tốt nhất, việc khác làm “đủ tốt” trước đã."
+   },
+   {
+    "zh": "我目前税前月薪是两万五，加上年终奖大概是十四薪。考虑到这个岗位的职责范围，我希望税前月薪在三万左右，具体也想了解一下贵司的薪资结构。",
+    "vi": "Hiện lương tháng trước thuế của tôi là hai mươi lăm nghìn, cộng thưởng cuối năm khoảng mười bốn tháng lương. Xét phạm vi trách nhiệm của vị trí này, tôi mong lương tháng trước thuế khoảng ba mươi nghìn, đồng thời cũng muốn tìm hiểu cơ cấu lương của quý công ty."
+   },
+   {
+    "zh": "我可以问两个问题吗？第一，这个岗位入职后前三个月最重要的目标是什么？第二，团队现在有多少人，主要分布在哪些国家？",
+    "vi": "Tôi có thể hỏi hai câu được không ạ? Một, sau khi nhận việc, mục tiêu quan trọng nhất của vị trí này trong ba tháng đầu là gì? Hai, đội ngũ hiện có bao nhiêu người, chủ yếu ở những nước nào?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "“Ngưỡng 35 tuổi”",
+  "body_vi": [
+   "Nhiều thông tin tuyển dụng ở Trung Quốc giới hạn ứng viên dưới 35 tuổi; ở các công ty internet, đây là luật ngầm. Nguồn gốc thường được nhắc là quy định năm 1994 về tuyển công chức giới hạn độ tuổi dưới 35 ([光明网](https://legal.gmw.cn/2025-03/27/content_37930708.htm)). Nhân Dân Nhật Báo năm 2025 nhận định giới hạn 35 tuổi làm tăng lo âu nơi công sở, trong bối cảnh lao động mới trung bình đã học trên 14 năm ([光明网 – 人民日报](https://m.gmw.cn/2025-03/12/content_37900255.htm)). Chính sách đang chuyển động: văn kiện của Trung ương và Quốc vụ viện tháng 9/2024 yêu cầu xoá bỏ các hạn chế bất hợp lý về tuổi, giới tính, vùng miền trong việc làm ([新华网](http://www.news.cn/20251012/86d97c8e7f974f5f87e03349e53d7467/c.html)). Tuy vậy, chuyên gia chỉ ra Luật Xúc tiến việc làm hiện chưa liệt kê tuổi là căn cứ bị cấm phân biệt ([中国网](http://news.china.com.cn/2025-06/10/content_117919557.shtml)). Với người Việt trên 35 tuổi, lợi thế song ngữ và kinh nghiệm thị trường Đông Nam Á là cách vượt ngưỡng này.",
+   "Ứng xử: Không nói xấu công ty cũ hay sếp cũ, kể cả khi bị hỏi dồn.",
+   "Ứng xử: Ở Trung Quốc, lương hay được hỏi dưới dạng “月薪 × 几薪”; tính sẵn tổng thu nhập năm để so sánh.",
+   "Ứng xử: CV tiếng Trung thường có ảnh, ngày sinh, học vấn đặt lên đầu; bản cho công ty nước ngoài thì có thể bỏ ảnh.",
+   "Ứng xử: Luôn chuẩn bị 2 câu hỏi ngược; câu 没有问题了 bị xem là thiếu quan tâm."
+  ]
+ }
+}

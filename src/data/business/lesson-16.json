@@ -1,0 +1,714 @@
+{
+ "id": 16,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "请假与加班：996、调休与劳动权益",
+  "pinyin": "qǐng jià yǔ jiā bān diào xiū yǔ láo dòng quán yì",
+  "vi": "xin nghỉ phép đúng quy trình"
+ },
+ "grammarTopics_vi": [
+  "我想跟您请一下……假：……到……，一共……天，……（事由）。",
+  "我已经考虑到了。我走之前会……，请……帮我……",
+  "……实在走不开。……我可以……，您看这样可以吗？",
+  "……由……代理 / 紧急事项可……",
+  "（用人单位）不得……；……每日不得超过……小时"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Xin nghỉ phép đúng quy trình",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Từ chối hoặc thương lượng tăng ca",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Nắm các khái niệm luật lao động cơ bản của Trung Quốc",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "请年假",
+   "context_vi": "课文一 · 请年假",
+   "scene": "🏖️",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+     "vi": "Anh Lý, em làm phiền chút ạ. Em muốn xin anh nghỉ phép năm: từ ngày 3 đến ngày 7 tháng sau, tổng cộng năm ngày, về Việt Nam dự đám cưới chị gái em."
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "那几天华丰的货刚好到港，你走了谁来跟？",
+     "vi": "Mấy ngày đó hàng của Hoa Phong vừa về cảng, em đi thì ai theo?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。",
+     "vi": "Em đã tính đến rồi ạ. Trước khi đi em sẽ chuẩn bị xong toàn bộ chứng từ, nhờ Tiểu Lâm làm thay giúp, tài liệu bàn giao tuần này em viết xong. Có việc gấp anh cứ gọi điện cho em, tối nào em cũng sẽ xem email."
+    },
+    {
+     "speaker": "bc-lijingli",
+     "zh": "安排得挺周到。你在系统里提交请假申请吧，我来批。",
+     "vi": "Sắp xếp khá chu đáo. Em nộp đơn xin nghỉ trên hệ thống đi, anh duyệt."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "请假",
+     "pinyin": "qǐngjià",
+     "vi": "xin nghỉ",
+     "example": {
+      "zh": "安排得挺周到。你在系统里提交请假申请吧，我来批。",
+      "vi": "Sắp xếp khá chu đáo. Em nộp đơn xin nghỉ trên hệ thống đi, anh duyệt."
+     }
+    },
+    {
+     "zh": "年假",
+     "pinyin": "niánjià",
+     "vi": "nghỉ phép năm",
+     "example": {
+      "zh": "李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+      "vi": "Anh Lý, em làm phiền chút ạ. Em muốn xin anh nghỉ phép năm: từ ngày 3 đến ngày 7 tháng sau, tổng cộng năm ngày, về Việt Nam dự đám cưới chị gái em."
+     }
+    },
+    {
+     "zh": "事假",
+     "pinyin": "shìjià",
+     "vi": "nghỉ việc riêng"
+    },
+    {
+     "zh": "病假",
+     "pinyin": "bìngjià",
+     "vi": "nghỉ ốm"
+    },
+    {
+     "zh": "婚假 / 产假",
+     "pinyin": "hūnjià / chǎnjià",
+     "vi": "nghỉ cưới / nghỉ thai sản"
+    },
+    {
+     "zh": "请假申请",
+     "pinyin": "qǐngjià shēnqǐng",
+     "vi": "đơn xin nghỉ",
+     "example": {
+      "zh": "安排得挺周到。你在系统里提交请假申请吧，我来批。",
+      "vi": "Sắp xếp khá chu đáo. Em nộp đơn xin nghỉ trên hệ thống đi, anh duyệt."
+     }
+    },
+    {
+     "zh": "批假",
+     "pinyin": "pījià",
+     "vi": "duyệt nghỉ"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g16-1",
+     "title_zh": "我想跟您请一下……假：……到……，一共……天，……（事由）。",
+     "title_vi": "Xin nghỉ",
+     "formula": [
+      [
+       {
+        "zh": "我想跟您请一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "假：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "到",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，一共",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "天，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "（事由）。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Xin nghỉ: loại phép → thời gian → lý do.",
+     "examples": [
+      {
+       "zh": "李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+       "vi": "Anh Lý, em làm phiền chút ạ. Em muốn xin anh nghỉ phép năm: từ ngày 3 đến ngày 7 tháng sau, tổng cộng năm ngày, về Việt Nam dự đám cưới chị gái em."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "李经理，打扰一下。（　）年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+       "options": [
+        "我已经考虑到了",
+        "您看这样可以吗",
+        "我想跟您请一下"
+       ],
+       "answer": 2,
+       "explain_vi": "李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。 — Anh Lý, em làm phiền chút ạ. Em muốn xin anh nghỉ phép năm: từ ngày 3 đến ngày 7 tháng sau, tổng cộng năm ngày, về Việt Nam dự đám cưới chị gái em."
+      }
+     ]
+    },
+    {
+     "id": "bc-g16-2",
+     "title_zh": "我已经考虑到了。我走之前会……，请……帮我……",
+     "title_vi": "Chủ động giải quyết lo lắng của sếp trước khi bị hỏi",
+     "formula": [
+      [
+       {
+        "zh": "我已经考虑到了。我走之前会",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，请",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "帮我",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Chủ động giải quyết lo lắng của sếp trước khi bị hỏi.",
+     "examples": [
+      {
+       "zh": "我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。",
+       "vi": "Em đã tính đến rồi ạ. Trước khi đi em sẽ chuẩn bị xong toàn bộ chứng từ, nhờ Tiểu Lâm làm thay giúp, tài liệu bàn giao tuần này em viết xong. Có việc gấp anh cứ gọi điện cho em, tối nào em cũng sẽ xem email."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。",
+       "options": [
+        "您看这样可以吗",
+        "我已经考虑到了",
+        "我想跟您请一下"
+       ],
+       "answer": 1,
+       "explain_vi": "我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。 — Em đã tính đến rồi ạ. Trước khi đi em sẽ chuẩn bị xong toàn bộ chứng từ, nhờ Tiểu Lâm làm thay giúp, tài liệu bàn giao tuần này em viết xong. Có việc gấp anh cứ gọi điện cho em, tối nào em cũng sẽ xem email."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "周末加班？",
+   "context_vi": "课文二 · 周末加班？",
+   "scene": "🏖️",
+   "lines": [
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "小阮，这周六能来加个班吗？系统上线前还要做一轮测试。",
+     "vi": "Tiểu Nguyễn, thứ bảy tuần này em đến tăng ca được không? Trước khi hệ thống chạy chính thức còn phải test thêm một vòng."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "周姐，这周六我已经约了医生复查，实在走不开。周五晚上我可以留到九点，把我负责的测试用例先跑完。如果还有剩下的，周日上午我可以远程处理，您看这样可以吗？",
+     "vi": "Chị Chu, thứ bảy này em đã hẹn bác sĩ tái khám, thật sự không đi được ạ. Tối thứ sáu em có thể ở lại đến chín giờ, chạy xong các test case em phụ trách trước. Nếu còn sót, sáng chủ nhật em có thể xử lý từ xa, chị thấy như vậy được không ạ?"
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "可以。那周日上午的你记得报加班，下周可以调休。",
+     "vi": "Được. Vậy phần sáng chủ nhật em nhớ khai tăng ca, tuần sau được nghỉ bù."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，谢谢周姐！",
+     "vi": "Vâng, em cảm ơn chị Chu!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "走不开",
+     "pinyin": "zǒu bu kāi",
+     "vi": "không thể rời đi"
+    },
+    {
+     "zh": "远程",
+     "pinyin": "yuǎnchéng",
+     "vi": "từ xa"
+    },
+    {
+     "zh": "加班",
+     "pinyin": "jiābān",
+     "vi": "tăng ca",
+     "example": {
+      "zh": "可以。那周日上午的你记得报加班，下周可以调休。",
+      "vi": "Được. Vậy phần sáng chủ nhật em nhớ khai tăng ca, tuần sau được nghỉ bù."
+     }
+    },
+    {
+     "zh": "报加班",
+     "pinyin": "bào jiābān",
+     "vi": "khai báo tăng ca",
+     "example": {
+      "zh": "可以。那周日上午的你记得报加班，下周可以调休。",
+      "vi": "Được. Vậy phần sáng chủ nhật em nhớ khai tăng ca, tuần sau được nghỉ bù."
+     }
+    },
+    {
+     "zh": "加班费",
+     "pinyin": "jiābānfèi",
+     "vi": "tiền làm thêm giờ"
+    },
+    {
+     "zh": "调休",
+     "pinyin": "tiáoxiū",
+     "vi": "nghỉ bù",
+     "example": {
+      "zh": "可以。那周日上午的你记得报加班，下周可以调休。",
+      "vi": "Được. Vậy phần sáng chủ nhật em nhớ khai tăng ca, tuần sau được nghỉ bù."
+     }
+    },
+    {
+     "zh": "法定节假日",
+     "pinyin": "fǎdìng jiéjiàrì",
+     "vi": "ngày lễ theo luật"
+    },
+    {
+     "zh": "工时",
+     "pinyin": "gōngshí",
+     "vi": "giờ làm việc"
+    },
+    {
+     "zh": "上限",
+     "pinyin": "shàngxiàn",
+     "vi": "giới hạn trên"
+    },
+    {
+     "zh": "大小周",
+     "pinyin": "dà xiǎo zhōu",
+     "vi": "tuần nghỉ 1 ngày xen tuần nghỉ 2 ngày"
+    },
+    {
+     "zh": "弹性工作制",
+     "pinyin": "tánxìng gōngzuòzhì",
+     "vi": "giờ làm linh hoạt"
+    },
+    {
+     "zh": "不定时工作制",
+     "pinyin": "bú dìngshí gōngzuòzhì",
+     "vi": "chế độ làm việc không cố định giờ"
+    },
+    {
+     "zh": "劳动法",
+     "pinyin": "Láodòngfǎ",
+     "vi": "Luật Lao động"
+    },
+    {
+     "zh": "劳动仲裁",
+     "pinyin": "láodòng zhòngcái",
+     "vi": "trọng tài lao động"
+    },
+    {
+     "zh": "维权",
+     "pinyin": "wéiquán",
+     "vi": "bảo vệ quyền lợi"
+    },
+    {
+     "zh": "赔偿金",
+     "pinyin": "péichángjīn",
+     "vi": "tiền bồi thường"
+    },
+    {
+     "zh": "过劳",
+     "pinyin": "guòláo",
+     "vi": "làm việc quá sức"
+    },
+    {
+     "zh": "离线休息权",
+     "pinyin": "líxiàn xiūxiquán",
+     "vi": "quyền được ngắt kết nối"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "请假申请（系统填写）",
+   "context_vi": "课文三 · 请假申请（系统填写）",
+   "scene": "🏖️",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "请假类型：年假 时间：11月3日—11月7日（共5个工作日） 事由：回国参加家人婚礼 工作交接：进口单据跟进由林晓代理，交接文档已上传共享盘；紧急事项可电话联系。",
+     "vi": "Loại nghỉ: phép năm · Thời gian: 3/11 – 7/11 (5 ngày làm việc) · Lý do: về nước dự đám cưới người thân · Bàn giao công việc: Lâm Hiểu theo dõi thay chứng từ nhập khẩu, tài liệu bàn giao đã tải lên ổ chung; việc gấp có thể liên hệ qua điện thoại."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "事由",
+     "pinyin": "shìyóu",
+     "vi": "lý do"
+    },
+    {
+     "zh": "顶班 / 顶一下",
+     "pinyin": "dǐngbān",
+     "vi": "làm thay"
+    },
+    {
+     "zh": "代理人",
+     "pinyin": "dàilǐrén",
+     "vi": "người được uỷ quyền tạm"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g16-3",
+     "title_zh": "……实在走不开。……我可以……，您看这样可以吗？",
+     "title_vi": "Từ chối tăng ca bằng cách đưa phương án thay thế",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "实在走不开。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "我可以",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，您看这样可以吗？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối tăng ca bằng cách đưa phương án thay thế.",
+     "examples": []
+    },
+    {
+     "id": "bc-g16-4",
+     "title_zh": "……由……代理 / 紧急事项可……",
+     "title_vi": "Văn phong viết trong đơn xin nghỉ",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "由",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "代理",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "紧急事项可",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Văn phong viết trong đơn xin nghỉ.",
+     "examples": []
+    },
+    {
+     "id": "bc-g16-5",
+     "title_zh": "（用人单位）不得……；……每日不得超过……小时",
+     "title_vi": "Câu cấm đoán trong văn bản luật",
+     "formula": [
+      [
+       {
+        "zh": "（用人单位）不得",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "；",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "每日不得超过",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "小时",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Câu cấm đoán trong văn bản luật: 不得 = không được phép.",
+     "examples": []
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "安排得挺周到。你在系统里提交___申请吧，我来批。",
+   "bank": [
+    "离线休息权",
+    "维权",
+    "请假"
+   ],
+   "answer": "请假"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "李经理，打扰一下。我想跟您请一下___：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+   "bank": [
+    "年假",
+    "劳动仲裁",
+    "维权"
+   ],
+   "answer": "年假"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "请假类型：年假 时间：11月3日—11月7日（共5个工作日） ___：回国参加家人婚礼 工作交接：进口单据跟进由林晓代理，交接文档已上传共享盘；紧急事项可电话联系。",
+   "bank": [
+    "走不开",
+    "病假",
+    "事由"
+   ],
+   "answer": "事由"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "周姐，这周六我已经约了医生复查，实在___。周五晚上我可以留到九点，把我负责的测试用例先跑完。如果还有剩下的，周日上午我可以远程处理，您看这样可以吗？",
+   "bank": [
+    "不定时工作制",
+    "走不开",
+    "赔偿金"
+   ],
+   "answer": "走不开"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "可以。那周日上午的你记得报___，下周可以调休。",
+   "bank": [
+    "弹性工作制",
+    "事由",
+    "加班"
+   ],
+   "answer": "加班"
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "跟您",
+    "年假",
+    "我想",
+    "请",
+    "一下"
+   ],
+   "answers": [
+    "我想跟您请一下年假"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "回越南",
+    "的",
+    "参加我",
+    "婚礼",
+    "姐姐"
+   ],
+   "answers": [
+    "回越南参加我姐姐的婚礼"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "华丰",
+    "到港",
+    "刚好",
+    "那几天",
+    "的货"
+   ],
+   "answers": [
+    "那几天华丰的货刚好到港"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "请假",
+     "a": "xin nghỉ"
+    },
+    {
+     "q": "年假",
+     "a": "nghỉ phép năm"
+    },
+    {
+     "q": "事假",
+     "a": "nghỉ việc riêng"
+    },
+    {
+     "q": "病假",
+     "a": "nghỉ ốm"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Xin nghỉ “khó”: bốc thẻ tình huống (nghỉ đúng tuần chốt quý, nghỉ đột xuất vì người nhà ốm, xin nghỉ thêm sau Tết). Đóng vai với sếp; phải có kế hoạch bàn giao.",
+   "② Tăng ca hay không? 6 tình huống, đội quyết định nhận/từ chối/thương lượng và diễn lại câu trả lời. Một tình huống là sếp nhắn công việc lúc 23h; đội vận dụng kiến thức 隐形加班 (buổi 3).",
+   "③ Tư vấn viên pháp lý: mỗi đội đọc một án lệ rút gọn bằng tiếng Trung (đã được giáo viên đơn giản hoá), tóm tắt bằng 5 câu: ai, chuyện gì, toà phán gì, căn cứ, bài học."
+  ],
+  "patterns": [
+   {
+    "zh": "李经理，打扰一下。我想跟您请一下年假：下个月3号到7号，一共五天，回越南参加我姐姐的婚礼。",
+    "vi": "Anh Lý, em làm phiền chút ạ. Em muốn xin anh nghỉ phép năm: từ ngày 3 đến ngày 7 tháng sau, tổng cộng năm ngày, về Việt Nam dự đám cưới chị gái em."
+   },
+   {
+    "zh": "我已经考虑到了。我走之前会把所有单据准备好，请小林帮我顶一下，交接文档我这周就写好。紧急情况可以打我电话，我每天晚上会看一下邮件。",
+    "vi": "Em đã tính đến rồi ạ. Trước khi đi em sẽ chuẩn bị xong toàn bộ chứng từ, nhờ Tiểu Lâm làm thay giúp, tài liệu bàn giao tuần này em viết xong. Có việc gấp anh cứ gọi điện cho em, tối nào em cũng sẽ xem email."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "“996” và luật lao động",
+  "body_vi": [
+   "“996” là lịch làm từ 9 giờ sáng đến 9 giờ tối, 6 ngày mỗi tuần; cùng với “大小周”, nó từng phổ biến ở ngành internet ([Business & Human Rights Centre](https://www.business-humanrights.org/en/latest-news/%E4%B8%AD%E5%9B%BD%E6%9C%80%E9%AB%98%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2%E5%8F%91%E5%B8%83%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BE%8B-%E8%AD%A6%E5%91%8A996%E5%B7%A5%E6%97%B6%E8%BF%9D%E6%B3%95/)). Tháng 8/2021, Bộ Nhân lực và Toà án Nhân dân Tối cao cùng công bố các án lệ điển hình về làm thêm giờ ([最高人民法院](https://www.court.gov.cn/zixun/xiangqing/319161.html)). Trong vụ đầu tiên, quy chế “9 giờ sáng đến 9 giờ tối, 6 ngày/tuần” của một công ty chuyển phát bị xác định là vi phạm nghiêm trọng giới hạn làm thêm giờ và vô hiệu; nhân viên từ chối tăng ca rồi bị sa thải được bồi thường 8.000 tệ ([阿里地区行署](https://al.gov.cn/info/1462/40843.htm)). Luật Lao động quy định làm thêm thường không quá 1 giờ/ngày, trường hợp đặc biệt không quá 3 giờ/ngày và 36 giờ/tháng ([证券时报](https://news.stcn.com/sd/202108/t20210827_3611800.html)). Luật cũng quy định tiền làm thêm tối thiểu 150% lương (ngày thường), 200% (ngày nghỉ không bố trí nghỉ bù), 300% (ngày lễ). Thực tế, văn hoá làm việc cường độ cao vẫn tồn tại; nhưng hiểu luật giúp người lao động Việt Nam làm cho công ty Trung Quốc biết giới hạn và cách thương lượng.",
+   "Ứng xử: Xin nghỉ dài nên báo miệng với sếp trước, sau đó mới nộp hệ thống; tránh để sếp biết qua thông báo tự động.",
+   "Ứng xử: Không nói “我不想加班”; hãy nêu lý do cụ thể và đưa phương án khác.",
+   "Ứng xử: Tăng ca thật sự thì khai báo trên hệ thống (报加班) để được trả lương hoặc nghỉ bù; lưu lại email, tin nhắn giao việc.",
+   "Ứng xử: Ngày lễ Trung Quốc có hiện tượng 调休 (làm bù vào cuối tuần để nghỉ dài); kiểm tra lịch trước khi hẹn đối tác."
+  ]
+ }
+}

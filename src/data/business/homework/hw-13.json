@@ -1,0 +1,295 @@
+{
+ "lessonId": 13,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "我们看一下（　　）。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "优先级",
+      "甩锅",
+      "里程碑"
+     ],
+     "answer": 2,
+     "explain_vi": "里程碑: cột mốc. Câu đầy đủ: 我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，（　　）可能要延期一周。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "优先级",
+      "上线",
+      "里程碑"
+     ],
+     "answer": 1,
+     "explain_vi": "上线: đưa vào vận hành. Câu đầy đủ: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "你这文档写得挺清楚的，省了我不少事。不过这周真（　　），周一上午可以吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "立项",
+      "摸鱼",
+      "排不开"
+     ],
+     "answer": 2,
+     "explain_vi": "排不开: không xếp được lịch. Câu đầy đủ: 你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "马哥，打扰一下。海关（　　）的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "模块",
+      "背锅",
+      "协调"
+     ],
+     "answer": 0,
+     "explain_vi": "模块: mô-đun. Câu đầy đủ: 马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "好，这个提得及时。技术部这边（　　）吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "背锅",
+      "内卷",
+      "资源紧张"
+     ],
+     "answer": 2,
+     "explain_vi": "资源紧张: thiếu nguồn lực. Câu đầy đủ: 好，这个提得及时。技术部这边资源紧张吗？"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "我们手上有三个项目同时在推进，（　　）要请周姐跟领导定一下。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "优先级",
+      "需求文档",
+      "摸鱼"
+     ],
+     "answer": 0,
+     "explain_vi": "优先级: mức độ ưu tiên. Câu đầy đủ: 我们手上有三个项目同时在推进，优先级要请周姐跟领导定一下。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "对啊，所以也有人干脆“躺平”，只做（　　）。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "分内的事",
+      "优先级",
+      "本地化"
+     ],
+     "answer": 0,
+     "explain_vi": "分内的事: việc trong phận sự. Câu đầy đủ: 对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "这不就是“（　　）”吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "协调",
+      "排不开",
+      "内卷"
+     ],
+     "answer": 2,
+     "explain_vi": "内卷: “nội quyển”, cạnh tranh vô ích. Câu đầy đủ: 这不就是“内卷”吗？"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "立项",
+       "a": "phê duyệt dự án"
+      },
+      {
+       "q": "里程碑",
+       "a": "cột mốc"
+      },
+      {
+       "q": "节点",
+       "a": "mốc thời gian"
+      },
+      {
+       "q": "上线",
+       "a": "đưa vào vận hành"
+      },
+      {
+       "q": "排期",
+       "a": "xếp lịch"
+      },
+      {
+       "q": "排不开",
+       "a": "không xếp được lịch"
+      }
+     ],
+     "explain_vi": "立项 = phê duyệt dự án · 里程碑 = cột mốc · 节点 = mốc thời gian · 上线 = đưa vào vận hành · 排期 = xếp lịch · 排不开 = không xếp được lịch"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "里程碑",
+      "我们",
+      "一下",
+      "看"
+     ],
+     "answers": [
+      "我们看一下里程碑"
+     ],
+     "explain_vi": "我们看一下里程碑 — trích từ câu: 我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "部分",
+      "怎么样",
+      "本地化"
+     ],
+     "answers": [
+      "本地化部分怎么样"
+     ],
+     "explain_vi": "本地化部分怎么样 — trích từ câu: 我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "翻译",
+      "越南语",
+      "已经",
+      "完成",
+      "界面"
+     ],
+     "answers": [
+      "越南语界面翻译已经完成"
+     ],
+     "explain_vi": "越南语界面翻译已经完成 — trích từ câu: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "但海关",
+      "一个",
+      "卡在了",
+      "申报模块",
+      "问题上"
+     ],
+     "answers": [
+      "但海关申报模块卡在了一个问题上"
+     ],
+     "explain_vi": "但海关申报模块卡在了一个问题上 — trích từ câu: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Chiều nay chị gặp anh Vương thống nhất thứ tự ưu tiên, mai chị cập nhật cho mọi người.",
+     "acceptedAnswers": [
+      "我今天下午找王总对齐优先级，明天同步给大家。"
+     ],
+     "requiredKeywords": [
+      "优先级"
+     ],
+     "explain_vi": "Câu trong bài khoá: 我今天下午找王总对齐优先级，明天同步给大家。"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "风险",
+      "预警",
+      "一个",
+      "周要提",
+      "我这"
+     ],
+     "answers": [
+      "我这周要提一个风险预警"
+     ],
+     "explain_vi": "我这周要提一个风险预警 — trích từ câu: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "部下",
+      "方案",
+      "不能给出",
+      "周五前",
+      "如果技术"
+     ],
+     "answers": [
+      "如果技术部下周五前不能给出方案"
+     ],
+     "explain_vi": "如果技术部下周五前不能给出方案 — trích từ câu: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "延期",
+      "一周",
+      "上线",
+      "可能",
+      "要"
+     ],
+     "answers": [
+      "上线可能要延期一周"
+     ],
+     "explain_vi": "上线可能要延期一周 — trích từ câu: 越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "mcq",
+     "prompt_zh": "（　）对方态度强硬，我们（　）要保持礼貌。",
+     "prompt_vi": "Chọn cặp từ nối thích hợp.",
+     "options": [
+      "虽然……但是",
+      "尽管……还是",
+      "即使……也"
+     ],
+     "answer": 1,
+     "explain_vi": "尽管……还是 (trang trọng): 尽管对方态度强硬，我们还是要保持礼貌。"
+    }
+   ]
+  }
+ ]
+}

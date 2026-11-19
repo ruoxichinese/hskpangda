@@ -1,0 +1,325 @@
+{
+ "lessonId": 12,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "赵经理，（　　）我们法务看过了，大部分条款没问题，有三处想跟您商量一下。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "守约方",
+      "歧义",
+      "合同初稿"
+     ],
+     "answer": 2,
+     "explain_vi": "合同初稿: bản thảo hợp đồng. Câu đầy đủ: 赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "第十二条 本合同自双方签字并盖章之日起（　　）。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "法务",
+      "生效",
+      "合同专用章"
+     ],
+     "answer": 1,
+     "explain_vi": "生效: có hiệu lực. Câu đầy đủ: 第十二条 本合同自双方签字并盖章之日起生效。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的（　　）；造成损失的，还应赔偿实际损失。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "电子签章",
+      "违约金",
+      "一式两份"
+     ],
+     "answer": 1,
+     "explain_vi": "违约金: tiền phạt vi phạm. Câu đầy đủ: 第七条 违约责任：任何一方违反本合同约定，应向守约方支付合同总额10%的违约金；造成损失的，还应赔偿实际损失。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "理解。那我们先把前两条改好，（　　）地点作为补充协议另行商定，您看可以吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "法务",
+      "违约金",
+      "仲裁"
+     ],
+     "answer": 2,
+     "explain_vi": "仲裁: trọng tài. Câu đầy đủ: 理解。那我们先把前两条改好，仲裁地点作为补充协议另行商定，您看可以吗？"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "合同（　　），双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "一式两份",
+      "签订",
+      "电子签章"
+     ],
+     "answer": 0,
+     "explain_vi": "一式两份: lập thành hai bản. Câu đầy đủ: 合同一式两份，双方各执一份，具有同等法律效力。请孙总在这里签字，我们这边由李总签字。"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "中越文版本具有同等效力，如有（　　），以中文版为准。这个写在最后一条了。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "违约金",
+      "不可抗力",
+      "歧义"
+     ],
+     "answer": 2,
+     "explain_vi": "歧义: hiểu theo nhiều nghĩa. Câu đầy đủ: 中越文版本具有同等效力，如有歧义，以中文版为准。这个写在最后一条了。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "好的，我们带了（　　）和合同章。另外，越南方面的中文译本以哪个版本为准？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "公章",
+      "合同初稿",
+      "违约金"
+     ],
+     "answer": 0,
+     "explain_vi": "公章: con dấu công ty. Câu đầy đủ: 好的，我们带了公章和合同章。另外，越南方面的中文译本以哪个版本为准？"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "签字以后还要盖我们的（　　），每页之间还要盖骑缝章。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "另行商定",
+      "歧义",
+      "合同专用章"
+     ],
+     "answer": 2,
+     "explain_vi": "合同专用章: dấu chuyên dùng cho hợp đồng. Câu đầy đủ: 签字以后还要盖我们的合同专用章，每页之间还要盖骑缝章。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "合同初稿",
+       "a": "bản thảo hợp đồng"
+      },
+      {
+       "q": "条款",
+       "a": "điều khoản"
+      },
+      {
+       "q": "甲方 / 乙方",
+       "a": "bên A / bên B"
+      },
+      {
+       "q": "法务",
+       "a": "bộ phận pháp chế"
+      },
+      {
+       "q": "审核",
+       "a": "thẩm định, rà soát"
+      },
+      {
+       "q": "签订",
+       "a": "ký kết"
+      }
+     ],
+     "explain_vi": "合同初稿 = bản thảo hợp đồng · 条款 = điều khoản · 甲方 / 乙方 = bên A / bên B · 法务 = bộ phận pháp chế · 审核 = thẩm định, rà soát · 签订 = ký kết"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "法务",
+      "初稿",
+      "合同",
+      "我们",
+      "看过了"
+     ],
+     "answers": [
+      "合同初稿我们法务看过了"
+     ],
+     "explain_vi": "合同初稿我们法务看过了 — trích từ câu: 赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "问题",
+      "大部分",
+      "条款",
+      "没"
+     ],
+     "answers": [
+      "大部分条款没问题"
+     ],
+     "explain_vi": "大部分条款没问题 — trích từ câu: 赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "您",
+      "想跟",
+      "有",
+      "商量一下",
+      "三处"
+     ],
+     "answers": [
+      "有三处想跟您商量一下"
+     ],
+     "explain_vi": "有三处想跟您商量一下 — trích từ câu: 赵经理，合同初稿我们法务看过了，大部分条款没问题，有三处想跟您商量一下。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "觉得",
+      "我们",
+      "偏高"
+     ],
+     "answers": [
+      "我们觉得偏高"
+     ],
+     "explain_vi": "我们觉得偏高 — trích từ câu: 第一，第七条违约金是合同总额的30%，我们觉得偏高，建议改成10%。第二，不可抗力条款里建议加上“口岸临时关闭”，因为陆路运输经常遇到这种情况。第三，争议解决方式，我们希望选择在新加坡国际仲裁中心仲裁。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Có hiệu lực kể từ ngày ký tên, đóng dấu.",
+     "acceptedAnswers": [
+      "自签字盖章之日起生效。"
+     ],
+     "requiredKeywords": [
+      "生效"
+     ],
+     "explain_vi": "Câu trong bài khoá: 自签字盖章之日起生效。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Trường hợp thanh toán quá hạn thì phải trả tiền phạt vi phạm.",
+     "acceptedAnswers": [
+      "逾期付款的，应支付违约金。"
+     ],
+     "requiredKeywords": [
+      "违约",
+      "违约金"
+     ],
+     "explain_vi": "Câu trong bài khoá: 逾期付款的，应支付违约金。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Hai điểm đầu không có vấn đề gì lớn. Địa điểm trọng tài bên tôi nghiêng về Viện Trọng tài Quốc tế Thâm Quyến, việc này tôi phải xin ý kiến lãnh đạo.",
+     "acceptedAnswers": [
+      "前两条问题不大。仲裁地点我们倾向于深圳国际仲裁院，这个我得请示一下领导。"
+     ],
+     "requiredKeywords": [
+      "仲裁"
+     ],
+     "explain_vi": "Câu trong bài khoá: 前两条问题不大。仲裁地点我们倾向于深圳国际仲裁院，这个我得请示一下领导。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Văn viết công sở (Phụ lục C)",
+   "instructions_vi": "Chuyển sang văn viết trang trọng, sửa lỗi hoặc chọn từ nối. Đáp án gợi ý theo giáo trình.",
+   "questions": [
+    {
+     "id": "c1",
+     "kind": "translate",
+     "prompt_vi": "Chuyển sang văn viết trang trọng: 要是晚付钱，就得交违约金。",
+     "acceptedAnswers": [
+      "逾期付款的，应支付违约金。"
+     ],
+     "requiredKeywords": [
+      "逾期",
+      "应支付"
+     ],
+     "explain_vi": "Đáp án gợi ý: 逾期付款的，应支付违约金。(……的，应…… = trường hợp … thì phải …)"
+    },
+    {
+     "id": "c2",
+     "kind": "translate",
+     "prompt_vi": "Sửa lỗi: 本合同自签字之日生效。",
+     "acceptedAnswers": [
+      "本合同自签字之日起生效。"
+     ],
+     "requiredKeywords": [
+      "之日起"
+     ],
+     "explain_vi": "Cấu trúc đầy đủ là 自……之日起: 本合同自签字之日起生效。"
+    },
+    {
+     "id": "c3",
+     "kind": "translate",
+     "prompt_vi": "Sửa lỗi: 公司对他予以罚。",
+     "acceptedAnswers": [
+      "公司对他予以处罚。"
+     ],
+     "requiredKeywords": [
+      "予以处罚"
+     ],
+     "explain_vi": "予以 phải đi với động từ hai âm tiết: 予以处罚。"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Bài viết công việc (hồ sơ portfolio)",
+   "instructions_vi": "Viết bằng chữ Hán, văn phong trang trọng. Giáo viên đọc bài trên trang giáo viên và chấm theo thang A2.",
+   "questions": [
+    {
+     "id": "w1",
+     "kind": "essay",
+     "prompt_vi": "Viết email gửi anh Triệu xác nhận các điểm sửa đổi hợp đồng",
+     "requirements_vi": [
+      "Liệt kê từng điểm sửa đổi (điều khoản, nội dung cũ → mới)",
+      "Đề nghị phản hồi trước một hạn cụ thể",
+      "Văn phong trang trọng, có 落款"
+     ],
+     "minChars": 80,
+     "keywords": [
+      "贵司",
+      "我司",
+      "烦请",
+      "顺颂商祺"
+     ],
+     "model": "主题：关于合同条款修改的确认\n尊敬的赵经理：\n您好！感谢贵司对合同初稿提出的意见。经双方沟通，现将修改内容确认如下：\n一、第七条违约金由合同总额的30%改为10%；\n二、不可抗力条款增加“口岸临时关闭”；\n三、仲裁地点作为补充协议另行商定。\n如无问题，烦请于本周五前回复，我司将安排签字盖章。\n顺颂商祺！\n阮文安\n东盛集团 · 东南亚市场部",
+     "explain_vi": "So sánh với bài mẫu và tự chấm theo thang A2."
+    }
+   ]
+  }
+ ]
+}

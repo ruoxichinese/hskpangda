@@ -1,0 +1,270 @@
+{
+ "lessonId": 1,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理（　　）手续。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "试用期",
+      "工牌",
+      "入职"
+     ],
+     "answer": 2,
+     "explain_vi": "入职: nhận việc, vào làm. Câu đầy đủ: 你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "身份证件、学历证明和银行卡复印件。先签（　　），然后领工牌和电脑，最后我带你去工位。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "劳动合同",
+      "报销",
+      "负责"
+     ],
+     "answer": 0,
+     "explain_vi": "劳动合同: hợp đồng lao động. Câu đầy đủ: 身份证件、学历证明和银行卡复印件。先签劳动合同，然后领工牌和电脑，最后我带你去工位。"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "好的。请问（　　）是多长时间？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "员工手册",
+      "试用期",
+      "报到"
+     ],
+     "answer": 1,
+     "explain_vi": "试用期: thời gian thử việc. Câu đầy đủ: 好的。请问试用期是多长时间？"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "三个月。试用期表现好的话，可以提前（　　）。五险一金从入职当月开始缴纳，具体可以看员工手册。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "转正",
+      "多多关照",
+      "报销"
+     ],
+     "answer": 0,
+     "explain_vi": "转正: lên nhân viên chính thức. Câu đầy đủ: 三个月。试用期表现好的话，可以提前转正。五险一金从入职当月开始缴纳，具体可以看员工手册。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "大家好！我是今天入职市场部的阮文安（Andy），负责东南亚客户维护，（　　）在3楼B区。以后工作上还请大家多多关照，有需要越南语支持的地方也欢迎随时找我！🙏",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "职责",
+      "工位",
+      "打卡"
+     ],
+     "answer": 1,
+     "explain_vi": "工位: chỗ ngồi làm việc. Câu đầy đủ: 大家好！我是今天入职市场部的阮文安（Andy），负责东南亚客户维护，工位在3楼B区。以后工作上还请大家多多关照，有需要越南语支持的地方也欢迎随时找我！🙏"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "明白了。那（　　）是怎么规定的？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "入职手续",
+      "考勤",
+      "试用期"
+     ],
+     "answer": 1,
+     "explain_vi": "考勤: chấm công, chuyên cần. Câu đầy đủ: 明白了。那考勤是怎么规定的？"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "早上九点前打卡，下班六点打卡。出差、加班的费用在系统里申请（　　）就行。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "报销",
+      "人事部",
+      "试用期"
+     ],
+     "answer": 0,
+     "explain_vi": "报销: thanh toán, hoàn ứng chi phí. Câu đầy đủ: 早上九点前打卡，下班六点打卡。出差、加班的费用在系统里申请报销就行。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "各位，今天我们（　　）来了一位新同事，大家欢迎一下。小阮，你跟大家介绍一下自己吧。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "试用期",
+      "部门",
+      "负责"
+     ],
+     "answer": 1,
+     "explain_vi": "部门: bộ phận, phòng ban. Câu đầy đủ: 各位，今天我们部门来了一位新同事，大家欢迎一下。小阮，你跟大家介绍一下自己吧。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "入职",
+       "a": "nhận việc, vào làm"
+      },
+      {
+       "q": "报到",
+       "a": "trình diện, báo danh"
+      },
+      {
+       "q": "入职手续",
+       "a": "thủ tục nhận việc"
+      },
+      {
+       "q": "人事部",
+       "a": "phòng nhân sự"
+      },
+      {
+       "q": "劳动合同",
+       "a": "hợp đồng lao động"
+      },
+      {
+       "q": "试用期",
+       "a": "thời gian thử việc"
+      }
+     ],
+     "explain_vi": "入职 = nhận việc, vào làm · 报到 = trình diện, báo danh · 入职手续 = thủ tục nhận việc · 人事部 = phòng nhân sự · 劳动合同 = hợp đồng lao động · 试用期 = thời gian thử việc"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "我们",
+      "公司",
+      "欢迎",
+      "加入"
+     ],
+     "answers": [
+      "欢迎加入我们公司"
+     ],
+     "explain_vi": "欢迎加入我们公司 — trích từ câu: 你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "人事部",
+      "的",
+      "我",
+      "是",
+      "刘敏"
+     ],
+     "answers": [
+      "我是人事部的刘敏"
+     ],
+     "explain_vi": "我是人事部的刘敏 — trích từ câu: 你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "今天由我",
+      "手续",
+      "办理",
+      "帮你",
+      "入职"
+     ],
+     "answers": [
+      "今天由我帮你办理入职手续"
+     ],
+     "explain_vi": "今天由我帮你办理入职手续 — trích từ câu: 你好，是阮文安吧？欢迎加入我们公司！我是人事部的刘敏，今天由我帮你办理入职手续。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "需要",
+      "我",
+      "材料",
+      "准备",
+      "哪些"
+     ],
+     "answers": [
+      "需要我准备哪些材料"
+     ],
+     "explain_vi": "需要我准备哪些材料 — trích từ câu: 刘姐好！麻烦您了。需要我准备哪些材料？"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Việc đào tạo do kỹ sư Trần phụ trách.",
+     "acceptedAnswers": [
+      "培训由陈工负责。"
+     ],
+     "requiredKeywords": [
+      "负责"
+     ],
+     "explain_vi": "Câu trong bài khoá: 培训由陈工负责。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay tôi sẽ làm thủ tục nhận việc cho bạn.",
+     "acceptedAnswers": [
+      "今天由我帮你办理入职手续。"
+     ],
+     "requiredKeywords": [
+      "入职",
+      "入职手续"
+     ],
+     "explain_vi": "Câu trong bài khoá: 今天由我帮你办理入职手续。"
+    },
+    {
+     "id": "t3",
+     "kind": "translate",
+     "prompt_vi": "Ký hợp đồng trước, sau đó nhận thẻ nhân viên, cuối cùng về chỗ ngồi.",
+     "acceptedAnswers": [
+      "先签合同，然后领工牌，最后去工位。"
+     ],
+     "requiredKeywords": [
+      "工牌",
+      "工位"
+     ],
+     "explain_vi": "Câu trong bài khoá: 先签合同，然后领工牌，最后去工位。"
+    },
+    {
+     "id": "t4",
+     "kind": "translate",
+     "prompt_vi": "Có chỗ nào làm chưa chu đáo, mong anh chị cứ nhắc tôi.",
+     "acceptedAnswers": [
+      "有什么做得不到位的地方，请随时提醒我。"
+     ],
+     "requiredKeywords": [
+      "到位"
+     ],
+     "explain_vi": "Câu trong bài khoá: 有什么做得不到位的地方，请随时提醒我。"
+    }
+   ]
+  }
+ ]
+}

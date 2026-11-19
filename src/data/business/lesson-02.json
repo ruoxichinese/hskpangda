@@ -1,0 +1,890 @@
+{
+ "id": 2,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "请示与汇报：和领导沟通",
+  "pinyin": "qǐng shì yǔ huì bào hé lǐng dǎo gōu tōng",
+  "vi": "báo cáo tiến độ theo kiểu “kết luận trước”"
+ },
+ "grammarTopics_vi": [
+  "您现在方便吗？我想跟您汇报/请示一下……，大概……分钟。",
+  "先说结论：……。主要原因是……",
+  "我建议……，这样既……又……。您看这样可以吗？",
+  "关于……的事，……",
+  "如无问题，我……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Báo cáo tiến độ theo kiểu “kết luận trước”",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Xin ý kiến cấp trên đúng cách",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Phản hồi chỉ thị",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "周五工作汇报",
+   "context_vi": "课文一 · 周五工作汇报",
+   "scene": "📊",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。",
+     "vi": "Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "你说吧。",
+     "vi": "Em nói đi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+     "vi": "Em xin nói kết luận trước: ba khách hàng Việt Nam đã gia hạn hợp đồng được hai, đạt 67%. Khách thứ ba ở Hà Nội vẫn đang đàm phán, vướng chủ yếu ở kỳ hạn thanh toán, họ muốn kéo dài từ 30 ngày lên 60 ngày."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "你的意见呢？",
+     "vi": "Ý kiến của em thế nào?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+     "vi": "Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。",
+     "vi": "Hướng đi ổn. Em soạn lại phương án, chiều gửi anh, anh trao đổi với bên Tài chính rồi chốt."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，收到。我三点前发给您。",
+     "vi": "Vâng, em nhận ạ. Trước ba giờ em gửi anh."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "汇报",
+     "pinyin": "huìbào",
+     "vi": "báo cáo (lên cấp trên)",
+     "example": {
+      "zh": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。",
+      "vi": "Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+     }
+    },
+    {
+     "zh": "进度",
+     "pinyin": "jìndù",
+     "vi": "tiến độ",
+     "example": {
+      "zh": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。",
+      "vi": "Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+     }
+    },
+    {
+     "zh": "结论",
+     "pinyin": "jiélùn",
+     "vi": "kết luận"
+    },
+    {
+     "zh": "完成率",
+     "pinyin": "wánchénglǜ",
+     "vi": "tỉ lệ hoàn thành"
+    },
+    {
+     "zh": "续约",
+     "pinyin": "xùyuē",
+     "vi": "gia hạn hợp đồng",
+     "example": {
+      "zh": "好。那个……越南这边续约，三家已经谈下来两家了，然后第三家——",
+      "vi": "Dạ. Cái… bên Việt Nam gia hạn hợp đồng, ba nhà thì chốt được hai rồi, còn nhà thứ ba thì—"
+     }
+    },
+    {
+     "zh": "付款周期",
+     "pinyin": "fùkuǎn zhōuqī",
+     "vi": "kỳ hạn thanh toán",
+     "example": {
+      "zh": "就是付款周期，他们想要六十天。",
+      "vi": "Dạ là kỳ hạn thanh toán, họ muốn sáu mươi ngày."
+     }
+    },
+    {
+     "zh": "预付",
+     "pinyin": "yùfù",
+     "vi": "trả trước",
+     "example": {
+      "zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+      "vi": "Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+     }
+    },
+    {
+     "zh": "风险",
+     "pinyin": "fēngxiǎn",
+     "vi": "rủi ro",
+     "example": {
+      "zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+      "vi": "Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+     }
+    },
+    {
+     "zh": "方案",
+     "pinyin": "fāng'àn",
+     "vi": "phương án",
+     "example": {
+      "zh": "思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。",
+      "vi": "Hướng đi ổn. Em soạn lại phương án, chiều gửi anh, anh trao đổi với bên Tài chính rồi chốt."
+     }
+    },
+    {
+     "zh": "思路",
+     "pinyin": "sīlù",
+     "vi": "hướng suy nghĩ, cách tiếp cận",
+     "example": {
+      "zh": "思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。",
+      "vi": "Hướng đi ổn. Em soạn lại phương án, chiều gửi anh, anh trao đổi với bên Tài chính rồi chốt."
+     }
+    },
+    {
+     "zh": "同步",
+     "pinyin": "tóngbù",
+     "vi": "cập nhật, đồng bộ thông tin",
+     "example": {
+      "zh": "思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。",
+      "vi": "Hướng đi ổn. Em soạn lại phương án, chiều gửi anh, anh trao đổi với bên Tài chính rồi chốt."
+     }
+    },
+    {
+     "zh": "拍板",
+     "pinyin": "pāibǎn",
+     "vi": "quyết định cuối cùng",
+     "example": {
+      "zh": "思路可以。你把方案整理一下，下午发给我，我跟财务同步一下再拍板。",
+      "vi": "Hướng đi ổn. Em soạn lại phương án, chiều gửi anh, anh trao đổi với bên Tài chính rồi chốt."
+     }
+    },
+    {
+     "zh": "收到",
+     "pinyin": "shōudào",
+     "vi": "đã nhận (xác nhận chỉ thị)",
+     "example": {
+      "zh": "好的，收到。我三点前发给您。",
+      "vi": "Vâng, em nhận ạ. Trước ba giờ em gửi anh."
+     }
+    },
+    {
+     "zh": "卡在",
+     "pinyin": "kǎ zài",
+     "vi": "bị vướng ở"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g2-1",
+     "title_zh": "您现在方便吗？我想跟您汇报/请示一下……，大概……分钟。",
+     "title_vi": "Mở lời báo cáo, nói rõ thời lượng để sếp chủ động",
+     "formula": [
+      [
+       {
+        "zh": "您现在方便吗？我想跟您汇报",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "请示一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，大概",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "分钟。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Mở lời báo cáo, nói rõ thời lượng để sếp chủ động.",
+     "examples": [
+      {
+       "zh": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。",
+       "vi": "Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+      },
+      {
+       "zh": "陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？",
+       "vi": "Anh Trần, chuyện tháng sau đi TP. Hồ Chí Minh dự triển lãm, em muốn xin ý kiến anh Vương trước, anh thấy em tìm thẳng anh ấy có được không?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "王总，（　）？我想跟您汇报一下本周的工作进度，大概五分钟。",
+       "options": [
+        "增长了一倍",
+        "您现在方便吗",
+        "您看这样可以吗"
+       ],
+       "answer": 1,
+       "explain_vi": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。 — Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+      }
+     ]
+    },
+    {
+     "id": "bc-g2-2",
+     "title_zh": "先说结论：……。主要原因是……",
+     "title_vi": "Kết luận trước, lý do sau (结论先行)",
+     "formula": [
+      [
+       {
+        "zh": "先说结论：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。主要原因是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Kết luận trước, lý do sau (结论先行); đây là kỹ năng báo cáo được đánh giá cao nhất.",
+     "examples": [
+      {
+       "zh": "先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+       "vi": "Em xin nói kết luận trước: ba khách hàng Việt Nam đã gia hạn hợp đồng được hai, đạt 67%. Khách thứ ba ở Hà Nội vẫn đang đàm phán, vướng chủ yếu ở kỳ hạn thanh toán, họ muốn kéo dài từ 30 ngày lên 60 ngày."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+       "options": [
+        "请示一下",
+        "先说结论",
+        "如无问题"
+       ],
+       "answer": 1,
+       "explain_vi": "先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。 — Em xin nói kết luận trước: ba khách hàng Việt Nam đã gia hạn hợp đồng được hai, đạt 67%. Khách thứ ba ở Hà Nội vẫn đang đàm phán, vướng chủ yếu ở kỳ hạn thanh toán, họ muốn kéo dài từ 30 ngày lên 60 ngày."
+      }
+     ]
+    },
+    {
+     "id": "bc-g2-3",
+     "title_zh": "我建议……，这样既……又……。您看这样可以吗？",
+     "title_vi": "Đưa phương án kèm lợi ích, rồi trả quyền quyết định cho sếp",
+     "formula": [
+      [
+       {
+        "zh": "我建议",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，这样既",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "又",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。您看这样可以吗？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Đưa phương án kèm lợi ích, rồi trả quyền quyết định cho sếp.",
+     "examples": [
+      {
+       "zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+       "vi": "Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。（　）？",
+       "options": [
+        "我想跟您汇报",
+        "您看这样可以吗",
+        "您现在方便吗"
+       ],
+       "answer": 1,
+       "explain_vi": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？ — Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "请示预算",
+   "context_vi": "课文二 · 请示预算",
+   "scene": "📊",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？",
+     "vi": "Anh Trần, chuyện tháng sau đi TP. Hồ Chí Minh dự triển lãm, em muốn xin ý kiến anh Vương trước, anh thấy em tìm thẳng anh ấy có được không?"
+    },
+    {
+     "speaker": "bc-chengong",
+     "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+     "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "明白了，谢谢提醒！那我先准备一份预算明细，请李经理过目。",
+     "vi": "Em hiểu rồi, cảm ơn anh đã nhắc! Vậy em chuẩn bị bảng chi tiết ngân sách trước, nhờ anh Lý xem qua."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "请示",
+     "pinyin": "qǐngshì",
+     "vi": "xin chỉ thị, xin ý kiến",
+     "example": {
+      "zh": "陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？",
+      "vi": "Anh Trần, chuyện tháng sau đi TP. Hồ Chí Minh dự triển lãm, em muốn xin ý kiến anh Vương trước, anh thấy em tìm thẳng anh ấy có được không?"
+     }
+    },
+    {
+     "zh": "预算",
+     "pinyin": "yùsuàn",
+     "vi": "ngân sách",
+     "example": {
+      "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+      "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+     }
+    },
+    {
+     "zh": "明细",
+     "pinyin": "míngxì",
+     "vi": "bảng chi tiết",
+     "example": {
+      "zh": "明白了，谢谢提醒！那我先准备一份预算明细，请李经理过目。",
+      "vi": "Em hiểu rồi, cảm ơn anh đã nhắc! Vậy em chuẩn bị bảng chi tiết ngân sách trước, nhờ anh Lý xem qua."
+     }
+    },
+    {
+     "zh": "审批",
+     "pinyin": "shěnpī",
+     "vi": "thẩm duyệt, phê duyệt",
+     "example": {
+      "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+      "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+     }
+    },
+    {
+     "zh": "流程",
+     "pinyin": "liúchéng",
+     "vi": "quy trình",
+     "example": {
+      "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+      "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+     }
+    },
+    {
+     "zh": "签字",
+     "pinyin": "qiānzì",
+     "vi": "ký tên",
+     "example": {
+      "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+      "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+     }
+    },
+    {
+     "zh": "越级",
+     "pinyin": "yuèjí",
+     "vi": "vượt cấp",
+     "example": {
+      "zh": "这个预算超过五万，要走审批流程。你先跟李经理说，让他签字，再报给王总。千万别越级。",
+      "vi": "Ngân sách này trên năm vạn, phải qua quy trình phê duyệt. Em báo anh Lý trước, để anh ấy ký, rồi mới trình anh Vương. Tuyệt đối đừng vượt cấp."
+     }
+    },
+    {
+     "zh": "过目",
+     "pinyin": "guòmù",
+     "vi": "xem qua",
+     "example": {
+      "zh": "明白了，谢谢提醒！那我先准备一份预算明细，请李经理过目。",
+      "vi": "Em hiểu rồi, cảm ơn anh đã nhắc! Vậy em chuẩn bị bảng chi tiết ngân sách trước, nhờ anh Lý xem qua."
+     }
+    },
+    {
+     "zh": "参展",
+     "pinyin": "cānzhǎn",
+     "vi": "tham gia triển lãm",
+     "example": {
+      "zh": "陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？",
+      "vi": "Anh Trần, chuyện tháng sau đi TP. Hồ Chí Minh dự triển lãm, em muốn xin ý kiến anh Vương trước, anh thấy em tìm thẳng anh ấy có được không?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g2-4",
+     "title_zh": "关于……的事，……",
+     "title_vi": "Mở đầu chủ đề, dùng cả nói và viết",
+     "formula": [
+      [
+       {
+        "zh": "关于",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的事，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Mở đầu chủ đề, dùng cả nói và viết.",
+     "examples": [
+      {
+       "zh": "关于展会预算的事，我想请示一下。",
+       "vi": "Về chuyện ngân sách triển lãm, em muốn xin ý kiến anh."
+      },
+      {
+       "zh": "陈工，关于下个月去胡志明市参展的事，我想先请示一下王总，您觉得我直接找他合适吗？",
+       "vi": "Anh Trần, chuyện tháng sau đi TP. Hồ Chí Minh dự triển lãm, em muốn xin ý kiến anh Vương trước, anh thấy em tìm thẳng anh ấy có được không?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）展会预算的事，我想请示一下。",
+       "options": [
+        "关于",
+        "突破",
+        "即使"
+       ],
+       "answer": 0,
+       "explain_vi": "关于展会预算的事，我想请示一下。 — Về chuyện ngân sách triển lãm, em muốn xin ý kiến anh."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "微信里的请示消息",
+   "context_vi": "课文三 · 微信里的请示消息",
+   "scene": "📊",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "李经理您好，关于11月胡志明市展会，预算明细已发到您邮箱，共4.8万元（展位2.5万、差旅1.8万、物料0.5万）。请您有空时过目，如无问题我周一提交审批。谢谢！",
+     "vi": "Chào anh Lý, về triển lãm tháng 11 ở TP. Hồ Chí Minh, bảng chi tiết ngân sách em đã gửi vào email của anh, tổng 48.000 tệ (gian hàng 25.000, đi lại – lưu trú 18.000, vật phẩm 5.000). Khi nào rảnh anh xem giúp em, nếu không có vấn đề gì thì thứ hai em trình phê duyệt. Cảm ơn anh!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "提交",
+     "pinyin": "tíjiāo",
+     "vi": "nộp, trình"
+    },
+    {
+     "zh": "指示",
+     "pinyin": "zhǐshì",
+     "vi": "chỉ thị"
+    },
+    {
+     "zh": "落实",
+     "pinyin": "luòshí",
+     "vi": "triển khai thực hiện"
+    },
+    {
+     "zh": "反馈",
+     "pinyin": "fǎnkuì",
+     "vi": "phản hồi"
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-4",
+   "title": "Bản nghe tự nhiên của 课文一",
+   "context_vi": "Bản nghe tự nhiên · Bản nghe tự nhiên của 课文一",
+   "scene": "📊",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "王总，您现在方便……",
+     "vi": "Anh Vương, bây giờ anh có tiện…"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "说吧说吧，我十分钟后还有个会。",
+     "vi": "Nói đi nói đi, mười phút nữa anh còn một cuộc họp."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好。那个……越南这边续约，三家已经谈下来两家了，然后第三家——",
+     "vi": "Dạ. Cái… bên Việt Nam gia hạn hợp đồng, ba nhà thì chốt được hai rồi, còn nhà thứ ba thì—"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "第三家怎么了？卡哪儿了？",
+     "vi": "Nhà thứ ba sao? Vướng ở đâu?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "就是付款周期，他们想要六十天。",
+     "vi": "Dạ là kỳ hạn thanh toán, họ muốn sáu mươi ngày."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "六十天不行啊，现金流扛不住。你怎么想的？",
+     "vi": "Sáu mươi ngày không được đâu, dòng tiền chịu không nổi. Em tính sao?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我的想法是，嗯，四十五天，但是让他们先付两成——",
+     "vi": "Ý em là, ừm, bốn mươi lăm ngày, nhưng bắt họ trả trước hai phần mười—"
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "两成够吗？……行吧，你先出个方案，下午给我。",
+     "vi": "Hai phần mười đủ không?… Thôi được, em làm phương án trước, chiều gửi anh."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的，三点前发您。",
+     "vi": "Dạ, trước ba giờ em gửi anh."
+    }
+   ],
+   "vocab": [],
+   "grammar": [
+    {
+     "id": "bc-g2-5",
+     "title_zh": "如无问题，我……",
+     "title_vi": "Văn viết",
+     "formula": [
+      [
+       {
+        "zh": "如无问题，我",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Văn viết: nếu không có vấn đề gì thì tôi sẽ làm bước tiếp.",
+     "examples": [
+      {
+       "zh": "如无问题，我周一提交审批。",
+       "vi": "Nếu không có vấn đề gì, thứ hai em sẽ trình phê duyệt."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　），我周一提交审批。",
+       "options": [
+        "请示一下",
+        "先说结论",
+        "如无问题"
+       ],
+       "answer": 2,
+       "explain_vi": "如无问题，我周一提交审批。 — Nếu không có vấn đề gì, thứ hai em sẽ trình phê duyệt."
+      }
+     ]
+    },
+    {
+     "id": "bc-c2-1",
+     "title_zh": "被 + (tác nhân) + V",
+     "title_vi": "Văn viết công sở · Khách quan hoá",
+     "formula": [
+      [
+       {
+        "zh": "被",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "(tác nhân)",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "V",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Văn công sở ưu tiên 经/由 hơn 被 khi mang nghĩa trung tính. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "方案已被领导批准。",
+       "vi": "Phương án đã được lãnh đạo phê duyệt."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "方案已（　）领导批准。",
+       "options": [
+        "又",
+        "被",
+        "仍"
+       ],
+       "answer": 1,
+       "explain_vi": "方案已被领导批准。 — Phương án đã được lãnh đạo phê duyệt."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "王总，您现在方便吗？我想跟您___一下本周的工作进度，大概五分钟。",
+   "bank": [
+    "汇报",
+    "请示",
+    "过目"
+   ],
+   "answer": "汇报"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "陈工，关于下个月去胡志明市参展的事，我想先___一下王总，您觉得我直接找他合适吗？",
+   "bank": [
+    "预算",
+    "请示",
+    "风险"
+   ],
+   "answer": "请示"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "先说___：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+   "bank": [
+    "结论",
+    "请示",
+    "签字"
+   ],
+   "answer": "结论"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "好。那个……越南这边___，三家已经谈下来两家了，然后第三家——",
+   "bank": [
+    "反馈",
+    "续约",
+    "进度"
+   ],
+   "answer": "续约"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "就是___，他们想要六十天。",
+   "bank": [
+    "落实",
+    "付款周期",
+    "过目"
+   ],
+   "answer": "付款周期"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我建议可以接受45天，但要求对方___20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+   "bank": [
+    "签字",
+    "预付",
+    "提交"
+   ],
+   "answer": "预付"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "现在",
+    "吗",
+    "方便",
+    "您"
+   ],
+   "answers": [
+    "您现在方便吗"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "汇报",
+    "我想跟您",
+    "一下",
+    "工作进度",
+    "本周的"
+   ],
+   "answers": [
+    "我想跟您汇报一下本周的工作进度"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "越南三家",
+    "两家",
+    "客户的",
+    "续约已经",
+    "完成"
+   ],
+   "answers": [
+    "越南三家客户的续约已经完成两家"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "汇报",
+     "a": "báo cáo (lên cấp trên)"
+    },
+    {
+     "q": "请示",
+     "a": "xin chỉ thị, xin ý kiến"
+    },
+    {
+     "q": "进度",
+     "a": "tiến độ"
+    },
+    {
+     "q": "结论",
+     "a": "kết luận"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Báo cáo 3 phút: mỗi học viên nhận một thẻ dữ liệu (doanh số, sự cố, tiến độ) và báo cáo cho “王总” (giáo viên đóng vai, hay ngắt lời, hỏi dồn). Chấm: có nói kết luận trong 20 giây đầu không, có đưa phương án không.",
+   "② Sửa tin nhắn: giáo viên đưa 5 tin nhắn gửi sếp viết sai (quá dài, thiếu số liệu, giọng ra lệnh, thiếu thời hạn); các đội sửa lại, đội sửa nhanh và đúng nhất thắng.",
+   "③ Đúng tầng hay vượt cấp? 6 tình huống, học viên giơ thẻ “找直属领导” hoặc “可以直接找大领导” và giải thích bằng tiếng Trung."
+  ],
+  "patterns": [
+   {
+    "zh": "王总，您现在方便吗？我想跟您汇报一下本周的工作进度，大概五分钟。",
+    "vi": "Anh Vương, bây giờ anh có tiện không ạ? Em muốn báo cáo với anh tiến độ công việc tuần này, khoảng năm phút."
+   },
+   {
+    "zh": "先说结论：越南三家客户的续约已经完成两家，完成率67%。第三家河内的客户还在谈，主要卡在付款周期上，对方希望从30天延长到60天。",
+    "vi": "Em xin nói kết luận trước: ba khách hàng Việt Nam đã gia hạn hợp đồng được hai, đạt 67%. Khách thứ ba ở Hà Nội vẫn đang đàm phán, vướng chủ yếu ở kỳ hạn thanh toán, họ muốn kéo dài từ 30 ngày lên 60 ngày."
+   },
+   {
+    "zh": "我建议可以接受45天，但要求对方预付20%。这样既照顾了客户，又能控制风险。您看这样可以吗？",
+    "vi": "Em đề xuất có thể chấp nhận 45 ngày, nhưng yêu cầu họ trả trước 20%. Như vậy vừa chiều được khách, vừa kiểm soát được rủi ro. Anh thấy như vậy có được không ạ?"
+   },
+   {
+    "zh": "关于展会预算的事，我想请示一下。",
+    "vi": "Về chuyện ngân sách triển lãm, em muốn xin ý kiến anh."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Quan hệ cấp trên – cấp dưới",
+  "body_vi": [
+   "Công sở Trung Quốc nhìn chung có khoảng cách quyền lực lớn: quyết định tập trung ở người đứng đầu, cấp dưới được kỳ vọng 请示 trước khi làm và 汇报 sau khi làm. “Vượt cấp” (越级汇报) bị coi là làm mất mặt cấp trên trực tiếp, trừ khi có vấn đề nghiêm trọng về đạo đức, pháp lý. Các cụm như 领导说了算 (lãnh đạo quyết) hay 拍板 cho thấy vai trò người quyết định cuối cùng. Ở công ty internet và công ty nước ngoài, cấu trúc phẳng hơn, nhưng thói quen báo cáo theo tầng lớp vẫn phổ biến. Người Việt thường quen gọi thẳng sếp lớn khi thân quen; ở công ty Trung Quốc nên đi đúng tầng.",
+   "Ứng xử: Đến gặp sếp là phải mang theo phương án, tốt nhất là 2 phương án để sếp chọn; chỉ mang vấn đề đến là điểm trừ.",
+   "Ứng xử: Nhận chỉ thị qua WeChat thì trả lời ngay 收到 hoặc 好的，收到，并说明完成时间.",
+   "Ứng xử: Không phản bác cấp trên trước đông người; có ý kiến khác thì nói riêng sau cuộc họp.",
+   "Ứng xử: Việc chưa được 批准 thì chưa hứa với khách; có thể nói 我需要跟领导请示一下."
+  ]
+ }
+}

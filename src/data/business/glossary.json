@@ -1,0 +1,7001 @@
+{
+"_note": "Bảng tra pinyin (tự sinh) cho các từ ngoài danh sách từ mới của khoá Business Chinese. Nghĩa tiếng Việt lấy từ CVDICT (Phong Phan, CC BY-SA 4.0, dựa trên CC-CEDICT).",
+"words": [
+{
+"zh": "东盛集团",
+"pinyin": "Dōngshèng jítuán",
+"vi": "Tập đoàn Đông Thịnh",
+"known": true,
+"proper": true
+},
+{
+"zh": "老陈",
+"pinyin": "Lǎo Chén",
+"vi": "anh Trần",
+"known": true,
+"proper": true
+},
+{
+"zh": "林晓",
+"pinyin": "Lín Xiǎo",
+"vi": "Lâm Hiểu",
+"known": true,
+"proper": true
+},
+{
+"zh": "小阮",
+"pinyin": "Xiǎo Ruǎn",
+"vi": "Tiểu Nguyễn",
+"known": true,
+"proper": true
+},
+{
+"zh": "阮文安",
+"pinyin": "Ruǎn Wén'ān",
+"vi": "Nguyễn Văn An",
+"known": true,
+"proper": true
+},
+{
+"zh": "动词",
+"pinyin": "dòngcí",
+"vi": "động từ",
+"known": true
+},
+{
+"zh": "课文",
+"pinyin": "kèwén",
+"vi": "bài đọc",
+"known": true
+},
+{
+"zh": "文安",
+"pinyin": "wénān",
+"vi": "huyện Văn An ở Lang Phường 廊坊[Lang2 fang2], Hà Bắc",
+"known": true
+},
+{
+"zh": "加入",
+"pinyin": "jiārù",
+"vi": "trở thành thành viên; tham gia",
+"known": true
+},
+{
+"zh": "刘敏",
+"pinyin": "Liú Mǐn",
+"vi": "Lưu Mẫn (HR)",
+"known": true,
+"proper": true
+},
+{
+"zh": "刘",
+"pinyin": "liú",
+"vi": "(văn cổ) một loại búa chiến; trảm",
+"known": true
+},
+{
+"zh": "手续",
+"pinyin": "shǒuxù",
+"vi": "thủ tục",
+"known": true
+},
+{
+"zh": "刘姐",
+"pinyin": "Liú jiě",
+"vi": "chị Lưu",
+"known": true,
+"proper": true
+},
+{
+"zh": "哪些",
+"pinyin": "nǎxiē",
+"vi": "những cái nào?; ai?",
+"known": true
+},
+{
+"zh": "材料",
+"pinyin": "cáiliào",
+"vi": "(nguyên) liệu; dữ liệu",
+"known": true
+},
+{
+"zh": "材",
+"pinyin": "cái",
+"vi": "vật liệu; gỗ",
+"known": true
+},
+{
+"zh": "身份证件",
+"pinyin": "shēnfènzhèngjiàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "学历证明",
+"pinyin": "xuélìzhèngmíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "复印件",
+"pinyin": "fùyìnjiàn",
+"vi": "bản photocopy; bản sao",
+"known": true
+},
+{
+"zh": "印",
+"pinyin": "yìn",
+"vi": "viết tắt của 印度[Yin4du4], Ấn Độ",
+"known": true
+},
+{
+"zh": "先签",
+"pinyin": "xiānqiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "领工牌",
+"pinyin": "lǐnggōngpái",
+"vi": "",
+"known": true
+},
+{
+"zh": "多长时间",
+"pinyin": "duōzhǎngshíjiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "表现",
+"pinyin": "biǎoxiàn",
+"vi": "thể hiện; phô diễn",
+"known": true
+},
+{
+"zh": "当月",
+"pinyin": "dàngyuè",
+"vi": "vào tháng đó",
+"known": true
+},
+{
+"zh": "纳",
+"pinyin": "nà",
+"vi": "nhận; chấp nhận",
+"known": true
+},
+{
+"zh": "手册",
+"pinyin": "shǒucè",
+"vi": "sổ tay; cẩm nang",
+"known": true
+},
+{
+"zh": "册",
+"pinyin": "cè",
+"vi": "sách; tập sách",
+"known": true
+},
+{
+"zh": "勤",
+"pinyin": "qín",
+"vi": "siêng năng; cần cù",
+"known": true
+},
+{
+"zh": "九点",
+"pinyin": "jiǔdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "费用",
+"pinyin": "fèiyòng",
+"vi": "chi phí; kinh phí",
+"known": true
+},
+{
+"zh": "销",
+"pinyin": "xiāo",
+"vi": "nấu chảy (kim loại); hủy; thủ tiêu",
+"known": true
+},
+{
+"zh": "三年",
+"pinyin": "sānnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "所致",
+"pinyin": "suǒzhì",
+"vi": "do, bởi",
+"known": true
+},
+{
+"zh": "致",
+"pinyin": "zhì",
+"vi": "(dạng kết hợp) tinh tế; tinh xảo; đẹp đẽ",
+"known": true
+},
+{
+"zh": "表格",
+"pinyin": "biǎogé",
+"vi": "biểu mẫu; bảng",
+"known": true
+},
+{
+"zh": "之日起",
+"pinyin": "zhīrìqǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一位",
+"pinyin": "yīwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "阮就行",
+"pinyin": "ruǎnjiùxíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "线路",
+"pinyin": "xiànlù",
+"vi": "(điện) dây; mạch; dây điện; (giao thông) đường; tuyến đường; lộ trình",
+"known": true
+},
+{
+"zh": "不太熟悉",
+"pinyin": "bùtàishúxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "得不到",
+"pinyin": "débúdào",
+"vi": "không thể nhận được; không thể đạt được",
+"known": true
+},
+{
+"zh": "陈",
+"pinyin": "chén",
+"vi": "Trần (khoảng 1045 - 479 TCN), một nước thời nhà Chu",
+"known": true
+},
+{
+"zh": "直属",
+"pinyin": "zhíshǔ",
+"vi": "trực thuộc",
+"known": true
+},
+{
+"zh": "指教",
+"pinyin": "zhǐjiào",
+"vi": "đưa ra lời khuyên hoặc ý kiến",
+"known": true
+},
+{
+"zh": "翻一番",
+"pinyin": "fānyīfān",
+"vi": "tăng 100%; gấp đôi",
+"known": true
+},
+{
+"zh": "番",
+"pinyin": "fān",
+"vi": "(hình thức kết hợp) ngoại (không phải Trung Quốc); man di",
+"known": true
+},
+{
+"zh": "占",
+"pinyin": "zhàn",
+"vi": "quan sát; bói toán",
+"known": true
+},
+{
+"zh": "陈工",
+"pinyin": "Chén gōng",
+"vi": "kỹ sư Trần",
+"known": true,
+"proper": true
+},
+{
+"zh": "主任",
+"pinyin": "zhǔrèn",
+"vi": "giám đốc; trưởng",
+"known": true
+},
+{
+"zh": "花名",
+"pinyin": "huāmíng",
+"vi": "tên của một người trong sổ hộ khẩu (cũ); tên trong danh sách",
+"known": true
+},
+{
+"zh": "小姐",
+"pinyin": "xiǎojiě",
+"vi": "cô gái; cô",
+"known": true
+},
+{
+"zh": "女士",
+"pinyin": "nǚshì",
+"vi": "quý bà; phu nhân",
+"known": true
+},
+{
+"zh": "士",
+"pinyin": "shì",
+"vi": "thành viên tầng lớp đại phu (xưa); học giả (xưa)",
+"known": true
+},
+{
+"zh": "融入",
+"pinyin": "róngrù",
+"vi": "hòa vào; tích hợp",
+"known": true
+},
+{
+"zh": "融",
+"pinyin": "róng",
+"vi": "tan; chảy",
+"known": true
+},
+{
+"zh": "团队",
+"pinyin": "tuánduì",
+"vi": "đội nhóm",
+"known": true
+},
+{
+"zh": "先说",
+"pinyin": "xiānshuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "原因",
+"pinyin": "yuányīn",
+"vi": "nguyên nhân; nguồn gốc",
+"known": true
+},
+{
+"zh": "既",
+"pinyin": "jì",
+"vi": "đã; kể từ",
+"known": true
+},
+{
+"zh": "工作汇报",
+"pinyin": "gōngzuòhuìbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "本周",
+"pinyin": "běnzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "工作进度",
+"pinyin": "gōngzuòjìndù",
+"vi": "",
+"known": true
+},
+{
+"zh": "三家",
+"pinyin": "sānjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "两家",
+"pinyin": "liǎngjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "第三家",
+"pinyin": "dìsānjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "周期",
+"pinyin": "zhōuqī",
+"vi": "chu kỳ; chu trình",
+"known": true
+},
+{
+"zh": "希",
+"pinyin": "xī",
+"vi": "hy vọng; ngưỡng mộ",
+"known": true
+},
+{
+"zh": "延长",
+"pinyin": "yáncháng",
+"vi": "huyện Yanchang ở Yan'an 延安[Yan2 an1], Thiểm Tây",
+"known": true
+},
+{
+"zh": "意见",
+"pinyin": "yìjiàn",
+"vi": "ý kiến; quan điểm",
+"known": true
+},
+{
+"zh": "接受",
+"pinyin": "jiēshòu",
+"vi": "chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý",
+"known": true
+},
+{
+"zh": "控制",
+"pinyin": "kòngzhì",
+"vi": "kiểm soát",
+"known": true
+},
+{
+"zh": "制",
+"pinyin": "zhì",
+"vi": "hệ thống; kiểm soát",
+"known": true
+},
+{
+"zh": "整理",
+"pinyin": "zhěnglǐ",
+"vi": "sắp xếp; dọn dẹp",
+"known": true
+},
+{
+"zh": "发给您",
+"pinyin": "fāgěinín",
+"vi": "",
+"known": true
+},
+{
+"zh": "想要",
+"pinyin": "xiǎngyào",
+"vi": "muốn; cảm thấy thích",
+"known": true
+},
+{
+"zh": "六十天",
+"pinyin": "liùshítiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "增长",
+"pinyin": "zēngzhǎng",
+"vi": "tăng trưởng; tăng lên",
+"known": true
+},
+{
+"zh": "增",
+"pinyin": "zēng",
+"vi": "(dạng kết hợp) tăng; tăng thêm; thêm vào",
+"known": true
+},
+{
+"zh": "一倍",
+"pinyin": "yíbèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "倍",
+"pinyin": "bèi",
+"vi": "(hai, ba, v.v.) lần; gấp bội",
+"known": true
+},
+{
+"zh": "先行",
+"pinyin": "xiānxíng",
+"vi": "bắt đầu trước người khác; đi trước; tiến hành trước",
+"known": true
+},
+{
+"zh": "超过",
+"pinyin": "chāoguò",
+"vi": "vượt qua; vượt quá",
+"known": true
+},
+{
+"zh": "五万",
+"pinyin": "wǔwàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "批",
+"pinyin": "pī",
+"vi": "xác minh; xử lý",
+"known": true
+},
+{
+"zh": "再报",
+"pinyin": "zàibào",
+"vi": "",
+"known": true
+},
+{
+"zh": "展会",
+"pinyin": "zhǎnhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "突破",
+"pinyin": "tūpò",
+"vi": "đột phá; tạo ra bước đột phá",
+"known": true
+},
+{
+"zh": "突",
+"pinyin": "tū",
+"vi": "lao ra; di chuyển nhanh",
+"known": true
+},
+{
+"zh": "即使",
+"pinyin": "jíshǐ",
+"vi": "dù cho; mặc dù",
+"known": true
+},
+{
+"zh": "即",
+"pinyin": "jí",
+"vi": "tức là; nghĩa là",
+"known": true
+},
+{
+"zh": "微信里",
+"pinyin": "wēixìnlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "万元",
+"pinyin": "wànyuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "展位",
+"pinyin": "zhǎnwèi",
+"vi": "vị trí gian triển lãm; khu vực sàn được phân cho quầy trưng bày",
+"known": true
+},
+{
+"zh": "差旅",
+"pinyin": "chàlǚ",
+"vi": "",
+"known": true
+},
+{
+"zh": "物料",
+"pinyin": "wùliào",
+"vi": "vật liệu",
+"known": true
+},
+{
+"zh": "有空时",
+"pinyin": "yǒukòngshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "馈",
+"pinyin": "kuì",
+"vi": "dâng lễ cho thần linh",
+"known": true
+},
+{
+"zh": "个会",
+"pinyin": "gèhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "现金流",
+"pinyin": "xiànjīnliú",
+"vi": "dòng tiền",
+"known": true
+},
+{
+"zh": "嗯",
+"pinyin": "ń",
+"vi": "(âm thanh rên rỉ)",
+"known": true
+},
+{
+"zh": "四十五天",
+"pinyin": "sìshíwǔtiān",
+"vi": "",
+"known": true
+},
+{
+"zh": "先付",
+"pinyin": "xiānfù",
+"vi": "",
+"known": true
+},
+{
+"zh": "两成",
+"pinyin": "liǎngchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "出个",
+"pinyin": "chūgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "批准",
+"pinyin": "pīzhǔn",
+"vi": "phê duyệt; phê chuẩn",
+"known": true
+},
+{
+"zh": "仍",
+"pinyin": "réng",
+"vi": "vẫn; duy trì",
+"known": true
+},
+{
+"zh": "找大",
+"pinyin": "zhǎodà",
+"vi": "",
+"known": true
+},
+{
+"zh": "说了算",
+"pinyin": "shuōlesuàn",
+"vi": "có tiếng nói cuối cùng; là người phụ trách",
+"known": true
+},
+{
+"zh": "并",
+"pinyin": "bìng",
+"vi": "và; hơn nữa",
+"known": true
+},
+{
+"zh": "回个",
+"pinyin": "huígè",
+"vi": "",
+"known": true
+},
+{
+"zh": "马上发",
+"pinyin": "mǎshàngfā",
+"vi": "",
+"known": true
+},
+{
+"zh": "华丰",
+"pinyin": "Huáfēng",
+"vi": "Hoa Phong (tên công ty khách hàng)",
+"known": true,
+"proper": true
+},
+{
+"zh": "华",
+"pinyin": "huá",
+"vi": "viết tắt của Trung Quốc",
+"known": true
+},
+{
+"zh": "丰",
+"pinyin": "fēng",
+"vi": "sum suê; đẫy đà",
+"known": true
+},
+{
+"zh": "哪位",
+"pinyin": "nǎwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "东盛",
+"pinyin": "Dōngshèng",
+"vi": "Đông Thịnh (tên công ty)",
+"known": true,
+"proper": true
+},
+{
+"zh": "盛",
+"pinyin": "shèng",
+"vi": "đựng; chứa",
+"known": true
+},
+{
+"zh": "集团",
+"pinyin": "jítuán",
+"vi": "nhóm; khối",
+"known": true
+},
+{
+"zh": "集",
+"pinyin": "jí",
+"vi": "tập hợp; thu thập",
+"known": true
+},
+{
+"zh": "采购部",
+"pinyin": "cǎigòubù",
+"vi": "",
+"known": true
+},
+{
+"zh": "赵",
+"pinyin": "zhào",
+"vi": "một trong bảy nước thời Chiến Quốc (476-220 TCN)",
+"known": true
+},
+{
+"zh": "请稍等",
+"pinyin": "qǐngshāoděng",
+"vi": "",
+"known": true
+},
+{
+"zh": "稍",
+"pinyin": "shāo",
+"vi": "hơi; một chút",
+"known": true
+},
+{
+"zh": "一下下",
+"pinyin": "yīxiàxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "记下",
+"pinyin": "jìxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "尽快",
+"pinyin": "jǐnkuài",
+"vi": "càng nhanh càng tốt; càng sớm càng tốt",
+"known": true
+},
+{
+"zh": "尽",
+"pinyin": "jǐn",
+"vi": "đến mức tối đa",
+"known": true
+},
+{
+"zh": "我拉个",
+"pinyin": "wǒlāgè",
+"vi": "",
+"known": true
+},
+{
+"zh": "拉进来",
+"pinyin": "lājìnlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "之后",
+"pinyin": "zhīhòu",
+"vi": "sau; đằng sau; (ở đầu câu) sau đó; từ đó về sau",
+"known": true
+},
+{
+"zh": "码加",
+"pinyin": "mǎjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "文件",
+"pinyin": "wénjiàn",
+"vi": "tài liệu; tệp",
+"known": true
+},
+{
+"zh": "尽量",
+"pinyin": "jǐnliàng",
+"vi": "càng nhiều càng tốt; đến mức tối đa",
+"known": true
+},
+{
+"zh": "顶",
+"pinyin": "dǐng",
+"vi": "đỉnh; mỏm đầu",
+"known": true
+},
+{
+"zh": "艾特",
+"pinyin": "àitè",
+"vi": "ký hiệu a còng, @",
+"known": true
+},
+{
+"zh": "艾",
+"pinyin": "ài",
+"vi": "ngải cứu hoặc ngải đắng; dừng lại hoặc cắt ngắn",
+"known": true
+},
+{
+"zh": "撤",
+"pinyin": "chè",
+"vi": "gỡ bỏ; dời đi",
+"known": true
+},
+{
+"zh": "隐形",
+"pinyin": "yǐnxíng",
+"vi": "vô hình",
+"known": true
+},
+{
+"zh": "隐",
+"pinyin": "yǐn",
+"vi": "(hình thức ghép) bí mật; ẩn; giấu; mật mã-",
+"known": true
+},
+{
+"zh": "所有人",
+"pinyin": "suǒyǒurén",
+"vi": "",
+"known": true
+},
+{
+"zh": "二号",
+"pinyin": "èrhào",
+"vi": "ngày mùng 2 trong tháng",
+"known": true
+},
+{
+"zh": "仓库",
+"pinyin": "cāngkù",
+"vi": "kho hàng; nhà kho",
+"known": true
+},
+{
+"zh": "仓",
+"pinyin": "cāng",
+"vi": "kho; thương khố",
+"known": true
+},
+{
+"zh": "技术部",
+"pinyin": "jìshùbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "小林",
+"pinyin": "xiǎolín",
+"vi": "Kobayashi (họ của Nhật Bản)",
+"known": true
+},
+{
+"zh": "林",
+"pinyin": "lín",
+"vi": "(dùng trong từ ghép) rừng",
+"known": true
+},
+{
+"zh": "到达",
+"pinyin": "dàodá",
+"vi": "đạt đến; đến nơi",
+"known": true
+},
+{
+"zh": "京报网",
+"pinyin": "jīngbàowǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "央广网",
+"pinyin": "yāngguǎngwǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "央",
+"pinyin": "yāng",
+"vi": "trung tâm; kết thúc",
+"known": true
+},
+{
+"zh": "广",
+"pinyin": "guǎng",
+"vi": "bộ \"nhà trên vách núi\" trong chữ Hán (bộ Khang Hy số 53), xuất hiện tr",
+"known": true
+},
+{
+"zh": "这么晚",
+"pinyin": "zhèmewǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "一封",
+"pinyin": "yīfēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "拟于",
+"pinyin": "nǐyú",
+"vi": "",
+"known": true
+},
+{
+"zh": "不便",
+"pinyin": "bùbiàn",
+"vi": "bất tiện; không thích hợp",
+"known": true
+},
+{
+"zh": "敬请",
+"pinyin": "jìngqǐng",
+"vi": "kính mời (làm gì đó) (cách nói kính trọng)",
+"known": true
+},
+{
+"zh": "见谅",
+"pinyin": "jiànliàng",
+"vi": "xin hãy tha thứ cho tôi",
+"known": true
+},
+{
+"zh": "忽略",
+"pinyin": "hūlüè",
+"vi": "bỏ qua; xem nhẹ; phớt lờ",
+"known": true
+},
+{
+"zh": "忽",
+"pinyin": "hū",
+"vi": "sao nhãng; bỏ qua",
+"known": true
+},
+{
+"zh": "洽",
+"pinyin": "qià",
+"vi": "phù hợp; liên hệ",
+"known": true
+},
+{
+"zh": "合作",
+"pinyin": "hézuò",
+"vi": "hợp tác; cộng tác; làm việc cùng nhau",
+"known": true
+},
+{
+"zh": "尊敬",
+"pinyin": "zūnjìng",
+"vi": "tôn trọng; tôn kính; kính trọng",
+"known": true
+},
+{
+"zh": "以来",
+"pinyin": "yǐlái",
+"vi": "kể từ (một sự kiện trước)",
+"known": true
+},
+{
+"zh": "进一步",
+"pinyin": "jìnyíbù",
+"vi": "tiến thêm một bước; (phát triển, hiểu, cải thiện, v.v.) hơn nữa; thêm",
+"known": true
+},
+{
+"zh": "双方",
+"pinyin": "shuāngfāng",
+"vi": "song phương; hai bên",
+"known": true
+},
+{
+"zh": "冷链",
+"pinyin": "lěngliàn",
+"vi": "dây chuyền lạnh",
+"known": true
+},
+{
+"zh": "方面",
+"pinyin": "fāngmiàn",
+"vi": "khía cạnh; phương diện",
+"known": true
+},
+{
+"zh": "三人拟",
+"pinyin": "sānrénnǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "第四季度",
+"pinyin": "dìsìjìdù",
+"vi": "quý thứ tư (của năm tài chính)",
+"known": true
+},
+{
+"zh": "季",
+"pinyin": "jì",
+"vi": "mùa; tháng cuối của một mùa",
+"known": true
+},
+{
+"zh": "新线路",
+"pinyin": "xīnxiànlù",
+"vi": "",
+"known": true
+},
+{
+"zh": "检测",
+"pinyin": "jiǎncè",
+"vi": "phát hiện; kiểm tra",
+"known": true
+},
+{
+"zh": "测",
+"pinyin": "cè",
+"vi": "khảo sát; đo",
+"known": true
+},
+{
+"zh": "日前",
+"pinyin": "rìqián",
+"vi": "hôm nọ; mấy ngày trước",
+"known": true
+},
+{
+"zh": "上述",
+"pinyin": "shàngshù",
+"vi": "đã nói ở trên; đã đề cập ở trên",
+"known": true
+},
+{
+"zh": "述",
+"pinyin": "shù",
+"vi": "(hình thức kết hợp) trình bày; kể; thuật lại; diễn đạt",
+"known": true
+},
+{
+"zh": "是否",
+"pinyin": "shìfǒu",
+"vi": "liệu có (hay không); nếu",
+"known": true
+},
+{
+"zh": "如需",
+"pinyin": "rúxū",
+"vi": "",
+"known": true
+},
+{
+"zh": "将",
+"pinyin": "jiāng",
+"vi": "sẽ; dùng",
+"known": true
+},
+{
+"zh": "积极",
+"pinyin": "jījí",
+"vi": "chủ động; năng động",
+"known": true
+},
+{
+"zh": "积",
+"pinyin": "jī",
+"vi": "tích lũy; gom góp; lưu trữ; (toán) tích (kết quả của phép nhân)",
+"known": true
+},
+{
+"zh": "配合",
+"pinyin": "pèihé",
+"vi": "phù hợp; phối hợp với",
+"known": true
+},
+{
+"zh": "顺颂",
+"pinyin": "shùnsòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "颂",
+"pinyin": "sòng",
+"vi": "thơ ca tụng; điếu văn",
+"known": true
+},
+{
+"zh": "商祺",
+"pinyin": "shāngqí",
+"vi": "kinh doanh thịnh vượng",
+"known": true
+},
+{
+"zh": "祺",
+"pinyin": "qí",
+"vi": "cát tường; thịnh vượng",
+"known": true
+},
+{
+"zh": "抄",
+"pinyin": "chāo",
+"vi": "sao chép; đạo văn",
+"known": true
+},
+{
+"zh": "而是",
+"pinyin": "érshì",
+"vi": "mà là",
+"known": true
+},
+{
+"zh": "而",
+"pinyin": "ér",
+"vi": "và; cũng như",
+"known": true
+},
+{
+"zh": "下降",
+"pinyin": "xiàjiàng",
+"vi": "giảm; sụt",
+"known": true
+},
+{
+"zh": "降",
+"pinyin": "jiàng",
+"vi": "rơi; giảm",
+"known": true
+},
+{
+"zh": "来函",
+"pinyin": "láihán",
+"vi": "thư gửi đến; thư từ xa",
+"known": true
+},
+{
+"zh": "函",
+"pinyin": "hán",
+"vi": "phong bì; hộp",
+"known": true
+},
+{
+"zh": "收悉",
+"pinyin": "shōuxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "来访",
+"pinyin": "láifǎng",
+"vi": "đến thăm",
+"known": true
+},
+{
+"zh": "不巧",
+"pinyin": "bùqiǎo",
+"vi": "thật tiếc; không may",
+"known": true
+},
+{
+"zh": "巧",
+"pinyin": "qiǎo",
+"vi": "một cách tình cờ; trùng hợp",
+"known": true
+},
+{
+"zh": "董事会",
+"pinyin": "dǒngshìhuì",
+"vi": "hội đồng quản trị",
+"known": true
+},
+{
+"zh": "董",
+"pinyin": "dǒng",
+"vi": "giám sát; chỉ đạo",
+"known": true
+},
+{
+"zh": "能否",
+"pinyin": "néngfǒu",
+"vi": "có hay không; có thể hay không",
+"known": true
+},
+{
+"zh": "改至",
+"pinyin": "gǎizhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "周二",
+"pinyin": "zhōuèr",
+"vi": "Thứ Ba",
+"known": true
+},
+{
+"zh": "期待",
+"pinyin": "qīdài",
+"vi": "mong chờ; chờ đợi",
+"known": true
+},
+{
+"zh": "待",
+"pinyin": "dài",
+"vi": "ở lại",
+"known": true
+},
+{
+"zh": "赵磊",
+"pinyin": "Zhào Lěi",
+"vi": "Triệu Lỗi",
+"known": true,
+"proper": true
+},
+{
+"zh": "磊",
+"pinyin": "lěi",
+"vi": "lổn nhổn; đống đá",
+"known": true
+},
+{
+"zh": "委婉",
+"pinyin": "wěiwǎn",
+"vi": "khéo léo; uyển chuyển",
+"known": true
+},
+{
+"zh": "委",
+"pinyin": "wěi",
+"vi": "giống như 逶 trong 逶迤 quanh co, uốn lượn",
+"known": true
+},
+{
+"zh": "婉",
+"pinyin": "wǎn",
+"vi": "duyên dáng; khéo léo",
+"known": true
+},
+{
+"zh": "催款",
+"pinyin": "cuīkuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "温馨",
+"pinyin": "wēnxīn",
+"vi": "ấm áp; nhẹ nhàng và thơm",
+"known": true
+},
+{
+"zh": "温",
+"pinyin": "wēn",
+"vi": "ấm; âm ấm; hâm nóng",
+"known": true
+},
+{
+"zh": "馨",
+"pinyin": "xīn",
+"vi": "thơm ngát",
+"known": true
+},
+{
+"zh": "月份",
+"pinyin": "yuèfèn",
+"vi": "tháng",
+"known": true
+},
+{
+"zh": "账单",
+"pinyin": "zhàngdān",
+"vi": "hóa đơn",
+"known": true
+},
+{
+"zh": "发票",
+"pinyin": "fāpiào",
+"vi": "hóa đơn; biên nhận; phiếu thu",
+"known": true
+},
+{
+"zh": "应付",
+"pinyin": "yìngfù",
+"vi": "đối phó; xử lý",
+"known": true
+},
+{
+"zh": "合计",
+"pinyin": "héjì",
+"vi": "cộng tổng; tính tổng",
+"known": true
+},
+{
+"zh": "人民币",
+"pinyin": "rénmínbì",
+"vi": "Nhân dân tệ (NDT); Đồng Yuan Trung Quốc (CNY)",
+"known": true
+},
+{
+"zh": "币",
+"pinyin": "bì",
+"vi": "tiền; tiền xu",
+"known": true
+},
+{
+"zh": "约定",
+"pinyin": "yuēdìng",
+"vi": "thoả thuận (sau khi thảo luận); kết luận một giao kèo",
+"known": true
+},
+{
+"zh": "付款日",
+"pinyin": "fùkuǎnrì",
+"vi": "",
+"known": true
+},
+{
+"zh": "目前",
+"pinyin": "mùqián",
+"vi": "hiện tại; bây giờ",
+"known": true
+},
+{
+"zh": "我方",
+"pinyin": "wǒfāng",
+"vi": "phía chúng tôi; chúng tôi",
+"known": true
+},
+{
+"zh": "尚未",
+"pinyin": "shàngwèi",
+"vi": "chưa; vẫn chưa",
+"known": true
+},
+{
+"zh": "尚",
+"pinyin": "shàng",
+"vi": "vẫn; còn",
+"known": true
+},
+{
+"zh": "未",
+"pinyin": "wèi",
+"vi": "chưa; chưa từng",
+"known": true
+},
+{
+"zh": "该笔",
+"pinyin": "gāibǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "便于",
+"pinyin": "biànyú",
+"vi": "dễ dàng để; thuận tiện cho",
+"known": true
+},
+{
+"zh": "歧",
+"pinyin": "qí",
+"vi": "phân kỳ; đường nhánh",
+"known": true
+},
+{
+"zh": "义",
+"pinyin": "yì",
+"vi": "(Đài Loan) viết tắt của 義大利|义大利[Yi4da4li4], Ý",
+"known": true
+},
+{
+"zh": "中文版",
+"pinyin": "zhōngwénbǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "版",
+"pinyin": "bǎn",
+"vi": "một đăng ký; khối in",
+"known": true
+},
+{
+"zh": "为准",
+"pinyin": "wèizhǔn",
+"vi": "làm chuẩn",
+"known": true
+},
+{
+"zh": "公文",
+"pinyin": "gōngwén",
+"vi": "tài liệu chính thức",
+"known": true
+},
+{
+"zh": "兹",
+"pinyin": "zī",
+"vi": "bây giờ; đây",
+"known": true
+},
+{
+"zh": "此致敬礼",
+"pinyin": "cǐzhìjìnglǐ",
+"vi": "kính thư (ở cuối thư)",
+"known": true
+},
+{
+"zh": "此",
+"pinyin": "cǐ",
+"vi": "này; những...này",
+"known": true
+},
+{
+"zh": "书面语",
+"pinyin": "shūmiànyǔ",
+"vi": "ngôn ngữ viết",
+"known": true
+},
+{
+"zh": "生意",
+"pinyin": "shēngyì",
+"vi": "sinh lực; sức sống",
+"known": true
+},
+{
+"zh": "造成",
+"pinyin": "zàochéng",
+"vi": "gây ra; tạo ra; khiến",
+"known": true
+},
+{
+"zh": "造",
+"pinyin": "zào",
+"vi": "làm; xây dựng",
+"known": true
+},
+{
+"zh": "付钱",
+"pinyin": "fùqián",
+"vi": "trả tiền",
+"known": true
+},
+{
+"zh": "逾期",
+"pinyin": "yúqī",
+"vi": "bị quá hạn; không kịp thời hạn",
+"known": true
+},
+{
+"zh": "逾",
+"pinyin": "yú",
+"vi": "vượt quá; vượt qua",
+"known": true
+},
+{
+"zh": "那天",
+"pinyin": "nàtiān",
+"vi": "ngày đó; hôm nọ",
+"known": true
+},
+{
+"zh": "纪",
+"pinyin": "jì",
+"vi": "cũng phát âm [Ji4]",
+"known": true
+},
+{
+"zh": "第二",
+"pinyin": "dìèr",
+"vi": "thứ hai; số hai",
+"known": true
+},
+{
+"zh": "两句",
+"pinyin": "liǎngjù",
+"vi": "(nói) vài lời",
+"known": true
+},
+{
+"zh": "观点",
+"pinyin": "guāndiǎn",
+"vi": "quan điểm; góc nhìn",
+"known": true
+},
+{
+"zh": "观",
+"pinyin": "guān",
+"vi": "nhìn; ngắm",
+"known": true
+},
+{
+"zh": "有限",
+"pinyin": "yǒuxiàn",
+"vi": "hạn chế; hữu hạn",
+"known": true
+},
+{
+"zh": "会后",
+"pinyin": "huìhòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "单独",
+"pinyin": "dāndú",
+"vi": "một mình; tự mình",
+"known": true
+},
+{
+"zh": "讨",
+"pinyin": "tǎo",
+"vi": "mời; gây ra",
+"known": true
+},
+{
+"zh": "例",
+"pinyin": "lì",
+"vi": "ví dụ; tiền lệ",
+"known": true
+},
+{
+"zh": "销售",
+"pinyin": "xiāoshòu",
+"vi": "bán; tiếp thị",
+"known": true
+},
+{
+"zh": "第三",
+"pinyin": "dìsān",
+"vi": "",
+"known": true
+},
+{
+"zh": "新人",
+"pinyin": "xīnrén",
+"vi": "người mới; tài năng mới",
+"known": true
+},
+{
+"zh": "安排",
+"pinyin": "ānpái",
+"vi": "sắp xếp; lên kế hoạch",
+"known": true
+},
+{
+"zh": "四十分钟",
+"pinyin": "sìshífēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "以内",
+"pinyin": "yǐnèi",
+"vi": "trong vòng; ít hơn",
+"known": true
+},
+{
+"zh": "销售额",
+"pinyin": "xiāoshòué",
+"vi": "số liệu bán hàng; tổng thu nhập từ bán hàng",
+"known": true
+},
+{
+"zh": "平均",
+"pinyin": "píngjūn",
+"vi": "trung bình; bình quân; đều; theo tỷ lệ bằng nhau",
+"known": true
+},
+{
+"zh": "均",
+"pinyin": "jūn",
+"vi": "bằng; ngang",
+"known": true
+},
+{
+"zh": "晚到",
+"pinyin": "wǎndào",
+"vi": "",
+"known": true
+},
+{
+"zh": "是因为",
+"pinyin": "shìyīnwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "谅山",
+"pinyin": "liàngshān",
+"vi": "",
+"known": true
+},
+{
+"zh": "岸",
+"pinyin": "àn",
+"vi": "bờ; bãi; bờ biển; bờ sông",
+"known": true
+},
+{
+"zh": "进入",
+"pinyin": "jìnrù",
+"vi": "đi vào; gia nhập",
+"known": true
+},
+{
+"zh": "销量",
+"pinyin": "xiāoliàng",
+"vi": "khối lượng bán ra",
+"known": true
+},
+{
+"zh": "复核",
+"pinyin": "fùhé",
+"vi": "tái thẩm tra; duyệt lại (ví dụ: một báo cáo trước khi chấp nhận)",
+"known": true
+},
+{
+"zh": "八成",
+"pinyin": "bāchéng",
+"vi": "tám mươi phần trăm; có khả năng nhất",
+"known": true
+},
+{
+"zh": "第一周",
+"pinyin": "dìyīzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "同时",
+"pinyin": "tóngshí",
+"vi": "đồng thời; cùng lúc",
+"known": true
+},
+{
+"zh": "多备",
+"pinyin": "duōbèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "周期长",
+"pinyin": "zhōuqīzhǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "资金",
+"pinyin": "zījīn",
+"vi": "quỹ; vốn",
+"known": true
+},
+{
+"zh": "压力",
+"pinyin": "yālì",
+"vi": "áp lực",
+"known": true
+},
+{
+"zh": "先备",
+"pinyin": "xiānbèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "七成",
+"pinyin": "qīchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "不够",
+"pinyin": "bùgòu",
+"vi": "không đủ; không đủ mức",
+"known": true
+},
+{
+"zh": "日周",
+"pinyin": "rìzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "参会",
+"pinyin": "cānhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "记录",
+"pinyin": "jìlù",
+"vi": "ghi chép; bản ghi chép",
+"known": true
+},
+{
+"zh": "改进",
+"pinyin": "gǎijìn",
+"vi": "cải thiện; làm cho tốt hơn; sự cải thiện",
+"known": true
+},
+{
+"zh": "截止",
+"pinyin": "jiézhǐ",
+"vi": "đóng; ngừng",
+"known": true
+},
+{
+"zh": "日期",
+"pinyin": "rìqī",
+"vi": "ngày tháng",
+"known": true
+},
+{
+"zh": "屏幕",
+"pinyin": "píngmù",
+"vi": "màn hình (TV, máy tính hoặc phim)",
+"known": true
+},
+{
+"zh": "去年",
+"pinyin": "qùnián",
+"vi": "năm ngoái",
+"known": true
+},
+{
+"zh": "尽管",
+"pinyin": "jǐnguǎn",
+"vi": "mặc dù; tuy rằng",
+"known": true
+},
+{
+"zh": "管",
+"pinyin": "guǎn",
+"vi": "chăm sóc; kiểm soát",
+"known": true
+},
+{
+"zh": "文山会海",
+"pinyin": "wénshānhuìhǎi",
+"vi": "văn bản chất đống và họp hành liên miên (thành ngữ)",
+"known": true
+},
+{
+"zh": "中国政府",
+"pinyin": "zhōngguózhèngfǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "政",
+"pinyin": "zhèng",
+"vi": "thuộc về chính trị; chính trị",
+"known": true
+},
+{
+"zh": "府",
+"pinyin": "fǔ",
+"vi": "trung tâm hành chính; nơi lưu trữ của chính phủ (lưu trữ)",
+"known": true
+},
+{
+"zh": "互联网",
+"pinyin": "hùliánwǎng",
+"vi": "Internet",
+"known": true
+},
+{
+"zh": "互",
+"pinyin": "hù",
+"vi": "lẫn nhau",
+"known": true
+},
+{
+"zh": "打法",
+"pinyin": "dǎfǎ",
+"vi": "chơi (một lá bài); thực hiện một nước đi trong trò chơi",
+"known": true
+},
+{
+"zh": "链路",
+"pinyin": "liànlù",
+"vi": "liên kết",
+"known": true
+},
+{
+"zh": "迎来送往",
+"pinyin": "yíngláisòngwǎng",
+"vi": "nghĩa đen: đón người đến, tiễn người đi (thành ngữ); bận rộn tiếp đãi ",
+"known": true
+},
+{
+"zh": "来到",
+"pinyin": "láidào",
+"vi": "đến; tới",
+"known": true
+},
+{
+"zh": "这位",
+"pinyin": "zhèwèi",
+"vi": "người này",
+"known": true
+},
+{
+"zh": "涵",
+"pinyin": "hán",
+"vi": "chứa; bao gồm",
+"known": true
+},
+{
+"zh": "接机",
+"pinyin": "jiējī",
+"vi": "đón người (hoặc đón) đến bằng máy bay",
+"known": true
+},
+{
+"zh": "深圳",
+"pinyin": "shēnzhèn",
+"vi": "thành phố cấp phó tỉnh Thâm Quyến ở Quảng Đông, khu kinh tế đặc biệt g",
+"known": true
+},
+{
+"zh": "深",
+"pinyin": "shēn",
+"vi": "sâu (cả nghĩa đen và bóng)",
+"known": true
+},
+{
+"zh": "圳",
+"pinyin": "zhèn",
+"vi": "(phương ngữ) mương thoát nước giữa các cánh đồng (tiếng Đài Loan là [z",
+"known": true
+},
+{
+"zh": "一路",
+"pinyin": "yīlù",
+"vi": "cả chặng đường; suốt dọc đường",
+"known": true
+},
+{
+"zh": "还好",
+"pinyin": "háihǎo",
+"vi": "không tệ; khá ổn",
+"known": true
+},
+{
+"zh": "准时",
+"pinyin": "zhǔnshí",
+"vi": "đúng giờ; đúng lịch trình",
+"known": true
+},
+{
+"zh": "总监",
+"pinyin": "zǒngjiān",
+"vi": "người đứng đầu; giám đốc (của một đơn vị tổ chức)",
+"known": true
+},
+{
+"zh": "孙总",
+"pinyin": "sūnzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "孙",
+"pinyin": "sūn",
+"vi": "cháu trai; hậu duệ",
+"known": true
+},
+{
+"zh": "幸会幸",
+"pinyin": "xìnghuìxìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "双手",
+"pinyin": "shuāngshǒu",
+"vi": "cả hai tay",
+"known": true
+},
+{
+"zh": "请多关照",
+"pinyin": "qǐngduōguānzhào",
+"vi": "mong được quan tâm giúp đỡ (lời chào hỏi khi gặp lần đầu)",
+"known": true
+},
+{
+"zh": "接过",
+"pinyin": "jiēguò",
+"vi": "nhận (thứ gì được đưa cho)",
+"known": true
+},
+{
+"zh": "先送",
+"pinyin": "xiānsòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "六点半",
+"pinyin": "liùdiǎnbàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "李总请",
+"pinyin": "lǐzǒngqǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "送机",
+"pinyin": "sòngjī",
+"vi": "",
+"known": true
+},
+{
+"zh": "仰",
+"pinyin": "yǎng",
+"vi": "ngửa mặt; nhìn lên",
+"known": true
+},
+{
+"zh": "工厂",
+"pinyin": "gōngchǎng",
+"vi": "nhà máy",
+"known": true
+},
+{
+"zh": "厂",
+"pinyin": "chǎng",
+"vi": "bộ \"hán\" trong chữ Hán (bộ Khang Hy số 27), xuất hiện trong 原, 历, 压 v.",
+"known": true
+},
+{
+"zh": "平阳",
+"pinyin": "píngyáng",
+"vi": "huyện Bình Dương ở Ôn Châu 溫州|温州[Wen1 zhou1], Chiết Giang",
+"known": true
+},
+{
+"zh": "阳",
+"pinyin": "yáng",
+"vi": "dương (điện); mặt trời",
+"known": true
+},
+{
+"zh": "办公区",
+"pinyin": "bàngōngqū",
+"vi": "",
+"known": true
+},
+{
+"zh": "生产",
+"pinyin": "shēngchǎn",
+"vi": "sản xuất; chế tạo; sinh con",
+"known": true
+},
+{
+"zh": "有点",
+"pinyin": "yǒudiǎn",
+"vi": "một chút",
+"known": true
+},
+{
+"zh": "戴好",
+"pinyin": "dàihǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "戴",
+"pinyin": "dài",
+"vi": "đeo (kính, mũ, găng tay,...); tôn trọng",
+"known": true
+},
+{
+"zh": "帽",
+"pinyin": "mào",
+"vi": "mũ; nón",
+"known": true
+},
+{
+"zh": "脚下",
+"pinyin": "jiǎoxià",
+"vi": "dưới chân",
+"known": true
+},
+{
+"zh": "陪",
+"pinyin": "péi",
+"vi": "đi cùng; bầu bạn",
+"known": true
+},
+{
+"zh": "驶",
+"pinyin": "shǐ",
+"vi": "(phương tiện, ngựa,...) đi nhanh; lao nhanh",
+"known": true
+},
+{
+"zh": "宣",
+"pinyin": "xuān",
+"vi": "tuyên bố (công khai); thông báo",
+"known": true
+},
+{
+"zh": "送别",
+"pinyin": "sòngbié",
+"vi": "tạm biệt",
+"known": true
+},
+{
+"zh": "请留步",
+"pinyin": "qǐngliúbù",
+"vi": "",
+"known": true
+},
+{
+"zh": "新华网",
+"pinyin": "xīnhuáwǎng",
+"vi": "Mạng Tân Hoa",
+"known": true
+},
+{
+"zh": "宴",
+"pinyin": "yàn",
+"vi": "(dạng kết hợp) tiệc; tịnh dưỡng",
+"known": true
+},
+{
+"zh": "酒桌上",
+"pinyin": "jiǔzhuōshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "代表",
+"pinyin": "dàibiǎo",
+"vi": "đại diện; đại biểu",
+"known": true
+},
+{
+"zh": "热烈欢迎",
+"pinyin": "rèlièhuānyíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "烈",
+"pinyin": "liè",
+"vi": "nồng nhiệt; mãnh liệt",
+"known": true
+},
+{
+"zh": "提议",
+"pinyin": "tíyì",
+"vi": "đề xuất; gợi ý",
+"known": true
+},
+{
+"zh": "开席",
+"pinyin": "kāixí",
+"vi": "",
+"known": true
+},
+{
+"zh": "席",
+"pinyin": "xí",
+"vi": "chiếu dệt; chỗ ngồi",
+"known": true
+},
+{
+"zh": "远道而来",
+"pinyin": "yuǎndàoérlái",
+"vi": "đến từ xa",
+"known": true
+},
+{
+"zh": "李总",
+"pinyin": "lǐzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "这杯",
+"pinyin": "zhèbēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "精心安排",
+"pinyin": "jīngxīnānpái",
+"vi": "",
+"known": true
+},
+{
+"zh": "感情",
+"pinyin": "gǎnqíng",
+"vi": "cảm xúc; tình cảm; tình cảm giữa hai người",
+"known": true
+},
+{
+"zh": "一口",
+"pinyin": "yīkǒu",
+"vi": "ngay lập tức; thẳng thừng (phủ nhận, thừa nhận, v.v.)",
+"known": true
+},
+{
+"zh": "闷",
+"pinyin": "mèn",
+"vi": "ngột ngạt; ở trong nhà",
+"known": true
+},
+{
+"zh": "替",
+"pinyin": "tì",
+"vi": "thay thế cho; thay chỗ",
+"known": true
+},
+{
+"zh": "低于",
+"pinyin": "dīyú",
+"vi": "thấp hơn so với",
+"known": true
+},
+{
+"zh": "顺利",
+"pinyin": "shùnlì",
+"vi": "một cách suôn sẻ; không gặp trở ngại",
+"known": true
+},
+{
+"zh": "拒酒",
+"pinyin": "jùjiǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "就算",
+"pinyin": "jiùsuàn",
+"vi": "(thông tục) ngay cả khi",
+"known": true
+},
+{
+"zh": "安全",
+"pinyin": "ānquán",
+"vi": "an toàn; bảo mật; an ninh",
+"known": true
+},
+{
+"zh": "叫代驾",
+"pinyin": "jiàodàijià",
+"vi": "",
+"known": true
+},
+{
+"zh": "好喝",
+"pinyin": "hǎohē",
+"vi": "ngon (đồ uống)",
+"known": true
+},
+{
+"zh": "两杯",
+"pinyin": "liǎngbēi",
+"vi": "",
+"known": true
+},
+{
+"zh": "已到",
+"pinyin": "yǐdào",
+"vi": "",
+"known": true
+},
+{
+"zh": "消息报",
+"pinyin": "xiāoxībào",
+"vi": "",
+"known": true
+},
+{
+"zh": "明早",
+"pinyin": "míngzǎo",
+"vi": "sáng mai; ngày mai",
+"known": true
+},
+{
+"zh": "大堂",
+"pinyin": "dàtáng",
+"vi": "sảnh",
+"known": true
+},
+{
+"zh": "看不起",
+"pinyin": "kànbùqǐ",
+"vi": "coi thường; khinh miệt",
+"known": true
+},
+{
+"zh": "酒桌",
+"pinyin": "jiǔzhuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "财新",
+"pinyin": "cáixīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "博客",
+"pinyin": "bókè",
+"vi": "blog (từ mượn); nhật ký web",
+"known": true
+},
+{
+"zh": "界面",
+"pinyin": "jièmiàn",
+"vi": "bề mặt tiếp xúc; (tin học) giao diện",
+"known": true
+},
+{
+"zh": "界",
+"pinyin": "jiè",
+"vi": "(hình thức kết hợp) ranh giới; biên giới; (hình thức kết hợp) lĩnh vực",
+"known": true
+},
+{
+"zh": "网易",
+"pinyin": "wǎngyì",
+"vi": "NetEase",
+"known": true
+},
+{
+"zh": "寸",
+"pinyin": "cùn",
+"vi": "một đơn vị đo chiều dài; inch",
+"known": true
+},
+{
+"zh": "我领",
+"pinyin": "wǒlǐng",
+"vi": "",
+"known": true
+},
+{
+"zh": "强",
+"pinyin": "qiáng",
+"vi": "bướng bỉnh; không khuất phục",
+"known": true
+},
+{
+"zh": "快到",
+"pinyin": "kuàidào",
+"vi": "",
+"known": true
+},
+{
+"zh": "腰果",
+"pinyin": "yāoguǒ",
+"vi": "hạt điều",
+"known": true
+},
+{
+"zh": "腰",
+"pinyin": "yāo",
+"vi": "eo; lưng dưới",
+"known": true
+},
+{
+"zh": "不贵",
+"pinyin": "bùguì",
+"vi": "",
+"known": true
+},
+{
+"zh": "乡",
+"pinyin": "xiāng",
+"vi": "nông thôn; quê hương",
+"known": true
+},
+{
+"zh": "味道",
+"pinyin": "wèidào",
+"vi": "hương vị; mùi vị",
+"known": true
+},
+{
+"zh": "尝尝",
+"pinyin": "chángcháng",
+"vi": "",
+"known": true
+},
+{
+"zh": "那好",
+"pinyin": "nàhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "潮汕",
+"pinyin": "cháoshàn",
+"vi": "Chaoshan, khu vực ở phía đông Quảng Đông, bao gồm các thành phố Triều ",
+"known": true
+},
+{
+"zh": "汕",
+"pinyin": "shàn",
+"vi": "bẫy cá bằng tre",
+"known": true
+},
+{
+"zh": "功夫茶",
+"pinyin": "gōngfūchá",
+"vi": "loại trà rất đậm được uống ở Triều Châu, Phúc Kiến và Đài Loan",
+"known": true
+},
+{
+"zh": "夫",
+"pinyin": "fū",
+"vi": "chồng; đàn ông",
+"known": true
+},
+{
+"zh": "婉拒",
+"pinyin": "wǎnjù",
+"vi": "từ chối khéo léo; từ chối một cách duyên dáng",
+"known": true
+},
+{
+"zh": "多亏",
+"pinyin": "duōkuī",
+"vi": "nhờ vào; may mắn",
+"known": true
+},
+{
+"zh": "亏",
+"pinyin": "kuī",
+"vi": "lỗ (tiền); bị thiếu hụt; bị thiếu",
+"known": true
+},
+{
+"zh": "这张",
+"pinyin": "zhèzhāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "购物",
+"pinyin": "gòuwù",
+"vi": "mua sắm",
+"known": true
+},
+{
+"zh": "吴总",
+"pinyin": "wúzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "吴",
+"pinyin": "wú",
+"vi": "khu vực gồm phía nam Giang Tô, phía bắc Chiết Giang và Thượng Hải",
+"known": true
+},
+{
+"zh": "明确",
+"pinyin": "míngquè",
+"vi": "rõ ràng; dứt khoát; rõ rệt; làm rõ; chỉ rõ; làm cho rõ ràng",
+"known": true
+},
+{
+"zh": "真想",
+"pinyin": "zhēnxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "批货",
+"pinyin": "pīhuò",
+"vi": "",
+"known": true
+},
+{
+"zh": "保证",
+"pinyin": "bǎozhèng",
+"vi": "bảo đảm; đảm bảo",
+"known": true
+},
+{
+"zh": "外企",
+"pinyin": "wàiqǐ",
+"vi": "doanh nghiệp nước ngoài",
+"known": true
+},
+{
+"zh": "商业",
+"pinyin": "shāngyè",
+"vi": "kinh doanh; thương mại",
+"known": true
+},
+{
+"zh": "贿赂",
+"pinyin": "huìlù",
+"vi": "hối lộ; một khoản hối lộ",
+"known": true
+},
+{
+"zh": "贿",
+"pinyin": "huì",
+"vi": "(dạng kết hợp) hối lộ",
+"known": true
+},
+{
+"zh": "赂",
+"pinyin": "lù",
+"vi": "hối lộ; sự hối lộ",
+"known": true
+},
+{
+"zh": "包在",
+"pinyin": "bāozài",
+"vi": "",
+"known": true
+},
+{
+"zh": "闲聊",
+"pinyin": "xiánliáo",
+"vi": "tán gẫu; cuộc trò chuyện phiếm",
+"known": true
+},
+{
+"zh": "情侣",
+"pinyin": "qínglǚ",
+"vi": "người yêu; cặp đôi",
+"known": true
+},
+{
+"zh": "侣",
+"pinyin": "lǚ",
+"vi": "bạn đồng hành",
+"known": true
+},
+{
+"zh": "那送",
+"pinyin": "nàsòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "保险",
+"pinyin": "bǎoxiǎn",
+"vi": "bảo hiểm; an toàn",
+"known": true
+},
+{
+"zh": "水果篮",
+"pinyin": "shuǐguǒlán",
+"vi": "",
+"known": true
+},
+{
+"zh": "关键",
+"pinyin": "guānjiàn",
+"vi": "điểm mấu chốt; trọng tâm",
+"known": true
+},
+{
+"zh": "键",
+"pinyin": "jiàn",
+"vi": "phím (trên đàn piano hoặc bàn phím máy tính)",
+"known": true
+},
+{
+"zh": "诚",
+"pinyin": "chéng",
+"vi": "(hình thức bó buộc) chân thành; xác thực; (văn học) thật sự; quả thật",
+"known": true
+},
+{
+"zh": "违规",
+"pinyin": "wéiguī",
+"vi": "vi phạm quy tắc",
+"known": true
+},
+{
+"zh": "讳",
+"pinyin": "huì",
+"vi": "tránh nhắc đến; từ cấm kỵ",
+"known": true
+},
+{
+"zh": "苹",
+"pinyin": "píng",
+"vi": "(ngải cứu); bèo ong",
+"known": true
+},
+{
+"zh": "橘子",
+"pinyin": "júzi",
+"vi": "quýt",
+"known": true
+},
+{
+"zh": "橘",
+"pinyin": "jú",
+"vi": "quýt (Citrus reticulata); quýt hồng",
+"known": true
+},
+{
+"zh": "产品",
+"pinyin": "chǎnpǐn",
+"vi": "hàng hóa; sản phẩm",
+"known": true
+},
+{
+"zh": "直播间",
+"pinyin": "zhíbōjiān",
+"vi": "phòng thu phát trực tiếp; một buổi phát trực tiếp",
+"known": true
+},
+{
+"zh": "左右",
+"pinyin": "zuǒyòu",
+"vi": "trái phải; gần đây",
+"known": true
+},
+{
+"zh": "确实",
+"pinyin": "quèshí",
+"vi": "thực sự; thật",
+"known": true
+},
+{
+"zh": "承认",
+"pinyin": "chéngrèn",
+"vi": "thừa nhận; thú nhận",
+"known": true
+},
+{
+"zh": "承",
+"pinyin": "chéng",
+"vi": "Cheng (khoảng 2000 trước Công nguyên), vị thứ ba trong truyền thuyết v",
+"known": true
+},
+{
+"zh": "趣",
+"pinyin": "qù",
+"vi": "thú vị; làm cho quan tâm",
+"known": true
+},
+{
+"zh": "市面上",
+"pinyin": "shìmiànshàng",
+"vi": "trên thị trường",
+"known": true
+},
+{
+"zh": "其",
+"pinyin": "qí",
+"vi": "của anh ấy; của cô ấy",
+"known": true
+},
+{
+"zh": "区别",
+"pinyin": "qūbié",
+"vi": "sự khác biệt; phân biệt",
+"known": true
+},
+{
+"zh": "餐饮",
+"pinyin": "cānyǐn",
+"vi": "đồ ăn và thức uống; dịch vụ ăn uống",
+"known": true
+},
+{
+"zh": "痛",
+"pinyin": "tòng",
+"vi": "đau; đau đớn",
+"known": true
+},
+{
+"zh": "进口",
+"pinyin": "jìnkǒu",
+"vi": "nhập khẩu; đã nhập khẩu",
+"known": true
+},
+{
+"zh": "咖啡豆",
+"pinyin": "kāfēidòu",
+"vi": "hạt cà phê",
+"known": true
+},
+{
+"zh": "豆",
+"pinyin": "dòu",
+"vi": "cây họ đậu; đậu hạt; đậu; đỗ (biến thể của 豆[dou4])",
+"known": true
+},
+{
+"zh": "稳定",
+"pinyin": "wěndìng",
+"vi": "vững vàng; ổn định",
+"known": true
+},
+{
+"zh": "稳",
+"pinyin": "wěn",
+"vi": "ổn định; vững vàng; ổn thoả",
+"known": true
+},
+{
+"zh": "原料",
+"pinyin": "yuánliào",
+"vi": "nguyên liệu",
+"known": true
+},
+{
+"zh": "自有",
+"pinyin": "zìyǒu",
+"vi": "(tôi, họ, v.v.) đương nhiên có (kế hoạch, cách thức, v.v.)",
+"known": true
+},
+{
+"zh": "种植园",
+"pinyin": "zhòngzhíyuán",
+"vi": "đồn điền",
+"known": true
+},
+{
+"zh": "植",
+"pinyin": "zhí",
+"vi": "trồng",
+"known": true
+},
+{
+"zh": "中国海关",
+"pinyin": "zhōngguóhǎiguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "注册",
+"pinyin": "zhùcè",
+"vi": "đăng ký; ghi danh",
+"known": true
+},
+{
+"zh": "有机",
+"pinyin": "yǒujī",
+"vi": "hữu cơ",
+"known": true
+},
+{
+"zh": "包装",
+"pinyin": "bāozhuāng",
+"vi": "đóng gói; bọc",
+"known": true
+},
+{
+"zh": "每公斤",
+"pinyin": "měigōngjīn",
+"vi": "",
+"known": true
+},
+{
+"zh": "试一试",
+"pinyin": "shìyīshì",
+"vi": "thử xem",
+"known": true
+},
+{
+"zh": "应对",
+"pinyin": "yìngduì",
+"vi": "trả lời; đáp lại; xử lý; đối phó",
+"known": true
+},
+{
+"zh": "品牌",
+"pinyin": "pǐnpái",
+"vi": "tên thương hiệu; nhãn hiệu",
+"known": true
+},
+{
+"zh": "只认",
+"pinyin": "zhǐrèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "适合",
+"pinyin": "shìhé",
+"vi": "phù hợp; thích hợp",
+"known": true
+},
+{
+"zh": "连锁",
+"pinyin": "liánsuǒ",
+"vi": "liên kết; được kết nối",
+"known": true
+},
+{
+"zh": "门店",
+"pinyin": "méndiàn",
+"vi": "(cửa hàng) bán lẻ",
+"known": true
+},
+{
+"zh": "且",
+"pinyin": "qiě",
+"vi": "và; hơn nữa",
+"known": true
+},
+{
+"zh": "一对一",
+"pinyin": "yīduìyī",
+"vi": "một đối một; một với một",
+"known": true
+},
+{
+"zh": "广州",
+"pinyin": "guǎngzhōu",
+"vi": "thành phố phó tỉnh Quảng Châu, thủ phủ của Quảng Đông",
+"known": true
+},
+{
+"zh": "州",
+"pinyin": "zhōu",
+"vi": "châu; (cũ) tỉnh",
+"known": true
+},
+{
+"zh": "换成",
+"pinyin": "huànchéng",
+"vi": "đổi (cái này) lấy (cái khác); thay thế bằng",
+"known": true
+},
+{
+"zh": "采购",
+"pinyin": "cǎigòu",
+"vi": "mua sắm (cho doanh nghiệp, v.v.); mua hàng",
+"known": true
+},
+{
+"zh": "话术",
+"pinyin": "huàshù",
+"vi": "lời nói mang tính thao túng; lời rao hàng",
+"known": true
+},
+{
+"zh": "节选",
+"pinyin": "jiéxuǎn",
+"vi": "trích đoạn; lựa chọn (từ một cuốn sách)",
+"known": true
+},
+{
+"zh": "原产",
+"pinyin": "yuánchǎn",
+"vi": "sản xuất gốc; bản địa (của loài)",
+"known": true
+},
+{
+"zh": "滴漏",
+"pinyin": "dīlòu",
+"vi": "đồng hồ nước; nhỏ giọt",
+"known": true
+},
+{
+"zh": "加糖",
+"pinyin": "jiātáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "奶精",
+"pinyin": "nǎijīng",
+"vi": "bột kem không sữa",
+"known": true
+},
+{
+"zh": "提神",
+"pinyin": "tíshén",
+"vi": "làm tỉnh táo; cảnh giác",
+"known": true
+},
+{
+"zh": "不苦",
+"pinyin": "bùkǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "专属",
+"pinyin": "zhuānshǔ",
+"vi": "thuộc về hoặc dành riêng cho; sở hữu độc quyền",
+"known": true
+},
+{
+"zh": "两盒",
+"pinyin": "liǎnghé",
+"vi": "",
+"known": true
+},
+{
+"zh": "漏壶",
+"pinyin": "lòuhú",
+"vi": "đồng hồ nước; đồng hồ nước chảy",
+"known": true
+},
+{
+"zh": "壶",
+"pinyin": "hú",
+"vi": "ấm, bình, nồi; lượng từ cho chất lỏng đóng chai",
+"known": true
+},
+{
+"zh": "极限",
+"pinyin": "jíxiàn",
+"vi": "giới hạn; ranh giới cực đại",
+"known": true
+},
+{
+"zh": "虽",
+"pinyin": "suī",
+"vi": "mặc dù; dù rằng",
+"known": true
+},
+{
+"zh": "偏高",
+"pinyin": "piāngāo",
+"vi": "ở mức cao; bất thường cao",
+"known": true
+},
+{
+"zh": "达到",
+"pinyin": "dádào",
+"vi": "đạt tới; đạt được; đạt đến",
+"known": true
+},
+{
+"zh": "证据",
+"pinyin": "zhèngjù",
+"vi": "bằng chứng; chứng cứ",
+"known": true
+},
+{
+"zh": "一步",
+"pinyin": "yībù",
+"vi": "",
+"known": true
+},
+{
+"zh": "助播",
+"pinyin": "zhùbō",
+"vi": "",
+"known": true
+},
+{
+"zh": "宝宝",
+"pinyin": "bǎobǎo",
+"vi": "cưng; em bé",
+"known": true
+},
+{
+"zh": "秒杀",
+"pinyin": "miǎoshā",
+"vi": "(Internet) flash sale, khuyến mãi chớp nhoáng",
+"known": true
+},
+{
+"zh": "三单",
+"pinyin": "sāndān",
+"vi": "",
+"known": true
+},
+{
+"zh": "转化率",
+"pinyin": "zhuǎnhuàlǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "国家级",
+"pinyin": "guójiājí",
+"vi": "cấp quốc gia (hành chính)",
+"known": true
+},
+{
+"zh": "商务谈判",
+"pinyin": "shāngwùtánpàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "退一步",
+"pinyin": "tuìyībù",
+"vi": "",
+"known": true
+},
+{
+"zh": "第一轮",
+"pinyin": "dìyīlún",
+"vi": "vòng đầu tiên (của trận đấu, hoặc bầu cử)",
+"known": true
+},
+{
+"zh": "胡志明",
+"pinyin": "húzhìmíng",
+"vi": "Hồ Chí Minh (1890-1969), cựu lãnh đạo Việt Nam",
+"known": true
+},
+{
+"zh": "港",
+"pinyin": "gǎng",
+"vi": "Hồng Kông (viết tắt cho 香港[Xiang1gang3])",
+"known": true
+},
+{
+"zh": "每吨",
+"pinyin": "měidūn",
+"vi": "",
+"known": true
+},
+{
+"zh": "吨",
+"pinyin": "dūn",
+"vi": "tấn (từ mượn); tiếng Đài Loan đọc là [dun4]",
+"known": true
+},
+{
+"zh": "美元",
+"pinyin": "měiyuán",
+"vi": "đô la Mỹ; đô la Hoa Kỳ",
+"known": true
+},
+{
+"zh": "原材料",
+"pinyin": "yuáncáiliào",
+"vi": "nguyên liệu và vật liệu bán thành phẩm",
+"known": true
+},
+{
+"zh": "上涨",
+"pinyin": "shàngzhǎng",
+"vi": "tăng lên; đi lên",
+"known": true
+},
+{
+"zh": "因素",
+"pinyin": "yīnsù",
+"vi": "yếu tố; nhân tố",
+"known": true
+},
+{
+"zh": "每月",
+"pinyin": "měiyuè",
+"vi": "mỗi tháng",
+"known": true
+},
+{
+"zh": "批量",
+"pinyin": "pīliàng",
+"vi": "loạt; lô",
+"known": true
+},
+{
+"zh": "折扣",
+"pinyin": "zhékòu",
+"vi": "chiết khấu",
+"known": true
+},
+{
+"zh": "底线",
+"pinyin": "dǐxiàn",
+"vi": "giới hạn; mức chấp nhận được; (thể thao) đường biên dưới",
+"known": true
+},
+{
+"zh": "多年",
+"pinyin": "duōnián",
+"vi": "nhiều năm; nhiều năm qua",
+"known": true
+},
+{
+"zh": "方式",
+"pinyin": "fāngshì",
+"vi": "cách thức; kiểu; phong cách; chế độ; mẫu hình",
+"known": true
+},
+{
+"zh": "改成",
+"pinyin": "gǎichéng",
+"vi": "chuyển đổi; thành (cái gì đó khác)",
+"known": true
+},
+{
+"zh": "副本",
+"pinyin": "fùběn",
+"vi": "bản sao; bản trùng",
+"known": true
+},
+{
+"zh": "研究",
+"pinyin": "yánjiū",
+"vi": "nghiên cứu; một nghiên cứu",
+"known": true
+},
+{
+"zh": "研",
+"pinyin": "yán",
+"vi": "nghiền; học",
+"known": true
+},
+{
+"zh": "答复",
+"pinyin": "dáfù",
+"vi": "trả lời; hồi đáp",
+"known": true
+},
+{
+"zh": "底价",
+"pinyin": "dǐjià",
+"vi": "",
+"known": true
+},
+{
+"zh": "首轮",
+"pinyin": "shǒulún",
+"vi": "vòng đầu (của một cuộc thi, v.v.)",
+"known": true
+},
+{
+"zh": "打破",
+"pinyin": "dǎpò",
+"vi": "làm vỡ; đập vỡ",
+"known": true
+},
+{
+"zh": "僵",
+"pinyin": "jiāng",
+"vi": "cứng; ngõ cụt",
+"known": true
+},
+{
+"zh": "天内",
+"pinyin": "tiānnèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "本月底",
+"pinyin": "běnyuèdǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "离岸价",
+"pinyin": "líànjià",
+"vi": "giao hàng lên tàu (FOB) (vận chuyển)",
+"known": true
+},
+{
+"zh": "到岸价",
+"pinyin": "dàoànjià",
+"vi": "giá thành, bảo hiểm và cước phí (CIF) (vận tải)",
+"known": true
+},
+{
+"zh": "赢",
+"pinyin": "yíng",
+"vi": "thắng; chiến thắng",
+"known": true
+},
+{
+"zh": "数量",
+"pinyin": "shùliàng",
+"vi": "số lượng (; thuộc về số lượng",
+"known": true
+},
+{
+"zh": "内部",
+"pinyin": "nèibù",
+"vi": "bên trong; phần bên trong",
+"known": true
+},
+{
+"zh": "前有",
+"pinyin": "qiányǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "比较复杂",
+"pinyin": "bǐjiàofùzá",
+"vi": "",
+"known": true
+},
+{
+"zh": "杂",
+"pinyin": "zá",
+"vi": "hỗn hợp; đa dạng",
+"known": true
+},
+{
+"zh": "最终",
+"pinyin": "zuìzhōng",
+"vi": "cuối cùng; sau cùng",
+"known": true
+},
+{
+"zh": "口头",
+"pinyin": "kǒutóu",
+"vi": "bằng lời; nói",
+"known": true
+},
+{
+"zh": "承诺",
+"pinyin": "chéngnuò",
+"vi": "hứa; hứa làm gì đó",
+"known": true
+},
+{
+"zh": "诺",
+"pinyin": "nuò",
+"vi": "đồng ý; hứa",
+"known": true
+},
+{
+"zh": "听力",
+"pinyin": "tīnglì",
+"vi": "thính giác; khả năng nghe",
+"known": true
+},
+{
+"zh": "实战",
+"pinyin": "shízhàn",
+"vi": "chiến đấu thực sự; tác chiến thực tế",
+"known": true
+},
+{
+"zh": "各地",
+"pinyin": "gèdì",
+"vi": "ở khắp mọi nơi (của một quốc gia); các vùng khác nhau",
+"known": true
+},
+{
+"zh": "不太好",
+"pinyin": "bùtàihǎo",
+"vi": "không quá tốt; không được khỏe lắm",
+"known": true
+},
+{
+"zh": "四号",
+"pinyin": "sìhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "黄总",
+"pinyin": "huángzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "一零",
+"pinyin": "yīlíng",
+"vi": "",
+"known": true
+},
+{
+"zh": "十月",
+"pinyin": "shíyuè",
+"vi": "tháng Mười; tháng mười (của năm âm lịch)",
+"known": true
+},
+{
+"zh": "星期五",
+"pinyin": "xīngqīwǔ",
+"vi": "Thứ Sáu",
+"known": true
+},
+{
+"zh": "好好",
+"pinyin": "hǎohǎo",
+"vi": "tốt; cẩn thận; đẹp đẽ; đúng mực",
+"known": true
+},
+{
+"zh": "三八",
+"pinyin": "sānbā",
+"vi": "Ngày Quốc tế Phụ nữ 婦女節|妇女节[Fu4 nu:3 jie2], 8 tháng 3; ngốc",
+"known": true
+},
+{
+"zh": "三四",
+"pinyin": "sānsì",
+"vi": "",
+"known": true
+},
+{
+"zh": "发微信",
+"pinyin": "fāwēixìn",
+"vi": "",
+"known": true
+},
+{
+"zh": "注意安全",
+"pinyin": "zhùyìānquán",
+"vi": "",
+"known": true
+},
+{
+"zh": "平翘",
+"pinyin": "píngqiào",
+"vi": "",
+"known": true
+},
+{
+"zh": "翘",
+"pinyin": "qiào",
+"vi": "xuất sắc; nâng lên",
+"known": true
+},
+{
+"zh": "舌",
+"pinyin": "shé",
+"vi": "dùng trong 喇舌[la3 ji1] để phiên âm từ Đài Loan nghĩa là \"lưỡi\"",
+"known": true
+},
+{
+"zh": "前后",
+"pinyin": "qiánhòu",
+"vi": "khoảng; từ đầu đến cuối",
+"known": true
+},
+{
+"zh": "鼻音",
+"pinyin": "bíyīn",
+"vi": "âm mũi",
+"known": true
+},
+{
+"zh": "儿化",
+"pinyin": "érhuà",
+"vi": "(ngữ âm tiếng Trung) rhotac hóa âm tiết; áp dụng âm cuối cong lưỡi cho",
+"known": true
+},
+{
+"zh": "断",
+"pinyin": "duàn",
+"vi": "làm gãy; bẻ gãy",
+"known": true
+},
+{
+"zh": "小马",
+"pinyin": "xiǎomǎ",
+"vi": "ngựa con; ngựa pony",
+"known": true
+},
+{
+"zh": "周姐",
+"pinyin": "zhōujiě",
+"vi": "",
+"known": true
+},
+{
+"zh": "海关",
+"pinyin": "hǎiguān",
+"vi": "hải quan (tức kiểm tra cửa khẩu)",
+"known": true
+},
+{
+"zh": "格式",
+"pinyin": "géshì",
+"vi": "hình thức; tiêu chuẩn",
+"known": true
+},
+{
+"zh": "统一",
+"pinyin": "tǒngyī",
+"vi": "7-Eleven (chuỗi cửa hàng tiện lợi)",
+"known": true
+},
+{
+"zh": "开发",
+"pinyin": "kāifā",
+"vi": "khai thác (tài nguyên); mở ra (để phát triển); phát triển",
+"known": true
+},
+{
+"zh": "要大改",
+"pinyin": "yàodàgǎi",
+"vi": "",
+"known": true
+},
+{
+"zh": "对照表",
+"pinyin": "duìzhàobiǎo",
+"vi": "bảng so sánh",
+"known": true
+},
+{
+"zh": "发群里",
+"pinyin": "fāqúnlǐ",
+"vi": "",
+"known": true
+},
+{
+"zh": "背景",
+"pinyin": "bèijǐng",
+"vi": "bối cảnh; phông nền; ngữ cảnh; (bóng) người chống lưng quyền lực",
+"known": true
+},
+{
+"zh": "听到",
+"pinyin": "tīngdào",
+"vi": "nghe thấy",
+"known": true
+},
+{
+"zh": "甭订",
+"pinyin": "béngdìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "仨",
+"pinyin": "sā",
+"vi": "ba (cách nói khẩu ngữ của 三個|三个)",
+"known": true
+},
+{
+"zh": "小屋",
+"pinyin": "xiǎowū",
+"vi": "túp lều; nhà gỗ",
+"known": true
+},
+{
+"zh": "屋",
+"pinyin": "wū",
+"vi": "(hình thức kết hợp) nhà; (hình thức kết hợp) phòng",
+"known": true
+},
+{
+"zh": "齐过",
+"pinyin": "qíguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "一遍",
+"pinyin": "yībiàn",
+"vi": "một lần (từ đầu đến cuối); một lần qua",
+"known": true
+},
+{
+"zh": "别整",
+"pinyin": "biézhěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "太细",
+"pinyin": "tàixì",
+"vi": "",
+"known": true
+},
+{
+"zh": "三页",
+"pinyin": "sānyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "五一",
+"pinyin": "wǔyī",
+"vi": "5-1 (ngày 1 tháng 5)",
+"known": true
+},
+{
+"zh": "两千八",
+"pinyin": "liǎngqiānbā",
+"vi": "",
+"known": true
+},
+{
+"zh": "你别",
+"pinyin": "nǐbié",
+"vi": "",
+"known": true
+},
+{
+"zh": "弄错",
+"pinyin": "nòngcuò",
+"vi": "sai; phạm sai lầm",
+"known": true
+},
+{
+"zh": "弄",
+"pinyin": "nòng",
+"vi": "đường nhỏ; hẻm",
+"known": true
+},
+{
+"zh": "埋",
+"pinyin": "mái",
+"vi": "chôn",
+"known": true
+},
+{
+"zh": "拎",
+"pinyin": "līn",
+"vi": "nhấc lên; xách trong tay; phiên âm Đài Loan [ling1]",
+"known": true
+},
+{
+"zh": "千五",
+"pinyin": "qiānwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "一个亿",
+"pinyin": "yígèyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "亿",
+"pinyin": "yì",
+"vi": "100 triệu",
+"known": true
+},
+{
+"zh": "嘎哈",
+"pinyin": "gāhā",
+"vi": "",
+"known": true
+},
+{
+"zh": "嘎",
+"pinyin": "gā",
+"vi": "âm thanh kêu cục tác",
+"known": true
+},
+{
+"zh": "这点",
+"pinyin": "zhèdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "合同条款",
+"pinyin": "hétóngtiáokuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "大部分",
+"pinyin": "dàbùfèn",
+"vi": "phần lớn; phần nhiều",
+"known": true
+},
+{
+"zh": "处想",
+"pinyin": "chùxiǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "商量一下",
+"pinyin": "shāngliángyīxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "偏低",
+"pinyin": "piāndī",
+"vi": "ở mức thấp; không đủ (ví dụ: lương)",
+"known": true
+},
+{
+"zh": "作为",
+"pinyin": "zuòwéi",
+"vi": "hành vi; hành động",
+"known": true
+},
+{
+"zh": "另行",
+"pinyin": "lìngxíng",
+"vi": "(làm gì đó) riêng biệt; như một hành động riêng",
+"known": true
+},
+{
+"zh": "商定",
+"pinyin": "shāngdìng",
+"vi": "đồng ý; quyết định sau khi thảo luận",
+"known": true
+},
+{
+"zh": "本合同",
+"pinyin": "běnhétóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "任何一方",
+"pinyin": "rènhéyīfāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "还应",
+"pinyin": "háiyīng",
+"vi": "",
+"known": true
+},
+{
+"zh": "看过",
+"pinyin": "kànguò",
+"vi": "",
+"known": true
+},
+{
+"zh": "三处",
+"pinyin": "sānchù",
+"vi": "",
+"known": true
+},
+{
+"zh": "第七条",
+"pinyin": "dìqītiáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "总额",
+"pinyin": "zǒngé",
+"vi": "tổng (số lượng hoặc giá trị)",
+"known": true
+},
+{
+"zh": "加上",
+"pinyin": "jiāshàng",
+"vi": "cộng; thêm vào",
+"known": true
+},
+{
+"zh": "关闭",
+"pinyin": "guānbì",
+"vi": "đóng; khép (cửa sổ, v.v.); (cửa hàng, trường học, v.v.) đóng cửa",
+"known": true
+},
+{
+"zh": "陆路",
+"pinyin": "lùlù",
+"vi": "tuyến đường bộ; tuyến đường xuyên đất liền",
+"known": true
+},
+{
+"zh": "陆",
+"pinyin": "lù",
+"vi": "sáu (chữ số chống gian lận của ngân hàng)",
+"known": true
+},
+{
+"zh": "运输",
+"pinyin": "yùnshū",
+"vi": "vận chuyển; mang",
+"known": true
+},
+{
+"zh": "争议",
+"pinyin": "zhēngyì",
+"vi": "tranh cãi; tranh chấp",
+"known": true
+},
+{
+"zh": "争",
+"pinyin": "zhēng",
+"vi": "cố gắng giành; đua tranh",
+"known": true
+},
+{
+"zh": "择",
+"pinyin": "zé",
+"vi": "lựa chọn; chọn",
+"known": true
+},
+{
+"zh": "新加坡",
+"pinyin": "xīnjiāpō",
+"vi": "Singapore",
+"known": true
+},
+{
+"zh": "坡",
+"pinyin": "pō",
+"vi": "dốc; nghiêng",
+"known": true
+},
+{
+"zh": "国际",
+"pinyin": "guójì",
+"vi": "quốc tế",
+"known": true
+},
+{
+"zh": "仲",
+"pinyin": "zhòng",
+"vi": "tháng thứ hai của một mùa; giữa",
+"known": true
+},
+{
+"zh": "裁",
+"pinyin": "cái",
+"vi": "cắt ra (như cắt áo); cắt",
+"known": true
+},
+{
+"zh": "两条",
+"pinyin": "liǎngtiáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "倾向",
+"pinyin": "qīngxiàng",
+"vi": "xu hướng; khuynh hướng",
+"known": true
+},
+{
+"zh": "倾",
+"pinyin": "qīng",
+"vi": "lật đổ; sụp đổ",
+"known": true
+},
+{
+"zh": "甲方",
+"pinyin": "jiǎfāng",
+"vi": "bên thứ nhất (pháp luật)",
+"known": true
+},
+{
+"zh": "乙方",
+"pinyin": "yǐfāng",
+"vi": "bên thứ hai (pháp lý) (đối lập với 甲方[jia3 fang1])",
+"known": true
+},
+{
+"zh": "乙",
+"pinyin": "yǐ",
+"vi": "đứng thứ hai trong mười Thiên Can 十天干[shi2 tian1 gan1]; hạng hai",
+"known": true
+},
+{
+"zh": "违约责任",
+"pinyin": "wéiyuēzérèn",
+"vi": "",
+"known": true
+},
+{
+"zh": "违反",
+"pinyin": "wéifǎn",
+"vi": "vi phạm (pháp luật)",
+"known": true
+},
+{
+"zh": "损失",
+"pinyin": "sǔnshī",
+"vi": "mất mát; tổn thất",
+"known": true
+},
+{
+"zh": "实际",
+"pinyin": "shíjì",
+"vi": "thực tế; thực hành",
+"known": true
+},
+{
+"zh": "辖",
+"pinyin": "xiá",
+"vi": "chốt giữ bánh xe (dùng để gắn bánh xe vào trục)",
+"known": true
+},
+{
+"zh": "现场",
+"pinyin": "xiànchǎng",
+"vi": "hiện trường (của vụ án, tai nạn, v.v.); tại chỗ",
+"known": true
+},
+{
+"zh": "各执",
+"pinyin": "gèzhí",
+"vi": "",
+"known": true
+},
+{
+"zh": "执",
+"pinyin": "zhí",
+"vi": "thực hiện (kế hoạch); nắm bắt",
+"known": true
+},
+{
+"zh": "具有",
+"pinyin": "jùyǒu",
+"vi": "có; sở hữu",
+"known": true
+},
+{
+"zh": "同等",
+"pinyin": "tóngděng",
+"vi": "bằng với; có cùng đẳng cấp hoặc địa vị xã hội",
+"known": true
+},
+{
+"zh": "法律效力",
+"pinyin": "fǎlǜxiàolì",
+"vi": "",
+"known": true
+},
+{
+"zh": "盖",
+"pinyin": "gài",
+"vi": "nắp; đỉnh",
+"known": true
+},
+{
+"zh": "专用章",
+"pinyin": "zhuānyòngzhāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "章",
+"pinyin": "zhāng",
+"vi": "chương; phần",
+"known": true
+},
+{
+"zh": "每页",
+"pinyin": "měiyè",
+"vi": "",
+"known": true
+},
+{
+"zh": "缝",
+"pinyin": "fèng",
+"vi": "khâu; may",
+"known": true
+},
+{
+"zh": "译本",
+"pinyin": "yìběn",
+"vi": "bản dịch (phiên bản đã dịch của một văn bản)",
+"known": true
+},
+{
+"zh": "版本",
+"pinyin": "bǎnběn",
+"vi": "phiên bản; ấn bản",
+"known": true
+},
+{
+"zh": "中越文",
+"pinyin": "zhōngyuèwén",
+"vi": "",
+"known": true
+},
+{
+"zh": "效力",
+"pinyin": "xiàolì",
+"vi": "tính hiệu quả; hiệu quả tích cực",
+"known": true
+},
+{
+"zh": "法定代表",
+"pinyin": "fǎdìngdàibiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "签章",
+"pinyin": "qiānzhāng",
+"vi": "chữ ký",
+"known": true
+},
+{
+"zh": "协议",
+"pinyin": "xiéyì",
+"vi": "thỏa thuận; hiệp ước",
+"known": true
+},
+{
+"zh": "第十二条",
+"pinyin": "dìshíèrtiáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "盖章",
+"pinyin": "gàizhāng",
+"vi": "đóng dấu; đóng mộc",
+"known": true
+},
+{
+"zh": "予以",
+"pinyin": "yǔyǐ",
+"vi": "đưa ra; áp đặt",
+"known": true
+},
+{
+"zh": "予",
+"pinyin": "yǔ",
+"vi": "(cổ) tôi; tớ",
+"known": true
+},
+{
+"zh": "违规行为",
+"pinyin": "wéiguīxíngwéi",
+"vi": "",
+"known": true
+},
+{
+"zh": "处罚",
+"pinyin": "chǔfá",
+"vi": "xử phạt; trừng phạt",
+"known": true
+},
+{
+"zh": "如有",
+"pinyin": "rúyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "民法典",
+"pinyin": "mínfǎdiǎn",
+"vi": "bộ luật dân sự",
+"known": true
+},
+{
+"zh": "典",
+"pinyin": "diǎn",
+"vi": "kinh điển; pháp luật",
+"known": true
+},
+{
+"zh": "法人",
+"pinyin": "fǎrén",
+"vi": "pháp nhân; tập đoàn",
+"known": true
+},
+{
+"zh": "修订",
+"pinyin": "xiūdìng",
+"vi": "sửa đổi",
+"known": true
+},
+{
+"zh": "营业执照",
+"pinyin": "yíngyèzhízhào",
+"vi": "",
+"known": true
+},
+{
+"zh": "社会",
+"pinyin": "shèhuì",
+"vi": "xã hội",
+"known": true
+},
+{
+"zh": "信用",
+"pinyin": "xìnyòng",
+"vi": "sự đáng tin cậy; (thương mại) tín dụng",
+"known": true
+},
+{
+"zh": "代码",
+"pinyin": "dàimǎ",
+"vi": "mã; code",
+"known": true
+},
+{
+"zh": "协作",
+"pinyin": "xiézuò",
+"vi": "hợp tác; phối hợp",
+"known": true
+},
+{
+"zh": "预警",
+"pinyin": "yùjǐng",
+"vi": "cảnh báo; cảnh báo sớm",
+"known": true
+},
+{
+"zh": "整体",
+"pinyin": "zhěngtǐ",
+"vi": "thực thể toàn bộ; toàn thân",
+"known": true
+},
+{
+"zh": "这周",
+"pinyin": "zhèzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "真排",
+"pinyin": "zhēnpái",
+"vi": "",
+"known": true
+},
+{
+"zh": "不开",
+"pinyin": "bùkāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "必要",
+"pinyin": "bìyào",
+"vi": "cần thiết; thiết yếu",
+"known": true
+},
+{
+"zh": "周会",
+"pinyin": "zhōuhuì",
+"vi": "cuộc họp hàng tuần; cuộc họp mỗi tuần",
+"known": true
+},
+{
+"zh": "碑",
+"pinyin": "bēi",
+"vi": "bia tưởng niệm; bia đá dựng đứng",
+"known": true
+},
+{
+"zh": "申报",
+"pinyin": "shēnbào",
+"vi": "báo cáo (với cơ quan chức năng); khai báo (với hải quan)",
+"known": true
+},
+{
+"zh": "数据格式",
+"pinyin": "shùjùgéshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "兼",
+"pinyin": "jiān",
+"vi": "kép; gấp đôi",
+"known": true
+},
+{
+"zh": "周要",
+"pinyin": "zhōuyào",
+"vi": "",
+"known": true
+},
+{
+"zh": "部下",
+"pinyin": "bùxià",
+"vi": "quân dưới quyền; cấp dưới",
+"known": true
+},
+{
+"zh": "给出",
+"pinyin": "gěichū",
+"vi": "",
+"known": true
+},
+{
+"zh": "及时",
+"pinyin": "jíshí",
+"vi": "kịp thời; đúng lúc; ngay lập tức; không chậm trễ",
+"known": true
+},
+{
+"zh": "及",
+"pinyin": "jí",
+"vi": "và; để đạt tới",
+"known": true
+},
+{
+"zh": "资源",
+"pinyin": "zīyuán",
+"vi": "huyện Tư Nguyên ở Quế Lâm 桂林[Gui4 lin2], Quảng Tây",
+"known": true
+},
+{
+"zh": "找王",
+"pinyin": "zhǎowáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "马哥",
+"pinyin": "mǎgē",
+"vi": "",
+"known": true
+},
+{
+"zh": "需求",
+"pinyin": "xūqiú",
+"vi": "yêu cầu; cần",
+"known": true
+},
+{
+"zh": "文档",
+"pinyin": "wéndàng",
+"vi": "tệp (máy tính); tài liệu; tư liệu",
+"known": true
+},
+{
+"zh": "附上",
+"pinyin": "fùshàng",
+"vi": "đính kèm; bao gồm theo đây",
+"known": true
+},
+{
+"zh": "应急",
+"pinyin": "yìngjí",
+"vi": "ứng phó khẩn cấp; đáp ứng tình huống bất ngờ",
+"known": true
+},
+{
+"zh": "兜",
+"pinyin": "dōu",
+"vi": "túi; bao",
+"known": true
+},
+{
+"zh": "诿",
+"pinyin": "wěi",
+"vi": "trốn tránh; đổ lỗi",
+"known": true
+},
+{
+"zh": "省",
+"pinyin": "shěng",
+"vi": "tiết kiệm; kinh tế; tằn tiện; lược bỏ; xoá; bỏ ra",
+"known": true
+},
+{
+"zh": "完全",
+"pinyin": "wánquán",
+"vi": "hoàn chỉnh; toàn bộ; hoàn toàn; toàn diện",
+"known": true
+},
+{
+"zh": "茶水",
+"pinyin": "cháshuǐ",
+"vi": "nước trà pha số lượng lớn dùng lá trà rẻ tiền",
+"known": true
+},
+{
+"zh": "天天",
+"pinyin": "tiāntiān",
+"vi": "mỗi ngày",
+"known": true
+},
+{
+"zh": "十一点",
+"pinyin": "shíyìdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "干脆",
+"pinyin": "gāncuì",
+"vi": "thẳng thắn; đi thẳng vào vấn đề",
+"known": true
+},
+{
+"zh": "脆",
+"pinyin": "cuì",
+"vi": "giòn; mỏng manh",
+"known": true
+},
+{
+"zh": "分内",
+"pinyin": "fènnèi",
+"vi": "trong phạm vi trách nhiệm của một người",
+"known": true
+},
+{
+"zh": "平衡",
+"pinyin": "pínghéng",
+"vi": "cân bằng; trạng thái cân bằng",
+"known": true
+},
+{
+"zh": "衡",
+"pinyin": "héng",
+"vi": "cân; nặng",
+"known": true
+},
+{
+"zh": "努",
+"pinyin": "nǔ",
+"vi": "nỗ lực; cố gắng",
+"known": true
+},
+{
+"zh": "仍会",
+"pinyin": "rénghuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "交货",
+"pinyin": "jiāohuò",
+"vi": "giao hàng",
+"known": true
+},
+{
+"zh": "在职",
+"pinyin": "zàizhí",
+"vi": "đang làm việc; đương chức",
+"known": true
+},
+{
+"zh": "适度",
+"pinyin": "shìdù",
+"vi": "một cách vừa phải; thích hợp",
+"known": true
+},
+{
+"zh": "人民网",
+"pinyin": "rénmínwǎng",
+"vi": "phiên bản trực tuyến của Nhân Dân Nhật Báo, 人民日報|人民日报[Ren2 min2 Ri4 ba",
+"known": true
+},
+{
+"zh": "理论",
+"pinyin": "lǐlùn",
+"vi": "lý thuyết; tranh luận",
+"known": true
+},
+{
+"zh": "绩",
+"pinyin": "jì",
+"vi": "xe sợi (gai, v.v.); công trạng",
+"known": true
+},
+{
+"zh": "以及",
+"pinyin": "yǐjí",
+"vi": "cũng như; cũng",
+"known": true
+},
+{
+"zh": "全年",
+"pinyin": "quánnián",
+"vi": "cả năm; suốt cả năm",
+"known": true
+},
+{
+"zh": "标",
+"pinyin": "biāo",
+"vi": "đánh dấu; biểu tượng",
+"known": true
+},
+{
+"zh": "达成",
+"pinyin": "dáchéng",
+"vi": "đạt được (một thỏa thuận); hoàn thành",
+"known": true
+},
+{
+"zh": "缩",
+"pinyin": "suō",
+"vi": "rút lại; kéo lại",
+"known": true
+},
+{
+"zh": "重点",
+"pinyin": "zhòngdiǎn",
+"vi": "kể lại (ví dụ: kết quả bầu cử); đánh giá lại",
+"known": true
+},
+{
+"zh": "坦",
+"pinyin": "tǎn",
+"vi": "bằng phẳng; cởi mở",
+"known": true
+},
+{
+"zh": "地聊",
+"pinyin": "dìliáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "年终",
+"pinyin": "niánzhōng",
+"vi": "cuối năm",
+"known": true
+},
+{
+"zh": "业绩",
+"pinyin": "yèjì",
+"vi": "thành tích; thành tựu",
+"known": true
+},
+{
+"zh": "亮",
+"pinyin": "liàng",
+"vi": "sáng; ánh; soi rọi; loé sáng",
+"known": true
+},
+{
+"zh": "回款",
+"pinyin": "huíkuǎn",
+"vi": "thanh toán số tiền nợ",
+"known": true
+},
+{
+"zh": "新增",
+"pinyin": "xīnzēng",
+"vi": "thêm (cái gì đó mới); mới thêm; bổ sung",
+"known": true
+},
+{
+"zh": "使清关",
+"pinyin": "shǐqīngguān",
+"vi": "",
+"known": true
+},
+{
+"zh": "柬埔寨",
+"pinyin": "jiǎnpǔzhài",
+"vi": "Campuchia",
+"known": true
+},
+{
+"zh": "柬",
+"pinyin": "jiǎn",
+"vi": "viết tắt của 柬埔寨[Jian3 pu3 zhai4], Campuchia",
+"known": true
+},
+{
+"zh": "埔",
+"pinyin": "pǔ",
+"vi": "cảng; bến tàu",
+"known": true
+},
+{
+"zh": "寨",
+"pinyin": "zhài",
+"vi": "pháo đài; trại doanh",
+"known": true
+},
+{
+"zh": "深入",
+"pinyin": "shēnrù",
+"vi": "thâm nhập sâu; kỹ lưỡng",
+"known": true
+},
+{
+"zh": "预期",
+"pinyin": "yùqī",
+"vi": "mong đợi; dự đoán",
+"known": true
+},
+{
+"zh": "巩",
+"pinyin": "gǒng",
+"vi": "(dạng kết hợp) cố định; làm cho vững chắc và an toàn",
+"known": true
+},
+{
+"zh": "固",
+"pinyin": "gù",
+"vi": "cứng; mạnh",
+"known": true
+},
+{
+"zh": "拓",
+"pinyin": "tuò",
+"vi": "dập tranh (ví dụ: từ một bia ký)",
+"known": true
+},
+{
+"zh": "老挝",
+"pinyin": "lǎowō",
+"vi": "Lào",
+"known": true
+},
+{
+"zh": "挝",
+"pinyin": "wō",
+"vi": "vũ khí cổ có đầu giống tay hoặc vuốt",
+"known": true
+},
+{
+"zh": "完毕",
+"pinyin": "wánbì",
+"vi": "hoàn thành; kết thúc",
+"known": true
+},
+{
+"zh": "评了",
+"pinyin": "píngle",
+"vi": "",
+"known": true
+},
+{
+"zh": "增加",
+"pinyin": "zēngjiā",
+"vi": "tăng; tăng thêm",
+"known": true
+},
+{
+"zh": "管理",
+"pinyin": "guǎnlǐ",
+"vi": "giám sát; quản lý",
+"known": true
+},
+{
+"zh": "晋",
+"pinyin": "jìn",
+"vi": "nhà Tấn (265-420)",
+"known": true
+},
+{
+"zh": "盘点",
+"pinyin": "pándiǎn",
+"vi": "kiểm kê; tính toán hàng hóa",
+"known": true
+},
+{
+"zh": "看带",
+"pinyin": "kàndài",
+"vi": "",
+"known": true
+},
+{
+"zh": "能力",
+"pinyin": "nénglì",
+"vi": "năng lực; khả năng",
+"known": true
+},
+{
+"zh": "小组",
+"pinyin": "xiǎozǔ",
+"vi": "nhóm",
+"known": true
+},
+{
+"zh": "幅",
+"pinyin": "fú",
+"vi": "chiều rộng; cuộn",
+"known": true
+},
+{
+"zh": "实行",
+"pinyin": "shíxíng",
+"vi": "thực hiện; tiến hành",
+"known": true
+},
+{
+"zh": "末位",
+"pinyin": "mòwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "淘汰",
+"pinyin": "táotài",
+"vi": "loại bỏ; (nghĩa bóng) chọn lọc",
+"known": true
+},
+{
+"zh": "汰",
+"pinyin": "tài",
+"vi": "loại bỏ; loại trừ",
+"known": true
+},
+{
+"zh": "谈话",
+"pinyin": "tánhuà",
+"vi": "nói chuyện (với ai đó); có cuộc trò chuyện",
+"known": true
+},
+{
+"zh": "缩水",
+"pinyin": "suōshuǐ",
+"vi": "bị co lại (khi giặt); nghĩa bóng: giảm sút (lợi nhuận, v.v.)",
+"known": true
+},
+{
+"zh": "上市",
+"pinyin": "shàngshì",
+"vi": "ra mắt thị trường (sản phẩm mới)",
+"known": true
+},
+{
+"zh": "能分",
+"pinyin": "néngfēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "股份",
+"pinyin": "gǔfèn",
+"vi": "cổ phần (trong công ty); cổ phiếu",
+"known": true
+},
+{
+"zh": "股",
+"pinyin": "gǔ",
+"vi": "đùi; một phần của tổng thể; phần của một tổng",
+"known": true
+},
+{
+"zh": "翻了一番",
+"pinyin": "fānleyīfān",
+"vi": "",
+"known": true
+},
+{
+"zh": "金三银",
+"pinyin": "jīnsānyín",
+"vi": "",
+"known": true
+},
+{
+"zh": "核心",
+"pinyin": "héxīn",
+"vi": "lõi; hạt nhân",
+"known": true
+},
+{
+"zh": "竞争力",
+"pinyin": "jìngzhēnglì",
+"vi": "khả năng cạnh tranh; tính cạnh tranh",
+"known": true
+},
+{
+"zh": "一是",
+"pinyin": "yīshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "二是",
+"pinyin": "èrshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "很大",
+"pinyin": "hěndà",
+"vi": "",
+"known": true
+},
+{
+"zh": "契",
+"pinyin": "qì",
+"vi": "khắc; chữ khắc",
+"known": true
+},
+{
+"zh": "经典",
+"pinyin": "jīngdiǎn",
+"vi": "kinh điển; chữ viết tôn giáo",
+"known": true
+},
+{
+"zh": "先用",
+"pinyin": "xiānyòng",
+"vi": "",
+"known": true
+},
+{
+"zh": "两分钟",
+"pinyin": "liǎngfēnzhōng",
+"vi": "",
+"known": true
+},
+{
+"zh": "六级",
+"pinyin": "liùjí",
+"vi": "",
+"known": true
+},
+{
+"zh": "五年",
+"pinyin": "wǔnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "年销售额",
+"pinyin": "niánxiāoshòué",
+"vi": "",
+"known": true
+},
+{
+"zh": "做到",
+"pinyin": "zuòdào",
+"vi": "hoàn thành; đạt được",
+"known": true
+},
+{
+"zh": "中越",
+"pinyin": "zhōngyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "两边",
+"pinyin": "liǎngbiān",
+"vi": "mỗi bên; cả hai bên",
+"known": true
+},
+{
+"zh": "规则",
+"pinyin": "guīzé",
+"vi": "quy tắc; quy định",
+"known": true
+},
+{
+"zh": "感激",
+"pinyin": "gǎnjī",
+"vi": "biết ơn; cảm kích",
+"known": true
+},
+{
+"zh": "激",
+"pinyin": "jī",
+"vi": "khơi dậy; kích động",
+"known": true
+},
+{
+"zh": "正在",
+"pinyin": "zhèngzài",
+"vi": "đang ở (thời điểm đó); ngay tại (nơi đó)",
+"known": true
+},
+{
+"zh": "扩",
+"pinyin": "kuò",
+"vi": "mở rộng",
+"known": true
+},
+{
+"zh": "做事",
+"pinyin": "zuòshì",
+"vi": "làm việc; xử lý công việc",
+"known": true
+},
+{
+"zh": "追求",
+"pinyin": "zhuīqiú",
+"vi": "theo đuổi (một mục tiêu, v.v.) một cách ngoan cố; tìm kiếm",
+"known": true
+},
+{
+"zh": "完美",
+"pinyin": "wánměi",
+"vi": "hoàn hảo",
+"known": true
+},
+{
+"zh": "事先",
+"pinyin": "shìxiān",
+"vi": "trước thời hạn; trước sự kiện",
+"known": true
+},
+{
+"zh": "猎",
+"pinyin": "liè",
+"vi": "săn bắn",
+"known": true
+},
+{
+"zh": "初试",
+"pinyin": "chūshì",
+"vi": "kỳ thi sơ bộ; thi đủ điều kiện",
+"known": true
+},
+{
+"zh": "复试",
+"pinyin": "fùshì",
+"vi": "thi vòng hai của kỳ thi hai giai đoạn",
+"known": true
+},
+{
+"zh": "两万五",
+"pinyin": "liǎngwànwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "范围",
+"pinyin": "fànwéi",
+"vi": "phạm vi; quy mô",
+"known": true
+},
+{
+"zh": "范",
+"pinyin": "fàn",
+"vi": "mô hình; kiểu mẫu",
+"known": true
+},
+{
+"zh": "万左右",
+"pinyin": "wànzuǒyòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "结构",
+"pinyin": "jiégòu",
+"vi": "cấu trúc; thành phần",
+"known": true
+},
+{
+"zh": "构",
+"pinyin": "gòu",
+"vi": "(Đài Loan) (thông tục) biến thể của 夠|够[gou4]",
+"known": true
+},
+{
+"zh": "基本工资",
+"pinyin": "jīběngōngzī",
+"vi": "",
+"known": true
+},
+{
+"zh": "股票",
+"pinyin": "gǔpiào",
+"vi": "giấy chứng nhận cổ phần; cổ phiếu (tài chính)",
+"known": true
+},
+{
+"zh": "期权",
+"pinyin": "qīquán",
+"vi": "(tài chính) quyền chọn",
+"known": true
+},
+{
+"zh": "最快",
+"pinyin": "zuìkuài",
+"vi": "",
+"known": true
+},
+{
+"zh": "调查",
+"pinyin": "diàochá",
+"vi": "điều tra; cuộc điều tra",
+"known": true
+},
+{
+"zh": "抗压",
+"pinyin": "kàngyā",
+"vi": "chống chịu áp lực hoặc căng thẳng; chịu áp lực",
+"known": true
+},
+{
+"zh": "年龄",
+"pinyin": "niánlíng",
+"vi": "(tuổi tác của một người)",
+"known": true
+},
+{
+"zh": "龄",
+"pinyin": "líng",
+"vi": "tuổi; thâm niên, thời gian tham gia, thành viên, v.v.",
+"known": true
+},
+{
+"zh": "就业",
+"pinyin": "jiùyè",
+"vi": "tìm được việc làm; việc làm",
+"known": true
+},
+{
+"zh": "歧视",
+"pinyin": "qíshì",
+"vi": "phân biệt đối xử; sự phân biệt",
+"known": true
+},
+{
+"zh": "职后",
+"pinyin": "zhíhòu",
+"vi": "",
+"known": true
+},
+{
+"zh": "分布",
+"pinyin": "fēnbù",
+"vi": "phân tán; phân phối",
+"known": true
+},
+{
+"zh": "布",
+"pinyin": "bù",
+"vi": "thông báo; lan truyền",
+"known": true
+},
+{
+"zh": "光明网",
+"pinyin": "guāngmíngwǎng",
+"vi": "",
+"known": true
+},
+{
+"zh": "人民日报",
+"pinyin": "rénmínrìbào",
+"vi": "Nhân Dân Nhật Báo (báo của Trung Quốc)",
+"known": true
+},
+{
+"zh": "劳动",
+"pinyin": "láodòng",
+"vi": "công việc; lao động",
+"known": true
+},
+{
+"zh": "权益",
+"pinyin": "quányì",
+"vi": "quyền lợi; lợi ích",
+"known": true
+},
+{
+"zh": "益",
+"pinyin": "yì",
+"vi": "lợi ích; lợi nhuận",
+"known": true
+},
+{
+"zh": "代理",
+"pinyin": "dàilǐ",
+"vi": "đại diện cho ai đó trong một vị trí trách nhiệm",
+"known": true
+},
+{
+"zh": "紧急",
+"pinyin": "jǐnjí",
+"vi": "khẩn cấp; tình huống khẩn cấp",
+"known": true
+},
+{
+"zh": "事项",
+"pinyin": "shìxiàng",
+"vi": "sự việc; mục",
+"known": true
+},
+{
+"zh": "用人单位",
+"pinyin": "yòngréndānwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "不得",
+"pinyin": "bùdé",
+"vi": "không được; không thể",
+"known": true
+},
+{
+"zh": "每日",
+"pinyin": "měirì",
+"vi": "hàng ngày; (canh, v.v.) trong ngày",
+"known": true
+},
+{
+"zh": "婚礼",
+"pinyin": "hūnlǐ",
+"vi": "lễ cưới; đám cưới",
+"known": true
+},
+{
+"zh": "几天",
+"pinyin": "jǐtiān",
+"vi": "mấy ngày",
+"known": true
+},
+{
+"zh": "刚好",
+"pinyin": "gānghǎo",
+"vi": "vừa; vừa hay",
+"known": true
+},
+{
+"zh": "所有",
+"pinyin": "suǒyǒu",
+"vi": "tất cả; có; sở hữu",
+"known": true
+},
+{
+"zh": "单据",
+"pinyin": "dānjù",
+"vi": "biên nhận; hóa đơn",
+"known": true
+},
+{
+"zh": "顶一下",
+"pinyin": "dǐngyīxià",
+"vi": "",
+"known": true
+},
+{
+"zh": "紧急情况",
+"pinyin": "jǐnjíqíngkuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "每天晚上",
+"pinyin": "měitiānwǎnshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "婚假",
+"pinyin": "hūnjià",
+"vi": "nghỉ phép kết hôn",
+"known": true
+},
+{
+"zh": "产假",
+"pinyin": "chǎnjià",
+"vi": "nghỉ thai sản",
+"known": true
+},
+{
+"zh": "能来",
+"pinyin": "nénglái",
+"vi": "",
+"known": true
+},
+{
+"zh": "一轮",
+"pinyin": "yīlún",
+"vi": "vòng hoặc giai đoạn đầu tiên (của trận đấu, bầu cử, đàm phán, chính sá",
+"known": true
+},
+{
+"zh": "测试",
+"pinyin": "cèshì",
+"vi": "kiểm tra (máy móc, v.v.)",
+"known": true
+},
+{
+"zh": "复查",
+"pinyin": "fùchá",
+"vi": "kiểm tra lại; tái kiểm tra",
+"known": true
+},
+{
+"zh": "测试用例",
+"pinyin": "cèshìyònglì",
+"vi": "",
+"known": true
+},
+{
+"zh": "先跑",
+"pinyin": "xiānpǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "周日",
+"pinyin": "zhōurì",
+"vi": "Chủ nhật; thuộc về ban ngày",
+"known": true
+},
+{
+"zh": "法定",
+"pinyin": "fǎdìng",
+"vi": "thuộc về pháp luật; dựa trên luật; hợp pháp",
+"known": true
+},
+{
+"zh": "弹性",
+"pinyin": "tánxìng",
+"vi": "tính linh hoạt; đàn hồi",
+"known": true
+},
+{
+"zh": "工作制",
+"pinyin": "gōngzuòzhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "定时",
+"pinyin": "dìngshí",
+"vi": "ấn định thời gian; thời gian cố định",
+"known": true
+},
+{
+"zh": "离线",
+"pinyin": "líxiàn",
+"vi": "ngoại tuyến (máy tính)",
+"known": true
+},
+{
+"zh": "休息权",
+"pinyin": "xiūxīquán",
+"vi": "",
+"known": true
+},
+{
+"zh": "填写",
+"pinyin": "tiánxiě",
+"vi": "điền vào biểu mẫu",
+"known": true
+},
+{
+"zh": "类型",
+"pinyin": "lèixíng",
+"vi": "loại; kiểu; loại hình; (lập trình máy tính) kiểu dữ liệu",
+"known": true
+},
+{
+"zh": "由林晓",
+"pinyin": "yóulínxiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "晓",
+"pinyin": "xiǎo",
+"vi": "bình minh; rạng đông",
+"known": true
+},
+{
+"zh": "顶班",
+"pinyin": "dǐngbān",
+"vi": "tiếp quản công việc của người khác; thay thế",
+"known": true
+},
+{
+"zh": "最高人民法院",
+"pinyin": "zuìgāorénmínfǎyuàn",
+"vi": "Tòa án Nhân dân Tối cao (Trung Quốc)",
+"known": true
+},
+{
+"zh": "阿里地区",
+"pinyin": "ālǐdìqū",
+"vi": "địa khu Ngari ở Tây Tạng, tiếng Tạng: Mnga' ris sa khul",
+"known": true
+},
+{
+"zh": "行署",
+"pinyin": "xíngshǔ",
+"vi": "văn phòng hành chính",
+"known": true
+},
+{
+"zh": "署",
+"pinyin": "shǔ",
+"vi": "văn phòng; cục",
+"known": true
+},
+{
+"zh": "证券时报",
+"pinyin": "zhèngquànshíbào",
+"vi": "",
+"known": true
+},
+{
+"zh": "危机",
+"pinyin": "wēijī",
+"vi": "khủng hoảng",
+"known": true
+},
+{
+"zh": "危",
+"pinyin": "wēi",
+"vi": "nguy hiểm; gây nguy hiểm",
+"known": true
+},
+{
+"zh": "今后",
+"pinyin": "jīnhòu",
+"vi": "sau này; từ nay trở đi",
+"known": true
+},
+{
+"zh": "杜",
+"pinyin": "dù",
+"vi": "cây du; ngăn chặn",
+"known": true
+},
+{
+"zh": "类似",
+"pinyin": "lèisì",
+"vi": "tương tự; tương đồng",
+"known": true
+},
+{
+"zh": "似",
+"pinyin": "shì",
+"vi": "dùng trong 似的[shi4de5]",
+"known": true
+},
+{
+"zh": "再次发生",
+"pinyin": "zàicìfāshēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "这批",
+"pinyin": "zhèpī",
+"vi": "",
+"known": true
+},
+{
+"zh": "到货",
+"pinyin": "dàohuò",
+"vi": "(đối với kiện hàng hoặc lô hàng) đã đến",
+"known": true
+},
+{
+"zh": "几箱",
+"pinyin": "jǐxiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "说法",
+"pinyin": "shuōfǎ",
+"vi": "thuyết giảng Phật pháp",
+"known": true
+},
+{
+"zh": "先拍",
+"pinyin": "xiānpāi",
+"vi": "",
+"known": true
+},
+{
+"zh": "初步",
+"pinyin": "chūbù",
+"vi": "ban đầu; sơ bộ",
+"known": true
+},
+{
+"zh": "解决方案",
+"pinyin": "jiějuéfāngàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "途中",
+"pinyin": "túzhōng",
+"vi": "trên đường",
+"known": true
+},
+{
+"zh": "暴雨",
+"pinyin": "bàoyǔ",
+"vi": "mưa xối xả; cơn mưa bão",
+"known": true
+},
+{
+"zh": "密封条",
+"pinyin": "mìfēngtiáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "进水",
+"pinyin": "jìnshuǐ",
+"vi": "bị nước vào (tai, giày,...); bị ngập nước",
+"known": true
+},
+{
+"zh": "责任",
+"pinyin": "zérèn",
+"vi": "trách nhiệm; lỗi",
+"known": true
+},
+{
+"zh": "供应商",
+"pinyin": "gōngyìngshāng",
+"vi": "nhà cung cấp",
+"known": true
+},
+{
+"zh": "卖方",
+"pinyin": "màifāng",
+"vi": "người bán (trong hợp đồng)",
+"known": true
+},
+{
+"zh": "全部",
+"pinyin": "quánbù",
+"vi": "toàn bộ; tất cả",
+"known": true
+},
+{
+"zh": "前到",
+"pinyin": "qiándào",
+"vi": "",
+"known": true
+},
+{
+"zh": "九五",
+"pinyin": "jiǔwǔ",
+"vi": "",
+"known": true
+},
+{
+"zh": "全面",
+"pinyin": "quánmiàn",
+"vi": "toàn diện; toàn bộ",
+"known": true
+},
+{
+"zh": "装柜时",
+"pinyin": "zhuāngguìshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "防潮",
+"pinyin": "fángcháo",
+"vi": "chống ẩm; chống ẩm mốc",
+"known": true
+},
+{
+"zh": "空着",
+"pinyin": "kōngzhe",
+"vi": "",
+"known": true
+},
+{
+"zh": "打发",
+"pinyin": "dǎfā",
+"vi": "phái ai đó làm gì; đuổi ai đó đi",
+"known": true
+},
+{
+"zh": "要饭",
+"pinyin": "yàofàn",
+"vi": "xin ăn (hoặc tiền)",
+"known": true
+},
+{
+"zh": "索",
+"pinyin": "suǒ",
+"vi": "viết tắt của 索馬里|索马里[Suo3 ma3 li3], Somalia",
+"known": true
+},
+{
+"zh": "致歉",
+"pinyin": "zhìqiàn",
+"vi": "xin lỗi; bày tỏ sự tiếc nuối",
+"known": true
+},
+{
+"zh": "对于",
+"pinyin": "duìyú",
+"vi": "về; liên quan đến (cái gì đó); đối với",
+"known": true
+},
+{
+"zh": "批次",
+"pinyin": "pīcì",
+"vi": "",
+"known": true
+},
+{
+"zh": "货物",
+"pinyin": "huòwù",
+"vi": "hàng hóa",
+"known": true
+},
+{
+"zh": "出现",
+"pinyin": "chūxiàn",
+"vi": "xuất hiện; phát sinh",
+"known": true
+},
+{
+"zh": "不良",
+"pinyin": "bùliáng",
+"vi": "xấu; có hại",
+"known": true
+},
+{
+"zh": "良",
+"pinyin": "liáng",
+"vi": "tốt; rất",
+"known": true
+},
+{
+"zh": "已于",
+"pinyin": "yǐyú",
+"vi": "",
+"known": true
+},
+{
+"zh": "相关",
+"pinyin": "xiāngguān",
+"vi": "liên quan; tương ứng",
+"known": true
+},
+{
+"zh": "加强",
+"pinyin": "jiāqiáng",
+"vi": "củng cố; tăng cường; nâng cao",
+"known": true
+},
+{
+"zh": "出货",
+"pinyin": "chūhuò",
+"vi": "lấy tiền hoặc vật có giá trị ra khỏi kho; phục hồi",
+"known": true
+},
+{
+"zh": "抚",
+"pinyin": "fǔ",
+"vi": "an ủi; vỗ về",
+"known": true
+},
+{
+"zh": "公关",
+"pinyin": "gōngguān",
+"vi": "quan hệ công chúng",
+"known": true
+},
+{
+"zh": "舆",
+"pinyin": "yú",
+"vi": "(văn chương) gầm xe ngựa (đối lập với mui xe 堪[kan1])",
+"known": true
+},
+{
+"zh": "酵",
+"pinyin": "jiào",
+"vi": "men; chất gây nở; quá trình lên men",
+"known": true
+},
+{
+"zh": "最少",
+"pinyin": "zuìshǎo",
+"vi": "ít nhất; tối thiểu",
+"known": true
+},
+{
+"zh": "开卖",
+"pinyin": "kāimài",
+"vi": "",
+"known": true
+},
+{
+"zh": "箱同",
+"pinyin": "xiāngtóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "发出",
+"pinyin": "fāchū",
+"vi": "ban hành (mệnh lệnh, sắc lệnh, v.v.); gửi đi; phái đi",
+"known": true
+},
+{
+"zh": "延误",
+"pinyin": "yánwù",
+"vi": "hoãn lại (gây hậu quả đáng tiếc); làm mất quá nhiều thời gian (để làm ",
+"known": true
+},
+{
+"zh": "数字",
+"pinyin": "shùzì",
+"vi": "chữ số; số",
+"known": true
+},
+{
+"zh": "正式",
+"pinyin": "zhèngshì",
+"vi": "trang trọng; chính thức",
+"known": true
+},
+{
+"zh": "丑话",
+"pinyin": "chǒuhuà",
+"vi": "lời lẽ khó nghe; thô tục",
+"known": true
+},
+{
+"zh": "前头",
+"pinyin": "qiántou",
+"vi": "ở phía trước; dẫn đầu",
+"known": true
+},
+{
+"zh": "再有",
+"pinyin": "zàiyǒu",
+"vi": "",
+"known": true
+},
+{
+"zh": "吸取教训",
+"pinyin": "xīqǔjiàoxùn",
+"vi": "rút ra bài học (từ một thất bại)",
+"known": true
+},
+{
+"zh": "减少",
+"pinyin": "jiǎnshǎo",
+"vi": "giảm; giảm bớt; giảm thiểu; hạ thấp",
+"known": true
+},
+{
+"zh": "降低标准",
+"pinyin": "jiàngdībiāozhǔn",
+"vi": "",
+"known": true
+},
+{
+"zh": "声明",
+"pinyin": "shēngmíng",
+"vi": "phát biểu; tuyên bố",
+"known": true
+},
+{
+"zh": "退换",
+"pinyin": "tuìhuàn",
+"vi": "đổi (một món hàng đã mua)",
+"known": true
+},
+{
+"zh": "亲爱",
+"pinyin": "qīnài",
+"vi": "thân yêu; yêu quý",
+"known": true
+},
+{
+"zh": "之际",
+"pinyin": "zhījì",
+"vi": "trong lúc; vào thời điểm",
+"known": true
+},
+{
+"zh": "首先",
+"pinyin": "shǒuxiān",
+"vi": "trước tiên; điều đầu tiên",
+"known": true
+},
+{
+"zh": "上台",
+"pinyin": "shàngtái",
+"vi": "lên nắm quyền (trong chính trị); lên sân khấu (trong nhà hát)",
+"known": true
+},
+{
+"zh": "掌声",
+"pinyin": "zhǎngshēng",
+"vi": "tràng vỗ tay",
+"known": true
+},
+{
+"zh": "掌",
+"pinyin": "zhǎng",
+"vi": "lòng bàn tay; lòng bàn chân",
+"known": true
+},
+{
+"zh": "接下来",
+"pinyin": "jiēxiàlái",
+"vi": "chấp nhận; tiếp nhận",
+"known": true
+},
+{
+"zh": "策划",
+"pinyin": "cèhuà",
+"vi": "lập kế hoạch; âm mưu",
+"known": true
+},
+{
+"zh": "策",
+"pinyin": "cè",
+"vi": "chính sách; kế hoạch",
+"known": true
+},
+{
+"zh": "爬山",
+"pinyin": "páshān",
+"vi": "leo núi; đi bộ đường dài",
+"known": true
+},
+{
+"zh": "太累",
+"pinyin": "tàilèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "农",
+"pinyin": "nóng",
+"vi": "(hình thức kết hợp) nông nghiệp",
+"known": true
+},
+{
+"zh": "小型",
+"pinyin": "xiǎoxíng",
+"vi": "quy mô nhỏ; kích thước nhỏ",
+"known": true
+},
+{
+"zh": "拓展",
+"pinyin": "tuòzhǎn",
+"vi": "mở rộng (nguồn khách hàng, tầm nhìn, v.v.)",
+"known": true
+},
+{
+"zh": "训练",
+"pinyin": "xùnliàn",
+"vi": "huấn luyện; diễn tập",
+"known": true
+},
+{
+"zh": "增强",
+"pinyin": "zēngqiáng",
+"vi": "tăng cường; làm mạnh thêm",
+"known": true
+},
+{
+"zh": "凝",
+"pinyin": "níng",
+"vi": "đông lại; tập trung chú ý",
+"known": true
+},
+{
+"zh": "顿饭",
+"pinyin": "dùnfàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "愿",
+"pinyin": "yuàn",
+"vi": "thành thật và thận trọng",
+"known": true
+},
+{
+"zh": "收获",
+"pinyin": "shōuhuò",
+"vi": "thu hoạch; gặt hái",
+"known": true
+},
+{
+"zh": "获",
+"pinyin": "huò",
+"vi": "(văn học) bắt; thu giữ; (văn học) nhận được; đạt được; giành được",
+"known": true
+},
+{
+"zh": "精彩",
+"pinyin": "jīngcǎi",
+"vi": "tuyệt vời; kỳ diệu",
+"known": true
+},
+{
+"zh": "一等奖",
+"pinyin": "yìděngjiǎng",
+"vi": "giải nhất",
+"known": true
+},
+{
+"zh": "一台",
+"pinyin": "yītái",
+"vi": "",
+"known": true
+},
+{
+"zh": "笔记本电脑",
+"pinyin": "bǐjìběndiànnǎo",
+"vi": "máy tính xách tay; máy tính notebook (máy tính)",
+"known": true
+},
+{
+"zh": "请王",
+"pinyin": "qǐngwáng",
+"vi": "",
+"known": true
+},
+{
+"zh": "总为",
+"pinyin": "zǒngwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "抽出",
+"pinyin": "chōuchū",
+"vi": "lấy ra; chiết xuất",
+"known": true
+},
+{
+"zh": "第一位",
+"pinyin": "dìyīwèi",
+"vi": "",
+"known": true
+},
+{
+"zh": "开工",
+"pinyin": "kāigōng",
+"vi": "bắt đầu công việc (của nhà máy hoặc công trình kỹ thuật)",
+"known": true
+},
+{
+"zh": "旺",
+"pinyin": "wàng",
+"vi": "thịnh vượng; phát đạt",
+"known": true
+},
+{
+"zh": "人际",
+"pinyin": "rénjì",
+"vi": "mối quan hệ giữa người với người",
+"known": true
+},
+{
+"zh": "边界",
+"pinyin": "biānjiè",
+"vi": "ranh giới; biên giới",
+"known": true
+},
+{
+"zh": "政治",
+"pinyin": "zhèngzhì",
+"vi": "chính trị; thuộc về chính trị",
+"known": true
+},
+{
+"zh": "治",
+"pinyin": "zhì",
+"vi": "quản lý; cai trị",
+"known": true
+},
+{
+"zh": "有件事",
+"pinyin": "yǒujiànshì",
+"vi": "",
+"known": true
+},
+{
+"zh": "自然",
+"pinyin": "zìrán",
+"vi": "tự nhiên; một cách tự nhiên",
+"known": true
+},
+{
+"zh": "时说",
+"pinyin": "shíshuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "提速",
+"pinyin": "tísù",
+"vi": "tăng tốc độ hành trình đã định; tăng tốc",
+"known": true
+},
+{
+"zh": "吴哥",
+"pinyin": "wúgē",
+"vi": "",
+"known": true
+},
+{
+"zh": "前期",
+"pinyin": "qiánqī",
+"vi": "giai đoạn trước; giai đoạn đầu",
+"known": true
+},
+{
+"zh": "数据分析",
+"pinyin": "shùjùfēnxī",
+"vi": "",
+"known": true
+},
+{
+"zh": "析",
+"pinyin": "xī",
+"vi": "tách; chia",
+"known": true
+},
+{
+"zh": "要争",
+"pinyin": "yàozhēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "时能",
+"pinyin": "shínéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "也好",
+"pinyin": "yěhǎo",
+"vi": "thế cũng được; cũng có thể",
+"known": true
+},
+{
+"zh": "每个",
+"pinyin": "měigè",
+"vi": "",
+"known": true
+},
+{
+"zh": "各自",
+"pinyin": "gèzì",
+"vi": "mỗi; tương ứng",
+"known": true
+},
+{
+"zh": "标出来",
+"pinyin": "biāochūlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "不认账",
+"pinyin": "bùrènzhàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "这话",
+"pinyin": "zhèhuà",
+"vi": "",
+"known": true
+},
+{
+"zh": "整合",
+"pinyin": "zhěnghé",
+"vi": "tuân thủ; tích hợp",
+"known": true
+},
+{
+"zh": "别误会",
+"pinyin": "biéwùhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "否认",
+"pinyin": "fǒurèn",
+"vi": "tuyên bố không đúng; phủ nhận",
+"known": true
+},
+{
+"zh": "不争",
+"pinyin": "bùzhēng",
+"vi": "được biết đến rộng rãi; không thể tranh cãi",
+"known": true
+},
+{
+"zh": "象",
+"pinyin": "xiàng",
+"vi": "voi; hình dáng",
+"known": true
+},
+{
+"zh": "孙哥",
+"pinyin": "sūngē",
+"vi": "",
+"known": true
+},
+{
+"zh": "缘",
+"pinyin": "yuán",
+"vi": "nguyên nhân; lý do",
+"known": true
+},
+{
+"zh": "喜酒",
+"pinyin": "xǐjiǔ",
+"vi": "tiệc cưới; rượu uống ở tiệc cưới",
+"known": true
+},
+{
+"zh": "那家",
+"pinyin": "nàjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "牛肉",
+"pinyin": "niúròu",
+"vi": "thịt bò",
+"known": true
+},
+{
+"zh": "小子",
+"pinyin": "xiǎozi",
+"vi": "(văn học) người trẻ tuổi",
+"known": true
+},
+{
+"zh": "挺会",
+"pinyin": "tǐnghuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "转移",
+"pinyin": "zhuǎnyí",
+"vi": "chuyển; di dời; chuyển giao",
+"known": true
+},
+{
+"zh": "卦",
+"pinyin": "guà",
+"vi": "sơ đồ bói toán; một trong tám quẻ của Kinh Dịch 易經|易经[Yi4 jing1]",
+"known": true
+},
+{
+"zh": "罪",
+"pinyin": "zuì",
+"vi": "tội; phạm tội",
+"known": true
+},
+{
+"zh": "拒绝",
+"pinyin": "jùjué",
+"vi": "từ chối; khước từ; bác bỏ",
+"known": true
+},
+{
+"zh": "额外",
+"pinyin": "éwài",
+"vi": "thêm; bổ sung",
+"known": true
+},
+{
+"zh": "活儿",
+"pinyin": "huóer",
+"vi": "công việc; (nhiều) việc phải làm",
+"known": true
+},
+{
+"zh": "翻译成",
+"pinyin": "fānyìchéng",
+"vi": "",
+"known": true
+},
+{
+"zh": "急单",
+"pinyin": "jídān",
+"vi": "",
+"known": true
+},
+{
+"zh": "抽不出",
+"pinyin": "chōubùchū",
+"vi": "",
+"known": true
+},
+{
+"zh": "联系方式",
+"pinyin": "liánxìfāngshì",
+"vi": "thông tin liên hệ",
+"known": true
+},
+{
+"zh": "枪",
+"pinyin": "qiāng",
+"vi": "súng; hỏa khí",
+"known": true
+},
+{
+"zh": "中庸",
+"pinyin": "zhōngyōng",
+"vi": "Trung Dung, một trong Tứ Thư 四書|四书[Si4 shu1]",
+"known": true
+},
+{
+"zh": "庸",
+"pinyin": "yōng",
+"vi": "bình thường; sử dụng",
+"known": true
+},
+{
+"zh": "整顿",
+"pinyin": "zhěngdùn",
+"vi": "sắp xếp lại; tái tổ chức",
+"known": true
+},
+{
+"zh": "文化差异",
+"pinyin": "wénhuàchāyì",
+"vi": "",
+"known": true
+},
+{
+"zh": "异",
+"pinyin": "yì",
+"vi": "khác; khác biệt",
+"known": true
+},
+{
+"zh": "统计",
+"pinyin": "tǒngjì",
+"vi": "thống kê; đếm",
+"known": true
+},
+{
+"zh": "建议您",
+"pinyin": "jiànyìnín",
+"vi": "",
+"known": true
+},
+{
+"zh": "原来如此",
+"pinyin": "yuánláirúcǐ",
+"vi": "thì ra là vậy; tôi hiểu rồi",
+"known": true
+},
+{
+"zh": "盟",
+"pinyin": "méng",
+"vi": "lời thề; cam kết",
+"known": true
+},
+{
+"zh": "几年",
+"pinyin": "jǐnián",
+"vi": "mấy năm; vài năm; mấy năm?",
+"known": true
+},
+{
+"zh": "北宁",
+"pinyin": "běiníng",
+"vi": "",
+"known": true
+},
+{
+"zh": "宁",
+"pinyin": "níng",
+"vi": "viết tắt của Khu Tự trị dân tộc Hồi Ninh Hạ 寧夏回族自治區|宁夏回族自治区[Ning2xia4 ",
+"known": true
+},
+{
+"zh": "北江",
+"pinyin": "běijiāng",
+"vi": "Sông Bắc",
+"known": true
+},
+{
+"zh": "江",
+"pinyin": "jiāng",
+"vi": "sông",
+"known": true
+},
+{
+"zh": "成熟",
+"pinyin": "chéngshú",
+"vi": "trưởng thành; chín; trưởng thành; làm cho chín",
+"known": true
+},
+{
+"zh": "产业",
+"pinyin": "chǎnyè",
+"vi": "công nghiệp; tài sản",
+"known": true
+},
+{
+"zh": "土地价格",
+"pinyin": "tǔdìjiàgé",
+"vi": "",
+"known": true
+},
+{
+"zh": "土",
+"pinyin": "tǔ",
+"vi": "nhóm dân tộc Thổ",
+"known": true
+},
+{
+"zh": "涨得",
+"pinyin": "zhǎngdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "劳动力",
+"pinyin": "láodònglì",
+"vi": "lực lượng lao động; nhân lực",
+"known": true
+},
+{
+"zh": "上升",
+"pinyin": "shàngshēng",
+"vi": "tăng lên; đi lên",
+"known": true
+},
+{
+"zh": "尽早",
+"pinyin": "jǐnzǎo",
+"vi": "càng sớm càng tốt",
+"known": true
+},
+{
+"zh": "原产地",
+"pinyin": "yuánchǎndì",
+"vi": "nguồn gốc ban đầu; nơi xuất xứ",
+"known": true
+},
+{
+"zh": "出口",
+"pinyin": "chūkǒu",
+"vi": "lối ra; nói",
+"known": true
+},
+{
+"zh": "欧美",
+"pinyin": "ōuměi",
+"vi": "Châu Âu và Châu Mỹ; phương Tây",
+"known": true
+},
+{
+"zh": "欧",
+"pinyin": "ōu",
+"vi": "châu Âu (viết tắt của 歐洲|欧洲[Ou1zhou1])",
+"known": true
+},
+{
+"zh": "欧盟",
+"pinyin": "ōuméng",
+"vi": "Liên minh Châu Âu; EU",
+"known": true
+},
+{
+"zh": "自贸",
+"pinyin": "zìmào",
+"vi": "",
+"known": true
+},
+{
+"zh": "协定",
+"pinyin": "xiédìng",
+"vi": "thỏa thuận; hiệp định",
+"known": true
+},
+{
+"zh": "证书",
+"pinyin": "zhèngshū",
+"vi": "chứng chỉ; giấy chứng nhận",
+"known": true
+},
+{
+"zh": "本地",
+"pinyin": "běndì",
+"vi": "địa phương; nơi này",
+"known": true
+},
+{
+"zh": "增值",
+"pinyin": "zēngzhí",
+"vi": "tăng giá trị (về tài chính); tăng lên về giá trị",
+"known": true
+},
+{
+"zh": "比例",
+"pinyin": "bǐlì",
+"vi": "tỷ lệ; quy mô",
+"known": true
+},
+{
+"zh": "合资",
+"pinyin": "hézī",
+"vi": "liên doanh",
+"known": true
+},
+{
+"zh": "独资",
+"pinyin": "dúzī",
+"vi": "sở hữu hoàn toàn (thường bởi công ty nước ngoài); đầu tư độc quyền",
+"known": true
+},
+{
+"zh": "中方",
+"pinyin": "zhōngfāng",
+"vi": "phía Trung Quốc (trong một liên doanh quốc tế)",
+"known": true
+},
+{
+"zh": "不太",
+"pinyin": "bùtài",
+"vi": "",
+"known": true
+},
+{
+"zh": "不来",
+"pinyin": "bùlái",
+"vi": "",
+"known": true
+},
+{
+"zh": "怎么回事",
+"pinyin": "zěnmehuíshì",
+"vi": "có chuyện gì vậy?; chuyện gì đang xảy ra?",
+"known": true
+},
+{
+"zh": "郑总",
+"pinyin": "zhèngzǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "郑",
+"pinyin": "zhèng",
+"vi": "nước Trịnh thời Chiến Quốc",
+"known": true
+},
+{
+"zh": "重视",
+"pinyin": "zhòngshì",
+"vi": "coi trọng; đánh giá cao",
+"known": true
+},
+{
+"zh": "家庭",
+"pinyin": "jiātíng",
+"vi": "gia đình; hộ gia đình",
+"known": true
+},
+{
+"zh": "庭",
+"pinyin": "tíng",
+"vi": "sảnh chính; sân trước",
+"known": true
+},
+{
+"zh": "是从",
+"pinyin": "shìcóng",
+"vi": "",
+"known": true
+},
+{
+"zh": "外省",
+"pinyin": "wàishěng",
+"vi": "",
+"known": true
+},
+{
+"zh": "组长",
+"pinyin": "zǔzhǎng",
+"vi": "tổ trưởng",
+"known": true
+},
+{
+"zh": "看重",
+"pinyin": "kànzhòng",
+"vi": "coi là quan trọng; trân trọng",
+"known": true
+},
+{
+"zh": "当着",
+"pinyin": "dāngzhe",
+"vi": "trước mặt; trong sự hiện diện của",
+"known": true
+},
+{
+"zh": "批评",
+"pinyin": "pīpíng",
+"vi": "phê bình; chỉ trích",
+"known": true
+},
+{
+"zh": "伤",
+"pinyin": "shāng",
+"vi": "làm bị thương; vết thương",
+"known": true
+},
+{
+"zh": "要发",
+"pinyin": "yàofā",
+"vi": "",
+"known": true
+},
+{
+"zh": "第十三个",
+"pinyin": "dìshísāngè",
+"vi": "",
+"known": true
+},
+{
+"zh": "月工资",
+"pinyin": "yuègōngzī",
+"vi": "",
+"known": true
+},
+{
+"zh": "奖金",
+"pinyin": "jiǎngjīn",
+"vi": "tiền thưởng; tiền giải thưởng",
+"known": true
+},
+{
+"zh": "速读",
+"pinyin": "sùdú",
+"vi": "đọc nhanh",
+"known": true
+},
+{
+"zh": "海关总署",
+"pinyin": "hǎiguānzǒngshǔ",
+"vi": "Tổng cục Hải quan (GAC)",
+"known": true
+},
+{
+"zh": "双边",
+"pinyin": "shuāngbiān",
+"vi": "song phương",
+"known": true
+},
+{
+"zh": "贸易额",
+"pinyin": "màoyìé",
+"vi": "khối lượng thương mại (giữa các quốc gia)",
+"known": true
+},
+{
+"zh": "亿美元",
+"pinyin": "yìměiyuán",
+"vi": "",
+"known": true
+},
+{
+"zh": "连续",
+"pinyin": "liánxù",
+"vi": "liên tục; liền một mạch",
+"known": true
+},
+{
+"zh": "保持",
+"pinyin": "bǎochí",
+"vi": "giữ; duy trì",
+"known": true
+},
+{
+"zh": "地位",
+"pinyin": "dìwèi",
+"vi": "vị trí; địa vị",
+"known": true
+},
+{
+"zh": "互利",
+"pinyin": "hùlì",
+"vi": "cùng có lợi",
+"known": true
+},
+{
+"zh": "共赢",
+"pinyin": "gòngyíng",
+"vi": "cùng có lợi; hai bên cùng thắng",
+"known": true
+},
+{
+"zh": "俗",
+"pinyin": "sú",
+"vi": "phong tục; tập quán",
+"known": true
+},
+{
+"zh": "商务部",
+"pinyin": "shāngwùbù",
+"vi": "Bộ Thương mại; Bộ Thương vụ",
+"known": true
+},
+{
+"zh": "外交部",
+"pinyin": "wàijiāobù",
+"vi": "Bộ Ngoại giao; văn phòng ngoại giao",
+"known": true
+},
+{
+"zh": "新浪",
+"pinyin": "xīnlàng",
+"vi": "Sina, cổng thông tin web và công ty truyền thông trực tuyến Trung Quốc",
+"known": true
+},
+{
+"zh": "浪",
+"pinyin": "làng",
+"vi": "sóng; ngọn sóng",
+"known": true
+},
+{
+"zh": "财经",
+"pinyin": "cáijīng",
+"vi": "tài chính và kinh tế",
+"known": true
+},
+{
+"zh": "中新社",
+"pinyin": "zhōngxīnshè",
+"vi": "Trung Quốc Tân Văn xã, viết tắt của 中國新聞社|中国新闻社",
+"known": true
+},
+{
+"zh": "驻",
+"pinyin": "zhù",
+"vi": "dừng; lưu lại",
+"known": true
+},
+{
+"zh": "使馆",
+"pinyin": "shǐguǎn",
+"vi": "lãnh sự quán; cơ quan ngoại giao",
+"known": true
+},
+{
+"zh": "经商",
+"pinyin": "jīngshāng",
+"vi": "buôn bán; thực hiện hoạt động thương mại",
+"known": true
+},
+{
+"zh": "速度",
+"pinyin": "sùdù",
+"vi": "tốc độ; tốc suất",
+"known": true
+},
+{
+"zh": "聊聊",
+"pinyin": "liáoliáo",
+"vi": "",
+"known": true
+},
+{
+"zh": "讲话",
+"pinyin": "jiǎnghuà",
+"vi": "bài phát biểu; nói",
+"known": true
+},
+{
+"zh": "弦",
+"pinyin": "xián",
+"vi": "dây cung; dây nhạc cụ",
+"known": true
+},
+{
+"zh": "开年",
+"pinyin": "kāinián",
+"vi": "",
+"known": true
+},
+{
+"zh": "打得",
+"pinyin": "dǎdé",
+"vi": "",
+"known": true
+},
+{
+"zh": "顶住",
+"pinyin": "dǐngzhù",
+"vi": "chống chịu; đứng vững trước",
+"known": true
+},
+{
+"zh": "百分之二十",
+"pinyin": "bǎifēnzhīèrshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "刀刃",
+"pinyin": "dāorèn",
+"vi": "lưỡi dao; điểm mấu chốt",
+"known": true
+},
+{
+"zh": "刃",
+"pinyin": "rèn",
+"vi": "cạnh của lưỡi dao",
+"known": true
+},
+{
+"zh": "做深",
+"pinyin": "zuòshēn",
+"vi": "",
+"known": true
+},
+{
+"zh": "做实",
+"pinyin": "zuòshí",
+"vi": "",
+"known": true
+},
+{
+"zh": "不卷",
+"pinyin": "bùjuǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "坚决",
+"pinyin": "jiānjué",
+"vi": "vững vàng; kiên quyết; quyết tâm",
+"known": true
+},
+{
+"zh": "再创",
+"pinyin": "zàichuàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "佳绩",
+"pinyin": "jiājì",
+"vi": "kết quả tốt; thành công",
+"known": true
+},
+{
+"zh": "佳",
+"pinyin": "jiā",
+"vi": "đẹp; tốt",
+"known": true
+},
+{
+"zh": "播报",
+"pinyin": "bōbào",
+"vi": "thông báo; đọc (tin tức)",
+"known": true
+},
+{
+"zh": "记者",
+"pinyin": "jìzhě",
+"vi": "phóng viên; nhà báo",
+"known": true
+},
+{
+"zh": "中国外交部",
+"pinyin": "zhōngguówàijiāobù",
+"vi": "",
+"known": true
+},
+{
+"zh": "其中",
+"pinyin": "qízhōng",
+"vi": "trong số; trong",
+"known": true
+},
+{
+"zh": "出口额",
+"pinyin": "chūkǒué",
+"vi": "kim ngạch xuất khẩu",
+"known": true
+},
+{
+"zh": "年底",
+"pinyin": "niándǐ",
+"vi": "cuối năm",
+"known": true
+},
+{
+"zh": "对越",
+"pinyin": "duìyuè",
+"vi": "",
+"known": true
+},
+{
+"zh": "投资",
+"pinyin": "tóuzī",
+"vi": "đầu tư",
+"known": true
+},
+{
+"zh": "分析",
+"pinyin": "fēnxī",
+"vi": "phân tích; việc phân tích",
+"known": true
+},
+{
+"zh": "人士",
+"pinyin": "rénshì",
+"vi": "người; nhân vật",
+"known": true
+},
+{
+"zh": "稳步",
+"pinyin": "wěnbù",
+"vi": "một cách ổn định; nhịp độ ổn định",
+"known": true
+},
+{
+"zh": "两国",
+"pinyin": "liǎngguó",
+"vi": "cả hai nước; hai quốc gia",
+"known": true
+},
+{
+"zh": "高质量",
+"pinyin": "gāozhìliàng",
+"vi": "chất lượng cao",
+"known": true
+},
+{
+"zh": "新质",
+"pinyin": "xīnzhì",
+"vi": "",
+"known": true
+},
+{
+"zh": "生产力",
+"pinyin": "shēngchǎnlì",
+"vi": "khả năng sản xuất; lực lượng sản xuất",
+"known": true
+},
+{
+"zh": "营商",
+"pinyin": "yíngshāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "没什么",
+"pinyin": "méishénme",
+"vi": "không sao; không có gì; đừng bận tâm",
+"known": true
+},
+{
+"zh": "几家",
+"pinyin": "jǐjiā",
+"vi": "",
+"known": true
+},
+{
+"zh": "李总说",
+"pinyin": "lǐzǒngshuō",
+"vi": "",
+"known": true
+},
+{
+"zh": "一声",
+"pinyin": "yīshēng",
+"vi": "thanh một trong tiếng Quan Thoại (thanh cao, bằng)",
+"known": true
+},
+{
+"zh": "框架",
+"pinyin": "kuāngjià",
+"vi": "(xây dựng) khung; (bóng) khuôn khổ",
+"known": true
+},
+{
+"zh": "框",
+"pinyin": "kuāng",
+"vi": "khung (ví dụ: khung cửa); vỏ",
+"known": true
+},
+{
+"zh": "有所",
+"pinyin": "yǒusuǒ",
+"vi": "phần nào; ở một mức độ nào đó",
+"known": true
+},
+{
+"zh": "嘴上",
+"pinyin": "zuǐshàng",
+"vi": "",
+"known": true
+},
+{
+"zh": "暗示",
+"pinyin": "ànshì",
+"vi": "gợi ý; đề nghị",
+"known": true
+},
+{
+"zh": "比价",
+"pinyin": "bǐjià",
+"vi": "so sánh giá; so sánh các đề nghị",
+"known": true
+},
+{
+"zh": "综合",
+"pinyin": "zōnghé",
+"vi": "toàn diện; hỗn hợp",
+"known": true
+},
+{
+"zh": "综",
+"pinyin": "zōng",
+"vi": "sợi dây trong khung cửi; Ấn phẩm Đài Loan: [zong4]",
+"known": true
+},
+{
+"zh": "数字化",
+"pinyin": "shùzìhuà",
+"vi": "số hóa",
+"known": true
+},
+{
+"zh": "分为",
+"pinyin": "fēnwéi",
+"vi": "chia thành (các phần); phân chia",
+"known": true
+},
+{
+"zh": "讲完",
+"pinyin": "jiǎngwán",
+"vi": "",
+"known": true
+},
+{
+"zh": "按照",
+"pinyin": "ànzhào",
+"vi": "theo; dựa theo",
+"known": true
+},
+{
+"zh": "括",
+"pinyin": "kuò",
+"vi": "bao gồm; bao quát",
+"known": true
+},
+{
+"zh": "提问",
+"pinyin": "tíwèn",
+"vi": "đặt câu hỏi; kiểm tra; chất vấn",
+"known": true
+},
+{
+"zh": "开场",
+"pinyin": "kāichǎng",
+"vi": "bắt đầu; mở đầu",
+"known": true
+},
+{
+"zh": "过渡",
+"pinyin": "guòdù",
+"vi": "chèo qua (bằng phà); chuyển tiếp",
+"known": true
+},
+{
+"zh": "渡",
+"pinyin": "dù",
+"vi": "băng qua; đi qua",
+"known": true
+},
+{
+"zh": "结尾",
+"pinyin": "jiéwěi",
+"vi": "kết thúc; đoạn kết",
+"known": true
+},
+{
+"zh": "执行",
+"pinyin": "zhíxíng",
+"vi": "thực hiện; tiến hành",
+"known": true
+},
+{
+"zh": "路径",
+"pinyin": "lùjìng",
+"vi": "con đường; lộ trình",
+"known": true
+},
+{
+"zh": "径",
+"pinyin": "jìng",
+"vi": "đường mòn; đường đi",
+"known": true
+},
+{
+"zh": "柱",
+"pinyin": "zhù",
+"vi": "cột",
+"known": true
+},
+{
+"zh": "年均",
+"pinyin": "niánjūn",
+"vi": "bình quân hằng năm (tỷ lệ)",
+"known": true
+},
+{
+"zh": "服务商",
+"pinyin": "fúwùshāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "满足",
+"pinyin": "mǎnzú",
+"vi": "thoả mãn; đáp ứng (nhu cầu)",
+"known": true
+},
+{
+"zh": "首年",
+"pinyin": "shǒunián",
+"vi": "",
+"known": true
+},
+{
+"zh": "投入",
+"pinyin": "tóurù",
+"vi": "ném vào; đặt vào",
+"known": true
+},
+{
+"zh": "第二年",
+"pinyin": "dìèrnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "实现",
+"pinyin": "shíxiàn",
+"vi": "đạt được; thực hiện; nhận ra; làm cho xảy ra",
+"known": true
+},
+{
+"zh": "盈亏",
+"pinyin": "yíngkuī",
+"vi": "lời và lỗ; trăng tròn và khuyết",
+"known": true
+},
+{
+"zh": "盈",
+"pinyin": "yíng",
+"vi": "đầy; được lấp đầy",
+"known": true
+},
+{
+"zh": "回报率",
+"pinyin": "huíbàolǜ",
+"vi": "",
+"known": true
+},
+{
+"zh": "策略",
+"pinyin": "cèlüè",
+"vi": "chiến lược; sách lược; khéo léo; tài tình",
+"known": true
+},
+{
+"zh": "托",
+"pinyin": "tuō",
+"vi": "nâng bằng tay; đỡ bằng lòng bàn tay",
+"known": true
+},
+{
+"zh": "辐",
+"pinyin": "fú",
+"vi": "nan hoa của bánh xe",
+"known": true
+},
+{
+"zh": "射",
+"pinyin": "shè",
+"vi": "bắn; phóng",
+"known": true
+},
+{
+"zh": "疑",
+"pinyin": "yí",
+"vi": "(hình thức kết hợp) nghi ngờ; hoài nghi",
+"known": true
+},
+{
+"zh": "保守",
+"pinyin": "bǎoshǒu",
+"vi": "bảo thủ; bảo vệ",
+"known": true
+},
+{
+"zh": "中性",
+"pinyin": "zhōngxìng",
+"vi": "trung tính",
+"known": true
+},
+{
+"zh": "乐观",
+"pinyin": "lèguān",
+"vi": "lạc quan; đầy hy vọng",
+"known": true
+},
+{
+"zh": "三种",
+"pinyin": "sānzhǒng",
+"vi": "",
+"known": true
+},
+{
+"zh": "远期",
+"pinyin": "yuǎnqī",
+"vi": "dài hạn; vào một ngày cố định trong tương lai (ví dụ: để hoàn trả)",
+"known": true
+},
+{
+"zh": "锁汇",
+"pinyin": "suǒhuì",
+"vi": "",
+"known": true
+},
+{
+"zh": "详细",
+"pinyin": "xiángxì",
+"vi": "chi tiết; cụ thể",
+"known": true
+},
+{
+"zh": "详",
+"pinyin": "xiáng",
+"vi": "chi tiết; toàn diện",
+"known": true
+},
+{
+"zh": "后发",
+"pinyin": "hòufā",
+"vi": "",
+"known": true
+},
+{
+"zh": "第一年",
+"pinyin": "dìyīnián",
+"vi": "",
+"known": true
+},
+{
+"zh": "止损",
+"pinyin": "zhǐsǔn",
+"vi": "(tài chính) cắt lỗ",
+"known": true
+},
+{
+"zh": "暂停",
+"pinyin": "zàntíng",
+"vi": "tạm dừng; hội ý (ví dụ: trong thể thao)",
+"known": true
+},
+{
+"zh": "暂",
+"pinyin": "zàn",
+"vi": "tạm thời; tiếng Đài Loan đọc là [zhan4]",
+"known": true
+},
+{
+"zh": "第二阶段",
+"pinyin": "dìèrjiēduàn",
+"vi": "",
+"known": true
+},
+{
+"zh": "阶",
+"pinyin": "jiē",
+"vi": "cấp bậc hoặc bước; cầu thang",
+"known": true
+},
+{
+"zh": "在线",
+"pinyin": "zàixiàn",
+"vi": "trực tuyến",
+"known": true
+},
+{
+"zh": "预算表",
+"pinyin": "yùsuànbiǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "人工成本",
+"pinyin": "réngōngchéngběn",
+"vi": "",
+"known": true
+},
+{
+"zh": "标准",
+"pinyin": "biāozhǔn",
+"vi": "tiêu chuẩn; chuẩn mực; tiêu chí; (tính từ) chuẩn",
+"known": true
+},
+{
+"zh": "更新",
+"pinyin": "gēngxīn",
+"vi": "thay cũ đổi mới; làm mới",
+"known": true
+},
+{
+"zh": "里点",
+"pinyin": "lǐdiǎn",
+"vi": "",
+"known": true
+},
+{
+"zh": "周敏",
+"pinyin": "Zhōu Mǐn",
+"vi": "Chu Mẫn",
+"known": true,
+"proper": true
+},
+{
+"zh": "回执",
+"pinyin": "huízhí",
+"vi": "biên nhận (xác nhận bằng văn bản đã nhận được một vật)",
+"known": true
+},
+{
+"zh": "转型",
+"pinyin": "zhuǎnxíng",
+"vi": "trải qua thay đổi căn bản; chuyển đổi; biến đổi",
+"known": true
+},
+{
+"zh": "最佳",
+"pinyin": "zuìjiā",
+"vi": "tối ưu; tối đa",
+"known": true
+},
+{
+"zh": "主持人",
+"pinyin": "zhǔchírén",
+"vi": "người dẫn chương trình truyền hình hoặc radio; dẫn chương trình",
+"known": true
+},
+{
+"zh": "市场需求",
+"pinyin": "shìchǎngxūqiú",
+"vi": "",
+"known": true
+},
+{
+"zh": "正文",
+"pinyin": "zhèngwén",
+"vi": "văn bản chính (trái với chú thích chân trang)",
+"known": true
+},
+{
+"zh": "结束语",
+"pinyin": "jiéshùyǔ",
+"vi": "lời kết luận",
+"known": true
+},
+{
+"zh": "真好",
+"pinyin": "zhēnhǎo",
+"vi": "",
+"known": true
+},
+{
+"zh": "保持联系",
+"pinyin": "bǎochíliánxì",
+"vi": "",
+"known": true
+},
+{
+"zh": "既然",
+"pinyin": "jìrán",
+"vi": "vì; khi; đã là",
+"known": true
+},
+{
+"zh": "修改",
+"pinyin": "xiūgǎi",
+"vi": "sửa đổi; thay đổi",
+"known": true
+},
+{
+"zh": "提出",
+"pinyin": "tíchū",
+"vi": "nêu (vấn đề); đề xuất",
+"known": true
+},
+{
+"zh": "现将",
+"pinyin": "xiànjiāng",
+"vi": "",
+"known": true
+},
+{
+"zh": "内容",
+"pinyin": "nèiróng",
+"vi": "nội dung; bản chất",
+"known": true
+},
+{
+"zh": "改为",
+"pinyin": "gǎiwéi",
+"vi": "thay đổi thành",
+"known": true
+},
+{
+"zh": "于本周",
+"pinyin": "yúběnzhōu",
+"vi": "",
+"known": true
+},
+{
+"zh": "五前",
+"pinyin": "wǔqián",
+"vi": "",
+"known": true
+},
+{
+"zh": "态度强硬",
+"pinyin": "tàidùqiángyìng",
+"vi": "",
+"known": true
+},
+{
+"zh": "态",
+"pinyin": "tài",
+"vi": "(hình thức kết hợp); diện mạo",
+"known": true
+},
+{
+"zh": "硬",
+"pinyin": "yìng",
+"vi": "cứng; cứng nhắc; rắn; (bóng) mạnh mẽ; kiên định",
+"known": true
+},
+{
+"zh": "卖得",
+"pinyin": "màidé",
+"vi": "",
+"known": true
+},
+{
+"zh": "没封",
+"pinyin": "méifēng",
+"vi": "",
+"known": true
+},
+{
+"zh": "由于",
+"pinyin": "yóuyú",
+"vi": "do; bởi vì",
+"known": true
+},
+{
+"zh": "照常",
+"pinyin": "zhàocháng",
+"vi": "như bình thường",
+"known": true
+},
+{
+"zh": "举行",
+"pinyin": "jǔxíng",
+"vi": "tổ chức (cuộc họp, buổi lễ, v.v.)",
+"known": true
+},
+{
+"zh": "一事",
+"pinyin": "yīshì",
+"vi": "",
+"known": true
+}
+]
+}

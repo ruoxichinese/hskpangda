@@ -1,0 +1,273 @@
+{
+ "lessonId": 9,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和（　　），您可以先试一试。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "产品手册",
+      "品质",
+      "竞品"
+     ],
+     "answer": 0,
+     "explain_vi": "产品手册: catalogue sản phẩm. Câu đầy đủ: 出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "（　　），今天给大家带来的是越南原产的滴漏咖啡！不加糖、不加奶精，早上一杯提神又不苦。今晚直播间专属价，买两盒送一个滴漏壶，限量500单，链接已经上架了，喜欢的赶紧下单！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "家人们",
+      "极限词",
+      "同类产品"
+     ],
+     "answer": 0,
+     "explain_vi": "家人们: “cả nhà ơi” (gọi người xem). Câu đầy đủ: 家人们，今天给大家带来的是越南原产的滴漏咖啡！不加糖、不加奶精，早上一杯提神又不苦。今晚直播间专属价，买两盒送一个滴漏壶，限量500单，链接已经上架了，喜欢的赶紧下单！"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "痛点",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "từ ngữ tuyệt đối (bị cấm trong quảng cáo)",
+      "“nỗi đau” của khách hàng",
+      "ưu thế"
+     ],
+     "answer": 1,
+     "explain_vi": "痛点 (tòngdiǎn): “nỗi đau” của khách hàng"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "卖点",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "nguồn gốc, khâu đầu",
+      "bảo hành chất lượng",
+      "điểm bán hàng"
+     ],
+     "answer": 2,
+     "explain_vi": "卖点 (màidiǎn): điểm bán hàng"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "优势",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "ưu thế",
+      "mức độ nổi tiếng",
+      "người dẫn livestream"
+     ],
+     "answer": 0,
+     "explain_vi": "优势 (yōushì): ưu thế"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "源头",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "nguồn gốc, khâu đầu",
+      "sản phẩm đối thủ",
+      "từ ngữ tuyệt đối (bị cấm trong quảng cáo)"
+     ],
+     "answer": 0,
+     "explain_vi": "源头 (yuántóu): nguồn gốc, khâu đầu"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "品质",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "đưa hàng lên kệ/sàn",
+      "chất lượng",
+      "số lượng đặt hàng tối thiểu (MOQ)"
+     ],
+     "answer": 1,
+     "explain_vi": "品质 (pǐnzhì): chất lượng"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "认证",
+     "prompt_vi": "Từ này nghĩa là gì?",
+     "options": [
+      "chứng nhận",
+      "trường hợp điển hình, case study",
+      "sản phẩm đối thủ"
+     ],
+     "answer": 0,
+     "explain_vi": "认证 (rènzhèng): chứng nhận"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "产品手册",
+       "a": "catalogue sản phẩm"
+      },
+      {
+       "q": "痛点",
+       "a": "“nỗi đau” của khách hàng"
+      },
+      {
+       "q": "卖点",
+       "a": "điểm bán hàng"
+      },
+      {
+       "q": "优势",
+       "a": "ưu thế"
+      },
+      {
+       "q": "源头",
+       "a": "nguồn gốc, khâu đầu"
+      },
+      {
+       "q": "品质",
+       "a": "chất lượng"
+      }
+     ],
+     "explain_vi": "产品手册 = catalogue sản phẩm · 痛点 = “nỗi đau” của khách hàng · 卖点 = điểm bán hàng · 优势 = ưu thế · 源头 = nguồn gốc, khâu đầu · 品质 = chất lượng"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "我先说",
+      "客户的",
+      "痛点",
+      "餐饮",
+      "一个很多"
+     ],
+     "answers": [
+      "我先说一个很多餐饮客户的痛点"
+     ],
+     "explain_vi": "我先说一个很多餐饮客户的痛点 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "稳定",
+      "也",
+      "品质",
+      "不"
+     ],
+     "answers": [
+      "品质也不稳定"
+     ],
+     "explain_vi": "品质也不稳定 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "我们",
+      "优势",
+      "有",
+      "三点"
+     ],
+     "answers": [
+      "我们的优势有三点"
+     ],
+     "explain_vi": "我们的优势有三点 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "原料",
+      "种植园",
+      "自有",
+      "来自"
+     ],
+     "answers": [
+      "原料来自自有种植园"
+     ],
+     "explain_vi": "原料来自自有种植园 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Giá xuất xưởng thấp hơn sản phẩm cùng loại khoảng 8%.",
+     "acceptedAnswers": [
+      "出厂价比同类产品低8%左右。"
+     ],
+     "requiredKeywords": [
+      "出厂价",
+      "同类产品"
+     ],
+     "explain_vi": "Câu trong bài khoá: 出厂价比同类产品低8%左右。"
+    },
+    {
+     "id": "t2",
+     "kind": "translate",
+     "prompt_vi": "Phù hợp hơn với chuỗi cửa hàng như quý công ty.",
+     "acceptedAnswers": [
+      "更适合像贵司这样的连锁门店。"
+     ],
+     "requiredKeywords": [
+      "连锁门店"
+     ],
+     "explain_vi": "Câu trong bài khoá: 更适合像贵司这样的连锁门店。"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "从",
+      "控制",
+      "品质",
+      "源头"
+     ],
+     "answers": [
+      "从源头控制品质"
+     ],
+     "explain_vi": "从源头控制品质 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "有机认证",
+      "注册和",
+      "通过了",
+      "已经",
+      "中国海关"
+     ],
+     "answers": [
+      "已经通过了中国海关注册和有机认证"
+     ],
+     "explain_vi": "已经通过了中国海关注册和有机认证 — trích từ câu: 好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。"
+    }
+   ]
+  }
+ ]
+}

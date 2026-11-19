@@ -1,0 +1,482 @@
+{
+ "id": 11,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "听力实战（一）：电话、会议与各地口音",
+  "pinyin": "tīng lì shí zhàn yī diàn huà huì yì yǔ gè dì kǒu yīn",
+  "vi": "nghe hiểu điện thoại có nhiễu"
+ },
+ "grammarTopics_vi": [],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Nghe hiểu điện thoại có nhiễu",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Cuộc họp nhiều người nói chen",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Tin nhắn thoại nói nhanh",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nhận diện giọng địa phương phổ biến",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Làm bài kiểm tra giữa khoá",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "信号不好的电话（giọng miền Nam: lẫn n/l, không uốn lưỡi）",
+   "context_vi": "听力一 · 信号不好的电话（giọng miền Nam: lẫn n/l, không uốn lưỡi）",
+   "scene": "🎧",
+   "lines": [
+    {
+     "speaker": "bc-huangzong",
+     "zh": "喂？喂？小阮啊，我在高速上，信号不太好哈……那个货，你们那个货，是不是四号到？",
+     "vi": "Alô? Alô? Tiểu Nguyễn à, anh đang trên cao tốc, sóng không tốt lắm nhé… Cái hàng ấy, hàng của các cậu ấy, có phải mùng bốn đến không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "黄总，是十号，一零，十号到。",
+     "vi": "Anh Hoàng, là ngày mười, một không, ngày mười đến ạ."
+    },
+    {
+     "speaker": "bc-huangzong",
+     "zh": "是（sì）号？",
+     "vi": "Ngày “sì” (bốn) à?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "不是四，是十，十月十号，星期五。",
+     "vi": "Không phải bốn, là mười, ngày mười tháng mười, thứ sáu."
+    },
+    {
+     "speaker": "bc-huangzong",
+     "zh": "哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。",
+     "vi": "À à, ngày mười, được được. Vậy cậu gửi mã vận đơn qua WeChat cho anh, lát anh bảo kho đi lấy. Số điện thoại một ba tám, một hai ba bốn… Thôi, cậu cứ gửi thẳng qua WeChat đi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好的黄总，我马上发您，您开车注意安全！",
+     "vi": "Vâng anh Hoàng, em gửi anh ngay, anh lái xe cẩn thận nhé!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "口音",
+     "pinyin": "kǒuyīn",
+     "vi": "giọng (vùng miền)"
+    },
+    {
+     "zh": "方言",
+     "pinyin": "fāngyán",
+     "vi": "phương ngữ"
+    },
+    {
+     "zh": "普通话",
+     "pinyin": "pǔtōnghuà",
+     "vi": "tiếng phổ thông"
+    },
+    {
+     "zh": "平翘舌",
+     "pinyin": "píng qiào shé",
+     "vi": "âm đầu lưỡi thẳng/uốn (z-zh, s-sh)"
+    },
+    {
+     "zh": "前后鼻音",
+     "pinyin": "qián hòu bíyīn",
+     "vi": "vần -n / -ng"
+    },
+    {
+     "zh": "儿化音",
+     "pinyin": "érhuàyīn",
+     "vi": "âm cuốn lưỡi -r"
+    },
+    {
+     "zh": "语速",
+     "pinyin": "yǔsù",
+     "vi": "tốc độ nói"
+    },
+    {
+     "zh": "信号",
+     "pinyin": "xìnhào",
+     "vi": "sóng điện thoại",
+     "example": {
+      "zh": "喂？喂？小阮啊，我在高速上，信号不太好哈……那个货，你们那个货，是不是四号到？",
+      "vi": "Alô? Alô? Tiểu Nguyễn à, anh đang trên cao tốc, sóng không tốt lắm nhé… Cái hàng ấy, hàng của các cậu ấy, có phải mùng bốn đến không?"
+     }
+    },
+    {
+     "zh": "断断续续",
+     "pinyin": "duànduàn xùxù",
+     "vi": "chập chờn, đứt quãng"
+    },
+    {
+     "zh": "回头",
+     "pinyin": "huítóu",
+     "vi": "lát nữa, sau này",
+     "example": {
+      "zh": "哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。",
+      "vi": "À à, ngày mười, được được. Vậy cậu gửi mã vận đơn qua WeChat cho anh, lát anh bảo kho đi lấy. Số điện thoại một ba tám, một hai ba bốn… Thôi, cậu cứ gửi thẳng qua WeChat đi."
+     }
+    },
+    {
+     "zh": "单号",
+     "pinyin": "dānhào",
+     "vi": "mã vận đơn",
+     "example": {
+      "zh": "哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。",
+      "vi": "À à, ngày mười, được được. Vậy cậu gửi mã vận đơn qua WeChat cho anh, lát anh bảo kho đi lấy. Số điện thoại một ba tám, một hai ba bốn… Thôi, cậu cứ gửi thẳng qua WeChat đi."
+     }
+    },
+    {
+     "zh": "幺",
+     "pinyin": "yāo",
+     "vi": "số 1 (khi đọc số điện thoại, mã)",
+     "example": {
+      "zh": "哦哦，十号，好好。那你把那个单号发我微信，我回头让仓库去拿。电话幺三八，幺二三四……哎，算了，你直接发微信吧。",
+      "vi": "À à, ngày mười, được được. Vậy cậu gửi mã vận đơn qua WeChat cho anh, lát anh bảo kho đi lấy. Số điện thoại một ba tám, một hai ba bốn… Thôi, cậu cứ gửi thẳng qua WeChat đi."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "线上会议，三个人抢着说",
+   "context_vi": "听力二 · 线上会议，三个人抢着说",
+   "scene": "🎧",
+   "lines": [
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "好，那我们——",
+     "vi": "Được, vậy chúng ta—"
+    },
+    {
+     "speaker": "bc-xiaoma",
+     "zh": "不好意思我插一句啊，那个接口的问题，我们昨天其实已经……",
+     "vi": "Xin lỗi cho em chen một câu, cái vấn đề giao diện kết nối ấy, hôm qua bọn em thật ra đã…"
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "你等一下小马，先让小阮说完。",
+     "vi": "Em đợi chút Tiểu Mã, để Tiểu Nguyễn nói xong đã."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谢谢周姐。我就是想说，越南海关那边说白了就是格式不统一，我们改一个字段就行，不用重新开发。",
+     "vi": "Cảm ơn chị Chu. Em chỉ muốn nói là, bên hải quan Việt Nam nói trắng ra là định dạng không thống nhất, mình sửa một trường dữ liệu là được, không cần phát triển lại."
+    },
+    {
+     "speaker": "bc-xiaoma",
+     "zh": "啊，那就简单了，我还以为要大改呢。那……周三能搞定吧？",
+     "vi": "À, vậy thì đơn giản rồi, em cứ tưởng phải sửa lớn. Vậy… thứ tư xong được chứ?"
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "好，周三。小阮，你把那个字段对照表发群里，大家对一下。还有别的吗？没有散会。",
+     "vi": "Được, thứ tư. Tiểu Nguyễn, em gửi bảng đối chiếu trường dữ liệu vào nhóm, mọi người cùng đối chiếu. Còn gì nữa không? Không thì tan họp."
+    },
+    {
+     "speaker": "bc-wenben",
+     "zh": "（背景音：……喂？你们能听到吗？我这边卡了……）",
+     "vi": "(tiếng nền: …Alô? Mọi người có nghe thấy không? Bên này tôi bị đơ…)"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "卡了",
+     "pinyin": "kǎ le",
+     "vi": "bị đơ, giật (mạng)",
+     "example": {
+      "zh": "（背景音：……喂？你们能听到吗？我这边卡了……）",
+      "vi": "(tiếng nền: …Alô? Mọi người có nghe thấy không? Bên này tôi bị đơ…)"
+     }
+    },
+    {
+     "zh": "听不清",
+     "pinyin": "tīng bu qīng",
+     "vi": "nghe không rõ"
+    },
+    {
+     "zh": "插一句",
+     "pinyin": "chā yí jù",
+     "vi": "xin chen một câu",
+     "example": {
+      "zh": "不好意思我插一句啊，那个接口的问题，我们昨天其实已经……",
+      "vi": "Xin lỗi cho em chen một câu, cái vấn đề giao diện kết nối ấy, hôm qua bọn em thật ra đã…"
+     }
+    },
+    {
+     "zh": "说白了",
+     "pinyin": "shuō bái le",
+     "vi": "nói thẳng ra là",
+     "example": {
+      "zh": "谢谢周姐。我就是想说，越南海关那边说白了就是格式不统一，我们改一个字段就行，不用重新开发。",
+      "vi": "Cảm ơn chị Chu. Em chỉ muốn nói là, bên hải quan Việt Nam nói trắng ra là định dạng không thống nhất, mình sửa một trường dữ liệu là được, không cần phát triển lại."
+     }
+    },
+    {
+     "zh": "接口",
+     "pinyin": "jiēkǒu",
+     "vi": "giao diện kết nối (API)",
+     "example": {
+      "zh": "不好意思我插一句啊，那个接口的问题，我们昨天其实已经……",
+      "vi": "Xin lỗi cho em chen một câu, cái vấn đề giao diện kết nối ấy, hôm qua bọn em thật ra đã…"
+     }
+    },
+    {
+     "zh": "搞定",
+     "pinyin": "gǎodìng",
+     "vi": "xong xuôi, giải quyết được",
+     "example": {
+      "zh": "啊，那就简单了，我还以为要大改呢。那……周三能搞定吧？",
+      "vi": "À, vậy thì đơn giản rồi, em cứ tưởng phải sửa lớn. Vậy… thứ tư xong được chứ?"
+     }
+    },
+    {
+     "zh": "散会",
+     "pinyin": "sànhuì",
+     "vi": "tan họp",
+     "example": {
+      "zh": "好，周三。小阮，你把那个字段对照表发群里，大家对一下。还有别的吗？没有散会。",
+      "vi": "Được, thứ tư. Tiểu Nguyễn, em gửi bảng đối chiếu trường dữ liệu vào nhóm, mọi người cùng đối chiếu. Còn gì nữa không? Không thì tan họp."
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "60秒语音（北京口音，语速快）",
+   "context_vi": "听力三 · 60秒语音（北京口音，语速快）",
+   "scene": "🎧",
+   "lines": [
+    {
+     "speaker": "bc-beijingtongshi",
+     "zh": "小阮啊，跟你说个事儿。明儿那个会，甭订大会议室了，就咱仨，找个小屋儿就得。然后呢，PPT你大概齐过一遍就行，别整太细，领导就看那三页数据。对了，那个报价单是两千五一吨，不是两千八，你别弄错了啊。行，就这事儿。",
+     "vi": "Tiểu Nguyễn à, nói với cậu chuyện này. Cuộc họp mai ấy, khỏi đặt phòng họp lớn, chỉ ba đứa mình, tìm phòng nhỏ là được. Rồi thì PPT cậu lướt qua đại khái một lượt là được, đừng làm chi tiết quá, sếp chỉ xem ba trang số liệu thôi. À, bảng báo giá là hai nghìn rưỡi một tấn, không phải hai nghìn tám đâu, đừng nhầm đấy. Rồi, có thế thôi."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "明儿",
+     "pinyin": "míngr",
+     "vi": "ngày mai (Bắc Kinh)"
+    },
+    {
+     "zh": "甭",
+     "pinyin": "béng",
+     "vi": "khỏi, không cần (= 不用)"
+    },
+    {
+     "zh": "咱仨",
+     "pinyin": "zán sā",
+     "vi": "ba chúng ta"
+    },
+    {
+     "zh": "大概齐",
+     "pinyin": "dàgàiqí",
+     "vi": "đại khái (Bắc Kinh)"
+    },
+    {
+     "zh": "整",
+     "pinyin": "zhěng",
+     "vi": "làm (khẩu ngữ phương Bắc)"
+    },
+    {
+     "zh": "就得",
+     "pinyin": "jiù dé",
+     "vi": "là được (Bắc Kinh)"
+    },
+    {
+     "zh": "埋单",
+     "pinyin": "máidān",
+     "vi": "tính tiền (gốc Quảng Đông)"
+    },
+    {
+     "zh": "冇",
+     "pinyin": "mǎo",
+     "vi": "không có (Quảng Đông, = 没有)"
+    },
+    {
+     "zh": "拎得清",
+     "pinyin": "līn de qīng",
+     "vi": "biết điều, hiểu chuyện (Thượng Hải)"
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "喂？喂？小阮啊，我在高速上，___不太好哈……那个货，你们那个货，是不是四号到？",
+   "bank": [
+    "散会",
+    "信号",
+    "埋单"
+   ],
+   "answer": "信号"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "（背景音：……喂？你们能听到吗？我这边___……）",
+   "bank": [
+    "方言",
+    "口音",
+    "卡了"
+   ],
+   "answer": "卡了"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "不好意思我___啊，那个接口的问题，我们昨天其实已经……",
+   "bank": [
+    "拎得清",
+    "插一句",
+    "咱仨"
+   ],
+   "answer": "插一句"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "谢谢周姐。我就是想说，越南海关那边___就是格式不统一，我们改一个字段就行，不用重新开发。",
+   "bank": [
+    "说白了",
+    "大概齐",
+    "前后鼻音"
+   ],
+   "answer": "说白了"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "啊，那就简单了，我还以为要大改呢。那……周三能___吧？",
+   "bank": [
+    "插一句",
+    "搞定",
+    "就得"
+   ],
+   "answer": "搞定"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "好，周三。小阮，你把那个字段对照表发群里，大家对一下。还有别的吗？没有___。",
+   "bank": [
+    "散会",
+    "明儿",
+    "搞定"
+   ],
+   "answer": "散会"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "信号",
+    "不太好",
+    "那个",
+    "货",
+    "哈"
+   ],
+   "answers": [
+    "信号不太好哈那个货"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "到",
+    "四号",
+    "是不是"
+   ],
+   "answers": [
+    "是不是四号到"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "那你把",
+    "那个",
+    "发我",
+    "单号",
+    "微信"
+   ],
+   "answers": [
+    "那你把那个单号发我微信"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "口音",
+     "a": "giọng (vùng miền)"
+    },
+    {
+     "q": "方言",
+     "a": "phương ngữ"
+    },
+    {
+     "q": "普通话",
+     "a": "tiếng phổ thông"
+    },
+    {
+     "q": "平翘舌",
+     "a": "âm đầu lưỡi thẳng/uốn (z-zh, s-sh)"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Đoán giọng: giáo viên phát 5 đoạn 15 giây của 5 vùng; đội đoán vùng và chép lại 1 câu nghe được.",
+   "② Thử thách con số: nghe 10 dãy số (số điện thoại có 幺, giá 两千五, tỉ lệ 三个点, 一个亿…) và ghi đúng."
+  ],
+  "patterns": []
+ },
+ "culture": {
+  "title_vi": "Tiếng phổ thông “có giọng”",
+  "body_vi": [
+   "Hầu hết người Trung Quốc nói tiếng phổ thông kèm giọng quê: người miền Nam (Phúc Kiến, Quảng Đông, Hồ Nam) hay lẫn n/l, không phân biệt z-zh, -n/-ng; người Bắc Kinh nuốt âm và dùng nhiều 儿化; người Đông Bắc có từ riêng như 整, 嘎哈; người Quảng Đông chen từ Quảng như 埋单, 冇问题. Trong kinh doanh, giọng địa phương cho biết nhiều điều: đối tác Ôn Châu, Triều Sán nổi tiếng về mạng lưới buôn bán theo đồng hương; hỏi 您是哪里人？ và khen đặc sản quê họ là cách mở chuyện hiệu quả. Người học quen giáo trình chuẩn thường “sốc” khi làm việc thật; cách luyện tốt nhất là nghe podcast, livestream, video Douyin của người nói giọng vùng.",
+   "Ứng xử: Nghe không rõ số liệu, tên riêng thì hỏi lại ngay, đừng đoán: 不好意思，是四还是十？",
+   "Ứng xử: Sau cuộc gọi quan trọng, tóm tắt lại bằng tin nhắn chữ: 黄总，刚才电话确认：货10月10日（周五）到，单号见下。",
+   "Ứng xử: Họp online bị chen lời: người chủ trì có quyền điều phối (你等一下，先让……说完); người bị chen có thể nói 我先把这点说完.",
+   "Ứng xử: Tin nhắn thoại khó nghe: dùng chức năng 转文字 của WeChat để kiểm tra, không yêu cầu người lớn tuổi gõ lại."
+  ]
+ }
+}

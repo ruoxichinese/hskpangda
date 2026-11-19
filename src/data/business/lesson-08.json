@@ -1,0 +1,691 @@
+{
+ "id": 8,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "送礼与人情：关系、面子与分寸",
+  "pinyin": "sòng lǐ yǔ rén qíng guān xì miàn zi yǔ fēn cùn",
+  "vi": "tặng và nhận quà đúng phép"
+ },
+ "grammarTopics_vi": [
+  "一点心意，不成敬意 / 小小心意，请您收下。",
+  "你太客气了，还让你破费了！",
+  "您的心意我领了，但是……真的不能收。",
+  "……比什么都强。",
+  "太……显得……，太……又……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Tặng và nhận quà đúng phép",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Từ chối quà không phù hợp",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Hiểu logic 人情 – 面子 – 关系 và giới hạn tuân thủ",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "中秋送礼",
+   "context_vi": "课文一 · 中秋送礼",
+   "scene": "🎁",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+     "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "哎呀，你太客气了，还让你破费了！这我不能收。",
+     "vi": "Ôi chao, cậu khách sáo quá, lại để cậu tốn kém rồi! Cái này tôi không nhận được đâu."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！",
+     "vi": "Không đắt đâu ạ, chỉ là hương vị quê nhà, gửi anh và gia đình nếm thử. Anh nhất định phải nhận cho em!"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "那好，恭敬不如从命。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。",
+     "vi": "Vậy được, cung kính không bằng tuân mệnh. Cảm ơn cậu nhé! Lần sau cậu đến Thâm Quyến, tôi mời cậu uống trà công phu Triều Sán của chúng tôi."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "特产",
+     "pinyin": "tèchǎn",
+     "vi": "đặc sản",
+     "example": {
+      "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+      "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+     }
+    },
+    {
+     "zh": "心意",
+     "pinyin": "xīnyì",
+     "vi": "tấm lòng",
+     "example": {
+      "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+      "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+     }
+    },
+    {
+     "zh": "不成敬意",
+     "pinyin": "bù chéng jìngyì",
+     "vi": "chút lòng thành, chưa xứng",
+     "example": {
+      "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+      "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+     }
+    },
+    {
+     "zh": "破费",
+     "pinyin": "pòfèi",
+     "vi": "tốn kém",
+     "example": {
+      "zh": "哎呀，你太客气了，还让你破费了！这我不能收。",
+      "vi": "Ôi chao, cậu khách sáo quá, lại để cậu tốn kém rồi! Cái này tôi không nhận được đâu."
+     }
+    },
+    {
+     "zh": "收下",
+     "pinyin": "shōuxia",
+     "vi": "nhận lấy",
+     "example": {
+      "zh": "不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！",
+      "vi": "Không đắt đâu ạ, chỉ là hương vị quê nhà, gửi anh và gia đình nếm thử. Anh nhất định phải nhận cho em!"
+     }
+    },
+    {
+     "zh": "推辞",
+     "pinyin": "tuīcí",
+     "vi": "từ chối (khách sáo)"
+    },
+    {
+     "zh": "恭敬不如从命",
+     "pinyin": "gōngjìng bùrú cóngmìng",
+     "vi": "kính cẩn không bằng tuân lệnh",
+     "example": {
+      "zh": "那好，恭敬不如从命。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。",
+      "vi": "Vậy được, cung kính không bằng tuân mệnh. Cảm ơn cậu nhé! Lần sau cậu đến Thâm Quyến, tôi mời cậu uống trà công phu Triều Sán của chúng tôi."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g8-1",
+     "title_zh": "一点心意，不成敬意 / 小小心意，请您收下。",
+     "title_vi": "Khiêm tốn khi tặng quà",
+     "formula": [
+      [
+       {
+        "zh": "一点心意，不成敬意",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "小小心意，请您收下。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Khiêm tốn khi tặng quà.",
+     "examples": [
+      {
+       "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+       "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，（　），不成敬意。",
+       "options": [
+        "小小心意",
+        "一点心意",
+        "请您收下"
+       ],
+       "answer": 1,
+       "explain_vi": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。 — Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+      }
+     ]
+    },
+    {
+     "id": "bc-g8-2",
+     "title_zh": "你太客气了，还让你破费了！",
+     "title_vi": "Đáp lại khi nhận quà",
+     "formula": [
+      [
+       {
+        "zh": "你太客气了，还让你破费了！",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Đáp lại khi nhận quà; thường kèm một lần khách sáo từ chối.",
+     "examples": [
+      {
+       "zh": "哎呀，你太客气了，还让你破费了！这我不能收。",
+       "vi": "Ôi chao, cậu khách sáo quá, lại để cậu tốn kém rồi! Cái này tôi không nhận được đâu."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "哎呀，你太客气了，（　）！这我不能收。",
+       "options": [
+        "您的心意我领了",
+        "增长了一倍",
+        "还让你破费了"
+       ],
+       "answer": 2,
+       "explain_vi": "哎呀，你太客气了，还让你破费了！这我不能收。 — Ôi chao, cậu khách sáo quá, lại để cậu tốn kém rồi! Cái này tôi không nhận được đâu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "婉拒贵重礼物",
+   "context_vi": "课文二 · 婉拒贵重礼物",
+   "scene": "🎁",
+   "lines": [
+    {
+     "speaker": "bc-wuzong",
+     "zh": "小阮，这次合作多亏你帮忙。这张购物卡你拿着，小意思。",
+     "vi": "Tiểu Nguyễn, lần hợp tác này may mà có cậu giúp. Cái thẻ mua sắm này cậu cầm lấy, chút quà nhỏ thôi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "吴总，您的心意我领了，但这个我真的不能收。我们公司有明确的合规规定，超过200元的礼品都要上报。您要是真想感谢，就把下批货的交期保证好，比什么都强！",
+     "vi": "Anh Ngô, tấm lòng của anh em xin nhận, nhưng cái này em thật sự không nhận được. Công ty em có quy định tuân thủ rõ ràng, quà tặng trên 200 tệ đều phải báo cáo. Nếu anh thật sự muốn cảm ơn, anh cứ đảm bảo đúng hạn giao lô hàng tới, như vậy còn quý hơn bất cứ thứ gì!"
+    },
+    {
+     "speaker": "bc-wuzong",
+     "zh": "哈哈，你们外企就是规矩多。行，交期包在我身上！",
+     "vi": "Haha, công ty nước ngoài các cậu đúng là lắm quy định. Được, hạn giao hàng cứ để tôi lo!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "礼品",
+     "pinyin": "lǐpǐn",
+     "vi": "quà tặng"
+    },
+    {
+     "zh": "小意思",
+     "pinyin": "xiǎo yìsi",
+     "vi": "chút quà nhỏ",
+     "example": {
+      "zh": "小阮，这次合作多亏你帮忙。这张购物卡你拿着，小意思。",
+      "vi": "Tiểu Nguyễn, lần hợp tác này may mà có cậu giúp. Cái thẻ mua sắm này cậu cầm lấy, chút quà nhỏ thôi."
+     }
+    },
+    {
+     "zh": "心意我领了",
+     "pinyin": "xīnyì wǒ lǐng le",
+     "vi": "tôi xin nhận tấm lòng"
+    },
+    {
+     "zh": "贵重",
+     "pinyin": "guìzhòng",
+     "vi": "quý giá"
+    },
+    {
+     "zh": "购物卡",
+     "pinyin": "gòuwùkǎ",
+     "vi": "thẻ mua sắm",
+     "example": {
+      "zh": "小阮，这次合作多亏你帮忙。这张购物卡你拿着，小意思。",
+      "vi": "Tiểu Nguyễn, lần hợp tác này may mà có cậu giúp. Cái thẻ mua sắm này cậu cầm lấy, chút quà nhỏ thôi."
+     }
+    },
+    {
+     "zh": "合规",
+     "pinyin": "héguī",
+     "vi": "tuân thủ quy định"
+    },
+    {
+     "zh": "上报",
+     "pinyin": "shàngbào",
+     "vi": "báo cáo lên trên"
+    },
+    {
+     "zh": "商业贿赂",
+     "pinyin": "shāngyè huìlù",
+     "vi": "hối lộ thương mại"
+    },
+    {
+     "zh": "交期",
+     "pinyin": "jiāoqī",
+     "vi": "thời hạn giao hàng",
+     "example": {
+      "zh": "哈哈，你们外企就是规矩多。行，交期包在我身上！",
+      "vi": "Haha, công ty nước ngoài các cậu đúng là lắm quy định. Được, hạn giao hàng cứ để tôi lo!"
+     }
+    },
+    {
+     "zh": "包在我身上",
+     "pinyin": "bāo zài wǒ shēnshang",
+     "vi": "cứ để tôi lo",
+     "example": {
+      "zh": "哈哈，你们外企就是规矩多。行，交期包在我身上！",
+      "vi": "Haha, công ty nước ngoài các cậu đúng là lắm quy định. Được, hạn giao hàng cứ để tôi lo!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "同事闲聊",
+   "context_vi": "课文三 · 同事闲聊",
+   "scene": "🎁",
+   "lines": [
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "你知道吗？送礼千万别送钟，“送钟”听起来像“送终”。也别给情侣送梨和伞。",
+     "vi": "Cậu biết không? Tặng quà tuyệt đối đừng tặng đồng hồ, “tặng đồng hồ” nghe giống “tiễn người lúc lâm chung”. Cũng đừng tặng lê và ô cho các cặp đôi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "谐音这么重要啊！那送什么比较保险？",
+     "vi": "Đồng âm quan trọng vậy cơ à! Thế tặng gì thì an toàn hơn?"
+    },
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "茶叶、特产、水果篮都不错。关键是分寸：太便宜显得没诚意，太贵了对方有负担，还可能违规。",
+     "vi": "Trà, đặc sản, giỏ hoa quả đều được. Quan trọng là chừng mực: rẻ quá thì thấy thiếu thành ý, đắt quá thì đối phương thấy áp lực, còn có thể vi phạm quy định."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "送礼",
+     "pinyin": "sònglǐ",
+     "vi": "tặng quà",
+     "example": {
+      "zh": "你知道吗？送礼千万别送钟，“送钟”听起来像“送终”。也别给情侣送梨和伞。",
+      "vi": "Cậu biết không? Tặng quà tuyệt đối đừng tặng đồng hồ, “tặng đồng hồ” nghe giống “tiễn người lúc lâm chung”. Cũng đừng tặng lê và ô cho các cặp đôi."
+     }
+    },
+    {
+     "zh": "谐音",
+     "pinyin": "xiéyīn",
+     "vi": "đồng âm",
+     "example": {
+      "zh": "谐音这么重要啊！那送什么比较保险？",
+      "vi": "Đồng âm quan trọng vậy cơ à! Thế tặng gì thì an toàn hơn?"
+     }
+    },
+    {
+     "zh": "忌讳",
+     "pinyin": "jìhuì",
+     "vi": "điều kiêng kỵ"
+    },
+    {
+     "zh": "分寸",
+     "pinyin": "fēncun",
+     "vi": "chừng mực",
+     "example": {
+      "zh": "茶叶、特产、水果篮都不错。关键是分寸：太便宜显得没诚意，太贵了对方有负担，还可能违规。",
+      "vi": "Trà, đặc sản, giỏ hoa quả đều được. Quan trọng là chừng mực: rẻ quá thì thấy thiếu thành ý, đắt quá thì đối phương thấy áp lực, còn có thể vi phạm quy định."
+     }
+    },
+    {
+     "zh": "负担",
+     "pinyin": "fùdān",
+     "vi": "gánh nặng",
+     "example": {
+      "zh": "茶叶、特产、水果篮都不错。关键是分寸：太便宜显得没诚意，太贵了对方有负担，还可能违规。",
+      "vi": "Trà, đặc sản, giỏ hoa quả đều được. Quan trọng là chừng mực: rẻ quá thì thấy thiếu thành ý, đắt quá thì đối phương thấy áp lực, còn có thể vi phạm quy định."
+     }
+    },
+    {
+     "zh": "礼尚往来",
+     "pinyin": "lǐ shàng wǎng lái",
+     "vi": "có qua có lại"
+    },
+    {
+     "zh": "回礼",
+     "pinyin": "huílǐ",
+     "vi": "đáp lễ"
+    },
+    {
+     "zh": "人情",
+     "pinyin": "rénqíng",
+     "vi": "ân tình, nhân tình"
+    },
+    {
+     "zh": "欠人情",
+     "pinyin": "qiàn rénqíng",
+     "vi": "mắc nợ ân tình"
+    },
+    {
+     "zh": "面子",
+     "pinyin": "miànzi",
+     "vi": "thể diện"
+    },
+    {
+     "zh": "关系",
+     "pinyin": "guānxi",
+     "vi": "quan hệ"
+    },
+    {
+     "zh": "红包",
+     "pinyin": "hóngbāo",
+     "vi": "bao lì xì"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g8-3",
+     "title_zh": "您的心意我领了，但是……真的不能收。",
+     "title_vi": "Từ chối mà vẫn trân trọng tấm lòng",
+     "formula": [
+      [
+       {
+        "zh": "您的心意我领了，但是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "真的不能收。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối mà vẫn trân trọng tấm lòng.",
+     "examples": []
+    },
+    {
+     "id": "bc-g8-4",
+     "title_zh": "……比什么都强。",
+     "title_vi": "So sánh nhấn mạnh, gợi ý cách “cảm ơn” thay thế",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "比什么都强。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "So sánh nhấn mạnh, gợi ý cách “cảm ơn” thay thế.",
+     "examples": []
+    },
+    {
+     "id": "bc-g8-5",
+     "title_zh": "太……显得……，太……又……",
+     "title_vi": "Phân tích hai cực để nói về chừng mực",
+     "formula": [
+      [
+       {
+        "zh": "太",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "显得",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，太",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "又",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Phân tích hai cực để nói về chừng mực.",
+     "examples": [
+      {
+       "zh": "太便宜显得没诚意，太贵又让对方有负担。",
+       "vi": "Rẻ quá thì thấy thiếu thành ý, đắt quá lại khiến đối phương thấy áp lực."
+      },
+      {
+       "zh": "茶叶、特产、水果篮都不错。关键是分寸：太便宜显得没诚意，太贵了对方有负担，还可能违规。",
+       "vi": "Trà, đặc sản, giỏ hoa quả đều được. Quan trọng là chừng mực: rẻ quá thì thấy thiếu thành ý, đắt quá thì đối phương thấy áp lực, còn có thể vi phạm quy định."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "太便宜（　）没诚意，太贵又让对方有负担。",
+       "options": [
+        "显得",
+        "增长",
+        "但是"
+       ],
+       "answer": 0,
+       "explain_vi": "太便宜显得没诚意，太贵又让对方有负担。 — Rẻ quá thì thấy thiếu thành ý, đắt quá lại khiến đối phương thấy áp lực."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "你知道吗？___千万别送钟，“送钟”听起来像“送终”。也别给情侣送梨和伞。",
+   "bank": [
+    "心意",
+    "送礼",
+    "忌讳"
+   ],
+   "answer": "送礼"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "吴总，您的心意我领了，但这个我真的不能收。我们公司有明确的合规规定，超过200元的___都要上报。您要是真想感谢，就把下批货的交期保证好，比什么都强！",
+   "bank": [
+    "礼品",
+    "包在我身上",
+    "回礼"
+   ],
+   "answer": "礼品"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "赵经理，中秋快到了，这是我们越南的一点___，咖啡和腰果，一点心意，不成敬意。",
+   "bank": [
+    "合规",
+    "特产",
+    "欠人情"
+   ],
+   "answer": "特产"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "哎呀，你太客气了，还让你___了！这我不能收。",
+   "bank": [
+    "破费",
+    "上报",
+    "送礼"
+   ],
+   "answer": "破费"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "不贵的，就是家乡的味道，给您和家人尝尝。您一定要___！",
+   "bank": [
+    "收下",
+    "分寸",
+    "上报"
+   ],
+   "answer": "收下"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "那好，___。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。",
+   "bank": [
+    "礼品",
+    "不成敬意",
+    "恭敬不如从命"
+   ],
+   "answer": "恭敬不如从命"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "这是",
+    "越南的",
+    "特产",
+    "我们",
+    "一点"
+   ],
+   "answers": [
+    "这是我们越南的一点特产"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "了",
+    "让",
+    "还",
+    "你",
+    "破费"
+   ],
+   "answers": [
+    "还让你破费了"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "味道",
+    "家乡",
+    "的",
+    "就是"
+   ],
+   "answers": [
+    "就是家乡的味道"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "送礼",
+     "a": "tặng quà"
+    },
+    {
+     "q": "礼品",
+     "a": "quà tặng"
+    },
+    {
+     "q": "特产",
+     "a": "đặc sản"
+    },
+    {
+     "q": "心意",
+     "a": "tấm lòng"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Chọn quà 5 tình huống: Trung thu cho khách hàng lâu năm; mừng sếp cũ thăng chức; thăm nhà đồng nghiệp mới sinh con; cảm ơn cán bộ hải quan; đối tác mới lần đầu gặp. Mỗi đội chọn quà, giá trị, câu nói khi tặng, và giải thích vì sao.",
+   "② Kéo co lời nói: cặp đôi đóng vai người tặng – người nhận, phải qua đủ 3 lượt “từ chối – nài – nhận” một cách tự nhiên. Tình huống 2: người nhận phải từ chối thật sự (quà quá giá trị) mà không làm đối phương mất mặt.",
+   "③ Giải mã đồng âm: thẻ hình (钟, 伞, 梨, 苹果, 鱼, 橘子, 鞋…), đội đoán ý nghĩa may mắn hay kiêng kỵ và lý do."
+  ],
+  "patterns": [
+   {
+    "zh": "赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。",
+    "vi": "Anh Triệu, sắp đến Trung thu rồi, đây là chút đặc sản Việt Nam của bọn em, cà phê và hạt điều, chút tấm lòng, không đáng là bao ạ."
+   },
+   {
+    "zh": "哎呀，你太客气了，还让你破费了！这我不能收。",
+    "vi": "Ôi chao, cậu khách sáo quá, lại để cậu tốn kém rồi! Cái này tôi không nhận được đâu."
+   },
+   {
+    "zh": "太便宜显得没诚意，太贵又让对方有负担。",
+    "vi": "Rẻ quá thì thấy thiếu thành ý, đắt quá lại khiến đối phương thấy áp lực."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "关系, 面子 và 人情",
+  "body_vi": [
+   "Nhà tâm lý học Hwang Kwang-kuo mô tả quan hệ xã hội Trung Quốc như một “trò chơi quyền lực” xoay quanh thể diện và ân tình, nơi con người cân nhắc mức độ thân sơ khi trao đổi ân huệ ([Hwang 1987, AJS](https://scholars.lib.ntu.edu.tw/handle/123456789/39805?mode=full)). Trong kinh doanh, món quà không chỉ là vật: nó mở ra một khoản 人情 cần được đáp lại (礼尚往来), và nhận quà mà không đáp lễ có nghĩa là “mắc nợ”. 面子 hoạt động song song: làm đối phương có thể diện trước người khác (给面子) là cách đầu tư quan hệ hiệu quả nhất, thậm chí hơn cả quà. Từ năm 2012, với “Tám quy định” của Trung ương và chiến dịch chống tham nhũng, việc tặng quà cho cán bộ bị siết chặt; điều lệ năm 2025 cấm nhận tiền mừng, quà quý, thẻ thanh toán khi đi công tác ([中国政府网](https://www.gov.cn/zhengce/202505/content_7024131.htm)). Vì vậy quà tặng doanh nghiệp ngày nay xu hướng nhỏ, mang tính đặc sản và “tấm lòng”.",
+   "Ứng xử: Người nhận thường khách sáo từ chối 1–2 lần; người tặng nên nài thêm một lần. Người nhận truyền thống không mở quà ngay trước mặt người tặng; người trẻ thì thoải mái hơn.",
+   "Ứng xử: Tránh: đồng hồ treo tường (钟 ≈ 终), ô (伞 ≈ 散), lê (梨 ≈ 离), số 4, mũ xanh lá, gói giấy trắng/đen. Số 6, 8 và màu đỏ được ưa chuộng.",
+   "Ứng xử: Tặng quà cho cả phòng ban thì chia đều; tặng riêng sếp trước mặt đồng nghiệp dễ bị hiểu là “nịnh”.",
+   "Ứng xử: Quà giá trị cao, thẻ mua sắm, tiền mặt hoặc 红包 lớn trong quan hệ mua bán có thể cấu thành hối lộ thương mại; làm việc với doanh nghiệp nhà nước và cơ quan nhà nước phải đặc biệt thận trọng."
+  ]
+ }
+}

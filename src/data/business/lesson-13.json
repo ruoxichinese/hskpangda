@@ -1,0 +1,844 @@
+{
+ "id": 13,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "项目协作：跨部门推进与风险预警",
+  "pinyin": "xiàng mù xié zuò kuà bù mén tuī jìn yǔ fēng xiǎn yù jǐng",
+  "vi": "cập nhật tiến độ dự án"
+ },
+ "grammarTopics_vi": [
+  "现在整体进度大概……%，……已经完成，但……卡在了……上。",
+  "我要提一个风险预警：如果……前不能……，……可能要延期……",
+  "打扰一下。……的事，我整理了……，您看能不能……？",
+  "这周真排不开，……可以吗？",
+  "该……的时候……，但没必要为了……而……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Cập nhật tiến độ dự án",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Nhờ phòng ban khác hỗ trợ",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Báo trước rủi ro trễ hạn",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Xử lý tình huống “đùn đẩy trách nhiệm”",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "项目周会",
+   "context_vi": "课文一 · 项目周会",
+   "scene": "🧩",
+   "lines": [
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+     "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，上线可能要延期一周。",
+     "vi": "Giao diện tiếng Việt đã dịch xong, nhưng mô-đun khai báo hải quan bị vướng một vấn đề: định dạng dữ liệu của hải quan Việt Nam không tương thích với hệ thống của mình. Tuần này em xin đưa ra một cảnh báo rủi ro: nếu đến thứ sáu tuần sau phòng Kỹ thuật chưa có phương án, việc vận hành có thể phải lùi một tuần."
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "好，这个提得及时。技术部这边资源紧张吗？",
+     "vi": "Được, em báo kịp thời đấy. Nguồn lực bên Kỹ thuật có căng không?"
+    },
+    {
+     "speaker": "bc-xiaoma",
+     "zh": "我们手上有三个项目同时在推进，优先级要请周姐跟领导定一下。",
+     "vi": "Bọn em đang chạy song song ba dự án, thứ tự ưu tiên phải nhờ chị Chu chốt với lãnh đạo."
+    },
+    {
+     "speaker": "bc-zhoujie",
+     "zh": "我今天下午找王总对齐优先级，明天同步给大家。",
+     "vi": "Chiều nay chị gặp anh Vương thống nhất thứ tự ưu tiên, mai chị cập nhật cho mọi người."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "立项",
+     "pinyin": "lìxiàng",
+     "vi": "phê duyệt dự án"
+    },
+    {
+     "zh": "里程碑",
+     "pinyin": "lǐchéngbēi",
+     "vi": "cột mốc",
+     "example": {
+      "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+      "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+     }
+    },
+    {
+     "zh": "节点",
+     "pinyin": "jiédiǎn",
+     "vi": "mốc thời gian",
+     "example": {
+      "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+      "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+     }
+    },
+    {
+     "zh": "上线",
+     "pinyin": "shàngxiàn",
+     "vi": "đưa vào vận hành",
+     "example": {
+      "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+      "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+     }
+    },
+    {
+     "zh": "排期",
+     "pinyin": "páiqī",
+     "vi": "xếp lịch"
+    },
+    {
+     "zh": "延期",
+     "pinyin": "yánqī",
+     "vi": "chậm tiến độ, gia hạn"
+    },
+    {
+     "zh": "本地化",
+     "pinyin": "běndìhuà",
+     "vi": "bản địa hoá",
+     "example": {
+      "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+      "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+     }
+    },
+    {
+     "zh": "模块",
+     "pinyin": "mókuài",
+     "vi": "mô-đun",
+     "example": {
+      "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+      "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+     }
+    },
+    {
+     "zh": "兼容",
+     "pinyin": "jiānróng",
+     "vi": "tương thích"
+    },
+    {
+     "zh": "风险预警",
+     "pinyin": "fēngxiǎn yùjǐng",
+     "vi": "cảnh báo rủi ro sớm"
+    },
+    {
+     "zh": "跨部门",
+     "pinyin": "kuà bùmén",
+     "vi": "liên phòng ban"
+    },
+    {
+     "zh": "协调",
+     "pinyin": "xiétiáo",
+     "vi": "điều phối"
+    },
+    {
+     "zh": "资源紧张",
+     "pinyin": "zīyuán jǐnzhāng",
+     "vi": "thiếu nguồn lực",
+     "example": {
+      "zh": "好，这个提得及时。技术部这边资源紧张吗？",
+      "vi": "Được, em báo kịp thời đấy. Nguồn lực bên Kỹ thuật có căng không?"
+     }
+    },
+    {
+     "zh": "优先级",
+     "pinyin": "yōuxiānjí",
+     "vi": "mức độ ưu tiên",
+     "example": {
+      "zh": "我们手上有三个项目同时在推进，优先级要请周姐跟领导定一下。",
+      "vi": "Bọn em đang chạy song song ba dự án, thứ tự ưu tiên phải nhờ chị Chu chốt với lãnh đạo."
+     }
+    },
+    {
+     "zh": "推进",
+     "pinyin": "tuījìn",
+     "vi": "thúc đẩy",
+     "example": {
+      "zh": "我们手上有三个项目同时在推进，优先级要请周姐跟领导定一下。",
+      "vi": "Bọn em đang chạy song song ba dự án, thứ tự ưu tiên phải nhờ chị Chu chốt với lãnh đạo."
+     }
+    },
+    {
+     "zh": "应急方案",
+     "pinyin": "yìngjí fāng'àn",
+     "vi": "phương án dự phòng"
+    },
+    {
+     "zh": "兜底",
+     "pinyin": "dōudǐ",
+     "vi": "đứng ra chịu cuối cùng"
+    },
+    {
+     "zh": "推诿",
+     "pinyin": "tuīwěi",
+     "vi": "đùn đẩy"
+    },
+    {
+     "zh": "甩锅",
+     "pinyin": "shuǎiguō",
+     "vi": "đổ trách nhiệm (lóng)"
+    },
+    {
+     "zh": "背锅",
+     "pinyin": "bēiguō",
+     "vi": "gánh tội thay (lóng)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g13-1",
+     "title_zh": "现在整体进度大概……%，……已经完成，但……卡在了……上。",
+     "title_vi": "Báo cáo tiến độ dự án",
+     "formula": [
+      [
+       {
+        "zh": "现在整体进度大概",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "%，",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "已经完成，但",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "卡在了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "上。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Báo cáo tiến độ dự án: phần xong → điểm tắc.",
+     "examples": [
+      {
+       "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+       "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，（　）60%。小阮，本地化部分怎么样？",
+       "options": [
+        "这周真排不开",
+        "我要提一个风险预警",
+        "现在整体进度大概"
+       ],
+       "answer": 2,
+       "explain_vi": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？ — Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "请其他部门帮忙",
+   "context_vi": "课文二 · 请其他部门帮忙",
+   "scene": "🧩",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+     "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+    },
+    {
+     "speaker": "bc-xiaoma",
+     "zh": "你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？",
+     "vi": "Tài liệu cậu viết rõ ràng đấy, đỡ cho tôi khối việc. Nhưng tuần này thật sự không xếp được, sáng thứ hai được không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "周一上午完全没问题！谢谢马哥，改天请你喝奶茶！",
+     "vi": "Sáng thứ hai hoàn toàn không vấn đề gì ạ! Cảm ơn anh Mã, hôm nào em mời anh trà sữa!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "排不开",
+     "pinyin": "pái bu kāi",
+     "vi": "không xếp được lịch",
+     "example": {
+      "zh": "你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？",
+      "vi": "Tài liệu cậu viết rõ ràng đấy, đỡ cho tôi khối việc. Nhưng tuần này thật sự không xếp được, sáng thứ hai được không?"
+     }
+    },
+    {
+     "zh": "需求文档",
+     "pinyin": "xūqiú wéndàng",
+     "vi": "tài liệu yêu cầu",
+     "example": {
+      "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+      "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+     }
+    },
+    {
+     "zh": "字段",
+     "pinyin": "zìduàn",
+     "vi": "trường dữ liệu",
+     "example": {
+      "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+      "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+     }
+    },
+    {
+     "zh": "评估",
+     "pinyin": "pínggū",
+     "vi": "đánh giá",
+     "example": {
+      "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+      "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g13-2",
+     "title_zh": "我要提一个风险预警：如果……前不能……，……可能要延期……",
+     "title_vi": "Báo trước rủi ro với điều kiện và hậu quả rõ ràng",
+     "formula": [
+      [
+       {
+        "zh": "我要提一个风险预警：如果",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "前不能",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "，",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "可能要延期",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Báo trước rủi ro với điều kiện và hậu quả rõ ràng.",
+     "examples": []
+    },
+    {
+     "id": "bc-g13-3",
+     "title_zh": "打扰一下。……的事，我整理了……，您看能不能……？",
+     "title_vi": "Nhờ phòng ban khác",
+     "formula": [
+      [
+       {
+        "zh": "打扰一下。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的事，我整理了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，您看能不能",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "？",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Nhờ phòng ban khác: chuẩn bị sẵn tài liệu, hỏi nhẹ nhàng.",
+     "examples": [
+      {
+       "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+       "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，（　）抽半天时间先评估一下？",
+       "options": [
+        "您看能不能",
+        "可能要延期",
+        "增长了一倍"
+       ],
+       "answer": 0,
+       "explain_vi": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？ — Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+      }
+     ]
+    },
+    {
+     "id": "bc-g13-4",
+     "title_zh": "这周真排不开，……可以吗？",
+     "title_vi": "Từ chối kèm phương án thay thế",
+     "formula": [
+      [
+       {
+        "zh": "这周真排不开，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "可以吗？",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối kèm phương án thay thế.",
+     "examples": [
+      {
+       "zh": "你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？",
+       "vi": "Tài liệu cậu viết rõ ràng đấy, đỡ cho tôi khối việc. Nhưng tuần này thật sự không xếp được, sáng thứ hai được không?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "你这文档写得挺清楚的，省了我不少事。不过（　），周一上午可以吗？",
+       "options": [
+        "您看能不能",
+        "但没必要为了",
+        "这周真排不开"
+       ],
+       "answer": 2,
+       "explain_vi": "你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？ — Tài liệu cậu viết rõ ràng đấy, đỡ cho tôi khối việc. Nhưng tuần này thật sự không xếp được, sáng thứ hai được không?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "茶水间的闲聊",
+   "context_vi": "课文三 · 茶水间的闲聊",
+   "scene": "🧩",
+   "lines": [
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "听说隔壁组为了抢项目，天天加班到十一点，谁先走谁就不好意思。",
+     "vi": "Nghe nói nhóm bên cạnh vì tranh dự án mà ngày nào cũng tăng ca đến mười một giờ, ai về trước thì ngại."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "这不就是“内卷”吗？",
+     "vi": "Thế chẳng phải là “nội cuốn” (cạnh tranh khốc liệt) sao?"
+    },
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+     "vi": "Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "分内的事",
+     "pinyin": "fènnèi de shì",
+     "vi": "việc trong phận sự",
+     "example": {
+      "zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+      "vi": "Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+     }
+    },
+    {
+     "zh": "内卷",
+     "pinyin": "nèijuǎn",
+     "vi": "“nội quyển”, cạnh tranh vô ích",
+     "example": {
+      "zh": "这不就是“内卷”吗？",
+      "vi": "Thế chẳng phải là “nội cuốn” (cạnh tranh khốc liệt) sao?"
+     }
+    },
+    {
+     "zh": "躺平",
+     "pinyin": "tǎngpíng",
+     "vi": "“nằm thẳng”, buông xuôi",
+     "example": {
+      "zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+      "vi": "Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+     }
+    },
+    {
+     "zh": "摸鱼",
+     "pinyin": "mōyú",
+     "vi": "“câu giờ” trong giờ làm"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g13-5",
+     "title_zh": "该……的时候……，但没必要为了……而……",
+     "title_vi": "Diễn đạt quan điểm cân bằng",
+     "formula": [
+      [
+       {
+        "zh": "该",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的时候",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，但没必要为了",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "而",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Diễn đạt quan điểm cân bằng.",
+     "examples": [
+      {
+       "zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+       "vi": "Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，（　）“看起来很努力”熬夜。",
+       "options": [
+        "这周真排不开",
+        "但没必要为了",
+        "增长了一倍"
+       ],
+       "answer": 1,
+       "explain_vi": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。 — Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+      }
+     ]
+    },
+    {
+     "id": "bc-c13-1",
+     "title_zh": "尽管……，还是/仍……",
+     "title_vi": "Văn viết công sở · Nhượng bộ",
+     "formula": [
+      [
+       {
+        "zh": "尽管……，还是/仍……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Trang trọng hơn 虽然. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "尽管交期紧，我们仍会按时交货。",
+       "vi": "Dù thời gian giao hàng gấp, chúng tôi vẫn sẽ giao đúng hạn."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）交期紧，我们仍会按时交货。",
+       "options": [
+        "不是",
+        "增长",
+        "尽管"
+       ],
+       "answer": 2,
+       "explain_vi": "尽管交期紧，我们仍会按时交货。 — Dù thời gian giao hàng gấp, chúng tôi vẫn sẽ giao đúng hạn."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我们看一下___。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+   "bank": [
+    "里程碑",
+    "协调",
+    "排期"
+   ],
+   "answer": "里程碑"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "越南语界面翻译已经完成，但海关申报模块卡在了一个问题上：越南海关的数据格式跟我们系统不兼容。我这周要提一个风险预警：如果技术部下周五前不能给出方案，___可能要延期一周。",
+   "bank": [
+    "跨部门",
+    "上线",
+    "推诿"
+   ],
+   "answer": "上线"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "你这文档写得挺清楚的，省了我不少事。不过这周真___，周一上午可以吗？",
+   "bank": [
+    "排不开",
+    "字段",
+    "躺平"
+   ],
+   "answer": "排不开"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "马哥，打扰一下。海关___的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+   "bank": [
+    "应急方案",
+    "风险预警",
+    "模块"
+   ],
+   "answer": "模块"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "好，这个提得及时。技术部这边___吗？",
+   "bank": [
+    "资源紧张",
+    "协调",
+    "内卷"
+   ],
+   "answer": "资源紧张"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "我们手上有三个项目同时在推进，___要请周姐跟领导定一下。",
+   "bank": [
+    "评估",
+    "兜底",
+    "优先级"
+   ],
+   "answer": "优先级"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "看",
+    "一下",
+    "里程碑",
+    "我们"
+   ],
+   "answers": [
+    "我们看一下里程碑"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "怎么样",
+    "部分",
+    "本地化"
+   ],
+   "answers": [
+    "本地化部分怎么样"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "界面",
+    "翻译",
+    "完成",
+    "已经",
+    "越南语"
+   ],
+   "answers": [
+    "越南语界面翻译已经完成"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "立项",
+     "a": "phê duyệt dự án"
+    },
+    {
+     "q": "里程碑",
+     "a": "cột mốc"
+    },
+    {
+     "q": "节点",
+     "a": "mốc thời gian"
+    },
+    {
+     "q": "上线",
+     "a": "đưa vào vận hành"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Họp tiến độ khi dự án trễ: mỗi nhóm nhận một “bảng Gantt” có 2 mốc bị trễ. Các vai: PM, trưởng kỹ thuật, sales, khách hàng. Nhiệm vụ: báo rủi ro, thương lượng lại mốc, chốt 应急方案 trong 10 phút.",
+   "② Hộp đen đổ lỗi: giáo viên phát đoạn chat nhóm 15 tin nhắn mà ai cũng đẩy việc cho người khác; đội phân tích ai 甩锅, rồi viết 1 tin nhắn trung lập để đưa mọi người về giải pháp.",
+   "③ Tranh biện nhanh: “在职场，适度内卷是必要的” — hai phe, mỗi người nói 1 phút, dùng ít nhất 2 mẫu câu của buổi."
+  ],
+  "patterns": [
+   {
+    "zh": "我们看一下里程碑。越南新仓库系统上线的节点是11月30日，现在整体进度大概60%。小阮，本地化部分怎么样？",
+    "vi": "Chúng ta xem các mốc tiến độ. Mốc hệ thống kho mới ở Việt Nam đi vào vận hành là 30/11, hiện tiến độ chung khoảng 60%. Tiểu Nguyễn, phần bản địa hoá thế nào rồi?"
+   },
+   {
+    "zh": "马哥，打扰一下。海关模块的事，我整理了一份需求文档，把越南海关的字段对照表也附上了，您看能不能抽半天时间先评估一下？",
+    "vi": "Anh Mã, em làm phiền chút ạ. Chuyện mô-đun hải quan, em đã soạn một tài liệu yêu cầu, đính kèm cả bảng đối chiếu trường dữ liệu của hải quan Việt Nam, anh xem có thể dành nửa ngày đánh giá trước được không ạ?"
+   },
+   {
+    "zh": "你这文档写得挺清楚的，省了我不少事。不过这周真排不开，周一上午可以吗？",
+    "vi": "Tài liệu cậu viết rõ ràng đấy, đỡ cho tôi khối việc. Nhưng tuần này thật sự không xếp được, sáng thứ hai được không?"
+   },
+   {
+    "zh": "对啊，所以也有人干脆“躺平”，只做分内的事。我觉得还是要找平衡：该努力的时候努力，但没必要为了“看起来很努力”熬夜。",
+    "vi": "Đúng thế, nên cũng có người dứt khoát “nằm thẳng”, chỉ làm đúng phần việc của mình. Mình thấy vẫn nên tìm cân bằng: lúc cần cố gắng thì cố gắng, nhưng không cần thức khuya chỉ để “trông có vẻ chăm chỉ”."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "内卷 và 躺平",
+  "body_vi": [
+   "“Nội quyển” (内卷) vốn là thuật ngữ học thuật chỉ trạng thái không thể phát triển ra ngoài, chỉ phức tạp hoá bên trong; về kinh tế, nó mô tả tình trạng đầu vào tăng mà hiệu quả giảm dần ([人民网理论](http://theory.people.com.cn/n1/2025/0723/c40531-40527682.html)). Ở công sở, 内卷 là cảnh nhân viên đua nhau ở lại muộn, làm “trông có vẻ chăm” để không thua đồng nghiệp; phản ứng ngược lại là 躺平 (chỉ làm đủ phần) và 摸鱼. Ở tầm vĩ mô, “cạnh tranh kiểu nội quyển” (chiến tranh giá, bán dưới giá thành) đã trở thành vấn đề chính sách: Báo cáo công tác Chính phủ năm 2025 đưa ra yêu cầu chỉnh đốn toàn diện cạnh tranh kiểu nội quyển ([人民网](http://lianghui.people.com.cn/2025/n1/2025/0305/c460142-40431424.html)), và Tổng cục Quản lý Thị trường đã ban hành loạt quy định về giá, nền tảng, trợ giá trong năm 2025 ([新华网](https://www.news.cn/fortune/20260109/05155c736c0548e291d068cc7532c938/c.html)). Khi làm việc với đối tác Trung Quốc, bạn sẽ nghe 反内卷 trong các cuộc đàm phán giá: nhiều ngành đang chủ động hạn chế bán phá giá.",
+   "Ứng xử: Báo trễ hạn càng sớm càng tốt; ở công sở Trung Quốc, “báo tin xấu muộn” bị đánh giá nặng hơn là trễ.",
+   "Ứng xử: Nhờ phòng ban khác thì làm sẵn phần việc của mình (文档, 截图, 对照表) để giảm gánh cho họ; cảm ơn công khai trong nhóm sau khi xong.",
+   "Ứng xử: Khi bị 甩锅: không cãi trong nhóm chat đông người; gửi lại mốc thời gian và bằng chứng (邮件, 会议纪要) cho người liên quan và cấp trên trực tiếp.",
+   "Ứng xử: Cẩn thận khi dùng từ lóng như 甩锅, 背锅 với cấp trên; chỉ dùng với đồng nghiệp thân."
+  ]
+ }
+}

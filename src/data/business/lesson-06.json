@@ -1,0 +1,800 @@
+{
+ "id": 6,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "接待客户：迎来送往",
+  "pinyin": "jiē dài kè hù yíng lái sòng wǎng",
+  "vi": "đón khách"
+ },
+ "grammarTopics_vi": [
+  "请问是……的……吗？我是……，欢迎来到……！",
+  "这位是……，这位是……",
+  "我简单介绍一下……的安排：……；……；……",
+  "……不方便……，还请您理解。",
+  "招待不周，还请多多包涵 / 哪里哪里"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Đón khách",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Trao danh thiếp",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Giới thiệu lịch trình",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Dẫn đi tham quan nhà máy",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Tiễn khách",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "机场接机",
+   "context_vi": "课文一 · 机场接机",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！",
+     "vi": "Xin hỏi có phải anh Triệu của Hoa Phong Thâm Quyến không ạ? Chào anh! Em là Tiểu Nguyễn của Tập đoàn Đông Thịnh, chào mừng anh đến TP. Hồ Chí Minh! Anh đi đường vất vả rồi!"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。",
+     "vi": "Chào cậu, chào cậu! Cũng ổn, chuyến bay khá đúng giờ. Đây là Giám đốc kỹ thuật của chúng tôi, anh Tôn."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。",
+     "vi": "Chào anh Tôn, rất hân hạnh được gặp anh! (đưa danh thiếp bằng hai tay) Đây là danh thiếp của em, mong anh giúp đỡ."
+    },
+    {
+     "speaker": "bc-sunzong",
+     "zh": "（双手接过，看了一下）阮先生的中文说得真好啊！",
+     "vi": "(nhận bằng hai tay, xem qua) Tiếng Trung của anh Nguyễn giỏi quá!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "哪里哪里，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+     "vi": "Dạ đâu có, em vẫn đang học ạ. Hành lý để em xách cho. Xe ở ngay bên ngoài, trước tiên mình đưa các anh về khách sạn nhận phòng, nghỉ ngơi một chút. Sáu rưỡi tối anh Lý mời mọi người dùng bữa."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "接待",
+     "pinyin": "jiēdài",
+     "vi": "tiếp đón"
+    },
+    {
+     "zh": "接机 / 送机",
+     "pinyin": "jiējī / sòngjī",
+     "vi": "đón / tiễn sân bay"
+    },
+    {
+     "zh": "航班",
+     "pinyin": "hángbān",
+     "vi": "chuyến bay",
+     "example": {
+      "zh": "你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。",
+      "vi": "Chào cậu, chào cậu! Cũng ổn, chuyến bay khá đúng giờ. Đây là Giám đốc kỹ thuật của chúng tôi, anh Tôn."
+     }
+    },
+    {
+     "zh": "一路辛苦",
+     "pinyin": "yílù xīnkǔ",
+     "vi": "đi đường vất vả rồi",
+     "example": {
+      "zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！",
+      "vi": "Xin hỏi có phải anh Triệu của Hoa Phong Thâm Quyến không ạ? Chào anh! Em là Tiểu Nguyễn của Tập đoàn Đông Thịnh, chào mừng anh đến TP. Hồ Chí Minh! Anh đi đường vất vả rồi!"
+     }
+    },
+    {
+     "zh": "幸会",
+     "pinyin": "xìnghuì",
+     "vi": "hân hạnh được gặp",
+     "example": {
+      "zh": "孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。",
+      "vi": "Chào anh Tôn, rất hân hạnh được gặp anh! (đưa danh thiếp bằng hai tay) Đây là danh thiếp của em, mong anh giúp đỡ."
+     }
+    },
+    {
+     "zh": "久仰",
+     "pinyin": "jiǔyǎng",
+     "vi": "ngưỡng mộ đã lâu"
+    },
+    {
+     "zh": "名片",
+     "pinyin": "míngpiàn",
+     "vi": "danh thiếp",
+     "example": {
+      "zh": "孙总您好，幸会幸会！（双手递上名片）这是我的名片，请多关照。",
+      "vi": "Chào anh Tôn, rất hân hạnh được gặp anh! (đưa danh thiếp bằng hai tay) Đây là danh thiếp của em, mong anh giúp đỡ."
+     }
+    },
+    {
+     "zh": "哪里哪里",
+     "pinyin": "nǎli nǎli",
+     "vi": "đâu có (đáp lời khen)",
+     "example": {
+      "zh": "哪里哪里，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+      "vi": "Dạ đâu có, em vẫn đang học ạ. Hành lý để em xách cho. Xe ở ngay bên ngoài, trước tiên mình đưa các anh về khách sạn nhận phòng, nghỉ ngơi một chút. Sáu rưỡi tối anh Lý mời mọi người dùng bữa."
+     }
+    },
+    {
+     "zh": "入住",
+     "pinyin": "rùzhù",
+     "vi": "nhận phòng",
+     "example": {
+      "zh": "哪里哪里，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+      "vi": "Dạ đâu có, em vẫn đang học ạ. Hành lý để em xách cho. Xe ở ngay bên ngoài, trước tiên mình đưa các anh về khách sạn nhận phòng, nghỉ ngơi một chút. Sáu rưỡi tối anh Lý mời mọi người dùng bữa."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g6-1",
+     "title_zh": "请问是……的……吗？我是……，欢迎来到……！",
+     "title_vi": "Câu đón khách tiêu chuẩn",
+     "formula": [
+      [
+       {
+        "zh": "请问是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "吗？我是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，欢迎来到",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "！",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu đón khách tiêu chuẩn.",
+     "examples": [
+      {
+       "zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！",
+       "vi": "Xin hỏi có phải anh Triệu của Hoa Phong Thâm Quyến không ạ? Chào anh! Em là Tiểu Nguyễn của Tập đoàn Đông Thịnh, chào mừng anh đến TP. Hồ Chí Minh! Anh đi đường vất vả rồi!"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，（　）胡志明市！一路辛苦了！",
+       "options": [
+        "哪里哪里",
+        "欢迎来到",
+        "招待不周"
+       ],
+       "answer": 1,
+       "explain_vi": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！ — Xin hỏi có phải anh Triệu của Hoa Phong Thâm Quyến không ạ? Chào anh! Em là Tiểu Nguyễn của Tập đoàn Đông Thịnh, chào mừng anh đến TP. Hồ Chí Minh! Anh đi đường vất vả rồi!"
+      }
+     ]
+    },
+    {
+     "id": "bc-g6-2",
+     "title_zh": "这位是……，这位是……",
+     "title_vi": "Giới thiệu người",
+     "formula": [
+      [
+       {
+        "zh": "这位是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，这位是",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Giới thiệu người: giới thiệu người cấp thấp cho người cấp cao trước, người nhà cho khách trước.",
+     "examples": [
+      {
+       "zh": "你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。",
+       "vi": "Chào cậu, chào cậu! Cũng ổn, chuyến bay khá đúng giờ. Đây là Giám đốc kỹ thuật của chúng tôi, anh Tôn."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "你好你好！还好，航班挺准时的。（　）我们的技术总监孙总。",
+       "options": [
+        "这位是",
+        "不方便",
+        "的安排"
+       ],
+       "answer": 0,
+       "explain_vi": "你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。 — Chào cậu, chào cậu! Cũng ổn, chuyến bay khá đúng giờ. Đây là Giám đốc kỹ thuật của chúng tôi, anh Tôn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "介绍行程与参观工厂",
+   "context_vi": "课文二 · 介绍行程与参观工厂",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "各位领导，我简单介绍一下这两天的行程安排：明天上午九点参观我们平阳的厂区和生产线，下午两点在会议室洽谈；后天上午自由活动，下午三点送机。行程表我已经发到群里了，大家可以看一下。",
+     "vi": "Thưa các anh, em xin giới thiệu ngắn gọn lịch trình hai ngày tới: chín giờ sáng mai tham quan nhà xưởng và dây chuyền sản xuất ở Bình Dương, hai giờ chiều làm việc tại phòng họp; sáng ngày kia tự do, ba giờ chiều tiễn ra sân bay. Lịch trình em đã gửi vào nhóm, mọi người có thể xem."
+    },
+    {
+     "speaker": "bc-sunzong",
+     "zh": "安排得很周到。参观的时候可以拍照吗？",
+     "vi": "Sắp xếp chu đáo quá. Lúc tham quan có được chụp ảnh không?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。",
+     "vi": "Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "行程安排",
+     "pinyin": "xíngchéng ānpái",
+     "vi": "lịch trình"
+    },
+    {
+     "zh": "行程表",
+     "pinyin": "xíngchéngbiǎo",
+     "vi": "bảng lịch trình"
+    },
+    {
+     "zh": "参观",
+     "pinyin": "cānguān",
+     "vi": "tham quan",
+     "example": {
+      "zh": "安排得很周到。参观的时候可以拍照吗？",
+      "vi": "Sắp xếp chu đáo quá. Lúc tham quan có được chụp ảnh không?"
+     }
+    },
+    {
+     "zh": "考察",
+     "pinyin": "kǎochá",
+     "vi": "khảo sát"
+    },
+    {
+     "zh": "厂区",
+     "pinyin": "chǎngqū",
+     "vi": "khu nhà máy"
+    },
+    {
+     "zh": "生产线",
+     "pinyin": "shēngchǎnxiàn",
+     "vi": "dây chuyền sản xuất"
+    },
+    {
+     "zh": "车间",
+     "pinyin": "chējiān",
+     "vi": "phân xưởng",
+     "example": {
+      "zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。",
+      "vi": "Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+     }
+    },
+    {
+     "zh": "安全帽",
+     "pinyin": "ānquánmào",
+     "vi": "mũ bảo hộ",
+     "example": {
+      "zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。",
+      "vi": "Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+     }
+    },
+    {
+     "zh": "周到",
+     "pinyin": "zhōudào",
+     "vi": "chu đáo",
+     "example": {
+      "zh": "安排得很周到。参观的时候可以拍照吗？",
+      "vi": "Sắp xếp chu đáo quá. Lúc tham quan có được chụp ảnh không?"
+     }
+    },
+    {
+     "zh": "陪同",
+     "pinyin": "péitóng",
+     "vi": "đi cùng, tháp tùng"
+    },
+    {
+     "zh": "座次",
+     "pinyin": "zuòcì",
+     "vi": "thứ tự chỗ ngồi"
+    },
+    {
+     "zh": "上座",
+     "pinyin": "shàngzuò",
+     "vi": "ghế trên, ghế danh dự"
+    },
+    {
+     "zh": "副驾驶",
+     "pinyin": "fùjiàshǐ",
+     "vi": "ghế phụ lái"
+    },
+    {
+     "zh": "宣传册",
+     "pinyin": "xuānchuáncè",
+     "vi": "tài liệu giới thiệu"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g6-4",
+     "title_zh": "……不方便……，还请您理解。",
+     "title_vi": "Từ chối yêu cầu của khách một cách mềm mỏng",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "不方便",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，还请您理解。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối yêu cầu của khách một cách mềm mỏng.",
+     "examples": [
+      {
+       "zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。",
+       "vi": "Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "办公区可以，生产车间里面不方便拍照，（　）。车间里有点吵，请大家戴好安全帽，注意脚下。",
+       "options": [
+        "增长了一倍",
+        "还请多多包涵",
+        "还请您理解"
+       ],
+       "answer": 2,
+       "explain_vi": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。 — Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "送别",
+   "context_vi": "课文三 · 送别",
+   "scene": "🤝",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "小阮，这两天辛苦你了，送到这儿就行，请留步。",
+     "vi": "Tiểu Nguyễn, hai ngày nay vất vả cho cậu rồi, tiễn đến đây là được, cậu dừng bước nhé."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+     "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "留步",
+     "pinyin": "liúbù",
+     "vi": "xin dừng bước (đừng tiễn)",
+     "example": {
+      "zh": "小阮，这两天辛苦你了，送到这儿就行，请留步。",
+      "vi": "Tiểu Nguyễn, hai ngày nay vất vả cho cậu rồi, tiễn đến đây là được, cậu dừng bước nhé."
+     }
+    },
+    {
+     "zh": "招待不周",
+     "pinyin": "zhāodài bù zhōu",
+     "vi": "tiếp đãi chưa chu đáo",
+     "example": {
+      "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+      "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+     }
+    },
+    {
+     "zh": "包涵",
+     "pinyin": "bāohan",
+     "vi": "bỏ qua cho",
+     "example": {
+      "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+      "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+     }
+    },
+    {
+     "zh": "一路平安",
+     "pinyin": "yílù píng'ān",
+     "vi": "thượng lộ bình an",
+     "example": {
+      "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+      "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g6-3",
+     "title_zh": "我简单介绍一下……的安排：……；……；……",
+     "title_vi": "Trình bày lịch trình theo mốc thời gian",
+     "formula": [
+      [
+       {
+        "zh": "我简单介绍一下",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "的安排：",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "；",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "；",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Trình bày lịch trình theo mốc thời gian.",
+     "examples": []
+    },
+    {
+     "id": "bc-g6-5",
+     "title_zh": "招待不周，还请多多包涵 / 哪里哪里",
+     "title_vi": "Khiêm tốn khi được cảm ơn hoặc khen",
+     "formula": [
+      [
+       {
+        "zh": "招待不周，还请多多包涵",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "哪里哪里",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Khiêm tốn khi được cảm ơn hoặc khen.",
+     "examples": [
+      {
+       "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+       "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+      },
+      {
+       "zh": "哪里哪里，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+       "vi": "Dạ đâu có, em vẫn đang học ạ. Hành lý để em xách cho. Xe ở ngay bên ngoài, trước tiên mình đưa các anh về khách sạn nhận phòng, nghỉ ngơi một chút. Sáu rưỡi tối anh Lý mời mọi người dùng bữa."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "应该的！这两天招待不周，（　）。欢迎下次再来，一路平安！",
+       "options": [
+        "增长了一倍",
+        "还请多多包涵",
+        "我简单介绍一下"
+       ],
+       "answer": 1,
+       "explain_vi": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！ — Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "你好你好！还好，___挺准时的。这位是我们的技术总监孙总。",
+   "bank": [
+    "航班",
+    "上座",
+    "哪里哪里"
+   ],
+   "answer": "航班"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！___了！",
+   "bank": [
+    "名片",
+    "一路辛苦",
+    "参观"
+   ],
+   "answer": "一路辛苦"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "___，还在学习。行李我来拿吧。车就在外面，我们先送您去酒店入住，休息一下。晚上六点半李总请各位吃饭。",
+   "bank": [
+    "哪里哪里",
+    "安全帽",
+    "宣传册"
+   ],
+   "answer": "哪里哪里"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "各位领导，我简单介绍一下这两天的___：明天上午九点参观我们平阳的厂区和生产线，下午两点在会议室洽谈；后天上午自由活动，下午三点送机。行程表我已经发到群里了，大家可以看一下。",
+   "bank": [
+    "包涵",
+    "周到",
+    "行程安排"
+   ],
+   "answer": "行程安排"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "安排得很周到。___的时候可以拍照吗？",
+   "bank": [
+    "参观",
+    "一路辛苦",
+    "副驾驶"
+   ],
+   "answer": "参观"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好___，注意脚下。",
+   "bank": [
+    "安全帽",
+    "厂区",
+    "周到"
+   ],
+   "answer": "安全帽"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "深圳",
+    "请问是",
+    "经理吗",
+    "的赵",
+    "华丰"
+   ],
+   "answers": [
+    "请问是深圳华丰的赵经理吗"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "阮",
+    "我是",
+    "的小",
+    "东盛",
+    "集团"
+   ],
+   "answers": [
+    "我是东盛集团的小阮"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "胡志明市",
+    "来到",
+    "欢迎"
+   ],
+   "answers": [
+    "欢迎来到胡志明市"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "接待",
+     "a": "tiếp đón"
+    },
+    {
+     "q": "接机 / 送机",
+     "a": "đón / tiễn sân bay"
+    },
+    {
+     "q": "航班",
+     "a": "chuyến bay"
+    },
+    {
+     "q": "一路辛苦",
+     "a": "đi đường vất vả rồi"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Đón khách sân bay: nhóm 4 người (2 khách, 1 người đón, 1 “tài xế”). Chấm: câu chào, giới thiệu đúng thứ tự, trao danh thiếp đúng cách, xếp chỗ ngồi trên xe đúng.",
+   "② Xếp chỗ ngồi: mỗi đội nhận sơ đồ xe 5 chỗ và phòng họp 10 ghế cùng danh sách 6 người (chủ tịch, phó tổng, phiên dịch…); xếp chỗ và giải thích bằng tiếng Trung.",
+   "③ Hướng dẫn viên nhà máy: mỗi học viên giới thiệu 1 khu vực nhà máy/công ty mình trong 90 giây, lồng ghép 1 lời từ chối khéo (không được chụp ảnh, không vào khu vực kỹ thuật)."
+  ],
+  "patterns": [
+   {
+    "zh": "请问是深圳华丰的赵经理吗？您好！我是东盛集团的小阮，欢迎来到胡志明市！一路辛苦了！",
+    "vi": "Xin hỏi có phải anh Triệu của Hoa Phong Thâm Quyến không ạ? Chào anh! Em là Tiểu Nguyễn của Tập đoàn Đông Thịnh, chào mừng anh đến TP. Hồ Chí Minh! Anh đi đường vất vả rồi!"
+   },
+   {
+    "zh": "你好你好！还好，航班挺准时的。这位是我们的技术总监孙总。",
+    "vi": "Chào cậu, chào cậu! Cũng ổn, chuyến bay khá đúng giờ. Đây là Giám đốc kỹ thuật của chúng tôi, anh Tôn."
+   },
+   {
+    "zh": "办公区可以，生产车间里面不方便拍照，还请您理解。车间里有点吵，请大家戴好安全帽，注意脚下。",
+    "vi": "Khu văn phòng thì được ạ, bên trong xưởng sản xuất thì không tiện chụp, mong anh thông cảm. Trong xưởng hơi ồn, mọi người nhớ đội mũ bảo hộ, chú ý dưới chân."
+   },
+   {
+    "zh": "应该的！这两天招待不周，还请多多包涵。欢迎下次再来，一路平安！",
+    "vi": "Đó là việc em nên làm ạ! Hai ngày qua tiếp đón chưa được chu đáo, mong anh bỏ qua cho. Hoan nghênh anh lần sau lại đến, chúc anh thượng lộ bình an!"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "迎来送往 và thứ bậc chỗ ngồi",
+  "body_vi": [
+   "“Đón đưa” được coi là thước đo mức độ coi trọng đối tác: ai ra đón (nhân viên hay phó tổng), đón ở đâu (sân bay hay khách sạn), tiễn đến đâu. Thứ bậc chỗ ngồi (座次) trong xe, phòng họp và bàn tiệc phản ánh cấp bậc; xếp sai có thể khiến khách cảm thấy bị coi nhẹ. Với cơ quan nhà nước, quy định năm 2025 cấm đón tiễn tại sân bay, nhà ga và hạn chế số người tháp tùng ([新华网](https://www.news.cn/politics/20250518/d643d80c9a1d4205a98c74432b066004/c.html)), vì vậy khi tiếp khách là cán bộ nhà nước, nên hỏi trước để tránh làm khó họ. Doanh nghiệp tư nhân vẫn giữ phong cách đón tiếp chu đáo.",
+   "Ứng xử: Danh thiếp: đưa và nhận bằng hai tay, mặt chữ quay về phía người nhận; nhận xong đọc qua tên, chức danh rồi đặt lên bàn trước mặt, không nhét ngay vào túi quần.",
+   "Ứng xử: Trên xe: khi có tài xế, ghế sau bên phải (sau ghế phụ) là chỗ danh dự; khi chủ nhà tự lái, khách quan trọng thường ngồi ghế phụ.",
+   "Ứng xử: Phòng họp: khách ngồi phía đối diện cửa hoặc bên phải chủ nhà; hai trưởng đoàn ngồi giữa, đối diện nhau.",
+   "Ứng xử: Tiễn khách: càng quan trọng càng tiễn xa (cửa phòng → thang máy → tận xe). Khách nói 请留步 là phép lịch sự, chủ nhà vẫn nên tiễn thêm vài bước."
+  ],
+  "figures": [
+   {
+    "src": "img/bc/car-driver.svg",
+    "title_vi": "Chỗ ngồi trên xe có tài xế",
+    "caption_vi": "Ghế sau bên phải (sau ghế phụ) là chỗ danh dự; ghế phụ dành cho phiên dịch hoặc thư ký."
+   },
+   {
+    "src": "img/bc/car-host.svg",
+    "title_vi": "Chỗ ngồi khi chủ nhà tự lái",
+    "caption_vi": "Khách quan trọng ngồi ghế phụ, cạnh người lái."
+   },
+   {
+    "src": "img/bc/meeting.svg",
+    "title_vi": "Chỗ ngồi phòng họp",
+    "caption_vi": "Khách ngồi phía đối diện cửa; hai trưởng đoàn ngồi giữa, đối diện nhau."
+   },
+   {
+    "src": "img/bc/namecard.svg",
+    "title_vi": "Trao danh thiếp",
+    "caption_vi": "Hai tay đưa, chữ quay về phía người nhận."
+   },
+   {
+    "src": "img/bc/farewell.svg",
+    "title_vi": "Tiễn khách",
+    "caption_vi": "Khách càng quan trọng, tiễn càng xa: cửa phòng → thang máy → tận xe."
+   }
+  ]
+ }
+}

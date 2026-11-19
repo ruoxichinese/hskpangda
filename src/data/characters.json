@@ -627,5 +627,263 @@
     "color": "#2C7A7B",
     "desc_vi": "Nhân viên nhà thuốc tư vấn thuốc cho Nguyễn Minh khi bị cảm.",
     "img": "yaoshi"
+  },
+  {
+    "id": "bc-xiaoruan",
+    "zh": "小阮",
+    "pinyin": "xiǎoruǎn",
+    "vi_name": "Tiểu Nguyễn (Nguyễn Văn An)",
+    "setting": "business",
+    "color": "#2B6CB0",
+    "desc_vi": "Nhân vật chính: chàng trai Việt Nam làm ở phòng Thị trường Đông Nam Á của Tập đoàn Đông Thịnh.",
+    "imgFile": "img/bcnv/01-xiao-ruan.svg"
+  },
+  {
+    "id": "bc-zhaojingli",
+    "zh": "赵经理",
+    "pinyin": "zhàojīnglǐ",
+    "vi_name": "Anh Triệu",
+    "setting": "business",
+    "color": "#C05621",
+    "desc_vi": "Trưởng phòng Thu mua của khách hàng Thương mại Hoa Phong (Thâm Quyến).",
+    "imgFile": "img/bcnv/02-zhao-jingli.svg"
+  },
+  {
+    "id": "bc-lijingli",
+    "zh": "李经理",
+    "pinyin": "lǐjīnglǐ",
+    "vi_name": "Anh Lý (trưởng phòng)",
+    "setting": "business",
+    "color": "#2F855A",
+    "desc_vi": "Cấp trên trực tiếp của Tiểu Nguyễn.",
+    "imgFile": "img/bcnv/03-li-jingli.svg"
+  },
+  {
+    "id": "bc-lizong",
+    "zh": "李总",
+    "pinyin": "lǐzǒng",
+    "vi_name": "Giám đốc Lý",
+    "setting": "business",
+    "color": "#9B2C2C",
+    "desc_vi": "Lãnh đạo cấp cao của Đông Thịnh, thường làm chủ tiệc.",
+    "imgFile": "img/bcnv/04-li-zong.svg"
+  },
+  {
+    "id": "bc-wangzong",
+    "zh": "王总",
+    "pinyin": "wángzǒng",
+    "vi_name": "Tổng giám đốc Vương",
+    "setting": "business",
+    "color": "#6B46C1",
+    "desc_vi": "Tổng giám đốc, người duyệt các phương án lớn.",
+    "imgFile": "img/bcnv/05-wang-zong.svg"
+  },
+  {
+    "id": "bc-xiaolin",
+    "zh": "小林",
+    "pinyin": "xiǎolín",
+    "vi_name": "Tiểu Lâm (Lâm Hiểu)",
+    "setting": "business",
+    "color": "#B7791F",
+    "desc_vi": "Đồng nghiệp phòng Logistics, bạn thân của Tiểu Nguyễn ở công ty.",
+    "imgFile": "img/bcnv/06-xiao-lin.svg"
+  },
+  {
+    "id": "bc-zhoujie",
+    "zh": "周姐",
+    "pinyin": "zhōujiě",
+    "vi_name": "Chị Chu (Chu Mẫn)",
+    "setting": "business",
+    "color": "#2C7A7B",
+    "desc_vi": "Quản lý dự án.",
+    "imgFile": "img/bcnv/07-zhou-jie.svg"
+  },
+  {
+    "id": "bc-xiaoma",
+    "zh": "小马",
+    "pinyin": "xiǎomǎ",
+    "vi_name": "Tiểu Mã",
+    "setting": "business",
+    "color": "#97266D",
+    "desc_vi": "Kỹ sư phòng Kỹ thuật.",
+    "imgFile": "img/bcnv/08-xiao-ma.svg"
+  },
+  {
+    "id": "bc-xiaowu",
+    "zh": "小吴",
+    "pinyin": "xiǎowú",
+    "vi_name": "Tiểu Ngô",
+    "setting": "business",
+    "color": "#4A5568",
+    "desc_vi": "Đồng nghiệp cùng phòng.",
+    "imgFile": "img/bcnv/09-xiao-wu.svg"
+  },
+  {
+    "id": "bc-laosun",
+    "zh": "老孙",
+    "pinyin": "lǎosūn",
+    "vi_name": "Anh Tôn (đồng nghiệp lớn tuổi)",
+    "setting": "business",
+    "color": "#285E61",
+    "desc_vi": "Đồng nghiệp lớn tuổi, hay hỏi chuyện riêng.",
+    "imgFile": "img/bcnv/10-lao-sun.svg"
+  },
+  {
+    "id": "bc-wangjie",
+    "zh": "王姐",
+    "pinyin": "wángjiě",
+    "vi_name": "Chị Vương",
+    "setting": "business",
+    "color": "#2B6CB0",
+    "desc_vi": "Đồng nghiệp phụ trách chuẩn bị hàng.",
+    "imgFile": "img/bcnv/11-wang-jie.svg"
+  },
+  {
+    "id": "bc-liumin",
+    "zh": "刘敏",
+    "pinyin": "liúmǐn",
+    "vi_name": "Chị Lưu Mẫn (HR)",
+    "setting": "business",
+    "color": "#C05621",
+    "desc_vi": "Phòng Nhân sự, làm thủ tục nhận việc cho Tiểu Nguyễn.",
+    "imgFile": "img/bcnv/12-liu-min.svg"
+  },
+  {
+    "id": "bc-hr",
+    "zh": "HR",
+    "pinyin": "HR",
+    "vi_name": "Nhân sự tuyển dụng",
+    "setting": "business",
+    "color": "#2F855A",
+    "desc_vi": "HR phụ trách tuyển dụng ở công ty mới.",
+    "imgFile": "img/bcnv/14-hr.svg"
+  },
+  {
+    "id": "bc-mianshiguan",
+    "zh": "面试官",
+    "pinyin": "miànshìguān",
+    "vi_name": "Người phỏng vấn",
+    "setting": "business",
+    "color": "#9B2C2C",
+    "desc_vi": "Người phỏng vấn Tiểu Nguyễn ở công ty mới.",
+    "imgFile": "img/bcnv/15-mianshiguan.svg"
+  },
+  {
+    "id": "bc-chengong",
+    "zh": "陈工",
+    "pinyin": "chéngōng",
+    "vi_name": "Kỹ sư Trần",
+    "setting": "business",
+    "color": "#6B46C1",
+    "desc_vi": "Kỹ sư, người kèm cặp Tiểu Nguyễn.",
+    "imgFile": "img/bcnv/16-chen-gong.svg"
+  },
+  {
+    "id": "bc-qiantai",
+    "zh": "前台",
+    "pinyin": "qiántái",
+    "vi_name": "Lễ tân",
+    "setting": "business",
+    "color": "#B7791F",
+    "desc_vi": "Lễ tân công ty khách hàng.",
+    "imgFile": "img/bcnv/21-qiantai.svg"
+  },
+  {
+    "id": "bc-sunzong",
+    "zh": "孙总",
+    "pinyin": "sūnzǒng",
+    "vi_name": "Giám đốc Tôn",
+    "setting": "business",
+    "color": "#2C7A7B",
+    "desc_vi": "Giám đốc kỹ thuật của khách hàng Hoa Phong.",
+    "imgFile": "img/bcnv/22-sun-zong.svg"
+  },
+  {
+    "id": "bc-huangzong",
+    "zh": "黄总",
+    "pinyin": "huángzǒng",
+    "vi_name": "Giám đốc Hoàng",
+    "setting": "business",
+    "color": "#97266D",
+    "desc_vi": "Khách hàng, doanh nhân Quảng Tây.",
+    "imgFile": "img/bcnv/23-huang-zong.svg"
+  },
+  {
+    "id": "bc-wuzong",
+    "zh": "吴总",
+    "pinyin": "wúzǒng",
+    "vi_name": "Giám đốc Ngô",
+    "setting": "business",
+    "color": "#4A5568",
+    "desc_vi": "Nhà cung cấp.",
+    "imgFile": "img/bcnv/24-wu-zong.svg"
+  },
+  {
+    "id": "bc-zhengzong",
+    "zh": "郑总",
+    "pinyin": "zhèngzǒng",
+    "vi_name": "Giám đốc Trịnh",
+    "setting": "business",
+    "color": "#285E61",
+    "desc_vi": "Quản lý người Trung Quốc ở nhà máy Việt Nam.",
+    "imgFile": "img/bcnv/25-zheng-zong.svg"
+  },
+  {
+    "id": "bc-caigoushang",
+    "zh": "采购商",
+    "pinyin": "cǎigòushāng",
+    "vi_name": "Nhà thu mua",
+    "setting": "business",
+    "color": "#2B6CB0",
+    "desc_vi": "Đại diện thu mua tại hội chợ.",
+    "imgFile": "img/bcnv/26-caigoushang.svg"
+  },
+  {
+    "id": "bc-zhubo",
+    "zh": "主播",
+    "pinyin": "zhǔbō",
+    "vi_name": "Người dẫn livestream",
+    "setting": "business",
+    "color": "#C05621",
+    "desc_vi": "Người dẫn phòng livestream bán hàng.",
+    "imgFile": "img/bcnv/27-zhubo-live.svg"
+  },
+  {
+    "id": "bc-xinwenzhubo",
+    "zh": "主播",
+    "pinyin": "xīnwénzhǔbō",
+    "vi_name": "Người dẫn bản tin",
+    "setting": "business",
+    "color": "#2F855A",
+    "desc_vi": "Phát thanh viên bản tin kinh tế.",
+    "imgFile": "img/bcnv/28-zhubo-news.svg"
+  },
+  {
+    "id": "bc-beijingtongshi",
+    "zh": "北京同事",
+    "pinyin": "běijīngtóngshì",
+    "vi_name": "Đồng nghiệp Bắc Kinh",
+    "setting": "business",
+    "color": "#9B2C2C",
+    "desc_vi": "Đồng nghiệp nói giọng Bắc Kinh, nói rất nhanh.",
+    "imgFile": "img/bcnv/29-beijing-tongshi.svg"
+  },
+  {
+    "id": "bc-wenben",
+    "zh": "文本",
+    "pinyin": "wénběn",
+    "vi_name": "Văn bản",
+    "setting": "business",
+    "color": "#6B46C1",
+    "desc_vi": "Email, tin nhắn, biên bản, hợp đồng trong bài."
+  },
+  {
+    "id": "bc-zhongren",
+    "zh": "众人",
+    "pinyin": "zhòngrén",
+    "vi_name": "Mọi người",
+    "setting": "business",
+    "color": "#B7791F",
+    "desc_vi": "Cả bàn tiệc cùng nói."
   }
 ]

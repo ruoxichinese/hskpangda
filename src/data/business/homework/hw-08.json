@@ -1,0 +1,275 @@
+{
+ "lessonId": 8,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "你知道吗？（　　）千万别送钟，“送钟”听起来像“送终”。也别给情侣送梨和伞。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "礼品",
+      "送礼",
+      "关系"
+     ],
+     "answer": 1,
+     "explain_vi": "送礼: tặng quà. Câu đầy đủ: 你知道吗？送礼千万别送钟，“送钟”听起来像“送终”。也别给情侣送梨和伞。"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "吴总，您的心意我领了，但这个我真的不能收。我们公司有明确的合规规定，超过200元的（　　）都要上报。您要是真想感谢，就把下批货的交期保证好，比什么都强！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "送礼",
+      "礼品",
+      "负担"
+     ],
+     "answer": 1,
+     "explain_vi": "礼品: quà tặng. Câu đầy đủ: 吴总，您的心意我领了，但这个我真的不能收。我们公司有明确的合规规定，超过200元的礼品都要上报。您要是真想感谢，就把下批货的交期保证好，比什么都强！"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "赵经理，中秋快到了，这是我们越南的一点（　　），咖啡和腰果，一点心意，不成敬意。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "负担",
+      "特产",
+      "红包"
+     ],
+     "answer": 1,
+     "explain_vi": "特产: đặc sản. Câu đầy đủ: 赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "哎呀，你太客气了，还让你（　　）了！这我不能收。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "破费",
+      "人情",
+      "心意我领了"
+     ],
+     "answer": 0,
+     "explain_vi": "破费: tốn kém. Câu đầy đủ: 哎呀，你太客气了，还让你破费了！这我不能收。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "不贵的，就是家乡的味道，给您和家人尝尝。您一定要（　　）！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "收下",
+      "合规",
+      "人情"
+     ],
+     "answer": 0,
+     "explain_vi": "收下: nhận lấy. Câu đầy đủ: 不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "那好，（　　）。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "恭敬不如从命",
+      "红包",
+      "心意我领了"
+     ],
+     "answer": 0,
+     "explain_vi": "恭敬不如从命: kính cẩn không bằng tuân lệnh. Câu đầy đủ: 那好，恭敬不如从命。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "小阮，这次合作多亏你帮忙。这张购物卡你拿着，（　　）。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "心意我领了",
+      "小意思",
+      "交期"
+     ],
+     "answer": 1,
+     "explain_vi": "小意思: chút quà nhỏ. Câu đầy đủ: 小阮，这次合作多亏你帮忙。这张购物卡你拿着，小意思。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "哈哈，你们外企就是规矩多。行，（　　）包在我身上！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "关系",
+      "分寸",
+      "交期"
+     ],
+     "answer": 2,
+     "explain_vi": "交期: thời hạn giao hàng. Câu đầy đủ: 哈哈，你们外企就是规矩多。行，交期包在我身上！"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "送礼",
+       "a": "tặng quà"
+      },
+      {
+       "q": "礼品",
+       "a": "quà tặng"
+      },
+      {
+       "q": "特产",
+       "a": "đặc sản"
+      },
+      {
+       "q": "心意",
+       "a": "tấm lòng"
+      },
+      {
+       "q": "不成敬意",
+       "a": "chút lòng thành, chưa xứng"
+      },
+      {
+       "q": "破费",
+       "a": "tốn kém"
+      }
+     ],
+     "explain_vi": "送礼 = tặng quà · 礼品 = quà tặng · 特产 = đặc sản · 心意 = tấm lòng · 不成敬意 = chút lòng thành, chưa xứng · 破费 = tốn kém"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "一点",
+      "这是",
+      "特产",
+      "越南的",
+      "我们"
+     ],
+     "answers": [
+      "这是我们越南的一点特产"
+     ],
+     "explain_vi": "这是我们越南的一点特产 — trích từ câu: 赵经理，中秋快到了，这是我们越南的一点特产，咖啡和腰果，一点心意，不成敬意。"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "你",
+      "了",
+      "还",
+      "让",
+      "破费"
+     ],
+     "answers": [
+      "还让你破费了"
+     ],
+     "explain_vi": "还让你破费了 — trích từ câu: 哎呀，你太客气了，还让你破费了！这我不能收。"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "的",
+      "味道",
+      "家乡",
+      "就是"
+     ],
+     "answers": [
+      "就是家乡的味道"
+     ],
+     "explain_vi": "就是家乡的味道 — trích từ câu: 不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "和",
+      "尝尝",
+      "家人",
+      "您",
+      "给"
+     ],
+     "answers": [
+      "给您和家人尝尝"
+     ],
+     "explain_vi": "给您和家人尝尝 — trích từ câu: 不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！"
+    },
+    {
+     "id": "t1",
+     "kind": "translate",
+     "prompt_vi": "Đồng âm quan trọng vậy cơ à! Thế tặng gì thì an toàn hơn?",
+     "acceptedAnswers": [
+      "谐音这么重要啊！那送什么比较保险？"
+     ],
+     "requiredKeywords": [
+      "谐音"
+     ],
+     "explain_vi": "Câu trong bài khoá: 谐音这么重要啊！那送什么比较保险？"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "收下",
+      "您",
+      "要",
+      "一定"
+     ],
+     "answers": [
+      "您一定要收下"
+     ],
+     "explain_vi": "您一定要收下 — trích từ câu: 不贵的，就是家乡的味道，给您和家人尝尝。您一定要收下！"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "深圳",
+      "来",
+      "下次",
+      "你"
+     ],
+     "answers": [
+      "下次你来深圳"
+     ],
+     "explain_vi": "下次你来深圳 — trích từ câu: 那好，恭敬不如从命。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "我请",
+      "功夫茶",
+      "你喝",
+      "潮汕",
+      "我们的"
+     ],
+     "answers": [
+      "我请你喝我们的潮汕功夫茶"
+     ],
+     "explain_vi": "我请你喝我们的潮汕功夫茶 — trích từ câu: 那好，恭敬不如从命。谢谢你啊！下次你来深圳，我请你喝我们的潮汕功夫茶。"
+    }
+   ]
+  }
+ ]
+}

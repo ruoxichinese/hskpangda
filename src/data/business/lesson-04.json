@@ -1,0 +1,879 @@
+{
+ "id": 4,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "商务邮件：写好一封工作邮件",
+  "pinyin": "shāng wù yóu jiàn xiě hǎo yī fēng gōng zuò yóu jiàn",
+  "vi": "viết mail hẹn gặp"
+ },
+ "grammarTopics_vi": [
+  "关于……事宜",
+  "为（了）……，我司拟于……",
+  "烦请（您）于……前告知/确认……",
+  "附件为……，请查收。",
+  "如有不便，敬请见谅 / 如已……，请忽略本邮件。"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Viết mail hẹn gặp",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Đổi lịch",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Nhắc thanh toán đúng cấu trúc và văn phong trang trọng",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "预约拜访",
+   "context_vi": "课文一 · 预约拜访",
+   "scene": "📧",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+     "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "尊敬的赵经理：",
+     "vi": "Kính gửi anh Triệu,"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "您好！我是东盛集团东南亚市场部的阮文安。感谢贵司一直以来对我们的支持。",
+     "vi": "Chào anh! Tôi là Nguyễn Văn An, phòng Thị trường Đông Nam Á, Tập đoàn Đông Thịnh. Cảm ơn quý công ty thời gian qua luôn ủng hộ chúng tôi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "为进一步推进双方在冷链物流方面的合作，我司市场部李经理一行三人拟于10月20日（周一）下午2:30拜访贵司，时间约1小时。主要议题如下：",
+     "vi": "Nhằm thúc đẩy hơn nữa hợp tác giữa hai bên về logistics chuỗi lạnh, đoàn ba người do anh Lý, Trưởng phòng Marketing công ty chúng tôi, dự kiến đến thăm quý công ty lúc 2 giờ 30 chiều thứ hai, 20/10, trong khoảng 1 tiếng. Nội dung chính như sau:"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 2026年第四季度订单计划；",
+     "vi": "- Kế hoạch đơn hàng quý IV năm 2026;"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 新线路报价说明；",
+     "vi": "- Giải thích báo giá tuyến mới;"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "- 样品检测结果反馈。",
+     "vi": "- Phản hồi kết quả kiểm định mẫu."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+     "vi": "Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "顺颂商祺！",
+     "vi": "Chúc anh kinh doanh thuận lợi!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "阮文安 东盛集团 · 东南亚市场部 电话：138xxxx5678",
+     "vi": "Nguyễn Văn An · Tập đoàn Đông Thịnh · Phòng Thị trường Đông Nam Á · ĐT: 138xxxx5678"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "主题",
+     "pinyin": "zhǔtí",
+     "vi": "tiêu đề (mail)",
+     "example": {
+      "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+      "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+     }
+    },
+    {
+     "zh": "收件人",
+     "pinyin": "shōujiànrén",
+     "vi": "người nhận"
+    },
+    {
+     "zh": "抄送",
+     "pinyin": "chāosòng",
+     "vi": "CC"
+    },
+    {
+     "zh": "密送",
+     "pinyin": "mìsòng",
+     "vi": "BCC"
+    },
+    {
+     "zh": "尊敬的",
+     "pinyin": "zūnjìng de",
+     "vi": "kính gửi",
+     "example": {
+      "zh": "尊敬的赵经理：",
+      "vi": "Kính gửi anh Triệu,"
+     }
+    },
+    {
+     "zh": "贵司",
+     "pinyin": "guìsī",
+     "vi": "quý công ty",
+     "example": {
+      "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+      "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+     }
+    },
+    {
+     "zh": "我司",
+     "pinyin": "wǒsī",
+     "vi": "công ty chúng tôi"
+    },
+    {
+     "zh": "事宜",
+     "pinyin": "shìyí",
+     "vi": "công việc, vấn đề (văn viết)",
+     "example": {
+      "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+      "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+     }
+    },
+    {
+     "zh": "洽谈",
+     "pinyin": "qiàtán",
+     "vi": "đàm phán, trao đổi",
+     "example": {
+      "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+      "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+     }
+    },
+    {
+     "zh": "拜访",
+     "pinyin": "bàifǎng",
+     "vi": "đến thăm",
+     "example": {
+      "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+      "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+     }
+    },
+    {
+     "zh": "一行",
+     "pinyin": "yìxíng",
+     "vi": "đoàn (cùng đi)"
+    },
+    {
+     "zh": "拟",
+     "pinyin": "nǐ",
+     "vi": "dự định (văn viết)"
+    },
+    {
+     "zh": "议题",
+     "pinyin": "yìtí",
+     "vi": "nội dung thảo luận"
+    },
+    {
+     "zh": "如下",
+     "pinyin": "rúxià",
+     "vi": "như sau"
+    },
+    {
+     "zh": "烦请",
+     "pinyin": "fánqǐng",
+     "vi": "kính phiền",
+     "example": {
+      "zh": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+      "vi": "Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+     }
+    },
+    {
+     "zh": "告知",
+     "pinyin": "gàozhī",
+     "vi": "thông báo cho biết",
+     "example": {
+      "zh": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+      "vi": "Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+     }
+    },
+    {
+     "zh": "顺颂商祺",
+     "pinyin": "shùnsòng shāngqí",
+     "vi": "kính chúc kinh doanh thuận lợi",
+     "example": {
+      "zh": "顺颂商祺！",
+      "vi": "Chúc anh kinh doanh thuận lợi!"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g4-1",
+     "title_zh": "关于……事宜",
+     "title_vi": "— tiêu đề chuẩn",
+     "formula": [
+      [
+       {
+        "zh": "关于",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "事宜",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "— tiêu đề chuẩn.",
+     "examples": [
+      {
+       "zh": "关于第四季度订单事宜。",
+       "vi": "V/v kế hoạch đơn hàng quý IV."
+      },
+      {
+       "zh": "主题： 关于10月20日拜访贵司洽谈合作事宜",
+       "vi": "Tiêu đề: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）第四季度订单事宜。",
+       "options": [
+        "关于",
+        "而是",
+        "下降"
+       ],
+       "answer": 0,
+       "explain_vi": "关于第四季度订单事宜。 — V/v kế hoạch đơn hàng quý IV."
+      }
+     ]
+    },
+    {
+     "id": "bc-g4-3",
+     "title_zh": "烦请（您）于……前告知/确认……",
+     "title_vi": "— yêu cầu có hạn chót, lịch sự hơn 请你……",
+     "formula": [
+      [
+       {
+        "zh": "烦请（您）于",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "前告知",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "确认",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "— yêu cầu có hạn chót, lịch sự hơn 请你……",
+     "examples": [
+      {
+       "zh": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+       "vi": "Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "烦请于10月15日（　）上述时间是否方便。如需调整，我们将积极配合。",
+       "options": [
+        "翻一番",
+        "请查收",
+        "前告知"
+       ],
+       "answer": 2,
+       "explain_vi": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。 — Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-2",
+   "title": "回复并改期",
+   "context_vi": "课文二 · 回复并改期",
+   "scene": "📧",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "主题： 回复：关于10月20日拜访贵司洽谈合作事宜",
+     "vi": "Tiêu đề: Trả lời: V/v đến thăm quý công ty ngày 20/10 để trao đổi hợp tác"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "阮先生：",
+     "vi": "Gửi anh Nguyễn,"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "您好！来函收悉。非常欢迎李经理一行来访。不巧的是，20日下午我司有董事会，能否改至21日（周二）上午10点？如有不便，敬请见谅。",
+     "vi": "Chào anh! Tôi đã nhận được thư. Rất hoan nghênh đoàn anh Lý đến thăm. Không may chiều 20 công ty chúng tôi họp Hội đồng quản trị, có thể dời sang 10 giờ sáng thứ ba, ngày 21 được không? Nếu có gì bất tiện, mong anh thông cảm."
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "期待与贵司见面！",
+     "vi": "Mong được gặp quý công ty!"
+    },
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "赵磊",
+     "vi": "Triệu Lỗi"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "来函收悉",
+     "pinyin": "láihán shōuxī",
+     "vi": "đã nhận được thư"
+    },
+    {
+     "zh": "改期",
+     "pinyin": "gǎiqī",
+     "vi": "đổi ngày"
+    },
+    {
+     "zh": "敬请见谅",
+     "pinyin": "jìngqǐng jiànliàng",
+     "vi": "kính mong thông cảm"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g4-2",
+     "title_zh": "为（了）……，我司拟于……",
+     "title_vi": "— mục đích + kế hoạch, văn viết trang trọng",
+     "formula": [
+      [
+       {
+        "zh": "为（了）",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，我司拟于",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "— mục đích + kế hoạch, văn viết trang trọng.",
+     "examples": []
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-3",
+   "title": "委婉催款",
+   "context_vi": "课文三 · 委婉催款",
+   "scene": "📧",
+   "lines": [
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "主题： 温馨提醒：9月订单款项结算",
+     "vi": "Tiêu đề: Nhắc nhẹ: Thanh toán tiền đơn hàng tháng 9"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "赵经理您好：",
+     "vi": "Chào anh Triệu,"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "打扰了。附件为9月份订单的对账单（发票号：No.0925），应付款项合计人民币186,000元，原约定付款日为10月10日，目前我方尚未收到该笔款项。可能是流程上还在处理中，烦请您帮忙确认一下付款进度。",
+     "vi": "Xin phép làm phiền anh. Đính kèm là bảng đối chiếu công nợ đơn hàng tháng 9 (số hoá đơn: No.0925), tổng số tiền phải trả là 186.000 nhân dân tệ, ngày thanh toán theo thoả thuận là 10/10, đến nay bên tôi vẫn chưa nhận được khoản này. Có thể quy trình bên anh vẫn đang xử lý, phiền anh kiểm tra giúp tiến độ thanh toán."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！",
+     "vi": "Nếu đã thanh toán, xin anh bỏ qua email này và gửi giúp chứng từ thanh toán để bên tôi đối chiếu. Cảm ơn anh!"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "阮文安",
+     "vi": "Nguyễn Văn An"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "附件",
+     "pinyin": "fùjiàn",
+     "vi": "tệp đính kèm"
+    },
+    {
+     "zh": "查收",
+     "pinyin": "cháshōu",
+     "vi": "kiểm tra và nhận"
+    },
+    {
+     "zh": "对账单",
+     "pinyin": "duìzhàngdān",
+     "vi": "bảng đối chiếu công nợ"
+    },
+    {
+     "zh": "款项",
+     "pinyin": "kuǎnxiàng",
+     "vi": "khoản tiền",
+     "example": {
+      "zh": "主题： 温馨提醒：9月订单款项结算",
+      "vi": "Tiêu đề: Nhắc nhẹ: Thanh toán tiền đơn hàng tháng 9"
+     }
+    },
+    {
+     "zh": "结算",
+     "pinyin": "jiésuàn",
+     "vi": "quyết toán, thanh toán",
+     "example": {
+      "zh": "主题： 温馨提醒：9月订单款项结算",
+      "vi": "Tiêu đề: Nhắc nhẹ: Thanh toán tiền đơn hàng tháng 9"
+     }
+    },
+    {
+     "zh": "付款凭证",
+     "pinyin": "fùkuǎn píngzhèng",
+     "vi": "chứng từ thanh toán",
+     "example": {
+      "zh": "如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！",
+      "vi": "Nếu đã thanh toán, xin anh bỏ qua email này và gửi giúp chứng từ thanh toán để bên tôi đối chiếu. Cảm ơn anh!"
+     }
+    },
+    {
+     "zh": "温馨提醒",
+     "pinyin": "wēnxīn tíxǐng",
+     "vi": "nhắc nhở thân thiện",
+     "example": {
+      "zh": "主题： 温馨提醒：9月订单款项结算",
+      "vi": "Tiêu đề: Nhắc nhẹ: Thanh toán tiền đơn hàng tháng 9"
+     }
+    },
+    {
+     "zh": "落款",
+     "pinyin": "luòkuǎn",
+     "vi": "phần ký tên cuối thư"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g4-4",
+     "title_zh": "附件为……，请查收。",
+     "title_vi": "— câu bắt buộc khi gửi file",
+     "formula": [
+      [
+       {
+        "zh": "附件为",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，请查收。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "— câu bắt buộc khi gửi file.",
+     "examples": []
+    },
+    {
+     "id": "bc-g4-5",
+     "title_zh": "如有不便，敬请见谅 / 如已……，请忽略本邮件。",
+     "title_vi": "— câu “chừa đường lui” giữ thể diện cả hai bên",
+     "formula": [
+      [
+       {
+        "zh": "如有不便，敬请见谅",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "如已",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，请忽略本邮件。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "— câu “chừa đường lui” giữ thể diện cả hai bên.",
+     "examples": [
+      {
+       "zh": "如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！",
+       "vi": "Nếu đã thanh toán, xin anh bỏ qua email này và gửi giúp chứng từ thanh toán để bên tôi đối chiếu. Cảm ơn anh!"
+      },
+      {
+       "zh": "您好！来函收悉。非常欢迎李经理一行来访。不巧的是，20日下午我司有董事会，能否改至21日（周二）上午10点？如有不便，敬请见谅。",
+       "vi": "Chào anh! Tôi đã nhận được thư. Rất hoan nghênh đoàn anh Lý đến thăm. Không may chiều 20 công ty chúng tôi họp Hội đồng quản trị, có thể dời sang 10 giờ sáng thứ ba, ngày 21 được không? Nếu có gì bất tiện, mong anh thông cảm."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "如已付款，（　），并请告知付款凭证，便于我方核对。谢谢！",
+       "options": [
+        "如有不便",
+        "增长了一倍",
+        "请忽略本邮件"
+       ],
+       "answer": 2,
+       "explain_vi": "如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！ — Nếu đã thanh toán, xin anh bỏ qua email này và gửi giúp chứng từ thanh toán để bên tôi đối chiếu. Cảm ơn anh!"
+      }
+     ]
+    },
+    {
+     "id": "bc-c4-1",
+     "title_zh": "如 + tình huống，……",
+     "title_vi": "Văn viết công sở · Điều kiện pháp lý",
+     "formula": [
+      [
+       {
+        "zh": "如",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "tình huống，……",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "如 = 如果 (văn viết). (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "如有歧义，以中文版为准。",
+       "vi": "Nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）有歧义，以中文版为准。",
+       "options": [
+        "如",
+        "可",
+        "也"
+       ],
+       "answer": 0,
+       "explain_vi": "如有歧义，以中文版为准。 — Nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "___： 关于10月20日拜访贵司洽谈合作事宜",
+   "bank": [
+    "付款凭证",
+    "我司",
+    "主题"
+   ],
+   "answer": "主题"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "您好！我是东盛集团东南亚市场部的阮文安。感谢___一直以来对我们的支持。",
+   "bank": [
+    "如下",
+    "贵司",
+    "洽谈"
+   ],
+   "answer": "贵司"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "为进一步推进双方在冷链物流方面的合作，___市场部李经理一行三人拟于10月20日（周一）下午2:30拜访贵司，时间约1小时。主要议题如下：",
+   "bank": [
+    "尊敬的",
+    "结算",
+    "我司"
+   ],
+   "answer": "我司"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "主题： 回复：关于10月20日拜访贵司洽谈合作___",
+   "bank": [
+    "温馨提醒",
+    "事宜",
+    "一行"
+   ],
+   "answer": "事宜"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "您好！来函收悉。非常欢迎李经理___来访。不巧的是，20日下午我司有董事会，能否改至21日（周二）上午10点？如有不便，敬请见谅。",
+   "bank": [
+    "一行",
+    "改期",
+    "付款凭证"
+   ],
+   "answer": "一行"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "___于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+   "bank": [
+    "烦请",
+    "温馨提醒",
+    "议题"
+   ],
+   "answer": "烦请"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "经理",
+    "尊敬",
+    "赵",
+    "的"
+   ],
+   "answers": [
+    "尊敬的赵经理"
+   ],
+   "vi": "Kính gửi anh Triệu,"
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "市场部",
+    "的阮文安",
+    "集团",
+    "我是东盛",
+    "东南亚"
+   ],
+   "answers": [
+    "我是东盛集团东南亚市场部的阮文安"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "感谢贵司",
+    "支持",
+    "以来对",
+    "一直",
+    "我们的"
+   ],
+   "answers": [
+    "感谢贵司一直以来对我们的支持"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "主题",
+     "a": "tiêu đề (mail)"
+    },
+    {
+     "q": "收件人",
+     "a": "người nhận"
+    },
+    {
+     "q": "抄送",
+     "a": "CC"
+    },
+    {
+     "q": "密送",
+     "a": "BCC"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Ghép mảnh email: mỗi đội nhận một phong bì có 10 mảnh giấy (tiêu đề, xưng hô, câu mở, 3 đoạn thân, câu kết, lời chúc, ký tên, câu đính kèm) bị xáo trộn; ghép đúng thứ tự trong 3 phút.",
+   "② Viết mail thật: tình huống: đối tác Thượng Hải muốn dời cuộc họp sang tuần sau nhưng sếp bạn chỉ rảnh thứ Năm. Viết mail trả lời 150–200 chữ; nộp vào portfolio.",
+   "③ Từ thẳng sang khéo: giáo viên đọc 6 câu “thẳng như ruột ngựa” (你们的报价太贵了, 你们又迟到了…); đội nào viết lại được bản uyển chuyển, đúng văn phong mail thì giành điểm."
+  ],
+  "patterns": [
+   {
+    "zh": "关于第四季度订单事宜。",
+    "vi": "V/v kế hoạch đơn hàng quý IV."
+   },
+   {
+    "zh": "烦请于10月15日前告知上述时间是否方便。如需调整，我们将积极配合。",
+    "vi": "Kính mong anh phản hồi trước ngày 15/10 thời gian trên có thuận tiện không. Nếu cần điều chỉnh, chúng tôi sẽ sẵn sàng phối hợp."
+   },
+   {
+    "zh": "如已付款，请忽略本邮件，并请告知付款凭证，便于我方核对。谢谢！",
+    "vi": "Nếu đã thanh toán, xin anh bỏ qua email này và gửi giúp chứng từ thanh toán để bên tôi đối chiếu. Cảm ơn anh!"
+   },
+   {
+    "zh": "如有歧义，以中文版为准。",
+    "vi": "Nếu có chỗ hiểu khác nhau thì lấy bản tiếng Trung làm chuẩn."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Văn thư trang trọng và lối nói uyển chuyển",
+  "body_vi": [
+   "Mail công việc tiếng Trung giữ nhiều yếu tố của văn thư truyền thống (公文): 贵司/我司, 拟, 兹, 烦请, 此致敬礼, 顺颂商祺. Dùng đúng các từ này cho thấy người viết “hiểu chuyện” (懂规矩). Đồng thời, người Trung Quốc tránh đối đầu trực tiếp trên văn bản: thay vì 你们还没付款, họ viết 目前我方尚未收到该笔款项，可能是流程上还在处理中. Với đối tác thân quen trên WeChat, văn phong thoải mái hơn nhiều; điều quan trọng là phân biệt kênh chính thức và kênh thân mật.",
+   "Ứng xử: Tiêu đề phải đọc là hiểu, có mốc thời gian hoặc số đơn hàng; không để trống, không ghi “Hello”.",
+   "Ứng xử: Chỉ CC người thật sự liên quan; CC sếp của đối phương khi chưa cần có thể bị hiểu là gây áp lực.",
+   "Ứng xử: Mail nhắc nợ lần đầu nên dùng giọng “có thể quy trình đang xử lý”, cho đối phương lối thoát; lần hai mới nêu hạn chót cụ thể.",
+   "Ứng xử: Trả lời mail khách trong 24 giờ làm việc, kể cả chỉ để nói 已收到，我们会在周三前回复.",
+   "Bảng dưới đây so sánh cách nói hằng ngày với cách viết trong email, hợp đồng, thư xin lỗi (lấy từ bài khoá và Phụ lục C)."
+  ],
+  "table": {
+   "head": [
+    "Khẩu ngữ 口语",
+    "Văn viết công sở 书面语",
+    "Nghĩa"
+   ],
+   "rows": [
+    [
+     "我们公司",
+     "我司",
+     "công ty chúng tôi"
+    ],
+    [
+     "你们公司",
+     "贵司",
+     "quý công ty"
+    ],
+    [
+     "打算",
+     "拟",
+     "dự định"
+    ],
+    [
+     "请你……",
+     "烦请……",
+     "phiền / kính mong"
+    ],
+    [
+     "告诉",
+     "告知",
+     "báo cho biết"
+    ],
+    [
+     "收到你的信了",
+     "来函收悉",
+     "đã nhận được thư"
+    ],
+    [
+     "要是 / 如果",
+     "如",
+     "nếu"
+    ],
+    [
+     "不好意思",
+     "敬请见谅",
+     "mong thông cảm"
+    ],
+    [
+     "祝生意好",
+     "顺颂商祺",
+     "chúc kinh doanh thuận lợi (cuối thư)"
+    ],
+    [
+     "我们查了一下",
+     "经核实",
+     "qua kiểm tra"
+    ],
+    [
+     "是……造成的",
+     "系……所致",
+     "là do … gây ra"
+    ],
+    [
+     "晚付钱的话",
+     "逾期付款的",
+     "trường hợp thanh toán quá hạn"
+    ],
+    [
+     "从签字那天开始",
+     "自签字之日起",
+     "kể từ ngày ký"
+    ]
+   ]
+  }
+ }
+}

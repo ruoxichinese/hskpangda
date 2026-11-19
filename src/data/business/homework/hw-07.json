@@ -1,0 +1,274 @@
+{
+ "lessonId": 7,
+ "level": "business",
+ "status": "ready",
+ "sections": [
+  {
+   "type": "reading",
+   "title_vi": "Đọc · Chọn từ điền vào câu",
+   "instructions_vi": "Câu lấy từ bài khoá, chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "d1",
+     "kind": "mcq",
+     "prompt_zh": "（（　　））各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "酒驾",
+      "主陪",
+      "副陪"
+     ],
+     "answer": 1,
+     "explain_vi": "主陪: chủ tiệc (bên chủ). Câu đầy đủ: （主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！"
+    },
+    {
+     "id": "d2",
+     "kind": "mcq",
+     "prompt_zh": "谢谢李总的（　　）！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "忌口",
+      "盛情款待",
+      "报平安"
+     ],
+     "answer": 1,
+     "explain_vi": "盛情款待: tiếp đãi nồng hậu. Câu đầy đủ: 谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！"
+    },
+    {
+     "id": "d3",
+     "kind": "mcq",
+     "prompt_zh": "（双手（　　），杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "举杯",
+      "碰杯",
+      "饭局"
+     ],
+     "answer": 0,
+     "explain_vi": "举杯: nâng ly. Câu đầy đủ: （双手举杯，杯口低于孙总的杯子）孙总，我敬您一杯。这两天跟您学到了很多技术上的东西，祝您身体健康，工作顺利！我干了，您随意。"
+    },
+    {
+     "id": "d4",
+     "kind": "mcq",
+     "prompt_zh": "好！感情深，（　　）！小阮，你是年轻人，替我敬一下孙总。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "酒驾",
+      "补上",
+      "一口闷"
+     ],
+     "answer": 2,
+     "explain_vi": "一口闷: uống một hơi hết. Câu đầy đủ: 好！感情深，一口闷！小阮，你是年轻人，替我敬一下孙总。"
+    },
+    {
+     "id": "d5",
+     "kind": "mcq",
+     "prompt_zh": "孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我（　　），敬您一杯，您看行吗？",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "以茶代酒",
+      "白酒",
+      "盛情款待"
+     ],
+     "answer": 0,
+     "explain_vi": "以茶代酒: lấy trà thay rượu. Câu đầy đủ: 孙总，真不好意思，我今晚还要开车送各位回酒店，不能再喝了。我以茶代酒，敬您一杯，您看行吗？"
+    },
+    {
+     "id": "d6",
+     "kind": "mcq",
+     "prompt_zh": "一定一定！明天晚上我叫（　　），陪您好好喝两杯。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "劝酒",
+      "忌口",
+      "代驾"
+     ],
+     "answer": 2,
+     "explain_vi": "代驾: dịch vụ lái xe hộ. Câu đầy đủ: 一定一定！明天晚上我叫代驾，陪您好好喝两杯。"
+    },
+    {
+     "id": "d7",
+     "kind": "mcq",
+     "prompt_zh": "赵经理、孙总，今晚招待不周，还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息（　　）。明早8:30我在大堂等各位。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "举杯",
+      "报平安",
+      "随意"
+     ],
+     "answer": 1,
+     "explain_vi": "报平安: báo đã về an toàn. Câu đầy đủ: 赵经理、孙总，今晚招待不周，还请见谅。感谢两位对我们工作的支持！已到酒店的话麻烦回个消息报平安。明早8:30我在大堂等各位。"
+    },
+    {
+     "id": "d8",
+     "kind": "mcq",
+     "prompt_zh": "开车就算了，安全第一！那明天你一定得（　　）啊。",
+     "prompt_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+     "options": [
+      "祝酒词",
+      "主宾",
+      "补上"
+     ],
+     "answer": 2,
+     "explain_vi": "补上: bù lại. Câu đầy đủ: 开车就算了，安全第一！那明天你一定得补上啊。"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title_vi": "Từ vựng · Nối từ với nghĩa",
+   "questions": [
+    {
+     "id": "v1",
+     "kind": "match",
+     "pairs": [
+      {
+       "q": "宴请",
+       "a": "mời tiệc"
+      },
+      {
+       "q": "饭局",
+       "a": "bữa tiệc xã giao"
+      },
+      {
+       "q": "应酬",
+       "a": "tiếp khách, xã giao"
+      },
+      {
+       "q": "包间",
+       "a": "phòng riêng"
+      },
+      {
+       "q": "主陪",
+       "a": "chủ tiệc (bên chủ)"
+      },
+      {
+       "q": "副陪",
+       "a": "phó chủ tiệc"
+      }
+     ],
+     "explain_vi": "宴请 = mời tiệc · 饭局 = bữa tiệc xã giao · 应酬 = tiếp khách, xã giao · 包间 = phòng riêng · 主陪 = chủ tiệc (bên chủ) · 副陪 = phó chủ tiệc"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "title_vi": "Viết · Sắp xếp câu và dịch sang tiếng Trung",
+   "questions": [
+    {
+     "id": "r1",
+     "kind": "reorder",
+     "tiles": [
+      "经理",
+      "远道而来",
+      "孙总",
+      "今天",
+      "赵"
+     ],
+     "answers": [
+      "今天赵经理孙总远道而来"
+     ],
+     "explain_vi": "今天赵经理孙总远道而来 — trích từ câu: （主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！"
+    },
+    {
+     "id": "r2",
+     "kind": "reorder",
+     "tiles": [
+      "集团",
+      "表示",
+      "东盛",
+      "热烈欢迎",
+      "我代表"
+     ],
+     "answers": [
+      "我代表东盛集团表示热烈欢迎"
+     ],
+     "explain_vi": "我代表东盛集团表示热烈欢迎 — trích từ câu: （主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！"
+    },
+    {
+     "id": "r3",
+     "kind": "reorder",
+     "tiles": [
+      "举杯",
+      "大家",
+      "共同"
+     ],
+     "answers": [
+      "大家共同举杯"
+     ],
+     "explain_vi": "大家共同举杯 — trích từ câu: （主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！"
+    },
+    {
+     "id": "r4",
+     "kind": "reorder",
+     "tiles": [
+      "合作愉快",
+      "我们",
+      "为"
+     ],
+     "answers": [
+      "为我们合作愉快"
+     ],
+     "explain_vi": "为我们合作愉快 — trích từ câu: （主陪）各位，今天赵经理、孙总远道而来，我代表东盛集团表示热烈欢迎！我提议，大家共同举杯，为我们合作愉快，干杯！"
+    },
+    {
+     "id": "r5x",
+     "kind": "reorder",
+     "tiles": [
+      "盛情款待",
+      "谢谢",
+      "的",
+      "李总"
+     ],
+     "answers": [
+      "谢谢李总的盛情款待"
+     ],
+     "explain_vi": "谢谢李总的盛情款待 — trích từ câu: 谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！"
+    },
+    {
+     "id": "r6x",
+     "kind": "reorder",
+     "tiles": [
+      "李总",
+      "回敬",
+      "我",
+      "这杯"
+     ],
+     "answers": [
+      "这杯我回敬李总"
+     ],
+     "explain_vi": "这杯我回敬李总 — trích từ câu: 谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！"
+    },
+    {
+     "id": "r7x",
+     "kind": "reorder",
+     "tiles": [
+      "两天",
+      "精心安排",
+      "的",
+      "贵司这",
+      "感谢"
+     ],
+     "answers": [
+      "感谢贵司这两天的精心安排"
+     ],
+     "explain_vi": "感谢贵司这两天的精心安排 — trích từ câu: 谢谢李总的盛情款待！这杯我回敬李总，感谢贵司这两天的精心安排。我先干为敬！"
+    },
+    {
+     "id": "r8x",
+     "kind": "reorder",
+     "tiles": [
+      "孙总",
+      "替",
+      "我敬",
+      "一下"
+     ],
+     "answers": [
+      "替我敬一下孙总"
+     ],
+     "explain_vi": "替我敬一下孙总 — trích từ câu: 好！感情深，一口闷！小阮，你是年轻人，替我敬一下孙总。"
+    }
+   ]
+  }
+ ]
+}

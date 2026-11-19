@@ -1,0 +1,392 @@
+{
+ "id": 21,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "听力实战（二）：领导讲话、经济新闻与弦外之音",
+  "pinyin": "tīng lì shí zhàn èr lǐng dǎo jiǎng huà jīng jì xīn wén yǔ xián wài zhī yīn",
+  "vi": "nghe và tóm tắt bài phát biểu của lãnh đạo"
+ },
+ "grammarTopics_vi": [],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Nghe và tóm tắt bài phát biểu của lãnh đạo",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Bản tin kinh tế",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Nhận ra “ý ngoài lời” (弦外之音) của khách hàng",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Hiểu các cụm từ chính sách hay xuất hiện trong kinh doanh",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "老板开年讲话（节选）",
+   "context_vi": "听力一 · 老板开年讲话（节选）",
+   "scene": "📰",
+   "lines": [
+    {
+     "speaker": "bc-wangzong",
+     "zh": "同事们，新年好！过去的一年，大家辛苦了。说实话，去年外部环境不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。",
+     "vi": "Các đồng nghiệp, chúc mừng năm mới! Một năm qua mọi người vất vả rồi. Nói thật, năm ngoái môi trường bên ngoài không mấy thuận lợi, trong ngành chiến tranh giá cả diễn ra rất gay gắt, nhưng chúng ta đã trụ vững trước áp lực, mảng Đông Nam Á tăng trưởng hai mươi mốt phần trăm so với cùng kỳ, thành tích này có được không hề dễ dàng."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "今年我讲三个关键词：第一，降本增效。不是简单地砍成本，而是把钱花在刀刃上。第二，出海。越南、柬埔寨是我们的主战场，要把本地化做深做实。第三，不卷价格，卷价值。我们坚决不打价格战，要靠服务和技术赢客户。",
+     "vi": "Năm nay tôi nói ba từ khoá: thứ nhất, giảm chi phí, tăng hiệu quả. Không phải đơn giản là cắt chi phí, mà là tiêu tiền vào đúng chỗ. Thứ hai, vươn ra nước ngoài. Việt Nam, Campuchia là chiến trường chính của chúng ta, phải làm bản địa hoá thật sâu, thật chắc. Thứ ba, không đua về giá, đua về giá trị. Chúng ta kiên quyết không tham gia chiến tranh giá cả, mà phải dựa vào dịch vụ và công nghệ để giành khách hàng."
+    },
+    {
+     "speaker": "bc-wangzong",
+     "zh": "最后，希望大家新的一年身体健康，再创佳绩！",
+     "vi": "Cuối cùng, chúc mọi người năm mới mạnh khoẻ, tiếp tục gặt hái thành tích mới!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "外部环境",
+     "pinyin": "wàibù huánjìng",
+     "vi": "môi trường bên ngoài"
+    },
+    {
+     "zh": "价格战",
+     "pinyin": "jiàgézhàn",
+     "vi": "cuộc chiến giá"
+    },
+    {
+     "zh": "顶住压力",
+     "pinyin": "dǐngzhù yālì",
+     "vi": "trụ vững trước áp lực"
+    },
+    {
+     "zh": "来之不易",
+     "pinyin": "lái zhī bú yì",
+     "vi": "có được không dễ"
+    },
+    {
+     "zh": "关键词",
+     "pinyin": "guānjiàncí",
+     "vi": "từ khoá"
+    },
+    {
+     "zh": "降本增效",
+     "pinyin": "jiàng běn zēng xiào",
+     "vi": "giảm chi phí, tăng hiệu quả"
+    },
+    {
+     "zh": "花在刀刃上",
+     "pinyin": "huā zài dāorèn shang",
+     "vi": "tiêu đúng chỗ"
+    },
+    {
+     "zh": "出海",
+     "pinyin": "chūhǎi",
+     "vi": "vươn ra nước ngoài"
+    },
+    {
+     "zh": "主战场",
+     "pinyin": "zhǔ zhànchǎng",
+     "vi": "thị trường trọng điểm"
+    },
+    {
+     "zh": "做深做实",
+     "pinyin": "zuò shēn zuò shí",
+     "vi": "làm sâu, làm chắc"
+    },
+    {
+     "zh": "再创佳绩",
+     "pinyin": "zài chuàng jiājì",
+     "vi": "tiếp tục đạt thành tích",
+     "example": {
+      "zh": "最后，希望大家新的一年身体健康，再创佳绩！",
+      "vi": "Cuối cùng, chúc mọi người năm mới mạnh khoẻ, tiếp tục gặt hái thành tích mới!"
+     }
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-2",
+   "title": "经济新闻播报（mô phỏng, số liệu thật）",
+   "context_vi": "听力二 · 经济新闻播报（mô phỏng, số liệu thật）",
+   "scene": "📰",
+   "lines": [
+    {
+     "speaker": "bc-xinwenzhubo",
+     "zh": "本台消息：记者从中国外交部网站获悉，2025年，中越双边贸易额达2961.4亿美元，同比增长13.7%，其中中方出口额1981.5亿美元，同比增长22.4%。截至2025年底，中国企业累计对越投资308.9亿美元。分析人士认为，互联互通项目稳步推进，为两国产业链供应链合作提供了新的机遇。",
+     "vi": "Tin của đài: phóng viên được biết từ trang web Bộ Ngoại giao Trung Quốc, năm 2025 kim ngạch thương mại song phương Trung – Việt đạt 296,14 tỷ đô la Mỹ, tăng 13,7% so với cùng kỳ, trong đó kim ngạch xuất khẩu của Trung Quốc là 198,15 tỷ đô la, tăng 22,4%. Tính đến cuối năm 2025, doanh nghiệp Trung Quốc đã đầu tư luỹ kế vào Việt Nam 30,89 tỷ đô la. Giới phân tích cho rằng các dự án kết nối liên thông được thúc đẩy ổn định, mang lại cơ hội mới cho hợp tác chuỗi sản xuất, chuỗi cung ứng giữa hai nước."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "本台消息",
+     "pinyin": "běn tái xiāoxi",
+     "vi": "tin của đài"
+    },
+    {
+     "zh": "获悉",
+     "pinyin": "huòxī",
+     "vi": "được biết"
+    },
+    {
+     "zh": "截至",
+     "pinyin": "jiézhì",
+     "vi": "tính đến"
+    },
+    {
+     "zh": "累计",
+     "pinyin": "lěijì",
+     "vi": "luỹ kế"
+    },
+    {
+     "zh": "分析人士",
+     "pinyin": "fēnxī rénshì",
+     "vi": "giới phân tích"
+    },
+    {
+     "zh": "互联互通",
+     "pinyin": "hùlián hùtōng",
+     "vi": "kết nối liên thông"
+    },
+    {
+     "zh": "稳步推进",
+     "pinyin": "wěnbù tuījìn",
+     "vi": "thúc đẩy vững chắc"
+    },
+    {
+     "zh": "机遇",
+     "pinyin": "jīyù",
+     "vi": "cơ hội"
+    },
+    {
+     "zh": "高质量发展",
+     "pinyin": "gāo zhìliàng fāzhǎn",
+     "vi": "phát triển chất lượng cao"
+    },
+    {
+     "zh": "新质生产力",
+     "pinyin": "xīnzhì shēngchǎnlì",
+     "vi": "lực lượng sản xuất chất lượng mới"
+    },
+    {
+     "zh": "反内卷",
+     "pinyin": "fǎn nèijuǎn",
+     "vi": "chống cạnh tranh “nội quyển”"
+    },
+    {
+     "zh": "营商环境",
+     "pinyin": "yíngshāng huánjìng",
+     "vi": "môi trường kinh doanh"
+    },
+    {
+     "zh": "利好",
+     "pinyin": "lìhǎo",
+     "vi": "tin tốt (cho thị trường)"
+    },
+    {
+     "zh": "承压",
+     "pinyin": "chéngyā",
+     "vi": "chịu áp lực"
+    }
+   ],
+   "passage": true
+  },
+  {
+   "id": "text-3",
+   "title": "客户的弦外之音",
+   "context_vi": "听力三 · 客户的弦外之音",
+   "scene": "📰",
+   "lines": [
+    {
+     "speaker": "bc-zhaojingli",
+     "zh": "小阮啊，你们的货没什么问题，质量挺好的。就是……怎么说呢，最近也有几家越南工厂来找我们，价格都挺有竞争力的。当然了，我们跟你们合作这么多年，感情还是在的。你回去跟李总说一声，明年的框架协议，我们可能要重新看一下。",
+     "vi": "Tiểu Nguyễn à, hàng của các cậu không có vấn đề gì, chất lượng khá tốt. Chỉ là… nói thế nào nhỉ, dạo này cũng có mấy nhà máy Việt Nam đến tìm chúng tôi, giá đều khá cạnh tranh. Tất nhiên rồi, chúng ta hợp tác bao nhiêu năm nay, tình cảm vẫn còn đó. Cậu về nói với anh Lý một tiếng, thoả thuận khung năm sau, có thể chúng tôi phải xem xét lại."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "有竞争力",
+     "pinyin": "yǒu jìngzhēnglì",
+     "vi": "có sức cạnh tranh"
+    },
+    {
+     "zh": "框架协议",
+     "pinyin": "kuàngjià xiéyì",
+     "vi": "thoả thuận khung"
+    },
+    {
+     "zh": "弦外之音",
+     "pinyin": "xián wài zhī yīn",
+     "vi": "ý ngoài lời"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-c21-1",
+     "title_zh": "不是……，而是……",
+     "title_vi": "Văn viết công sở · Đối lập nhấn mạnh",
+     "formula": [
+      [
+       {
+        "zh": "不是……，而是……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Ý sau 而是 là ý chính. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "不是简单砍成本，而是把钱花在刀刃上。",
+       "vi": "Không phải đơn giản là cắt chi phí, mà là tiêu tiền vào đúng chỗ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）简单砍成本，而是把钱花在刀刃上。",
+       "options": [
+        "虽然",
+        "即使",
+        "不是"
+       ],
+       "answer": 2,
+       "explain_vi": "不是简单砍成本，而是把钱花在刀刃上。 — Không phải đơn giản là cắt chi phí, mà là tiêu tiền vào đúng chỗ."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "同事们，新年好！过去的一年，大家辛苦了。说实话，去年___不太好，行业里价格战打得很凶，但我们顶住了压力，东南亚业务同比增长了百分之二十一，这个成绩来之不易。",
+   "bank": [
+    "承压",
+    "累计",
+    "外部环境"
+   ],
+   "answer": "外部环境"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "最后，希望大家新的一年身体健康，___！",
+   "bank": [
+    "承压",
+    "截至",
+    "再创佳绩"
+   ],
+   "answer": "再创佳绩"
+  },
+  {
+   "id": "e3",
+   "kind": "reorder",
+   "tiles": [
+    "去年",
+    "不太好",
+    "外部环境"
+   ],
+   "answers": [
+    "去年外部环境不太好"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e4",
+   "kind": "reorder",
+   "tiles": [
+    "很凶",
+    "价格战",
+    "里",
+    "打得",
+    "行业"
+   ],
+   "answers": [
+    "行业里价格战打得很凶"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e5",
+   "kind": "reorder",
+   "tiles": [
+    "压力",
+    "了",
+    "但",
+    "顶住",
+    "我们"
+   ],
+   "answers": [
+    "但我们顶住了压力"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e6",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "外部环境",
+     "a": "môi trường bên ngoài"
+    },
+    {
+     "q": "价格战",
+     "a": "cuộc chiến giá"
+    },
+    {
+     "q": "顶住压力",
+     "a": "trụ vững trước áp lực"
+    },
+    {
+     "q": "来之不易",
+     "a": "có được không dễ"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Thư ký của sếp: nghe 听力一 hai lần, viết tóm tắt 3 từ khoá + 1 số liệu thành tin nhắn gửi nhóm phòng ban (≤ 80 chữ). So sánh xem ai bắt đúng cả 3 từ khoá.",
+   "② Phát thanh viên: mỗi đội nhận 1 đoạn số liệu (thương mại, đầu tư, du lịch), viết và đọc bản tin 45 giây theo khung 听力二; đội khác nghe và ghi số liệu, đội đọc rõ nhất và đội nghe đúng nhất cùng được điểm.",
+   "③ Giải mã ý ngoài lời: giáo viên đọc 6 lời khách hàng/sếp kiểu 听力三; đội viết (a) ý thật, (b) câu trả lời làm rõ, (c) tin nhắn báo cáo sếp."
+  ],
+  "patterns": [
+   {
+    "zh": "不是简单砍成本，而是把钱花在刀刃上。",
+    "vi": "Không phải đơn giản là cắt chi phí, mà là tiêu tiền vào đúng chỗ."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Ngôn ngữ chính sách trong kinh doanh",
+  "body_vi": [
+   "Doanh nghiệp Trung Quốc thường “nói theo” ngôn ngữ chính sách của nhà nước trong phát biểu, báo cáo năm, thậm chí trong đàm phán: 高质量发展, 新质生产力, 出海, 降本增效, 反内卷. Ví dụ, Tân Hoa Xã tháng 10/2025 gắn việc thoát khỏi cạnh tranh “nội quyển” với đổi mới công nghệ và phát triển lực lượng sản xuất chất lượng mới, trong bối cảnh Hội nghị Trung ương 4 khoá XX đặt mục tiêu cho giai đoạn “十五五” ([新华网](https://www.news.cn/20251029/6f370b4dc72d43579505940d71d52194/c.html)). Hiểu các cụm này giúp người Việt đoán được đối tác đang ưu tiên gì (giảm giá hay nâng giá trị, mở rộng ra nước ngoài hay co về), và viết đề xuất hợp tác “đúng tần số”. Tuy vậy, không nên lạm dụng khi nói chuyện thường ngày; dùng quá nhiều sẽ nghe như đọc văn bản.",
+   "Ứng xử: Nghe sếp phát biểu đầu năm, nên ghi lại 3 “từ khoá” và dùng lại chúng khi viết kế hoạch, báo cáo; đây là cách cho thấy mình “theo kịp chủ trương”.",
+   "Ứng xử: Khi khách nói kiểu 听力三, đừng chỉ trả lời 好的; hãy làm rõ: 赵经理，我理解您的意思是明年价格方面希望我们再有所调整，对吗？然后 hẹn gặp trực tiếp.",
+   "Ứng xử: Báo cáo lại cho sếp cả “lời nói” và “ý ngoài lời”: 赵经理嘴上说质量没问题，但暗示价格要重新谈，可能在比价。"
+  ]
+ }
+}

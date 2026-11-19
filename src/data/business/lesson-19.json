@@ -1,0 +1,738 @@
+{
+ "id": 19,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "职场人际：边界感与办公室政治",
+  "pinyin": "zhí chǎng rén jì biān jiè gǎn yǔ bàn gōng shì zhèng zhì",
+  "vi": "xử lý bị cướp công"
+ },
+ "grammarTopics_vi": [
+  "有件事想跟你沟通一下。……，这个你也清楚。我不是要……，只是希望……",
+  "我们就事论事。",
+  "……是公司保密的，我可不敢说。",
+  "……嘛，……自然就……了。对了，……？",
+  "我很想帮你，但……实在……。这样吧，我……，其他的可以……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Xử lý bị cướp công",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Câu hỏi riêng tư",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Lời nhờ vả vượt sức",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nói chuyện “就事论事” mà không làm mất lòng",
+   "doneWhen": [
+    "text-4"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "功劳被抢了",
+   "context_vi": "课文一 · 功劳被抢了",
+   "scene": "🧘",
+   "lines": [
+    {
+     "speaker": "bc-wenben",
+     "zh": "（会上，同事小吴汇报时说越南仓库清关提速是他的方案。）",
+     "vi": "(Trong cuộc họp, đồng nghiệp Tiểu Ngô khi báo cáo nói phương án đẩy nhanh thông quan ở kho Việt Nam là của anh ấy.)"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "（会后单独找小吴）吴哥，有件事想跟你沟通一下。刚才会上说的清关提速方案，前期的数据分析和对接越南海关都是我做的，这个你也清楚。我不是要争什么，只是希望以后汇报时能把分工说清楚，这样领导也好了解每个人的情况。",
+     "vi": "(sau họp tìm riêng Tiểu Ngô) Anh Ngô, có chuyện em muốn trao đổi với anh. Phương án đẩy nhanh thông quan nói trong cuộc họp vừa rồi, phần phân tích dữ liệu ban đầu và làm việc với hải quan Việt Nam đều là em làm, cái này anh cũng biết. Em không muốn tranh giành gì, chỉ mong sau này khi báo cáo mình nói rõ phân công, như vậy lãnh đạo cũng dễ nắm tình hình từng người."
+    },
+    {
+     "speaker": "bc-xiaowu",
+     "zh": "哎呀，是我没说清楚，不好意思。下次一定注明。",
+     "vi": "Ôi, là anh nói chưa rõ, xin lỗi nhé. Lần sau nhất định ghi rõ."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "没关系，我们就事论事。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+     "vi": "Không sao đâu anh, mình bàn đúng việc thôi. Sau này những dự án kiểu này mình có thể cùng viết một bản tổng kết, đánh dấu phần mỗi người phụ trách."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "人际关系",
+     "pinyin": "rénjì guānxi",
+     "vi": "quan hệ giữa người với người"
+    },
+    {
+     "zh": "功劳",
+     "pinyin": "gōngláo",
+     "vi": "công lao"
+    },
+    {
+     "zh": "抢功",
+     "pinyin": "qiǎnggōng",
+     "vi": "cướp công"
+    },
+    {
+     "zh": "分工",
+     "pinyin": "fēngōng",
+     "vi": "phân công"
+    },
+    {
+     "zh": "注明",
+     "pinyin": "zhùmíng",
+     "vi": "ghi rõ",
+     "example": {
+      "zh": "哎呀，是我没说清楚，不好意思。下次一定注明。",
+      "vi": "Ôi, là anh nói chưa rõ, xin lỗi nhé. Lần sau nhất định ghi rõ."
+     }
+    },
+    {
+     "zh": "就事论事",
+     "pinyin": "jiù shì lùn shì",
+     "vi": "bàn đúng việc, không nói người",
+     "example": {
+      "zh": "没关系，我们就事论事。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+      "vi": "Không sao đâu anh, mình bàn đúng việc thôi. Sau này những dự án kiểu này mình có thể cùng viết một bản tổng kết, đánh dấu phần mỗi người phụ trách."
+     }
+    },
+    {
+     "zh": "沟通",
+     "pinyin": "gōutōng",
+     "vi": "trao đổi, giao tiếp"
+    },
+    {
+     "zh": "边界感",
+     "pinyin": "biānjiègǎn",
+     "vi": "ý thức về ranh giới cá nhân"
+    },
+    {
+     "zh": "隐私",
+     "pinyin": "yǐnsī",
+     "vi": "chuyện riêng tư"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g19-1",
+     "title_zh": "有件事想跟你沟通一下。……，这个你也清楚。我不是要……，只是希望……",
+     "title_vi": "Đối chất nhẹ nhàng",
+     "formula": [
+      [
+       {
+        "zh": "有件事想跟你沟通一下。",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，这个你也清楚。我不是要",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，只是希望",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Đối chất nhẹ nhàng: nêu sự thật → phủ nhận ý đối đầu → mong muốn.",
+     "examples": []
+    },
+    {
+     "id": "bc-g19-2",
+     "title_zh": "我们就事论事。",
+     "title_vi": "Kéo cuộc nói chuyện về công việc, tránh cảm xúc",
+     "formula": [
+      [
+       {
+        "zh": "我们就事论事。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Kéo cuộc nói chuyện về công việc, tránh cảm xúc.",
+     "examples": [
+      {
+       "zh": "没关系，我们就事论事。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+       "vi": "Không sao đâu anh, mình bàn đúng việc thôi. Sau này những dự án kiểu này mình có thể cùng viết một bản tổng kết, đánh dấu phần mỗi người phụ trách."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "没关系，（　）。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+       "options": [
+        "这个你也清楚",
+        "我们就事论事",
+        "是公司保密的"
+       ],
+       "answer": 1,
+       "explain_vi": "没关系，我们就事论事。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。 — Không sao đâu anh, mình bàn đúng việc thôi. Sau này những dự án kiểu này mình có thể cùng viết một bản tổng kết, đánh dấu phần mỗi người phụ trách."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "如果对方不认账",
+   "context_vi": "课文一（续） · 如果对方不认账",
+   "scene": "🧘",
+   "lines": [
+    {
+     "speaker": "bc-xiaowu",
+     "zh": "小阮，你这话什么意思？方案最后是我整合的，汇报也是我做的，怎么就成你的了？",
+     "vi": "Tiểu Nguyễn, câu đó của cậu là ý gì? Phương án cuối cùng là tôi tổng hợp, báo cáo cũng là tôi làm, sao lại thành của cậu?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "吴哥，你别误会，整合和汇报确实是你做的，我没有否认。我只是说数据分析和海关对接那部分是我负责的，邮件记录都在。",
+     "vi": "Anh Ngô, anh đừng hiểu lầm, việc tổng hợp và báo cáo đúng là anh làm, em không phủ nhận. Em chỉ nói phần phân tích dữ liệu và làm việc với hải quan là em phụ trách, lịch sử email vẫn còn đó."
+    },
+    {
+     "speaker": "bc-xiaowu",
+     "zh": "那又怎样，大家都是一个团队的。",
+     "vi": "Thì sao nào, mọi người đều cùng một đội mà."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "对，正因为是一个团队，分工清楚对大家都好。这样吧，这件事我们不争了，下周项目复盘的时候，我会把各环节的负责人列在总结里，发给李经理和你，你看有没有问题。",
+     "vi": "Đúng, chính vì cùng một đội nên phân công rõ ràng sẽ tốt cho tất cả. Thế này nhé, chuyện này mình không tranh nữa, tuần sau khi tổng kết dự án, em sẽ liệt kê người phụ trách từng khâu trong bản tổng kết, gửi anh Lý và anh, anh xem có vấn đề gì không."
+    }
+   ],
+   "vocab": []
+  },
+  {
+   "id": "text-3",
+   "title": "被问隐私",
+   "context_vi": "课文二 · 被问隐私",
+   "scene": "🧘",
+   "lines": [
+    {
+     "speaker": "bc-laosun",
+     "zh": "小阮，你一个月拿多少啊？有对象了吗？什么时候结婚？",
+     "vi": "Tiểu Nguyễn, một tháng cậu lĩnh bao nhiêu thế? Có người yêu chưa? Bao giờ cưới?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+     "vi": "Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+    },
+    {
+     "speaker": "bc-laosun",
+     "zh": "哈哈，你小子挺会转移话题！就在公司对面……",
+     "vi": "Haha, thằng nhóc này giỏi đánh trống lảng ghê! Ngay đối diện công ty ấy…"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "对象",
+     "pinyin": "duìxiàng",
+     "vi": "người yêu, đối tượng",
+     "example": {
+      "zh": "小阮，你一个月拿多少啊？有对象了吗？什么时候结婚？",
+      "vi": "Tiểu Nguyễn, một tháng cậu lĩnh bao nhiêu thế? Có người yêu chưa? Bao giờ cưới?"
+     }
+    },
+    {
+     "zh": "缘分",
+     "pinyin": "yuánfèn",
+     "vi": "duyên phận"
+    },
+    {
+     "zh": "喝喜酒",
+     "pinyin": "hē xǐjiǔ",
+     "vi": "dự tiệc cưới"
+    },
+    {
+     "zh": "转移话题",
+     "pinyin": "zhuǎnyí huàtí",
+     "vi": "đổi chủ đề",
+     "example": {
+      "zh": "哈哈，你小子挺会转移话题！就在公司对面……",
+      "vi": "Haha, thằng nhóc này giỏi đánh trống lảng ghê! Ngay đối diện công ty ấy…"
+     }
+    },
+    {
+     "zh": "八卦",
+     "pinyin": "bāguà",
+     "vi": "buôn chuyện"
+    },
+    {
+     "zh": "背后议论",
+     "pinyin": "bèihòu yìlùn",
+     "vi": "nói sau lưng"
+    },
+    {
+     "zh": "打小报告",
+     "pinyin": "dǎ xiǎobàogào",
+     "vi": "mách lẻo với sếp"
+    },
+    {
+     "zh": "站队",
+     "pinyin": "zhànduì",
+     "vi": "chọn phe"
+    },
+    {
+     "zh": "派系",
+     "pinyin": "pàixì",
+     "vi": "phe phái"
+    },
+    {
+     "zh": "抱团",
+     "pinyin": "bàotuán",
+     "vi": "kết bè"
+    },
+    {
+     "zh": "情商",
+     "pinyin": "qíngshāng",
+     "vi": "EQ, trí tuệ cảm xúc"
+    },
+    {
+     "zh": "情绪价值",
+     "pinyin": "qíngxù jiàzhí",
+     "vi": "giá trị cảm xúc (làm người khác thấy dễ chịu)"
+    },
+    {
+     "zh": "老好人",
+     "pinyin": "lǎohǎorén",
+     "vi": "người “ba phải”, không biết từ chối"
+    },
+    {
+     "zh": "得罪",
+     "pinyin": "dézuì",
+     "vi": "đắc tội, làm mất lòng"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g19-3",
+     "title_zh": "……是公司保密的，我可不敢说。",
+     "title_vi": "Né câu hỏi lương bằng quy định",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "是公司保密的，我可不敢说。",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Né câu hỏi lương bằng quy định.",
+     "examples": [
+      {
+       "zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+       "vi": "Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "哈哈，孙哥，工资（　），我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+       "options": [
+        "这个你也清楚",
+        "是公司保密的",
+        "我们就事论事"
+       ],
+       "answer": 1,
+       "explain_vi": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？ — Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+      }
+     ]
+    },
+    {
+     "id": "bc-g19-4",
+     "title_zh": "……嘛，……自然就……了。对了，……？",
+     "title_vi": "Né câu hỏi riêng tư bằng câu đùa rồi đổi chủ đề",
+     "formula": [
+      [
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "嘛，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "自然就",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "了。对了，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "…",
+        "label": "？",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Né câu hỏi riêng tư bằng câu đùa rồi đổi chủ đề.",
+     "examples": [
+      {
+       "zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+       "vi": "Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了（　）有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+       "options": [
+        "自然就",
+        "这样吧",
+        "之日起"
+       ],
+       "answer": 0,
+       "explain_vi": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？ — Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-4",
+   "title": "拒绝额外的活儿",
+   "context_vi": "课文三 · 拒绝额外的活儿",
+   "scene": "🧘",
+   "lines": [
+    {
+     "speaker": "bc-xiaolin",
+     "zh": "小阮，帮我把这份30页的报告翻译成越南语吧，明天就要。",
+     "vi": "Tiểu Nguyễn, dịch giúp mình bản báo cáo 30 trang này sang tiếng Việt nhé, mai cần rồi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "我很想帮你，但今天手上有两个急单，实在抽不出时间。这样吧，我帮你看一下最重要的三页，其他的可以找公司合作的翻译公司，要不要我把联系方式发你？",
+     "vi": "Mình rất muốn giúp cậu, nhưng hôm nay mình đang có hai đơn gấp, thật sự không xoay được thời gian. Thế này nhé, mình xem giúp cậu ba trang quan trọng nhất, phần còn lại có thể nhờ công ty dịch thuật đối tác của công ty, có cần mình gửi cậu thông tin liên hệ không?"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "抽不出时间",
+     "pinyin": "chōu bu chū shíjiān",
+     "vi": "không thu xếp được thời gian"
+    },
+    {
+     "zh": "靠谱",
+     "pinyin": "kàopǔ",
+     "vi": "đáng tin cậy"
+    },
+    {
+     "zh": "低调",
+     "pinyin": "dīdiào",
+     "vi": "khiêm nhường, kín tiếng"
+    },
+    {
+     "zh": "枪打出头鸟",
+     "pinyin": "qiāng dǎ chūtóuniǎo",
+     "vi": "chim đầu đàn hay bị bắn"
+    },
+    {
+     "zh": "以和为贵",
+     "pinyin": "yǐ hé wéi guì",
+     "vi": "dĩ hoà vi quý"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g19-5",
+     "title_zh": "我很想帮你，但……实在……。这样吧，我……，其他的可以……",
+     "title_vi": "Từ chối nhưng vẫn giúp một phần và gợi ý giải pháp",
+     "formula": [
+      [
+       {
+        "zh": "我很想帮你，但",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "实在",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "。这样吧，我",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，其他的可以",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Từ chối nhưng vẫn giúp một phần và gợi ý giải pháp.",
+     "examples": [
+      {
+       "zh": "我很想帮你，但今天手上有两个急单，实在抽不出时间。这样吧，我帮你看一下最重要的三页，其他的可以找公司合作的翻译公司，要不要我把联系方式发你？",
+       "vi": "Mình rất muốn giúp cậu, nhưng hôm nay mình đang có hai đơn gấp, thật sự không xoay được thời gian. Thế này nhé, mình xem giúp cậu ba trang quan trọng nhất, phần còn lại có thể nhờ công ty dịch thuật đối tác của công ty, có cần mình gửi cậu thông tin liên hệ không?"
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　），但今天手上有两个急单，实在抽不出时间。这样吧，我帮你看一下最重要的三页，其他的可以找公司合作的翻译公司，要不要我把联系方式发你？",
+       "options": [
+        "我可不敢说",
+        "增长了一倍",
+        "我很想帮你"
+       ],
+       "answer": 2,
+       "explain_vi": "我很想帮你，但今天手上有两个急单，实在抽不出时间。这样吧，我帮你看一下最重要的三页，其他的可以找公司合作的翻译公司，要不要我把联系方式发你？ — Mình rất muốn giúp cậu, nhưng hôm nay mình đang có hai đơn gấp, thật sự không xoay được thời gian. Thế này nhé, mình xem giúp cậu ba trang quan trọng nhất, phần còn lại có thể nhờ công ty dịch thuật đối tác của công ty, có cần mình gửi cậu thông tin liên hệ không?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "对，正因为是一个团队，___清楚对大家都好。这样吧，这件事我们不争了，下周项目复盘的时候，我会把各环节的负责人列在总结里，发给李经理和你，你看有没有问题。",
+   "bank": [
+    "分工",
+    "老好人",
+    "人际关系"
+   ],
+   "answer": "分工"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "哎呀，是我没说清楚，不好意思。下次一定___。",
+   "bank": [
+    "人际关系",
+    "就事论事",
+    "注明"
+   ],
+   "answer": "注明"
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "没关系，我们___。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+   "bank": [
+    "沟通",
+    "就事论事",
+    "分工"
+   ],
+   "answer": "就事论事"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "小阮，你一个月拿多少啊？有___了吗？什么时候结婚？",
+   "bank": [
+    "对象",
+    "转移话题",
+    "老好人"
+   ],
+   "answer": "对象"
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，___到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+   "bank": [
+    "缘分",
+    "靠谱",
+    "沟通"
+   ],
+   "answer": "缘分"
+  },
+  {
+   "id": "e6",
+   "kind": "fill",
+   "sentence": "哈哈，你小子挺会___！就在公司对面……",
+   "bank": [
+    "沟通",
+    "得罪",
+    "转移话题"
+   ],
+   "answer": "转移话题"
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "吴哥",
+    "找小",
+    "吴",
+    "单独",
+    "会后"
+   ],
+   "answers": [
+    "会后单独找小吴吴哥"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "想跟",
+    "你",
+    "一下",
+    "有件事",
+    "沟通"
+   ],
+   "answers": [
+    "有件事想跟你沟通一下"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e9",
+   "kind": "reorder",
+   "tiles": [
+    "清关",
+    "方案",
+    "提速",
+    "刚才会上",
+    "说的"
+   ],
+   "answers": [
+    "刚才会上说的清关提速方案"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e10",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "人际关系",
+     "a": "quan hệ giữa người với người"
+    },
+    {
+     "q": "功劳",
+     "a": "công lao"
+    },
+    {
+     "q": "抢功",
+     "a": "cướp công"
+    },
+    {
+     "q": "分工",
+     "a": "phân công"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Hộp tình huống khó: 10 thẻ tình huống (đồng nghiệp mượn tiền, sếp nhờ việc riêng, bị nói xấu sau lưng, bị hỏi “你们越南人是不是……”, được rủ vào nhóm chat nói xấu sếp…). Mỗi học viên bốc 1 thẻ, có 30 giây suy nghĩ, 1 phút xử lý bằng lời nói.",
+   "② Ghế nóng: một học viên ngồi “ghế nóng”, cả lớp thay nhau hỏi câu riêng tư kiểu công sở Trung Quốc; học viên phải né khéo 5 câu liên tiếp mà không bị “lạnh” không khí.",
+   "③ Chấm EQ: giáo viên đọc 2 cách phản ứng cho mỗi tình huống; đội giơ thẻ A/B và giải thích bằng tiếng Trung vì sao phản ứng đó có 情商 cao hơn."
+  ],
+  "patterns": [
+   {
+    "zh": "没关系，我们就事论事。以后这类项目我们可以一起写一份总结，各自负责的部分标出来。",
+    "vi": "Không sao đâu anh, mình bàn đúng việc thôi. Sau này những dự án kiểu này mình có thể cùng viết một bản tổng kết, đánh dấu phần mỗi người phụ trách."
+   },
+   {
+    "zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+    "vi": "Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+   },
+   {
+    "zh": "哈哈，孙哥，工资是公司保密的，我可不敢说。对象嘛，缘分到了自然就有了，到时候一定请您喝喜酒！对了，您上次说的那家潮汕牛肉火锅在哪儿？",
+    "vi": "Haha, anh Tôn, lương là bí mật của công ty, em đâu dám nói. Còn người yêu thì, duyên đến tự khắc sẽ có, đến lúc đó nhất định mời anh uống rượu mừng! À, cái quán lẩu bò Triều Sán lần trước anh nói ở đâu ạ?"
+   },
+   {
+    "zh": "我很想帮你，但今天手上有两个急单，实在抽不出时间。这样吧，我帮你看一下最重要的三页，其他的可以找公司合作的翻译公司，要不要我把联系方式发你？",
+    "vi": "Mình rất muốn giúp cậu, nhưng hôm nay mình đang có hai đơn gấp, thật sự không xoay được thời gian. Thế này nhé, mình xem giúp cậu ba trang quan trọng nhất, phần còn lại có thể nhờ công ty dịch thuật đối tác của công ty, có cần mình gửi cậu thông tin liên hệ không?"
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "中庸, “chim đầu đàn” và ý thức ranh giới",
+  "body_vi": [
+   "Tư tưởng 中庸 (trung dung) và 以和为贵 khiến nhiều người Trung Quốc tránh đối đầu công khai ở công sở; câu 枪打出头鸟 nhắc rằng quá nổi bật dễ bị chèn ép. Kỹ năng được đánh giá cao là 情商: biết đọc bầu không khí, nói đúng lúc, giữ thể diện cho người khác. Tuy nhiên thế hệ 90后, 00后 đang đổi luật: các cụm từ như 边界感 (ý thức ranh giới), 整顿职场 (thế hệ 00后 “chấn chỉnh công sở”) phản ánh việc người trẻ dám từ chối việc ngoài phận sự, từ chối tiệc rượu, không trả lời tin nhắn ngoài giờ. Người Việt nên quan sát công ty mình thuộc “thế hệ” nào để điều chỉnh.",
+   "Ứng xử: Câu hỏi về lương, tuổi, hôn nhân, con cái rất phổ biến ở công sở Trung Quốc, đặc biệt từ người lớn tuổi; thường là tò mò, không phải ác ý. Đáp lại bằng đùa vui và đổi chủ đề.",
+   "Ứng xử: Tránh nói về sếp và đồng nghiệp trong nhóm chat; tin nhắn có thể bị chụp màn hình.",
+   "Ứng xử: Bị cướp công: nói riêng trước, công khai sau; lưu email, tài liệu chứng minh.",
+   "Ứng xử: Người nước ngoài có lợi thế “đứng ngoài phe phái”; không nên vội chọn phe trong 3 tháng đầu."
+  ]
+ }
+}

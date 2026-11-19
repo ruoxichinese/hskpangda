@@ -1,0 +1,624 @@
+{
+ "id": 9,
+ "level": "business",
+ "status": "ready",
+ "title": {
+  "zh": "产品介绍：从展会到直播间",
+  "pinyin": "chǎn pǐn jiè shào cóng zhǎn huì dào zhí bō jiān",
+  "vi": "giới thiệu sản phẩm theo khung “nỗi đau – giải pháp – bằng chứng”"
+ },
+ "grammarTopics_vi": [
+  "我们的优势有三点：第一……；第二……；第三……",
+  "比同类产品低/高……左右",
+  "确实，……，这一点我们承认。不过……",
+  "像……这样的……",
+  "如果您感兴趣，我可以……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Giới thiệu sản phẩm theo khung “nỗi đau – giải pháp – bằng chứng”",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o2",
+   "vi": "Trả lời câu hỏi so sánh với đối thủ",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Hiểu ngôn ngữ livestream bán hàng",
+   "doneWhen": [
+    "text-3"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "title": "展会上介绍越南咖啡",
+   "context_vi": "课文一 · 展会上介绍越南咖啡",
+   "scene": "🛍️",
+   "lines": [
+    {
+     "speaker": "bc-caigoushang",
+     "zh": "你们这个咖啡跟市面上其他的越南咖啡有什么区别？",
+     "vi": "Cà phê của các anh khác gì so với các loại cà phê Việt Nam khác trên thị trường?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "好问题！我先说一个很多餐饮客户的痛点：进口咖啡豆价格波动大，品质也不稳定。我们的优势有三点：第一，原料来自自有种植园，从源头控制品质；第二，已经通过了中国海关注册和有机认证；第三，支持定制包装，起订量只要500箱。",
+     "vi": "Câu hỏi hay ạ! Em xin nói trước một nỗi lo của rất nhiều khách hàng ngành F&B: giá hạt cà phê nhập khẩu biến động mạnh, chất lượng cũng không ổn định. Ưu thế của bọn em có ba điểm: một, nguyên liệu từ đồn điền của chính công ty, kiểm soát chất lượng từ gốc; hai, đã đăng ký với Hải quan Trung Quốc và có chứng nhận hữu cơ; ba, hỗ trợ bao bì theo yêu cầu, số lượng đặt tối thiểu chỉ 500 thùng."
+    },
+    {
+     "speaker": "bc-caigoushang",
+     "zh": "价格呢？",
+     "vi": "Giá thì sao?"
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+     "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "产品手册",
+     "pinyin": "chǎnpǐn shǒucè",
+     "vi": "catalogue sản phẩm",
+     "example": {
+      "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+      "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+     }
+    },
+    {
+     "zh": "痛点",
+     "pinyin": "tòngdiǎn",
+     "vi": "“nỗi đau” của khách hàng"
+    },
+    {
+     "zh": "卖点",
+     "pinyin": "màidiǎn",
+     "vi": "điểm bán hàng"
+    },
+    {
+     "zh": "优势",
+     "pinyin": "yōushì",
+     "vi": "ưu thế"
+    },
+    {
+     "zh": "源头",
+     "pinyin": "yuántóu",
+     "vi": "nguồn gốc, khâu đầu"
+    },
+    {
+     "zh": "品质",
+     "pinyin": "pǐnzhì",
+     "vi": "chất lượng"
+    },
+    {
+     "zh": "认证",
+     "pinyin": "rènzhèng",
+     "vi": "chứng nhận"
+    },
+    {
+     "zh": "定制",
+     "pinyin": "dìngzhì",
+     "vi": "đặt làm theo yêu cầu"
+    },
+    {
+     "zh": "起订量",
+     "pinyin": "qǐdìngliàng",
+     "vi": "số lượng đặt hàng tối thiểu (MOQ)"
+    },
+    {
+     "zh": "出厂价",
+     "pinyin": "chūchǎngjià",
+     "vi": "giá xuất xưởng",
+     "example": {
+      "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+      "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+     }
+    },
+    {
+     "zh": "性价比",
+     "pinyin": "xìngjiàbǐ",
+     "vi": "tỉ lệ giá/chất lượng",
+     "example": {
+      "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+      "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+     }
+    },
+    {
+     "zh": "同类产品",
+     "pinyin": "tónglèi chǎnpǐn",
+     "vi": "sản phẩm cùng loại",
+     "example": {
+      "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+      "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+     }
+    },
+    {
+     "zh": "竞品",
+     "pinyin": "jìngpǐn",
+     "vi": "sản phẩm đối thủ"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g9-1",
+     "title_zh": "我们的优势有三点：第一……；第二……；第三……",
+     "title_vi": "Liệt kê ưu thế",
+     "formula": [
+      [
+       {
+        "zh": "我们的优势有三点：第一",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第二",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "；第三",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Liệt kê ưu thế; ba ý là con số “vàng”.",
+     "examples": []
+    },
+    {
+     "id": "bc-g9-2",
+     "title_zh": "比同类产品低/高……左右",
+     "title_vi": "So sánh bằng số liệu",
+     "formula": [
+      [
+       {
+        "zh": "比同类产品低",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "/",
+        "label": "hoặc",
+        "role": "PART"
+       },
+       {
+        "zh": "高",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "左右",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "So sánh bằng số liệu.",
+     "examples": [
+      {
+       "zh": "出厂价比同类产品低8%左右。",
+       "vi": "Giá xuất xưởng thấp hơn sản phẩm cùng loại khoảng 8%."
+      },
+      {
+       "zh": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和产品手册，您可以先试一试。",
+       "vi": "Giá xuất xưởng mỗi kg thấp hơn sản phẩm cùng loại khoảng 8%, rất đáng đồng tiền. Đây là hàng mẫu và catalogue sản phẩm, anh có thể dùng thử trước."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "出厂价（　）8%左右。",
+       "options": [
+        "比同类产品低",
+        "增长了一倍",
+        "如果您感兴趣"
+       ],
+       "answer": 0,
+       "explain_vi": "出厂价比同类产品低8%左右。 — Giá xuất xưởng thấp hơn sản phẩm cùng loại khoảng 8%."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "应对竞品比较",
+   "context_vi": "课文二 · 应对竞品比较",
+   "scene": "🛍️",
+   "lines": [
+    {
+     "speaker": "bc-caigoushang",
+     "zh": "可是XX品牌更有名啊，很多人只认他们。",
+     "vi": "Nhưng thương hiệu XX nổi tiếng hơn mà, nhiều người chỉ tin họ thôi."
+    },
+    {
+     "speaker": "bc-xiaoruan",
+     "zh": "确实，他们的品牌知名度比我们高，这一点我们承认。不过我们更适合像贵司这样的连锁门店：交期稳定在15天以内，而且提供两年质保和一对一售后。去年我们在广州的一个客户，换成我们以后，采购成本降了12%。如果您感兴趣，我可以把案例资料发给您。",
+     "vi": "Đúng vậy, độ nhận diện thương hiệu của họ cao hơn bọn em, điểm này bọn em thừa nhận. Tuy nhiên bọn em phù hợp hơn với chuỗi cửa hàng như quý công ty: thời gian giao hàng ổn định dưới 15 ngày, lại có bảo hành hai năm và hậu mãi một kèm một. Năm ngoái một khách hàng của bọn em ở Quảng Châu, sau khi chuyển sang dùng sản phẩm bên em, chi phí thu mua giảm 12%. Nếu anh quan tâm, em có thể gửi anh tài liệu về trường hợp này."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "知名度",
+     "pinyin": "zhīmíngdù",
+     "vi": "mức độ nổi tiếng"
+    },
+    {
+     "zh": "连锁门店",
+     "pinyin": "liánsuǒ méndiàn",
+     "vi": "chuỗi cửa hàng"
+    },
+    {
+     "zh": "质保",
+     "pinyin": "zhìbǎo",
+     "vi": "bảo hành chất lượng"
+    },
+    {
+     "zh": "售后",
+     "pinyin": "shòuhòu",
+     "vi": "hậu mãi"
+    },
+    {
+     "zh": "案例",
+     "pinyin": "ànlì",
+     "vi": "trường hợp điển hình, case study"
+    },
+    {
+     "zh": "采购成本",
+     "pinyin": "cǎigòu chéngběn",
+     "vi": "chi phí mua hàng"
+    },
+    {
+     "zh": "直播带货",
+     "pinyin": "zhíbō dàihuò",
+     "vi": "livestream bán hàng"
+    },
+    {
+     "zh": "主播",
+     "pinyin": "zhǔbō",
+     "vi": "người dẫn livestream"
+    }
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "直播间话术（节选）",
+   "context_vi": "课文三 · 直播间话术（节选）",
+   "scene": "🛍️",
+   "lines": [
+    {
+     "speaker": "bc-zhubo",
+     "zh": "家人们，今天给大家带来的是越南原产的滴漏咖啡！不加糖、不加奶精，早上一杯提神又不苦。今晚直播间专属价，买两盒送一个滴漏壶，限量500单，链接已经上架了，喜欢的赶紧下单！",
+     "vi": "Cả nhà ơi, hôm nay mang đến cho mọi người cà phê phin xuất xứ Việt Nam! Không đường, không bột kem, sáng một ly vừa tỉnh táo lại không đắng. Tối nay giá độc quyền trong phòng live, mua hai hộp tặng một phin pha, giới hạn 500 đơn, link đã lên kệ, ai thích thì chốt đơn nhanh nhé!"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "家人们",
+     "pinyin": "jiārénmen",
+     "vi": "“cả nhà ơi” (gọi người xem)"
+    },
+    {
+     "zh": "专属价",
+     "pinyin": "zhuānshǔjià",
+     "vi": "giá dành riêng"
+    },
+    {
+     "zh": "限量",
+     "pinyin": "xiànliàng",
+     "vi": "số lượng có hạn"
+    },
+    {
+     "zh": "上架",
+     "pinyin": "shàngjià",
+     "vi": "đưa hàng lên kệ/sàn"
+    },
+    {
+     "zh": "下单",
+     "pinyin": "xiàdān",
+     "vi": "đặt hàng"
+    },
+    {
+     "zh": "种草",
+     "pinyin": "zhòngcǎo",
+     "vi": "“gieo hạt” (khiến người khác muốn mua)"
+    },
+    {
+     "zh": "极限词",
+     "pinyin": "jíxiàncí",
+     "vi": "từ ngữ tuyệt đối (bị cấm trong quảng cáo)"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "bc-g9-3",
+     "title_zh": "确实，……，这一点我们承认。不过……",
+     "title_vi": "Thừa nhận điểm yếu rồi chuyển hướng",
+     "formula": [
+      [
+       {
+        "zh": "确实，",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "，这一点我们承认。不过",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Thừa nhận điểm yếu rồi chuyển hướng; tạo cảm giác trung thực.",
+     "examples": []
+    },
+    {
+     "id": "bc-g9-4",
+     "title_zh": "像……这样的……",
+     "title_vi": "Cá nhân hoá lời chào hàng",
+     "formula": [
+      [
+       {
+        "zh": "像",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       },
+       {
+        "zh": "这样的",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Cá nhân hoá lời chào hàng.",
+     "examples": [
+      {
+       "zh": "更适合像贵司这样的连锁门店。",
+       "vi": "Phù hợp hơn với chuỗi cửa hàng như quý công ty."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "更适合像贵司（　）连锁门店。",
+       "options": [
+        "翻一番",
+        "这样的",
+        "我可以"
+       ],
+       "answer": 1,
+       "explain_vi": "更适合像贵司这样的连锁门店。 — Phù hợp hơn với chuỗi cửa hàng như quý công ty."
+      }
+     ]
+    },
+    {
+     "id": "bc-g9-5",
+     "title_zh": "如果您感兴趣，我可以……",
+     "title_vi": "Kết thúc bằng hành động tiếp theo cụ thể",
+     "formula": [
+      [
+       {
+        "zh": "如果您感兴趣，我可以",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "…",
+        "label": "",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Kết thúc bằng hành động tiếp theo cụ thể.",
+     "examples": []
+    },
+    {
+     "id": "bc-c9-1",
+     "title_zh": "虽然……，但（是）……",
+     "title_vi": "Văn viết công sở · Nhượng bộ",
+     "formula": [
+      [
+       {
+        "zh": "虽然……，但（是）……",
+        "label": "",
+        "role": "ADV"
+       }
+      ]
+     ],
+     "explain_vi": "Phổ biến nhất. (Phụ lục C1 · ngữ pháp văn viết công sở)",
+     "examples": [
+      {
+       "zh": "虽然价格偏高，但质量稳定。",
+       "vi": "Tuy giá hơi cao nhưng chất lượng ổn định."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Chọn phần thích hợp điền vào chỗ trống.",
+       "prompt_zh": "（　）价格偏高，但质量稳定。",
+       "options": [
+        "达到",
+        "虽然",
+        "超过"
+       ],
+       "answer": 1,
+       "explain_vi": "虽然价格偏高，但质量稳定。 — Tuy giá hơi cao nhưng chất lượng ổn định."
+      }
+     ]
+    }
+   ],
+   "passage": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "出厂价每公斤比同类产品低8%左右，性价比很高。这是样品和___，您可以先试一试。",
+   "bank": [
+    "产品手册",
+    "源头",
+    "品质"
+   ],
+   "answer": "产品手册"
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "___，今天给大家带来的是越南原产的滴漏咖啡！不加糖、不加奶精，早上一杯提神又不苦。今晚直播间专属价，买两盒送一个滴漏壶，限量500单，链接已经上架了，喜欢的赶紧下单！",
+   "bank": [
+    "主播",
+    "家人们",
+    "卖点"
+   ],
+   "answer": "家人们"
+  },
+  {
+   "id": "e3",
+   "kind": "reorder",
+   "tiles": [
+    "客户的",
+    "痛点",
+    "餐饮",
+    "一个很多",
+    "我先说"
+   ],
+   "answers": [
+    "我先说一个很多餐饮客户的痛点"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e4",
+   "kind": "reorder",
+   "tiles": [
+    "咖啡豆",
+    "大",
+    "价格",
+    "进口",
+    "波动"
+   ],
+   "answers": [
+    "进口咖啡豆价格波动大"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e5",
+   "kind": "reorder",
+   "tiles": [
+    "不",
+    "也",
+    "品质",
+    "稳定"
+   ],
+   "answers": [
+    "品质也不稳定"
+   ],
+   "vi": ""
+  },
+  {
+   "id": "e6",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "产品手册",
+     "a": "catalogue sản phẩm"
+    },
+    {
+     "q": "痛点",
+     "a": "“nỗi đau” của khách hàng"
+    },
+    {
+     "q": "卖点",
+     "a": "điểm bán hàng"
+    },
+    {
+     "q": "优势",
+     "a": "ưu thế"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Minigame trên lớp",
+  "steps_vi": [
+   "① Pitch 2 phút: mỗi học viên chọn một sản phẩm Việt Nam (sầu riêng, cà phê, nội thất gỗ, dệt may…) và chào hàng cho “nhà phân phối Trung Quốc” theo khung 痛点 → 优势 → 证据 → 下一步. Ban giám khảo đặt 2 câu hỏi khó.",
+   "② Livestream 60 giây: đội dựng “phòng live” bằng điện thoại, một người làm 主播, một người làm 助播, cả lớp là người xem nhắn bình luận. Chấm: năng lượng, đúng từ vựng, không dùng 极限词.",
+   "③ Đối thủ ngồi cùng bàn: hai đội bán hai sản phẩm cạnh tranh cho cùng một khách; khách chọn đội thuyết phục hơn, không được nói xấu đối thủ."
+  ],
+  "patterns": [
+   {
+    "zh": "出厂价比同类产品低8%左右。",
+    "vi": "Giá xuất xưởng thấp hơn sản phẩm cùng loại khoảng 8%."
+   },
+   {
+    "zh": "更适合像贵司这样的连锁门店。",
+    "vi": "Phù hợp hơn với chuỗi cửa hàng như quý công ty."
+   },
+   {
+    "zh": "虽然价格偏高，但质量稳定。",
+    "vi": "Tuy giá hơi cao nhưng chất lượng ổn định."
+   }
+  ]
+ },
+ "culture": {
+  "title_vi": "Livestream bán hàng (直播带货)",
+  "body_vi": [
+   "Livestream đã trở thành kênh bán hàng chủ lực ở Trung Quốc trên Douyin, Taobao Live, Kuaishou, Xiaohongshu. Ngôn ngữ livestream có phong cách riêng: gọi người xem là 家人们 hoặc 宝宝们, nhấn mạnh sự khan hiếm (限量, 秒杀, 最后三单), đếm ngược, tạo cảm giác “chỉ có tối nay”. Nhiều doanh nghiệp Việt Nam (trái cây, cà phê, hạt điều) đã bán vào Trung Quốc qua chủ kênh livestream. Người học nên nắm lớp từ này để làm việc với đội livestream, đọc báo cáo bán hàng (GMV, 转化率, 客单价), đồng thời biết rằng ngành này bị giám sát chặt về quảng cáo sai sự thật.",
+   "Ứng xử: Trả lời câu hỏi so sánh không nói xấu đối thủ; nêu khác biệt bằng dữ liệu và case thật.",
+   "Ứng xử: Mang theo hàng mẫu, catalogue tiếng Trung giản thể, và bảng giá có ghi rõ điều kiện (FOB/CIF, MOQ, thời hạn hiệu lực).",
+   "Ứng xử: Khi chưa biết câu trả lời: 这个问题我需要跟技术部确认一下，今天下班前回复您. Không đoán mò thông số.",
+   "Ứng xử: Quảng cáo nhắm vào thị trường Trung Quốc cần tránh các từ tuyệt đối như 最好, 第一, 国家级 (Luật Quảng cáo Trung Quốc cấm những từ ngữ này)."
+  ]
+ }
+}
