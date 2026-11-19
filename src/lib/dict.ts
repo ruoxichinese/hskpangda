@@ -1,4 +1,4 @@
-import { getGlossary, getLevelVocab, getWordlist, levels } from './data';
+import { getGlossary, getIndexVocab, getWordlist, levels, onDataLoaded } from './data';
 
 /** Mục từ điển dùng để tự sinh pinyin và phát hiện từ chưa học */
 export interface DictEntry {
@@ -17,6 +17,8 @@ export interface Segment {
 }
 
 const cache: Record<string, Map<string, DictEntry>> = {};
+// dữ liệu tải theo nhu cầu: có dữ liệu mới thì dựng lại từ điển
+onDataLoaded(() => { for (const k of Object.keys(cache)) delete cache[k]; });
 
 /**
  * Từ điển của một cấp, theo thứ tự ưu tiên tăng dần:
@@ -36,7 +38,7 @@ export function getDict(levelId: string): Map<string, DictEntry> {
   for (const w of getWordlist(levelId)) m.set(w.zh, { zh: w.zh, pinyin: w.pinyin, vi: w.vi, lesson: 0 });
   for (const g of getGlossary(levelId)) m.set(g.zh, { zh: g.zh, pinyin: g.pinyin, vi: g.vi, lesson: 0, known: g.known });
   const own = new Map<string, DictEntry>();
-  for (const v of getLevelVocab(levelId)) {
+  for (const v of getIndexVocab(levelId)) {
     if (v.noDict) continue;
     const prev = own.get(v.zh);
     if (!prev || prev.lesson > v.lesson) own.set(v.zh, { zh: v.zh, pinyin: v.pinyin.split('/')[0], vi: v.vi, lesson: v.lesson });

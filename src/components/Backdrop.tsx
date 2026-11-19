@@ -1,4 +1,4 @@
-import { getLessons, levels } from '../lib/data';
+import { levels } from '../lib/data';
 import { useProgress } from '../store/ProgressStore';
 import { useTheme } from '../theme/ThemeProvider';
 import { SCENES, SceneArt } from './scenes';
@@ -12,7 +12,7 @@ const H = 520;
 export function useScenes() {
   const { level, settings } = useProgress();
   const list = levels.map((lv, i) => {
-    const started = (id: string) => getLessons(id).some((l) => level(id).lessons[l.id]?.completed);
+    const started = (id: string) => Object.values(level(id).lessons).some((l) => l?.completed);
     const unlocked = i === 0 || levels.slice(i).some((x) => started(x.id));
     return { level: lv, ...lv.scene, unlocked };
   });

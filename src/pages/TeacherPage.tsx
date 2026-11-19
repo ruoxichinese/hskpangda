@@ -1,3 +1,5 @@
+import { LevelLoading } from '../components/LevelLoading';
+import { useLevelData } from '../lib/useLevelData';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PandaMascot } from '../components/panda/PandaMascot';
@@ -9,7 +11,7 @@ import { cls } from '../lib/util';
 import { useCloud } from '../store/CloudSync';
 import { ExamWindows } from '../components/ExamWindows';
 
-interface ClassRow { id: string; name: string; code: string; created_at: string }
+interface ClassRow { id: string; name: string; code: string; created_at: string; courses?: string[] | null }
 interface StudentRow { id: string; name: string; email: string; joined: string; summary: Summary | null; updated: string | null }
 
 function ago(iso: string | null) {
@@ -29,14 +31,24 @@ export default function TeacherPage() {
   const [active, setActive] = useState<string | null>(null);
   const [students, setStudents] = useState<StudentRow[]>([]);
   const [levelId, setLevelId] = useState(levels.find((l) => l.available)!.id);
+  const dataReady = useLevelData(levels.filter((l) => l.available).map((l) => l.id));
   const [newName, setNewName] = useState('');
   const [open, setOpen] = useState<StudentRow | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
   const [confirmDel, setConfirmDel] = useState(false);
+  const [needsSql, setNeedsSql] = useState(false);
+  const [courseDraft, setCourseDraft] = useState<string[] | null>(null);
+  const [courseMsg, setCourseMsg] = useState<string | null>(null);
 
   const loadClasses = useCallback(async () => {
     if (!supabase || !cloud.session) return;
-    const { data } = await supabase.from('classes').select('id, name, code, created_at').eq('teacher_id', cloud.session.user.id).order('created_at');
+    // có cột courses (đã chạy SQL cấp quyền theo khoá) thì đọc kèm; chưa có thì đọc như cũ
+    const uid = cloud.session.user.id;
+    const withCourses = await supabase.from('classes').select('id, name, code, created_at, courses').eq('teacher_id', uid).order('created_at');
+    setNeedsSql(!!withCourses.error);
+    const data = withCourses.error
+      ? (await supabase.from('classes').select('id, name, code, created_at').eq('teacher_id', uid).order('created_at')).data
+      : withCourses.data;
     const rows = (data as ClassRow[]) ?? [];
     setClasses(rows);
     setActive((a) => a ?? rows[0]?.id ?? null);
@@ -65,6 +77,14 @@ export default function TeacherPage() {
   const lessons = getLessons(levelId);
   const hwLessons = lessons.filter((l) => isReady(getHomework(levelId, l.id)));
   const activeClass = classes.find((c) => c.id === active);
+  useEffect(() => { setCourseDraft(activeClass?.courses ?? null); setCourseMsg(null); }, [activeClass?.id, activeClass?.courses]);
+  const saveCourses = async () => {
+    if (!supabase || !activeClass) return;
+    const { error } = await supabase.from('classes').update({ courses: courseDraft }).eq('id', activeClass.id);
+    if (error) { setCourseMsg(null); setMsg(friendlyError(error)); return; }
+    setCourseMsg(courseDraft === null ? '✓ Đã lưu: lớp được học tất cả các khoá' : `✓ Đã lưu: ${courseDraft.length} khoá`);
+    await loadClasses();
+  };
 
   const stats = useMemo(() => {
     const done = students.map((s) => s.summary?.levels?.[levelId]?.completed.length ?? 0);
@@ -116,6 +136,7 @@ export default function TeacherPage() {
     URL.revokeObjectURL(a.href);
   };
 
+  if (!dataReady) return <LevelLoading />;
   return (
     <div className="space-y-5">
       <h1 className="text-3xl font-extrabold">👩‍🏫 Trang giáo viên</h1>
@@ -149,6 +170,40 @@ export default function TeacherPage() {
               <span><b>{stats.active7}</b> học trong 7 ngày qua</span>
               <span>TB <b>{stats.avgDone}</b> bài đã học</span>
             </div>
+          </section>
+
+          <section className="card space-y-3" aria-labelledby="course-access">
+            <h3 id="course-access" className="text-lg font-extrabold">📚 Khoá học được mở cho lớp</h3>
+            {needsSql ? (
+              <p className="text-sm">
+                Để cấp quyền học theo khoá, cần chạy file <code className="rounded bg-bg px-1">supabase/migrations/2026-11-khoa-hoc-cho-lop.sql</code> trên
+                Supabase một lần (SQL Editor → New query → dán → Run). Hiện tại học sinh của lớp được học tất cả các khoá.
+              </p>
+            ) : (
+              <>
+                <p className="text-sm text-muted">Học sinh chỉ thấy và vào được các khoá được chọn. Học sinh ở nhiều lớp được học tổng các khoá của các lớp đó.</p>
+                <label className="flex items-center gap-2 font-semibold">
+                  <input type="checkbox" className="h-5 w-5" checked={courseDraft === null}
+                    onChange={(e) => setCourseDraft(e.target.checked ? null : [])} />
+                  Tất cả các khoá
+                </label>
+                <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                  {levels.filter((l) => l.available).map((l) => (
+                    <label key={l.id} className={cls('flex items-center gap-2 rounded-xl border-2 border-line p-2', courseDraft === null && 'opacity-50')}>
+                      <input type="checkbox" className="h-5 w-5" disabled={courseDraft === null}
+                        checked={courseDraft === null || courseDraft.includes(l.id)}
+                        onChange={(e) => setCourseDraft((d) => (e.target.checked ? [...(d ?? []), l.id] : (d ?? []).filter((x) => x !== l.id)))} />
+                      <span className="inline-block h-3 w-3 rounded-full" style={{ background: l.badgeColor }} aria-hidden /> {l.name}
+                    </label>
+                  ))}
+                </div>
+                <div className="flex flex-wrap items-center gap-3">
+                  <button className="btn-primary" disabled={courseDraft !== null && courseDraft.length === 0} onClick={saveCourses}>💾 Lưu khoá học</button>
+                  {courseDraft !== null && courseDraft.length === 0 && <span className="text-sm text-bad">Chọn ít nhất một khoá.</span>}
+                  {courseMsg && <span role="status" className="text-sm font-semibold text-good">{courseMsg}</span>}
+                </div>
+              </>
+            )}
           </section>
 
           <section className="card space-y-3">
@@ -224,6 +279,19 @@ export default function TeacherPage() {
                   </tbody>
                 </table>
               </div>
+              {Object.keys(open.summary?.levels?.[levelId]?.writings ?? {}).length > 0 && (
+                <div className="mt-4">
+                  <p className="label mb-2">✍️ Bài viết đã nộp</p>
+                  <div className="space-y-3">
+                    {Object.entries(open.summary!.levels[levelId].writings!).sort((a, b) => Number(a[0]) - Number(b[0])).map(([lid, w]) => (
+                      <details key={lid} className="rounded-2xl border-2 border-line p-3">
+                        <summary className="cursor-pointer"><b>Bài {lid}</b> · {w.prompt} <span className="text-sm text-muted">· {w.chars} chữ · {new Date(w.at).toLocaleString('vi-VN')}</span></summary>
+                        <p className="han mt-2 whitespace-pre-line text-lg leading-relaxed" lang="zh-CN">{w.text}</p>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+              )}
               {(open.summary?.levels?.[levelId]?.wrongTop?.length ?? 0) > 0 && (
                 <div>
                   <p className="font-bold">Từ hay sai</p>

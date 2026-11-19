@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { examImage, getExams, levels } from './data';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 describe('Đề thi thử', () => {
   const exams = levels.flatMap((l) => getExams(l.id));

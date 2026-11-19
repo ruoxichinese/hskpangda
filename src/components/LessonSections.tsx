@@ -285,6 +285,16 @@ export function CulturePanel({ data }: { data: NonNullable<Lesson['culture']> })
         </div>
       </div>
       <div className="card space-y-3 leading-relaxed">{data.body_vi.map((p) => <p key={p}>{p}</p>)}</div>
+      {data.figures && data.figures.length > 0 && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {data.figures.map((f) => (
+            <figure key={f.src} className="card !p-3">
+              <img src={`${import.meta.env.BASE_URL}${f.src}`} alt={`${f.title_vi}. ${f.caption_vi}`} loading="lazy" className="w-full rounded-2xl" />
+              <figcaption className="mt-2 px-1 text-sm"><b>{f.title_vi}.</b> <span className="text-muted">{f.caption_vi}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
       {data.table && (
         <div className="card overflow-x-auto">
           <table className="w-full text-left">

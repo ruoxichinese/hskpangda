@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { getHomework } from './data';
 import { flatten, gradeQuestion, hasHwStreak, isAnswered, makeOrder, scoreOf, starsFor } from './homework';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 const hw = getHomework('hsk1', 2)!;
 const qs = flatten(hw);

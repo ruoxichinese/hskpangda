@@ -22,6 +22,8 @@ export interface LevelProg {
   games: Record<string, number>; // "<lessonId>:<game>" → best
   review: Record<number, ReviewProg>;
   exams?: Record<string, ExamProg>;
+  /** bài viết đã nộp (bài mới nhất của mỗi bài học) */
+  writings?: Record<number, { qid: string; prompt: string; text: string; chars: number; at: number }>;
 }
 export interface GlobalProg { xp: number; badges: string[]; streak: { count: number; last: string | null }; lastLevel: string; lastVisit: string | null }
 export interface Settings { pinyin: 'level' | PinyinMode; translation: 'level' | TranslationMode; speed: number | null; scene: 'auto' | string }

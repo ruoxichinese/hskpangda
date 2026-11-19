@@ -131,7 +131,7 @@ export interface Lesson {
   exercises: ExerciseItem[];
   activity?: { title_vi: string; steps_vi: string[]; patterns: { zh: string; vi: string }[] };
   tongueTwister?: { zh: string; vi: string; audio?: string };
-  culture?: { title_vi: string; body_vi: string[]; table?: { head: string[]; rows: string[][] }; nameMap?: Record<string, [string, string]> };
+  culture?: { title_vi: string; body_vi: string[]; table?: { head: string[]; rows: string[][] }; nameMap?: Record<string, [string, string]>; figures?: { src: string; title_vi: string; caption_vi: string }[] };
 }
 
 // ===== Bài tập về nhà =====
@@ -155,6 +155,17 @@ export type HwQuestion = { num?: string } & (
       wordBank?: string[];
       explain_vi: string;
       grammarRef?: string;
+    }
+  | {
+      /** bài viết tự do (email, đơn, báo cáo): chấm theo độ dài + từ văn phong; giáo viên đọc bài trên trang giáo viên */
+      id: string;
+      kind: 'essay';
+      prompt_vi: string;
+      requirements_vi: string[];
+      minChars: number;
+      keywords: string[];
+      model: string;
+      explain_vi: string;
     });
 
 export interface HwPassage { zh: string; vi?: string; title_vi?: string }
@@ -189,12 +200,14 @@ export interface Character {
   zh: string;
   pinyin: string;
   vi_name: string;
-  setting: 'ai' | 'overseas' | 'china' | 'group' | 'giaotiep';
+  setting: 'ai' | 'overseas' | 'china' | 'group' | 'giaotiep' | 'business';
   desc_vi: string;
   color: string;
   levelNotes?: Record<string, string>; // diễn biến nhân vật ở từng cấp
   /** tên bộ ảnh trong public/img/nv: <img>_avatar|smile|happy|surprised.svg */
   img?: string;
+  /** một ảnh chân dung duy nhất (đường dẫn trong public), dùng cho mọi biểu cảm */
+  imgFile?: string;
 }
 export type Mood = 'avatar' | 'smile' | 'happy' | 'surprised';
 

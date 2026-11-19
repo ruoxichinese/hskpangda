@@ -137,10 +137,10 @@ export function moodOf(zh: string): Mood {
 
 export function Avatar({ id, size = 44, mood = 'avatar' }: { id: string; size?: number; mood?: Mood }) {
   const c = getCharacter(id);
-  if (c?.img) {
+  if (c?.img || c?.imgFile) {
     return (
       <img
-        src={`${import.meta.env.BASE_URL}img/nv/${c.img}_${mood}.svg`}
+        src={c.imgFile ? `${import.meta.env.BASE_URL}${c.imgFile}` : `${import.meta.env.BASE_URL}img/nv/${c.img}_${mood}.svg`}
         alt=""
         width={size}
         height={size}
@@ -151,7 +151,7 @@ export function Avatar({ id, size = 44, mood = 'avatar' }: { id: string; size?: 
       />
     );
   }
-  const label = c ? (c.id === 'students' ? '👥' : c.id === 'xiaoyu' ? 'AI' : c.id === 'gt-guangbo' ? '📢' : [...c.zh].slice(-1)[0]) : '?';
+  const label = c ? (c.id === 'students' ? '👥' : c.id === 'xiaoyu' ? 'AI' : c.id === 'gt-guangbo' ? '📢' : c.id === 'bc-wenben' ? '📄' : c.id === 'bc-zhongren' ? '👥' : [...c.zh].slice(-1)[0]) : '?';
   return (
     <span
       className="han inline-flex shrink-0 items-center justify-center rounded-full font-bold text-white"

@@ -1,3 +1,4 @@
+import { mergeCourses } from '../lib/courseAccess';
 import type { Session } from '@supabase/supabase-js';
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { cloudConfigured, fetchAuthProviders, friendlyError, redirectUrl, supabase } from '../lib/cloud';
@@ -18,6 +19,8 @@ interface CloudCtx {
   authReady: boolean;
   /** quyền vào học: giáo viên, hoặc đang ở trong ít nhất một lớp */
   access: 'checking' | 'granted' | 'denied';
+  /** khoá học sinh được học (gộp các lớp); null = tất cả (giáo viên, lớp không giới hạn, chưa cấu hình) */
+  allowedLevels: string[] | null;
   refreshAccess(): Promise<void>;
   status: SyncStatus;
   lastSynced: Date | null;
@@ -42,6 +45,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const [isTeacher, setIsTeacher] = useState(false);
   const [authReady, setAuthReady] = useState(!cloudConfigured);
   const [access, setAccess] = useState<'checking' | 'granted' | 'denied'>('checking');
+  const [allowedLevels, setAllowedLevels] = useState<string[] | null>(null);
   const [status, setStatus] = useState<SyncStatus>(cloudConfigured ? 'signed-out' : 'off');
   const [lastSynced, setLastSynced] = useState<Date | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -94,10 +98,24 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const refreshAccess = useCallback(async () => {
     if (!supabase || !uid) { setAccess('denied'); return; }
     const key = `pangda.access.${uid}`;
-    const [t, m] = await Promise.all([
+    const [t, m, c] = await Promise.all([
       supabase.from('teachers').select('user_id').eq('user_id', uid).maybeSingle(),
       supabase.from('class_members').select('class_id', { count: 'exact', head: true }).eq('student_id', uid),
+      supabase.from('class_members').select('classes(courses)').eq('student_id', uid),
     ]);
+    // khoá được học: giáo viên → tất cả; lớp nào để trống → tất cả; còn lại gộp các lớp. Lỗi (chưa chạy SQL thêm cột) → tất cả
+    const ckey = `pangda.courses.${uid}`;
+    if (!t.error && !m.error) {
+      let allowed: string[] | null = null;
+      if (!t.data && !c.error) {
+        const lists = ((c.data ?? []) as unknown as { classes: { courses: string[] | null } | null }[]).map((r) => r.classes?.courses ?? null);
+        allowed = mergeCourses(false, lists);
+      }
+      setAllowedLevels(allowed);
+      try { localStorage.setItem(ckey, JSON.stringify(allowed)); } catch { /* */ }
+    } else {
+      try { setAllowedLevels(JSON.parse(localStorage.getItem(ckey) || 'null')); } catch { setAllowedLevels(null); }
+    }
     if (t.error || m.error) {
       let cached = 0;
       try { cached = Number(localStorage.getItem(key) || 0); } catch { /* */ }
@@ -147,7 +165,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
   const value = useMemo<CloudCtx>(() => ({
     configured: cloudConfigured,
     googleEnabled,
-    session, profile, isTeacher, authReady, access, refreshAccess, status, lastSynced, error,
+    session, profile, isTeacher, authReady, access, allowedLevels, refreshAccess, status, lastSynced, error,
     async signInGoogle() {
       if (!supabase) return;
       const { error: e } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirectUrl() } });
@@ -180,7 +198,7 @@ export function CloudProvider({ children }: { children: ReactNode }) {
       ready.current = false;
       await supabase.from('progress').update({ data: {}, summary: {}, updated_at: new Date().toISOString() }).eq('user_id', uid);
     },
-  }), [session, profile, isTeacher, authReady, access, refreshAccess, status, lastSynced, error, googleEnabled, pullAndMerge, push, getSnapshot, uid]);
+  }), [session, profile, isTeacher, authReady, access, allowedLevels, refreshAccess, status, lastSynced, error, googleEnabled, pullAndMerge, push, getSnapshot, uid]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

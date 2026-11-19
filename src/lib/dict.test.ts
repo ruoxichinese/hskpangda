@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { getDict, segment, splitSyllables, stripTones, toneOf } from './dict';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 describe('splitSyllables', () => {
   it('tách đúng âm tiết', () => {

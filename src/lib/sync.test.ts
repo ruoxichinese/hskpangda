@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { buildSummary, mergeSnapshots, type Snapshot } from './sync';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 const base = (): Snapshot => ({
   version: 1,

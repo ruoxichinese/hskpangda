@@ -4,6 +4,7 @@ import { PandaMascot } from '../components/panda/PandaMascot';
 import { ReadingQuestion } from '../components/questions/ReadingQuestion';
 import { ReorderQuestion } from '../components/questions/ReorderQuestion';
 import { TranslateQuestion, type TranslateValue } from '../components/questions/TranslateQuestion';
+import { EssayQuestion, EssayReview } from '../components/questions/EssayQuestion';
 import { Confetti, ProgressBar, Stars } from '../components/ui';
 import { ZhText } from '../components/ZhText';
 import { ClipButton, ImageBank, WordTable, WriteQuestion } from '../components/questions/HwExtras';
@@ -26,6 +27,7 @@ function correctText(q: HwQuestion): string {
     case 'translate': return q.acceptedAnswers[0];
     case 'charFill': return q.answer;
     case 'sentence': return q.sample;
+    case 'essay': return 'xem bài mẫu bên dưới';
   }
 }
 
@@ -122,6 +124,10 @@ export default function HomeworkPage() {
       h.history = [...(h.history ?? []), score].slice(-20);
       h.last = { score, results, answers: draft.answers, order: draft.order, at: Date.now() };
       delete h.draft;
+      for (const { q } of items) if (q.kind === 'essay' && String(draft.answers[q.id] ?? '').trim()) {
+        const text = String(draft.answers[q.id]);
+        (p.writings ??= {})[lessonId] = { qid: q.id, prompt: q.prompt_vi, text, chars: (text.match(/[\u4e00-\u9fff]/g) ?? []).length, at: Date.now() };
+      }
       for (const w of wrongWords) p.wrong[w] = (p.wrong[w] ?? 0) + 1;
       bestMap = Object.fromEntries(Object.entries(p.homework).map(([k, v]) => [Number(k), v.best]));
     });
@@ -233,10 +239,11 @@ export default function HomeworkPage() {
                   </span>
                   <div className="min-w-0 flex-1">
                     <p className="font-semibold">
-                      Câu {label}. {q.kind === 'translate' ? q.prompt_vi : q.kind === 'mcq' ? (q.prompt_zh ?? q.prompt_vi) : q.kind === 'truefalse' ? q.statement_zh : q.kind === 'reorder' ? q.vi : q.kind === 'match' ? 'Nối câu' : q.kind === 'charFill' ? `${q.text.replace('___', `（${q.pinyin}）`)}` : q.kind === 'sentence' ? `Đặt câu với “${q.word}”` : 'Điền từ'}
+                      Câu {label}. {q.kind === 'translate' ? q.prompt_vi : q.kind === 'mcq' ? (q.prompt_zh ?? q.prompt_vi) : q.kind === 'truefalse' ? q.statement_zh : q.kind === 'reorder' ? q.vi : q.kind === 'match' ? 'Nối câu' : q.kind === 'charFill' ? `${q.text.replace('___', `（${q.pinyin}）`)}` : q.kind === 'sentence' ? `Đặt câu với “${q.word}”` : q.kind === 'essay' ? q.prompt_vi : 'Điền từ'}
                       <span className="sr-only">{ok ? ' – đúng' : ' – chưa đúng'}</span>
                     </p>
-                    {!ok && (
+                    {q.kind === 'essay' && <EssayReview q={q} text={String(last.answers[q.id] ?? '')} />}
+                    {!ok && q.kind !== 'essay' && (
                       <div className="mt-2 space-y-2 text-sm">
                         {(q.kind === 'mcq' || q.kind === 'truefalse') && (
                           <p>Bạn trả lời: <span className="han text-base">{last.answers[q.id] === undefined ? '(bỏ trống)' : q.kind === 'mcq' ? q.options[last.answers[q.id] as number] : last.answers[q.id] ? 'Đúng' : 'Sai'}</span></p>
@@ -290,6 +297,8 @@ export default function HomeworkPage() {
         <ReorderQuestion tiles={order.map((i) => q.tiles[i])} value={(draft.answers[q.id] as number[]) ?? []} onChange={(v) => setAnswer(q.id, v)} levelId={levelId} pinyin={pinyinFor} />
       </div>
     );
+  } else if (q.kind === 'essay') {
+    qBody = <EssayQuestion q={q} value={draft.answers[q.id] as string | undefined} onChange={(v) => setAnswer(q.id, v)} />;
   } else if (q.kind === 'translate') {
     qBody = (
       <TranslateQuestion
@@ -423,6 +432,7 @@ function PrintSheet({ items, levelId, title, noPinyin = false }: { items: FlatQ[
                 {q.kind === 'cloze' && (<><p>{label}. Từ: <span className="han">{q.bank.join('　')}</span></p><p className="han whitespace-pre-line">{q.text.replace(/\{\{(\d+)\}\}/g, '($1)______')}</p></>)}
                 {q.kind === 'reorder' && (<><p>{label}. {q.vi} — <span className="han">{q.tiles.join(' / ')}</span></p><div className="write-line" /></>)}
                 {q.kind === 'translate' && (<><p>{label}. {q.prompt_vi}</p><div className="write-line" /><div className="write-line" /></>)}
+                {q.kind === 'essay' && (<><p>{label}. {q.prompt_vi}</p><ul className="ml-4 list-disc text-sm">{q.requirements_vi.map((r) => <li key={r}>{r}</li>)}</ul>{Array.from({ length: 10 }, (_, i) => <div key={i} className="write-line" />)}</>)}
                 {q.kind === 'charFill' && <p className="han">{label}. {q.text.replace('___', `（${q.pinyin}）______`)}</p>}
                 {q.kind === 'sentence' && (<><p>{label}. Nhìn tranh, đặt câu với từ <span className="han">{q.word}</span></p><div className="write-line" /></>)}
               </div>

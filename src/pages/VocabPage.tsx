@@ -1,3 +1,6 @@
+import { useStudyLevels } from '../lib/courseAccess';
+import { LevelLoading } from '../components/LevelLoading';
+import { useLevelData } from '../lib/useLevelData';
 import { levelHasVoice, VoiceContext } from '../lib/voice';
 import { setTtsEnabled } from '../lib/audio';
 import { useMemo, useState } from 'react';
@@ -12,7 +15,8 @@ import type { VocabItem } from '../types';
 type Tab = 'list' | 'cards' | 'wrong' | 'build' | 'market' | 'speed';
 
 export default function VocabPage() {
-  const avail = levels.filter((l) => l.available);
+  const studyLevels = useStudyLevels();
+  const avail = studyLevels.length ? studyLevels : levels.filter((l) => l.available);
   const [levelId, setLevelId] = useState(avail[0].id);
   const [lesson, setLesson] = useState<number | 'all'>('all');
   const [pos, setPos] = useState('all');
@@ -22,7 +26,8 @@ export default function VocabPage() {
   const { level, toggleKnown } = useProgress();
   const { speed } = useLevelPrefs(levelId);
   const prog = level(levelId);
-  const all = useMemo(() => getLevelVocab(levelId), [levelId]);
+  const dataReady = useLevelData([levelId]);
+  const all = useMemo(() => getLevelVocab(levelId), [levelId, dataReady]);
   const lessonIds = Array.from(new Set(all.map((v) => v.lesson)));
   const posList = Array.from(new Set(all.map((v) => v.pos ?? ''))).filter(Boolean);
   const list = all.filter((v) =>
@@ -37,7 +42,7 @@ export default function VocabPage() {
   const voice = levelHasVoice(levelId);
   setTtsEnabled(voice);
   return (
-    <VoiceContext.Provider value={voice}>
+    <VoiceContext.Provider value={voice}>{!dataReady ? <LevelLoading /> : (<>
     <div>
       <h1 className="text-3xl font-extrabold">📒 Sổ từ vựng</h1>
       <p className="mb-4 text-muted">{all.length} từ · đã thuộc {prog.known.length}</p>
@@ -126,7 +131,7 @@ export default function VocabPage() {
       )}
       <WordPopup word={open} levelId={levelId} upTo={open?.lesson ?? 99} onClose={() => setOpen(null)} />
     </div>
-    </VoiceContext.Provider>
+    </>)}</VoiceContext.Provider>
   );
 }
 

@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import comps from '../data/components.json';
 import { getLevelVocab } from './data';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 describe('Game từ vựng', () => {
   const data = comps as Record<string, { s: string; p: string[] }>;

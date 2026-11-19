@@ -120,6 +120,7 @@ export interface LevelSummary {
   known: number;
   wrongTop: [string, number][];
   exams?: Record<string, { best: number; attempts: number; passed: boolean }>;
+  writings?: Record<number, { prompt: string; text: string; chars: number; at: number }>;
 }
 export interface Summary {
   xp: number;
@@ -135,7 +136,7 @@ export function buildSummary(s: Snapshot, starsOf: (lp?: LessonProg) => number):
   for (const [id, lv] of Object.entries(s.levels)) {
     const completed = Object.entries(lv.lessons).filter(([, l]) => l.completed).map(([k]) => Number(k)).sort((a, b) => a - b);
     const exams = Object.fromEntries(Object.entries(lv.exams ?? {}).filter(([, e]) => e.attempts > 0).map(([k, e]) => [k, { best: e.best, attempts: e.attempts, passed: e.history.some((h) => h.passed) }]));
-    if (!completed.length && !Object.keys(lv.homework).length && !lv.known.length && !Object.keys(exams).length) continue;
+    if (!completed.length && !Object.keys(lv.homework).length && !lv.known.length && !Object.keys(exams).length && !Object.keys(lv.writings ?? {}).length) continue;
     levels[id] = {
       completed,
       stars: Object.fromEntries(completed.map((k) => [k, starsOf(lv.lessons[k])])),
@@ -143,6 +144,9 @@ export function buildSummary(s: Snapshot, starsOf: (lp?: LessonProg) => number):
       known: lv.known.length,
       wrongTop: Object.entries(lv.wrong).sort((a, b) => b[1] - a[1]).slice(0, 10),
       ...(Object.keys(exams).length ? { exams } : {}),
+      ...(lv.writings && Object.keys(lv.writings).length
+        ? { writings: Object.fromEntries(Object.entries(lv.writings).map(([k, w]) => [Number(k), { prompt: w.prompt, text: w.text.slice(0, 4000), chars: w.chars, at: w.at }])) }
+        : {}),
     };
   }
   return { xp: s.global.xp, streak: s.global.streak.count, lastActive: s.global.lastVisit, badges: s.global.badges.length, levels };

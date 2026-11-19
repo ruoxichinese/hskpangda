@@ -38,6 +38,7 @@ export function isAnswered(q: HwQuestion, a: unknown): boolean {
     case 'reorder': return (a as number[]).length === q.tiles.length;
     case 'translate': return !!(a as TranslateAnswer).text?.trim();
     case 'charFill': case 'sentence': return !!String(a).trim();
+    case 'essay': return !!String(a).trim();
     default: return true;
   }
 }
@@ -46,6 +47,16 @@ export interface Graded extends QResult { translate?: TranslateResult; userText?
 
 export function gradeQuestion(q: HwQuestion, a: unknown, order: number[] | undefined, confirmed = false): Graded {
   switch (q.kind) {
+    case 'essay': {
+      const t = String(a ?? '');
+      if (!t.trim()) return { points: 0, status: 'empty', userText: '' };
+      const chars = (t.match(/[\u4e00-\u9fff]/g) ?? []).length;
+      const hit = q.keywords.filter((k) => t.includes(k)).length;
+      const lenOk = chars >= q.minChars;
+      const kwOk = hit >= Math.ceil(q.keywords.length / 2);
+      const pts = (lenOk ? 0.5 : 0) + (kwOk ? 0.5 : 0);
+      return { points: pts, status: pts === 1 ? 'correct' : pts > 0 ? 'partial' : 'wrong', userText: t };
+    }
     case 'mcq':
     case 'truefalse': {
       if (a === undefined) return { points: 0, status: 'empty' };

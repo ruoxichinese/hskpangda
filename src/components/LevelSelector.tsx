@@ -1,5 +1,8 @@
+import { useCloud } from '../store/CloudSync';
+import { classGateOn } from './ClassGate';
+import { useCanStudy } from '../lib/courseAccess';
 import { Link } from 'react-router-dom';
-import { getLessons, isReady, levels } from '../lib/data';
+import { levels } from '../lib/data';
 import { useProgress } from '../store/ProgressStore';
 import { PandaMascot } from './panda/PandaMascot';
 import { ProgressBar } from './ui';
@@ -9,12 +12,14 @@ const STAGE_NOTE = ['Gấu con', 'Gấu đeo băng đô', 'Gấu đeo kính', 'G
 /** Chọn cấp HSK 3.0 – cấp chưa mở hiển thị "Sắp ra mắt" với Pàngdá ôm biển báo */
 export function LevelSelector() {
   const { level } = useProgress();
+  const can = useCanStudy();
+  const cloud = useCloud();
+  const restricted = classGateOn && cloud.allowedLevels !== null;
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {[...levels].sort((a, b) => Number(b.available) - Number(a.available)).map((lv) => {
-        const lessons = getLessons(lv.id);
-        const done = lessons.filter((l) => level(lv.id).lessons[l.id]?.completed).length;
-        const ready = lessons.filter(isReady).length;
+      {[...levels].filter((l) => !restricted || can(l.id)).sort((a, b) => Number(b.available) - Number(a.available)).map((lv) => {
+        const done = Object.values(level(lv.id).lessons).filter((l) => l?.completed).length;
+        const ready = lv.available ? lv.lessonCount : 0;
         const body = (
           <>
             <div className="flex items-start justify-between gap-2">

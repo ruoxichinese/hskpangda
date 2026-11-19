@@ -1,3 +1,4 @@
+import { useHomeLevel } from '../lib/courseAccess';
 import { Link } from 'react-router-dom';
 import { PandaMascot } from '../components/panda/PandaMascot';
 import { ProgressBar } from '../components/ui';
@@ -10,7 +11,7 @@ import { useState } from 'react';
 
 export default function HomePage() {
   const { global, level } = useProgress();
-  const lv = getLevel(global.lastLevel) ?? getLevel('hsk1')!;
+  const lv = getLevel(useHomeLevel()) ?? getLevel('hsk1')!;
   const prog = level(lv.id);
   const lessons = getLessons(lv.id);
   const completed = lessons.filter((l) => prog.lessons[l.id]?.completed).length;

@@ -1,3 +1,10 @@
+import { UpdateBoundary } from './components/UpdateBoundary';
+import { reloadOnce } from './lib/staleReload';
+import { CourseLocked } from './components/CourseLocked';
+import { useCanStudy } from './lib/courseAccess';
+import { useParams } from 'react-router-dom';
+import { useLevelData } from './lib/useLevelData';
+import { LevelLoading } from './components/LevelLoading';
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
@@ -7,20 +14,20 @@ import { ProgressProvider } from './store/ProgressStore';
 import { CloudProvider } from './store/CloudSync';
 import { ThemeProvider } from './theme/ThemeProvider';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const LevelsPage = lazy(() => import('./pages/LevelsPage'));
-const LevelMapPage = lazy(() => import('./pages/LevelMapPage'));
-const LessonPage = lazy(() => import('./pages/LessonPage'));
-const HomeworkPage = lazy(() => import('./pages/HomeworkPage'));
-const ReviewPage = lazy(() => import('./pages/ReviewPage'));
-const VocabPage = lazy(() => import('./pages/VocabPage'));
-const GrammarPage = lazy(() => import('./pages/GrammarPage'));
-const CharactersPage = lazy(() => import('./pages/CharactersPage'));
-const SettingsPage = lazy(() => import('./pages/SettingsPage'));
-const NotFound = lazy(() => import('./pages/NotFound'));
-const AccountPage = lazy(() => import('./pages/AccountPage'));
-const TeacherPage = lazy(() => import('./pages/TeacherPage'));
-const ExamPage = lazy(() => import('./pages/ExamPage'));
+const HomePage = lazy(() => withReload(import('./pages/HomePage')));
+const LevelsPage = lazy(() => withReload(import('./pages/LevelsPage')));
+const LevelMapPage = lazy(() => withReload(import('./pages/LevelMapPage')));
+const LessonPage = lazy(() => withReload(import('./pages/LessonPage')));
+const HomeworkPage = lazy(() => withReload(import('./pages/HomeworkPage')));
+const ReviewPage = lazy(() => withReload(import('./pages/ReviewPage')));
+const VocabPage = lazy(() => withReload(import('./pages/VocabPage')));
+const GrammarPage = lazy(() => withReload(import('./pages/GrammarPage')));
+const CharactersPage = lazy(() => withReload(import('./pages/CharactersPage')));
+const SettingsPage = lazy(() => withReload(import('./pages/SettingsPage')));
+const NotFound = lazy(() => withReload(import('./pages/NotFound')));
+const AccountPage = lazy(() => withReload(import('./pages/AccountPage')));
+const TeacherPage = lazy(() => withReload(import('./pages/TeacherPage')));
+const ExamPage = lazy(() => withReload(import('./pages/ExamPage')));
 
 function Loading() {
   return (
@@ -32,7 +39,21 @@ function Loading() {
 }
 
 // VITE_HASH_ROUTER=1 khi triển khai lên host tĩnh không hỗ trợ rewrite URL
+/** trang tải dần: không tải được (bản cũ đã bị thay) → tải lại trang một lần */
+function withReload<T>(p: Promise<T>): Promise<T> {
+  return p.catch((err) => { reloadOnce(); throw err; });
+}
+
 const Router = import.meta.env.VITE_HASH_ROUTER === '1' ? HashRouter : BrowserRouter;
+
+/** Phòng thi nằm ngoài Layout → tự tải dữ liệu khoá trước khi hiện đề */
+function ExamRoom() {
+  const { level } = useParams();
+  const can = useCanStudy();
+  const ready = useLevelData([can(level) ? level : undefined]);
+  if (!can(level)) return <CourseLocked levelId={level} />;
+  return ready ? <ExamPage /> : <LevelLoading />;
+}
 
 export default function App() {
   return (
@@ -40,10 +61,11 @@ export default function App() {
       <ProgressProvider>
        <CloudProvider>
         <Router basename={import.meta.env.VITE_HASH_ROUTER === '1' ? undefined : import.meta.env.BASE_URL}>
+          <UpdateBoundary>
           <Suspense fallback={<Loading />}>
             <Routes>
               {/* phòng thi: toàn màn hình, không có menu – giống thi trên máy */}
-              <Route path="hsk/:level/thi-thu/:examId" element={<ClassGate><ExamPage /></ClassGate>} />
+              <Route path="hsk/:level/thi-thu/:examId" element={<ClassGate><ExamRoom /></ClassGate>} />
               <Route element={<Layout />}>
                 <Route index element={<HomePage />} />
                 <Route path="cap-do" element={<LevelsPage />} />
@@ -61,6 +83,7 @@ export default function App() {
               </Route>
             </Routes>
           </Suspense>
+          </UpdateBoundary>
         </Router>
        </CloudProvider>
       </ProgressProvider>

@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { getHomework, getLessons, isReady, levels, hwImage } from './data';
 import { getDict, segment } from './dict';
+import { loadAllLevels } from './data';
+
+// dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
+await loadAllLevels();
 
 
 /** Gom mọi chuỗi tiếng Trung trong một object (bỏ qua các trường giải thích tiếng Việt & bảng văn hoá) */
@@ -55,6 +59,8 @@ for (const level of levels.filter((l) => l.available)) {
           q.text = q.text.replace(/\{\{(\d+)\}\}/g, (_: string, n: string) => q.answers[Number(n) - 1]);
           q.bank = q.bank.filter((b: string) => !q.answers.includes(b));
         }
+        // bài mẫu của bài viết chỉ hiện sau khi nộp, là văn bản tham khảo (thường chính là bài khoá) → không xét “từ đã học”
+        for (const sec of filled.sections) for (const q of sec.questions) if (q.kind === 'essay') q.model = '';
         for (const s of collectZh(filled)) {
           for (const seg of segment(s, dict)) {
             if (!seg.han) continue;

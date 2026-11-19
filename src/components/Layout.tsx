@@ -1,3 +1,7 @@
+import { CourseLocked } from './CourseLocked';
+import { useCanStudy, useHomeLevel } from '../lib/courseAccess';
+import { useLevelData } from '../lib/useLevelData';
+import { LevelLoading } from './LevelLoading';
 import { levelHasVoice, VoiceContext } from '../lib/voice';
 import { setTtsEnabled } from '../lib/audio';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
@@ -41,6 +45,10 @@ export function Layout() {
   useEffect(() => { window.scrollTo(0, 0); stopAll(); }, [pathname]);
   const pathLevel = /^\/hsk\/([^/]+)/.exec(pathname)?.[1];
   const voice = levelHasVoice(pathLevel);
+  const can = useCanStudy();
+  const homeLevel = useHomeLevel();
+  const locked = !!pathLevel && !can(pathLevel);
+  const dataReady = useLevelData([locked ? undefined : pathLevel ?? (pathname === '/' ? homeLevel : undefined)]);
   setTtsEnabled(voice);
 
   const nav = NAV.map((n) => (n.to === '/hsk/hsk1' ? { ...n, to: `/hsk/${lastLevel}` } : n));
@@ -78,7 +86,7 @@ export function Layout() {
       </header>
 
       <main id="main" className="mx-auto max-w-6xl px-4 py-5">
-        <VoiceContext.Provider value={voice}><ClassGate><Outlet /></ClassGate></VoiceContext.Provider>
+        <VoiceContext.Provider value={voice}><ClassGate>{locked ? <CourseLocked levelId={pathLevel} /> : dataReady ? <Outlet /> : <LevelLoading />}</ClassGate></VoiceContext.Provider>
       </main>
 
       <nav aria-label="Điều hướng nhanh" className="no-print fixed inset-x-0 bottom-0 z-40 border-t-[2.5px] border-outline bg-card/95 backdrop-blur lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>

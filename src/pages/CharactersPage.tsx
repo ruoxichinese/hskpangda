@@ -7,6 +7,7 @@ const GROUPS = [
   { key: 'china', title: '🇨🇳 Ở Trung Quốc – gia đình và đồng nghiệp' },
   { key: 'group', title: '👥 Nhân vật phụ' },
   { key: 'giaotiep', title: '💬 Khoá Giao tiếp đời sống – Nguyễn Minh ở Bắc Kinh' },
+  { key: 'business', title: '💼 Khoá Business Chinese – Tiểu Nguyễn ở Tập đoàn Đông Thịnh' },
 ] as const;
 
 export default function CharactersPage() {

@@ -1,3 +1,6 @@
+import { useStudyLevels } from '../lib/courseAccess';
+import { LevelLoading } from '../components/LevelLoading';
+import { useLevelData } from '../lib/useLevelData';
 import { levelHasVoice, VoiceContext } from '../lib/voice';
 import { setTtsEnabled } from '../lib/audio';
 import { useState } from 'react';
@@ -6,16 +9,18 @@ import { GrammarCard } from '../components/GrammarCard';
 import { allGrammar, levels } from '../lib/data';
 
 export default function GrammarPage() {
-  const avail = levels.filter((l) => l.available);
+  const studyLevels = useStudyLevels();
+  const avail = studyLevels.length ? studyLevels : levels.filter((l) => l.available);
   const [levelId, setLevelId] = useState(avail[0].id);
   const [lesson, setLesson] = useState<number | 'all'>('all');
+  const dataReady = useLevelData([levelId]);
   const items = allGrammar(levelId);
   const lessonIds = Array.from(new Set(items.map((x) => x.lesson.id)));
   const shown = items.filter((x) => lesson === 'all' || x.lesson.id === lesson);
   const voice = levelHasVoice(levelId);
   setTtsEnabled(voice);
   return (
-    <VoiceContext.Provider value={voice}>
+    <VoiceContext.Provider value={voice}>{!dataReady ? <LevelLoading /> : (<>
     <div>
       <h1 className="text-3xl font-extrabold">🧩 Kho ngữ pháp</h1>
       <p className="mb-4 text-muted">Tất cả điểm ngữ pháp Pàngdá đã giảng, kèm lỗi hay gặp và câu kiểm tra nhanh.</p>
@@ -37,6 +42,6 @@ export default function GrammarPage() {
         ))}
       </div>
     </div>
-    </VoiceContext.Provider>
+    </>)}</VoiceContext.Provider>
   );
 }
