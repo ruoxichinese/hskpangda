@@ -1,23 +1,885 @@
 {
-  "id": 15,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "大兴机场见！",
-    "pinyin": "Dàxīng Jīchǎng jiàn!",
-    "vi": "Hẹn gặp ở sân bay Đại Hưng!"
+ "id": 15,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "大兴机场见！",
+  "pinyin": "Dàxīng Jīchǎng jiàn!",
+  "vi": "Hẹn gặp ở sân bay Đại Hưng!"
+ },
+ "grammarTopics_vi": [
+  "Câu ghép ……，还/也……"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Nói về kế hoạch du lịch: muốn đi đâu, đi bằng gì, mất bao lâu",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
   },
-  "grammarTopics_vi": [
-    "Câu ghép ……，还/也……"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Dùng câu ghép ……，也/还……",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Mời ăn, đón khách theo phép lịch sự của người Trung Quốc",
+   "doneWhen": [
+    "text-1",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Biết vài điều về thủ đô Bắc Kinh",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🏯",
+   "word": "北京",
+   "pinyin": "Běijīng",
+   "vi": "Bắc Kinh"
+  },
+  {
+   "emoji": "🎡",
+   "word": "好玩儿",
+   "pinyin": "hǎowánr",
+   "vi": "vui, thú vị"
+  },
+  {
+   "emoji": "✈️",
+   "word": "飞机",
+   "pinyin": "fēijī",
+   "vi": "máy bay"
+  },
+  {
+   "emoji": "🥐",
+   "word": "早饭",
+   "pinyin": "zǎofàn",
+   "vi": "bữa sáng"
+  },
+  {
+   "emoji": "🌅",
+   "word": "早",
+   "pinyin": "zǎo",
+   "vi": "sớm"
+  },
+  {
+   "emoji": "👫",
+   "word": "男朋友",
+   "pinyin": "nánpéngyou",
+   "vi": "bạn trai"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Ở nhà Lý Văn, Lý Văn mời Trần Thiên Trung, Bạch Gia Nguyệt và các bạn đến ăn món Trung Quốc.",
+   "scene": "🍲",
+   "audio": "audio/hsk1/15-1.mp3",
+   "vocabAudio": "audio/hsk1/15-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Câu ghép ……，还/也……",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "你们爱吃哪个菜？",
+     "vi": "Các cậu thích ăn món nào?",
+     "highlight": [
+      "爱",
+      "哪个"
+     ],
+     "t": 0
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我喜欢这个，也喜欢那个。",
+     "vi": "Mình thích món này, cũng thích món kia.",
+     "highlight": [
+      "也"
+     ],
+     "t": 2.46
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "这些菜都好吃，还很好看。",
+     "vi": "Mấy món này đều ngon, lại còn đẹp mắt nữa.",
+     "highlight": [
+      "还"
+     ],
+     "t": 6.27
+    },
+    {
+     "speaker": "liwen",
+     "zh": "我爱吃中国菜，也喜欢做。大家多吃点儿。",
+     "vi": "Mình thích ăn món Trung Quốc, cũng thích nấu. Mọi người ăn nhiều vào nhé.",
+     "highlight": [
+      "多吃点儿"
+     ],
+     "tipRef": 0,
+     "t": 10.51
     }
+   ],
+   "vocab": [
+    {
+     "zh": "爱",
+     "pinyin": "ài",
+     "pos": "v.",
+     "vi": "yêu, rất thích",
+     "example": {
+      "zh": "我爱吃中国菜。",
+      "vi": "Tôi rất thích ăn món Trung Quốc."
+     }
+    },
+    {
+     "zh": "哪个",
+     "pinyin": "nǎge",
+     "pos": "pron.",
+     "vi": "cái nào",
+     "example": {
+      "zh": "你爱吃哪个菜？",
+      "vi": "Bạn thích món nào?"
+     },
+     "note_vi": "Khẩu ngữ hay đọc něige."
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g15-1",
+     "title_zh": "并列复句“……，还/也……”",
+     "title_vi": "Câu ghép: ……，也/还……",
+     "formula": [
+      [
+       {
+        "zh": "我喜欢这个",
+        "label": "Vế 1",
+        "role": "X"
+       },
+       {
+        "zh": "，也",
+        "label": "cũng",
+        "role": "ADV"
+       },
+       {
+        "zh": "喜欢那个",
+        "label": "Vế 2",
+        "role": "V"
+       }
+      ],
+      [
+       {
+        "zh": "这些菜都好吃",
+        "label": "Vế 1",
+        "role": "X"
+       },
+       {
+        "zh": "，还",
+        "label": "còn, lại còn",
+        "role": "ADV"
+       },
+       {
+        "zh": "很好看",
+        "label": "Vế 2",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Câu ghép đẳng lập có hai vế ngang hàng; vế sau dùng 也 (cũng) hoặc 还 (còn, lại còn) để nói thêm ý. 也 / 还 đứng TRƯỚC động từ hoặc tính từ của vế sau, không đứng đầu vế: 我喜欢这个，也喜欢那个. Nếu vế sau có chủ ngữ riêng thì 也 đứng sau chủ ngữ đó: 王老师是北京人，李文也是北京人.",
+     "examples": [
+      {
+       "zh": "我喜欢这个，也喜欢那个。",
+       "vi": "Tôi thích cái này, cũng thích cái kia."
+      },
+      {
+       "zh": "王老师是北京人，李文也是北京人。",
+       "vi": "Cô Vương là người Bắc Kinh, Lý Văn cũng là người Bắc Kinh."
+      },
+      {
+       "zh": "我喜欢喝中国茶，还喜欢吃中国菜。",
+       "vi": "Tôi thích uống trà Trung Quốc, còn thích ăn món Trung Quốc."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我喜欢这个，我喜欢那个也。",
+       "right": "我喜欢这个，也喜欢那个。",
+       "why_vi": "也 đứng trước động từ của vế sau, không đứng cuối câu."
+      },
+      {
+       "wrong": "王老师是北京人，也李文是北京人。",
+       "right": "王老师是北京人，李文也是北京人。",
+       "why_vi": "也 đứng sau chủ ngữ, trước động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi thích uống trà Trung Quốc, còn thích ăn món Trung Quốc.”",
+       "options": [
+        "我喜欢喝中国茶，还喜欢吃中国菜。",
+        "我喜欢喝中国茶，喜欢吃中国菜还。",
+        "我喜欢喝中国茶，还我喜欢吃中国菜。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "好",
+      "爱",
+      "不爱"
+     ],
+     "answer": 1,
+     "prompt_zh": "李文问大家（　）吃哪个菜。",
+     "explain_vi": "你们爱吃哪个菜？"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "吃点儿",
+      "少吃点儿",
+      "多吃点儿"
+     ],
+     "answer": 2,
+     "prompt_zh": "李文说：“大家（　）。”",
+     "explain_vi": "大家多吃点儿。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "Mời khách ăn nhiều (劝饭) là nét văn hoá bàn ăn của người Trung Quốc, thể hiện sự hiếu khách."
+    }
+   ],
+   "pangdaTip": "爱 mạnh hơn 喜欢: 爱吃 = rất thích ăn, mê ăn. Người Trung Quốc dùng 爱 cho sở thích rất tự nhiên: 我爱喝茶."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Ở nhà Lý Văn, mọi người vừa ăn vừa bàn kế hoạch nghỉ lễ.",
+   "scene": "🗺️",
+   "audio": "audio/hsk1/15-3.mp3",
+   "vocabAudio": "audio/hsk1/15-4.mp3",
+   "lines": [
+    {
+     "speaker": "liwen",
+     "zh": "你们都想去哪儿？",
+     "vi": "Các cậu đều muốn đi đâu?",
+     "t": 0.29
+    },
+    {
+     "speaker": "anni",
+     "zh": "去年我和男朋友去了西安，今年我想去北京。",
+     "vi": "Năm ngoái mình với bạn trai đi Tây An rồi, năm nay mình muốn đi Bắc Kinh.",
+     "highlight": [
+      "去年",
+      "去了西安"
+     ],
+     "t": 2.86
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "前几年我去了西安，非常好玩儿。今年我也想去北京。",
+     "vi": "Mấy năm trước mình đi Tây An rồi, vui lắm. Năm nay mình cũng muốn đi Bắc Kinh.",
+     "highlight": [
+      "前几年",
+      "好玩儿"
+     ],
+     "t": 5.89
+    },
+    {
+     "speaker": "liwen",
+     "zh": "我和王老师都是北京人，北京非常漂亮。",
+     "vi": "Mình với cô Vương đều là người Bắc Kinh, Bắc Kinh đẹp lắm.",
+     "t": 15.57
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "去年",
+     "pinyin": "qùnián",
+     "pos": "n.",
+     "vi": "năm ngoái",
+     "example": {
+      "zh": "去年我去了西安。",
+      "vi": "Năm ngoái tôi đã đi Tây An."
+     }
+    },
+    {
+     "zh": "男朋友",
+     "pinyin": "nánpéngyou",
+     "pos": "n.",
+     "vi": "bạn trai (người yêu)",
+     "example": {
+      "zh": "我和男朋友",
+      "vi": "tôi và bạn trai"
+     }
+    },
+    {
+     "zh": "几",
+     "pinyin": "jǐ",
+     "pos": "num.",
+     "vi": "vài, mấy",
+     "example": {
+      "zh": "前几年",
+      "vi": "mấy năm trước"
+     }
+    },
+    {
+     "zh": "年",
+     "pinyin": "nián",
+     "pos": "n.",
+     "vi": "năm",
+     "example": {
+      "zh": "今年",
+      "vi": "năm nay"
+     }
+    },
+    {
+     "zh": "好玩儿",
+     "pinyin": "hǎowánr",
+     "pos": "adj.",
+     "vi": "vui, thú vị",
+     "example": {
+      "zh": "西安非常好玩儿。",
+      "vi": "Tây An rất vui."
+     }
+    },
+    {
+     "zh": "西安",
+     "pinyin": "Xī'ān",
+     "pos": "proper",
+     "vi": "Tây An",
+     "example": {
+      "zh": "我去了西安。",
+      "vi": "Tôi đã đi Tây An."
+     },
+     "proper": true
+    },
+    {
+     "zh": "北京",
+     "pinyin": "Běijīng",
+     "pos": "proper",
+     "vi": "Bắc Kinh",
+     "example": {
+      "zh": "我想去北京。",
+      "vi": "Tôi muốn đi Bắc Kinh."
+     },
+     "proper": true
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "西安",
+      "北京",
+      "学校"
+     ],
+     "answer": 0,
+     "prompt_zh": "安妮和她男朋友去年去了（　）。",
+     "explain_vi": "去年我和男朋友去了西安。 – bẫy: 北京 là nơi muốn đi NĂM NAY."
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "西安人",
+      "北京人",
+      "哪里人"
+     ],
+     "answer": 1,
+     "prompt_zh": "王老师和李文都是（　）。",
+     "explain_vi": "我和王老师都是北京人。"
+    }
+   ],
+   "pangdaTip": "几 ở đây không phải để hỏi mà nghĩa là “vài, mấy”: 前几年 = mấy năm trước. Câu hỏi thì có dấu “？”: 你几岁？"
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ngoài lớp học, Bạch Gia Nguyệt, Annie và cô Vương nói về chuyến đi Bắc Kinh.",
+   "scene": "✈️",
+   "audio": "audio/hsk1/15-5.mp3",
+   "vocabAudio": "audio/hsk1/15-6.mp3",
+   "lines": [
+    {
+     "speaker": "wangyifei",
+     "zh": "你们的飞机到北京要几个小时？",
+     "vi": "Máy bay của các em đến Bắc Kinh mất mấy tiếng?",
+     "highlight": [
+      "要几个小时"
+     ],
+     "t": 0.43
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "九个小时。",
+     "vi": "Chín tiếng ạ.",
+     "t": 5.23
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "我家人都在北京，星期天我姐姐也有时间，她可以去机场接你们，你们也可以住我家。",
+     "vi": "Gia đình cô đều ở Bắc Kinh, Chủ nhật chị gái cô cũng rảnh, chị ấy có thể ra sân bay đón các em, các em cũng có thể ở nhà cô.",
+     "highlight": [
+      "接你们",
+      "住我家"
+     ],
+     "t": 8.59
+    },
+    {
+     "speaker": "anni",
+     "zh": "我们星期日早上八点到大兴机场，早不早？",
+     "vi": "Chúng em 8 giờ sáng Chủ nhật đến sân bay Đại Hưng, có sớm quá không ạ?",
+     "highlight": [
+      "早不早"
+     ],
+     "t": 19.16
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "不早。",
+     "vi": "Không sớm đâu.",
+     "t": 24.22
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "谢谢老师！那我们和您姐姐在大兴机场见！",
+     "vi": "Cảm ơn cô! Vậy chúng em gặp chị của cô ở sân bay Đại Hưng nhé!",
+     "highlight": [
+      "那"
+     ],
+     "t": 25.74
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "飞机",
+     "pinyin": "fēijī",
+     "pos": "n.",
+     "vi": "máy bay",
+     "example": {
+      "zh": "坐飞机",
+      "vi": "đi máy bay"
+     }
+    },
+    {
+     "zh": "要",
+     "pinyin": "yào",
+     "pos": "v.",
+     "vi": "cần, mất (thời gian)",
+     "example": {
+      "zh": "要几个小时？",
+      "vi": "Mất mấy tiếng?"
+     }
+    },
+    {
+     "zh": "小时",
+     "pinyin": "xiǎoshí",
+     "pos": "n.",
+     "vi": "giờ, tiếng (đồng hồ)",
+     "example": {
+      "zh": "九个小时",
+      "vi": "chín tiếng"
+     }
+    },
+    {
+     "zh": "家人",
+     "pinyin": "jiārén",
+     "pos": "n.",
+     "vi": "người nhà, gia đình",
+     "example": {
+      "zh": "我家人都在北京。",
+      "vi": "Gia đình tôi đều ở Bắc Kinh."
+     }
+    },
+    {
+     "zh": "时间",
+     "pinyin": "shíjiān",
+     "pos": "n.",
+     "vi": "thời gian",
+     "example": {
+      "zh": "我姐姐有时间。",
+      "vi": "Chị tôi có thời gian."
+     }
+    },
+    {
+     "zh": "机场",
+     "pinyin": "jīchǎng",
+     "pos": "n.",
+     "vi": "sân bay",
+     "example": {
+      "zh": "去机场",
+      "vi": "ra sân bay"
+     }
+    },
+    {
+     "zh": "接",
+     "pinyin": "jiē",
+     "pos": "v.",
+     "vi": "đón",
+     "example": {
+      "zh": "去机场接你们",
+      "vi": "ra sân bay đón các bạn"
+     }
+    },
+    {
+     "zh": "住",
+     "pinyin": "zhù",
+     "pos": "v.",
+     "vi": "ở, sống",
+     "example": {
+      "zh": "住我家",
+      "vi": "ở nhà tôi"
+     }
+    },
+    {
+     "zh": "早",
+     "pinyin": "zǎo",
+     "pos": "adj.",
+     "vi": "sớm",
+     "example": {
+      "zh": "早不早？",
+      "vi": "Có sớm không?"
+     }
+    },
+    {
+     "zh": "那",
+     "pinyin": "nà",
+     "pos": "conj.",
+     "vi": "vậy thì",
+     "example": {
+      "zh": "那我们明天见！",
+      "vi": "Vậy mai gặp nhé!"
+     }
+    },
+    {
+     "zh": "大兴机场",
+     "pinyin": "Dàxīng Jīchǎng",
+     "pos": "proper",
+     "vi": "sân bay Đại Hưng (Bắc Kinh)",
+     "example": {
+      "zh": "大兴机场见！",
+      "vi": "Gặp nhau ở sân bay Đại Hưng!"
+     },
+     "proper": true
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "火车",
+      "飞机",
+      "出租车"
+     ],
+     "answer": 1,
+     "prompt_zh": "白家月和安妮坐（　）去北京。",
+     "explain_vi": "你们的飞机到北京要几个小时？"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "家人",
+      "朋友",
+      "学生"
+     ],
+     "answer": 0,
+     "prompt_zh": "王老师的（　）都在北京。",
+     "explain_vi": "我家人都在北京。"
+    }
+   ],
+   "pangdaTip": "小时 là khoảng thời gian (九个小时 – chín tiếng), còn 点 là thời điểm (九点 – 9 giờ). Nhớ có 个: 九个小时."
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "这本书有15课，我们___学了。",
+   "bank": [
+    "爱",
+    "时间",
+    "早不早",
+    "都",
+    "飞机"
+   ],
+   "answer": "都",
+   "explain_vi": "都 + động từ: đều đã học.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "我的家人都___喝茶。",
+   "bank": [
+    "爱",
+    "时间",
+    "早不早",
+    "都",
+    "飞机"
+   ],
+   "answer": "爱",
+   "explain_vi": "爱喝茶 = rất thích uống trà.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "陈天中：我们明天晚上六点到，你觉得___？",
+   "bank": [
+    "爱",
+    "时间",
+    "早不早",
+    "都",
+    "飞机"
+   ],
+   "answer": "早不早",
+   "explain_vi": "Câu chính phản: 早不早？",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "王一飞：她们想坐___去北京，你们呢？",
+   "bank": [
+    "爱",
+    "时间",
+    "早不早",
+    "都",
+    "飞机"
+   ],
+   "answer": "飞机",
+   "explain_vi": "坐飞机 = đi máy bay.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "陈天中：我们没有___，不能出去玩。",
+   "bank": [
+    "爱",
+    "时间",
+    "早不早",
+    "都",
+    "飞机"
+   ],
+   "answer": "时间",
+   "explain_vi": "没有时间 = không có thời gian.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "也",
+    "那个",
+    "喜欢",
+    "我喜欢这个"
+   ],
+   "answers": [
+    "我喜欢这个也喜欢那个"
+   ],
+   "vi": "Tôi thích cái này, cũng thích cái kia.",
+   "explain_vi": "Vế 1 + 也 + động từ.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "几个小时",
+    "要",
+    "到北京",
+    "飞机"
+   ],
+   "answers": [
+    "飞机到北京要几个小时"
+   ],
+   "vi": "Máy bay đến Bắc Kinh mất mấy tiếng?",
+   "explain_vi": "要 + thời gian.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "接",
+    "机场",
+    "去",
+    "她",
+    "你们"
+   ],
+   "answers": [
+    "她去机场接你们"
+   ],
+   "vi": "Cô ấy ra sân bay đón các bạn.",
+   "explain_vi": "Câu liên động: 去 + nơi chốn + việc làm.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "飞机",
+   "options": [
+    {
+     "emoji": "✈️",
+     "label": "máy bay"
+    },
+    {
+     "emoji": "🚆",
+     "label": "tàu hoả"
+    },
+    {
+     "emoji": "🚕",
+     "label": "taxi"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "飞机 = máy bay.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "机场",
+   "options": [
+    {
+     "emoji": "🛫",
+     "label": "sân bay"
+    },
+    {
+     "emoji": "🏫",
+     "label": "trường học"
+    },
+    {
+     "emoji": "🏥",
+     "label": "bệnh viện"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "机场 = sân bay.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "去年我去了西安。",
+   "emoji": "🗺️",
+   "statement_vi": "Năm ngoái người nói đi Bắc Kinh.",
+   "answer": false,
+   "explain_vi": "去了西安 = đã đi Tây An.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我们星期日早上八点到。",
+   "emoji": "✈️",
+   "statement_vi": "Họ đến lúc 8 giờ sáng Chủ nhật.",
+   "answer": true,
+   "explain_vi": "星期日早上八点 = 8 giờ sáng Chủ nhật.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🍲😋",
+   "sentence": "大家___吃点儿！",
+   "options": [
+    "多",
+    "少",
+    "都"
+   ],
+   "answer": 0,
+   "explain_vi": "Chủ nhà mời khách: 大家多吃点儿！",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "你们爱吃哪个菜？",
+     "a": "我喜欢这个，也喜欢那个。"
+    },
+    {
+     "q": "你们都想去哪儿？",
+     "a": "我想去北京。"
+    },
+    {
+     "q": "飞机到北京要几个小时？",
+     "a": "九个小时。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Mời bạn đến nhà ăn cơm",
+  "steps_vi": [
+   "Nhóm ba người đóng vai Lý Văn, Trần Thiên Trung và Bạch Gia Nguyệt.",
+   "Lý Văn mời hai bạn cuối tuần đến nhà cùng nấu món Trung Quốc; hai bạn trả lời có rảnh không.",
+   "Cả nhóm bàn: nấu món gì, ai mua gì, mấy giờ gặp nhau ở đâu."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "天中、家月，你们星期六有时间吗？",
+    "vi": "Thiên Trung, Gia Nguyệt, thứ Bảy các cậu có rảnh không?"
+   },
+   {
+    "zh": "我有时间。",
+    "vi": "Mình rảnh."
+   },
+   {
+    "zh": "我也有时间。",
+    "vi": "Mình cũng rảnh."
+   },
+   {
+    "zh": "太好了！你们都来我家吧，我们做中国菜吃，怎么样？",
+    "vi": "Tuyệt quá! Các cậu đều đến nhà mình nhé, mình nấu món Trung Quốc ăn, thế nào?"
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "北京好玩儿，西安也好玩儿。",
+  "vi": "Bắc Kinh vui, Tây An cũng vui. (Luyện âm cuốn lưỡi -r)"
+ },
+ "culture": {
+  "title_vi": "Bắc Kinh – thủ đô của Trung Quốc",
+  "body_vi": [
+   "Bắc Kinh (北京) là thủ đô của Trung Quốc, một thành phố vừa cổ kính vừa hiện đại. Nổi tiếng nhất là Cố Cung (故宫), Vạn Lý Trường Thành (长城) và Thiên Đàn (天坛).",
+   "Sân bay Đại Hưng (大兴机场) ở phía nam Bắc Kinh, mở cửa năm 2019, nhìn từ trên cao giống hình một con sao biển khổng lồ.",
+   "Khi bạn đến chơi, người Trung Quốc rất hiếu khách: ra sân bay đón, mời ở nhà mình, gắp thức ăn và liên tục mời 多吃点儿！ Đừng ngại – ăn ngon miệng chính là cách cảm ơn chủ nhà."
+  ],
+  "table": {
+   "head": [
+    "Địa danh",
+    "Tiếng Trung",
+    "Pinyin"
+   ],
+   "rows": [
+    [
+     "Cố Cung",
+     "故宫",
+     "Gùgōng"
+    ],
+    [
+     "Vạn Lý Trường Thành",
+     "长城",
+     "Chángchéng"
+    ],
+    [
+     "Thiên Đàn",
+     "天坛",
+     "Tiāntán"
+    ],
+    [
+     "Sân bay Đại Hưng",
+     "大兴机场",
+     "Dàxīng Jīchǎng"
+    ]
+   ]
+  }
+ }
 }

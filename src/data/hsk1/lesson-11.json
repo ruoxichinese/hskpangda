@@ -1,35 +1,1077 @@
 {
-  "id": 11,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "我读大学呢",
-    "pinyin": "Wǒ dú dàxué ne",
-    "vi": "Tôi đang học đại học"
+ "id": 11,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "我读大学呢",
+  "pinyin": "Wǒ dú dàxué ne",
+  "vi": "Tôi đang học đại học"
+ },
+ "grammarTopics_vi": [
+  "Câu hỏi chính phản",
+  "Phó từ 在 / 正在",
+  "Động từ năng nguyện 要"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi bằng câu chính phản: 去不去？ 开车没开车？",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Câu hỏi chính phản",
-    "Phó từ 在 / 正在",
-    "Động từ năng nguyện 要"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Nói việc đang diễn ra bằng 在 / 正在 / ……呢",
+   "doneWhen": [
+    "text-1",
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng 要 để nói dự định",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Kể về việc học và sinh hoạt trong ngày",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🚗",
+   "word": "开车",
+   "pinyin": "kāichē",
+   "vi": "lái xe"
+  },
+  {
+   "emoji": "😴",
+   "word": "睡觉",
+   "pinyin": "shuìjiào",
+   "vi": "ngủ"
+  },
+  {
+   "emoji": "🙋",
+   "word": "问",
+   "pinyin": "wèn",
+   "vi": "hỏi"
+  },
+  {
+   "emoji": "🍽️",
+   "word": "饭店",
+   "pinyin": "fàndiàn",
+   "vi": "nhà hàng"
+  },
+  {
+   "emoji": "🔍",
+   "word": "找",
+   "pinyin": "zhǎo",
+   "vi": "tìm"
+  },
+  {
+   "emoji": "🎓",
+   "word": "大学生",
+   "pinyin": "dàxuéshēng",
+   "vi": "sinh viên"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Trên đường, Lý Văn đang tìm nhà hàng thì Vương Nhất Phi gọi điện.",
+   "scene": "🚗",
+   "audio": "audio/hsk1/11-1.mp3",
+   "vocabAudio": "audio/hsk1/11-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Câu hỏi chính phản",
-      "doneWhen": []
+     "speaker": "wangyifei",
+     "zh": "喂，李文，你什么时候能到饭店？",
+     "vi": "Alô, Lý Văn, lúc nào cậu đến nhà hàng được?",
+     "highlight": [
+      "什么时候"
+     ],
+     "t": 0.93
     },
     {
-      "id": "o2",
-      "vi": "Phó từ 在 / 正在",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "还不知道，正在找呢。它是不是在超市后边？",
+     "vi": "Chưa biết nữa, mình đang tìm đây. Có phải nó ở phía sau siêu thị không?",
+     "highlight": [
+      "正在找呢",
+      "是不是"
+     ],
+     "t": 4.96
     },
     {
-      "id": "o3",
-      "vi": "Động từ năng nguyện 要",
-      "doneWhen": []
+     "speaker": "wangyifei",
+     "zh": "是的。你开车没开车？",
+     "vi": "Đúng rồi. Cậu có lái xe không?",
+     "highlight": [
+      "开车没开车"
+     ],
+     "t": 10.63
+    },
+    {
+     "speaker": "liwen",
+     "zh": "我没开车，坐车呢。",
+     "vi": "Mình không lái xe, mình đang đi xe (taxi).",
+     "t": 14.04
     }
+   ],
+   "vocab": [
+    {
+     "zh": "时候",
+     "pinyin": "shíhou",
+     "pos": "n.",
+     "vi": "lúc, khi",
+     "example": {
+      "zh": "你什么时候到？",
+      "vi": "Lúc nào bạn đến?"
+     }
+    },
+    {
+     "zh": "饭店",
+     "pinyin": "fàndiàn",
+     "pos": "n.",
+     "vi": "nhà hàng; khách sạn",
+     "example": {
+      "zh": "我们去饭店吃饭。",
+      "vi": "Chúng ta đi nhà hàng ăn cơm."
+     }
+    },
+    {
+     "zh": "知道",
+     "pinyin": "zhīdào",
+     "pos": "v.",
+     "vi": "biết (thông tin)",
+     "example": {
+      "zh": "我不知道。",
+      "vi": "Tôi không biết."
+     }
+    },
+    {
+     "zh": "正在",
+     "pinyin": "zhèngzài",
+     "pos": "adv.",
+     "vi": "đang",
+     "example": {
+      "zh": "我正在找呢。",
+      "vi": "Tôi đang tìm đây."
+     }
+    },
+    {
+     "zh": "找",
+     "pinyin": "zhǎo",
+     "pos": "v.",
+     "vi": "tìm",
+     "example": {
+      "zh": "找饭店",
+      "vi": "tìm nhà hàng"
+     }
+    },
+    {
+     "zh": "开车",
+     "pinyin": "kāichē",
+     "pos": "v.",
+     "vi": "lái xe",
+     "example": {
+      "zh": "你开车吗？",
+      "vi": "Bạn có lái xe không?"
+     }
+    },
+    {
+     "zh": "车",
+     "pinyin": "chē",
+     "pos": "n.",
+     "vi": "xe",
+     "example": {
+      "zh": "坐车",
+      "vi": "đi xe"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g11-1",
+     "title_zh": "正反问",
+     "title_vi": "Câu hỏi chính phản: X不X？ / X没X？",
+     "formula": [
+      [
+       {
+        "zh": "它",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "是不是",
+        "label": "V + 不 + V",
+        "role": "Q"
+       },
+       {
+        "zh": "在超市后边",
+        "label": "",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "你",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "开车没开车",
+        "label": "V + 没 + V (việc đã xảy ra)",
+        "role": "Q"
+       }
+      ],
+      [
+       {
+        "zh": "你们学习",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "忙不忙",
+        "label": "Tính từ + 不 + tính từ",
+        "role": "Q"
+       }
+      ]
+     ],
+     "explain_vi": "Ghép khẳng định và phủ định để hỏi: X不X？ hoặc X没X？ – giống “có … không?” của tiếng Việt, nên KHÔNG thêm 吗. Hỏi về hiện tại, tương lai, thói quen hoặc tính từ: dùng 不 (去不去, 忙不忙). Hỏi việc đã xảy ra hay chưa: dùng 没 (去没去, 开车没开车). Từ hai âm tiết có thể nói gọn: 知道不知道 → 知不知道.",
+     "examples": [
+      {
+       "zh": "它是不是在超市后边？",
+       "vi": "Có phải nó ở phía sau siêu thị không?"
+      },
+      {
+       "zh": "A：昨天你去没去书店？ B：我没去。",
+       "vi": "A: Hôm qua bạn có đi hiệu sách không? B: Tôi không đi."
+      },
+      {
+       "zh": "A：这件衣服贵不贵？ B：不贵。",
+       "vi": "A: Chiếc áo này có đắt không? B: Không đắt."
+      },
+      {
+       "zh": "你知道不知道？",
+       "vi": "Bạn có biết không?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "你去不去吗？",
+       "right": "你去不去？",
+       "why_vi": "Câu chính phản không thêm 吗."
+      },
+      {
+       "wrong": "昨天你去不去书店？",
+       "right": "昨天你去没去书店？",
+       "why_vi": "Hỏi việc đã xảy ra (昨天) dùng 没."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Hôm qua bạn có đi hiệu sách không?”",
+       "options": [
+        "你昨天去没去书店？",
+        "你昨天去不去书店吗？",
+        "你昨天去书店不去？"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "“Chiếc áo này có đắt không?”",
+       "options": [
+        "这件衣服贵不贵？",
+        "这件衣服贵没贵？",
+        "这件衣服贵不贵吗？"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "什么时候 = lúc nào, khi nào. Giống từ để hỏi khác, nó đứng trước động từ: 你什么时候能到？"
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Ở nhà hàng, Vương Nhất Phi và Lý Văn gặp nhau và trò chuyện.",
+   "scene": "🎓",
+   "audio": "audio/hsk1/11-3.mp3",
+   "vocabAudio": "audio/hsk1/11-4.mp3",
+   "lines": [
+    {
+     "speaker": "wangyifei",
+     "zh": "你还在读大学吗？",
+     "vi": "Cậu vẫn đang học đại học à?",
+     "highlight": [
+      "在读大学"
+     ],
+     "t": 0.78
+    },
+    {
+     "speaker": "liwen",
+     "zh": "对，我读大学呢，还是大学生。",
+     "vi": "Ừ, mình đang học đại học, vẫn là sinh viên.",
+     "highlight": [
+      "读大学呢"
+     ],
+     "t": 3.96
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "你们学习忙不忙？",
+     "vi": "Các cậu học có bận không?",
+     "highlight": [
+      "忙不忙"
+     ],
+     "t": 9.18
+    },
+    {
+     "speaker": "liwen",
+     "zh": "非常忙，我学医，我们的课很多。",
+     "vi": "Bận lắm, mình học y, tiết học của bọn mình rất nhiều.",
+     "t": 12.52
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "在",
+     "pinyin": "zài",
+     "pos": "adv.",
+     "vi": "đang",
+     "example": {
+      "zh": "你在做什么？",
+      "vi": "Bạn đang làm gì?"
+     }
+    },
+    {
+     "zh": "读",
+     "pinyin": "dú",
+     "pos": "v.",
+     "vi": "học (ở trường); đọc",
+     "example": {
+      "zh": "读大学",
+      "vi": "học đại học"
+     }
+    },
+    {
+     "zh": "大学",
+     "pinyin": "dàxué",
+     "pos": "n.",
+     "vi": "trường đại học",
+     "example": {
+      "zh": "他在读大学。",
+      "vi": "Anh ấy đang học đại học."
+     }
+    },
+    {
+     "zh": "大学生",
+     "pinyin": "dàxuéshēng",
+     "pos": "n.",
+     "vi": "sinh viên",
+     "example": {
+      "zh": "我是大学生。",
+      "vi": "Tôi là sinh viên."
+     }
+    },
+    {
+     "zh": "学",
+     "pinyin": "xué",
+     "pos": "v.",
+     "vi": "học",
+     "example": {
+      "zh": "学中文",
+      "vi": "học tiếng Trung"
+     }
+    },
+    {
+     "zh": "医",
+     "pinyin": "yī",
+     "pos": "n.",
+     "vi": "y, y khoa",
+     "example": {
+      "zh": "学医",
+      "vi": "học y"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g11-2",
+     "title_zh": "时间副词“在/正在”",
+     "title_vi": "在 / 正在 / ……呢: đang làm gì",
+     "formula": [
+      [
+       {
+        "zh": "学生们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "在 / 正在",
+        "label": "đang",
+        "role": "ADV"
+       },
+       {
+        "zh": "上课",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "（呢）",
+        "label": "",
+        "role": "PART"
+       }
+      ],
+      [
+       {
+        "zh": "我们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "读书",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "呢",
+        "label": "đang",
+        "role": "PART"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "在/正在 + động từ (+ 呢)",
+      "Động từ + 呢"
+     ],
+     "explain_vi": "Ba cách nói việc ĐANG diễn ra: (1) 在/正在 + động từ: 你还在读大学吗？ (2) 在/正在 + động từ + 呢: 学生们正在上课呢. (3) Động từ + 呢: 我们读书呢. 正在 nhấn mạnh “ngay lúc này”. Phủ định dùng 没（有）, bỏ 呢 ở cuối: 我没看电视. Lưu ý 在 giờ đã có 3 cách dùng: động từ “ở” (我在家), giới từ “ở” (在学校吃饭) và phó từ “đang” (在看电视).",
+     "examples": [
+      {
+       "zh": "A：你在做什么呢？ B：我正在看电视。",
+       "vi": "A: Bạn đang làm gì thế? B: Tôi đang xem ti vi."
+      },
+      {
+       "zh": "A：我去看电影，你去不去？ B：我在学习呢，不想去。",
+       "vi": "A: Tôi đi xem phim, bạn đi không? B: Tôi đang học, không muốn đi."
+      },
+      {
+       "zh": "A：你在买菜吗？ B：我没买菜，买水果呢。",
+       "vi": "A: Bạn đang mua rau à? B: Tôi không mua rau, đang mua hoa quả."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我不在看电视。",
+       "right": "我没在看电视。",
+       "why_vi": "Phủ định “đang” dùng 没."
+      },
+      {
+       "wrong": "我看电视正在。",
+       "right": "我正在看电视。",
+       "why_vi": "正在 đứng trước động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Mẹ đang nấu cơm.”",
+       "options": [
+        "妈妈正在做饭呢。",
+        "妈妈做饭正在。",
+        "妈妈正在做饭吗。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "不",
+      "没",
+      "在"
+     ],
+     "answer": 2,
+     "prompt_zh": "李文（　）读大学。",
+     "explain_vi": "你还在读大学吗？——对，我读大学呢。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "课",
+      "书",
+      "椅子"
+     ],
+     "answer": 0,
+     "prompt_zh": "李文很忙，有很多（　）。",
+     "explain_vi": "我们的课很多。"
+    }
+   ],
+   "pangdaTip": "读 vừa là “đọc” (读书), vừa là “học” ở một bậc trường: 读大学 = học đại học."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Sáng thứ Bảy, Lưu Minh phải đến bệnh viện làm thêm, trước khi đi nói chuyện với con gái.",
+   "scene": "😴",
+   "audio": "audio/hsk1/11-5.mp3",
+   "vocabAudio": "audio/hsk1/11-6.mp3",
+   "lines": [
+    {
+     "speaker": "liuming",
+     "zh": "弟弟起床没起床呢？",
+     "vi": "Em trai con dậy chưa?",
+     "highlight": [
+      "起床没起床"
+     ],
+     "t": 1.64
+    },
+    {
+     "speaker": "liuxiaoxue",
+     "zh": "没起床呢，还在睡觉。",
+     "vi": "Chưa dậy ạ, vẫn đang ngủ.",
+     "highlight": [
+      "还在睡觉"
+     ],
+     "t": 4.45
+    },
+    {
+     "speaker": "liuming",
+     "zh": "还睡呢？他今天不去那里？",
+     "vi": "Vẫn ngủ à? Hôm nay nó không đi chỗ đó à?",
+     "t": 7.0
+    },
+    {
+     "speaker": "liuxiaoxue",
+     "zh": "去哪里？",
+     "vi": "Đi đâu ạ?",
+     "t": 11.11
+    },
+    {
+     "speaker": "liuming",
+     "zh": "去超市。",
+     "vi": "Đi siêu thị.",
+     "t": 12.56
+    },
+    {
+     "speaker": "liuxiaoxue",
+     "zh": "我昨天问他，他对我说，他不去，他今天要和小朋友玩。",
+     "vi": "Hôm qua con hỏi nó rồi, nó bảo con là nó không đi, hôm nay nó định chơi với các bạn.",
+     "highlight": [
+      "要"
+     ],
+     "t": 13.92
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "弟弟",
+     "pinyin": "dìdi",
+     "pos": "n.",
+     "vi": "em trai",
+     "example": {
+      "zh": "我有一个弟弟。",
+      "vi": "Tôi có một em trai."
+     }
+    },
+    {
+     "zh": "起床",
+     "pinyin": "qǐchuáng",
+     "pos": "v.",
+     "vi": "thức dậy, ngủ dậy",
+     "example": {
+      "zh": "你几点起床？",
+      "vi": "Bạn dậy lúc mấy giờ?"
+     }
+    },
+    {
+     "zh": "睡觉",
+     "pinyin": "shuìjiào",
+     "pos": "v.",
+     "vi": "ngủ",
+     "example": {
+      "zh": "弟弟还在睡觉。",
+      "vi": "Em trai vẫn đang ngủ."
+     }
+    },
+    {
+     "zh": "睡",
+     "pinyin": "shuì",
+     "pos": "v.",
+     "vi": "ngủ",
+     "example": {
+      "zh": "还睡呢？",
+      "vi": "Vẫn ngủ à?"
+     }
+    },
+    {
+     "zh": "那里",
+     "pinyin": "nàli",
+     "pos": "pron.",
+     "vi": "chỗ đó, ở đó",
+     "example": {
+      "zh": "他不去那里。",
+      "vi": "Nó không đến chỗ đó."
+     }
+    },
+    {
+     "zh": "哪里",
+     "pinyin": "nǎli",
+     "pos": "pron.",
+     "vi": "đâu, chỗ nào",
+     "example": {
+      "zh": "去哪里？",
+      "vi": "Đi đâu?"
+     }
+    },
+    {
+     "zh": "昨天",
+     "pinyin": "zuótiān",
+     "pos": "n.",
+     "vi": "hôm qua",
+     "example": {
+      "zh": "我昨天问他。",
+      "vi": "Hôm qua tôi hỏi nó."
+     }
+    },
+    {
+     "zh": "问",
+     "pinyin": "wèn",
+     "pos": "v.",
+     "vi": "hỏi",
+     "example": {
+      "zh": "我问老师。",
+      "vi": "Tôi hỏi thầy giáo."
+     }
+    },
+    {
+     "zh": "对",
+     "pinyin": "duì",
+     "pos": "prep.",
+     "vi": "với, đối với",
+     "example": {
+      "zh": "他对我说……",
+      "vi": "Nó nói với tôi…"
+     }
+    },
+    {
+     "zh": "说",
+     "pinyin": "shuō",
+     "pos": "v.",
+     "vi": "nói",
+     "example": {
+      "zh": "你说什么？",
+      "vi": "Bạn nói gì?"
+     }
+    },
+    {
+     "zh": "要",
+     "pinyin": "yào",
+     "pos": "mod.",
+     "vi": "muốn, định, sẽ",
+     "example": {
+      "zh": "他今天要和小朋友玩。",
+      "vi": "Hôm nay nó định chơi với các bạn."
+     }
+    },
+    {
+     "zh": "小朋友",
+     "pinyin": "xiǎopéngyǒu",
+     "pos": "n.",
+     "vi": "bạn nhỏ, trẻ em",
+     "example": {
+      "zh": "和小朋友玩",
+      "vi": "chơi với các bạn nhỏ"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g11-3",
+     "title_zh": "能愿动词“要”",
+     "title_vi": "要: muốn, định làm (dự định)",
+     "formula": [
+      [
+       {
+        "zh": "他今天",
+        "label": "Chủ ngữ + thời gian",
+        "role": "S"
+       },
+       {
+        "zh": "要",
+        "label": "định, sẽ",
+        "role": "ADV"
+       },
+       {
+        "zh": "和小朋友玩",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "要 + động từ = muốn, định làm việc gì (đã có dự định khá rõ). So với 想 (bài 6): 想 là “muốn, nghĩ đến” – nhẹ hơn; 要 là đã định làm. Khi phủ định ý muốn, thường nói 不想 (我不想去) hơn là 不要.",
+     "examples": [
+      {
+       "zh": "他今天要和小朋友玩。",
+       "vi": "Hôm nay nó định chơi với các bạn."
+      },
+      {
+       "zh": "妈妈要去超市。",
+       "vi": "Mẹ định đi siêu thị."
+      },
+      {
+       "zh": "白家月要在家里学中文。",
+       "vi": "Bạch Gia Nguyệt định học tiếng Trung ở nhà."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我去要超市。",
+       "right": "我要去超市。",
+       "why_vi": "要 đứng TRƯỚC động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chiều nay tôi định đi siêu thị.”",
+       "options": [
+        "今天下午我要去超市。",
+        "今天下午我去要超市。",
+        "今天下午我去超市要。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "玩",
+      "起床",
+      "睡觉"
+     ],
+     "answer": 2,
+     "prompt_zh": "弟弟正在（　）。",
+     "explain_vi": "没起床呢，还在睡觉。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "在",
+      "去",
+      "去不去"
+     ],
+     "answer": 2,
+     "prompt_zh": "爸爸问姐姐，弟弟（　）超市。",
+     "explain_vi": "他今天不去那里？ – bố hỏi em trai có đi siêu thị hay không."
+    }
+   ],
+   "pangdaTip": "那里 (nàli) = chỗ đó; 哪里 (nǎli) = đâu. Chỉ khác thanh điệu! 那里 cũng nói là 那儿, 哪里 cũng nói là 哪儿."
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "你___超市？",
+   "bank": [
+    "那里",
+    "睡觉",
+    "去不去",
+    "要",
+    "正在"
+   ],
+   "answer": "去不去",
+   "explain_vi": "Câu chính phản: 去不去.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "她没在看电视，___学习呢。",
+   "bank": [
+    "那里",
+    "睡觉",
+    "去不去",
+    "要",
+    "正在"
+   ],
+   "answer": "正在",
+   "explain_vi": "正在 + động từ + 呢.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "弟弟：姐姐，我们去___玩吧，好不好？",
+   "bank": [
+    "那里",
+    "睡觉",
+    "去不去",
+    "要",
+    "正在"
+   ],
+   "answer": "那里",
+   "explain_vi": "去那里玩 = đến chỗ đó chơi.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "姐姐：我不去，我___读书。",
+   "bank": [
+    "那里",
+    "睡觉",
+    "去不去",
+    "要",
+    "正在"
+   ],
+   "answer": "要",
+   "explain_vi": "要 + động từ = định làm.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "妈妈：爸爸在做什么？ 孩子：他在___呢。",
+   "bank": [
+    "那里",
+    "睡觉",
+    "去不去",
+    "要",
+    "正在"
+   ],
+   "answer": "睡觉",
+   "explain_vi": "在睡觉呢 = đang ngủ.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "呢",
+    "电视",
+    "正在",
+    "我",
+    "看"
+   ],
+   "answers": [
+    "我正在看电视呢"
+   ],
+   "vi": "Tôi đang xem ti vi.",
+   "explain_vi": "正在 + động từ + 呢.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "没",
+    "去",
+    "你",
+    "学校",
+    "去"
+   ],
+   "answers": [
+    "你去没去学校"
+   ],
+   "vi": "Bạn có đến trường không (đã đi chưa)?",
+   "explain_vi": "Câu chính phản với 没.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "和",
+    "他",
+    "要",
+    "玩",
+    "小朋友"
+   ],
+   "answers": [
+    "他要和小朋友玩"
+   ],
+   "vi": "Nó định chơi với các bạn.",
+   "explain_vi": "要 + 和 + người + động từ.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "开车",
+   "options": [
+    {
+     "emoji": "🚗",
+     "label": "lái xe"
+    },
+    {
+     "emoji": "😴",
+     "label": "ngủ"
+    },
+    {
+     "emoji": "🔍",
+     "label": "tìm"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "开车 = lái xe.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "大学生",
+   "options": [
+    {
+     "emoji": "🎓",
+     "label": "sinh viên"
+    },
+    {
+     "emoji": "🧒",
+     "label": "bạn nhỏ"
+    },
+    {
+     "emoji": "🧑‍⚕️",
+     "label": "bác sĩ"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "大学生 = sinh viên.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "弟弟还在睡觉呢。",
+   "emoji": "😴",
+   "statement_vi": "Em trai đã dậy rồi.",
+   "answer": false,
+   "explain_vi": "还在睡觉 = vẫn đang ngủ.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我没开车，坐车呢。",
+   "emoji": "🚕",
+   "statement_vi": "Người nói không lái xe.",
+   "answer": true,
+   "explain_vi": "没开车 = không lái xe.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🛏️😴",
+   "sentence": "弟弟没起床，还在___。",
+   "options": [
+    "睡觉",
+    "学习",
+    "开车"
+   ],
+   "answer": 0,
+   "explain_vi": "Chưa dậy → vẫn đang ngủ: 还在睡觉.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "你开车没开车？",
+     "a": "我没开车，坐车呢。"
+    },
+    {
+     "q": "你们学习忙不忙？",
+     "a": "非常忙。"
+    },
+    {
+     "q": "弟弟起床没起床？",
+     "a": "没起床呢，还在睡觉。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Bạn có làm không?",
+  "steps_vi": [
+   "Làm việc theo cặp. Lần lượt hỏi nhau bằng câu chính phản: có đi không, có học không, có bận không…",
+   "Hỏi thêm bạn đang làm gì, ngày mai định làm gì.",
+   "Kể lại trước lớp một điều thú vị về bạn mình."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "你去不去吃午饭？",
+    "vi": "Bạn có đi ăn trưa không?"
+   },
+   {
+    "zh": "我不去。",
+    "vi": "Mình không đi."
+   },
+   {
+    "zh": "你在做什么？",
+    "vi": "Bạn đang làm gì?"
+   },
+   {
+    "zh": "我在学中文呢。你学不学？",
+    "vi": "Mình đang học tiếng Trung. Bạn có học không?"
+   },
+   {
+    "zh": "明天你要做什么？",
+    "vi": "Ngày mai bạn định làm gì?"
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "你知道不知道？我知道你知道。",
+  "vi": "Bạn có biết không? Tôi biết là bạn biết. (Luyện zh – d)"
+ },
+ "culture": {
+  "title_vi": "Học đại học ở Trung Quốc",
+  "body_vi": [
+   "Để vào đại học, học sinh Trung Quốc thi 高考 (gāokǎo) – kỳ thi tuyển sinh đại học diễn ra đầu tháng 6 mỗi năm, rất căng thẳng, giống kỳ thi tốt nghiệp THPT ở Việt Nam.",
+   "Phần lớn sinh viên ở ký túc xá (宿舍 sùshè) trong trường, thường 4–6 người một phòng, ăn ở căng tin (食堂 shítáng) với giá rẻ.",
+   "Học y (学医) như Lý Văn là một trong những ngành vất vả nhất: thời gian học dài, nhiều tiết, nhiều kỳ thực tập ở bệnh viện."
+  ],
+  "table": {
+   "head": [
+    "Từ",
+    "Pinyin",
+    "Nghĩa"
+   ],
+   "rows": [
+    [
+     "大学",
+     "dàxué",
+     "trường đại học"
+    ],
+    [
+     "大学生",
+     "dàxuéshēng",
+     "sinh viên"
+    ],
+    [
+     "读大学",
+     "dú dàxué",
+     "học đại học"
+    ],
+    [
+     "学医",
+     "xué yī",
+     "học y"
+    ],
+    [
+     "高考",
+     "gāokǎo",
+     "thi đại học"
+    ]
+   ]
+  }
+ }
 }

@@ -1,35 +1,1116 @@
 {
-  "id": 5,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "今天我休息",
-    "pinyin": "Jīntiān wǒ xiūxi",
-    "vi": "Hôm nay tôi nghỉ"
+ "id": 5,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "今天我休息",
+  "pinyin": "Jīntiān wǒ xiūxi",
+  "vi": "Hôm nay tôi nghỉ"
+ },
+ "grammarTopics_vi": [
+  "Cách nói thời gian (1)",
+  "Câu vị ngữ danh từ",
+  "Động từ năng nguyện 会"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi và nói ngày tháng, thứ theo thứ tự Năm → Tháng → Ngày → Thứ",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Cách nói thời gian (1)",
-    "Câu vị ngữ danh từ",
-    "Động từ năng nguyện 会"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Dùng câu vị ngữ danh từ: 今天星期日, 我妹妹十二岁",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng 会 để nói mình biết làm gì",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Khen đồ vật bằng 真好看, nói sở thích bằng 喜欢",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🗓️",
+   "word": "2025年5月",
+   "pinyin": "èr líng èr wǔ nián wǔ yuè",
+   "vi": "tháng 5 năm 2025"
+  },
+  {
+   "emoji": "1️⃣📅",
+   "word": "星期一",
+   "pinyin": "Xīngqīyī",
+   "vi": "thứ Hai"
+  },
+  {
+   "emoji": "💻",
+   "word": "电脑",
+   "pinyin": "diànnǎo",
+   "vi": "máy tính"
+  },
+  {
+   "emoji": "🍳",
+   "word": "做饭",
+   "pinyin": "zuò fàn",
+   "vi": "nấu ăn"
+  },
+  {
+   "emoji": "😌",
+   "word": "休息",
+   "pinyin": "xiūxi",
+   "vi": "nghỉ ngơi"
+  },
+  {
+   "emoji": "🥟",
+   "word": "饺子",
+   "pinyin": "jiǎozi",
+   "vi": "sủi cảo"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Ở nhà, Lưu Minh và Vương Nhất Tuyết đang trò chuyện.",
+   "scene": "📅",
+   "audio": "audio/hsk1/5-1.mp3",
+   "vocabAudio": "audio/hsk1/5-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Cách nói thời gian (1)",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "今天几号？",
+     "vi": "Hôm nay ngày mấy?",
+     "highlight": [
+      "几号"
+     ],
+     "t": 0.44
     },
     {
-      "id": "o2",
-      "vi": "Câu vị ngữ danh từ",
-      "doneWhen": []
+     "speaker": "liuming",
+     "zh": "今天9月8号。",
+     "vi": "Hôm nay ngày 8 tháng 9.",
+     "highlight": [
+      "9月8号"
+     ],
+     "tipRef": 0,
+     "t": 2.16
     },
     {
-      "id": "o3",
-      "vi": "Động từ năng nguyện 会",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "星期几？",
+     "vi": "Thứ mấy?",
+     "highlight": [
+      "星期几"
+     ],
+     "t": 4.51
+    },
+    {
+     "speaker": "liuming",
+     "zh": "星期日。今天我休息。",
+     "vi": "Chủ nhật. Hôm nay anh nghỉ.",
+     "highlight": [
+      "星期日",
+      "休息"
+     ],
+     "tipRef": 1,
+     "t": 6.33
     }
+   ],
+   "tips": [
+    {
+     "vi": "Cũng nói được là 9月8日. 日 hay dùng khi viết, 号 hay dùng khi nói."
+    },
+    {
+     "vi": "星期日 còn nói là 星期天."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "今天",
+     "pinyin": "jīntiān",
+     "pos": "n.",
+     "vi": "hôm nay",
+     "example": {
+      "zh": "今天我休息。",
+      "vi": "Hôm nay tôi nghỉ."
+     }
+    },
+    {
+     "zh": "号",
+     "pinyin": "hào",
+     "pos": "m.",
+     "vi": "ngày (trong tháng, văn nói)",
+     "example": {
+      "zh": "今天几号？",
+      "vi": "Hôm nay ngày mấy?"
+     }
+    },
+    {
+     "zh": "月",
+     "pinyin": "yuè",
+     "pos": "n.",
+     "vi": "tháng",
+     "example": {
+      "zh": "九月",
+      "vi": "tháng Chín"
+     }
+    },
+    {
+     "zh": "日",
+     "pinyin": "rì",
+     "pos": "m.",
+     "vi": "ngày (văn viết)",
+     "example": {
+      "zh": "9月8日",
+      "vi": "ngày 8 tháng 9"
+     }
+    },
+    {
+     "zh": "星期",
+     "pinyin": "xīngqī",
+     "pos": "n.",
+     "vi": "tuần; thứ",
+     "example": {
+      "zh": "今天星期几？",
+      "vi": "Hôm nay thứ mấy?"
+     }
+    },
+    {
+     "zh": "星期日",
+     "pinyin": "Xīngqīrì",
+     "pos": "n.",
+     "vi": "Chủ nhật",
+     "example": {
+      "zh": "今天星期日。",
+      "vi": "Hôm nay Chủ nhật."
+     }
+    },
+    {
+     "zh": "星期天",
+     "pinyin": "Xīngqītiān",
+     "pos": "n.",
+     "vi": "Chủ nhật (văn nói)",
+     "example": {
+      "zh": "星期天我休息。",
+      "vi": "Chủ nhật tôi nghỉ."
+     }
+    },
+    {
+     "zh": "休息",
+     "pinyin": "xiūxi",
+     "pos": "v.",
+     "vi": "nghỉ, nghỉ ngơi",
+     "example": {
+      "zh": "今天我休息。",
+      "vi": "Hôm nay tôi nghỉ."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g5-1",
+     "title_zh": "时间的表达（1）",
+     "title_vi": "Nói ngày tháng: Năm → Tháng → Ngày → Thứ",
+     "formula": [
+      [
+       {
+        "zh": "2025年",
+        "label": "Năm",
+        "role": "N"
+       },
+       {
+        "zh": "9月",
+        "label": "Tháng",
+        "role": "N"
+       },
+       {
+        "zh": "8号",
+        "label": "Ngày",
+        "role": "N"
+       },
+       {
+        "zh": "星期一",
+        "label": "Thứ",
+        "role": "N"
+       }
+      ]
+     ],
+     "explain_vi": "Tiếng Trung nói thời gian từ LỚN đến NHỎ, ngược hẳn tiếng Việt: “thứ Hai, ngày 8 tháng 9 năm 2025” → 2025年9月8号，星期一. Năm đọc từng chữ số: 2025年 = èr líng èr wǔ nián. Tháng: số + 月 (一月 … 十二月). Ngày: số + 号 (nói) hoặc 日 (viết). Thứ: 星期 + số từ 一 đến 六; Chủ nhật là 星期日 / 星期天. Câu hỏi: 几月？几号？星期几？",
+     "examples": [
+      {
+       "zh": "今天9月8号。",
+       "vi": "Hôm nay ngày 8 tháng 9."
+      },
+      {
+       "zh": "1992年5月16号，星期六",
+       "vi": "Thứ Bảy, ngày 16 tháng 5 năm 1992"
+      },
+      {
+       "zh": "今天是2025年5月22号。",
+       "vi": "Hôm nay là ngày 22 tháng 5 năm 2025."
+      },
+      {
+       "zh": "2024年10月22号，星期二",
+       "vi": "Thứ Ba, ngày 22 tháng 10 năm 2024"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "星期一，9月8号",
+       "right": "9月8号，星期一",
+       "why_vi": "Thứ đứng SAU ngày."
+      },
+      {
+       "wrong": "8号9月",
+       "right": "9月8号",
+       "why_vi": "Tháng trước, ngày sau – từ lớn đến nhỏ."
+      },
+      {
+       "wrong": "thứ Hai = 星期二",
+       "right": "thứ Hai = 星期一",
+       "why_vi": "星期 + 1 là thứ Hai, 星期 + 2 là thứ Ba… Số của 星期 luôn nhỏ hơn “thứ” tiếng Việt 1 đơn vị."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“thứ Tư”",
+       "options": [
+        "星期三",
+        "星期四",
+        "星期二"
+       ],
+       "answer": 0,
+       "explain_vi": "Thứ Tư = 星期三 (lùi 1 số)."
+      },
+      {
+       "prompt_vi": "“ngày 22 tháng 6”",
+       "options": [
+        "6月22号",
+        "22号6月",
+        "22月6号"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "Câu nào đúng thứ tự?",
+       "options": [
+        "星期五，2025年1月3号",
+        "2025年1月3号，星期五",
+        "1月3号2025年，星期五"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "id": "g5-2",
+     "title_zh": "名词谓语句",
+     "title_vi": "Câu vị ngữ danh từ: 今天九月八号",
+     "formula": [
+      [
+       {
+        "zh": "今天",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "9月8号",
+        "label": "Vị ngữ (danh từ)",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "我妹妹",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "十二岁",
+        "label": "Vị ngữ (danh từ)",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "今天",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "不",
+        "label": "không",
+        "role": "ADV"
+       },
+       {
+        "zh": "是",
+        "label": "phải",
+        "role": "V"
+       },
+       {
+        "zh": "星期日",
+        "label": "Danh từ",
+        "role": "O"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Ngày tháng",
+      "Tuổi",
+      "Phủ định: bắt buộc 不是"
+     ],
+     "explain_vi": "Khi nói ngày tháng, thứ, tuổi, vị ngữ có thể chỉ là một danh từ, không cần 是: 今天星期日, 我妹妹十二岁 (thêm 是 cũng đúng: 今天是星期日). Nhưng khi PHỦ ĐỊNH thì bắt buộc dùng 不是: 今天不是星期日 – không nói 今天不星期日.",
+     "examples": [
+      {
+       "zh": "今天5月1号。",
+       "vi": "Hôm nay ngày 1 tháng 5."
+      },
+      {
+       "zh": "我妹妹12岁。",
+       "vi": "Em gái tôi 12 tuổi."
+      },
+      {
+       "zh": "今天不是星期一。",
+       "vi": "Hôm nay không phải thứ Hai."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "今天不星期日。",
+       "right": "今天不是星期日。",
+       "why_vi": "Phủ định câu vị ngữ danh từ phải có 不是."
+      },
+      {
+       "wrong": "他五岁今年。",
+       "right": "他今年五岁。",
+       "why_vi": "Từ chỉ thời gian 今年 đứng trước tuổi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Hôm nay không phải thứ Bảy.”",
+       "options": [
+        "今天不星期六。",
+        "今天不是星期六。",
+        "今天星期六不。"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "Mẹo nhớ thứ: lấy “thứ” tiếng Việt trừ đi 1 là ra số sau 星期. Thứ Hai → 星期一, thứ Bảy → 星期六. Riêng Chủ nhật là 星期日 / 星期天."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Ở công ty, Vương Nhất Tuyết và Dương Đồng Lạc nói chuyện lúc giải lao.",
+   "scene": "🍳",
+   "audio": "audio/hsk1/5-3.mp3",
+   "vocabAudio": "audio/hsk1/5-4.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "会",
+      "不",
+      "不会"
+     ],
+     "answer": 0,
+     "prompt_zh": "杨同乐（　）做饭。",
+     "explain_vi": "你会做饭吗？——我会做。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "星期三",
+      "星期六",
+      "星期日"
+     ],
+     "answer": 2,
+     "prompt_zh": "杨同乐（　）也做饭。",
+     "explain_vi": "Trong bài nói 星期天 – chính là 星期日."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "你会做饭吗？",
+     "vi": "Cậu biết nấu ăn không?",
+     "highlight": [
+      "会"
+     ],
+     "t": 0.25
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我会做。",
+     "vi": "Mình biết.",
+     "highlight": [
+      "会"
+     ],
+     "t": 2.42
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "你会做什么？",
+     "vi": "Cậu biết nấu món gì?",
+     "t": 4.03
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我会做面条儿、饺子，也会做一些菜。星期天我也做饭。",
+     "vi": "Mình biết làm mì, sủi cảo, cũng biết nấu vài món. Chủ nhật mình cũng nấu ăn.",
+     "highlight": [
+      "一些"
+     ],
+     "t": 6.08
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "会",
+     "pinyin": "huì",
+     "pos": "mod.",
+     "vi": "biết (làm gì, nhờ học mà biết)",
+     "example": {
+      "zh": "我会做饭。",
+      "vi": "Tôi biết nấu ăn."
+     }
+    },
+    {
+     "zh": "做饭",
+     "pinyin": "zuò fàn",
+     "pos": "v.",
+     "vi": "nấu cơm, nấu ăn",
+     "example": {
+      "zh": "你会做饭吗？",
+      "vi": "Bạn có biết nấu ăn không?"
+     }
+    },
+    {
+     "zh": "做",
+     "pinyin": "zuò",
+     "pos": "v.",
+     "vi": "làm, nấu",
+     "example": {
+      "zh": "你会做什么？",
+      "vi": "Bạn biết làm món gì?"
+     }
+    },
+    {
+     "zh": "面条儿",
+     "pinyin": "miàntiáor",
+     "pos": "n.",
+     "vi": "mì sợi",
+     "example": {
+      "zh": "我会做面条儿。",
+      "vi": "Tôi biết làm mì."
+     }
+    },
+    {
+     "zh": "饺子",
+     "pinyin": "jiǎozi",
+     "pos": "n.",
+     "vi": "sủi cảo, há cảo",
+     "example": {
+      "zh": "这是饺子。",
+      "vi": "Đây là sủi cảo."
+     }
+    },
+    {
+     "zh": "一些",
+     "pinyin": "yìxiē",
+     "pos": "num.-m.",
+     "vi": "một ít, một vài",
+     "example": {
+      "zh": "一些菜",
+      "vi": "vài món ăn"
+     }
+    },
+    {
+     "zh": "菜",
+     "pinyin": "cài",
+     "pos": "n.",
+     "vi": "món ăn",
+     "example": {
+      "zh": "我会做一些菜。",
+      "vi": "Tôi biết nấu vài món."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g5-3",
+     "title_zh": "能愿动词“会”",
+     "title_vi": "会: biết (làm gì) nhờ học",
+     "formula": [
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "会",
+        "label": "biết",
+        "role": "ADV"
+       },
+       {
+        "zh": "做",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "饺子",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "不会",
+        "label": "không biết",
+        "role": "ADV"
+       },
+       {
+        "zh": "做",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "菜",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Khẳng định",
+      "Phủ định: 不会"
+     ],
+     "explain_vi": "会 + động từ = biết làm việc gì đó nhờ học hoặc luyện tập: biết nấu ăn, biết lái xe, biết nói tiếng Trung. Phủ định: 不会. Hỏi: 你会……吗？ – trả lời ngắn: 会 / 不会. Lưu ý: “biết một thông tin” (biết tên ai, biết nhà ở đâu) KHÔNG dùng 会.",
+     "examples": [
+      {
+       "zh": "你会做饭吗？",
+       "vi": "Bạn có biết nấu ăn không?"
+      },
+      {
+       "zh": "我会做面条儿。",
+       "vi": "Tôi biết làm mì."
+      },
+      {
+       "zh": "我不会做菜。",
+       "vi": "Tôi không biết nấu món ăn."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我没会做饭。",
+       "right": "我不会做饭。",
+       "why_vi": "Phủ định của 会 là 不会."
+      },
+      {
+       "wrong": "我会饺子。",
+       "right": "我会做饺子。",
+       "why_vi": "Sau 会 cần có động từ (做)."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Bạn biết làm sủi cảo không?”",
+       "options": [
+        "你会做饺子吗？",
+        "你做会饺子吗？",
+        "你会饺子吗？"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "“Mẹ tôi không biết nấu ăn.”",
+       "options": [
+        "我妈妈没会做饭。",
+        "我妈妈不会做饭。",
+        "我妈妈会不做饭。"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "做饭 nghĩa rộng là “nấu ăn” nói chung, không chỉ nấu cơm. Muốn hỏi món cụ thể: 你会做什么？"
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ở công ty, Vương Nhất Tuyết và Dương Đồng Lạc nói chuyện lúc tan làm.",
+   "scene": "💻",
+   "audio": "audio/hsk1/5-5.mp3",
+   "vocabAudio": "audio/hsk1/5-6.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上班",
+      "下班",
+      "休息"
+     ],
+     "answer": 1,
+     "prompt_zh": "杨同乐也（　）。",
+     "explain_vi": "同乐，下班吗？——下班。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "名字",
+      "工作",
+      "电脑"
+     ],
+     "answer": 2,
+     "prompt_zh": "杨同乐有一个新（　）。",
+     "explain_vi": "是的，是我的新电脑。"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "同乐，下班吗？",
+     "vi": "Đồng Lạc, về chưa?",
+     "highlight": [
+      "下班"
+     ],
+     "t": 0.62
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "下班。",
+     "vi": "Về đây.",
+     "t": 2.66
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "这是你的新电脑吗？",
+     "vi": "Đây là máy tính mới của cậu à?",
+     "highlight": [
+      "新电脑"
+     ],
+     "t": 4.22
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "是的，是我的新电脑。",
+     "vi": "Đúng rồi, máy tính mới của mình.",
+     "t": 6.23
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "真好看！",
+     "vi": "Đẹp thật đấy!",
+     "highlight": [
+      "真",
+      "好看"
+     ],
+     "t": 9.21
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我也很喜欢它。",
+     "vi": "Mình cũng rất thích nó.",
+     "highlight": [
+      "喜欢",
+      "它"
+     ],
+     "t": 10.44
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "下班",
+     "pinyin": "xiàbān",
+     "pos": "v.",
+     "vi": "tan làm",
+     "example": {
+      "zh": "你下班吗？",
+      "vi": "Bạn tan làm chưa?"
+     }
+    },
+    {
+     "zh": "新",
+     "pinyin": "xīn",
+     "pos": "adj.",
+     "vi": "mới",
+     "example": {
+      "zh": "新电脑",
+      "vi": "máy tính mới"
+     }
+    },
+    {
+     "zh": "电脑",
+     "pinyin": "diànnǎo",
+     "pos": "n.",
+     "vi": "máy tính",
+     "example": {
+      "zh": "这是我的电脑。",
+      "vi": "Đây là máy tính của tôi."
+     }
+    },
+    {
+     "zh": "真",
+     "pinyin": "zhēn",
+     "pos": "adv.",
+     "vi": "thật, thật là",
+     "example": {
+      "zh": "真好看！",
+      "vi": "Đẹp thật!"
+     }
+    },
+    {
+     "zh": "好看",
+     "pinyin": "hǎokàn",
+     "pos": "adj.",
+     "vi": "đẹp, ưa nhìn",
+     "example": {
+      "zh": "你的电脑真好看！",
+      "vi": "Máy tính của bạn đẹp thật!"
+     }
+    },
+    {
+     "zh": "喜欢",
+     "pinyin": "xǐhuan",
+     "pos": "v.",
+     "vi": "thích",
+     "example": {
+      "zh": "我很喜欢它。",
+      "vi": "Tôi rất thích nó."
+     }
+    },
+    {
+     "zh": "它",
+     "pinyin": "tā",
+     "pos": "pron.",
+     "vi": "nó (chỉ đồ vật, con vật)",
+     "example": {
+      "zh": "我也很喜欢它。",
+      "vi": "Tôi cũng rất thích nó."
+     }
+    }
+   ],
+   "pangdaTip": "他 (anh ấy), 她 (cô ấy), 它 (nó – đồ vật, con vật) đều đọc là tā! Chỉ khác nhau khi viết."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "今天___。",
+   "bank": [
+    "菜",
+    "喜欢",
+    "6月22号",
+    "新",
+    "真"
+   ],
+   "answer": "6月22号",
+   "explain_vi": "Câu vị ngữ danh từ: 今天6月22号."
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "杨同乐有一个___电脑。",
+   "bank": [
+    "菜",
+    "喜欢",
+    "6月22号",
+    "新",
+    "真"
+   ],
+   "answer": "新",
+   "explain_vi": "新电脑 = máy tính mới."
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "王一雪：你会做这两个___吗？",
+   "bank": [
+    "菜",
+    "喜欢",
+    "6月22号",
+    "新",
+    "真"
+   ],
+   "answer": "菜",
+   "explain_vi": "两个菜 = hai món ăn."
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "王一雪：你的电脑___好看！",
+   "bank": [
+    "菜",
+    "喜欢",
+    "6月22号",
+    "新",
+    "真"
+   ],
+   "answer": "真",
+   "explain_vi": "真好看 = đẹp thật."
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "杨同乐：我也很___它。",
+   "bank": [
+    "菜",
+    "喜欢",
+    "6月22号",
+    "新",
+    "真"
+   ],
+   "answer": "喜欢",
+   "explain_vi": "很喜欢 = rất thích."
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "几",
+    "今天",
+    "号"
+   ],
+   "answers": [
+    "今天几号"
+   ],
+   "vi": "Hôm nay ngày mấy?",
+   "explain_vi": "几号 hỏi ngày."
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "会",
+    "饺子",
+    "我",
+    "做"
+   ],
+   "answers": [
+    "我会做饺子"
+   ],
+   "vi": "Tôi biết làm sủi cảo.",
+   "explain_vi": "会 + động từ + tân ngữ."
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "不",
+    "今天",
+    "星期日",
+    "是"
+   ],
+   "answers": [
+    "今天不是星期日"
+   ],
+   "vi": "Hôm nay không phải Chủ nhật.",
+   "explain_vi": "Phủ định câu vị ngữ danh từ: 不是."
+  },
+  {
+   "id": "e9",
+   "kind": "listenPick",
+   "audioText": "星期三",
+   "options": [
+    {
+     "emoji": "📅",
+     "label": "thứ Tư"
+    },
+    {
+     "emoji": "📅",
+     "label": "thứ Ba"
+    },
+    {
+     "emoji": "📅",
+     "label": "thứ Năm"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "星期三 = thứ Tư (星期 + 3)."
+  },
+  {
+   "id": "e10",
+   "kind": "listenPick",
+   "audioText": "饺子",
+   "options": [
+    {
+     "emoji": "🥟",
+     "label": "sủi cảo"
+    },
+    {
+     "emoji": "🍜",
+     "label": "mì"
+    },
+    {
+     "emoji": "💻",
+     "label": "máy tính"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "饺子 = sủi cảo."
+  },
+  {
+   "id": "e11",
+   "kind": "listenTF",
+   "audioText": "今天星期日，我休息。",
+   "emoji": "😴",
+   "statement_vi": "Hôm nay người nói đi làm.",
+   "answer": false,
+   "explain_vi": "我休息 = tôi nghỉ."
+  },
+  {
+   "id": "e12",
+   "kind": "listenTF",
+   "audioText": "我不会做饭。",
+   "emoji": "🍳",
+   "statement_vi": "Người nói không biết nấu ăn.",
+   "answer": true,
+   "explain_vi": "不会做饭 = không biết nấu ăn."
+  },
+  {
+   "id": "e13",
+   "kind": "pictureComplete",
+   "emoji": "🧑‍🍳🍜🥟",
+   "sentence": "杨同乐会___。",
+   "options": [
+    "做饭",
+    "休息",
+    "下班"
+   ],
+   "answer": 0,
+   "explain_vi": "Đang nấu mì, sủi cảo → 会做饭."
+  },
+  {
+   "id": "e14",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "今天几号？",
+     "a": "今天9月8号。"
+    },
+    {
+     "q": "今天星期几？",
+     "a": "今天星期日。"
+    },
+    {
+     "q": "你会做饭吗？",
+     "a": "我会做。"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Ai biết làm gì?",
+  "steps_vi": [
+   "Chia nhóm 4–5 người. Một bạn cầm thẻ từ (做饭, 做饺子, 做面条儿, 做菜…) và hỏi cả nhóm.",
+   "Các bạn khác giành quyền trả lời 会 hoặc 不会 thật nhanh.",
+   "Ai trả lời được ít nhất sẽ cầm thẻ và hỏi ở lượt tiếp theo."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "你们会做饭吗？",
+    "vi": "Các bạn biết nấu ăn không?"
+   },
+   {
+    "zh": "我会。",
+    "vi": "Mình biết."
+   },
+   {
+    "zh": "你们会做这个菜吗？",
+    "vi": "Các bạn biết nấu món này không?"
+   },
+   {
+    "zh": "我不会做。",
+    "vi": "Mình không biết làm."
+   },
+   {
+    "zh": "你会做什么？我会做面条儿。",
+    "vi": "Bạn biết làm món gì? Mình biết làm mì."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "做饭做面条儿，做菜做饺子。",
+  "vi": "Nấu ăn làm mì sợi, nấu món làm sủi cảo. (Luyện z – zh – j và âm cuốn lưỡi -r)"
+ },
+ "culture": {
+  "title_vi": "Thứ trong tuần và món sủi cảo",
+  "body_vi": [
+   "Cách gọi thứ của tiếng Trung rất dễ: 星期 + số. Nhưng người Việt hay nhầm vì “thứ Hai” lại là 星期一. Cứ nhớ: lấy “thứ” tiếng Việt trừ 1. Chủ nhật là 星期日 hoặc 星期天 – không phải 星期七!",
+   "Ghi ngày tháng thì đi từ lớn đến nhỏ: năm → tháng → ngày → thứ. Trên lịch, giấy tờ ở Trung Quốc bạn sẽ gặp kiểu ghi 2025年9月8日.",
+   "饺子 (sủi cảo) là món ăn gia đình quen thuộc ở miền Bắc Trung Quốc. Đêm giao thừa cả nhà quây quần gói sủi cảo; chiếc sủi cảo có hình giống thỏi bạc ngày xưa nên được xem là mang lại may mắn, tiền tài cho năm mới."
+  ],
+  "table": {
+   "head": [
+    "Tiếng Việt",
+    "Chữ Hán",
+    "Pinyin"
+   ],
+   "rows": [
+    [
+     "Thứ Hai",
+     "星期一",
+     "Xīngqīyī"
+    ],
+    [
+     "Thứ Ba",
+     "星期二",
+     "Xīngqī'èr"
+    ],
+    [
+     "Thứ Tư",
+     "星期三",
+     "Xīngqīsān"
+    ],
+    [
+     "Thứ Năm",
+     "星期四",
+     "Xīngqīsì"
+    ],
+    [
+     "Thứ Sáu",
+     "星期五",
+     "Xīngqīwǔ"
+    ],
+    [
+     "Thứ Bảy",
+     "星期六",
+     "Xīngqīliù"
+    ],
+    [
+     "Chủ nhật",
+     "星期日 / 星期天",
+     "Xīngqīrì / Xīngqītiān"
+    ]
+   ]
+  }
+ }
 }

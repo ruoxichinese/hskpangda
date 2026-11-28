@@ -1,167 +1,1285 @@
 {
-  "id": 7,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "我晚上六点半下班",
-    "pinyin": "Wǒ wǎnshang liù diǎn bàn xiàbān",
-    "vi": "Tôi tan làm lúc 6 rưỡi tối"
+ "id": 7,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "我晚上六点半下班",
+  "pinyin": "Wǒ wǎnshang liù diǎn bàn xiàbān",
+  "vi": "Tôi tan làm lúc 6 rưỡi tối"
+ },
+ "grammarTopics_vi": [
+  "Cách nói thời gian (2)",
+  "Trợ từ 吧 (1)",
+  "Vị trí phó từ và từ chỉ thời gian làm trạng ngữ",
+  "Trợ từ 呢 (2)",
+  "Hệ thống chữ Hán"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Nói giờ bằng 点, 分, 半 và các buổi 上午 / 下午 / 晚上",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Cách nói thời gian (2)",
-    "Trợ từ 吧 (1)",
-    "Vị trí phó từ và từ chỉ thời gian làm trạng ngữ",
-    "Trợ từ 呢 (2)",
-    "Hệ thống chữ Hán"
-  ],
-  "objectives": [
-    {
-      "id": "o1",
-      "vi": "Cách nói thời gian (2)",
-      "doneWhen": []
-    },
-    {
-      "id": "o2",
-      "vi": "Trợ từ 吧 (1)",
-      "doneWhen": []
-    },
-    {
-      "id": "o3",
-      "vi": "Vị trí phó từ và từ chỉ thời gian làm trạng ngữ",
-      "doneWhen": []
-    },
-    {
-      "id": "o4",
-      "vi": "Trợ từ 呢 (2)",
-      "doneWhen": []
-    },
-    {
-      "id": "o5",
-      "vi": "Hệ thống chữ Hán",
-      "doneWhen": []
-    },
-    {
-      "id": "oh",
-      "vi": "Hiểu nét cơ bản và quy tắc viết chữ Hán",
-      "doneWhen": [
-        "hanzi"
-      ]
-    }
-  ],
-  "warmup": [],
-  "texts": [],
-  "exercises": [],
-  "hanziIntro": {
-    "strokes": [
-      {
-        "name_vi": "Ngang",
-        "zh": "横 héng",
-        "sample": "一"
-      },
-      {
-        "name_vi": "Sổ (dọc)",
-        "zh": "竖 shù",
-        "sample": "十"
-      },
-      {
-        "name_vi": "Phẩy",
-        "zh": "撇 piě",
-        "sample": "人"
-      },
-      {
-        "name_vi": "Mác",
-        "zh": "捺 nà",
-        "sample": "八"
-      },
-      {
-        "name_vi": "Chấm",
-        "zh": "点 diǎn",
-        "sample": "六"
-      },
-      {
-        "name_vi": "Hất",
-        "zh": "提 tí",
-        "sample": "我"
-      },
-      {
-        "name_vi": "Ngang gập",
-        "zh": "横折 héngzhé",
-        "sample": "口"
-      },
-      {
-        "name_vi": "Sổ móc",
-        "zh": "竖钩 shùgōu",
-        "sample": "小"
-      }
-    ],
-    "rules": [
-      {
-        "title_vi": "Ngang trước, sổ sau",
-        "body_vi": "Nét ngang viết trước nét sổ khi chúng cắt nhau.",
-        "example": "十"
-      },
-      {
-        "title_vi": "Phẩy trước, mác sau",
-        "body_vi": "Nét phẩy (xiên trái) viết trước nét mác (xiên phải).",
-        "example": "人"
-      },
-      {
-        "title_vi": "Trên trước, dưới sau",
-        "body_vi": "Viết từ trên xuống dưới.",
-        "example": "三"
-      },
-      {
-        "title_vi": "Trái trước, phải sau",
-        "body_vi": "Viết bộ bên trái rồi đến bên phải.",
-        "example": "你"
-      },
-      {
-        "title_vi": "Ngoài trước, trong sau",
-        "body_vi": "Viết khung ngoài trước rồi phần bên trong.",
-        "example": "月"
-      },
-      {
-        "title_vi": "Vào nhà rồi đóng cửa",
-        "body_vi": "Với chữ có khung kín, viết khung, viết phần trong, rồi mới đóng nét đáy.",
-        "example": "国"
-      },
-      {
-        "title_vi": "Giữa trước, hai bên sau",
-        "body_vi": "Phần giữa viết trước, hai bên đối xứng viết sau.",
-        "example": "小"
-      }
-    ],
-    "radicals": [
-      {
-        "r": "亻",
-        "meaning_vi": "người (nhân đứng)",
-        "examples": "你 · 们 · 他"
-      },
-      {
-        "r": "女",
-        "meaning_vi": "phụ nữ",
-        "examples": "她 · 妈 · 姐"
-      },
-      {
-        "r": "口",
-        "meaning_vi": "miệng",
-        "examples": "吗 · 叫 · 哪"
-      },
-      {
-        "r": "讠",
-        "meaning_vi": "lời nói",
-        "examples": "谁 · 请 · 认识"
-      },
-      {
-        "r": "氵",
-        "meaning_vi": "nước (ba chấm thủy)",
-        "examples": "没 · 法 · 汉"
-      },
-      {
-        "r": "心 / 忄",
-        "meaning_vi": "tim, tình cảm",
-        "examples": "您 · 想 · 忙"
-      }
-    ]
+  {
+   "id": "o2",
+   "vi": "Rủ rê, đề nghị bằng 吧",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Đặt phó từ và từ chỉ thời gian trước động từ",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Khẳng định sự việc bằng 呢 cuối câu",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  },
+  {
+   "id": "oh",
+   "vi": "Hiểu nét cơ bản và quy tắc viết chữ Hán",
+   "doneWhen": [
+    "hanzi"
+   ]
   }
+ ],
+ "warmup": [
+  {
+   "emoji": "8:15",
+   "word": "八点十五",
+   "pinyin": "bā diǎn shíwǔ",
+   "vi": "8 giờ 15"
+  },
+  {
+   "emoji": "15:20",
+   "word": "下午三点二十",
+   "pinyin": "xiàwǔ sān diǎn èrshí",
+   "vi": "3 giờ 20 chiều"
+  },
+  {
+   "emoji": "10:10",
+   "word": "十点十分",
+   "pinyin": "shí diǎn shí fēn",
+   "vi": "10 giờ 10 phút"
+  },
+  {
+   "emoji": "13:45",
+   "word": "下午一点四十五",
+   "pinyin": "xiàwǔ yī diǎn sìshíwǔ",
+   "vi": "1 giờ 45 chiều"
+  },
+  {
+   "emoji": "12:30",
+   "word": "十二点半",
+   "pinyin": "shí'èr diǎn bàn",
+   "vi": "12 giờ rưỡi"
+  },
+  {
+   "emoji": "18:00",
+   "word": "晚上六点",
+   "pinyin": "wǎnshang liù diǎn",
+   "vi": "6 giờ tối"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Bạch Gia Nguyệt và Annie đang nói chuyện điện thoại.",
+   "scene": "📞",
+   "audio": "audio/hsk1/7-1.mp3",
+   "vocabAudio": "audio/hsk1/7-2.mp3",
+   "lines": [
+    {
+     "speaker": "baijiayue",
+     "zh": "现在几点？",
+     "vi": "Bây giờ mấy giờ rồi?",
+     "highlight": [
+      "几点"
+     ],
+     "t": 0.69
+    },
+    {
+     "speaker": "anni",
+     "zh": "早上八点四十。",
+     "vi": "8 giờ 40 sáng.",
+     "highlight": [
+      "八点四十"
+     ],
+     "t": 3.53
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我上午十点十分有课。",
+     "vi": "10 giờ 10 sáng mình có tiết học.",
+     "highlight": [
+      "十点十分"
+     ],
+     "t": 6.42
+    },
+    {
+     "speaker": "anni",
+     "zh": "好的，我们下午两点见吧。",
+     "vi": "Được, vậy 2 giờ chiều mình gặp nhau nhé.",
+     "highlight": [
+      "吧"
+     ],
+     "t": 10.44
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "现在",
+     "pinyin": "xiànzài",
+     "pos": "n.",
+     "vi": "bây giờ",
+     "example": {
+      "zh": "现在几点？",
+      "vi": "Bây giờ mấy giờ?"
+     }
+    },
+    {
+     "zh": "点",
+     "pinyin": "diǎn",
+     "pos": "m.",
+     "vi": "giờ",
+     "example": {
+      "zh": "八点",
+      "vi": "8 giờ"
+     }
+    },
+    {
+     "zh": "早上",
+     "pinyin": "zǎoshang",
+     "pos": "n.",
+     "vi": "buổi sáng (sớm)",
+     "example": {
+      "zh": "早上八点",
+      "vi": "8 giờ sáng"
+     }
+    },
+    {
+     "zh": "上午",
+     "pinyin": "shàngwǔ",
+     "pos": "n.",
+     "vi": "buổi sáng (trước trưa)",
+     "example": {
+      "zh": "我上午有课。",
+      "vi": "Buổi sáng tôi có tiết học."
+     }
+    },
+    {
+     "zh": "分",
+     "pinyin": "fēn",
+     "pos": "m.",
+     "vi": "phút",
+     "example": {
+      "zh": "十点十分",
+      "vi": "10 giờ 10 phút"
+     }
+    },
+    {
+     "zh": "课",
+     "pinyin": "kè",
+     "pos": "n.",
+     "vi": "tiết học, bài học",
+     "example": {
+      "zh": "我上午有课。",
+      "vi": "Buổi sáng tôi có tiết học."
+     }
+    },
+    {
+     "zh": "下午",
+     "pinyin": "xiàwǔ",
+     "pos": "n.",
+     "vi": "buổi chiều",
+     "example": {
+      "zh": "下午两点",
+      "vi": "2 giờ chiều"
+     }
+    },
+    {
+     "zh": "见",
+     "pinyin": "jiàn",
+     "pos": "v.",
+     "vi": "gặp",
+     "example": {
+      "zh": "我们下午见吧。",
+      "vi": "Chiều gặp nhé."
+     }
+    },
+    {
+     "zh": "吧",
+     "pinyin": "ba",
+     "pos": "part.",
+     "vi": "nhé, đi (đề nghị, rủ rê)",
+     "example": {
+      "zh": "我们去超市吧。",
+      "vi": "Chúng ta đi siêu thị nhé."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g7-1",
+     "title_zh": "时间的表达（2）",
+     "title_vi": "Nói giờ: 点, 分, 半 và các buổi trong ngày",
+     "formula": [
+      [
+       {
+        "zh": "上午",
+        "label": "Buổi",
+        "role": "N"
+       },
+       {
+        "zh": "十点",
+        "label": "Giờ",
+        "role": "N"
+       },
+       {
+        "zh": "十分",
+        "label": "Phút",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "晚上",
+        "label": "Buổi",
+        "role": "N"
+       },
+       {
+        "zh": "六点",
+        "label": "Giờ",
+        "role": "N"
+       },
+       {
+        "zh": "半",
+        "label": "rưỡi",
+        "role": "N"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "10:10 sáng",
+      "6 rưỡi tối"
+     ],
+     "explain_vi": "点 = giờ, 分 = phút. Giờ chẵn chỉ cần 点: 九点. Có phút thì có thể bỏ 分: 十五点四十 (15:40). Nhưng đúng 10 phút phải giữ 分 (十点十分), còn phút dưới 10 phải đọc 零: 22:05 = 二十二点零五. 30 phút nói 半: 六点半. 2 giờ là 两点, không nói 二点. Buổi (上午, 中午, 下午, 晚上) đặt TRƯỚC giờ: 晚上九点十分 – tiếng Việt nói “9 giờ 10 tối”, thứ tự ngược lại. Hỏi giờ: 现在几点？",
+     "examples": [
+      {
+       "zh": "现在早上八点四十。",
+       "vi": "Bây giờ là 8 giờ 40 sáng."
+      },
+      {
+       "zh": "二十二点零五",
+       "vi": "22:05"
+      },
+      {
+       "zh": "下午两点半",
+       "vi": "2 giờ rưỡi chiều"
+      },
+      {
+       "zh": "晚上九点十分",
+       "vi": "9 giờ 10 tối"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "八点四十早上",
+       "right": "早上八点四十",
+       "why_vi": "Buổi đứng TRƯỚC giờ."
+      },
+      {
+       "wrong": "二点",
+       "right": "两点",
+       "why_vi": "2 giờ nói là 两点."
+      },
+      {
+       "wrong": "十点十 (muốn nói 10:10)",
+       "right": "十点十分",
+       "why_vi": "Đúng 10 phút thì không bỏ 分."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“9 giờ 5 phút sáng”",
+       "options": [
+        "上午九点零五",
+        "上午九点五",
+        "九点零五上午"
+       ],
+       "answer": 0,
+       "explain_vi": "Phút dưới 10 đọc 零."
+      },
+      {
+       "prompt_vi": "“2 giờ rưỡi chiều”",
+       "options": [
+        "下午两点半",
+        "下午二点半",
+        "两点半下午"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g7-2",
+     "title_zh": "语气助词“吧”（1）",
+     "title_vi": "Trợ từ 吧: đề nghị, rủ rê (… nhé)",
+     "formula": [
+      [
+       {
+        "zh": "我们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "下午两点",
+        "label": "Thời gian",
+        "role": "ADV"
+       },
+       {
+        "zh": "见",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "吧",
+        "label": "nhé",
+        "role": "PART"
+       }
+      ]
+     ],
+     "explain_vi": "吧 (đọc nhẹ: ba) đặt cuối câu để đề nghị, rủ rê, khuyên hoặc nhờ một cách nhẹ nhàng – giống “nhé”, “đi” trong tiếng Việt. 我们……吧 = mình … nhé; 你……吧 = bạn … đi.",
+     "examples": [
+      {
+       "zh": "我们下午三点见吧。",
+       "vi": "Chúng ta gặp nhau lúc 3 giờ chiều nhé."
+      },
+      {
+       "zh": "你去超市买吧。",
+       "vi": "Bạn đi siêu thị mua đi."
+      },
+      {
+       "zh": "我们去西安饭店吃晚饭吧。",
+       "vi": "Mình đến nhà hàng Tây An ăn tối nhé."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我们吧去超市。",
+       "right": "我们去超市吧。",
+       "why_vi": "吧 luôn đứng cuối câu."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chúng ta đi xem phim nhé.”",
+       "options": [
+        "我们去看电影吧。",
+        "我们吧去看电影。",
+        "我们去吧看电影。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "Gọi điện hẹn gặp, người Trung Quốc rất hay kết thúc bằng ……见吧: 明天见吧, 下午两点见吧."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Trong sân trường, Lý Văn gặp Bạch Gia Nguyệt.",
+   "scene": "🎬",
+   "audio": "audio/hsk1/7-3.mp3",
+   "vocabAudio": "audio/hsk1/7-4.mp3",
+   "lines": [
+    {
+     "speaker": "liwen",
+     "zh": "下午我想去电影院看电影，你去吗？",
+     "vi": "Chiều nay mình muốn đi rạp xem phim, cậu đi không?",
+     "t": 0.66
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我不想去，下午还有事。",
+     "vi": "Mình không muốn đi, chiều nay mình còn có việc.",
+     "highlight": [
+      "还"
+     ],
+     "t": 6.32
+    },
+    {
+     "speaker": "liwen",
+     "zh": "好的。明天呢？",
+     "vi": "Ừ. Thế mai thì sao?",
+     "t": 10.55
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我明天下午两点还上课呢，四点半下课。",
+     "vi": "Chiều mai 2 giờ mình còn có tiết đấy, 4 rưỡi mới tan học.",
+     "highlight": [
+      "呢",
+      "四点半"
+     ],
+     "t": 13.45
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "电影院",
+     "pinyin": "diànyǐngyuàn",
+     "pos": "n.",
+     "vi": "rạp chiếu phim",
+     "example": {
+      "zh": "我去电影院。",
+      "vi": "Tôi đi rạp chiếu phim."
+     }
+    },
+    {
+     "zh": "看",
+     "pinyin": "kàn",
+     "pos": "v.",
+     "vi": "xem, nhìn, đọc",
+     "example": {
+      "zh": "看电影",
+      "vi": "xem phim"
+     }
+    },
+    {
+     "zh": "电影",
+     "pinyin": "diànyǐng",
+     "pos": "n.",
+     "vi": "phim",
+     "example": {
+      "zh": "你想看电影吗？",
+      "vi": "Bạn muốn xem phim không?"
+     }
+    },
+    {
+     "zh": "事",
+     "pinyin": "shì",
+     "pos": "n.",
+     "vi": "việc",
+     "example": {
+      "zh": "我下午有事。",
+      "vi": "Chiều nay tôi có việc."
+     }
+    },
+    {
+     "zh": "上课",
+     "pinyin": "shàngkè",
+     "pos": "v.",
+     "vi": "vào học, lên lớp",
+     "example": {
+      "zh": "我两点上课。",
+      "vi": "Tôi vào học lúc 2 giờ."
+     }
+    },
+    {
+     "zh": "呢",
+     "pinyin": "ne",
+     "pos": "part.",
+     "vi": "đấy, mà (khẳng định sự việc)",
+     "example": {
+      "zh": "我还上课呢。",
+      "vi": "Tôi còn có tiết đấy."
+     }
+    },
+    {
+     "zh": "半",
+     "pinyin": "bàn",
+     "pos": "num.",
+     "vi": "rưỡi, một nửa",
+     "example": {
+      "zh": "四点半",
+      "vi": "4 giờ rưỡi"
+     }
+    },
+    {
+     "zh": "下课",
+     "pinyin": "xiàkè",
+     "pos": "v.",
+     "vi": "tan học, hết tiết",
+     "example": {
+      "zh": "我四点半下课。",
+      "vi": "Tôi tan học lúc 4 rưỡi."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g7-3",
+     "title_zh": "副词、时间词语作状语的位置",
+     "title_vi": "Phó từ, từ chỉ thời gian đứng TRƯỚC động từ",
+     "formula": [
+      [
+       {
+        "zh": "她",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "上午十点半",
+        "label": "Thời gian",
+        "role": "ADV"
+       },
+       {
+        "zh": "上课",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ],
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "不",
+        "label": "Phó từ",
+        "role": "ADV"
+       },
+       {
+        "zh": "想去",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Phó từ (不, 很, 也, 还…) và từ chỉ thời gian (今天, 下午, 十点…) làm trạng ngữ thì đặt TRƯỚC động từ hoặc tính từ. Từ chỉ thời gian còn có thể đứng đầu câu: 下午我想去电影院 = 我下午想去电影院. Người Việt hay đặt thời gian ở cuối câu (“Tôi đi học lúc 10 giờ”) – trong tiếng Trung như vậy là sai.",
+     "examples": [
+      {
+       "zh": "我不想去。",
+       "vi": "Tôi không muốn đi."
+      },
+      {
+       "zh": "妹妹很高兴。",
+       "vi": "Em gái rất vui."
+      },
+      {
+       "zh": "她上午十点半上课。",
+       "vi": "Cô ấy vào học lúc 10 rưỡi sáng."
+      },
+      {
+       "zh": "下午我想去电影院看电影。",
+       "vi": "Chiều nay tôi muốn đi rạp xem phim."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "她上课上午十点半。",
+       "right": "她上午十点半上课。",
+       "why_vi": "Thời gian đứng trước động từ, không đứng cuối câu."
+      },
+      {
+       "wrong": "我想不去。",
+       "right": "我不想去。",
+       "why_vi": "不 phủ định 想 nên đứng trước 想."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi đi làm lúc 8 giờ.”",
+       "options": [
+        "我八点上班。",
+        "我上班八点。",
+        "八点上班我。"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g7-4",
+     "title_zh": "语气助词“呢”（2）",
+     "title_vi": "Trợ từ 呢 (2): khẳng định sự việc (… đấy)",
+     "formula": [
+      [
+       {
+        "zh": "我明天下午",
+        "label": "Chủ ngữ + thời gian",
+        "role": "S"
+       },
+       {
+        "zh": "还",
+        "label": "còn",
+        "role": "ADV"
+       },
+       {
+        "zh": "上课",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "呢",
+        "label": "đấy",
+        "role": "PART"
+       }
+      ]
+     ],
+     "explain_vi": "呢 ở cuối câu trần thuật (không phải câu hỏi) để khẳng định, nhấn mạnh sự việc với người nghe – giống “đấy”, “mà”. Hay đi với 还: 我还上课呢 = Mình còn có tiết đấy. Khác với 呢 ở bài 4 (你呢？ – hỏi lại “còn bạn?”).",
+     "examples": [
+      {
+       "zh": "我明天下午两点还上课呢。",
+       "vi": "2 giờ chiều mai tôi còn có tiết đấy."
+      },
+      {
+       "zh": "妹妹会做两个菜呢。",
+       "vi": "Em gái còn biết nấu hai món đấy."
+      },
+      {
+       "zh": "李文晚上还有事呢。",
+       "vi": "Tối nay Lý Văn còn có việc đấy."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我还有事呢吗？",
+       "right": "我还有事呢。",
+       "why_vi": "Đây là câu khẳng định, không thêm 吗."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "Câu nào dùng 呢 để KHẲNG ĐỊNH (không phải để hỏi)?",
+       "options": [
+        "我在家里呢。",
+        "你呢？",
+        "你在哪儿呢？"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "超市",
+      "看电影",
+      "西安饭店"
+     ],
+     "answer": 1,
+     "prompt_zh": "李文下午想去（　）。",
+     "explain_vi": "下午我想去电影院看电影。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上课",
+      "有事",
+      "去超市"
+     ],
+     "answer": 0,
+     "prompt_zh": "白家月明天下午还（　）。",
+     "explain_vi": "我明天下午两点还上课呢。 (有事 là chiều HÔM NAY)"
+    }
+   ],
+   "pangdaTip": "还 = vẫn, còn. 还有事 = còn có việc (bận rồi). Đây là cách từ chối lời mời rất tự nhiên."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Vương Nhất Tuyết ở văn phòng gọi điện cho Lưu Minh.",
+   "scene": "🏥",
+   "audio": "audio/hsk1/7-5.mp3",
+   "vocabAudio": "audio/hsk1/7-6.mp3",
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "喂，你在哪儿呢？",
+     "vi": "Alô, anh đang ở đâu đấy?",
+     "t": 0.49
+    },
+    {
+     "speaker": "liuming",
+     "zh": "我在家里呢。",
+     "vi": "Anh đang ở nhà.",
+     "highlight": [
+      "在家里"
+     ],
+     "tipRef": 0,
+     "t": 2.83
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "我晚上六点半下班。",
+     "vi": "Tối nay 6 rưỡi em tan làm.",
+     "t": 4.92
+    },
+    {
+     "speaker": "liuming",
+     "zh": "我八点去医院上班。",
+     "vi": "8 giờ anh đến bệnh viện làm.",
+     "t": 7.82
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "好的，你去店里买些菜吧。",
+     "vi": "Vâng, anh ra cửa hàng mua ít rau nhé.",
+     "t": 10.95
+    },
+    {
+     "speaker": "liuming",
+     "zh": "好，我十分钟后去。",
+     "vi": "Được, mười phút nữa anh đi.",
+     "highlight": [
+      "十分钟后"
+     ],
+     "t": 14.49
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "在",
+     "pinyin": "zài",
+     "pos": "v.",
+     "vi": "ở",
+     "example": {
+      "zh": "我在家里。",
+      "vi": "Tôi ở nhà."
+     }
+    },
+    {
+     "zh": "家",
+     "pinyin": "jiā",
+     "pos": "n.",
+     "vi": "nhà",
+     "example": {
+      "zh": "我在家里呢。",
+      "vi": "Tôi đang ở nhà."
+     }
+    },
+    {
+     "zh": "里",
+     "pinyin": "li",
+     "pos": "n.",
+     "vi": "trong (sau danh từ)",
+     "example": {
+      "zh": "家里",
+      "vi": "trong nhà"
+     },
+     "note_vi": "Sau danh từ đọc nhẹ li; trong 里边 đọc lǐ."
+    },
+    {
+     "zh": "晚上",
+     "pinyin": "wǎnshang",
+     "pos": "n.",
+     "vi": "buổi tối",
+     "example": {
+      "zh": "晚上六点",
+      "vi": "6 giờ tối"
+     }
+    },
+    {
+     "zh": "医院",
+     "pinyin": "yīyuàn",
+     "pos": "n.",
+     "vi": "bệnh viện",
+     "example": {
+      "zh": "我去医院。",
+      "vi": "Tôi đến bệnh viện."
+     }
+    },
+    {
+     "zh": "上班",
+     "pinyin": "shàngbān",
+     "pos": "v.",
+     "vi": "đi làm",
+     "example": {
+      "zh": "我八点上班。",
+      "vi": "Tôi đi làm lúc 8 giờ."
+     }
+    },
+    {
+     "zh": "店",
+     "pinyin": "diàn",
+     "pos": "n.",
+     "vi": "cửa hàng, quán",
+     "example": {
+      "zh": "去店里买菜",
+      "vi": "ra cửa hàng mua rau"
+     }
+    },
+    {
+     "zh": "菜",
+     "pinyin": "cài",
+     "pos": "n.",
+     "vi": "rau; món ăn",
+     "example": {
+      "zh": "买些菜",
+      "vi": "mua ít rau"
+     }
+    },
+    {
+     "zh": "分钟",
+     "pinyin": "fēnzhōng",
+     "pos": "m.",
+     "vi": "phút (khoảng thời gian)",
+     "example": {
+      "zh": "十分钟",
+      "vi": "mười phút"
+     }
+    },
+    {
+     "zh": "后",
+     "pinyin": "hòu",
+     "pos": "n.",
+     "vi": "sau",
+     "example": {
+      "zh": "十分钟后",
+      "vi": "mười phút sau"
+     }
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上班",
+      "买菜",
+      "在家里"
+     ],
+     "answer": 2,
+     "prompt_zh": "刘明（　）呢。",
+     "explain_vi": "我在家里呢。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "五点",
+      "六点",
+      "六点半"
+     ],
+     "answer": 2,
+     "prompt_zh": "王一雪（　）下班。",
+     "explain_vi": "我晚上六点半下班。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "里 đứng sau danh từ (家里, 超市里) thường đọc nhẹ: li. Trong 里边 thì đọc thanh 3: lǐ."
+    }
+   ],
+   "pangdaTip": "分 là điểm giờ (十点十分 – 10 giờ 10 phút); 分钟 là khoảng thời gian (十分钟 – mười phút). 十分钟后 = mười phút nữa."
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "她星期天没有___。",
+   "bank": [
+    "医院",
+    "十二点半",
+    "课",
+    "现在",
+    "见"
+   ],
+   "answer": "课",
+   "explain_vi": "没有课 = không có tiết học.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "我们中午___下课。",
+   "bank": [
+    "医院",
+    "十二点半",
+    "课",
+    "现在",
+    "见"
+   ],
+   "answer": "十二点半",
+   "explain_vi": "Giờ đứng trước động từ: 十二点半下课.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "下午两点___吧。",
+   "bank": [
+    "医院",
+    "十二点半",
+    "课",
+    "现在",
+    "见"
+   ],
+   "answer": "见",
+   "explain_vi": "……见吧 = gặp nhau nhé.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "白家月：对不起，我___有事呢，你去吧。",
+   "bank": [
+    "医院",
+    "十二点半",
+    "课",
+    "现在",
+    "见"
+   ],
+   "answer": "现在",
+   "explain_vi": "现在有事 = bây giờ đang bận.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "王一雪：你今天晚上几点去___上班？",
+   "bank": [
+    "医院",
+    "十二点半",
+    "课",
+    "现在",
+    "见"
+   ],
+   "answer": "医院",
+   "explain_vi": "去医院上班 = đến bệnh viện làm.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "吧",
+    "我们",
+    "超市",
+    "去"
+   ],
+   "answers": [
+    "我们去超市吧"
+   ],
+   "vi": "Chúng ta đi siêu thị nhé.",
+   "explain_vi": "吧 ở cuối câu.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "上午",
+    "我",
+    "有课",
+    "十点"
+   ],
+   "answers": [
+    "我上午十点有课",
+    "上午十点我有课"
+   ],
+   "vi": "10 giờ sáng tôi có tiết học.",
+   "explain_vi": "Thời gian đứng trước động từ.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "还",
+    "呢",
+    "我",
+    "上课",
+    "明天"
+   ],
+   "answers": [
+    "我明天还上课呢",
+    "明天我还上课呢"
+   ],
+   "vi": "Ngày mai tôi còn có tiết đấy.",
+   "explain_vi": "还 + động từ + 呢.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "八点半",
+   "options": [
+    {
+     "emoji": "🕣",
+     "label": "8:30"
+    },
+    {
+     "emoji": "🕗",
+     "label": "8:00"
+    },
+    {
+     "emoji": "🕤",
+     "label": "9:30"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "八点半 = 8 giờ rưỡi.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "电影院",
+   "options": [
+    {
+     "emoji": "🎬",
+     "label": "rạp chiếu phim"
+    },
+    {
+     "emoji": "🏥",
+     "label": "bệnh viện"
+    },
+    {
+     "emoji": "🏪",
+     "label": "cửa hàng"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "电影院 = rạp chiếu phim.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我晚上六点半下班。",
+   "emoji": "🌆",
+   "statement_vi": "Người nói tan làm lúc 6 giờ tối.",
+   "answer": false,
+   "explain_vi": "六点半 = 6 giờ rưỡi.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我们下午两点见吧。",
+   "emoji": "🤝",
+   "statement_vi": "Người nói hẹn gặp lúc 2 giờ chiều.",
+   "answer": true,
+   "explain_vi": "下午两点 = 2 giờ chiều.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🕖",
+   "sentence": "现在七点___。",
+   "options": [
+    "十分",
+    "十",
+    "分十"
+   ],
+   "answer": 0,
+   "explain_vi": "7:10 = 七点十分 – đúng 10 phút thì giữ 分.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "现在几点？",
+     "a": "早上八点四十。"
+    },
+    {
+     "q": "你在哪儿呢？",
+     "a": "我在家里呢。"
+    },
+    {
+     "q": "你几点下班？",
+     "a": "我晚上六点半下班。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Lịch của mình",
+  "steps_vi": [
+   "Chia nhóm ba người. Mỗi người tự điền giờ ăn trưa, giờ nghỉ, giờ tan học của mình.",
+   "Hỏi nhau theo mẫu câu bên dưới.",
+   "Báo cáo trước lớp, ví dụ: 她十二点吃午饭，下午四点下课。"
+  ],
+  "patterns": [
+   {
+    "zh": "你几点吃午饭？",
+    "vi": "Mấy giờ bạn ăn trưa?"
+   },
+   {
+    "zh": "我十二点吃午饭。",
+    "vi": "Mình ăn trưa lúc 12 giờ."
+   },
+   {
+    "zh": "你几点下课？",
+    "vi": "Mấy giờ bạn tan học?"
+   },
+   {
+    "zh": "我下午四点下课。",
+    "vi": "Mình tan học lúc 4 giờ chiều."
+   },
+   {
+    "zh": "我们下午五点见吧。",
+    "vi": "5 giờ chiều mình gặp nhau nhé."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "四点十四分，十点四十分。",
+  "vi": "4 giờ 14 phút, 10 giờ 40 phút. (Luyện phân biệt s – sh)"
+ },
+ "culture": {
+  "title_vi": "Giờ giấc của người Trung Quốc",
+  "body_vi": [
+   "Cả Trung Quốc rộng lớn chỉ dùng MỘT múi giờ – giờ Bắc Kinh (北京时间). Giờ Bắc Kinh nhanh hơn giờ Việt Nam 1 tiếng: 8 giờ ở Hà Nội là 9 giờ ở Bắc Kinh.",
+   "Ở trường học và nhiều công ty, buổi trưa có giờ nghỉ khá dài (午休), nhiều người tranh thủ ngủ trưa – rất giống thói quen của người Việt.",
+   "Trên vé tàu, lịch chiếu phim, giờ thường viết theo kiểu 24 giờ (19:30), nhưng khi nói chuyện người ta vẫn dùng buổi + giờ: 晚上七点半."
+  ],
+  "table": {
+   "head": [
+    "Từ",
+    "Pinyin",
+    "Khoảng giờ"
+   ],
+   "rows": [
+    [
+     "早上",
+     "zǎoshang",
+     "sáng sớm, khoảng 6–9 giờ"
+    ],
+    [
+     "上午",
+     "shàngwǔ",
+     "buổi sáng, đến trước 12 giờ"
+    ],
+    [
+     "中午",
+     "zhōngwǔ",
+     "buổi trưa, khoảng 12–13 giờ"
+    ],
+    [
+     "下午",
+     "xiàwǔ",
+     "buổi chiều, khoảng 13–18 giờ"
+    ],
+    [
+     "晚上",
+     "wǎnshang",
+     "buổi tối, sau 18 giờ"
+    ]
+   ]
+  }
+ },
+ "hanziIntro": {
+  "strokes": [
+   {
+    "name_vi": "Ngang",
+    "zh": "横 héng",
+    "sample": "一"
+   },
+   {
+    "name_vi": "Sổ (dọc)",
+    "zh": "竖 shù",
+    "sample": "十"
+   },
+   {
+    "name_vi": "Phẩy",
+    "zh": "撇 piě",
+    "sample": "人"
+   },
+   {
+    "name_vi": "Mác",
+    "zh": "捺 nà",
+    "sample": "八"
+   },
+   {
+    "name_vi": "Chấm",
+    "zh": "点 diǎn",
+    "sample": "六"
+   },
+   {
+    "name_vi": "Hất",
+    "zh": "提 tí",
+    "sample": "我"
+   },
+   {
+    "name_vi": "Ngang gập",
+    "zh": "横折 héngzhé",
+    "sample": "口"
+   },
+   {
+    "name_vi": "Sổ móc",
+    "zh": "竖钩 shùgōu",
+    "sample": "小"
+   }
+  ],
+  "rules": [
+   {
+    "title_vi": "Ngang trước, sổ sau",
+    "body_vi": "Nét ngang viết trước nét sổ khi chúng cắt nhau.",
+    "example": "十"
+   },
+   {
+    "title_vi": "Phẩy trước, mác sau",
+    "body_vi": "Nét phẩy (xiên trái) viết trước nét mác (xiên phải).",
+    "example": "人"
+   },
+   {
+    "title_vi": "Trên trước, dưới sau",
+    "body_vi": "Viết từ trên xuống dưới.",
+    "example": "三"
+   },
+   {
+    "title_vi": "Trái trước, phải sau",
+    "body_vi": "Viết bộ bên trái rồi đến bên phải.",
+    "example": "你"
+   },
+   {
+    "title_vi": "Ngoài trước, trong sau",
+    "body_vi": "Viết khung ngoài trước rồi phần bên trong.",
+    "example": "月"
+   },
+   {
+    "title_vi": "Vào nhà rồi đóng cửa",
+    "body_vi": "Với chữ có khung kín, viết khung, viết phần trong, rồi mới đóng nét đáy.",
+    "example": "国"
+   },
+   {
+    "title_vi": "Giữa trước, hai bên sau",
+    "body_vi": "Phần giữa viết trước, hai bên đối xứng viết sau.",
+    "example": "小"
+   }
+  ],
+  "radicals": [
+   {
+    "r": "亻",
+    "meaning_vi": "người (nhân đứng)",
+    "examples": "你 · 们 · 他"
+   },
+   {
+    "r": "女",
+    "meaning_vi": "phụ nữ",
+    "examples": "她 · 妈 · 姐"
+   },
+   {
+    "r": "口",
+    "meaning_vi": "miệng",
+    "examples": "吗 · 叫 · 哪"
+   },
+   {
+    "r": "讠",
+    "meaning_vi": "lời nói",
+    "examples": "谁 · 请 · 认识"
+   },
+   {
+    "r": "氵",
+    "meaning_vi": "nước (ba chấm thủy)",
+    "examples": "没 · 法 · 汉"
+   },
+   {
+    "r": "心 / 忄",
+    "meaning_vi": "tim, tình cảm",
+    "examples": "您 · 想 · 忙"
+   }
+  ]
+ }
 }

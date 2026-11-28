@@ -1,163 +1,295 @@
 {
-  "_note": "Từ xuất hiện trong bài nhưng không thuộc danh sách 生词: tên riêng (known=true, không gạch chân) và từ ngoài bài (gạch chân, chạm để xem nghĩa).",
-  "words": [
-    {
-      "zh": "小语",
-      "pinyin": "Xiǎoyǔ",
-      "vi": "Tiểu Ngữ (trợ lý AI)",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "王一飞",
-      "pinyin": "Wáng Yīfēi",
-      "vi": "Vương Nhất Phi",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "一飞",
-      "pinyin": "Yīfēi",
-      "vi": "Nhất Phi (gọi tên thân mật)",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "王一雪",
-      "pinyin": "Wáng Yīxuě",
-      "vi": "Vương Nhất Tuyết",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "白家月",
-      "pinyin": "Bái Jiāyuè",
-      "vi": "Bạch Gia Nguyệt",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "安妮",
-      "pinyin": "Ānnī",
-      "vi": "Annie",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "陈天中",
-      "pinyin": "Chén Tiānzhōng",
-      "vi": "Trần Thiên Trung",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "李文",
-      "pinyin": "Lǐ Wén",
-      "vi": "Lý Văn",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "学生们",
-      "pinyin": "xuéshengmen",
-      "vi": "các học sinh",
-      "known": true
-    },
-    {
-      "zh": "王",
-      "pinyin": "Wáng",
-      "vi": "họ Vương",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "客气",
-      "pinyin": "kèqi",
-      "vi": "khách sáo (trong 不客气)",
-      "known": true
-    },
-    {
-      "zh": "关系",
-      "pinyin": "guānxi",
-      "vi": "quan hệ (trong 没关系)",
-      "known": true
-    },
-    {
-      "zh": "越南",
-      "pinyin": "Yuènán",
-      "vi": "Việt Nam",
-      "known": true,
-      "proper": true
-    },
-    {
-      "zh": "他",
-      "pinyin": "tā",
-      "vi": "anh ấy, ông ấy (sẽ học chính thức ở bài sau)"
-    },
-    {
-      "zh": "妈妈",
-      "pinyin": "māma",
-      "vi": "mẹ"
-    },
-    {
-      "zh": "骑",
-      "pinyin": "qí",
-      "vi": "cưỡi"
-    },
-    {
-      "zh": "马",
-      "pinyin": "mǎ",
-      "vi": "con ngựa"
-    },
-    {
-      "zh": "慢",
-      "pinyin": "màn",
-      "vi": "chậm"
-    },
-    {
-      "zh": "骂",
-      "pinyin": "mà",
-      "vi": "mắng"
-    },
-    {
-      "zh": "牛郎",
-      "pinyin": "Niúláng",
-      "vi": "Ngưu Lang (tên người)"
-    },
-    {
-      "zh": "恋",
-      "pinyin": "liàn",
-      "vi": "yêu"
-    },
-    {
-      "zh": "刘娘",
-      "pinyin": "Liúniáng",
-      "vi": "cô Lưu"
-    },
-    {
-      "zh": "念",
-      "pinyin": "niàn",
-      "vi": "nhớ, nhắc đến"
-    },
-    {
-      "zh": "四",
-      "pinyin": "sì",
-      "vi": "bốn"
-    },
-    {
-      "zh": "十",
-      "pinyin": "shí",
-      "vi": "mười"
-    },
-    {
-      "zh": "十四",
-      "pinyin": "shísì",
-      "vi": "mười bốn"
-    },
-    {
-      "zh": "四十",
-      "pinyin": "sìshí",
-      "vi": "bốn mươi"
-    }
-  ]
+ "_note": "Từ xuất hiện trong bài nhưng không thuộc danh sách 生词: tên riêng (known=true, không gạch chân) và từ ngoài bài (gạch chân, chạm để xem nghĩa).",
+ "words": [
+  {
+   "zh": "小语",
+   "pinyin": "Xiǎoyǔ",
+   "vi": "Tiểu Ngữ (trợ lý AI)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "王一飞",
+   "pinyin": "Wáng Yīfēi",
+   "vi": "Vương Nhất Phi",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "一飞",
+   "pinyin": "Yīfēi",
+   "vi": "Nhất Phi (gọi tên thân mật)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "王一雪",
+   "pinyin": "Wáng Yīxuě",
+   "vi": "Vương Nhất Tuyết",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "白家月",
+   "pinyin": "Bái Jiāyuè",
+   "vi": "Bạch Gia Nguyệt",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "安妮",
+   "pinyin": "Ānnī",
+   "vi": "Annie",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "陈天中",
+   "pinyin": "Chén Tiānzhōng",
+   "vi": "Trần Thiên Trung",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "李文",
+   "pinyin": "Lǐ Wén",
+   "vi": "Lý Văn",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "学生们",
+   "pinyin": "xuéshengmen",
+   "vi": "các học sinh",
+   "known": true
+  },
+  {
+   "zh": "王",
+   "pinyin": "Wáng",
+   "vi": "họ Vương",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "客气",
+   "pinyin": "kèqi",
+   "vi": "khách sáo (trong 不客气)",
+   "known": true
+  },
+  {
+   "zh": "关系",
+   "pinyin": "guānxi",
+   "vi": "quan hệ (trong 没关系)",
+   "known": true
+  },
+  {
+   "zh": "越南",
+   "pinyin": "Yuènán",
+   "vi": "Việt Nam",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "他",
+   "pinyin": "tā",
+   "vi": "anh ấy, ông ấy (sẽ học chính thức ở bài sau)"
+  },
+  {
+   "zh": "妈妈",
+   "pinyin": "māma",
+   "vi": "mẹ"
+  },
+  {
+   "zh": "骑",
+   "pinyin": "qí",
+   "vi": "cưỡi"
+  },
+  {
+   "zh": "马",
+   "pinyin": "mǎ",
+   "vi": "con ngựa"
+  },
+  {
+   "zh": "慢",
+   "pinyin": "màn",
+   "vi": "chậm"
+  },
+  {
+   "zh": "骂",
+   "pinyin": "mà",
+   "vi": "mắng"
+  },
+  {
+   "zh": "牛郎",
+   "pinyin": "Niúláng",
+   "vi": "Ngưu Lang (tên người)"
+  },
+  {
+   "zh": "恋",
+   "pinyin": "liàn",
+   "vi": "yêu"
+  },
+  {
+   "zh": "刘娘",
+   "pinyin": "Liúniáng",
+   "vi": "cô Lưu"
+  },
+  {
+   "zh": "念",
+   "pinyin": "niàn",
+   "vi": "nhớ, nhắc đến"
+  },
+  {
+   "zh": "四",
+   "pinyin": "sì",
+   "vi": "bốn"
+  },
+  {
+   "zh": "十",
+   "pinyin": "shí",
+   "vi": "mười"
+  },
+  {
+   "zh": "十四",
+   "pinyin": "shísì",
+   "vi": "mười bốn"
+  },
+  {
+   "zh": "四十",
+   "pinyin": "sìshí",
+   "vi": "bốn mươi"
+  },
+  {
+   "zh": "刘明",
+   "pinyin": "Liú Míng",
+   "vi": "Lưu Minh",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "杨同乐",
+   "pinyin": "Yáng Tónglè",
+   "vi": "Dương Đồng Lạc",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "同乐",
+   "pinyin": "Tónglè",
+   "vi": "Đồng Lạc (gọi tên)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "家月",
+   "pinyin": "Jiāyuè",
+   "vi": "Gia Nguyệt (gọi tên)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "刘小雪",
+   "pinyin": "Liú Xiǎoxuě",
+   "vi": "Lưu Tiểu Tuyết",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "刘小明",
+   "pinyin": "Liú Xiǎomíng",
+   "vi": "Lưu Tiểu Minh",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "早饭",
+   "pinyin": "zǎofàn",
+   "vi": "bữa sáng"
+  },
+  {
+   "zh": "午饭",
+   "pinyin": "wǔfàn",
+   "vi": "bữa trưa"
+  },
+  {
+   "zh": "小胡",
+   "pinyin": "Xiǎo Hú",
+   "vi": "Tiểu Hồ (gọi thân mật bác sĩ Hồ)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "朋友们",
+   "pinyin": "péngyoumen",
+   "vi": "các bạn, bạn bè (số nhiều)"
+  },
+  {
+   "zh": "毛",
+   "pinyin": "máo",
+   "vi": "hào (1/10 đồng tệ, khẩu ngữ)"
+  },
+  {
+   "zh": "角",
+   "pinyin": "jiǎo",
+   "vi": "hào (1/10 đồng tệ, văn viết)"
+  },
+  {
+   "zh": "小明",
+   "pinyin": "Xiǎomíng",
+   "vi": "Tiểu Minh (gọi tắt Lưu Tiểu Minh)",
+   "known": true,
+   "proper": true
+  },
+  {
+   "zh": "出去",
+   "pinyin": "chūqu",
+   "vi": "đi ra ngoài"
+  },
+  {
+   "zh": "点儿",
+   "pinyin": "diǎnr",
+   "vi": "một chút (nói gọn của 一点儿)",
+   "known": true
+  },
+  {
+   "zh": "种",
+   "pinyin": "zhòng",
+   "vi": "trồng"
+  },
+  {
+   "zh": "麻",
+   "pinyin": "má",
+   "vi": "cây gai"
+  },
+  {
+   "zh": "放",
+   "pinyin": "fàng",
+   "vi": "chăn (ngựa), thả"
+  },
+  {
+   "zh": "加",
+   "pinyin": "jiā",
+   "vi": "cộng, thêm"
+  },
+  {
+   "zh": "减",
+   "pinyin": "jiǎn",
+   "vi": "trừ, bớt"
+  },
+  {
+   "zh": "完",
+   "pinyin": "wán",
+   "vi": "xong"
+  },
+  {
+   "zh": "等于",
+   "pinyin": "děngyú",
+   "vi": "bằng (phép tính)"
+  },
+  {
+   "zh": "还是",
+   "pinyin": "háishi",
+   "vi": "vẫn là"
+  }
+ ]
 }

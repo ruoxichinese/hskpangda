@@ -1,35 +1,993 @@
 {
-  "id": 13,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "请给我一杯茶",
-    "pinyin": "Qǐng gěi wǒ yì bēi chá",
-    "vi": "Cho tôi một tách trà"
+ "id": 13,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "请给我一杯茶",
+  "pinyin": "Qǐng gěi wǒ yì bēi chá",
+  "vi": "Cho tôi một tách trà"
+ },
+ "grammarTopics_vi": [
+  "Động từ năng nguyện 可以",
+  "Động từ + 一下",
+  "Câu hai tân ngữ (1)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Xin phép, hỏi được không bằng 可以",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Động từ năng nguyện 可以",
-    "Động từ + 一下",
-    "Câu hai tân ngữ (1)"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Nói nhẹ nhàng bằng động từ + 一下",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng câu hai tân ngữ với 给, 问",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Gọi món ở quán cà phê, nhà hàng",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🍞",
+   "word": "面包",
+   "pinyin": "miànbāo",
+   "vi": "bánh mì"
+  },
+  {
+   "emoji": "🗣️",
+   "word": "说",
+   "pinyin": "shuō",
+   "vi": "nói"
+  },
+  {
+   "emoji": "🤲",
+   "word": "给",
+   "pinyin": "gěi",
+   "vi": "đưa, cho"
+  },
+  {
+   "emoji": "🍵",
+   "word": "茶",
+   "pinyin": "chá",
+   "vi": "trà"
+  },
+  {
+   "emoji": "🍎✂️",
+   "word": "一半",
+   "pinyin": "yíbàn",
+   "vi": "một nửa"
+  },
+  {
+   "emoji": "🙏",
+   "word": "请",
+   "pinyin": "qǐng",
+   "vi": "mời"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Trong lớp học, sau giờ học, Bạch Gia Nguyệt hỏi cô Vương một câu hỏi.",
+   "scene": "🙋",
+   "audio": "audio/hsk1/13-1.mp3",
+   "vocabAudio": "audio/hsk1/13-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Động từ năng nguyện 可以",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "王老师，我可以再问您一个问题吗？",
+     "vi": "Cô Vương ơi, em có thể hỏi cô thêm một câu được không ạ?",
+     "highlight": [
+      "可以",
+      "再"
+     ],
+     "t": 0.95
     },
     {
-      "id": "o2",
-      "vi": "Động từ + 一下",
-      "doneWhen": []
+     "speaker": "wangyifei",
+     "zh": "可以。你有什么问题？",
+     "vi": "Được. Em có câu hỏi gì?",
+     "t": 5.86
     },
     {
-      "id": "o3",
-      "vi": "Câu hai tân ngữ (1)",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "那个小店卖不卖手机？",
+     "vi": "Cửa hàng nhỏ kia có bán điện thoại không ạ?",
+     "highlight": [
+      "卖不卖"
+     ],
+     "t": 9.81
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "我不知道。你可以打电话问一下。",
+     "vi": "Cô không biết. Em có thể gọi điện hỏi thử xem.",
+     "highlight": [
+      "问一下"
+     ],
+     "t": 13.77
     }
+   ],
+   "vocab": [
+    {
+     "zh": "可以",
+     "pinyin": "kěyǐ",
+     "pos": "mod.",
+     "vi": "có thể, được (phép)",
+     "example": {
+      "zh": "我可以坐这儿吗？",
+      "vi": "Tôi ngồi đây được không?"
+     }
+    },
+    {
+     "zh": "再",
+     "pinyin": "zài",
+     "pos": "adv.",
+     "vi": "lại, thêm (lần nữa)",
+     "example": {
+      "zh": "再问一个问题",
+      "vi": "hỏi thêm một câu"
+     }
+    },
+    {
+     "zh": "问题",
+     "pinyin": "wèntí",
+     "pos": "n.",
+     "vi": "câu hỏi; vấn đề",
+     "example": {
+      "zh": "你有什么问题？",
+      "vi": "Bạn có câu hỏi gì?"
+     }
+    },
+    {
+     "zh": "卖",
+     "pinyin": "mài",
+     "pos": "v.",
+     "vi": "bán",
+     "example": {
+      "zh": "这个店卖手机。",
+      "vi": "Cửa hàng này bán điện thoại."
+     }
+    },
+    {
+     "zh": "打电话",
+     "pinyin": "dǎ diànhuà",
+     "pos": "v.",
+     "vi": "gọi điện thoại",
+     "example": {
+      "zh": "我给妈妈打电话。",
+      "vi": "Tôi gọi điện cho mẹ."
+     }
+    },
+    {
+     "zh": "一下",
+     "pinyin": "yíxià",
+     "pos": "num.-m.",
+     "vi": "một chút, một lát (sau động từ)",
+     "example": {
+      "zh": "问一下",
+      "vi": "hỏi thử một chút"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g13-1",
+     "title_zh": "能愿动词“可以”",
+     "title_vi": "可以: có thể, được phép",
+     "formula": [
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "可以",
+        "label": "được, có thể",
+        "role": "ADV"
+       },
+       {
+        "zh": "再问您一个问题",
+        "label": "Động từ …",
+        "role": "V"
+       },
+       {
+        "zh": "吗",
+        "label": "",
+        "role": "Q"
+       }
+      ]
+     ],
+     "explain_vi": "可以 + động từ = có thể, được phép làm gì. Rất hay dùng để xin phép: 我可以……吗？ Đồng ý thì trả lời 可以 (可以，请坐！). So sánh ba từ đã học: 会 – biết làm nhờ học (我会做饭); 能 – có điều kiện, khả năng (我两点能到); 可以 – được phép, có thể (我可以坐吗？).",
+     "examples": [
+      {
+       "zh": "我可以再问您一个问题吗？",
+       "vi": "Em có thể hỏi cô thêm một câu không ạ?"
+      },
+      {
+       "zh": "你们可以看这本书。",
+       "vi": "Các em có thể đọc quyển sách này."
+      },
+      {
+       "zh": "A：我可以坐吗？ B：可以，请坐！",
+       "vi": "A: Tôi ngồi được không? B: Được, mời ngồi!"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我坐可以吗？",
+       "right": "我可以坐吗？",
+       "why_vi": "可以 đứng trước động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi ngồi đây được không?”",
+       "options": [
+        "我可以坐这儿吗？",
+        "我坐可以这儿吗？",
+        "可以我坐这儿吗？"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g13-2",
+     "title_zh": "“动词+一下”结构",
+     "title_vi": "Động từ + 一下: làm thử, làm một chút",
+     "formula": [
+      [
+       {
+        "zh": "你",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "看",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "一下",
+        "label": "một chút",
+        "role": "PART"
+       },
+       {
+        "zh": "吧",
+        "label": "",
+        "role": "PART"
+       }
+      ]
+     ],
+     "explain_vi": "Động từ + 一下 = làm thử, làm nhanh một chút. Câu nghe nhẹ nhàng, lịch sự hơn: 请休息一下 (nghỉ một lát đi), 你看一下吧 (bạn xem thử đi) – giống “… một chút, … thử” trong tiếng Việt. 一下 đứng ngay sau động từ. Ở bài 12, cách lặp động từ 看看 cũng có nghĩa gần giống.",
+     "examples": [
+      {
+       "zh": "你可以打电话问一下。",
+       "vi": "Bạn có thể gọi điện hỏi thử."
+      },
+      {
+       "zh": "请休息一下。",
+       "vi": "Mời nghỉ một lát."
+      },
+      {
+       "zh": "你看一下吧。",
+       "vi": "Bạn xem thử đi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我一下看。",
+       "right": "我看一下。",
+       "why_vi": "一下 đứng SAU động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Bạn xem thử một chút nhé.”",
+       "options": [
+        "你看一下吧。",
+        "你一下看吧。",
+        "你看吧一下。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "一个问题",
+      "两个问题",
+      "这个问题"
+     ],
+     "answer": 0,
+     "prompt_zh": "白家月想再问王老师（　）。",
+     "explain_vi": "我可以再问您一个问题吗？"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "知道",
+      "不知道",
+      "也想知道"
+     ],
+     "answer": 1,
+     "prompt_zh": "王老师（　）那里卖不卖手机。",
+     "explain_vi": "我不知道。"
+    }
+   ],
+   "pangdaTip": "再 = thêm một lần nữa: 再问一个问题 (hỏi thêm một câu). Đừng nhầm với 在 (ở, đang) – cùng đọc là zài!"
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Ở quán cà phê, Vương Nhất Tuyết muốn ăn sáng.",
+   "scene": "☕",
+   "audio": "audio/hsk1/13-3.mp3",
+   "vocabAudio": "audio/hsk1/13-4.mp3",
+   "lines": [
+    {
+     "speaker": "fuwuyuan",
+     "zh": "女士，请坐！您喝什么？",
+     "vi": "Mời chị ngồi! Chị uống gì ạ?",
+     "t": 0.9
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "我看一下。请给我一杯牛奶。",
+     "vi": "Để tôi xem đã. Cho tôi một cốc sữa.",
+     "highlight": [
+      "给我一杯牛奶"
+     ],
+     "t": 5.71
+    },
+    {
+     "speaker": "fuwuyuan",
+     "zh": "好的。您还要什么？",
+     "vi": "Vâng. Chị còn gọi gì nữa không ạ?",
+     "t": 11.3
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "我还没吃早饭，再要这个面包和鸡蛋吧。",
+     "vi": "Tôi chưa ăn sáng, cho tôi thêm bánh mì và trứng này nhé.",
+     "t": 15.62
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "服务员",
+     "pinyin": "fúwùyuán",
+     "pos": "n.",
+     "vi": "nhân viên phục vụ",
+     "example": {
+      "zh": "服务员，请给我一杯茶。",
+      "vi": "Bạn phục vụ ơi, cho tôi một cốc trà."
+     }
+    },
+    {
+     "zh": "女士",
+     "pinyin": "nǚshì",
+     "pos": "n.",
+     "vi": "bà, chị (cách gọi lịch sự)",
+     "example": {
+      "zh": "女士，请坐！",
+      "vi": "Mời chị ngồi!"
+     }
+    },
+    {
+     "zh": "请",
+     "pinyin": "qǐng",
+     "pos": "v.",
+     "vi": "mời; xin vui lòng",
+     "example": {
+      "zh": "请坐！",
+      "vi": "Mời ngồi!"
+     }
+    },
+    {
+     "zh": "坐",
+     "pinyin": "zuò",
+     "pos": "v.",
+     "vi": "ngồi",
+     "example": {
+      "zh": "请坐这儿。",
+      "vi": "Mời ngồi đây."
+     }
+    },
+    {
+     "zh": "给",
+     "pinyin": "gěi",
+     "pos": "v.",
+     "vi": "đưa, cho",
+     "example": {
+      "zh": "请给我一杯牛奶。",
+      "vi": "Cho tôi một cốc sữa."
+     }
+    },
+    {
+     "zh": "杯",
+     "pinyin": "bēi",
+     "pos": "n.",
+     "vi": "cốc, ly (lượng từ)",
+     "example": {
+      "zh": "一杯茶",
+      "vi": "một cốc trà"
+     }
+    },
+    {
+     "zh": "要",
+     "pinyin": "yào",
+     "pos": "v.",
+     "vi": "muốn có, gọi (món), cần",
+     "example": {
+      "zh": "您要什么？",
+      "vi": "Anh/chị gọi gì ạ?"
+     }
+    },
+    {
+     "zh": "早饭",
+     "pinyin": "zǎofàn",
+     "pos": "n.",
+     "vi": "bữa sáng",
+     "example": {
+      "zh": "我还没吃早饭。",
+      "vi": "Tôi chưa ăn sáng."
+     }
+    },
+    {
+     "zh": "这个",
+     "pinyin": "zhège",
+     "pos": "pron.",
+     "vi": "cái này",
+     "example": {
+      "zh": "我要这个。",
+      "vi": "Tôi lấy cái này."
+     }
+    },
+    {
+     "zh": "面包",
+     "pinyin": "miànbāo",
+     "pos": "n.",
+     "vi": "bánh mì",
+     "example": {
+      "zh": "一个面包",
+      "vi": "một cái bánh mì"
+     }
+    },
+    {
+     "zh": "鸡蛋",
+     "pinyin": "jīdàn",
+     "pos": "n.",
+     "vi": "trứng gà",
+     "example": {
+      "zh": "面包和鸡蛋",
+      "vi": "bánh mì và trứng"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g13-3",
+     "title_zh": "双宾语句（1）",
+     "title_vi": "Câu hai tân ngữ: 给 / 问 + người + vật",
+     "formula": [
+      [
+       {
+        "zh": "请",
+        "label": "",
+        "role": "ADV"
+       },
+       {
+        "zh": "给",
+        "label": "cho",
+        "role": "V"
+       },
+       {
+        "zh": "我",
+        "label": "Người nhận",
+        "role": "O"
+       },
+       {
+        "zh": "一杯牛奶",
+        "label": "Vật",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "问",
+        "label": "hỏi",
+        "role": "V"
+       },
+       {
+        "zh": "老师",
+        "label": "Người",
+        "role": "O"
+       },
+       {
+        "zh": "两个问题",
+        "label": "Điều hỏi",
+        "role": "O"
+       }
+      ]
+     ],
+     "explain_vi": "Một số động từ mang được HAI tân ngữ: người đứng trước, vật đứng sau. Bài này học 给 (đưa, cho ai cái gì) và 问 (hỏi ai điều gì): 给我一杯牛奶, 问您一个问题. Thứ tự giống tiếng Việt: “cho tôi một cốc sữa”, “hỏi thầy hai câu”.",
+     "examples": [
+      {
+       "zh": "请给我一杯牛奶。",
+       "vi": "Cho tôi một cốc sữa."
+      },
+      {
+       "zh": "白家月给安妮一个苹果。",
+       "vi": "Bạch Gia Nguyệt cho Annie một quả táo."
+      },
+      {
+       "zh": "我问老师两个问题。",
+       "vi": "Tôi hỏi thầy hai câu."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "请给一杯牛奶我。",
+       "right": "请给我一杯牛奶。",
+       "why_vi": "Người nhận đứng trước, vật đứng sau."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Cho tôi một cốc trà.”",
+       "options": [
+        "请给我一杯茶。",
+        "请给一杯茶我。",
+        "请我给一杯茶。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "水",
+      "茶",
+      "牛奶"
+     ],
+     "answer": 2,
+     "prompt_zh": "王一雪要喝（　）。",
+     "explain_vi": "请给我一杯牛奶。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "包子",
+      "面条儿",
+      "面包和鸡蛋"
+     ],
+     "answer": 2,
+     "prompt_zh": "王一雪还想吃（　）。",
+     "explain_vi": "再要这个面包和鸡蛋吧。"
+    }
+   ],
+   "pangdaTip": "要 ở bài 11 là “định, muốn (làm)” (要去超市). Ở bài này 要 + danh từ = muốn có, gọi món: 我要一杯茶. Vào quán, chỉ cần nói 我要……！"
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ở nhà hàng, Lưu Minh đang gọi món.",
+   "scene": "🥟",
+   "audio": "audio/hsk1/13-5.mp3",
+   "vocabAudio": "audio/hsk1/13-6.mp3",
+   "lines": [
+    {
+     "speaker": "fuwuyuan",
+     "zh": "先生，请坐！您要什么？",
+     "vi": "Mời anh ngồi! Anh dùng gì ạ?",
+     "t": 0.54
+    },
+    {
+     "speaker": "liuming",
+     "zh": "我要一斤饺子。",
+     "vi": "Cho tôi một cân sủi cảo.",
+     "t": 5.24
+    },
+    {
+     "speaker": "fuwuyuan",
+     "zh": "好的。一斤饺子40个。",
+     "vi": "Vâng. Một cân sủi cảo là 40 cái ạ.",
+     "t": 8.22
+    },
+    {
+     "speaker": "liuming",
+     "zh": "40个太多了，我要一半吧。",
+     "vi": "40 cái nhiều quá, cho tôi một nửa thôi.",
+     "highlight": [
+      "一半"
+     ],
+     "t": 12.53
+    },
+    {
+     "speaker": "fuwuyuan",
+     "zh": "半斤20个。您想喝什么？",
+     "vi": "Nửa cân 20 cái. Anh muốn uống gì ạ?",
+     "t": 17.06
+    },
+    {
+     "speaker": "liuming",
+     "zh": "请给我一杯茶吧。",
+     "vi": "Cho tôi một cốc trà nhé.",
+     "t": 21.23
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "先生",
+     "pinyin": "xiānsheng",
+     "pos": "n.",
+     "vi": "ông, anh (cách gọi lịch sự)",
+     "example": {
+      "zh": "先生，请坐！",
+      "vi": "Mời anh ngồi!"
+     }
+    },
+    {
+     "zh": "一半",
+     "pinyin": "yíbàn",
+     "pos": "num.",
+     "vi": "một nửa",
+     "example": {
+      "zh": "我要一半。",
+      "vi": "Tôi lấy một nửa."
+     }
+    },
+    {
+     "zh": "茶",
+     "pinyin": "chá",
+     "pos": "n.",
+     "vi": "trà",
+     "example": {
+      "zh": "一杯茶",
+      "vi": "một cốc trà"
+     }
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "米饭",
+      "饺子",
+      "米饭和饺子"
+     ],
+     "answer": 1,
+     "prompt_zh": "刘明想吃（　）。",
+     "explain_vi": "我要一斤饺子。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "水",
+      "茶",
+      "牛奶"
+     ],
+     "answer": 1,
+     "prompt_zh": "刘明想喝（　）。",
+     "explain_vi": "请给我一杯茶吧。"
+    }
+   ],
+   "pangdaTip": "Ở miền Bắc Trung Quốc, sủi cảo hay được gọi theo cân (斤 – 500 g). Một cân khoảng 40 cái, nên ăn một mình thì gọi 半斤 (nửa cân) là vừa."
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "请___我一杯热水。",
+   "bank": [
+    "一下",
+    "可以",
+    "给",
+    "问题",
+    "要"
+   ],
+   "answer": "给",
+   "explain_vi": "给 + người + vật.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "我们___一斤饺子。",
+   "bank": [
+    "一下",
+    "可以",
+    "给",
+    "问题",
+    "要"
+   ],
+   "answer": "要",
+   "explain_vi": "要 + món = gọi món.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "A：我___坐这儿吗？",
+   "bank": [
+    "一下",
+    "可以",
+    "给",
+    "问题",
+    "要"
+   ],
+   "answer": "可以",
+   "explain_vi": "我可以……吗？ = xin phép.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "A：我可以坐这儿吗？ B：没___，请坐。",
+   "bank": [
+    "一下",
+    "可以",
+    "给",
+    "问题",
+    "要"
+   ],
+   "answer": "问题",
+   "explain_vi": "没问题 = không sao, được.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "A：这个商店卖不卖手机？ B：你可以去问___。",
+   "bank": [
+    "一下",
+    "可以",
+    "给",
+    "问题",
+    "要"
+   ],
+   "answer": "一下",
+   "explain_vi": "问一下 = hỏi thử.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "给",
+    "一杯",
+    "请",
+    "我",
+    "茶"
+   ],
+   "answers": [
+    "请给我一杯茶"
+   ],
+   "vi": "Cho tôi một cốc trà.",
+   "explain_vi": "给 + người + vật.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "吗",
+    "问",
+    "我",
+    "可以",
+    "您"
+   ],
+   "answers": [
+    "我可以问您吗"
+   ],
+   "vi": "Tôi hỏi anh/chị được không?",
+   "explain_vi": "可以 + động từ.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "一下",
+    "休息",
+    "请"
+   ],
+   "answers": [
+    "请休息一下"
+   ],
+   "vi": "Mời nghỉ một lát.",
+   "explain_vi": "Động từ + 一下.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "面包",
+   "options": [
+    {
+     "emoji": "🍞",
+     "label": "bánh mì"
+    },
+    {
+     "emoji": "🥚",
+     "label": "trứng"
+    },
+    {
+     "emoji": "🍵",
+     "label": "trà"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "面包 = bánh mì.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "打电话",
+   "options": [
+    {
+     "emoji": "📞",
+     "label": "gọi điện thoại"
+    },
+    {
+     "emoji": "🪑",
+     "label": "ngồi"
+    },
+    {
+     "emoji": "🛍️",
+     "label": "bán hàng"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "打电话 = gọi điện thoại.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我还没吃早饭。",
+   "emoji": "🍳",
+   "statement_vi": "Người nói đã ăn sáng rồi.",
+   "answer": false,
+   "explain_vi": "还没吃 = vẫn chưa ăn.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "请给我一杯牛奶。",
+   "emoji": "🥛",
+   "statement_vi": "Người nói gọi một cốc sữa.",
+   "answer": true,
+   "explain_vi": "一杯牛奶 = một cốc sữa.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🍵",
+   "sentence": "请给我一___茶。",
+   "options": [
+    "杯",
+    "个",
+    "只"
+   ],
+   "answer": 0,
+   "explain_vi": "Lượng từ của trà, sữa, nước: 杯.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "您喝什么？",
+     "a": "请给我一杯牛奶。"
+    },
+    {
+     "q": "我可以坐这儿吗？",
+     "a": "可以，请坐！"
+    },
+    {
+     "q": "那个小店卖不卖手机？",
+     "a": "我不知道。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Gọi món ở quán cà phê",
+  "steps_vi": [
+   "Nhóm ba người: một bạn làm nhân viên phục vụ, hai bạn làm khách.",
+   "Phục vụ mời ngồi, hỏi khách uống gì, ăn gì; khách gọi món bằng 我要…… / 请给我……",
+   "Đổi vai và đổi quán (quán cà phê, quán sủi cảo…)."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "请坐！你们要喝什么？",
+    "vi": "Mời ngồi! Các bạn uống gì?"
+   },
+   {
+    "zh": "我要一杯茶。",
+    "vi": "Mình gọi một cốc trà."
+   },
+   {
+    "zh": "我要一杯牛奶。",
+    "vi": "Mình gọi một cốc sữa."
+   },
+   {
+    "zh": "你们要吃什么？",
+    "vi": "Các bạn ăn gì?"
+   },
+   {
+    "zh": "请给我们一斤饺子。",
+    "vi": "Cho chúng tôi một cân sủi cảo."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "四十个饺子，十四个鸡蛋。",
+  "vi": "Bốn mươi cái sủi cảo, mười bốn quả trứng. (Luyện s – sh – j)"
+ },
+ "culture": {
+  "title_vi": "Trà Trung Quốc",
+  "body_vi": [
+   "Trung Quốc là quê hương của cây trà. Vào nhà hàng, nhiều nơi sẽ rót sẵn trà cho khách trước khi gọi món.",
+   "Khi được rót trà, người miền Nam Trung Quốc hay gõ nhẹ hai ngón tay lên bàn để cảm ơn – không cần nói gì.",
+   "Lưu ý: trà mà người Việt hay gọi là “trà đen” thì người Trung Quốc gọi là 红茶 (hồng trà). Muốn gọi phục vụ, chỉ cần nói: 服务员！"
+  ],
+  "table": {
+   "head": [
+    "Loại trà",
+    "Tiếng Trung",
+    "Pinyin"
+   ],
+   "rows": [
+    [
+     "trà xanh",
+     "绿茶",
+     "lǜchá"
+    ],
+    [
+     "hồng trà (trà đen)",
+     "红茶",
+     "hóngchá"
+    ],
+    [
+     "trà ô long",
+     "乌龙茶",
+     "wūlóngchá"
+    ],
+    [
+     "trà hoa nhài",
+     "花茶",
+     "huāchá"
+    ]
+   ]
+  }
+ }
 }

@@ -1,41 +1,1179 @@
 {
-  "id": 4,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "我有两个孩子",
-    "pinyin": "Wǒ yǒu liǎng ge háizi",
-    "vi": "Tôi có hai đứa con"
+ "id": 4,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "我有两个孩子",
+  "pinyin": "Wǒ yǒu liǎng ge háizi",
+  "vi": "Tôi có hai đứa con"
+ },
+ "grammarTopics_vi": [
+  "Câu chữ 有 (1)",
+  "Cách nói số",
+  "Trợ từ 呢 (1)",
+  "Lượng từ: Số + Lượng từ + (Danh từ)"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Dùng câu chữ 有 để nói ai có người/vật gì, có bao nhiêu",
+   "doneWhen": [
+    "text-1",
+    "text-2"
+   ]
   },
-  "grammarTopics_vi": [
-    "Câu chữ 有 (1)",
-    "Cách nói số",
-    "Trợ từ 呢 (1)",
-    "Lượng từ: Số + Lượng từ + (Danh từ)"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Đọc, viết số từ 0 đến 9999; phân biệt 二 và 两",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Hỏi lại người khác bằng mẫu A……，B呢？",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Dùng lượng từ 个, 口; hỏi tuổi bằng 几岁 / 多大",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "5️⃣",
+   "word": "五",
+   "pinyin": "wǔ",
+   "vi": "năm (số 5)"
+  },
+  {
+   "emoji": "🧒👦",
+   "word": "哥哥",
+   "pinyin": "gēge",
+   "vi": "anh trai"
+  },
+  {
+   "emoji": "🧑‍🎓",
+   "word": "学生",
+   "pinyin": "xuésheng",
+   "vi": "học sinh"
+  },
+  {
+   "emoji": "👴",
+   "word": "六十岁",
+   "pinyin": "liùshí suì",
+   "vi": "sáu mươi tuổi"
+  },
+  {
+   "emoji": "🤱",
+   "word": "妈妈",
+   "pinyin": "māma",
+   "vi": "mẹ"
+  },
+  {
+   "emoji": "👩‍🏫",
+   "word": "老师",
+   "pinyin": "lǎoshī",
+   "vi": "giáo viên"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Ở nhà, Lưu Minh và Vương Nhất Tuyết đang trò chuyện.",
+   "scene": "🛋️",
+   "audio": "audio/hsk1/4-1.mp3",
+   "vocabAudio": "audio/hsk1/4-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Câu chữ 有 (1)",
-      "doneWhen": []
+     "speaker": "liuming",
+     "zh": "一飞忙吗？",
+     "vi": "Nhất Phi có bận không?",
+     "t": 0.63
     },
     {
-      "id": "o2",
-      "vi": "Cách nói số",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "她很忙。",
+     "vi": "Em ấy bận lắm.",
+     "t": 2.87
     },
     {
-      "id": "o3",
-      "vi": "Trợ từ 呢 (1)",
-      "doneWhen": []
+     "speaker": "liuming",
+     "zh": "她有多少个学生？",
+     "vi": "Em ấy có bao nhiêu học sinh?",
+     "highlight": [
+      "有",
+      "多少",
+      "个"
+     ],
+     "t": 5.08
     },
     {
-      "id": "o4",
-      "vi": "Lượng từ: Số + Lượng từ + (Danh từ)",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "她有二十个学生。",
+     "vi": "Em ấy có hai mươi học sinh.",
+     "highlight": [
+      "有",
+      "二十个"
+     ],
+     "t": 7.59
     }
+   ],
+   "vocab": [
+    {
+     "zh": "有",
+     "pinyin": "yǒu",
+     "pos": "v.",
+     "vi": "có",
+     "example": {
+      "zh": "我有一个姐姐。",
+      "vi": "Tôi có một chị gái."
+     }
+    },
+    {
+     "zh": "多少",
+     "pinyin": "duōshao",
+     "pos": "pron.",
+     "vi": "bao nhiêu",
+     "example": {
+      "zh": "你有多少个学生？",
+      "vi": "Bạn có bao nhiêu học sinh?"
+     }
+    },
+    {
+     "zh": "个",
+     "pinyin": "gè",
+     "pos": "m.",
+     "vi": "cái, chiếc, người (lượng từ dùng chung)",
+     "example": {
+      "zh": "一个学生",
+      "vi": "một học sinh"
+     },
+     "note_vi": "Trong câu thường đọc nhẹ: ge."
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g4-1",
+     "title_zh": "“有”字句（1）",
+     "title_vi": "Câu chữ 有 (1): có ai / có cái gì",
+     "formula": [
+      [
+       {
+        "zh": "她",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "有",
+        "label": "có",
+        "role": "V"
+       },
+       {
+        "zh": "二十个",
+        "label": "Số + lượng từ",
+        "role": "ATTR"
+       },
+       {
+        "zh": "学生",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "没",
+        "label": "không",
+        "role": "ADV"
+       },
+       {
+        "zh": "有",
+        "label": "có",
+        "role": "V"
+       },
+       {
+        "zh": "姐姐",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Khẳng định",
+      "Phủ định: 没有 / 没"
+     ],
+     "explain_vi": "有 dùng để nói ai CÓ người hoặc vật gì. Phủ định của 有 luôn là 没有 (nói gọn là 没), KHÔNG BAO GIỜ là 不有. Muốn hỏi: thêm 吗 cuối câu (你有哥哥吗？) hoặc dùng 几 / 多少 (你有几个哥哥？).",
+     "examples": [
+      {
+       "zh": "她有二十个学生。",
+       "vi": "Cô ấy có hai mươi học sinh."
+      },
+      {
+       "zh": "她有一个姐姐。",
+       "vi": "Cô ấy có một chị gái."
+      },
+      {
+       "zh": "我没有姐姐。",
+       "vi": "Tôi không có chị gái."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我不有哥哥。",
+       "right": "我没有哥哥。",
+       "why_vi": "Phủ định của 有 phải dùng 没, không dùng 不."
+      },
+      {
+       "wrong": "我有二十学生。",
+       "right": "我有二十个学生。",
+       "why_vi": "Giữa số và danh từ phải có lượng từ (ở đây là 个)."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi không có em gái.”",
+       "options": [
+        "我没有妹妹。",
+        "我不有妹妹。",
+        "我有没妹妹。"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "Câu nào ĐÚNG?",
+       "options": [
+        "她不有孩子。",
+        "她没有孩子。",
+        "她没孩子有。"
+       ],
+       "answer": 1,
+       "explain_vi": "Phủ định của 有 là 没有."
+      }
+     ]
+    },
+    {
+     "id": "g4-2",
+     "title_zh": "数字的表达",
+     "title_vi": "Cách nói số (0–9999) và 二 / 两",
+     "formula": [
+      [
+       {
+        "zh": "三",
+        "label": "hàng chục",
+        "role": "N"
+       },
+       {
+        "zh": "十",
+        "label": "mười",
+        "role": "X"
+       },
+       {
+        "zh": "五",
+        "label": "hàng đơn vị",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "一千",
+        "label": "nghìn",
+        "role": "N"
+       },
+       {
+        "zh": "五百",
+        "label": "trăm",
+        "role": "N"
+       },
+       {
+        "zh": "二十八",
+        "label": "chục + đơn vị",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "两",
+        "label": "hai (trước lượng từ)",
+        "role": "ATTR"
+       },
+       {
+        "zh": "个",
+        "label": "lượng từ",
+        "role": "PART"
+       },
+       {
+        "zh": "人",
+        "label": "danh từ",
+        "role": "N"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "35 = 三十五",
+      "1528 = 一千五百二十八",
+      "Trước lượng từ dùng 两"
+     ],
+     "explain_vi": "Đọc số gần như y hệt tiếng Việt: 35 “ba mươi lăm” → 三十五; 1528 “một nghìn năm trăm hai mươi tám” → 一千五百二十八. Số 0 nằm giữa đọc là 零: 208 → 二百零八 (giống “hai trăm linh tám”). Số 2 có hai cách nói: khi đếm số, đọc số thứ tự… dùng 二 (十二, 二十二, 第二); đứng ngay trước lượng từ thì dùng 两 (两个人, 两口人, 两本书).",
+     "examples": [
+      {
+       "zh": "十二、二十二、一百二十二",
+       "vi": "12, 22, 122"
+      },
+      {
+       "zh": "二百零八",
+       "vi": "208"
+      },
+      {
+       "zh": "九千九百九十九",
+       "vi": "9999"
+      },
+      {
+       "zh": "两个人",
+       "vi": "hai người"
+      },
+      {
+       "zh": "两本书",
+       "vi": "hai quyển sách"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "二个哥哥",
+       "right": "两个哥哥",
+       "why_vi": "Ngay trước lượng từ 个 phải dùng 两."
+      },
+      {
+       "wrong": "两十",
+       "right": "二十",
+       "why_vi": "Trong con số (20, 12, 22) dùng 二."
+      },
+      {
+       "wrong": "二百八 (muốn nói 208)",
+       "right": "二百零八",
+       "why_vi": "Thiếu 零 thì người nghe hiểu là 280."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“hai người”",
+       "options": [
+        "两个人",
+        "二个人",
+        "两人个"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "Số 108 đọc là:",
+       "options": [
+        "一百八",
+        "一百零八",
+        "一零八"
+       ],
+       "answer": 1,
+       "explain_vi": "一百八 thường được hiểu là 180."
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "Hỏi số lượng có hai từ: 几 (đoán là số nhỏ, dưới 10) và 多少 (số lớn hoặc không đoán được). Nhất Phi dạy cả lớp đông nên Lưu Minh hỏi 多少."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Ở công ty, Vương Nhất Tuyết và Dương Đồng Lạc nói chuyện lúc giải lao.",
+   "scene": "☕",
+   "audio": "audio/hsk1/4-3.mp3",
+   "vocabAudio": "audio/hsk1/4-4.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "妹妹",
+      "姐姐",
+      "哥哥"
+     ],
+     "answer": 0,
+     "prompt_zh": "杨同乐有一个（　）。",
+     "explain_vi": "我家有四口人，爸爸、妈妈、妹妹和我。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "两口人",
+      "四口人",
+      "五口人"
+     ],
+     "answer": 1,
+     "prompt_zh": "杨同乐家有（　）。",
+     "explain_vi": "我家有四口人。"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "我有两个哥哥，你呢？",
+     "vi": "Mình có hai anh trai, còn cậu?",
+     "highlight": [
+      "两个",
+      "呢"
+     ],
+     "t": 0.56
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我没有哥哥。",
+     "vi": "Mình không có anh trai.",
+     "highlight": [
+      "没有"
+     ],
+     "t": 3.52
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "你家有几口人？",
+     "vi": "Nhà cậu có mấy người?",
+     "highlight": [
+      "几口人"
+     ],
+     "t": 5.68
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我家有四口人，爸爸、妈妈、妹妹和我。",
+     "vi": "Nhà mình có bốn người: bố, mẹ, em gái và mình.",
+     "highlight": [
+      "四口人",
+      "和"
+     ],
+     "t": 8.24
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "哥哥",
+     "pinyin": "gēge",
+     "pos": "n.",
+     "vi": "anh trai",
+     "example": {
+      "zh": "我有两个哥哥。",
+      "vi": "Tôi có hai anh trai."
+     }
+    },
+    {
+     "zh": "呢",
+     "pinyin": "ne",
+     "pos": "part.",
+     "vi": "còn … thì sao? (trợ từ hỏi cuối câu)",
+     "example": {
+      "zh": "我是中国人，你呢？",
+      "vi": "Tôi là người Trung Quốc, còn bạn?"
+     }
+    },
+    {
+     "zh": "没有",
+     "pinyin": "méiyǒu",
+     "pos": "v.",
+     "vi": "không có",
+     "example": {
+      "zh": "我没有哥哥。",
+      "vi": "Tôi không có anh trai."
+     }
+    },
+    {
+     "zh": "家",
+     "pinyin": "jiā",
+     "pos": "n.",
+     "vi": "nhà, gia đình",
+     "example": {
+      "zh": "你家有几口人？",
+      "vi": "Nhà bạn có mấy người?"
+     }
+    },
+    {
+     "zh": "几",
+     "pinyin": "jǐ",
+     "pos": "pron.",
+     "vi": "mấy (hỏi số nhỏ)",
+     "example": {
+      "zh": "你有几个哥哥？",
+      "vi": "Bạn có mấy anh trai?"
+     }
+    },
+    {
+     "zh": "口",
+     "pinyin": "kǒu",
+     "pos": "m.",
+     "vi": "(lượng từ đếm người trong gia đình)",
+     "example": {
+      "zh": "我家有三口人。",
+      "vi": "Nhà tôi có ba người."
+     }
+    },
+    {
+     "zh": "爸爸",
+     "pinyin": "bàba",
+     "pos": "n.",
+     "vi": "bố",
+     "example": {
+      "zh": "这是我爸爸。",
+      "vi": "Đây là bố tôi."
+     }
+    },
+    {
+     "zh": "妈妈",
+     "pinyin": "māma",
+     "pos": "n.",
+     "vi": "mẹ",
+     "example": {
+      "zh": "我妈妈是老师。",
+      "vi": "Mẹ tôi là giáo viên."
+     }
+    },
+    {
+     "zh": "妹妹",
+     "pinyin": "mèimei",
+     "pos": "n.",
+     "vi": "em gái",
+     "example": {
+      "zh": "我有一个妹妹。",
+      "vi": "Tôi có một em gái."
+     }
+    },
+    {
+     "zh": "和",
+     "pinyin": "hé",
+     "pos": "conj.",
+     "vi": "và, với",
+     "example": {
+      "zh": "爸爸和妈妈",
+      "vi": "bố và mẹ"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g4-3",
+     "title_zh": "语气助词“呢”（1）",
+     "title_vi": "Trợ từ 呢: A……，B呢？ (còn B thì sao?)",
+     "formula": [
+      [
+       {
+        "zh": "我有两个哥哥",
+        "label": "Câu nói về A",
+        "role": "X"
+       },
+       {
+        "zh": "，",
+        "label": "",
+        "role": "X"
+       },
+       {
+        "zh": "你",
+        "label": "B",
+        "role": "S"
+       },
+       {
+        "zh": "呢",
+        "label": "còn … thì sao?",
+        "role": "Q"
+       },
+       {
+        "zh": "？",
+        "label": "",
+        "role": "X"
+       }
+      ]
+     ],
+     "explain_vi": "Nói xong về mình (A), muốn hỏi người kia đúng câu đó thì chỉ cần B + 呢？ – giống “còn bạn?”, “thế còn …?” trong tiếng Việt. Không phải lặp lại cả câu hỏi. Câu đã có 呢 thì không thêm 吗.",
+     "examples": [
+      {
+       "zh": "我有两个哥哥，你呢？",
+       "vi": "Tôi có hai anh trai, còn bạn?"
+      },
+      {
+       "zh": "我叫白家月，你呢？",
+       "vi": "Mình tên là Bạch Gia Nguyệt, còn bạn?"
+      },
+      {
+       "zh": "我是中国人，你呢？",
+       "vi": "Tôi là người Trung Quốc, còn bạn?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我是学生，你呢吗？",
+       "right": "我是学生，你呢？",
+       "why_vi": "Đã có 呢 thì không thêm 吗."
+      },
+      {
+       "wrong": "我是学生，呢你？",
+       "right": "我是学生，你呢？",
+       "why_vi": "呢 đứng SAU người được hỏi."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Mình là sinh viên, còn bạn?”",
+       "options": [
+        "我是学生，你呢？",
+        "我是学生，呢你？",
+        "我是学生，你吗呢？"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g4-4",
+     "title_zh": "名量词和名量结构",
+     "title_vi": "Lượng từ: Số + Lượng từ + Danh từ (个, 口)",
+     "formula": [
+      [
+       {
+        "zh": "两",
+        "label": "Số",
+        "role": "ATTR"
+       },
+       {
+        "zh": "个",
+        "label": "Lượng từ",
+        "role": "PART"
+       },
+       {
+        "zh": "哥哥",
+        "label": "Danh từ",
+        "role": "N"
+       }
+      ],
+      [
+       {
+        "zh": "四",
+        "label": "Số",
+        "role": "ATTR"
+       },
+       {
+        "zh": "口",
+        "label": "Lượng từ",
+        "role": "PART"
+       },
+       {
+        "zh": "人",
+        "label": "Danh từ",
+        "role": "N"
+       }
+      ]
+     ],
+     "explain_vi": "Giống tiếng Việt có “cái, con, chiếc, quyển”, tiếng Trung đặt lượng từ giữa số và danh từ. Khác ở chỗ: tiếng Việt nhiều khi bỏ được (“hai anh trai”), còn tiếng Trung BẮT BUỘC phải có: 两个哥哥. 个 là lượng từ dùng nhiều nhất. 口 chỉ dùng khi đếm số người trong gia đình: 我家有四口人. Hỏi số lượng: 几 + lượng từ (đoán số nhỏ): 你有几个哥哥？; 多少 dùng cho số lớn, có thể bỏ lượng từ: 你有多少（个）学生？",
+     "examples": [
+      {
+       "zh": "四口人",
+       "vi": "bốn người (trong nhà)"
+      },
+      {
+       "zh": "两个学生",
+       "vi": "hai học sinh"
+      },
+      {
+       "zh": "你家有几口人？",
+       "vi": "Nhà bạn có mấy người?"
+      },
+      {
+       "zh": "她有多少个学生？",
+       "vi": "Cô ấy có bao nhiêu học sinh?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我有两哥哥。",
+       "right": "我有两个哥哥。",
+       "why_vi": "Giữa số và danh từ phải có lượng từ."
+      },
+      {
+       "wrong": "你家有几人？",
+       "right": "你家有几口人？",
+       "why_vi": "几 luôn cần lượng từ đi kèm."
+      },
+      {
+       "wrong": "我有四口朋友。",
+       "right": "我有四个朋友。",
+       "why_vi": "口 chỉ dùng đếm người trong nhà; bạn bè dùng 个."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Nhà tôi có ba người.”",
+       "options": [
+        "我家有三口人。",
+        "我家有三人。",
+        "我家有口三人。"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "“Bạn có mấy chị gái?”",
+       "options": [
+        "你有几姐姐？",
+        "你有几个姐姐？",
+        "你有姐姐几个？"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "Tiếng Trung tách rõ 哥哥 (anh trai), 姐姐 (chị gái), 妹妹 (em gái). Còn em trai là 弟弟 dìdi."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Trên phố, Vương Nhất Tuyết đang dắt con đi thì gặp Dương Đồng Lạc.",
+   "scene": "🚶",
+   "audio": "audio/hsk1/4-5.mp3",
+   "vocabAudio": "audio/hsk1/4-6.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "一个",
+      "两个",
+      "三个"
+     ],
+     "answer": 1,
+     "prompt_zh": "王一雪有（　）孩子。",
+     "explain_vi": "我有两个孩子，一个儿子，一个女儿。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "五",
+      "十二",
+      "二十"
+     ],
+     "answer": 1,
+     "prompt_zh": "王一雪女儿今年（　）岁。",
+     "explain_vi": "她今年十二。 (五岁 là tuổi của con trai)"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "yangtongle",
+     "zh": "这是您儿子吗？",
+     "vi": "Đây là con trai chị ạ?",
+     "t": 0.58
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "是的。我有两个孩子，一个儿子，一个女儿。",
+     "vi": "Đúng rồi. Chị có hai đứa con, một trai một gái.",
+     "highlight": [
+      "两个孩子"
+     ],
+     "t": 2.78
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "您儿子几岁？",
+     "vi": "Con trai chị mấy tuổi rồi ạ?",
+     "highlight": [
+      "几岁"
+     ],
+     "tipRef": 0,
+     "t": 9.08
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "他今年五岁。",
+     "vi": "Cháu năm nay năm tuổi.",
+     "t": 11.17
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "您女儿多大？",
+     "vi": "Con gái chị bao nhiêu tuổi rồi ạ?",
+     "highlight": [
+      "多大"
+     ],
+     "tipRef": 1,
+     "t": 13.03
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "她今年十二。",
+     "vi": "Cháu năm nay mười hai.",
+     "t": 14.87
+    }
+   ],
+   "tips": [
+    {
+     "vi": "几岁 dùng để hỏi tuổi trẻ em dưới 10 tuổi."
+    },
+    {
+     "vi": "Trên 10 tuổi thường không hỏi 几岁 mà hỏi 多大. Với người lớn tuổi, lịch sự hơn: 您多大年纪？"
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "儿子",
+     "pinyin": "érzi",
+     "pos": "n.",
+     "vi": "con trai",
+     "example": {
+      "zh": "这是我儿子。",
+      "vi": "Đây là con trai tôi."
+     }
+    },
+    {
+     "zh": "孩子",
+     "pinyin": "háizi",
+     "pos": "n.",
+     "vi": "con, đứa trẻ",
+     "example": {
+      "zh": "我有两个孩子。",
+      "vi": "Tôi có hai đứa con."
+     }
+    },
+    {
+     "zh": "女儿",
+     "pinyin": "nǚ'ér",
+     "pos": "n.",
+     "vi": "con gái",
+     "example": {
+      "zh": "她女儿今年十二岁。",
+      "vi": "Con gái cô ấy năm nay mười hai tuổi."
+     }
+    },
+    {
+     "zh": "岁",
+     "pinyin": "suì",
+     "pos": "m.",
+     "vi": "tuổi",
+     "example": {
+      "zh": "我今年二十岁。",
+      "vi": "Năm nay tôi hai mươi tuổi."
+     }
+    },
+    {
+     "zh": "他",
+     "pinyin": "tā",
+     "pos": "pron.",
+     "vi": "anh ấy, ông ấy, cậu ấy",
+     "example": {
+      "zh": "他是我哥哥。",
+      "vi": "Anh ấy là anh trai tôi."
+     }
+    },
+    {
+     "zh": "今年",
+     "pinyin": "jīnnián",
+     "pos": "n.",
+     "vi": "năm nay",
+     "example": {
+      "zh": "你今年多大？",
+      "vi": "Năm nay bạn bao nhiêu tuổi?"
+     }
+    },
+    {
+     "zh": "多",
+     "pinyin": "duō",
+     "pos": "pron.",
+     "vi": "bao (đứng trước tính từ để hỏi mức độ)",
+     "example": {
+      "zh": "你女儿多大？",
+      "vi": "Con gái bạn bao nhiêu tuổi?"
+     }
+    },
+    {
+     "zh": "大",
+     "pinyin": "dà",
+     "pos": "adj.",
+     "vi": "lớn (tuổi)",
+     "example": {
+      "zh": "你多大？",
+      "vi": "Bạn bao nhiêu tuổi?"
+     }
+    }
+   ],
+   "pangdaTip": "Câu 她今年十二 không có 是 mà vẫn đúng – khi nói tuổi, ngày tháng thì vị ngữ có thể chỉ là danh từ. Bài 5 sẽ học kỹ!"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "王一飞老师有___个学生。",
+   "bank": [
+    "呢",
+    "二十",
+    "没",
+    "口",
+    "大"
+   ],
+   "answer": "二十",
+   "explain_vi": "她有二十个学生 – số đứng trước lượng từ 个."
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "杨同乐家有四___人。",
+   "bank": [
+    "呢",
+    "二十",
+    "没",
+    "口",
+    "大"
+   ],
+   "answer": "口",
+   "explain_vi": "Đếm người trong gia đình dùng 口: 四口人."
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "王一雪：我有两个孩子，你___？",
+   "bank": [
+    "呢",
+    "二十",
+    "没",
+    "口",
+    "大"
+   ],
+   "answer": "呢",
+   "explain_vi": "A……，B呢？ = còn bạn thì sao?"
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "杨同乐：我___孩子。",
+   "bank": [
+    "呢",
+    "二十",
+    "没",
+    "口",
+    "大"
+   ],
+   "answer": "没",
+   "explain_vi": "Phủ định của 有 là 没（有）: 我没孩子 = tôi không có con."
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "杨同乐：您女儿今年多___？",
+   "bank": [
+    "呢",
+    "二十",
+    "没",
+    "口",
+    "大"
+   ],
+   "answer": "大",
+   "explain_vi": "多大 hỏi tuổi người trên 10 tuổi."
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "有",
+    "口人",
+    "我家",
+    "三"
+   ],
+   "answers": [
+    "我家有三口人"
+   ],
+   "vi": "Nhà tôi có ba người.",
+   "explain_vi": "Chủ ngữ + 有 + Số + 口 + 人."
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "两个",
+    "我",
+    "哥哥",
+    "有"
+   ],
+   "answers": [
+    "我有两个哥哥"
+   ],
+   "vi": "Tôi có hai anh trai.",
+   "explain_vi": "两 + 个 + 哥哥: trước lượng từ dùng 两."
+  },
+  {
+   "id": "e8",
+   "kind": "listenPick",
+   "audioText": "二十二",
+   "options": [
+    {
+     "emoji": "🔢",
+     "label": "22"
+    },
+    {
+     "emoji": "🔢",
+     "label": "12"
+    },
+    {
+     "emoji": "🔢",
+     "label": "220"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "二十二 = 22."
+  },
+  {
+   "id": "e9",
+   "kind": "listenPick",
+   "audioText": "妹妹",
+   "options": [
+    {
+     "emoji": "👧",
+     "label": "em gái"
+    },
+    {
+     "emoji": "👦",
+     "label": "anh trai"
+    },
+    {
+     "emoji": "👩",
+     "label": "chị gái"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "妹妹 = em gái."
+  },
+  {
+   "id": "e10",
+   "kind": "listenTF",
+   "audioText": "我家有五口人。",
+   "emoji": "👨‍👩‍👧‍👦",
+   "statement_vi": "Nhà người nói có bốn người.",
+   "answer": false,
+   "explain_vi": "五口人 = năm người."
+  },
+  {
+   "id": "e11",
+   "kind": "listenTF",
+   "audioText": "他今年五岁。",
+   "emoji": "🧒",
+   "statement_vi": "Cậu bé năm nay 5 tuổi.",
+   "answer": true,
+   "explain_vi": "他今年五岁 = cậu ấy năm nay 5 tuổi."
+  },
+  {
+   "id": "e12",
+   "kind": "pictureComplete",
+   "emoji": "👨‍👩‍👧‍👦",
+   "sentence": "我家有___人：爸爸、妈妈、哥哥和我。",
+   "options": [
+    "四口",
+    "三口",
+    "五口"
+   ],
+   "answer": 0,
+   "explain_vi": "Bố, mẹ, anh trai và tôi = 4 người → 四口人."
+  },
+  {
+   "id": "e13",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "你家有几口人？",
+     "a": "我家有三口人。"
+    },
+    {
+     "q": "你儿子几岁？",
+     "a": "他今年五岁。"
+    },
+    {
+     "q": "我叫李文，你呢？",
+     "a": "我叫白家月。"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Hỏi thăm gia đình nhau",
+  "steps_vi": [
+   "Làm việc theo cặp. Lần lượt hỏi nhau: quốc tịch, tuổi, nhà có mấy người, có anh chị em không (có thể tự nghĩ ra một gia đình).",
+   "Ghi lại câu trả lời của bạn mình.",
+   "Giới thiệu gia đình của bạn mình trước lớp, ví dụ: 她家有四口人……"
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "你是哪国人？",
+    "vi": "Bạn là người nước nào?"
+   },
+   {
+    "zh": "你家有几口人？",
+    "vi": "Nhà bạn có mấy người?"
+   },
+   {
+    "zh": "你有哥哥吗？",
+    "vi": "Bạn có anh trai không?"
+   },
+   {
+    "zh": "我没有哥哥，我有一个妹妹。",
+    "vi": "Tôi không có anh trai, tôi có một em gái."
+   },
+   {
+    "zh": "你多大？我今年二十岁。",
+    "vi": "Bạn bao nhiêu tuổi? Năm nay tôi hai mươi tuổi."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "哥哥有两个儿子，两个儿子都十二。",
+  "vi": "Anh trai có hai cậu con trai, hai cậu đều mười hai tuổi. (Luyện phân biệt 二 èr – 两 liǎng – 儿 ér)"
+ },
+ "culture": {
+  "title_vi": "Hỏi tuổi sao cho lịch sự",
+  "body_vi": [
+   "Người Trung Quốc chọn câu hỏi tuổi theo người được hỏi. Với trẻ nhỏ dưới 10 tuổi hỏi 你几岁？ – vì 几 dùng để đoán số nhỏ.",
+   "Với bạn bè, người trẻ hoặc ngang tuổi, câu hỏi phổ biến nhất là 你多大？. Với ông bà, người lớn tuổi, nên hỏi lịch sự: 您多大年纪？ (年纪 niánjì: tuổi tác – sẽ học sau).",
+   "Giống người Việt, người Trung Quốc cũng thích con số may mắn: 8 (八 bā gần âm 发 fā – phát tài) và 6 (六 – suôn sẻ). Số 4 (四 sì) gần âm 死 sǐ (chết) nên hay bị tránh, ví dụ nhiều toà nhà không có tầng 4."
+  ],
+  "table": {
+   "head": [
+    "Hỏi ai",
+    "Câu hỏi",
+    "Pinyin",
+    "Ghi chú"
+   ],
+   "rows": [
+    [
+     "Trẻ dưới 10 tuổi",
+     "你几岁？",
+     "Nǐ jǐ suì?",
+     "thân mật"
+    ],
+    [
+     "Bạn bè, người trẻ",
+     "你多大？",
+     "Nǐ duō dà?",
+     "phổ biến nhất"
+    ],
+    [
+     "Người lớn tuổi",
+     "您多大年纪？",
+     "Nín duō dà niánjì?",
+     "kính trọng"
+    ]
+   ]
+  }
+ }
 }

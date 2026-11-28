@@ -1,35 +1,1056 @@
 {
-  "id": 12,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "昨天下雪了",
-    "pinyin": "Zuótiān xià xuě le",
-    "vi": "Hôm qua tuyết rơi"
+ "id": 12,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "昨天下雪了",
+  "pinyin": "Zuótiān xià xuě le",
+  "vi": "Hôm qua tuyết rơi"
+ },
+ "grammarTopics_vi": [
+  "Câu không chủ-vị",
+  "Trợ từ 了 (1)",
+  "Cấu trúc 太……了"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi và nói về thời tiết",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Câu không chủ-vị",
-    "Trợ từ 了 (1)",
-    "Cấu trúc 太……了"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Dùng 了 cuối câu để nói tình hình đã thay đổi",
+   "doneWhen": [
+    "text-1",
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Cảm thán bằng 太……了",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Nói mình bị ốm, đi khám bệnh",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🌧️",
+   "word": "下雨",
+   "pinyin": "xià yǔ",
+   "vi": "mưa"
+  },
+  {
+   "emoji": "🥶",
+   "word": "冷",
+   "pinyin": "lěng",
+   "vi": "lạnh"
+  },
+  {
+   "emoji": "🤒",
+   "word": "生病",
+   "pinyin": "shēngbìng",
+   "vi": "bị ốm"
+  },
+  {
+   "emoji": "🩺",
+   "word": "看病",
+   "pinyin": "kànbìng",
+   "vi": "khám bệnh"
+  },
+  {
+   "emoji": "❄️",
+   "word": "雪",
+   "pinyin": "xuě",
+   "vi": "tuyết"
+  },
+  {
+   "emoji": "💧",
+   "word": "水",
+   "pinyin": "shuǐ",
+   "vi": "nước"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Vương Nhất Tuyết gọi điện hỏi thăm tình hình chỗ Vương Nhất Phi.",
+   "scene": "🌧️",
+   "audio": "audio/hsk1/12-1.mp3",
+   "vocabAudio": "audio/hsk1/12-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Câu không chủ-vị",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "今天天气怎么样？",
+     "vi": "Hôm nay thời tiết thế nào?",
+     "t": 0.92
     },
     {
-      "id": "o2",
-      "vi": "Trợ từ 了 (1)",
-      "doneWhen": []
+     "speaker": "wangyifei",
+     "zh": "这里的天不太好，下雨了。",
+     "vi": "Trời ở đây không đẹp lắm, mưa rồi.",
+     "highlight": [
+      "下雨了"
+     ],
+     "t": 3.84
     },
     {
-      "id": "o3",
-      "vi": "Cấu trúc 太……了",
-      "doneWhen": []
+     "speaker": "wangyixue",
+     "zh": "雨大吗？",
+     "vi": "Mưa có to không?",
+     "t": 7.81
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "有点儿大，我觉得很冷。",
+     "vi": "Hơi to, em thấy lạnh lắm.",
+     "highlight": [
+      "有点儿",
+      "觉得"
+     ],
+     "t": 9.9
     }
+   ],
+   "vocab": [
+    {
+     "zh": "天气",
+     "pinyin": "tiānqì",
+     "pos": "n.",
+     "vi": "thời tiết",
+     "example": {
+      "zh": "今天天气很好。",
+      "vi": "Hôm nay thời tiết đẹp."
+     }
+    },
+    {
+     "zh": "这里",
+     "pinyin": "zhèlǐ",
+     "pos": "pron.",
+     "vi": "ở đây, chỗ này",
+     "example": {
+      "zh": "这里的天不太好。",
+      "vi": "Trời ở đây không đẹp lắm."
+     }
+    },
+    {
+     "zh": "天",
+     "pinyin": "tiān",
+     "pos": "n.",
+     "vi": "trời, thời tiết",
+     "example": {
+      "zh": "天不太好",
+      "vi": "trời không đẹp lắm"
+     }
+    },
+    {
+     "zh": "下雨",
+     "pinyin": "xià yǔ",
+     "pos": "v.",
+     "vi": "mưa",
+     "example": {
+      "zh": "下雨了。",
+      "vi": "Mưa rồi."
+     }
+    },
+    {
+     "zh": "了",
+     "pinyin": "le",
+     "pos": "part.",
+     "vi": "rồi (báo tình hình thay đổi)",
+     "example": {
+      "zh": "下雨了。",
+      "vi": "Mưa rồi."
+     }
+    },
+    {
+     "zh": "雨",
+     "pinyin": "yǔ",
+     "pos": "n.",
+     "vi": "mưa",
+     "example": {
+      "zh": "雨大吗？",
+      "vi": "Mưa to không?"
+     }
+    },
+    {
+     "zh": "有点儿",
+     "pinyin": "yǒudiǎnr",
+     "pos": "adv.",
+     "vi": "hơi, có chút",
+     "example": {
+      "zh": "有点儿冷",
+      "vi": "hơi lạnh"
+     }
+    },
+    {
+     "zh": "觉得",
+     "pinyin": "juéde",
+     "pos": "v.",
+     "vi": "cảm thấy, thấy",
+     "example": {
+      "zh": "我觉得很冷。",
+      "vi": "Tôi thấy rất lạnh."
+     }
+    },
+    {
+     "zh": "冷",
+     "pinyin": "lěng",
+     "pos": "adj.",
+     "vi": "lạnh",
+     "example": {
+      "zh": "今天很冷。",
+      "vi": "Hôm nay rất lạnh."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g12-1",
+     "title_zh": "非主谓句",
+     "title_vi": "Câu không chủ-vị: 下雨了！ 真漂亮！",
+     "formula": [
+      [
+       {
+        "zh": "下雨了",
+        "label": "Chỉ có một cụm từ",
+        "role": "V"
+       },
+       {
+        "zh": "。",
+        "label": "",
+        "role": "X"
+       }
+      ],
+      [
+       {
+        "zh": "真漂亮",
+        "label": "Cảm thán",
+        "role": "V"
+       },
+       {
+        "zh": "！",
+        "label": "",
+        "role": "X"
+       }
+      ]
+     ],
+     "explain_vi": "Câu không chủ-vị chỉ gồm một từ hoặc một cụm từ, không tách ra chủ ngữ – vị ngữ, rất hay dùng khi nói: hiện tượng thời tiết (下雨了, 下雪了), báo việc (上课了), cảm thán, xin lỗi (真漂亮！对不起！没关系！). Giống tiếng Việt “Mưa rồi!”, “Đẹp quá!”.",
+     "examples": [
+      {
+       "zh": "下雨了。",
+       "vi": "Mưa rồi."
+      },
+      {
+       "zh": "下雪了。",
+       "vi": "Tuyết rơi rồi."
+      },
+      {
+       "zh": "上课了。",
+       "vi": "Vào lớp rồi."
+      },
+      {
+       "zh": "真漂亮！",
+       "vi": "Đẹp thật!"
+      },
+      {
+       "zh": "对不起！——没关系！",
+       "vi": "Xin lỗi! – Không sao!"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "有下雨。",
+       "right": "下雨了。",
+       "why_vi": "Nói trời đang mưa: 下雨了, không dùng 有."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tuyết rơi rồi!”",
+       "options": [
+        "下雪了！",
+        "有下雪！",
+        "是下雪了！"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g12-2",
+     "title_zh": "语气助词“了”（1）",
+     "title_vi": "了 cuối câu: tình hình đã thay đổi (… rồi)",
+     "formula": [
+      [
+       {
+        "zh": "下雨",
+        "label": "Sự việc",
+        "role": "V"
+       },
+       {
+        "zh": "了",
+        "label": "rồi (thay đổi)",
+        "role": "PART"
+       }
+      ],
+      [
+       {
+        "zh": "十二点",
+        "label": "Thời gian",
+        "role": "N"
+       },
+       {
+        "zh": "了",
+        "label": "rồi",
+        "role": "PART"
+       },
+       {
+        "zh": "，吃午饭吧",
+        "label": "",
+        "role": "X"
+       }
+      ]
+     ],
+     "explain_vi": "了 đặt cuối câu (hoặc chỗ ngắt giữa câu) cho biết tình hình đã THAY ĐỔI, có tình huống mới – giống “rồi” trong tiếng Việt: 下雨了 (mưa rồi), 十二点了 (12 giờ rồi). Phủ định: dùng 没 và BỎ 了 ở cuối: 弟弟起床了吗？——没起床呢. Không nói 没起床了.",
+     "examples": [
+      {
+       "zh": "下雨了。",
+       "vi": "Mưa rồi."
+      },
+      {
+       "zh": "十二点了，吃午饭吧。",
+       "vi": "12 giờ rồi, ăn trưa thôi."
+      },
+      {
+       "zh": "A：弟弟起床了吗？ B：没起床呢。",
+       "vi": "A: Em trai dậy chưa? B: Chưa dậy."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我没去医院了。",
+       "right": "我没去医院。",
+       "why_vi": "Câu phủ định với 没 thì bỏ 了."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Em trai chưa dậy.”",
+       "options": [
+        "弟弟没起床呢。",
+        "弟弟没起床了。",
+        "弟弟起床没了。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "很好",
+      "很不好",
+      "不太好"
+     ],
+     "answer": 2,
+     "prompt_zh": "王一飞那儿的天气（　）。",
+     "explain_vi": "这里的天不太好，下雨了。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "不冷",
+      "很冷",
+      "有点儿冷"
+     ],
+     "answer": 1,
+     "prompt_zh": "王一飞觉得（　）。",
+     "explain_vi": "有点儿大，我觉得很冷。 – bẫy: 有点儿 nói về cơn mưa."
+    }
+   ],
+   "pangdaTip": "不太 + tính từ = không … lắm: 不太好 (không đẹp lắm), 不太冷 (không lạnh lắm). Nói giảm nhẹ, lịch sự hơn 不好."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Trong thang máy công ty, Vương Nhất Tuyết và Dương Đồng Lạc nói chuyện.",
+   "scene": "🛗",
+   "audio": "audio/hsk1/12-3.mp3",
+   "vocabAudio": "audio/hsk1/12-4.mp3",
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "昨天下雪了。",
+     "vi": "Hôm qua tuyết rơi đấy.",
+     "t": 0.41
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "是的，太冷了。",
+     "vi": "Vâng, lạnh quá.",
+     "highlight": [
+      "太冷了"
+     ],
+     "t": 2.59
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "你昨天没来公司，生病了？",
+     "vi": "Hôm qua cậu không đến công ty, bị ốm à?",
+     "highlight": [
+      "没来公司"
+     ],
+     "t": 5.44
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "对，我昨天去医院看病了。",
+     "vi": "Vâng, hôm qua em đi bệnh viện khám.",
+     "highlight": [
+      "看病了"
+     ],
+     "t": 9.09
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "下",
+     "pinyin": "xià",
+     "pos": "v.",
+     "vi": "rơi (mưa, tuyết)",
+     "example": {
+      "zh": "下雪了。",
+      "vi": "Tuyết rơi rồi."
+     }
+    },
+    {
+     "zh": "雪",
+     "pinyin": "xuě",
+     "pos": "n.",
+     "vi": "tuyết",
+     "example": {
+      "zh": "昨天下雪了。",
+      "vi": "Hôm qua tuyết rơi."
+     }
+    },
+    {
+     "zh": "来",
+     "pinyin": "lái",
+     "pos": "v.",
+     "vi": "đến, tới",
+     "example": {
+      "zh": "你来公司吗？",
+      "vi": "Bạn có đến công ty không?"
+     }
+    },
+    {
+     "zh": "公司",
+     "pinyin": "gōngsī",
+     "pos": "n.",
+     "vi": "công ty",
+     "example": {
+      "zh": "我在公司工作。",
+      "vi": "Tôi làm việc ở công ty."
+     }
+    },
+    {
+     "zh": "生病",
+     "pinyin": "shēngbìng",
+     "pos": "v.",
+     "vi": "bị ốm",
+     "example": {
+      "zh": "他生病了。",
+      "vi": "Anh ấy bị ốm rồi."
+     }
+    },
+    {
+     "zh": "看病",
+     "pinyin": "kànbìng",
+     "pos": "v.",
+     "vi": "khám bệnh, đi khám",
+     "example": {
+      "zh": "去医院看病",
+      "vi": "đến bệnh viện khám"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g12-3",
+     "title_zh": "“太……了”格式",
+     "title_vi": "太 + tính từ + 了: … quá!",
+     "formula": [
+      [
+       {
+        "zh": "太",
+        "label": "quá",
+        "role": "ADV"
+       },
+       {
+        "zh": "冷",
+        "label": "Tính từ",
+        "role": "V"
+       },
+       {
+        "zh": "了",
+        "label": "",
+        "role": "PART"
+       }
+      ]
+     ],
+     "explain_vi": "太 + tính từ + 了 dùng để cảm thán mức độ rất cao: 太冷了！太好了！ Có khi hàm ý “quá mức, không vừa ý”: 这个杯子太小了. Dạng phủ định 不太 + tính từ (không có 了) = không … lắm: 不太好.",
+     "examples": [
+      {
+       "zh": "太冷了！",
+       "vi": "Lạnh quá!"
+      },
+      {
+       "zh": "这个杯子太小了。",
+       "vi": "Cái cốc này nhỏ quá."
+      },
+      {
+       "zh": "我们今天太高兴了！",
+       "vi": "Hôm nay chúng tôi vui quá!"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "太冷！",
+       "right": "太冷了！",
+       "why_vi": "Mẫu cảm thán đầy đủ: 太……了."
+      },
+      {
+       "wrong": "不太好了。",
+       "right": "不太好。",
+       "why_vi": "不太 + tính từ không đi với 了."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chiếc áo này đắt quá!”",
+       "options": [
+        "这件衣服太贵了！",
+        "这件衣服贵太了！",
+        "这件衣服太了贵！"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "生病",
+      "上班",
+      "去公司"
+     ],
+     "answer": 0,
+     "prompt_zh": "杨同乐昨天（　）了。",
+     "explain_vi": "你昨天没来公司，生病了？——对。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "在家里",
+      "去医院",
+      "来公司"
+     ],
+     "answer": 2,
+     "prompt_zh": "杨同乐今天（　）了。",
+     "explain_vi": "Hai người đang nói chuyện trong thang máy công ty → hôm nay đã đến công ty."
+    }
+   ],
+   "pangdaTip": "下 bây giờ còn là động từ “rơi”: 下雨 (mưa), 下雪 (tuyết rơi). Tiếng Trung không nói “trời mưa” mà nói “rơi mưa”."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Hôm qua ở bệnh viện, bác sĩ khám bệnh cho Dương Đồng Lạc.",
+   "scene": "🤒",
+   "audio": "audio/hsk1/12-5.mp3",
+   "vocabAudio": "audio/hsk1/12-6.mp3",
+   "lines": [
+    {
+     "speaker": "yangtongle",
+     "zh": "医生，我病了。",
+     "vi": "Bác sĩ ơi, tôi bị ốm.",
+     "t": 0.55
+    },
+    {
+     "speaker": "huyisheng",
+     "zh": "我看看。你觉得怎么样？",
+     "vi": "Để tôi xem nào. Anh thấy thế nào?",
+     "highlight": [
+      "看看"
+     ],
+     "tipRef": 0,
+     "t": 3.59
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我很冷。",
+     "vi": "Tôi thấy rất lạnh.",
+     "t": 7.22
+    },
+    {
+     "speaker": "huyisheng",
+     "zh": "好的，吃一点儿药，今天休息半天吧。",
+     "vi": "Được rồi, uống chút thuốc, hôm nay nghỉ nửa ngày nhé.",
+     "highlight": [
+      "一点儿药",
+      "半天"
+     ],
+     "t": 9.44
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "好的。",
+     "vi": "Vâng.",
+     "t": 14.76
+    },
+    {
+     "speaker": "huyisheng",
+     "zh": "回家后再喝些热水。",
+     "vi": "Về nhà rồi uống thêm ít nước ấm.",
+     "highlight": [
+      "喝些热水"
+     ],
+     "tipRef": 1,
+     "t": 16.58
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "病",
+     "pinyin": "bìng",
+     "pos": "v.",
+     "vi": "bị bệnh, ốm",
+     "example": {
+      "zh": "我病了。",
+      "vi": "Tôi bị ốm."
+     }
+    },
+    {
+     "zh": "一点儿",
+     "pinyin": "yìdiǎnr",
+     "pos": "num.-m.",
+     "vi": "một chút, một ít",
+     "example": {
+      "zh": "吃一点儿药",
+      "vi": "uống chút thuốc"
+     }
+    },
+    {
+     "zh": "药",
+     "pinyin": "yào",
+     "pos": "n.",
+     "vi": "thuốc",
+     "example": {
+      "zh": "吃药",
+      "vi": "uống thuốc"
+     },
+     "note_vi": "Tiếng Trung nói 吃药 (ăn thuốc), không nói 喝药."
+    },
+    {
+     "zh": "天",
+     "pinyin": "tiān",
+     "pos": "m.",
+     "vi": "ngày",
+     "example": {
+      "zh": "休息半天",
+      "vi": "nghỉ nửa ngày"
+     }
+    },
+    {
+     "zh": "回",
+     "pinyin": "huí",
+     "pos": "v.",
+     "vi": "về",
+     "example": {
+      "zh": "回家",
+      "vi": "về nhà"
+     }
+    },
+    {
+     "zh": "再",
+     "pinyin": "zài",
+     "pos": "adv.",
+     "vi": "rồi mới, sau đó (làm tiếp)",
+     "example": {
+      "zh": "回家后再喝水",
+      "vi": "về nhà rồi uống nước"
+     }
+    },
+    {
+     "zh": "喝",
+     "pinyin": "hē",
+     "pos": "v.",
+     "vi": "uống",
+     "example": {
+      "zh": "喝水",
+      "vi": "uống nước"
+     }
+    },
+    {
+     "zh": "热",
+     "pinyin": "rè",
+     "pos": "adj.",
+     "vi": "nóng, ấm",
+     "example": {
+      "zh": "热水",
+      "vi": "nước ấm"
+     }
+    },
+    {
+     "zh": "水",
+     "pinyin": "shuǐ",
+     "pos": "n.",
+     "vi": "nước",
+     "example": {
+      "zh": "喝些热水",
+      "vi": "uống ít nước ấm"
+     }
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "很热",
+      "很冷",
+      "有点儿冷"
+     ],
+     "answer": 1,
+     "prompt_zh": "杨同乐觉得（　）。",
+     "explain_vi": "我很冷。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上班",
+      "下班",
+      "休息半天"
+     ],
+     "answer": 2,
+     "prompt_zh": "医生对杨同乐说：“今天（　）吧。”",
+     "explain_vi": "今天休息半天吧。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "看看 là động từ lặp lại, nghĩa là “xem thử một chút”, làm nhanh, nhẹ nhàng."
+    },
+    {
+     "vi": "Người Trung Quốc rất thích uống nước ấm và tin là uống nước ấm tốt cho sức khoẻ."
+    }
+   ],
+   "pangdaTip": "Thuốc thì 吃 (吃药), nước thì 喝 (喝水). Người Việt hay nói “uống thuốc” nên dễ dịch nhầm thành 喝药!"
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "外边正在下___，太冷了！",
+   "bank": [
+    "怎么样",
+    "雪",
+    "了",
+    "看",
+    "太"
+   ],
+   "answer": "雪",
+   "explain_vi": "下雪 = tuyết rơi.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "外边正在下雪，___冷了！",
+   "bank": [
+    "怎么样",
+    "雪",
+    "了",
+    "看",
+    "太"
+   ],
+   "answer": "太",
+   "explain_vi": "太……了 = … quá.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "他去公司工作___。",
+   "bank": [
+    "怎么样",
+    "雪",
+    "了",
+    "看",
+    "太"
+   ],
+   "answer": "了",
+   "explain_vi": "了 cuối câu: việc đã xảy ra / thay đổi.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "医生：你觉得___？ 杨同乐：我很冷。",
+   "bank": [
+    "怎么样",
+    "雪",
+    "了",
+    "看",
+    "太"
+   ],
+   "answer": "怎么样",
+   "explain_vi": "你觉得怎么样？ = Anh thấy thế nào?",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "王一雪：你昨天去医院___病了吗？",
+   "bank": [
+    "怎么样",
+    "雪",
+    "了",
+    "看",
+    "太"
+   ],
+   "answer": "看",
+   "explain_vi": "看病 = khám bệnh.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "太",
+    "了",
+    "冷",
+    "今天"
+   ],
+   "answers": [
+    "今天太冷了"
+   ],
+   "vi": "Hôm nay lạnh quá.",
+   "explain_vi": "太 + tính từ + 了.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "没",
+    "公司",
+    "你",
+    "来",
+    "昨天"
+   ],
+   "answers": [
+    "你昨天没来公司",
+    "昨天你没来公司"
+   ],
+   "vi": "Hôm qua bạn không đến công ty.",
+   "explain_vi": "没 + động từ; câu phủ định không có 了.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "热水",
+    "些",
+    "回家后",
+    "喝",
+    "再"
+   ],
+   "answers": [
+    "回家后再喝些热水"
+   ],
+   "vi": "Về nhà rồi uống ít nước ấm.",
+   "explain_vi": "回家后 + 再 + động từ.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "下雪了",
+   "options": [
+    {
+     "emoji": "❄️",
+     "label": "tuyết rơi"
+    },
+    {
+     "emoji": "🌧️",
+     "label": "mưa"
+    },
+    {
+     "emoji": "☀️",
+     "label": "trời nắng"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "下雪了 = tuyết rơi rồi.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "药",
+   "options": [
+    {
+     "emoji": "💊",
+     "label": "thuốc"
+    },
+    {
+     "emoji": "💧",
+     "label": "nước"
+    },
+    {
+     "emoji": "🍎",
+     "label": "táo"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "药 = thuốc.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我觉得有点儿冷。",
+   "emoji": "🥶",
+   "statement_vi": "Người nói thấy hơi lạnh.",
+   "answer": true,
+   "explain_vi": "有点儿冷 = hơi lạnh.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我昨天没去医院。",
+   "emoji": "🏥",
+   "statement_vi": "Hôm qua người nói đi bệnh viện.",
+   "answer": false,
+   "explain_vi": "没去 = không đi.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🤒🛏️",
+   "sentence": "杨同乐___了，今天没来公司。",
+   "options": [
+    "生病",
+    "下雨",
+    "看病"
+   ],
+   "answer": 0,
+   "explain_vi": "Bị ốm nằm ở nhà → 生病了.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "今天天气怎么样？",
+     "a": "下雨了，有点儿冷。"
+    },
+    {
+     "q": "你怎么了？",
+     "a": "我病了。"
+    },
+    {
+     "q": "你昨天去哪儿了？",
+     "a": "我去医院看病了。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Đi khám bệnh",
+  "steps_vi": [
+   "Làm việc theo cặp: một bạn đóng vai bác sĩ, một bạn đóng vai người bệnh đến khám.",
+   "Người bệnh nói mình thấy thế nào; bác sĩ hỏi thêm và khuyên uống thuốc, nghỉ ngơi, uống nước ấm.",
+   "Đổi vai và đổi bệnh (lạnh, mệt, nóng…)."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "医生，我病了。",
+    "vi": "Bác sĩ ơi, tôi bị ốm."
+   },
+   {
+    "zh": "我看看。你觉得冷不冷？",
+    "vi": "Để tôi xem. Anh có thấy lạnh không?"
+   },
+   {
+    "zh": "有点儿冷。",
+    "vi": "Hơi lạnh."
+   },
+   {
+    "zh": "好的，吃一点儿药吧。",
+    "vi": "Được rồi, uống chút thuốc nhé."
+   },
+   {
+    "zh": "回家后再喝些热水。",
+    "vi": "Về nhà rồi uống ít nước ấm."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "下雪了，下雨了，有点儿冷了。",
+  "vi": "Tuyết rơi rồi, mưa rồi, hơi lạnh rồi. (Luyện x – y – l và âm cuốn lưỡi -r)"
+ },
+ "culture": {
+  "title_vi": "“Uống nhiều nước ấm vào!”",
+  "body_vi": [
+   "Khi bạn bị ốm, mệt hay đau bụng, người Trung Quốc gần như chắc chắn sẽ khuyên: 多喝热水！ (Uống nhiều nước ấm vào!). Họ tin nước ấm giúp cơ thể ấm lên, dễ chịu và nhanh khỏi.",
+   "Vì thế ở nhà ga, trường học, công ty… thường có vòi nước nóng miễn phí, và nhiều người mang theo bình giữ nhiệt cả mùa hè.",
+   "Mùa đông ở miền Bắc Trung Quốc có tuyết, nhiệt độ xuống dưới 0 °C. Nhà cửa ở đó có hệ thống sưởi chung (暖气 nuǎnqì), nên trong nhà vẫn ấm dù ngoài trời rất lạnh."
+  ],
+  "table": {
+   "head": [
+    "Thời tiết",
+    "Tiếng Trung",
+    "Pinyin"
+   ],
+   "rows": [
+    [
+     "trời đẹp",
+     "天气很好",
+     "tiānqì hěn hǎo"
+    ],
+    [
+     "mưa rồi",
+     "下雨了",
+     "xià yǔ le"
+    ],
+    [
+     "tuyết rơi rồi",
+     "下雪了",
+     "xià xuě le"
+    ],
+    [
+     "lạnh quá",
+     "太冷了",
+     "tài lěng le"
+    ],
+    [
+     "nóng quá",
+     "太热了",
+     "tài rè le"
+    ]
+   ]
+  }
+ }
 }

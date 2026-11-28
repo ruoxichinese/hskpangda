@@ -1,35 +1,1173 @@
 {
-  "id": 14,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "我看了一个电影",
-    "pinyin": "Wǒ kànle yí ge diànyǐng",
-    "vi": "Tôi đã xem một bộ phim"
+ "id": 14,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "我看了一个电影",
+  "pinyin": "Wǒ kànle yí ge diànyǐng",
+  "vi": "Tôi đã xem một bộ phim"
+ },
+ "grammarTopics_vi": [
+  "Trợ từ 了 (2)",
+  "Từ ly hợp (1)",
+  "Phó từ phạm vi 都"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Dùng 了 sau động từ để nói việc đã xảy ra, đã xong",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Trợ từ 了 (2)",
-    "Từ ly hợp (1)",
-    "Phó từ phạm vi 都"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Tách từ ly hợp: 睡了一觉, 上中文课",
+   "doneWhen": [
+    "text-1"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng 都 (đều) đúng vị trí",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Kể chuyện học hành, chuyện con cái đi học",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🚆",
+   "word": "火车",
+   "pinyin": "huǒchē",
+   "vi": "tàu hoả"
+  },
+  {
+   "emoji": "👀",
+   "word": "看见",
+   "pinyin": "kànjiàn",
+   "vi": "nhìn thấy"
+  },
+  {
+   "emoji": "📝",
+   "word": "汉字",
+   "pinyin": "Hànzì",
+   "vi": "chữ Hán"
+  },
+  {
+   "emoji": "🎧",
+   "word": "听",
+   "pinyin": "tīng",
+   "vi": "nghe"
+  },
+  {
+   "emoji": "🎒",
+   "word": "小学生",
+   "pinyin": "xiǎoxuéshēng",
+   "vi": "học sinh tiểu học"
+  },
+  {
+   "emoji": "🗣️",
+   "word": "说话",
+   "pinyin": "shuōhuà",
+   "vi": "nói chuyện"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Trong lớp học, sau giờ học, Bạch Gia Nguyệt và Trần Thiên Trung nói về chuyến đi ngoại khoá lần trước.",
+   "scene": "🚆",
+   "audio": "audio/hsk1/14-1.mp3",
+   "vocabAudio": "audio/hsk1/14-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Trợ từ 了 (2)",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "你们上火车后看见王老师了吗？",
+     "vi": "Lên tàu rồi các cậu có thấy cô Vương không?",
+     "highlight": [
+      "上火车"
+     ],
+     "t": 0.26
     },
     {
-      "id": "o2",
-      "vi": "Từ ly hợp (1)",
-      "doneWhen": []
+     "speaker": "chentianzhong",
+     "zh": "没看见。中午车开后，有些人在看书，有些人睡觉了。",
+     "vi": "Không thấy. Trưa tàu chạy rồi, có người đọc sách, có người ngủ.",
+     "highlight": [
+      "没看见",
+      "有些人"
+     ],
+     "tipRef": 0,
+     "t": 4.3
     },
     {
-      "id": "o3",
-      "vi": "Phó từ phạm vi 都",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "你呢？",
+     "vi": "Còn cậu?",
+     "t": 11.72
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "我看了一个电影。",
+     "vi": "Mình xem một bộ phim.",
+     "highlight": [
+      "看了"
+     ],
+     "t": 12.87
     }
+   ],
+   "vocab": [
+    {
+     "zh": "上",
+     "pinyin": "shàng",
+     "pos": "v.",
+     "vi": "lên (xe, tàu…)",
+     "example": {
+      "zh": "上火车",
+      "vi": "lên tàu"
+     }
+    },
+    {
+     "zh": "火车",
+     "pinyin": "huǒchē",
+     "pos": "n.",
+     "vi": "tàu hoả",
+     "example": {
+      "zh": "坐火车去北京",
+      "vi": "đi tàu hoả đến Bắc Kinh"
+     }
+    },
+    {
+     "zh": "中午",
+     "pinyin": "zhōngwǔ",
+     "pos": "n.",
+     "vi": "buổi trưa",
+     "example": {
+      "zh": "中午十二点",
+      "vi": "12 giờ trưa"
+     }
+    },
+    {
+     "zh": "开",
+     "pinyin": "kāi",
+     "pos": "v.",
+     "vi": "(xe, tàu) chạy, khởi hành",
+     "example": {
+      "zh": "车开了。",
+      "vi": "Xe chạy rồi."
+     }
+    },
+    {
+     "zh": "有些",
+     "pinyin": "yǒuxiē",
+     "pos": "pron.",
+     "vi": "một số, có những",
+     "example": {
+      "zh": "有些人在看书。",
+      "vi": "Có người đang đọc sách."
+     }
+    },
+    {
+     "zh": "有的",
+     "pinyin": "yǒude",
+     "pos": "pron.",
+     "vi": "có người, có cái",
+     "example": {
+      "zh": "有的人在睡觉。",
+      "vi": "Có người đang ngủ."
+     }
+    },
+    {
+     "zh": "了",
+     "pinyin": "le",
+     "pos": "part.",
+     "vi": "đã (sau động từ: việc đã xong)",
+     "example": {
+      "zh": "我看了一个电影。",
+      "vi": "Tôi đã xem một bộ phim."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g14-1",
+     "title_zh": "动态助词“了”（2）",
+     "title_vi": "了 sau động từ: việc ĐÃ xảy ra, đã xong",
+     "formula": [
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "看",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "了",
+        "label": "đã (xong)",
+        "role": "PART"
+       },
+       {
+        "zh": "一个电影",
+        "label": "Số lượng + tân ngữ",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "没",
+        "label": "không, chưa",
+        "role": "ADV"
+       },
+       {
+        "zh": "去",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "商店",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Khẳng định: động từ + 了 + số lượng + danh từ",
+      "Phủ định: 没 + động từ (bỏ 了)"
+     ],
+     "explain_vi": "了 đứng ngay SAU động từ cho biết hành động đã xảy ra, đã xong: 我看了一个电影. Tân ngữ sau 了 thường có số lượng (一个, 两本…). Phủ định: 没 + động từ và BỎ 了: 我昨天没去商店. Tiếng Việt đặt “đã” TRƯỚC động từ, còn tiếng Trung đặt 了 SAU động từ. Khác với 了 (1) ở bài 12 đứng cuối câu báo tình hình thay đổi (下雨了).",
+     "examples": [
+      {
+       "zh": "我看了一个电影。",
+       "vi": "Tôi đã xem một bộ phim."
+      },
+      {
+       "zh": "我买了一个新电脑。",
+       "vi": "Tôi đã mua một máy tính mới."
+      },
+      {
+       "zh": "我昨天没去商店买东西。",
+       "vi": "Hôm qua tôi không đi cửa hàng mua đồ."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我没看了电影。",
+       "right": "我没看电影。",
+       "why_vi": "Phủ định với 没 thì bỏ 了."
+      },
+      {
+       "wrong": "我了看一个电影。",
+       "right": "我看了一个电影。",
+       "why_vi": "了 đứng SAU động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi đã mua một quyển sách.”",
+       "options": [
+        "我买了一本书。",
+        "我了买一本书。",
+        "我没买了一本书。"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "“Hôm qua tôi không đi siêu thị.”",
+       "options": [
+        "我昨天没去超市。",
+        "我昨天没去了超市。",
+        "我昨天不去了超市。"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g14-2",
+     "title_zh": "离合词（1）",
+     "title_vi": "Từ ly hợp: 睡觉 → 睡了一觉",
+     "formula": [
+      [
+       {
+        "zh": "睡",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "了",
+        "label": "",
+        "role": "PART"
+       },
+       {
+        "zh": "一",
+        "label": "",
+        "role": "N"
+       },
+       {
+        "zh": "觉",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "上",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "中文",
+        "label": "Bổ sung",
+        "role": "ATTR"
+       },
+       {
+        "zh": "课",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ]
+     ],
+     "explain_vi": "Các từ 上课, 下课, 上班, 下班, 说话, 读书, 睡觉, 看病, 生病 thật ra gồm “động từ + tân ngữ”. Đứng liền nhau thì là một từ; muốn thêm 了, số lượng hay từ bổ nghĩa thì TÁCH ra, chen vào giữa: 睡觉 → 睡了一觉; 上课 → 上了课, 上中文课; 生病 → 生了大病.",
+     "examples": [
+      {
+       "zh": "睡了觉；睡了一觉",
+       "vi": "đã ngủ; ngủ một giấc"
+      },
+      {
+       "zh": "上了课；上中文课",
+       "vi": "đã học; học tiết tiếng Trung"
+      },
+      {
+       "zh": "下了班",
+       "vi": "tan làm rồi"
+      },
+      {
+       "zh": "生了病；生了大病",
+       "vi": "bị ốm; ốm nặng"
+      },
+      {
+       "zh": "说了话；说了很多话",
+       "vi": "đã nói; nói rất nhiều"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我们上课中文。",
+       "right": "我们上中文课。",
+       "why_vi": "Chen 中文 vào giữa 上 và 课."
+      },
+      {
+       "wrong": "他生病了大。",
+       "right": "他生了大病。",
+       "why_vi": "Tách 生病 ra: 生了大病."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chiều nay tôi học tiết tiếng Trung.”",
+       "options": [
+        "今天下午我上中文课。",
+        "今天下午我上课中文。",
+        "今天下午我中文上课。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "正在看",
+      "没看见",
+      "看见了"
+     ],
+     "answer": 1,
+     "prompt_zh": "陈天中（　）王老师。",
+     "explain_vi": "没看见。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "读书",
+      "找王老师",
+      "看了一个电影"
+     ],
+     "answer": 2,
+     "prompt_zh": "陈天中在火车上（　）。",
+     "explain_vi": "我看了一个电影。 – bẫy: 读书 là việc của “có người”."
+    }
+   ],
+   "tips": [
+    {
+     "vi": "有些 cũng có thể nói là 有的: 有的人在看书，有的人睡觉了."
+    }
+   ],
+   "pangdaTip": "上 bây giờ còn là động từ “lên”: 上火车 (lên tàu), 上飞机 (lên máy bay). Xuống thì dùng 下: 下火车."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Trên lớp, cô Vương Nhất Phi hỏi các học sinh về việc học.",
+   "scene": "📝",
+   "audio": "audio/hsk1/14-3.mp3",
+   "vocabAudio": "audio/hsk1/14-4.mp3",
+   "lines": [
+    {
+     "speaker": "wangyifei",
+     "zh": "你们会说汉语了，也会写汉字了吗？",
+     "vi": "Các em nói được tiếng Trung rồi, vậy viết được chữ Hán chưa?",
+     "t": 3.51
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我们都会写了。",
+     "vi": "Chúng em đều viết được rồi ạ.",
+     "highlight": [
+      "都"
+     ],
+     "t": 7.66
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "老师，我听不见。",
+     "vi": "Cô ơi, em không nghe thấy.",
+     "t": 9.98
+    },
+    {
+     "speaker": "wangyifei",
+     "zh": "请大家不要说话！请听老师的问题：你们都会写哪些汉字了？",
+     "vi": "Cả lớp đừng nói chuyện nữa! Nghe câu hỏi của cô: các em đều viết được những chữ Hán nào rồi?",
+     "highlight": [
+      "不要说话",
+      "哪些"
+     ],
+     "t": 12.2
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "我会写这些字了，您看！",
+     "vi": "Em viết được những chữ này rồi, cô xem này!",
+     "t": 22.49
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "写",
+     "pinyin": "xiě",
+     "pos": "v.",
+     "vi": "viết",
+     "example": {
+      "zh": "写汉字",
+      "vi": "viết chữ Hán"
+     }
+    },
+    {
+     "zh": "都",
+     "pinyin": "dōu",
+     "pos": "adv.",
+     "vi": "đều, tất cả",
+     "example": {
+      "zh": "我们都会写了。",
+      "vi": "Chúng tôi đều viết được rồi."
+     }
+    },
+    {
+     "zh": "听见",
+     "pinyin": "tīngjiàn",
+     "pos": "v.",
+     "vi": "nghe thấy",
+     "example": {
+      "zh": "我没听见。",
+      "vi": "Tôi không nghe thấy."
+     }
+    },
+    {
+     "zh": "不要",
+     "pinyin": "búyào",
+     "pos": "adv.",
+     "vi": "đừng",
+     "example": {
+      "zh": "不要说话！",
+      "vi": "Đừng nói chuyện!"
+     }
+    },
+    {
+     "zh": "说话",
+     "pinyin": "shuōhuà",
+     "pos": "v.",
+     "vi": "nói chuyện, nói",
+     "example": {
+      "zh": "请不要说话。",
+      "vi": "Xin đừng nói chuyện."
+     }
+    },
+    {
+     "zh": "听",
+     "pinyin": "tīng",
+     "pos": "v.",
+     "vi": "nghe",
+     "example": {
+      "zh": "请听老师的问题。",
+      "vi": "Hãy nghe câu hỏi của cô."
+     }
+    },
+    {
+     "zh": "哪些",
+     "pinyin": "nǎxiē",
+     "pos": "pron.",
+     "vi": "những … nào",
+     "example": {
+      "zh": "你会写哪些字？",
+      "vi": "Bạn viết được những chữ nào?"
+     }
+    },
+    {
+     "zh": "字",
+     "pinyin": "zì",
+     "pos": "n.",
+     "vi": "chữ",
+     "example": {
+      "zh": "这些字",
+      "vi": "những chữ này"
+     }
+    },
+    {
+     "zh": "汉语",
+     "pinyin": "Hànyǔ",
+     "pos": "proper",
+     "vi": "tiếng Hán (tiếng Trung)",
+     "example": {
+      "zh": "我会说汉语。",
+      "vi": "Tôi nói được tiếng Trung."
+     },
+     "proper": true
+    },
+    {
+     "zh": "汉字",
+     "pinyin": "Hànzì",
+     "pos": "proper",
+     "vi": "chữ Hán",
+     "example": {
+      "zh": "我会写汉字了。",
+      "vi": "Tôi viết được chữ Hán rồi."
+     },
+     "proper": true
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g14-3",
+     "title_zh": "范围副词“都”",
+     "title_vi": "都: đều, tất cả",
+     "formula": [
+      [
+       {
+        "zh": "我们",
+        "label": "Những người được tính",
+        "role": "S"
+       },
+       {
+        "zh": "都",
+        "label": "đều",
+        "role": "ADV"
+       },
+       {
+        "zh": "会写",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "了",
+        "label": "",
+        "role": "PART"
+       }
+      ],
+      [
+       {
+        "zh": "同学们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "都",
+        "label": "đều",
+        "role": "ADV"
+       },
+       {
+        "zh": "没",
+        "label": "không",
+        "role": "ADV"
+       },
+       {
+        "zh": "听见",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Khẳng định",
+      "Phủ định: 都 + 不/没"
+     ],
+     "explain_vi": "都 = đều, tất cả. Những người hoặc vật được tính gộp phải đứng TRƯỚC 都: 我们都会写了 (không nói 都我们会写了). Phủ định thì từ phủ định đứng SAU 都: 同学们都没听见 (đều không nghe thấy). Nếu 不 đứng trước (不都) thì nghĩa thành “không phải ai cũng”.",
+     "examples": [
+      {
+       "zh": "我们都会写了。",
+       "vi": "Chúng tôi đều viết được rồi."
+      },
+      {
+       "zh": "我和我的朋友们都去。",
+       "vi": "Tôi và các bạn đều đi."
+      },
+      {
+       "zh": "同学们都没听见。",
+       "vi": "Các bạn đều không nghe thấy."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "都我们去。",
+       "right": "我们都去。",
+       "why_vi": "Người được tính gộp đứng trước 都."
+      },
+      {
+       "wrong": "我们不都知道。(ý: không ai biết)",
+       "right": "我们都不知道。",
+       "why_vi": "都不 = đều không; 不都 = không phải ai cũng."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chúng tôi đều không biết.”",
+       "options": [
+        "我们都不知道。",
+        "我们不都知道。",
+        "都我们不知道。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "想说",
+      "不会说",
+      "都会说"
+     ],
+     "answer": 2,
+     "prompt_zh": "同学们（　）汉语了。",
+     "explain_vi": "你们会说汉语了。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "听见了",
+      "没听见",
+      "不想听"
+     ],
+     "answer": 1,
+     "prompt_zh": "陈天中（　）王老师在说什么。",
+     "explain_vi": "老师，我听不见。"
+    }
+   ],
+   "pangdaTip": "不要 + động từ = đừng…: 不要说话! Đây là cách nói ngăn cản, nhắc nhở rất hay gặp trên lớp."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ở nhà, Lưu Minh và Vương Nhất Tuyết nói chuyện các con sắp vào lớp mới.",
+   "scene": "🎒",
+   "audio": "audio/hsk1/14-5.mp3",
+   "vocabAudio": "audio/hsk1/14-6.mp3",
+   "lines": [
+    {
+     "speaker": "liuming",
+     "zh": "明年女儿上中学。",
+     "vi": "Sang năm con gái vào cấp hai.",
+     "t": 0.7
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "对。儿子也上小学了。",
+     "vi": "Ừ. Con trai cũng vào tiểu học rồi.",
+     "t": 3.53
+    },
+    {
+     "speaker": "liuming",
+     "zh": "我们家有了一个中学生。",
+     "vi": "Nhà mình có một học sinh cấp hai rồi.",
+     "t": 6.86
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "还有了一个小学生。",
+     "vi": "Lại có thêm một học sinh tiểu học nữa.",
+     "t": 9.69
+    },
+    {
+     "speaker": "liuming",
+     "zh": "上学后，他们都忙了。",
+     "vi": "Đi học rồi thì hai đứa đều bận.",
+     "highlight": [
+      "他们都忙了"
+     ],
+     "tipRef": 0,
+     "t": 12.54
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "是的。太晚了，睡觉吧。",
+     "vi": "Đúng vậy. Muộn quá rồi, đi ngủ thôi.",
+     "t": 15.58
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "明年",
+     "pinyin": "míngnián",
+     "pos": "n.",
+     "vi": "năm sau",
+     "example": {
+      "zh": "明年我上大学。",
+      "vi": "Năm sau tôi vào đại học."
+     }
+    },
+    {
+     "zh": "上",
+     "pinyin": "shàng",
+     "pos": "v.",
+     "vi": "bắt đầu (đi học, đi làm)",
+     "example": {
+      "zh": "上中学",
+      "vi": "vào cấp hai"
+     }
+    },
+    {
+     "zh": "中学",
+     "pinyin": "zhōngxué",
+     "pos": "n.",
+     "vi": "trường trung học",
+     "example": {
+      "zh": "女儿上中学。",
+      "vi": "Con gái học cấp hai."
+     }
+    },
+    {
+     "zh": "小学",
+     "pinyin": "xiǎoxué",
+     "pos": "n.",
+     "vi": "trường tiểu học",
+     "example": {
+      "zh": "儿子上小学。",
+      "vi": "Con trai học tiểu học."
+     }
+    },
+    {
+     "zh": "中学生",
+     "pinyin": "zhōngxuéshēng",
+     "pos": "n.",
+     "vi": "học sinh trung học",
+     "example": {
+      "zh": "我是中学生。",
+      "vi": "Tôi là học sinh trung học."
+     }
+    },
+    {
+     "zh": "小学生",
+     "pinyin": "xiǎoxuéshēng",
+     "pos": "n.",
+     "vi": "học sinh tiểu học",
+     "example": {
+      "zh": "一个小学生",
+      "vi": "một học sinh tiểu học"
+     }
+    },
+    {
+     "zh": "上学",
+     "pinyin": "shàngxué",
+     "pos": "v.",
+     "vi": "đi học",
+     "example": {
+      "zh": "上学后",
+      "vi": "sau khi đi học"
+     }
+    },
+    {
+     "zh": "他们",
+     "pinyin": "tāmen",
+     "pos": "pron.",
+     "vi": "họ, bọn họ",
+     "example": {
+      "zh": "他们都忙了。",
+      "vi": "Họ đều bận rồi."
+     }
+    },
+    {
+     "zh": "她们",
+     "pinyin": "tāmen",
+     "pos": "pron.",
+     "vi": "họ (toàn nữ)",
+     "example": {
+      "zh": "她们是我的姐姐。",
+      "vi": "Họ là các chị của tôi."
+     }
+    },
+    {
+     "zh": "它们",
+     "pinyin": "tāmen",
+     "pos": "pron.",
+     "vi": "chúng nó (vật, con vật)",
+     "example": {
+      "zh": "它们是我的小猫。",
+      "vi": "Chúng là mèo con của tôi."
+     }
+    },
+    {
+     "zh": "晚",
+     "pinyin": "wǎn",
+     "pos": "adj.",
+     "vi": "muộn, trễ",
+     "example": {
+      "zh": "太晚了。",
+      "vi": "Muộn quá rồi."
+     }
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上小学",
+      "上中学",
+      "上大学"
+     ],
+     "answer": 1,
+     "prompt_zh": "明年刘明和王一雪的女儿（　）。",
+     "explain_vi": "明年女儿上中学。 (上小学 là con trai)"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "上学",
+      "上学前",
+      "上学后"
+     ],
+     "answer": 2,
+     "prompt_zh": "（　）孩子们都忙了。",
+     "explain_vi": "上学后，他们都忙了。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "他们 (họ – nam, hoặc có cả nam và nữ), 她们 (họ – toàn nữ), 它们 (chúng nó – đồ vật, con vật). Ba từ đọc giống nhau: tāmen."
+    }
+   ],
+   "pangdaTip": "有了一个中学生: 了 sau 有 = đã có (trước đây chưa có). Một cách dùng nữa của 了 (2) trong bài này!"
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "我写___很多汉字。",
+   "bank": [
+    "上学",
+    "了",
+    "都",
+    "听见",
+    "有的"
+   ],
+   "answer": "了",
+   "explain_vi": "Động từ + 了 = đã làm.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "他没___老师说什么。",
+   "bank": [
+    "上学",
+    "了",
+    "都",
+    "听见",
+    "有的"
+   ],
+   "answer": "听见",
+   "explain_vi": "没听见 = không nghe thấy.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "陈天中：我看了一本书，___人在睡觉。",
+   "bank": [
+    "上学",
+    "了",
+    "都",
+    "听见",
+    "有的"
+   ],
+   "answer": "有的",
+   "explain_vi": "有的人 = có người.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "刘明：明年___后，他们都忙了。",
+   "bank": [
+    "上学",
+    "了",
+    "都",
+    "听见",
+    "有的"
+   ],
+   "answer": "上学",
+   "explain_vi": "上学后 = sau khi đi học.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "刘明：明年上学后，他们___忙了。",
+   "bank": [
+    "上学",
+    "了",
+    "都",
+    "听见",
+    "有的"
+   ],
+   "answer": "都",
+   "explain_vi": "他们都忙了 = họ đều bận.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "了",
+    "我",
+    "电影",
+    "一个",
+    "看"
+   ],
+   "answers": [
+    "我看了一个电影"
+   ],
+   "vi": "Tôi đã xem một bộ phim.",
+   "explain_vi": "Động từ + 了 + số lượng + danh từ.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "都",
+    "汉字",
+    "写",
+    "我们",
+    "会"
+   ],
+   "answers": [
+    "我们都会写汉字"
+   ],
+   "vi": "Chúng tôi đều biết viết chữ Hán.",
+   "explain_vi": "Chủ ngữ + 都 + 会 + động từ.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "说话",
+    "不要",
+    "大家",
+    "请"
+   ],
+   "answers": [
+    "请大家不要说话"
+   ],
+   "vi": "Cả lớp đừng nói chuyện.",
+   "explain_vi": "请 + người + 不要 + động từ.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "火车",
+   "options": [
+    {
+     "emoji": "🚆",
+     "label": "tàu hoả"
+    },
+    {
+     "emoji": "🚕",
+     "label": "taxi"
+    },
+    {
+     "emoji": "🚗",
+     "label": "ô tô"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "火车 = tàu hoả.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "写汉字",
+   "options": [
+    {
+     "emoji": "✍️",
+     "label": "viết chữ Hán"
+    },
+    {
+     "emoji": "🎧",
+     "label": "nghe"
+    },
+    {
+     "emoji": "🗣️",
+     "label": "nói chuyện"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "写汉字 = viết chữ Hán.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我没看见王老师。",
+   "emoji": "👀",
+   "statement_vi": "Người nói đã nhìn thấy cô Vương.",
+   "answer": false,
+   "explain_vi": "没看见 = không nhìn thấy.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我们都会写了。",
+   "emoji": "✍️",
+   "statement_vi": "Họ đều viết được rồi.",
+   "answer": true,
+   "explain_vi": "都会写了 = đều viết được rồi.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "🚆😴",
+   "sentence": "火车上，有的人在___。",
+   "options": [
+    "睡觉",
+    "开车",
+    "上课"
+   ],
+   "answer": 0,
+   "explain_vi": "Trên tàu có người ngủ → 睡觉.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "你们看见王老师了吗？",
+     "a": "没看见。"
+    },
+    {
+     "q": "你在火车上做什么了？",
+     "a": "我看了一个电影。"
+    },
+    {
+     "q": "你们都会写汉字了吗？",
+     "a": "我们都会写了。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Cuối tuần trước bạn đã làm gì?",
+  "steps_vi": [
+   "Làm việc theo cặp. Kể cho bạn nghe thứ Bảy hoặc Chủ nhật tuần trước bạn đã làm những gì (dùng 了).",
+   "Bạn nghe đặt thêm câu hỏi: mấy giờ, ở đâu, với ai.",
+   "Kể lại cuối tuần của bạn mình trước lớp."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "我星期六上午上了中文课。",
+    "vi": "Sáng thứ Bảy mình học tiết tiếng Trung."
+   },
+   {
+    "zh": "中午吃了饭后休息了一下。",
+    "vi": "Trưa ăn cơm xong nghỉ một lát."
+   },
+   {
+    "zh": "下午去商店买了一些东西。",
+    "vi": "Chiều đi cửa hàng mua ít đồ."
+   },
+   {
+    "zh": "晚上和朋友吃了晚饭。",
+    "vi": "Tối ăn tối với bạn."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "火车上，有的人看书，有的人睡觉。",
+  "vi": "Trên tàu, có người đọc sách, có người ngủ. (Luyện sh – j – h)"
+ },
+ "culture": {
+  "title_vi": "Trường học ở Trung Quốc",
+  "body_vi": [
+   "Trẻ em Trung Quốc vào tiểu học (小学) lúc 6 tuổi và học 6 năm. Sau đó là 3 năm trung học cơ sở (初中) và 3 năm trung học phổ thông (高中) – gọi chung là 中学.",
+   "Học sinh tiểu học phải học viết rất nhiều chữ Hán: hết tiểu học cần biết khoảng 2.500 chữ thường dùng.",
+   "Ở nhiều thành phố, học sinh còn học thêm buổi tối, cuối tuần – nên câu 上学后，他们都忙了 của Lưu Minh rất đúng với nhiều gia đình Trung Quốc."
+  ],
+  "table": {
+   "head": [
+    "Cấp học",
+    "Tiếng Trung",
+    "Số năm"
+   ],
+   "rows": [
+    [
+     "tiểu học",
+     "小学 xiǎoxué",
+     "6 năm"
+    ],
+    [
+     "trung học cơ sở",
+     "初中 chūzhōng",
+     "3 năm"
+    ],
+    [
+     "trung học phổ thông",
+     "高中 gāozhōng",
+     "3 năm"
+    ],
+    [
+     "đại học",
+     "大学 dàxué",
+     "4 năm (y khoa lâu hơn)"
+    ]
+   ]
+  }
+ }
 }

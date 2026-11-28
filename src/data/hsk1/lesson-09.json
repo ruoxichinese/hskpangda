@@ -1,35 +1,1070 @@
 {
-  "id": 9,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "我明天上午在学校学习",
-    "pinyin": "Wǒ míngtiān shàngwǔ zài xuéxiào xuéxí",
-    "vi": "Sáng mai tôi học ở trường"
+ "id": 9,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "我明天上午在学校学习",
+  "pinyin": "Wǒ míngtiān shàngwǔ zài xuéxiào xuéxí",
+  "vi": "Sáng mai tôi học ở trường"
+ },
+ "grammarTopics_vi": [
+  "Câu tồn hiện (1)",
+  "Thứ tự thời gian + nơi chốn làm trạng ngữ",
+  "Tiền tố số thứ tự 第"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Dùng 有 / 是 để nói ở đâu có gì (câu tồn hiện)",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Câu tồn hiện (1)",
-    "Thứ tự thời gian + nơi chốn làm trạng ngữ",
-    "Tiền tố số thứ tự 第"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Đặt thời gian trước nơi chốn khi cả hai làm trạng ngữ",
+   "doneWhen": [
+    "text-1",
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng 第 để nói số thứ tự",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Kể về hoạt động cuối tuần, giải trí",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "🐶",
+   "word": "小狗",
+   "pinyin": "xiǎo gǒu",
+   "vi": "chó con"
+  },
+  {
+   "emoji": "📺",
+   "word": "电视",
+   "pinyin": "diànshì",
+   "vi": "ti vi"
+  },
+  {
+   "emoji": "🧑‍💻",
+   "word": "学习",
+   "pinyin": "xuéxí",
+   "vi": "học tập"
+  },
+  {
+   "emoji": "🧸",
+   "word": "玩",
+   "pinyin": "wán",
+   "vi": "chơi"
+  },
+  {
+   "emoji": "🪑",
+   "word": "椅子",
+   "pinyin": "yǐzi",
+   "vi": "cái ghế"
+  },
+  {
+   "emoji": "📖",
+   "word": "书",
+   "pinyin": "shū",
+   "vi": "sách"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Trong sân trường, Lý Văn và Bạch Gia Nguyệt đang trò chuyện.",
+   "scene": "🎬",
+   "audio": "audio/hsk1/9-1.mp3",
+   "vocabAudio": "audio/hsk1/9-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Câu tồn hiện (1)",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "学校前边有一家电影院。",
+     "vi": "Trước cổng trường có một rạp chiếu phim.",
+     "highlight": [
+      "前边有"
+     ],
+     "tipRef": 0,
+     "t": 0.62
     },
     {
-      "id": "o2",
-      "vi": "Thứ tự thời gian + nơi chốn làm trạng ngữ",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "对。我们晚上去那个电影院看电影吧。",
+     "vi": "Ừ. Tối nay mình đến rạp đó xem phim nhé.",
+     "highlight": [
+      "那个"
+     ],
+     "tipRef": 1,
+     "t": 3.75
     },
     {
-      "id": "o3",
-      "vi": "Tiền tố số thứ tự 第",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "好！我们七点在电影院外边见，好吗？",
+     "vi": "Được! 7 giờ mình gặp nhau ở ngoài rạp nhé?",
+     "highlight": [
+      "七点在电影院外边见"
+     ],
+     "t": 8.73
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "好的，晚上七点见！",
+     "vi": "Ok, 7 giờ tối gặp nhé!",
+     "t": 13.43
     }
+   ],
+   "vocab": [
+    {
+     "zh": "前边",
+     "pinyin": "qiánbian",
+     "pos": "n.",
+     "vi": "phía trước",
+     "example": {
+      "zh": "学校前边",
+      "vi": "phía trước trường"
+     }
+    },
+    {
+     "zh": "边",
+     "pinyin": "bian",
+     "pos": "suf.",
+     "vi": "bên, phía (hậu tố, đọc nhẹ)",
+     "example": {
+      "zh": "外边",
+      "vi": "bên ngoài"
+     },
+     "note_vi": "Làm danh từ (bên, cạnh) thì đọc biān."
+    },
+    {
+     "zh": "家",
+     "pinyin": "jiā",
+     "pos": "m.",
+     "vi": "(lượng từ cho cửa hàng, công ty, gia đình)",
+     "example": {
+      "zh": "一家电影院",
+      "vi": "một rạp chiếu phim"
+     }
+    },
+    {
+     "zh": "那个",
+     "pinyin": "nàge",
+     "pos": "pron.",
+     "vi": "cái đó, cái kia",
+     "example": {
+      "zh": "那个电影院",
+      "vi": "rạp chiếu phim đó"
+     },
+     "note_vi": "Khẩu ngữ thường đọc nèige."
+    },
+    {
+     "zh": "外边",
+     "pinyin": "wàibian",
+     "pos": "n.",
+     "vi": "bên ngoài",
+     "example": {
+      "zh": "电影院外边",
+      "vi": "bên ngoài rạp chiếu phim"
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g9-1",
+     "title_zh": "存现句（1）",
+     "title_vi": "Câu tồn hiện: ở đâu CÓ gì / LÀ gì",
+     "formula": [
+      [
+       {
+        "zh": "学校前边",
+        "label": "Nơi chốn",
+        "role": "N"
+       },
+       {
+        "zh": "有",
+        "label": "có",
+        "role": "V"
+       },
+       {
+        "zh": "一家电影院",
+        "label": "Người / vật",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "电影院前边",
+        "label": "Nơi chốn",
+        "role": "N"
+       },
+       {
+        "zh": "是",
+        "label": "là",
+        "role": "V"
+       },
+       {
+        "zh": "一家超市",
+        "label": "Người / vật",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "桌子上",
+        "label": "Nơi chốn",
+        "role": "N"
+       },
+       {
+        "zh": "没有",
+        "label": "không có",
+        "role": "V"
+       },
+       {
+        "zh": "小猫",
+        "label": "Danh từ (không số lượng)",
+        "role": "O"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "有: ở đó có …",
+      "是: thứ ở đó là …",
+      "Phủ định: 没有 / 不是"
+     ],
+     "explain_vi": "Muốn nói “ở đâu có gì”: Nơi chốn + 有 + người/vật. Khi muốn nói rõ thứ ở chỗ đó LÀ cái gì: Nơi chốn + 是 + vật. Phủ định dùng 没有 / 不是; sau 没有 không dùng số lượng: 桌子上没有小猫 (không nói 没有一只小猫). Nhớ: NƠI CHỐN đứng đầu câu – khác với tiếng Việt “Có một rạp phim trước trường”.",
+     "examples": [
+      {
+       "zh": "学校前边有一家电影院。",
+       "vi": "Trước trường có một rạp chiếu phim."
+      },
+      {
+       "zh": "电影院前边是一家超市。",
+       "vi": "Phía trước rạp chiếu phim là một siêu thị."
+      },
+      {
+       "zh": "电影院前边不是超市。",
+       "vi": "Phía trước rạp chiếu phim không phải là siêu thị."
+      },
+      {
+       "zh": "桌子上没有小猫。",
+       "vi": "Trên bàn không có mèo."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "有一家电影院学校前边。",
+       "right": "学校前边有一家电影院。",
+       "why_vi": "Nơi chốn đứng đầu câu."
+      },
+      {
+       "wrong": "桌子上没有一只小猫。",
+       "right": "桌子上没有小猫。",
+       "why_vi": "Sau 没有 không dùng số lượng."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Trên bàn có một quyển sách.”",
+       "options": [
+        "桌子上有一本书。",
+        "有一本书桌子上。",
+        "桌子有上一本书。"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "g9-2",
+     "title_zh": "时间词语和处所词语同时作状语的顺序",
+     "title_vi": "Thời gian TRƯỚC, nơi chốn SAU (khi làm trạng ngữ)",
+     "formula": [
+      [
+       {
+        "zh": "我们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "七点",
+        "label": "Thời gian",
+        "role": "ADV"
+       },
+       {
+        "zh": "在电影院外边",
+        "label": "Nơi chốn",
+        "role": "ADV"
+       },
+       {
+        "zh": "见",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ]
+     ],
+     "explain_vi": "Khi câu có cả thời gian và nơi chốn đứng trước động từ: THỜI GIAN trước, NƠI CHỐN sau: Chủ ngữ + thời gian + 在 + nơi chốn + động từ. Thời gian cũng có thể đưa lên đầu câu: 七点我们在电影院外边见. Tiếng Việt thường để cả hai ở cuối (“gặp ở ngoài rạp lúc 7 giờ”) – cần đảo lên trước động từ.",
+     "examples": [
+      {
+       "zh": "我们七点在电影院外边见。",
+       "vi": "7 giờ chúng ta gặp ở ngoài rạp chiếu phim."
+      },
+      {
+       "zh": "安妮下午在家里学中文。",
+       "vi": "Chiều nay Annie học tiếng Trung ở nhà."
+      },
+      {
+       "zh": "陈天中明天中午在学校吃午饭。",
+       "vi": "Trưa mai Trần Thiên Trung ăn trưa ở trường."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我们在电影院外边七点见。",
+       "right": "我们七点在电影院外边见。",
+       "why_vi": "Thời gian đứng trước nơi chốn."
+      },
+      {
+       "wrong": "我明天学习在学校。",
+       "right": "我明天在学校学习。",
+       "why_vi": "在 + nơi chốn đứng trước động từ."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chiều nay tôi học ở nhà.”",
+       "options": [
+        "我今天下午在家里学习。",
+        "我在家里今天下午学习。",
+        "我今天下午学习在家里。"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "vi": "前边 có thể nói 前边儿. 边 ở đây là hậu tố, đọc nhẹ: bian; khi là danh từ thì đọc biān."
+    },
+    {
+     "vi": "那个 trong khẩu ngữ hay đọc là nèige."
+    }
+   ],
+   "pangdaTip": "一家电影院: 家 ở đây là lượng từ cho cửa hàng, công ty (一家超市, 一家饭店) – không phải “nhà”."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Trong lớp học, sau giờ học, Bạch Gia Nguyệt và Trần Thiên Trung nói chuyện.",
+   "scene": "📖",
+   "audio": "audio/hsk1/9-3.mp3",
+   "vocabAudio": "audio/hsk1/9-4.mp3",
+   "lines": [
+    {
+     "speaker": "baijiayue",
+     "zh": "椅子上有一本中文书，那是谁的书？",
+     "vi": "Trên ghế có một quyển sách tiếng Trung, sách đó của ai thế?",
+     "highlight": [
+      "椅子上有"
+     ],
+     "tipRef": 0,
+     "t": 0.58
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "是我的书，谢谢。这是我的第二本中文书。",
+     "vi": "Sách của mình, cảm ơn cậu. Đây là quyển sách tiếng Trung thứ hai của mình.",
+     "highlight": [
+      "第二本"
+     ],
+     "t": 6.73
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "不客气。你明天上午在哪儿？",
+     "vi": "Không có gì. Sáng mai cậu ở đâu?",
+     "t": 13.78
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "我明天上午在学校学习。",
+     "vi": "Sáng mai mình học ở trường.",
+     "highlight": [
+      "明天上午在学校"
+     ],
+     "t": 18.93
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "椅子",
+     "pinyin": "yǐzi",
+     "pos": "n.",
+     "vi": "cái ghế",
+     "example": {
+      "zh": "椅子上",
+      "vi": "trên ghế"
+     }
+    },
+    {
+     "zh": "上",
+     "pinyin": "shàng",
+     "pos": "n.",
+     "vi": "trên (sau danh từ)",
+     "example": {
+      "zh": "桌子上",
+      "vi": "trên bàn"
+     },
+     "note_vi": "Đứng sau danh từ (椅子上, 桌子上) đọc nhẹ: shang."
+    },
+    {
+     "zh": "本",
+     "pinyin": "běn",
+     "pos": "m.",
+     "vi": "quyển, cuốn",
+     "example": {
+      "zh": "一本书",
+      "vi": "một quyển sách"
+     }
+    },
+    {
+     "zh": "书",
+     "pinyin": "shū",
+     "pos": "n.",
+     "vi": "sách",
+     "example": {
+      "zh": "中文书",
+      "vi": "sách tiếng Trung"
+     }
+    },
+    {
+     "zh": "那",
+     "pinyin": "nà",
+     "pos": "pron.",
+     "vi": "kia, đó",
+     "example": {
+      "zh": "那是谁的书？",
+      "vi": "Đó là sách của ai?"
+     }
+    },
+    {
+     "zh": "第",
+     "pinyin": "dì",
+     "pos": "pref.",
+     "vi": "thứ (đứng trước số)",
+     "example": {
+      "zh": "第二本",
+      "vi": "quyển thứ hai"
+     }
+    },
+    {
+     "zh": "学习",
+     "pinyin": "xuéxí",
+     "pos": "v.",
+     "vi": "học, học tập",
+     "example": {
+      "zh": "我在学校学习。",
+      "vi": "Tôi học ở trường."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g9-3",
+     "title_zh": "表示序数的“第”",
+     "title_vi": "第 + số: số thứ tự",
+     "formula": [
+      [
+       {
+        "zh": "第",
+        "label": "thứ",
+        "role": "PART"
+       },
+       {
+        "zh": "二",
+        "label": "Số",
+        "role": "N"
+       },
+       {
+        "zh": "本",
+        "label": "Lượng từ",
+        "role": "ATTR"
+       },
+       {
+        "zh": "书",
+        "label": "Danh từ",
+        "role": "N"
+       }
+      ]
+     ],
+     "explain_vi": "第 + số = số thứ tự: 第一 (thứ nhất), 第二, 第三… Khi có danh từ thì cần lượng từ: 第 + số + lượng từ + danh từ: 第二本书, 第一个学生. Số thứ tự luôn dùng 二, không dùng 两: 第二, không nói 第两.",
+     "examples": [
+      {
+       "zh": "第一，第二，第三",
+       "vi": "thứ nhất, thứ hai, thứ ba"
+      },
+      {
+       "zh": "第一个学生",
+       "vi": "học sinh thứ nhất"
+      },
+      {
+       "zh": "这是我的第二本中文书。",
+       "vi": "Đây là quyển sách tiếng Trung thứ hai của tôi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "第两本书",
+       "right": "第二本书",
+       "why_vi": "Số thứ tự dùng 二."
+      },
+      {
+       "wrong": "第二书",
+       "right": "第二本书",
+       "why_vi": "Thiếu lượng từ 本."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“người thứ ba”",
+       "options": [
+        "第三个人",
+        "第三人个",
+        "三第个人"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "一本书",
+      "一只猫",
+      "一个手机"
+     ],
+     "answer": 0,
+     "prompt_zh": "椅子上有（　）。",
+     "explain_vi": "椅子上有一本中文书。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "第一本",
+      "第二本",
+      "第三本"
+     ],
+     "answer": 1,
+     "prompt_zh": "这是陈天中的（　）中文书。",
+     "explain_vi": "这是我的第二本中文书。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "上 đứng sau danh từ (椅子上, 书上) đọc nhẹ: shang. Khi chỉ vị trí ở trên hoặc thứ tự trước (上边, 上午) thì đọc shàng."
+    }
+   ],
+   "pangdaTip": "那是谁的书？ – 谁的 = của ai. Trả lời: 是我的（书）."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ở văn phòng, lúc giải lao, Vương Nhất Tuyết và Dương Đồng Lạc nói chuyện về cuối tuần.",
+   "scene": "🎤",
+   "audio": "audio/hsk1/9-5.mp3",
+   "vocabAudio": "audio/hsk1/9-6.mp3",
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "明天星期六，你做什么？",
+     "vi": "Mai thứ Bảy, cậu làm gì?",
+     "t": 0.32
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我白天在家里读书，晚上和朋友们去外边唱歌。",
+     "vi": "Ban ngày em ở nhà đọc sách, buổi tối đi hát với bạn bè.",
+     "highlight": [
+      "白天在家里",
+      "和朋友们"
+     ],
+     "t": 4.97
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "你唱歌很好听。",
+     "vi": "Cậu hát hay lắm.",
+     "t": 11.52
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "谢谢！您星期六做什么？",
+     "vi": "Cảm ơn chị! Thứ Bảy chị làm gì?",
+     "t": 13.94
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "我在家里做饭、看电视，和孩子们、小狗玩。",
+     "vi": "Chị ở nhà nấu cơm, xem ti vi, chơi với bọn trẻ và con chó nhỏ.",
+     "tipRef": 0,
+     "t": 18.56
+    },
+    {
+     "speaker": "yangtongle",
+     "zh": "我也有一只小狗。",
+     "vi": "Em cũng có một con chó nhỏ.",
+     "t": 25.34
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "做",
+     "pinyin": "zuò",
+     "pos": "v.",
+     "vi": "làm",
+     "example": {
+      "zh": "你星期六做什么？",
+      "vi": "Thứ Bảy bạn làm gì?"
+     }
+    },
+    {
+     "zh": "白天",
+     "pinyin": "báitiān",
+     "pos": "n.",
+     "vi": "ban ngày",
+     "example": {
+      "zh": "我白天在家里。",
+      "vi": "Ban ngày tôi ở nhà."
+     }
+    },
+    {
+     "zh": "读书",
+     "pinyin": "dúshū",
+     "pos": "v.",
+     "vi": "đọc sách; đi học",
+     "example": {
+      "zh": "在家里读书",
+      "vi": "đọc sách ở nhà"
+     }
+    },
+    {
+     "zh": "和",
+     "pinyin": "hé",
+     "pos": "prep.",
+     "vi": "với, cùng",
+     "example": {
+      "zh": "和朋友们去唱歌",
+      "vi": "đi hát với bạn bè"
+     }
+    },
+    {
+     "zh": "朋友",
+     "pinyin": "péngyou",
+     "pos": "n.",
+     "vi": "bạn, bạn bè",
+     "example": {
+      "zh": "我的好朋友",
+      "vi": "bạn thân của tôi"
+     }
+    },
+    {
+     "zh": "唱",
+     "pinyin": "chàng",
+     "pos": "v.",
+     "vi": "hát",
+     "example": {
+      "zh": "唱歌",
+      "vi": "hát"
+     }
+    },
+    {
+     "zh": "歌",
+     "pinyin": "gē",
+     "pos": "n.",
+     "vi": "bài hát",
+     "example": {
+      "zh": "唱歌",
+      "vi": "hát (một bài hát)"
+     }
+    },
+    {
+     "zh": "好听",
+     "pinyin": "hǎotīng",
+     "pos": "adj.",
+     "vi": "hay (nghe êm tai)",
+     "example": {
+      "zh": "你唱歌很好听。",
+      "vi": "Bạn hát rất hay."
+     }
+    },
+    {
+     "zh": "电视",
+     "pinyin": "diànshì",
+     "pos": "n.",
+     "vi": "ti vi",
+     "example": {
+      "zh": "看电视",
+      "vi": "xem ti vi"
+     }
+    },
+    {
+     "zh": "狗",
+     "pinyin": "gǒu",
+     "pos": "n.",
+     "vi": "con chó",
+     "example": {
+      "zh": "一只小狗",
+      "vi": "một con chó nhỏ"
+     }
+    },
+    {
+     "zh": "玩",
+     "pinyin": "wán",
+     "pos": "v.",
+     "vi": "chơi",
+     "example": {
+      "zh": "和小狗玩",
+      "vi": "chơi với chó"
+     },
+     "note_vi": "Khẩu ngữ hay nói 玩儿 wánr."
+    }
+   ],
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "不太好",
+      "不好听",
+      "很好听"
+     ],
+     "answer": 2,
+     "prompt_zh": "杨同乐唱歌（　）。",
+     "explain_vi": "你唱歌很好听。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "小猫",
+      "小狗",
+      "大狗"
+     ],
+     "answer": 1,
+     "prompt_zh": "王一雪家有一只（　）。",
+     "explain_vi": "和孩子们、小狗玩。"
+    }
+   ],
+   "tips": [
+    {
+     "vi": "玩 trong khẩu ngữ thường nói là 玩儿 (wánr)."
+    }
+   ],
+   "pangdaTip": "和 ở bài 4 là “và” nối hai danh từ (爸爸和妈妈). Ở bài này 和 + người + động từ = làm gì CÙNG ai: 和朋友们去唱歌."
+  }
+ ],
+ "exercises": [
+  {
+   "kind": "fill",
+   "sentence": "___上有一只小猫。",
+   "bank": [
+    "是",
+    "好听",
+    "在学校",
+    "今天上午",
+    "椅子"
+   ],
+   "answer": "椅子",
+   "explain_vi": "椅子上 = trên ghế.",
+   "id": "e1"
+  },
+  {
+   "kind": "fill",
+   "sentence": "房间外___一只小狗。",
+   "bank": [
+    "是",
+    "好听",
+    "在学校",
+    "今天上午",
+    "椅子"
+   ],
+   "answer": "是",
+   "explain_vi": "Nơi chốn + 是 + vật: thứ ở ngoài phòng là một con chó.",
+   "id": "e2"
+  },
+  {
+   "kind": "fill",
+   "sentence": "她___在家里学习。",
+   "bank": [
+    "是",
+    "好听",
+    "在学校",
+    "今天上午",
+    "椅子"
+   ],
+   "answer": "今天上午",
+   "explain_vi": "Thời gian trước nơi chốn.",
+   "id": "e3"
+  },
+  {
+   "kind": "fill",
+   "sentence": "王一雪：你唱歌很___。",
+   "bank": [
+    "是",
+    "好听",
+    "在学校",
+    "今天上午",
+    "椅子"
+   ],
+   "answer": "好听",
+   "explain_vi": "唱歌很好听 = hát rất hay.",
+   "id": "e4"
+  },
+  {
+   "kind": "fill",
+   "sentence": "安妮：我下午还___上课。",
+   "bank": [
+    "是",
+    "好听",
+    "在学校",
+    "今天上午",
+    "椅子"
+   ],
+   "answer": "在学校",
+   "explain_vi": "在学校上课 = học ở trường.",
+   "id": "e5"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "有",
+    "前边",
+    "一家",
+    "学校",
+    "电影院"
+   ],
+   "answers": [
+    "学校前边有一家电影院"
+   ],
+   "vi": "Trước trường có một rạp chiếu phim.",
+   "explain_vi": "Nơi chốn + 有 + vật.",
+   "id": "e6"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "七点",
+    "在",
+    "我们",
+    "见",
+    "电影院外边"
+   ],
+   "answers": [
+    "我们七点在电影院外边见",
+    "七点我们在电影院外边见"
+   ],
+   "vi": "7 giờ chúng ta gặp ở ngoài rạp.",
+   "explain_vi": "Thời gian trước, nơi chốn sau.",
+   "id": "e7"
+  },
+  {
+   "kind": "reorder",
+   "tiles": [
+    "第二本",
+    "这是",
+    "中文书",
+    "我的"
+   ],
+   "answers": [
+    "这是我的第二本中文书"
+   ],
+   "vi": "Đây là quyển sách tiếng Trung thứ hai của tôi.",
+   "explain_vi": "第 + số + lượng từ + danh từ.",
+   "id": "e8"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "椅子",
+   "options": [
+    {
+     "emoji": "🪑",
+     "label": "cái ghế"
+    },
+    {
+     "emoji": "📺",
+     "label": "ti vi"
+    },
+    {
+     "emoji": "📖",
+     "label": "sách"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "椅子 = cái ghế.",
+   "id": "e9"
+  },
+  {
+   "kind": "listenPick",
+   "audioText": "小狗",
+   "options": [
+    {
+     "emoji": "🐶",
+     "label": "chó con"
+    },
+    {
+     "emoji": "🐱",
+     "label": "mèo con"
+    },
+    {
+     "emoji": "🧒",
+     "label": "đứa trẻ"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "小狗 = chó con.",
+   "id": "e10"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "桌子上没有书。",
+   "emoji": "📚",
+   "statement_vi": "Trên bàn có sách.",
+   "answer": false,
+   "explain_vi": "没有书 = không có sách.",
+   "id": "e11"
+  },
+  {
+   "kind": "listenTF",
+   "audioText": "我晚上和朋友们去唱歌。",
+   "emoji": "🎤",
+   "statement_vi": "Buổi tối người nói đi hát với bạn bè.",
+   "answer": true,
+   "explain_vi": "和朋友们去唱歌 = đi hát với bạn bè.",
+   "id": "e12"
+  },
+  {
+   "kind": "pictureComplete",
+   "emoji": "📺👧👦",
+   "sentence": "孩子们在家里看___。",
+   "options": [
+    "电视",
+    "电影院",
+    "书店"
+   ],
+   "answer": 0,
+   "explain_vi": "看电视 = xem ti vi.",
+   "id": "e13"
+  },
+  {
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "那是谁的书？",
+     "a": "是我的书。"
+    },
+    {
+     "q": "你明天上午在哪儿？",
+     "a": "我在学校学习。"
+    },
+    {
+     "q": "学校前边有什么？",
+     "a": "有一家电影院。"
+    }
+   ],
+   "id": "e14"
+  }
+ ],
+ "activity": {
+  "title_vi": "Đóng vai Gia Nguyệt và Thiên Trung",
+  "steps_vi": [
+   "Làm việc theo cặp: một bạn đóng vai Bạch Gia Nguyệt, một bạn đóng vai Trần Thiên Trung.",
+   "Dựa vào ba bài khoá, nói về nơi chốn, hẹn giờ gặp và kế hoạch cuối tuần.",
+   "Diễn lại trước lớp; cả lớp nghe và nói lại hai bạn hẹn gặp lúc mấy giờ, ở đâu."
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "学校前边有一家……",
+    "vi": "Trước trường có một…"
+   },
+   {
+    "zh": "我们……点在……见吧。",
+    "vi": "Chúng ta … giờ gặp ở … nhé."
+   },
+   {
+    "zh": "你明天上午在哪儿？",
+    "vi": "Sáng mai bạn ở đâu?"
+   },
+   {
+    "zh": "星期六你做什么？",
+    "vi": "Thứ Bảy bạn làm gì?"
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "白天读书，晚上唱歌。",
+  "vi": "Ban ngày đọc sách, buổi tối hát hò. (Luyện sh – ch – d)"
+ },
+ "culture": {
+  "title_vi": "Người Trung Quốc làm gì lúc rảnh?",
+  "body_vi": [
+   "Hát karaoke (唱歌, đi KTV) là thú vui rất phổ biến của giới trẻ Trung Quốc – giống người Việt đi hát karaoke cuối tuần.",
+   "Buổi tối ở công viên, quảng trường, bạn sẽ gặp các cô, các bác nhảy “múa quảng trường” (广场舞 guǎngchǎngwǔ) theo nhạc.",
+   "Xem phim ở rạp, đọc sách ở hiệu sách lớn, dắt chó đi dạo, nấu cơm ở nhà cùng gia đình… cũng là những cách nghỉ cuối tuần quen thuộc."
+  ],
+  "table": {
+   "head": [
+    "Hoạt động",
+    "Tiếng Trung",
+    "Pinyin"
+   ],
+   "rows": [
+    [
+     "hát karaoke",
+     "唱歌",
+     "chàng gē"
+    ],
+    [
+     "xem phim",
+     "看电影",
+     "kàn diànyǐng"
+    ],
+    [
+     "xem ti vi",
+     "看电视",
+     "kàn diànshì"
+    ],
+    [
+     "đọc sách",
+     "读书",
+     "dúshū"
+    ],
+    [
+     "chơi với chó",
+     "和小狗玩儿",
+     "hé xiǎo gǒu wánr"
+    ],
+    [
+     "múa quảng trường",
+     "跳广场舞",
+     "tiào guǎngchǎngwǔ"
+    ]
+   ]
+  }
+ }
 }

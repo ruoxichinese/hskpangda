@@ -1,35 +1,1121 @@
 {
-  "id": 6,
-  "level": "hsk1",
-  "status": "draft",
-  "title": {
-    "zh": "你的手机号是多少？",
-    "pinyin": "Nǐ de shǒujī hào shì duōshao?",
-    "vi": "Số điện thoại của bạn là bao nhiêu?"
+ "id": 6,
+ "level": "hsk1",
+ "status": "ready",
+ "title": {
+  "zh": "你的手机号是多少？",
+  "pinyin": "Nǐ de shǒujī hào shì duōshao?",
+  "vi": "Số điện thoại của bạn là bao nhiêu?"
+ },
+ "grammarTopics_vi": [
+  "Động từ năng nguyện 想",
+  "Câu liên động (1)",
+  "Đại từ nghi vấn 怎么"
+ ],
+ "objectives": [
+  {
+   "id": "o1",
+   "vi": "Hỏi và đọc số điện thoại (số 1 đọc là yāo)",
+   "doneWhen": [
+    "text-1"
+   ]
   },
-  "grammarTopics_vi": [
-    "Động từ năng nguyện 想",
-    "Câu liên động (1)",
-    "Đại từ nghi vấn 怎么"
-  ],
-  "objectives": [
+  {
+   "id": "o2",
+   "vi": "Dùng 想 để nói điều mình muốn làm",
+   "doneWhen": [
+    "text-2"
+   ]
+  },
+  {
+   "id": "o3",
+   "vi": "Dùng câu liên động: đi đâu làm gì, đi bằng gì",
+   "doneWhen": [
+    "text-2",
+    "text-3"
+   ]
+  },
+  {
+   "id": "o4",
+   "vi": "Hỏi cách làm việc gì bằng 怎么",
+   "doneWhen": [
+    "text-3"
+   ]
+  },
+  {
+   "id": "o5",
+   "vi": "Vận dụng trong bài luyện tập tổng hợp",
+   "doneWhen": [
+    "exercises"
+   ]
+  }
+ ],
+ "warmup": [
+  {
+   "emoji": "📱",
+   "word": "手机",
+   "pinyin": "shǒujī",
+   "vi": "điện thoại di động"
+  },
+  {
+   "emoji": "🍽️🌙",
+   "word": "晚饭",
+   "pinyin": "wǎnfàn",
+   "vi": "bữa tối"
+  },
+  {
+   "emoji": "🛒",
+   "word": "超市",
+   "pinyin": "chāoshì",
+   "vi": "siêu thị"
+  },
+  {
+   "emoji": "🥛",
+   "word": "牛奶",
+   "pinyin": "niúnǎi",
+   "vi": "sữa bò"
+  },
+  {
+   "emoji": "🚕",
+   "word": "出租车",
+   "pinyin": "chūzūchē",
+   "vi": "taxi"
+  },
+  {
+   "emoji": "🍚",
+   "word": "米饭",
+   "pinyin": "mǐfàn",
+   "vi": "cơm"
+  }
+ ],
+ "texts": [
+  {
+   "id": "text-1",
+   "context_vi": "Trong sân trường, Lý Văn xin số điện thoại của Bạch Gia Nguyệt.",
+   "scene": "📱",
+   "audio": "audio/hsk1/6-1.mp3",
+   "vocabAudio": "audio/hsk1/6-2.mp3",
+   "lines": [
     {
-      "id": "o1",
-      "vi": "Động từ năng nguyện 想",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "家月，你的手机号是多少？",
+     "vi": "Gia Nguyệt, số di động của cậu là bao nhiêu?",
+     "highlight": [
+      "手机",
+      "多少"
+     ],
+     "tipRef": 0,
+     "t": 0.52
     },
     {
-      "id": "o2",
-      "vi": "Câu liên động (1)",
-      "doneWhen": []
+     "speaker": "baijiayue",
+     "zh": "我的手机号是+33 601493190。",
+     "vi": "Số của mình là +33 601493190.",
+     "tipRef": 1,
+     "t": 4.5
     },
     {
-      "id": "o3",
-      "vi": "Đại từ nghi vấn 怎么",
-      "doneWhen": []
+     "speaker": "liwen",
+     "zh": "我的手机号是+86 13552721160。",
+     "vi": "Số của mình là +86 13552721160.",
+     "t": 12.23
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "好的。",
+     "vi": "Được rồi.",
+     "t": 19.82
     }
+   ],
+   "tips": [
+    {
+     "vi": "Ngày nay người ta cũng dùng 电话 để chỉ điện thoại di động: 你的电话是多少？"
+    },
+    {
+     "vi": "Số điện thoại đọc TỪNG chữ số một, và số 1 đọc là yāo (để khỏi nghe nhầm với 七 qī): 135 → yāo sān wǔ."
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "手机",
+     "pinyin": "shǒujī",
+     "pos": "n.",
+     "vi": "điện thoại di động",
+     "example": {
+      "zh": "这是我的新手机。",
+      "vi": "Đây là điện thoại mới của tôi."
+     }
+    },
+    {
+     "zh": "电话",
+     "pinyin": "diànhuà",
+     "pos": "n.",
+     "vi": "điện thoại; cuộc gọi",
+     "example": {
+      "zh": "你的电话是多少？",
+      "vi": "Số điện thoại của bạn là bao nhiêu?"
+     }
+    },
+    {
+     "zh": "号",
+     "pinyin": "hào",
+     "pos": "n.",
+     "vi": "số (thứ tự, điện thoại)",
+     "example": {
+      "zh": "手机号",
+      "vi": "số di động"
+     }
+    }
+   ],
+   "pangdaTip": "+33 là mã nước Pháp, +86 là mã Trung Quốc. Việt Nam là +84 – đọc là bā sì. Số di động Trung Quốc có 11 chữ số, thường đọc theo nhóm 3 – 4 – 4: 135 / 5272 / 1160."
+  },
+  {
+   "id": "text-2",
+   "context_vi": "Trong lớp học, sau giờ học, Bạch Gia Nguyệt và Trần Thiên Trung nói chuyện.",
+   "scene": "🛒",
+   "audio": "audio/hsk1/6-3.mp3",
+   "vocabAudio": "audio/hsk1/6-4.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "现在",
+      "今天",
+      "明天"
+     ],
+     "answer": 2,
+     "prompt_zh": "白家月（　）想去超市。",
+     "explain_vi": "家月，明天你去哪儿？——我想去超市买东西。"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "菜",
+      "牛奶",
+      "面条儿和牛奶"
+     ],
+     "answer": 1,
+     "prompt_zh": "白家月想买（　）。",
+     "explain_vi": "我想买些牛奶。"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "chentianzhong",
+     "zh": "家月，明天你去哪儿？",
+     "vi": "Gia Nguyệt, mai cậu đi đâu?",
+     "highlight": [
+      "哪儿"
+     ],
+     "t": 0.38
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我想去超市买东西。",
+     "vi": "Mình muốn đi siêu thị mua đồ.",
+     "highlight": [
+      "想",
+      "去超市买东西"
+     ],
+     "t": 3.96
+    },
+    {
+     "speaker": "chentianzhong",
+     "zh": "你去超市买什么？",
+     "vi": "Cậu đi siêu thị mua gì?",
+     "t": 7.36
+    },
+    {
+     "speaker": "baijiayue",
+     "zh": "我想买些牛奶。",
+     "vi": "Mình muốn mua ít sữa.",
+     "highlight": [
+      "想"
+     ],
+     "t": 10.6
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "明天",
+     "pinyin": "míngtiān",
+     "pos": "n.",
+     "vi": "ngày mai",
+     "example": {
+      "zh": "明天你去哪儿？",
+      "vi": "Ngày mai bạn đi đâu?"
+     }
+    },
+    {
+     "zh": "去",
+     "pinyin": "qù",
+     "pos": "v.",
+     "vi": "đi, đến",
+     "example": {
+      "zh": "我去超市。",
+      "vi": "Tôi đi siêu thị."
+     }
+    },
+    {
+     "zh": "哪儿",
+     "pinyin": "nǎr",
+     "pos": "pron.",
+     "vi": "đâu, chỗ nào",
+     "example": {
+      "zh": "你去哪儿？",
+      "vi": "Bạn đi đâu?"
+     }
+    },
+    {
+     "zh": "想",
+     "pinyin": "xiǎng",
+     "pos": "mod.",
+     "vi": "muốn",
+     "example": {
+      "zh": "我想去超市。",
+      "vi": "Tôi muốn đi siêu thị."
+     }
+    },
+    {
+     "zh": "超市",
+     "pinyin": "chāoshì",
+     "pos": "n.",
+     "vi": "siêu thị",
+     "example": {
+      "zh": "我去超市买东西。",
+      "vi": "Tôi đi siêu thị mua đồ."
+     }
+    },
+    {
+     "zh": "买",
+     "pinyin": "mǎi",
+     "pos": "v.",
+     "vi": "mua",
+     "example": {
+      "zh": "你想买什么？",
+      "vi": "Bạn muốn mua gì?"
+     }
+    },
+    {
+     "zh": "东西",
+     "pinyin": "dōngxi",
+     "pos": "n.",
+     "vi": "đồ, đồ vật",
+     "example": {
+      "zh": "买东西",
+      "vi": "mua đồ"
+     }
+    },
+    {
+     "zh": "些",
+     "pinyin": "xiē",
+     "pos": "m.",
+     "vi": "một ít, một vài",
+     "example": {
+      "zh": "我想买些牛奶。",
+      "vi": "Tôi muốn mua ít sữa."
+     }
+    },
+    {
+     "zh": "牛奶",
+     "pinyin": "niúnǎi",
+     "pos": "n.",
+     "vi": "sữa bò",
+     "example": {
+      "zh": "我想买些牛奶。",
+      "vi": "Tôi muốn mua ít sữa."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g6-1",
+     "title_zh": "能愿动词“想”",
+     "title_vi": "想: muốn (làm gì)",
+     "formula": [
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "想",
+        "label": "muốn",
+        "role": "ADV"
+       },
+       {
+        "zh": "去",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "超市",
+        "label": "Tân ngữ",
+        "role": "O"
+       }
+      ],
+      [
+       {
+        "zh": "我哥哥",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "不想",
+        "label": "không muốn",
+        "role": "ADV"
+       },
+       {
+        "zh": "休息",
+        "label": "Động từ",
+        "role": "V"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Khẳng định",
+      "Phủ định: 不想"
+     ],
+     "explain_vi": "想 + động từ = muốn, định làm việc gì. Phủ định: 不想. Ở bài 3 ta đã gặp 想 nghĩa là “nhớ” (我很想你). Cách phân biệt: sau 想 là NGƯỜI → nhớ; sau 想 là ĐỘNG TỪ → muốn.",
+     "examples": [
+      {
+       "zh": "我想去超市。",
+       "vi": "Tôi muốn đi siêu thị."
+      },
+      {
+       "zh": "我哥哥不想休息。",
+       "vi": "Anh tôi không muốn nghỉ."
+      },
+      {
+       "zh": "你想买什么？",
+       "vi": "Bạn muốn mua gì?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我没想去。",
+       "right": "我不想去。",
+       "why_vi": "Phủ định ý muốn dùng 不想."
+      },
+      {
+       "wrong": "我想超市。",
+       "right": "我想去超市。",
+       "why_vi": "Muốn đi đâu thì phải có động từ 去."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Tôi muốn mua sữa.”",
+       "options": [
+        "我想买牛奶。",
+        "我买想牛奶。",
+        "我想牛奶买。"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "Câu này nghĩa là gì?",
+       "options": [
+        "Tôi rất nhớ mẹ.",
+        "Tôi rất muốn mẹ.",
+        "Tôi muốn đi gặp mẹ."
+       ],
+       "answer": 0,
+       "prompt_zh": "我很想妈妈。",
+       "explain_vi": "Sau 想 là người (妈妈) → nghĩa là “nhớ”."
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "些 đi sau động từ là “một ít”: 买些牛奶 = mua ít sữa. Bài 5 có 一些菜 – 一些 và 些 cùng một nghĩa."
+  },
+  {
+   "id": "text-3",
+   "context_vi": "Ở nhà, cả nhà Vương Nhất Tuyết bàn chuyện đi ăn tối cuối tuần.",
+   "scene": "🥟",
+   "audio": "audio/hsk1/6-5.mp3",
+   "vocabAudio": "audio/hsk1/6-6.mp3",
+   "listenQuiz": [
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "吃早饭",
+      "吃午饭",
+      "吃晚饭"
+     ],
+     "answer": 2,
+     "prompt_zh": "王一雪一家人想去西安饭店（　）。",
+     "explain_vi": "星期天我们去哪儿吃晚饭？"
+    },
+    {
+     "prompt_vi": "Nghe hai lần rồi chọn đáp án đúng.",
+     "options": [
+      "米饭",
+      "包子",
+      "面条儿"
+     ],
+     "answer": 1,
+     "prompt_zh": "刘小明不想吃（　）。",
+     "explain_vi": "妈妈，我想吃米饭，不想吃包子。"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "wangyixue",
+     "zh": "星期天我们去哪儿吃晚饭？",
+     "vi": "Chủ nhật nhà mình đi đâu ăn tối nhỉ?",
+     "highlight": [
+      "去哪儿吃晚饭"
+     ],
+     "t": 0.54
+    },
+    {
+     "speaker": "liuming",
+     "zh": "我还想去西安饭店。",
+     "vi": "Anh vẫn muốn đi nhà hàng Tây An.",
+     "t": 3.54
+    },
+    {
+     "speaker": "liuxiaoxue",
+     "zh": "那边的包子非常好吃，我想吃包子。",
+     "vi": "Bánh bao ở đó ngon cực, con muốn ăn bánh bao.",
+     "highlight": [
+      "非常好吃"
+     ],
+     "t": 6.42
+    },
+    {
+     "speaker": "liuxiaoming",
+     "zh": "妈妈，我想吃米饭，不想吃包子。",
+     "vi": "Mẹ ơi, con muốn ăn cơm, không muốn ăn bánh bao.",
+     "highlight": [
+      "不想"
+     ],
+     "t": 9.16
+    },
+    {
+     "speaker": "wangyixue",
+     "zh": "好的。我们怎么去？",
+     "vi": "Được rồi. Nhà mình đi bằng gì?",
+     "highlight": [
+      "怎么"
+     ],
+     "t": 15.57
+    },
+    {
+     "speaker": "liuming",
+     "zh": "坐出租车去。",
+     "vi": "Đi taxi.",
+     "highlight": [
+      "坐出租车去"
+     ],
+     "t": 18.24
+    }
+   ],
+   "vocab": [
+    {
+     "zh": "吃",
+     "pinyin": "chī",
+     "pos": "v.",
+     "vi": "ăn",
+     "example": {
+      "zh": "你想吃什么？",
+      "vi": "Bạn muốn ăn gì?"
+     }
+    },
+    {
+     "zh": "晚饭",
+     "pinyin": "wǎnfàn",
+     "pos": "n.",
+     "vi": "bữa tối",
+     "example": {
+      "zh": "我们去吃晚饭。",
+      "vi": "Chúng ta đi ăn tối."
+     }
+    },
+    {
+     "zh": "那边",
+     "pinyin": "nàbiān",
+     "pos": "pron.",
+     "vi": "bên kia, ở đó",
+     "example": {
+      "zh": "那边的包子很好吃。",
+      "vi": "Bánh bao ở đó rất ngon."
+     }
+    },
+    {
+     "zh": "包子",
+     "pinyin": "bāozi",
+     "pos": "n.",
+     "vi": "bánh bao",
+     "example": {
+      "zh": "我想吃包子。",
+      "vi": "Tôi muốn ăn bánh bao."
+     }
+    },
+    {
+     "zh": "非常",
+     "pinyin": "fēicháng",
+     "pos": "adv.",
+     "vi": "rất, cực kỳ",
+     "example": {
+      "zh": "非常好吃",
+      "vi": "ngon cực kỳ"
+     }
+    },
+    {
+     "zh": "好吃",
+     "pinyin": "hǎochī",
+     "pos": "adj.",
+     "vi": "ngon",
+     "example": {
+      "zh": "饺子很好吃。",
+      "vi": "Sủi cảo rất ngon."
+     }
+    },
+    {
+     "zh": "米饭",
+     "pinyin": "mǐfàn",
+     "pos": "n.",
+     "vi": "cơm (trắng)",
+     "example": {
+      "zh": "我想吃米饭。",
+      "vi": "Tôi muốn ăn cơm."
+     }
+    },
+    {
+     "zh": "怎么",
+     "pinyin": "zěnme",
+     "pos": "pron.",
+     "vi": "thế nào, bằng cách nào",
+     "example": {
+      "zh": "我们怎么去？",
+      "vi": "Chúng ta đi bằng gì?"
+     }
+    },
+    {
+     "zh": "坐",
+     "pinyin": "zuò",
+     "pos": "v.",
+     "vi": "ngồi; đi (xe, tàu…)",
+     "example": {
+      "zh": "坐出租车",
+      "vi": "đi taxi"
+     }
+    },
+    {
+     "zh": "出租车",
+     "pinyin": "chūzūchē",
+     "pos": "n.",
+     "vi": "taxi",
+     "example": {
+      "zh": "坐出租车去。",
+      "vi": "Đi taxi."
+     }
+    },
+    {
+     "zh": "西安饭店",
+     "pinyin": "Xī'ān Fàndiàn",
+     "pos": "proper",
+     "vi": "nhà hàng Tây An",
+     "example": {
+      "zh": "我们去西安饭店吃晚饭。",
+      "vi": "Chúng ta đến nhà hàng Tây An ăn tối."
+     },
+     "proper": true
+    }
+   ],
+   "grammar": [
+    {
+     "id": "g6-2",
+     "title_zh": "连动句（1）",
+     "title_vi": "Câu liên động: đi đâu + làm gì / đi bằng gì",
+     "formula": [
+      [
+       {
+        "zh": "我",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "去超市",
+        "label": "Động từ 1: đi đâu",
+        "role": "V"
+       },
+       {
+        "zh": "买东西",
+        "label": "Động từ 2: làm gì",
+        "role": "V"
+       }
+      ],
+      [
+       {
+        "zh": "我们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "坐出租车",
+        "label": "Cách thức: bằng gì",
+        "role": "V"
+       },
+       {
+        "zh": "去西安饭店",
+        "label": "Hành động: đi đâu",
+        "role": "V"
+       }
+      ]
+     ],
+     "formulaNote": [
+      "Mục đích: đi … để làm gì",
+      "Cách thức: đi bằng gì"
+     ],
+     "explain_vi": "Một chủ ngữ có hai cụm động từ đứng liền nhau, xếp theo thứ tự việc xảy ra. (1) Chỉ mục đích: 去 + nơi chốn + việc làm: 我去超市买东西 = Tôi đi siêu thị mua đồ. (2) Chỉ cách thức: 坐 + phương tiện + 去 + nơi chốn: 我们坐出租车去西安饭店. Người Việt hay nói “đi nhà hàng bằng taxi” rồi dịch thành 去西安饭店坐出租车 – sai! Phương tiện phải đứng TRƯỚC.",
+     "examples": [
+      {
+       "zh": "我想去超市买东西。",
+       "vi": "Tôi muốn đi siêu thị mua đồ."
+      },
+      {
+       "zh": "我们去西安饭店吃晚饭。",
+       "vi": "Chúng ta đến nhà hàng Tây An ăn tối."
+      },
+      {
+       "zh": "我们坐出租车去西安饭店。",
+       "vi": "Chúng ta đi taxi đến nhà hàng Tây An."
+      },
+      {
+       "zh": "她坐出租车去超市。",
+       "vi": "Cô ấy đi taxi đến siêu thị."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我去西安饭店坐出租车。",
+       "right": "我坐出租车去西安饭店。",
+       "why_vi": "Phương tiện (坐出租车) đứng trước 去."
+      },
+      {
+       "wrong": "我买东西去超市。",
+       "right": "我去超市买东西。",
+       "why_vi": "Đi đến nơi trước, làm việc sau."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Chúng tôi đi siêu thị mua sữa.”",
+       "options": [
+        "我们去超市买牛奶。",
+        "我们买牛奶去超市。",
+        "我们去买超市牛奶。"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt_vi": "“Cô ấy đi taxi về nhà.”",
+       "options": [
+        "她回家坐出租车。",
+        "她坐出租车回家。",
+        "她坐回家出租车。"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "id": "g6-3",
+     "title_zh": "疑问代词“怎么”",
+     "title_vi": "怎么 + động từ: hỏi cách làm (bằng cách nào?)",
+     "formula": [
+      [
+       {
+        "zh": "我们",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "怎么",
+        "label": "bằng cách nào",
+        "role": "Q"
+       },
+       {
+        "zh": "去",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "？",
+        "label": "",
+        "role": "X"
+       }
+      ],
+      [
+       {
+        "zh": "她",
+        "label": "Chủ ngữ",
+        "role": "S"
+       },
+       {
+        "zh": "怎么",
+        "label": "bằng cách nào",
+        "role": "Q"
+       },
+       {
+        "zh": "去",
+        "label": "Động từ",
+        "role": "V"
+       },
+       {
+        "zh": "超市",
+        "label": "Tân ngữ",
+        "role": "O"
+       },
+       {
+        "zh": "？",
+        "label": "",
+        "role": "X"
+       }
+      ]
+     ],
+     "explain_vi": "怎么 đứng ngay TRƯỚC động từ để hỏi cách thức: 你怎么去？ = Bạn đi bằng gì / đi thế nào? Trả lời bằng câu liên động: 坐出租车去. Câu đã có 怎么 thì không thêm 吗.",
+     "examples": [
+      {
+       "zh": "我们怎么去？",
+       "vi": "Chúng ta đi bằng gì?"
+      },
+      {
+       "zh": "她怎么去超市？",
+       "vi": "Cô ấy đi siêu thị bằng gì?"
+      },
+      {
+       "zh": "饺子怎么做？",
+       "vi": "Sủi cảo làm thế nào?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "我们去怎么？",
+       "right": "我们怎么去？",
+       "why_vi": "怎么 đứng trước động từ, không đứng cuối câu như “thế nào” trong tiếng Việt."
+      },
+      {
+       "wrong": "你怎么去超市吗？",
+       "right": "你怎么去超市？",
+       "why_vi": "Đã có 怎么 thì không thêm 吗."
+      }
+     ],
+     "quiz": [
+      {
+       "prompt_vi": "“Bạn đi siêu thị bằng gì?”",
+       "options": [
+        "你去超市怎么？",
+        "你怎么去超市？",
+        "怎么你去超市吗？"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ],
+   "pangdaTip": "那边的包子 = bánh bao ở đó. Lại là 的 của bài 3: phần bổ nghĩa (那边) đứng TRƯỚC 的, ngược với tiếng Việt."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "fill",
+   "sentence": "我想___超市买牛奶。",
+   "bank": [
+    "多少",
+    "买",
+    "米饭",
+    "坐",
+    "去"
+   ],
+   "answer": "去",
+   "explain_vi": "去超市 = đi siêu thị."
+  },
+  {
+   "id": "e2",
+   "kind": "fill",
+   "sentence": "我想去超市___牛奶。",
+   "bank": [
+    "多少",
+    "买",
+    "米饭",
+    "坐",
+    "去"
+   ],
+   "answer": "买",
+   "explain_vi": "买牛奶 = mua sữa."
+  },
+  {
+   "id": "e3",
+   "kind": "fill",
+   "sentence": "我们___出租车去西安饭店吃晚饭。",
+   "bank": [
+    "多少",
+    "买",
+    "米饭",
+    "坐",
+    "去"
+   ],
+   "answer": "坐",
+   "explain_vi": "坐出租车 = đi taxi."
+  },
+  {
+   "id": "e4",
+   "kind": "fill",
+   "sentence": "妈妈：你想吃什么？孩子：我想吃___。",
+   "bank": [
+    "多少",
+    "买",
+    "米饭",
+    "坐",
+    "去"
+   ],
+   "answer": "米饭",
+   "explain_vi": "吃米饭 = ăn cơm."
+  },
+  {
+   "id": "e5",
+   "kind": "fill",
+   "sentence": "老师：你的手机号是___？",
+   "bank": [
+    "多少",
+    "买",
+    "米饭",
+    "坐",
+    "去"
+   ],
+   "answer": "多少",
+   "explain_vi": "Hỏi số điện thoại: ……是多少？"
+  },
+  {
+   "id": "e6",
+   "kind": "reorder",
+   "tiles": [
+    "买",
+    "去",
+    "东西",
+    "超市",
+    "我"
+   ],
+   "answers": [
+    "我去超市买东西"
+   ],
+   "vi": "Tôi đi siêu thị mua đồ.",
+   "explain_vi": "去 + nơi chốn + việc làm."
+  },
+  {
+   "id": "e7",
+   "kind": "reorder",
+   "tiles": [
+    "怎么",
+    "我们",
+    "去"
+   ],
+   "answers": [
+    "我们怎么去"
+   ],
+   "vi": "Chúng ta đi bằng gì?",
+   "explain_vi": "怎么 đứng trước động từ."
+  },
+  {
+   "id": "e8",
+   "kind": "reorder",
+   "tiles": [
+    "去",
+    "她",
+    "出租车",
+    "坐",
+    "超市"
+   ],
+   "answers": [
+    "她坐出租车去超市"
+   ],
+   "vi": "Cô ấy đi taxi đến siêu thị.",
+   "explain_vi": "坐 + phương tiện + 去 + nơi chốn."
+  },
+  {
+   "id": "e9",
+   "kind": "listenPick",
+   "audioText": "牛奶",
+   "options": [
+    {
+     "emoji": "🥛",
+     "label": "sữa"
+    },
+    {
+     "emoji": "🍚",
+     "label": "cơm"
+    },
+    {
+     "emoji": "🥟",
+     "label": "bánh bao"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "牛奶 = sữa bò."
+  },
+  {
+   "id": "e10",
+   "kind": "listenPick",
+   "audioText": "出租车",
+   "options": [
+    {
+     "emoji": "🚕",
+     "label": "taxi"
+    },
+    {
+     "emoji": "🛒",
+     "label": "siêu thị"
+    },
+    {
+     "emoji": "📱",
+     "label": "điện thoại"
+    }
+   ],
+   "answer": 0,
+   "explain_vi": "出租车 = taxi."
+  },
+  {
+   "id": "e11",
+   "kind": "listenTF",
+   "audioText": "我不想吃包子。",
+   "emoji": "🥟",
+   "statement_vi": "Người nói muốn ăn bánh bao.",
+   "answer": false,
+   "explain_vi": "不想吃 = không muốn ăn."
+  },
+  {
+   "id": "e12",
+   "kind": "listenTF",
+   "audioText": "明天我去超市。",
+   "emoji": "🛒",
+   "statement_vi": "Ngày mai người nói đi siêu thị.",
+   "answer": true,
+   "explain_vi": "明天 = ngày mai."
+  },
+  {
+   "id": "e13",
+   "kind": "pictureComplete",
+   "emoji": "🥟😋",
+   "sentence": "这些包子非常___。",
+   "options": [
+    "好吃",
+    "好看",
+    "喜欢"
+   ],
+   "answer": 0,
+   "explain_vi": "Đồ ăn ngon → 好吃; 好看 là đẹp (nhìn)."
+  },
+  {
+   "id": "e14",
+   "kind": "matchQA",
+   "pairs": [
+    {
+     "q": "你的手机号是多少？",
+     "a": "13552721160。"
+    },
+    {
+     "q": "明天你去哪儿？",
+     "a": "我想去超市。"
+    },
+    {
+     "q": "我们怎么去？",
+     "a": "坐出租车去。"
+    },
+    {
+     "q": "你想吃什么？",
+     "a": "我想吃米饭。"
+    }
+   ]
+  }
+ ],
+ "activity": {
+  "title_vi": "Bữa sáng trong tuần",
+  "steps_vi": [
+   "Làm việc theo cặp. Chọn món ăn sáng cho thứ Hai, thứ Ba và thứ Bảy trong 4 món: 包子, 面条儿, 饺子, 米饭.",
+   "Hỏi bạn mình bằng mẫu câu bên dưới rồi điền vào bảng.",
+   "Chia sẻ kết quả với cả lớp, ví dụ: 星期一早上她想吃饺子。"
   ],
-  "warmup": [],
-  "texts": [],
-  "exercises": []
+  "patterns": [
+   {
+    "zh": "星期一早上你想吃什么？",
+    "vi": "Sáng thứ Hai bạn muốn ăn gì?"
+   },
+   {
+    "zh": "我想吃饺子。",
+    "vi": "Mình muốn ăn sủi cảo."
+   },
+   {
+    "zh": "星期二呢？",
+    "vi": "Thế thứ Ba thì sao?"
+   },
+   {
+    "zh": "星期六我想吃包子。",
+    "vi": "Thứ Bảy mình muốn ăn bánh bao."
+   }
+  ]
+ },
+ "tongueTwister": {
+  "zh": "出租车去超市，超市买牛奶。",
+  "vi": "Taxi đến siêu thị, siêu thị mua sữa. (Luyện ch – sh – z)"
+ },
+ "culture": {
+  "title_vi": "Số điện thoại và những con số may mắn",
+  "body_vi": [
+   "Số di động ở Trung Quốc có 11 chữ số, luôn bắt đầu bằng số 1, và thường được đọc theo nhóm 3 – 4 – 4. Mã nước của Trung Quốc là +86, của Việt Nam là +84.",
+   "Khi đọc số điện thoại, số phòng, số xe buýt, số 1 thường đọc là yāo để khỏi lẫn với 七 qī. Ví dụ 110 (số gọi cảnh sát ở Trung Quốc) đọc là yāo yāo líng.",
+   "Người Trung Quốc rất thích số 8 và số 6, nên số điện thoại có nhiều số 8, số 6 thường đắt hơn. Ngược lại, số 4 hay bị tránh vì đọc gần giống 死 (chết)."
+  ],
+  "table": {
+   "head": [
+    "Chữ số",
+    "Khi đếm",
+    "Trong số điện thoại",
+    "Ghi chú"
+   ],
+   "rows": [
+    [
+     "0",
+     "líng",
+     "líng",
+     "零"
+    ],
+    [
+     "1",
+     "yī",
+     "yāo",
+     "tránh nhầm với 七 qī"
+    ],
+    [
+     "2",
+     "èr",
+     "èr",
+     "không dùng 两"
+    ],
+    [
+     "4",
+     "sì",
+     "sì",
+     "hay bị kiêng"
+    ],
+    [
+     "6",
+     "liù",
+     "liù",
+     "suôn sẻ"
+    ],
+    [
+     "8",
+     "bā",
+     "bā",
+     "may mắn, phát tài"
+    ]
+   ]
+  }
+ }
 }
