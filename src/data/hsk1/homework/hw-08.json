@@ -1,41 +1,716 @@
 {
-  "lessonId": 8,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 8,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/8-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-08/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-08/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-08/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 书店里 → bên trong hiệu sách.",
+     "audio": {
+      "start": 42.0,
+      "end": 49.4
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-08/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-08/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-08/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 桌子下的小猫 → mèo dưới gầm bàn.",
+     "audio": {
+      "start": 58.4,
+      "end": 68.5
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-08/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-08/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-08/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 工作很忙 → người đang làm việc.",
+     "audio": {
+      "start": 77.5,
+      "end": 86.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "去学校",
+      "房间外",
+      "在吃东西"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 小猫在哪儿？ → trả lời nơi chốn: 房间外.",
+     "audio": {
+      "start": 139.9,
+      "end": 149.4
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "我能到",
+      "我吃午饭",
+      "我不能工作"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 上午九点你能到学校吗？ → 我能到.",
+     "audio": {
+      "start": 163.4,
+      "end": 176.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-08/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-08/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-08/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-08/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 爸爸在哪儿？——他在房间里呢。 → người đàn ông trong phòng.",
+     "audio": {
+      "start": 241.2,
+      "end": 255.0
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我在学校吃午饭，你呢？——我也在学校吃午饭。 → học sinh ăn trưa.",
+     "audio": {
+      "start": 270.0,
+      "end": 290.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 学校外有一个小超市。——好的，我们去那里买。 → quầy hàng siêu thị.",
+     "audio": {
+      "start": 304.5,
+      "end": 323.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "超市",
+      "饭店",
+      "学校书店"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 下午在学校书店里见吧。问：说话人想在哪儿见？",
+     "audio": {
+      "start": 399.1,
+      "end": 427.8
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "去学校",
+      "看电影",
+      "去上班"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 明天不上课，我们能去电影院看电影吗？",
+     "audio": {
+      "start": 442.0,
+      "end": 469.2
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-08/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-08/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-08/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-08/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "你的手机在桌子上呢。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Điện thoại trên bàn.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "我在学校吃午饭。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Người đang ăn.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "这个医院里病人多，医生工作很忙。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Bác sĩ, y tá và bệnh nhân.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "桌子上有什么？",
+     "options": [
+      "医院。",
+      "我老师。",
+      "饺子和面条儿。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi có gì → 饺子和面条儿。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "她是谁？",
+     "options": [
+      "医院。",
+      "我老师。",
+      "饺子和面条儿。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi là ai → 我老师。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "你爸爸在哪儿工作？",
+     "options": [
+      "医院。",
+      "我老师。",
+      "饺子和面条儿。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Hỏi ở đâu → 医院。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "我的房间里（　）一只小猫。",
+     "options": [
+      "能",
+      "有",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "Nơi chốn + 有 + vật.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：我们下午在书店见吧。 女：好的，我7:00（　）到。",
+     "options": [
+      "能",
+      "有",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "能到 = đến được.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "昨天爸爸在医院工作，哥哥在家里休息，没去书店。",
+     "prompt_zh": "★ 说话人的哥哥昨天：",
+     "options": [
+      "在家里",
+      "在书店",
+      "在医院工作"
+     ],
+     "answer": 0,
+     "explain_vi": "哥哥在家里休息. Bẫy: 在医院工作 là bố; 没去书店.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "我喜欢吃米饭，我女朋友不喜欢。",
+     "prompt_zh": "★ 说话人的女朋友不喜欢吃：",
+     "options": [
+      "米饭",
+      "包子",
+      "面条儿"
+     ],
+     "answer": 0,
+     "explain_vi": "我女朋友不喜欢（吃米饭）.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "上",
+      "我的",
+      "桌子",
+      "手机",
+      "在"
+     ],
+     "answers": [
+      "我的手机在桌子上"
+     ],
+     "vi": "Điện thoại của tôi ở trên bàn.",
+     "explain_vi": "Vật + 在 + danh từ + 上.",
+     "grammarRef": "g8-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "吃午饭",
+      "在",
+      "我",
+      "学校"
+     ],
+     "answers": [
+      "我在学校吃午饭"
+     ],
+     "vi": "Tôi ăn trưa ở trường.",
+     "explain_vi": "在 + nơi chốn trước động từ.",
+     "grammarRef": "g8-2"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "吗",
+      "能",
+      "你",
+      "到",
+      "两点"
+     ],
+     "answers": [
+      "你两点能到吗",
+      "两点你能到吗"
+     ],
+     "vi": "2 giờ bạn đến được không?",
+     "explain_vi": "能 + động từ.",
+     "grammarRef": "g8-3"
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "小猫",
+      "房间",
+      "有",
+      "外",
+      "一只"
+     ],
+     "answers": [
+      "房间外有一只小猫"
+     ],
+     "vi": "Ngoài phòng có một con mèo.",
+     "explain_vi": "Nơi chốn + 有 + vật.",
+     "grammarRef": "g8-1"
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "没",
+      "饭",
+      "吃",
+      "还",
+      "我",
+      "呢"
+     ],
+     "answers": [
+      "我还没吃饭呢"
+     ],
+     "vi": "Tôi vẫn chưa ăn cơm.",
+     "explain_vi": "还没……呢 = vẫn chưa…."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Con mèo ở đâu?",
+     "acceptedAnswers": [
+      "小猫在哪儿",
+      "猫在哪儿",
+      "小猫在哪儿呢"
+     ],
+     "requiredKeywords": [
+      "在",
+      "哪儿"
+     ],
+     "wordBank": [
+      "小猫",
+      "在",
+      "哪儿",
+      "吗"
+     ],
+     "explain_vi": "Câu có 哪儿 không thêm 吗.",
+     "grammarRef": "g8-1"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Bố tôi làm việc ở bệnh viện.",
+     "acceptedAnswers": [
+      "我爸爸在医院工作",
+      "我的爸爸在医院工作"
+     ],
+     "requiredKeywords": [
+      "在医院",
+      "工作"
+     ],
+     "wordBank": [
+      "我",
+      "爸爸",
+      "在",
+      "医院",
+      "工作"
+     ],
+     "explain_vi": "在 + nơi chốn + 工作.",
+     "grammarRef": "g8-2"
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Tôi không đến được.",
+     "acceptedAnswers": [
+      "我不能到",
+      "我不能去",
+      "我不能来"
+     ],
+     "requiredKeywords": [
+      "不能"
+     ],
+     "wordBank": [
+      "我",
+      "不",
+      "能",
+      "会",
+      "到"
+     ],
+     "explain_vi": "Không có điều kiện làm → 不能.",
+     "grammarRef": "g8-3"
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Chúng ta gặp nhau trước hiệu sách nhé.",
+     "acceptedAnswers": [
+      "我们在书店前见吧",
+      "我们在书店前边见吧"
+     ],
+     "requiredKeywords": [
+      "书店",
+      "见"
+     ],
+     "wordBank": [
+      "我们",
+      "在",
+      "书店",
+      "前",
+      "见",
+      "吧"
+     ],
+     "explain_vi": "在 + nơi chốn + 见吧.",
+     "grammarRef": "g8-2"
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Con mèo này đẹp thật!",
+     "acceptedAnswers": [
+      "这只小猫真漂亮",
+      "这只猫真漂亮"
+     ],
+     "requiredKeywords": [
+      "只",
+      "漂亮"
+     ],
+     "wordBank": [
+      "这",
+      "只",
+      "小猫",
+      "真",
+      "漂亮"
+     ],
+     "explain_vi": "这 + 只 + 小猫."
+    }
+   ]
+  }
+ ]
 }

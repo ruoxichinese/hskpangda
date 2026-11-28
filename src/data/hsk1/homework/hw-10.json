@@ -1,41 +1,707 @@
 {
-  "lessonId": 10,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 10,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/10-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-10/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-10/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-10/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 水果便宜 → quầy trái cây.",
+     "audio": {
+      "start": 42.8,
+      "end": 52.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-10/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-10/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-10/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 三件衣服 → ba chiếc áo đang phơi.",
+     "audio": {
+      "start": 61.4,
+      "end": 70.6
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-10/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-10/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-10/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 买杯子 → người đang chọn đồ trên kệ.",
+     "audio": {
+      "start": 79.9,
+      "end": 88.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "10:00",
+      "十块钱",
+      "十本书"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 杯子多少钱一个？ → trả lời giá tiền: 十块钱.",
+     "audio": {
+      "start": 140.5,
+      "end": 151.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "不贵",
+      "很好看",
+      "120元"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我穿这件衣服怎么样？ → hỏi ý kiến về vẻ ngoài: 很好看.",
+     "audio": {
+      "start": 165.1,
+      "end": 176.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-10/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-10/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-10/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-10/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 请问有杯子吗？——有，十二块钱一个。 → những chiếc cốc.",
+     "audio": {
+      "start": 242.3,
+      "end": 260.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 我喜欢这个手机，多少钱？——三千八百元。 → người cầm điện thoại.",
+     "audio": {
+      "start": 274.4,
+      "end": 293.6
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 您买点儿什么？——我买四个苹果。 → bốn quả táo.",
+     "audio": {
+      "start": 307.7,
+      "end": 325.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "很多",
+      "真贵",
+      "不好看"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 这家商店衣服真多，还很便宜。问：那家商店的衣服怎么样？",
+     "audio": {
+      "start": 401.8,
+      "end": 429.3
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "很少",
+      "很便宜",
+      "很漂亮"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这边的杯子六块钱一个，真便宜。问：那边的杯子怎么样？ (“那边” ở câu hỏi chính là chỗ người nói vừa nhắc)",
+     "audio": {
+      "start": 443.6,
+      "end": 469.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-10/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-10/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-10/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-10/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "请问，包子多少钱一个？",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Bánh bao.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "这边的苹果真便宜。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Giỏ táo.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "这些是男孩子穿的衣服。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Cậu bé ở cửa hàng quần áo.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "女孩子的衣服在哪儿？",
+     "options": [
+      "十块钱。",
+      "对不起，没有。",
+      "在那边。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi ở đâu → 在那边。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "杯子多少钱一个？",
+     "options": [
+      "十块钱。",
+      "对不起，没有。",
+      "在那边。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Hỏi giá → 十块钱。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "请问这儿有牛奶吗？",
+     "options": [
+      "十块钱。",
+      "对不起，没有。",
+      "在那边。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi có không → 对不起，没有。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "那些苹果两（　）钱一斤，很便宜。",
+     "options": [
+      "穿",
+      "块",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "两块钱 = 2 tệ.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：这件衣服怎么样？ 女：很好看，10岁的男孩子能（　）。",
+     "options": [
+      "穿",
+      "块",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "能穿 = mặc được.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "我没有手机，今天想去商店买一个。",
+     "prompt_zh": "★ 说话人想买什么？",
+     "options": [
+      "杯子",
+      "手机",
+      "水果"
+     ],
+     "answer": 1,
+     "explain_vi": "我没有手机……买一个.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "这件衣服很好看，你也能穿，买一件吧。",
+     "prompt_zh": "★ 那件衣服：",
+     "options": [
+      "好看",
+      "便宜",
+      "很贵"
+     ],
+     "answer": 0,
+     "explain_vi": "这件衣服很好看. Bẫy: không nói gì về giá.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "钱",
+      "这个",
+      "多少",
+      "杯子"
+     ],
+     "answers": [
+      "这个杯子多少钱"
+     ],
+     "vi": "Cái cốc này bao nhiêu tiền?",
+     "explain_vi": "Hỏi giá: ……多少钱？",
+     "grammarRef": "g10-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "一斤",
+      "苹果",
+      "三块五"
+     ],
+     "answers": [
+      "苹果三块五一斤"
+     ],
+     "vi": "Táo 3,5 tệ một cân.",
+     "explain_vi": "Giá + 一斤.",
+     "grammarRef": "g10-1"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "真",
+      "水果",
+      "这儿的",
+      "不少"
+     ],
+     "answers": [
+      "这儿的水果真不少"
+     ],
+     "vi": "Trái cây ở đây nhiều thật.",
+     "explain_vi": "Câu vị ngữ tính từ, không có 是.",
+     "grammarRef": "g10-2"
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "怎么样",
+      "衣服",
+      "这件"
+     ],
+     "answers": [
+      "这件衣服怎么样"
+     ],
+     "vi": "Chiếc áo này thế nào?",
+     "explain_vi": "……怎么样 đứng cuối câu.",
+     "grammarRef": "g10-3"
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "也",
+      "好看",
+      "不贵"
+     ],
+     "answers": [
+      "好看也不贵"
+     ],
+     "vi": "Đẹp, mà cũng không đắt.",
+     "explain_vi": "好看，也不贵."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Táo ở đây rẻ thật!",
+     "acceptedAnswers": [
+      "这儿的苹果真便宜",
+      "这里的苹果真便宜"
+     ],
+     "requiredKeywords": [
+      "苹果",
+      "便宜"
+     ],
+     "wordBank": [
+      "这儿",
+      "的",
+      "苹果",
+      "真",
+      "便宜",
+      "是"
+     ],
+     "explain_vi": "Không dùng 是 trước tính từ.",
+     "grammarRef": "g10-2"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Bao nhiêu tiền một cái?",
+     "acceptedAnswers": [
+      "多少钱一个",
+      "一个多少钱"
+     ],
+     "requiredKeywords": [
+      "多少钱"
+     ],
+     "wordBank": [
+      "多少",
+      "钱",
+      "一",
+      "个",
+      "几"
+     ],
+     "explain_vi": "多少钱一个？",
+     "grammarRef": "g10-1"
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn mua hai cân táo.",
+     "acceptedAnswers": [
+      "我想买两斤苹果"
+     ],
+     "requiredKeywords": [
+      "两斤",
+      "苹果"
+     ],
+     "wordBank": [
+      "我",
+      "想",
+      "买",
+      "两",
+      "二",
+      "斤",
+      "苹果"
+     ],
+     "explain_vi": "Trước lượng từ 斤 dùng 两.",
+     "grammarRef": "g10-1"
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Bộ phim này thế nào?",
+     "acceptedAnswers": [
+      "这个电影怎么样"
+     ],
+     "requiredKeywords": [
+      "怎么样"
+     ],
+     "wordBank": [
+      "这个",
+      "电影",
+      "怎么样",
+      "吗"
+     ],
+     "explain_vi": "Có 怎么样 thì không thêm 吗.",
+     "grammarRef": "g10-3"
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Những chiếc cốc này 5 tệ một cái.",
+     "acceptedAnswers": [
+      "这些杯子五块钱一个",
+      "这些杯子五块一个",
+      "这些杯子5块钱一个"
+     ],
+     "requiredKeywords": [
+      "这些",
+      "块"
+     ],
+     "wordBank": [
+      "这些",
+      "杯子",
+      "五",
+      "块",
+      "钱",
+      "一个"
+     ],
+     "explain_vi": "这些 + 杯子 + giá + 一个.",
+     "grammarRef": "g10-1"
+    }
+   ]
+  }
+ ]
 }

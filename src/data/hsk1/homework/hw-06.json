@@ -1,41 +1,825 @@
 {
-  "lessonId": 6,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 6,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/6-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Nghe–đọc–luyện và Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn âm tiết (Nghe – đọc – luyện, bài 1)",
+   "instructions_vi": "Nghe đoạn ghi âm, chọn âm tiết bạn nghe được, rồi đọc to lại.",
+   "questions": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "id": "t1",
+     "num": "Â1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "nà piān",
+      "nàbiān"
+     ],
+     "answer": 1,
+     "explain_vi": "那边 nàbiān (bên kia).",
+     "audio": {
+      "start": 12.8,
+      "end": 17.4,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "id": "t2",
+     "num": "Â2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "dōngxi",
+      "dōngxī"
+     ],
+     "answer": 0,
+     "explain_vi": "东西 dōngxi (đồ vật) – âm sau đọc nhẹ.",
+     "audio": {
+      "start": 19.6,
+      "end": 23.3,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
+     "id": "t3",
+     "num": "Â3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "chāoshì",
+      "cháoshī"
+     ],
+     "answer": 0,
+     "explain_vi": "超市 chāoshì.",
+     "audio": {
+      "start": 25.4,
+      "end": 29.6,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
+     "id": "t4",
+     "num": "Â4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "wǎnfàn",
+      "wǎnfēng"
+     ],
+     "answer": 0,
+     "explain_vi": "晚饭 wǎnfàn.",
+     "audio": {
+      "start": 31.7,
+      "end": 36.0,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "id": "t5",
+     "num": "Â5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "shǒují",
+      "shǒujī"
+     ],
+     "answer": 1,
+     "explain_vi": "手机 shǒujī.",
+     "audio": {
+      "start": 38.3,
+      "end": 42.8,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t6",
+     "num": "Â6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "diànhuà",
+      "biànhuà"
+     ],
+     "answer": 0,
+     "explain_vi": "电话 diànhuà.",
+     "audio": {
+      "start": 44.8,
+      "end": 48.7,
+      "src": "audio/hsk1/wb/6-2.mp3"
+     },
+     "fixed": true
     }
-  ]
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/l1-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我的手机 → điện thoại di động.",
+     "audio": {
+      "start": 42.6,
+      "end": 51.4
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 一杯牛奶 → một cốc sữa (tranh A có ba cốc).",
+     "audio": {
+      "start": 60.4,
+      "end": 70.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 吃面条 → người đang ăn mì.",
+     "audio": {
+      "start": 79.1,
+      "end": 87.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "超市",
+      "做饭",
+      "东西"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 明天你去哪儿买牛奶？ → hỏi nơi chốn: 超市.",
+     "audio": {
+      "start": 138.9,
+      "end": 151.6
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "去",
+      "西安饭店",
+      "坐出租车"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你们怎么去？ → hỏi cách đi: 坐出租车.",
+     "audio": {
+      "start": 166.4,
+      "end": 175.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-06/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你的手机号是多少？——我的手机号是+33 601493190。 → hai người xem điện thoại.",
+     "audio": {
+      "start": 240.5,
+      "end": 276.8
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我们去那边的饭店吃晚饭吧。——好的。 → nhà hàng.",
+     "audio": {
+      "start": 291.6,
+      "end": 308.3
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 你也是老师吗？——是的，我也是老师。 → cô giáo đứng trước bảng.",
+     "audio": {
+      "start": 322.4,
+      "end": 339.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "5362805",
+      "5398205",
+      "5326085"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我的电话号是5362805。",
+     "audio": {
+      "start": 416.0,
+      "end": 446.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "包子",
+      "饺子",
+      "面条儿"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我想吃面条，不想吃包子和饺子。 – bẫy: nhắc cả 包子, 饺子 nhưng là “không muốn”.",
+     "audio": {
+      "start": 461.2,
+      "end": 488.6
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-06/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-06/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-06/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-06/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "我有一个新电脑。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Máy tính xách tay.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "今天星期二。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Tờ giấy ghi 星期二.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "我想去超市买东西。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Siêu thị.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "你吃什么？",
+     "options": [
+      "坐出租车。",
+      "真好看！",
+      "包子。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi ăn gì → 包子。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "我们怎么去？",
+     "options": [
+      "坐出租车。",
+      "真好看！",
+      "包子。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Hỏi cách đi → 坐出租车。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "这是老师的新电脑。",
+     "options": [
+      "坐出租车。",
+      "真好看！",
+      "包子。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Khen máy tính mới → 真好看！",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "我想买（　）。",
+     "options": [
+      "有",
+      "牛奶",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "买牛奶 = mua sữa.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：我的手机号是+86 13552721160。 女：我（　）你的手机号，你的电话号呢？",
+     "options": [
+      "有",
+      "牛奶",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "我有你的手机号 = tôi có số di động của bạn rồi.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "我家有三口人：爸爸、妈妈和我。",
+     "prompt_zh": "★ 说话人家里有几口人？",
+     "options": [
+      "三口人",
+      "四口人",
+      "六口人"
+     ],
+     "answer": 0,
+     "explain_vi": "我家有三口人.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "明天星期天，我休息，想去超市买牛奶。",
+     "prompt_zh": "★ 说话人想买什么？",
+     "options": [
+      "菜",
+      "牛奶",
+      "饺子"
+     ],
+     "answer": 1,
+     "explain_vi": "想去超市买牛奶.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "超市",
+      "我",
+      "去",
+      "想"
+     ],
+     "answers": [
+      "我想去超市"
+     ],
+     "vi": "Tôi muốn đi siêu thị.",
+     "explain_vi": "想 + 去 + nơi chốn.",
+     "grammarRef": "g6-1",
+     "num": "V1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "买",
+      "去",
+      "超市",
+      "东西",
+      "我"
+     ],
+     "answers": [
+      "我去超市买东西"
+     ],
+     "vi": "Tôi đi siêu thị mua đồ.",
+     "explain_vi": "Đi đâu trước, làm gì sau.",
+     "grammarRef": "g6-2",
+     "num": "V2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "去",
+      "我们",
+      "出租车",
+      "坐"
+     ],
+     "answers": [
+      "我们坐出租车去"
+     ],
+     "vi": "Chúng ta đi taxi.",
+     "explain_vi": "坐 + phương tiện + 去.",
+     "grammarRef": "g6-2",
+     "num": "V3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "怎么",
+      "去",
+      "你",
+      "超市"
+     ],
+     "answers": [
+      "你怎么去超市"
+     ],
+     "vi": "Bạn đi siêu thị bằng gì?",
+     "explain_vi": "怎么 đứng trước động từ.",
+     "grammarRef": "g6-3",
+     "num": "V4"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "是",
+      "手机号",
+      "你的",
+      "多少"
+     ],
+     "answers": [
+      "你的手机号是多少"
+     ],
+     "vi": "Số di động của bạn là bao nhiêu?",
+     "explain_vi": "Hỏi số: ……是多少？",
+     "num": "V5"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi muốn ăn bánh bao.",
+     "acceptedAnswers": [
+      "我想吃包子"
+     ],
+     "requiredKeywords": [
+      "想",
+      "吃",
+      "包子"
+     ],
+     "wordBank": [
+      "我",
+      "想",
+      "吃",
+      "包子",
+      "会"
+     ],
+     "explain_vi": "想 + 吃 + 包子.",
+     "grammarRef": "g6-1",
+     "num": "V6"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Ngày mai bạn đi đâu?",
+     "acceptedAnswers": [
+      "明天你去哪儿",
+      "你明天去哪儿"
+     ],
+     "requiredKeywords": [
+      "明天",
+      "哪儿"
+     ],
+     "wordBank": [
+      "明天",
+      "你",
+      "去",
+      "哪儿",
+      "吗"
+     ],
+     "explain_vi": "Câu có 哪儿 không thêm 吗.",
+     "num": "V7"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Chúng tôi đi siêu thị mua sữa.",
+     "acceptedAnswers": [
+      "我们去超市买牛奶"
+     ],
+     "requiredKeywords": [
+      "超市",
+      "买",
+      "牛奶"
+     ],
+     "wordBank": [
+      "我们",
+      "去",
+      "超市",
+      "买",
+      "牛奶"
+     ],
+     "explain_vi": "Câu liên động: 去超市 + 买牛奶.",
+     "grammarRef": "g6-2",
+     "num": "V8"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Bạn đến nhà hàng Tây An bằng gì?",
+     "acceptedAnswers": [
+      "你怎么去西安饭店"
+     ],
+     "requiredKeywords": [
+      "怎么",
+      "西安饭店"
+     ],
+     "wordBank": [
+      "你",
+      "怎么",
+      "去",
+      "西安饭店",
+      "吗"
+     ],
+     "explain_vi": "怎么 + 去 + nơi chốn.",
+     "grammarRef": "g6-3",
+     "num": "V9"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Số di động của tôi là 13126975002.",
+     "acceptedAnswers": [
+      "我的手机号是13126975002",
+      "我手机号是13126975002",
+      "我的电话是13126975002",
+      "我的手机是13126975002"
+     ],
+     "requiredKeywords": [
+      "13126975002"
+     ],
+     "wordBank": [
+      "我的",
+      "手机号",
+      "是",
+      "多少",
+      "13126975002"
+     ],
+     "explain_vi": "……是 + số điện thoại.",
+     "num": "V10"
+    }
+   ]
+  }
+ ]
 }

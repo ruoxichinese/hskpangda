@@ -1,56 +1,812 @@
 {
-  "lessonId": 2,
-  "level": "hsk1",
-  "status": "ready",
-  "sections": [
+ "lessonId": 2,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/2-2.mp3",
+ "source_vi": "Bài tập phần Nghe – đọc – luyện (听读练) trong sách bài tập 新HSK教程1 学练手册",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn phụ âm đầu",
+   "instructions_vi": "Nghe từng âm tiết, chọn phụ âm đầu đúng, rồi đọc to lại.",
+   "questions": [
     {
-      "type": "reading", "part": "A1–A2", "title_vi": "Đọc hiểu: Gặp nhau ở thư viện",
-      "instructions_vi": "Đọc đoạn hội thoại rồi trả lời câu hỏi.",
-      "passage": {
-        "title_vi": "Gặp nhau ở thư viện",
-        "zh": "李文：你好！请问，你叫什么名字？\n安妮：你好！我叫安妮。\n李文：我叫李文。安妮，很高兴认识你！\n安妮：我也很高兴认识你！\n陈天中：白家月，你好！\n安妮：我不是白家月，我是安妮。\n陈天中：对不起！\n安妮：没关系！",
-        "vi": "Lý Văn: Chào bạn! Xin hỏi, bạn tên là gì?\nAnnie: Chào bạn! Mình tên là Annie.\nLý Văn: Mình tên là Lý Văn. Annie, rất vui được làm quen với bạn!\nAnnie: Mình cũng rất vui được làm quen với bạn!\nThiên Trung: Chào Gia Nguyệt!\nAnnie: Mình không phải Gia Nguyệt, mình là Annie.\nThiên Trung: Xin lỗi!\nAnnie: Không sao!"
-      },
-      "questions": [
-        { "id": "a1", "kind": "mcq", "prompt_vi": "Cô gái trong đoạn hội thoại tên là gì?", "options": ["白家月", "安妮", "李文"], "answer": 1, "explain_vi": "Cô ấy nói: 我叫安妮。" },
-        { "id": "a2", "kind": "mcq", "prompt_vi": "陈天中 đã nhận nhầm 安妮 là ai?", "options": ["王老师", "李文", "白家月"], "answer": 2, "explain_vi": "陈天中 chào 白家月，你好！ nhưng đó là 安妮." },
-        { "id": "a3", "kind": "mcq", "prompt_vi": "安妮 đáp lại lời xin lỗi bằng câu nào?", "options": ["不客气！", "没关系！", "再见！"], "answer": 1, "explain_vi": "对不起 → 没关系." },
-        { "id": "a4", "kind": "truefalse", "statement_zh": "安妮不是白家月。", "answer": true, "explain_vi": "安妮 nói: 我不是白家月，我是安妮。" },
-        { "id": "a5", "kind": "truefalse", "statement_zh": "陈天中叫李文。", "answer": false, "explain_vi": "陈天中 và 李文 là hai người khác nhau." },
-        { "id": "a6", "kind": "truefalse", "statement_zh": "安妮也很高兴认识李文。", "answer": true, "explain_vi": "安妮 nói: 我也很高兴认识你！" }
-      ]
+     "id": "s1",
+     "num": "Đ1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___ián",
+     "options": [
+      "jián",
+      "qián",
+      "xián"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 钱 – qián.",
+     "audio": {
+      "start": 12.4,
+      "end": 14.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
     },
     {
-      "type": "reading", "part": "A3", "title_vi": "Nối câu hỏi với câu trả lời", "instructions_vi": "Nối mỗi câu bên trái với câu đáp phù hợp.",
-      "questions": [
-        { "id": "a7", "kind": "match", "pairs": [{ "q": "请问，你叫什么名字？", "a": "我叫白家月。" }, { "q": "对不起！", "a": "没关系！" }, { "q": "很高兴认识你！", "a": "我也很高兴认识你！" }, { "q": "谢谢！", "a": "不客气！" }], "explain_vi": "Hỏi tên ↔ nói tên; xin lỗi ↔ không sao; vui được quen ↔ cũng vui; cảm ơn ↔ không có gì." }
-      ]
+     "id": "s2",
+     "num": "Đ2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___īn",
+     "options": [
+      "jīn",
+      "qīn",
+      "xīn"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 金 – jīn.",
+     "audio": {
+      "start": 17.3,
+      "end": 19.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
     },
     {
-      "type": "reading", "part": "A4", "title_vi": "Chọn từ điền vào chỗ trống", "instructions_vi": "Có một từ thừa.",
-      "questions": [
-        { "id": "a8", "kind": "cloze", "text": "A：你好！请问，你{{1}}什么名字？\nB：我叫陈天中。我{{2}}是安妮。\nA：对不起！\nB：没{{3}}！\nA：很{{4}}认识你！", "bank": ["叫", "不", "关系", "高兴", "也"], "answers": ["叫", "不", "关系", "高兴"], "explain_vi": "叫 + tên · 不是 · 没关系 · 很高兴." }
-      ]
+     "id": "s3",
+     "num": "Đ3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___iǎng",
+     "options": [
+      "jiǎng",
+      "qiǎng",
+      "xiǎng"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 想 – xiǎng.",
+     "audio": {
+      "start": 22.2,
+      "end": 24.3,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
     },
     {
-      "type": "writing", "part": "B1", "title_vi": "Sắp xếp từ thành câu", "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
-      "questions": [
-        { "id": "b1", "kind": "reorder", "tiles": ["名字", "你", "什么", "叫"], "answers": ["你叫什么名字"], "vi": "Bạn tên là gì?", "explain_vi": "Trật tự: Chủ ngữ + Động từ + Tân ngữ. Từ để hỏi không lên đầu câu.", "grammarRef": "g2-1" },
-        { "id": "b2", "kind": "reorder", "tiles": ["是", "我", "学生"], "answers": ["我是学生"], "vi": "Tôi là sinh viên.", "explain_vi": "Chủ ngữ + 是 + Tân ngữ.", "grammarRef": "g2-1" },
-        { "id": "b3", "kind": "reorder", "tiles": ["不", "我", "是", "安妮"], "answers": ["我不是安妮"], "vi": "Tôi không phải Annie.", "explain_vi": "不 đứng trước động từ 是.", "grammarRef": "g2-2" },
-        { "id": "b4", "kind": "reorder", "tiles": ["认识", "很", "高兴", "你"], "answers": ["很高兴认识你", "认识你很高兴"], "vi": "Rất vui được làm quen với bạn.", "explain_vi": "Cả hai thứ tự đều đúng.", "grammarRef": "g2-3" },
-        { "id": "b5", "kind": "reorder", "tiles": ["也", "很", "我", "高兴"], "answers": ["我也很高兴"], "vi": "Tôi cũng rất vui.", "explain_vi": "Chủ ngữ + 也 + 很 + Tính từ.", "grammarRef": "g2-3" }
-      ]
+     "id": "s4",
+     "num": "Đ4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___iào",
+     "options": [
+      "jiào",
+      "qiào",
+      "xiào"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 叫 – jiào.",
+     "audio": {
+      "start": 27.4,
+      "end": 29.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
     },
     {
-      "type": "writing", "part": "B2", "title_vi": "Dịch sang tiếng Trung", "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
-      "questions": [
-        { "id": "b6", "kind": "translate", "prompt_vi": "Tôi tên là Trần Thiên Trung.", "acceptedAnswers": ["我叫陈天中"], "requiredKeywords": ["我", "叫"], "wordBank": ["我", "叫", "陈天中", "你"], "explain_vi": "Giới thiệu tên: 我叫 + tên.", "grammarRef": "g2-1" },
-        { "id": "b7", "kind": "translate", "prompt_vi": "Xin hỏi, bạn tên là gì?", "acceptedAnswers": ["请问，你叫什么名字？", "请问您叫什么名字"], "requiredKeywords": ["叫", "什么"], "wordBank": ["请问", "你", "叫", "什么", "名字", "是"], "explain_vi": "请问 + 你叫什么名字？", "grammarRef": "g2-1" },
-        { "id": "b8", "kind": "translate", "prompt_vi": "Tôi không phải là giáo viên.", "acceptedAnswers": ["我不是老师"], "requiredKeywords": ["不是"], "wordBank": ["我", "不", "是", "老师", "很"], "explain_vi": "Phủ định: 不 + 是.", "grammarRef": "g2-2" },
-        { "id": "b9", "kind": "translate", "prompt_vi": "Rất vui được làm quen với bạn!", "acceptedAnswers": ["很高兴认识你", "认识你很高兴", "很高兴认识您", "认识您很高兴"], "requiredKeywords": ["高兴", "认识"], "wordBank": ["很", "高兴", "认识", "你", "也"], "explain_vi": "很高兴认识你 hoặc 认识你很高兴.", "grammarRef": "g2-3" },
-        { "id": "b10", "kind": "translate", "prompt_vi": "Xin lỗi! – Không sao!", "acceptedAnswers": ["对不起！没关系！", "对不起！没事！", "对不起！没事没事！"], "requiredKeywords": ["对不起"], "wordBank": ["对不起", "没关系", "不客气", "谢谢"], "explain_vi": "对不起 → 没关系 / 没事.", "grammarRef": "g2-2" }
-      ]
+     "id": "s5",
+     "num": "Đ5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___iè",
+     "options": [
+      "jiè",
+      "qiè",
+      "xiè"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 谢 – xiè.",
+     "audio": {
+      "start": 32.0,
+      "end": 34.1,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "s6",
+     "num": "Đ6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___ǐng",
+     "options": [
+      "jǐng",
+      "qǐng",
+      "xǐng"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 请 – qǐng.",
+     "audio": {
+      "start": 36.9,
+      "end": 39.0,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "s7",
+     "num": "Đ7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___ǐ",
+     "options": [
+      "jǐ",
+      "qǐ",
+      "xǐ"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 挤 – jǐ.",
+     "audio": {
+      "start": 42.1,
+      "end": 44.2,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "s8",
+     "num": "Đ8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___ù",
+     "options": [
+      "jù",
+      "qù",
+      "xù"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 去 – qù.",
+     "audio": {
+      "start": 46.9,
+      "end": 49.0,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "s9",
+     "num": "Đ9",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn phụ âm đầu:  ___ià",
+     "options": [
+      "jià",
+      "qià",
+      "xià"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 下 – xià.",
+     "audio": {
+      "start": 51.8,
+      "end": 53.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
     }
-  ]
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn vần",
+   "instructions_vi": "Nghe từng âm tiết, chọn vần đúng, rồi đọc to lại.",
+   "questions": [
+    {
+     "id": "v1",
+     "num": "V1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  j___",
+     "options": [
+      "jian",
+      "jiang",
+      "jin"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 剑 – jian.",
+     "audio": {
+      "start": 64.4,
+      "end": 66.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v2",
+     "num": "V2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  x___",
+     "options": [
+      "xie",
+      "xue",
+      "xia"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 写 – xie.",
+     "audio": {
+      "start": 69.1,
+      "end": 71.2,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v3",
+     "num": "V3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  q___",
+     "options": [
+      "qu",
+      "qiu",
+      "qie"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 去 (nghe chưa rõ) – qu. (cần giáo viên nghe lại)",
+     "audio": {
+      "start": 74.3,
+      "end": 76.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v4",
+     "num": "V4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  j___",
+     "options": [
+      "jiao",
+      "jiou",
+      "jia"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 叫 – jiao.",
+     "audio": {
+      "start": 79.3,
+      "end": 81.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v5",
+     "num": "V5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  q___",
+     "options": [
+      "qing",
+      "qin",
+      "qiang"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 请 – qing.",
+     "audio": {
+      "start": 83.9,
+      "end": 86.0,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v6",
+     "num": "V6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  x___",
+     "options": [
+      "xue",
+      "xie",
+      "xian"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 学 – xue.",
+     "audio": {
+      "start": 89.2,
+      "end": 91.3,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v7",
+     "num": "V7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  j___",
+     "options": [
+      "jiao",
+      "jiou",
+      "jia"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 脚 – jiao.",
+     "audio": {
+      "start": 94.3,
+      "end": 96.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v8",
+     "num": "V8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  x___",
+     "options": [
+      "xing",
+      "xin",
+      "xiang"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 星 – xing.",
+     "audio": {
+      "start": 99.4,
+      "end": 101.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v9",
+     "num": "V9",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  j___",
+     "options": [
+      "jie",
+      "jue",
+      "jia"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 解 – jie.",
+     "audio": {
+      "start": 104.5,
+      "end": 106.6,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v10",
+     "num": "V10",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  q___",
+     "options": [
+      "qian",
+      "qiang",
+      "qin"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 钱 – qian.",
+     "audio": {
+      "start": 109.6,
+      "end": 111.7,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v11",
+     "num": "V11",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  x___",
+     "options": [
+      "xian",
+      "xiang",
+      "xin"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 线 – xian.",
+     "audio": {
+      "start": 114.9,
+      "end": 117.0,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v12",
+     "num": "V12",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  q___",
+     "options": [
+      "qi",
+      "qei",
+      "qe"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 起 – qi.",
+     "audio": {
+      "start": 119.8,
+      "end": 121.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v13",
+     "num": "V13",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  j___",
+     "options": [
+      "jiang",
+      "jian",
+      "jing"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 将 – jiang.",
+     "audio": {
+      "start": 125.2,
+      "end": 127.3,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v14",
+     "num": "V14",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  x___",
+     "options": [
+      "xiu",
+      "xu",
+      "xiao"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 修 – xiu.",
+     "audio": {
+      "start": 130.1,
+      "end": 132.2,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "v15",
+     "num": "V15",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn vần:  q___",
+     "options": [
+      "quan",
+      "qian",
+      "qun"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 全 – quan.",
+     "audio": {
+      "start": 135.1,
+      "end": 137.2,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn thanh điệu",
+   "instructions_vi": "Nghe từng âm tiết, chọn cách đánh dấu thanh đúng, rồi đọc to lại.",
+   "questions": [
+    {
+     "id": "t1",
+     "num": "T1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  xue",
+     "options": [
+      "xuē",
+      "xué",
+      "xuě",
+      "xuè"
+     ],
+     "answer": 1,
+     "fixed": true,
+     "explain_vi": "Nghe: 学 – xué (thanh 2).",
+     "audio": {
+      "start": 149.2,
+      "end": 151.3,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t2",
+     "num": "T2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  jiao",
+     "options": [
+      "jiāo",
+      "jiáo",
+      "jiǎo",
+      "jiào"
+     ],
+     "answer": 3,
+     "fixed": true,
+     "explain_vi": "Nghe: 叫 – jiào (thanh 4).",
+     "audio": {
+      "start": 154.3,
+      "end": 156.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t3",
+     "num": "T3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  qun",
+     "options": [
+      "qūn",
+      "qún",
+      "qǔn",
+      "qùn"
+     ],
+     "answer": 1,
+     "fixed": true,
+     "explain_vi": "Nghe: 裙 – qún (thanh 2).",
+     "audio": {
+      "start": 159.1,
+      "end": 161.2,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t4",
+     "num": "T4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  jiu",
+     "options": [
+      "jiū",
+      "jiú",
+      "jiǔ",
+      "jiù"
+     ],
+     "answer": 2,
+     "fixed": true,
+     "explain_vi": "Nghe: 九 – jiǔ (thanh 3).",
+     "audio": {
+      "start": 164.0,
+      "end": 166.1,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t5",
+     "num": "T5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  xin",
+     "options": [
+      "xīn",
+      "xín",
+      "xǐn",
+      "xìn"
+     ],
+     "answer": 0,
+     "fixed": true,
+     "explain_vi": "Nghe: 新 – xīn (thanh 1).",
+     "audio": {
+      "start": 168.9,
+      "end": 171.0,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t6",
+     "num": "T6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  qing",
+     "options": [
+      "qīng",
+      "qíng",
+      "qǐng",
+      "qìng"
+     ],
+     "answer": 2,
+     "fixed": true,
+     "explain_vi": "Nghe: 请 – qǐng (thanh 3).",
+     "audio": {
+      "start": 173.8,
+      "end": 175.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t7",
+     "num": "T7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  xia",
+     "options": [
+      "xiā",
+      "xiá",
+      "xiǎ",
+      "xià"
+     ],
+     "answer": 3,
+     "fixed": true,
+     "explain_vi": "Nghe: 下 – xià (thanh 4).",
+     "audio": {
+      "start": 178.8,
+      "end": 180.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t8",
+     "num": "T8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  jia",
+     "options": [
+      "jiā",
+      "jiá",
+      "jiǎ",
+      "jià"
+     ],
+     "answer": 0,
+     "fixed": true,
+     "explain_vi": "Nghe: 家 – jiā (thanh 1).",
+     "audio": {
+      "start": 183.7,
+      "end": 185.8,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t9",
+     "num": "T9",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  qu",
+     "options": [
+      "qū",
+      "qú",
+      "qǔ",
+      "qù"
+     ],
+     "answer": 3,
+     "fixed": true,
+     "explain_vi": "Nghe: 去 – qù (thanh 4).",
+     "audio": {
+      "start": 188.6,
+      "end": 190.7,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t10",
+     "num": "T10",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  ji",
+     "options": [
+      "jī",
+      "jí",
+      "jǐ",
+      "jì"
+     ],
+     "answer": 0,
+     "fixed": true,
+     "explain_vi": "Nghe: 鸡 – jī (thanh 1).",
+     "audio": {
+      "start": 193.4,
+      "end": 195.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t11",
+     "num": "T11",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  xiao",
+     "options": [
+      "xiāo",
+      "xiáo",
+      "xiǎo",
+      "xiào"
+     ],
+     "answer": 2,
+     "fixed": true,
+     "explain_vi": "Nghe: 小 – xiǎo (thanh 3).",
+     "audio": {
+      "start": 198.3,
+      "end": 200.4,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "t12",
+     "num": "T12",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn thanh điệu đúng:  jie",
+     "options": [
+      "jiē",
+      "jié",
+      "jiě",
+      "jiè"
+     ],
+     "answer": 2,
+     "fixed": true,
+     "explain_vi": "Nghe: 解 – jiě (thanh 3).",
+     "audio": {
+      "start": 203.4,
+      "end": 205.5,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Xem tranh – chọn hội thoại",
+   "instructions_vi": "Nghe các đoạn hội thoại (bấm 🔊), rồi chọn đoạn hội thoại hợp với từng tranh.",
+   "questions": [
+    {
+     "id": "h1",
+     "num": "H1",
+     "kind": "mcq",
+     "prompt_vi": "Tranh 1 hợp với đoạn hội thoại nào?",
+     "options": [
+      "① A：老师，再见！ B：再见！",
+      "② A：对不起。 B：没关系。",
+      "③ A：很高兴认识你。 B：认识你我也很高兴。",
+      "④ A：大家好，我叫白家月。 B：白家月，你好。"
+     ],
+     "answer": 2,
+     "fixed": true,
+     "explain_vi": "Đoạn ③: ③ A：很高兴认识你。 B：认识你我也很高兴。",
+     "audio": {
+      "start": 215.0,
+      "end": 250.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "h2",
+     "num": "H2",
+     "kind": "mcq",
+     "prompt_vi": "Tranh 2 hợp với đoạn hội thoại nào?",
+     "options": [
+      "① A：老师，再见！ B：再见！",
+      "② A：对不起。 B：没关系。",
+      "③ A：很高兴认识你。 B：认识你我也很高兴。",
+      "④ A：大家好，我叫白家月。 B：白家月，你好。"
+     ],
+     "answer": 0,
+     "fixed": true,
+     "explain_vi": "Đoạn ①: ① A：老师，再见！ B：再见！",
+     "audio": {
+      "start": 215.0,
+      "end": 250.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "h3",
+     "num": "H3",
+     "kind": "mcq",
+     "prompt_vi": "Tranh 3 hợp với đoạn hội thoại nào?",
+     "options": [
+      "① A：老师，再见！ B：再见！",
+      "② A：对不起。 B：没关系。",
+      "③ A：很高兴认识你。 B：认识你我也很高兴。",
+      "④ A：大家好，我叫白家月。 B：白家月，你好。"
+     ],
+     "answer": 3,
+     "fixed": true,
+     "explain_vi": "Đoạn ④: ④ A：大家好，我叫白家月。 B：白家月，你好。",
+     "audio": {
+      "start": 215.0,
+      "end": 250.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    },
+    {
+     "id": "h4",
+     "num": "H4",
+     "kind": "mcq",
+     "prompt_vi": "Tranh 4 hợp với đoạn hội thoại nào?",
+     "options": [
+      "① A：老师，再见！ B：再见！",
+      "② A：对不起。 B：没关系。",
+      "③ A：很高兴认识你。 B：认识你我也很高兴。",
+      "④ A：大家好，我叫白家月。 B：白家月，你好。"
+     ],
+     "answer": 1,
+     "fixed": true,
+     "explain_vi": "Đoạn ②: ② A：对不起。 B：没关系。",
+     "audio": {
+      "start": 215.0,
+      "end": 250.9,
+      "src": "audio/hsk1/wb/2-2.mp3"
+     }
+    }
+   ],
+   "images": [
+    {
+     "key": "1",
+     "img": "hw-02/d1.jpg"
+    },
+    {
+     "key": "2",
+     "img": "hw-02/d2.jpg"
+    },
+    {
+     "key": "3",
+     "img": "hw-02/d3.jpg"
+    },
+    {
+     "key": "4",
+     "img": "hw-02/d4.jpg"
+    }
+   ]
+  }
+ ]
 }

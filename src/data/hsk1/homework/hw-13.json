@@ -1,41 +1,714 @@
 {
-  "lessonId": 13,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 13,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/13-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-13/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-13/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-13/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 一些饺子 → đĩa sủi cảo.",
+     "audio": {
+      "start": 41.3,
+      "end": 50.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-13/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-13/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-13/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 给你书 → người lớn đưa sách cho em bé.",
+     "audio": {
+      "start": 59.2,
+      "end": 67.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-13/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-13/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-13/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 打电话 → người đàn ông đang gọi điện.",
+     "audio": {
+      "start": 76.3,
+      "end": 84.7
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "给你",
+      "吃早饭",
+      "要一杯茶"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 请问您喝什么？ → trả lời đồ uống: 要一杯茶.",
+     "audio": {
+      "start": 138.5,
+      "end": 148.8
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "学习",
+      "不对",
+      "没问题"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我可以打电话吗？ → đồng ý: 没问题.",
+     "audio": {
+      "start": 163.0,
+      "end": 173.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-13/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-13/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-13/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-13/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你吃早饭了吗？要不要吃面包？——谢谢，给我一半吧。 → bánh mì bẻ đôi.",
+     "audio": {
+      "start": 236.9,
+      "end": 258.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 请问您要点什么？——请给我一杯茶吧。 → phục vụ đang ghi món.",
+     "audio": {
+      "start": 273.0,
+      "end": 289.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你觉得这家店怎么样？——我觉得这儿的饺子很好吃。 → đĩa sủi cảo.",
+     "audio": {
+      "start": 303.8,
+      "end": 323.2
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "问问题",
+      "找人玩",
+      "看医生"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我明天休息，可以去找你玩吗？",
+     "audio": {
+      "start": 399.0,
+      "end": 425.7
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "饭店",
+      "学校",
+      "朋友家"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 晚上下班后，我和朋友们去饭店吃饭了。 – bẫy: 朋友 là người đi cùng.",
+     "audio": {
+      "start": 439.6,
+      "end": 470.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-13/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-13/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-13/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-13/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "她太小了，这个苹果给她一半吧。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Quả táo bổ đôi.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "请给我一杯牛奶，谢谢。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Cốc sữa.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "我打电话问一下吧。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Điện thoại bàn.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "那里卖不卖手机？",
+     "options": [
+      "不客气。",
+      "一个面包。",
+      "不知道。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Câu hỏi có/không về thông tin → 不知道。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "我会写了，谢谢老师。",
+     "options": [
+      "不客气。",
+      "一个面包。",
+      "不知道。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Đáp lời cảm ơn → 不客气。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "你要什么？",
+     "options": [
+      "不客气。",
+      "一个面包。",
+      "不知道。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi gọi gì → 一个面包。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "你看（　），你要什么？",
+     "options": [
+      "给",
+      "一下",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "看一下 = xem thử.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：请坐，您要什么？ 女：请（　）我一杯茶。",
+     "options": [
+      "给",
+      "一下",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "给 + người + vật.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "明天星期天，我们可以去饭店吃饺子吗？",
+     "prompt_zh": "★ 明天是：",
+     "options": [
+      "星期五",
+      "星期六",
+      "星期日"
+     ],
+     "answer": 2,
+     "explain_vi": "星期天 = 星期日.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "爸爸今天在家里工作，我们不要去他的房间。",
+     "prompt_zh": "★ 爸爸今天：",
+     "options": [
+      "在家里工作",
+      "做了面条儿",
+      "不能去公司"
+     ],
+     "answer": 0,
+     "explain_vi": "在家里工作.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "吗",
+      "坐",
+      "可以",
+      "这儿",
+      "我"
+     ],
+     "answers": [
+      "我可以坐这儿吗"
+     ],
+     "vi": "Tôi ngồi đây được không?",
+     "explain_vi": "可以 + động từ + 吗.",
+     "grammarRef": "g13-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "一下",
+      "我",
+      "看"
+     ],
+     "answers": [
+      "我看一下"
+     ],
+     "vi": "Để tôi xem thử.",
+     "explain_vi": "Động từ + 一下.",
+     "grammarRef": "g13-2"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "给",
+      "苹果",
+      "我",
+      "一个",
+      "请"
+     ],
+     "answers": [
+      "请给我一个苹果"
+     ],
+     "vi": "Cho tôi một quả táo.",
+     "explain_vi": "给 + người + vật.",
+     "grammarRef": "g13-3"
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "一斤",
+      "我们",
+      "饺子",
+      "要"
+     ],
+     "answers": [
+      "我们要一斤饺子"
+     ],
+     "vi": "Chúng tôi gọi một cân sủi cảo.",
+     "explain_vi": "要 + món."
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "问题",
+      "问",
+      "我",
+      "两个",
+      "老师"
+     ],
+     "answers": [
+      "我问老师两个问题"
+     ],
+     "vi": "Tôi hỏi thầy hai câu.",
+     "explain_vi": "问 + người + điều hỏi.",
+     "grammarRef": "g13-3"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Cho tôi một cốc sữa.",
+     "acceptedAnswers": [
+      "请给我一杯牛奶",
+      "给我一杯牛奶"
+     ],
+     "requiredKeywords": [
+      "给我",
+      "杯"
+     ],
+     "wordBank": [
+      "请",
+      "给",
+      "我",
+      "一",
+      "杯",
+      "个",
+      "牛奶"
+     ],
+     "explain_vi": "Lượng từ của sữa là 杯.",
+     "grammarRef": "g13-3"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Em có thể hỏi cô một câu không ạ?",
+     "acceptedAnswers": [
+      "我可以问您一个问题吗",
+      "我可以问你一个问题吗"
+     ],
+     "requiredKeywords": [
+      "可以",
+      "问题"
+     ],
+     "wordBank": [
+      "我",
+      "可以",
+      "问",
+      "您",
+      "一个",
+      "问题",
+      "吗"
+     ],
+     "explain_vi": "可以 + 问 + người + điều hỏi.",
+     "grammarRef": "g13-1"
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Bạn có thể gọi điện hỏi thử.",
+     "acceptedAnswers": [
+      "你可以打电话问一下"
+     ],
+     "requiredKeywords": [
+      "打电话",
+      "一下"
+     ],
+     "wordBank": [
+      "你",
+      "可以",
+      "打",
+      "电话",
+      "问",
+      "一下"
+     ],
+     "explain_vi": "Động từ + 一下.",
+     "grammarRef": "g13-2"
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Mời ngồi! Anh uống gì?",
+     "acceptedAnswers": [
+      "请坐您喝什么",
+      "请坐你喝什么"
+     ],
+     "requiredKeywords": [
+      "请坐",
+      "喝什么"
+     ],
+     "wordBank": [
+      "请",
+      "坐",
+      "您",
+      "喝",
+      "什么",
+      "吗"
+     ],
+     "explain_vi": "Câu có 什么 không thêm 吗."
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Tôi lấy một nửa thôi.",
+     "acceptedAnswers": [
+      "我要一半吧",
+      "我要一半"
+     ],
+     "requiredKeywords": [
+      "一半"
+     ],
+     "wordBank": [
+      "我",
+      "要",
+      "一半",
+      "吧",
+      "半"
+     ],
+     "explain_vi": "要 + 一半."
+    }
+   ]
+  }
+ ]
 }

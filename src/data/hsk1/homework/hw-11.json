@@ -1,41 +1,714 @@
 {
-  "lessonId": 11,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 11,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/11-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-11/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-11/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-11/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 在开车 → người đang lái xe.",
+     "audio": {
+      "start": 41.8,
+      "end": 50.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-11/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-11/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-11/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 真高兴 → hai bạn nhỏ cười vui.",
+     "audio": {
+      "start": 59.2,
+      "end": 67.2
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-11/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-11/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-11/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 读大学 → giảng đường đại học.",
+     "audio": {
+      "start": 76.4,
+      "end": 84.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "不吃午饭",
+      "在外边玩",
+      "水果便宜"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 弟弟和小朋友们正在做什么呢？ → trả lời việc đang làm: 在外边玩.",
+     "audio": {
+      "start": 139.4,
+      "end": 153.1
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "能到",
+      "想去呢",
+      "没到呢"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 喂，你到没到饭店呢？ → câu hỏi 到没到 → trả lời 没到呢 (hoặc 到了).",
+     "audio": {
+      "start": 167.3,
+      "end": 180.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-11/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-11/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-11/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-11/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 我去看电影，你去不去？——我今天不去，我要去商店买衣服。 → cửa hàng quần áo.",
+     "audio": {
+      "start": 244.3,
+      "end": 269.4
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 请问，你在读大学吗？——对，我是大学生。 → chàng sinh viên đeo cặp.",
+     "audio": {
+      "start": 283.8,
+      "end": 305.1
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 弟弟在做什么呢？——他在睡觉呢。 → em bé đang ngủ.",
+     "audio": {
+      "start": 319.4,
+      "end": 334.4
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "超市",
+      "外边",
+      "房间里"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 妹妹对我说，她要去外边玩儿。问：妹妹要去哪儿？",
+     "audio": {
+      "start": 409.5,
+      "end": 435.4
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "学校后边",
+      "超市前边",
+      "超市后边"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这家饭店在超市的后边。",
+     "audio": {
+      "start": 449.5,
+      "end": 470.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-11/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-11/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-11/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-11/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "妈妈正在做饭呢。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Mẹ và con trong bếp.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "你今天不想去学校吗？",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Mẹ hỏi chuyện con ngoài trời.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "我和朋友们在外边玩呢。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nhóm bạn cắm trại ngoài trời.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "你开车去吗？",
+     "options": [
+      "不，我坐出租车。",
+      "非常忙。",
+      "没有，我在开车呢。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Hỏi có lái xe đi không → 不，我坐出租车。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "你们学习忙不忙？",
+     "options": [
+      "不，我坐出租车。",
+      "非常忙。",
+      "没有，我在开车呢。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "忙不忙 → 非常忙。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "你在吃午饭吗？",
+     "options": [
+      "不，我坐出租车。",
+      "非常忙。",
+      "没有，我在开车呢。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi có đang ăn không → 没有，我在开车呢。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "弟弟没起床，还在（　）呢。",
+     "options": [
+      "找",
+      "睡觉",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "还在睡觉呢 = vẫn đang ngủ.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：喂，你到没到饭店呢？ 女：没到呢，我正在（　）饭店在哪里呢。",
+     "options": [
+      "找",
+      "睡觉",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "正在找 = đang tìm.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "我姐姐今年20岁，正在读大学呢，她学医。",
+     "prompt_zh": "★ 说话人的姐姐是：",
+     "options": [
+      "老师",
+      "医生",
+      "大学生"
+     ],
+     "answer": 2,
+     "explain_vi": "正在读大学 → 大学生. Bẫy: 学医 nhưng chưa phải bác sĩ.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "我明天有事，要去学校找老师，不知道老师在不在。",
+     "prompt_zh": "★ 说话人明天要去学校见：",
+     "options": [
+      "朋友",
+      "学生",
+      "老师"
+     ],
+     "answer": 2,
+     "explain_vi": "要去学校找老师.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "不",
+      "去",
+      "你",
+      "超市",
+      "去"
+     ],
+     "answers": [
+      "你去不去超市"
+     ],
+     "vi": "Bạn có đi siêu thị không?",
+     "explain_vi": "Câu chính phản X不X.",
+     "grammarRef": "g11-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "呢",
+      "正在",
+      "我",
+      "学习"
+     ],
+     "answers": [
+      "我正在学习呢"
+     ],
+     "vi": "Tôi đang học.",
+     "explain_vi": "正在 + động từ + 呢.",
+     "grammarRef": "g11-2"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "还",
+      "睡觉",
+      "在",
+      "弟弟"
+     ],
+     "answers": [
+      "弟弟还在睡觉"
+     ],
+     "vi": "Em trai vẫn đang ngủ.",
+     "explain_vi": "还 + 在 + động từ.",
+     "grammarRef": "g11-2"
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "要",
+      "超市",
+      "去",
+      "妈妈"
+     ],
+     "answers": [
+      "妈妈要去超市"
+     ],
+     "vi": "Mẹ định đi siêu thị.",
+     "explain_vi": "要 + động từ.",
+     "grammarRef": "g11-3"
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "大学",
+      "读",
+      "我",
+      "呢"
+     ],
+     "answers": [
+      "我读大学呢"
+     ],
+     "vi": "Tôi đang học đại học.",
+     "explain_vi": "Động từ + 呢.",
+     "grammarRef": "g11-2"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Hôm qua bạn có đi hiệu sách không?",
+     "acceptedAnswers": [
+      "你昨天去没去书店",
+      "昨天你去没去书店",
+      "你昨天去书店了吗"
+     ],
+     "requiredKeywords": [
+      "昨天",
+      "书店"
+     ],
+     "wordBank": [
+      "你",
+      "昨天",
+      "去",
+      "没",
+      "不",
+      "书店"
+     ],
+     "explain_vi": "Việc đã xảy ra: 去没去.",
+     "grammarRef": "g11-1"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Bạn đang làm gì thế?",
+     "acceptedAnswers": [
+      "你在做什么呢",
+      "你在做什么",
+      "你正在做什么呢",
+      "你做什么呢"
+     ],
+     "requiredKeywords": [
+      "做什么"
+     ],
+     "wordBank": [
+      "你",
+      "在",
+      "做",
+      "什么",
+      "呢",
+      "吗"
+     ],
+     "explain_vi": "在 + động từ + 呢; có 什么 thì không thêm 吗.",
+     "grammarRef": "g11-2"
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Tôi không biết.",
+     "acceptedAnswers": [
+      "我不知道"
+     ],
+     "requiredKeywords": [
+      "不知道"
+     ],
+     "wordBank": [
+      "我",
+      "不",
+      "没",
+      "知道"
+     ],
+     "explain_vi": "Không biết: 不知道."
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay nó định chơi với các bạn.",
+     "acceptedAnswers": [
+      "他今天要和小朋友玩",
+      "今天他要和小朋友玩",
+      "他今天要和朋友玩"
+     ],
+     "requiredKeywords": [
+      "要",
+      "玩"
+     ],
+     "wordBank": [
+      "他",
+      "今天",
+      "要",
+      "和",
+      "小朋友",
+      "玩"
+     ],
+     "explain_vi": "要 + 和 + người + động từ.",
+     "grammarRef": "g11-3"
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Lúc nào bạn đến nhà hàng?",
+     "acceptedAnswers": [
+      "你什么时候到饭店",
+      "你什么时候能到饭店"
+     ],
+     "requiredKeywords": [
+      "什么时候",
+      "饭店"
+     ],
+     "wordBank": [
+      "你",
+      "什么",
+      "时候",
+      "到",
+      "饭店",
+      "吗"
+     ],
+     "explain_vi": "什么时候 đứng trước động từ."
+    }
+   ]
+  }
+ ]
 }

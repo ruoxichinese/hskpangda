@@ -1,41 +1,716 @@
 {
-  "lessonId": 15,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 15,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/15-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-15/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-15/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-15/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 喝茶 → ấm trà và chén trà.",
+     "audio": {
+      "start": 41.0,
+      "end": 48.7
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-15/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-15/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-15/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 上飞机 → hành khách lên máy bay.",
+     "audio": {
+      "start": 57.8,
+      "end": 66.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-15/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-15/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-15/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 吃晚饭 → cả nhà ăn tối.",
+     "audio": {
+      "start": 75.3,
+      "end": 84.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "太早了",
+      "没睡觉",
+      "不想去"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 明天早上五点起床，早不早？ → 太早了.",
+     "audio": {
+      "start": 136.9,
+      "end": 150.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "很多",
+      "也不贵",
+      "也很好看"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这件衣服好看，那件呢？ → 也很好看.",
+     "audio": {
+      "start": 165.3,
+      "end": 179.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-15/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-15/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-15/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-15/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 这个茶好喝，那个茶也好喝。——是的，我们也都喜欢喝。 → khay trà.",
+     "audio": {
+      "start": 242.2,
+      "end": 267.3
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 昨天下课后，我去超市买了一些菜和鸡蛋。——我去商店买了件衣服。 → cửa hàng quần áo.",
+     "audio": {
+      "start": 281.3,
+      "end": 306.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 王老师说北京很大，很漂亮。——是吗？我很想去。 → thành phố lớn.",
+     "audio": {
+      "start": 321.2,
+      "end": 343.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "西安",
+      "北京",
+      "上海"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 去年我们去了西安，今年想去北京。问：去年去了哪里？ – bẫy: 北京 là năm nay.",
+     "audio": {
+      "start": 418.4,
+      "end": 447.6
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "坐飞机",
+      "坐火车",
+      "坐出租车"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 坐飞机太贵了，我想坐火车去。",
+     "audio": {
+      "start": 461.7,
+      "end": 486.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-15/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-15/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-15/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-15/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "我家有五口人，我们现在住在北京。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Gia đình năm người.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "这里有好吃的，还有好玩儿的。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Vòng quay ngựa gỗ – chỗ vui chơi.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "现在我会说一点儿汉语，也会写一些汉字了。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Bảng chữ Hán.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "你会写几个汉字？",
+     "options": [
+      "我女儿。",
+      "十个。",
+      "苹果。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi số lượng → 十个。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "谁上中学了？",
+     "options": [
+      "我女儿。",
+      "十个。",
+      "苹果。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Hỏi ai → 我女儿。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "你爱吃什么？",
+     "options": [
+      "我女儿。",
+      "十个。",
+      "苹果。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi thích ăn gì → 苹果。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "今年我们都想去（　）。",
+     "options": [
+      "电视",
+      "北京",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "想去北京.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：我爱看电影，也爱唱歌。你呢？ 女：我喜欢看（　）。",
+     "options": [
+      "电视",
+      "北京",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "看电视 = xem ti vi.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "明天星期天，儿子想去看一个电影。",
+     "prompt_zh": "★ 儿子明天想：",
+     "options": [
+      "买电脑",
+      "打电话",
+      "看电影"
+     ],
+     "answer": 2,
+     "explain_vi": "想去看一个电影.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "下小雨了，小狗非常高兴，它喜欢小雨。",
+     "prompt_zh": "★ 小狗喜欢：",
+     "options": [
+      "下小雨",
+      "下大雨",
+      "下小雪"
+     ],
+     "answer": 0,
+     "explain_vi": "它喜欢小雨.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "也",
+      "那个",
+      "喜欢",
+      "我喜欢这个"
+     ],
+     "answers": [
+      "我喜欢这个也喜欢那个"
+     ],
+     "vi": "Tôi thích cái này, cũng thích cái kia.",
+     "explain_vi": "也 + động từ ở vế sau.",
+     "grammarRef": "g15-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "还",
+      "这些菜",
+      "很好看",
+      "都好吃"
+     ],
+     "answers": [
+      "这些菜都好吃还很好看"
+     ],
+     "vi": "Những món này đều ngon, còn rất đẹp mắt.",
+     "explain_vi": "还 + tính từ ở vế sau.",
+     "grammarRef": "g15-1"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "去年",
+      "西安",
+      "我",
+      "去"
+     ],
+     "answers": [
+      "去年我去了西安",
+      "我去年去了西安"
+     ],
+     "vi": "Năm ngoái tôi đã đi Tây An.",
+     "explain_vi": "Động từ + 了."
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "几个小时",
+      "要",
+      "到北京",
+      "飞机"
+     ],
+     "answers": [
+      "飞机到北京要几个小时"
+     ],
+     "vi": "Máy bay đến Bắc Kinh mất mấy tiếng?",
+     "explain_vi": "要 + thời gian."
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "吃",
+      "点儿",
+      "多",
+      "大家"
+     ],
+     "answers": [
+      "大家多吃点儿"
+     ],
+     "vi": "Mọi người ăn nhiều vào.",
+     "explain_vi": "多 + động từ + 点儿."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Tôi rất thích ăn món Trung Quốc, cũng thích nấu.",
+     "acceptedAnswers": [
+      "我爱吃中国菜也喜欢做",
+      "我爱吃中国菜也爱做",
+      "我喜欢吃中国菜也喜欢做"
+     ],
+     "requiredKeywords": [
+      "中国菜",
+      "也"
+     ],
+     "wordBank": [
+      "我",
+      "爱",
+      "吃",
+      "中国菜",
+      "也",
+      "喜欢",
+      "做"
+     ],
+     "explain_vi": "……，也……",
+     "grammarRef": "g15-1"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Năm nay tôi muốn đi Bắc Kinh.",
+     "acceptedAnswers": [
+      "今年我想去北京",
+      "我今年想去北京"
+     ],
+     "requiredKeywords": [
+      "今年",
+      "北京"
+     ],
+     "wordBank": [
+      "今年",
+      "我",
+      "想",
+      "去",
+      "北京"
+     ],
+     "explain_vi": "Thời gian + 想 + 去 + nơi chốn."
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Chị tôi có thể ra sân bay đón các bạn.",
+     "acceptedAnswers": [
+      "我姐姐可以去机场接你们",
+      "我的姐姐可以去机场接你们"
+     ],
+     "requiredKeywords": [
+      "机场",
+      "接"
+     ],
+     "wordBank": [
+      "我",
+      "姐姐",
+      "可以",
+      "去",
+      "机场",
+      "接",
+      "你们"
+     ],
+     "explain_vi": "去 + nơi chốn + 接 + người."
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Mấy năm trước tôi đã đi Tây An, vui lắm.",
+     "acceptedAnswers": [
+      "前几年我去了西安非常好玩儿",
+      "前几年我去了西安很好玩儿"
+     ],
+     "requiredKeywords": [
+      "前几年",
+      "好玩儿"
+     ],
+     "wordBank": [
+      "前",
+      "几",
+      "年",
+      "我",
+      "去了",
+      "西安",
+      "非常",
+      "好玩儿"
+     ],
+     "explain_vi": "几 = vài; 去了 = đã đi."
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Vậy chúng ta gặp nhau ở sân bay nhé!",
+     "acceptedAnswers": [
+      "那我们在机场见吧",
+      "那我们机场见吧",
+      "那我们在机场见"
+     ],
+     "requiredKeywords": [
+      "那",
+      "机场"
+     ],
+     "wordBank": [
+      "那",
+      "我们",
+      "在",
+      "机场",
+      "见",
+      "吧"
+     ],
+     "explain_vi": "那 = vậy thì."
+    }
+   ]
+  }
+ ]
 }

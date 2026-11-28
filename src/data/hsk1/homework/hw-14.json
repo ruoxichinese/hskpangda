@@ -1,41 +1,709 @@
 {
-  "lessonId": 14,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 14,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/14-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "key": "A",
+     "img": "hw-14/l1-a.jpg"
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "key": "B",
+     "img": "hw-14/l1-b.jpg"
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
-    },
-    {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "key": "C",
+     "img": "hw-14/l1-c.jpg"
     }
-  ]
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 不要说话 → cô gái ra hiệu “suỵt”.",
+     "audio": {
+      "start": 40.4,
+      "end": 49.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-14/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-14/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-14/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 写汉字 → tay đang viết chữ.",
+     "audio": {
+      "start": 58.0,
+      "end": 66.2
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-14/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-14/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-14/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 在火车上 → người ngồi trên tàu.",
+     "audio": {
+      "start": 75.1,
+      "end": 83.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "都写",
+      "听见了",
+      "都会写了"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 这些汉字你都会写了吗？ → 都会写了.",
+     "audio": {
+      "start": 136.1,
+      "end": 148.5
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "学习",
+      "超市",
+      "买面包"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你下了班去哪里？ → trả lời nơi chốn: 超市.",
+     "audio": {
+      "start": 162.5,
+      "end": 173.0
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-14/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-14/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-14/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-14/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 你在火车上睡觉了吗？——没睡觉，我在手机上看了个电影。 → người xem điện thoại trên tàu.",
+     "audio": {
+      "start": 237.7,
+      "end": 261.0
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 你能写一下这两个汉字吗？——可以，我都会写。 → người đang viết.",
+     "audio": {
+      "start": 275.0,
+      "end": 296.3
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我下班了，现在想休息一下。——好的，你休息吧。 → người vươn vai thư giãn.",
+     "audio": {
+      "start": 310.4,
+      "end": 330.9
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "下课后",
+      "上课前",
+      "回家后"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 下课后我去了商店。问：说话人什么时候去了商店？",
+     "audio": {
+      "start": 406.8,
+      "end": 431.8
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "小狗",
+      "小猫",
+      "小狗和小猫"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 弟弟有一只小狗，他还想要一只小猫。 – bẫy: mèo là thứ em MUỐN có.",
+     "audio": {
+      "start": 445.7,
+      "end": 475.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-14/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-14/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-14/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-14/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "王先生今天生病了，没来上班。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Người đàn ông đang ho.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "火车上，有的人在读书，有的人在睡觉。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Hành khách trên tàu.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "喂，他们都来我家了，你也来吧。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Cô gái đang gọi điện.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu đáp phù hợp (D đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "谁去学校了？",
+     "options": [
+      "是的，我睡了一觉。",
+      "我们都去了。",
+      "写字、看书、吃饭。",
+      "好的，谢谢！"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi ai → 我们都去了。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "你下午没去医院吗？",
+     "options": [
+      "是的，我睡了一觉。",
+      "我们都去了。",
+      "写字、看书、吃饭。",
+      "好的，谢谢！"
+     ],
+     "answer": 0,
+     "explain_vi": "Xác nhận → 是的，我睡了一觉。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "你今天上午都忙了些什么？",
+     "options": [
+      "是的，我睡了一觉。",
+      "我们都去了。",
+      "写字、看书、吃饭。",
+      "好的，谢谢！"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi bận việc gì → 写字、看书、吃饭。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "我喝了一杯（　）。",
+     "options": [
+      "都",
+      "茶",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "一杯茶 = một cốc trà.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：上课了，请大家不要说话。 女：好的，老师，我们（　）不说话了。",
+     "options": [
+      "都",
+      "茶",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "都不 = đều không.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "服务员，我想问一下，我们的房间号是多少？",
+     "prompt_zh": "★ 说话人想知道什么？",
+     "options": [
+      "时间",
+      "电话号",
+      "房间号"
+     ],
+     "answer": 2,
+     "explain_vi": "房间号是多少.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "儿子和女儿都上小学了，他们会写很多字了。",
+     "prompt_zh": "★ 说话人的两个孩子是：",
+     "options": [
+      "小学生",
+      "中学生",
+      "大学生"
+     ],
+     "answer": 0,
+     "explain_vi": "都上小学了 → 小学生.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "num": "V1",
+     "kind": "reorder",
+     "tiles": [
+      "了",
+      "一本书",
+      "我",
+      "买"
+     ],
+     "answers": [
+      "我买了一本书"
+     ],
+     "vi": "Tôi đã mua một quyển sách.",
+     "explain_vi": "Động từ + 了 + số lượng.",
+     "grammarRef": "g14-1"
+    },
+    {
+     "id": "b2",
+     "num": "V2",
+     "kind": "reorder",
+     "tiles": [
+      "没",
+      "我",
+      "超市",
+      "去",
+      "昨天"
+     ],
+     "answers": [
+      "我昨天没去超市",
+      "昨天我没去超市"
+     ],
+     "vi": "Hôm qua tôi không đi siêu thị.",
+     "explain_vi": "没 + động từ (không có 了).",
+     "grammarRef": "g14-1"
+    },
+    {
+     "id": "b3",
+     "num": "V3",
+     "kind": "reorder",
+     "tiles": [
+      "一觉",
+      "了",
+      "我",
+      "睡"
+     ],
+     "answers": [
+      "我睡了一觉"
+     ],
+     "vi": "Tôi đã ngủ một giấc.",
+     "explain_vi": "Tách 睡觉: 睡了一觉.",
+     "grammarRef": "g14-2"
+    },
+    {
+     "id": "b4",
+     "num": "V4",
+     "kind": "reorder",
+     "tiles": [
+      "都",
+      "我们",
+      "了",
+      "会写"
+     ],
+     "answers": [
+      "我们都会写了"
+     ],
+     "vi": "Chúng tôi đều viết được rồi.",
+     "explain_vi": "Chủ ngữ + 都 + động từ.",
+     "grammarRef": "g14-3"
+    },
+    {
+     "id": "b5",
+     "num": "V5",
+     "kind": "reorder",
+     "tiles": [
+      "上",
+      "女儿",
+      "中学",
+      "明年"
+     ],
+     "answers": [
+      "明年女儿上中学",
+      "女儿明年上中学"
+     ],
+     "vi": "Năm sau con gái vào cấp hai.",
+     "explain_vi": "上 + 中学."
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "num": "V6",
+     "kind": "translate",
+     "prompt_vi": "Tôi đã xem một bộ phim.",
+     "acceptedAnswers": [
+      "我看了一个电影",
+      "我看了一部电影"
+     ],
+     "requiredKeywords": [
+      "看了"
+     ],
+     "wordBank": [
+      "我",
+      "看",
+      "了",
+      "一个",
+      "电影"
+     ],
+     "explain_vi": "了 đứng ngay sau động từ.",
+     "grammarRef": "g14-1"
+    },
+    {
+     "id": "b7",
+     "num": "V7",
+     "kind": "translate",
+     "prompt_vi": "Cả lớp đừng nói chuyện!",
+     "acceptedAnswers": [
+      "请大家不要说话",
+      "大家不要说话"
+     ],
+     "requiredKeywords": [
+      "不要",
+      "说话"
+     ],
+     "wordBank": [
+      "请",
+      "大家",
+      "不要",
+      "说话",
+      "没"
+     ],
+     "explain_vi": "不要 + động từ = đừng."
+    },
+    {
+     "id": "b8",
+     "num": "V8",
+     "kind": "translate",
+     "prompt_vi": "Các bạn học đều không nghe thấy.",
+     "acceptedAnswers": [
+      "同学们都没听见",
+      "同学们都没有听见"
+     ],
+     "requiredKeywords": [
+      "都没",
+      "听见"
+     ],
+     "wordBank": [
+      "同学们",
+      "都",
+      "没",
+      "听见",
+      "不"
+     ],
+     "explain_vi": "都 + 没: đều không.",
+     "grammarRef": "g14-3"
+    },
+    {
+     "id": "b9",
+     "num": "V9",
+     "kind": "translate",
+     "prompt_vi": "Chiều nay tôi học tiết tiếng Trung.",
+     "acceptedAnswers": [
+      "今天下午我上中文课",
+      "我今天下午上中文课"
+     ],
+     "requiredKeywords": [
+      "上中文课"
+     ],
+     "wordBank": [
+      "今天",
+      "下午",
+      "我",
+      "上",
+      "中文",
+      "课"
+     ],
+     "explain_vi": "Tách 上课: 上中文课.",
+     "grammarRef": "g14-2"
+    },
+    {
+     "id": "b10",
+     "num": "V10",
+     "kind": "translate",
+     "prompt_vi": "Muộn quá rồi, đi ngủ thôi.",
+     "acceptedAnswers": [
+      "太晚了睡觉吧"
+     ],
+     "requiredKeywords": [
+      "太晚了",
+      "睡觉吧"
+     ],
+     "wordBank": [
+      "太",
+      "晚",
+      "了",
+      "睡觉",
+      "吧"
+     ],
+     "explain_vi": "太……了 + 吧."
+    }
+   ]
+  }
+ ]
 }

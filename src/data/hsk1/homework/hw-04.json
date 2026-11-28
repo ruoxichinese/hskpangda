@@ -1,41 +1,866 @@
 {
-  "lessonId": 4,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 4,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/4-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Nghe–đọc–luyện và Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn âm tiết (Nghe – đọc – luyện, bài 1)",
+   "instructions_vi": "Nghe đoạn ghi âm, chọn âm tiết bạn nghe được, rồi đọc to lại.",
+   "questions": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "id": "t1",
+     "num": "Â1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "pā",
+      "bā"
+     ],
+     "answer": 0,
+     "explain_vi": "Âm bật hơi p (pā), không phải b.",
+     "audio": {
+      "start": 12.0,
+      "end": 15.7,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "id": "t2",
+     "num": "Â2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "zì",
+      "cì"
+     ],
+     "answer": 0,
+     "explain_vi": "z không bật hơi (zì).",
+     "audio": {
+      "start": 17.9,
+      "end": 21.3,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
+     "id": "t3",
+     "num": "Â3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "náng",
+      "láng"
+     ],
+     "answer": 1,
+     "explain_vi": "Phụ âm đầu l: láng.",
+     "audio": {
+      "start": 23.2,
+      "end": 26.8,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
+     "id": "t4",
+     "num": "Â4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "jǔ",
+      "qǔ"
+     ],
+     "answer": 0,
+     "explain_vi": "j: jǔ.",
+     "audio": {
+      "start": 28.8,
+      "end": 33.0,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "id": "t5",
+     "num": "Â5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "mén",
+      "méng"
+     ],
+     "answer": 0,
+     "explain_vi": "Vần -n: mén.",
+     "audio": {
+      "start": 35.3,
+      "end": 39.3,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t6",
+     "num": "Â6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "rù",
+      "lù"
+     ],
+     "answer": 0,
+     "explain_vi": "Phụ âm r: rù.",
+     "audio": {
+      "start": 41.5,
+      "end": 45.3,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t7",
+     "num": "Â7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "kè",
+      "rè"
+     ],
+     "answer": 0,
+     "explain_vi": "k: kè.",
+     "audio": {
+      "start": 47.4,
+      "end": 51.3,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t8",
+     "num": "Â8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "qīn",
+      "qīng"
+     ],
+     "answer": 1,
+     "explain_vi": "Vần -ng: qīng.",
+     "audio": {
+      "start": 53.6,
+      "end": 57.4,
+      "src": "audio/hsk1/wb/4-2.mp3"
+     },
+     "fixed": true
     }
-  ]
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/l1-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 老师好 → tranh cô giáo trong lớp học.",
+     "audio": {
+      "start": 43.9,
+      "end": 52.2
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 很高兴 → hai người đang cười vui.",
+     "audio": {
+      "start": 61.3,
+      "end": 69.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 两个孩子 → hai đứa trẻ.",
+     "audio": {
+      "start": 78.1,
+      "end": 87.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "十人",
+      "20个",
+      "三口人"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 他有多少个学生？ → trả lời số lượng + 个: 20个.",
+     "audio": {
+      "start": 141.4,
+      "end": 152.6
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "大",
+      "12岁",
+      "两千"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 您女儿多大？ → hỏi tuổi: 12岁.",
+     "audio": {
+      "start": 167.0,
+      "end": 176.4
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-04/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 你哥哥做什么工作？——他是中文老师。 → thầy giáo đứng trước bảng.",
+     "audio": {
+      "start": 242.2,
+      "end": 261.7
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 请问，这是谁？——这是我女朋友。 → một cặp đôi.",
+     "audio": {
+      "start": 275.9,
+      "end": 293.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我有两个姐姐，你呢？——我没有姐姐，我有一个妹妹。 → em gái nhỏ.",
+     "audio": {
+      "start": 307.5,
+      "end": 333.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "中国人",
+      "泰国人",
+      "法国人"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 我叫李文，我是中国人。问：说话人是哪国人？",
+     "audio": {
+      "start": 411.4,
+      "end": 435.3
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "安妮",
+      "王一飞",
+      "白家月"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 我不叫安妮，我叫白家月。问：说话人叫什么名字？ – bẫy: có nhắc 安妮 nhưng là “không phải”.",
+     "audio": {
+      "start": 449.4,
+      "end": 475.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-04/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-04/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-04/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-04/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "老师，您好！",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Học sinh đeo cặp giơ tay chào thầy.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "我家有四口人。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Ảnh một gia đình bốn người.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "我哥哥今年20岁。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Chàng trai trẻ ôm sách.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu trả lời phù hợp (mỗi câu A–D dùng một lần; A đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "她是谁？",
+     "options": [
+      "好的，谢谢！",
+      "他今年5岁。",
+      "我女朋友。",
+      "是的。"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi “cô ấy là ai” → 我女朋友。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "你是法国人吗？",
+     "options": [
+      "好的，谢谢！",
+      "他今年5岁。",
+      "我女朋友。",
+      "是的。"
+     ],
+     "answer": 3,
+     "explain_vi": "Câu hỏi có/không với 吗 → 是的。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "您儿子多大？",
+     "options": [
+      "好的，谢谢！",
+      "他今年5岁。",
+      "我女朋友。",
+      "是的。"
+     ],
+     "answer": 1,
+     "explain_vi": "Hỏi tuổi → 他今年5岁。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "她工作很（　）。",
+     "options": [
+      "想",
+      "忙",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "工作很忙 = công việc rất bận.",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：你们好吗？ 女：很好，我们很（　）你。",
+     "options": [
+      "想",
+      "忙",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "很想你 = rất nhớ bạn.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "我家有三口人，爸爸、妈妈和我。",
+     "prompt_zh": "★ 说话人家里有：",
+     "options": [
+      "姐姐",
+      "三口人",
+      "四口人"
+     ],
+     "answer": 1,
+     "explain_vi": "我家有三口人 – bố, mẹ và tôi.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "她是法国人，我不是。",
+     "prompt_zh": "★ “她”是：",
+     "options": [
+      "法国人",
+      "中国人",
+      "泰国人"
+     ],
+     "answer": 0,
+     "explain_vi": "她是法国人。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "有",
+      "我",
+      "孩子",
+      "两个"
+     ],
+     "answers": [
+      "我有两个孩子"
+     ],
+     "vi": "Tôi có hai đứa con.",
+     "explain_vi": "Chủ ngữ + 有 + 两个 + danh từ.",
+     "grammarRef": "g4-1",
+     "num": "V1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "人",
+      "我家",
+      "四",
+      "有",
+      "口"
+     ],
+     "answers": [
+      "我家有四口人"
+     ],
+     "vi": "Nhà tôi có bốn người.",
+     "explain_vi": "Đếm người trong nhà dùng 口.",
+     "grammarRef": "g4-4",
+     "num": "V2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "没有",
+      "我",
+      "哥哥"
+     ],
+     "answers": [
+      "我没有哥哥"
+     ],
+     "vi": "Tôi không có anh trai.",
+     "explain_vi": "Phủ định của 有 là 没有.",
+     "grammarRef": "g4-1",
+     "num": "V3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "你",
+      "呢",
+      "学生",
+      "我是"
+     ],
+     "answers": [
+      "我是学生你呢"
+     ],
+     "vi": "Tôi là sinh viên, còn bạn?",
+     "explain_vi": "A……，B呢？",
+     "grammarRef": "g4-3",
+     "num": "V4"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "多大",
+      "你",
+      "女儿"
+     ],
+     "answers": [
+      "你女儿多大"
+     ],
+     "vi": "Con gái bạn bao nhiêu tuổi?",
+     "explain_vi": "多大 hỏi tuổi người trên 10 tuổi.",
+     "num": "V5"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Tôi có hai anh trai.",
+     "acceptedAnswers": [
+      "我有两个哥哥"
+     ],
+     "requiredKeywords": [
+      "两个",
+      "哥哥"
+     ],
+     "wordBank": [
+      "我",
+      "有",
+      "两",
+      "二",
+      "个",
+      "哥哥"
+     ],
+     "explain_vi": "Trước lượng từ 个 dùng 两, không dùng 二.",
+     "grammarRef": "g4-2",
+     "num": "V6"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Nhà bạn có mấy người?",
+     "acceptedAnswers": [
+      "你家有几口人"
+     ],
+     "requiredKeywords": [
+      "几",
+      "口"
+     ],
+     "wordBank": [
+      "你",
+      "家",
+      "有",
+      "几",
+      "口",
+      "个",
+      "人"
+     ],
+     "explain_vi": "几 + 口 + 人: đếm người trong nhà.",
+     "grammarRef": "g4-4",
+     "num": "V7"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Con trai tôi năm nay 5 tuổi.",
+     "acceptedAnswers": [
+      "我儿子今年五岁",
+      "我的儿子今年五岁",
+      "我儿子今年5岁",
+      "我的儿子今年5岁"
+     ],
+     "requiredKeywords": [
+      "儿子",
+      "今年",
+      "岁"
+     ],
+     "wordBank": [
+      "我",
+      "儿子",
+      "今年",
+      "五",
+      "岁",
+      "是"
+     ],
+     "explain_vi": "Không cần 是: 我儿子今年五岁.",
+     "num": "V8"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Cô ấy có hai mươi học sinh.",
+     "acceptedAnswers": [
+      "她有二十个学生",
+      "她有20个学生"
+     ],
+     "requiredKeywords": [
+      "有",
+      "个",
+      "学生"
+     ],
+     "wordBank": [
+      "她",
+      "有",
+      "二十",
+      "两",
+      "个",
+      "学生"
+     ],
+     "explain_vi": "Số + 个 + 学生.",
+     "grammarRef": "g4-1",
+     "num": "V9"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Tôi là người Việt Nam, còn bạn?",
+     "acceptedAnswers": [
+      "我是越南人你呢"
+     ],
+     "requiredKeywords": [
+      "呢"
+     ],
+     "wordBank": [
+      "我",
+      "是",
+      "越南人",
+      "你",
+      "呢",
+      "吗"
+     ],
+     "explain_vi": "A……，B呢？ – không thêm 吗.",
+     "grammarRef": "g4-3",
+     "num": "V10"
+    }
+   ]
+  }
+ ]
 }

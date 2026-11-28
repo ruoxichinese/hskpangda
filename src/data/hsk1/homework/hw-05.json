@@ -1,41 +1,862 @@
 {
-  "lessonId": 5,
-  "level": "hsk1",
-  "status": "draft",
-  "sections": [
+ "lessonId": 5,
+ "level": "hsk1",
+ "status": "ready",
+ "pinyin": false,
+ "audio": "audio/hsk1/wb/5-3.mp3",
+ "source_vi": "Bài tập trong sách bài tập 新HSK教程1 学练手册 (phần Nghe–đọc–luyện và Mô phỏng HSK); phần Viết do Pàngdá soạn thêm",
+ "sections": [
+  {
+   "type": "listening",
+   "part": "听读练",
+   "title_vi": "Nghe – chọn âm tiết (Nghe – đọc – luyện, bài 1)",
+   "instructions_vi": "Nghe đoạn ghi âm, chọn âm tiết bạn nghe được, rồi đọc to lại.",
+   "questions": [
     {
-      "type": "reading",
-      "part": "A1–A2",
-      "title_vi": "Đọc hiểu",
-      "passage": {
-        "zh": "",
-        "vi": ""
-      },
-      "questions": []
+     "id": "t1",
+     "num": "Â1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "gē",
+      "kē"
+     ],
+     "answer": 0,
+     "explain_vi": "g không bật hơi: gē.",
+     "audio": {
+      "start": 13.6,
+      "end": 17.2,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A3",
-      "title_vi": "Nối câu",
-      "questions": []
+     "id": "t2",
+     "num": "Â2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "jiǎng",
+      "qiǎng"
+     ],
+     "answer": 1,
+     "explain_vi": "q bật hơi: qiǎng.",
+     "audio": {
+      "start": 19.3,
+      "end": 23.2,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "reading",
-      "part": "A4",
-      "title_vi": "Chọn từ điền vào chỗ trống",
-      "questions": []
+     "id": "t3",
+     "num": "Â3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "cóng",
+      "sóng"
+     ],
+     "answer": 1,
+     "explain_vi": "s (không có âm tắc): sóng.",
+     "audio": {
+      "start": 25.4,
+      "end": 29.3,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B1",
-      "title_vi": "Sắp xếp từ thành câu",
-      "questions": []
+     "id": "t4",
+     "num": "Â4",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "nìng",
+      "lìng"
+     ],
+     "answer": 0,
+     "explain_vi": "n: nìng.",
+     "audio": {
+      "start": 31.2,
+      "end": 35.1,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
     },
     {
-      "type": "writing",
-      "part": "B2",
-      "title_vi": "Dịch sang tiếng Trung",
-      "questions": []
+     "id": "t5",
+     "num": "Â5",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "jiā",
+      "xiā"
+     ],
+     "answer": 0,
+     "explain_vi": "j: jiā.",
+     "audio": {
+      "start": 37.3,
+      "end": 41.2,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t6",
+     "num": "Â6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "zuàn",
+      "cuàn"
+     ],
+     "answer": 1,
+     "explain_vi": "c bật hơi: cuàn.",
+     "audio": {
+      "start": 43.5,
+      "end": 47.6,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t7",
+     "num": "Â7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "tōu",
+      "gōu"
+     ],
+     "answer": 0,
+     "explain_vi": "t: tōu.",
+     "audio": {
+      "start": 50.0,
+      "end": 53.9,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
+    },
+    {
+     "id": "t8",
+     "num": "Â8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn âm tiết bạn nghe được.",
+     "options": [
+      "zhí",
+      "shí"
+     ],
+     "answer": 1,
+     "explain_vi": "sh: shí.",
+     "audio": {
+      "start": 56.0,
+      "end": 59.6,
+      "src": "audio/hsk1/wb/5-2.mp3"
+     },
+     "fixed": true
     }
-  ]
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 1)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/l1-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/l1-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/l1-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "1",
+     "num": "1",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 做菜 → đang nấu ăn.",
+     "audio": {
+      "start": 41.7,
+      "end": 49.1
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 2)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/l2-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/l2-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/l2-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "2",
+     "num": "2",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 四个人 → tranh có bốn người.",
+     "audio": {
+      "start": 50.2,
+      "end": 58.6
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第一部分",
+   "title_vi": "Nghe – chọn tranh (câu 3)",
+   "instructions_vi": "Nghe cụm từ (đọc hai lần), chọn tranh đúng.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/l3-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/l3-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/l3-c.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "3",
+     "num": "3",
+     "kind": "mcq",
+     "prompt_vi": "Nghe, chọn tranh đúng.",
+     "options": [
+      "A",
+      "B",
+      "C"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 六月十二日 → lịch khoanh ngày 12.",
+     "audio": {
+      "start": 59.7,
+      "end": 68.8
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第二部分",
+   "title_vi": "Nghe câu hỏi – chọn câu trả lời (câu 4–5)",
+   "instructions_vi": "Nghe câu hỏi (đọc hai lần), chọn câu trả lời đúng.",
+   "questions": [
+    {
+     "id": "4",
+     "num": "4",
+     "kind": "mcq",
+     "options": [
+      "我不会",
+      "我吃饺子",
+      "做面条儿"
+     ],
+     "answer": 0,
+     "explain_vi": "Nghe: 你会做饭吗？ → trả lời 会 / 不会.",
+     "audio": {
+      "start": 113.8,
+      "end": 122.9
+     },
+     "fixed": true
+    },
+    {
+     "id": "5",
+     "num": "5",
+     "kind": "mcq",
+     "options": [
+      "休息",
+      "星期四",
+      "五口人"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 今天星期几？ → 星期四.",
+     "audio": {
+      "start": 137.3,
+      "end": 147.3
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第三部分",
+   "title_vi": "Nghe hội thoại – chọn tranh (câu 6–8)",
+   "instructions_vi": "Nghe hội thoại (đọc hai lần), chọn tranh phù hợp nhất. Tranh A là ví dụ.",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/l6-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/l6-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/l6-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-05/l6-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "6",
+     "num": "6",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Nghe: 你会做这个菜吗？——我不会做。 → đĩa thức ăn.",
+     "audio": {
+      "start": 213.7,
+      "end": 230.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "7",
+     "num": "7",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 今天几号？——今天六月八号。 → tờ lịch.",
+     "audio": {
+      "start": 244.1,
+      "end": 261.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "8",
+     "num": "8",
+     "kind": "mcq",
+     "prompt_vi": "Nghe hội thoại, chọn tranh phù hợp.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Nghe: 这是我的新电脑。——真好看！ → máy tính xách tay.",
+     "audio": {
+      "start": 275.2,
+      "end": 290.6
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "listening",
+   "part": "第四部分",
+   "title_vi": "Nghe câu và câu hỏi – chọn đáp án (câu 9–10)",
+   "instructions_vi": "Nghe một câu và câu hỏi (đọc hai lần), chọn đáp án đúng.",
+   "questions": [
+    {
+     "id": "9",
+     "num": "9",
+     "kind": "mcq",
+     "options": [
+      "菜",
+      "饺子",
+      "面条儿"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 我喜欢吃饺子。问：说话人喜欢吃什么？",
+     "audio": {
+      "start": 370.5,
+      "end": 391.2
+     },
+     "fixed": true
+    },
+    {
+     "id": "10",
+     "num": "10",
+     "kind": "mcq",
+     "options": [
+      "4号",
+      "10号",
+      "14号"
+     ],
+     "answer": 1,
+     "explain_vi": "Nghe: 明天十号，我休息。问：说话人几号休息？",
+     "audio": {
+      "start": 405.1,
+      "end": 428.6
+     },
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第一部分",
+   "title_vi": "Đọc – chọn tranh (câu 11–13)",
+   "instructions_vi": "Chọn tranh phù hợp với mỗi câu. Tranh A là ví dụ: 我很喜欢这本书。",
+   "images": [
+    {
+     "key": "A",
+     "img": "hw-05/r11-a.jpg"
+    },
+    {
+     "key": "B",
+     "img": "hw-05/r11-b.jpg"
+    },
+    {
+     "key": "C",
+     "img": "hw-05/r11-c.jpg"
+    },
+    {
+     "key": "D",
+     "img": "hw-05/r11-d.jpg"
+    }
+   ],
+   "questions": [
+    {
+     "id": "11",
+     "num": "11",
+     "kind": "mcq",
+     "prompt_zh": "王老师，再见。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 3,
+     "explain_vi": "Hai người giơ tay chào tạm biệt.",
+     "fixed": true
+    },
+    {
+     "id": "12",
+     "num": "12",
+     "kind": "mcq",
+     "prompt_zh": "今天我休息。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 2,
+     "explain_vi": "Người nằm thư giãn.",
+     "fixed": true
+    },
+    {
+     "id": "13",
+     "num": "13",
+     "kind": "mcq",
+     "prompt_zh": "我有一个儿子，他今年7岁。",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": 1,
+     "explain_vi": "Cậu bé đang học bài.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第二部分",
+   "title_vi": "Đọc – ghép câu (câu 14–16)",
+   "instructions_vi": "Chọn câu trả lời phù hợp (A đã dùng ở câu ví dụ 你喝水吗？).",
+   "questions": [
+    {
+     "id": "14",
+     "num": "14",
+     "kind": "mcq",
+     "prompt_zh": "你去超市买什么？",
+     "options": [
+      "好的，谢谢！",
+      "我不会。",
+      "面条儿。",
+      "5月6号。"
+     ],
+     "answer": 2,
+     "explain_vi": "Hỏi mua gì → 面条儿。",
+     "fixed": true
+    },
+    {
+     "id": "15",
+     "num": "15",
+     "kind": "mcq",
+     "prompt_zh": "你会做饭吗？",
+     "options": [
+      "好的，谢谢！",
+      "我不会。",
+      "面条儿。",
+      "5月6号。"
+     ],
+     "answer": 1,
+     "explain_vi": "会……吗？ → 我不会。",
+     "fixed": true
+    },
+    {
+     "id": "16",
+     "num": "16",
+     "kind": "mcq",
+     "prompt_zh": "今天几号？",
+     "options": [
+      "好的，谢谢！",
+      "我不会。",
+      "面条儿。",
+      "5月6号。"
+     ],
+     "answer": 3,
+     "explain_vi": "Hỏi ngày → 5月6号。",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第三部分",
+   "title_vi": "Đọc – chọn từ điền (câu 17–18)",
+   "instructions_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+   "questions": [
+    {
+     "id": "17",
+     "num": "17",
+     "kind": "mcq",
+     "prompt_zh": "今天（　）号？",
+     "options": [
+      "几",
+      "好看",
+      "名字"
+     ],
+     "answer": 0,
+     "explain_vi": "今天几号？ = hôm nay ngày mấy?",
+     "fixed": true
+    },
+    {
+     "id": "18",
+     "num": "18",
+     "kind": "mcq",
+     "prompt_zh": "男：你的新电脑真（　）！ 女：谢谢，我也很喜欢。",
+     "options": [
+      "几",
+      "好看",
+      "名字"
+     ],
+     "answer": 1,
+     "explain_vi": "真好看 = đẹp thật.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "part": "第四部分",
+   "title_vi": "Đọc – chọn đáp án (câu 19–20)",
+   "instructions_vi": "Đọc câu, rồi chọn đáp án đúng cho câu hỏi có dấu ★.",
+   "questions": [
+    {
+     "id": "19",
+     "num": "19",
+     "kind": "mcq",
+     "context_zh": "我非常喜欢我的中文名字。",
+     "prompt_zh": "★ 说话人喜欢什么？",
+     "options": [
+      "新电脑",
+      "中国菜",
+      "中文名字"
+     ],
+     "answer": 2,
+     "explain_vi": "喜欢我的中文名字.",
+     "fixed": true
+    },
+    {
+     "id": "20",
+     "num": "20",
+     "kind": "mcq",
+     "context_zh": "今天8号，你几号休息？",
+     "prompt_zh": "★ 说话人想知道什么？",
+     "options": [
+      "今天几号",
+      "哪天休息",
+      "星期几上班"
+     ],
+     "answer": 1,
+     "explain_vi": "几号休息 = nghỉ ngày nào. Bẫy: câu có 今天8号 nhưng người nói đã biết hôm nay ngày 8.",
+     "fixed": true
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B1",
+   "title_vi": "Sắp xếp từ thành câu (Pàngdá soạn thêm)",
+   "instructions_vi": "Chạm hoặc kéo các thẻ từ để xếp thành câu đúng.",
+   "questions": [
+    {
+     "id": "b1",
+     "kind": "reorder",
+     "tiles": [
+      "星期日",
+      "今天",
+      "9月8号"
+     ],
+     "answers": [
+      "今天9月8号星期日"
+     ],
+     "vi": "Hôm nay Chủ nhật, ngày 8 tháng 9.",
+     "explain_vi": "Ngày trước, thứ sau.",
+     "grammarRef": "g5-1",
+     "num": "V1"
+    },
+    {
+     "id": "b2",
+     "kind": "reorder",
+     "tiles": [
+      "会",
+      "我",
+      "做饭",
+      "不"
+     ],
+     "answers": [
+      "我不会做饭"
+     ],
+     "vi": "Tôi không biết nấu ăn.",
+     "explain_vi": "Phủ định: 不会 + động từ.",
+     "grammarRef": "g5-3",
+     "num": "V2"
+    },
+    {
+     "id": "b3",
+     "kind": "reorder",
+     "tiles": [
+      "做",
+      "你",
+      "什么",
+      "会"
+     ],
+     "answers": [
+      "你会做什么"
+     ],
+     "vi": "Bạn biết làm món gì?",
+     "explain_vi": "会 + 做 + 什么.",
+     "grammarRef": "g5-3",
+     "num": "V3"
+    },
+    {
+     "id": "b4",
+     "kind": "reorder",
+     "tiles": [
+      "新",
+      "我的",
+      "电脑",
+      "是",
+      "这"
+     ],
+     "answers": [
+      "这是我的新电脑"
+     ],
+     "vi": "Đây là máy tính mới của tôi.",
+     "explain_vi": "我的 + 新 + 电脑.",
+     "num": "V4"
+    },
+    {
+     "id": "b5",
+     "kind": "reorder",
+     "tiles": [
+      "喜欢",
+      "很",
+      "也",
+      "我",
+      "它"
+     ],
+     "answers": [
+      "我也很喜欢它"
+     ],
+     "vi": "Tôi cũng rất thích nó.",
+     "explain_vi": "Chủ ngữ + 也 + 很 + 喜欢 + 它.",
+     "num": "V5"
+    }
+   ]
+  },
+  {
+   "type": "writing",
+   "part": "B2",
+   "title_vi": "Dịch sang tiếng Trung (Pàngdá soạn thêm)",
+   "instructions_vi": "Gõ chữ Hán bằng bộ gõ của máy, hoặc dùng nút “Gõ bằng pinyin”.",
+   "questions": [
+    {
+     "id": "b6",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay thứ mấy?",
+     "acceptedAnswers": [
+      "今天星期几",
+      "今天是星期几"
+     ],
+     "requiredKeywords": [
+      "星期几"
+     ],
+     "wordBank": [
+      "今天",
+      "星期",
+      "几",
+      "号",
+      "吗"
+     ],
+     "explain_vi": "Hỏi thứ: 星期几.",
+     "grammarRef": "g5-1",
+     "num": "V6"
+    },
+    {
+     "id": "b7",
+     "kind": "translate",
+     "prompt_vi": "Hôm nay ngày 22 tháng 6.",
+     "acceptedAnswers": [
+      "今天6月22号",
+      "今天六月二十二号",
+      "今天是6月22号",
+      "今天是六月二十二号",
+      "今天6月22日",
+      "今天六月二十二日"
+     ],
+     "requiredKeywords": [
+      "月"
+     ],
+     "wordBank": [
+      "今天",
+      "六月",
+      "二十二",
+      "号",
+      "星期"
+     ],
+     "explain_vi": "Tháng trước, ngày sau: 6月22号.",
+     "grammarRef": "g5-1",
+     "num": "V7"
+    },
+    {
+     "id": "b8",
+     "kind": "translate",
+     "prompt_vi": "Tôi biết làm sủi cảo.",
+     "acceptedAnswers": [
+      "我会做饺子"
+     ],
+     "requiredKeywords": [
+      "会",
+      "饺子"
+     ],
+     "wordBank": [
+      "我",
+      "会",
+      "做",
+      "饺子",
+      "是"
+     ],
+     "explain_vi": "会 + 做 + 饺子.",
+     "grammarRef": "g5-3",
+     "num": "V8"
+    },
+    {
+     "id": "b9",
+     "kind": "translate",
+     "prompt_vi": "Chủ nhật tôi nghỉ.",
+     "acceptedAnswers": [
+      "星期日我休息",
+      "星期天我休息",
+      "我星期日休息",
+      "我星期天休息"
+     ],
+     "requiredKeywords": [
+      "休息"
+     ],
+     "wordBank": [
+      "星期天",
+      "我",
+      "休息",
+      "是"
+     ],
+     "explain_vi": "星期日 = 星期天; không cần 是.",
+     "grammarRef": "g5-2",
+     "num": "V9"
+    },
+    {
+     "id": "b10",
+     "kind": "translate",
+     "prompt_vi": "Máy tính của bạn đẹp thật!",
+     "acceptedAnswers": [
+      "你的电脑真好看",
+      "你电脑真好看"
+     ],
+     "requiredKeywords": [
+      "真",
+      "好看"
+     ],
+     "wordBank": [
+      "你的",
+      "电脑",
+      "真",
+      "好看",
+      "是"
+     ],
+     "explain_vi": "真 + tính từ, không thêm 是.",
+     "num": "V10"
+    }
+   ]
+  }
+ ]
 }
