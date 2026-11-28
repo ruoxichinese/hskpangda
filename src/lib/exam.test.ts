@@ -13,8 +13,8 @@ describe('Đề thi thử', () => {
       const qs = e.sections.flatMap((s) => s.parts.flatMap((p) => p.questions.map((q) => ({ q, p, s }))));
       expect(new Set(qs.map((x) => x.q.id)).size).toBe(qs.length);
       const count = (id: string) => qs.filter((x) => x.s.id === id).length;
-      // HSK 3 có hai dạng đề: bản mới 70 câu (30/30/10) và bản 2.0 H3100x 80 câu (40/30/10)
-      const expected: Record<string, string[]> = { hsk2: ['25,25,10'], hsk3: ['30,30,10', '40,30,10'] };
+      // HSK 1: 20 nghe + 20 đọc, không có phần viết. HSK 3 có hai dạng đề: bản mới 70 câu (30/30/10) và bản 2.0 H3100x 80 câu (40/30/10)
+      const expected: Record<string, string[]> = { hsk1: ['20,20,0'], hsk2: ['25,25,10'], hsk3: ['30,30,10', '40,30,10'] };
       expect(expected[e.level] ?? ['25,25,10']).toContain([count('listening'), count('reading'), count('writing')].join(','));
       for (const { q, p } of qs) {
         if (q.kind === 'pic3' || q.kind === 'text3') expect(['A', 'B', 'C']).toContain(q.answer);

@@ -6,7 +6,11 @@ import { loadAllLevels } from './data';
 // dữ liệu được tải theo nhu cầu → tải hết trước khi kiểm thử
 await loadAllLevels();
 
-const hw = getHomework('hsk1', 2)!;
+// dữ liệu mẫu cố định (bản BTVN tự soạn cũ của HSK 1 bài 2) – không phụ thuộc nội dung BTVN đang dùng
+import sample from './__fixtures__/homework-sample.json';
+import type { Homework } from '../types';
+const hw = sample as unknown as Homework;
+void getHomework;
 const qs = flatten(hw);
 const byId = (id: string) => qs.find((x) => x.q.id === id)!.q;
 
