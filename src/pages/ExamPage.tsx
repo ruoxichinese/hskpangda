@@ -405,15 +405,17 @@ function ExamRoom() {
     a.play().then(() => setNeedsResume(false)).catch(() => setNeedsResume(true));
   };
 
+  // đề không có phần Viết (HSK 1) → nộp bài ngay sau phần Đọc
+  const hasWriting = !!exam?.sections.some((x) => x.id === 'writing' && x.parts.some((p) => p.questions.length > 0));
   // hết giờ → tự chuyển phần
   const limit = stage === 'review' ? exam?.listeningReviewSeconds : stage === 'reading' || stage === 'writing' ? exam?.sections.find((s) => s.id === stage)?.seconds : undefined;
   const remaining = limit && session ? limit - (now - session.stageStartedAt) / 1000 : null;
   useEffect(() => {
     if (remaining === null || remaining > 0 || !stage) return;
     if (stage === 'review') setStage('reading');
-    else if (stage === 'reading') setStage('writing');
+    else if (stage === 'reading') { if (hasWriting) setStage('writing'); else finish(); }
     else if (stage === 'writing') finish();
-  }, [remaining, stage, setStage, finish]);
+  }, [remaining, stage, setStage, finish, hasWriting]);
 
   // rời trang khi đang thi → cảnh báo
   useEffect(() => {
@@ -572,7 +574,7 @@ function ExamRoom() {
           <ul className="list-disc space-y-1 pl-5 text-sm">
             <li><b>Phần Nghe chỉ phát một lần</b>, không dừng, không tua, không nghe lại. Câu hỏi tự chuyển theo tiếng đọc.{tts && ' Đề này dùng giọng đọc của trình duyệt, nên dùng Chrome hoặc Edge.'}</li>
             <li>Lỡ tải lại trang thì âm thanh <b>phát tiếp từ thời điểm hiện tại</b>, đoạn đã qua không phát lại.</li>
-            <li>Đọc và Viết có đồng hồ đếm ngược. Hết giờ, bài tự chuyển phần. Đã sang phần sau thì không quay lại được.</li>
+            <li>{hasWriting ? 'Đọc và Viết có' : 'Phần Đọc có'} đồng hồ đếm ngược. Hết giờ, bài tự chuyển phần{hasWriting ? '' : ' (hết phần Đọc là nộp bài)'}. Đã sang phần sau thì không quay lại được.</li>
             <li>Bài thi không có pinyin, không có bản dịch. Nộp bài xong mới có điểm.</li>
             <li>Đạt khi được từ {exam.passPercent}% tổng điểm ({(exam.sections.length * 100 * exam.passPercent) / 100}/{exam.sections.length * 100}).</li>
           </ul>
@@ -640,11 +642,11 @@ function ExamRoom() {
   const setAnswer = (id: string, v: string) => save((s) => ({ ...s, answers: { ...s.answers, [id]: v } }));
   const toggleFlag = (id: string) => save((s) => ({ ...s, flags: s.flags.includes(id) ? s.flags.filter((x) => x !== id) : [...s.flags, id] }));
   const go = (local: number) => { const it = secItems[local]; if (it) setIdx(items.indexOf(it)); };
-  const nextLabel = stage === 'review' ? 'Sang phần Đọc' : stage === 'reading' ? 'Nộp phần Đọc, sang phần Viết' : 'Nộp bài';
+  const nextLabel = stage === 'review' ? 'Sang phần Đọc' : stage === 'reading' && hasWriting ? 'Nộp phần Đọc, sang phần Viết' : 'Nộp bài';
   const onNextStage = () => {
     if (!confirmNext) { setConfirmNext(true); return; }
     if (stage === 'review') setStage('reading');
-    else if (stage === 'reading') setStage('writing');
+    else if (stage === 'reading' && hasWriting) setStage('writing');
     else finish();
   };
 
